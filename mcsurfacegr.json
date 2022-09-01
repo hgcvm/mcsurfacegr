@@ -50,43 +50,43 @@
                         "key": "surface"
                     },
                     "mappings": [
-                            {
-                                "if": {
-                                    "and": [
-                                        "surface="
-                                    ]
-                                },
-                                "then": {
-                                    "nl": "De ondergrond van dit segment is niet gekend."
-                                },
-                                "hideInAnswer": true
+                        {
+                            "if": {
+                                "and": [
+                                    "surface="
+                                ]
                             },
-                            {
-                                "if": {
-                                    "and": [
-                                        "surface=asphalt"
-                                    ]
-                                },
-                                "then": {
-                                    "nl": "Asphalt ondergrond."
-                                }
+                            "then": {
+                                "nl": "De ondergrond van dit segment is niet gekend."
                             },
-                            {
-                                "if": {
-                                    "and": [
-                                        "surface=dirt"
-                                    ]
-                                },
-                                "then": {
-                                    "nl": "Dirt ondergrond."
-                                }
+                            "hideInAnswer": true
+                        },
+                        {
+                            "if": {
+                                "and": [
+                                    "surface=asphalt"
+                                ]
                             },
-                        ]
+                            "then": {
+                                "nl": "Asphalt ondergrond."
+                            }
+                        },
+                        {
+                            "if": {
+                                "and": [
+                                    "surface=dirt"
+                                ]
+                            },
+                            "then": {
+                                "nl": "Dirt ondergrond."
+                            }
+                        },
+                    ]
                 }
             ],
             "presets": [],
             "color": {
-            "render": "#0FF"
+                "render": "#0FF"
             }
         }
     ],
