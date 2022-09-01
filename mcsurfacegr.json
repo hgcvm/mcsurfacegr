@@ -39,56 +39,28 @@
             "iconSize": "32, 60, center",
             "tagRenderings": [
                 {
-                    "id": "pad-surfave",
-                    "question": {
-                        "nl": "Wat is de ondergrond van dit segment?"
-                    },
                     "render": {
                         "nl": "Dit segment heeft {surface} als ondergrond"
                     },
-                    "freeform": {
-                        "key": "surface"
+                    "question": {
+                        "nl": "Wat is de ondergrond van dit segment?"
                     },
-                    "mappings": [
-                        {
-                            "if": {
-                                "and": [
-                                    "surface="
-                                ]
-                            },
-                            "then": {
-                                "nl": "De ondergrond van dit segment is niet gekend."
-                            },
-                            "hideInAnswer": true
-                        },
-                        {
-                            "if": {
-                                "and": [
-                                    "surface=asphalt"
-                                ]
-                            },
-                            "then": {
-                                "nl": "Asphalt ondergrond."
-                            }
-                        },
-                        {
-                            "if": {
-                                "and": [
-                                    "surface=dirt"
-                                ]
-                            },
-                            "then": {
-                                "nl": "Dirt ondergrond."
-                            }
-                        },
-                    ]
+                    "freeform": {
+                        "key": "surface",
+                        "type": "string"
+                    }
                 }
             ],
             "presets": [],
+            "overpassTags": {
+                "and": [
+                    "surface="
+                ]
+            },
             "color": {
-                "render": "#0FF"
+            "render": "#0FF"
             }
         }
-    ],
+    ]
     "defaultBackgroundId": "osm"
 }
