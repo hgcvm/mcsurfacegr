@@ -39,16 +39,50 @@
             "iconSize": "32, 60, center",
             "tagRenderings": [
                 {
-                    "render": {
-                        "nl": "Dit segment heeft {surface} als ondergrond"
-                    },
+                    "id": "pad-surfave",
                     "question": {
                         "nl": "Wat is de ondergrond van dit segment?"
                     },
+                    "render": {
+                        "nl": "Dit segment heeft {surface} als ondergrond"
+                    },
                     "freeform": {
                         "key": "surface",
-                        "type": "string"
-                    }
+                    },
+                    
+                          "mappings": [
+                            {
+                                "if": {
+                                    "and": [
+                                        "surface="
+                                    ]
+                                },
+                                "then": {
+                                    "nl": "De ondergrond van dit segment is niet gekend.",
+                                },
+                                "hideInAnswer": true
+                            },
+                            {
+                                "if": {
+                                    "and": [
+                                        "surface=asphalt"
+                                    ]
+                                },
+                                "then": {
+                                    "nl": "Asphalt ondergrond.",
+                                }
+                            },
+                            {
+                                "if": {
+                                    "and": [
+                                        "surface=dirt"
+                                    ]
+                                },
+                                "then": {
+                                    "nl": "Dirt ondergrond.",
+                                }
+                            },
+                        ]
                 }
             ],
             "presets": [],
