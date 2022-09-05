@@ -1,97 +1,148 @@
 {
     "id": "surfaceGR",
     "title": {
-        "nl": "Ondergrond GR paden"
-    },
-    "maintainer": "s8evq",
+        "nl":   "Ondergrond GR paden"
+        },
     "icon": "https://www.groteroutepaden.be/style/theme/images/favicons/main/android-icon-192x192.png",
-    "description": {
-        "nl": "MapComplete thema om snel en eenvoudig de ondergrond van GR paden aan OSM toe te voegen."
-    },
+    "description": "MapComplete thema om snel en eenvoudig de ondergrond van GR paden aan OSM toe te voegen.",
     "language": [
         "nl"
     ],
-    "version": "v1",
-    "startLat": 51.33884,
-    "startLon": 3.14154,
     "startZoom": 10,
+    "startLat": 51.0306,
+    "startLon": 3.9510,
+    "widenFactor": 3,
+    "defaultBackgroundId": "osm",
+    "enableShareScreen": "false",
+    "enableMoreQuests": "false",
+    "enableLayers": "false",
+    "enableSearch": "false",
+    "enableAddNewPoints": "false",
     "clustering": {
-    "maxZoom": 8
-  },
+        "maxZoom": 15
+    },
     "layers": [
         {
             "id": "paden",
-            "name": {
-                "nl": "GR paden"
-            },
+            "name": "ontbrekende surface tags",
             "source": {
-                "osmTags": "highway~*",
+                "osmTags": {
+                    "or": [
+                        "surface~*",
+                        "surface="
+                        ]
+                    },
                 "geoJson": "https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/export.geojson",
-                "geoJsonZoomLevel": 18,
+                "isOsmCache": "true",
                 "maxCacheAge": 0
             },
-            "minzoom": 10,
+            "title": "Ondergrond van dit segment",
             "wayHandling": 0,
-            "title": {
-                "render": {
-                    "nl": "Pad met onbekende ondergrond"
-                },
-            "mappings": []
-            },
-            "icon": "https://upload.wikimedia.org/wikipedia/commons/3/39/Lighthouse_icon_red.svg",
-            "iconSize": "32, 60, center",
+            "mapRendering": [
+                {
+                    "width": {
+                        "render": "2",
+                        "mappings": [
+                            {
+                                "if": {
+                                    "or": [
+                                        "surface=",
+                                        "surface=paved",
+                                        "surface=unpaved"
+                                    ]
+                                },
+                                "then": "10"
+                            }
+                        ]
+                    },
+                    "color": {
+                        "render": "#0000CC",
+                        "mappings": [
+                            { 
+                                "if": {
+                                    "or": [
+                                        "surface=",
+                                        "surface=paved",
+                                        "surface=unpaved"
+                                    ]
+                                },
+                                "then": "#AA0000"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "mappings": [],
             "tagRenderings": [
                 {
-                    "id": "pad-surfave",
-                    "question": {
-                        "nl": "Wat is de ondergrond van dit segment?"
-                    },
-                    "render": {
-                        "nl": "Dit segment heeft {surface} als ondergrond"
-                    },
+                    "render": "Dit segment heeft {surface} als ondergrond",                
+                    "question": "Wat is de ondergrond van dit segment?",
                     "freeform": {
                         "key": "surface"
                     },
                     "mappings": [
                         {
                             "if": {
-                                "and": [
-                                    "surface="
+                                "or": [
+                                    "surface=",
+                                    "surface=paved",
+                                    "surface=unpaved"
                                 ]
                             },
-                            "then": {
-                                "nl": "De ondergrond van dit segment is niet gekend."
-                            },
+                            "then": "De ondergrond van dit segment is niet gekend.",
                             "hideInAnswer": true
                         },
                         {
-                            "if": {
-                                "and": [
-                                    "surface=asphalt"
-                                ]
-                            },
-                            "then": {
-                                "nl": "Asphalt ondergrond."
-                            }
+                            "if": "surface=asphalt",
+                            "then": "Asfalt"
                         },
                         {
-                            "if": {
-                                "and": [
-                                    "surface=dirt"
-                                ]
-                            },
-                            "then": {
-                                "nl": "Dirt ondergrond."
-                            }
+                            "if": "surface=concrete",
+                            "then": "Beton"
+                        },
+                        {
+                            "if": "surface=grass",
+                            "then": "Gras"
+                        },
+                        {
+                            "if": "surface=dirt",
+                            "then": "Grond en aarde"
+                        },
+                        {
+                            "if": "surface=gravel",
+                            "then": "Gravel"
+                        },
+                        {
+                            "if": "surface=compacted",
+                            "then": "Halfverhard"
+                        },
+                        {
+                            "if": "surface=wood",
+                            "then": "Hout"
+                        },
+                        {
+                            "if": "surface=woodchips",
+                            "then": "Houtsnippers"
+                        },
+                        {
+                            "if": "surface=sett",
+                            "then": "Kasseien"
+                        },
+                        {
+                            "if": "surface=pebblestone",
+                            "then": "Kiezelstenen"
+                        },
+                        {
+                            "if": "surface=paving_stones",
+                            "then": "Klinkers"
+                        },
+                        {
+                            "if": "surface=sand",
+                            "then": "Zand"
                         }
                     ]
                 }
-            ],
-            "presets": [],
-            "color": {
-                "render": "#0FF"
-            }
+            ]
         }
-    ],
-    "defaultBackgroundId": "osm"
+    ]
 }
