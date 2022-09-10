@@ -26,14 +26,8 @@
             "id": "paden",
             "name": "ontbrekende surface tags",
             "source": {
-                "osmTags": {
-                    "or": [
-                        "surface~*",
-                        "surface="
-                        ]
-                    },
-                "geoJson": "https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/export.geojson",
-                "isOsmCache": "true",
+                "osmTags": "highway~*",
+                "overpassScript": "rel(3121667) -> .relation;way(r.relation)",
                 "maxCacheAge": 0
             },
             "title": "Ondergrond van dit segment",
@@ -75,8 +69,9 @@
             "mappings": [],
             "tagRenderings": [
                 {
-                    "render": "Dit segment heeft {surface} als ondergrond",                
+                    "id": "way-surface",
                     "question": "Wat is de ondergrond van dit segment?",
+                    "render": "Dit segment heeft {surface} als ondergrond",                
                     "freeform": {
                         "key": "surface"
                     },
@@ -93,7 +88,11 @@
                             "hideInAnswer": true
                         },
                         {
-                            "if": "surface=asphalt",
+                            "if": {
+                                "and": [ 
+                                    "surface=asphalt"
+                                ]
+                            },
                             "then": "Asfalt"
                         },
                         {
