@@ -26,10 +26,11 @@
             "id": "paden",
             "name": "ontbrekende surface tags",
             "source": {
-                "osmTags": "highway~*",
-                "overpassScript": "rel(3121667) -> .relation;way(r.relation)",
-                "maxCacheAge": 0
-            },
+                "osmTags": "highway~*",   
+                "geoJson": "https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/export.geojson",
+                "geoJsonZoomLevel": 12,
+                "isOsmCache": true
+               },
             "title": "Ondergrond van dit segment",
             "wayHandling": 0,
             "mapRendering": [
