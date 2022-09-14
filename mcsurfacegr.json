@@ -32,11 +32,12 @@
                 "isOsmCache": true
                },
             "title": "Ondergrond van dit segment",
+            "allowSplit": 1,
             "wayHandling": 0,
             "mapRendering": [
                 {
                     "width": {
-                        "render": "2",
+                        "render": "5",
                         "mappings": [
                             {
                                 "if": {
@@ -46,12 +47,12 @@
                                         "surface=unpaved"
                                     ]
                                 },
-                                "then": "10"
+                                "then": "13"
                             }
                         ]
                     },
                     "color": {
-                        "render": "#0000CC",
+                        "render": "#fffb00",
                         "mappings": [
                             { 
                                 "if": {
@@ -61,18 +62,71 @@
                                         "surface=unpaved"
                                     ]
                                 },
-                                "then": "#AA0000"
-                            }
-                        ]
+                                "then": "#ff2d00"
+                            },
+                            { 
+                                "if": {
+                                    "or": [
+                                        "surface=pebblestone",
+                                        "surface=ground",
+                                        "surface=dirt",
+                                        "surface=earth",
+                                        "surface=grass",
+                                        "surface=mud",
+                                        "surface=sand"
+                                    ]
+                                },
+                                "then": "#0000ff"
+                            },
+                            { 
+                                "if": {
+                                    "or": [
+                                        "surface=compacted",
+                                        "surface=grass_paver",
+                                        "surface=shells",
+                                        "surface=wood",
+                                        "surface=woodchips",
+                                        "surface=stepping_stones",
+                                        "surface=fine_gravel",
+                                        "surface=gravel",                                        
+                                        "surface=rock"
+                                    ]
+                                },
+                                "then": "#0083e2"
+                            },                            
+                            { 
+                                "if": {
+                                    "or": [
+                                        "surface=asphalt",
+                                        "surface=concrete",
+                                        "surface=concrete:lanes",
+                                        "surface=concrete:plates",
+                                        "surface=sett",
+                                        "surface=paving_stones",
+                                        "surface=chipseal",
+                                        "surface=unhewn_cobblestone",                                        
+                                        "surface=cobblestone",                                                                                
+                                        "surface=metal"                                                                             
+                                    ]
+                                },
+                                "then": "#4eb2fb"
+                            } 
+                      ]
+                        
                     }
                 }
             ],
             "mappings": [],
             "tagRenderings": [
                 {
+                    "render": "<p><span style=\"color: #0000ff;\">&#9608;&#9608;&#9608;</span> Onverhard&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: #0083e2;\">&#9608;&#9608;&#9608;</span> Halfverharde&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: #8ecdfa;\">&#9608;&#9608;&#9608;</span> Verhard</p><p><span style=\"color: #ff2d00;\">&#9608;&#9608;&#9608;</span> <b>Onbekende ondergrond</b></p>"
+                },
+                {
                     "id": "way-surface",
                     "question": "Wat is de ondergrond van dit segment?",
-                    "render": "Dit segment heeft {surface} als ondergrond",                
+                    "render": {
+                        "nl": "Dit is een uitzondering (BUG) {surface}"
+                        },
                     "freeform": {
                         "key": "surface"
                     },
@@ -90,15 +144,76 @@
                         },
                         {
                             "if": {
-                                "and": [ 
-                                    "surface=asphalt"
-                                ]
+                                "or": [
+                                    "surface=ground",
+                                    "surface=concrete:plates",
+                                    "surface=concrete:lanes",
+                                    "surface=chipseal",
+                                    "surface=unhewn_cobblestone",
+                                    "surface=cobblestone",
+                                    "surface=metal",                                    
+                                    "surface=stepping_stones",
+                                    "surface=fine_gravel",
+                                    "surface=gravel",
+                                    "surface=rock",
+                                    "surface=pebblestone",
+                                    "surface=ground",
+                                    "surface=earth",
+                                    "surface=mud",
+                                    "surface=snow",
+                                    "surface=ice",
+                                    "surface=salt",
+                                    "surface=clay",
+                                    "surface=tartan",
+                                    "surface=artificial_turf",
+                                    "surface=acrylic",
+                                    "surface=metal_grid",                                    
+                                    "surface=carpet"
+                                    ]
                             },
-                            "then": "Asfalt"
+                            "then": "De ondergrond van dit segment is reeds gekend als <i>{surface}</i>.",
+                            "hideInAnswer": true
+                        },                        
+                        
+                        {
+                            "if": "surface=woodchips",
+                            "then": "Houtsnippers/boomschors"
+                        },
+                        {
+                            "if": "surface=wood",
+                            "then": "Houten beplanking (vlonderpaden)"
+                        },
+                        {
+                            "if": "surface=shells",
+                            "then": "Schelpen"
+                        },
+                        {
+                            "if": "surface=grass_paver",
+                            "then": "Grastegels (kunststof of beton)"
+                        },
+                        {
+                            "if": "surface=compacted",
+                            "then": "Grind of steenslag"
+                        },                        
+                        {
+                            "if": "surface=paving_stones",
+                            "then": "Straatstenen"
+                        },
+                        {
+                            "if": "surface=sett",
+                            "then": "Kasseien"
                         },
                         {
                             "if": "surface=concrete",
                             "then": "Beton"
+                        },
+                        {
+                            "if": "surface=asphalt",
+                            "then": "Asfalt"
+                        },
+                        {
+                            "if": "surface=sand",
+                            "then": "Zand"
                         },
                         {
                             "if": "surface=grass",
@@ -107,38 +222,6 @@
                         {
                             "if": "surface=dirt",
                             "then": "Grond en aarde"
-                        },
-                        {
-                            "if": "surface=gravel",
-                            "then": "Gravel"
-                        },
-                        {
-                            "if": "surface=compacted",
-                            "then": "Halfverhard"
-                        },
-                        {
-                            "if": "surface=wood",
-                            "then": "Hout"
-                        },
-                        {
-                            "if": "surface=woodchips",
-                            "then": "Houtsnippers"
-                        },
-                        {
-                            "if": "surface=sett",
-                            "then": "Kasseien"
-                        },
-                        {
-                            "if": "surface=pebblestone",
-                            "then": "Kiezelstenen"
-                        },
-                        {
-                            "if": "surface=paving_stones",
-                            "then": "Klinkers"
-                        },
-                        {
-                            "if": "surface=sand",
-                            "then": "Zand"
                         }
                     ]
                 }
