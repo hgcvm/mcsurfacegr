@@ -9,7 +9,7 @@ wget -qO data/r$REL.osm "https://overpass-api.de/api/interpreter?data=rel($REL);
 osmtogeojson data/r$REL.osm > data/r$REL.geojson
 rm data/r$REL.osm
 cp mcsurfacegr.json data/r$REL.json
-sed -i 's_githubusercontent.com/hgcvm/mcsurfacegr/main/export.geojson_githubusercontent.com/hgcvm/mcsurfacegr/main/data/r$REL.geojson_' data/r$REL.json
+sed -i "s_githubusercontent.com/hgcvm/mcsurfacegr/main/export.geojson_githubusercontent.com/hgcvm/mcsurfacegr/main/data/r$REL.geojson_" data/r$REL.json
 echo $REL
 done <relations
 echo done
