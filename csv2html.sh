@@ -1,13 +1,18 @@
 #!/bin/bash
 # Source: https://gist.github.com/jschaub30/c67cf9e214d83accd4db
 
-[[ $# -ne 1 ]] && echo Usage: $0 [CSV_FN] && exit -1
+CSV_FN="GR_GPX_RelationID.csv"
 
-CSV_FN=$1
+cut -d, -f2 --complement $CSV_FN > tmp.csv
+sed -i '/OSM relation ID/d' tmp.csv
+sed -i '/not mapped yet/d' tmp.csv
+gawk -i inplace -F, '{print "<a href=\"https://mapcomplete.osm.be?userlayout=https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/data/r"$2".json\">"$1"</a>,"$2}' tmp.csv 
 
 echo "<table>"
-head -n 1 $CSV_FN | \
+head -n 1 tmp.csv | \
     sed -e 's/^/<tr><th>/' -e 's/,/<\/th><th>/g' -e 's/$/<\/th><\/tr>/'
-tail -n +2 $CSV_FN | \
+tail -n +2 tmp.csv | \
     sed -e 's/^/<tr><td>/' -e 's/,/<\/td><td>/g' -e 's/$/<\/td><\/tr>/'
 echo "</table>"
+
+rm tmp.csv
