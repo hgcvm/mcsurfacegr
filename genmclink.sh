@@ -1,4 +1,4 @@
-jsonfile="./mcsurfacegr.json"
+jsonfile="./data/r107242.json"
 linkname="https://mapcomplete.osm.be?userlayout=true#"
 based=`base64 -w0 $jsonfile`
 echo "https://mapcomplete.osm.be?userlayout=true#$based"
