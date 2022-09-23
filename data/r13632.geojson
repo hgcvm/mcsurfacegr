@@ -1468,7 +1468,6 @@
   "type": "Feature",
   "id": "way/8511777",
   "properties": {
-    "description:covid19": "Brussels city centre temporarily as a living street - test extended to September 2020",
     "highway": "living_street",
     "lit": "yes",
     "maxspeed": "20",
@@ -1478,7 +1477,6 @@
     "name:nl": "Bergstraat",
     "oneway": "yes",
     "oneway:bicycle": "no",
-    "proposed:highway": "residential",
     "source:maxspeed": "BE:living_street",
     "surface": "sett",
     "id": "way/8511777"
@@ -2004,7 +2002,6 @@
   "type": "Feature",
   "id": "way/13644414",
   "properties": {
-    "description:covid19": "Brussels city centre temporarily as a living street - test extended to September 2020",
     "highway": "living_street",
     "incline": "up",
     "lit": "yes",
@@ -2014,7 +2011,6 @@
     "name:nl": "Onze-Lieve-Vrouw van Gratiestraat",
     "oneway": "yes",
     "oneway:bicycle": "yes",
-    "proposed:highway": "residential",
     "source:maxspeed": "BE:living_street",
     "surface": "sett",
     "id": "way/13644414"
@@ -6629,6 +6625,7 @@
   "type": "Feature",
   "id": "way/23740038",
   "properties": {
+    "cyclestreet": "yes",
     "highway": "unclassified",
     "name": "Heyaardstraat",
     "id": "way/23740038"
@@ -11588,6 +11585,7 @@
   "properties": {
     "highway": "track",
     "name": "Heyaardstraat",
+    "tracktype": "grade2",
     "id": "way/25918441"
   },
   "geometry": {
@@ -11644,7 +11642,7 @@
   "properties": {
     "highway": "track",
     "surface": "ground",
-    "tracktype": "grade4",
+    "tracktype": "grade3",
     "id": "way/25918500"
   },
   "geometry": {
@@ -16062,6 +16060,7 @@
   "properties": {
     "highway": "unclassified",
     "name": "Maas en Moor",
+    "surface": "concrete",
     "id": "way/29328344"
   },
   "geometry": {
@@ -21070,14 +21069,12 @@
   "type": "Feature",
   "id": "way/30215401",
   "properties": {
-    "description:covid19": "Brussels city centre temporarily as a living street - test extended to September 2020",
     "highway": "living_street",
     "lit": "yes",
     "maxspeed": "20",
     "name": "Rue des Minimes - Minimenstraat",
     "name:fr": "Rue des Minimes",
     "name:nl": "Minimenstraat",
-    "proposed:highway": "residential",
     "source:maxspeed": "BE:living_street",
     "surface": "sett",
     "id": "way/30215401"
@@ -52265,8 +52262,6 @@
     "alt_name": "Rue Mafalda - Mafaldastraat",
     "alt_name:fr": "Rue Mafalda",
     "alt_name:nl": "Mafaldastraat",
-    "bicycle": "yes",
-    "description:covid19": "Brussels city centre temporarily as a living street - test extended to September 2020",
     "highway": "living_street",
     "lit": "yes",
     "maxspeed": "20",
@@ -52274,7 +52269,6 @@
     "name:fr": "Rue de l'Étuve",
     "name:nl": "Stoofstraat",
     "oneway": "no",
-    "proposed:highway": "residential",
     "source:maxspeed": "BE:living_street",
     "surface": "sett",
     "id": "way/137620384"
