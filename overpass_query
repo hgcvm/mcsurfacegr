@@ -2,3 +2,15 @@
 rel(3121667);
 way(r)["highway"];
 out geom;
+
+Count ways with surface tag
+[out:csv(::id,::"count:ways")][timeout:25];
+rel(3121667);
+way(r)["highway"]["surface"];
+out count;
+
+Count total ways:
+[out:csv(::id,::"count:ways")][timeout:25];
+rel(3121667);
+way(r)["highway"];
+out count;
