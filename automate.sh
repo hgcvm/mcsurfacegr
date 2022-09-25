@@ -27,7 +27,7 @@ while read REL; do
 	echo "$REL - ($COUNTER/$TOTALRELATIONS)"
 
 	# Sleep, rate limit queries overpass server
-#	sleep 3
+	# sleep 3
 
 	#use a list of relations to loop over
 done < <(awk -F , '{print $3 }' $CSV_FN | uniq | sort -g | sed '/OSM relation ID/d' | sed '/not mapped yet/d')
