@@ -1,16 +1,42 @@
 #!/bin/bash
-awk -F , '{print $3}' GR_GPX_RelationID.csv > relations
-#sort -g relations -o relations
-sed -i '/OSM relation ID/d' relations
-sed -i '/not mapped yet/d' relations
+CSV_FN="GR_GPX_RelationID.csv"
+COUNTER=0
+TOTALRELATIONS=`awk -F , '{print $3 }' $CSV_FN | uniq | sed '/OSM relation ID/d' | sed '/not mapped yet/d' | wc -l`
 
 while read REL; do 
-wget -qO data/r$REL.osm "https://overpass-api.de/api/interpreter?data=rel($REL);way(r)[\"highway\"];out geom;"
-osmtogeojson data/r$REL.osm > data/r$REL.geojson
-rm data/r$REL.osm
-cp mcsurfacegr.json data/r$REL.json
-sed -i "s_githubusercontent.com/hgcvm/mcsurfacegr/main/export.geojson_githubusercontent.com/hgcvm/mcsurfacegr/main/data/r$REL.geojson_" data/r$REL.json
-echo $REL
-done <relations
-echo done
 
+	# Get osm file from overpass for each relation, and convert to geojson
+	wget -qO data/r$REL.osm "https://overpass-api.de/api/interpreter?data=rel($REL);way(r)[\"highway\"];out geom;"
+	osmtogeojson data/r$REL.osm > data/r$REL.geojson
+
+	# Take a copy of the skeleton file mcsurfacegr.json, rename it to unique relationid.json and change everything inside to point to the relation
+	cp mcsurfacegr.json data/r$REL.json
+	sed -i "s_githubusercontent.com/hgcvm/mcsurfacegr/main/test-export.geojson_githubusercontent.com/hgcvm/mcsurfacegr/main/data/r$REL.geojson_" data/r$REL.json
+
+	# Calculate the percentage of completion: "ways with surface tags" / "all ways". Store this in a variable
+	HASSURFACE=`curl -s https://overpass-api.de/api/interpreter?data=%5Bout%3Acsv%28%3A%3A%22count%3Aways%22%3Bfalse%29%5D%5Btimeout%3A25%5D%3B%0Arel%28$REL%29%3B%0Away%28r%29%5B%22highway%22%5D%5B%22surface%22%5D%3B%0Aout%20count%3B%0A`
+	TOTALWAYS=`curl -s https://overpass-api.de/api/interpreter?data=%5Bout%3Acsv%28%3A%3A%22count%3Aways%22%3Bfalse%29%5D%5Btimeout%3A25%5D%3B%0Arel%28$REL%29%3B%0Away%28r%29%5B%22highway%22%5D%3B%0Aout%20count%3B%0A`
+	PERCENTAGE=`printf %.2f%% "$((10**3 * 100 * $HASSURFACE/$TOTALWAYS))e-3"`
+
+	#Create a new CSV file, with 1 human readable route name, 2 OSM relation ID, 3 percentage completed (later used to generate HTML)
+	grep $REL $CSV_FN | awk -F , -v percentage=$PERCENTAGE -v rel=$REL '{print $1";"rel";"percentage}' >> tmp.csv
+
+	# Show some output
+	let COUNTER=COUNTER+1 
+	echo "$REL - ($COUNTER/$TOTALRELATIONS)"
+
+	# Sleep, rate limit queries overpass server
+	sleep 2
+
+	#use a list of relations to loop over
+done < <(awk -F , '{print $3 }' $CSV_FN | uniq | sort -g | sed '/OSM relation ID/d' | sed '/not mapped yet/d')
+
+#generate new HTML file
+echo "<!DOCTYPE html> <html lang="nl"> <head> <title> Grote Routepaden Mapcomplete themes</title> <style> td {border-left:1px solid black; border-top:1px solid black;} table {border-right:1px solid black; border-bottom:1px solid black;} </style> </head> <body> <table>" > html/overview.html
+sort tmp.csv | awk -F ";" '{print "<tr><td>"$2"</td><td>"$3"</td><td><a href=\"https://mapcomplete.osm.be?userlayout=https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/data/r"$2".json\">"$1"</a></td></tr>"}' >> html/overview.html
+echo "</table></body></html>" >> html/overview.html
+
+# cleanup
+rm data/r*.osm
+rm tmp.csv
+echo done

@@ -1,0 +1,19 @@
+[out:json][timeout:25];
+rel(3121667);
+way(r)["highway"];
+out geom;
+
+Count ways with surface tag
+[out:csv(::"count:ways";false)][timeout:25];
+rel(3121667);
+way(r)["highway"]["surface"];
+out count;
+https://overpass-api.de/api/interpreter?data=%5Bout%3Acsv%28%3A%3A%22count%3Aways%22%3Bfalse%29%5D%5Btimeout%3A25%5D%3B%0Arel%283121667%29%3B%0Away%28r%29%5B%22highway%22%5D%5B%22surface%22%5D%3B%0Aout%20count%3B%0A
+
+
+Count total ways:
+[out:csv(::"count:ways";false)][timeout:25];
+rel(3121667);
+way(r)["highway"];
+out count;
+https://overpass-api.de/api/interpreter?data=%5Bout%3Acsv%28%3A%3A%22count%3Aways%22%3Bfalse%29%5D%5Btimeout%3A25%5D%3B%0Arel%283121667%29%3B%0Away%28r%29%5B%22highway%22%5D%3B%0Aout%20count%3B%0A
