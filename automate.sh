@@ -6,16 +6,17 @@ TOTALRELATIONS=`awk -F , '{print $3 }' $CSV_FN | uniq | sed '/OSM relation ID/d'
 while read REL; do 
 
 	# Get osm file from overpass for each relation, and convert to geojson
-	wget -qO data/r$REL.osm "https://overpass-api.de/api/interpreter?data=rel($REL);way(r)[\"highway\"];out geom;"
+	wget -qO data/r$REL.osm "https://maps.mail.ru/osm/tools/overpass/api/interpreter?data=rel($REL);way(r)[\"highway\"];out geom;"
 	osmtogeojson data/r$REL.osm > data/r$REL.geojson
 
 	# Take a copy of the skeleton file mcsurfacegr.json, rename it to unique relationid.json and change everything inside to point to the relation
 	cp mcsurfacegr.json data/r$REL.json
 	sed -i "s_githubusercontent.com/hgcvm/mcsurfacegr/main/test-export.geojson_githubusercontent.com/hgcvm/mcsurfacegr/main/data/r$REL.geojson_" data/r$REL.json
 
+
 	# Calculate the percentage of completion: "ways with surface tags" / "all ways". Store this in a variable
-	HASSURFACE=`curl -s https://overpass-api.de/api/interpreter?data=%5Bout%3Acsv%28%3A%3A%22count%3Aways%22%3Bfalse%29%5D%5Btimeout%3A25%5D%3B%0Arel%28$REL%29%3B%0Away%28r%29%5B%22highway%22%5D%5B%22surface%22%5D%3B%0Aout%20count%3B%0A`
-	TOTALWAYS=`curl -s https://overpass-api.de/api/interpreter?data=%5Bout%3Acsv%28%3A%3A%22count%3Aways%22%3Bfalse%29%5D%5Btimeout%3A25%5D%3B%0Arel%28$REL%29%3B%0Away%28r%29%5B%22highway%22%5D%3B%0Aout%20count%3B%0A`
+	HASSURFACE=`curl -s https://maps.mail.ru/osm/tools/overpass/api/interpreter?data=%5Bout%3Acsv%28%3A%3A%22count%3Aways%22%3Bfalse%29%5D%5Btimeout%3A25%5D%3B%0Arel%28$REL%29%3B%0Away%28r%29%5B%22highway%22%5D%5B%22surface%22%5D%3B%0Aout%20count%3B%0A`
+	TOTALWAYS=`curl -s https://maps.mail.ru/osm/tools/overpass/api/interpreter?data=%5Bout%3Acsv%28%3A%3A%22count%3Aways%22%3Bfalse%29%5D%5Btimeout%3A25%5D%3B%0Arel%28$REL%29%3B%0Away%28r%29%5B%22highway%22%5D%3B%0Aout%20count%3B%0A`
 	PERCENTAGE=`printf %.2f%% "$((10**3 * 100 * $HASSURFACE/$TOTALWAYS))e-3"`
 
 	#Create a new CSV file, with 1 human readable route name, 2 OSM relation ID, 3 percentage completed (later used to generate HTML)
@@ -26,7 +27,7 @@ while read REL; do
 	echo "$REL - ($COUNTER/$TOTALRELATIONS)"
 
 	# Sleep, rate limit queries overpass server
-	sleep 2
+#	sleep 3
 
 	#use a list of relations to loop over
 done < <(awk -F , '{print $3 }' $CSV_FN | uniq | sort -g | sed '/OSM relation ID/d' | sed '/not mapped yet/d')
