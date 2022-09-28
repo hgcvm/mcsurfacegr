@@ -32983,8 +32983,8 @@
     "motorcar": "no",
     "motorcycle": "no",
     "name": "Dijkweg",
-    "surface": "unpaved",
-    "tracktype": "grade1",
+    "surface": "compacted",
+    "tracktype": "grade2",
     "id": "way/38915540"
   },
   "geometry": {
@@ -34238,12 +34238,12 @@
     "type": "LineString",
     "coordinates": [
       [
-        3.6450711,
-        51.0323715
+        3.6450061,
+        51.0323875
       ],
       [
-        3.6457325,
-        51.0321835
+        3.6458156,
+        51.0321569
       ]
     ]
   }
@@ -34275,26 +34275,24 @@
   "id": "way/38922418",
   "properties": {
     "bicycle": "yes",
-    "handrail": "yes",
-    "highway": "steps",
-    "ramp": "yes",
-    "ramp:bicycle": "yes",
+    "highway": "path",
+    "layer": "1",
     "id": "way/38922418"
   },
   "geometry": {
     "type": "LineString",
     "coordinates": [
       [
-        3.6449717,
-        51.032478
+        3.6449397,
+        51.0324286
       ],
       [
         3.6449266,
         51.0324101
       ],
       [
-        3.6450711,
-        51.0323715
+        3.6449504,
+        51.0324038
       ]
     ]
   }
@@ -34330,6 +34328,7 @@
     "highway": "steps",
     "ramp": "yes",
     "ramp:bicycle": "yes",
+    "step_count": "13",
     "id": "way/38922420"
   },
   "geometry": {
@@ -34342,10 +34341,6 @@
       [
         3.6459091,
         51.0321312
-      ],
-      [
-        3.6457325,
-        51.0321835
       ]
     ]
   }
@@ -57471,7 +57466,7 @@
       ],
       [
         5.6833832,
-        50.8363429
+        50.8363473
       ]
     ]
   }
@@ -84818,8 +84813,8 @@
     "type": "LineString",
     "coordinates": [
       [
-        5.6853005,
-        50.8367562
+        5.6853059,
+        50.8367631
       ],
       [
         5.6855806,
@@ -93074,8 +93069,8 @@
     "motorcar": "private",
     "motorcycle": "private",
     "name": "Dijkweg",
-    "surface": "unpaved",
-    "tracktype": "grade1",
+    "surface": "compacted",
+    "tracktype": "grade2",
     "id": "way/351206546"
   },
   "geometry": {
@@ -94501,8 +94496,8 @@
     "type": "LineString",
     "coordinates": [
       [
-        5.6853005,
-        50.8367562
+        5.6853059,
+        50.8367631
       ],
       [
         5.6852391,
@@ -94756,7 +94751,7 @@
     "highway": "track",
     "name": "Van Schaikweg",
     "opening_hours": "sunrise-sunset",
-    "surface": "compacted",
+    "surface": "fine_gravel",
     "tracktype": "grade2",
     "id": "way/376639132"
   },
@@ -94776,12 +94771,16 @@
         50.8282172
       ],
       [
+        5.6796353,
+        50.8280743
+      ],
+      [
         5.679187,
         50.8277742
       ],
       [
         5.6789833,
-        50.8276429
+        50.8276272
       ],
       [
         5.6785905,
@@ -94827,16 +94826,16 @@
     "type": "LineString",
     "coordinates": [
       [
-        5.6835618,
-        50.8353693
+        5.6835184,
+        50.835339
       ],
       [
-        5.6835126,
-        50.835321
+        5.6834994,
+        50.8352936
       ],
       [
-        5.6834523,
-        50.8352438
+        5.6834353,
+        50.8352061
       ],
       [
         5.6833316,
@@ -96136,7 +96135,7 @@
   "properties": {
     "highway": "track",
     "opening_hours": "sunrise-sunset",
-    "surface": "compacted",
+    "surface": "fine_gravel",
     "tracktype": "grade2",
     "id": "way/382583080"
   },
@@ -96192,7 +96191,7 @@
     "highway": "track",
     "name": "Van Schaikweg",
     "opening_hours": "sunrise-sunset",
-    "surface": "compacted",
+    "surface": "fine_gravel",
     "tracktype": "grade2",
     "id": "way/382583086"
   },
@@ -119326,8 +119325,16 @@
         50.8354315
       ],
       [
-        5.6835618,
-        50.8353693
+        5.6834955,
+        50.8354092
+      ],
+      [
+        5.683518,
+        50.8353568
+      ],
+      [
+        5.6835184,
+        50.835339
       ]
     ]
   }
@@ -119348,15 +119355,11 @@
     "coordinates": [
       [
         5.6833832,
-        50.8363429
-      ],
-      [
-        5.6833659,
-        50.8363263
+        50.8363473
       ],
       [
         5.6833386,
-        50.836265
+        50.8362748
       ]
     ]
   }
@@ -119375,7 +119378,7 @@
     "coordinates": [
       [
         5.6833386,
-        50.836265
+        50.8362748
       ],
       [
         5.6833169,
@@ -125034,6 +125037,109 @@
       [
         2.8257313,
         50.7787879
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1098390724",
+  "properties": {
+    "bicycle": "yes",
+    "handrail": "yes",
+    "highway": "steps",
+    "ramp": "yes",
+    "ramp:bicycle": "yes",
+    "step_count": "10",
+    "id": "way/1098390724"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        3.6449504,
+        51.0324038
+      ],
+      [
+        3.6450061,
+        51.0323875
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1098390725",
+  "properties": {
+    "bicycle": "yes",
+    "handrail": "yes",
+    "highway": "steps",
+    "ramp": "yes",
+    "ramp:bicycle": "yes",
+    "step_count": "13",
+    "id": "way/1098390725"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        3.6449717,
+        51.032478
+      ],
+      [
+        3.6449397,
+        51.0324286
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1098390726",
+  "properties": {
+    "bicycle": "yes",
+    "handrail": "yes",
+    "highway": "steps",
+    "ramp": "yes",
+    "ramp:bicycle": "yes",
+    "step_count": "9",
+    "id": "way/1098390726"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        3.6458764,
+        51.0321402
+      ],
+      [
+        3.6458156,
+        51.0321569
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1098390727",
+  "properties": {
+    "bicycle": "yes",
+    "highway": "path",
+    "layer": "1",
+    "ramp": "yes",
+    "ramp:bicycle": "yes",
+    "id": "way/1098390727"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        3.6459091,
+        51.0321312
+      ],
+      [
+        3.6458764,
+        51.0321402
       ]
     ]
   }
