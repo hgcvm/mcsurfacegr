@@ -3177,7 +3177,7 @@
     "maxspeed": "30",
     "maxweight": "3.5",
     "maxweight:conditional": "none @ delivery",
-    "name": "De Burtinstraat",
+    "name": "de Burtinstraat",
     "surface": "asphalt",
     "id": "way/17201066"
   },
@@ -7043,6 +7043,7 @@
   "properties": {
     "cycleway": "no",
     "highway": "unclassified",
+    "lane_markings": "no",
     "maxspeed": "30",
     "name": "Nekkerspoel-Borcht",
     "speed_pedelec": "no",
@@ -16155,11 +16156,11 @@
   "id": "way/29463814",
   "properties": {
     "bicycle": "no",
-    "bicycle:conditional": "yes @ (Mo-Fr 00:00-24:00; Sa 00:00-12:00)",
+    "bicycle:conditional": "yes @ (Mo-Sa 00:00-24:00)",
     "highway": "path",
     "horse": "no",
     "name": "Vest",
-    "note": "bicycles not permitted from saturday 12:00 till sunday 23:59",
+    "note": "bicycles not permitted on sunday",
     "surface": "gravel",
     "vehicle": "no",
     "id": "way/29463814"
@@ -16259,10 +16260,10 @@
   "id": "way/29464249",
   "properties": {
     "bicycle": "no",
-    "bicycle:conditional": "yes @ (Mo-Fr 00:00-24:00; Sa 00:00-12:00)",
+    "bicycle:conditional": "yes @ (Mo-Sa 00:00-24:00)",
     "highway": "path",
     "horse": "no",
-    "note": "bicycles not permitted from saturday 12:00 till sunday 23:59",
+    "note": "bicycles not permitted on sunday",
     "surface": "paving_stones",
     "vehicle": "no",
     "id": "way/29464249"
@@ -16573,9 +16574,10 @@
   "type": "Feature",
   "id": "way/29465456",
   "properties": {
-    "bicycle": "yes",
+    "bicycle:conditional": "yes @ (Mo-Sa 00:00-24:00)",
     "highway": "footway",
     "lit": "yes",
+    "note": "bicycles not permitted on sunday",
     "surface": "compacted",
     "id": "way/29465456"
   },
@@ -25027,6 +25029,7 @@
   "type": "Feature",
   "id": "way/30600032",
   "properties": {
+    "cycleway:both": "no",
     "highway": "residential",
     "lanes": "1",
     "lit": "yes",
@@ -25061,7 +25064,7 @@
   "id": "way/30600499",
   "properties": {
     "highway": "path",
-    "surface": "unpaved",
+    "surface": "dirt",
     "id": "way/30600499"
   },
   "geometry": {
@@ -28673,8 +28676,8 @@
         51.2443148
       ],
       [
-        4.4897414,
-        51.2443798
+        4.4897358,
+        51.2443577
       ],
       [
         4.489616,
@@ -44996,7 +44999,7 @@
   "type": "Feature",
   "id": "way/91890344",
   "properties": {
-    "highway": "path",
+    "highway": "footway",
     "id": "way/91890344"
   },
   "geometry": {
@@ -45026,7 +45029,7 @@
   "id": "way/91890729",
   "properties": {
     "bicycle": "permissive",
-    "highway": "path",
+    "highway": "footway",
     "surface": "unpaved",
     "id": "way/91890729"
   },
@@ -53255,6 +53258,10 @@
         51.2516022
       ],
       [
+        4.4903636,
+        51.2514535
+      ],
+      [
         4.4899668,
         51.2514045
       ],
@@ -53476,6 +53483,10 @@
         51.2515125
       ],
       [
+        4.488981,
+        51.2516212
+      ],
+      [
         4.4889718,
         51.2516737
       ],
@@ -53494,6 +53505,10 @@
       [
         4.4888377,
         51.2521404
+      ],
+      [
+        4.4888246,
+        51.2522311
       ],
       [
         4.4888218,
@@ -57339,7 +57354,7 @@
   "id": "way/192162751",
   "properties": {
     "highway": "path",
-    "surface": "unpaved",
+    "surface": "dirt",
     "id": "way/192162751"
   },
   "geometry": {
@@ -57460,7 +57475,7 @@
   "id": "way/192162763",
   "properties": {
     "highway": "path",
-    "surface": "unpaved",
+    "surface": "dirt",
     "id": "way/192162763"
   },
   "geometry": {
@@ -57566,7 +57581,7 @@
   "id": "way/192162772",
   "properties": {
     "highway": "path",
-    "surface": "grass",
+    "surface": "dirt",
     "id": "way/192162772"
   },
   "geometry": {
@@ -71408,7 +71423,7 @@
   "id": "way/368918769",
   "properties": {
     "highway": "path",
-    "surface": "unpaved",
+    "surface": "dirt",
     "id": "way/368918769"
   },
   "geometry": {
@@ -71434,7 +71449,7 @@
   "id": "way/368918771",
   "properties": {
     "highway": "path",
-    "surface": "unpaved",
+    "surface": "dirt",
     "id": "way/368918771"
   },
   "geometry": {
@@ -72778,8 +72793,8 @@
     "type": "LineString",
     "coordinates": [
       [
-        4.6075791,
-        50.0681964
+        4.6076032,
+        50.0681723
       ],
       [
         4.6076757,
@@ -72998,16 +73013,16 @@
     "type": "LineString",
     "coordinates": [
       [
-        4.6075791,
-        50.0681964
+        4.6076032,
+        50.0681723
       ],
       [
-        4.607559,
+        4.6075939,
         50.0680622
       ],
       [
-        4.6075456,
-        50.0678418
+        4.6075939,
+        50.0678521
       ],
       [
         4.6070386,
@@ -73369,8 +73384,16 @@
         50.4064218
       ],
       [
+        4.2929078,
+        50.406393
+      ],
+      [
         4.2912797,
         50.4063568
+      ],
+      [
+        4.2911353,
+        50.4063526
       ],
       [
         4.2910242,
@@ -76195,10 +76218,6 @@
   "geometry": {
     "type": "LineString",
     "coordinates": [
-      [
-        4.4885616,
-        51.2432462
-      ],
       [
         4.4886475,
         51.243298
@@ -90866,7 +90885,7 @@
     "maxspeed": "30",
     "maxweight": "3.5",
     "maxweight:conditional": "none @ delivery",
-    "name": "De Villegas De Clercampstraat",
+    "name": "de Villegas de Clercampstraat",
     "oneway": "yes",
     "oneway:bicycle": "no",
     "surface": "asphalt",
@@ -96900,11 +96919,12 @@
   "type": "Feature",
   "id": "way/1070626371",
   "properties": {
-    "bicycle:conditional": "yes @ (Mo-Fr 00:00-24:00; Sa 00:00-12:00)",
+    "bicycle:conditional": "yes @ (Mo-Sa 00:00-24:00)",
     "foot": "yes",
     "highway": "footway",
     "lit": "yes",
     "name": "Vest",
+    "note": "bicycles not permitted on sunday",
     "surface": "compacted",
     "vehicle": "no",
     "id": "way/1070626371"
@@ -97752,6 +97772,62 @@
       [
         4.3480394,
         50.9007548
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1099922307",
+  "properties": {
+    "access": "destination",
+    "bicycle": "yes",
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "layer": "1",
+    "motor_vehicle": "private",
+    "name": "Kasteelpad",
+    "surface": "paved",
+    "id": "way/1099922307"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.4885984,
+        51.2432684
+      ],
+      [
+        4.4886475,
+        51.243298
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1099922308",
+  "properties": {
+    "access": "destination",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "motor_vehicle": "private",
+    "name": "Kasteelpad",
+    "surface": "paved",
+    "id": "way/1099922308"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.4885616,
+        51.2432462
+      ],
+      [
+        4.4885984,
+        51.2432684
       ]
     ]
   }

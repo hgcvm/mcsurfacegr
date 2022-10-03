@@ -338,6 +338,10 @@
         51.2157051
       ],
       [
+        4.4300083,
+        51.2155756
+      ],
+      [
         4.43006,
         51.2155667
       ]
@@ -687,7 +691,7 @@
     "bicycle": "yes",
     "highway": "pedestrian",
     "name": "Lange Kievitstraat",
-    "surface": "paved",
+    "surface": "paving_stones",
     "id": "way/25388297"
   },
   "geometry": {
@@ -2250,6 +2254,10 @@
     "name": "Lange Kievitstraat",
     "oneway": "yes",
     "oneway:bicycle": "no",
+    "parking:condition:left": "no_parking",
+    "parking:lane:left": "no",
+    "parking:lane:right": "parallel",
+    "parking:lane:right:parallel": "on_kerb",
     "surface": "asphalt",
     "id": "way/706485110"
   },
@@ -2420,6 +2428,7 @@
     "name": "Copernicuslaan",
     "oneway": "yes",
     "oneway:bicycle": "no",
+    "parking:lane:both": "no",
     "surface": "asphalt",
     "id": "way/780861739"
   },
@@ -2448,6 +2457,7 @@
     "name:etymology:wikidata": "Q619",
     "oneway": "yes",
     "oneway:bicycle": "no",
+    "parking:lane:both": "no",
     "surface": "asphalt",
     "id": "way/780861740"
   },

@@ -605,6 +605,7 @@
     "access": "destination",
     "highway": "residential",
     "name": "Muizenhoekstraat",
+    "surface": "asphalt",
     "id": "way/4903158"
   },
   "geometry": {
@@ -636,6 +637,7 @@
     "access": "destination",
     "highway": "residential",
     "name": "Muizenhoekstraat",
+    "surface": "asphalt",
     "id": "way/4904696"
   },
   "geometry": {
@@ -2891,10 +2893,6 @@
     "type": "LineString",
     "coordinates": [
       [
-        4.4821362,
-        51.022477
-      ],
-      [
         4.4821152,
         51.0225085
       ],
@@ -4248,7 +4246,7 @@
   "properties": {
     "foot": "yes",
     "highway": "cycleway",
-    "surface": "unpaved",
+    "surface": "compacted",
     "id": "way/23886262"
   },
   "geometry": {
@@ -4446,6 +4444,7 @@
     "foot": "designated",
     "highway": "path",
     "maxspeed": "30",
+    "segregated": "no",
     "speed_pedelec": "no",
     "surface": "asphalt",
     "tunnel": "yes",
@@ -4514,7 +4513,7 @@
     "maxspeed": "30",
     "motor_vehicle": "designated",
     "speed_pedelec": "no",
-    "surface": "paved",
+    "surface": "asphalt",
     "vehicle": "no",
     "id": "way/23886601"
   },
@@ -10120,9 +10119,11 @@
   "properties": {
     "cycleway": "track",
     "highway": "tertiary",
+    "lanes": "2",
     "maxspeed": "50",
     "name": "Veldstraat",
     "source:maxspeed": "sign",
+    "surface": "asphalt",
     "zone:traffic": "BE-VLG:urban",
     "id": "way/30602947"
   },
@@ -12935,12 +12936,8 @@
         51.0225231
       ],
       [
-        4.4821014,
-        51.0225047
-      ],
-      [
-        4.4821362,
-        51.022477
+        4.4821152,
+        51.0225085
       ]
     ]
   }
@@ -13817,6 +13814,7 @@
     "name": "Neerstraat",
     "oneway": "yes",
     "oneway:bicycle": "no",
+    "surface": "asphalt",
     "id": "way/37911871"
   },
   "geometry": {
@@ -17443,6 +17441,10 @@
         50.8971513
       ],
       [
+        4.6324794,
+        50.8969271
+      ],
+      [
         4.6325764,
         50.8968536
       ],
@@ -18633,6 +18635,7 @@
     "highway": "track",
     "layer": "-1",
     "surface": "concrete",
+    "tracktype": "grade1",
     "tunnel": "yes",
     "id": "way/71881375"
   },
@@ -23404,6 +23407,7 @@
     "lanes": "1",
     "name": "Muizenhoekstraat",
     "sidewalk": "none",
+    "surface": "asphalt",
     "id": "way/114523589"
   },
   "geometry": {
@@ -29533,10 +29537,12 @@
   "type": "Feature",
   "id": "way/190566956",
   "properties": {
+    "cycleway:both": "no",
     "highway": "unclassified",
     "incline": "down",
     "lanes": "1",
     "name": "Raghenoplein",
+    "surface": "paving_stones",
     "id": "way/190566956"
   },
   "geometry": {
@@ -32930,6 +32936,7 @@
   "id": "way/381080212",
   "properties": {
     "highway": "track",
+    "tracktype": "grade1",
     "id": "way/381080212"
   },
   "geometry": {
@@ -32951,6 +32958,7 @@
   "id": "way/381080216",
   "properties": {
     "highway": "track",
+    "tracktype": "grade1",
     "id": "way/381080216"
   },
   "geometry": {
@@ -35929,8 +35937,9 @@
     "horse": "no",
     "maxspeed": "30",
     "motor_vehicle": "designated",
+    "segregated": "no",
     "speed_pedelec": "no",
-    "surface": "unpaved",
+    "surface": "asphalt",
     "vehicle": "no",
     "id": "way/647515941"
   },

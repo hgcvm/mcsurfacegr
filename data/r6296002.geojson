@@ -462,6 +462,7 @@
   "type": "Feature",
   "id": "way/7975826",
   "properties": {
+    "bicycle": "use_sidepath",
     "highway": "tertiary",
     "maxspeed": "30",
     "name": "Pierstraat",
@@ -502,6 +503,7 @@
   "properties": {
     "highway": "residential",
     "name": "Pierstraat",
+    "surface": "paved",
     "id": "way/7975829"
   },
   "geometry": {
@@ -618,9 +620,10 @@
   "type": "Feature",
   "id": "way/8545794",
   "properties": {
-    "highway": "residential",
+    "highway": "unclassified",
     "maxspeed": "50",
     "name": "Aartselaarstraat",
+    "surface": "paved",
     "id": "way/8545794"
   },
   "geometry": {
@@ -3391,7 +3394,7 @@
   "properties": {
     "access": "permit",
     "bicycle": "yes",
-    "highway": "residential",
+    "highway": "unclassified",
     "name": "Groeningenlei",
     "note": "befietst, bord C3 met onderbord uitgez. fietsers",
     "surface": "paved",
@@ -3827,7 +3830,7 @@
   "properties": {
     "highway": "track",
     "mtb:scale": "0",
-    "surface": "unpaved",
+    "surface": "compacted",
     "id": "way/22936950"
   },
   "geometry": {
@@ -3856,6 +3859,7 @@
   "type": "Feature",
   "id": "way/22937657",
   "properties": {
+    "bicycle": "use_sidepath",
     "highway": "tertiary",
     "name": "Pierstraat",
     "id": "way/22937657"
@@ -3878,6 +3882,7 @@
   "type": "Feature",
   "id": "way/22937669",
   "properties": {
+    "bicycle": "use_sidepath",
     "highway": "residential",
     "maxspeed": "50",
     "maxweight": "7.5",
@@ -6391,6 +6396,7 @@
     "bicycle": "yes",
     "highway": "footway",
     "lit": "yes",
+    "smoothness": "good",
     "surface": "asphalt",
     "id": "way/29313275"
   },
@@ -7349,7 +7355,7 @@
   "properties": {
     "highway": "track",
     "mtb:scale": "0",
-    "surface": "unpaved",
+    "surface": "compacted",
     "id": "way/36570177"
   },
   "geometry": {
@@ -7623,8 +7629,9 @@
   "type": "Feature",
   "id": "way/38291818",
   "properties": {
-    "highway": "residential",
+    "highway": "unclassified",
     "name": "Groeningenlei",
+    "surface": "paved",
     "id": "way/38291818"
   },
   "geometry": {
@@ -9277,7 +9284,7 @@
   "properties": {
     "bicycle": "no",
     "foot": "yes",
-    "highway": "path",
+    "highway": "footway",
     "motor_vehicle": "no",
     "id": "way/105468917"
   },
@@ -11390,8 +11397,9 @@
   "type": "Feature",
   "id": "way/172414389",
   "properties": {
-    "highway": "residential",
+    "highway": "unclassified",
     "name": "Aartselaarstraat",
+    "surface": "paved",
     "id": "way/172414389"
   },
   "geometry": {
@@ -12500,7 +12508,7 @@
         51.2306613
       ],
       [
-        4.4172518,
+        4.4172371,
         51.2305704
       ],
       [
@@ -15501,31 +15509,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/424072022",
-  "properties": {
-    "highway": "cycleway",
-    "id": "way/424072022"
-  },
-  "geometry": {
-    "type": "LineString",
-    "coordinates": [
-      [
-        4.4182561,
-        51.1560404
-      ],
-      [
-        4.4180839,
-        51.1561109
-      ],
-      [
-        4.4180135,
-        51.1561162
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/424094889",
   "properties": {
     "highway": "unclassified",
@@ -16684,6 +16667,9 @@
   "id": "way/424286631",
   "properties": {
     "highway": "footway",
+    "lit": "yes",
+    "smoothness": "good",
+    "surface": "compacted",
     "id": "way/424286631"
   },
   "geometry": {
@@ -16869,6 +16855,7 @@
     "bicycle": "yes",
     "highway": "footway",
     "lit": "yes",
+    "smoothness": "good",
     "surface": "asphalt",
     "id": "way/424286640"
   },
@@ -19761,7 +19748,7 @@
   "properties": {
     "bicycle": "no",
     "foot": "yes",
-    "highway": "path",
+    "highway": "footway",
     "motor_vehicle": "no",
     "surface": "unpaved",
     "id": "way/426148400"
@@ -19856,7 +19843,7 @@
     "bicycle": "no",
     "bridge": "yes",
     "foot": "yes",
-    "highway": "path",
+    "highway": "footway",
     "motor_vehicle": "no",
     "id": "way/426148410"
   },
@@ -20366,8 +20353,12 @@
   "type": "Feature",
   "id": "way/489129929",
   "properties": {
+    "handrail": "yes",
     "highway": "steps",
+    "incline": "up",
+    "ramp": "no",
     "stairs": "yes",
+    "surface": "metal",
     "id": "way/489129929"
   },
   "geometry": {
@@ -20378,8 +20369,8 @@
         51.2222838
       ],
       [
-        4.3976596,
-        51.2222595
+        4.3976156,
+        51.2222708
       ]
     ]
   }
@@ -21146,7 +21137,7 @@
   "properties": {
     "bicycle": "no",
     "foot": "yes",
-    "highway": "path",
+    "highway": "footway",
     "motor_vehicle": "no",
     "name": "Vijverpad",
     "surface": "unpaved",
@@ -21180,16 +21171,16 @@
         51.2445465
       ],
       [
-        4.489053,
-        51.2443461
+        4.4890604,
+        51.2443659
       ],
       [
-        4.4892997,
-        51.2443461
+        4.4892774,
+        51.2443601
       ],
       [
-        4.4894714,
-        51.2443931
+        4.4894194,
+        51.2443954
       ],
       [
         4.489616,
@@ -22520,7 +22511,7 @@
   "properties": {
     "highway": "unclassified",
     "name": "Kontichhof",
-    "surface": "cobblestone",
+    "surface": "sett",
     "id": "way/762010428"
   },
   "geometry": {
@@ -24605,7 +24596,7 @@
   "properties": {
     "highway": "unclassified",
     "name": "Kontichhof",
-    "surface": "cobblestone",
+    "surface": "paved",
     "id": "way/930688575"
   },
   "geometry": {
@@ -24705,9 +24696,10 @@
   "type": "Feature",
   "id": "way/933372267",
   "properties": {
-    "highway": "residential",
+    "highway": "unclassified",
     "maxspeed": "50",
     "name": "Aartselaarstraat",
+    "surface": "paved",
     "id": "way/933372267"
   },
   "geometry": {
@@ -24752,10 +24744,6 @@
       [
         4.4182653,
         51.1559634
-      ],
-      [
-        4.4182596,
-        51.1559876
       ]
     ]
   }
@@ -25874,6 +25862,127 @@
       [
         4.4251333,
         51.130412
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1099347711",
+  "properties": {
+    "highway": "cycleway",
+    "surface": "paved",
+    "id": "way/1099347711"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.4182514,
+        51.1560882
+      ],
+      [
+        4.4182561,
+        51.1560404
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1099660081",
+  "properties": {
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "ramp": "no",
+    "stairs": "yes",
+    "surface": "metal",
+    "id": "way/1099660081"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.3976156,
+        51.2222708
+      ],
+      [
+        4.3976596,
+        51.2222595
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1100588768",
+  "properties": {
+    "highway": "unclassified",
+    "maxspeed": "50",
+    "name": "Aartselaarstraat",
+    "surface": "paved",
+    "id": "way/1100588768"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.4182653,
+        51.1559634
+      ],
+      [
+        4.4182596,
+        51.1559876
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1100588771",
+  "properties": {
+    "highway": "cycleway",
+    "oneway": "yes",
+    "id": "way/1100588771"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.4180839,
+        51.1561109
+      ],
+      [
+        4.4180135,
+        51.1561162
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1100588772",
+  "properties": {
+    "highway": "cycleway",
+    "oneway": "yes",
+    "surface": "asphalt",
+    "id": "way/1100588772"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.4182514,
+        51.1560882
+      ],
+      [
+        4.4182077,
+        51.1560975
+      ],
+      [
+        4.4180839,
+        51.1561109
       ]
     ]
   }
