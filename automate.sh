@@ -34,7 +34,7 @@ done < <(awk -F , '{print $3 }' $CSV_FN | uniq | sort -g | sed '/OSM relation ID
 
 #generate new HTML file
 echo "<!DOCTYPE html> <html lang="nl"> <head> <title> Grote Routepaden Mapcomplete themes</title> <style> td {border-left:1px solid black; border-top:1px solid black;} table {border-right:1px solid black; border-bottom:1px solid black;} </style> </head> <body> <table>" > html/overview.html
-sort tmp.csv | awk -F ";" '{print "<tr><td>"$2"</td><td>"$3"</td><td><a href=\"https://mapcomplete.osm.be?userlayout=https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/data/r"$2".json\">"$1"</a></td></tr>"}' >> html/overview.html
+sort tmp.csv | awk -F ";" '{print "<tr><td>"$2"</td><td>"$3"</td><td><a href=\"https://mapcomplete.osm.be?z=9&lat=50.70689&lon=4.295654&userlayout=https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/data/r"$2".json\">"$1"</a></td></tr>"}' >> html/overview.html
 echo "</table></body></html>" >> html/overview.html
 
 # cleanup
