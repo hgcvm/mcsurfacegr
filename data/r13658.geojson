@@ -5419,7 +5419,7 @@
   "id": "way/24718112",
   "properties": {
     "highway": "tertiary",
-    "mapillary": "eIeMsfz6O9cYubb9zGmAWk",
+    "mapillary": "124345603108089",
     "maxspeed": "50",
     "name": "Gaverlandstraat",
     "note": "lijkt proefopstelling?",
@@ -19248,6 +19248,7 @@
     "foot": "yes",
     "highway": "path",
     "layer": "1",
+    "surface": "asphalt",
     "id": "way/40765955"
   },
   "geometry": {
@@ -19317,7 +19318,7 @@
     "bicycle": "yes",
     "highway": "footway",
     "lit": "yes",
-    "surface": "sett",
+    "surface": "paving_stones",
     "id": "way/40770094"
   },
   "geometry": {
@@ -19341,6 +19342,7 @@
     "foot": "yes",
     "highway": "service",
     "sidewalk": "none",
+    "surface": "paving_stones",
     "id": "way/40770102"
   },
   "geometry": {
@@ -20945,6 +20947,7 @@
     "foot": "yes",
     "highway": "cycleway",
     "segregated": "no",
+    "surface": "paving_stones",
     "width": "2",
     "id": "way/62283054"
   },
@@ -20966,10 +20969,6 @@
       [
         2.7410767,
         51.1389623
-      ],
-      [
-        2.7407504,
-        51.1393651
       ]
     ]
   }
@@ -28208,11 +28207,16 @@
     "highway": "footway",
     "name": "Robert Orlentpromenade",
     "surface": "wood",
+    "width": "2",
     "id": "way/126553428"
   },
   "geometry": {
     "type": "LineString",
     "coordinates": [
+      [
+        2.7410767,
+        51.1389623
+      ],
       [
         2.7407504,
         51.1393651
@@ -31049,14 +31053,15 @@
     "foot": "yes",
     "highway": "footway",
     "lit": "yes",
+    "surface": "sett",
     "id": "way/136705558"
   },
   "geometry": {
     "type": "LineString",
     "coordinates": [
       [
-        2.7523058,
-        51.1340999
+        2.7523785,
+        51.1341086
       ],
       [
         2.7524139,
@@ -31100,6 +31105,7 @@
   "id": "way/136820588",
   "properties": {
     "highway": "service",
+    "surface": "paving_stones",
     "id": "way/136820588"
   },
   "geometry": {
@@ -31965,6 +31971,7 @@
   "properties": {
     "highway": "unclassified",
     "name": "Handelskaai",
+    "surface": "sett",
     "id": "way/138738697"
   },
   "geometry": {
@@ -31993,6 +32000,7 @@
     "foot": "yes",
     "highway": "path",
     "layer": "1",
+    "surface": "sett",
     "vehicle": "no",
     "id": "way/138738837"
   },
@@ -32027,6 +32035,7 @@
     "foot": "yes",
     "highway": "path",
     "layer": "1",
+    "surface": "asphalt",
     "vehicle": "no",
     "id": "way/138738838"
   },
@@ -32053,6 +32062,7 @@
     "maxspeed": "30",
     "name": "Handelskaai",
     "sidewalk": "none",
+    "surface": "sett",
     "id": "way/139504190"
   },
   "geometry": {
@@ -61850,6 +61860,31 @@
       [
         3.9689076,
         51.2608945
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1101949626",
+  "properties": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "footway",
+    "lit": "yes",
+    "surface": "paving_stones",
+    "id": "way/1101949626"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        2.7523058,
+        51.1340999
+      ],
+      [
+        2.7523785,
+        51.1341086
       ]
     ]
   }

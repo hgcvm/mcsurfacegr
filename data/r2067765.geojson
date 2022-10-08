@@ -748,7 +748,7 @@
     "highway": "residential",
     "maxspeed": "30",
     "motor_vehicle": "destination",
-    "name": "Bat",
+    "name": "Diepstraat",
     "surface": "cobblestone",
     "id": "way/6699393"
   },
@@ -2003,16 +2003,20 @@
         50.8430459
       ],
       [
-        5.6904216,
-        50.8431183
+        5.6904302,
+        50.8431366
       ],
       [
         5.6906169,
         50.8432908
       ],
       [
-        5.6911489,
-        50.8437536
+        5.6909029,
+        50.8435391
+      ],
+      [
+        5.6911382,
+        50.8437434
       ],
       [
         5.6913158,
@@ -34116,40 +34120,8 @@
     "type": "LineString",
     "coordinates": [
       [
-        3.6460957,
-        51.0404385
-      ],
-      [
-        3.645918,
-        51.0403264
-      ],
-      [
-        3.6458295,
-        51.0402686
-      ],
-      [
-        3.6457437,
-        51.0402015
-      ],
-      [
-        3.6456632,
-        51.0401117
-      ],
-      [
-        3.6455854,
-        51.0400188
-      ],
-      [
-        3.6454533,
-        51.0398242
-      ],
-      [
-        3.6453943,
-        51.0397146
-      ],
-      [
-        3.6453492,
-        51.0396332
+        3.6453619,
+        51.0396513
       ],
       [
         3.6453272,
@@ -34188,8 +34160,8 @@
         51.0365098
       ],
       [
-        3.645054,
-        51.0360122
+        3.6450513,
+        51.0360341
       ]
     ]
   }
@@ -34199,18 +34171,19 @@
   "id": "way/38922230",
   "properties": {
     "bicycle": "yes",
-    "highway": "path",
+    "highway": "track",
     "name": "Vontpad",
     "surface": "compacted",
-    "tracktype": "grade4",
+    "tracktype": "grade2",
+    "traffic_sign": "BE:C3,M11_nl,GIV[uitgezonderd landbouwvoertuigen]",
     "id": "way/38922230"
   },
   "geometry": {
     "type": "LineString",
     "coordinates": [
       [
-        3.645054,
-        51.0360122
+        3.6450513,
+        51.0360341
       ],
       [
         3.6450805,
@@ -97413,16 +97386,16 @@
     "type": "LineString",
     "coordinates": [
       [
-        3.6624806,
-        51.0501708
+        3.6624759,
+        51.0501818
       ],
       [
-        3.6622832,
-        51.0501069
+        3.6622798,
+        51.0501145
       ],
       [
-        3.6622093,
-        51.050083
+        3.6622026,
+        51.050091
       ],
       [
         3.6616486,
@@ -101465,7 +101438,8 @@
     "highway": "track",
     "name": "Vontpad",
     "surface": "unpaved",
-    "tracktype": "grade4",
+    "tracktype": "grade2",
+    "traffic_sign": "BE:C3,M11_nl,GIV[uitgezonderd landbouwvoertuigen]",
     "id": "way/445007870"
   },
   "geometry": {
@@ -115609,16 +115583,16 @@
     "type": "LineString",
     "coordinates": [
       [
-        3.6626931,
-        51.0502434
+        3.6626797,
+        51.0502451
       ],
       [
-        3.6626155,
-        51.0502142
+        3.6626121,
+        51.0502218
       ],
       [
-        3.6624806,
-        51.0501708
+        3.6624759,
+        51.0501818
       ]
     ]
   }
@@ -115634,8 +115608,8 @@
     "type": "LineString",
     "coordinates": [
       [
-        3.6626931,
-        51.0502434
+        3.6626797,
+        51.0502451
       ],
       [
         3.6627524,
@@ -119387,6 +119361,7 @@
     "bicycle": "yes",
     "highway": "track",
     "name": "Vontpad",
+    "tracktype": "grade2",
     "id": "way/862091542"
   },
   "geometry": {
@@ -125293,6 +125268,92 @@
       [
         3.8312646,
         51.0468278
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1101647327",
+  "properties": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1",
+    "mtb:scale:imba": "0",
+    "name": "Vontpad",
+    "segregated": "no",
+    "smoothness": "intermediate",
+    "speed_pedelec": "yes",
+    "surface": "concrete",
+    "tracktype": "grade3",
+    "traffic_sign": "BE:C3,M11_nl",
+    "id": "way/1101647327"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        3.6453983,
+        51.0397226
+      ],
+      [
+        3.6453619,
+        51.0396513
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1101647328",
+  "properties": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale:imba": "0",
+    "name": "Vontpad",
+    "segregated": "no",
+    "smoothness": "intermediate",
+    "speed_pedelec": "yes",
+    "surface": "compacted",
+    "tracktype": "grade3",
+    "traffic_sign": "BE:C3,M11_nl",
+    "id": "way/1101647328"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        3.6460957,
+        51.0404385
+      ],
+      [
+        3.645918,
+        51.0403264
+      ],
+      [
+        3.6458295,
+        51.0402686
+      ],
+      [
+        3.6457437,
+        51.0402015
+      ],
+      [
+        3.6456632,
+        51.0401117
+      ],
+      [
+        3.6455854,
+        51.0400188
+      ],
+      [
+        3.6454533,
+        51.0398242
+      ],
+      [
+        3.6453983,
+        51.0397226
       ]
     ]
   }
