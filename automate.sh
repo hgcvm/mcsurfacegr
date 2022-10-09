@@ -17,7 +17,7 @@ while read REL; do
 	# Calculate the percentage of completion: "ways with surface tags" / "all ways". Store this in a variable
 	HASSURFACE=`curl -s https://maps.mail.ru/osm/tools/overpass/api/interpreter?data=%5Bout%3Acsv%28%3A%3A%22count%3Aways%22%3Bfalse%29%5D%5Btimeout%3A25%5D%3B%0Arel%28$REL%29%3B%0Away%28r%29%5B%22highway%22%5D%5B%22surface%22%5D%3B%0Aout%20count%3B%0A`
 	TOTALWAYS=`curl -s https://maps.mail.ru/osm/tools/overpass/api/interpreter?data=%5Bout%3Acsv%28%3A%3A%22count%3Aways%22%3Bfalse%29%5D%5Btimeout%3A25%5D%3B%0Arel%28$REL%29%3B%0Away%28r%29%5B%22highway%22%5D%3B%0Aout%20count%3B%0A`
-	PERCENTAGE=`printf %.2f%% "$((10**3 * 100 * $HASSURFACE/$TOTALWAYS))e-3"`
+	PERCENTAGE=`printf %.0f%% "$((10**3 * 100 * $HASSURFACE/$TOTALWAYS))e-3"`
 
 	#Create a new CSV file, with 1 human readable route name, 2 OSM relation ID, 3 percentage completed (later used to generate HTML)
 	grep $REL $CSV_FN | awk -F , -v percentage=$PERCENTAGE -v rel=$REL '{print $1";"rel";"percentage}' >> tmp.csv
@@ -33,9 +33,9 @@ while read REL; do
 done < <(awk -F , '{print $3 }' $CSV_FN | uniq | sort -g | sed '/OSM relation ID/d' | sed '/not mapped yet/d')
 
 #generate new HTML file
-echo "<!DOCTYPE html> <html lang="nl"> <head> <title> Grote Routepaden Mapcomplete themes</title> <style> td {border-left:1px solid black; border-top:1px solid black;} table {border-right:1px solid black; border-bottom:1px solid black;} </style> </head> <body> <table>" > html/overview.html
+echo '<!DOCTYPE html> <html lang="nl"> <head> <title> Grote Routepaden Mapcomplete themes</title> <style> td {border-left:1px solid black; border-top:1px solid black;} table {border-right:1px solid black; border-bottom:1px solid black;} </style> </head> <body> <table>' > html/overview.html
 sort tmp.csv | awk -F ";" '{print "<tr><td>"$2"</td><td>"$3"</td><td><a href=\"https://mapcomplete.osm.be?z=9&lat=50.70689&lon=4.295654&userlayout=https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/data/r"$2".json\">"$1"</a></td></tr>"}' >> html/overview.html
-echo "</table></body></html>" >> html/overview.html
+echo '</table><br><b>Kwaliteitscontrole</b><br><a href="https://mapcomplete.osm.be/?mode=statistics&filter-theme-search=%7B%22search%22%3A%22hgcvm%22%7D&filter-theme-search-search=hgcvm">Mapcomplete statistics</a><br><a href="https://osmcha.org/?aoi=959b2cad-4737-4d98-a644-c2fc80dad1d6">Osmcha filter</a><br><br></body></html>' >> html/overview.html
 
 # cleanup
 rm data/r*.osm
