@@ -1910,8 +1910,8 @@
   "type": "Feature",
   "id": "way/23879355",
   "properties": {
-    "access": "destination",
     "highway": "track",
+    "motor_vehicle": "destination",
     "name": "Castertweg",
     "surface": "fine_gravel",
     "tracktype": "grade2",
@@ -9014,12 +9014,15 @@
   "type": "Feature",
   "id": "way/35479341",
   "properties": {
+    "bicycle": "designated",
     "cyclestreet": "yes",
     "highway": "tertiary",
     "maxspeed": "30",
     "name": "Daalstraat",
+    "overtaking:motor_vehicle": "no",
     "source:maxspeed": "BE:zone30",
     "surface": "asphalt",
+    "traffic_sign": "BE:F111",
     "zone:traffic": "BE-VLG:urban",
     "id": "way/35479341"
   },
