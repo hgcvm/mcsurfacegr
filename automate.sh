@@ -14,7 +14,7 @@ while read REL; do
 	sed -i "s_githubusercontent.com/hgcvm/mcsurfacegr/main/test-export.geojson_githubusercontent.com/hgcvm/mcsurfacegr/main/data/r$REL.geojson_" data/r$REL.json
 
 	# Calculate the percentage of completion: "ways with surface tags" / "all ways". Store this in a variable
-	HASSURFACE=`curl -s https://maps.mail.ru/osm/tools/overpass/api/interpreter?data=%5Bout%3Acsv%28%3A%3A%22count%3Aways%22%3Bfalse%29%5D%5Btimeout%3A25%5D%3B%0Arel%289769052%29%3B%0Away%28r%29%5B%22highway%22%5D%5B%22surface%22%5D%5B%22surface%22%21%3D%22unpaved%22%5D%5B%22surface%22%21%3D%22paved%22%5D%3B%0Aout%20count%3B%0A`
+	HASSURFACE=`curl -s https://maps.mail.ru/osm/tools/overpass/api/interpreter?data=%5Bout%3Acsv%28%3A%3A%22count%3Aways%22%3Bfalse%29%5D%5Btimeout%3A25%5D%3B%0Arel%28$REL%29%3B%0Away%28r%29%5B%22highway%22%5D%5B%22surface%22%5D%5B%22surface%22%21%3D%22unpaved%22%5D%5B%22surface%22%21%3D%22paved%22%5D%3B%0Aout%20count%3B%0A`
 	TOTALWAYS=`curl -s https://maps.mail.ru/osm/tools/overpass/api/interpreter?data=%5Bout%3Acsv%28%3A%3A%22count%3Aways%22%3Bfalse%29%5D%5Btimeout%3A25%5D%3B%0Arel%28$REL%29%3B%0Away%28r%29%5B%22highway%22%5D%3B%0Aout%20count%3B%0A`
 	PERCENTAGE=`printf %.0f "$((10**3 * 100 * $HASSURFACE/$TOTALWAYS))e-3"`
 	SUMPERCENTAGE=`expr $SUMPERCENTAGE + $PERCENTAGE`	
