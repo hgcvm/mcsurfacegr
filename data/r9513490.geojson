@@ -2246,7 +2246,8 @@
   "id": "way/69901920",
   "properties": {
     "highway": "track",
-    "tracktype": "grade2",
+    "surface": "dirt",
+    "tracktype": "grade3",
     "id": "way/69901920"
   },
   "geometry": {
@@ -3092,8 +3093,11 @@
   "type": "Feature",
   "id": "way/77006845",
   "properties": {
+    "bicycle": "yes",
+    "foot": "yes",
     "highway": "track",
     "name": "Polderdreef",
+    "surface": "fine_gravel",
     "tracktype": "grade2",
     "id": "way/77006845"
   },
@@ -4496,7 +4500,7 @@
   "properties": {
     "bicycle": "yes",
     "highway": "track",
-    "surface": "grass",
+    "surface": "dirt",
     "tracktype": "grade3",
     "id": "way/239050928"
   },
@@ -4695,6 +4699,7 @@
   "properties": {
     "highway": "path",
     "surface": "compacted",
+    "tracktype": "grade3",
     "id": "way/239050940"
   },
   "geometry": {
@@ -4717,7 +4722,7 @@
   "properties": {
     "highway": "path",
     "surface": "dirt",
-    "tracktype": "grade5",
+    "tracktype": "grade3",
     "id": "way/239050942"
   },
   "geometry": {
@@ -4740,7 +4745,7 @@
   "properties": {
     "highway": "path",
     "surface": "ground",
-    "tracktype": "grade5",
+    "tracktype": "grade3",
     "id": "way/239050943"
   },
   "geometry": {
@@ -4767,6 +4772,7 @@
   "properties": {
     "highway": "path",
     "surface": "dirt",
+    "tracktype": "grade3",
     "id": "way/239050944"
   },
   "geometry": {
@@ -4790,7 +4796,7 @@
     "bridge": "yes",
     "highway": "path",
     "surface": "dirt",
-    "tracktype": "grade5",
+    "tracktype": "grade3",
     "id": "way/239050945"
   },
   "geometry": {
@@ -4920,7 +4926,7 @@
   "properties": {
     "highway": "path",
     "surface": "ground",
-    "tracktype": "grade5",
+    "tracktype": "grade3",
     "id": "way/239050965"
   },
   "geometry": {
@@ -4967,7 +4973,7 @@
   "properties": {
     "highway": "path",
     "surface": "ground",
-    "tracktype": "grade5",
+    "tracktype": "grade3",
     "id": "way/239050966"
   },
   "geometry": {
@@ -6516,6 +6522,8 @@
   "type": "Feature",
   "id": "way/470954595",
   "properties": {
+    "bicycle": "yes",
+    "foot": "yes",
     "highway": "track",
     "surface": "gravel",
     "tracktype": "grade2",
@@ -6533,24 +6541,24 @@
         51.4977195
       ],
       [
-        4.7964357,
+        4.7964215,
         51.4977021
       ],
       [
-        4.7967383,
-        51.4975146
+        4.7967595,
+        51.4975234
       ],
       [
-        4.7971842,
-        51.4973207
+        4.7972019,
+        51.4973361
       ],
       [
-        4.7985149,
-        51.4968712
+        4.798345,
+        51.4969428
       ],
       [
-        4.8001006,
-        51.4963865
+        4.8001706,
+        51.4963778
       ]
     ]
   }
@@ -6559,8 +6567,12 @@
   "type": "Feature",
   "id": "way/470954603",
   "properties": {
+    "bicycle": "yes",
+    "foot": "yes",
     "highway": "track",
     "name": "Polderdreef",
+    "surface": "fine_gravel",
+    "tracktype": "grade2",
     "id": "way/470954603"
   },
   "geometry": {
@@ -6571,8 +6583,8 @@
         51.4922903
       ],
       [
-        4.8001006,
-        51.4963865
+        4.8008953,
+        51.4951641
       ]
     ]
   }
@@ -7420,7 +7432,7 @@
   "properties": {
     "highway": "path",
     "surface": "ground",
-    "tracktype": "grade5",
+    "tracktype": "grade3",
     "id": "way/881926199"
   },
   "geometry": {
@@ -7580,6 +7592,31 @@
       [
         4.9274928,
         51.4438135
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1103599917",
+  "properties": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "track",
+    "name": "Polderdreef",
+    "tracktype": "grade2",
+    "id": "way/1103599917"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.8008953,
+        51.4951641
+      ],
+      [
+        4.8001706,
+        51.4963778
       ]
     ]
   }
