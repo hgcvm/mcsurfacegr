@@ -384,7 +384,7 @@
   "type": "Feature",
   "id": "way/22977102",
   "properties": {
-    "cycleway": "track",
+    "bicycle": "use_sidepath",
     "highway": "secondary",
     "name": "Verbrande Brugsteenweg",
     "id": "way/22977102"
@@ -411,7 +411,7 @@
   "type": "Feature",
   "id": "way/22977103",
   "properties": {
-    "cycleway": "track",
+    "bicycle": "use_sidepath",
     "highway": "secondary",
     "name": "Verbrande Brugsteenweg",
     "id": "way/22977103"
@@ -19517,9 +19517,9 @@
   "type": "Feature",
   "id": "way/117548979",
   "properties": {
+    "bicycle": "use_sidepath",
     "bridge": "yes",
     "bridge:name": "Verbrande Brug",
-    "cycleway": "track",
     "highway": "secondary",
     "layer": "1",
     "name": "Verbrande Brugsteenweg",
@@ -28508,7 +28508,7 @@
   "type": "Feature",
   "id": "way/348455014",
   "properties": {
-    "cycleway": "lane",
+    "bicycle": "use_sidepath",
     "highway": "secondary",
     "name": "Verbrande Brugsteenweg",
     "id": "way/348455014"
@@ -28522,11 +28522,11 @@
       ],
       [
         4.4141564,
-        50.9480678
+        50.9480458
       ],
       [
-        4.4143215,
-        50.9480585
+        4.4143255,
+        50.9480459
       ]
     ]
   }
@@ -28535,7 +28535,7 @@
   "type": "Feature",
   "id": "way/348455015",
   "properties": {
-    "cycleway": "track",
+    "bicycle": "use_sidepath",
     "highway": "secondary",
     "maxspeed": "50",
     "name": "Eppegemsesteenweg",
@@ -28562,8 +28562,8 @@
         50.948069
       ],
       [
-        4.4143215,
-        50.9480585
+        4.4143255,
+        50.9480459
       ]
     ]
   }
@@ -37967,16 +37967,12 @@
     "type": "LineString",
     "coordinates": [
       [
-        4.4128765,
-        50.9477419
+        4.4128188,
+        50.9477534
       ],
       [
-        4.412818,
-        50.9477548
-      ],
-      [
-        4.412671,
-        50.9477107
+        4.4127311,
+        50.9477287
       ]
     ]
   }
@@ -40620,28 +40616,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/957052235",
-  "properties": {
-    "highway": "residential",
-    "name": "Verbrande Brugsesteenweg",
-    "id": "way/957052235"
-  },
-  "geometry": {
-    "type": "LineString",
-    "coordinates": [
-      [
-        4.412671,
-        50.9477107
-      ],
-      [
-        4.4126688,
-        50.9477248
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/963498468",
   "properties": {
     "cycleway": "lane",
@@ -42380,6 +42354,52 @@
       [
         4.1989519,
         50.7821276
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1105516860",
+  "properties": {
+    "bicycle": "yes",
+    "foot": "designated",
+    "highway": "cycleway",
+    "id": "way/1105516860"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.4127311,
+        50.9477287
+      ],
+      [
+        4.412671,
+        50.9477107
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1105516865",
+  "properties": {
+    "bicycle": "yes",
+    "foot": "designated",
+    "highway": "cycleway",
+    "id": "way/1105516865"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.4128765,
+        50.9477419
+      ],
+      [
+        4.4128188,
+        50.9477534
       ]
     ]
   }
