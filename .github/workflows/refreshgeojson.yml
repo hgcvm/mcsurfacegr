@@ -1,0 +1,14 @@
+name: Refresh geojson files and regenerate HTML
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+jobs:
+  refreshscriptt:
+    runs-on: ubuntu-latest
+    steps:
+    - name: install osmtogeojson
+      run: npm install -g osmtogeojson
+
+    - name: Call the automate.sh script
+      run: bash $(GITHUB_WORKSPACE)/automate.sh:
