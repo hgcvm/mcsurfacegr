@@ -14,3 +14,11 @@ jobs:
 
     - name: Call the automate.sh script
       run: bash automate.sh
+
+    - name: Push to remote
+      git config --global user.name "github-actions[bot]"
+      git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      git add data
+      git add html
+      git commit -m "Update geojson files (actions)"
+      git push
