@@ -20,7 +20,7 @@ jobs:
         echo "  "
         locale -a
         echo "  "
-        LC_TIME="nl_BE.UTF-8"
+        LC_TIME="nl_BE.utf8"
 
     - name: Call the automate.sh script
       run: bash automate.sh
