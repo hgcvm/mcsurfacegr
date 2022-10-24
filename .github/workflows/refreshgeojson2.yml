@@ -1,7 +1,8 @@
 name: Refresh geojson files and regenerate HTML
 
 on:
-  workflow_dispatch
+  schedule:
+    - cron:  '0,10,20,30,40,50 * * * *'
 
 jobs:
   refreshscriptt:
