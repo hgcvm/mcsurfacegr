@@ -16,8 +16,9 @@ jobs:
       run: bash automate.sh
 
     - name: Push to remote
-      git config --global user.name "github-actions_bot"
-      git add data
-      git add html
-      git commit -m "Update geojson files (actions)"
-      git push
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git add data
+        git add html
+        git commit -m "Update geojson files (actions)"
+        git push
