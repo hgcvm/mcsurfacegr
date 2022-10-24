@@ -1,6 +1,7 @@
 name: Refresh geojson _ cron
 
 on:
+  workflow_dispatch:
   schedule:
     - cron:  '27 * * * *'
 
