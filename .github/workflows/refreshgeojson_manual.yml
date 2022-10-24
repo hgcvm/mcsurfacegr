@@ -15,13 +15,11 @@ jobs:
     - name: Set locale to get date in nl_BE format
       run: |
         sudo locale-gen nl_BE.UTF-8
-        echo "  "
-        sudo update-locale 
-        echo "  "
-        locale -a
-        echo "  "
-        export LC_TIME="nl_BE.utf8"
-                 
+        sudo update-locale LANG=nl_BE.UTF-8
+
+    - name: date
+      run: date
+
     - name: Call the automate.sh script
       run: bash automate.sh
 
