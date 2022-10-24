@@ -1,0 +1,29 @@
+name: Refresh geojson files and regenerate HTML
+
+on:
+  workflow_dispatch
+
+jobs:
+  refreshscriptt:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install osmtogeojson
+      run: npm install -g osmtogeojson
+
+    - name: Set locale
+      run: |
+        LC_TIME="nl_BE.UTF-8"
+        LC_CTYPE="en_US.UTF-8"
+
+    - name: Call the automate.sh script
+      run: bash automate.sh
+
+    - name: Push to remote
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git add data
+        git add html
+        git commit -m "Update geojson files (actions)"
+        git push
