@@ -1,11 +1,14 @@
-name: Refresh geojson _ cron
+name: Refresh geojson _ manual
 
 on:
   schedule:
     - cron:  '27 * * * *'
 
+env:
+  LANG: "nl_BE.UTF-8"
+
 jobs:
-  refreshscriptt:
+  refreshscript:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -13,10 +16,10 @@ jobs:
     - name: Install osmtogeojson
       run: npm install -g osmtogeojson
 
-    - name: Set locale
+    - name: Set locale to get date in nl_BE format
       run: |
-        LC_TIME="nl_BE.UTF-8"
-        LC_CTYPE="en_US.UTF-8"
+        sudo locale-gen nl_BE.UTF-8
+        sudo update-locale LANG=nl_BE.UTF-8
 
     - name: Call the automate.sh script
       run: bash automate.sh
