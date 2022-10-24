@@ -20,9 +20,6 @@ jobs:
         sudo locale-gen nl_BE.UTF-8
         sudo update-locale LANG=nl_BE.UTF-8
 
-    - name: date
-      run: date
-
     - name: Call the automate.sh script
       run: bash automate.sh
 
