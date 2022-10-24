@@ -37,9 +37,10 @@ GEMIDDELDPERC=`printf "%.0f" $(echo "$SUMPERCENTAGE / $TOTALRELATIONS" | bc)`
 
 #generate new HTML file
 echo '<!DOCTYPE html> <html lang="nl"> <head> <title> Grote Routepaden Mapcomplete themes</title> <style> td {border-left:1px solid black; border-top:1px solid black;} table {border-right:1px solid black; border-bottom:1px solid black;} </style> </head> <body> <table>' > html/overview.html
-sort tmp.csv | awk -F ";" '{print "<tr><td>"$2"</td><td>"$3"%</td><td><a href=\"https://mapcomplete.osm.be?z=9&lat=50.70689&lon=4.295654&userlayout=https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/data/r"$2".json\">"$1"</a></td></tr>"}' >> html/overview.html
+sort -g tmp.csv | awk -F ";" '{print "<tr><td>"$2"</td><td>"$3"%</td><td><a href=\"https://mapcomplete.osm.be?z=9&lat=50.70689&lon=4.295654&userlayout=https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/data/r"$2".json\">"$1"</a></td></tr>"}' >> html/overview.html
 echo "<tr><td>Gemiddeld</td><td>$GEMIDDELDPERC%</td><tr></table><br><br>" >> html/overview.html
-echo 'Kwaliteitscontrole</b><br><a href="https://mapcomplete.osm.be/?mode=statistics&filter-theme-search=%7B%22search%22%3A%22hgcvm%22%7D&filter-theme-search-search=hgcvm">Mapcomplete statistics</a><br><a href="https://osmcha.org/?aoi=959b2cad-4737-4d98-a644-c2fc80dad1d6">Osmcha filter</a><br><br></body></html>' >> html/overview.html
+echo '<u>Kwaliteitscontrole</u></b><br><a href="https://mapcomplete.osm.be/?mode=statistics&filter-theme-search=%7B%22search%22%3A%22hgcvm%22%7D&filter-theme-search-search=hgcvm">Mapcomplete statistics</a><br><a href="https://osmcha.org/?aoi=959b2cad-4737-4d98-a644-c2fc80dad1d6">Osmcha filter</a><br>' >> html/overview.html
+echo -n 'Laatste update: '>> html/overview.html && date >> html/overview.html && echo '</body></html>' >> html/overview.html
 
 # cleanup
 rm data/r*.osm
