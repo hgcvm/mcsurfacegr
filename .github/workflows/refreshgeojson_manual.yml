@@ -3,6 +3,9 @@ name: Refresh geojson _ manual
 on:
   workflow_dispatch
 
+env:
+  LANG: "nl_BE.UTF-8"
+
 jobs:
   refreshscript:
     runs-on: ubuntu-latest
