@@ -11,4 +11,4 @@ jobs:
       run: npm install -g osmtogeojson
 
     - name: Call the automate.sh script
-      run: bash $(GITHUB_WORKSPACE)/automate.sh:
+      run: bash $(GITHUB_WORKSPACE)/automate.sh
