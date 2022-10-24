@@ -5434,6 +5434,7 @@
   "properties": {
     "highway": "unclassified",
     "name": "Soveneelstraat",
+    "surface": "sett",
     "id": "way/30894863"
   },
   "geometry": {
@@ -15861,6 +15862,7 @@
     "junction": "roundabout",
     "maxspeed": "50",
     "name": "Lovenjoelsestraat",
+    "surface": "paving_stones",
     "id": "way/71503113"
   },
   "geometry": {
@@ -16286,6 +16288,7 @@
   "properties": {
     "highway": "track",
     "name": "Soveneelstraat",
+    "surface": "compacted",
     "tracktype": "grade2",
     "id": "way/78627795"
   },
@@ -17676,6 +17679,7 @@
   "id": "way/86219926",
   "properties": {
     "highway": "track",
+    "surface": "compacted",
     "id": "way/86219926"
   },
   "geometry": {
@@ -20844,6 +20848,7 @@
   "properties": {
     "highway": "track",
     "name": "Soveneelstraat",
+    "surface": "compacted",
     "tracktype": "grade3",
     "id": "way/142782094"
   },
@@ -20903,8 +20908,8 @@
         50.8350193
       ],
       [
-        4.8157289,
-        50.8353901
+        4.8153774,
+        50.8353368
       ]
     ]
   }
@@ -41508,6 +41513,7 @@
   "properties": {
     "highway": "track",
     "name": "Soveneelstraat",
+    "surface": "sett",
     "tracktype": "grade2",
     "id": "way/710705555"
   },
@@ -41536,14 +41542,15 @@
     "name": "Schoolstraat",
     "oneway": "yes",
     "oneway:bicycle": "no",
+    "surface": "paving_stones",
     "id": "way/736357297"
   },
   "geometry": {
     "type": "LineString",
     "coordinates": [
       [
-        4.7918462,
-        50.835313
+        4.7921229,
+        50.8351889
       ],
       [
         4.7924665,
@@ -43755,6 +43762,7 @@
     "junction": "roundabout",
     "maxspeed": "50",
     "name": "Lovenjoelsestraat",
+    "surface": "paving_stones",
     "id": "way/908616729"
   },
   "geometry": {
@@ -45354,6 +45362,58 @@
       [
         4.7851577,
         50.8414966
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1106565471",
+  "properties": {
+    "bicycle": "yes",
+    "cycleway": "opposite",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Schoolstraat",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "surface": "asphalt",
+    "id": "way/1106565471"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.7918462,
+        50.835313
+      ],
+      [
+        4.7921229,
+        50.8351889
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1106566023",
+  "properties": {
+    "highway": "track",
+    "name": "Soveneelstraat",
+    "surface": "sett",
+    "tracktype": "grade3",
+    "id": "way/1106566023"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.8153774,
+        50.8353368
+      ],
+      [
+        4.8157289,
+        50.8353901
       ]
     ]
   }
