@@ -3013,6 +3013,7 @@
   "properties": {
     "highway": "residential",
     "name": "Sint-Laureinsstraat",
+    "surface": "asphalt",
     "id": "way/24974522"
   },
   "geometry": {
@@ -9744,6 +9745,7 @@
     "maxspeed": "30",
     "name": "Koestraat",
     "sidewalk": "left",
+    "surface": "asphalt",
     "id": "way/33835441"
   },
   "geometry": {
@@ -13000,6 +13002,7 @@
   "properties": {
     "highway": "track",
     "name": "Sint-Laureinsstraat",
+    "surface": "asphalt",
     "tracktype": "grade2",
     "id": "way/39448942"
   },
@@ -13023,16 +13026,8 @@
         50.7896877
       ],
       [
-        4.1975401,
-        50.7901416
-      ],
-      [
-        4.1971958,
-        50.7910721
-      ],
-      [
-        4.1970593,
-        50.7913011
+        4.1976479,
+        50.7899822
       ]
     ]
   }
@@ -13045,6 +13040,7 @@
     "maxspeed": "50",
     "name": "Postweg",
     "oneway": "no",
+    "surface": "asphalt",
     "id": "way/39448944"
   },
   "geometry": {
@@ -13068,6 +13064,7 @@
     "bicycle": "yes",
     "foot": "yes",
     "highway": "path",
+    "surface": "compacted",
     "id": "way/39448947"
   },
   "geometry": {
@@ -13552,6 +13549,7 @@
   "properties": {
     "highway": "residential",
     "name": "Wolvenstraat",
+    "surface": "asphalt",
     "id": "way/40418139"
   },
   "geometry": {
@@ -13577,6 +13575,7 @@
   "id": "way/40418140",
   "properties": {
     "highway": "track",
+    "surface": "dirt",
     "id": "way/40418140"
   },
   "geometry": {
@@ -17556,6 +17555,7 @@
   "properties": {
     "highway": "track",
     "name": "Rooststraat",
+    "surface": "asphalt",
     "tracktype": "grade2",
     "id": "way/86115574"
   },
@@ -18462,7 +18462,7 @@
     "highway": "service",
     "name": "Koninklijke Wandeling",
     "service": "parking_aisle",
-    "surface": "ground",
+    "surface": "asphalt",
     "id": "way/101240169"
   },
   "geometry": {
@@ -19746,6 +19746,7 @@
   "properties": {
     "highway": "track",
     "name": "Ilingenstraat",
+    "surface": "compacted",
     "tracktype": "grade2",
     "id": "way/124602825"
   },
@@ -20005,6 +20006,7 @@
   "properties": {
     "highway": "residential",
     "name": "Doelestraat",
+    "surface": "asphalt",
     "id": "way/128049765"
   },
   "geometry": {
@@ -20097,18 +20099,15 @@
   "properties": {
     "highway": "residential",
     "name": "Ilingenstraat",
+    "surface": "asphalt",
     "id": "way/128206039"
   },
   "geometry": {
     "type": "LineString",
     "coordinates": [
       [
-        4.1622583,
-        50.7953818
-      ],
-      [
-        4.1622898,
-        50.7955378
+        4.1621513,
+        50.7956114
       ],
       [
         4.1616423,
@@ -20353,6 +20352,7 @@
     "motor_vehicle": "no",
     "name": "Koninklijke Wandeling",
     "service": "parking_aisle",
+    "surface": "asphalt",
     "id": "way/130922782"
   },
   "geometry": {
@@ -22698,6 +22698,7 @@
   "properties": {
     "highway": "track",
     "name": "Driekruisenstraat",
+    "surface": "compacted",
     "tracktype": "grade3",
     "id": "way/144716519"
   },
@@ -22741,6 +22742,7 @@
   "properties": {
     "highway": "track",
     "name": "Driekruisenstraat",
+    "surface": "compacted",
     "tracktype": "grade3",
     "id": "way/144716520"
   },
@@ -22812,6 +22814,7 @@
   "properties": {
     "highway": "track",
     "name": "Driekruisenstraat",
+    "surface": "compacted",
     "tracktype": "grade3",
     "id": "way/144716521"
   },
@@ -22846,6 +22849,7 @@
     "name": "Palokenstraat",
     "oneway": "yes",
     "oneway:bicycle": "no",
+    "surface": "asphalt",
     "id": "way/144716525"
   },
   "geometry": {
@@ -23587,23 +23591,12 @@
     "maxspeed": "30",
     "name": "Ilingenstraat",
     "source:maxspeed": "BE:zone30",
+    "surface": "concrete",
     "id": "way/150189824"
   },
   "geometry": {
     "type": "LineString",
     "coordinates": [
-      [
-        4.1608946,
-        50.7961336
-      ],
-      [
-        4.1605296,
-        50.7961354
-      ],
-      [
-        4.1604114,
-        50.7961484
-      ],
       [
         4.1592771,
         50.7962827
@@ -42444,6 +42437,98 @@
       [
         4.2293294,
         50.7877277
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1107240813",
+  "properties": {
+    "highway": "track",
+    "name": "Sint-Laureinsstraat",
+    "surface": "compacted",
+    "tracktype": "grade2",
+    "id": "way/1107240813"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.1976479,
+        50.7899822
+      ],
+      [
+        4.1975401,
+        50.7901416
+      ],
+      [
+        4.1971958,
+        50.7910721
+      ],
+      [
+        4.1970593,
+        50.7913011
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1107241388",
+  "properties": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Ilingenstraat",
+    "source:maxspeed": "BE:zone30",
+    "surface": "asphalt",
+    "id": "way/1107241388"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.1608946,
+        50.7961336
+      ],
+      [
+        4.1605296,
+        50.7961354
+      ],
+      [
+        4.1604114,
+        50.7961484
+      ],
+      [
+        4.1592771,
+        50.7962827
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1107241484",
+  "properties": {
+    "highway": "residential",
+    "name": "Ilingenstraat",
+    "surface": "sett",
+    "id": "way/1107241484"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.1622583,
+        50.7953818
+      ],
+      [
+        4.1622898,
+        50.7955378
+      ],
+      [
+        4.1621513,
+        50.7956114
       ]
     ]
   }
