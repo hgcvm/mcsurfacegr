@@ -3,7 +3,7 @@ name: Refresh geojson
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '27 5,7,9,11,13,15,17,19,21,23 * * *'
+    - cron:  '27 5 * * *'
 
 env:
   LANG: "nl_BE.UTF-8"
