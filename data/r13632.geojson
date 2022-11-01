@@ -1933,7 +1933,9 @@
   "id": "way/11990891",
   "properties": {
     "foot": "yes",
-    "highway": "cycleway",
+    "highway": "path",
+    "horse": "no",
+    "note": "bord uit de F99 serie : fiets + wandelaar",
     "oneway": "no",
     "surface": "asphalt",
     "width": "2",
@@ -28121,9 +28123,9 @@
   "type": "Feature",
   "id": "way/31113401",
   "properties": {
-    "created_by": "Potlatch 0.10f",
     "highway": "track",
     "surface": "unpaved",
+    "tracktype": "grade4",
     "id": "way/31113401"
   },
   "geometry": {
@@ -65955,8 +65957,15 @@
   "type": "Feature",
   "id": "way/297153745",
   "properties": {
-    "highway": "unclassified",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "track",
+    "horse": "yes",
+    "motor_vehicle": "destination",
     "name": "Donderheide",
+    "surface": "asphalt",
+    "tracktype": "grade1",
+    "width": "2.5",
     "id": "way/297153745"
   },
   "geometry": {
@@ -66459,6 +66468,8 @@
     "foot": "yes",
     "highway": "path",
     "name": "Nestje Van Den Bulckpad",
+    "note": "bord ui F99 serie wandel fiets ruiter; veel boomwortels overdwars, tot 9cm hoog.",
+    "smoothness": "bad",
     "surface": "unpaved",
     "id": "way/303800728"
   },
@@ -70013,6 +70024,7 @@
   "properties": {
     "foot": "yes",
     "highway": "cycleway",
+    "note": "bewandeld 2022.10.30 : alleen dit stuk is rond blauw fietsbord",
     "surface": "asphalt",
     "width": "2",
     "id": "way/352987856"
@@ -70020,10 +70032,6 @@
   "geometry": {
     "type": "LineString",
     "coordinates": [
-      [
-        4.569885,
-        51.0729142
-      ],
       [
         4.5685495,
         51.0723419
@@ -78988,7 +78996,10 @@
   "type": "Feature",
   "id": "way/480623117",
   "properties": {
+    "bicycle": "no",
     "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
     "id": "way/480623117"
   },
   "geometry": {
@@ -97636,6 +97647,28 @@
 },
 {
   "type": "Feature",
+  "id": "way/1083157165",
+  "properties": {
+    "highway": "unclassified",
+    "name": "Rue de l'Azeille",
+    "id": "way/1083157165"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.5516018,
+        50.1366938
+      ],
+      [
+        4.5516678,
+        50.1367024
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/1083972650",
   "properties": {
     "highway": "footway",
@@ -98104,6 +98137,30 @@
       [
         4.3173877,
         50.7870151
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1108616515",
+  "properties": {
+    "foot": "yes",
+    "highway": "unclassified",
+    "surface": "asphalt",
+    "width": "2",
+    "id": "way/1108616515"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.569885,
+        51.0729142
+      ],
+      [
+        4.5685495,
+        51.0723419
       ]
     ]
   }
