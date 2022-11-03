@@ -40,8 +40,7 @@ echo '<!DOCTYPE html> <html lang="nl"> <head> <title> Grote Routepaden Mapcomple
 sort -g tmp.csv | awk -F ";" '{print "<tr><td>"$2"</td><td>"$3"%</td><td><a href=\"https://mapcomplete.osm.be?z=9&lat=50.70689&lon=4.295654&userlayout=https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/data/r"$2".json\">"$1"</a></td></tr>"}' >> html/overview.html
 echo "<tr><td>Gemiddeld</td><td>$GEMIDDELDPERC%</td><td></td></table><br><br>" >> html/overview.html
 echo '<b>Kwaliteitscontrole</b><br><a href="https://mapcomplete.osm.be/?mode=statistics&filter-theme-search=%7B%22search%22%3A%22hgcvm%22%7D&filter-theme-search-search=hgcvm">Mapcomplete statistics</a><br><a href="https://osmcha.org/?aoi=959b2cad-4737-4d98-a644-c2fc80dad1d6">Osmcha filter</a><br>' >> html/overview.html
-echo -n 'Laatste update: '>> html/overview.html && TZ='Europe/Brussels' date >> html/overview.html && echo '</body></html>' >> html/overview.html
-echo -n 'Vragen of opmerking welkom via een <a href=https://www.openstreetmap.org/message/new/s8evq>OpenStreetMap bericht</a>' >> html/overview.html
+echo -n 'Laatste update: '>> html/overview.html && TZ='Europe/Brussels' date >> html/overview.html && echo 'Vragen of opmerking welkom via een <a href=https://www.openstreetmap.org/message/new/s8evq>OpenStreetMap bericht</a></body></html>' >> html/overview.html
 
 # cleanup
 rm data/r*.osm
