@@ -122,8 +122,10 @@
   "id": "way/7216241",
   "properties": {
     "highway": "unclassified",
+    "maxspeed": "60",
     "name": "Heikant",
     "surface": "asphalt",
+    "zone:traffic": "NL:rural",
     "id": "way/7216241"
   },
   "geometry": {
@@ -153,8 +155,10 @@
   "id": "way/7216245",
   "properties": {
     "highway": "unclassified",
+    "maxspeed": "60",
     "name": "Groot Bedaf",
     "surface": "paved",
+    "zone:traffic": "NL:rural",
     "id": "way/7216245"
   },
   "geometry": {
@@ -245,8 +249,10 @@
   "properties": {
     "cycleway": "lane",
     "highway": "secondary",
+    "maxspeed": "60",
     "name": "Groot Bedaf",
     "surface": "asphalt",
+    "zone:traffic": "NL:rural",
     "id": "way/7216253"
   },
   "geometry": {
@@ -296,8 +302,10 @@
   "id": "way/7217082",
   "properties": {
     "highway": "unclassified",
+    "maxspeed": "60",
     "name": "Heikant",
     "surface": "asphalt",
+    "zone:traffic": "NL:rural",
     "id": "way/7217082"
   },
   "geometry": {
@@ -344,6 +352,7 @@
   "properties": {
     "highway": "track",
     "surface": "unpaved",
+    "zone:traffic": "NL:rural",
     "id": "way/7217115"
   },
   "geometry": {
@@ -398,40 +407,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/7217117",
-  "properties": {
-    "highway": "unclassified",
-    "name": "Keizershoek",
-    "id": "way/7217117"
-  },
-  "geometry": {
-    "type": "LineString",
-    "coordinates": [
-      [
-        4.9542799,
-        51.4418717
-      ],
-      [
-        4.9540652,
-        51.44204
-      ],
-      [
-        4.95391,
-        51.4421
-      ],
-      [
-        4.95334,
-        51.44231
-      ],
-      [
-        4.9531873,
-        51.4423979
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/7217255",
   "properties": {
     "highway": "tertiary",
@@ -441,6 +416,7 @@
     "maxweight:conditional": "none @ destination",
     "name": "Kapelstraat",
     "surface": "asphalt",
+    "zone:traffic": "BE-VLG:urban",
     "id": "way/7217255"
   },
   "geometry": {
@@ -475,12 +451,16 @@
         51.4420422
       ],
       [
-        4.9357752,
-        51.4420722
+        4.9358129,
+        51.4420787
       ],
       [
-        4.9348909,
-        51.4420963
+        4.9349013,
+        51.4421045
+      ],
+      [
+        4.9342812,
+        51.4421181
       ],
       [
         4.933861,
@@ -722,6 +702,7 @@
     "oneway:bicycle": "no",
     "source": "survey",
     "surface": "paving_stones",
+    "zone:traffic": "BE-VLG:urban",
     "id": "way/24562417"
   },
   "geometry": {
@@ -1026,6 +1007,7 @@
     "source": "survey",
     "surface": "sand",
     "tracktype": "grade4",
+    "zone:traffic": "NL:rural",
     "id": "way/87772255"
   },
   "geometry": {
@@ -3586,6 +3568,7 @@
     "old_ref": "N119",
     "source": "survey",
     "surface": "paved",
+    "zone:traffic": "BE-VLG:urban",
     "id": "way/338444307"
   },
   "geometry": {
@@ -3619,8 +3602,10 @@
   "id": "way/341636965",
   "properties": {
     "highway": "unclassified",
+    "maxspeed": "60",
     "name": "Keizershoek",
     "surface": "asphalt",
+    "zone:traffic": "NL:rural",
     "id": "way/341636965"
   },
   "geometry": {
@@ -3645,6 +3630,22 @@
       [
         4.9542799,
         51.4418717
+      ],
+      [
+        4.9540652,
+        51.44204
+      ],
+      [
+        4.95391,
+        51.4421
+      ],
+      [
+        4.95334,
+        51.44231
+      ],
+      [
+        4.9531873,
+        51.4423979
       ]
     ]
   }
@@ -3654,8 +3655,10 @@
   "id": "way/341636968",
   "properties": {
     "highway": "track",
+    "maxspeed": "60",
     "surface": "sand",
     "tracktype": "grade4",
+    "zone:traffic": "NL:rural",
     "id": "way/341636968"
   },
   "geometry": {
@@ -3828,6 +3831,7 @@
     "source": "survey",
     "surface": "sand",
     "tracktype": "grade4",
+    "zone:traffic": "NL:rural",
     "id": "way/341636971"
   },
   "geometry": {
@@ -3877,6 +3881,7 @@
     "sidewalk": "both",
     "source": "survey",
     "surface": "paving_stones",
+    "zone:traffic": "BE-VLG:urban",
     "id": "way/344991357"
   },
   "geometry": {
@@ -6298,12 +6303,13 @@
   "id": "way/619857564",
   "properties": {
     "highway": "cycleway",
-    "mofa": "yes",
-    "moped": "yes",
+    "mofa": "designated",
+    "moped": "designated",
     "name": "Nijhoven",
     "oneway": "yes",
     "surface": "asphalt",
     "traffic_sign": "NL:G12a",
+    "zone:traffic": "NL:rural",
     "id": "way/619857564"
   },
   "geometry": {
@@ -6406,16 +6412,8 @@
         51.4409587
       ],
       [
-        4.9450015,
-        51.4412876
-      ],
-      [
-        4.9448492,
-        51.4413726
-      ],
-      [
-        4.9445011,
-        51.4415319
+        4.9449779,
+        51.4413029
       ]
     ]
   }
@@ -6425,8 +6423,10 @@
   "id": "way/665051496",
   "properties": {
     "highway": "unclassified",
+    "maxspeed": "80",
     "name": "Akkers",
     "surface": "asphalt",
+    "zone:traffic": "NL:rural",
     "id": "way/665051496"
   },
   "geometry": {
@@ -6603,12 +6603,13 @@
   "id": "way/679503875",
   "properties": {
     "highway": "cycleway",
-    "mofa": "yes",
-    "moped": "yes",
+    "mofa": "designated",
+    "moped": "designated",
     "name": "Visweg",
     "oneway": "yes",
     "surface": "paving_stones",
     "traffic_sign": "NL:G12a",
+    "zone:traffic": "NL:urban",
     "id": "way/679503875"
   },
   "geometry": {
@@ -6630,12 +6631,13 @@
   "id": "way/679503876",
   "properties": {
     "highway": "cycleway",
-    "mofa": "yes",
-    "moped": "yes",
+    "mofa": "designated",
+    "moped": "designated",
     "name": "Kapelstraat",
     "oneway": "yes",
     "surface": "paving_stones",
     "traffic_sign": "NL:G12a",
+    "zone:traffic": "NL:urban",
     "id": "way/679503876"
   },
   "geometry": {
@@ -6661,12 +6663,13 @@
   "id": "way/679503880",
   "properties": {
     "highway": "cycleway",
-    "mofa": "yes",
-    "moped": "yes",
+    "mofa": "designated",
+    "moped": "designated",
     "name": "Kapelstraat",
     "oneway": "yes",
     "surface": "paving_stones",
     "traffic_sign": "NL:G12a",
+    "zone:traffic": "NL:urban",
     "id": "way/679503880"
   },
   "geometry": {
@@ -6692,12 +6695,13 @@
   "id": "way/679503883",
   "properties": {
     "highway": "cycleway",
-    "mofa": "yes",
-    "moped": "yes",
+    "mofa": "designated",
+    "moped": "designated",
     "name": "Visweg",
     "oneway": "yes",
     "surface": "paving_stones",
     "traffic_sign": "NL:G12a",
+    "zone:traffic": "NL:urban",
     "id": "way/679503883"
   },
   "geometry": {
@@ -6719,9 +6723,11 @@
   "id": "way/685523851",
   "properties": {
     "highway": "unclassified",
+    "maxspeed": "80",
     "name": "Akkers",
     "source": "survey",
     "surface": "paving_stones",
+    "zone:traffic": "NL:rural",
     "id": "way/685523851"
   },
   "geometry": {
@@ -7491,6 +7497,7 @@
     "maxweight:conditional": "none @ destination",
     "name": "Kapelstraat",
     "surface": "asphalt",
+    "zone:traffic": "BE-VLG:urban",
     "id": "way/959776559"
   },
   "geometry": {
@@ -7551,6 +7558,7 @@
     "old_ref": "N119",
     "source": "survey",
     "surface": "paved",
+    "zone:traffic": "BE-VLG:urban",
     "id": "way/959776561"
   },
   "geometry": {
@@ -7789,6 +7797,7 @@
     "maxspeed:type": "sign",
     "name": "Kapelstraat",
     "surface": "asphalt",
+    "zone:traffic": "NL:urban",
     "id": "way/1007648909"
   },
   "geometry": {
@@ -8033,18 +8042,23 @@
     "maxweight:conditional": "none @ destination",
     "name": "Kapelstraat",
     "surface": "asphalt",
+    "zone:traffic": "BE-VLG:urban",
     "id": "way/1057852941"
   },
   "geometry": {
     "type": "LineString",
     "coordinates": [
       [
-        4.9407206,
-        51.4417999
+        4.9402669,
+        51.4418088
       ],
       [
-        4.9388835,
-        51.4418561
+        4.9401047,
+        51.4418135
+      ],
+      [
+        4.9397293,
+        51.4418268
       ]
     ]
   }
@@ -8060,6 +8074,7 @@
     "maxweight:conditional": "none @ destination",
     "name": "Kapelstraat",
     "surface": "asphalt",
+    "zone:traffic": "NL:urban",
     "id": "way/1057852942"
   },
   "geometry": {
@@ -8148,6 +8163,122 @@
       [
         5.0139049,
         51.363654
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1109877066",
+  "properties": {
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "maxspeed:type": "sign",
+    "maxweight": "3.5",
+    "maxweight:conditional": "none @ destination",
+    "name": "Kapelstraat",
+    "surface": "asphalt",
+    "zone:traffic": "NL:urban",
+    "id": "way/1109877066"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.9407206,
+        51.4417999
+      ],
+      [
+        4.9402669,
+        51.4418088
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1109877067",
+  "properties": {
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "maxspeed:type": "sign",
+    "maxweight": "3.5",
+    "maxweight:conditional": "none @ destination",
+    "name": "Kapelstraat",
+    "surface": "asphalt",
+    "zone:traffic": "BE-VLG:urban",
+    "id": "way/1109877067"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.9395194,
+        51.4418338
+      ],
+      [
+        4.9388835,
+        51.4418561
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1109877068",
+  "properties": {
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "maxspeed:type": "sign",
+    "maxweight": "3.5",
+    "maxweight:conditional": "none @ destination",
+    "name": "Kapelstraat",
+    "surface": "asphalt",
+    "zone:traffic": "NL:urban",
+    "id": "way/1109877068"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.9397293,
+        51.4418268
+      ],
+      [
+        4.9395194,
+        51.4418338
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1109877796",
+  "properties": {
+    "highway": "cycleway",
+    "mofa": "designated",
+    "moped": "designated",
+    "name": "Nijhoven",
+    "oneway": "yes",
+    "surface": "asphalt",
+    "traffic_sign": "NL:G12a",
+    "zone:traffic": "NL:urban",
+    "id": "way/1109877796"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.9449779,
+        51.4413029
+      ],
+      [
+        4.9448492,
+        51.4413726
+      ],
+      [
+        4.9445011,
+        51.4415319
       ]
     ]
   }

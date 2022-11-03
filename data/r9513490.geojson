@@ -7,7 +7,9 @@
   "properties": {
     "highway": "cycleway",
     "mofa": "no",
+    "moped": "no",
     "name": "Belslijntje",
+    "oneway": "no",
     "railway": "abandoned",
     "ref": "29",
     "surface": "asphalt",
@@ -73,57 +75,29 @@
 },
 {
   "type": "Feature",
-  "id": "way/7216702",
-  "properties": {
-    "highway": "cycleway",
-    "image": "https://images.mapillary.com/PaRm4o2Zeihhweqll8usfi/thumb-2048.jpg",
-    "mapillary": "318095503177848",
-    "mofa": "no",
-    "moped": "no",
-    "name": "Belslijntje",
-    "railway": "abandoned",
-    "ref": "29",
-    "surface": "asphalt",
-    "traffic_sign": "NL:G13",
-    "id": "way/7216702"
-  },
-  "geometry": {
-    "type": "LineString",
-    "coordinates": [
-      [
-        4.9265747,
-        51.4477572
-      ],
-      [
-        4.9265911,
-        51.4480723
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/7216940",
   "properties": {
     "highway": "cycleway",
     "mofa": "no",
     "moped": "no",
     "name": "Belslijntje",
+    "oneway": "no",
     "ref": "29",
     "surface": "asphalt",
     "traffic_sign": "NL:G13",
+    "zone:traffic": "NL:urban",
     "id": "way/7216940"
   },
   "geometry": {
     "type": "LineString",
     "coordinates": [
       [
-        4.9269005,
-        51.444048
+        4.9269043,
+        51.4440465
       ],
       [
-        4.9269237,
-        51.4440723
+        4.926927,
+        51.4440714
       ],
       [
         4.9269543,
@@ -158,8 +132,8 @@
         51.4453005
       ],
       [
-        4.9268177,
-        51.4453357
+        4.9268182,
+        51.4453325
       ]
     ]
   }
@@ -168,7 +142,7 @@
   "type": "Feature",
   "id": "way/7216957",
   "properties": {
-    "highway": "unclassified",
+    "highway": "residential",
     "maxspeed": "30",
     "maxweight": "3.5",
     "maxweight:conditional": "none @ destination",
@@ -176,6 +150,7 @@
     "oneway": "yes",
     "oneway:bicycle": "no",
     "surface": "paving_stones",
+    "zone:traffic": "NL:urban",
     "id": "way/7216957"
   },
   "geometry": {
@@ -204,6 +179,7 @@
     "mofa": "no",
     "moped": "no",
     "name": "Belslijntje",
+    "oneway": "no",
     "railway": "abandoned",
     "ref": "29",
     "surface": "asphalt",
@@ -237,21 +213,24 @@
   "id": "way/7217006",
   "properties": {
     "highway": "cycleway",
+    "mapillary": "318095503177848",
     "mofa": "no",
     "moped": "no",
     "name": "Belslijntje",
+    "oneway": "no",
     "railway": "abandoned",
     "ref": "29",
     "surface": "asphalt",
     "traffic_sign": "NL:G13",
+    "zone:traffic": "NL:urban",
     "id": "way/7217006"
   },
   "geometry": {
     "type": "LineString",
     "coordinates": [
       [
-        4.9268177,
-        51.4453357
+        4.9267863,
+        51.4454956
       ],
       [
         4.9267521,
@@ -280,6 +259,10 @@
       [
         4.9265747,
         51.4477572
+      ],
+      [
+        4.9265911,
+        51.4480723
       ]
     ]
   }
@@ -294,6 +277,7 @@
     "maxweight:conditional": "none @ destination",
     "name": "Nieuwstraat",
     "surface": "paved",
+    "zone:traffic": "NL:urban",
     "id": "way/7217264"
   },
   "geometry": {
@@ -335,14 +319,15 @@
     "name": "Nieuwstraat",
     "oneway": "yes",
     "surface": "paved",
+    "zone:traffic": "NL:urban",
     "id": "way/7217270"
   },
   "geometry": {
     "type": "LineString",
     "coordinates": [
       [
-        4.9274928,
-        51.4438135
+        4.9274886,
+        51.4438094
       ],
       [
         4.9273569,
@@ -364,6 +349,7 @@
     "name": "Chaamseweg",
     "oneway": "yes",
     "surface": "paved",
+    "zone:traffic": "NL:urban",
     "id": "way/7217277"
   },
   "geometry": {
@@ -374,8 +360,8 @@
         51.4439741
       ],
       [
-        4.9269005,
-        51.444048
+        4.9269043,
+        51.4440465
       ]
     ]
   }
@@ -391,6 +377,7 @@
     "maxweight:conditional": "none @ destination",
     "name": "Nieuwstraat",
     "surface": "paved",
+    "zone:traffic": "NL:urban",
     "id": "way/7217300"
   },
   "geometry": {
@@ -6492,7 +6479,6 @@
   "type": "Feature",
   "id": "way/467736090",
   "properties": {
-    "footway": "sidewalk",
     "highway": "footway",
     "id": "way/467736090"
   },
@@ -7122,6 +7108,7 @@
     "maxspeed": "60",
     "motor_vehicle": "destination",
     "name": "Boschoven",
+    "zone:traffic": "NL:rural",
     "id": "way/665055104"
   },
   "geometry": {
@@ -7398,6 +7385,7 @@
     "mofa": "no",
     "moped": "no",
     "name": "Belslijntje",
+    "oneway": "no",
     "railway": "abandoned",
     "ref": "29",
     "surface": "asphalt",
@@ -7576,6 +7564,7 @@
     "maxspeed": "30",
     "name": "Nieuwstraat",
     "surface": "paved",
+    "zone:traffic": "BE-VLG:urban",
     "id": "way/1057847861"
   },
   "geometry": {
@@ -7590,8 +7579,8 @@
         51.4436342
       ],
       [
-        4.9274928,
-        51.4438135
+        4.9274886,
+        51.4438094
       ]
     ]
   }
@@ -7617,6 +7606,37 @@
       [
         4.8001706,
         51.4963778
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1109875350",
+  "properties": {
+    "highway": "cycleway",
+    "mapillary": "318095503177848",
+    "mofa": "no",
+    "moped": "no",
+    "name": "Belslijntje",
+    "oneway": "no",
+    "railway": "abandoned",
+    "ref": "29",
+    "surface": "asphalt",
+    "traffic_sign": "NL:G13",
+    "zone:traffic": "BE-VLG:urban",
+    "id": "way/1109875350"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.9268182,
+        51.4453325
+      ],
+      [
+        4.9267863,
+        51.4454956
       ]
     ]
   }
