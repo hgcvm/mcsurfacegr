@@ -442,6 +442,7 @@
   "id": "way/22795161",
   "properties": {
     "highway": "path",
+    "surface": "asphalt",
     "id": "way/22795161"
   },
   "geometry": {
@@ -474,6 +475,7 @@
     "highway": "residential",
     "lit": "yes",
     "name": "Volhardingstraat",
+    "parking:lane:both": "no",
     "sidewalk": "both",
     "surface": "asphalt",
     "id": "way/22795303"
@@ -570,6 +572,9 @@
     "highway": "residential",
     "name": "Floris Primsstraat",
     "name:etymology:wikidata": "Q1809244",
+    "parking:lane:both": "parallel",
+    "parking:lane:both:parallel": "street_side",
+    "surface": "asphalt",
     "id": "way/22868162"
   },
   "geometry": {
@@ -1304,8 +1309,11 @@
   "id": "way/24479204",
   "properties": {
     "highway": "residential",
+    "lit": "yes",
     "maxspeed": "30",
     "name": "Eric Sasselaan",
+    "parking:lane:both": "parallel",
+    "parking:lane:both:parallel": "on_street",
     "surface": "sett",
     "id": "way/24479204"
   },
@@ -2677,6 +2685,7 @@
   "properties": {
     "highway": "service",
     "motor_vehicle": "no",
+    "surface": "pebblestone",
     "id": "way/24700778"
   },
   "geometry": {
@@ -2706,7 +2715,8 @@
   "id": "way/24700791",
   "properties": {
     "highway": "footway",
-    "surface": "unpaved",
+    "lit": "yes",
+    "surface": "pebblestone",
     "id": "way/24700791"
   },
   "geometry": {
@@ -2744,7 +2754,8 @@
   "id": "way/24700868",
   "properties": {
     "highway": "footway",
-    "surface": "unpaved",
+    "lit": "yes",
+    "surface": "pebblestone",
     "id": "way/24700868"
   },
   "geometry": {
@@ -8770,6 +8781,7 @@
     "highway": "living_street",
     "lit": "yes",
     "noname": "yes",
+    "parking:lane:both": "no",
     "surface": "paving_stones",
     "id": "way/933293126"
   },
@@ -8861,6 +8873,7 @@
     "moped": "no",
     "name": "Ringfietspad",
     "oneway": "no",
+    "segregated": "no",
     "surface": "asphalt",
     "id": "way/933293129"
   },

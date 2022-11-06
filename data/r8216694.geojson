@@ -10,7 +10,7 @@
     "highway": "tertiary",
     "lane_markings": "no",
     "name": "Henri Torleylaan",
-    "official name": "H. Torleylaan",
+    "official_name": "H. Torleylaan",
     "oneway": "yes",
     "surface": "asphalt",
     "id": "way/40769707"
@@ -50,7 +50,8 @@
     "layer": "-1",
     "maxspeed": "30",
     "name": "Henri Torleylaan",
-    "official name": "H. Torleylaan",
+    "official_name": "H. Torleylaan",
+    "source:maxspeed": "BE:zone30",
     "tunnel": "yes",
     "id": "way/44349256"
   },
@@ -74,19 +75,18 @@
   "properties": {
     "alt_name": "Henry Torleylaan",
     "cycleway": "track",
+    "cycleway:surface": "paving_stones",
     "highway": "tertiary",
+    "lit": "yes",
     "maxspeed": "50",
     "name": "Henri Torleylaan",
-    "official name": "H. Torleylaan",
+    "official_name": "H. Torleylaan",
+    "surface": "asphalt",
     "id": "way/44349257"
   },
   "geometry": {
     "type": "LineString",
     "coordinates": [
-      [
-        4.2777624,
-        50.7441975
-      ],
       [
         4.277899,
         50.7439757
@@ -102,6 +102,10 @@
       [
         4.2785245,
         50.7427399
+      ],
+      [
+        4.2785581,
+        50.7426291
       ],
       [
         4.2786239,
@@ -129,8 +133,10 @@
     "bicycle": "designated",
     "foot": "designated",
     "highway": "path",
+    "lit": "yes",
     "name": "Pretersblok",
     "segregated": "no",
+    "surface": "paving_stones",
     "id": "way/91611577"
   },
   "geometry": {
@@ -237,9 +243,12 @@
   "properties": {
     "alt_name": "Henry Torleylaan",
     "highway": "tertiary",
+    "lit": "yes",
     "maxspeed": "30",
     "name": "Henri Torleylaan",
-    "official name": "H. Torleylaan",
+    "official_name": "H. Torleylaan",
+    "sidewalk": "both",
+    "source:maxspeed": "BE:zone30",
     "surface": "asphalt",
     "id": "way/145171122"
   },
@@ -273,18 +282,6 @@
       [
         4.2773236,
         50.744991
-      ],
-      [
-        4.2773345,
-        50.7449713
-      ],
-      [
-        4.2773835,
-        50.7448828
-      ],
-      [
-        4.2774587,
-        50.7447578
       ]
     ]
   }
@@ -374,7 +371,8 @@
     "maxweight": "2.5",
     "maxweight:conditional": "none @ destination",
     "name": "Henri Torleylaan",
-    "official name": "H. Torleylaan",
+    "official_name": "H. Torleylaan",
+    "source:maxspeed": "BE:zone30",
     "surface": "asphalt",
     "id": "way/580743741"
   },
@@ -397,6 +395,7 @@
   "id": "way/580743742",
   "properties": {
     "highway": "residential",
+    "lit": "yes",
     "maxspeed": "30",
     "name": "Pretersblok",
     "surface": "sett",
@@ -521,6 +520,127 @@
       [
         4.2763687,
         50.7381395
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1110488538",
+  "properties": {
+    "alt_name": "Henry Torleylaan",
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "Henri Torleylaan",
+    "official_name": "H. Torleylaan",
+    "source:maxspeed": "BE:zone30",
+    "surface": "paving_stones",
+    "traffic_calming": "table",
+    "id": "way/1110488538"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.2773236,
+        50.744991
+      ],
+      [
+        4.2773345,
+        50.7449713
+      ],
+      [
+        4.2773835,
+        50.7448828
+      ],
+      [
+        4.2774126,
+        50.744836
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1110488539",
+  "properties": {
+    "alt_name": "Henry Torleylaan",
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "Henri Torleylaan",
+    "official_name": "H. Torleylaan",
+    "source:maxspeed": "BE:zone30",
+    "surface": "asphalt",
+    "id": "way/1110488539"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.2774126,
+        50.744836
+      ],
+      [
+        4.2774587,
+        50.7447578
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1110488540",
+  "properties": {
+    "alt_name": "Henry Torleylaan",
+    "cycleway": "track",
+    "cycleway:surface": "paving_stones",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Henri Torleylaan",
+    "official_name": "H. Torleylaan",
+    "surface": "asphalt",
+    "id": "way/1110488540"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.2778337,
+        50.7440807
+      ],
+      [
+        4.277899,
+        50.7439757
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1110488541",
+  "properties": {
+    "alt_name": "Henry Torleylaan",
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Henri Torleylaan",
+    "official_name": "H. Torleylaan",
+    "source:maxspeed": "BE:zone30",
+    "surface": "asphalt",
+    "id": "way/1110488541"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.2777624,
+        50.7441975
+      ],
+      [
+        4.2778337,
+        50.7440807
       ]
     ]
   }

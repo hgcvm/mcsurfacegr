@@ -299,6 +299,8 @@
     "name": "Haantjeslei",
     "oneway": "yes",
     "oneway:bicycle": "no",
+    "parking:lane:both": "parallel",
+    "parking:lane:both:parallel": "on_street",
     "sidewalk": "both",
     "surface": "asphalt",
     "id": "way/4480931"
@@ -364,6 +366,9 @@
     "name": "Van Trierstraat",
     "oneway": "yes",
     "oneway:bicycle": "no",
+    "parking:lane:left": "no",
+    "parking:lane:right": "parallel",
+    "parking:lane:right:parallel": "on_kerb",
     "sidewalk": "both",
     "surface": "asphalt",
     "id": "way/4480933"
@@ -1468,6 +1473,9 @@
     "name": "Van Putlei",
     "oneway": "yes",
     "oneway:bicycle": "no",
+    "parking:lane:both": "parallel",
+    "parking:lane:both:parallel": "on_street",
+    "sidewalk": "both",
     "surface": "asphalt",
     "id": "way/24467991"
   },
@@ -1507,6 +1515,10 @@
     "name": "Bosmanslei",
     "oneway": "yes",
     "oneway:bicycle": "no",
+    "parking:lane:both": "parallel",
+    "parking:lane:both:parallel": "on_street",
+    "sidewalk": "both",
+    "surface": "asphalt",
     "id": "way/24468190"
   },
   "geometry": {
@@ -1538,6 +1550,8 @@
     "name": "Arthur Goemaerelei",
     "oneway": "yes",
     "oneway:bicycle": "no",
+    "parking:lane:both": "parallel",
+    "parking:lane:both:parallel": "on_street",
     "sidewalk": "both",
     "surface": "asphalt",
     "id": "way/24468429"
@@ -1579,6 +1593,9 @@
     "highway": "residential",
     "maxspeed": "30",
     "name": "Eric Sasselaan",
+    "parking:lane:left": "no",
+    "parking:lane:right": "parallel",
+    "parking:lane:right:parallel": "on_street",
     "sidewalk": "both",
     "surface": "sett",
     "id": "way/24479213"
@@ -3148,7 +3165,7 @@
     "incline": "0%",
     "layer": "1",
     "oneway": "yes",
-    "surface": "paved",
+    "surface": "paving_stones",
     "width": "1.5",
     "id": "way/316142319"
   },
@@ -3355,6 +3372,7 @@
   "id": "way/489598240",
   "properties": {
     "highway": "path",
+    "surface": "paving_stones",
     "id": "way/489598240"
   },
   "geometry": {
@@ -4062,6 +4080,8 @@
     "maxspeed": "30",
     "maxspeed:zone": "yes",
     "name": "Paleisstraat",
+    "parking:lane:both": "parallel",
+    "parking:lane:both:parallel": "on_kerb",
     "sidewalk": "both",
     "surface": "asphalt",
     "id": "way/783234911"
@@ -4384,6 +4404,9 @@
     "maxspeed": "50",
     "maxspeed:default": "built-up_area",
     "name": "Bresstraat",
+    "parking:lane:left": "no",
+    "parking:lane:right": "parallel",
+    "parking:lane:right:parallel": "on_kerb",
     "surface": "asphalt",
     "id": "way/863062021"
   },
@@ -4692,6 +4715,7 @@
     "maxspeed": "30",
     "maxspeed:zone": "yes",
     "name": "Markgravelei",
+    "parking:lane:both": "no",
     "service": "alley",
     "sidewalk": "no",
     "surface": "sett",
@@ -4721,6 +4745,8 @@
     "maxspeed": "30",
     "maxspeed:zone": "yes",
     "name": "Markgravelei",
+    "parking:lane:both": "parallel",
+    "parking:lane:both:parallel": "street_side",
     "sidewalk": "both",
     "surface": "asphalt",
     "id": "way/933298088"
@@ -4755,6 +4781,7 @@
     "junction": "roundabout",
     "maxspeed": "30",
     "maxspeed:zone": "yes",
+    "sidewalk": "both",
     "surface": "asphalt",
     "id": "way/933298089"
   },
@@ -4866,6 +4893,7 @@
   "properties": {
     "highway": "cycleway",
     "oneway": "no",
+    "surface": "paving_stones",
     "id": "way/933298094"
   },
   "geometry": {
@@ -4891,6 +4919,7 @@
   "id": "way/933298095",
   "properties": {
     "highway": "cycleway",
+    "surface": "paving_stones",
     "id": "way/933298095"
   },
   "geometry": {

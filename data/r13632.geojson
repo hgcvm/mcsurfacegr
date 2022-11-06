@@ -4281,14 +4281,16 @@
   "type": "Feature",
   "id": "way/23191974",
   "properties": {
-    "access": "destination",
+    "bicycle": "yes",
     "flood_prone": "yes",
     "highway": "residential",
     "lanes": "1",
-    "layer": "1",
+    "maxspeed": "30",
     "name": "Beling",
     "oneway": "yes",
+    "source:maxspeed": "BE:zone30",
     "surface": "asphalt",
+    "vehicle": "destination",
     "id": "way/23191974"
   },
   "geometry": {
@@ -28436,8 +28438,8 @@
     "type": "LineString",
     "coordinates": [
       [
-        4.3629562,
-        50.8551289
+        4.3629434,
+        50.8551258
       ],
       [
         4.3629246,
@@ -39321,27 +39323,16 @@
     "highway": "residential",
     "lane_markings": "no",
     "lit": "yes",
-    "maxspeed": "50",
+    "maxspeed": "30",
     "name": "Molenbeekstraat",
     "sidewalk": "none",
+    "source:maxspeed": "BE:zone30",
     "surface": "asphalt",
     "id": "way/39445529"
   },
   "geometry": {
     "type": "LineString",
     "coordinates": [
-      [
-        4.3025839,
-        50.7311292
-      ],
-      [
-        4.3023771,
-        50.7312084
-      ],
-      [
-        4.3022342,
-        50.7312545
-      ],
       [
         4.3021821,
         50.7312809
@@ -39628,6 +39619,8 @@
   "id": "way/39446411",
   "properties": {
     "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "50",
     "name": "Wortelenberg",
     "surface": "cobblestone",
     "id": "way/39446411"
@@ -81219,7 +81212,9 @@
   "id": "way/579469602",
   "properties": {
     "highway": "residential",
+    "maxspeed": "30",
     "name": "Molenbeekstraat",
+    "source:maxspeed": "BE:zone30",
     "surface": "fine_gravel",
     "id": "way/579469602"
   },
@@ -86379,12 +86374,20 @@
         50.8551726
       ],
       [
-        4.3630503,
-        50.8551507
+        4.3630536,
+        50.8551511
       ],
       [
-        4.3629562,
-        50.8551289
+        4.3630128,
+        50.8551415
+      ],
+      [
+        4.3629618,
+        50.8551299
+      ],
+      [
+        4.3629434,
+        50.8551258
       ]
     ]
   }
@@ -98161,6 +98164,42 @@
       [
         4.5685495,
         51.0723419
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1110488528",
+  "properties": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Molenbeekstraat",
+    "sidewalk": "none",
+    "surface": "asphalt",
+    "id": "way/1110488528"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.3025839,
+        50.7311292
+      ],
+      [
+        4.3023771,
+        50.7312084
+      ],
+      [
+        4.3022342,
+        50.7312545
+      ],
+      [
+        4.3021821,
+        50.7312809
       ]
     ]
   }
