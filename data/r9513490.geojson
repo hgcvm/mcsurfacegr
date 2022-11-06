@@ -734,8 +734,9 @@
   "type": "Feature",
   "id": "way/7230866",
   "properties": {
-    "cycleway": "shared_lane",
+    "cycleway:both": "track",
     "highway": "tertiary",
+    "lane_markings": "no",
     "maxspeed": "60",
     "name": "Hoogstratensebaan",
     "surface": "asphalt",
@@ -1153,12 +1154,14 @@
   "type": "Feature",
   "id": "way/25825758",
   "properties": {
-    "cycleway": "shared_lane",
+    "cycleway:both": "track",
     "highway": "tertiary",
+    "lane_markings": "no",
     "maxspeed": "70",
     "maxweight": "3.5",
     "maxweight:conditional": "none @ delivery",
     "name": "Castelréweg",
+    "surface": "asphalt",
     "id": "way/25825758"
   },
   "geometry": {
@@ -2479,6 +2482,7 @@
   "type": "Feature",
   "id": "way/70042269",
   "properties": {
+    "cycleway:both": "no",
     "highway": "unclassified",
     "lanes": "1",
     "maxspeed": "50",
@@ -2983,8 +2987,10 @@
     "highway": "tertiary",
     "layer": "1",
     "maxspeed": "70",
+    "maxweight:signed": "no",
     "name": "Castelréweg",
     "priority": "forward",
+    "surface": "asphalt",
     "id": "way/74002475"
   },
   "geometry": {
@@ -3696,6 +3702,7 @@
     "bicycle": "yes",
     "highway": "footway",
     "name": "Oude Voetweg Kapelweg",
+    "surface": "compacted",
     "id": "way/151087198"
   },
   "geometry": {
@@ -3913,12 +3920,15 @@
   "type": "Feature",
   "id": "way/199874777",
   "properties": {
+    "cycleway:both": "no",
     "highway": "residential",
+    "lane_markings": "no",
     "maxspeed": "50",
     "maxweight": "3.5",
     "maxweight:conditional": "none @ destination",
     "motor_vehicle": "destination",
     "name": "Castelréweg",
+    "surface": "asphalt",
     "id": "way/199874777"
   },
   "geometry": {
@@ -6368,7 +6378,9 @@
   "type": "Feature",
   "id": "way/404228798",
   "properties": {
+    "cycleway:both": "no",
     "highway": "unclassified",
+    "lane_markings": "no",
     "maxspeed": "50",
     "maxwidth": "3",
     "name": "Molenstraat",
@@ -6398,12 +6410,14 @@
   "type": "Feature",
   "id": "way/405301505",
   "properties": {
-    "cycleway": "shared_lane",
+    "cycleway:both": "track",
     "highway": "tertiary",
+    "lane_markings": "no",
     "maxspeed": "50",
     "maxweight": "3.5",
     "maxweight:conditional": "none @ delivery",
     "name": "Castelréweg",
+    "surface": "asphalt",
     "zone:traffic": "BE-VLG:urban",
     "id": "way/405301505"
   },
@@ -6433,6 +6447,7 @@
     "highway": "tertiary",
     "maxspeed": "60",
     "name": "Hoogstratensebaan",
+    "surface": "asphalt",
     "traffic_calming": "table",
     "id": "way/405301507"
   },

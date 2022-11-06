@@ -2406,7 +2406,7 @@
     "segregated": "no",
     "smoothness": "good",
     "source": "bing",
-    "surface": "paved",
+    "surface": "paving_stones",
     "vehicle": "no",
     "id": "way/8083244"
   },
@@ -9653,6 +9653,7 @@
   "properties": {
     "highway": "residential",
     "name": "Ridderstraat",
+    "surface": "asphalt",
     "id": "way/24514856"
   },
   "geometry": {
@@ -9754,6 +9755,7 @@
     "highway": "residential",
     "maxspeed": "50",
     "name": "Sint-Jansstraat",
+    "surface": "asphalt",
     "traffic_sign": "F1",
     "zone:traffic": "BE-VLG:urban",
     "id": "way/24514891"
@@ -19330,6 +19332,7 @@
     "name": "Vroentestraat",
     "oneway": "yes",
     "oneway:bicycle": "no",
+    "surface": "paving_stones",
     "id": "way/31056578"
   },
   "geometry": {
@@ -32201,12 +32204,16 @@
         51.0394732
       ],
       [
-        3.6909071,
-        51.0398457
+        3.6909185,
+        51.0398478
       ],
       [
-        3.6908273,
-        51.039863
+        3.6908879,
+        51.0398579
+      ],
+      [
+        3.6908313,
+        51.0398744
       ]
     ]
   }
@@ -40139,6 +40146,7 @@
     "maxspeed": "50",
     "name": "Stoopkensstraat",
     "source:maxspeed": "BE-VLG:urban",
+    "surface": "paving_stones",
     "zone:traffic": "BE-VLG:urban",
     "id": "way/39478614"
   },
@@ -40168,10 +40176,6 @@
       [
         4.8943121,
         50.7784333
-      ],
-      [
-        4.8944061,
-        50.7784148
       ]
     ]
   }
@@ -40182,7 +40186,7 @@
   "properties": {
     "highway": "path",
     "name": "Vroentepad",
-    "surface": "unpaved",
+    "surface": "compacted",
     "id": "way/39480273"
   },
   "geometry": {
@@ -40228,6 +40232,7 @@
     "name": "Kloosterstraat",
     "oneway": "yes",
     "oneway:bicycle": "no",
+    "surface": "paving_stones",
     "id": "way/39480331"
   },
   "geometry": {
@@ -40254,7 +40259,7 @@
     "horse": "no",
     "lit": "no",
     "name": "Molenstraatje",
-    "surface": "unpaved",
+    "surface": "compacted",
     "width": "1",
     "id": "way/39480332"
   },
@@ -40277,7 +40282,7 @@
   "id": "way/39480390",
   "properties": {
     "highway": "path",
-    "surface": "unpaved",
+    "surface": "compacted",
     "id": "way/39480390"
   },
   "geometry": {
@@ -56614,6 +56619,7 @@
   "properties": {
     "highway": "track",
     "name": "Sint-Martinusberg",
+    "surface": "compacted",
     "tracktype": "grade2",
     "zone:traffic": "BE-VLG:rural",
     "id": "way/76738459"
@@ -56621,18 +56627,6 @@
   "geometry": {
     "type": "LineString",
     "coordinates": [
-      [
-        4.7552059,
-        50.8720538
-      ],
-      [
-        4.754666,
-        50.8719549
-      ],
-      [
-        4.7541147,
-        50.8718539
-      ],
       [
         4.7540726,
         50.8718259
@@ -56705,7 +56699,7 @@
     "highway": "path",
     "name": "Sint-Martinusberg",
     "smoothness": "bad",
-    "surface": "earth",
+    "surface": "dirt",
     "width": "1",
     "id": "way/76844955"
   },
@@ -57005,6 +56999,7 @@
     "oneway:bicycle": "no",
     "parking_lane:right": "parallel",
     "source:maxspeed": "BE:zone30",
+    "surface": "paving_stones",
     "zone:traffic": "BE-VLG:urban",
     "id": "way/79940703"
   },
@@ -79533,6 +79528,7 @@
     "highway": "residential",
     "maxspeed": "50",
     "name": "Bronstraat",
+    "surface": "asphalt",
     "traffic_sign": "F1",
     "zone:traffic": "BE-VLG:urban",
     "id": "way/187781970"
@@ -79656,6 +79652,7 @@
   "properties": {
     "highway": "residential",
     "name": "Stoopkensstraat",
+    "surface": "paving_stones",
     "id": "way/187781973"
   },
   "geometry": {
@@ -79702,32 +79699,13 @@
   "properties": {
     "highway": "track",
     "name": "Ridderstraat",
+    "surface": "dirt",
     "tracktype": "grade4",
     "id": "way/187781974"
   },
   "geometry": {
     "type": "LineString",
     "coordinates": [
-      [
-        4.8761183,
-        50.7949678
-      ],
-      [
-        4.8760367,
-        50.7950249
-      ],
-      [
-        4.8759963,
-        50.7950685
-      ],
-      [
-        4.8754248,
-        50.7960255
-      ],
-      [
-        4.8752293,
-        50.7963836
-      ],
       [
         4.8751549,
         50.7965082
@@ -88907,7 +88885,7 @@
   "id": "way/299403206",
   "properties": {
     "highway": "path",
-    "surface": "unpaved",
+    "surface": "compacted",
     "id": "way/299403206"
   },
   "geometry": {
@@ -88931,7 +88909,7 @@
     "bridge": "yes",
     "highway": "path",
     "layer": "1",
-    "surface": "paved",
+    "surface": "compacted",
     "id": "way/299403209"
   },
   "geometry": {
@@ -99581,8 +99559,8 @@
         51.0399182
       ],
       [
-        3.6907668,
-        51.0398763
+        3.6907708,
+        51.0398877
       ]
     ]
   }
@@ -102327,12 +102305,12 @@
     "type": "LineString",
     "coordinates": [
       [
-        3.6908273,
-        51.039863
+        3.6908313,
+        51.0398744
       ],
       [
-        3.6907668,
-        51.0398763
+        3.6907708,
+        51.0398877
       ]
     ]
   }
@@ -102352,6 +102330,10 @@
       [
         3.6904525,
         51.0391588
+      ],
+      [
+        3.6904172,
+        51.0391652
       ],
       [
         3.6903735,
@@ -102833,6 +102815,7 @@
   "properties": {
     "highway": "residential",
     "name": "Ridderstraat",
+    "surface": "asphalt",
     "id": "way/501248798"
   },
   "geometry": {
@@ -102874,10 +102857,6 @@
   "geometry": {
     "type": "LineString",
     "coordinates": [
-      [
-        4.8740056,
-        50.7978793
-      ],
       [
         4.8737184,
         50.7983058
@@ -106297,6 +106276,7 @@
     "highway": "residential",
     "maxspeed": "50",
     "name": "Sint-Jansstraat",
+    "surface": "asphalt",
     "zone:traffic": "BE-VLG:urban",
     "id": "way/582622453"
   },
@@ -106885,7 +106865,7 @@
     "horse": "no",
     "lit": "no",
     "name": "Molenstraatje",
-    "surface": "unpaved",
+    "surface": "compacted",
     "width": "1",
     "id": "way/615796722"
   },
@@ -125871,6 +125851,130 @@
       [
         5.7083574,
         50.8133754
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1110719637",
+  "properties": {
+    "highway": "track",
+    "name": "Sint-Martinusberg",
+    "surface": "compacted",
+    "tracktype": "grade2",
+    "zone:traffic": "BE-VLG:rural",
+    "id": "way/1110719637"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.7552059,
+        50.8720538
+      ],
+      [
+        4.754666,
+        50.8719549
+      ],
+      [
+        4.7541147,
+        50.8718539
+      ],
+      [
+        4.7540726,
+        50.8718259
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1110721801",
+  "properties": {
+    "highway": "track",
+    "name": "Ridderstraat",
+    "surface": "cobblestone",
+    "tracktype": "grade1",
+    "id": "way/1110721801"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.8740056,
+        50.7978793
+      ],
+      [
+        4.8737184,
+        50.7983058
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1110722051",
+  "properties": {
+    "highway": "track",
+    "name": "Ridderstraat",
+    "surface": "grass",
+    "tracktype": "grade4",
+    "id": "way/1110722051"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.8761183,
+        50.7949678
+      ],
+      [
+        4.8760367,
+        50.7950249
+      ],
+      [
+        4.8759963,
+        50.7950685
+      ],
+      [
+        4.8754248,
+        50.7960255
+      ],
+      [
+        4.8752293,
+        50.7963836
+      ],
+      [
+        4.8751549,
+        50.7965082
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1110722470",
+  "properties": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Stoopkensstraat",
+    "source:maxspeed": "BE-VLG:urban",
+    "surface": "concrete",
+    "zone:traffic": "BE-VLG:urban",
+    "id": "way/1110722470"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.8943121,
+        50.7784333
+      ],
+      [
+        4.8944061,
+        50.7784148
       ]
     ]
   }

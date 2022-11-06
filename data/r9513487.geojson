@@ -887,6 +887,7 @@
     "highway": "track",
     "name": "Hondsdijk",
     "surface": "dirt",
+    "tracktype": "grade2",
     "id": "way/49953410"
   },
   "geometry": {
@@ -2326,9 +2327,11 @@
   "id": "way/60180281",
   "properties": {
     "highway": "residential",
+    "lane_markings": "no",
     "maxspeed": "50",
     "name": "Pastorijstraat",
     "source:maxspeed": "BE-VLG:urban",
+    "surface": "concrete",
     "zone:traffic": "BE-VLG:urban",
     "id": "way/60180281"
   },
@@ -2482,7 +2485,8 @@
   "properties": {
     "bridge": "yes",
     "highway": "track",
-    "surface": "dirt",
+    "surface": "paving_stones",
+    "tracktype": "grade1",
     "id": "way/74004451"
   },
   "geometry": {
@@ -3078,6 +3082,8 @@
   "id": "way/115653798",
   "properties": {
     "highway": "unclassified",
+    "lane_markings": "no",
+    "surface": "sett",
     "id": "way/115653798"
   },
   "geometry": {
@@ -3186,6 +3192,7 @@
   "properties": {
     "cyclestreet": "yes",
     "highway": "unclassified",
+    "lane_markings": "no",
     "maxspeed": "30",
     "name": "Oude weg",
     "oneway": "yes",
@@ -3525,6 +3532,7 @@
     "highway": "track",
     "name": "Hondsdijk",
     "surface": "dirt",
+    "tracktype": "grade3",
     "id": "way/129203946"
   },
   "geometry": {
@@ -3730,11 +3738,14 @@
   "type": "Feature",
   "id": "way/161793939",
   "properties": {
+    "cycleway:both": "no",
     "highway": "unclassified",
+    "lane_markings": "no",
     "maxspeed": "50",
     "name": "Grote Plaats",
     "source": "survey",
     "source:maxspeed": "BE-VLG:urban",
+    "surface": "asphalt",
     "zone:traffic": "BE-VLG:urban",
     "id": "way/161793939"
   },
@@ -4707,6 +4718,7 @@
   "properties": {
     "highway": "track",
     "surface": "sett",
+    "tracktype": "grade3",
     "width": "3",
     "id": "way/308199484"
   },
@@ -5213,9 +5225,11 @@
   "properties": {
     "cycleway": "track",
     "highway": "secondary",
+    "lanes": "2",
     "maxspeed": "50",
     "name": "Klinketstraat",
     "ref": "N124",
+    "surface": "asphalt",
     "id": "way/418656448"
   },
   "geometry": {
@@ -5732,6 +5746,7 @@
   "id": "way/540654074",
   "properties": {
     "highway": "path",
+    "surface": "paving_stones",
     "tracktype": "grade1",
     "id": "way/540654074"
   },
@@ -5757,6 +5772,7 @@
     "lanes": "2",
     "name": "Gelmelstraat",
     "ref": "N124",
+    "surface": "asphalt",
     "id": "way/540656141"
   },
   "geometry": {
