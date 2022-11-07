@@ -16,8 +16,9 @@ jobs:
 
     - name: Install osmtogeojson and geojson-merge
       run: |
-        npm install -g osmtogeojson
-        npm install -g @mapbox/geojson-merge
+       npm audit fix --force
+       npm install -g osmtogeojson
+       npm install -g @mapbox/geojson-merge
 
     - name: Set locale to get date in nl_BE format
       run: |
