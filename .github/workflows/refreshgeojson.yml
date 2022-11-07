@@ -14,8 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Install osmtogeojson
+    - name: Install osmtogeojson and geojson-merge
       run: npm install -g osmtogeojson
+      run: npm install -g geojson-merge
 
     - name: Set locale to get date in nl_BE format
       run: |
