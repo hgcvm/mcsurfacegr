@@ -1,4 +1,5 @@
 #!/bin/bash
+tput sc
 
 #1 Dowload and convert all relations from merge/ dir. Write to data/ dir.
 INPUT=`cat merge/*`
@@ -14,12 +15,13 @@ for REL in $INPUT; do
 
 	# Show some output
 	let COUNTER=COUNTER+1 
-	echo "Downloading & convert $REL - ($COUNTER/$TOTALCOUNT)"
+	tput rc && tput ed && printf "\rDownloading & convert - ($COUNTER/$TOTALCOUNT) $REL "
 done
+tput rc && tput ed && printf "\rDownloading & convert - ($COUNTER/$TOTALCOUNT) DONE \n" && tput sc
 
 #2 Merge child relations. Superrelations are defined as files in the merge/ dir. Write result in data/dir
 INPUT=`find ./merge/ -type f -printf "%f\n"`
-TOTALCOUNT=`wc -w <<< $INPUT` && COUNTER=0
+TOTALCOUNT=`wc -l <<< $INPUT` && COUNTER=0
 while read REL; do
         readarray -t RELCHILDR < merge/"$REL"
         	#Add dir and extension to array members, so geojson-merge can use array as input files
@@ -49,8 +51,9 @@ while read REL; do
 
         # Show some output
         let COUNTER=COUNTER+1
-        echo "Merging geojson, generate json $REL - ($COUNTER/$TOTALCOUNT)"
+	tput rc && tput ed && printf "\rMerging geojson, generate json - ($COUNTER/$TOTALCOUNT) $REL "
 done < <(echo "$INPUT")
+tput rc && tput ed && printf "\rMerging geojson, generate json - ($COUNTER/$TOTALCOUNT) DONE \n"
 
 # Calculate average completion percentage
 TOTALFORAVG=`find ./merge/ -type f | wc -l`
@@ -62,7 +65,8 @@ sort -t\< -k5 temp_table.html >> html/overview.html
 echo "<tr><td>$GEMIDDELDPERC%</td><td>Gemiddeld</td></table><br><br>" >> html/overview.html
 echo '<b>Kwaliteitscontrole</b><br><a href="https://mapcomplete.osm.be/?mode=statistics&filter-theme-search=%7B%22search%22%3A%22hgcvm%22%7D&filter-theme-search-search=hgcvm">Mapcomplete statistics</a><br><a href="https://osmcha.org/?aoi=959b2cad-4737-4d98-a644-c2fc80dad1d6">Osmcha filter</a><br>' >> html/overview.html
 echo -n 'Laatste update: '>> html/overview.html && TZ='Europe/Brussels' date >> html/overview.html && echo '<br>Vragen of opmerking welkom via een <a href=https://www.openstreetmap.org/message/new/s8evq>OpenStreetMap bericht</a></body></html>' >> html/overview.html
+echo Generating HTML
 
 # cleanup
 rm temp_table.html
-echo done
+echo Done
