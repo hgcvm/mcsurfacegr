@@ -20949,6 +20949,7 @@
         "maxspeed": "50",
         "name": "Prinsenmolenstraat",
         "source:maxspeed": "BE-VLG:zone50",
+        "surface": "dirt",
         "tracktype": "grade3",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/184222345"
@@ -23573,11 +23574,16 @@
       "properties": {
         "highway": "unclassified",
         "name": "Ruspoel",
+        "surface": "sett",
         "id": "way/221627647"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            3.7441443,
+            50.9449089
+          ],
           [
             3.7441443,
             50.9449089
@@ -23633,22 +23639,6 @@
           [
             3.7437597,
             50.9440144
-          ],
-          [
-            3.7437918,
-            50.9439359
-          ],
-          [
-            3.7438406,
-            50.9438833
-          ],
-          [
-            3.744064,
-            50.9436389
-          ],
-          [
-            3.7442826,
-            50.9433916
           ]
         ]
       }
@@ -35456,6 +35446,7 @@
         "bicycle": "yes",
         "highway": "footway",
         "name": "Christoforuswegel",
+        "surface": "dirt",
         "id": "way/584969479"
       },
       "geometry": {
@@ -38512,6 +38503,7 @@
       "properties": {
         "highway": "track",
         "name": "Stuikwegel",
+        "surface": "grass_paver",
         "id": "way/866796796"
       },
       "geometry": {
@@ -42207,6 +42199,41 @@
           [
             3.7679164,
             50.9538363
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1112568692",
+      "properties": {
+        "highway": "unclassified",
+        "name": "Ruspoel",
+        "surface": "concrete",
+        "id": "way/1112568692"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7437597,
+            50.9440144
+          ],
+          [
+            3.7437918,
+            50.9439359
+          ],
+          [
+            3.7438406,
+            50.9438833
+          ],
+          [
+            3.744064,
+            50.9436389
+          ],
+          [
+            3.7442826,
+            50.9433916
           ]
         ]
       }

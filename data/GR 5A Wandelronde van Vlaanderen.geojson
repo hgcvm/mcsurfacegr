@@ -47919,6 +47919,7 @@
       "id": "way/390494371",
       "properties": {
         "highway": "track",
+        "name": "Fleinus",
         "surface": "earth",
         "tracktype": "grade4",
         "id": "way/390494371"
@@ -47927,20 +47928,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.5695496,
-            51.2488158
-          ],
-          [
-            3.570027,
-            51.2487645
-          ],
-          [
-            3.570873,
-            51.2486715
-          ],
-          [
-            3.5722469,
-            51.248491
+            3.5725857,
+            51.2484501
           ],
           [
             3.5737501,
@@ -59524,7 +59513,7 @@
       "id": "way/948826031",
       "properties": {
         "highway": "service",
-        "surface": "paved",
+        "surface": "sett",
         "id": "way/948826031"
       },
       "geometry": {
@@ -62209,6 +62198,62 @@
           [
             3.1339296,
             51.1837119
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1112565129",
+      "properties": {
+        "highway": "track",
+        "name": "Fleinus",
+        "surface": "earth",
+        "tracktype": "grade4",
+        "id": "way/1112565129"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.5695496,
+            51.2488158
+          ],
+          [
+            3.570027,
+            51.2487645
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1112565130",
+      "properties": {
+        "highway": "track",
+        "name": "Fleinus",
+        "surface": "earth",
+        "tracktype": "grade4",
+        "id": "way/1112565130"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.570027,
+            51.2487645
+          ],
+          [
+            3.570873,
+            51.2486715
+          ],
+          [
+            3.5722469,
+            51.248491
+          ],
+          [
+            3.5725857,
+            51.2484501
           ]
         ]
       }
@@ -71620,11 +71665,13 @@
       "type": "Feature",
       "id": "way/40514473",
       "properties": {
-        "access": "no",
+        "access": "yes",
+        "bicycle": "no",
         "embankment": "yes",
         "foot": "yes",
         "highway": "path",
-        "horse": "yes",
+        "horse": "no",
+        "motor_vehicle": "no",
         "surface": "unpaved",
         "id": "way/40514473"
       },
@@ -83403,19 +83450,12 @@
       "id": "way/82849629",
       "properties": {
         "highway": "footway",
+        "surface": "asphalt",
         "id": "way/82849629"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            2.747223,
-            50.7974502
-          ],
-          [
-            2.7471406,
-            50.797517
-          ],
           [
             2.7470397,
             50.7975482
@@ -83708,6 +83748,7 @@
       "properties": {
         "highway": "track",
         "name": "Kwadestraat",
+        "surface": "compacted",
         "id": "way/82916547"
       },
       "geometry": {
@@ -85963,7 +86004,7 @@
       "id": "way/87565942",
       "properties": {
         "highway": "track",
-        "surface": "grass",
+        "surface": "dirt",
         "id": "way/87565942"
       },
       "geometry": {
@@ -94012,6 +94053,7 @@
       "id": "way/122975995",
       "properties": {
         "highway": "track",
+        "surface": "dirt",
         "id": "way/122975995"
       },
       "geometry": {
@@ -139985,6 +140027,32 @@
           [
             3.1404643,
             50.7944458
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1112500265",
+      "properties": {
+        "highway": "footway",
+        "surface": "sett",
+        "id": "way/1112500265"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.747223,
+            50.7974502
+          ],
+          [
+            2.7471406,
+            50.797517
+          ],
+          [
+            2.7470397,
+            50.7975482
           ]
         ]
       }
