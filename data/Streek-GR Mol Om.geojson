@@ -43,7 +43,7 @@
       "id": "way/4984063",
       "properties": {
         "highway": "service",
-        "surface": "cobblestone",
+        "surface": "paving_stones",
         "vehicle": "destination",
         "id": "way/4984063"
       },
@@ -945,7 +945,7 @@
         "forestry": "yes",
         "highway": "track",
         "name": "Arendonkseweg",
-        "surface": "compacted",
+        "surface": "sand",
         "tracktype": "grade2",
         "vehicle": "no",
         "id": "way/55693289"
@@ -7149,7 +7149,7 @@
         "name": "Reuselseweg",
         "oneway:bicycle": "yes",
         "sidewalk": "left",
-        "surface": "asphalt",
+        "surface": "compacted",
         "id": "way/214611800"
       },
       "geometry": {
@@ -14089,7 +14089,11 @@
       "type": "Feature",
       "id": "way/484395730",
       "properties": {
+        "bicycle": "no",
+        "foot": "yes",
         "highway": "track",
+        "horse": "no",
+        "motor_vehicle": "no",
         "tracktype": "grade4",
         "id": "way/484395730"
       },
@@ -14472,6 +14476,7 @@
       "id": "way/486561382",
       "properties": {
         "highway": "pedestrian",
+        "surface": "paving_stones",
         "id": "way/486561382"
       },
       "geometry": {
@@ -14685,6 +14690,7 @@
       "id": "way/486760914",
       "properties": {
         "highway": "service",
+        "surface": "sett",
         "id": "way/486760914"
       },
       "geometry": {
@@ -15413,7 +15419,11 @@
       "type": "Feature",
       "id": "way/544310202",
       "properties": {
+        "bicycle": "no",
+        "foot": "yes",
         "highway": "track",
+        "horse": "no",
+        "motor_vehicle": "no",
         "surface": "compacted",
         "tracktype": "grade4",
         "id": "way/544310202"
@@ -15444,7 +15454,11 @@
       "type": "Feature",
       "id": "way/544310203",
       "properties": {
+        "bicycle": "no",
+        "foot": "yes",
         "highway": "track",
+        "horse": "no",
+        "motor_vehicle": "no",
         "surface": "compacted",
         "tracktype": "grade4",
         "id": "way/544310203"
@@ -16391,7 +16405,7 @@
       "id": "way/732910009",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "sand",
         "tracktype": "grade3",
         "id": "way/732910009"
       },
@@ -16399,8 +16413,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1544615,
-            51.2779806
+            5.1544569,
+            51.2780067
           ],
           [
             5.1544457,
@@ -17518,7 +17532,9 @@
       "type": "Feature",
       "id": "way/962078863",
       "properties": {
+        "bicycle": "no",
         "highway": "path",
+        "horse": "no",
         "id": "way/962078863"
       },
       "geometry": {
@@ -17575,8 +17591,10 @@
       "type": "Feature",
       "id": "way/962078864",
       "properties": {
+        "bicycle": "no",
         "bridge": "boardwalk",
         "highway": "path",
+        "horse": "no",
         "surface": "wood",
         "id": "way/962078864"
       },
@@ -17618,8 +17636,10 @@
       "type": "Feature",
       "id": "way/962078865",
       "properties": {
+        "bicycle": "no",
         "bridge": "boardwalk",
         "highway": "path",
+        "horse": "no",
         "surface": "wood",
         "id": "way/962078865"
       },
@@ -18412,8 +18432,10 @@
       "type": "Feature",
       "id": "way/1040237803",
       "properties": {
+        "bicycle": "no",
         "bridge": "boardwalk",
         "highway": "path",
+        "horse": "no",
         "surface": "wood",
         "id": "way/1040237803"
       },
@@ -18614,6 +18636,29 @@
           [
             5.1137308,
             51.1793242
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1112769175",
+      "properties": {
+        "highway": "track",
+        "surface": "asphalt",
+        "tracktype": "grade3",
+        "id": "way/1112769175"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1544615,
+            51.2779806
+          ],
+          [
+            5.1544569,
+            51.2780067
           ]
         ]
       }
