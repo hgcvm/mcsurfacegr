@@ -19358,8 +19358,11 @@
       "type": "Feature",
       "id": "way/40770102",
       "properties": {
-        "foot": "yes",
+        "access": "permissive",
+        "foot": "permissive",
         "highway": "service",
+        "maxspeed": "5",
+        "oneway": "no",
         "sidewalk": "none",
         "surface": "paving_stones",
         "id": "way/40770102"
@@ -19368,24 +19371,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.7474965,
-            51.1340304
-          ],
-          [
-            2.747553,
-            51.1340632
-          ],
-          [
-            2.748928,
-            51.1338881
+            2.7501386,
+            51.1339278
           ],
           [
             2.7491973,
             51.1338837
           ],
           [
-            2.7501386,
-            51.1339278
+            2.748928,
+            51.1338881
+          ],
+          [
+            2.747553,
+            51.1340632
+          ],
+          [
+            2.7474965,
+            51.1340304
           ]
         ]
       }
@@ -65729,7 +65732,7 @@
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Bellegemsestraat",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/26370612"
       },
@@ -66594,7 +66597,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Oude Leielaan",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/28240319"
@@ -74741,7 +74744,7 @@
         "maxspeed": "30",
         "name": "Rijselstraat",
         "ref": "N32b",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/45735830"
       },
@@ -74769,7 +74772,7 @@
         "maxspeed": "30",
         "name": "Rijselstraat",
         "ref": "N32b",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/45735831"
       },
@@ -80950,7 +80953,7 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Oostkaai",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/71769553"
@@ -88979,7 +88982,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Oude Leielaan",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/98281918"
@@ -89999,7 +90002,7 @@
         "maxspeed": "30",
         "name": "Rijselstraat",
         "ref": "N32b",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/99344054"
       },
@@ -90618,7 +90621,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Oostkaai",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/101507054"
@@ -91371,7 +91374,7 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Kapelweg",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/104491188"
       },
@@ -114356,7 +114359,7 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Walleweg",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/267948541"
@@ -116649,7 +116652,7 @@
         "maxspeed": "30",
         "name": "Oude Leielaan",
         "note": "werkzaamheden",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/321716279"
@@ -117033,7 +117036,7 @@
         "maxspeed": "30",
         "name": "Rijselstraat",
         "ref": "N32b",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/336313072"
       },
@@ -130382,7 +130385,7 @@
         "maxspeed": "30",
         "name": "Walleweg",
         "sidewalk": "no",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/587325720"
@@ -130558,7 +130561,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "survey:date": "2021-08-21",
         "traffic_sign:backward": "BE:C1,BE:M3_nl",
@@ -136255,7 +136258,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Schaafweg",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/878720141"
