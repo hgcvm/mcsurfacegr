@@ -15877,47 +15877,12 @@
         "cycleway": "track",
         "highway": "tertiary",
         "name": "Molenstraat",
+        "surface": "asphalt",
         "id": "way/28311303"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.164839,
-            50.860723
-          ],
-          [
-            5.1647769,
-            50.8606999
-          ],
-          [
-            5.1647236,
-            50.8606701
-          ],
-          [
-            5.1646031,
-            50.8605696
-          ],
-          [
-            5.1644886,
-            50.8604348
-          ],
-          [
-            5.1643337,
-            50.860264
-          ],
-          [
-            5.1643219,
-            50.8602505
-          ],
-          [
-            5.1642012,
-            50.8601121
-          ],
-          [
-            5.1637612,
-            50.859633
-          ],
           [
             5.1630324,
             50.8588269
@@ -17378,17 +17343,16 @@
       "type": "Feature",
       "id": "way/30090798",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Krommenhofstraat",
+        "surface": "asphalt",
         "id": "way/30090798"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.1649633,
-            50.8607562
-          ],
           [
             5.1650351,
             50.8606521
@@ -17426,7 +17390,7 @@
             50.8604913
           ],
           [
-            5.1668326,
+            5.1667971,
             50.8604889
           ],
           [
@@ -20789,7 +20753,7 @@
       "properties": {
         "highway": "residential",
         "name": "Gemeenteweg",
-        "surface": "paved",
+        "surface": "asphalt",
         "width": "4",
         "id": "way/32994491"
       },
@@ -20895,8 +20859,8 @@
       "properties": {
         "bicycle": "yes",
         "highway": "track",
-        "surface": "gravel",
-        "tracktype": "grade3",
+        "surface": "compacted",
+        "tracktype": "grade2",
         "vehicle": "destination",
         "width": "3",
         "id": "way/32995944"
@@ -69906,6 +69870,7 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "track",
+        "horse": "no",
         "motor_vehicle": "no",
         "tracktype": "grade2",
         "id": "way/145586729"
@@ -69990,7 +69955,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "footway",
-        "horse": "yes",
+        "horse": "no",
         "id": "way/145586743"
       },
       "geometry": {
@@ -87330,6 +87295,7 @@
         "lane_markings": "no",
         "name": "Molenstraat",
         "surface": "paving_stones",
+        "traffic_calming": "table",
         "id": "way/273992100"
       },
       "geometry": {
@@ -89834,6 +89800,7 @@
       "properties": {
         "bicycle": "no",
         "highway": "path",
+        "horse": "no",
         "surface": "compacted",
         "id": "way/309904722"
       },
@@ -90017,8 +89984,10 @@
       "type": "Feature",
       "id": "way/309904729",
       "properties": {
+        "bicycle": "no",
         "bridge": "yes",
         "highway": "footway",
+        "horse": "no",
         "layer": "1",
         "surface": "wood",
         "id": "way/309904729"
@@ -105827,6 +105796,7 @@
         "highway": "tertiary",
         "layer": "1",
         "name": "Molenstraat",
+        "surface": "asphalt",
         "id": "way/572210055"
       },
       "geometry": {
@@ -105850,6 +105820,7 @@
         "cycleway": "track",
         "highway": "tertiary",
         "name": "Binderveldseweg",
+        "surface": "asphalt",
         "id": "way/572210056"
       },
       "geometry": {
@@ -105877,6 +105848,7 @@
         "cycleway": "track",
         "highway": "tertiary",
         "name": "Molenstraat",
+        "surface": "asphalt",
         "id": "way/572777396"
       },
       "geometry": {
@@ -112393,7 +112365,7 @@
       "type": "Feature",
       "id": "way/744632057",
       "properties": {
-        "cycleway:both": "shared_lane",
+        "cycleway": "no",
         "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
@@ -126044,6 +126016,109 @@
           [
             4.2081986,
             50.9322111
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1113415699",
+      "properties": {
+        "cycleway": "track",
+        "highway": "tertiary",
+        "name": "Molenstraat",
+        "surface": "paving_stones",
+        "traffic_calming": "table",
+        "id": "way/1113415699"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.164839,
+            50.860723
+          ],
+          [
+            5.1647769,
+            50.8606999
+          ],
+          [
+            5.1647236,
+            50.8606701
+          ],
+          [
+            5.1646031,
+            50.8605696
+          ],
+          [
+            5.1644886,
+            50.8604348
+          ],
+          [
+            5.1643337,
+            50.860264
+          ],
+          [
+            5.1642657,
+            50.860187
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1113415700",
+      "properties": {
+        "cycleway": "no",
+        "highway": "residential",
+        "lane_markings": "no",
+        "name": "Krommenhofstraat",
+        "surface": "paving_stones",
+        "traffic_calming": "table",
+        "id": "way/1113415700"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1649633,
+            50.8607562
+          ],
+          [
+            5.1650351,
+            50.8606521
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1113418706",
+      "properties": {
+        "cycleway": "track",
+        "highway": "tertiary",
+        "name": "Molenstraat",
+        "surface": "asphalt",
+        "id": "way/1113418706"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1642657,
+            50.860187
+          ],
+          [
+            5.1642012,
+            50.8601121
+          ],
+          [
+            5.1637612,
+            50.859633
+          ],
+          [
+            5.1630324,
+            50.8588269
           ]
         ]
       }
