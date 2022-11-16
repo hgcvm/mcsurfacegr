@@ -1,5 +1,5 @@
 #!/bin/bash
-tput sc
+#tput sc
 
 #1 Dowload and convert all relations from merge/ dir. Write to data/ dir.
 INPUT=`cat merge/*`
@@ -15,9 +15,12 @@ for REL in $INPUT; do
 
 	# Show some output
 	let COUNTER=COUNTER+1 
-	tput rc && tput ed && printf "\rDownloading & convert - ($COUNTER/$TOTALCOUNT) $REL "
+#	tput rc && tput ed && 
+printf "Downloading & convert - ($COUNTER/$TOTALCOUNT) $REL \n"
 done
-tput rc && tput ed && printf "\rDownloading & convert - ($COUNTER/$TOTALCOUNT) DONE \n" && tput sc
+#tput rc && tput ed
+printf "Downloading & convert - ($COUNTER/$TOTALCOUNT) DONE \n"
+#tput sc
 
 #2 Merge child relations. Superrelations are defined as files in the merge/ dir. Write result in data/dir
 INPUT=`find ./merge/ -type f -printf "%f\n"`
@@ -51,9 +54,11 @@ while read REL; do
 
         # Show some output
         let COUNTER=COUNTER+1
-	tput rc && tput ed && printf "\rMerging geojson, generate json - ($COUNTER/$TOTALCOUNT) $REL "
+#	tput rc && tput ed 
+	printf "Merging geojson, generate json - ($COUNTER/$TOTALCOUNT) $REL\n "
 done < <(echo "$INPUT")
-tput rc && tput ed && printf "\rMerging geojson, generate json - ($COUNTER/$TOTALCOUNT) DONE \n"
+#tput rc && tput ed && 
+printf "Merging geojson, generate json - ($COUNTER/$TOTALCOUNT) DONE \n"
 
 # Calculate average completion percentage
 TOTALFORAVG=`find ./merge/ -type f | wc -l`
