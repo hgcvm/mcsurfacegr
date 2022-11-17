@@ -16370,10 +16370,6 @@
           [
             3.3647605,
             51.2720563
-          ],
-          [
-            3.364715,
-            51.2720057
           ]
         ]
       }
@@ -17765,10 +17761,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.3657638,
-            51.2715538
-          ],
           [
             3.3658146,
             51.2716032
@@ -23218,6 +23210,7 @@
       "id": "way/76397947",
       "properties": {
         "bicycle": "no",
+        "dog": "leashed",
         "foot": "yes",
         "highway": "path",
         "surface": "asphalt",
@@ -23315,6 +23308,10 @@
             51.2895522
           ],
           [
+            3.0641516,
+            51.2895225
+          ],
+          [
             3.0641046,
             51.2895116
           ],
@@ -23364,7 +23361,7 @@
           ],
           [
             3.0629273,
-            51.2896427
+            51.289644
           ]
         ]
       }
@@ -23509,8 +23506,10 @@
       "type": "Feature",
       "id": "way/76399872",
       "properties": {
+        "bicycle": "no",
+        "dog": "leashed",
         "highway": "path",
-        "surface": "fine_gravel",
+        "surface": "asphalt",
         "id": "way/76399872"
       },
       "geometry": {
@@ -23547,8 +23546,12 @@
       "type": "Feature",
       "id": "way/76399890",
       "properties": {
-        "highway": "footway",
-        "surface": "asphalt",
+        "bicycle": "no",
+        "dog": "leashed",
+        "highway": "path",
+        "horse": "no",
+        "surface": "compacted",
+        "wheelchair": "yes",
         "id": "way/76399890"
       },
       "geometry": {
@@ -23713,6 +23716,10 @@
           [
             3.0516739,
             51.2846904
+          ],
+          [
+            3.0516515,
+            51.2846732
           ],
           [
             3.0516381,
@@ -31884,10 +31891,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.0417912,
-            51.2763484
-          ],
           [
             3.0414572,
             51.276697
@@ -55550,9 +55553,10 @@
       "id": "way/690434688",
       "properties": {
         "bicycle": "no",
+        "dog": "leashed",
         "foot": "yes",
         "highway": "path",
-        "surface": "dirt",
+        "surface": "asphalt",
         "id": "way/690434688"
       },
       "geometry": {
@@ -55560,15 +55564,23 @@
         "coordinates": [
           [
             3.0629273,
-            51.2896427
+            51.289644
+          ],
+          [
+            3.0629117,
+            51.2896009
+          ],
+          [
+            3.062897,
+            51.2895732
           ],
           [
             3.0628859,
             51.2895381
           ],
           [
-            3.0628755,
-            51.289512
+            3.0628768,
+            51.2895162
           ],
           [
             3.0628319,
@@ -55593,6 +55605,10 @@
           [
             3.0623722,
             51.2886151
+          ],
+          [
+            3.0622841,
+            51.288529
           ],
           [
             3.0621353,
@@ -62996,6 +63012,82 @@
           [
             3.3681204,
             51.2912606
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1114856860",
+      "properties": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ destination",
+        "name": "Waterkasteellaan",
+        "parking:lane:right": "parallel",
+        "parking:lane:right:parallel": "on_kerb",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1114856860"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0417912,
+            51.2763484
+          ],
+          [
+            3.0414572,
+            51.276697
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1114900653",
+      "properties": {
+        "highway": "unclassified",
+        "name": "Respaigneleendreef",
+        "surface": "asphalt",
+        "id": "way/1114900653"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3657638,
+            51.2715538
+          ],
+          [
+            3.3658146,
+            51.2716032
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1114900655",
+      "properties": {
+        "highway": "track",
+        "name": "Pannepolderstraat",
+        "surface": "dirt",
+        "id": "way/1114900655"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3647605,
+            51.2720563
+          ],
+          [
+            3.364715,
+            51.2720057
           ]
         ]
       }
