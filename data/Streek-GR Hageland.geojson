@@ -1866,6 +1866,7 @@
         "highway": "cycleway",
         "horse": "designated",
         "name": "Rozenpad",
+        "surface": "compacted",
         "id": "way/22725052"
       },
       "geometry": {
@@ -3296,6 +3297,7 @@
         "name": "Martelarenplaats",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
+        "surface": "paving_stones",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/25240764"
       },
@@ -16664,6 +16666,7 @@
         "name": "Kortrijkstraat - Kortrijksestraat",
         "name:left": "Kortrijksestraat",
         "name:right": "Kortrijkstraat",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/80201631"
       },
@@ -29586,49 +29589,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/253649202",
-      "properties": {
-        "highway": "tertiary",
-        "name": "Papenbroekstraat",
-        "surface": "dirt",
-        "id": "way/253649202"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.0585364,
-            50.9599096
-          ],
-          [
-            5.0587604,
-            50.9600646
-          ],
-          [
-            5.058948,
-            50.9602254
-          ],
-          [
-            5.0590173,
-            50.9603047
-          ],
-          [
-            5.0591094,
-            50.9604309
-          ],
-          [
-            5.0591995,
-            50.9605922
-          ],
-          [
-            5.0592532,
-            50.9607618
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/253649229",
       "properties": {
         "highway": "unclassified",
@@ -29724,14 +29684,6 @@
           [
             5.059495,
             50.9607044
-          ],
-          [
-            5.0594192,
-            50.9607163
-          ],
-          [
-            5.0592532,
-            50.9607618
           ]
         ]
       }
@@ -30355,14 +30307,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.0585364,
-            50.9599096
-          ],
-          [
-            5.0586682,
-            50.9597922
-          ],
           [
             5.0587849,
             50.9596706
@@ -42163,6 +42107,51 @@
     },
     {
       "type": "Feature",
+      "id": "way/815044543",
+      "properties": {
+        "highway": "track",
+        "id": "way/815044543"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.059495,
+            50.9607044
+          ],
+          [
+            5.0593535,
+            50.9605861
+          ],
+          [
+            5.0591645,
+            50.9602853
+          ],
+          [
+            5.0587457,
+            50.9599216
+          ],
+          [
+            5.0587175,
+            50.9598569
+          ],
+          [
+            5.0587315,
+            50.9598186
+          ],
+          [
+            5.0587898,
+            50.95974
+          ],
+          [
+            5.0587849,
+            50.9596706
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/819777885",
       "properties": {
         "bicycle": "yes",
@@ -42611,6 +42600,7 @@
         "maxspeed": "30",
         "name": "Martelarenplaats",
         "source:maxspeed": "BE:zone30",
+        "surface": "paving_stones",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/849543043"
       },
@@ -42772,6 +42762,7 @@
         "foot": "yes",
         "highway": "service",
         "service": "parking_aisle",
+        "surface": "paving_stones",
         "id": "way/886657290"
       },
       "geometry": {
@@ -44778,6 +44769,7 @@
         "maxspeed": "50",
         "name": "Wolvendreef",
         "sidewalk": "both",
+        "surface": "concrete",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1047669042"
       },
@@ -46110,7 +46102,7 @@
         "motor_vehicle": "no",
         "oneway": "no",
         "segregated": "no",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/17025284"
       },
       "geometry": {
@@ -46304,6 +46296,7 @@
         "highway": "steps",
         "incline": "up",
         "level": "-1;0",
+        "surface": "paving_stones",
         "id": "way/176141323"
       },
       "geometry": {
@@ -46326,6 +46319,7 @@
       "properties": {
         "highway": "footway",
         "incline": "up",
+        "surface": "asphalt",
         "id": "way/285196389"
       },
       "geometry": {
@@ -46379,7 +46373,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "no",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/458555385"
       },
       "geometry": {
@@ -46526,7 +46520,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "no",
-        "surface": "paved",
+        "surface": "concrete",
         "id": "way/622063631"
       },
       "geometry": {
@@ -47136,6 +47130,7 @@
       "id": "way/1114893747",
       "properties": {
         "highway": "pedestrian",
+        "surface": "concrete",
         "id": "way/1114893747"
       },
       "geometry": {
@@ -47157,6 +47152,7 @@
       "id": "way/1114893749",
       "properties": {
         "highway": "pedestrian",
+        "surface": "concrete",
         "id": "way/1114893749"
       },
       "geometry": {
@@ -47211,6 +47207,7 @@
         "bicycle": "yes",
         "highway": "pedestrian",
         "name": "Ernest Solvaystraat",
+        "surface": "asphalt",
         "traffic_sign": "BE:F103;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1114893753"
