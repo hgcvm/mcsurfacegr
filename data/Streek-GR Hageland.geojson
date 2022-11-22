@@ -2465,6 +2465,7 @@
         "note": "Er hangt een extra bord met daarop de aanduiding dat dit ook voor fietsers eenrichting is",
         "oneway": "yes",
         "source:maxspeed": "BE:zone30",
+        "surface": "paving_stones",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/23957923"
       },
@@ -2506,6 +2507,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Kerkstraat",
+        "surface": "paving_stones",
         "id": "way/23957924"
       },
       "geometry": {
@@ -2528,6 +2530,7 @@
       "properties": {
         "highway": "tertiary",
         "name": "Steenweg op Nieuwrode",
+        "surface": "asphalt",
         "id": "way/23957963"
       },
       "geometry": {
@@ -3360,6 +3363,7 @@
         "highway": "residential",
         "lit": "yes",
         "name": "Wezemaalplein",
+        "surface": "asphalt",
         "id": "way/25997817"
       },
       "geometry": {
@@ -3442,6 +3446,7 @@
       "properties": {
         "highway": "track",
         "name": "Weg beneden de wijngaard",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/25998497"
       },
@@ -3780,6 +3785,7 @@
       "properties": {
         "highway": "residential",
         "name": "Beukenpleinbaan",
+        "surface": "asphalt",
         "id": "way/26435661"
       },
       "geometry": {
@@ -3814,6 +3820,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Stenenmuurstraat",
+        "surface": "asphalt",
         "id": "way/26435877"
       },
       "geometry": {
@@ -3852,6 +3859,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Stenenmuurstraat",
+        "surface": "asphalt",
         "id": "way/26435878"
       },
       "geometry": {
@@ -9443,6 +9451,7 @@
       "properties": {
         "highway": "track",
         "name": "Hertstraat",
+        "surface": "compacted",
         "tracktype": "grade1",
         "id": "way/36123131"
       },
@@ -9489,6 +9498,7 @@
         "maxlength:hgv": "10",
         "maxlength:hgv:conditional": "none @ delivery",
         "name": "Hooghuis",
+        "surface": "compacted",
         "tracktype": "grade1",
         "id": "way/36333686"
       },
@@ -10804,6 +10814,7 @@
       "id": "way/38070941",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/38070941"
       },
       "geometry": {
@@ -10838,6 +10849,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Mennenshoeve",
+        "surface": "asphalt",
         "id": "way/38070942"
       },
       "geometry": {
@@ -15387,6 +15399,7 @@
       "id": "way/59994216",
       "properties": {
         "highway": "track",
+        "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",
         "id": "way/59994216"
@@ -16239,6 +16252,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Peerse",
+        "surface": "asphalt",
         "id": "way/77377889"
       },
       "geometry": {
@@ -17555,6 +17569,7 @@
       "id": "way/84503662",
       "properties": {
         "highway": "track",
+        "surface": "compacted",
         "tracktype": "grade3",
         "id": "way/84503662"
       },
@@ -19183,7 +19198,7 @@
       "id": "way/117329500",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/117329500"
       },
       "geometry": {
@@ -20194,8 +20209,10 @@
       "id": "way/135608657",
       "properties": {
         "bicycle": "no",
-        "highway": "path",
+        "construction": "path",
+        "highway": "construction",
         "horse": "no",
+        "note": "Pad tijdelijk afgesloten, duurt tot ± april 2023 (informatie bevraagd bij domeinbeheerder)",
         "id": "way/135608657"
       },
       "geometry": {
@@ -20310,28 +20327,8 @@
             50.8358286
           ],
           [
-            5.1175812,
-            50.8355385
-          ],
-          [
-            5.117649,
-            50.8354772
-          ],
-          [
-            5.1178347,
-            50.8353741
-          ],
-          [
-            5.1179078,
-            50.8353401
-          ],
-          [
-            5.1181019,
-            50.8353218
-          ],
-          [
-            5.1181794,
-            50.8352995
+            5.117748,
+            50.8357313
           ]
         ]
       }
@@ -20341,8 +20338,10 @@
       "id": "way/135608689",
       "properties": {
         "bicycle": "no",
-        "highway": "path",
+        "construction": "path",
+        "highway": "construction",
         "horse": "no",
+        "note": "Pad tijdelijk afgesloten, duurt tot ± april 2023 (informatie bevraagd bij domeinbeheerder)",
         "surface": "grass",
         "id": "way/135608689"
       },
@@ -21148,7 +21147,7 @@
       "id": "way/146395215",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "vehicle": "no",
         "vicinal_ref": "Sentier nr. 67",
         "id": "way/146395215"
@@ -21249,6 +21248,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Sint-Jobsweg",
+        "surface": "asphalt",
         "id": "way/146395219"
       },
       "geometry": {
@@ -23963,6 +23963,7 @@
       "properties": {
         "highway": "track",
         "name": "Rodesevoetpad",
+        "surface": "paving_stones",
         "tracktype": "grade2",
         "id": "way/179687581"
       },
@@ -24044,6 +24045,7 @@
       "properties": {
         "highway": "service",
         "service": "parking_aisle",
+        "surface": "asphalt",
         "id": "way/179687610"
       },
       "geometry": {
@@ -24727,6 +24729,7 @@
         "highway": "tertiary",
         "maxspeed": "70",
         "name": "Rodestraat",
+        "surface": "asphalt",
         "id": "way/182275362"
       },
       "geometry": {
@@ -25867,6 +25870,7 @@
       "id": "way/191609350",
       "properties": {
         "highway": "footway",
+        "surface": "asphalt",
         "id": "way/191609350"
       },
       "geometry": {
@@ -26332,6 +26336,7 @@
         "cycleway": "lane",
         "highway": "tertiary",
         "name": "Beninksstraat",
+        "surface": "asphalt",
         "id": "way/198850005"
       },
       "geometry": {
@@ -31922,6 +31927,7 @@
       "properties": {
         "bicycle": "no",
         "highway": "track",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/315197985"
       },
@@ -32432,6 +32438,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Sint-Jobsweg",
+        "surface": "asphalt",
         "id": "way/318267939"
       },
       "geometry": {
@@ -32461,7 +32468,7 @@
       "id": "way/318267953",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade4",
         "vicinal_ref": "Sentier nr. 67",
         "id": "way/318267953"
@@ -33480,6 +33487,7 @@
       "id": "way/324298379",
       "properties": {
         "highway": "track",
+        "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",
         "id": "way/324298379"
@@ -35105,6 +35113,7 @@
       "id": "way/376721898",
       "properties": {
         "highway": "track",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/376721898"
       },
@@ -38175,6 +38184,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Sint-Jobsweg",
+        "surface": "asphalt",
         "id": "way/441280741"
       },
       "geometry": {
@@ -38229,6 +38239,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Sint-Jobsweg",
+        "surface": "asphalt",
         "id": "way/441280743"
       },
       "geometry": {
@@ -40417,6 +40428,7 @@
         "highway": "cycleway",
         "name": "Beninksstraat",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/624246313"
       },
       "geometry": {
@@ -43372,6 +43384,7 @@
         "highway": "cycleway",
         "name": "Beninksstraat",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/908372758"
       },
       "geometry": {
@@ -46039,6 +46052,49 @@
           [
             5.0055478,
             50.8177814
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1116104342",
+      "properties": {
+        "bicycle": "no",
+        "highway": "path",
+        "horse": "no",
+        "id": "way/1116104342"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.117748,
+            50.8357313
+          ],
+          [
+            5.1175812,
+            50.8355385
+          ],
+          [
+            5.117649,
+            50.8354772
+          ],
+          [
+            5.1178347,
+            50.8353741
+          ],
+          [
+            5.1179078,
+            50.8353401
+          ],
+          [
+            5.1181019,
+            50.8353218
+          ],
+          [
+            5.1181794,
+            50.8352995
           ]
         ]
       }
