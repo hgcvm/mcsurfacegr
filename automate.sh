@@ -11,7 +11,7 @@ for REL in $INPUT; do
 	rm data/$REL.osm
 
 	# Sleep, rate limit queries overpass server
-	# sleep 3
+	sleep 3
 
 	# Show some output
 	let COUNTER=COUNTER+1 
