@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 1 Dowload and convert all relations from merge/ dir. Write to data/ dir.
-INPUT=`cat merge/*`
+INPUT=`cat merge/* | sed 's/[ \t]*$//' | sort -n | uniq`
 TOTALCOUNT=`wc -w <<< $INPUT` && COUNTER=0
 for REL in $INPUT; do
 	# Get osm file from overpass for each relation, and convert to geojson
@@ -25,7 +25,7 @@ while read REL; do
         readarray -t RELCHILDR < merge/"$REL"
         	#Add dir and extension to array members, so geojson-merge can use array as input files
 	        for ((i=0; i < ${#RELCHILDR[@]}; i++)); do
-        	        RELCHILDR[$i]=`echo ${RELCHILDR[$i]} | xargs`  # removes trailing space
+        	        RELCHILDR[$i]=`echo ${RELCHILDR[$i]} | sed 's/[ \t]*$//'`  # removes trailing space
         	        RELCHILDR[$i]=`sed 's_^_./data/_' <<< ${RELCHILDR[$i]}`
                 	RELCHILDR[$i]=`sed 's_$_.geojson_' <<< ${RELCHILDR[$i]}`
 	        done
@@ -66,7 +66,7 @@ echo Generating HTML
 
 
 # 5 Deleting merged geojson files and cleanup
-INPUT=`cat merge/* | sed 's/[ \t]*$//' | sort | uniq`
+INPUT=`cat merge/* | sed 's/[ \t]*$//' | sort -n | uniq`
 TOTALCOUNT=`wc -w <<< $INPUT` && COUNTER=0
 for REL in $INPUT; do
 	rm data/$REL.geojson
