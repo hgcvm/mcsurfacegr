@@ -15,7 +15,7 @@ for REL in $INPUT; do
 	let COUNTER=COUNTER+1 
 	printf "Downloading & convert - ($COUNTER/$TOTALCOUNT) $REL\n"
 done
-printf "Downloading & convert - ($COUNTER/$TOTALCOUNT) DONE\n"
+printf "Downloading & convert - DONE\n"
 
 
 # 2 Merge child relations. Superrelations are defined as files in the merge/ dir. Write result in data/dir
@@ -48,7 +48,7 @@ while read REL; do
         let COUNTER=COUNTER+1
 	printf "Merging geojson, generate json - ($COUNTER/$TOTALCOUNT) $REL\n"
 done < <(echo "$INPUT")
-printf "Merging geojson, generate json - ($COUNTER/$TOTALCOUNT) DONE\n"
+printf "Merging geojson, generate json - DONE\n"
 
 
 # 3 Calculate average completion percentage
@@ -75,7 +75,7 @@ for REL in $INPUT; do
 	let COUNTER=COUNTER+1 
 	printf "Deleting merged geojson files - ($COUNTER/$TOTALCOUNT) $REL\n"
 done
-printf "Deleting merged geojson files - ($COUNTER/$TOTALCOUNT) DONE\n"
+printf "Deleting merged geojson files - DONE\n"
 rm temp_table.html
 rm data/*.osm
 echo Done
