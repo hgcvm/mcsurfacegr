@@ -3103,7 +3103,7 @@
       "properties": {
         "highway": "path",
         "name": "Tiggelpad",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/11302394"
       },
       "geometry": {
@@ -3168,6 +3168,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Wilselsesteenweg",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/12372672"
       },
@@ -30327,6 +30328,7 @@
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Wilselsesteenweg",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/38209648"
       },
@@ -30368,6 +30370,7 @@
         "maxspeed": "30",
         "name": "Bergstraat",
         "oneway": "yes",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/38209956"
       },
@@ -30401,6 +30404,7 @@
         "junction": "roundabout",
         "maxspeed": "30",
         "oneway": "yes",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/38210056"
       },
@@ -30445,6 +30449,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Bergstraat",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/38210057"
       },
@@ -30510,7 +30515,7 @@
         "highway": "path",
         "horse": "yes",
         "name": "Kesselbergpad",
-        "surface": "paved",
+        "surface": "asphalt",
         "traffic_sign": "F99c",
         "id": "way/38210904"
       },
@@ -30563,6 +30568,7 @@
         "access": "destination",
         "highway": "unclassified",
         "name": "Wilselsesteenweg",
+        "surface": "asphalt",
         "id": "way/38211411"
       },
       "geometry": {
@@ -30640,6 +30646,7 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Wilselsesteenweg",
+        "surface": "asphalt",
         "id": "way/38211415"
       },
       "geometry": {
@@ -30665,6 +30672,7 @@
       "id": "way/38212114",
       "properties": {
         "highway": "cycleway",
+        "surface": "asphalt",
         "id": "way/38212114"
       },
       "geometry": {
@@ -39314,7 +39322,7 @@
         "foot": "yes",
         "highway": "path",
         "name": "Witte-Vrouwenpad",
-        "surface": "unpaved",
+        "surface": "compacted",
         "vehicle": "no",
         "id": "way/39352016"
       },
@@ -54382,6 +54390,7 @@
         "maxspeed": "30",
         "name": "Heidebergstraat",
         "oneway": "yes",
+        "surface": "paving_stones",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/61596758"
       },
@@ -56690,7 +56699,7 @@
         "highway": "service",
         "name": "Heidebloempad",
         "service": "driveway",
-        "surface": "unpaved",
+        "surface": "asphalt",
         "id": "way/76845671"
       },
       "geometry": {
@@ -56878,6 +56887,7 @@
         "maxspeed": "30",
         "name": "Heidebergstraat",
         "oneway": "yes",
+        "surface": "paving_stones",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/79801761"
       },
@@ -57003,7 +57013,7 @@
         "maxspeed": "30",
         "motor_vehicle": "no",
         "name": "Tiggelpad",
-        "surface": "unpaved",
+        "surface": "compacted",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/79942232"
       },
@@ -57031,7 +57041,7 @@
       "properties": {
         "highway": "track",
         "name": "Tiggelpad",
-        "surface": "unpaved",
+        "surface": "compacted",
         "id": "way/79942234"
       },
       "geometry": {
@@ -57076,10 +57086,6 @@
           [
             4.7432474,
             50.8715637
-          ],
-          [
-            4.7434171,
-            50.8715441
           ]
         ]
       }
@@ -72778,7 +72784,7 @@
       "properties": {
         "highway": "path",
         "name": "Heidebloempad",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/150497127"
       },
       "geometry": {
@@ -76669,6 +76675,7 @@
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Holsbeeksesteenweg",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/179193411"
       },
@@ -76859,6 +76866,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Wilselsesteenweg",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/179540262"
       },
@@ -91214,7 +91222,7 @@
         "highway": "path",
         "motor_vehicle": "no",
         "name": "Tiggelpad",
-        "surface": "unpaved",
+        "surface": "compacted",
         "id": "way/318218548"
       },
       "geometry": {
@@ -126126,6 +126134,29 @@
           [
             3.5197217,
             50.9858876
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1116332228",
+      "properties": {
+        "highway": "track",
+        "name": "Tiggelpad",
+        "surface": "unpaved",
+        "id": "way/1116332228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7432474,
+            50.8715637
+          ],
+          [
+            4.7434171,
+            50.8715441
           ]
         ]
       }
