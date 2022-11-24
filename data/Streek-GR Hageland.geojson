@@ -1822,6 +1822,7 @@
       "properties": {
         "highway": "track",
         "name": "Horebeekstraat",
+        "surface": "dirt",
         "tracktype": "grade2",
         "id": "way/22724459"
       },
@@ -2018,6 +2019,33 @@
           [
             4.9312009,
             50.8066027
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/22840408",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Groot Overlaar",
+        "old_ref": "N221",
+        "ref": "N221",
+        "id": "way/22840408"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9238486,
+            50.7989682
+          ],
+          [
+            4.9236002,
+            50.7988025
           ]
         ]
       }
@@ -8269,10 +8297,6 @@
           [
             4.9914019,
             51.0024949
-          ],
-          [
-            4.9914092,
-            51.002417
           ]
         ]
       }
@@ -9304,6 +9328,7 @@
       "properties": {
         "highway": "track",
         "name": "Holsbeekschebaen",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/35575579"
       },
@@ -12363,6 +12388,51 @@
           [
             4.8377945,
             50.9841173
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39391261",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lanes:forward": "1",
+        "maxspeed": "70",
+        "name": "Groot Overlaar",
+        "ref": "N221",
+        "turn:lanes:backward": "left|none",
+        "id": "way/39391261"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.92328,
+            50.7985746
+          ],
+          [
+            4.9231629,
+            50.7984913
+          ],
+          [
+            4.9231252,
+            50.7984645
+          ],
+          [
+            4.9231014,
+            50.7984475
+          ],
+          [
+            4.9228619,
+            50.7982764
+          ],
+          [
+            4.9227939,
+            50.7982296
           ]
         ]
       }
@@ -18290,74 +18360,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/97715609",
-      "properties": {
-        "highway": "cycleway",
-        "name": "Groot Overlaar",
-        "oneway": "yes",
-        "surface": "compacted",
-        "id": "way/97715609"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.9235785,
-            50.7986317
-          ],
-          [
-            4.9235916,
-            50.7986765
-          ],
-          [
-            4.9236841,
-            50.7987609
-          ],
-          [
-            4.923854,
-            50.7989162
-          ],
-          [
-            4.9240072,
-            50.7990207
-          ],
-          [
-            4.9241073,
-            50.7990274
-          ],
-          [
-            4.924177,
-            50.7990785
-          ],
-          [
-            4.9242317,
-            50.7991175
-          ],
-          [
-            4.9242469,
-            50.7991818
-          ],
-          [
-            4.9246534,
-            50.7994176
-          ],
-          [
-            4.9248965,
-            50.7995323
-          ],
-          [
-            4.9250069,
-            50.7995844
-          ],
-          [
-            4.9255438,
-            50.7998345
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/100864734",
       "properties": {
         "cycleway:both": "no",
@@ -23425,6 +23427,37 @@
     },
     {
       "type": "Feature",
+      "id": "way/172282929",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:both_ways": "1",
+        "lanes:forward": "1",
+        "maxspeed": "70",
+        "name": "Groot Overlaar",
+        "old_ref": "N221",
+        "ref": "N221",
+        "turn:lanes:both_ways": "left",
+        "id": "way/172282929"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9233746,
+            50.7986423
+          ],
+          [
+            4.92328,
+            50.7985746
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/172920931",
       "properties": {
         "highway": "track",
@@ -25022,6 +25055,7 @@
         "highway": "track",
         "name": "Oude Leuvenseweg",
         "name:etymology:wikidata": "Q118958",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/186666373"
       },
@@ -27475,6 +27509,32 @@
     },
     {
       "type": "Feature",
+      "id": "way/215110306",
+      "properties": {
+        "highway": "service",
+        "maxspeed": "50",
+        "name": "Zelkstraat",
+        "source:maxspeed": "sign",
+        "width": "2",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/215110306"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0753619,
+            50.9683771
+          ],
+          [
+            5.075263,
+            50.9683228
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/215110307",
       "properties": {
         "highway": "track",
@@ -29238,33 +29298,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/246885850",
-      "properties": {
-        "highway": "cycleway",
-        "oneway": "yes",
-        "surface": "asphalt",
-        "id": "way/246885850"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.0562843,
-            50.9905121
-          ],
-          [
-            5.0564761,
-            50.9905065
-          ],
-          [
-            5.0566042,
-            50.9905028
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/247710849",
       "properties": {
         "bridge": "yes",
@@ -29957,28 +29990,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/257251399",
-      "properties": {
-        "highway": "path",
-        "surface": "dirt",
-        "id": "way/257251399"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.0459256,
-            50.8357542
-          ],
-          [
-            5.0459646,
-            50.835783
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/264598893",
       "properties": {
         "highway": "residential",
@@ -30528,56 +30539,6 @@
           [
             5.0455636,
             50.9526235
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/285295739",
-      "properties": {
-        "highway": "cycleway",
-        "surface": "concrete",
-        "id": "way/285295739"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.0743727,
-            50.9691766
-          ],
-          [
-            5.0742762,
-            50.9691186
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/285295745",
-      "properties": {
-        "highway": "cycleway",
-        "lit": "yes",
-        "oneway": "yes",
-        "surface": "concrete",
-        "id": "way/285295745"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.0742762,
-            50.9691186
-          ],
-          [
-            5.0745864,
-            50.968875
-          ],
-          [
-            5.075263,
-            50.9683228
           ]
         ]
       }
@@ -34163,6 +34124,48 @@
           [
             4.9402442,
             50.8028797
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/343124371",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "maxspeed": "70",
+        "name": "Groot Overlaar",
+        "old_ref": "N221",
+        "ref": "N221",
+        "turn:lanes:forward": "left|none",
+        "id": "way/343124371"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9236002,
+            50.7988025
+          ],
+          [
+            4.9235489,
+            50.798766
+          ],
+          [
+            4.9235243,
+            50.7987485
+          ],
+          [
+            4.9234821,
+            50.7987184
+          ],
+          [
+            4.9233746,
+            50.7986423
           ]
         ]
       }
@@ -38072,6 +38075,7 @@
       "properties": {
         "highway": "track",
         "name": "Horebeekstraat",
+        "surface": "asphalt",
         "tracktype": "grade2",
         "id": "way/441272821"
       },
@@ -38269,10 +38273,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9255438,
-            50.7998345
-          ],
-          [
             4.9255092,
             50.7998736
           ],
@@ -38283,59 +38283,6 @@
           [
             4.925151,
             50.800466
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/444109159",
-      "properties": {
-        "highway": "cycleway",
-        "lit": "yes",
-        "name": "Groot Overlaar",
-        "oneway": "yes",
-        "surface": "asphalt",
-        "id": "way/444109159"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.9227939,
-            50.7982296
-          ],
-          [
-            4.9229499,
-            50.7982673
-          ],
-          [
-            4.9231497,
-            50.7983885
-          ],
-          [
-            4.9232329,
-            50.798408
-          ],
-          [
-            4.9232758,
-            50.7984139
-          ],
-          [
-            4.9233643,
-            50.79843
-          ],
-          [
-            4.9234119,
-            50.798464
-          ],
-          [
-            4.9235059,
-            50.7985315
-          ],
-          [
-            4.9235839,
-            50.7985754
           ]
         ]
       }
@@ -39043,6 +38990,33 @@
           [
             4.9402862,
             50.8022721
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/498344995",
+      "properties": {
+        "highway": "track",
+        "surface": "compacted",
+        "tracktype": "grade3",
+        "id": "way/498344995"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9914019,
+            51.0024949
+          ],
+          [
+            4.9917687,
+            51.0025428
+          ],
+          [
+            4.9921003,
+            51.0025412
           ]
         ]
       }
@@ -40266,14 +40240,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0562843,
-            50.9905121
-          ],
-          [
-            5.0562745,
-            50.9904249
-          ],
-          [
             5.0562488,
             50.9903227
           ],
@@ -41335,6 +41301,36 @@
     },
     {
       "type": "Feature",
+      "id": "way/699270590",
+      "properties": {
+        "highway": "cycleway",
+        "surface": "paved",
+        "id": "way/699270590"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0562488,
+            50.9903227
+          ],
+          [
+            5.056359,
+            50.9903818
+          ],
+          [
+            5.0564026,
+            50.9904418
+          ],
+          [
+            5.0564761,
+            50.9905065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/706154549",
       "properties": {
         "highway": "path",
@@ -41415,6 +41411,32 @@
           [
             4.7925658,
             50.8350119
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/745070660",
+      "properties": {
+        "highway": "path",
+        "name": "Voetweg 126 - Boschweg",
+        "id": "way/745070660"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8765904,
+            50.9987781
+          ],
+          [
+            4.8767669,
+            50.9988116
+          ],
+          [
+            4.876825,
+            50.998871
           ]
         ]
       }
@@ -41525,39 +41547,6 @@
           [
             4.9931051,
             51.0024572
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/750235092",
-      "properties": {
-        "foot": "yes",
-        "highway": "cycleway",
-        "name": "Gasthuispad",
-        "surface": "compacted",
-        "traffic_sign": "BE:F99a",
-        "id": "way/750235092"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.9914092,
-            51.002417
-          ],
-          [
-            4.9919706,
-            51.0024805
-          ],
-          [
-            4.9920549,
-            51.0025244
-          ],
-          [
-            4.9921003,
-            51.0025412
           ]
         ]
       }
@@ -43980,53 +43969,43 @@
     },
     {
       "type": "Feature",
-      "id": "way/908624273",
+      "id": "way/950086583",
       "properties": {
-        "highway": "cycleway",
-        "name": "Zuidelijke Ring",
-        "surface": "concrete",
-        "width": "2.5",
-        "id": "way/908624273"
+        "bicycle": "yes",
+        "highway": "path",
+        "mtb:scale": "1",
+        "name": "Voetweg 126 - Boschweg",
+        "sac_scale": "mountain_hiking",
+        "surface": "ground",
+        "trail_visibility": "excellent",
+        "id": "way/950086583"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.9235839,
-            50.7985754
+            4.8765904,
+            50.9987781
           ],
           [
-            4.9235785,
-            50.7986317
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/950086584",
-      "properties": {
-        "highway": "track",
-        "id": "way/950086584"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
+            4.8765416,
+            50.9987574
+          ],
+          [
+            4.8764652,
+            50.9987401
+          ],
+          [
+            4.8762563,
+            50.9987083
+          ],
+          [
+            4.8761626,
+            50.9986786
+          ],
           [
             4.8763935,
             50.9984496
-          ],
-          [
-            4.8766615,
-            50.9985518
-          ],
-          [
-            4.8768713,
-            50.9987668
-          ],
-          [
-            4.876825,
-            50.998871
           ]
         ]
       }
@@ -44158,6 +44137,35 @@
           [
             4.8361571,
             50.9845196
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/969133516",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "maxspeed": "70",
+        "name": "Halensebaan",
+        "ref": "N2",
+        "toll:hgv": "yes",
+        "id": "way/969133516"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0743727,
+            50.9691766
+          ],
+          [
+            5.0753619,
+            50.9683771
           ]
         ]
       }
@@ -46169,6 +46177,75 @@
           [
             4.7434171,
             50.8715441
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1116627907",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "id": "way/1116627907"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0564761,
+            50.9905065
+          ],
+          [
+            5.0566042,
+            50.9905028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1116627909",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Groot Overlaar",
+        "old_ref": "N221",
+        "ref": "N221",
+        "id": "way/1116627909"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9255092,
+            50.7998736
+          ],
+          [
+            4.9249374,
+            50.7996032
+          ],
+          [
+            4.9248771,
+            50.799561
+          ],
+          [
+            4.9247081,
+            50.799482
+          ],
+          [
+            4.9245985,
+            50.7994408
+          ],
+          [
+            4.9240925,
+            50.7991452
+          ],
+          [
+            4.9238486,
+            50.7989682
           ]
         ]
       }

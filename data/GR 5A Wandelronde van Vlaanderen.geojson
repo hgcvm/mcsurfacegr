@@ -17311,6 +17311,7 @@
       "properties": {
         "highway": "residential",
         "name": "Nieuwe Ydelaan",
+        "surface": "asphalt",
         "id": "way/39228636"
       },
       "geometry": {
@@ -26388,6 +26389,7 @@
       "properties": {
         "highway": "residential",
         "name": "Henegouwpad",
+        "surface": "asphalt",
         "id": "way/102595649"
       },
       "geometry": {
@@ -29194,6 +29196,7 @@
       "id": "way/129834626",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/129834626"
       },
       "geometry": {
@@ -32181,6 +32184,7 @@
       "properties": {
         "highway": "residential",
         "name": "Loze Vissertjespad",
+        "surface": "asphalt",
         "id": "way/137631018"
       },
       "geometry": {
@@ -53318,6 +53322,7 @@
       "properties": {
         "highway": "residential",
         "name": "Henegouwpad",
+        "surface": "asphalt",
         "id": "way/627143667"
       },
       "geometry": {
@@ -65478,7 +65483,7 @@
       "type": "Feature",
       "id": "way/24884601",
       "properties": {
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "cycleway:moped": "mandatory",
         "highway": "tertiary",
         "name": "Kasteellaan",
@@ -70697,7 +70702,7 @@
       "type": "Feature",
       "id": "way/33549603",
       "properties": {
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "cycleway:moped": "mandatory",
         "highway": "tertiary",
         "name": "Aubroekstraat",
@@ -82872,7 +82877,12 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "track",
-        "name": "Vierwindenstraat",
+        "motor_vehicle": "no",
+        "name": "Oudebergstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "oneway:moped": "no",
         "segregated": "no",
         "surface": "asphalt",
         "tracktype": "grade1",
@@ -82882,28 +82892,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.8911767,
-            50.7734422
-          ],
-          [
-            3.8912198,
-            50.7734129
-          ],
-          [
-            3.891478,
-            50.7732653
-          ],
-          [
-            3.8917967,
-            50.7730857
+            3.8925896,
+            50.7725681
           ],
           [
             3.8921703,
             50.7728482
           ],
           [
-            3.8925896,
-            50.7725681
+            3.8917967,
+            50.7730857
+          ],
+          [
+            3.891478,
+            50.7732653
+          ],
+          [
+            3.8912617,
+            50.7733823
+          ],
+          [
+            3.8912198,
+            50.7734129
+          ],
+          [
+            3.8911738,
+            50.7734458
           ]
         ]
       }
@@ -82950,6 +82964,7 @@
       "id": "way/75542920",
       "properties": {
         "highway": "steps",
+        "incline": "up",
         "name": "Oudebergstraat",
         "surface": "sett",
         "tracktype": "grade2",
@@ -82979,6 +82994,7 @@
       "properties": {
         "foot": "yes",
         "highway": "path",
+        "horse": "no",
         "surface": "dirt",
         "vehicle": "no",
         "id": "way/75542921"
@@ -82989,6 +83005,10 @@
           [
             3.9269748,
             50.7779818
+          ],
+          [
+            3.9270141,
+            50.7778515
           ],
           [
             3.927064,
@@ -86378,8 +86398,8 @@
             50.7740617
           ],
           [
-            3.9488618,
-            50.7743565
+            3.9489027,
+            50.7743656
           ],
           [
             3.9493119,
@@ -86410,8 +86430,8 @@
             50.7757539
           ],
           [
-            3.9534691,
-            50.7762276
+            3.9534764,
+            50.7762169
           ]
         ]
       }
@@ -86564,16 +86584,16 @@
             50.7765344
           ],
           [
-            3.9530474,
-            50.7764006
+            3.9530599,
+            50.7764059
           ],
           [
             3.9534136,
             50.7762777
           ],
           [
-            3.9534691,
-            50.7762276
+            3.9535097,
+            50.7762398
           ]
         ]
       }
@@ -86736,6 +86756,10 @@
           [
             3.9390714,
             50.7704924
+          ],
+          [
+            3.938802,
+            50.7703147
           ],
           [
             3.9387839,
@@ -110512,8 +110536,12 @@
             50.7732085
           ],
           [
-            3.8911767,
-            50.7734422
+            3.8908801,
+            50.7732728
+          ],
+          [
+            3.8911738,
+            50.7734458
           ]
         ]
       }
@@ -130889,6 +130917,10 @@
             50.7723404
           ],
           [
+            3.8884113,
+            50.7723025
+          ],
+          [
             3.888401,
             50.7722807
           ],
@@ -143922,6 +143954,29 @@
           [
             4.0441353,
             50.9204627
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1116633539",
+      "properties": {
+        "highway": "tertiary",
+        "maxspeed": "70",
+        "name": "Heirbaan",
+        "id": "way/1116633539"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.9534764,
+            50.7762169
+          ],
+          [
+            3.9535097,
+            50.7762398
           ]
         ]
       }
