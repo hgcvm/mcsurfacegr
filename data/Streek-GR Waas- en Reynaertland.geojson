@@ -9674,7 +9674,8 @@
       "properties": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "service",
+        "motor_vehicle": "permissive",
         "surface": "asphalt",
         "id": "way/37810829"
       },
@@ -19333,8 +19334,9 @@
         "bicycle": "yes",
         "description": "highway=service wegens dienstweg voor de Vlaamse Waterweg",
         "embankment": "yes",
-        "highway": "cycleway",
+        "highway": "service",
         "horse": "no",
+        "motor_vehicle": "permissive",
         "oneway": "no",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,G[jaagpad],GIV[uitgezonderd aangelanden, toelatingen w&z en rijwielen]",
@@ -19474,7 +19476,9 @@
       "properties": {
         "embankment": "yes",
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "service",
+        "horse": "yes",
+        "motor_vehicle": "permissive",
         "oneway": "no",
         "surface": "asphalt",
         "width": "3",
@@ -19592,7 +19596,7 @@
         "bicycle": "yes",
         "description": "highway=service wegens dienstweg voor de Vlaamse Waterweg",
         "embankment": "yes",
-        "highway": "cycleway",
+        "highway": "service",
         "horse": "no",
         "name": "Durmedijk",
         "surface": "asphalt",
@@ -19682,8 +19686,9 @@
         "designation": "towpath",
         "embankment": "yes",
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "service",
         "lit": "yes",
+        "motor_vehicle": "permissive",
         "name": "Durmedijk",
         "segregated": "no",
         "surface": "asphalt",
@@ -19909,7 +19914,8 @@
       "properties": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "service",
+        "motor_vehicle": "permissive",
         "surface": "unpaved",
         "id": "way/145251537"
       },
@@ -19977,7 +19983,7 @@
       "properties": {
         "bicycle": "yes",
         "embankment": "yes",
-        "highway": "cycleway",
+        "highway": "service",
         "surface": "asphalt",
         "id": "way/145251540"
       },
@@ -20003,7 +20009,8 @@
       "type": "Feature",
       "id": "way/145251542",
       "properties": {
-        "highway": "cycleway",
+        "highway": "service",
+        "motor_vehicle": "permissive",
         "surface": "asphalt",
         "id": "way/145251542"
       },
@@ -20140,7 +20147,8 @@
         "bicycle": "yes",
         "embankment": "yes",
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "service",
+        "motor_vehicle": "permissive",
         "surface": "asphalt",
         "tracktype": "grade1",
         "id": "way/145251543"
@@ -20316,7 +20324,8 @@
       "id": "way/145251547",
       "properties": {
         "embankment": "yes",
-        "highway": "cycleway",
+        "highway": "service",
+        "motor_vehicle": "permissive",
         "surface": "asphalt",
         "id": "way/145251547"
       },
@@ -20664,7 +20673,7 @@
       "id": "way/145425011",
       "properties": {
         "embankment": "yes",
-        "highway": "cycleway",
+        "highway": "service",
         "surface": "asphalt",
         "id": "way/145425011"
       },
@@ -23593,7 +23602,7 @@
       "type": "Feature",
       "id": "way/179825566",
       "properties": {
-        "highway": "cycleway",
+        "highway": "service",
         "surface": "asphalt",
         "id": "way/179825566"
       },
@@ -23943,7 +23952,8 @@
       "id": "way/198506915",
       "properties": {
         "embankment": "yes",
-        "highway": "cycleway",
+        "highway": "service",
+        "motor_vehicle": "permissive",
         "surface": "gravel",
         "id": "way/198506915"
       },
@@ -39026,7 +39036,8 @@
       "type": "Feature",
       "id": "way/887079929",
       "properties": {
-        "highway": "cycleway",
+        "highway": "service",
+        "motor_vehicle": "permissive",
         "surface": "asphalt",
         "id": "way/887079929"
       },
@@ -39573,7 +39584,8 @@
       "properties": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "service",
+        "motor_vehicle": "permissive",
         "surface": "asphalt",
         "id": "way/954765269"
       },
@@ -39602,8 +39614,9 @@
         "bicycle": "yes",
         "bridge": "yes",
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "service",
         "layer": "1",
+        "motor_vehicle": "permissive",
         "surface": "asphalt",
         "id": "way/954765270"
       },
@@ -41523,6 +41536,8 @@
       "type": "Feature",
       "id": "way/151088064",
       "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "cycleway",
         "lit": "yes",
         "surface": "asphalt",
@@ -41531,14 +41546,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.976016,
-            51.110435
-          ],
-          [
-            3.9761073,
-            51.1103555
-          ],
           [
             3.9761618,
             51.1102732
@@ -41992,6 +41999,33 @@
           [
             3.9814799,
             51.1062899
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1116780001",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "surface": "asphalt",
+        "id": "way/1116780001"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.976016,
+            51.110435
+          ],
+          [
+            3.9761073,
+            51.1103555
+          ],
+          [
+            3.9761618,
+            51.1102732
           ]
         ]
       }
