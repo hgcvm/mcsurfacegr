@@ -1177,6 +1177,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Rietstraat",
+        "surface": "asphalt",
         "id": "way/30064525"
       },
       "geometry": {
@@ -1231,6 +1232,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Wellingstraat",
+        "surface": "asphalt",
         "id": "way/30064532"
       },
       "geometry": {
@@ -7982,6 +7984,7 @@
         "bicycle": "yes",
         "class:bicycle": "+2",
         "highway": "track",
+        "surface": "compacted",
         "vehicle": "no",
         "id": "way/61508078"
       },
@@ -9193,14 +9196,9 @@
       "type": "Feature",
       "id": "way/99536646",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "horse": "no",
-        "mofa": "yes",
-        "moped": "yes",
+        "highway": "unclassified",
         "name": "Blommeke",
-        "vehicle": "no",
+        "surface": "asphalt",
         "id": "way/99536646"
       },
       "geometry": {
@@ -9241,6 +9239,10 @@
           [
             3.3068325,
             51.1206037
+          ],
+          [
+            3.3067909,
+            51.1205713
           ]
         ]
       }
@@ -11824,6 +11826,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Blommeke",
+        "surface": "asphalt",
         "id": "way/134140738"
       },
       "geometry": {
@@ -13128,6 +13131,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Krommekeerstraat",
+        "surface": "asphalt",
         "id": "way/136577573"
       },
       "geometry": {
@@ -13210,6 +13214,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Krommekeerstraat",
+        "surface": "asphalt",
         "id": "way/136577574"
       },
       "geometry": {
@@ -13376,6 +13381,7 @@
         "bicycle": "yes",
         "class:bicycle": "+2",
         "highway": "track",
+        "surface": "compacted",
         "vehicle": "no",
         "id": "way/136584175"
       },
@@ -24000,9 +24006,11 @@
       "type": "Feature",
       "id": "way/431640749",
       "properties": {
-        "bicycle": "use_sidepath",
-        "highway": "unclassified",
-        "name": "Hoogmolenstraat",
+        "bicycle": "no",
+        "foot": "no",
+        "highway": "residential",
+        "horse": "no",
+        "name": "Groeneweg",
         "id": "way/431640749"
       },
       "geometry": {
@@ -27339,6 +27347,7 @@
         "bicycle": "yes",
         "class:bicycle": "+2",
         "highway": "track",
+        "surface": "compacted",
         "vehicle": "no",
         "id": "way/870894279"
       },
@@ -27651,28 +27660,6 @@
           [
             3.4092571,
             51.0781
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/892100531",
-      "properties": {
-        "highway": "unclassified",
-        "name": "Blommeke",
-        "id": "way/892100531"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.3067909,
-            51.1205713
-          ],
-          [
-            3.3068325,
-            51.1206037
           ]
         ]
       }
