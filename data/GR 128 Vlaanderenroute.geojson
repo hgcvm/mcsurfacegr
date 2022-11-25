@@ -38343,6 +38343,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Tabakstraat",
+        "surface": "concrete",
         "id": "way/39217371"
       },
       "geometry": {
@@ -52204,6 +52205,7 @@
         "maxspeed": "30",
         "name": "Dentergemstraat",
         "source:maxspeed": "BE:zone30",
+        "surface": "paving_stones",
         "id": "way/55920802"
       },
       "geometry": {
@@ -52331,6 +52333,7 @@
       "properties": {
         "highway": "residential",
         "name": "Eikhof",
+        "surface": "concrete",
         "id": "way/55921045"
       },
       "geometry": {
@@ -52429,6 +52432,7 @@
       "properties": {
         "highway": "residential",
         "name": "Eikhof",
+        "surface": "concrete",
         "id": "way/55924373"
       },
       "geometry": {
@@ -52547,6 +52551,7 @@
       "properties": {
         "highway": "track",
         "name": "Tabakstraat",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/55924403"
       },
@@ -64896,20 +64901,13 @@
         "maxspeed": "50",
         "name": "Dentergemstraat",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/125391541"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.4452155,
-            50.9799474
-          ],
-          [
-            3.4452975,
-            50.9799952
-          ],
           [
             3.4454524,
             50.9800901
@@ -126180,6 +126178,37 @@
           [
             4.7434171,
             50.8715441
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1117142214",
+      "properties": {
+        "direction": "backward",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Dentergemstraat",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1117142214"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4452155,
+            50.9799474
+          ],
+          [
+            3.4452975,
+            50.9799952
+          ],
+          [
+            3.4454524,
+            50.9800901
           ]
         ]
       }
