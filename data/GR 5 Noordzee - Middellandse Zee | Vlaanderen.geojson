@@ -9317,7 +9317,7 @@
       "id": "way/5173857",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/5173857"
       },
       "geometry": {
@@ -9976,7 +9976,7 @@
       "id": "way/8161188",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/8161188"
       },
       "geometry": {
@@ -10023,12 +10023,12 @@
             50.8108581
           ],
           [
-            5.6740871,
+            5.6740708,
             50.810293
           ],
           [
-            5.6747823,
-            50.8098274
+            5.6742337,
+            50.8101881
           ]
         ]
       }
@@ -10038,7 +10038,7 @@
       "id": "way/8161189",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/8161189"
       },
@@ -10070,8 +10070,8 @@
             50.8094896
           ],
           [
-            5.675016,
-            50.8096515
+            5.6750232,
+            50.8096412
           ]
         ]
       }
@@ -12058,7 +12058,8 @@
       "type": "Feature",
       "id": "way/30186577",
       "properties": {
-        "highway": "residential",
+        "highway": "living_street",
+        "maxspeed": "20",
         "name": "Avergat",
         "surface": "concrete",
         "id": "way/30186577"
@@ -18201,12 +18202,8 @@
             50.8098238
           ],
           [
-            5.6692083,
-            50.809561
-          ],
-          [
-            5.6688178,
-            50.8094366
+            5.6691439,
+            50.8095423
           ]
         ]
       }
@@ -28631,7 +28628,7 @@
       "id": "way/197567762",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/197567762"
       },
       "geometry": {
@@ -34145,7 +34142,8 @@
       "type": "Feature",
       "id": "way/209290709",
       "properties": {
-        "highway": "residential",
+        "highway": "living_street",
+        "maxspeed": "20",
         "name": "Avergat",
         "id": "way/209290709"
       },
@@ -51089,7 +51087,7 @@
       "id": "way/706210275",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/706210275"
       },
@@ -51105,8 +51103,8 @@
             50.8097599
           ],
           [
-            5.675016,
-            50.8096515
+            5.6750232,
+            50.8096412
           ]
         ]
       }
@@ -58751,6 +58749,53 @@
           [
             5.311967,
             50.9537374
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1117657615",
+      "properties": {
+        "highway": "track",
+        "surface": "dirt",
+        "tracktype": "grade4",
+        "id": "way/1117657615"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6742337,
+            50.8101881
+          ],
+          [
+            5.6747823,
+            50.8098274
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1117657631",
+      "properties": {
+        "highway": "living_street",
+        "maxspeed": "20",
+        "name": "Avergat",
+        "surface": "concrete",
+        "id": "way/1117657631"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6691439,
+            50.8095423
+          ],
+          [
+            5.6688178,
+            50.8094366
           ]
         ]
       }

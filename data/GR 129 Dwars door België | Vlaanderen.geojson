@@ -44,6 +44,7 @@
         "maxspeed": "30",
         "name": "Bergstraat",
         "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/8080337"
       },
@@ -3637,6 +3638,7 @@
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
         "oneway:speed_pedelec": "no",
+        "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/44065719"
       },
@@ -3689,6 +3691,7 @@
         "name": "Hoogstraat",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/44065723"
       },
@@ -3731,6 +3734,7 @@
         "maxspeed": "30",
         "name": "Tacambaroplein",
         "oneway": "yes",
+        "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/44065724"
       },
@@ -4326,6 +4330,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Boekweitstraat",
+        "surface": "asphalt",
         "id": "way/55896404"
       },
       "geometry": {
@@ -4412,6 +4417,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Boekweitstraat",
+        "surface": "asphalt",
         "id": "way/55896525"
       },
       "geometry": {
@@ -7396,20 +7402,13 @@
         "name": "Burg",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/59428771"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.6058424,
-            50.8416965
-          ],
-          [
-            3.6057916,
-            50.8417168
-          ],
           [
             3.6057434,
             50.8417357
@@ -7445,6 +7444,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "surface": "sett",
         "zone:maxspeed": "BE:30",
         "id": "way/59429506"
       },
@@ -7486,6 +7486,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/59429606"
       },
@@ -7493,8 +7494,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6058424,
-            50.8416965
+            3.6058808,
+            50.8416936
           ],
           [
             3.6063009,
@@ -7900,6 +7901,7 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
+        "surface": "asphalt",
         "id": "way/76237406"
       },
       "geometry": {
@@ -8434,6 +8436,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "cycleway",
+        "surface": "asphalt",
         "id": "way/86501843"
       },
       "geometry": {
@@ -12764,8 +12767,11 @@
       "type": "Feature",
       "id": "way/135971341",
       "properties": {
-        "bicycle": "yes",
-        "highway": "path",
+        "bicycle": "no",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "no",
+        "motor_vehicle": "no",
         "id": "way/135971341"
       },
       "geometry": {
@@ -12800,6 +12806,7 @@
       "properties": {
         "bicycle": "yes",
         "check_date:surface": "2022-04-16",
+        "foot": "yes",
         "highway": "track",
         "smoothness": "intermediate",
         "surface": "compacted",
@@ -12824,7 +12831,11 @@
       "type": "Feature",
       "id": "way/135971360",
       "properties": {
-        "highway": "path",
+        "bicycle": "no",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "no",
+        "motor_vehicle": "no",
         "surface": "ground",
         "id": "way/135971360"
       },
@@ -13655,9 +13666,11 @@
       "id": "way/137412988",
       "properties": {
         "bicycle": "no",
-        "highway": "path",
+        "foot": "yes",
+        "highway": "track",
         "horse": "no",
         "lit": "no",
+        "motor_vehicle": "no",
         "surface": "dirt",
         "id": "way/137412988"
       },
@@ -13680,9 +13693,11 @@
       "id": "way/137412991",
       "properties": {
         "bicycle": "no",
-        "highway": "path",
+        "foot": "yes",
+        "highway": "track",
         "horse": "no",
         "lit": "no",
+        "motor_vehicle": "no",
         "surface": "dirt",
         "id": "way/137412991"
       },
@@ -19069,79 +19084,12 @@
       "properties": {
         "highway": "residential",
         "name": "Huttegem",
+        "surface": "concrete",
         "id": "way/186368809"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.5935741,
-            50.8465891
-          ],
-          [
-            3.5934694,
-            50.846578
-          ],
-          [
-            3.5933561,
-            50.8465844
-          ],
-          [
-            3.5931858,
-            50.8466021
-          ],
-          [
-            3.5929953,
-            50.846625
-          ],
-          [
-            3.5928122,
-            50.8466418
-          ],
-          [
-            3.5927237,
-            50.8466686
-          ],
-          [
-            3.5927043,
-            50.8466767
-          ],
-          [
-            3.5926641,
-            50.8467058
-          ],
-          [
-            3.5926446,
-            50.8467198
-          ],
-          [
-            3.5926272,
-            50.846741
-          ],
-          [
-            3.59259,
-            50.8467872
-          ],
-          [
-            3.5925677,
-            50.8468251
-          ],
-          [
-            3.5922121,
-            50.8475259
-          ],
-          [
-            3.5921821,
-            50.8475865
-          ],
-          [
-            3.5921558,
-            50.8476132
-          ],
-          [
-            3.59214,
-            50.8476273
-          ],
           [
             3.5920862,
             50.8476492
@@ -20932,6 +20880,7 @@
         "name": "Markt",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "surface": "sett",
         "zone:maxspeed": "BE:30",
         "id": "way/187964589"
       },
@@ -21692,6 +21641,7 @@
         "maxspeed": "30",
         "name": "Tacambaroplein",
         "oneway": "yes",
+        "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/226140001"
       },
@@ -21722,6 +21672,7 @@
         "maxspeed": "30",
         "name": "Tacambaroplein",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "left|through",
         "zone:maxspeed": "BE:30",
         "id": "way/226320081"
@@ -22793,6 +22744,7 @@
         "maxspeed": "30",
         "name": "Tacambaroplein",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "left|through|none",
         "zone:maxspeed": "BE:30",
         "id": "way/319960393"
@@ -23589,6 +23541,7 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
+        "surface": "asphalt",
         "id": "way/379969484"
       },
       "geometry": {
@@ -24664,6 +24617,7 @@
         "maxspeed": "30",
         "name": "Tacambaroplein",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "left|through|none",
         "zone:maxspeed": "BE:30",
         "id": "way/520192238"
@@ -24698,6 +24652,7 @@
         "foot": "designated",
         "highway": "path",
         "segregated": "no",
+        "surface": "sett",
         "id": "way/530787185"
       },
       "geometry": {
@@ -26948,6 +26903,7 @@
         "highway": "path",
         "motor_vehicle": "no",
         "segregated": "no",
+        "surface": "asphalt",
         "id": "way/835512962"
       },
       "geometry": {
@@ -26972,6 +26928,7 @@
         "foot": "designated",
         "highway": "path",
         "segregated": "no",
+        "surface": "sett",
         "traffic_sign": "BE:F103",
         "id": "way/835514309"
       },
@@ -27021,6 +26978,7 @@
         "foot": "designated",
         "highway": "path",
         "segregated": "no",
+        "surface": "sett",
         "id": "way/835514311"
       },
       "geometry": {
@@ -27887,6 +27845,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "cycleway",
+        "surface": "concrete",
         "id": "way/945285495"
       },
       "geometry": {
@@ -27910,6 +27869,7 @@
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Beverestraat",
+        "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/945616750"
       },
@@ -27938,6 +27898,7 @@
         "name": "Hoogstraat",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/958905771"
       },
@@ -28804,6 +28765,7 @@
         "name": "Markt",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "surface": "sett",
         "zone:maxspeed": "BE:30",
         "id": "way/1113734087"
       },
@@ -28973,6 +28935,156 @@
           [
             3.5379269,
             50.9165998
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1117650096",
+      "properties": {
+        "highway": "residential",
+        "name": "Huttegem",
+        "surface": "asphalt",
+        "id": "way/1117650096"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.5935741,
+            50.8465891
+          ],
+          [
+            3.5934694,
+            50.846578
+          ],
+          [
+            3.5933561,
+            50.8465844
+          ],
+          [
+            3.5931858,
+            50.8466021
+          ],
+          [
+            3.5929953,
+            50.846625
+          ],
+          [
+            3.5928122,
+            50.8466418
+          ],
+          [
+            3.5927237,
+            50.8466686
+          ],
+          [
+            3.5927043,
+            50.8466767
+          ],
+          [
+            3.5926641,
+            50.8467058
+          ],
+          [
+            3.5926446,
+            50.8467198
+          ],
+          [
+            3.5926272,
+            50.846741
+          ],
+          [
+            3.59259,
+            50.8467872
+          ],
+          [
+            3.5925677,
+            50.8468251
+          ],
+          [
+            3.5922121,
+            50.8475259
+          ],
+          [
+            3.5921821,
+            50.8475865
+          ],
+          [
+            3.5921558,
+            50.8476132
+          ],
+          [
+            3.59214,
+            50.8476273
+          ],
+          [
+            3.5920862,
+            50.8476492
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1117650956",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Burg",
+        "oneway": "yes",
+        "overtaking:motor_vehicle": "no",
+        "surface": "sett",
+        "zone:maxspeed": "BE:30",
+        "id": "way/1117650956"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6058424,
+            50.8416965
+          ],
+          [
+            3.6057916,
+            50.8417168
+          ],
+          [
+            3.6057434,
+            50.8417357
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1117650976",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kasteelstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
+        "surface": "sett",
+        "zone:maxspeed": "BE:30",
+        "id": "way/1117650976"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6058424,
+            50.8416965
+          ],
+          [
+            3.6058808,
+            50.8416936
           ]
         ]
       }

@@ -49299,6 +49299,7 @@
         "maxspeed": "30",
         "name": "Bergstraat",
         "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/8080337"
       },
@@ -49542,20 +49543,13 @@
         "name": "Burg",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/59428771"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.6058424,
-            50.8416965
-          ],
-          [
-            3.6057916,
-            50.8417168
-          ],
           [
             3.6057434,
             50.8417357
@@ -49591,6 +49585,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "surface": "sett",
         "zone:maxspeed": "BE:30",
         "id": "way/59429506"
       },
@@ -49632,6 +49627,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/59429606"
       },
@@ -49639,8 +49635,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6058424,
-            50.8416965
+            3.6058808,
+            50.8416936
           ],
           [
             3.6063009,
@@ -49671,6 +49667,7 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
+        "surface": "asphalt",
         "id": "way/76237406"
       },
       "geometry": {
@@ -49730,6 +49727,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "cycleway",
+        "surface": "asphalt",
         "id": "way/86501843"
       },
       "geometry": {
@@ -50107,6 +50105,7 @@
         "foot": "designated",
         "highway": "path",
         "segregated": "no",
+        "surface": "sett",
         "id": "way/530787185"
       },
       "geometry": {
@@ -50195,6 +50194,7 @@
         "highway": "path",
         "motor_vehicle": "no",
         "segregated": "no",
+        "surface": "asphalt",
         "id": "way/835512962"
       },
       "geometry": {
@@ -50219,6 +50219,7 @@
         "foot": "designated",
         "highway": "path",
         "segregated": "no",
+        "surface": "sett",
         "traffic_sign": "BE:F103",
         "id": "way/835514309"
       },
@@ -50268,6 +50269,7 @@
         "foot": "designated",
         "highway": "path",
         "segregated": "no",
+        "surface": "sett",
         "id": "way/835514311"
       },
       "geometry": {
@@ -50375,6 +50377,7 @@
         "name": "Markt",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "surface": "sett",
         "zone:maxspeed": "BE:30",
         "id": "way/1113734087"
       },
@@ -50400,6 +50403,69 @@
           [
             3.6039816,
             50.8426029
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1117650956",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Burg",
+        "oneway": "yes",
+        "overtaking:motor_vehicle": "no",
+        "surface": "sett",
+        "zone:maxspeed": "BE:30",
+        "id": "way/1117650956"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6058424,
+            50.8416965
+          ],
+          [
+            3.6057916,
+            50.8417168
+          ],
+          [
+            3.6057434,
+            50.8417357
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1117650976",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kasteelstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
+        "surface": "sett",
+        "zone:maxspeed": "BE:30",
+        "id": "way/1117650976"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6058424,
+            50.8416965
+          ],
+          [
+            3.6058808,
+            50.8416936
           ]
         ]
       }
