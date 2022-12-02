@@ -12840,8 +12840,13 @@
       "type": "Feature",
       "id": "way/26129522",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
         "incline": "down",
+        "motor_vehicle": "no",
         "name": "Kravaalveldbaan",
         "official_vicinal_ref": "134_22_1",
         "surface": "gravel",
@@ -13405,8 +13410,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1695424,
-            50.9400403
+            4.1695341,
+            50.9400379
           ],
           [
             4.1705046,
@@ -13432,24 +13437,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1695424,
-            50.9400403
+            4.1695341,
+            50.9400379
           ],
           [
             4.1694295,
             50.9400373
           ],
           [
-            4.1691896,
-            50.9399757
+            4.1691926,
+            50.9399752
           ],
           [
-            4.169069,
-            50.9399328
+            4.1690735,
+            50.9399295
           ],
           [
-            4.1689095,
-            50.9398632
+            4.168911,
+            50.9398613
           ],
           [
             4.1688327,
@@ -13621,16 +13626,24 @@
             50.9289393
           ],
           [
-            4.1511033,
-            50.9290789
+            4.1511058,
+            50.929089
+          ],
+          [
+            4.1512689,
+            50.9291586
+          ],
+          [
+            4.1514222,
+            50.9292019
           ],
           [
             4.1516081,
             50.9292333
           ],
           [
-            4.1521087,
-            50.9292848
+            4.1521104,
+            50.9292337
           ]
         ]
       }
@@ -50644,6 +50657,7 @@
       "type": "Feature",
       "id": "way/53073478",
       "properties": {
+        "agricultural": "yes",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
@@ -50653,7 +50667,6 @@
         "official_vicinal_ref": "134_22_1",
         "surface": "gravel",
         "tracktype": "grade3",
-        "tunnel": "yes",
         "id": "way/53073478"
       },
       "geometry": {
@@ -106215,10 +106228,10 @@
       "id": "way/580586897",
       "properties": {
         "access": "yes",
-        "bicycle": "no",
+        "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
-        "horse": "no",
+        "horse": "yes",
         "motor_vehicle": "no",
         "id": "way/580586897"
       },
@@ -106226,12 +106239,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1527952,
-            50.9292786
+            4.1528171,
+            50.9292829
           ],
           [
-            4.1521087,
-            50.9292848
+            4.1524655,
+            50.9292445
+          ],
+          [
+            4.1521104,
+            50.9292337
           ]
         ]
       }
@@ -110136,10 +110153,10 @@
       "id": "way/682516158",
       "properties": {
         "access": "yes",
-        "bicycle": "no",
+        "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
-        "horse": "no",
+        "horse": "yes",
         "motor_vehicle": "no",
         "name": "Terberglos",
         "official_vicinal_ref": "134_23_1",
@@ -110159,8 +110176,8 @@
             50.9296655
           ],
           [
-            4.1527952,
-            50.9292786
+            4.1528171,
+            50.9292829
           ]
         ]
       }
@@ -112870,7 +112887,7 @@
       "type": "Feature",
       "id": "way/768525018",
       "properties": {
-        "access": "no",
+        "access": "yes",
         "bicycle": "no",
         "foot": "yes",
         "highway": "track",
@@ -128356,36 +128373,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/25792775",
-      "properties": {
-        "highway": "path",
-        "surface": "ground",
-        "id": "way/25792775"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.0496414,
-            50.7516821
-          ],
-          [
-            6.049602,
-            50.751841
-          ],
-          [
-            6.0495696,
-            50.7520543
-          ],
-          [
-            6.0496087,
-            50.7523573
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/25919544",
       "properties": {
         "highway": "track",
@@ -128875,6 +128862,36 @@
           [
             6.0617191,
             50.7459497
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/32004116",
+      "properties": {
+        "highway": "service",
+        "surface": "pebblestone",
+        "id": "way/32004116"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.0515209,
+            50.751392
+          ],
+          [
+            6.0514061,
+            50.7514382
+          ],
+          [
+            6.0512962,
+            50.7514679
+          ],
+          [
+            6.0511864,
+            50.7514899
           ]
         ]
       }
@@ -136103,6 +136120,85 @@
     },
     {
       "type": "Feature",
+      "id": "way/228598067",
+      "properties": {
+        "highway": "path",
+        "surface": "ground",
+        "id": "way/228598067"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.0496087,
+            50.7523573
+          ],
+          [
+            6.0498576,
+            50.7521595
+          ],
+          [
+            6.0500216,
+            50.7520187
+          ],
+          [
+            6.0501543,
+            50.7519146
+          ],
+          [
+            6.0502695,
+            50.751843
+          ],
+          [
+            6.0502669,
+            50.7517848
+          ],
+          [
+            6.0502252,
+            50.7517284
+          ],
+          [
+            6.0501087,
+            50.7516728
+          ],
+          [
+            6.0499768,
+            50.7516433
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/229571575",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Karlshöher Talweg",
+        "surface": "asphalt",
+        "id": "way/229571575"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.0514487,
+            50.7513024
+          ],
+          [
+            6.0514565,
+            50.7513185
+          ],
+          [
+            6.0515209,
+            50.751392
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/247418918",
       "properties": {
         "highway": "path",
@@ -136490,6 +136586,41 @@
           [
             6.0484064,
             50.752101
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/294893580",
+      "properties": {
+        "highway": "track",
+        "surface": "dirt",
+        "tracktype": "grade3",
+        "id": "way/294893580"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.0511864,
+            50.7514899
+          ],
+          [
+            6.0510287,
+            50.7515026
+          ],
+          [
+            6.0508699,
+            50.7515124
+          ],
+          [
+            6.0506582,
+            50.7515317
+          ],
+          [
+            6.050525,
+            50.7515542
           ]
         ]
       }
@@ -138082,31 +138213,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/806553953",
-      "properties": {
-        "highway": "path",
-        "id": "way/806553953"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.050525,
-            50.7515542
-          ],
-          [
-            6.0505298,
-            50.7514692
-          ],
-          [
-            6.0506153,
-            50.7514014
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/816293579",
       "properties": {
         "highway": "path",
@@ -138815,33 +138921,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1030030801",
-      "properties": {
-        "highway": "track",
-        "surface": "dirt",
-        "tracktype": "grade3",
-        "id": "way/1030030801"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.0499768,
-            50.7516433
-          ],
-          [
-            6.0497764,
-            50.7516593
-          ],
-          [
-            6.0496414,
-            50.7516821
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1030409148",
       "properties": {
         "description": "gevaarlijke afdaling",
@@ -139045,36 +139124,6 @@
           [
             6.0514487,
             50.7513024
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1116482787",
-      "properties": {
-        "bicycle": "no",
-        "check_date:surface": "2022-03-24",
-        "highway": "path",
-        "surface": "ground",
-        "trail_visibility": "good",
-        "width": "0.5",
-        "id": "way/1116482787"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.0514487,
-            50.7513024
-          ],
-          [
-            6.0512374,
-            50.7513027
-          ],
-          [
-            6.0506153,
-            50.7514014
           ]
         ]
       }
@@ -144301,34 +144350,6 @@
           [
             3.7401359,
             51.0568134
-          ],
-          [
-            3.7401418,
-            51.056819
-          ],
-          [
-            3.7401741,
-            51.0568494
-          ],
-          [
-            3.7402071,
-            51.0568779
-          ],
-          [
-            3.7403246,
-            51.0569581
-          ],
-          [
-            3.7403686,
-            51.0569767
-          ],
-          [
-            3.7404421,
-            51.0569904
-          ],
-          [
-            3.7407157,
-            51.0570005
           ]
         ]
       }
@@ -144545,16 +144566,8 @@
             51.0559347
           ],
           [
-            3.7384719,
-            51.0561822
-          ],
-          [
-            3.7384576,
-            51.0562393
-          ],
-          [
-            3.7384445,
-            51.0562773
+            3.7384639,
+            51.0562147
           ]
         ]
       }
@@ -144925,8 +144938,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7409263,
-            51.0569399
+            3.7408849,
+            51.0569497
           ],
           [
             3.7410941,
@@ -146192,10 +146205,6 @@
           [
             3.7408849,
             51.0569497
-          ],
-          [
-            3.7409263,
-            51.0569399
           ]
         ]
       }
@@ -146304,6 +146313,93 @@
           [
             3.7280383,
             51.0571043
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1118589094",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "oneway": "no",
+        "surface": "paving_stones",
+        "id": "way/1118589094"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7401359,
+            51.0568134
+          ],
+          [
+            3.7401741,
+            51.0568494
+          ],
+          [
+            3.7402071,
+            51.0568779
+          ],
+          [
+            3.7403246,
+            51.0569581
+          ],
+          [
+            3.7403686,
+            51.0569767
+          ],
+          [
+            3.7404421,
+            51.0569904
+          ],
+          [
+            3.7407157,
+            51.0570005
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1118680597",
+      "properties": {
+        "highway": "footway",
+        "id": "way/1118680597"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.738478,
+            51.0562388
+          ],
+          [
+            3.7384445,
+            51.0562773
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1118680598",
+      "properties": {
+        "highway": "steps",
+        "incline": "up",
+        "id": "way/1118680598"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7384639,
+            51.0562147
+          ],
+          [
+            3.738478,
+            51.0562388
           ]
         ]
       }
@@ -153500,7 +153596,7 @@
         "lanes:forward": "1",
         "name": "Tongersesteenweg",
         "surface": "asphalt",
-        "turn:lanes:backward": "left|though;right",
+        "turn:lanes:backward": "left|through;right",
         "id": "way/29043290"
       },
       "geometry": {
