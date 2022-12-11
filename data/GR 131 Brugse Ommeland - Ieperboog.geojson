@@ -2910,69 +2910,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/51572275",
-      "properties": {
-        "highway": "unclassified",
-        "name": "Kapellestraat",
-        "width": "5",
-        "id": "way/51572275"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.8650512,
-            50.8898588
-          ],
-          [
-            2.864937,
-            50.8898242
-          ],
-          [
-            2.8648048,
-            50.8897895
-          ],
-          [
-            2.8643512,
-            50.8896706
-          ],
-          [
-            2.8638133,
-            50.8895225
-          ],
-          [
-            2.8632922,
-            50.8893295
-          ],
-          [
-            2.8619409,
-            50.8886099
-          ],
-          [
-            2.8607194,
-            50.887997
-          ],
-          [
-            2.8600952,
-            50.887695
-          ],
-          [
-            2.8590848,
-            50.8870836
-          ],
-          [
-            2.8586949,
-            50.8867785
-          ],
-          [
-            2.8581665,
-            50.8863304
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/52020791",
       "properties": {
         "highway": "tertiary",
@@ -4844,8 +4781,9 @@
         "cycleway": "lane",
         "highway": "primary",
         "lanes": "2",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "De Breyne Peellaertstraat",
+        "oneway": "no",
         "ref": "N369",
         "surface": "asphalt",
         "id": "way/66277882"
@@ -12648,8 +12586,9 @@
         "cycleway": "lane",
         "highway": "primary",
         "lanes": "2",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Oostendestraat",
+        "oneway": "no",
         "ref": "N369",
         "surface": "asphalt",
         "id": "way/131704165"
@@ -14680,10 +14619,11 @@
       "properties": {
         "highway": "primary",
         "lanes": "2",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "De Breyne Peellaertstraat",
+        "oneway": "no",
         "ref": "N369",
-        "surface": "asphalt",
+        "surface": "concrete",
         "id": "way/145273394"
       },
       "geometry": {
@@ -14694,11 +14634,11 @@
             51.0333016
           ],
           [
-            2.8658117,
-            51.0333623
+            2.8658143,
+            51.0333626
           ],
           [
-            2.8658095,
+            2.8658092,
             51.0333818
           ],
           [
@@ -15242,6 +15182,57 @@
           [
             2.9161371,
             50.8236668
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/155190903",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "incline": "0%",
+        "name": "Vrijbosroute",
+        "note": "Oude spoorlijn 63 / wenslijn fietssnelweg F352",
+        "railway": "abandoned",
+        "ref": "L63",
+        "smoothness": "intermediate",
+        "speed_pedelec": "yes",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "traffic_sign": "BE:C3",
+        "width": "2.7",
+        "wikidata": "Q2305123",
+        "id": "way/155190903"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8618784,
+            50.8922791
+          ],
+          [
+            2.8617774,
+            50.8922231
+          ],
+          [
+            2.8613356,
+            50.8919781
+          ],
+          [
+            2.860798,
+            50.8916595
+          ],
+          [
+            2.8602515,
+            50.8912496
+          ],
+          [
+            2.8597549,
+            50.8908801
           ]
         ]
       }
@@ -18883,8 +18874,9 @@
         "cycleway": "lane",
         "highway": "primary",
         "lanes": "2",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "De Breyne Peellaertstraat",
+        "oneway": "no",
         "ref": "N369",
         "surface": "asphalt",
         "id": "way/191434893"
@@ -20097,6 +20089,72 @@
     },
     {
       "type": "Feature",
+      "id": "way/191599444",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "incline": "0%",
+        "name": "Vrijbosroute",
+        "note": "Oude spoorlijn 63 / wenslijn fietssnelweg F352",
+        "railway": "abandoned",
+        "smoothness": "intermediate",
+        "speed_pedelec": "yes",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "traffic_sign": "BE:C3",
+        "width": "2.7",
+        "wikidata": "Q2305123",
+        "id": "way/191599444"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8581665,
+            50.8863304
+          ],
+          [
+            2.8581065,
+            50.8866151
+          ],
+          [
+            2.858017,
+            50.8873326
+          ],
+          [
+            2.8580042,
+            50.8878203
+          ],
+          [
+            2.8580867,
+            50.8883159
+          ],
+          [
+            2.8582437,
+            50.8888545
+          ],
+          [
+            2.8586368,
+            50.8896131
+          ],
+          [
+            2.8588835,
+            50.889999
+          ],
+          [
+            2.8592837,
+            50.890479
+          ],
+          [
+            2.8597549,
+            50.8908801
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/191599450",
       "properties": {
         "highway": "unclassified",
@@ -20248,118 +20306,6 @@
           [
             2.8731114,
             50.8715719
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/191599459",
-      "properties": {
-        "highway": "tertiary",
-        "name": "Diksmuidseweg",
-        "ref": "N369a",
-        "surface": "asphalt",
-        "id": "way/191599459"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.8618784,
-            50.8922791
-          ],
-          [
-            2.8619251,
-            50.8922503
-          ],
-          [
-            2.8619908,
-            50.89221
-          ],
-          [
-            2.8620567,
-            50.8921694
-          ],
-          [
-            2.8622293,
-            50.8920578
-          ],
-          [
-            2.8623859,
-            50.8919535
-          ],
-          [
-            2.8626734,
-            50.8917485
-          ],
-          [
-            2.8626996,
-            50.8917298
-          ],
-          [
-            2.8628973,
-            50.8915888
-          ],
-          [
-            2.862912,
-            50.8915785
-          ],
-          [
-            2.8630185,
-            50.8915037
-          ],
-          [
-            2.8632297,
-            50.8913569
-          ],
-          [
-            2.8632929,
-            50.8913132
-          ],
-          [
-            2.8634052,
-            50.8912356
-          ],
-          [
-            2.863487,
-            50.8911789
-          ],
-          [
-            2.8635874,
-            50.8911092
-          ],
-          [
-            2.8636772,
-            50.8910469
-          ],
-          [
-            2.8638063,
-            50.8909574
-          ],
-          [
-            2.8638659,
-            50.8909133
-          ],
-          [
-            2.8639881,
-            50.8908228
-          ],
-          [
-            2.8643303,
-            50.8905593
-          ],
-          [
-            2.8643772,
-            50.8905209
-          ],
-          [
-            2.8645187,
-            50.8904081
-          ],
-          [
-            2.8645772,
-            50.8903565
           ]
         ]
       }
@@ -26481,55 +26427,6 @@
           [
             2.848412,
             50.9795296
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/885106486",
-      "properties": {
-        "highway": "tertiary",
-        "maxspeed": "70",
-        "name": "Diksmuidseweg",
-        "ref": "N369a",
-        "surface": "asphalt",
-        "id": "way/885106486"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.8645772,
-            50.8903565
-          ],
-          [
-            2.8646137,
-            50.8903225
-          ],
-          [
-            2.8647345,
-            50.8901851
-          ],
-          [
-            2.8647729,
-            50.8901385
-          ],
-          [
-            2.8649457,
-            50.8899288
-          ],
-          [
-            2.8649737,
-            50.8898975
-          ],
-          [
-            2.8650113,
-            50.8898731
-          ],
-          [
-            2.8650512,
-            50.8898588
           ]
         ]
       }
