@@ -135,7 +135,7 @@
         "mofa": "yes",
         "oneway": "no",
         "segregated": "no",
-        "surface": "paved",
+        "surface": "asphalt",
         "vehicle": "no",
         "id": "way/23167301"
       },
@@ -170,7 +170,8 @@
         "highway": "cycleway",
         "mofa": "yes",
         "oneway": "no",
-        "surface": "paved",
+        "segregated": "no",
+        "surface": "asphalt",
         "vehicle": "no",
         "id": "way/23167309"
       },
@@ -198,6 +199,7 @@
       "properties": {
         "highway": "residential",
         "name": "Paepestraat",
+        "surface": "concrete",
         "id": "way/23167341"
       },
       "geometry": {
@@ -262,8 +264,11 @@
       "type": "Feature",
       "id": "way/23167361",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Paepestraat",
+        "surface": "concrete",
         "id": "way/23167361"
       },
       "geometry": {
@@ -296,7 +301,9 @@
       "type": "Feature",
       "id": "way/23167370",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Duivelstraatje",
         "surface": "paving_stones",
         "id": "way/23167370"
@@ -5928,6 +5935,7 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Eyndovensteenweg",
         "surface": "paving_stones",
         "id": "way/266678845"
@@ -7605,6 +7613,7 @@
         "cycleway:right": "track",
         "cycleway:right:oneway": "no",
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Westmallebaan",
         "name:etymology:wikidata": "Q3179602",
         "surface": "asphalt",
