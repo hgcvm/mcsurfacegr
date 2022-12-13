@@ -3464,40 +3464,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/19860915",
-      "properties": {
-        "bicycle:backward": "use_sidepath",
-        "bicycle:forward": "yes",
-        "cycleway:right": "lane",
-        "highway": "residential",
-        "lanes": "2",
-        "maxspeed": "30",
-        "name": "Dampoortstraat",
-        "oneway": "no",
-        "surface": "asphalt",
-        "traffic_calming": "table",
-        "id": "way/19860915"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2354404,
-            51.2206725
-          ],
-          [
-            3.2355022,
-            51.2206111
-          ],
-          [
-            3.2355428,
-            51.2205656
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/22795739",
       "properties": {
         "highway": "cycleway",
@@ -10603,6 +10569,7 @@
       "properties": {
         "highway": "residential",
         "name": "Domeindreef",
+        "surface": "asphalt",
         "id": "way/30064165"
       },
       "geometry": {
@@ -17393,6 +17360,39 @@
           [
             4.0444567,
             51.2892003
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38864143",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "unclassified",
+        "motor_vehicle": "no",
+        "name": "Schipdonkvaart-Zuid",
+        "not:designation": "jaagpad",
+        "oneway": "no",
+        "surface": "asphalt",
+        "towpath": "yes",
+        "id": "way/38864143"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2959869,
+            51.2651
+          ],
+          [
+            3.2961103,
+            51.2650463
+          ],
+          [
+            3.2962519,
+            51.2649856
           ]
         ]
       }
@@ -24210,6 +24210,7 @@
         "foot": "permissive",
         "highway": "path",
         "name": "Massartpad",
+        "surface": "dirt",
         "id": "way/79995484"
       },
       "geometry": {
@@ -24268,6 +24269,7 @@
       "properties": {
         "highway": "path",
         "name": "Massartpad",
+        "surface": "dirt",
         "id": "way/79995836"
       },
       "geometry": {
@@ -26517,34 +26519,6 @@
           [
             2.5909629,
             51.090823
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/95718001",
-      "properties": {
-        "highway": "tertiary",
-        "lit": "yes",
-        "maxspeed": "70",
-        "name": "Potterierei",
-        "oneway": "no",
-        "surface": "asphalt",
-        "wikidata": "Q2012421",
-        "wikipedia": "nl:Potterierei",
-        "id": "way/95718001"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2347241,
-            51.22118
-          ],
-          [
-            3.2345592,
-            51.221126
           ]
         ]
       }
@@ -29009,78 +28983,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/126405585",
-      "properties": {
-        "highway": "tertiary",
-        "name": "Damse Vaart-Zuid",
-        "scenic": "yes",
-        "surface": "asphalt",
-        "id": "way/126405585"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2837483,
-            51.2548684
-          ],
-          [
-            3.2843648,
-            51.2553923
-          ],
-          [
-            3.2853372,
-            51.2562081
-          ],
-          [
-            3.2856102,
-            51.2564436
-          ],
-          [
-            3.2916451,
-            51.2615458
-          ],
-          [
-            3.2920992,
-            51.2619297
-          ],
-          [
-            3.2952017,
-            51.2645524
-          ],
-          [
-            3.2954368,
-            51.2647764
-          ],
-          [
-            3.2956523,
-            51.2649615
-          ],
-          [
-            3.2957049,
-            51.2649899
-          ],
-          [
-            3.295782,
-            51.2650122
-          ],
-          [
-            3.2958951,
-            51.2650207
-          ],
-          [
-            3.2961311,
-            51.2649808
-          ],
-          [
-            3.2962519,
-            51.2649856
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/126553428",
       "properties": {
         "bicycle": "no",
@@ -29627,6 +29529,50 @@
           [
             3.2416388,
             51.2215527
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/127104476",
+      "properties": {
+        "bicycle": "no",
+        "foot": "yes",
+        "highway": "bridleway",
+        "surface": "grass",
+        "id": "way/127104476"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2776542,
+            51.25037
+          ],
+          [
+            3.2776641,
+            51.2502964
+          ],
+          [
+            3.2762048,
+            51.2491125
+          ],
+          [
+            3.2750209,
+            51.2481176
+          ],
+          [
+            3.269197,
+            51.2431884
+          ],
+          [
+            3.2650629,
+            51.23966
+          ],
+          [
+            3.2630148,
+            51.2378862
           ]
         ]
       }
@@ -33164,6 +33110,7 @@
         "horse": "no",
         "motor_vehicle": "no",
         "name": "Massartpad",
+        "surface": "grass",
         "id": "way/139510038"
       },
       "geometry": {
@@ -33222,6 +33169,7 @@
       "properties": {
         "highway": "path",
         "name": "Massartpad",
+        "surface": "dirt",
         "id": "way/139510040"
       },
       "geometry": {
@@ -34778,50 +34726,6 @@
           [
             2.6906269,
             51.1288626
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/157436856",
-      "properties": {
-        "cycleway": "opposite",
-        "highway": "unclassified",
-        "lit": "no",
-        "name": "Noorweegse Kaai",
-        "oneway": "yes",
-        "oneway:bicycle": "no",
-        "scenic": "yes",
-        "surface": "dirt",
-        "id": "way/157436856"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2657745,
-            51.2404223
-          ],
-          [
-            3.2657155,
-            51.2403723
-          ],
-          [
-            3.2656385,
-            51.2403065
-          ],
-          [
-            3.2649469,
-            51.2397099
-          ],
-          [
-            3.2629918,
-            51.2380555
-          ],
-          [
-            3.2628778,
-            51.2379591
           ]
         ]
       }
@@ -43601,6 +43505,57 @@
     },
     {
       "type": "Feature",
+      "id": "way/240396845",
+      "properties": {
+        "highway": "cycleway",
+        "name": "Damse Vaart",
+        "surface": "asphalt",
+        "id": "way/240396845"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2836628,
+            51.2548997
+          ],
+          [
+            3.2887116,
+            51.259145
+          ],
+          [
+            3.2953687,
+            51.2648005
+          ],
+          [
+            3.2955786,
+            51.2649783
+          ],
+          [
+            3.2956443,
+            51.2650244
+          ],
+          [
+            3.2957194,
+            51.2650454
+          ],
+          [
+            3.2957871,
+            51.2650568
+          ],
+          [
+            3.295938,
+            51.2650614
+          ],
+          [
+            3.2959869,
+            51.2651
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/245702531",
       "properties": {
         "access": "destination",
@@ -47003,152 +46958,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/337969634",
-      "properties": {
-        "change:lanes": "no|no",
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Potterierei",
-        "surface": "asphalt",
-        "wikidata": "Q2012421",
-        "wikipedia": "nl:Potterierei",
-        "id": "way/337969634"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2345592,
-            51.221126
-          ],
-          [
-            3.2344991,
-            51.2211025
-          ],
-          [
-            3.2343015,
-            51.2210297
-          ],
-          [
-            3.2342604,
-            51.2210145
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/337974029",
-      "properties": {
-        "bicycle:backward": "use_sidepath",
-        "bridge": "yes",
-        "cycleway:right": "lane",
-        "highway": "residential",
-        "lanes": "2",
-        "layer": "1",
-        "maxspeed": "30",
-        "name": "Dampoortstraat",
-        "oneway": "no",
-        "surface": "asphalt",
-        "id": "way/337974029"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2353101,
-            51.220817
-          ],
-          [
-            3.2354404,
-            51.2206725
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/337974031",
-      "properties": {
-        "bicycle:backward": "use_sidepath",
-        "cycleway:right": "lane",
-        "highway": "residential",
-        "lanes": "2",
-        "lit": "yes",
-        "maxspeed": "30",
-        "name": "Dampoortstraat",
-        "oneway": "no",
-        "surface": "asphalt",
-        "id": "way/337974031"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2352301,
-            51.2209058
-          ],
-          [
-            3.2353101,
-            51.220817
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/337974033",
-      "properties": {
-        "cycleway:left": "lane",
-        "highway": "residential",
-        "lanes": "2",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Dampoortstraat",
-        "oneway": "no",
-        "surface": "asphalt",
-        "id": "way/337974033"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2351832,
-            51.2209578
-          ],
-          [
-            3.235121,
-            51.2210285
-          ],
-          [
-            3.2349776,
-            51.2211578
-          ],
-          [
-            3.234916,
-            51.2211754
-          ],
-          [
-            3.2348748,
-            51.2211839
-          ],
-          [
-            3.2348428,
-            51.2211849
-          ],
-          [
-            3.2347904,
-            51.2211845
-          ],
-          [
-            3.2347241,
-            51.22118
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/338363836",
       "properties": {
         "bicycle": "designated",
@@ -47375,6 +47184,27 @@
     },
     {
       "type": "Feature",
+      "id": "way/365273380",
+      "properties": {
+        "highway": "cycleway",
+        "id": "way/365273380"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2837483,
+            51.2548684
+          ],
+          [
+            3.2836628,
+            51.2548997
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/365875937",
       "properties": {
         "footway": "crossing",
@@ -47461,6 +47291,7 @@
       "properties": {
         "highway": "path",
         "name": "Massartpad",
+        "surface": "dirt",
         "id": "way/368398572"
       },
       "geometry": {
@@ -47817,6 +47648,7 @@
         "highway": "path",
         "name": "Massartpad",
         "segregated": "no",
+        "surface": "dirt",
         "id": "way/371788643"
       },
       "geometry": {
@@ -48763,6 +48595,7 @@
       "properties": {
         "highway": "path",
         "name": "Massartpad",
+        "surface": "dirt",
         "id": "way/403510936"
       },
       "geometry": {
@@ -49055,56 +48888,6 @@
           [
             3.2394318,
             51.2244578
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/421566298",
-      "properties": {
-        "cycleway": "lane",
-        "highway": "residential",
-        "lanes": "2",
-        "lit": "yes",
-        "maxspeed": "30",
-        "name": "Dampoortstraat",
-        "oneway": "no",
-        "surface": "asphalt",
-        "id": "way/421566298"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2352301,
-            51.2209058
-          ],
-          [
-            3.2351832,
-            51.2209578
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/421566306",
-      "properties": {
-        "highway": "cycleway",
-        "surface": "asphalt",
-        "id": "way/421566306"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2355428,
-            51.2205656
-          ],
-          [
-            3.2356438,
-            51.2206015
           ]
         ]
       }
@@ -50656,6 +50439,7 @@
       "id": "way/455329752",
       "properties": {
         "highway": "bridleway",
+        "surface": "sand",
         "id": "way/455329752"
       },
       "geometry": {
@@ -50733,6 +50517,7 @@
       "id": "way/455329758",
       "properties": {
         "highway": "bridleway",
+        "surface": "sand",
         "id": "way/455329758"
       },
       "geometry": {
@@ -57265,6 +57050,27 @@
     },
     {
       "type": "Feature",
+      "id": "way/801415201",
+      "properties": {
+        "highway": "steps",
+        "id": "way/801415201"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2628778,
+            51.2379591
+          ],
+          [
+            3.2630148,
+            51.2378862
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/805347174",
       "properties": {
         "highway": "path",
@@ -57608,90 +57414,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/829398288",
-      "properties": {
-        "access": "destination",
-        "bicycle": "yes",
-        "highway": "unclassified",
-        "name": "Damse Vaart-West",
-        "oneway": "no",
-        "oneway:bicycle": "no",
-        "scenic": "yes",
-        "surface": "asphalt",
-        "id": "way/829398288"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2776129,
-            51.2503393
-          ],
-          [
-            3.2775334,
-            51.2502801
-          ],
-          [
-            3.2772881,
-            51.2501022
-          ],
-          [
-            3.2767033,
-            51.2496436
-          ],
-          [
-            3.2764512,
-            51.2494286
-          ],
-          [
-            3.2763728,
-            51.2493679
-          ],
-          [
-            3.2760606,
-            51.2491265
-          ],
-          [
-            3.274622,
-            51.2479126
-          ],
-          [
-            3.2722818,
-            51.245944
-          ],
-          [
-            3.2690822,
-            51.2432253
-          ],
-          [
-            3.2684473,
-            51.242686
-          ],
-          [
-            3.266647,
-            51.2411597
-          ],
-          [
-            3.2665719,
-            51.2410964
-          ],
-          [
-            3.2665195,
-            51.2410535
-          ],
-          [
-            3.2659052,
-            51.2405333
-          ],
-          [
-            3.2657745,
-            51.2404223
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/829398290",
       "properties": {
         "highway": "tertiary",
@@ -57958,6 +57680,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
+        "surface": "asphalt",
         "id": "way/857492879"
       },
       "geometry": {
@@ -59648,6 +59371,114 @@
           [
             3.2837769,
             51.2487709
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/948610375",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "yes",
+        "id": "way/948610375"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2348851,
+            51.2212787
+          ],
+          [
+            3.2347161,
+            51.2212369
+          ],
+          [
+            3.2345471,
+            51.2211842
+          ],
+          [
+            3.234383,
+            51.2211147
+          ],
+          [
+            3.2343015,
+            51.2210297
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/948612975",
+      "properties": {
+        "bridge": "yes",
+        "highway": "cycleway",
+        "id": "way/948612975"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2353943,
+            51.2208402
+          ],
+          [
+            3.2353988,
+            51.2208352
+          ],
+          [
+            3.2355241,
+            51.2206967
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/948612976",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "no",
+        "id": "way/948612976"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2356438,
+            51.2206015
+          ],
+          [
+            3.2355805,
+            51.2206382
+          ],
+          [
+            3.2355241,
+            51.2206967
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/948612977",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "no",
+        "id": "way/948612977"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2353988,
+            51.2208352
+          ],
+          [
+            3.2350157,
+            51.2212038
           ]
         ]
       }
@@ -61616,6 +61447,7 @@
       "id": "way/1028641602",
       "properties": {
         "highway": "path",
+        "surface": "sand",
         "id": "way/1028641602"
       },
       "geometry": {
@@ -61683,6 +61515,7 @@
       "id": "way/1028643339",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/1028643339"
       },
       "geometry": {
@@ -62373,6 +62206,7 @@
       "id": "way/1065349637",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/1065349637"
       },
       "geometry": {
@@ -63223,34 +63057,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1117761824",
-      "properties": {
-        "access": "destination",
-        "bicycle": "yes",
-        "highway": "unclassified",
-        "name": "Damse Vaart-West",
-        "oneway": "no",
-        "oneway:bicycle": "no",
-        "scenic": "yes",
-        "surface": "grass",
-        "id": "way/1117761824"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2776542,
-            51.25037
-          ],
-          [
-            3.2776129,
-            51.2503393
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1117778697",
       "properties": {
         "highway": "footway",
@@ -63873,6 +63679,7 @@
       "id": "way/1119660750",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/1119660750"
       },
       "geometry": {
@@ -64161,7 +63968,7 @@
       "id": "way/1120582501",
       "properties": {
         "highway": "service",
-        "surface": "paved",
+        "surface": "compacted",
         "id": "way/1120582501"
       },
       "geometry": {
@@ -64187,7 +63994,7 @@
       "id": "way/1120582503",
       "properties": {
         "highway": "service",
-        "surface": "paved",
+        "surface": "compacted",
         "id": "way/1120582503"
       },
       "geometry": {
@@ -64401,6 +64208,7 @@
       "id": "way/1121066805",
       "properties": {
         "highway": "path",
+        "surface": "grass",
         "id": "way/1121066805"
       },
       "geometry": {
@@ -64459,6 +64267,59 @@
           [
             3.2552974,
             51.2392473
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1121451569",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "id": "way/1121451569"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2350157,
+            51.2212038
+          ],
+          [
+            3.2349293,
+            51.22125
+          ],
+          [
+            3.2348851,
+            51.2212787
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1121451570",
+      "properties": {
+        "change:lanes": "no|no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Potterierei",
+        "surface": "asphalt",
+        "wikidata": "Q2012421",
+        "wikipedia": "nl:Potterierei",
+        "id": "way/1121451570"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2343015,
+            51.2210297
+          ],
+          [
+            3.2342604,
+            51.2210145
           ]
         ]
       }

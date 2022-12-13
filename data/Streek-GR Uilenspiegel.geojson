@@ -5572,10 +5572,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2958301,
-            51.2651731
-          ],
-          [
             3.2959869,
             51.2651
           ],
@@ -8484,34 +8480,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/80646473",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "50",
-        "name": "Malehoeklaan",
-        "surface": "paving_stones",
-        "id": "way/80646473"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2772117,
-            51.2210571
-          ],
-          [
-            3.2772322,
-            51.2210011
-          ],
-          [
-            3.2773056,
-            51.2208002
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/80646481",
       "properties": {
         "highway": "residential",
@@ -9017,7 +8985,7 @@
         "name": "Kanaalweg",
         "oneway": "no",
         "scenic": "yes",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/86401756"
       },
       "geometry": {
@@ -15804,7 +15772,7 @@
       "properties": {
         "highway": "path",
         "name": "Cavelotterspad",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/187543130"
       },
       "geometry": {
@@ -15944,7 +15912,7 @@
       "properties": {
         "highway": "footway",
         "name": "Cavelotterspad",
-        "surface": "unpaved",
+        "surface": "grass",
         "id": "way/187544937"
       },
       "geometry": {
@@ -16023,7 +15991,7 @@
       "properties": {
         "highway": "footway",
         "name": "Cavelotterspad",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/187544938"
       },
       "geometry": {
@@ -20262,34 +20230,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/188977877",
-      "properties": {
-        "highway": "tertiary",
-        "maxspeed": "70",
-        "name": "Moerkerkse Steenweg",
-        "surface": "concrete",
-        "id": "way/188977877"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2768071,
-            51.2208264
-          ],
-          [
-            3.2769953,
-            51.2209326
-          ],
-          [
-            3.2772117,
-            51.2210571
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/188977879",
       "properties": {
         "highway": "path",
@@ -23234,6 +23174,33 @@
     },
     {
       "type": "Feature",
+      "id": "way/330599833",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "50",
+        "name": "Malehoeklaan",
+        "id": "way/330599833"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2769953,
+            51.2209326
+          ],
+          [
+            3.2770628,
+            51.2209038
+          ],
+          [
+            3.2773056,
+            51.2208002
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/330599838",
       "properties": {
         "highway": "residential",
@@ -23664,15 +23631,12 @@
       "id": "way/362948221",
       "properties": {
         "highway": "footway",
+        "surface": "compacted",
         "id": "way/362948221"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.3643526,
-            51.3141383
-          ],
           [
             3.3643052,
             51.3141619
@@ -28393,7 +28357,7 @@
         "name": "Kanaalweg",
         "oneway": "no",
         "scenic": "yes",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/887062454"
       },
       "geometry": {
@@ -28420,7 +28384,7 @@
         "name": "Kanaalweg",
         "oneway": "no",
         "scenic": "yes",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/887062455"
       },
       "geometry": {
@@ -30173,6 +30137,81 @@
           [
             3.2806382,
             51.1982377
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1121155209",
+      "properties": {
+        "highway": "footway",
+        "surface": "sett",
+        "id": "way/1121155209"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3643526,
+            51.3141383
+          ],
+          [
+            3.3643052,
+            51.3141619
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1121456815",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "unclassified",
+        "motor_vehicle": "no",
+        "name": "Schipdonkvaart-Zuid",
+        "not:designation": "jaagpad",
+        "oneway": "no",
+        "surface": "asphalt",
+        "towpath": "yes",
+        "id": "way/1121456815"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2958301,
+            51.2651731
+          ],
+          [
+            3.2959869,
+            51.2651
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1121457768",
+      "properties": {
+        "highway": "tertiary",
+        "maxspeed": "70",
+        "name": "Moerkerkse Steenweg",
+        "surface": "concrete",
+        "id": "way/1121457768"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2768071,
+            51.2208264
+          ],
+          [
+            3.2769953,
+            51.2209326
           ]
         ]
       }
