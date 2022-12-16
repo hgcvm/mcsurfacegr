@@ -5520,18 +5520,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.897085,
-            50.7779417
-          ],
-          [
-            4.8967376,
-            50.7780187
-          ],
-          [
-            4.8965137,
-            50.778056
-          ],
-          [
             4.8958599,
             50.7781672
           ],
@@ -12546,8 +12534,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8996221,
-            50.77876
+            4.8995905,
+            50.7787569
           ],
           [
             4.8995279,
@@ -12561,8 +12549,9 @@
       "id": "way/39480332",
       "properties": {
         "alt_name": "Voetweg 177",
-        "bicycle": "yes",
-        "highway": "footway",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
         "horse": "no",
         "lit": "no",
         "name": "Molenstraatje",
@@ -12574,8 +12563,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8996221,
-            50.77876
+            4.8995905,
+            50.7787569
           ],
           [
             4.9052803,
@@ -12588,7 +12577,9 @@
       "type": "Feature",
       "id": "way/39480390",
       "properties": {
-        "highway": "path",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
         "surface": "compacted",
         "id": "way/39480390"
       },
@@ -31082,20 +31073,31 @@
       "type": "Feature",
       "id": "way/299403206",
       "properties": {
-        "highway": "path",
+        "alt_name": "Voetweg 177",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "horse": "no",
+        "lit": "no",
+        "name": "Molenstraatje",
         "surface": "compacted",
+        "width": "1",
         "id": "way/299403206"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.9064724,
-            50.7802737
+            4.9052803,
+            50.7801027
           ],
           [
             4.9063722,
             50.7803249
+          ],
+          [
+            4.9064724,
+            50.7802737
           ]
         ]
       }
@@ -31104,8 +31106,10 @@
       "type": "Feature",
       "id": "way/299403209",
       "properties": {
+        "bicycle": "designated",
         "bridge": "yes",
-        "highway": "path",
+        "foot": "designated",
+        "highway": "cycleway",
         "layer": "1",
         "surface": "compacted",
         "id": "way/299403209"
@@ -40159,34 +40163,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/615796722",
-      "properties": {
-        "alt_name": "Voetweg 177",
-        "bicycle": "yes",
-        "highway": "footway",
-        "horse": "no",
-        "lit": "no",
-        "name": "Molenstraatje",
-        "surface": "compacted",
-        "width": "1",
-        "id": "way/615796722"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.9052803,
-            50.7801027
-          ],
-          [
-            4.9063722,
-            50.7803249
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/623063133",
       "properties": {
         "bicycle": "yes",
@@ -46265,6 +46241,40 @@
           [
             4.9238486,
             50.7989682
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1122256935",
+      "properties": {
+        "cycleway": "opposite",
+        "highway": "unclassified",
+        "name": "Vroentestraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "surface": "paving_stones",
+        "id": "way/1122256935"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.897085,
+            50.7779417
+          ],
+          [
+            4.8967376,
+            50.7780187
+          ],
+          [
+            4.8965137,
+            50.778056
+          ],
+          [
+            4.8958599,
+            50.7781672
           ]
         ]
       }

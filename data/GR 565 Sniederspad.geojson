@@ -1572,12 +1572,14 @@
       "type": "Feature",
       "id": "way/24523430",
       "properties": {
-        "access": "no",
+        "access": "destination",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
+        "motor_vehicle": "destination",
         "name": "Ertbruggestraat",
-        "surface": "gravel",
+        "surface": "compacted",
+        "tracktype": "grade2",
         "width": "3",
         "id": "way/24523430"
       },
@@ -1608,6 +1610,8 @@
         "name": "Ertbruggelaan - Ertbruggestraat",
         "name:left": "Ertbruggelaan",
         "name:right": "Ertbruggestraat",
+        "smoothness": "intermediate",
+        "surface": "sett",
         "id": "way/24523445"
       },
       "geometry": {
@@ -3466,6 +3470,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
+        "surface": "concrete:plates",
         "id": "way/29384311"
       },
       "geometry": {
@@ -6994,10 +6999,6 @@
           [
             4.8879862,
             51.3215735
-          ],
-          [
-            4.8879348,
-            51.3211676
           ],
           [
             4.8879103,
@@ -32545,6 +32546,7 @@
         "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "no",
+        "smoothness": "good",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "width": "2.6",
@@ -33638,6 +33640,7 @@
         "name": "Berchembrug",
         "oneway": "no",
         "segregated": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "wikidata": "Q1945637",
         "wikipedia": "nl:Berchembrug",
@@ -35790,6 +35793,7 @@
         "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "yes",
+        "smoothness": "good",
         "id": "way/132209522"
       },
       "geometry": {
@@ -38572,6 +38576,7 @@
         "note": "befietst 2021-04-23 : 'de bordjes zijn verhangen', en FKP 03-04 loopt nu onderdoor de Stenenbrug.",
         "oneway": "no",
         "segregated": "yes",
+        "smoothness": "good",
         "id": "way/759064070"
       },
       "geometry": {
@@ -38638,6 +38643,7 @@
         "note": "befietst 2021-04-23 : 'de bordjes zijn verhangen', en FKP 03-04 loopt nu onderdoor de Stenenbrug.",
         "oneway": "no",
         "segregated": "yes",
+        "smoothness": "good",
         "tunnel": "yes",
         "width": "4",
         "id": "way/759064071"
@@ -38764,6 +38770,7 @@
         "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "width": "2",
         "id": "way/762330175"
@@ -38840,7 +38847,7 @@
         "highway": "cycleway",
         "moped": "no",
         "oneway": "no",
-        "smoothness": "excellent",
+        "smoothness": "good",
         "surface": "asphalt",
         "width": "2.5",
         "id": "way/767718095"
@@ -38885,6 +38892,7 @@
         "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "yes",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/779874071"
       },
@@ -38916,6 +38924,7 @@
         "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "width": "2.6",
         "id": "way/779874072"
@@ -38989,6 +38998,7 @@
         "name": "Berchembrug",
         "oneway": "no",
         "segregated": "no",
+        "smoothness": "good",
         "surface": "concrete",
         "width": "3",
         "wikidata": "Q1945637",
@@ -39065,7 +39075,7 @@
         "motor_vehicle": "no",
         "oneway": "no",
         "segregated": "no",
-        "smoothness": "excellent",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/779908596"
       },
@@ -39456,8 +39466,8 @@
             51.2083088
           ],
           [
-            4.4448486,
-            51.2084323
+            4.444858,
+            51.2084415
           ],
           [
             4.4448162,
@@ -40340,6 +40350,7 @@
         "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "yes",
+        "smoothness": "good",
         "id": "way/968775558"
       },
       "geometry": {
@@ -40396,6 +40407,7 @@
         "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "no",
+        "smoothness": "good",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "width": "2.6",
@@ -40453,6 +40465,7 @@
         "note": "befietst 2021-04-23 : 'de bordjes zijn verhangen', en FKP 03-04 loopt nu onderdoor de Stenenbrug.",
         "oneway": "no",
         "segregated": "yes",
+        "smoothness": "good",
         "id": "way/981843252"
       },
       "geometry": {
@@ -45600,6 +45613,10 @@
           [
             5.0009933,
             51.3297751
+          ],
+          [
+            5.0009788,
+            51.3297806
           ],
           [
             5.0005537,
