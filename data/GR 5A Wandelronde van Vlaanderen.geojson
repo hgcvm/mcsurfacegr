@@ -23435,7 +23435,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2394267,
+            3.239424,
             51.2239367
           ],
           [
@@ -27275,6 +27275,7 @@
         "bicycle": "yes",
         "highway": "footway",
         "name": "Koninginnelaan",
+        "surface": "asphalt",
         "id": "way/111149596"
       },
       "geometry": {
@@ -43777,6 +43778,7 @@
         "bicycle": "yes",
         "footway": "crossing",
         "highway": "footway",
+        "surface": "asphalt",
         "id": "way/248675277"
       },
       "geometry": {
@@ -50419,6 +50421,7 @@
         "bicycle": "yes",
         "highway": "footway",
         "name": "Koninginnelaan",
+        "surface": "asphalt",
         "id": "way/458101789"
       },
       "geometry": {
@@ -50488,6 +50491,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "footway",
+        "surface": "asphalt",
         "id": "way/458101791"
       },
       "geometry": {
@@ -51498,6 +51502,7 @@
         "bicycle": "yes",
         "highway": "footway",
         "name": "Koninginnelaan",
+        "surface": "asphalt",
         "id": "way/496918054"
       },
       "geometry": {
@@ -55019,17 +55024,18 @@
       "id": "way/684014754",
       "properties": {
         "highway": "cycleway",
+        "surface": "asphalt",
         "id": "way/684014754"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.2393988,
+            3.2394015,
             51.2239903
           ],
           [
-            3.2394267,
+            3.239424,
             51.2239367
           ]
         ]
@@ -59184,7 +59190,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "no",
-        "surface": "paving_stones",
+        "surface": "asphalt",
         "id": "way/948612977"
       },
       "geometry": {
@@ -63308,6 +63314,7 @@
       "id": "way/1119142436",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/1119142436"
       },
       "geometry": {
@@ -64154,11 +64161,12 @@
       "type": "Feature",
       "id": "way/1123321936",
       "properties": {
-        "access": "no",
+        "bicycle": "no",
         "crossing": "traffic_signals",
         "foot": "yes",
         "footway": "crossing",
         "highway": "footway",
+        "horse": "no",
         "surface": "asphalt",
         "id": "way/1123321936"
       },
@@ -64208,10 +64216,11 @@
       "type": "Feature",
       "id": "way/1123323534",
       "properties": {
-        "access": "no",
+        "bicycle": "no",
         "bridge": "yes",
         "foot": "yes",
         "highway": "footway",
+        "horse": "no",
         "layer": "1",
         "surface": "asphalt",
         "id": "way/1123323534"
@@ -64234,9 +64243,10 @@
       "type": "Feature",
       "id": "way/1123364829",
       "properties": {
-        "access": "no",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "footway",
+        "horse": "no",
         "surface": "asphalt",
         "id": "way/1123364829"
       },
@@ -64262,9 +64272,10 @@
       "type": "Feature",
       "id": "way/1123364830",
       "properties": {
-        "access": "no",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "footway",
+        "horse": "no",
         "surface": "asphalt",
         "id": "way/1123364830"
       },
@@ -64328,12 +64339,39 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2397879,
-            51.2241908
+            3.2397892,
+            51.2241895
           ],
           [
             3.2398826,
             51.2242406
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1123840198",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "no",
+        "surface": "paved",
+        "id": "way/1123840198"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2397892,
+            51.2241895
+          ],
+          [
+            3.2397097,
+            51.2241505
+          ],
+          [
+            3.2394015,
+            51.2239903
           ]
         ]
       }
