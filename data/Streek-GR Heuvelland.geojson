@@ -2641,7 +2641,9 @@
       "type": "Feature",
       "id": "way/70881826",
       "properties": {
+        "bicycle": "no",
         "highway": "track",
+        "horse": "no",
         "surface": "gravel",
         "id": "way/70881826"
       },
@@ -10578,6 +10580,7 @@
       "type": "Feature",
       "id": "way/98698614",
       "properties": {
+        "bicycle": "no",
         "highway": "path",
         "id": "way/98698614"
       },
@@ -10611,7 +10614,10 @@
       "type": "Feature",
       "id": "way/98698615",
       "properties": {
+        "bicycle": "no",
         "highway": "track",
+        "horse": "yes",
+        "motor_vehicle": "no",
         "id": "way/98698615"
       },
       "geometry": {
@@ -10724,7 +10730,9 @@
       "type": "Feature",
       "id": "way/98698620",
       "properties": {
+        "bicycle": "no",
         "highway": "path",
+        "horse": "no",
         "id": "way/98698620"
       },
       "geometry": {
@@ -11658,7 +11666,9 @@
       "type": "Feature",
       "id": "way/103544427",
       "properties": {
+        "bicycle": "no",
         "highway": "path",
+        "horse": "no",
         "surface": "dirt",
         "id": "way/103544427"
       },
@@ -15098,6 +15108,7 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "track",
+        "horse": "no",
         "surface": "gravel",
         "vehicle": "private",
         "id": "way/136001026"
@@ -15208,6 +15219,7 @@
       "type": "Feature",
       "id": "way/136001028",
       "properties": {
+        "bicycle": "no",
         "highway": "path",
         "id": "way/136001028"
       },
@@ -15215,16 +15227,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.8101867,
-            50.7781842
-          ],
-          [
-            2.80981,
-            50.7780334
-          ],
-          [
-            2.8093496,
-            50.7777894
+            2.8089783,
+            50.7775125
           ],
           [
             2.8087708,
@@ -33217,6 +33221,7 @@
       "type": "Feature",
       "id": "way/1120129144",
       "properties": {
+        "bicycle": "no",
         "highway": "path",
         "surface": "grass",
         "id": "way/1120129144"
@@ -33308,6 +33313,53 @@
           [
             2.8128104,
             50.7374645
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1125862146",
+      "properties": {
+        "bicycle": "no",
+        "highway": "path",
+        "id": "way/1125862146"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8101867,
+            50.7781842
+          ],
+          [
+            2.80981,
+            50.7780334
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1125862147",
+      "properties": {
+        "highway": "steps",
+        "id": "way/1125862147"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.80981,
+            50.7780334
+          ],
+          [
+            2.8093496,
+            50.7777894
+          ],
+          [
+            2.8089783,
+            50.7775125
           ]
         ]
       }
