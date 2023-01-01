@@ -9383,6 +9383,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Grenadiersweg",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/4877557"
       },
@@ -9451,7 +9452,7 @@
       "id": "way/5122713",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/5122713"
       },
       "geometry": {
@@ -11339,24 +11340,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6816925,
-            50.8168521
+            5.6809747,
+            50.8164206
           ],
           [
-            5.6815332,
-            50.8167317
-          ],
-          [
-            5.6813948,
-            50.8166563
-          ],
-          [
-            5.6810578,
-            50.8164986
-          ],
-          [
-            5.6809328,
-            50.8163729
+            5.6809113,
+            50.816317
           ],
           [
             5.6807268,
@@ -11375,8 +11364,24 @@
             50.815314
           ],
           [
-            5.6806949,
-            50.8152698
+            5.6806721,
+            50.8152461
+          ],
+          [
+            5.6807283,
+            50.8152225
+          ],
+          [
+            5.6807578,
+            50.8152335
+          ],
+          [
+            5.6808583,
+            50.8153852
+          ],
+          [
+            5.6810115,
+            50.8155383
           ]
         ]
       }
@@ -18328,7 +18333,7 @@
       "id": "way/35544756",
       "properties": {
         "highway": "cycleway",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/35544756"
       },
       "geometry": {
@@ -18628,10 +18633,11 @@
       "type": "Feature",
       "id": "way/36242890",
       "properties": {
-        "highway": "path",
+        "highway": "track",
         "incline": "up",
         "name": "Castertweg",
-        "surface": "unpaved",
+        "surface": "dirt",
+        "tracktype": "grade4",
         "id": "way/36242890"
       },
       "geometry": {
@@ -18642,12 +18648,20 @@
             50.8081146
           ],
           [
+            5.6774935,
+            50.8081263
+          ],
+          [
             5.6790625,
             50.8082612
           ],
           [
             5.6795666,
             50.8083171
+          ],
+          [
+            5.6811091,
+            50.8083874
           ],
           [
             5.681349,
@@ -18840,8 +18854,12 @@
             50.8121629
           ],
           [
-            5.6875032,
-            50.8120636
+            5.68747,
+            50.8121008
+          ],
+          [
+            5.6875193,
+            50.8120424
           ]
         ]
       }
@@ -20967,7 +20985,7 @@
       "id": "way/51979176",
       "properties": {
         "highway": "cycleway",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/51979176"
       },
       "geometry": {
@@ -25987,24 +26005,18 @@
       "type": "Feature",
       "id": "way/148129358",
       "properties": {
-        "highway": "path",
+        "highway": "track",
         "opening_hours": "sunrise-sunset",
+        "surface": "fine_gravel",
+        "tracktype": "grade3",
         "id": "way/148129358"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.6806949,
-            50.8152698
-          ],
-          [
-            5.6808047,
-            50.8153064
-          ],
-          [
-            5.6809321,
-            50.8154804
+            5.6810115,
+            50.8155383
           ],
           [
             5.6810906,
@@ -26025,36 +26037,46 @@
       "type": "Feature",
       "id": "way/148129360",
       "properties": {
-        "highway": "path",
+        "highway": "track",
         "opening_hours": "sunrise-sunset",
+        "surface": "fine_gravel",
+        "tracktype": "grade3",
         "id": "way/148129360"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.6815563,
-            50.8158959
+            5.6846888,
+            50.8170732
           ],
           [
-            5.6818359,
-            50.8160395
+            5.6844783,
+            50.8168436
           ],
           [
-            5.6820324,
-            50.8161191
+            5.6842537,
+            50.8167042
+          ],
+          [
+            5.6840488,
+            50.8166113
           ],
           [
             5.6836864,
             50.8164972
           ],
           [
-            5.6840944,
-            50.8166503
+            5.6820324,
+            50.8161191
           ],
           [
-            5.6842215,
-            50.8167042
+            5.6818359,
+            50.8160395
+          ],
+          [
+            5.6815563,
+            50.8158959
           ]
         ]
       }
@@ -42215,7 +42237,7 @@
         "name": "Grenadiersweg",
         "oneway": "yes",
         "segregated": "yes",
-        "surface": "paving_stones",
+        "surface": "wood",
         "id": "way/342709010"
       },
       "geometry": {
@@ -43299,6 +43321,7 @@
       "id": "way/383367282",
       "properties": {
         "highway": "track",
+        "surface": "gravel",
         "tracktype": "grade2",
         "id": "way/383367282"
       },
@@ -43327,6 +43350,7 @@
         "bridge": "yes",
         "highway": "footway",
         "layer": "1",
+        "surface": "wood",
         "id": "way/385058825"
       },
       "geometry": {
@@ -43355,7 +43379,7 @@
         "name": "Grenadiersweg",
         "oneway": "yes",
         "segregated": "yes",
-        "surface": "paving_stones",
+        "surface": "wood",
         "id": "way/385058836"
       },
       "geometry": {
@@ -43393,7 +43417,7 @@
       "id": "way/385776412",
       "properties": {
         "highway": "cycleway",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/385776412"
       },
       "geometry": {
@@ -46766,7 +46790,7 @@
         "foot:conditional": "yes @ (sunrise-sunset)",
         "highway": "track",
         "name": "Poppelmondeweg",
-        "surface": "unpaved",
+        "surface": "fine_gravel",
         "tracktype": "grade3",
         "vehicle": "no",
         "wikidata": "Q108885097",
@@ -46788,36 +46812,10 @@
     },
     {
       "type": "Feature",
-      "id": "way/478473990",
-      "properties": {
-        "highway": "track",
-        "opening_hours": "sunrise-sunset",
-        "id": "way/478473990"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.6846888,
-            50.8170732
-          ],
-          [
-            5.6844783,
-            50.8168436
-          ],
-          [
-            5.6842215,
-            50.8167042
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/478473991",
       "properties": {
         "highway": "service",
-        "surface": "fine_gravel",
+        "surface": "gravel",
         "id": "way/478473991"
       },
       "geometry": {
@@ -46847,6 +46845,7 @@
       "id": "way/478473992",
       "properties": {
         "highway": "track",
+        "surface": "gravel",
         "tracktype": "grade2",
         "id": "way/478473992"
       },
@@ -50985,6 +50984,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Grenadiersweg",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/692169724"
       },
@@ -56343,8 +56343,8 @@
             50.8120335
           ],
           [
-            5.6875032,
-            50.8120636
+            5.6875193,
+            50.8120424
           ]
         ]
       }
@@ -58263,7 +58263,7 @@
       "id": "way/1098077943",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/1098077943"
       },
@@ -59142,6 +59142,41 @@
           [
             5.5791389,
             50.8978141
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1126095492",
+      "properties": {
+        "highway": "track",
+        "opening_hours": "sunrise-sunset",
+        "tracktype": "grade3",
+        "id": "way/1126095492"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6816925,
+            50.8168521
+          ],
+          [
+            5.6815332,
+            50.8167317
+          ],
+          [
+            5.6813948,
+            50.8166563
+          ],
+          [
+            5.681152,
+            50.8165359
+          ],
+          [
+            5.6809747,
+            50.8164206
           ]
         ]
       }
