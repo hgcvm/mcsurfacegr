@@ -9563,8 +9563,7 @@
       "type": "Feature",
       "id": "way/86541681",
       "properties": {
-        "bicycle": "yes",
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "70",
@@ -9581,6 +9580,10 @@
           [
             5.6711284,
             51.0789972
+          ],
+          [
+            5.6711966,
+            51.0790284
           ],
           [
             5.6714884,
@@ -12911,8 +12914,7 @@
       "type": "Feature",
       "id": "way/148384015",
       "properties": {
-        "bicycle": "yes",
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "highway": "tertiary",
         "lanes": "2",
         "lit": "yes",
@@ -12935,8 +12937,12 @@
             51.0694717
           ],
           [
-            5.6551979,
-            51.0695357
+            5.6551926,
+            51.0695104
+          ],
+          [
+            5.6551966,
+            51.0695408
           ],
           [
             5.6552144,
@@ -13020,6 +13026,10 @@
             51.0650716
           ],
           [
+            5.6540262,
+            51.0650579
+          ],
+          [
             5.654047,
             51.0650259
           ]
@@ -13045,8 +13055,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6711284,
-            51.0789972
+            5.6711558,
+            51.078969
           ],
           [
             5.6711673,
@@ -20311,6 +20321,7 @@
         "highway": "track",
         "name": "Woeste Polder",
         "tracktype": "grade2",
+        "zone:traffic": "NL:rural",
         "id": "way/227492631"
       },
       "geometry": {
@@ -20334,6 +20345,7 @@
         "highway": "unclassified",
         "maxspeed": "80",
         "name": "Woeste Polder",
+        "zone:traffic": "NL:rural",
         "id": "way/227492632"
       },
       "geometry": {
@@ -23112,7 +23124,7 @@
       "type": "Feature",
       "id": "way/243109214",
       "properties": {
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "highway": "tertiary",
         "lanes": "2",
         "lit": "yes",
@@ -23157,7 +23169,7 @@
       "type": "Feature",
       "id": "way/243463828",
       "properties": {
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "highway": "secondary",
         "lanes": "3",
         "lanes:backward": "2",
@@ -23165,11 +23177,9 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Gruitroderlaan",
-        "parking:lane:right": "marked",
-        "parking:lane:right:capacity": "2",
         "ref": "N771",
         "source:maxspeed": "BE-VLG:urban",
-        "surface": "asphalt",
+        "surface": "paving_stones",
         "turn:lanes:backward": "left|right",
         "id": "way/243463828"
       },
@@ -23179,6 +23189,10 @@
           [
             5.655197,
             51.0694142
+          ],
+          [
+            5.6550895,
+            51.0694122
           ],
           [
             5.6550651,
@@ -23244,8 +23258,8 @@
             51.0803081
           ],
           [
-            5.672756,
-            51.0800196
+            5.672721,
+            51.0800513
           ]
         ]
       }
@@ -25875,6 +25889,10 @@
             51.0704192
           ],
           [
+            5.6559076,
+            51.0703961
+          ],
+          [
             5.6561055,
             51.0702898
           ]
@@ -27669,6 +27687,7 @@
         "name": "Woeste Polder",
         "surface": "sand",
         "tracktype": "grade3",
+        "zone:traffic": "NL:rural",
         "id": "way/295703090"
       },
       "geometry": {
@@ -36706,9 +36725,6 @@
       "type": "Feature",
       "id": "way/417725143",
       "properties": {
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "advisory",
-        "cycleway:right": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -36746,7 +36762,7 @@
       "type": "Feature",
       "id": "way/417725145",
       "properties": {
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "highway": "tertiary",
         "lanes": "2",
         "lit": "yes",
@@ -36811,6 +36827,10 @@
           [
             5.652556,
             51.0641661
+          ],
+          [
+            5.6525368,
+            51.0641735
           ],
           [
             5.6524912,
@@ -46992,8 +47012,9 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Kerkplein",
-        "parking:lane:right": "marked",
-        "parking:lane:right:capacity": "5",
+        "parking:right": "street_side",
+        "parking:right:fee": "no",
+        "parking:right:orientation": "perpendicular",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "id": "way/864258840"
@@ -47014,8 +47035,16 @@
             51.0692602
           ],
           [
+            5.6545865,
+            51.0693023
+          ],
+          [
             5.6546499,
             51.0694097
+          ],
+          [
+            5.6546559,
+            51.0694198
           ],
           [
             5.6546783,
@@ -47028,17 +47057,17 @@
       "type": "Feature",
       "id": "way/874414959",
       "properties": {
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Gruitroderlaan",
-        "parking:lane:right": "marked",
-        "parking:lane:right:capacity": "2",
+        "parking:right": "on_kerb",
+        "parking:right:orientation": "parallel",
         "ref": "N771",
         "source:maxspeed": "BE-VLG:urban",
-        "surface": "asphalt",
+        "surface": "paving_stones",
         "id": "way/874414959"
       },
       "geometry": {
@@ -47047,6 +47076,10 @@
           [
             5.6548969,
             51.0694249
+          ],
+          [
+            5.6547773,
+            51.0694429
           ],
           [
             5.6546783,
@@ -49897,6 +49930,58 @@
           [
             5.0519045,
             50.9926263
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1128442199",
+      "properties": {
+        "highway": "track",
+        "surface": "dirt",
+        "tracktype": "grade5",
+        "id": "way/1128442199"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.672756,
+            51.0800196
+          ],
+          [
+            5.672721,
+            51.0800513
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1128442207",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lit": "no",
+        "maxspeed": "50",
+        "name": "Volmolenstraat",
+        "source:maxspeed": "BE-VLG:zone50",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1128442207"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6711284,
+            51.0789972
+          ],
+          [
+            5.6711558,
+            51.078969
           ]
         ]
       }
