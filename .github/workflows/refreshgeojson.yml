@@ -30,6 +30,7 @@ jobs:
     - name: Push to remote
       run: |
         git config --global user.name "github-actions[bot]"
+        git config --global user.email "none@empty.com"
         git add data
         git add html
         git commit -m "Update geojson files (actions)"
