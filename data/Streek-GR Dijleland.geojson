@@ -3,89 +3,6 @@
   "features": [
     {
       "type": "Feature",
-      "id": "way/85944750",
-      "properties": {
-        "bicycle": "yes",
-        "bridge": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "layer": "1",
-        "motor_vehicle": "no",
-        "source": "survey",
-        "tracktype": "grade1",
-        "id": "way/85944750"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              200,
-              100
-            ],
-            [
-              200,
-              100
-            ],
-            [
-              200,
-              100
-            ],
-            [
-              200,
-              100
-            ],
-            [
-              200,
-              100
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/117340203",
-      "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "motor_vehicle": "no",
-        "source": "survey",
-        "surface": "compacted",
-        "tracktype": "grade1",
-        "id": "way/117340203"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              200,
-              100
-            ],
-            [
-              200,
-              100
-            ],
-            [
-              200,
-              100
-            ],
-            [
-              200,
-              100
-            ],
-            [
-              200,
-              100
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/3390185",
       "properties": {
         "cyclestreet": "yes",
@@ -8752,11 +8669,11 @@
             51.0128902
           ],
           [
-            4.4487576,
-            51.0130688
+            4.4487155,
+            51.0130339
           ],
           [
-            4.4487042,
+            4.4486844,
             51.0131675
           ]
         ]
@@ -8802,7 +8719,7 @@
             51.0131524
           ],
           [
-            4.4487042,
+            4.4486844,
             51.0131675
           ]
         ]
@@ -21038,6 +20955,7 @@
         "foot": "yes",
         "highway": "path",
         "motor_vehicle": "no",
+        "surface": "compacted",
         "tracktype": "grade1",
         "id": "way/83917788"
       },
@@ -22050,10 +21968,44 @@
     },
     {
       "type": "Feature",
+      "id": "way/85944750",
+      "properties": {
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "highway": "footway",
+        "layer": "1",
+        "motor_vehicle": "no",
+        "source": "survey",
+        "surface": "wood",
+        "tracktype": "grade1",
+        "id": "way/85944750"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.6845393,
+            50.8645496
+          ],
+          [
+            4.6845718,
+            50.8645599
+          ],
+          [
+            4.6846884,
+            50.864597
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/85944757",
       "properties": {
         "highway": "path",
         "source": "survey",
+        "surface": "fine_gravel",
         "tracktype": "grade1",
         "id": "way/85944757"
       },
@@ -22065,20 +22017,32 @@
             50.8654868
           ],
           [
-            200,
-            100
+            4.6842739,
+            50.8653844
           ],
           [
-            200,
-            100
+            4.6845785,
+            50.8651646
           ],
           [
-            200,
-            100
+            4.6846824,
+            50.8650731
           ],
           [
-            200,
-            100
+            4.6848754,
+            50.8647726
+          ],
+          [
+            4.6848693,
+            50.8647159
+          ],
+          [
+            4.6848216,
+            50.8646424
+          ],
+          [
+            4.6846884,
+            50.864597
           ]
         ]
       }
@@ -23988,6 +23952,42 @@
           [
             4.684453,
             50.8645042
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/117340203",
+      "properties": {
+        "highway": "path",
+        "source": "survey",
+        "surface": "compacted",
+        "tracktype": "grade1",
+        "id": "way/117340203"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.6828674,
+            50.8637317
+          ],
+          [
+            4.6829568,
+            50.8637699
+          ],
+          [
+            4.6832308,
+            50.8638701
+          ],
+          [
+            4.6833338,
+            50.8639431
+          ],
+          [
+            4.6838841,
+            50.8642192
           ]
         ]
       }
@@ -26666,14 +26666,17 @@
       "type": "Feature",
       "id": "way/134470586",
       "properties": {
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "70",
         "name": "Tervuursesteenweg",
+        "name:etymology:wikidata": "Q456544",
         "ref": "N3",
-        "source": "survey;bing",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
         "id": "way/134470586"
       },
       "geometry": {
@@ -41774,6 +41777,89 @@
     },
     {
       "type": "Feature",
+      "id": "way/85944750",
+      "properties": {
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "layer": "1",
+        "motor_vehicle": "no",
+        "source": "survey",
+        "tracktype": "grade1",
+        "id": "way/85944750"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              200,
+              100
+            ],
+            [
+              200,
+              100
+            ],
+            [
+              200,
+              100
+            ],
+            [
+              200,
+              100
+            ],
+            [
+              200,
+              100
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/117340203",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "motor_vehicle": "no",
+        "source": "survey",
+        "surface": "compacted",
+        "tracktype": "grade1",
+        "id": "way/117340203"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              200,
+              100
+            ],
+            [
+              200,
+              100
+            ],
+            [
+              200,
+              100
+            ],
+            [
+              200,
+              100
+            ],
+            [
+              200,
+              100
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/3372474",
       "properties": {
         "bicycle": "designated",
@@ -46699,7 +46785,6 @@
         "foot": "yes",
         "highway": "path",
         "motor_vehicle": "no",
-        "surface": "compacted",
         "tracktype": "grade1",
         "id": "way/83917788"
       },
@@ -47166,44 +47251,10 @@
     },
     {
       "type": "Feature",
-      "id": "way/85944750",
-      "properties": {
-        "bicycle": "yes",
-        "bridge": "yes",
-        "foot": "yes",
-        "highway": "footway",
-        "layer": "1",
-        "motor_vehicle": "no",
-        "source": "survey",
-        "surface": "wood",
-        "tracktype": "grade1",
-        "id": "way/85944750"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.6845393,
-            50.8645496
-          ],
-          [
-            4.6845718,
-            50.8645599
-          ],
-          [
-            4.6846884,
-            50.864597
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/85944757",
       "properties": {
         "highway": "path",
         "source": "survey",
-        "surface": "fine_gravel",
         "tracktype": "grade1",
         "id": "way/85944757"
       },
@@ -47215,32 +47266,20 @@
             50.8654868
           ],
           [
-            4.6842739,
-            50.8653844
+            200,
+            100
           ],
           [
-            4.6845785,
-            50.8651646
+            200,
+            100
           ],
           [
-            4.6846824,
-            50.8650731
+            200,
+            100
           ],
           [
-            4.6848754,
-            50.8647726
-          ],
-          [
-            4.6848693,
-            50.8647159
-          ],
-          [
-            4.6848216,
-            50.8646424
-          ],
-          [
-            4.6846884,
-            50.864597
+            200,
+            100
           ]
         ]
       }
@@ -47571,42 +47610,6 @@
           [
             4.684453,
             50.8645042
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/117340203",
-      "properties": {
-        "highway": "path",
-        "source": "survey",
-        "surface": "compacted",
-        "tracktype": "grade1",
-        "id": "way/117340203"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.6828674,
-            50.8637317
-          ],
-          [
-            4.6829568,
-            50.8637699
-          ],
-          [
-            4.6832308,
-            50.8638701
-          ],
-          [
-            4.6833338,
-            50.8639431
-          ],
-          [
-            4.6838841,
-            50.8642192
           ]
         ]
       }
@@ -78504,11 +78507,11 @@
             51.0128902
           ],
           [
-            4.4487576,
-            51.0130688
+            4.4487155,
+            51.0130339
           ],
           [
-            4.4487042,
+            4.4486844,
             51.0131675
           ]
         ]
@@ -78554,7 +78557,7 @@
             51.0131524
           ],
           [
-            4.4487042,
+            4.4486844,
             51.0131675
           ]
         ]
