@@ -1300,7 +1300,6 @@
       "id": "way/32698045",
       "properties": {
         "highway": "cycleway",
-        "name": "Schipdonkvaart-Zuid",
         "oneway": "no",
         "surface": "asphalt",
         "id": "way/32698045"
@@ -1313,28 +1312,8 @@
             51.2449454
           ],
           [
-            3.3552591,
-            51.2452464
-          ],
-          [
-            3.35462,
-            51.24546
-          ],
-          [
             3.3545344,
             51.2454882
-          ],
-          [
-            3.3544422,
-            51.2455235
-          ],
-          [
-            3.3543625,
-            51.2455641
-          ],
-          [
-            3.3513987,
-            51.2465799
           ],
           [
             3.3482979,
@@ -1351,7 +1330,7 @@
       "type": "Feature",
       "id": "way/38259049",
       "properties": {
-        "highway": "track",
+        "highway": "unclassified",
         "name": "Zuiddijk",
         "surface": "asphalt",
         "id": "way/38259049"
@@ -11912,7 +11891,11 @@
       "type": "Feature",
       "id": "way/126262029",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "cycleway",
+        "horse": "yes",
         "name": "Schipdonkvaart-Zuid",
         "oneway": "no",
         "surface": "asphalt",
@@ -11953,7 +11936,6 @@
       "id": "way/126262030",
       "properties": {
         "highway": "cycleway",
-        "name": "Schipdonkvaart-Zuid",
         "oneway": "no",
         "surface": "asphalt",
         "id": "way/126262030"
@@ -11964,14 +11946,6 @@
           [
             3.3439697,
             51.2490591
-          ],
-          [
-            3.339719,
-            51.2504868
-          ],
-          [
-            3.339666,
-            51.2504994
           ],
           [
             3.3395843,
@@ -12288,7 +12262,6 @@
       "id": "way/128465289",
       "properties": {
         "highway": "cycleway",
-        "name": "Schipdonkvaart-Zuid",
         "surface": "asphalt",
         "id": "way/128465289"
       },
@@ -12296,16 +12269,24 @@
         "type": "LineString",
         "coordinates": [
           [
+            3.3979489,
+            51.2427106
+          ],
+          [
+            3.3976994,
+            51.2427595
+          ],
+          [
+            3.3764654,
+            51.2425875
+          ],
+          [
             3.3693178,
             51.2426546
           ],
           [
             3.3683405,
             51.2427075
-          ],
-          [
-            3.3675161,
-            51.2427366
           ],
           [
             3.3666147,
@@ -12322,10 +12303,6 @@
           [
             3.3608562,
             51.2436416
-          ],
-          [
-            3.3592576,
-            51.2440236
           ],
           [
             3.3577321,
@@ -16604,8 +16581,11 @@
       "type": "Feature",
       "id": "way/189664807",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "footway",
+        "horse": "no",
         "name": "Pottebezemdreef",
         "surface": "dirt",
         "id": "way/189664807"
@@ -16633,7 +16613,7 @@
       "id": "way/189664808",
       "properties": {
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "path",
         "name": "Wildernisdreef",
         "surface": "dirt",
         "id": "way/189664808"
@@ -16660,8 +16640,10 @@
       "type": "Feature",
       "id": "way/189664809",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "path",
         "name": "Geitedreef",
         "surface": "dirt",
         "id": "way/189664809"
@@ -20594,8 +20576,8 @@
             50.8564693
           ],
           [
-            2.8802087,
-            50.8560506
+            2.8801919,
+            50.8560794
           ],
           [
             2.8804967,
@@ -26941,10 +26923,10 @@
       "type": "Feature",
       "id": "way/904194828",
       "properties": {
-        "bicycle": "yes",
+        "bicycle": "permissive",
         "foot": "designated",
         "highway": "path",
-        "horse": "yes",
+        "horse": "permissive",
         "lit": "no",
         "mtb:scale": "1",
         "surface": "ground",
@@ -28733,7 +28715,7 @@
       "id": "way/1116056979",
       "properties": {
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "path",
         "name": "Wildernisdreef",
         "surface": "compacted",
         "id": "way/1116056979"
@@ -28756,8 +28738,11 @@
       "type": "Feature",
       "id": "way/1116057104",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "path",
+        "horse": "no",
         "name": "Pottebezemdreef",
         "surface": "grass",
         "id": "way/1116057104"
