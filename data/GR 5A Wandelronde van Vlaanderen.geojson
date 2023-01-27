@@ -3,6 +3,43 @@
   "features": [
     {
       "type": "Feature",
+      "id": "way/38864143",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "no",
+        "surface": "asphalt",
+        "id": "way/38864143"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              200,
+              100
+            ],
+            [
+              200,
+              100
+            ],
+            [
+              200,
+              100
+            ],
+            [
+              200,
+              100
+            ],
+            [
+              200,
+              100
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/4329771",
       "properties": {
         "foot": "yes",
@@ -49,8 +86,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0500905,
-            51.2824211
+            4.0500877,
+            51.2824095
           ],
           [
             4.0501664,
@@ -99,29 +136,33 @@
       "type": "Feature",
       "id": "way/7595698",
       "properties": {
-        "highway": "pedestrian",
-        "name": "Oude Havensteeg",
-        "surface": "paving_stones",
+        "AND_nosr_r": "15030240",
+        "highway": "unclassified",
+        "name": "Overdamstraat",
         "id": "way/7595698"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.0500905,
-            51.2824211
+            4.0500877,
+            51.2824095
           ],
           [
-            4.0500814,
-            51.2824535
+            4.0498281,
+            51.2826642
           ],
           [
-            4.0498916,
-            51.2826054
+            4.0498001,
+            51.2826778
           ],
           [
-            4.0497706,
-            51.2826986
+            4.0497507,
+            51.2826869
+          ],
+          [
+            4.0496232,
+            51.2826671
           ]
         ]
       }
@@ -17589,39 +17630,6 @@
           [
             4.0444567,
             51.2892003
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/38864143",
-      "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "unclassified",
-        "motor_vehicle": "no",
-        "name": "Schipdonkvaart-Zuid",
-        "not:designation": "jaagpad",
-        "oneway": "no",
-        "surface": "asphalt",
-        "towpath": "yes",
-        "id": "way/38864143"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2959869,
-            51.2651
-          ],
-          [
-            3.2961103,
-            51.2650463
-          ],
-          [
-            3.2962519,
-            51.2649856
           ]
         ]
       }
@@ -61025,8 +61033,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0497706,
-            51.2826986
+            4.0497507,
+            51.2826869
           ],
           [
             4.0496199,
@@ -162269,8 +162277,20 @@
       "id": "way/4329126",
       "properties": {
         "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
         "name": "Potterierei",
+        "note:width:carriageway": "Breedte zonder parkeerbaai",
+        "oneway": "no",
+        "parking:lane:left": "bays",
+        "parking:lane:right": "no_parking",
+        "sidewalk": "both",
+        "source:maxspeed": "BE:zone30",
+        "surface": "sett",
         "website": "https://inventaris.onroerenderfgoed.be/dibe/geheel/11952",
+        "width:carriageway": "6.0",
+        "wikidata": "Q2012421",
+        "wikipedia": "nl:Potterierei",
         "id": "way/4329126"
       },
       "geometry": {
@@ -162285,164 +162305,12 @@
             51.2130673
           ],
           [
+            3.2292585,
+            51.2132758
+          ],
+          [
             3.2291963,
             51.2133656
-          ],
-          [
-            3.2290004,
-            51.2138268
-          ],
-          [
-            3.228987,
-            51.2140112
-          ],
-          [
-            3.2290594,
-            51.2142586
-          ],
-          [
-            3.2291869,
-            51.214514
-          ],
-          [
-            3.2294105,
-            51.2148953
-          ],
-          [
-            3.2295144,
-            51.2152266
-          ],
-          [
-            3.2295785,
-            51.2153024
-          ],
-          [
-            3.2295998,
-            51.2155009
-          ],
-          [
-            3.2295794,
-            51.2155836
-          ],
-          [
-            3.2295334,
-            51.2157182
-          ],
-          [
-            3.2293665,
-            51.215903
-          ],
-          [
-            3.2292595,
-            51.2160091
-          ],
-          [
-            3.2290097,
-            51.2162511
-          ],
-          [
-            3.228953,
-            51.2163528
-          ],
-          [
-            3.2288198,
-            51.2167363
-          ],
-          [
-            3.2287539,
-            51.2169453
-          ],
-          [
-            3.2287591,
-            51.217114
-          ],
-          [
-            3.2288373,
-            51.2172405
-          ],
-          [
-            3.2289834,
-            51.2173715
-          ],
-          [
-            3.2292706,
-            51.2176046
-          ],
-          [
-            3.2293744,
-            51.2176663
-          ],
-          [
-            3.2295658,
-            51.2177851
-          ],
-          [
-            3.2296943,
-            51.2179532
-          ],
-          [
-            3.2300506,
-            51.218619
-          ],
-          [
-            3.2300595,
-            51.2186951
-          ],
-          [
-            3.2303433,
-            51.2193278
-          ],
-          [
-            3.2304254,
-            51.2195901
-          ],
-          [
-            3.2304395,
-            51.2196529
-          ],
-          [
-            3.2304664,
-            51.2197071
-          ],
-          [
-            3.2305157,
-            51.2197521
-          ],
-          [
-            3.2306409,
-            51.2198175
-          ],
-          [
-            3.2308909,
-            51.2198955
-          ],
-          [
-            3.2311817,
-            51.2199605
-          ],
-          [
-            3.2316598,
-            51.2200382
-          ],
-          [
-            3.2319846,
-            51.2200941
-          ],
-          [
-            3.2322339,
-            51.2201425
-          ],
-          [
-            3.2327263,
-            51.2202986
-          ],
-          [
-            3.2333977,
-            51.2205772
-          ],
-          [
-            3.2336088,
-            51.2207714
           ]
         ]
       }
@@ -162784,9 +162652,27 @@
       "type": "Feature",
       "id": "way/4332503",
       "properties": {
+        "cyclestreet": "yes",
+        "cycleway:left": "shared_lane",
         "highway": "tertiary",
-        "name": "Sint Jakobsstraat",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Sint-Jakobsstraat",
+        "name:etymology:wikidata": "Q43999",
         "oneway": "yes",
+        "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
+        "parking:lane:left": "no_parking",
+        "parking:lane:right": "parallel",
+        "sett:pattern": "arc",
+        "sidewalk": "separate",
+        "source:maxspeed": "sign",
+        "surface": "sett",
+        "width:carriageway": "8.8",
+        "wikidata": "Q2221196",
+        "wikipedia": "nl:Sint-Jakobsstraat",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/4332503"
       },
       "geometry": {
@@ -162797,20 +162683,8 @@
             51.2114113
           ],
           [
-            200,
-            100
-          ],
-          [
-            3.2210739,
-            51.2112156
-          ],
-          [
-            3.2211015,
-            51.2111137
-          ],
-          [
-            3.2208275,
-            51.2109244
+            3.2209834,
+            51.211268
           ]
         ]
       }
@@ -165870,48 +165744,6 @@
             3.2224331,
             51.2027092
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/_way/4332503bounds1",
-      "properties": {
-        "id": "node/_way/4332503bounds1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          200,
-          100
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/_way/4332503bounds3",
-      "properties": {
-        "id": "node/_way/4332503bounds3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          200,
-          100
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/_way/4332503bounds4",
-      "properties": {
-        "id": "node/_way/4332503bounds4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          200,
-          100
         ]
       }
     }
