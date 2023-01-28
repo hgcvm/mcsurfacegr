@@ -3569,8 +3569,12 @@
       "type": "Feature",
       "id": "way/31308996",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Lindestraat",
+        "overtaking:motor_vehicle": "no",
+        "source:maxspeed": "BE:zone30;BE:cyclestreet",
         "surface": "asphalt",
         "id": "way/31308996"
       },
@@ -23337,28 +23341,14 @@
         "bicycle": "yes",
         "designation": "vicinal_road",
         "highway": "footway",
+        "maxspeed": "30",
         "name": "Drieswegel",
+        "source:maxspeed": "BE:zone30",
         "id": "way/197921365"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.7588485,
-            50.9593051
-          ],
-          [
-            3.7583929,
-            50.9595257
-          ],
-          [
-            3.7579111,
-            50.9597599
-          ],
-          [
-            3.7573945,
-            50.9601631
-          ],
           [
             3.7568775,
             50.9605877
@@ -35446,7 +35436,9 @@
       "id": "way/584969481",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Diepestraat",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/584969481"
       },
@@ -35468,8 +35460,12 @@
       "type": "Feature",
       "id": "way/584969496",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Lindestraat",
+        "overtaking:motor_vehicle": "no",
+        "source:maxspeed": "BE:zone30;BE:cyclestreet",
         "id": "way/584969496"
       },
       "geometry": {
@@ -42260,6 +42256,42 @@
           [
             3.9098403,
             51.1858583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1135698306",
+      "properties": {
+        "bicycle": "yes",
+        "designation": "vicinal_road",
+        "highway": "footway",
+        "name": "Drieswegel",
+        "id": "way/1135698306"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7588485,
+            50.9593051
+          ],
+          [
+            3.7583929,
+            50.9595257
+          ],
+          [
+            3.7579111,
+            50.9597599
+          ],
+          [
+            3.7573945,
+            50.9601631
+          ],
+          [
+            3.7568775,
+            50.9605877
           ]
         ]
       }

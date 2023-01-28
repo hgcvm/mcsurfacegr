@@ -22163,6 +22163,7 @@
       "id": "way/141111612",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/141111612"
       },
       "geometry": {
@@ -43783,6 +43784,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Eekhoornpad",
+        "surface": "dirt",
         "id": "way/685523906"
       },
       "geometry": {
@@ -48736,7 +48738,7 @@
       "id": "way/37649398",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/37649398"
       },
       "geometry": {
@@ -48878,6 +48880,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Ganzenstraat",
+        "surface": "asphalt",
         "id": "way/39909742"
       },
       "geometry": {
@@ -49161,7 +49164,8 @@
       "id": "way/42555527",
       "properties": {
         "highway": "track",
-        "surface": "gravel",
+        "mapillary": "484835496261962",
+        "surface": "paving_stones",
         "id": "way/42555527"
       },
       "geometry": {
@@ -49203,7 +49207,7 @@
       "id": "way/56313853",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/56313853"
       },
@@ -49246,7 +49250,8 @@
       "id": "way/56313854",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "mapillary": "314078586752056",
+        "surface": "sand",
         "tracktype": "grade4",
         "id": "way/56313854"
       },
@@ -49420,7 +49425,8 @@
       "id": "way/56315079",
       "properties": {
         "highway": "track",
-        "surface": "compacted",
+        "mapillary": "135523502184342",
+        "surface": "dirt",
         "tracktype": "grade2",
         "id": "way/56315079"
       },
@@ -50365,7 +50371,9 @@
       "properties": {
         "bicycle": "yes",
         "highway": "track",
+        "mapillary": "322562146199297",
         "segregated": "no",
+        "surface": "compacted",
         "tracktype": "grade3",
         "id": "way/144071924"
       },
@@ -50389,6 +50397,7 @@
       "properties": {
         "highway": "service",
         "name": "Stationsplein",
+        "surface": "paving_stones",
         "id": "way/144073071"
       },
       "geometry": {
@@ -50507,7 +50516,7 @@
         "highway": "cycleway",
         "layer": "-1",
         "segregated": "no",
-        "surface": "paved",
+        "surface": "asphalt",
         "tunnel": "yes",
         "id": "way/190457294"
       },
@@ -50532,7 +50541,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "segregated": "no",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/190457300"
       },
       "geometry": {
@@ -50564,7 +50573,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "segregated": "no",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/190457306"
       },
       "geometry": {
@@ -50680,6 +50689,7 @@
       "properties": {
         "highway": "path",
         "segregated": "no",
+        "surface": "dirt",
         "tracktype": "grade2",
         "id": "way/246969301"
       },
@@ -51223,6 +51233,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
+        "surface": "dirt",
         "id": "way/297733714"
       },
       "geometry": {
@@ -51446,6 +51457,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Eerselingenstraat",
+        "surface": "asphalt",
         "id": "way/356879800"
       },
       "geometry": {
@@ -52036,6 +52048,7 @@
       "properties": {
         "highway": "path",
         "segregated": "no",
+        "surface": "dirt",
         "id": "way/797161911"
       },
       "geometry": {
@@ -52248,6 +52261,7 @@
         "crossing:island": "no",
         "footway": "crossing",
         "highway": "footway",
+        "surface": "asphalt",
         "id": "way/1013439997"
       },
       "geometry": {
@@ -52437,6 +52451,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
+        "surface": "dirt",
         "id": "way/1125855331"
       },
       "geometry": {
@@ -52485,6 +52500,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
+        "surface": "dirt",
         "id": "way/1125855335"
       },
       "geometry": {
@@ -54615,6 +54631,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
+        "surface": "dirt",
         "id": "way/1125855335"
       },
       "geometry": {
@@ -54716,29 +54733,28 @@
       "type": "Feature",
       "id": "way/32861993",
       "properties": {
-        "highway": "tertiary_link",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "highway": "unclassified",
         "maxspeed": "50",
         "name": "Molendreef",
+        "note": "een mapper met >10kedits tagde dit als Tertiary link : gezien de wiki is dat onjuist, omgetagd naar unclassified, ook al gezien de gewichtsbeperking tot 3,5ton met uitzondering De Lijn en (vervaagd) onderbord plaatselijk verkeer..",
         "id": "way/32861993"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7474515,
-            51.2909736
+            4.7493206,
+            51.2960846
           ],
           [
-            4.7492777,
-            51.2960947
+            4.7495935,
+            51.2969321
           ],
           [
             4.7498798,
             51.2977705
-          ],
-          [
-            4.7505429,
-            51.2996391
           ]
         ]
       }
@@ -56266,9 +56282,13 @@
       "type": "Feature",
       "id": "way/37676959",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "secondary",
+        "lanes": "2",
         "name": "Heilaarstraat",
         "ref": "N132",
+        "surface": "asphalt",
         "id": "way/37676959"
       },
       "geometry": {
@@ -56283,8 +56303,16 @@
             51.3262423
           ],
           [
+            4.8549021,
+            51.326097
+          ],
+          [
             4.8548571,
             51.3259499
+          ],
+          [
+            4.8548551,
+            51.3258616
           ],
           [
             4.854874,
@@ -56297,9 +56325,12 @@
       "type": "Feature",
       "id": "way/37676960",
       "properties": {
+        "cycleway:both": "no",
         "highway": "secondary",
+        "lane_markings": "no",
         "name": "Heilaarstraat",
         "ref": "N132",
+        "surface": "asphalt",
         "id": "way/37676960"
       },
       "geometry": {
@@ -57068,6 +57099,7 @@
       "id": "way/180797489",
       "properties": {
         "highway": "unclassified",
+        "name": "Kerkbeemdweg",
         "id": "way/180797489"
       },
       "geometry": {
@@ -57078,8 +57110,8 @@
             51.2958088
           ],
           [
-            4.7492777,
-            51.2960947
+            4.7493206,
+            51.2960846
           ]
         ]
       }
