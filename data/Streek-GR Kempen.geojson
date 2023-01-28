@@ -54733,29 +54733,28 @@
       "type": "Feature",
       "id": "way/32861993",
       "properties": {
-        "highway": "tertiary_link",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "highway": "unclassified",
         "maxspeed": "50",
         "name": "Molendreef",
+        "note": "een mapper met >10kedits tagde dit als Tertiary link : gezien de wiki is dat onjuist, omgetagd naar unclassified, ook al gezien de gewichtsbeperking tot 3,5ton met uitzondering De Lijn en (vervaagd) onderbord plaatselijk verkeer..",
         "id": "way/32861993"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7474515,
-            51.2909736
+            4.7493206,
+            51.2960846
           ],
           [
-            4.7492777,
-            51.2960947
+            4.7495935,
+            51.2969321
           ],
           [
             4.7498798,
             51.2977705
-          ],
-          [
-            4.7505429,
-            51.2996391
           ]
         ]
       }
@@ -56283,9 +56282,13 @@
       "type": "Feature",
       "id": "way/37676959",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "secondary",
+        "lanes": "2",
         "name": "Heilaarstraat",
         "ref": "N132",
+        "surface": "asphalt",
         "id": "way/37676959"
       },
       "geometry": {
@@ -56300,8 +56303,16 @@
             51.3262423
           ],
           [
+            4.8549021,
+            51.326097
+          ],
+          [
             4.8548571,
             51.3259499
+          ],
+          [
+            4.8548551,
+            51.3258616
           ],
           [
             4.854874,
@@ -56314,9 +56325,12 @@
       "type": "Feature",
       "id": "way/37676960",
       "properties": {
+        "cycleway:both": "no",
         "highway": "secondary",
+        "lane_markings": "no",
         "name": "Heilaarstraat",
         "ref": "N132",
+        "surface": "asphalt",
         "id": "way/37676960"
       },
       "geometry": {
@@ -57085,6 +57099,7 @@
       "id": "way/180797489",
       "properties": {
         "highway": "unclassified",
+        "name": "Kerkbeemdweg",
         "id": "way/180797489"
       },
       "geometry": {
@@ -57095,8 +57110,8 @@
             51.2958088
           ],
           [
-            4.7492777,
-            51.2960947
+            4.7493206,
+            51.2960846
           ]
         ]
       }
