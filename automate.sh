@@ -1,11 +1,15 @@
 #!/bin/bash
 
+OVERPASSAPIINSTANCE="https://overpass.kumi.systems/api/interpreter"
+#OVERPASSAPIINSTANCE="https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+#OVERPASSAPIINSTANCE="https://z.overpass-api.de/api/interpreter"
+
 # 1 Dowload and convert all relations from merge/ dir. Write to data/ dir.
 INPUT=`cat merge/* | sed 's/[ \t]*$//' | sort -n | uniq`
 TOTALCOUNT=`wc -w <<< $INPUT` && COUNTER=0
 for REL in $INPUT; do
 	# Get osm file from overpass for each relation, and convert to geojson
-	wget -qO data/$REL.osm "https://maps.mail.ru/osm/tools/overpass/api/interpreter?data=rel($REL);way(r)[\"highway\"];out geom;"
+	wget -qO data/$REL.osm "$OVERPASSAPIINSTANCE?data=rel($REL);way(r)[\"highway\"];out geom;"
 	osmtogeojson data/$REL.osm > data/$REL.geojson
 
 	# Sleep, rate limit queries overpass server
