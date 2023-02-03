@@ -1763,6 +1763,7 @@
       "properties": {
         "cycleway": "shared_lane",
         "highway": "tertiary",
+        "lanes": "2",
         "maxspeed": "30",
         "name": "Rue des Alexiens - Cellebroersstraat",
         "name:fr": "Rue des Alexiens",
@@ -2091,6 +2092,7 @@
       "id": "way/14334771",
       "properties": {
         "highway": "residential",
+        "lanes": "1",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Rue des Alexiens - Cellebroersstraat",
@@ -21456,6 +21458,7 @@
         "layer": "1",
         "lit": "no",
         "name": "Nekkerspoel",
+        "oneway": "yes",
         "surface": "sett",
         "id": "way/30998051"
       },
@@ -21467,8 +21470,8 @@
             51.0293537
           ],
           [
-            4.4890316,
-            51.0291764
+            4.4890265,
+            51.029179
           ]
         ]
       }
@@ -24882,6 +24885,10 @@
           [
             4.3458989,
             50.8262573
+          ],
+          [
+            4.3458919,
+            50.8262518
           ],
           [
             4.3458782,
@@ -30102,6 +30109,18 @@
           [
             4.3800947,
             50.9426708
+          ],
+          [
+            4.3800367,
+            50.9424187
+          ],
+          [
+            4.3800272,
+            50.9420968
+          ],
+          [
+            4.3800097,
+            50.9413721
           ],
           [
             4.3799804,
@@ -38299,6 +38318,7 @@
         "maxspeed": "60",
         "mofa": "use_sidepath",
         "name": "Onze Lieve Vrouwe ter Duinenlaan",
+        "official_name": "O Lv Vrouw ter Duinenln",
         "old_ref": "N642",
         "id": "way/148744287"
       },
@@ -38477,8 +38497,8 @@
             50.8380276
           ],
           [
-            4.3555844,
-            50.8381177
+            4.3555826,
+            50.8381187
           ],
           [
             4.3554875,
@@ -43905,6 +43925,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            4.4890265,
+            51.029179
+          ],
           [
             4.4889739,
             51.0291397
@@ -49878,33 +49902,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/510724338",
-      "properties": {
-        "cycleway:surface": "paving_stones",
-        "foot": "yes",
-        "highway": "cycleway",
-        "lit": "yes",
-        "name": "Nekkerspoel",
-        "segregated": "yes",
-        "surface": "paving_stones",
-        "id": "way/510724338"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4890316,
-            51.0291764
-          ],
-          [
-            4.4889909,
-            51.0291522
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/510733632",
       "properties": {
         "cyclestreet": "yes",
@@ -53478,6 +53475,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "lit": "yes",
+        "oneway": "yes",
         "segregated": "yes",
         "surface": "paving_stones",
         "id": "way/759246007"
@@ -59237,8 +59235,8 @@
             50.83716
           ],
           [
-            4.3551979,
-            50.8370109
+            4.3551929,
+            50.8370081
           ],
           [
             4.3551342,
@@ -62041,33 +62039,6 @@
           [
             4.3337497,
             50.7179434
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1112791563",
-      "properties": {
-        "cycleway:surface": "paving_stones",
-        "foot": "yes",
-        "footway:surface": "paving_stones",
-        "highway": "cycleway",
-        "lit": "yes",
-        "segregated": "yes",
-        "surface": "asphalt",
-        "id": "way/1112791563"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4889909,
-            51.0291522
-          ],
-          [
-            4.4889739,
-            51.0291397
           ]
         ]
       }
