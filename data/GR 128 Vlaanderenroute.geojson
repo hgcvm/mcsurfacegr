@@ -367,7 +367,7 @@
       "properties": {
         "bicycle": "yes",
         "emergency": "no",
-        "highway": "residential",
+        "highway": "pedestrian",
         "maxspeed": "30",
         "name": "Lindenlei",
         "surface": "asphalt",
@@ -515,7 +515,7 @@
         "bridge": "yes",
         "bridge:name": "Sint-Agnetebrug",
         "emergency": "no",
-        "highway": "residential",
+        "highway": "pedestrian",
         "layer": "1",
         "maxspeed": "30",
         "name": "Sint-Agnetabrug",
@@ -543,7 +543,7 @@
       "properties": {
         "bicycle": "yes",
         "emergency": "no",
-        "highway": "residential",
+        "highway": "pedestrian",
         "maxspeed": "30",
         "name": "Lindenlei",
         "surface": "asphalt",
@@ -32133,7 +32133,7 @@
         "bicycle": "yes",
         "bus": "yes",
         "emergency": "yes",
-        "highway": "residential",
+        "highway": "pedestrian",
         "maxspeed": "30",
         "mofa": "yes",
         "name": "Coupure Links",
@@ -102037,7 +102037,7 @@
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "yes",
         "id": "way/483284169"
       },
       "geometry": {
@@ -102048,12 +102048,8 @@
             51.0460451
           ],
           [
-            3.7205629,
-            51.0462781
-          ],
-          [
-            3.7204985,
-            51.0466358
+            3.7205158,
+            51.0465413
           ]
         ]
       }
@@ -128136,6 +128132,39 @@
           [
             5.0046252,
             50.7762839
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1144681320",
+      "properties": {
+        "bicycle": "yes",
+        "bus": "yes",
+        "cycleway": "no",
+        "emergency": "yes",
+        "highway": "pedestrian",
+        "maxspeed": "30",
+        "mofa": "yes",
+        "name": "Albert Baertsoenkaai",
+        "name:etymology:wikidata": "Q2830938",
+        "speed_pedelec": "yes",
+        "surface": "asphalt",
+        "taxi": "yes",
+        "vehicle": "no",
+        "id": "way/1144681320"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7205158,
+            51.0465413
+          ],
+          [
+            3.7204985,
+            51.0466358
           ]
         ]
       }
