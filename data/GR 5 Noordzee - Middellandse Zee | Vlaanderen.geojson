@@ -20039,6 +20039,7 @@
       "properties": {
         "highway": "footway",
         "name": "Sint-Amandusstraat",
+        "surface": "paving_stones",
         "id": "way/39958895"
       },
       "geometry": {
@@ -23341,6 +23342,7 @@
       "properties": {
         "highway": "residential",
         "name": "Schabbestraat",
+        "surface": "asphalt",
         "id": "way/93740632"
       },
       "geometry": {
@@ -23366,6 +23368,7 @@
       "id": "way/93740638",
       "properties": {
         "highway": "path",
+        "smoothness": "intermediate",
         "surface": "fine_gravel",
         "id": "way/93740638"
       },
@@ -23390,6 +23393,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Sint-Amandusstraat",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/93740643"
       },
@@ -23440,8 +23444,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.2752846,
-            50.958636
+            5.27528,
+            50.9586235
           ],
           [
             5.2752527,
@@ -34409,10 +34413,6 @@
           [
             5.2800239,
             50.9558164
-          ],
-          [
-            5.2787875,
-            50.9557727
           ]
         ]
       }
@@ -35438,11 +35438,14 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
-        "horse": "yes",
+        "horse": "no",
         "motor_vehicle": "no",
         "name": "Sacramentstraat",
+        "smoothness": "bad",
         "surface": "compacted",
         "tracktype": "grade2",
+        "traffic_sign": "BE:C3,BE:Type_IV_residents_nl",
+        "vehicle": "destination",
         "id": "way/220884121"
       },
       "geometry": {
@@ -38217,6 +38220,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Berkerwinningstraat",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/234885114"
       },
@@ -39437,6 +39441,8 @@
       "id": "way/264973126",
       "properties": {
         "highway": "track",
+        "smoothness": "intermediate",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/264973126"
       },
@@ -39471,8 +39477,8 @@
             50.9657538
           ],
           [
-            5.279759,
-            50.9652044
+            5.2797377,
+            50.9651
           ],
           [
             5.2797518,
@@ -39553,6 +39559,7 @@
       "id": "way/265833534",
       "properties": {
         "highway": "track",
+        "smoothness": "intermediate",
         "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/265833534"
@@ -39565,8 +39572,12 @@
             50.9587436
           ],
           [
-            5.2752846,
-            50.958636
+            5.2753077,
+            50.9587237
+          ],
+          [
+            5.27528,
+            50.9586235
           ]
         ]
       }
@@ -39621,8 +39632,12 @@
             50.9544534
           ],
           [
-            5.2917141,
-            50.9544242
+            5.2911663,
+            50.9544545
+          ],
+          [
+            5.2917219,
+            50.954433
           ],
           [
             5.2921173,
@@ -41367,6 +41382,7 @@
       "id": "way/299574960",
       "properties": {
         "highway": "path",
+        "smoothness": "intermediate",
         "surface": "fine_gravel",
         "id": "way/299574960"
       },
@@ -47890,6 +47906,7 @@
         "bridge": "yes",
         "highway": "path",
         "layer": "1",
+        "smoothness": "intermediate",
         "surface": "concrete",
         "id": "way/510828563"
       },
@@ -47913,6 +47930,7 @@
       "properties": {
         "highway": "path",
         "name": "Stokrooievoetweg",
+        "smoothness": "intermediate",
         "surface": "fine_gravel",
         "id": "way/510828565"
       },
@@ -47924,8 +47942,8 @@
             50.9617817
           ],
           [
-            5.2753664,
-            50.9589877
+            5.275977,
+            50.9616968
           ]
         ]
       }
@@ -59363,6 +59381,58 @@
           [
             4.8517239,
             51.1699064
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1144963053",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "horse": "no",
+        "name": "Herkenrodeabdij",
+        "surface": "sett",
+        "traffic_sign": "BE:C3,BE:Type_IV_residents_nl",
+        "vehicle": "destination",
+        "id": "way/1144963053"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2800239,
+            50.9558164
+          ],
+          [
+            5.2787875,
+            50.9557727
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1145170699",
+      "properties": {
+        "highway": "path",
+        "name": "Stokrooievoetweg",
+        "smoothness": "intermediate",
+        "surface": "compacted",
+        "id": "way/1145170699"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.275977,
+            50.9616968
+          ],
+          [
+            5.2753664,
+            50.9589877
           ]
         ]
       }
