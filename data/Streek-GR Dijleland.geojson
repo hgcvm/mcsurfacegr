@@ -77191,6 +77191,7 @@
         "maxweight": "7.5",
         "maxweight:conditional": "none @ delivery",
         "name": "Bieststraat",
+        "source:maxspeed": "BE-VLG:zone50",
         "id": "way/24581334"
       },
       "geometry": {
@@ -77237,6 +77238,7 @@
         "maxweight": "7.5",
         "maxweight:conditional": "none @ delivery",
         "name": "Hellebrug",
+        "source:maxspeed": "BE-VLG:zone50",
         "id": "way/24581336"
       },
       "geometry": {
@@ -78909,7 +78911,9 @@
       "id": "way/25949505",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Venstraat",
+        "source:maxspeed": "BE-VLG:zone50",
         "id": "way/25949505"
       },
       "geometry": {
@@ -78920,48 +78924,52 @@
             50.982807
           ],
           [
-            4.5304296,
-            50.982822
+            4.530422,
+            50.982838
           ],
           [
-            4.5306043,
-            50.9828442
+            4.5306507,
+            50.9828586
           ],
           [
             4.5311647,
             50.9829078
           ],
           [
-            4.53263,
-            50.9830405
+            4.5326201,
+            50.9830435
           ],
           [
-            4.5327637,
-            50.9830594
+            4.5327569,
+            50.9830676
           ],
           [
-            4.5328899,
-            50.9830915
+            4.5328836,
+            50.9830976
           ],
           [
-            4.5331474,
-            50.9831834
+            4.5330278,
+            50.9831385
           ],
           [
-            4.5335852,
-            50.9833995
+            4.5332739,
+            50.9832457
           ],
           [
-            4.5343097,
-            50.9837672
+            4.5342809,
+            50.9837642
           ],
           [
-            4.5348948,
-            50.9840756
+            4.5348902,
+            50.9840826
           ],
           [
-            4.5350729,
-            50.9841207
+            4.5349962,
+            50.98412
+          ],
+          [
+            4.5351082,
+            50.9841439
           ]
         ]
       }
@@ -78975,7 +78983,7 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Blokstraat",
-        "source:maxspeed": "sign",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
         "id": "way/27138765"
       },
@@ -79015,16 +79023,8 @@
             50.9794159
           ],
           [
-            4.5278897,
-            50.9796012
-          ],
-          [
-            4.5278809,
-            50.9796373
-          ],
-          [
-            4.527861,
-            50.9797187
+            4.5278962,
+            50.9795836
           ]
         ]
       }
@@ -79227,41 +79227,58 @@
       "type": "Feature",
       "id": "way/30152580",
       "properties": {
-        "created_by": "Potlatch 0.10f",
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Barelweg",
+        "source:maxspeed": "BE-VLG:zone50",
         "id": "way/30152580"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.5350729,
-            50.9841207
+            4.5351082,
+            50.9841439
           ],
           [
-            4.5353274,
-            50.984348
+            4.535136,
+            50.9841926
           ],
           [
-            4.5354485,
-            50.984511
+            4.5352916,
+            50.9843361
           ],
           [
-            4.5355249,
-            50.9847558
+            4.5353821,
+            50.9844197
           ],
           [
-            4.5356451,
-            50.9849071
+            4.5354391,
+            50.9845134
           ],
           [
-            4.5358953,
-            50.985103
+            4.5355149,
+            50.9847524
           ],
           [
-            4.5363232,
-            50.9853988
+            4.535596,
+            50.9848828
+          ],
+          [
+            4.535704,
+            50.9849786
+          ],
+          [
+            4.5358776,
+            50.9851036
+          ],
+          [
+            4.5362491,
+            50.9853615
+          ],
+          [
+            4.536282,
+            50.9854029
           ]
         ]
       }
@@ -81475,6 +81492,7 @@
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Bieststraat",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "paving_stones",
         "id": "way/37995062"
       },
@@ -81532,8 +81550,12 @@
             50.9853663
           ],
           [
-            4.5363232,
-            50.9853988
+            4.5363899,
+            50.9853931
+          ],
+          [
+            4.5363344,
+            50.9854094
           ]
         ]
       }
@@ -81734,6 +81756,7 @@
         "maxweight": "7.5",
         "maxweight:conditional": "none @ delivery",
         "name": "Hellebrug",
+        "source:maxspeed": "BE-VLG:zone50",
         "id": "way/37995980"
       },
       "geometry": {
@@ -81763,6 +81786,7 @@
         "maxweight": "7.5",
         "maxweight:conditional": "none @ delivery",
         "name": "Hellebrug",
+        "source:maxspeed": "BE-VLG:zone50",
         "id": "way/37995984"
       },
       "geometry": {
@@ -81863,6 +81887,7 @@
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Bieststraat",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
         "id": "way/41577244"
       },
@@ -81871,11 +81896,11 @@
         "coordinates": [
           [
             4.527861,
-            50.9797187
+            50.979709
           ],
           [
-            4.5279735,
-            50.9797296
+            4.5279748,
+            50.9797245
           ],
           [
             4.528058,
@@ -86245,6 +86270,64 @@
           [
             4.4661148,
             51.01979
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1146549716",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Blokstraat",
+        "source:maxspeed": "BE-VLG:zone30",
+        "surface": "asphalt",
+        "id": "way/1146549716"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5278962,
+            50.9795836
+          ],
+          [
+            4.5278897,
+            50.9796012
+          ],
+          [
+            4.5278809,
+            50.9796373
+          ],
+          [
+            4.527861,
+            50.979709
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1146549729",
+      "properties": {
+        "highway": "track",
+        "surface": "unpaved",
+        "tracktype": "grade3",
+        "id": "way/1146549729"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5363344,
+            50.9854094
+          ],
+          [
+            4.536282,
+            50.9854029
           ]
         ]
       }
