@@ -113,6 +113,8 @@
         "name": "Varkensmarkt",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "oneway:speed_pedelec": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/17253979"
@@ -123,6 +125,10 @@
           [
             5.4198042,
             50.9089193
+          ],
+          [
+            5.4196543,
+            50.9087738
           ],
           [
             5.4194909,
@@ -5797,6 +5803,10 @@
         "highway": "residential",
         "lit": "yes",
         "name": "Strobandersplein",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "oneway:speed_pedelec": "no",
         "sidewalk": "none",
         "surface": "unhewn_cobblestone",
         "id": "way/61950377"
@@ -5805,28 +5815,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            5.4190304,
+            50.9083293
+          ],
+          [
+            5.4192649,
+            50.9081634
+          ],
+          [
+            5.4192817,
+            50.9081341
+          ],
+          [
+            5.4192653,
+            50.9080349
+          ],
+          [
+            5.4192803,
+            50.9080095
+          ],
+          [
+            5.4194282,
+            50.9079184
+          ],
+          [
+            5.4195512,
+            50.9078711
+          ],
+          [
+            5.4196668,
+            50.9077878
+          ],
+          [
             5.4196914,
             50.9077604
-          ],
-          [
-            5.4194707,
-            50.9079088
-          ],
-          [
-            5.4193924,
-            50.9079079
-          ],
-          [
-            5.4192319,
-            50.9080121
-          ],
-          [
-            5.4192856,
-            50.9081068
-          ],
-          [
-            5.4190007,
-            50.9083132
           ]
         ]
       }
@@ -5856,6 +5878,10 @@
           [
             5.4194965,
             50.9090274
+          ],
+          [
+            5.4195397,
+            50.9090122
           ],
           [
             5.4198042,
@@ -6865,6 +6891,8 @@
       "type": "Feature",
       "id": "way/99499012",
       "properties": {
+        "access": "no",
+        "foot": "yes",
         "highway": "path",
         "surface": "dirt",
         "id": "way/99499012"
@@ -6967,6 +6995,8 @@
       "type": "Feature",
       "id": "way/99499013",
       "properties": {
+        "access": "no",
+        "foot": "yes",
         "highway": "path",
         "surface": "dirt",
         "id": "way/99499013"
@@ -7013,7 +7043,11 @@
       "type": "Feature",
       "id": "way/99499022",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
+        "motor_vehicle": "no",
         "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/99499022"
@@ -11157,6 +11191,9 @@
       "type": "Feature",
       "id": "way/161173846",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
         "tracktype": "grade3",
         "id": "way/161173846"
@@ -11431,6 +11468,7 @@
       "type": "Feature",
       "id": "way/161184060",
       "properties": {
+        "access": "no",
         "highway": "path",
         "id": "way/161184060"
       },
@@ -11751,6 +11789,8 @@
       "type": "Feature",
       "id": "way/161186746",
       "properties": {
+        "access": "no",
+        "foot": "yes",
         "highway": "track",
         "motor_vehicle": "no",
         "surface": "dirt",
@@ -12094,6 +12134,8 @@
       "type": "Feature",
       "id": "way/161537609",
       "properties": {
+        "access": "no",
+        "foot": "yes",
         "highway": "track",
         "surface": "dirt",
         "tracktype": "grade3",
@@ -13255,6 +13297,8 @@
         "name": "Marktplein",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "oneway:speed_pedelec": "no",
         "sidewalk": "right",
         "surface": "unhewn_cobblestone",
         "id": "way/183691736"
@@ -14905,6 +14949,9 @@
       "type": "Feature",
       "id": "way/199749751",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
         "surface": "gravel",
         "tracktype": "grade2",
@@ -15020,7 +15067,10 @@
       "type": "Feature",
       "id": "way/199904493",
       "properties": {
+        "access": "no",
+        "foot": "yes",
         "highway": "path",
+        "motor_vehicle": "no",
         "surface": "dirt",
         "id": "way/199904493"
       },
@@ -15078,10 +15128,12 @@
       "type": "Feature",
       "id": "way/199907946",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
         "foot": "yes",
         "highway": "cycleway",
         "lit": "no",
-        "motor_vehicle": "forestry",
+        "motor_vehicle": "no",
         "name": "Toeristische weg",
         "note": "Bizarre naam, maar volgens het GRB is dat nu eenmaal zo",
         "segregated": "no",
@@ -15111,7 +15163,11 @@
       "type": "Feature",
       "id": "way/199907948",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
+        "motor_vehicle": "no",
         "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/199907948"
@@ -15164,6 +15220,9 @@
       "type": "Feature",
       "id": "way/199909151",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
         "motor_vehicle": "no",
         "surface": "dirt",
@@ -15282,6 +15341,8 @@
       "type": "Feature",
       "id": "way/200221070",
       "properties": {
+        "access": "no",
+        "foot": "yes",
         "highway": "track",
         "motor_vehicle": "no",
         "surface": "dirt",
@@ -15354,7 +15415,10 @@
       "type": "Feature",
       "id": "way/200221071",
       "properties": {
+        "access": "no",
+        "foot": "yes",
         "highway": "path",
+        "motor_vehicle": "no",
         "surface": "dirt",
         "id": "way/200221071"
       },
@@ -15458,7 +15522,10 @@
       "type": "Feature",
       "id": "way/200221075",
       "properties": {
+        "access": "no",
+        "foot": "yes",
         "highway": "path",
+        "motor_vehicle": "no",
         "surface": "sand",
         "id": "way/200221075"
       },
@@ -15492,6 +15559,8 @@
       "type": "Feature",
       "id": "way/200858245",
       "properties": {
+        "access": "no",
+        "foot": "yes",
         "highway": "track",
         "surface": "dirt",
         "tracktype": "grade3",
@@ -17595,6 +17664,8 @@
         "name": "Varkensmarkt",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "oneway:speed_pedelec": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/220071347"
@@ -17607,8 +17678,8 @@
             50.908521
           ],
           [
-            5.4190007,
-            50.9083132
+            5.4190304,
+            50.9083293
           ]
         ]
       }
@@ -19905,6 +19976,9 @@
       "type": "Feature",
       "id": "way/222566609",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
         "surface": "compacted",
         "tracktype": "grade2",
@@ -21347,6 +21421,8 @@
       "type": "Feature",
       "id": "way/245372646",
       "properties": {
+        "access": "no",
+        "foot": "yes",
         "highway": "path",
         "surface": "dirt",
         "id": "way/245372646"
@@ -21899,6 +21975,9 @@
       "type": "Feature",
       "id": "way/253107699",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
         "surface": "gravel",
         "tracktype": "grade2",
@@ -21926,6 +22005,9 @@
       "type": "Feature",
       "id": "way/253107703",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
         "surface": "dirt",
         "tracktype": "grade4",
@@ -22011,7 +22093,10 @@
       "type": "Feature",
       "id": "way/253260917",
       "properties": {
+        "access": "no",
+        "foot": "yes",
         "highway": "path",
+        "motor_vehicle": "no",
         "surface": "dirt",
         "id": "way/253260917"
       },
@@ -22849,6 +22934,8 @@
       "type": "Feature",
       "id": "way/256225639",
       "properties": {
+        "access": "no",
+        "foot": "yes",
         "highway": "path",
         "surface": "dirt",
         "id": "way/256225639"
@@ -22903,6 +22990,8 @@
       "type": "Feature",
       "id": "way/256225640",
       "properties": {
+        "access": "no",
+        "foot": "yes",
         "highway": "path",
         "surface": "unpaved",
         "id": "way/256225640"
@@ -22929,6 +23018,8 @@
       "type": "Feature",
       "id": "way/256225644",
       "properties": {
+        "access": "no",
+        "foot": "yes",
         "highway": "path",
         "surface": "compacted",
         "id": "way/256225644"
@@ -22971,7 +23062,9 @@
       "type": "Feature",
       "id": "way/256228268",
       "properties": {
+        "access": "no",
         "bridge": "boardwalk",
+        "foot": "yes",
         "highway": "path",
         "layer": "1",
         "surface": "wood",
@@ -23192,7 +23285,10 @@
       "type": "Feature",
       "id": "way/256373152",
       "properties": {
+        "access": "no",
+        "foot": "yes",
         "highway": "track",
+        "motor_vehicle": "no",
         "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/256373152"
@@ -23279,7 +23375,11 @@
       "type": "Feature",
       "id": "way/256631513",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
         "motor_vehicle": "no",
         "surface": "compacted",
         "tracktype": "grade2",
@@ -23451,6 +23551,7 @@
       "type": "Feature",
       "id": "way/257190376",
       "properties": {
+        "access": "no",
         "highway": "path",
         "id": "way/257190376"
       },
@@ -30071,7 +30172,11 @@
       "type": "Feature",
       "id": "way/360060872",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
+        "motor_vehicle": "no",
         "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/360060872"
@@ -32680,6 +32785,9 @@
       "type": "Feature",
       "id": "way/378014598",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
         "surface": "compacted",
         "tracktype": "grade2",
@@ -36031,6 +36139,9 @@
       "type": "Feature",
       "id": "way/640364074",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
         "surface": "gravel",
         "tracktype": "grade2",
@@ -36054,6 +36165,9 @@
       "type": "Feature",
       "id": "way/640364075",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
         "surface": "gravel",
         "tracktype": "grade2",

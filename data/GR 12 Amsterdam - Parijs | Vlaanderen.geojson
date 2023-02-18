@@ -5074,13 +5074,10 @@
       "type": "Feature",
       "id": "way/23584018",
       "properties": {
-        "bicycle": "designated",
-        "cyclestreet": "yes",
+        "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
         "horse": "no",
-        "maxspeed": "30",
-        "overtaking:motor_vehicle": "no",
         "surface": "asphalt",
         "vicinal_ref": "84",
         "vicinal_type": "path",
@@ -5178,6 +5175,10 @@
           [
             4.5099896,
             51.2004626
+          ],
+          [
+            4.510306,
+            51.2005107
           ],
           [
             4.5112657,
@@ -10340,6 +10341,7 @@
         "name": "Kerkplaats",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "surface": "sett",
         "id": "way/25917879"
       },
       "geometry": {
@@ -10361,7 +10363,9 @@
       "id": "way/25917880",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "30",
         "name": "Kerkplaats",
+        "surface": "sett",
         "id": "way/25917880"
       },
       "geometry": {
