@@ -53892,7 +53892,8 @@
       "type": "Feature",
       "id": "way/61294846",
       "properties": {
-        "highway": "residential",
+        "highway": "service",
+        "motor_vehicle": "destination",
         "name": "Doornveld",
         "id": "way/61294846"
       },
@@ -53900,32 +53901,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.07386,
-            50.9456496
+            4.0730036,
+            50.9456468
           ],
           [
-            4.0735116,
-            50.9456406
-          ],
-          [
-            4.0731043,
-            50.94563
-          ],
-          [
-            4.0730541,
-            50.9456287
-          ],
-          [
-            4.0724312,
-            50.945987
+            4.072423,
+            50.9459819
           ],
           [
             4.0720631,
             50.9461987
           ],
           [
-            4.0719825,
-            50.946265
+            4.0719907,
+            50.9462385
           ]
         ]
       }
@@ -66082,12 +66071,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0745992,
-            50.9460026
+            4.0744915,
+            50.9459642
           ],
           [
-            4.0746653,
-            50.9459535
+            4.0746267,
+            50.9459458
           ],
           [
             4.0746905,
@@ -71968,7 +71957,10 @@
       "type": "Feature",
       "id": "way/147022936",
       "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
         "highway": "residential",
+        "maxspeed": "20",
         "name": "Achterweg",
         "surface": "asphalt",
         "id": "way/147022936"
@@ -71977,12 +71969,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.07386,
-            50.9456496
+            4.0738815,
+            50.9456842
           ],
           [
-            4.0745992,
-            50.9460026
+            4.0743087,
+            50.9458916
+          ],
+          [
+            4.0744269,
+            50.945933
+          ],
+          [
+            4.0744915,
+            50.9459642
           ]
         ]
       }
@@ -87643,10 +87643,6 @@
           [
             4.6469539,
             50.9639814
-          ],
-          [
-            4.647148,
-            50.9639752
           ]
         ]
       }
@@ -120879,16 +120875,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0719825,
-            50.946265
+            4.0719907,
+            50.9462385
           ],
           [
-            4.0720465,
-            50.9463814
+            4.0719929,
+            50.946307
           ],
           [
-            4.0720664,
-            50.9463983
+            4.0720477,
+            50.9463689
+          ],
+          [
+            4.0720827,
+            50.9463895
           ],
           [
             4.0721352,
@@ -128283,6 +128283,30 @@
     },
     {
       "type": "Feature",
+      "id": "way/1148042333",
+      "properties": {
+        "highway": "track",
+        "surface": "grass",
+        "tracktype": "grade5",
+        "width": "3",
+        "id": "way/1148042333"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.6469539,
+            50.9639814
+          ],
+          [
+            4.647148,
+            50.9639752
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/31347411",
       "properties": {
         "bridge": "yes",
@@ -128578,6 +128602,7 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Leopolddreef",
+        "name:etymology:wikidata": "Q12971",
         "parking_lane": "no",
         "sidewalk": "no",
         "surface": "asphalt",
@@ -128624,6 +128649,7 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Sint-Jobstraat",
+        "name:etymology:wikidata": "Q179962",
         "parking_lane": "both",
         "sidewalk": "no",
         "width": "3",
@@ -128661,6 +128687,7 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Sint-Jobstraat",
+        "name:etymology:wikidata": "Q179962",
         "parking_lane": "both",
         "sidewalk": "no",
         "width": "3",
@@ -128995,6 +129022,7 @@
         "lit": "no",
         "maxspeed": "50",
         "name": "Kastanjelaan",
+        "name:etymology:wikidata": "Q129324",
         "parking_lane": "separate_double",
         "sidewalk": "none",
         "surface": "asphalt",
@@ -129184,6 +129212,7 @@
       "properties": {
         "highway": "service",
         "name": "Leopolddreef",
+        "name:etymology:wikidata": "Q12971",
         "id": "way/146505270"
       },
       "geometry": {
@@ -144919,6 +144948,10 @@
             51.0560491
           ],
           [
+            3.7986183,
+            51.0561673
+          ],
+          [
             3.7986958,
             51.0568134
           ],
@@ -145310,6 +145343,7 @@
         "name": "Bredenakkerstraat",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "id": "way/29222115"
       },
       "geometry": {
@@ -145880,6 +145914,7 @@
       "properties": {
         "highway": "residential",
         "name": "Vrouwestraat",
+        "surface": "asphalt",
         "id": "way/55987711"
       },
       "geometry": {
@@ -146380,6 +146415,7 @@
       "id": "way/132643872",
       "properties": {
         "highway": "path",
+        "surface": "ground",
         "id": "way/132643872"
       },
       "geometry": {
@@ -146828,6 +146864,7 @@
         "highway": "residential",
         "name": "Kerkstraat",
         "oneway": "no",
+        "surface": "asphalt",
         "id": "way/160321258"
       },
       "geometry": {
@@ -146851,6 +146888,7 @@
         "highway": "residential",
         "name": "Kerkstraat",
         "oneway": "no",
+        "surface": "asphalt",
         "id": "way/160321259"
       },
       "geometry": {
@@ -148018,6 +148056,10 @@
             51.055798
           ],
           [
+            3.7986098,
+            51.055931
+          ],
+          [
             3.7986041,
             51.0560491
           ]
@@ -148263,8 +148305,16 @@
             51.0557309
           ],
           [
+            3.7981152,
+            51.0557343
+          ],
+          [
             3.7981455,
             51.0557348
+          ],
+          [
+            3.7981733,
+            51.0557351
           ],
           [
             3.7983422,
@@ -148458,8 +148508,7 @@
         "highway": "track",
         "motor_vehicle": "no",
         "name": "Ledewegel",
-        "smoothness": "intermediate",
-        "surface": "unpaved",
+        "surface": "fine_gravel",
         "tracktype": "grade3",
         "width": "2",
         "id": "way/842244889"
@@ -148505,6 +148554,7 @@
         "motor_vehicle": "yes",
         "name": "Eenbeekstraat",
         "oneway": "no",
+        "surface": "asphalt",
         "id": "way/842244890"
       },
       "geometry": {
@@ -148568,6 +148618,7 @@
         "cycleway:surface": "paving_stones",
         "foot": "yes",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Admiraalstraat",
         "oneway": "no",
