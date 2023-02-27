@@ -4375,21 +4375,20 @@
       "type": "Feature",
       "id": "way/23490139",
       "properties": {
+        "bicycle": "yes",
         "highway": "track",
         "horse": "no",
+        "mofa": "yes",
         "name": "Veertigbundersdreef",
         "official_name": "Veertig Bunder",
         "speed_pedelec": "no",
         "surface": "asphalt",
+        "vehicle": "private",
         "id": "way/23490139"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.2952984,
-            50.6961608
-          ],
           [
             4.2956637,
             50.696362
@@ -4410,7 +4409,10 @@
       "id": "way/23490359",
       "properties": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Chemin de Colipain",
+        "smoothness": "bad",
+        "surface": "compacted",
         "id": "way/23490359"
       },
       "geometry": {
@@ -38649,6 +38651,7 @@
       "id": "way/163990483",
       "properties": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Drève de Colipain",
         "surface": "asphalt",
         "id": "way/163990483"
@@ -41408,6 +41411,10 @@
           [
             4.3062548,
             50.699854
+          ],
+          [
+            4.3065036,
+            50.6997572
           ],
           [
             4.3065593,
@@ -47815,9 +47822,11 @@
       "properties": {
         "highway": "unclassified",
         "horse": "no",
+        "lit": "no",
         "maxspeed": "70",
         "name": "Veertigbundersdreef",
         "source:maxspeed": "BE-VLG:rural",
+        "surface": "asphalt",
         "id": "way/430211183"
       },
       "geometry": {
@@ -51521,9 +51530,11 @@
       "properties": {
         "highway": "unclassified",
         "horse": "no",
+        "lit": "no",
         "maxspeed": "70",
         "name": "Veertigbundersdreef",
         "source:maxspeed": "BE-VLG:rural",
+        "surface": "asphalt",
         "id": "way/626579357"
       },
       "geometry": {
@@ -64133,6 +64144,35 @@
           [
             4.4740073,
             51.021939
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1149726594",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "mofa": "yes",
+        "name": "Veertigbundersdreef",
+        "official_name": "Veertig Bunder",
+        "speed_pedelec": "no",
+        "surface": "asphalt",
+        "vehicle": "private",
+        "id": "way/1149726594"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.2952984,
+            50.6961608
+          ],
+          [
+            4.2956637,
+            50.696362
           ]
         ]
       }
