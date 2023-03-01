@@ -1380,9 +1380,12 @@
       "type": "Feature",
       "id": "way/7124016",
       "properties": {
+        "bicycle:forward": "use_sidepath",
         "highway": "unclassified",
         "lit": "yes",
         "maxspeed": "30",
+        "mofa:forward": "use_sidepath",
+        "moped:forward": "use_sidepath",
         "name": "Sint Hubertuslaan",
         "surface": "asphalt",
         "id": "way/7124016"
@@ -1390,30 +1393,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.6876219,
-            50.8402591
-          ],
-          [
-            5.6876736,
-            50.8404585
-          ],
-          [
-            5.6877096,
-            50.8405471
-          ],
-          [
-            5.6877384,
-            50.8406224
-          ],
-          [
-            5.6877577,
-            50.840668
-          ],
-          [
-            5.6877825,
-            50.8407131
-          ],
           [
             5.6878013,
             50.8407484
@@ -18784,7 +18763,7 @@
       "properties": {
         "access": "destination",
         "highway": "track",
-        "surface": "Kasseistroken en gras",
+        "surface": "sett",
         "tracktype": "grade2",
         "width": "3",
         "id": "way/30759485"
@@ -18793,16 +18772,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0332432,
-            50.8152059
-          ],
-          [
-            5.033387,
-            50.8150625
-          ],
-          [
-            5.0347141,
-            50.8140449
+            5.0354996,
+            50.8134848
           ],
           [
             5.0360879,
@@ -19527,6 +19498,7 @@
         "maxwidth": "2.60",
         "name": "Grote Steenweg",
         "ref": "N279",
+        "surface": "asphalt",
         "id": "way/31154683"
       },
       "geometry": {
@@ -19780,7 +19752,7 @@
         "horse": "yes",
         "note": "name: Gemeenteraad Landen 220426 - benaming ruilverkavelingen:Koningsmolenweg",
         "proposed:name": "Koningsmolenweg",
-        "surface": "paved",
+        "surface": "concrete",
         "traffic_sign": "F99c",
         "width": "3",
         "id": "way/31453900"
@@ -19821,7 +19793,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Ezemaalstraat",
-        "surface": "paved",
+        "surface": "asphalt",
         "width": "3",
         "id": "way/31453901"
       },
@@ -40882,7 +40854,7 @@
       "id": "way/39486013",
       "properties": {
         "highway": "track",
-        "surface": "compacted",
+        "surface": "sett",
         "id": "way/39486013"
       },
       "geometry": {
@@ -40904,7 +40876,7 @@
       "id": "way/39486776",
       "properties": {
         "highway": "track",
-        "surface": "compacted",
+        "surface": "grass",
         "id": "way/39486776"
       },
       "geometry": {
@@ -40923,8 +40895,8 @@
             50.7551566
           ],
           [
-            4.9745469,
-            50.7554086
+            4.9745087,
+            50.7552742
           ]
         ]
       }
@@ -40935,7 +40907,7 @@
       "properties": {
         "foot": "yes",
         "highway": "track",
-        "surface": "dirt",
+        "surface": "grass",
         "width": "2 m",
         "id": "way/39486778"
       },
@@ -40943,32 +40915,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9751207,
-            50.7516217
-          ],
-          [
-            4.9750082,
-            50.7519577
-          ],
-          [
-            4.9749119,
-            50.752196
-          ],
-          [
-            4.9747542,
-            50.7525063
-          ],
-          [
-            4.9746404,
-            50.7526559
-          ],
-          [
-            4.9746141,
-            50.7527722
-          ],
-          [
-            4.9746404,
-            50.7529108
+            4.9748324,
+            50.7533854
           ],
           [
             4.9749025,
@@ -41010,6 +40958,7 @@
       "id": "way/39488698",
       "properties": {
         "highway": "unclassified",
+        "surface": "sett",
         "id": "way/39488698"
       },
       "geometry": {
@@ -41035,16 +40984,12 @@
       "id": "way/39488699",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
+        "surface": "grass",
         "id": "way/39488699"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.9771451,
-            50.7489427
-          ],
           [
             4.9769142,
             50.7491927
@@ -41083,6 +41028,7 @@
         "highway": "secondary",
         "name": "Rue de l'Abbaye",
         "ref": "N279",
+        "surface": "asphalt",
         "id": "way/39488700"
       },
       "geometry": {
@@ -41104,6 +41050,7 @@
       "id": "way/39491577",
       "properties": {
         "highway": "service",
+        "surface": "sett",
         "id": "way/39491577"
       },
       "geometry": {
@@ -41137,6 +41084,7 @@
       "id": "way/39491580",
       "properties": {
         "highway": "service",
+        "surface": "sett",
         "id": "way/39491580"
       },
       "geometry": {
@@ -41162,7 +41110,7 @@
       "id": "way/39491581",
       "properties": {
         "highway": "service",
-        "surface": "unpaved",
+        "surface": "sett",
         "id": "way/39491581"
       },
       "geometry": {
@@ -41196,7 +41144,7 @@
         "mofa": "no",
         "moped": "no",
         "service": "driveway",
-        "surface": "unpaved",
+        "surface": "compacted",
         "id": "way/39492160"
       },
       "geometry": {
@@ -41229,7 +41177,7 @@
         "horse": "no",
         "mofa": "no",
         "moped": "no",
-        "surface": "cobblestone",
+        "surface": "sett",
         "id": "way/39492161"
       },
       "geometry": {
@@ -41295,7 +41243,7 @@
         "horse": "no",
         "mofa": "no",
         "moped": "no",
-        "surface": "cobblestone",
+        "surface": "sett",
         "id": "way/39492562"
       },
       "geometry": {
@@ -41332,7 +41280,7 @@
         "horse": "no",
         "mofa": "no",
         "moped": "no",
-        "surface": "cobblestone",
+        "surface": "sett",
         "id": "way/39492564"
       },
       "geometry": {
@@ -41377,7 +41325,7 @@
         "horse": "no",
         "mofa": "no",
         "moped": "no",
-        "surface": "unpaved",
+        "surface": "compacted",
         "id": "way/39492565"
       },
       "geometry": {
@@ -41434,7 +41382,7 @@
         "horse": "no",
         "mofa": "no",
         "moped": "no",
-        "surface": "unpaved",
+        "surface": "sett",
         "id": "way/39492567"
       },
       "geometry": {
@@ -41573,7 +41521,7 @@
       "id": "way/39494178",
       "properties": {
         "highway": "path",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/39494178"
       },
       "geometry": {
@@ -41599,6 +41547,7 @@
       "id": "way/39494180",
       "properties": {
         "highway": "service",
+        "surface": "asphalt",
         "id": "way/39494180"
       },
       "geometry": {
@@ -41637,18 +41586,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.986436,
-            50.7582138
-          ],
-          [
-            4.986383,
-            50.7581919
-          ],
-          [
-            4.9863626,
-            50.7581816
-          ],
           [
             4.9863446,
             50.7581679
@@ -41722,6 +41659,7 @@
       "properties": {
         "highway": "tertiary",
         "name": "Rue des Charrons",
+        "surface": "concrete",
         "id": "way/39496086"
       },
       "geometry": {
@@ -41743,7 +41681,7 @@
       "id": "way/39496087",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "grass",
         "id": "way/39496087"
       },
       "geometry": {
@@ -41760,18 +41698,6 @@
           [
             4.9870159,
             50.7589849
-          ],
-          [
-            4.9869712,
-            50.758847
-          ],
-          [
-            4.9869209,
-            50.7585918
-          ],
-          [
-            4.9860386,
-            50.7586713
           ]
         ]
       }
@@ -41781,16 +41707,12 @@
       "id": "way/39496272",
       "properties": {
         "highway": "path",
-        "surface": "ground",
+        "surface": "dirt",
         "id": "way/39496272"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.9878717,
-            50.7615204
-          ],
           [
             4.9877962,
             50.7606247
@@ -41808,16 +41730,8 @@
             50.760523
           ],
           [
-            4.9874798,
-            50.7598075
-          ],
-          [
-            4.9874444,
-            50.7597421
-          ],
-          [
-            4.9874472,
-            50.7596948
+            4.9875625,
+            50.7599872
           ]
         ]
       }
@@ -41828,6 +41742,7 @@
       "properties": {
         "highway": "residential",
         "name": "Rue Neerdael",
+        "surface": "asphalt",
         "id": "way/39496273"
       },
       "geometry": {
@@ -41947,7 +41862,7 @@
       "id": "way/39496396",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "concrete",
         "id": "way/39496396"
       },
       "geometry": {
@@ -41999,6 +41914,7 @@
         "highway": "residential",
         "name": "Ardevoorstraat",
         "sidewalk": "both",
+        "surface": "asphalt",
         "id": "way/39496569"
       },
       "geometry": {
@@ -42086,7 +42002,7 @@
       "id": "way/39496571",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/39496571"
       },
       "geometry": {
@@ -42153,12 +42069,8 @@
             50.7632113
           ],
           [
-            4.9919844,
-            50.7632541
-          ],
-          [
-            4.9917907,
-            50.7633145
+            4.99206,
+            50.7632408
           ]
         ]
       }
@@ -42171,6 +42083,7 @@
         "maxspeed": "50",
         "name": "Grote Steenweg",
         "ref": "N279",
+        "surface": "asphalt",
         "id": "way/39496704"
       },
       "geometry": {
@@ -42242,7 +42155,7 @@
       "id": "way/39496871",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/39496871"
       },
       "geometry": {
@@ -42442,7 +42355,7 @@
       "id": "way/39497563",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "compacted",
         "id": "way/39497563"
       },
       "geometry": {
@@ -42466,6 +42379,7 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Eeuwfeeststraat",
+        "surface": "asphalt",
         "width": "5",
         "id": "way/39497919"
       },
@@ -42523,6 +42437,7 @@
         "maxspeed": "50",
         "name": "Broekstraat",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/39497927"
       },
@@ -42571,7 +42486,7 @@
         "horse": "yes",
         "note": "name: Gemeenteraad Landen 220426 - benaming ruilverkavelingen:Koningsmolenweg",
         "proposed:name": "Koningsmolenweg",
-        "surface": "paved",
+        "surface": "concrete",
         "traffic_sign": "F99c",
         "width": "3",
         "id": "way/39524846"
@@ -47707,7 +47622,7 @@
       "properties": {
         "highway": "residential",
         "name": "Middelbosstraat",
-        "surface": "Kasseien en betonstroken",
+        "surface": "concrete",
         "width": "3",
         "id": "way/44949433"
       },
@@ -62421,7 +62336,7 @@
         "access": "agricultural",
         "foot": "yes",
         "highway": "track",
-        "surface": "dirt",
+        "surface": "grass",
         "width": "3 m",
         "id": "way/107615468"
       },
@@ -87500,6 +87415,7 @@
         "maxwidth": "2.60",
         "name": "Grote Steenweg",
         "ref": "N279",
+        "surface": "asphalt",
         "id": "way/290582352"
       },
       "geometry": {
@@ -87527,6 +87443,7 @@
         "maxwidth": "2.60",
         "name": "Grote Steenweg",
         "ref": "N279",
+        "surface": "asphalt",
         "tunnel": "yes",
         "id": "way/290582353"
       },
@@ -101299,7 +101216,7 @@
         "foot": "yes",
         "highway": "path",
         "layer": "1",
-        "surface": "grass",
+        "surface": "wood",
         "trail_visibility": "intermediate",
         "width": "1",
         "id": "way/446727889"
@@ -102285,6 +102202,7 @@
       "id": "way/494617733",
       "properties": {
         "highway": "unclassified",
+        "surface": "concrete",
         "id": "way/494617733"
       },
       "geometry": {
@@ -104330,7 +104248,7 @@
         "coordinates": [
           [
             3.9603234,
-            51.0167157
+            51.0167161
           ],
           [
             3.960297,
@@ -106413,7 +106331,7 @@
       "id": "way/608981245",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
+        "surface": "concrete",
         "tracktype": "grade3",
         "id": "way/608981245"
       },
@@ -108095,12 +108013,15 @@
       "type": "Feature",
       "id": "way/651761170",
       "properties": {
+        "bicycle:forward": "use_sidepath",
         "highway": "unclassified",
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
         "lit": "yes",
         "maxspeed": "50",
+        "mofa:forward": "use_sidepath",
+        "moped:forward": "use_sidepath",
         "name": "Sint Hubertuslaan",
         "placement": "middle_of:2",
         "surface": "asphalt",
@@ -116394,7 +116315,7 @@
       "properties": {
         "highway": "residential",
         "name": "Middelbosstraat",
-        "surface": "Kasseien en betonstroken",
+        "surface": "concrete",
         "width": "3",
         "id": "way/782817483"
       },
@@ -119188,6 +119109,7 @@
         "layer": "1",
         "maxspeed": "50",
         "name": "Eeuwfeeststraat",
+        "surface": "asphalt",
         "width": "5",
         "id": "way/853754739"
       },
@@ -119213,6 +119135,7 @@
         "maxspeed": "50",
         "name": "Eeuwfeeststraat",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
         "width": "5",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/853754740"
@@ -122031,7 +121954,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Konijnenbergstraat",
-        "surface": "Kasseien en betonstroken",
+        "surface": "concrete",
         "id": "way/942995897"
       },
       "geometry": {
@@ -125333,7 +125256,7 @@
           ],
           [
             3.9603234,
-            51.0167157
+            51.0167161
           ]
         ]
       }
@@ -128219,7 +128142,7 @@
       "id": "way/1144174635",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/1144174635"
       },
       "geometry": {
@@ -128248,7 +128171,7 @@
         "maxspeed": "50",
         "name": "Ezemaalstraat",
         "source:maxspeed": "BE-VLG:urban",
-        "surface": "paved",
+        "surface": "asphalt",
         "width": "3",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1144190535"
@@ -128626,12 +128549,15 @@
       "type": "Feature",
       "id": "way/1149542977",
       "properties": {
+        "bicycle:forward": "use_sidepath",
         "highway": "unclassified",
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
         "lit": "yes",
         "maxspeed": "50",
+        "mofa:forward": "use_sidepath",
+        "moped:forward": "use_sidepath",
         "name": "Sint Hubertuslaan",
         "surface": "asphalt",
         "id": "way/1149542977"
@@ -128771,7 +128697,7 @@
         "access": "agricultural",
         "foot": "yes",
         "highway": "track",
-        "surface": "compacted",
+        "surface": "sett",
         "width": "3 m",
         "id": "way/1149987654"
       },
@@ -128805,6 +128731,313 @@
           [
             4.9731553,
             50.7554919
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1150128879",
+      "properties": {
+        "highway": "unclassified",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Sint Hubertuslaan",
+        "surface": "asphalt",
+        "id": "way/1150128879"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6876219,
+            50.8402591
+          ],
+          [
+            5.6876736,
+            50.8404585
+          ],
+          [
+            5.6877096,
+            50.8405471
+          ],
+          [
+            5.6877384,
+            50.8406224
+          ],
+          [
+            5.6877577,
+            50.840668
+          ],
+          [
+            5.6877825,
+            50.8407131
+          ],
+          [
+            5.6878013,
+            50.8407484
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1150236690",
+      "properties": {
+        "highway": "track",
+        "surface": "compacted",
+        "id": "way/1150236690"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.99206,
+            50.7632408
+          ],
+          [
+            4.9919844,
+            50.7632541
+          ],
+          [
+            4.9917907,
+            50.7633145
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1150237889",
+      "properties": {
+        "highway": "path",
+        "surface": "grass",
+        "id": "way/1150237889"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9878717,
+            50.7615204
+          ],
+          [
+            4.9877962,
+            50.7606247
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1150238206",
+      "properties": {
+        "highway": "path",
+        "surface": "concrete",
+        "id": "way/1150238206"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9875625,
+            50.7599872
+          ],
+          [
+            4.9874798,
+            50.7598075
+          ],
+          [
+            4.9874444,
+            50.7597421
+          ],
+          [
+            4.9874472,
+            50.7596948
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1150238866",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/1150238866"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9870159,
+            50.7589849
+          ],
+          [
+            4.9869712,
+            50.758847
+          ],
+          [
+            4.9869209,
+            50.7585918
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1150238867",
+      "properties": {
+        "highway": "path",
+        "surface": "sett",
+        "id": "way/1150238867"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9869209,
+            50.7585918
+          ],
+          [
+            4.9860386,
+            50.7586713
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1150239416",
+      "properties": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Rue de Léau",
+        "sidewalk": "both",
+        "surface": "concrete",
+        "id": "way/1150239416"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.986436,
+            50.7582138
+          ],
+          [
+            4.986383,
+            50.7581919
+          ],
+          [
+            4.9863626,
+            50.7581816
+          ],
+          [
+            4.9863446,
+            50.7581679
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1150242407",
+      "properties": {
+        "highway": "track",
+        "surface": "sett",
+        "id": "way/1150242407"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9771451,
+            50.7489427
+          ],
+          [
+            4.9769142,
+            50.7491927
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1150242609",
+      "properties": {
+        "foot": "yes",
+        "highway": "track",
+        "surface": "dirt",
+        "width": "2 m",
+        "id": "way/1150242609"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9751207,
+            50.7516217
+          ],
+          [
+            4.9750082,
+            50.7519577
+          ],
+          [
+            4.9749119,
+            50.752196
+          ],
+          [
+            4.9747542,
+            50.7525063
+          ],
+          [
+            4.9746404,
+            50.7526559
+          ],
+          [
+            4.9746141,
+            50.7527722
+          ],
+          [
+            4.9746404,
+            50.7529108
+          ],
+          [
+            4.9748324,
+            50.7533854
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1150244357",
+      "properties": {
+        "access": "destination",
+        "highway": "track",
+        "surface": "sett",
+        "tracktype": "grade2",
+        "width": "3",
+        "id": "way/1150244357"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0332432,
+            50.8152059
+          ],
+          [
+            5.033387,
+            50.8150625
+          ],
+          [
+            5.0347141,
+            50.8140449
+          ],
+          [
+            5.0354996,
+            50.8134848
           ]
         ]
       }

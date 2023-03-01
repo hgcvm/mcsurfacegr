@@ -310,9 +310,12 @@
       "type": "Feature",
       "id": "way/7124016",
       "properties": {
+        "bicycle:forward": "use_sidepath",
         "highway": "unclassified",
         "lit": "yes",
         "maxspeed": "30",
+        "mofa:forward": "use_sidepath",
+        "moped:forward": "use_sidepath",
         "name": "Sint Hubertuslaan",
         "surface": "asphalt",
         "id": "way/7124016"
@@ -320,30 +323,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.6876219,
-            50.8402591
-          ],
-          [
-            5.6876736,
-            50.8404585
-          ],
-          [
-            5.6877096,
-            50.8405471
-          ],
-          [
-            5.6877384,
-            50.8406224
-          ],
-          [
-            5.6877577,
-            50.840668
-          ],
-          [
-            5.6877825,
-            50.8407131
-          ],
           [
             5.6878013,
             50.8407484
@@ -43475,12 +43454,15 @@
       "type": "Feature",
       "id": "way/651761170",
       "properties": {
+        "bicycle:forward": "use_sidepath",
         "highway": "unclassified",
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
         "lit": "yes",
         "maxspeed": "50",
+        "mofa:forward": "use_sidepath",
+        "moped:forward": "use_sidepath",
         "name": "Sint Hubertuslaan",
         "placement": "middle_of:2",
         "surface": "asphalt",
@@ -50418,12 +50400,15 @@
       "type": "Feature",
       "id": "way/1149542977",
       "properties": {
+        "bicycle:forward": "use_sidepath",
         "highway": "unclassified",
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
         "lit": "yes",
         "maxspeed": "50",
+        "mofa:forward": "use_sidepath",
+        "moped:forward": "use_sidepath",
         "name": "Sint Hubertuslaan",
         "surface": "asphalt",
         "id": "way/1149542977"
@@ -50438,6 +50423,51 @@
           [
             5.6885017,
             50.8415055
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1150128879",
+      "properties": {
+        "highway": "unclassified",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Sint Hubertuslaan",
+        "surface": "asphalt",
+        "id": "way/1150128879"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6876219,
+            50.8402591
+          ],
+          [
+            5.6876736,
+            50.8404585
+          ],
+          [
+            5.6877096,
+            50.8405471
+          ],
+          [
+            5.6877384,
+            50.8406224
+          ],
+          [
+            5.6877577,
+            50.840668
+          ],
+          [
+            5.6877825,
+            50.8407131
+          ],
+          [
+            5.6878013,
+            50.8407484
           ]
         ]
       }

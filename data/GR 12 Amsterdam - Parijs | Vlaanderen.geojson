@@ -4410,9 +4410,12 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "70",
         "name": "Chemin de Colipain",
         "smoothness": "bad",
+        "source:maxspeed": "BE-WAL:rural",
         "surface": "compacted",
+        "zone:traffic": "BE-WAL:rural",
         "id": "way/23490359"
       },
       "geometry": {
@@ -27355,6 +27358,7 @@
         "name": "Place de la Dynastie - Vorstenhuisplein",
         "name:fr": "Place de la Dynastie",
         "name:nl": "Vorstenhuisplein",
+        "surface": "asphalt",
         "vehicle": "private",
         "id": "way/32763411"
       },
@@ -38652,8 +38656,11 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "70",
         "name": "Drève de Colipain",
+        "source:maxspeed": "BE-WAL:rural",
         "surface": "asphalt",
+        "zone:traffic": "BE-WAL:rural",
         "id": "way/163990483"
       },
       "geometry": {
@@ -41363,7 +41370,10 @@
       "id": "way/221577906",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Rue Ardichamp",
+        "source:maxspeed": "BE-WAL:urban",
+        "zone:traffic": "BE-WAL:urban",
         "id": "way/221577906"
       },
       "geometry": {
@@ -49366,12 +49376,15 @@
       "type": "Feature",
       "id": "way/492419159",
       "properties": {
+        "bicycle": "yes",
         "highway": "track",
         "horse": "no",
+        "lit": "no",
+        "mofa": "yes",
         "name": "Veertigbundersdreef",
         "official_name": "Veertig Bunder",
-        "speed_pedelec": "no",
         "surface": "asphalt",
+        "vehicle": "private",
         "id": "way/492419159"
       },
       "geometry": {
@@ -53508,8 +53521,12 @@
       "id": "way/762614912",
       "properties": {
         "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "70",
         "name": "Rue Hilaire Parmentier",
+        "source:maxspeed": "BE-WAL:rural",
         "surface": "asphalt",
+        "zone:traffic": "BE-WAL:rural",
         "id": "way/762614912"
       },
       "geometry": {
@@ -58588,12 +58605,15 @@
       "type": "Feature",
       "id": "way/940801069",
       "properties": {
+        "bicycle": "yes",
         "highway": "track",
         "horse": "no",
+        "lit": "no",
+        "mofa": "yes",
         "name": "Veertigbundersdreef",
         "official_name": "Veertig Bunder",
-        "speed_pedelec": "no",
         "surface": "asphalt",
+        "vehicle": "private",
         "id": "way/940801069"
       },
       "geometry": {
@@ -62791,6 +62811,7 @@
         "name": "Place de la Dynastie - Vorstenhuisplein",
         "name:fr": "Place de la Dynastie",
         "name:nl": "Vorstenhuisplein",
+        "surface": "asphalt",
         "vehicle": "private",
         "id": "way/1128426893"
       },
