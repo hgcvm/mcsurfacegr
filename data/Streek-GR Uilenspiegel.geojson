@@ -846,7 +846,6 @@
       "id": "way/7617688",
       "properties": {
         "covered": "no",
-        "flood_prone": "no",
         "highway": "residential",
         "lanes": "2",
         "lit": "yes",
@@ -854,7 +853,6 @@
         "name": "Veerhoeklaan",
         "oneway": "no",
         "surface": "asphalt",
-        "trolley_wire": "no",
         "id": "way/7617688"
       },
       "geometry": {
@@ -928,7 +926,6 @@
       "id": "way/7617765",
       "properties": {
         "covered": "no",
-        "flood_prone": "no",
         "highway": "residential",
         "lanes": "2",
         "lit": "yes",
@@ -936,7 +933,6 @@
         "maxspeed": "30",
         "name": "Veerhoeklaan",
         "surface": "asphalt",
-        "trolley_wire": "no",
         "id": "way/7617765"
       },
       "geometry": {
@@ -1826,7 +1822,7 @@
         "horse": "no",
         "lanes": "2",
         "maxspeed": "30",
-        "name": "Bakkersstraat",
+        "name": "Grotendam",
         "surface": "paving_stones",
         "id": "way/7618122"
       },
@@ -1838,12 +1834,16 @@
             51.32158
           ],
           [
-            3.4866083,
+            3.4866121,
+            51.321809
+          ],
+          [
+            3.48658,
             51.3219695
           ],
           [
-            3.4866284,
-            51.3224336
+            3.4866095,
+            51.3224348
           ]
         ]
       }
@@ -1953,8 +1953,6 @@
       "id": "way/7618184",
       "properties": {
         "covered": "no",
-        "expressway": "no",
-        "flood_prone": "no",
         "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
@@ -1962,8 +1960,6 @@
         "name": "Zuidzandsestraat",
         "oneway": "no",
         "surface": "paving_stones",
-        "toll": "no",
-        "trolley_wire": "no",
         "id": "way/7618184"
       },
       "geometry": {
@@ -11245,6 +11241,7 @@
         "highway": "track",
         "horse": "no",
         "name": "Singelsepad",
+        "surface": "dirt",
         "id": "way/128463306"
       },
       "geometry": {
@@ -12598,7 +12595,7 @@
       "properties": {
         "highway": "track",
         "name": "Slingerij",
-        "surface": "cobblestone;ground",
+        "surface": "sett",
         "tracktype": "grade1",
         "id": "way/137977072"
       },
@@ -20633,6 +20630,7 @@
       "id": "way/195137851",
       "properties": {
         "highway": "residential",
+        "surface": "asphalt",
         "id": "way/195137851"
       },
       "geometry": {
@@ -21905,7 +21903,7 @@
         "lanes": "2",
         "maxheight": "none",
         "maxspeed": "30",
-        "name": "Bakkersstraat",
+        "name": "Grotendam",
         "oneway": "no",
         "surface": "paved",
         "id": "way/255528802"
@@ -21914,8 +21912,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.4866284,
-            51.3224336
+            3.4866095,
+            51.3224348
           ],
           [
             3.4866285,
@@ -22273,8 +22271,8 @@
             51.3213533
           ],
           [
-            3.4943547,
-            51.3213336
+            3.4943387,
+            51.321323
           ],
           [
             3.4943402,
@@ -23625,6 +23623,7 @@
       "properties": {
         "highway": "residential",
         "name": "Heide",
+        "surface": "asphalt",
         "id": "way/382020407"
       },
       "geometry": {
@@ -25996,6 +25995,7 @@
         "highway": "track",
         "horse": "no",
         "name": "Singelsepad",
+        "surface": "dirt",
         "id": "way/666927760"
       },
       "geometry": {
@@ -26018,7 +26018,7 @@
       "properties": {
         "highway": "track",
         "name": "Slingerij",
-        "surface": "cobblestone;ground",
+        "surface": "compacted",
         "tracktype": "grade1",
         "id": "way/666927763"
       },
@@ -30117,7 +30117,9 @@
       "type": "Feature",
       "id": "way/7618235",
       "properties": {
+        "embankment": "yes",
         "highway": "unclassified",
+        "historic": "yes",
         "name": "Sint-Margrietepolder",
         "id": "way/7618235"
       },
@@ -31867,8 +31869,8 @@
             51.2604373
           ],
           [
-            3.5528323,
-            51.26043
+            3.5528169,
+            51.260417
           ]
         ]
       }
@@ -32177,16 +32179,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.5528323,
-            51.26043
+            3.5528169,
+            51.260417
           ],
           [
             3.5530689,
             51.2604443
           ],
           [
-            3.5531597,
-            51.2604578
+            3.5531905,
+            51.2604654
           ],
           [
             3.5572661,
@@ -32914,8 +32916,11 @@
       "type": "Feature",
       "id": "way/33893680",
       "properties": {
+        "embankment": "yes",
         "highway": "unclassified",
+        "historic": "yes",
         "name": "Hontseindestraat",
+        "surface": "asphalt",
         "id": "way/33893680"
       },
       "geometry": {
@@ -32948,14 +32953,6 @@
           [
             3.5181131,
             51.2804638
-          ],
-          [
-            3.5180993,
-            51.2803476
-          ],
-          [
-            3.518155,
-            51.2802156
           ]
         ]
       }
@@ -37682,6 +37679,33 @@
           [
             3.3647605,
             51.2720563
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1150767137",
+      "properties": {
+        "highway": "unclassified",
+        "name": "Hontseindestraat",
+        "surface": "asphalt",
+        "id": "way/1150767137"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.5181131,
+            51.2804638
+          ],
+          [
+            3.5180993,
+            51.2803476
+          ],
+          [
+            3.518155,
+            51.2802156
           ]
         ]
       }
