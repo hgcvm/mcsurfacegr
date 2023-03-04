@@ -3885,8 +3885,13 @@
       "id": "way/23192125",
       "properties": {
         "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "50",
         "name": "Hof te Helderingenbaan",
+        "sidewalk": "no",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/23192125"
       },
       "geometry": {
@@ -6743,7 +6748,9 @@
       "id": "way/24434618",
       "properties": {
         "highway": "residential",
+        "lit": "no",
         "name": "Zevenbronnen - Sept Fontaines",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/24434618"
       },
@@ -28136,9 +28143,9 @@
       "type": "Feature",
       "id": "way/33056970",
       "properties": {
-        "access": "destination",
         "highway": "unclassified",
         "maxspeed": "30",
+        "motor_vehicle": "destination",
         "source:maxspeed": "BE:zone30",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/33056970"
@@ -35258,6 +35265,7 @@
       "id": "way/77107997",
       "properties": {
         "highway": "residential",
+        "lit": "no",
         "motor_vehicle": "yes",
         "surface": "paving_stones",
         "id": "way/77107997"
@@ -36367,8 +36375,11 @@
       "id": "way/110262571",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Groenejagersstraat",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/110262571"
       },
       "geometry": {
@@ -36402,10 +36413,15 @@
       "id": "way/110262577",
       "properties": {
         "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "50",
         "name": "Zevenbronnenstraat",
         "name:fr": "Rue des Sept Fontaines",
         "name:nl": "Zevenbronnenstraat",
+        "sidewalk": "no",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/110262577"
       },
       "geometry": {
@@ -36424,12 +36440,8 @@
             50.7259369
           ],
           [
-            4.314613,
-            50.7260585
-          ],
-          [
-            4.314562,
-            50.7261784
+            4.3146564,
+            50.7259912
           ]
         ]
       }
@@ -38229,9 +38241,9 @@
       "type": "Feature",
       "id": "way/148743448",
       "properties": {
-        "access": "destination",
         "highway": "unclassified",
         "maxspeed": "30",
+        "motor_vehicle": "destination",
         "source:maxspeed": "BE:zone30",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/148743448"
@@ -45250,10 +45262,10 @@
       "type": "Feature",
       "id": "way/378124963",
       "properties": {
-        "access": "destination",
         "highway": "unclassified",
         "junction": "roundabout",
         "maxspeed": "30",
+        "motor_vehicle": "destination",
         "source:maxspeed": "BE:zone30",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/378124963"
@@ -47718,6 +47730,7 @@
       "id": "way/428937764",
       "properties": {
         "highway": "residential",
+        "lit": "no",
         "surface": "paving_stones",
         "id": "way/428937764"
       },
@@ -64187,6 +64200,40 @@
           [
             4.2956637,
             50.696362
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1150891874",
+      "properties": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Zevenbronnenstraat",
+        "name:fr": "Rue des Sept Fontaines",
+        "name:nl": "Zevenbronnenstraat",
+        "sidewalk": "no",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1150891874"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3146564,
+            50.7259912
+          ],
+          [
+            4.314613,
+            50.7260585
+          ],
+          [
+            4.314562,
+            50.7261784
           ]
         ]
       }

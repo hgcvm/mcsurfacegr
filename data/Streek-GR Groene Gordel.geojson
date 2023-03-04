@@ -453,6 +453,7 @@
         "maxspeed": "50",
         "name": "Kamerijkbos",
         "sidewalk": "none",
+        "source:maxspeed": "zone50",
         "surface": "asphalt",
         "id": "way/23094687"
       },
@@ -24125,12 +24126,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.2978215,
-            50.7298802
-          ],
-          [
-            4.2974549,
-            50.7300412
+            4.2973441,
+            50.730094
           ],
           [
             4.2972354,
@@ -24145,12 +24142,20 @@
             50.730366
           ],
           [
+            4.2965881,
+            50.7303933
+          ],
+          [
             4.2960777,
             50.730606
           ],
           [
             4.2957445,
             50.7307464
+          ],
+          [
+            4.2956281,
+            50.7308084
           ],
           [
             4.2954965,
@@ -28687,9 +28692,12 @@
       "id": "way/360383656",
       "properties": {
         "highway": "residential",
+        "lit": "no",
+        "maxspeed": "50",
         "name": "Prins Boudewijnlaan",
         "name:etymology:wikidata": "Q12976",
         "sidewalk": "none",
+        "source:maxspeed": "zone50",
         "surface": "asphalt",
         "id": "way/360383656"
       },
@@ -29566,8 +29574,8 @@
             50.7293529
           ],
           [
-            4.278122,
-            50.7288448
+            4.2776835,
+            50.7290375
           ]
         ]
       }
@@ -29577,18 +29585,16 @@
       "id": "way/401421708",
       "properties": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Prins Boudewijnlaan",
         "name:etymology:wikidata": "Q12976",
         "sidewalk": "none",
+        "surface": "sett",
         "id": "way/401421708"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.278122,
-            50.7288448
-          ],
           [
             4.278288,
             50.7287692
@@ -36714,14 +36720,15 @@
       "type": "Feature",
       "id": "way/708993137",
       "properties": {
-        "fixme": "verifieer maximimumsnelheid hier",
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Prins Boudewijnlaan / Kamerijkbos",
         "name:etymology:wikidata": "Q12976",
         "name:left": "Prins Boudewijnlaan",
         "name:right": "Kamerijkbos",
         "sidewalk": "none",
+        "source:maxspeed": "zone50",
         "surface": "asphalt",
         "id": "way/708993137"
       },
@@ -42978,6 +42985,67 @@
           [
             4.4390981,
             50.7628304
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1150891870",
+      "properties": {
+        "highway": "track",
+        "lit": "no",
+        "name": "Prins Boudewijnlaan",
+        "name:etymology:wikidata": "Q12976",
+        "sidewalk": "none",
+        "surface": "asphalt",
+        "tracktype": "grade1",
+        "id": "way/1150891870"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.2776835,
+            50.7290375
+          ],
+          [
+            4.278288,
+            50.7287692
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1150891872",
+      "properties": {
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Kerkstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
+        "sidewalk": "both",
+        "surface": "sett",
+        "id": "way/1150891872"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.2978215,
+            50.7298802
+          ],
+          [
+            4.2974549,
+            50.7300412
+          ],
+          [
+            4.2973441,
+            50.730094
           ]
         ]
       }
