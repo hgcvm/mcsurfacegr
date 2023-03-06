@@ -72107,7 +72107,8 @@
         "cycleway": "lane",
         "highway": "secondary",
         "lanes": "2",
-        "maxspeed:type": "BE:rural",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:urban",
         "name": "Guilleminlaan",
         "ref": "N496",
         "surface": "asphalt",
@@ -102781,7 +102782,8 @@
         "cycleway:both": "lane",
         "highway": "secondary",
         "lanes": "2",
-        "maxspeed:type": "BE:rural",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:urban",
         "name": "Guilleminlaan",
         "ref": "N496",
         "surface": "asphalt",
@@ -164194,6 +164196,7 @@
       "type": "Feature",
       "id": "way/64610786",
       "properties": {
+        "check_date:surface": "2023-03-06",
         "highway": "footway",
         "sett:pattern": "arc",
         "surface": "sett",
@@ -164228,10 +164231,13 @@
         "bicycle": "no",
         "bridge": "yes",
         "foot": "yes",
-        "highway": "footway",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
         "layer": "1",
         "motor_vehicle": "no",
         "name": "Bonifaciusbrug",
+        "ramp": "no",
         "smoothness": "bad",
         "surface": "sett",
         "wheelchair": "no",
@@ -164245,8 +164251,8 @@
             51.2048915
           ],
           [
-            3.2254298,
-            51.2049222
+            3.2253688,
+            51.2049089
           ]
         ]
       }
@@ -164661,6 +164667,7 @@
       "id": "way/130309650",
       "properties": {
         "bicycle": "yes",
+        "check_date:surface": "2023-03-06",
         "highway": "footway",
         "sett:pattern": "arc",
         "surface": "sett",
@@ -164669,10 +164676,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.2236891,
-            51.204111
-          ],
           [
             3.2235377,
             51.2040422
@@ -164684,10 +164687,6 @@
           [
             3.2237506,
             51.2038017
-          ],
-          [
-            3.2233551,
-            51.2036422
           ]
         ]
       }
@@ -165060,6 +165059,7 @@
         "parking:lane:both": "no_parking",
         "sett:pattern": "arc",
         "sidewalk": "both",
+        "sidewalk:both:surface": "sett",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width:carriageway": "9.2",
@@ -165098,6 +165098,7 @@
         "overtaking:motor_vehicle": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
+        "sidewalk:both:surface": "sett",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "wikidata": "Q1991265",
@@ -165518,6 +165519,7 @@
         "parking:lane:right": "parallel",
         "sett:pattern": "arc",
         "sidewalk": "both",
+        "sidewalk:both:surface": "sett",
         "source:maxspeed": "sign",
         "surface": "sett",
         "width:carriageway": "10.4",
@@ -165622,6 +165624,7 @@
       "id": "way/542173740",
       "properties": {
         "bicycle": "yes",
+        "check_date:surface": "2023-03-06",
         "highway": "footway",
         "surface": "sett",
         "id": "way/542173740"
@@ -166299,7 +166302,7 @@
         "parking:lane:right": "parallel",
         "sett:pattern": "arc",
         "sett:type": "cubes",
-        "sidewalk": "none",
+        "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width:carriageway": "10.0",
@@ -166663,6 +166666,87 @@
           [
             3.2224331,
             51.2027092
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1151920238",
+      "properties": {
+        "bicycle": "no",
+        "bridge": "yes",
+        "foot": "yes",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "layer": "1",
+        "motor_vehicle": "no",
+        "name": "Bonifaciusbrug",
+        "ramp": "no",
+        "smoothness": "bad",
+        "surface": "sett",
+        "wheelchair": "no",
+        "id": "way/1151920238"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2253688,
+            51.2049089
+          ],
+          [
+            3.2254298,
+            51.2049222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1151922631",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "sett:pattern": "arc",
+        "surface": "paving_stones",
+        "id": "way/1151922631"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2236891,
+            51.204111
+          ],
+          [
+            3.2235377,
+            51.2040422
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1151922632",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "sett:pattern": "arc",
+        "surface": "paving_stones",
+        "id": "way/1151922632"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2237506,
+            51.2038017
+          ],
+          [
+            3.2233551,
+            51.2036422
           ]
         ]
       }
