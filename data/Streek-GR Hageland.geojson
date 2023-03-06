@@ -4124,7 +4124,11 @@
       "id": "way/26438554",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ destination",
         "name": "Bergstraat",
+        "source:maxspeed": "zone50",
         "surface": "asphalt",
         "width": "3",
         "id": "way/26438554"
@@ -4147,10 +4151,12 @@
       "type": "Feature",
       "id": "way/26438899",
       "properties": {
-        "hgv": "destination",
         "highway": "unclassified",
-        "maxweight": "3",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ destination",
         "name": "Eikelberg",
+        "source:maxspeed": "zone50",
         "surface": "asphalt",
         "width": "3",
         "id": "way/26438899"
@@ -24253,7 +24259,9 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Hondsheuvel",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "width": "4",
         "id": "way/180086601"
@@ -24298,7 +24306,9 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Pastoor Dergentstraat",
+        "source:maxspeed": "zone50",
         "surface": "concrete",
         "width": "6",
         "id": "way/180086605"
@@ -24326,7 +24336,9 @@
       "id": "way/180086606",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Rillaarsebaan",
+        "source:maxspeed": "BE:zone50",
         "surface": "concrete",
         "width": "5",
         "id": "way/180086606"
@@ -43506,7 +43518,9 @@
       "id": "way/908369378",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Bergstraat",
+        "source:maxspeed": "zone50",
         "surface": "asphalt",
         "width": "5",
         "id": "way/908369378"
