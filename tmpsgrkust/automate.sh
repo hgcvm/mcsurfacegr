@@ -42,11 +42,11 @@ while read REL; do
 	SUMPERCENTAGE=`expr $SUMPERCENTAGE + $PERCENTAGE`	
 
         # Create part of html table
-	printf '%s\n' "<tr><td>$PERCENTAGE%</td><td><a href=\"https://mapcomplete.osm.be?z=9&lat=50.70689&lon=4.295654&userlayout=https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/data/$REL.json\">$REL</a></td></tr>" >> temp_table.html
+	printf '%s\n' "<tr><td>$PERCENTAGE%</td><td><a href=\"https://mapcomplete.osm.be?z=9&lat=50.70689&lon=4.295654&userlayout=https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/tmpsgrkust/data/$REL.json\">$REL</a></td></tr>" >> temp_table.html
 
 	#3 Generate MapComplete JSON.
 	cp mcsurfacegr.json data/"$REL".json
-	sed -i "s_githubusercontent.com/hgcvm/mcsurfacegr/main/test-export.geojson_githubusercontent.com/hgcvm/mcsurfacegr/main/data/$REL.geojson_" data/"$REL".json
+	sed -i "s_githubusercontent.com/hgcvm/mcsurfacegr/main/test-export.geojson_githubusercontent.com/hgcvm/mcsurfacegr/main/tmpsgrkust/data/$REL.geojson_" data/"$REL".json
 
         # Show some output
         let COUNTER=COUNTER+1
