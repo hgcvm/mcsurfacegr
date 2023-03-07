@@ -3764,7 +3764,10 @@
       "id": "way/57954007",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Eikenstraat",
+        "source:maxspeed": "BE-VLG:rural",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/57954007"
       },
       "geometry": {
@@ -5722,7 +5725,10 @@
       "id": "way/74179513",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Laurierstraat",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/74179513"
       },
       "geometry": {
@@ -5794,8 +5800,11 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Koebroekdreef",
+        "source:maxspeed": "BE-VLG:rural",
         "surface": "gravel",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/74179514"
       },
       "geometry": {
@@ -8671,9 +8680,18 @@
       "type": "Feature",
       "id": "way/102025872",
       "properties": {
-        "highway": "unclassified",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Torendreef",
-        "surface": "asphalt",
+        "smoothness": "bad",
+        "surface": "dirt",
+        "traffic_sign": "BE:F99c",
         "id": "way/102025872"
       },
       "geometry": {
@@ -8857,7 +8875,10 @@
       "id": "way/102026133",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Rapenburgstraat",
+        "source:maxspeed": "BE-VLG:rural",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/102026133"
       },
       "geometry": {
@@ -9634,7 +9655,10 @@
       "id": "way/110185383",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Zandstraat",
+        "source:maxspeed": "BE-VLG:rural",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/110185383"
       },
       "geometry": {
@@ -9692,8 +9716,11 @@
       "id": "way/110185384",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Vlasbloemstraat",
+        "source:maxspeed": "BE-VLG:rural",
         "width": "4",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/110185384"
       },
       "geometry": {
@@ -14814,7 +14841,9 @@
         "maxspeed": "70",
         "name": "Torhoutsestraat",
         "oneway": "no",
+        "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/137308224"
       },
       "geometry": {
@@ -27980,13 +28009,19 @@
       "properties": {
         "agricultural": "yes",
         "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
         "mofa": "yes",
         "moped": "yes",
+        "motor_vehicle": "destination",
         "motorcar": "no",
         "name": "Torendreef",
         "smoothness": "bad",
-        "surface": "gravel",
+        "surface": "dirt",
+        "traffic_sign": "BE:F99c",
         "id": "way/853530406"
       },
       "geometry": {
