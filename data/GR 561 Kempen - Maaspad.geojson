@@ -50522,6 +50522,7 @@
         "name": "Stadsplein",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "surface": "asphalt",
         "id": "way/41418685"
       },
@@ -50543,6 +50544,10 @@
           [
             5.5973357,
             51.1395901
+          ],
+          [
+            5.5974192,
+            51.1396394
           ],
           [
             5.5974423,
@@ -50647,12 +50652,14 @@
       "type": "Feature",
       "id": "way/48854405",
       "properties": {
+        "cyclestreet": "yes",
         "cycleway:both": "no",
         "highway": "residential",
         "lit": "yes",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Oudestraat",
         "oneway": "no",
+        "overtaking:motor_vehicle": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/48854405"
@@ -50675,8 +50682,9 @@
       "type": "Feature",
       "id": "way/48854765",
       "properties": {
-        "highway": "residential",
+        "highway": "living_street",
         "lit": "yes",
+        "maxspeed": "20",
         "name": "Parkstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -51736,6 +51744,8 @@
         "name": "Kloosterstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "oneway:speed_pedelec": "no",
         "surface": "paving_stones",
         "id": "way/363594743"
       },
@@ -52182,6 +52192,10 @@
           [
             5.5974423,
             51.1396554
+          ],
+          [
+            5.5975432,
+            51.1397
           ],
           [
             5.5976104,

@@ -346,8 +346,9 @@
       "type": "Feature",
       "id": "way/4603510",
       "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
+        "access": "no",
+        "bicycle": "no",
+        "foot": "no",
         "highway": "cycleway",
         "name": "Ringfietspad",
         "oneway": "no",
@@ -386,26 +387,6 @@
           [
             4.4470548,
             51.2272558
-          ],
-          [
-            4.4481097,
-            51.2265483
-          ],
-          [
-            4.4482497,
-            51.2264691
-          ],
-          [
-            4.4483629,
-            51.2264239
-          ],
-          [
-            4.4485028,
-            51.2263776
-          ],
-          [
-            4.4487969,
-            51.2262766
           ]
         ]
       }
@@ -1641,6 +1622,7 @@
         "highway": "steps",
         "layer": "1",
         "ramp": "no",
+        "surface": "concrete",
         "id": "way/24450655"
       },
       "geometry": {
@@ -12470,6 +12452,50 @@
           [
             4.399687,
             51.1950137
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1152427938",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "name": "Ringfietspad",
+        "oneway": "no",
+        "segregated": "yes",
+        "surface": "asphalt",
+        "width": "3",
+        "id": "way/1152427938"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4470548,
+            51.2272558
+          ],
+          [
+            4.4481097,
+            51.2265483
+          ],
+          [
+            4.4482497,
+            51.2264691
+          ],
+          [
+            4.4483629,
+            51.2264239
+          ],
+          [
+            4.4485028,
+            51.2263776
+          ],
+          [
+            4.4487969,
+            51.2262766
           ]
         ]
       }
