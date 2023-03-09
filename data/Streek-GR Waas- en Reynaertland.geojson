@@ -2854,11 +2854,15 @@
       "type": "Feature",
       "id": "way/24788050",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Markt",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:speed_pedelec": "no",
+        "overtaking:motor_vehicle": "no",
+        "source:maxspeed": "cyclestreet",
         "id": "way/24788050"
       },
       "geometry": {
@@ -2891,9 +2895,12 @@
       "type": "Feature",
       "id": "way/24788091",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Dijkstraat",
+        "overtaking:motor_vehicle": "no",
+        "source:maxspeed": "cyclestreet",
         "id": "way/24788091"
       },
       "geometry": {
@@ -2902,6 +2909,10 @@
           [
             4.2131598,
             51.1240633
+          ],
+          [
+            4.2130798,
+            51.1240688
           ],
           [
             4.2129133,
@@ -32394,9 +32405,12 @@
       "type": "Feature",
       "id": "way/621996090",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Wilfordkaai",
+        "overtaking:motor_vehicle": "no",
+        "source:maxspeed": "cyclestreet",
         "surface": "concrete",
         "id": "way/621996090"
       },
@@ -32434,6 +32448,10 @@
           [
             4.2139716,
             51.1235782
+          ],
+          [
+            4.2139757,
+            51.1236833
           ],
           [
             4.2139871,
