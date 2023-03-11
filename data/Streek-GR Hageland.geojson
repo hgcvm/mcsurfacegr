@@ -23885,7 +23885,7 @@
       "properties": {
         "foot": "yes",
         "highway": "path",
-        "horse": "yes",
+        "horse": "designated",
         "surface": "compacted",
         "id": "way/179313886"
       },
@@ -34219,7 +34219,8 @@
       "type": "Feature",
       "id": "way/331039676",
       "properties": {
-        "highway": "path",
+        "construction": "path",
+        "highway": "construction",
         "lit": "yes",
         "surface": "concrete",
         "width": "3",
@@ -34373,7 +34374,8 @@
       "type": "Feature",
       "id": "way/345703967",
       "properties": {
-        "highway": "path",
+        "construction": "path",
+        "highway": "construction",
         "lit": "yes",
         "surface": "concrete",
         "width": "3",
@@ -34382,14 +34384,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.0519459,
-            50.9879044
-          ],
-          [
-            5.0520358,
-            50.9879154
-          ],
           [
             5.0520877,
             50.987913
@@ -46751,6 +46745,34 @@
           [
             4.8153774,
             50.8353368
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1153358075",
+      "properties": {
+        "highway": "path",
+        "lit": "yes",
+        "surface": "concrete",
+        "width": "3",
+        "id": "way/1153358075"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0519459,
+            50.9879044
+          ],
+          [
+            5.0520358,
+            50.9879154
+          ],
+          [
+            5.0520877,
+            50.987913
           ]
         ]
       }
