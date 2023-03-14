@@ -798,6 +798,10 @@
             50.7812984
           ],
           [
+            2.6634576,
+            50.781275
+          ],
+          [
             2.6637205,
             50.7811911
           ],
@@ -9965,8 +9969,9 @@
       "id": "way/95281052",
       "properties": {
         "highway": "tertiary",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Chemin du Mont des Cats",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
         "width": "5",
         "id": "way/95281052"
@@ -9974,18 +9979,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            2.670476,
-            50.7871073
-          ],
-          [
-            2.6711429,
-            50.787264
-          ],
-          [
-            2.6714534,
-            50.7873358
-          ],
           [
             2.6717524,
             50.7873986
@@ -24872,9 +24865,10 @@
       "id": "way/372756564",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "80",
+        "maxspeed": "30",
         "name": "Chemin des Cinq Rues",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "source:maxspeed": "sign",
         "id": "way/372756564"
       },
       "geometry": {
@@ -33378,6 +33372,39 @@
           [
             2.8089783,
             50.7775125
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1154002428",
+      "properties": {
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Chemin du Mont des Cats",
+        "surface": "asphalt",
+        "width": "5",
+        "id": "way/1154002428"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.670476,
+            50.7871073
+          ],
+          [
+            2.6711429,
+            50.787264
+          ],
+          [
+            2.6714534,
+            50.7873358
+          ],
+          [
+            2.6717524,
+            50.7873986
           ]
         ]
       }
