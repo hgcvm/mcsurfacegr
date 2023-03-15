@@ -47512,10 +47512,11 @@
       "properties": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "path",
+        "highway": "cycleway",
         "name": "Visserij",
-        "segregated": "no",
-        "surface": "asphalt",
+        "segregated": "yes",
+        "sidewalk:surface": "paving_stones",
+        "surface": "concrete",
         "id": "way/44919682"
       },
       "geometry": {
@@ -91900,10 +91901,6 @@
             51.0428065
           ],
           [
-            3.7402008,
-            51.0428002
-          ],
-          [
             3.7401481,
             51.0427956
           ],
@@ -115209,12 +115206,13 @@
       "id": "way/781140954",
       "properties": {
         "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "residential",
-        "layer": "1",
         "maxspeed": "30",
         "name": "Visserij",
         "oneway": "yes",
-        "oneway:bicycle": "yes",
+        "oneway:bicycle": "no",
         "sidewalk": "right",
         "surface": "asphalt",
         "id": "way/781140954"
@@ -115226,30 +115224,6 @@
             3.7402739,
             51.0428065
           ],
-          [
-            3.7403004,
-            51.0428354
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/781140955",
-      "properties": {
-        "bicycle": "yes",
-        "highway": "residential",
-        "maxspeed": "30",
-        "name": "Visserij",
-        "oneway": "yes",
-        "oneway:bicycle": "yes",
-        "sidewalk": "right",
-        "surface": "asphalt",
-        "id": "way/781140955"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [
             3.7403004,
             51.0428354
@@ -150419,16 +150393,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6977076,
-            50.8760223
-          ],
-          [
-            4.6977134,
-            50.8759454
-          ],
-          [
             4.6977084,
-            50.8758849
+            50.8760322
+          ],
+          [
+            4.6977186,
+            50.8759456
+          ],
+          [
+            4.6977185,
+            50.8759048
           ],
           [
             4.697678,
@@ -150480,8 +150454,8 @@
             50.8761769
           ],
           [
-            4.6976889,
-            50.876127
+            4.6976961,
+            50.8761361
           ]
         ]
       }
@@ -154143,12 +154117,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6976889,
-            50.876127
+            4.6976961,
+            50.8761361
           ],
           [
-            4.6977076,
-            50.8760223
+            4.6977084,
+            50.8760322
           ]
         ]
       }

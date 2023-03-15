@@ -2973,11 +2973,15 @@
       "type": "Feature",
       "id": "way/24429954",
       "properties": {
-        "bicycle": "designated",
+        "bicycle": "yes",
+        "designation": "towpath",
         "foot": "designated",
         "highway": "path",
+        "mofa": "yes",
+        "private": "permit",
         "segregated": "no",
         "surface": "wood",
+        "vehicle": "private",
         "id": "way/24429954"
       },
       "geometry": {
@@ -2998,11 +3002,15 @@
       "type": "Feature",
       "id": "way/24470856",
       "properties": {
-        "bicycle": "designated",
+        "bicycle": "yes",
+        "designation": "towpath",
         "foot": "designated",
         "highway": "path",
+        "mofa": "yes",
+        "private": "permit",
         "segregated": "no",
         "surface": "compacted",
+        "vehicle": "private",
         "id": "way/24470856"
       },
       "geometry": {
@@ -3023,9 +3031,15 @@
       "type": "Feature",
       "id": "way/24470857",
       "properties": {
+        "bicycle": "yes",
+        "designation": "towpath",
         "highway": "track",
+        "mofa": "yes",
+        "private": "permit",
         "surface": "compacted",
+        "towpath": "yes",
         "tracktype": "grade2",
+        "vehicle": "private",
         "id": "way/24470857"
       },
       "geometry": {
@@ -4491,9 +4505,11 @@
       "id": "way/28556480",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Hogeweg",
         "sidewalk": "no",
         "surface": "paving_stones",
+        "zone:maxspeed": "BE:50",
         "id": "way/28556480"
       },
       "geometry": {
@@ -8895,8 +8911,11 @@
       "id": "way/35013631",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Mottestraat",
         "surface": "asphalt",
+        "zone:maxspeed": "BE:50",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/35013631"
       },
       "geometry": {
@@ -8984,8 +9003,11 @@
         "bridge": "yes",
         "highway": "unclassified",
         "layer": "1",
+        "maxspeed": "50",
         "name": "Mottestraat",
         "surface": "asphalt",
+        "zone:maxspeed": "BE:50",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/35013633"
       },
       "geometry": {
@@ -9017,6 +9039,10 @@
           [
             4.8630763,
             50.9783148
+          ],
+          [
+            4.863026,
+            50.9783212
           ],
           [
             4.862883,
@@ -20023,14 +20049,18 @@
       "type": "Feature",
       "id": "way/128454327",
       "properties": {
-        "bicycle": "designated",
+        "bicycle": "yes",
         "bridge": "yes",
+        "designation": "towpath",
         "foot": "designated",
         "highway": "path",
         "layer": "1",
+        "mofa": "yes",
         "name": "Beemdenbrug",
+        "private": "permit",
         "segregated": "no",
         "surface": "wood",
+        "vehicle": "private",
         "id": "way/128454327"
       },
       "geometry": {
@@ -21695,8 +21725,11 @@
       "id": "way/147059668",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Mottestraat",
         "surface": "asphalt",
+        "zone:maxspeed": "BE:50",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/147059668"
       },
       "geometry": {
@@ -37566,8 +37599,11 @@
       "id": "way/411110878",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Mottestraat",
         "surface": "asphalt",
+        "zone:maxspeed": "BE:50",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/411110878"
       },
       "geometry": {
@@ -37997,11 +38033,13 @@
       "id": "way/440515666",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "motor_vehicle": "destination",
         "name": "Leibergweg",
         "sidewalk": "no",
         "surface": "asphalt",
         "width": "3",
+        "zone:maxspeed": "BE:50",
         "id": "way/440515666"
       },
       "geometry": {
