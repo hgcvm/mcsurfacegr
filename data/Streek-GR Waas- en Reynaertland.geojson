@@ -6062,7 +6062,7 @@
       "id": "way/26400441",
       "properties": {
         "cycleway": "lane",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
         "name": "Nachtegaalstraat",
@@ -6634,7 +6634,7 @@
         "name": "Waterstraat",
         "old_name": "Hulstersche baen",
         "sidewalk": "no",
-        "source:maxspeed": "zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "cobblestone",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/27348761"
@@ -9828,7 +9828,7 @@
       "id": "way/39675231",
       "properties": {
         "cycleway": "track",
-        "highway": "tertiary",
+        "highway": "secondary",
         "maxspeed": "50",
         "name": "Vijfstraten",
         "old_ref": "N451",
@@ -14464,7 +14464,7 @@
       "id": "way/52063989",
       "properties": {
         "cycleway": "track",
-        "highway": "tertiary",
+        "highway": "secondary",
         "maxspeed": "70",
         "name": "Heirweg",
         "id": "way/52063989"
@@ -14539,7 +14539,7 @@
       "id": "way/52064131",
       "properties": {
         "cycleway": "track",
-        "highway": "tertiary",
+        "highway": "secondary",
         "name": "Brugse Heirweg",
         "id": "way/52064131"
       },
@@ -15211,7 +15211,7 @@
         "cycleway:right": "track",
         "cycleway:right:oneway": "no",
         "cycleway:width": "3.6",
-        "highway": "secondary",
+        "highway": "tertiary",
         "maxspeed": "50",
         "name": "Burchtakker",
         "surface": "asphalt",
@@ -24467,7 +24467,7 @@
       "id": "way/217366592",
       "properties": {
         "cycleway": "lane",
-        "highway": "tertiary",
+        "highway": "secondary",
         "maxspeed": "50",
         "name": "Vijfstraten",
         "old_ref": "N451",
@@ -28266,7 +28266,7 @@
       "type": "Feature",
       "id": "way/412983478",
       "properties": {
-        "highway": "secondary",
+        "highway": "tertiary",
         "maxspeed": "50",
         "name": "Burchtakker",
         "surface": "asphalt",
@@ -28770,7 +28770,7 @@
       "id": "way/433843048",
       "properties": {
         "cycleway": "track",
-        "highway": "tertiary",
+        "highway": "secondary",
         "maxspeed": "50",
         "name": "Vijfstraten",
         "old_ref": "N451",
@@ -32010,6 +32010,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            4.0580323,
+            51.2836222
+          ],
+          [
+            4.0581186,
+            51.2835625
+          ],
           [
             4.0582625,
             51.2835141
@@ -41246,33 +41254,6 @@
           [
             4.0510667,
             51.2785484
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1112502757",
-      "properties": {
-        "highway": "cycleway",
-        "name": "Koolstraat",
-        "surface": "asphalt",
-        "id": "way/1112502757"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.0580323,
-            51.2836222
-          ],
-          [
-            4.0581186,
-            51.2835625
-          ],
-          [
-            4.0582625,
-            51.2835141
           ]
         ]
       }

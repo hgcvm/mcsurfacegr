@@ -13096,7 +13096,7 @@
         "lit": "no",
         "maxspeed": "50",
         "name": "Volmolenstraat",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/148389721"
@@ -14679,7 +14679,7 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Spreeuwerstraat",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "id": "way/171615140"
       },
       "geometry": {
@@ -21939,7 +21939,7 @@
         "maxspeed": "50",
         "name": "Heuvelken",
         "oneway": "yes",
-        "source:maxspeed": "zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/239226245"
@@ -21972,7 +21972,7 @@
         "maxspeed": "50",
         "name": "Heuvelken",
         "sidewalk": "no",
-        "source:maxspeed": "zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/239226765"
@@ -22257,7 +22257,7 @@
         "motor_vehicle": "destination",
         "name": "Mortelstraat",
         "sidewalk": "no",
-        "source:maxspeed": "zone50",
+        "source:maxspeed": "BE:zone50",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/239233434"
       },
@@ -36806,7 +36806,7 @@
         "maxspeed": "50",
         "maxspeed:type": "BE:zone50",
         "name": "Jonkersweg",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "id": "way/417725149"
       },
@@ -40578,7 +40578,7 @@
         "maxweight": "3.5",
         "maxweight:conditional": "none @ delivery",
         "name": "Hermanshoeven",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/504450508"
       },
@@ -41578,10 +41578,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.6632866,
-            51.0008102
-          ],
           [
             5.6606786,
             51.0006098
@@ -49751,10 +49747,6 @@
           [
             5.6686429,
             51.0049909
-          ],
-          [
-            5.6686545,
-            51.0049406
           ]
         ]
       }
@@ -49914,7 +49906,7 @@
         "lit": "no",
         "maxspeed": "50",
         "name": "Volmolenstraat",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/1128442207"
@@ -50597,7 +50589,7 @@
       "properties": {
         "highway": "path",
         "motor_vehicle": "no",
-        "surface": "sand",
+        "surface": "ground",
         "id": "way/1155134661"
       },
       "geometry": {
@@ -50618,6 +50610,52 @@
           [
             5.6579931,
             51.0004332
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1155212619",
+      "properties": {
+        "highway": "path",
+        "smoothness": "very_bad",
+        "surface": "sand",
+        "id": "way/1155212619"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6632866,
+            51.0008102
+          ],
+          [
+            5.6606786,
+            51.0006098
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1155215091",
+      "properties": {
+        "highway": "track",
+        "surface": "paved",
+        "tracktype": "grade1",
+        "id": "way/1155215091"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6686429,
+            51.0049909
+          ],
+          [
+            5.6686545,
+            51.0049406
           ]
         ]
       }
