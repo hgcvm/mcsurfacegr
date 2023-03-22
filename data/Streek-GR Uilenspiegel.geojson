@@ -22151,11 +22151,14 @@
       "id": "way/255528827",
       "properties": {
         "bicycle": "no",
+        "covered": "no",
         "highway": "footway",
         "horse": "no",
         "lit": "no",
         "motor_vehicle": "no",
+        "stroller": "no",
         "surface": "compacted",
+        "tactile_paving": "no",
         "wheelchair": "no",
         "width": "1",
         "id": "way/255528827"
@@ -22346,9 +22349,12 @@
       "id": "way/255528851",
       "properties": {
         "bicycle": "dismount",
+        "covered": "no",
         "highway": "footway",
         "lit": "no",
+        "stroller": "no",
         "surface": "compacted",
+        "tactile_paving": "no",
         "wheelchair": "no",
         "width": "2",
         "id": "way/255528851"
@@ -29586,12 +29592,19 @@
       "type": "Feature",
       "id": "way/1118084207",
       "properties": {
+        "covered": "no",
         "cycleway": "lane",
+        "expressway": "no",
         "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
         "maxspeed": "60",
         "name": "Bakkersstraat",
         "oneway": "no",
-        "surface": "asphalt",
+        "oneway:bicycle": "no",
+        "surface": "paving_stones",
+        "toll": "no",
+        "trolley_wire": "no",
         "id": "way/1118084207"
       },
       "geometry": {
