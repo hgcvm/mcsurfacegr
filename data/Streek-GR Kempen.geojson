@@ -2752,9 +2752,12 @@
       "properties": {
         "highway": "unclassified",
         "junction": "roundabout",
+        "maxspeed": "50",
         "name": "Molenstraat",
         "oneway": "yes",
         "surface": "concrete",
+        "zone:maxspeed": "BE:50",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/31735475"
       },
       "geometry": {
@@ -14547,9 +14550,12 @@
       "properties": {
         "highway": "unclassified",
         "junction": "roundabout",
+        "maxspeed": "50",
         "name": "Molenstraat",
         "oneway": "yes",
         "surface": "concrete",
+        "zone:maxspeed": "BE:50",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/79394261"
       },
       "geometry": {
@@ -14580,11 +14586,13 @@
         "highway": "residential",
         "lanes": "2",
         "lit": "no",
-        "maxspeed": "70",
+        "maxspeed": "50",
         "name": "Kaliebaan",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone",
         "surface": "concrete",
+        "zone:maxspeed": "BE:50",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/79394262"
       },
       "geometry": {
@@ -15427,12 +15435,14 @@
         "highway": "residential",
         "lanes": "2",
         "lit": "yes",
-        "maxspeed": "70",
+        "maxspeed": "50",
         "maxweight:signed": "no",
         "name": "Molenstraat",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone",
         "surface": "concrete",
+        "zone:maxspeed": "BE:50",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/81161103"
       },
       "geometry": {
@@ -22081,11 +22091,13 @@
         "highway": "residential",
         "lanes": "2",
         "lit": "yes",
-        "maxspeed": "70",
+        "maxspeed": "50",
         "name": "Molenstraat",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone",
         "surface": "concrete",
+        "zone:maxspeed": "BE:50",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/140856708"
       },
       "geometry": {
@@ -44984,8 +44996,11 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "pedestrian",
+        "maxspeed": "50",
         "motor_vehicle": "no",
         "surface": "paving_stones",
+        "zone:maxspeed": "BE:50",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/708672837"
       },
       "geometry": {
@@ -46718,9 +46733,12 @@
       "properties": {
         "highway": "unclassified",
         "junction": "roundabout",
+        "maxspeed": "50",
         "name": "Molenstraat",
         "oneway": "yes",
         "surface": "concrete",
+        "zone:maxspeed": "BE:50",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/847290437"
       },
       "geometry": {
@@ -54964,20 +54982,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7474674,
-            51.300142
-          ],
-          [
-            4.7472669,
-            51.3001004
-          ],
-          [
-            4.746379,
-            51.2999682
-          ],
-          [
-            4.7449245,
-            51.2997524
+            4.7426003,
+            51.2992644
           ],
           [
             4.7423913,
@@ -57826,10 +57832,13 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
+        "horse": "no",
         "lit": "yes",
         "mofa": "yes",
         "segregated": "no",
         "surface": "paving_stones",
+        "traffic_sign": "BE:C3,BE:M3_nl",
+        "vehicle": "no",
         "id": "way/616116760"
       },
       "geometry": {
@@ -58242,6 +58251,75 @@
           [
             4.8762109,
             51.3297303
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1156399999",
+      "properties": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Oude Meirstraat",
+        "sidewalk": "no",
+        "source:maxspeed": "BE-VLG:zone30",
+        "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1156399999"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7456673,
+            51.2998601
+          ],
+          [
+            4.7449245,
+            51.2997524
+          ],
+          [
+            4.7434024,
+            51.2994328
+          ],
+          [
+            4.7426003,
+            51.2992644
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1156400000",
+      "properties": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Oude Meirstraat",
+        "sidewalk": "no",
+        "surface": "paving_stones",
+        "id": "way/1156400000"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7474674,
+            51.300142
+          ],
+          [
+            4.7472669,
+            51.3001004
+          ],
+          [
+            4.746379,
+            51.2999682
+          ],
+          [
+            4.7456673,
+            51.2998601
           ]
         ]
       }
