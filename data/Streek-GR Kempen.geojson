@@ -39592,9 +39592,14 @@
       "type": "Feature",
       "id": "way/540394820",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Molenstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "sidewalk": "no",
         "surface": "concrete",
         "id": "way/540394820"
@@ -39617,18 +39622,6 @@
           [
             4.7541862,
             51.3535571
-          ],
-          [
-            4.7540565,
-            51.3535242
-          ],
-          [
-            4.7534235,
-            51.3533299
-          ],
-          [
-            4.7530487,
-            51.3532325
           ]
         ]
       }
@@ -48841,6 +48834,39 @@
           [
             4.7695591,
             51.3598025
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1157191553",
+      "properties": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Molenstraat",
+        "sidewalk": "no",
+        "surface": "concrete",
+        "id": "way/1157191553"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7541862,
+            51.3535571
+          ],
+          [
+            4.7540565,
+            51.3535242
+          ],
+          [
+            4.7534235,
+            51.3533299
+          ],
+          [
+            4.7530487,
+            51.3532325
           ]
         ]
       }
