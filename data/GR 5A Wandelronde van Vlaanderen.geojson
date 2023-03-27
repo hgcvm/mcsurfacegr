@@ -154085,6 +154085,9 @@
         "highway": "residential",
         "name": "Max Elskampstraat",
         "name:etymology:wikidata": "Q2576106",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:speed_pedelec": "no",
         "id": "way/25742775"
       },
       "geometry": {
@@ -154117,7 +154120,8 @@
       "type": "Feature",
       "id": "way/25742777",
       "properties": {
-        "highway": "residential",
+        "highway": "living_street",
+        "maxspeed": "20",
         "name": "Max Elskampstraat",
         "name:etymology:wikidata": "Q2576106",
         "oneway": "yes",
@@ -154144,48 +154148,16 @@
             51.1895481
           ],
           [
-            4.3735725,
-            51.1895201
+            4.3735734,
+            51.1893945
           ],
           [
-            4.3736023,
-            51.1895055
+            4.3736135,
+            51.1890279
           ],
           [
-            4.3737151,
-            51.1894658
-          ],
-          [
-            4.3737495,
-            51.1894332
-          ],
-          [
-            4.3737587,
-            51.1894148
-          ],
-          [
-            4.3737679,
-            51.1893474
-          ],
-          [
-            4.3737675,
-            51.1892382
-          ],
-          [
-            4.3737047,
-            51.1891746
-          ],
-          [
-            4.3736791,
-            51.1891379
-          ],
-          [
-            4.3736913,
-            51.1890792
-          ],
-          [
-            4.3737334,
-            51.1887678
+            4.3736637,
+            51.1887653
           ]
         ]
       }
@@ -154195,9 +154167,11 @@
       "id": "way/25742783",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Van Peenestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "zone:maxspeed": "BE:30",
         "id": "way/25742783"
       },
       "geometry": {
@@ -154208,8 +154182,8 @@
             51.188709
           ],
           [
-            4.3737334,
-            51.1887678
+            4.3736637,
+            51.1887653
           ]
         ]
       }
@@ -154588,10 +154562,12 @@
       "id": "way/29137689",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Maurits Sabbelaan",
         "name:etymology:wikidata": "Q2682894",
         "oneway": "no",
         "oneway:bicycle": "no",
+        "zone:maxspeed": "BE:30",
         "id": "way/29137689"
       },
       "geometry": {
@@ -155209,9 +155185,10 @@
       "type": "Feature",
       "id": "way/30425754",
       "properties": {
-        "created_by": "Potlatch 0.10f",
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Hendriklei",
+        "zone:maxspeed": "BE:30",
         "id": "way/30425754"
       },
       "geometry": {
