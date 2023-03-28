@@ -7593,8 +7593,10 @@
       "type": "Feature",
       "id": "way/34251974",
       "properties": {
+        "bicycle": "no",
         "foot": "yes",
-        "highway": "path",
+        "highway": "footway",
+        "horse": "no",
         "surface": "dirt",
         "id": "way/34251974"
       },
@@ -25576,7 +25578,9 @@
       "type": "Feature",
       "id": "way/187998103",
       "properties": {
+        "bicycle": "no",
         "highway": "footway",
+        "horse": "no",
         "surface": "dirt",
         "id": "way/187998103"
       },
@@ -25598,6 +25602,7 @@
       "type": "Feature",
       "id": "way/187998104",
       "properties": {
+        "access": "yes",
         "highway": "steps",
         "step_count": "25",
         "surface": "dirt",
@@ -25625,6 +25630,7 @@
       "type": "Feature",
       "id": "way/187998105",
       "properties": {
+        "access": "yes",
         "highway": "steps",
         "step_count": "48",
         "surface": "dirt",
@@ -29425,7 +29431,7 @@
         "highway": "cycleway",
         "motor_vehicle": "no",
         "railway": "abandoned",
-        "sidewalk": "none",
+        "sidewalk": "no",
         "surface": "paving_stones",
         "vehicle": "no",
         "width": "2",
@@ -31815,7 +31821,7 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Abdij van Park",
-        "sidewalk": "none",
+        "sidewalk": "no",
         "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/306703048"
@@ -38026,6 +38032,66 @@
     },
     {
       "type": "Feature",
+      "id": "way/440509909",
+      "properties": {
+        "bicycle": "no",
+        "highway": "footway",
+        "horse": "no",
+        "surface": "dirt",
+        "id": "way/440509909"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8385485,
+            50.980292
+          ],
+          [
+            4.8386973,
+            50.9803232
+          ],
+          [
+            4.8389016,
+            50.9803587
+          ],
+          [
+            4.8392166,
+            50.9804066
+          ],
+          [
+            4.8394284,
+            50.9804187
+          ],
+          [
+            4.8396272,
+            50.9804158
+          ],
+          [
+            4.8398662,
+            50.9804055
+          ],
+          [
+            4.8402528,
+            50.9803691
+          ],
+          [
+            4.8404059,
+            50.9803462
+          ],
+          [
+            4.8408318,
+            50.9803261
+          ],
+          [
+            4.8415446,
+            50.9803067
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/440514438",
       "properties": {
         "highway": "track",
@@ -38911,7 +38977,9 @@
       "type": "Feature",
       "id": "way/485557621",
       "properties": {
-        "highway": "path",
+        "bicycle": "no",
+        "highway": "footway",
+        "horse": "no",
         "surface": "dirt",
         "id": "way/485557621"
       },
@@ -38931,70 +38999,11 @@
     },
     {
       "type": "Feature",
-      "id": "way/485557622",
-      "properties": {
-        "highway": "path",
-        "id": "way/485557622"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.8384746,
-            50.9803715
-          ],
-          [
-            4.8387912,
-            50.9804409
-          ],
-          [
-            4.8388958,
-            50.9805117
-          ],
-          [
-            4.8390728,
-            50.9805067
-          ],
-          [
-            4.8393088,
-            50.9805202
-          ],
-          [
-            4.8397648,
-            50.9804679
-          ],
-          [
-            4.8401886,
-            50.9804172
-          ],
-          [
-            4.8405748,
-            50.9804037
-          ],
-          [
-            4.8410121,
-            50.9803598
-          ],
-          [
-            4.8412427,
-            50.980375
-          ],
-          [
-            4.8414734,
-            50.9803665
-          ],
-          [
-            4.8415446,
-            50.9803067
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/485564950",
       "properties": {
-        "highway": "path",
+        "bicycle": "no",
+        "highway": "footway",
+        "horse": "no",
         "surface": "dirt",
         "id": "way/485564950"
       },
@@ -41754,7 +41763,7 @@
         "maxspeed": "50",
         "name": "Abdij van Park",
         "parking:lane:both": "no_parking",
-        "sidewalk": "none",
+        "sidewalk": "no",
         "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/773642169"
@@ -41785,7 +41794,7 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Abdij van Park",
-        "sidewalk": "none",
+        "sidewalk": "no",
         "surface": "cobblestone",
         "tunnel": "building_passage",
         "zone:traffic": "BE-VLG:urban",
@@ -42652,7 +42661,9 @@
       "type": "Feature",
       "id": "way/829595157",
       "properties": {
-        "highway": "path",
+        "bicycle": "no",
+        "highway": "footway",
+        "horse": "no",
         "surface": "dirt",
         "id": "way/829595157"
       },
@@ -42678,7 +42689,9 @@
       "type": "Feature",
       "id": "way/829595158",
       "properties": {
-        "highway": "path",
+        "bicycle": "no",
+        "highway": "footway",
+        "horse": "no",
         "surface": "dirt",
         "id": "way/829595158"
       },
@@ -42700,7 +42713,10 @@
       "type": "Feature",
       "id": "way/829595166",
       "properties": {
-        "highway": "path",
+        "bicycle": "no",
+        "foot": "designated",
+        "highway": "footway",
+        "horse": "no",
         "surface": "dirt",
         "id": "way/829595166"
       },
@@ -46852,6 +46868,30 @@
           [
             5.0520877,
             50.987913
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1156551386",
+      "properties": {
+        "bicycle": "no",
+        "highway": "footway",
+        "horse": "no",
+        "surface": "dirt",
+        "id": "way/1156551386"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8384746,
+            50.9803715
+          ],
+          [
+            4.8385485,
+            50.980292
           ]
         ]
       }
