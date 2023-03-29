@@ -4312,9 +4312,10 @@
         "cycleway": "shared_lane",
         "highway": "secondary",
         "maxspeed": "50",
-        "maxspeed:default": "built-up_area",
         "name": "Kapellensteenweg",
         "ref": "N122",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/77391004"
       },
       "geometry": {
@@ -9964,9 +9965,10 @@
         "cycleway": "shared_lane",
         "highway": "secondary",
         "maxspeed": "50",
-        "maxspeed:default": "built-up_area",
         "name": "Kapellensteenweg",
         "ref": "N122",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/966580658"
       },
       "geometry": {
@@ -14909,157 +14911,30 @@
     },
     {
       "type": "Feature",
-      "id": "way/34844648",
-      "properties": {
-        "bridge": "yes",
-        "highway": "track",
-        "layer": "1",
-        "motor_vehicle": "no",
-        "surface": "concrete",
-        "tracktype": "grade1",
-        "id": "way/34844648"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.0606809,
-            50.989683
-          ],
-          [
-            5.0607531,
-            50.9897363
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/34844650",
-      "properties": {
-        "access": "no",
-        "handrail": "yes",
-        "highway": "steps",
-        "incline": "up",
-        "lit": "no",
-        "ramp": "no",
-        "step_count": "11",
-        "surface": "wood",
-        "id": "way/34844650"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.0609377,
-            50.9896084
-          ],
-          [
-            5.0609965,
-            50.9895772
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/34844651",
-      "properties": {
-        "access": "no",
-        "highway": "path",
-        "surface": "concrete",
-        "id": "way/34844651"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.0609377,
-            50.9896084
-          ],
-          [
-            5.0607761,
-            50.9896888
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/34844652",
-      "properties": {
-        "access": "no",
-        "handrail": "yes",
-        "highway": "steps",
-        "incline": "up",
-        "lit": "no",
-        "ramp": "no",
-        "step_count": "6",
-        "surface": "wood",
-        "id": "way/34844652"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.0607761,
-            50.9896888
-          ],
-          [
-            5.0607977,
-            50.9897071
-          ],
-          [
-            5.0607531,
-            50.9897363
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/34844653",
-      "properties": {
-        "highway": "path",
-        "surface": "concrete",
-        "id": "way/34844653"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.0609965,
-            50.9895772
-          ],
-          [
-            5.0608948,
-            50.9895134
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/34845747",
+      "id": "way/34844643",
       "properties": {
         "highway": "path",
         "surface": "dirt",
-        "id": "way/34845747"
+        "id": "way/34844643"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.0608948,
-            50.9895134
+            5.0594546,
+            50.9900413
           ],
           [
-            5.061028,
-            50.9894018
+            5.0595453,
+            50.989996
           ],
           [
-            5.0611484,
-            50.9892569
+            5.0597887,
+            50.9899069
+          ],
+          [
+            5.0603599,
+            50.9896457
           ]
         ]
       }
@@ -39415,6 +39290,55 @@
     },
     {
       "type": "Feature",
+      "id": "way/242597107",
+      "properties": {
+        "bridge": "yes",
+        "highway": "path",
+        "horse": "no",
+        "layer": "1",
+        "surface": "metal_grid",
+        "wheelchair": "no",
+        "width": "1 m",
+        "id": "way/242597107"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0606795,
+            50.9894925
+          ],
+          [
+            5.0603599,
+            50.9896457
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/242675652",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/242675652"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0606795,
+            50.9894925
+          ],
+          [
+            5.0611484,
+            50.9892569
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/242823910",
       "properties": {
         "cycleway": "track",
@@ -41673,37 +41597,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/289090897",
-      "properties": {
-        "access": "no",
-        "highway": "path",
-        "surface": "dirt",
-        "id": "way/289090897"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.0593784,
-            50.9901397
-          ],
-          [
-            5.059636,
-            50.9901055
-          ],
-          [
-            5.0598888,
-            50.9900457
-          ],
-          [
-            5.060154,
-            50.9899311
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/289090902",
       "properties": {
         "highway": "track",
@@ -42602,36 +42495,6 @@
           [
             5.0571217,
             50.9905838
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/319619245",
-      "properties": {
-        "highway": "path",
-        "surface": "dirt",
-        "id": "way/319619245"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.0594546,
-            50.9900413
-          ],
-          [
-            5.0594465,
-            50.9900639
-          ],
-          [
-            5.0593818,
-            50.9900965
-          ],
-          [
-            5.0593784,
-            50.9901397
           ]
         ]
       }
@@ -58999,34 +58862,6 @@
           [
             5.2703055,
             50.9948254
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1096357688",
-      "properties": {
-        "access": "no",
-        "construction": "path",
-        "highway": "construction",
-        "surface": "dirt",
-        "id": "way/1096357688"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.060154,
-            50.9899311
-          ],
-          [
-            5.0604674,
-            50.9897201
-          ],
-          [
-            5.0606809,
-            50.989683
           ]
         ]
       }
