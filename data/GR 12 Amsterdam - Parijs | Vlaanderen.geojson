@@ -41484,8 +41484,8 @@
             51.235244
           ],
           [
-            4.4885278,
-            51.235283
+            4.4885247,
+            51.235284
           ]
         ]
       }
@@ -41546,11 +41546,9 @@
       "type": "Feature",
       "id": "way/228922132",
       "properties": {
-        "access": "yes",
         "highway": "cycleway",
-        "motor_vehicle": "no",
-        "note": "beifets 2021-04-23 en eerder, prentjes : dit stuk fietspad voorlopig niet bruikbaar, de ruime bocht ten westn is in gebruik , er zijn prentjes met diverse andere nieuwe paden welke ook nog niet in gebruik zijn. 'Work in progress'",
         "oneway": "no",
+        "surface": "asphalt",
         "id": "way/228922132"
       },
       "geometry": {
@@ -41565,8 +41563,8 @@
             51.2354192
           ],
           [
-            4.4879992,
-            51.2360734
+            4.4879962,
+            51.2360664
           ]
         ]
       }
@@ -60973,12 +60971,12 @@
             51.2365568
           ],
           [
-            4.4879015,
-            51.236487
+            4.4879137,
+            51.2364755
           ],
           [
-            4.4879722,
-            51.2364198
+            4.4879702,
+            51.2364185
           ]
         ]
       }
@@ -61498,23 +61496,36 @@
       "type": "Feature",
       "id": "way/1069698332",
       "properties": {
-        "access": "yes",
         "highway": "cycleway",
-        "motor_vehicle": "no",
-        "note": "beifets 2021-04-23 en eerder, prentjes : dit stuk fietspad voorlopig niet bruikbaar, de ruime bocht ten westn is in gebruik , er zijn prentjes met diverse andere nieuwe paden welke ook nog niet in gebruik zijn. 'Work in progress'",
-        "oneway": "no",
+        "oneway": "yes",
         "id": "way/1069698332"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4885278,
-            51.235283
+            4.4885247,
+            51.235284
           ],
           [
-            4.4883472,
+            4.4884513,
+            51.235267
+          ],
+          [
+            4.4884184,
+            51.2352638
+          ],
+          [
+            4.4883855,
+            51.2352654
+          ],
+          [
+            4.4883326,
             51.2352719
+          ],
+          [
+            4.4882654,
+            51.2352912
           ],
           [
             4.4881867,
@@ -61527,31 +61538,33 @@
       "type": "Feature",
       "id": "way/1069698335",
       "properties": {
-        "access": "yes",
+        "crossing": "traffic_signals",
+        "crossing:markings": "zebra:double",
+        "crossing_ref": "fietsgeleiding",
+        "cycleway": "crossing",
         "highway": "cycleway",
-        "motor_vehicle": "no",
-        "note": "beifets 2021-04-23 en eerder, prentjes : dit stuk fietspad voorlopig niet bruikbaar, de ruime bocht ten westn is in gebruik , er zijn prentjes met diverse andere nieuwe paden welke ook nog niet in gebruik zijn. 'Work in progress'",
         "oneway": "no",
+        "surface": "asphalt",
         "id": "way/1069698335"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4879992,
-            51.2360734
+            4.4879988,
+            51.2361208
           ],
           [
-            4.4879983,
-            51.2361682
+            4.487994,
+            51.2361647
           ],
           [
-            4.4879775,
-            51.2362907
+            4.4879818,
+            51.2362887
           ],
           [
-            4.4879722,
-            51.2364198
+            4.4879745,
+            51.236363
           ]
         ]
       }
@@ -64535,6 +64548,52 @@
           [
             4.4911384,
             51.2319161
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1158508861",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "no",
+        "surface": "asphalt",
+        "id": "way/1158508861"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4879745,
+            51.236363
+          ],
+          [
+            4.4879702,
+            51.2364185
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1158508862",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "no",
+        "surface": "asphalt",
+        "id": "way/1158508862"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4879962,
+            51.2360664
+          ],
+          [
+            4.4879988,
+            51.2361208
           ]
         ]
       }
