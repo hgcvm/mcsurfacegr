@@ -1775,6 +1775,7 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Pottenbakkerstraat",
+        "operator": "North Sea Port",
         "id": "way/7611779"
       },
       "geometry": {
@@ -46211,6 +46212,7 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Pottenbakkerstraat",
+        "operator": "North Sea Port",
         "id": "way/283021653"
       },
       "geometry": {
@@ -91537,6 +91539,7 @@
       "properties": {
         "highway": "residential",
         "name": "Dries",
+        "surface": "asphalt",
         "id": "way/95595334"
       },
       "geometry": {
@@ -93704,7 +93707,7 @@
       "properties": {
         "highway": "track",
         "name": "Lindestraat",
-        "surface": "gravel",
+        "surface": "dirt",
         "id": "way/100128441"
       },
       "geometry": {
@@ -93742,7 +93745,7 @@
       "id": "way/100128443",
       "properties": {
         "highway": "track",
-        "surface": "gravel",
+        "surface": "dirt",
         "id": "way/100128443"
       },
       "geometry": {
@@ -95774,6 +95777,7 @@
         "highway": "track",
         "name": "Galgeveldbaan",
         "official_vicinal_ref": "170_17_1",
+        "surface": "compacted",
         "id": "way/111739064"
       },
       "geometry": {
@@ -98243,7 +98247,7 @@
         "highway": "unclassified",
         "motor_vehicle": "no",
         "name": "Koekelberg",
-        "surface": "paved",
+        "surface": "concrete",
         "id": "way/122011843"
       },
       "geometry": {
@@ -99202,6 +99206,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Klein Herlinckhovestraat",
+        "surface": "compacted",
         "tracktype": "grade5",
         "id": "way/128965101"
       },
@@ -99225,6 +99230,7 @@
       "properties": {
         "highway": "tertiary",
         "name": "Lebeke",
+        "surface": "asphalt",
         "id": "way/128965103"
       },
       "geometry": {
@@ -100713,7 +100719,7 @@
         "highway": "track",
         "name": "Galgeveldbaan",
         "official_vicinal_ref": "170_17_1",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/132743472"
       },
       "geometry": {
@@ -112817,20 +112823,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.033346,
-            50.8940151
-          ],
-          [
-            4.0333664,
-            50.8939325
-          ],
-          [
-            4.0333757,
-            50.893842
-          ],
-          [
-            4.0333851,
-            50.8930654
+            4.0333729,
+            50.8926016
           ],
           [
             4.0333502,
@@ -114702,7 +114696,7 @@
         "highway": "track",
         "name": "Trappensveldstraat",
         "official_vicinal_ref": "039_57_1",
-        "surface": "unpaved",
+        "surface": "grass",
         "tracktype": "grade4",
         "id": "way/240773856"
       },
@@ -116377,7 +116371,7 @@
       "properties": {
         "highway": "track",
         "name": "Lindestraat",
-        "surface": "gravel",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/257513061"
       },
@@ -116420,6 +116414,7 @@
       "id": "way/257513065",
       "properties": {
         "highway": "track",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/257513065"
       },
@@ -116616,7 +116611,7 @@
         "official_vicinal_ref": "039_91_1",
         "sac_scale": "hiking",
         "source": "survey / GPS",
-        "surface": "paving_stones",
+        "surface": "concrete",
         "width": "1",
         "id": "way/257514757"
       },
@@ -116861,6 +116856,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Stichelen",
+        "surface": "asphalt",
         "id": "way/257517733"
       },
       "geometry": {
@@ -128356,7 +128352,7 @@
         "highway": "track",
         "name": "Lebeke",
         "official_vicinal_ref": "039_64_1",
-        "surface": "unpaved",
+        "surface": "grass",
         "tracktype": "grade4",
         "id": "way/414809769"
       },
@@ -133542,6 +133538,7 @@
         "highway": "path",
         "name": "Paradijsweg",
         "official_vicinal_ref": "039_111_1",
+        "surface": "grass_paver",
         "id": "way/532817198"
       },
       "geometry": {
@@ -133637,8 +133634,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0150681,
-            50.8856987
+            4.0152419,
+            50.885257
           ],
           [
             4.0154171,
@@ -138489,7 +138486,7 @@
         "highway": "path",
         "name": "Tiendevrijweg",
         "official_vicinal_ref": "039_108_1",
-        "surface": "unpaved",
+        "surface": "paving_stones",
         "tracktype": "grade5",
         "id": "way/672382550"
       },
@@ -138871,7 +138868,7 @@
         "highway": "track",
         "name": "Populierstraat",
         "official_vicinal_ref": "039_65_1",
-        "surface": "unpaved",
+        "surface": "grass",
         "tracktype": "grade5",
         "id": "way/672465028"
       },
@@ -148357,6 +148354,67 @@
           [
             2.9404424,
             50.8102952
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1159413721",
+      "properties": {
+        "highway": "track",
+        "name": "Eigenstraat",
+        "surface": "compacted",
+        "tracktype": "grade1",
+        "id": "way/1159413721"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.033346,
+            50.8940151
+          ],
+          [
+            4.0333664,
+            50.8939325
+          ],
+          [
+            4.0333757,
+            50.893842
+          ],
+          [
+            4.0333851,
+            50.8930654
+          ],
+          [
+            4.0333729,
+            50.8926016
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1159415091",
+      "properties": {
+        "highway": "path",
+        "name": "Paradijsweg",
+        "official_vicinal_ref": "039_111_1",
+        "surface": "grass",
+        "tracktype": "grade5",
+        "id": "way/1159415091"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.0150681,
+            50.8856987
+          ],
+          [
+            4.0152419,
+            50.885257
           ]
         ]
       }
