@@ -1300,11 +1300,13 @@
       "type": "Feature",
       "id": "way/18494055",
       "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
+        "highway": "pedestrian",
+        "lane_markings": "no",
+        "maxspeed": "walk",
+        "motor_vehicle": "permit",
         "name": "Martelarenplaats",
-        "source:maxspeed": "BE:zone30",
-        "surface": "cobblestone",
+        "surface": "paving_stones",
+        "width": "6",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/18494055"
       },
@@ -1450,6 +1452,7 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "tertiary",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Wolvendreef",
@@ -1464,32 +1467,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7683773,
-            50.8950354
+            4.7683639,
+            50.895028
           ],
           [
-            4.7683216,
-            50.8949929
+            4.7683146,
+            50.8949961
           ],
           [
-            4.7683096,
-            50.8949838
+            4.7683026,
+            50.8949876
           ],
           [
-            4.768289,
-            50.8948955
+            4.7682827,
+            50.8949407
           ],
           [
-            4.7682944,
-            50.8946659
+            4.7682794,
+            50.8946655
           ],
           [
-            4.768323,
-            50.8945516
-          ],
-          [
-            4.768336,
-            50.8944995
+            4.7682794,
+            50.8946321
           ]
         ]
       }
@@ -3357,26 +3356,23 @@
       "type": "Feature",
       "id": "way/25240764",
       "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
+        "highway": "pedestrian",
+        "lane_markings": "no",
+        "maxspeed": "walk",
+        "motor_vehicle": "permit",
         "name": "Martelarenplaats",
         "sidewalk": "both",
+        "source": "https://lubbeek-echo.cipalschaubroeck.be/raadpleegomgeving/zoeken?query=voetgangerszone&organId=&meetingDateStart=&meetingDateEnd=&title=&page=0&pageSize=10",
         "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
+        "vehicle": "permit",
+        "width": "6",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/25240764"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.7683773,
-            50.8950354
-          ],
-          [
-            4.7683759,
-            50.8950372
-          ],
           [
             4.7683335,
             50.8950764
@@ -3386,12 +3382,12 @@
             50.8952396
           ],
           [
-            4.7680453,
-            50.8953556
+            4.7680795,
+            50.8953235
           ],
           [
-            4.7678672,
-            50.8955306
+            4.767768,
+            50.8955196
           ]
         ]
       }
@@ -36452,11 +36448,13 @@
       "type": "Feature",
       "id": "way/393251569",
       "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
+        "highway": "pedestrian",
+        "lane_markings": "no",
+        "maxspeed": "walk",
+        "motor_vehicle": "permit",
         "name": "Kerkdreef",
-        "source:maxspeed": "BE:zone30",
-        "surface": "cobblestone",
+        "surface": "sett",
+        "width": "5",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/393251569"
       },
@@ -39679,11 +39677,15 @@
       "type": "Feature",
       "id": "way/568698947",
       "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Wolvendreef",
+        "overtaking:motor_vehicle": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
+        "traffic_sign": "BE:F111",
         "width": "5",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/568698947"
@@ -39696,8 +39698,8 @@
             50.8944401
           ],
           [
-            4.7683412,
-            50.8938257
+            4.768338,
+            50.8943018
           ]
         ]
       }
@@ -42736,11 +42738,13 @@
       "type": "Feature",
       "id": "way/849543043",
       "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
+        "highway": "pedestrian",
+        "lane_markings": "no",
+        "maxspeed": "walk",
+        "motor_vehicle": "permit",
         "name": "Martelarenplaats",
-        "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
+        "width": "6",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/849543043"
       },
@@ -42752,8 +42756,8 @@
             50.8955245
           ],
           [
-            4.7678672,
-            50.8955306
+            4.767768,
+            50.8955196
           ]
         ]
       }
@@ -46725,6 +46729,132 @@
           [
             4.8385485,
             50.980292
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1160224876",
+      "properties": {
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "name": "Wolvendreef",
+        "source:maxspeed": "BE:zone30",
+        "surface": "paving_stones",
+        "width": "5",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1160224876"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.768338,
+            50.8943018
+          ],
+          [
+            4.7683412,
+            50.8938257
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1160228613",
+      "properties": {
+        "cyclestreet": "yes",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Wolvendreef",
+        "overtaking:motor_vehicle": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "concrete",
+        "width": "6",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1160228613"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7683773,
+            50.8950354
+          ],
+          [
+            4.7683639,
+            50.895028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1160229235",
+      "properties": {
+        "cyclestreet": "yes",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Wolvendreef",
+        "overtaking:motor_vehicle": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "concrete",
+        "width": "6",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1160229235"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7682794,
+            50.8946321
+          ],
+          [
+            4.768323,
+            50.8945516
+          ],
+          [
+            4.768336,
+            50.8944995
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1160268684",
+      "properties": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "name": "Martelarenplaats",
+        "sidewalk": "both",
+        "source:maxspeed": "BE:zone30",
+        "surface": "paving_stones",
+        "width": "6",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1160268684"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7683773,
+            50.8950354
+          ],
+          [
+            4.7683759,
+            50.8950372
+          ],
+          [
+            4.7683335,
+            50.8950764
           ]
         ]
       }

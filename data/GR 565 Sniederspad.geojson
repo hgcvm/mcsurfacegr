@@ -3828,32 +3828,8 @@
             51.2391846
           ],
           [
-            4.5283344,
-            51.23818
-          ],
-          [
-            4.5281563,
-            51.2381468
-          ],
-          [
-            4.5279623,
-            51.2381155
-          ],
-          [
-            4.5262738,
-            51.2378667
-          ],
-          [
-            4.5260523,
-            51.2378352
-          ],
-          [
-            4.5258463,
-            51.2378004
-          ],
-          [
-            4.5256258,
-            51.2377815
+            4.529297,
+            51.2383772
           ]
         ]
       }
@@ -3864,9 +3840,11 @@
       "properties": {
         "hgv": "delivery",
         "highway": "residential",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "maxweight:conditional": "none @ delivery",
         "name": "Broekstraat",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
         "id": "way/29386980"
       },
       "geometry": {
@@ -3909,28 +3887,8 @@
             51.2375289
           ],
           [
-            4.524045,
-            51.2374263
-          ],
-          [
-            4.523619,
-            51.2372921
-          ],
-          [
-            4.5235403,
-            51.2372607
-          ],
-          [
-            4.5234747,
-            51.2372253
-          ],
-          [
-            4.5232772,
-            51.2370671
-          ],
-          [
-            4.523079,
-            51.23691
+            4.524101,
+            51.2374436
           ]
         ]
       }
@@ -16925,14 +16883,6 @@
           [
             5.0449046,
             51.232283
-          ],
-          [
-            5.0450034,
-            51.2322985
-          ],
-          [
-            5.0451635,
-            51.2323046
           ]
         ]
       }
@@ -31125,6 +31075,173 @@
           [
             4.4879988,
             51.2361208
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1160221372",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "surface": "compacted",
+        "tracktype": "grade3",
+        "vehicle": "no",
+        "id": "way/1160221372"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0449046,
+            51.232283
+          ],
+          [
+            5.0450034,
+            51.2322985
+          ],
+          [
+            5.0451635,
+            51.2323046
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1160263078",
+      "properties": {
+        "cycleway:both": "no",
+        "hgv": "delivery",
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "30",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ delivery",
+        "name": "Broekstraat",
+        "smoothness": "bad",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
+        "id": "way/1160263078"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5284607,
+            51.2382031
+          ],
+          [
+            4.5281563,
+            51.2381468
+          ],
+          [
+            4.5279623,
+            51.2381155
+          ],
+          [
+            4.5270323,
+            51.2379785
+          ],
+          [
+            4.5262738,
+            51.2378667
+          ],
+          [
+            4.5259771,
+            51.2378212
+          ],
+          [
+            4.5258382,
+            51.2378029
+          ],
+          [
+            4.5256258,
+            51.2377815
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1160263079",
+      "properties": {
+        "cycleway:both": "no",
+        "hgv": "delivery",
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "30",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ delivery",
+        "name": "Broekstraat",
+        "smoothness": "bad",
+        "source:maxspeed": "BE:zone30",
+        "surface": "sett",
+        "id": "way/1160263079"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.529297,
+            51.2383772
+          ],
+          [
+            4.5288885,
+            51.2382935
+          ],
+          [
+            4.5284607,
+            51.2382031
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1160263080",
+      "properties": {
+        "hgv": "delivery",
+        "highway": "residential",
+        "maxspeed": "50",
+        "maxweight:conditional": "none @ delivery",
+        "name": "Broekstraat",
+        "source:maxspeed": "sign",
+        "surface": "sett",
+        "id": "way/1160263080"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.524101,
+            51.2374436
+          ],
+          [
+            4.524045,
+            51.2374263
+          ],
+          [
+            4.523619,
+            51.2372921
+          ],
+          [
+            4.5235403,
+            51.2372607
+          ],
+          [
+            4.5234747,
+            51.2372253
+          ],
+          [
+            4.5232772,
+            51.2370671
+          ],
+          [
+            4.523079,
+            51.23691
           ]
         ]
       }
