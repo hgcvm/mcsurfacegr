@@ -66942,6 +66942,7 @@
       "id": "way/4480699",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "maxspeed:type": "sign",
@@ -67938,13 +67939,14 @@
       "type": "Feature",
       "id": "way/19782105",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Wolstraat",
         "oneway": "yes",
-        "oneway:bicycle": "yes",
+        "oneway:bicycle": "no",
         "sidewalk": "both",
         "surface": "sett",
         "id": "way/19782105"
@@ -73253,6 +73255,7 @@
       "properties": {
         "bicycle": "use_sidepath",
         "highway": "secondary",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Mechelsesteenweg",
         "oneway": "yes",
@@ -83337,6 +83340,7 @@
         "bicycle": "yes",
         "highway": "pedestrian",
         "name": "Groenplaats",
+        "surface": "paving_stones",
         "id": "way/424820156"
       },
       "geometry": {
@@ -83466,6 +83470,7 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Minderbroedersrui",
+        "sidewalk": "both",
         "id": "way/424820170"
       },
       "geometry": {
@@ -83516,6 +83521,8 @@
         "name": "Keizerstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "surface": "asphalt",
         "id": "way/424820173"
       },
       "geometry": {
@@ -85905,13 +85912,14 @@
       "type": "Feature",
       "id": "way/496694452",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lit": "no",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Wolstraat",
         "oneway": "yes",
-        "oneway:bicycle": "yes",
+        "oneway:bicycle": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/496694452"
@@ -89492,12 +89500,14 @@
       "type": "Feature",
       "id": "way/859303474",
       "properties": {
+        "check_date:cycleway:surface": "2023-04-08",
         "cycleway:buffer": "20",
         "cycleway:comfort": "23",
         "cycleway:surface": "paving_stones",
         "cycleway:width": "1.50",
+        "footway:surface": "fine_gravel",
         "highway": "cycleway",
-        "surface": "paving_stones",
+        "segregated": "yes",
         "id": "way/859303474"
       },
       "geometry": {

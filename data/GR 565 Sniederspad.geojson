@@ -14761,7 +14761,7 @@
       "id": "way/81156412",
       "properties": {
         "highway": "footway",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/81156412"
       },
       "geometry": {
@@ -14772,20 +14772,20 @@
             51.3062489
           ],
           [
-            4.9412698,
-            51.3060582
+            4.9412524,
+            51.3060691
           ],
           [
             4.9406497,
             51.3058766
           ],
           [
-            4.9402561,
-            51.3057681
+            4.940246,
+            51.3057765
           ],
           [
-            4.9396138,
-            51.3055911
+            4.9396151,
+            51.3055903
           ]
         ]
       }
@@ -14843,15 +14843,16 @@
       "type": "Feature",
       "id": "way/81157242",
       "properties": {
-        "highway": "residential",
+        "highway": "service",
+        "service": "driveway",
         "id": "way/81157242"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.9396138,
-            51.3055911
+            4.9396151,
+            51.3055903
           ],
           [
             4.939556,
@@ -26780,25 +26781,50 @@
     },
     {
       "type": "Feature",
-      "id": "way/675380126",
+      "id": "way/675380124",
       "properties": {
-        "highway": "cycleway",
-        "id": "way/675380126"
+        "highway": "path",
+        "surface": "paving_stones",
+        "width": "1.5",
+        "id": "way/675380124"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.94248,
-            51.3064579
-          ],
-          [
-            4.9421824,
-            51.3063321
-          ],
-          [
             4.9419207,
             51.3062489
+          ],
+          [
+            4.942308,
+            51.3061435
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/675380125",
+      "properties": {
+        "highway": "path",
+        "surface": "paving_stones",
+        "width": "1.5",
+        "id": "way/675380125"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.942308,
+            51.3061435
+          ],
+          [
+            4.9424533,
+            51.306374
+          ],
+          [
+            4.94248,
+            51.3064579
           ]
         ]
       }
@@ -30863,7 +30889,9 @@
       "type": "Feature",
       "id": "way/1113015526",
       "properties": {
-        "highway": "cycleway",
+        "highway": "path",
+        "surface": "paving_stones",
+        "width": "1.5",
         "id": "way/1113015526"
       },
       "geometry": {
