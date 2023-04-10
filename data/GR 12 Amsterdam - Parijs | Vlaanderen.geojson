@@ -47837,8 +47837,10 @@
       "type": "Feature",
       "id": "way/444783683",
       "properties": {
+        "crossing:markings": "zebra",
         "footway": "crossing",
         "highway": "footway",
+        "lit": "yes",
         "surface": "paving_stones",
         "id": "way/444783683"
       },
@@ -47846,16 +47848,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3488126,
-            50.8627719
+            4.3487221,
+            50.8627326
           ],
           [
-            4.3486695,
-            50.8628162
+            4.3485853,
+            50.8627759
           ],
           [
-            4.3484801,
-            50.8628784
+            4.348474,
+            50.8628112
           ]
         ]
       }
@@ -56782,9 +56784,9 @@
       "type": "Feature",
       "id": "way/913869490",
       "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "cycleway",
+        "bicycle": "yes",
+        "highway": "footway",
+        "segregated": "no",
         "surface": "wood",
         "id": "way/913869490"
       },
@@ -60907,9 +60909,9 @@
       "type": "Feature",
       "id": "way/1051045424",
       "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "cycleway",
+        "bicycle": "yes",
+        "highway": "footway",
+        "segregated": "no",
         "surface": "wood",
         "id": "way/1051045424"
       },
@@ -60921,8 +60923,8 @@
             50.8622602
           ],
           [
-            4.3504906,
-            50.862342
+            4.3505388,
+            50.8623302
           ]
         ]
       }
@@ -62077,10 +62079,9 @@
       "type": "Feature",
       "id": "way/1093604640",
       "properties": {
-        "bicycle": "designated",
+        "bicycle": "yes",
         "bridge": "yes",
-        "foot": "designated",
-        "highway": "cycleway",
+        "highway": "footway",
         "layer": "1",
         "segregated": "no",
         "surface": "wood",
@@ -62090,12 +62091,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3504906,
-            50.862342
+            4.3505388,
+            50.8623302
           ],
           [
-            4.3489112,
-            50.8626483
+            4.3489376,
+            50.8626447
           ]
         ]
       }
@@ -62104,9 +62105,8 @@
       "type": "Feature",
       "id": "way/1093604641",
       "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "cycleway",
+        "bicycle": "yes",
+        "highway": "footway",
         "segregated": "no",
         "surface": "wood",
         "id": "way/1093604641"
@@ -62115,8 +62115,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3489112,
-            50.8626483
+            4.3489376,
+            50.8626447
           ],
           [
             4.3487433,
@@ -63570,12 +63570,10 @@
       "type": "Feature",
       "id": "way/1128426924",
       "properties": {
-        "bicycle": "designated",
         "class:bicycle": "1",
-        "foot": "designated",
         "highway": "cycleway",
         "incline": "0",
-        "segregated": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/1128426924"
       },
@@ -63583,8 +63581,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3488126,
-            50.8627719
+            4.3487693,
+            50.8627186
           ],
           [
             4.3487433,
@@ -63611,8 +63609,8 @@
             50.8629857
           ],
           [
-            4.3484801,
-            50.8628784
+            4.3484292,
+            50.8628229
           ]
         ]
       }
@@ -64715,6 +64713,34 @@
           [
             4.4093654,
             51.3473054
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1160841248",
+      "properties": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "asphalt",
+        "id": "way/1160841248"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3487693,
+            50.8627186
+          ],
+          [
+            4.3487483,
+            50.8627248
+          ],
+          [
+            4.3487221,
+            50.8627326
           ]
         ]
       }
