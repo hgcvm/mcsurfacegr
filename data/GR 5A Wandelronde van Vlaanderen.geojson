@@ -23406,7 +23406,6 @@
         "foot": "yes",
         "highway": "path",
         "surface": "asphalt",
-        "wheelchair": "yes",
         "id": "way/76397947"
       },
       "geometry": {
@@ -23703,21 +23702,19 @@
         "dog": "leashed",
         "foot": "yes",
         "highway": "path",
-        "horse": "no",
         "surface": "asphalt",
-        "wheelchair": "yes",
         "id": "way/76399872"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.0613319,
-            51.28803
+            3.0614703,
+            51.2880421
           ],
           [
-            3.0612361,
-            51.2880262
+            3.0612786,
+            51.2880282
           ],
           [
             3.0610503,
@@ -54971,7 +54968,6 @@
         "foot": "yes",
         "highway": "path",
         "surface": "asphalt",
-        "wheelchair": "yes",
         "id": "way/690434688"
       },
       "geometry": {
@@ -55046,12 +55042,8 @@
             51.2880816
           ],
           [
-            3.061478,
-            51.2880437
-          ],
-          [
-            3.0613319,
-            51.28803
+            3.0614703,
+            51.2880421
           ]
         ]
       }
@@ -83149,14 +83141,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2120401,
-            50.7736225
-          ],
-          [
-            3.2124752,
-            50.773269
-          ],
-          [
             3.2125079,
             50.7732484
           ],
@@ -91746,6 +91730,7 @@
       "id": "way/95810013",
       "properties": {
         "highway": "track",
+        "surface": "grass_paver",
         "id": "way/95810013"
       },
       "geometry": {
@@ -91868,6 +91853,7 @@
       "id": "way/95810034",
       "properties": {
         "highway": "path",
+        "surface": "concrete",
         "id": "way/95810034"
       },
       "geometry": {
@@ -148628,6 +148614,40 @@
           [
             3.9604217,
             50.834196
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1162435831",
+      "properties": {
+        "highway": "unclassified",
+        "horse": "no",
+        "lit": "yes",
+        "maxspeed": "70",
+        "name": "Brumierstraat",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "source:maxspeed": "BE-VLG:rural",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1162435831"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2120401,
+            50.7736225
+          ],
+          [
+            3.2124752,
+            50.773269
+          ],
+          [
+            3.2125079,
+            50.7732484
           ]
         ]
       }
