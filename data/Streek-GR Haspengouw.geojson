@@ -421,6 +421,10 @@
             50.8682143
           ],
           [
+            5.4995008,
+            50.8681734
+          ],
+          [
             5.4992406,
             50.8681479
           ],
@@ -2274,7 +2278,10 @@
       "id": "way/345377472",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Aanlofstraat",
+        "source:maxspeed": "sign",
+        "zone:traffic": "BE:rural",
         "id": "way/345377472"
       },
       "geometry": {
@@ -10782,7 +10789,9 @@
       "type": "Feature",
       "id": "way/722759028",
       "properties": {
-        "highway": "path",
+        "bicycle": "no",
+        "highway": "footway",
+        "horse": "no",
         "smoothness": "intermediate",
         "surface": "compacted",
         "id": "way/722759028"
