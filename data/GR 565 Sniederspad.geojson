@@ -1079,11 +1079,14 @@
       "type": "Feature",
       "id": "way/23584817",
       "properties": {
-        "access": "destination",
-        "created_by": "Potlatch 0.10f",
+        "bicycle": "yes",
+        "bus": "yes",
+        "emergency": "yes",
         "highway": "residential",
+        "horse": "yes",
         "maxspeed": "50",
         "name": "Patappeltorenweg",
+        "vehicle": "destination",
         "id": "way/23584817"
       },
       "geometry": {
@@ -4996,12 +4999,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6395643,
-            51.2340975
+            4.6395432,
+            51.2341011
           ],
           [
-            4.6366098,
-            51.2342241
+            4.636635,
+            51.2342129
           ]
         ]
       }
@@ -5026,16 +5029,16 @@
             51.233686
           ],
           [
-            4.6344229,
-            51.2336156
+            4.6341934,
+            51.2335981
           ],
           [
-            4.6342954,
-            51.2336119
+            4.6340166,
+            51.2336065
           ],
           [
-            4.6340922,
-            51.2336089
+            4.6338895,
+            51.2336203
           ],
           [
             4.6337238,
@@ -5076,8 +5079,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6366098,
-            51.2342241
+            4.636635,
+            51.2342129
           ],
           [
             4.6363696,
@@ -5110,20 +5113,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6395643,
-            51.2340975
+            4.6395432,
+            51.2341011
           ],
           [
             4.6400929,
             51.2341005
           ],
           [
-            4.6407004,
-            51.2341285
+            4.6407126,
+            51.2341305
           ],
           [
-            4.6406872,
-            51.2343333
+            4.6407132,
+            51.2343318
           ],
           [
             4.6407096,
@@ -23104,11 +23107,12 @@
       "type": "Feature",
       "id": "way/375322115",
       "properties": {
-        "highway": "path",
+        "highway": "track",
         "horse": "no",
         "motorcar": "no",
         "name": "Oelegembaan",
-        "surface": "compacted",
+        "surface": "dirt",
+        "tracktype": "grade4",
         "id": "way/375322115"
       },
       "geometry": {
@@ -23119,8 +23123,8 @@
             51.230171
           ],
           [
-            4.6290404,
-            51.2312934
+            4.6290206,
+            51.2312969
           ],
           [
             4.6294841,
@@ -30626,7 +30630,9 @@
         "maxspeed": "30",
         "maxweight": "5",
         "name": "Papenaardekenstraat",
+        "note": "nieuw rood asfalt apr'23",
         "overtaking:motor_vehicle": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/1072647488"
       },
