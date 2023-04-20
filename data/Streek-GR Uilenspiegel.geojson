@@ -9845,6 +9845,7 @@
       "type": "Feature",
       "id": "way/108774844",
       "properties": {
+        "fixme": "Aanvraag voor straatnaam gestuurd via LARA Assenede (crab@assenede.be)",
         "highway": "unclassified",
         "lit": "no",
         "name": "Kerkenhofdreef",
@@ -17107,7 +17108,7 @@
         "embankment": "yes",
         "highway": "unclassified",
         "lit": "no",
-        "name": "Kruisstraat",
+        "name": "Noorddijk",
         "sidewalk": "no",
         "surface": "concrete",
         "id": "way/188092501"
@@ -17194,19 +17195,21 @@
       "properties": {
         "bridge": "yes",
         "highway": "unclassified",
-        "name": "Oesterputbrug",
+        "maxheight": "2.3",
+        "maxweight": "3.5",
+        "surface": "wood",
         "id": "way/188092639"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.6853504,
-            51.2681936
+            3.6853524,
+            51.2681932
           ],
           [
-            3.6852413,
-            51.2683774
+            3.6852433,
+            51.2683757
           ]
         ]
       }
@@ -17222,8 +17225,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6852413,
-            51.2683774
+            3.6852433,
+            51.2683757
           ],
           [
             3.6852155,
@@ -22642,8 +22645,8 @@
             51.2681693
           ],
           [
-            3.6853504,
-            51.2681936
+            3.6853524,
+            51.2681932
           ]
         ]
       }
@@ -23279,12 +23282,17 @@
       "type": "Feature",
       "id": "way/338851307",
       "properties": {
-        "access": "yes",
         "bicycle": "yes",
+        "designation": "towpath",
         "foot": "yes",
         "highway": "track",
-        "horse": "yes",
+        "horse": "destination",
+        "horse:conditional": "yes @ permit",
+        "maxspeed": "30",
         "surface": "unpaved",
+        "traffic_sign": "BE:C3,BE:Type_IV_residents_exceptions_nl",
+        "vehicle": "destination",
+        "vehicle:conditional": "yes @ permit",
         "id": "way/338851307"
       },
       "geometry": {
@@ -24835,7 +24843,7 @@
         "highway": "unclassified",
         "layer": "1",
         "lit": "no",
-        "name": "Kruisstraat",
+        "name": "Noorddijk",
         "sidewalk": "no",
         "surface": "concrete",
         "id": "way/479255579"
@@ -24860,7 +24868,7 @@
       "properties": {
         "highway": "unclassified",
         "lit": "no",
-        "name": "Kruisstraat",
+        "name": "Noorddijk",
         "sidewalk": "no",
         "surface": "concrete",
         "id": "way/479255580"
@@ -30395,6 +30403,7 @@
       "type": "Feature",
       "id": "way/1159482616",
       "properties": {
+        "foot": "yes",
         "highway": "track",
         "surface": "grass",
         "id": "way/1159482616"
@@ -30808,6 +30817,7 @@
       "properties": {
         "highway": "track",
         "name": "Zuiderbruggeweg",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/7629839"
       },
@@ -33012,6 +33022,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Vluchtelingenstraat",
+        "surface": "asphalt",
         "id": "way/33893632"
       },
       "geometry": {
@@ -33144,42 +33155,6 @@
           [
             3.573985,
             51.2880147
-          ],
-          [
-            3.5738035,
-            51.2880972
-          ],
-          [
-            3.573625,
-            51.2881871
-          ],
-          [
-            3.5728872,
-            51.2885926
-          ],
-          [
-            3.572434,
-            51.2888404
-          ],
-          [
-            3.5722456,
-            51.2889497
-          ],
-          [
-            3.5721581,
-            51.2890105
-          ],
-          [
-            3.5720395,
-            51.2891044
-          ],
-          [
-            3.5712865,
-            51.2897935
-          ],
-          [
-            3.5712419,
-            51.2898289
           ]
         ]
       }
@@ -34960,6 +34935,7 @@
       "id": "way/97817389",
       "properties": {
         "highway": "tertiary",
+        "surface": "asphalt",
         "id": "way/97817389"
       },
       "geometry": {
@@ -35054,6 +35030,7 @@
       "properties": {
         "highway": "tertiary",
         "name": "Goedleven",
+        "surface": "asphalt",
         "id": "way/111342625"
       },
       "geometry": {
@@ -35563,6 +35540,7 @@
         "highway": "track",
         "motor_vehicle": "destination",
         "note": "Uitgezonderd aangelanden",
+        "surface": "compacted",
         "id": "way/160545219"
       },
       "geometry": {
@@ -35585,16 +35563,8 @@
             51.2620592
           ],
           [
-            3.6067823,
-            51.2618712
-          ],
-          [
-            3.6029268,
-            51.2616067
-          ],
-          [
-            3.602102,
-            51.2615502
+            3.6084648,
+            51.2619882
           ]
         ]
       }
@@ -35605,6 +35575,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Zuiderbruggeweg",
+        "surface": "asphalt",
         "id": "way/160732231"
       },
       "geometry": {
@@ -35649,6 +35620,7 @@
         "highway": "track",
         "motor_vehicle": "destination",
         "note": "Uitgezonderd aangelanden",
+        "surface": "grass",
         "id": "way/160735788"
       },
       "geometry": {
@@ -35701,10 +35673,6 @@
           [
             3.5828391,
             51.2598088
-          ],
-          [
-            3.5826304,
-            51.2597303
           ]
         ]
       }
@@ -37181,6 +37149,7 @@
         "highway": "track",
         "motor_vehicle": "destination",
         "note": "Uitgezonderd aangelanden",
+        "surface": "grass",
         "id": "way/390494366"
       },
       "geometry": {
@@ -38155,6 +38124,7 @@
       "id": "way/1114900654",
       "properties": {
         "highway": "cycleway",
+        "surface": "asphalt",
         "id": "way/1114900654"
       },
       "geometry": {
@@ -38198,6 +38168,119 @@
           [
             3.518155,
             51.2802156
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1162006536",
+      "properties": {
+        "highway": "unclassified",
+        "name": "Vluchtelingenstraat",
+        "surface": "concrete",
+        "id": "way/1162006536"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.573985,
+            51.2880147
+          ],
+          [
+            3.5738035,
+            51.2880972
+          ],
+          [
+            3.573625,
+            51.2881871
+          ],
+          [
+            3.5728872,
+            51.2885926
+          ],
+          [
+            3.572434,
+            51.2888404
+          ],
+          [
+            3.5722456,
+            51.2889497
+          ],
+          [
+            3.5721581,
+            51.2890105
+          ],
+          [
+            3.5720395,
+            51.2891044
+          ],
+          [
+            3.5712865,
+            51.2897935
+          ],
+          [
+            3.5712419,
+            51.2898289
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1162007061",
+      "properties": {
+        "embankment": "yes",
+        "highway": "track",
+        "motor_vehicle": "destination",
+        "note": "Uitgezonderd aangelanden",
+        "surface": "sett",
+        "id": "way/1162007061"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.5828391,
+            51.2598088
+          ],
+          [
+            3.5826304,
+            51.2597303
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1162007467",
+      "properties": {
+        "embankment": "yes",
+        "highway": "track",
+        "motor_vehicle": "destination",
+        "note": "Uitgezonderd aangelanden",
+        "surface": "grass",
+        "id": "way/1162007467"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6084648,
+            51.2619882
+          ],
+          [
+            3.6067823,
+            51.2618712
+          ],
+          [
+            3.6029268,
+            51.2616067
+          ],
+          [
+            3.602102,
+            51.2615502
           ]
         ]
       }

@@ -2063,6 +2063,7 @@
       "properties": {
         "highway": "track",
         "name": "Zuiderbruggeweg",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/7629839"
       },
@@ -23406,6 +23407,7 @@
         "foot": "yes",
         "highway": "path",
         "surface": "asphalt",
+        "wheelchair": "yes",
         "id": "way/76397947"
       },
       "geometry": {
@@ -23702,19 +23704,21 @@
         "dog": "leashed",
         "foot": "yes",
         "highway": "path",
+        "horse": "no",
         "surface": "asphalt",
+        "wheelchair": "yes",
         "id": "way/76399872"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.0614703,
-            51.2880421
+            3.0613319,
+            51.28803
           ],
           [
-            3.0612786,
-            51.2880282
+            3.0612361,
+            51.2880262
           ],
           [
             3.0610503,
@@ -26912,6 +26916,7 @@
       "type": "Feature",
       "id": "way/108774844",
       "properties": {
+        "fixme": "Aanvraag voor straatnaam gestuurd via LARA Assenede (crab@assenede.be)",
         "highway": "unclassified",
         "lit": "no",
         "name": "Kerkenhofdreef",
@@ -34712,6 +34717,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Zuiderbruggeweg",
+        "surface": "asphalt",
         "id": "way/160732231"
       },
       "geometry": {
@@ -34848,10 +34854,18 @@
       "type": "Feature",
       "id": "way/160735795",
       "properties": {
+        "bicycle": "yes",
+        "designation": "towpath",
         "highway": "track",
+        "horse": "destination",
+        "horse:conditional": "yes @ permit",
+        "maxspeed": "30",
         "motor_vehicle": "destination",
         "note": "Auto + Moto: uitgezonderd aangelanden",
+        "traffic_sign": "BE:C3,BE:Type_IV_residents_exceptions_nl",
         "trail_visibility": "bad",
+        "vehicle": "destination",
+        "vehicle:conditional": "yes @ permit",
         "id": "way/160735795"
       },
       "geometry": {
@@ -35966,7 +35980,7 @@
         "embankment": "yes",
         "highway": "unclassified",
         "lit": "no",
-        "name": "Kruisstraat",
+        "name": "Noorddijk",
         "sidewalk": "no",
         "surface": "concrete",
         "id": "way/188092501"
@@ -36015,19 +36029,21 @@
       "properties": {
         "bridge": "yes",
         "highway": "unclassified",
-        "name": "Oesterputbrug",
+        "maxheight": "2.3",
+        "maxweight": "3.5",
+        "surface": "wood",
         "id": "way/188092639"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.6853504,
-            51.2681936
+            3.6853524,
+            51.2681932
           ],
           [
-            3.6852413,
-            51.2683774
+            3.6852433,
+            51.2683757
           ]
         ]
       }
@@ -36043,8 +36059,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6852413,
-            51.2683774
+            3.6852433,
+            51.2683757
           ],
           [
             3.6852155,
@@ -37119,7 +37135,7 @@
       "type": "Feature",
       "id": "way/212772844",
       "properties": {
-        "highway": "footway",
+        "highway": "path",
         "lit": "no",
         "surface": "paving_stones",
         "id": "way/212772844"
@@ -42230,6 +42246,7 @@
         "lanes:backward": "1",
         "lanes:forward": "2",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Driftweg",
         "ref": "N317",
         "surface": "asphalt",
@@ -43971,8 +43988,8 @@
             51.2681693
           ],
           [
-            3.6853504,
-            51.2681936
+            3.6853524,
+            51.2681932
           ]
         ]
       }
@@ -50720,7 +50737,7 @@
         "highway": "unclassified",
         "layer": "1",
         "lit": "no",
-        "name": "Kruisstraat",
+        "name": "Noorddijk",
         "sidewalk": "no",
         "surface": "concrete",
         "id": "way/479255579"
@@ -50745,7 +50762,7 @@
       "properties": {
         "highway": "unclassified",
         "lit": "no",
-        "name": "Kruisstraat",
+        "name": "Noorddijk",
         "sidewalk": "no",
         "surface": "concrete",
         "id": "way/479255580"
@@ -54968,6 +54985,7 @@
         "foot": "yes",
         "highway": "path",
         "surface": "asphalt",
+        "wheelchair": "yes",
         "id": "way/690434688"
       },
       "geometry": {
@@ -55042,8 +55060,12 @@
             51.2880816
           ],
           [
-            3.0614703,
-            51.2880421
+            3.061478,
+            51.2880437
+          ],
+          [
+            3.0613319,
+            51.28803
           ]
         ]
       }
@@ -65081,6 +65103,7 @@
       "id": "way/1126763664",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Driftweg",
         "ref": "N317",
         "zone:traffic": "BE-VLG:rural",
@@ -152262,6 +152285,38 @@
     },
     {
       "type": "Feature",
+      "id": "way/22976709",
+      "properties": {
+        "bicycle": "dismount",
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1",
+        "lit": "yes",
+        "man_made": "pier",
+        "segregated": "no",
+        "surface": "metal",
+        "id": "way/22976709"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3255413,
+            51.1759327
+          ],
+          [
+            4.3253862,
+            51.1759319
+          ],
+          [
+            4.324751,
+            51.1759353
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/23171838",
       "properties": {
         "highway": "unclassified",
@@ -159787,6 +159842,34 @@
           [
             4.4489322,
             51.2131549
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/779272527",
+      "properties": {
+        "bicycle": "dismount",
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1",
+        "lit": "yes",
+        "man_made": "pier",
+        "segregated": "no",
+        "surface": "metal",
+        "id": "way/779272527"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.331107,
+            51.1754573
+          ],
+          [
+            4.3303278,
+            51.1754538
           ]
         ]
       }

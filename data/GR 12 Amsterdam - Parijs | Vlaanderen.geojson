@@ -18401,7 +18401,6 @@
         "name:fr": "Rue des Quatre Bras",
         "name:nl": "Quatre Brasstraat",
         "oneway": "yes",
-        "sidewalk": "both",
         "source:maxspeed": "BE-BRU:urban",
         "surface": "asphalt",
         "id": "way/30239233"
@@ -37553,7 +37552,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "IJzerenleen",
-        "surface": "sett",
+        "surface": "cobblestone",
         "id": "way/139083160"
       },
       "geometry": {
@@ -37918,7 +37917,6 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Antoon Wolfsstraat",
-        "name:etymology:wikidata": "Q26212082",
         "id": "way/147546857"
       },
       "geometry": {
@@ -46052,7 +46050,6 @@
         "highway": "tertiary",
         "maxspeed": "50",
         "name": "Churchilllaan",
-        "name:etymology:wikidata": "Q8016",
         "source:maxspeed": "BE-VLG:urban",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/422556632"
@@ -46129,9 +46126,6 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Deurnevoetweg",
-        "note": "nieuw rood asfalt apr'23",
-        "smoothness": "excellent",
-        "surface": "asphalt",
         "id": "way/422556636"
       },
       "geometry": {
@@ -61850,9 +61844,7 @@
         "maxspeed": "30",
         "maxweight": "5",
         "name": "Papenaardekenstraat",
-        "note": "nieuw rood asfalt apr'23",
         "overtaking:motor_vehicle": "no",
-        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/1072647488"
       },
@@ -70046,7 +70038,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Sint-Romboutskerkhof",
-        "surface": "cobblestone",
+        "surface": "sett",
         "id": "way/22925294"
       },
       "geometry": {
@@ -70931,6 +70923,8 @@
         "moped": "yes",
         "motor_vehicle": "no",
         "name": "Deurnevoetweg",
+        "note": "nieuw rood asfalt apr'23",
+        "smoothness": "excellent",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "id": "way/23400209"
@@ -73259,7 +73253,8 @@
       "type": "Feature",
       "id": "way/33844837",
       "properties": {
-        "cycleway": "shared_lane",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "description": "old images \"middenplein is weg\"",
         "highway": "residential",
         "lanes:backward": "1",
@@ -74486,6 +74481,7 @@
         "name": "Frederik de Merodestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "surface": "sett",
         "id": "way/50073979"
       },
       "geometry": {
@@ -77074,6 +77070,8 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Deurnevoetweg",
+        "note": "nieuw rood asfalt apr'23",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/147553476"
       },
@@ -77110,6 +77108,9 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Deurnevoetweg",
+        "note": "nieuw rood asfalt apr'23",
+        "smoothness": "excellent",
+        "surface": "asphalt",
         "id": "way/147553477"
       },
       "geometry": {
@@ -79964,7 +79965,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Onder-den-Toren",
-        "surface": "cobblestone",
+        "surface": "sett",
         "id": "way/322896926"
       },
       "geometry": {
@@ -80735,6 +80736,7 @@
         "maxspeed": "30",
         "name": "Frederik de Merodestraat",
         "speed_pedelec": "yes",
+        "surface": "sett",
         "id": "way/423658603"
       },
       "geometry": {
@@ -90828,7 +90830,6 @@
         "foot": "yes",
         "highway": "cycleway",
         "oneway": "no",
-        "ref": "FR10",
         "segregated": "yes",
         "surface": "asphalt",
         "width": "2.55",
