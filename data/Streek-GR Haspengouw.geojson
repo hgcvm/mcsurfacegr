@@ -24945,8 +24945,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1895348,
-            50.8206962
+            5.1895542,
+            50.8206809
           ],
           [
             5.1894459,
@@ -24991,8 +24991,12 @@
             50.8203163
           ],
           [
-            5.1893433,
-            50.8200177
+            5.1894051,
+            50.8200611
+          ],
+          [
+            5.1893292,
+            50.8199961
           ],
           [
             5.1891119,
@@ -26416,8 +26420,8 @@
             50.8218347
           ],
           [
-            5.1909202,
-            50.8218205
+            5.1909396,
+            50.8218053
           ]
         ]
       }
@@ -26427,47 +26431,31 @@
       "id": "way/336148762",
       "properties": {
         "highway": "path",
-        "surface": "asphalt",
+        "surface": "paving_stones",
         "id": "way/336148762"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.1909202,
-            50.8218205
+            5.1909396,
+            50.8218053
           ],
           [
-            5.1908988,
-            50.8217303
+            5.1908326,
+            50.8217322
           ],
           [
-            5.1908588,
-            50.8217102
+            5.1907832,
+            50.821706
           ],
           [
-            5.1906773,
-            50.8216121
+            5.1906605,
+            50.8216409
           ],
           [
-            5.190631,
-            50.8215543
-          ],
-          [
-            5.1904419,
-            50.8214274
-          ],
-          [
-            5.1904321,
-            50.8212768
-          ],
-          [
-            5.1898224,
-            50.8209044
-          ],
-          [
-            5.1895348,
-            50.8206962
+            5.1905686,
+            50.8215717
           ]
         ]
       }
@@ -26854,6 +26842,41 @@
           [
             5.2096228,
             50.8574216
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1164553022",
+      "properties": {
+        "highway": "service",
+        "service": "parking_aisle",
+        "surface": "asphalt",
+        "id": "way/1164553022"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1905686,
+            50.8215717
+          ],
+          [
+            5.1904251,
+            50.8214443
+          ],
+          [
+            5.1904515,
+            50.8212615
+          ],
+          [
+            5.1898606,
+            50.8208824
+          ],
+          [
+            5.1895542,
+            50.8206809
           ]
         ]
       }
@@ -36793,8 +36816,12 @@
         "foot": "yes",
         "highway": "track",
         "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "speed_pedelec": "yes",
         "surface": "ground",
         "tracktype": "grade3",
+        "traffic_sign": "BE:F99c",
         "id": "way/127924325"
       },
       "geometry": {
@@ -36821,8 +36848,8 @@
             50.8139279
           ],
           [
-            5.2793467,
-            50.8136219
+            5.279344,
+            50.8136151
           ],
           [
             5.2799296,
@@ -37723,12 +37750,19 @@
       "id": "way/346992259",
       "properties": {
         "access": "destination",
+        "agricultural": "yes",
         "bicycle": "yes",
         "cycleway:both": "no",
+        "foot": "yes",
         "highway": "unclassified",
+        "horse": "yes",
         "lane_markings": "no",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Truierweg",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
         "id": "way/346992259"
       },
       "geometry": {
@@ -42295,21 +42329,21 @@
       "type": "Feature",
       "id": "way/35140106",
       "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "cycleway",
-        "oneway": "no",
+        "horse": "no",
         "railway": "abandoned",
+        "traffic_sign": "BE:C3,BE:M2",
+        "vehicle": "no",
         "id": "way/35140106"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.3766771,
-            50.8161531
-          ],
-          [
-            5.3754183,
-            50.8161371
+            5.3749491,
+            50.8161352
           ],
           [
             5.3747115,
@@ -43272,14 +43306,17 @@
       "type": "Feature",
       "id": "way/277457885",
       "properties": {
-        "access": "agricultural",
+        "agricultural": "yes",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "unclassified",
-        "lane_markings": "no",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Grimmertingenstraat",
-        "oneway": "no",
+        "speed_pedelec": "yes",
         "surface": "concrete",
+        "traffic_sign": "BE:F99c",
         "width": "3.1",
         "id": "way/277457885"
       },
@@ -43289,6 +43326,10 @@
           [
             5.4240493,
             50.8214407
+          ],
+          [
+            5.4237295,
+            50.8217615
           ],
           [
             5.4235554,
@@ -43401,6 +43442,7 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Bieskuilstraat",
+        "smoothness": "bad",
         "surface": "asphalt",
         "id": "way/337886506"
       },
@@ -44143,6 +44185,32 @@
           [
             5.4050985,
             50.8174427
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1164426753",
+      "properties": {
+        "highway": "cycleway",
+        "railway": "abandoned",
+        "id": "way/1164426753"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3766771,
+            50.8161531
+          ],
+          [
+            5.3754183,
+            50.8161371
+          ],
+          [
+            5.3749491,
+            50.8161352
           ]
         ]
       }

@@ -16748,11 +16748,19 @@
       "type": "Feature",
       "id": "way/91628657",
       "properties": {
+        "bicycle": "yes",
+        "designation": "towpath",
         "foot": "yes",
         "highway": "cycleway",
+        "horse": "destination",
+        "horse:conditional": "yes @ permit",
+        "maxspeed": "30",
         "name": "Weerstanderskaai",
         "segregated": "no",
         "surface": "asphalt",
+        "traffic_sign": "BE:C3,BE:Type_IV_residents_exceptions_nl",
+        "vehicle": "destination",
+        "vehicle:conditional": "yes @ permit",
         "id": "way/91628657"
       },
       "geometry": {
