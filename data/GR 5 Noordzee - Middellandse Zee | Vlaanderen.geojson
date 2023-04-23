@@ -4296,6 +4296,10 @@
             51.3928818
           ],
           [
+            4.5950159,
+            51.3930956
+          ],
+          [
             4.5945165,
             51.393694
           ]
@@ -22442,65 +22446,6 @@
           [
             5.6751494,
             50.8337931
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/72518684",
-      "properties": {
-        "cycleway": "lane",
-        "highway": "tertiary",
-        "maxweight": "3.5",
-        "maxweight:conditional": "none @ destination",
-        "name": "Westlaan",
-        "source:maxweight": "zone",
-        "id": "way/72518684"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.2415017,
-            50.9971518
-          ],
-          [
-            5.2394767,
-            50.9967398
-          ],
-          [
-            5.2390706,
-            50.996639
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/72518690",
-      "properties": {
-        "bridge": "yes",
-        "cycleway": "lane",
-        "highway": "tertiary",
-        "layer": "1",
-        "maxweight": "3.5",
-        "maxweight:conditional": "none @ destination",
-        "name": "Westlaan",
-        "source:maxweight": "zone",
-        "website": "https://www.vlaamsewaterweg.be/brug-viversel",
-        "id": "way/72518690"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.2430931,
-            50.9974724
-          ],
-          [
-            5.2415017,
-            50.9971518
           ]
         ]
       }
@@ -41112,32 +41057,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/282756796",
-      "properties": {
-        "cycleway": "lane",
-        "highway": "tertiary",
-        "maxweight": "3.5",
-        "maxweight:conditional": "none @ destination",
-        "name": "Westlaan",
-        "source:maxweight": "zone",
-        "id": "way/282756796"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.2435789,
-            50.9975812
-          ],
-          [
-            5.2430931,
-            50.9974724
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/283311506",
       "properties": {
         "highway": "service",
@@ -57172,10 +57091,15 @@
       "type": "Feature",
       "id": "way/983374312",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
         "highway": "unclassified",
-        "motor_vehicle": "no",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Teerlingbrug",
         "surface": "concrete",
+        "traffic_sign": "BE:F99c",
         "width": "4",
         "id": "way/983374312"
       },
@@ -58332,16 +58256,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.2390706,
-            50.996639
+            5.239088,
+            50.9966542
           ],
           [
-            5.2387562,
-            50.9965446
-          ],
-          [
-            5.2385295,
-            50.9964765
+            5.2387119,
+            50.9965454
           ],
           [
             5.237625,
@@ -58895,11 +58815,7 @@
       "type": "Feature",
       "id": "way/1096721930",
       "properties": {
-        "highway": "residential",
-        "maxweight": "3.5",
-        "maxweight:conditional": "none @ destination",
-        "name": "Laarstraat",
-        "source:maxweight": "zone",
+        "highway": "path",
         "id": "way/1096721930"
       },
       "geometry": {
@@ -60592,16 +60508,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.2429334,
-            50.9972875
+            5.2427926,
+            50.9975635
           ],
           [
-            5.2438606,
-            50.9975392
-          ],
-          [
-            5.2435789,
-            50.9975812
+            5.2428769,
+            50.997567
           ]
         ]
       }
@@ -60616,7 +60528,6 @@
         "maxweight": "3.5",
         "maxweight:conditional": "none @ destination",
         "name": "Industriestraat",
-        "note": "Afgesloten wegens werken aan de brug tot december 2022",
         "source:maxweight": "zone",
         "surface": "paved",
         "id": "way/1154722347"
@@ -60629,12 +60540,16 @@
             50.9967907
           ],
           [
-            5.2430582,
-            50.997036
+            5.243146,
+            50.9968718
           ],
           [
-            5.2429334,
-            50.9972875
+            5.2429246,
+            50.9973051
+          ],
+          [
+            5.2427926,
+            50.9975635
           ]
         ]
       }
@@ -61178,6 +61093,128 @@
           [
             5.4405409,
             50.9543086
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1164630319",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "yes",
+        "id": "way/1164630319"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2429099,
+            50.9976247
+          ],
+          [
+            5.2435391,
+            50.9977524
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1164630320",
+      "properties": {
+        "bridge": "yes",
+        "highway": "cycleway",
+        "layer": "1",
+        "oneway": "yes",
+        "id": "way/1164630320"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2414589,
+            50.9973453
+          ],
+          [
+            5.2429099,
+            50.9976247
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1164630321",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "yes",
+        "id": "way/1164630321"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.239088,
+            50.9966542
+          ],
+          [
+            5.239132,
+            50.9966549
+          ],
+          [
+            5.2396205,
+            50.9968124
+          ],
+          [
+            5.2409613,
+            50.9972449
+          ],
+          [
+            5.2414589,
+            50.9973453
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1164630338",
+      "properties": {
+        "highway": "steps",
+        "id": "way/1164630338"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2428769,
+            50.997567
+          ],
+          [
+            5.2435535,
+            50.9977207
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1164630339",
+      "properties": {
+        "highway": "footway",
+        "id": "way/1164630339"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2435535,
+            50.9977207
+          ],
+          [
+            5.2435391,
+            50.9977524
           ]
         ]
       }
