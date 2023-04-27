@@ -14583,6 +14583,7 @@
       "type": "Feature",
       "id": "way/52064226",
       "properties": {
+        "embankment": "yes",
         "foot": "yes",
         "highway": "cycleway",
         "name": "Stiltepad",
@@ -17662,35 +17663,15 @@
       "type": "Feature",
       "id": "way/115775472",
       "properties": {
-        "highway": "track",
+        "highway": "path",
         "id": "way/115775472"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.1139802,
-            51.114144
-          ],
-          [
-            4.1139878,
-            51.1142589
-          ],
-          [
-            4.1139905,
-            51.1146833
-          ],
-          [
-            4.1140171,
-            51.1151227
-          ],
-          [
-            4.1139579,
-            51.1151737
-          ],
-          [
-            4.1133207,
-            51.1152781
+            4.1132561,
+            51.1153001
           ],
           [
             4.1132637,
@@ -21201,6 +21182,7 @@
         "highway": "residential",
         "name": "Spoorwegstraat",
         "sidewalk": "both",
+        "surface": "asphalt",
         "id": "way/145829930"
       },
       "geometry": {
@@ -27024,7 +27006,7 @@
         "horse": "no",
         "lit": "no",
         "name": "Houten Kruiswegel",
-        "surface": "unpaved",
+        "surface": "dirt",
         "width": "1",
         "id": "way/376962392"
       },
@@ -27032,16 +27014,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1014254,
-            51.1149528
+            4.1016312,
+            51.1142736
           ],
           [
-            4.1016275,
-            51.1143572
-          ],
-          [
-            4.1016984,
-            51.1142794
+            4.1017001,
+            51.1142817
           ],
           [
             4.1017553,
@@ -27090,14 +27068,6 @@
           [
             4.1014835,
             51.111355
-          ],
-          [
-            4.1016847,
-            51.1111091
-          ],
-          [
-            4.1017282,
-            51.1110047
           ]
         ]
       }
@@ -28265,6 +28235,7 @@
       "properties": {
         "highway": "path",
         "name": "Houten Kruiswegel",
+        "surface": "fine_gravel",
         "id": "way/401185871"
       },
       "geometry": {
@@ -28291,7 +28262,7 @@
       "properties": {
         "highway": "track",
         "name": "Wareslagestraat",
-        "surface": "gravel",
+        "surface": "fine_gravel",
         "id": "way/401185872"
       },
       "geometry": {
@@ -30751,7 +30722,9 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Dommelstraat",
+        "surface": "asphalt",
         "id": "way/526984750"
       },
       "geometry": {
@@ -30783,16 +30756,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1154778,
-            51.1142287
-          ],
-          [
-            4.115414,
-            51.1138731
-          ],
-          [
-            4.1153067,
-            51.1132602
+            4.1152706,
+            51.1130645
           ],
           [
             4.1151848,
@@ -40012,6 +39977,7 @@
       "id": "way/940740029",
       "properties": {
         "highway": "track",
+        "surface": "dirt",
         "id": "way/940740029"
       },
       "geometry": {
@@ -41675,6 +41641,158 @@
           [
             4.137276,
             51.1654867
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1165585065",
+      "properties": {
+        "highway": "track",
+        "surface": "asphalt",
+        "id": "way/1165585065"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1139802,
+            51.114144
+          ],
+          [
+            4.1139878,
+            51.1142589
+          ],
+          [
+            4.1139905,
+            51.1146833
+          ],
+          [
+            4.1140234,
+            51.1151509
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1165585066",
+      "properties": {
+        "highway": "path",
+        "id": "way/1165585066"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1140234,
+            51.1151509
+          ],
+          [
+            4.1139579,
+            51.1151737
+          ],
+          [
+            4.1133306,
+            51.1152892
+          ],
+          [
+            4.1132561,
+            51.1153001
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1165585067",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "track",
+        "name": "Zandstraat",
+        "surface": "sett",
+        "tracktype": "grade3",
+        "id": "way/1165585067"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1154778,
+            51.1142287
+          ],
+          [
+            4.115414,
+            51.1138731
+          ],
+          [
+            4.1153067,
+            51.1132602
+          ],
+          [
+            4.1152706,
+            51.1130645
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1165585068",
+      "properties": {
+        "bicycle": "no",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "no",
+        "lit": "no",
+        "name": "Houten Kruiswegel",
+        "surface": "dirt",
+        "width": "1",
+        "id": "way/1165585068"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1014835,
+            51.111355
+          ],
+          [
+            4.1016847,
+            51.1111091
+          ],
+          [
+            4.1017282,
+            51.1110047
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1165585069",
+      "properties": {
+        "bicycle": "no",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "no",
+        "lit": "no",
+        "name": "Houten Kruiswegel",
+        "surface": "dirt",
+        "width": "1",
+        "id": "way/1165585069"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1014254,
+            51.1149528
+          ],
+          [
+            4.1016312,
+            51.1142736
           ]
         ]
       }
