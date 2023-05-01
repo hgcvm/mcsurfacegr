@@ -262,8 +262,8 @@
             50.8384536
           ],
           [
-            4.6441034,
-            50.8390386
+            4.6436449,
+            50.8386834
           ]
         ]
       }
@@ -20703,15 +20703,12 @@
       "properties": {
         "bicycle": "designated",
         "foot": "designated",
-        "highway": "cycleway",
-        "lanes": "1",
+        "highway": "path",
         "lit": "no",
         "motorcycle": "no",
-        "oneway": "no",
-        "segregated": "no",
         "smoothness": "intermediate",
         "source": "survey",
-        "surface": "fine_gravel",
+        "surface": "unpaved",
         "width": "1",
         "id": "way/82718868"
       },
@@ -24594,14 +24591,11 @@
       "properties": {
         "bicycle": "designated",
         "foot": "designated",
-        "highway": "cycleway",
-        "lanes": "1",
+        "highway": "path",
         "lit": "no",
-        "oneway": "no",
-        "segregated": "no",
         "smoothness": "intermediate",
         "source": "survey",
-        "surface": "fine_gravel",
+        "surface": "unpaved",
         "width": "1",
         "id": "way/120472792"
       },
@@ -41976,6 +41970,32 @@
     },
     {
       "type": "Feature",
+      "id": "way/1167605272",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "yes",
+        "source": "survey",
+        "surface": "unpaved",
+        "id": "way/1167605272"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.6436449,
+            50.8386834
+          ],
+          [
+            4.6441034,
+            50.8390386
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/3372474",
       "properties": {
         "bicycle": "designated",
@@ -46503,7 +46523,7 @@
       "type": "Feature",
       "id": "way/79852586",
       "properties": {
-        "bicycle": "use_sidepath",
+        "cycleway": "track",
         "highway": "primary",
         "lanes": "3",
         "lanes:backward": "1",
