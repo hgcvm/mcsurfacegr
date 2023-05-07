@@ -10853,10 +10853,7 @@
       "type": "Feature",
       "id": "way/7127143",
       "properties": {
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "highway": "residential",
-        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Volksplein",
         "sidewalk": "no",
@@ -57573,15 +57570,13 @@
       "type": "Feature",
       "id": "way/1030948101",
       "properties": {
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "highway": "residential",
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Volksplein",
         "sidewalk": "no",
-        "surface": "paving_stones",
+        "surface": "asphalt",
         "id": "way/1030948101"
       },
       "geometry": {
@@ -57602,8 +57597,6 @@
       "type": "Feature",
       "id": "way/1030948102",
       "properties": {
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "highway": "residential",
         "lanes": "2",
         "maxspeed": "50",
@@ -63119,9 +63112,13 @@
       "type": "Feature",
       "id": "way/478168969",
       "properties": {
+        "check_date:surface": "2023-05-06",
+        "cycleway:surface": "paving_stones",
         "foot": "yes",
+        "footway:surface": "paving_stones",
         "highway": "cycleway",
-        "surface": "paved",
+        "segregated": "yes",
+        "surface": "paving_stones",
         "id": "way/478168969"
       },
       "geometry": {
@@ -63671,6 +63668,8 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
+        "segregated": "no",
+        "surface": "concrete",
         "id": "way/875070981"
       },
       "geometry": {
@@ -63695,6 +63694,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "layer": "1",
+        "segregated": "no",
         "surface": "wood",
         "id": "way/875070982"
       },
@@ -63718,6 +63718,8 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
+        "segregated": "no",
+        "surface": "wood",
         "id": "way/875070983"
       },
       "geometry": {
@@ -63895,7 +63897,7 @@
       "id": "way/913479434",
       "properties": {
         "highway": "footway",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/913479434"
       },
       "geometry": {
@@ -63987,6 +63989,7 @@
       "id": "way/913479447",
       "properties": {
         "highway": "footway",
+        "surface": "paving_stones",
         "id": "way/913479447"
       },
       "geometry": {
@@ -64012,6 +64015,7 @@
       "id": "way/913479448",
       "properties": {
         "highway": "footway",
+        "surface": "paving_stones",
         "id": "way/913479448"
       },
       "geometry": {
