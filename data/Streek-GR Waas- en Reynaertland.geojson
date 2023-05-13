@@ -17279,9 +17279,13 @@
       "type": "Feature",
       "id": "way/88867278",
       "properties": {
+        "bicycle": "no",
+        "dogs": "no",
         "foot": "yes",
         "highway": "path",
-        "trail_visibility": "intermediate",
+        "horse": "no",
+        "note": "klaphekje",
+        "trail_visibility": "bad",
         "id": "way/88867278"
       },
       "geometry": {
@@ -17328,16 +17332,8 @@
             51.2381157
           ],
           [
-            4.0669241,
-            51.2383038
-          ],
-          [
-            4.0667052,
-            51.2388993
-          ],
-          [
-            4.0666322,
-            51.2389827
+            4.0669256,
+            51.2382807
           ]
         ]
       }
@@ -22980,6 +22976,7 @@
       "type": "Feature",
       "id": "way/158746693",
       "properties": {
+        "bicycle": "no",
         "highway": "path",
         "name": "Heidepad",
         "surface": "unpaved",
@@ -33626,6 +33623,10 @@
             51.1537192
           ],
           [
+            4.315209,
+            51.1538094
+          ],
+          [
             4.315076,
             51.1538922
           ]
@@ -33651,8 +33652,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3149961,
-            51.1539429
+            4.3149771,
+            51.1539536
           ],
           [
             4.315076,
@@ -39773,8 +39774,8 @@
             51.153965
           ],
           [
-            4.3149961,
-            51.1539429
+            4.3149771,
+            51.1539536
           ]
         ]
       }
@@ -41839,6 +41840,60 @@
           [
             4.1138502,
             51.1173229
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1172028455",
+      "properties": {
+        "bicycle": "no",
+        "bridge": "boardwalk",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "no",
+        "surface": "wood",
+        "width": "1.2",
+        "id": "way/1172028455"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.0669256,
+            51.2382807
+          ],
+          [
+            4.0667123,
+            51.2388799
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1172028456",
+      "properties": {
+        "foot": "yes",
+        "highway": "path",
+        "trail_visibility": "intermediate",
+        "id": "way/1172028456"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.0667123,
+            51.2388799
+          ],
+          [
+            4.0667052,
+            51.2388993
+          ],
+          [
+            4.0666322,
+            51.2389827
           ]
         ]
       }
