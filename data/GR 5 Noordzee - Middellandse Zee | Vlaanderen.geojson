@@ -11580,7 +11580,6 @@
       "id": "way/13228908",
       "properties": {
         "highway": "residential",
-        "lanes": "2",
         "maxspeed": "50",
         "name": "Meilweg",
         "surface": "asphalt",
@@ -27164,6 +27163,7 @@
         "highway": "track",
         "motor_vehicle": "no",
         "name": "Lessenberg",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/148975592"
       },
@@ -27183,12 +27183,16 @@
             50.9460054
           ],
           [
-            5.5024696,
-            50.9461512
+            5.5024937,
+            50.9461617
           ],
           [
-            5.5025168,
-            50.9461681
+            5.5025515,
+            50.9461798
+          ],
+          [
+            5.502595,
+            50.9461957
           ]
         ]
       }
@@ -33899,7 +33903,7 @@
       "id": "way/204173135",
       "properties": {
         "highway": "track",
-        "tracktype": "grade4",
+        "tracktype": "grade3",
         "id": "way/204173135"
       },
       "geometry": {
@@ -33922,12 +33926,28 @@
             50.954267
           ],
           [
+            5.4871386,
+            50.9542938
+          ],
+          [
             5.4869924,
             50.9543063
           ],
           [
-            5.486669,
-            50.9542803
+            5.4867582,
+            50.9542941
+          ],
+          [
+            5.4865273,
+            50.9542173
+          ],
+          [
+            5.486158,
+            50.9541204
+          ],
+          [
+            5.4859694,
+            50.9540951
           ]
         ]
       }
@@ -38460,7 +38480,7 @@
       "type": "Feature",
       "id": "way/233048708",
       "properties": {
-        "cycleway": "lane",
+        "cycleway": "track",
         "highway": "tertiary",
         "name": "Sledderloweg",
         "id": "way/233048708"
@@ -38473,8 +38493,8 @@
             50.9496132
           ],
           [
-            5.5142056,
-            50.9490717
+            5.5142144,
+            50.9490588
           ]
         ]
       }
@@ -38484,6 +38504,7 @@
       "id": "way/233048713",
       "properties": {
         "highway": "track",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/233048713"
       },
@@ -38532,6 +38553,7 @@
       "properties": {
         "highway": "track",
         "motor_vehicle": "no",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/233048726"
       },
@@ -40070,6 +40092,7 @@
         "highway": "track",
         "motor_vehicle": "no",
         "name": "Lessenberg",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/255290003"
       },
@@ -40077,8 +40100,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.5025168,
-            50.9461681
+            5.502595,
+            50.9461957
           ],
           [
             5.5048429,
@@ -40100,6 +40123,7 @@
       "id": "way/255290059",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/255290059"
       },
       "geometry": {
@@ -40110,12 +40134,12 @@
             50.9473109
           ],
           [
-            5.5113551,
-            50.9474881
+            5.5114692,
+            50.9475176
           ],
           [
-            5.5116185,
-            50.9475722
+            5.5116214,
+            50.9476035
           ],
           [
             5.5119123,
@@ -40127,19 +40151,15 @@
           ],
           [
             5.5131048,
-            50.9481861
+            50.9481714
           ],
           [
             5.5133408,
             50.9483415
           ],
           [
-            5.5138389,
-            50.9487695
-          ],
-          [
-            5.5142056,
-            50.9490717
+            5.513776,
+            50.9487197
           ]
         ]
       }
@@ -44258,6 +44278,7 @@
       "properties": {
         "highway": "track",
         "motor_vehicle": "no",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/393292786"
       },
@@ -44320,6 +44341,10 @@
             50.9469528
           ],
           [
+            5.5104617,
+            50.9470563
+          ],
+          [
             5.510983,
             50.9473109
           ]
@@ -44330,16 +44355,17 @@
       "type": "Feature",
       "id": "way/397539936",
       "properties": {
-        "highway": "path",
-        "surface": "unpaved",
+        "highway": "track",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/397539936"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.4876158,
-            50.9543114
+            5.4876524,
+            50.9542792
           ],
           [
             5.4875195,
@@ -44392,8 +44418,8 @@
             50.9542647
           ],
           [
-            5.4876158,
-            50.9543114
+            5.4876524,
+            50.9542792
           ]
         ]
       }
@@ -45623,32 +45649,6 @@
           [
             4.8592183,
             51.157127
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/430082031",
-      "properties": {
-        "highway": "track",
-        "tracktype": "grade3",
-        "id": "way/430082031"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.486669,
-            50.9542803
-          ],
-          [
-            5.486158,
-            50.9541204
-          ],
-          [
-            5.4859694,
-            50.9540951
           ]
         ]
       }
@@ -57709,6 +57709,7 @@
         "maxspeed": "30",
         "name": "Langerloweg",
         "surface": "paved",
+        "traffic_calming": "table",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1031134327"
       },
@@ -58764,7 +58765,7 @@
       "id": "way/1082826566",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/1082826566"
       },
       "geometry": {
@@ -61259,6 +61260,32 @@
     },
     {
       "type": "Feature",
+      "id": "way/1172785746",
+      "properties": {
+        "highway": "track",
+        "tracktype": "grade2",
+        "id": "way/1172785746"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.513776,
+            50.9487197
+          ],
+          [
+            5.5141063,
+            50.948995
+          ],
+          [
+            5.5142144,
+            50.9490588
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/11991650",
       "properties": {
         "highway": "residential",
@@ -61884,7 +61911,6 @@
       "id": "way/204049755",
       "properties": {
         "highway": "residential",
-        "lanes": "1",
         "maxspeed": "30",
         "name": "Steeneikstraat",
         "surface": "asphalt",
@@ -62070,7 +62096,7 @@
       "id": "way/204178632",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/204178632"
       },
       "geometry": {
@@ -62081,8 +62107,12 @@
             50.9608008
           ],
           [
-            5.4906276,
-            50.9610265
+            5.4906853,
+            50.9609166
+          ],
+          [
+            5.4906686,
+            50.9610376
           ],
           [
             5.4905938,
@@ -62170,7 +62200,7 @@
       "id": "way/204179732",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/204179732"
       },
       "geometry": {
@@ -62181,8 +62211,12 @@
             50.9595223
           ],
           [
-            5.4907965,
-            50.9595923
+            5.4907701,
+            50.9595753
+          ],
+          [
+            5.4907819,
+            50.9596476
           ],
           [
             5.4907946,
@@ -62201,8 +62235,8 @@
             50.9603278
           ],
           [
-            5.4906349,
-            50.9605247
+            5.490591,
+            50.9605284
           ],
           [
             5.4906103,
@@ -63051,7 +63085,7 @@
       "id": "way/430082037",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/430082037"
       },
       "geometry": {
@@ -63251,7 +63285,8 @@
       "properties": {
         "bicycle": "yes",
         "highway": "track",
-        "surface": "ground",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "traffic_sign": "BE:C3,BE:M2",
         "vehicle": "no",
         "id": "way/478168985"
