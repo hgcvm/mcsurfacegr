@@ -10615,19 +10615,17 @@
       "id": "way/101899654",
       "properties": {
         "highway": "track",
-        "tracktype": "grade4",
+        "smoothness": "very_bad",
+        "surface": "ground",
+        "tracktype": "grade5",
         "id": "way/101899654"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.6755795,
-            51.1764741
-          ],
-          [
-            5.6749388,
-            51.1733271
+            5.6749428,
+            51.1733389
           ],
           [
             5.674733,
@@ -10638,8 +10636,8 @@
             51.1712378
           ],
           [
-            5.674524,
-            51.1710489
+            5.6745334,
+            51.1710708
           ],
           [
             5.6745263,
@@ -10670,6 +10668,7 @@
       "properties": {
         "highway": "track",
         "motor_vehicle": "no",
+        "smoothness": "very_bad",
         "surface": "unpaved",
         "tracktype": "grade5",
         "id": "way/101899657"
@@ -10684,6 +10683,10 @@
           [
             5.6746253,
             51.1704642
+          ],
+          [
+            5.6735125,
+            51.1703575
           ],
           [
             5.6714458,
@@ -15310,8 +15313,8 @@
             51.1832504
           ],
           [
-            5.6762858,
-            51.1830108
+            5.6762918,
+            51.1830029
           ]
         ]
       }
@@ -15959,8 +15962,8 @@
       "id": "way/198516016",
       "properties": {
         "highway": "track",
-        "surface": "sand",
-        "tracktype": "grade2",
+        "surface": "ground",
+        "tracktype": "grade4",
         "id": "way/198516016"
       },
       "geometry": {
@@ -15982,28 +15985,14 @@
       "id": "way/198517587",
       "properties": {
         "highway": "track",
+        "smoothness": "bad",
+        "surface": "ground",
         "tracktype": "grade4",
         "id": "way/198517587"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.6762858,
-            51.1830108
-          ],
-          [
-            5.6762892,
-            51.182921
-          ],
-          [
-            5.6763461,
-            51.1828249
-          ],
-          [
-            5.6763432,
-            51.1826333
-          ],
           [
             5.6764044,
             51.1821932
@@ -16053,8 +16042,8 @@
             51.1785853
           ],
           [
-            5.6755795,
-            51.1764741
+            5.6755782,
+            51.1764791
           ]
         ]
       }
@@ -16688,7 +16677,6 @@
       "properties": {
         "bridge": "yes",
         "highway": "track",
-        "surface": "sand",
         "tracktype": "grade2",
         "id": "way/214795439"
       },
@@ -16712,7 +16700,7 @@
       "properties": {
         "highway": "track",
         "surface": "ground",
-        "tracktype": "grade2",
+        "tracktype": "grade4",
         "id": "way/214795440"
       },
       "geometry": {
@@ -51797,6 +51785,90 @@
           [
             5.6751931,
             51.1256117
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1173168303",
+      "properties": {
+        "highway": "track",
+        "smoothness": "bad",
+        "surface": "ground",
+        "tracktype": "grade4",
+        "id": "way/1173168303"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6755782,
+            51.1764791
+          ],
+          [
+            5.6749428,
+            51.1733389
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1173168308",
+      "properties": {
+        "highway": "track",
+        "smoothness": "very_bad",
+        "surface": "ground",
+        "tracktype": "grade4",
+        "id": "way/1173168308"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6763735,
+            51.1824158
+          ],
+          [
+            5.6764044,
+            51.1821932
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1173168309",
+      "properties": {
+        "highway": "track",
+        "smoothness": "bad",
+        "surface": "ground",
+        "tracktype": "grade4",
+        "id": "way/1173168309"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6762918,
+            51.1830029
+          ],
+          [
+            5.6762892,
+            51.182921
+          ],
+          [
+            5.6763461,
+            51.1828249
+          ],
+          [
+            5.6763432,
+            51.1826333
+          ],
+          [
+            5.6763735,
+            51.1824158
           ]
         ]
       }
