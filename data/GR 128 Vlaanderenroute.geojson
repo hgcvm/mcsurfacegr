@@ -9451,6 +9451,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Zenneweg",
+        "smoothness": "intermediate",
         "surface": "sett",
         "id": "way/24451560"
       },
@@ -10643,13 +10644,17 @@
       "type": "Feature",
       "id": "way/24831384",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "50",
         "maxweight": "3.5",
         "maxweight:conditional": "none @ destination",
         "maxweight:psv": "none",
         "name": "Wormelaarstraat",
+        "smoothness": "excellent",
         "source:maxspeed": "BE:zone50",
+        "surface": "asphalt",
         "id": "way/24831384"
       },
       "geometry": {
@@ -10794,9 +10799,13 @@
       "type": "Feature",
       "id": "way/24831486",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "motor_vehicle": "designated",
         "name": "Kleine Molenweg",
+        "smoothness": "good",
+        "surface": "concrete",
         "id": "way/24831486"
       },
       "geometry": {
@@ -11562,7 +11571,10 @@
       "id": "way/25472663",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kluisweg",
+        "smoothness": "good",
+        "surface": "concrete",
         "id": "way/25472663"
       },
       "geometry": {
@@ -11707,7 +11719,9 @@
       "id": "way/25472697",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kluisweg",
+        "surface": "concrete",
         "id": "way/25472697"
       },
       "geometry": {
@@ -12227,6 +12241,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Cardijnstraat",
+        "smoothness": "intermediate",
         "surface": "sett",
         "id": "way/25719399"
       },
@@ -43047,6 +43062,10 @@
           [
             5.0543301,
             50.8435519
+          ],
+          [
+            5.0544697,
+            50.8435926
           ],
           [
             5.0562702,
@@ -113291,12 +113310,15 @@
       "id": "way/771085065",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "50",
         "maxweight": "3.5",
         "maxweight:conditional": "none @ destination",
         "maxweight:psv": "none",
         "name": "Singelweg",
+        "smoothness": "good",
         "source:maxspeed": "BE:zone50",
+        "surface": "concrete",
         "id": "way/771085065"
       },
       "geometry": {
@@ -124983,6 +125005,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Zenneweg",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/1074692757"
       },
