@@ -10561,7 +10561,9 @@
       "id": "way/101899650",
       "properties": {
         "highway": "track",
-        "tracktype": "grade2",
+        "smoothness": "bad",
+        "surface": "ground",
+        "tracktype": "grade4",
         "id": "way/101899650"
       },
       "geometry": {
@@ -10604,8 +10606,8 @@
             51.1661389
           ],
           [
-            5.6933787,
-            51.1656405
+            5.6933961,
+            51.165646
           ]
         ]
       }
@@ -15111,6 +15113,10 @@
             51.1583665
           ],
           [
+            5.703,
+            51.1588377
+          ],
+          [
             5.6997277,
             51.159391
           ],
@@ -15970,12 +15976,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6933787,
-            51.1656405
+            5.6933961,
+            51.165646
           ],
           [
-            5.6934165,
-            51.1656059
+            5.6934286,
+            51.1656114
           ]
         ]
       }
@@ -16677,6 +16683,7 @@
       "properties": {
         "bridge": "yes",
         "highway": "track",
+        "layer": "1",
         "tracktype": "grade2",
         "id": "way/214795439"
       },
@@ -16684,12 +16691,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6934165,
-            51.1656059
+            5.6934286,
+            51.1656114
           ],
           [
-            5.6934664,
-            51.1655509
+            5.6934825,
+            51.1655568
           ]
         ]
       }
@@ -16699,6 +16706,7 @@
       "id": "way/214795440",
       "properties": {
         "highway": "track",
+        "smoothness": "bad",
         "surface": "ground",
         "tracktype": "grade4",
         "id": "way/214795440"
@@ -16707,16 +16715,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6934664,
-            51.1655509
+            5.6934825,
+            51.1655568
           ],
           [
-            5.693702,
-            51.1652811
+            5.6937261,
+            51.1652828
           ],
           [
-            5.6980459,
-            51.1606033
+            5.69514,
+            51.1637091
+          ],
+          [
+            5.6982122,
+            51.160425
           ],
           [
             5.6988258,
@@ -23051,8 +23063,7 @@
       "type": "Feature",
       "id": "way/242827052",
       "properties": {
-        "foot": "yes",
-        "highway": "path",
+        "highway": "footway",
         "id": "way/242827052"
       },
       "geometry": {
@@ -23065,6 +23076,10 @@
           [
             5.6791389,
             51.1664688
+          ],
+          [
+            5.6789005,
+            51.1671339
           ],
           [
             5.6788869,
@@ -25556,7 +25571,9 @@
       "id": "way/254380196",
       "properties": {
         "highway": "track",
-        "tracktype": "grade3",
+        "smoothness": "very_bad",
+        "surface": "ground",
+        "tracktype": "grade5",
         "id": "way/254380196"
       },
       "geometry": {
@@ -25578,16 +25595,14 @@
       "id": "way/254380201",
       "properties": {
         "highway": "track",
-        "tracktype": "grade4",
+        "smoothness": "very_bad",
+        "surface": "dirt",
+        "tracktype": "grade5",
         "id": "way/254380201"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.6763767,
-            51.1652944
-          ],
           [
             5.6750659,
             51.1665497
@@ -51869,6 +51884,30 @@
           [
             5.6763735,
             51.1824158
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1174388006",
+      "properties": {
+        "highway": "track",
+        "smoothness": "very_bad",
+        "surface": "dirt",
+        "tracktype": "grade5",
+        "id": "way/1174388006"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6763767,
+            51.1652944
+          ],
+          [
+            5.6750659,
+            51.1665497
           ]
         ]
       }
