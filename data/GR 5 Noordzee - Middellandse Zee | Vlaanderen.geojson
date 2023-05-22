@@ -12645,6 +12645,7 @@
         "highway": "residential",
         "name": "Beverstraat",
         "name:etymology:wikidata": "Q181191",
+        "surface": "asphalt",
         "id": "way/26396380"
       },
       "geometry": {
@@ -12711,6 +12712,8 @@
       "properties": {
         "highway": "track",
         "name": "Hommelstraat",
+        "surface": "pebblestone",
+        "tracktype": "grade2",
         "id": "way/26396386"
       },
       "geometry": {
@@ -13710,7 +13713,7 @@
         "foot": "yes",
         "highway": "path",
         "motor_vehicle": "no",
-        "surface": "unpaved",
+        "surface": "compacted",
         "id": "way/31692474"
       },
       "geometry": {
@@ -14953,7 +14956,7 @@
       "type": "Feature",
       "id": "way/34844643",
       "properties": {
-        "highway": "path",
+        "highway": "footway",
         "surface": "dirt",
         "id": "way/34844643"
       },
@@ -25940,6 +25943,8 @@
       "id": "way/133876883",
       "properties": {
         "highway": "track",
+        "surface": "asphalt",
+        "tracktype": "grade1",
         "id": "way/133876883"
       },
       "geometry": {
@@ -25969,6 +25974,8 @@
       "id": "way/133876885",
       "properties": {
         "highway": "track",
+        "surface": "pebblestone",
+        "tracktype": "grade2",
         "id": "way/133876885"
       },
       "geometry": {
@@ -36388,7 +36395,7 @@
       "type": "Feature",
       "id": "way/222004041",
       "properties": {
-        "highway": "path",
+        "highway": "footway",
         "surface": "dirt",
         "id": "way/222004041"
       },
@@ -39989,7 +39996,7 @@
         "lit": "yes",
         "name": "Oevelse dreef",
         "name:etymology:wikidata": "Q2765357",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/254379308"
       },
       "geometry": {
@@ -43101,6 +43108,7 @@
       "id": "way/363751172",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Bellensbos",
         "surface": "asphalt",
         "id": "way/363751172"
@@ -43133,7 +43141,8 @@
       "properties": {
         "highway": "track",
         "name": "Bellensbos",
-        "surface": "unpaved",
+        "surface": "asphalt",
+        "tracktype": "grade1",
         "id": "way/363751173"
       },
       "geometry": {
@@ -45026,6 +45035,7 @@
       "id": "way/413149260",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "30",
         "maxspeed:type": "BE:zone30",
         "name": "Bosstraat",
@@ -45056,7 +45066,7 @@
         "maxspeed": "50",
         "maxspeed:type": "BE:zone50",
         "name": "Prior Backxlaan",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/413149274"
       },
       "geometry": {
@@ -45087,7 +45097,7 @@
       "properties": {
         "highway": "path",
         "source": "local_knowledge",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/413149284"
       },
       "geometry": {
@@ -45891,6 +45901,7 @@
       "id": "way/454466736",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/454466736"
       },
       "geometry": {
@@ -46264,6 +46275,7 @@
       "id": "way/460102986",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/460102986"
       },
       "geometry": {
@@ -47747,8 +47759,10 @@
         "foot": "permissive",
         "highway": "unclassified",
         "horse": "permissive",
+        "lane_markings": "no",
         "motor_vehicle": "permissive",
         "name": "Nieuwe Hoevestraat",
+        "surface": "asphalt",
         "id": "way/478516267"
       },
       "geometry": {
@@ -47782,7 +47796,9 @@
       "id": "way/478516269",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Ilsestraat",
+        "surface": "asphalt",
         "id": "way/478516269"
       },
       "geometry": {
@@ -47805,6 +47821,7 @@
       "properties": {
         "highway": "path",
         "name": "Bellensbos",
+        "surface": "asphalt",
         "id": "way/478516270"
       },
       "geometry": {
@@ -47831,7 +47848,7 @@
         "maxspeed": "50",
         "maxspeed:type": "BE:zone50",
         "name": "Bijstraat",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/478516274"
       },
       "geometry": {
@@ -47864,6 +47881,7 @@
       "type": "Feature",
       "id": "way/478517099",
       "properties": {
+        "check_date:surface": "2023-05-21",
         "highway": "path",
         "motor_vehicle": "no",
         "surface": "dirt",
@@ -47913,8 +47931,10 @@
       "type": "Feature",
       "id": "way/478517101",
       "properties": {
+        "check_date:surface": "2023-05-21",
         "highway": "track",
         "surface": "dirt",
+        "tracktype": "grade2",
         "id": "way/478517101"
       },
       "geometry": {
@@ -47936,6 +47956,7 @@
       "id": "way/478517105",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/478517105"
       },
       "geometry": {
@@ -47989,6 +48010,7 @@
         "foot": "yes",
         "highway": "path",
         "motor_vehicle": "no",
+        "surface": "dirt",
         "id": "way/478517438"
       },
       "geometry": {
@@ -50588,6 +50610,7 @@
         "highway": "path",
         "horse": "no",
         "motor_vehicle": "no",
+        "surface": "dirt",
         "id": "way/610847263"
       },
       "geometry": {
@@ -51830,7 +51853,7 @@
       "properties": {
         "foot": "yes",
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/712652123"
       },
       "geometry": {
@@ -51866,7 +51889,7 @@
         "bridge": "yes",
         "foot": "yes",
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/712652124"
       },
       "geometry": {
@@ -53179,7 +53202,7 @@
         "motorcar": "no",
         "motorcycle": "no",
         "psv": "yes",
-        "surface": "paved",
+        "surface": "concrete",
         "id": "way/781190233"
       },
       "geometry": {
