@@ -327,7 +327,8 @@
         "maxspeed": "30",
         "name": "Karel van Lotharingenstraat",
         "name:etymology:wikidata": "Q158232",
-        "parking:lane:right": "no_parking",
+        "parking:right": "no",
+        "parking:right:restriction": "no_parking",
         "sidewalk": "both",
         "surface": "asphalt",
         "traffic_sign": "BE:F111zone;BE:F4a;BE:F1a",
@@ -10347,72 +10348,15 @@
       "type": "Feature",
       "id": "way/32061864",
       "properties": {
-        "access": "agricultural",
         "highway": "track",
         "name": "Buurtweg 23",
-        "surface": "compacted",
-        "tracktype": "grade2",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/32061864"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.5828874,
-            50.903775
-          ],
-          [
-            4.5831509,
-            50.9036468
-          ],
-          [
-            4.5834875,
-            50.9034887
-          ],
-          [
-            4.5838107,
-            50.9033525
-          ],
-          [
-            4.5846764,
-            50.9030202
-          ],
-          [
-            4.5849232,
-            50.9029356
-          ],
-          [
-            4.5852564,
-            50.9028256
-          ],
-          [
-            4.5855582,
-            50.9027203
-          ],
-          [
-            4.5861261,
-            50.902514
-          ],
-          [
-            4.5867766,
-            50.9022683
-          ],
-          [
-            4.5868725,
-            50.902248
-          ],
-          [
-            4.5870253,
-            50.902182
-          ],
-          [
-            4.5872607,
-            50.9020911
-          ],
-          [
-            4.5875142,
-            50.9020099
-          ],
           [
             4.587879,
             50.9018953
@@ -17798,8 +17742,10 @@
         "highway": "living_street",
         "maxspeed": "20",
         "name": "Halfmaartstraat",
-        "parking:condition:right": "disabled",
-        "parking:lane:right": "marked",
+        "parking:right": "yes",
+        "parking:right:access": "no",
+        "parking:right:disabled": "designated",
+        "parking:right:markings": "yes",
         "surface": "sett",
         "traffic_sign": "BE:F12a;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
@@ -20307,15 +20253,17 @@
       "id": "way/80180087",
       "properties": {
         "highway": "path",
+        "horse": "no",
         "name": "Voetweg 47",
+        "vehicle": "no",
         "id": "way/80180087"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.5730618,
-            50.9081367
+            4.5730779,
+            50.9081206
           ],
           [
             4.5730809,
@@ -21936,7 +21884,7 @@
         "name": "Zwartzustersstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no",
+        "parking:both": "no",
         "sidewalk": "both",
         "surface": "sett",
         "traffic_sign": "BE:F111zone;BE:F4a;BE:F1a",
@@ -26607,9 +26555,10 @@
         "name": "Onze-Lieve-Vrouwestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:condition:both": "ticket",
-        "parking:lane:left": "diagonal",
-        "parking:lane:right": "parallel",
+        "parking:both": "yes",
+        "parking:both:fee": "yes",
+        "parking:left:orientation": "diagonal",
+        "parking:right:orientation": "parallel",
         "id": "way/134080223"
       },
       "geometry": {
@@ -27514,14 +27463,9 @@
       "type": "Feature",
       "id": "way/134835067",
       "properties": {
-        "access": "destination",
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
-        "horse": "yes",
-        "maxspeed": "30",
         "name": "Voetweg 76",
-        "surface": "ground",
+        "surface": "dirt",
         "id": "way/134835067"
       },
       "geometry": {
@@ -27532,8 +27476,8 @@
             50.9076391
           ],
           [
-            4.5730618,
-            50.9081367
+            4.5730779,
+            50.9081206
           ]
         ]
       }
@@ -36320,31 +36264,26 @@
       "type": "Feature",
       "id": "way/650290869",
       "properties": {
-        "access": "agricultural",
         "highway": "track",
         "name": "Buurtweg 23",
-        "surface": "ground",
-        "tracktype": "grade2",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/650290869"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.5749885,
-            50.9053919
+            4.576463,
+            50.9052659
           ],
           [
-            4.5751922,
-            50.90529
+            4.5769563,
+            50.9052596
           ],
           [
-            4.5761626,
-            50.9052651
-          ],
-          [
-            4.57741,
-            50.9052399
+            4.5774248,
+            50.905245
           ],
           [
             4.5777833,
@@ -36367,8 +36306,20 @@
             50.9048562
           ],
           [
-            4.5811164,
-            50.9046297
+            4.5807275,
+            50.9048038
+          ],
+          [
+            4.5809367,
+            50.9047218
+          ],
+          [
+            4.5811352,
+            50.904628
+          ],
+          [
+            4.5820659,
+            50.9041331
           ],
           [
             4.5822678,
@@ -38878,8 +38829,9 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Sluisstraat",
-        "parking:lane:both": "no_stopping",
-        "parking:lane:left": "no_parking",
+        "parking:both": "no",
+        "parking:both:restriction": "no_stopping",
+        "parking:left": "no",
         "sidewalk": "both",
         "surface": "sett",
         "id": "way/844373392"
@@ -39120,14 +39072,9 @@
       "type": "Feature",
       "id": "way/857526802",
       "properties": {
-        "access": "destination",
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
-        "horse": "yes",
-        "maxspeed": "30",
         "name": "Voetweg 76",
-        "surface": "ground",
+        "surface": "dirt",
         "id": "way/857526802"
       },
       "geometry": {
@@ -42143,6 +42090,134 @@
     },
     {
       "type": "Feature",
+      "id": "way/1175756630",
+      "properties": {
+        "highway": "track",
+        "name": "Buurtweg 23",
+        "surface": "gravel",
+        "tracktype": "grade2",
+        "id": "way/1175756630"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5749885,
+            50.9053919
+          ],
+          [
+            4.5750788,
+            50.9053391
+          ],
+          [
+            4.5751922,
+            50.90529
+          ],
+          [
+            4.576463,
+            50.9052659
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1175756635",
+      "properties": {
+        "highway": "track",
+        "name": "Buurtweg 23",
+        "surface": "gravel",
+        "tracktype": "grade2",
+        "id": "way/1175756635"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5868725,
+            50.902248
+          ],
+          [
+            4.5870253,
+            50.902182
+          ],
+          [
+            4.5872607,
+            50.9020911
+          ],
+          [
+            4.5875142,
+            50.9020099
+          ],
+          [
+            4.587879,
+            50.9018953
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1175756636",
+      "properties": {
+        "highway": "track",
+        "name": "Buurtweg 23",
+        "surface": "dirt",
+        "tracktype": "grade3",
+        "id": "way/1175756636"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5828874,
+            50.903775
+          ],
+          [
+            4.5831509,
+            50.9036468
+          ],
+          [
+            4.5834875,
+            50.9034887
+          ],
+          [
+            4.5838107,
+            50.9033525
+          ],
+          [
+            4.5846764,
+            50.9030202
+          ],
+          [
+            4.5849232,
+            50.9029356
+          ],
+          [
+            4.5852564,
+            50.9028256
+          ],
+          [
+            4.5855582,
+            50.9027203
+          ],
+          [
+            4.5861261,
+            50.902514
+          ],
+          [
+            4.5867766,
+            50.9022683
+          ],
+          [
+            4.5868725,
+            50.902248
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/3372474",
       "properties": {
         "bicycle": "designated",
@@ -42583,7 +42658,8 @@
         "maxspeed": "30",
         "name": "Karel van Lotharingenstraat",
         "name:etymology:wikidata": "Q158232",
-        "parking:lane:right": "no_parking",
+        "parking:right": "no",
+        "parking:right:restriction": "no_parking",
         "sidewalk": "both",
         "surface": "asphalt",
         "traffic_sign": "BE:F111zone;BE:F4a;BE:F1a",
@@ -42725,7 +42801,7 @@
         "lit": "no",
         "maxspeed": "30",
         "name": "Abdij van Park",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "no",
         "speed_pedelec": "designated",
         "surface": "asphalt",
@@ -43385,7 +43461,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:bus": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/9904108"
@@ -43586,10 +43662,10 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Hoveniersdreef",
-        "parking:condition:right": "free",
-        "parking:lane:left": "no",
-        "parking:lane:right": "parallel",
-        "parking:lane:right:parallel": "street_side",
+        "parking:left": "no",
+        "parking:right": "street_side",
+        "parking:right:fee": "no",
+        "parking:right:orientation": "parallel",
         "sidewalk": "both",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -43985,9 +44061,10 @@
         "name": "Tiensesteenweg",
         "name:etymology:wikidata": "Q456550",
         "overtaking": "no",
-        "parking:condition:right": "disc",
-        "parking:condition:right:maxstay": "2 hours",
-        "parking:lane:right": "parallel",
+        "parking:right": "yes",
+        "parking:right:authentication:disc": "yes",
+        "parking:right:maxstay": "2 hours",
+        "parking:right:orientation": "parallel",
         "placement:both_ways": "middle_of:1",
         "ref": "N3",
         "surface": "asphalt",
@@ -46003,8 +46080,10 @@
         "highway": "living_street",
         "maxspeed": "20",
         "name": "Halfmaartstraat",
-        "parking:condition:right": "disabled",
-        "parking:lane:right": "marked",
+        "parking:right": "yes",
+        "parking:right:access": "no",
+        "parking:right:disabled": "designated",
+        "parking:right:markings": "yes",
         "surface": "sett",
         "traffic_sign": "BE:F12a;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
@@ -46896,9 +46975,10 @@
         "name": "Tiensesteenweg",
         "name:etymology:wikidata": "Q456550",
         "overtaking": "no",
-        "parking:condition:both": "disc",
-        "parking:condition:both:maxstay": "2 hours",
-        "parking:lane:both": "parallel",
+        "parking:both": "yes",
+        "parking:both:authentication:disc": "yes",
+        "parking:both:maxstay": "2 hours",
+        "parking:both:orientation": "parallel",
         "ref": "N3",
         "surface": "asphalt",
         "toll:hgv": "yes",
@@ -47164,7 +47244,7 @@
         "maxspeed": "30",
         "name": "Geldenaaksebaan",
         "note": "street renewed and made narrower 04/2011, separate ducts for rainwater and sewage installed",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "traffic_sign": "BE:F4a;BE:F1a",
@@ -47196,7 +47276,7 @@
         "maxspeed": "30",
         "name": "Naamsesteenweg",
         "name:etymology:wikidata": "Q134121",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "ref": "N251",
         "sidewalk": "both",
         "surface": "asphalt",
@@ -47226,8 +47306,9 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Hoveniersdreef",
-        "parking:lane:left": "parallel",
-        "parking:lane:right": "no",
+        "parking:left": "yes",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -47402,7 +47483,7 @@
         "name": "Zwartzustersstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no",
+        "parking:both": "no",
         "sidewalk": "both",
         "surface": "sett",
         "traffic_sign": "BE:F111zone;BE:F4a;BE:F1a",
@@ -47907,7 +47988,7 @@
         "maxspeed": "50",
         "name": "Abdij van Park",
         "oneway": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "shoulder": "no",
         "sidewalk": "no",
         "surface": "sett",
@@ -48199,7 +48280,8 @@
         "lanes": "1",
         "lit": "yes",
         "name": "Dreefstraat",
-        "parking:condition:both": "disc",
+        "parking:both": "yes",
+        "parking:both:authentication:disc": "yes",
         "surface": "asphalt",
         "traffic_sign": "BE:F12a;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
@@ -49277,7 +49359,7 @@
         "maxheight": "3",
         "maxspeed": "50",
         "name": "Abdij van Park",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "no",
         "surface": "unhewn_cobblestone",
         "tunnel": "building_passage",
@@ -49851,7 +49933,7 @@
         "name": "Hoveniersdreef",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "right",
         "surface": "asphalt",
         "id": "way/370822528"
@@ -49944,7 +50026,7 @@
         "name": "Grensstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -50021,8 +50103,9 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:bus": "no",
-        "parking:condition:right": "disc",
-        "parking:condition:right:maxstay": "2 hours",
+        "parking:right": "yes",
+        "parking:right:authentication:disc": "yes",
+        "parking:right:maxstay": "2 hours",
         "parking_lane:left": "no_parking",
         "parking_lane:right": "parallel",
         "sidewalk": "both",
@@ -50098,8 +50181,9 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:bus": "no",
-        "parking:condition:right": "disc",
-        "parking:condition:right:maxstay": "2 hours",
+        "parking:right": "yes",
+        "parking:right:authentication:disc": "yes",
+        "parking:right:maxstay": "2 hours",
         "parking_lane:left": "no_parking",
         "parking_lane:right": "parallel",
         "sidewalk": "both",
@@ -50137,7 +50221,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:bus": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
@@ -50172,8 +50256,9 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:bus": "no",
-        "parking:condition:right": "disc",
-        "parking:condition:right:maxstay": "2 hours",
+        "parking:right": "yes",
+        "parking:right:authentication:disc": "yes",
+        "parking:right:maxstay": "2 hours",
         "parking_lane:left": "no_parking",
         "parking_lane:right": "parallel",
         "sidewalk": "both",
@@ -50767,9 +50852,10 @@
         "name": "Tiensesteenweg",
         "name:etymology:wikidata": "Q456550",
         "overtaking": "no",
-        "parking:condition:both": "disc",
-        "parking:condition:both:maxstay": "2 hours",
-        "parking:lane:both": "parallel",
+        "parking:both": "yes",
+        "parking:both:authentication:disc": "yes",
+        "parking:both:maxstay": "2 hours",
+        "parking:both:orientation": "parallel",
         "ref": "N3",
         "sidewalk": "both",
         "surface": "asphalt",
@@ -51100,7 +51186,7 @@
         "maxheight": "3.8",
         "maxspeed": "50",
         "name": "Abdij van Park",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "no",
         "surface": "sett",
         "tunnel": "building_passage",
@@ -51135,7 +51221,7 @@
         "maxspeed": "50",
         "name": "Abdij van Park",
         "oneway": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "shoulder": "no",
         "sidewalk": "no",
         "surface": "sett",
@@ -51177,7 +51263,7 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Abdij van Park",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "no",
         "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
@@ -51602,8 +51688,9 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Sluisstraat",
-        "parking:lane:both": "no_stopping",
-        "parking:lane:left": "no_parking",
+        "parking:both": "no",
+        "parking:both:restriction": "no_stopping",
+        "parking:left": "no",
         "sidewalk": "both",
         "surface": "sett",
         "id": "way/844373392"
@@ -52421,10 +52508,10 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Hoveniersdreef",
-        "parking:condition:right": "free",
-        "parking:lane:left": "no",
-        "parking:lane:right": "parallel",
-        "parking:lane:right:parallel": "street_side",
+        "parking:left": "no",
+        "parking:right": "street_side",
+        "parking:right:fee": "no",
+        "parking:right:orientation": "parallel",
         "sidewalk": "both",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -52501,7 +52588,8 @@
         "name": "Kardinaal Mercierlaan",
         "name:etymology:wikidata": "Q468097",
         "oneway": "yes",
-        "parking:condition:both": "disc",
+        "parking:both": "yes",
+        "parking:both:authentication:disc": "yes",
         "surface": "asphalt",
         "id": "way/1114905862"
       },
@@ -52799,7 +52887,7 @@
         "maxspeed": "50",
         "name": "Abdij van Park",
         "oneway": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "shoulder": "no",
         "sidewalk": "no",
         "surface": "sett",
@@ -83434,9 +83522,10 @@
         "name": "Onze-Lieve-Vrouwestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:condition:both": "ticket",
-        "parking:lane:left": "diagonal",
-        "parking:lane:right": "parallel",
+        "parking:both": "yes",
+        "parking:both:fee": "yes",
+        "parking:left:orientation": "diagonal",
+        "parking:right:orientation": "parallel",
         "id": "way/134080223"
       },
       "geometry": {

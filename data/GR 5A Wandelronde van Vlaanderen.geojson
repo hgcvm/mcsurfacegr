@@ -809,6 +809,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Fort Ferdinandusweg",
+        "operator": "Waterschap Scheldestromen",
         "surface": "asphalt",
         "id": "way/7598071"
       },
@@ -920,6 +921,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Fort Ferdinandusweg",
+        "operator": "Waterschap Scheldestromen",
         "surface": "asphalt",
         "id": "way/7598230"
       },
@@ -943,8 +945,8 @@
             51.2596659
           ],
           [
-            3.9696498,
-            51.2608018
+            3.9696964,
+            51.2607605
           ]
         ]
       }
@@ -4547,9 +4549,11 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Willem Klooslaan",
-        "parking:condition:left": "free",
-        "parking:lane:left": "parallel",
-        "parking:lane:right": "no_parking",
+        "parking:left": "yes",
+        "parking:left:fee": "no",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "parking:right:restriction": "no_parking",
         "sidewalk": "both",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/23713632"
@@ -12227,6 +12231,7 @@
       "properties": {
         "highway": "track",
         "lit": "no",
+        "name": "Gravejanspad",
         "id": "way/33705131"
       },
       "geometry": {
@@ -16720,6 +16725,7 @@
       "properties": {
         "highway": "track",
         "name": "Fort Ferdinandusweg",
+        "operator": "Waterschap Scheldestromen",
         "surface": "ground",
         "tracktype": "grade3",
         "id": "way/38653980"
@@ -16831,6 +16837,7 @@
       "properties": {
         "highway": "unclassified",
         "maxspeed": "60",
+        "operator": "Provincie Zeeland",
         "surface": "asphalt",
         "id": "way/38653982"
       },
@@ -16846,8 +16853,8 @@
             51.2607576
           ],
           [
-            3.9696498,
-            51.2608018
+            3.9696731,
+            51.2608082
           ]
         ]
       }
@@ -16943,6 +16950,7 @@
         "highway": "unclassified",
         "maxspeed": "60",
         "noname": "yes",
+        "operator": "Provincie Zeeland",
         "surface": "asphalt",
         "id": "way/38653989"
       },
@@ -18240,24 +18248,24 @@
             51.1809235
           ],
           [
-            2.803395,
-            51.1809298
+            2.8033872,
+            51.1809267
           ],
           [
-            2.8032028,
-            51.1809277
+            2.8032055,
+            51.1809256
           ],
           [
             2.8031196,
-            51.1809277
+            51.1809252
           ],
           [
-            2.8030412,
-            51.1809323
+            2.8030439,
+            51.1809281
           ],
           [
-            2.8028454,
-            51.1809458
+            2.802842,
+            51.1809441
           ],
           [
             2.8027626,
@@ -32427,8 +32435,8 @@
         "maxweight": "3.5",
         "maxweight:conditional": "none @ destination",
         "name": "Waterkasteellaan",
-        "parking:lane:right": "parallel",
-        "parking:lane:right:parallel": "on_kerb",
+        "parking:right": "on_kerb",
+        "parking:right:orientation": "parallel",
         "sidewalk": "left",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -32506,7 +32514,7 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Kolonel d'Haenenlaan",
-        "parking:condition": "ticket",
+        "parking:fee": "yes",
         "source:maxspeed": "sign",
         "surface": "asphalt",
         "id": "way/137523936"
@@ -41016,8 +41024,9 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Willem Klooslaan",
-        "parking:condition:both": "free",
-        "parking:lane:both": "parallel",
+        "parking:both": "yes",
+        "parking:both:fee": "no",
+        "parking:both:orientation": "parallel",
         "sidewalk": "both",
         "surface": "paving_stones",
         "zone:traffic": "BE-VLG:urban",
@@ -48407,6 +48416,7 @@
       "id": "way/390494354",
       "properties": {
         "highway": "track",
+        "name": "Gravejanspad",
         "surface": "earth",
         "tracktype": "grade4",
         "id": "way/390494354"
@@ -48463,6 +48473,7 @@
       "properties": {
         "highway": "path",
         "lit": "no",
+        "name": "Comerrattenpad",
         "surface": "gravel",
         "id": "way/390494355"
       },
@@ -48613,6 +48624,7 @@
       "id": "way/390494372",
       "properties": {
         "highway": "track",
+        "name": "Gravejanspad",
         "surface": "grass",
         "tracktype": "grade4",
         "id": "way/390494372"
@@ -50212,28 +50224,32 @@
             51.1780068
           ],
           [
-            2.7968664,
-            51.1780661
+            2.7968667,
+            51.1780642
           ],
           [
-            2.7968455,
-            51.1781427
+            2.7968667,
+            51.1781067
+          ],
+          [
+            2.7968547,
+            51.1781416
           ],
           [
             2.7968302,
             51.178196
           ],
           [
-            2.7968083,
-            51.1782421
+            2.7968057,
+            51.1782416
           ],
           [
             2.7967759,
             51.1783013
           ],
           [
-            2.7967644,
-            51.1783497
+            2.7967668,
+            51.178349
           ],
           [
             2.7967776,
@@ -56217,7 +56233,8 @@
         "highway": "residential",
         "lit": "yes",
         "name": "Maria-Hendrikalaan",
-        "parking:lane:right": "no_parking",
+        "parking:right": "no",
+        "parking:right:restriction": "no_parking",
         "sidewalk": "right",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -64482,8 +64499,8 @@
         "maxweight": "3.5",
         "maxweight:conditional": "none @ destination",
         "name": "Waterkasteellaan",
-        "parking:lane:right": "parallel",
-        "parking:lane:right:parallel": "on_kerb",
+        "parking:right": "on_kerb",
+        "parking:right:orientation": "parallel",
         "sidewalk": "left",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -67328,7 +67345,7 @@
         "maxspeed": "50",
         "name": "Zuidenwindhelling",
         "oneway": "no",
-        "parking:condition": "ticket",
+        "parking:fee": "yes",
         "surface": "asphalt",
         "id": "way/1158625644"
       },
@@ -67945,6 +67962,30 @@
           [
             3.1435443,
             51.1799752
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1175597132",
+      "properties": {
+        "highway": "unclassified",
+        "name": "Fort Ferdinandusweg",
+        "operator": "Provincie Zeeland",
+        "surface": "asphalt",
+        "id": "way/1175597132"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.9696964,
+            51.2607605
+          ],
+          [
+            3.9696731,
+            51.2608082
           ]
         ]
       }
@@ -158875,8 +158916,8 @@
         "highway": "residential",
         "name": "Floris Primsstraat",
         "name:etymology:wikidata": "Q1809244",
-        "parking:lane:both": "parallel",
-        "parking:lane:both:parallel": "street_side",
+        "parking:both": "street_side",
+        "parking:both:orientation": "parallel",
         "surface": "asphalt",
         "id": "way/22868162"
       },
@@ -159616,8 +159657,8 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Eric Sasselaan",
-        "parking:lane:both": "parallel",
-        "parking:lane:both:parallel": "on_street",
+        "parking:both": "lane",
+        "parking:both:orientation": "parallel",
         "surface": "sett",
         "id": "way/24479204"
       },
@@ -171280,7 +171321,7 @@
         "maxspeed": "30",
         "name": "Langerei",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
@@ -171313,7 +171354,7 @@
         "maxspeed": "30",
         "maxspeed:type": "BE:zone30",
         "oneway": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "both",
         "surface": "sett",
         "id": "way/4329129"
@@ -171414,7 +171455,7 @@
         "name": "Walplein",
         "oneway": "yes",
         "oneway:bicycle": "yes",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
@@ -171453,7 +171494,7 @@
         "motor_vehicle": "destination",
         "name": "Gouden-Handrei",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
@@ -171516,7 +171557,7 @@
         "name": "Moerstraat",
         "oneway": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "right",
         "source:maxspeed": "BE:zone30",
@@ -171581,7 +171622,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
@@ -171619,8 +171660,9 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "parallel",
+        "parking:left": "no",
+        "parking:right": "yes",
+        "parking:right:orientation": "parallel",
         "sett:pattern": "arc",
         "sidewalk": "separate",
         "source:maxspeed": "sign",
@@ -171655,8 +171697,9 @@
         "name": "Sint-Annaplein",
         "name:etymology:wikidata": "Q2555698; Q164294",
         "oneway": "no",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "parallel",
+        "parking:left": "no",
+        "parking:right": "yes",
+        "parking:right:orientation": "parallel",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
@@ -171776,8 +171819,10 @@
         "name:etymology:wikidata": "Q2555698",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:left": "parallel",
-        "parking:lane:right": "no_parking",
+        "parking:left": "yes",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "parking:right:restriction": "no_parking",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
@@ -171817,7 +171862,7 @@
         "name:etymology:wikidata": "Q164294",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
@@ -171914,7 +171959,7 @@
         "name": "Augustijnenrei",
         "name:etymology:wikidata": "Q2283106",
         "oneway": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
@@ -171973,7 +172018,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
@@ -172083,7 +172128,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
@@ -172200,7 +172245,7 @@
         "name": "Wollestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "sidewalk:both:surface": "paving_stones",
@@ -172306,7 +172351,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:taxi": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
@@ -172348,7 +172393,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:taxi": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "both",
         "surface": "sett",
         "width:carriageway": "5.5",
@@ -172379,7 +172424,7 @@
         "name": "Zonnekemeers",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
@@ -172747,8 +172792,9 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "parallel",
+        "parking:left": "no",
+        "parking:right": "yes",
+        "parking:right:orientation": "parallel",
         "sett:pattern": "arc",
         "sidewalk": "no",
         "surface": "sett",
@@ -172817,7 +172863,7 @@
         "name": "Walplein",
         "oneway": "yes",
         "oneway:bicycle": "yes",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
         "source:width": "ARCore",
@@ -172872,7 +172918,7 @@
         "name": "Torenbrug",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
@@ -172913,7 +172959,7 @@
         "motor_vehicle": "destination",
         "name": "Pottenmakersstraat",
         "oneway": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
@@ -172998,7 +173044,7 @@
         "name": "Wollestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "surface": "sett",
@@ -173032,7 +173078,7 @@
         "maxspeed": "30",
         "maxspeed:type": "BE:zone30",
         "name": "Carmersbrug",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "both",
         "surface": "sett",
         "width:carriageway": "5.0",
@@ -173060,7 +173106,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:type": "BE:zone30",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "both",
         "surface": "sett",
         "id": "way/226199302"
@@ -173096,7 +173142,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "sidewalk:both:surface": "sett",
@@ -173172,7 +173218,7 @@
         "name": "Torenbrug",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "ref:OnroerendErfgoed": "200803",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
@@ -173206,7 +173252,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "sidewalk:both:surface": "paving_stones",
@@ -173243,8 +173289,9 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "parallel",
+        "parking:left": "no",
+        "parking:right": "yes",
+        "parking:right:orientation": "parallel",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
@@ -173301,7 +173348,7 @@
         "name:etymology:wikidata": "Q2283106",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "left",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
@@ -173438,8 +173485,9 @@
         "name": "Moerstraat",
         "oneway": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "parallel",
+        "parking:left": "no",
+        "parking:right": "yes",
+        "parking:right:orientation": "parallel",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
@@ -173555,8 +173603,9 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "parallel",
+        "parking:left": "no",
+        "parking:right": "yes",
+        "parking:right:orientation": "parallel",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "sidewalk:both:surface": "sett",
@@ -173707,7 +173756,7 @@
         "name": "Balstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
@@ -173799,7 +173848,7 @@
         "motor_vehicle": "destination",
         "name": "Pottenmakersstraat",
         "oneway": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
@@ -173853,8 +173902,9 @@
         "motor_vehicle": "destination",
         "name": "Pottenmakersstraat",
         "oneway": "no",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "parallel",
+        "parking:left": "no",
+        "parking:right": "yes",
+        "parking:right:orientation": "parallel",
         "sett:pattern": "arc",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
@@ -173904,8 +173954,9 @@
         "name": "Balstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "parallel",
+        "parking:left": "no",
+        "parking:right": "yes",
+        "parking:right:orientation": "parallel",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
@@ -173950,7 +174001,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
@@ -174040,7 +174091,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
@@ -174077,7 +174128,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
@@ -174109,8 +174160,9 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Peterseliestraat",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "parallel",
+        "parking:left": "no",
+        "parking:right": "yes",
+        "parking:right:orientation": "parallel",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "surface": "sett",
@@ -174145,8 +174197,9 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "parallel",
+        "parking:left": "no",
+        "parking:right": "yes",
+        "parking:right:orientation": "parallel",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
@@ -174177,7 +174230,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Kantwerkstersplein",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
@@ -174212,8 +174265,10 @@
         "name:etymology": "Kerknaam",
         "name:etymology:wikidata": "Q240807",
         "oneway": "no",
-        "parking:lane:left": "parallel",
-        "parking:lane:right": "no_parking",
+        "parking:left": "yes",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "parking:right:restriction": "no_parking",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "surface": "sett",
@@ -174263,8 +174318,9 @@
         "name": "Gouden-Handstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "parallel",
+        "parking:left": "no",
+        "parking:right": "yes",
+        "parking:right:orientation": "parallel",
         "sett:pattern": "arc",
         "sidewalk": "left",
         "surface": "sett",
@@ -174446,8 +174502,9 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "parallel",
+        "parking:left": "no",
+        "parking:right": "yes",
+        "parking:right:orientation": "parallel",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "surface": "sett",
@@ -174487,8 +174544,9 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "parallel",
+        "parking:left": "no",
+        "parking:right": "yes",
+        "parking:right:orientation": "parallel",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
@@ -174525,8 +174583,9 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Dijver",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "parallel",
+        "parking:left": "no",
+        "parking:right": "yes",
+        "parking:right:orientation": "parallel",
         "sett:pattern": "arc",
         "sidewalk": "right",
         "source:maxspeed": "sign",
@@ -174565,7 +174624,7 @@
         "name:etymology:wikidata": "Q345",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "surface": "sett",
@@ -174626,7 +174685,7 @@
         "maxspeed": "30",
         "name": "Zonnekemeers",
         "oneway": "no",
-        "parking:lane:both": "no_parking",
+        "parking:both": "no",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",

@@ -2660,7 +2660,8 @@
       "properties": {
         "highway": "unclassified",
         "name": "Jachtweg",
-        "parking:lane:both": "parallel",
+        "parking:both": "yes",
+        "parking:both:orientation": "parallel",
         "id": "way/28218667"
       },
       "geometry": {
@@ -46596,7 +46597,8 @@
       "properties": {
         "highway": "unclassified",
         "name": "Jachtweg",
-        "parking:lane:both": "parallel",
+        "parking:both": "yes",
+        "parking:both:orientation": "parallel",
         "id": "way/792964115"
       },
       "geometry": {
@@ -55516,8 +55518,9 @@
         "name:etymology": "Jan Frans De Billemont",
         "name:etymology:wikidata": "Q2413488",
         "name:etymology:wikipedia": "nl:Jan Frans De Billemont",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "no_stopping",
+        "parking:left": "no",
+        "parking:right": "no",
+        "parking:right:restriction": "no_stopping",
         "sidewalk": "both",
         "sidewalk:both:surface": "paving_stones",
         "smoothness": "excellent",
@@ -55605,7 +55608,8 @@
         "name:etymology": "Jan Frans De Billemont",
         "name:etymology:wikidata": "Q2413488",
         "name:etymology:wikipedia": "nl:Jan Frans De Billemont",
-        "parking:lane:right": "no_stopping",
+        "parking:right": "no",
+        "parking:right:restriction": "no_stopping",
         "sidewalk": "both",
         "sidewalk:both:surface": "paving_stones",
         "smoothness": "excellent",
@@ -55649,9 +55653,10 @@
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:condition:right": "disc",
-        "parking:lane:right": "parallel",
         "parking:maxstay": "2 hours",
+        "parking:right": "yes",
+        "parking:right:authentication:disc": "yes",
+        "parking:right:orientation": "parallel",
         "surface": "paving_stones",
         "id": "way/232819380"
       },

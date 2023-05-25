@@ -31738,8 +31738,8 @@
         "highway": "residential",
         "name": "Floris Primsstraat",
         "name:etymology:wikidata": "Q1809244",
-        "parking:lane:both": "parallel",
-        "parking:lane:both:parallel": "street_side",
+        "parking:both": "street_side",
+        "parking:both:orientation": "parallel",
         "surface": "asphalt",
         "id": "way/22868162"
       },
@@ -32479,8 +32479,8 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Eric Sasselaan",
-        "parking:lane:both": "parallel",
-        "parking:lane:both:parallel": "on_street",
+        "parking:both": "lane",
+        "parking:both:orientation": "parallel",
         "surface": "sett",
         "id": "way/24479204"
       },
@@ -43634,10 +43634,10 @@
         "name": "Lange Kievitstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:condition:left": "no_parking",
-        "parking:lane:left": "no",
-        "parking:lane:right": "parallel",
-        "parking:lane:right:parallel": "on_kerb",
+        "parking:left": "no",
+        "parking:left:restriction": "no_parking",
+        "parking:right": "on_kerb",
+        "parking:right:orientation": "parallel",
         "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/706485110"
@@ -43781,7 +43781,7 @@
         "name": "Copernicuslaan",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no",
+        "parking:both": "no",
         "surface": "asphalt",
         "id": "way/780861739"
       },
@@ -43810,7 +43810,7 @@
         "name:etymology:wikidata": "Q619",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no",
+        "parking:both": "no",
         "surface": "asphalt",
         "id": "way/780861740"
       },
@@ -44476,7 +44476,7 @@
         "name:etymology:wikidata": "Q619",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no",
+        "parking:both": "no",
         "surface": "asphalt",
         "id": "way/1111521865"
       },
