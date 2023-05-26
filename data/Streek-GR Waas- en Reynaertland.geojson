@@ -4323,8 +4323,10 @@
       "properties": {
         "access": "permissive",
         "bicycle": "yes",
+        "bridge": "yes",
         "foot": "yes",
         "highway": "unclassified",
+        "layer": "1",
         "name": "Anna-Piersdreef",
         "id": "way/24835603"
       },
@@ -4332,12 +4334,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.2499143,
-            51.2082874
+            4.2499508,
+            51.2082429
           ],
           [
-            4.2500063,
-            51.2081705
+            4.2500192,
+            51.2081569
           ]
         ]
       }
@@ -7157,7 +7159,8 @@
       "type": "Feature",
       "id": "way/27349110",
       "properties": {
-        "cycleway": "lane",
+        "cycleway": "track",
+        "cycleway:surface": "paved",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Mierenneststraat",
@@ -36679,7 +36682,8 @@
       "type": "Feature",
       "id": "way/672466694",
       "properties": {
-        "cycleway": "lane",
+        "cycleway": "track",
+        "cycleway:surface": "paved",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Sint-Andriesstraat",
@@ -41478,7 +41482,8 @@
       "type": "Feature",
       "id": "way/1117335821",
       "properties": {
-        "cycleway": "lane",
+        "cycleway": "track",
+        "cycleway:surface": "paved",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Mierenneststraat",
@@ -41920,8 +41925,8 @@
             51.2081517
           ],
           [
-            4.2500063,
-            51.2081705
+            4.2500192,
+            51.2081569
           ]
         ]
       }
@@ -41934,6 +41939,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "unclassified",
+        "tunnel": "building_passage",
         "id": "way/1175563286"
       },
       "geometry": {
@@ -41946,6 +41952,31 @@
           [
             4.2500222,
             51.2081517
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1175891999",
+      "properties": {
+        "access": "permissive",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "name": "Anna-Piersdreef",
+        "id": "way/1175891999"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.2499143,
+            51.2082874
+          ],
+          [
+            4.2499508,
+            51.2082429
           ]
         ]
       }
