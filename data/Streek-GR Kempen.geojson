@@ -1681,7 +1681,6 @@
         "maxspeed": "70",
         "name": "Diepte",
         "sidewalk": "no",
-        "source": "survey",
         "source:maxspeed": "BE-VLG:rural",
         "surface": "paving_stones",
         "zone:traffic": "BE-VLG:rural",
@@ -1725,12 +1724,11 @@
       "type": "Feature",
       "id": "way/24497233",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Kolonie",
         "sidewalk": "no",
-        "source": "survey",
         "source:maxspeed": "BE:zone50",
         "surface": "paving_stones",
         "zone:traffic": "BE-VLG:rural",
@@ -7542,6 +7540,7 @@
         "cycleway:right": "track",
         "cycleway:right:oneway": "no",
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Pulsebaan",
         "id": "way/38919021"
       },
@@ -7620,6 +7619,7 @@
         "cycleway:right": "track",
         "cycleway:right:oneway": "no",
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Dorp",
         "id": "way/38919023"
       },
@@ -9764,7 +9764,7 @@
       "type": "Feature",
       "id": "way/52774402",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "lit": "no",
@@ -9778,40 +9778,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8166196,
-            51.3762365
+            4.8165161,
+            51.3762146
           ],
           [
-            4.816517,
-            51.3761929
+            4.8163783,
+            51.3761533
           ],
           [
-            4.8163984,
-            51.3761425
+            4.8156087,
+            51.3757981
           ],
           [
-            4.8134566,
-            51.374748
+            4.8134475,
+            51.3747583
           ],
           [
-            4.8133671,
-            51.3747151
+            4.813347,
+            51.3747254
           ],
           [
             4.8132956,
             51.3747135
           ],
           [
+            4.8132391,
+            51.3747286
+          ],
+          [
             4.8132076,
             51.3747454
           ],
           [
-            4.812821,
-            51.3751122
+            4.8128557,
+            51.3750905
           ],
           [
-            4.812769,
-            51.3751214
+            4.8127854,
+            51.3751123
           ],
           [
             4.8127086,
@@ -9828,7 +9832,7 @@
         "maxspeed": "70",
         "name": "Papenvoort",
         "source:maxspeed": "BE:zone",
-        "surface": "unpaved",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/52774403"
       },
@@ -9852,8 +9856,12 @@
             51.3799572
           ],
           [
-            4.8266515,
-            51.3799235
+            4.8268253,
+            51.3799414
+          ],
+          [
+            4.8266351,
+            51.379911
           ],
           [
             4.8264288,
@@ -9960,8 +9968,8 @@
             51.3774807
           ],
           [
-            4.8188512,
-            51.3772869
+            4.8188147,
+            51.3772812
           ],
           [
             4.8181042,
@@ -9982,6 +9990,10 @@
           [
             4.8166196,
             51.3762365
+          ],
+          [
+            4.8165161,
+            51.3762146
           ]
         ]
       }
@@ -10003,46 +10015,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.828671,
-            51.3800738
-          ],
-          [
-            4.8286223,
-            51.3801227
+            4.8286482,
+            51.3800875
           ],
           [
             4.8285208,
             51.3802246
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/52774490",
-      "properties": {
-        "bicycle": "use_sidepath",
-        "highway": "secondary",
-        "maxspeed": "70",
-        "maxspeed:type": "sign",
-        "ref": "N124",
-        "surface": "asphalt",
-        "id": "way/52774490"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.8269415,
-            51.3818302
-          ],
-          [
-            4.8270196,
-            51.3817528
-          ],
-          [
-            4.8274699,
-            51.3812805
           ]
         ]
       }
@@ -14118,41 +14096,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8275288,
-            51.3812178
+            4.8269479,
+            51.3818342
           ],
           [
-            4.8276899,
-            51.3810452
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/74004440",
-      "properties": {
-        "bicycle": "use_sidepath",
-        "bridge": "yes",
-        "highway": "secondary",
-        "lanes": "2",
-        "maxspeed": "70",
-        "maxspeed:type": "sign",
-        "maxweight:signed": "no",
-        "ref": "N124",
-        "surface": "asphalt",
-        "id": "way/74004440"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.8274699,
-            51.3812805
-          ],
-          [
-            4.8275288,
-            51.3812178
+            4.8277036,
+            51.3810589
           ]
         ]
       }
@@ -16428,8 +16377,7 @@
       "type": "Feature",
       "id": "way/84840962",
       "properties": {
-        "cycleway:both": "no",
-        "foot": "yes",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "lit": "yes",
@@ -23761,7 +23709,7 @@
       "type": "Feature",
       "id": "way/162546708",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Papenvoort",
@@ -23804,8 +23752,8 @@
             51.3802246
           ],
           [
-            4.8276899,
-            51.3810452
+            4.8277036,
+            51.3810589
           ]
         ]
       }
@@ -27032,6 +26980,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lanes": "1",
+        "maxspeed": "50",
         "name": "Steenovenstraat",
         "sidewalk": "no",
         "surface": "concrete",
@@ -27099,6 +27048,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lanes": "2",
+        "maxspeed": "50",
         "name": "Steenovenstraat",
         "sidewalk": "no",
         "surface": "concrete",
@@ -36702,6 +36652,7 @@
         "cycleway:right": "track",
         "cycleway:right:oneway": "no",
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Dorp",
         "id": "way/419131337"
       },
@@ -39227,7 +39178,6 @@
       "properties": {
         "highway": "unclassified",
         "name": "Diepte",
-        "source": "survey",
         "surface": "paving_stones",
         "id": "way/536603810"
       },
@@ -40300,16 +40250,16 @@
         "maxspeed": "70",
         "name": "Papenvoort",
         "source:maxspeed": "BE:zone",
-        "surface": "paving_stones",
-        "tracktype": "grade1",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
         "id": "way/584253464"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.828671,
-            51.3800738
+            4.8286482,
+            51.3800875
           ],
           [
             4.8285909,
@@ -40336,8 +40286,8 @@
             51.381858
           ],
           [
-            4.8269415,
-            51.3818302
+            4.8269479,
+            51.3818342
           ]
         ]
       }
