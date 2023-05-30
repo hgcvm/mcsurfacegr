@@ -152570,7 +152570,6 @@
         "highway": "cycleway",
         "lit": "yes",
         "oneway": "no",
-        "source": "bing",
         "surface": "asphalt",
         "id": "way/22476057"
       },
@@ -154142,6 +154141,8 @@
         "parking:both": "no",
         "ref": "N251",
         "sidewalk": "both",
+        "sidewalk:left": "yes",
+        "sidewalk:right": "separate",
         "surface": "asphalt",
         "wikidata": "Q2567735",
         "id": "way/85799351"
@@ -154837,7 +154838,6 @@
         "cycleway": "crossing",
         "highway": "cycleway",
         "lit": "yes",
-        "source": "bing",
         "surface": "asphalt",
         "id": "way/104502509"
       },
@@ -156601,49 +156601,13 @@
         "lanes": "1",
         "lit": "yes",
         "maxspeed": "30",
-        "motor_vehicle": "yes",
         "name": "Dreefstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:condition:both": "disc",
+        "parking:lane": "no_parking",
         "source": "survey",
         "surface": "asphalt",
         "id": "way/564392130"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.6960186,
-            50.8659731
-          ],
-          [
-            4.6960749,
-            50.8659594
-          ],
-          [
-            4.6961322,
-            50.8659458
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/564392133",
-      "properties": {
-        "highway": "living_street",
-        "lanes": "1",
-        "lit": "yes",
-        "maxspeed": "30",
-        "name": "Dreefstraat",
-        "oneway": "yes",
-        "oneway:bicycle": "no",
-        "parking:condition:both": "disc",
-        "surface": "asphalt",
-        "traffic_sign": "BE:F12a;BE:F4a;BE:F1a",
-        "zone:traffic": "BE-VLG:urban",
-        "id": "way/564392133"
       },
       "geometry": {
         "type": "LineString",
@@ -156653,8 +156617,16 @@
             50.8660058
           ],
           [
-            4.6960186,
-            50.8659731
+            4.6960173,
+            50.8659727
+          ],
+          [
+            4.6960574,
+            50.8659627
+          ],
+          [
+            4.6961322,
+            50.8659458
           ]
         ]
       }
@@ -157838,7 +157810,6 @@
         "highway": "cycleway",
         "lit": "yes",
         "oneway": "no",
-        "source": "bing",
         "surface": "asphalt",
         "id": "way/970345111"
       },
@@ -157867,7 +157838,6 @@
         "highway": "cycleway",
         "lit": "yes",
         "oneway": "no",
-        "source": "bing",
         "surface": "asphalt",
         "id": "way/970345112"
       },
@@ -157891,7 +157861,6 @@
       "properties": {
         "highway": "cycleway",
         "lit": "yes",
-        "source": "bing",
         "surface": "asphalt",
         "id": "way/970345113"
       },
@@ -157981,7 +157950,6 @@
         "highway": "cycleway",
         "lit": "yes",
         "oneway": "no",
-        "source": "bing",
         "surface": "asphalt",
         "id": "way/970357680"
       },
