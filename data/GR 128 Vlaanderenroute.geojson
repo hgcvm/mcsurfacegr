@@ -22293,8 +22293,9 @@
       "type": "Feature",
       "id": "way/33942455",
       "properties": {
-        "created_by": "Potlatch 0.8a",
         "highway": "tertiary",
+        "maxspeed": "50",
+        "maxweight": "7.5",
         "name": "Paddegatstraat",
         "id": "way/33942455"
       },
@@ -155161,15 +155162,16 @@
       "type": "Feature",
       "id": "way/133801033",
       "properties": {
-        "highway": "living_street",
+        "highway": "residential",
         "lanes": "1",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Dreefstraat",
         "parking:both": "yes",
         "parking:both:authentication:disc": "yes",
+        "parking:condition:both": "disc",
+        "source": "survey",
         "surface": "asphalt",
-        "traffic_sign": "BE:F12a;BE:F4a;BE:F1a",
-        "zone:traffic": "BE-VLG:urban",
         "id": "way/133801033"
       },
       "geometry": {
@@ -155184,8 +155186,28 @@
             50.8666689
           ],
           [
-            4.6952284,
-            50.8666315
+            4.6953517,
+            50.866489
+          ],
+          [
+            4.6954772,
+            50.8663438
+          ],
+          [
+            4.6956111,
+            50.8661891
+          ],
+          [
+            4.6956948,
+            50.8660923
+          ],
+          [
+            4.695742,
+            50.8660647
+          ],
+          [
+            4.695844,
+            50.8660275
           ]
         ]
       }
@@ -156633,54 +156655,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/564392136",
-      "properties": {
-        "highway": "residential",
-        "lanes": "1",
-        "lit": "yes",
-        "maxspeed": "30",
-        "name": "Dreefstraat",
-        "parking:condition:both": "disc",
-        "source": "survey",
-        "surface": "asphalt",
-        "id": "way/564392136"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.6952284,
-            50.8666315
-          ],
-          [
-            4.6953517,
-            50.866489
-          ],
-          [
-            4.6954772,
-            50.8663438
-          ],
-          [
-            4.6956111,
-            50.8661891
-          ],
-          [
-            4.6956948,
-            50.8660923
-          ],
-          [
-            4.695742,
-            50.8660647
-          ],
-          [
-            4.695844,
-            50.8660275
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/608715546",
       "properties": {
         "bicycle": "yes",
@@ -156788,7 +156762,7 @@
         "footway:surface": "paving_stones",
         "highway": "cycleway",
         "segregated": "yes",
-        "surface": "paving_stones",
+        "surface": "asphalt",
         "id": "way/628222472"
       },
       "geometry": {
