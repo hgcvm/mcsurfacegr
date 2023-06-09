@@ -273,6 +273,8 @@
       "id": "way/5075511",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Maasdijk",
         "sidewalk": "no",
@@ -404,8 +406,10 @@
       "id": "way/7125805",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "80",
         "name": "Oude Smeermaeserweg",
+        "surface": "asphalt",
         "id": "way/7125805"
       },
       "geometry": {
@@ -2499,6 +2503,7 @@
       "type": "Feature",
       "id": "way/26657790",
       "properties": {
+        "cycleway:left": "separate",
         "cycleway:right": "track",
         "highway": "secondary",
         "lanes": "2",
@@ -2575,6 +2580,7 @@
       "type": "Feature",
       "id": "way/27073220",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Kerkstraat",
         "oneway": "yes",
@@ -2773,14 +2779,16 @@
       "properties": {
         "highway": "unclassified",
         "name": "Solterdijk",
+        "smoothness": "good",
+        "surface": "asphalt",
         "id": "way/30706052"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.6786778,
-            51.117825
+            5.6787104,
+            51.1178593
           ],
           [
             5.6789456,
@@ -3604,6 +3612,8 @@
       "properties": {
         "highway": "unclassified",
         "name": "Solterdijk",
+        "smoothness": "good",
+        "surface": "asphalt",
         "id": "way/35802078"
       },
       "geometry": {
@@ -3614,12 +3624,8 @@
             51.1184068
           ],
           [
-            5.6789145,
-            51.118711
-          ],
-          [
-            5.6787939,
-            51.1189164
+            5.6788033,
+            51.1189172
           ]
         ]
       }
@@ -3630,18 +3636,16 @@
       "properties": {
         "highway": "residential",
         "name": "Solterweg",
+        "smoothness": "good",
+        "surface": "asphalt",
         "id": "way/35802083"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.6786778,
-            51.117825
-          ],
-          [
-            5.6785128,
-            51.1178174
+            5.6787104,
+            51.1178593
           ],
           [
             5.6749665,
@@ -16423,12 +16427,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6305468,
-            51.1787529
+            5.6305398,
+            51.1787485
           ],
           [
-            5.6305594,
-            51.1788206
+            5.6305567,
+            51.1788355
           ]
         ]
       }
@@ -16447,20 +16451,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6305594,
-            51.1788206
+            5.6305567,
+            51.1788355
           ],
           [
             5.6305768,
             51.1788694
           ],
           [
-            5.630638,
-            51.1789378
+            5.6306289,
+            51.1789527
           ],
           [
-            5.6306957,
-            51.1790008
+            5.630695,
+            51.1790065
           ],
           [
             5.6307553,
@@ -24873,8 +24877,8 @@
             51.1787174
           ],
           [
-            5.6305468,
-            51.1787529
+            5.6305398,
+            51.1787485
           ]
         ]
       }
@@ -38995,8 +38999,11 @@
       "properties": {
         "cycleway:both": "lane",
         "highway": "tertiary",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "60",
         "name": "Bosscherweg",
+        "surface": "asphalt",
         "id": "way/478348540"
       },
       "geometry": {
@@ -43409,6 +43416,7 @@
       "id": "way/632406795",
       "properties": {
         "highway": "cycleway",
+        "lit": "no",
         "oneway": "yes",
         "id": "way/632406795"
       },
@@ -49339,8 +49347,10 @@
       "id": "way/1062703778",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "80",
         "name": "Oude Smeermaeserweg",
+        "surface": "asphalt",
         "id": "way/1062703778"
       },
       "geometry": {
@@ -49364,6 +49374,7 @@
         "bridge": "yes",
         "highway": "cycleway",
         "layer": "1",
+        "lit": "yes",
         "oneway": "yes",
         "id": "way/1062703783"
       },
@@ -49442,6 +49453,7 @@
         "bridge": "yes",
         "highway": "cycleway",
         "layer": "1",
+        "lit": "no",
         "oneway": "yes",
         "id": "way/1062703787"
       },
@@ -51756,8 +51768,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6787939,
-            51.1189164
+            5.6788033,
+            51.1189172
           ],
           [
             5.6778217,
