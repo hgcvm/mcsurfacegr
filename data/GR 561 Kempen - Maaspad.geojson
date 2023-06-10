@@ -7501,6 +7501,10 @@
             51.1791802
           ],
           [
+            5.6309304,
+            51.1792138
+          ],
+          [
             5.6309429,
             51.1792483
           ],
@@ -7509,40 +7513,8 @@
             51.1793042
           ],
           [
-            5.6310084,
-            51.1793574
-          ],
-          [
-            5.6310648,
-            51.1794448
-          ],
-          [
-            5.6311375,
-            51.1795644
-          ],
-          [
-            5.6311932,
-            51.1796338
-          ],
-          [
-            5.6312522,
-            51.1797044
-          ],
-          [
-            5.6312791,
-            51.1797818
-          ],
-          [
-            5.6312683,
-            51.1798574
-          ],
-          [
-            5.6312538,
-            51.1799248
-          ],
-          [
-            5.6312546,
-            51.1799354
+            5.6309903,
+            51.1793515
           ]
         ]
       }
@@ -16419,7 +16391,9 @@
       "id": "way/200409484",
       "properties": {
         "bridge": "yes",
+        "cyclestreet": "yes",
         "highway": "unclassified",
+        "maxspeed": "30",
         "name": "Luysenstraat",
         "id": "way/200409484"
       },
@@ -16441,6 +16415,7 @@
       "type": "Feature",
       "id": "way/200409485",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "unclassified",
         "maxspeed": "30",
         "motor_vehicle": "destination",
@@ -16453,10 +16428,6 @@
           [
             5.6305567,
             51.1788355
-          ],
-          [
-            5.6305768,
-            51.1788694
           ],
           [
             5.6306289,
@@ -24865,7 +24836,9 @@
       "type": "Feature",
       "id": "way/249747083",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "unclassified",
+        "maxspeed": "30",
         "name": "Luysenstraat",
         "id": "way/249747083"
       },
@@ -51959,6 +51932,72 @@
           [
             5.6751082,
             50.8961744
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1180702224",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "name": "Luysenweg",
+        "id": "way/1180702224"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6312448,
+            51.1796859
+          ],
+          [
+            5.6312791,
+            51.1797818
+          ],
+          [
+            5.6312683,
+            51.1798574
+          ],
+          [
+            5.6312538,
+            51.1799248
+          ],
+          [
+            5.6312546,
+            51.1799354
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1180702225",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "name": "Luysenweg",
+        "smoothness": "intermediate",
+        "surface": "cobblestone",
+        "id": "way/1180702225"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6309903,
+            51.1793515
+          ],
+          [
+            5.6311375,
+            51.1795644
+          ],
+          [
+            5.6312448,
+            51.1796859
           ]
         ]
       }
