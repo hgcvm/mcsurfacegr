@@ -6865,7 +6865,7 @@
       "properties": {
         "highway": "track",
         "maxspeed": "50",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/53004587"
       },
@@ -10255,7 +10255,7 @@
         "highway": "track",
         "maxspeed": "50",
         "name": "Kwachtstraat",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/95947967"
       },
@@ -10471,6 +10471,7 @@
         "maxspeed": "70",
         "name": "Heikant",
         "source:maxspeed": "BE-VLG:zone70",
+        "surface": "compacted",
         "tracktype": "grade3",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/98787424"
@@ -10861,6 +10862,7 @@
       "properties": {
         "highway": "track",
         "name": "Heikant",
+        "surface": "compacted",
         "id": "way/113494516"
       },
       "geometry": {
@@ -11999,6 +12001,7 @@
       "properties": {
         "highway": "residential",
         "name": "Schans",
+        "surface": "asphalt",
         "id": "way/129767808"
       },
       "geometry": {
@@ -12030,6 +12033,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Schans",
+        "surface": "asphalt",
         "id": "way/129767809"
       },
       "geometry": {
@@ -13653,6 +13657,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Alvinnenberg",
+        "surface": "compacted",
         "id": "way/158393335"
       },
       "geometry": {
@@ -13685,7 +13690,7 @@
         "image:streetsign": "https://i.imgur.com/o3VLCBv.jpg",
         "name": "De Hutten",
         "smoothness": "bad",
-        "surface": "unpaved",
+        "surface": "sand",
         "tracktype": "grade3",
         "id": "way/158393372"
       },
@@ -13737,7 +13742,7 @@
         "maxspeed": "30",
         "name": "De Hutten",
         "smoothness": "bad",
-        "surface": "unpaved",
+        "surface": "sand",
         "tracktype": "grade3",
         "id": "way/158393393"
       },
@@ -13792,7 +13797,7 @@
         "maxspeed": "30",
         "name": "De Hutten",
         "smoothness": "bad",
-        "surface": "unpaved",
+        "surface": "sand",
         "tracktype": "grade3",
         "id": "way/158393400"
       },
@@ -17682,6 +17687,7 @@
         "horse": "yes",
         "name": "Watermolen",
         "oneway": "no",
+        "surface": "asphalt",
         "id": "way/219376994"
       },
       "geometry": {
@@ -22654,6 +22660,7 @@
         "motorcycle": "no",
         "name": "Lijsterstraat",
         "source:maxspeed": "BE:zone30",
+        "surface": "concrete",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/239883503"
       },
@@ -36242,7 +36249,7 @@
       "id": "way/411376430",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/411376430"
       },
       "geometry": {
@@ -39711,7 +39718,7 @@
       "id": "way/482732094",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/482732094"
       },
       "geometry": {
@@ -41164,7 +41171,7 @@
         "highway": "track",
         "maxspeed": "50",
         "name": "De Meren",
-        "surface": "unpaved",
+        "surface": "compacted",
         "tracktype": "grade3",
         "id": "way/541530947"
       },
@@ -41235,6 +41242,7 @@
         "lit": "yes",
         "name": "Nieuwstraat",
         "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/541530953"
       },
       "geometry": {
@@ -41265,6 +41273,7 @@
       "properties": {
         "highway": "path",
         "maxspeed": "50",
+        "surface": "dirt",
         "id": "way/541530954"
       },
       "geometry": {
@@ -45101,6 +45110,7 @@
         "foot": "designated",
         "highway": "cycleway",
         "oneway": "no",
+        "surface": "concrete",
         "id": "way/701854186"
       },
       "geometry": {
@@ -47917,7 +47927,7 @@
       "properties": {
         "highway": "track",
         "maxspeed": "50",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/953817134"
       },
@@ -47925,8 +47935,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0526547,
-            51.1252343
+            5.0526799,
+            51.1252047
           ],
           [
             5.053469,
@@ -48004,6 +48014,7 @@
         "maxspeed": "70",
         "name": "Heikant",
         "source:maxspeed": "BE-VLG:zone70",
+        "surface": "compacted",
         "tracktype": "grade3",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/954039728"
@@ -48568,7 +48579,7 @@
         "maxspeed": "30",
         "name": "De Hutten",
         "smoothness": "bad",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/991543452"
       },
@@ -50251,7 +50262,7 @@
       "properties": {
         "highway": "path",
         "name": "'t Volderke",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/1112591971"
       },
       "geometry": {
@@ -51998,6 +52009,30 @@
           [
             5.6312448,
             51.1796859
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1180991056",
+      "properties": {
+        "highway": "track",
+        "maxspeed": "50",
+        "surface": "compacted",
+        "tracktype": "grade3",
+        "id": "way/1180991056"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0526547,
+            51.1252343
+          ],
+          [
+            5.0526799,
+            51.1252047
           ]
         ]
       }
@@ -54275,7 +54310,7 @@
         "maxspeed": "70",
         "name": "Zandstraat",
         "note": "Trage weg is op 2 juni 2022 door de gemeenteraad van stad Geel erkend als gemeenteweg: https://raadpleeg-geel.onlinesmartcities.be/zittingen/21.1118.5353.5039/agendapunten/22.0413.0078.9630",
-        "surface": "concrete",
+        "surface": "asphalt",
         "id": "way/113494523"
       },
       "geometry": {
@@ -54801,6 +54836,7 @@
         "motor_vehicle": "no",
         "name": "Postpaddekes",
         "segregated": "no",
+        "surface": "compacted",
         "id": "way/144129832"
       },
       "geometry": {
@@ -55087,7 +55123,7 @@
       "properties": {
         "highway": "track",
         "smoothness": "bad",
-        "surface": "unpaved",
+        "surface": "sand",
         "tracktype": "grade3",
         "id": "way/158547696"
       },
@@ -55131,7 +55167,7 @@
       "properties": {
         "highway": "track",
         "smoothness": "bad",
-        "surface": "dirt",
+        "surface": "sand",
         "tracktype": "grade4",
         "id": "way/158547702"
       },
@@ -55228,7 +55264,7 @@
         "highway": "path",
         "mofa": "no",
         "motorcycle": "no",
-        "surface": "ground",
+        "surface": "dirt",
         "tracktype": "grade5",
         "id": "way/158547707"
       },
@@ -55264,8 +55300,8 @@
             51.1499571
           ],
           [
-            5.0304272,
-            51.1500072
+            5.0306812,
+            51.1499784
           ]
         ]
       }
@@ -55390,7 +55426,7 @@
         "highway": "track",
         "name": "Zandstraat",
         "note": "Trage weg is op 2 juni 2022 door de gemeenteraad van stad Geel erkend als gemeenteweg: https://raadpleeg-geel.onlinesmartcities.be/zittingen/21.1118.5353.5039/agendapunten/22.0413.0078.9630",
-        "surface": "unpaved",
+        "surface": "compacted",
         "id": "way/158592697"
       },
       "geometry": {
@@ -55538,7 +55574,7 @@
       "properties": {
         "highway": "track",
         "smoothness": "bad",
-        "surface": "unpaved",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/158597767"
       },
@@ -55861,6 +55897,7 @@
         "foot": "yes",
         "highway": "track",
         "name": "Lemersveld",
+        "surface": "concrete",
         "tracktype": "grade5",
         "id": "way/239134961"
       },
@@ -55868,12 +55905,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0079115,
-            51.1598474
-          ],
-          [
-            5.0085712,
-            51.1589068
+            5.0087031,
+            51.1587188
           ],
           [
             5.0089271,
@@ -55899,6 +55932,7 @@
       "id": "way/239134962",
       "properties": {
         "highway": "footway",
+        "surface": "sett",
         "id": "way/239134962"
       },
       "geometry": {
@@ -55927,22 +55961,6 @@
           [
             5.0014537,
             51.1625402
-          ],
-          [
-            5.0012092,
-            51.1624863
-          ],
-          [
-            5.000915,
-            51.1624238
-          ],
-          [
-            5.0006616,
-            51.1623699
-          ],
-          [
-            5.0005854,
-            51.1624203
           ]
         ]
       }
@@ -56097,6 +56115,7 @@
         "motorcycle": "no",
         "name": "Postpaddekes",
         "segregated": "no",
+        "surface": "paving_stones",
         "id": "way/239624638"
       },
       "geometry": {
@@ -56121,18 +56140,6 @@
           [
             4.9913953,
             51.1615264
-          ],
-          [
-            4.9925852,
-            51.1615944
-          ],
-          [
-            4.9926445,
-            51.1613923
-          ],
-          [
-            4.9926738,
-            51.161292
           ]
         ]
       }
@@ -56258,6 +56265,7 @@
         "motorcycle": "no",
         "name": "Postpaddekes",
         "segregated": "no",
+        "surface": "compacted",
         "id": "way/319686664"
       },
       "geometry": {
@@ -56286,10 +56294,6 @@
           [
             4.9941789,
             51.1617709
-          ],
-          [
-            4.9942622,
-            51.1617977
           ]
         ]
       }
@@ -56329,47 +56333,12 @@
       "properties": {
         "foot": "yes",
         "highway": "path",
+        "surface": "compacted",
         "id": "way/409058033"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.0020694,
-            51.1623127
-          ],
-          [
-            5.0023091,
-            51.1621457
-          ],
-          [
-            5.0026622,
-            51.1619072
-          ],
-          [
-            5.0029745,
-            51.1616858
-          ],
-          [
-            5.0031512,
-            51.1615579
-          ],
-          [
-            5.0031686,
-            51.1615624
-          ],
-          [
-            5.0031884,
-            51.1615635
-          ],
-          [
-            5.0032016,
-            51.1615628
-          ],
-          [
-            5.0032112,
-            51.1615609
-          ],
           [
             5.0032219,
             51.1615559
@@ -56491,6 +56460,7 @@
         "motorcycle": "no",
         "name": "Postpaddekes",
         "segregated": "no",
+        "surface": "paving_stones",
         "id": "way/513704835"
       },
       "geometry": {
@@ -56727,7 +56697,7 @@
         "name": "Zandstraat",
         "note": "Trage weg is op 2 juni 2022 door de gemeenteraad van stad Geel erkend als gemeenteweg: https://raadpleeg-geel.onlinesmartcities.be/zittingen/21.1118.5353.5039/agendapunten/22.0413.0078.9630",
         "smoothness": "intermediate",
-        "surface": "ground",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/694267536"
       },
@@ -56996,6 +56966,7 @@
       "properties": {
         "foot": "yes",
         "highway": "path",
+        "surface": "paving_stones",
         "id": "way/1064206501"
       },
       "geometry": {
@@ -57067,6 +57038,260 @@
           [
             5.0138697,
             51.1589069
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1180986813",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "lit": "yes",
+        "motor_vehicle": "no",
+        "motorcycle": "no",
+        "name": "Postpaddekes",
+        "segregated": "no",
+        "surface": "compacted",
+        "id": "way/1180986813"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9913953,
+            51.1615264
+          ],
+          [
+            4.9925852,
+            51.1615944
+          ],
+          [
+            4.9926282,
+            51.161448
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1180986966",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "lit": "yes",
+        "motor_vehicle": "no",
+        "motorcycle": "no",
+        "name": "Postpaddekes",
+        "segregated": "no",
+        "surface": "paving_stones",
+        "id": "way/1180986966"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9926282,
+            51.161448
+          ],
+          [
+            4.9926445,
+            51.1613923
+          ],
+          [
+            4.9926738,
+            51.161292
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1180987310",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "lit": "yes",
+        "motor_vehicle": "no",
+        "motorcycle": "no",
+        "name": "Postpaddekes",
+        "segregated": "no",
+        "surface": "paving_stones",
+        "id": "way/1180987310"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9941789,
+            51.1617709
+          ],
+          [
+            4.9942622,
+            51.1617977
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1180988577",
+      "properties": {
+        "highway": "footway",
+        "surface": "asphalt",
+        "id": "way/1180988577"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0006616,
+            51.1623699
+          ],
+          [
+            5.0005854,
+            51.1624203
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1180988602",
+      "properties": {
+        "highway": "footway",
+        "surface": "paving_stones",
+        "id": "way/1180988602"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0014537,
+            51.1625402
+          ],
+          [
+            5.0012092,
+            51.1624863
+          ],
+          [
+            5.000915,
+            51.1624238
+          ],
+          [
+            5.0006616,
+            51.1623699
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1180988699",
+      "properties": {
+        "foot": "yes",
+        "highway": "path",
+        "surface": "paving_stones",
+        "id": "way/1180988699"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0020694,
+            51.1623127
+          ],
+          [
+            5.0023091,
+            51.1621457
+          ],
+          [
+            5.0026622,
+            51.1619072
+          ],
+          [
+            5.0029745,
+            51.1616858
+          ],
+          [
+            5.0031512,
+            51.1615579
+          ],
+          [
+            5.0031686,
+            51.1615624
+          ],
+          [
+            5.0031884,
+            51.1615635
+          ],
+          [
+            5.0032016,
+            51.1615628
+          ],
+          [
+            5.0032112,
+            51.1615609
+          ],
+          [
+            5.0032219,
+            51.1615559
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1180988939",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "name": "Lemersveld",
+        "surface": "dirt",
+        "tracktype": "grade5",
+        "id": "way/1180988939"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0079115,
+            51.1598474
+          ],
+          [
+            5.0085712,
+            51.1589068
+          ],
+          [
+            5.0087031,
+            51.1587188
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1180990375",
+      "properties": {
+        "highway": "path",
+        "mofa": "no",
+        "motorcycle": "no",
+        "surface": "compacted",
+        "tracktype": "grade5",
+        "id": "way/1180990375"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0306812,
+            51.1499784
+          ],
+          [
+            5.0304272,
+            51.1500072
           ]
         ]
       }

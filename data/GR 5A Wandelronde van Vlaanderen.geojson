@@ -172994,25 +172994,23 @@
       "type": "Feature",
       "id": "way/145395609",
       "properties": {
+        "bicycle": "yes",
         "cyclestreet": "yes",
-        "foot": "yes",
-        "highway": "tertiary",
-        "lane_markings": "no",
+        "highway": "pedestrian",
         "lit": "yes",
         "maxspeed": "30",
-        "motor_vehicle:conditional": "no @ (Sa 13:00-18:00; Su[1] 13:00-18:00)",
+        "motor_vehicle": "yes",
+        "motor_vehicle:conditional": "permit @ (Sa-Su 13:00-18:00)",
         "name": "Geldmuntstraat",
         "name:etymology:wikidata": "Q464780",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:left": "no",
-        "parking:right": "yes",
-        "parking:right:orientation": "parallel",
+        "parking:both": "no",
         "sett:pattern": "arc",
-        "sidewalk": "no",
+        "sidewalk": "both",
         "surface": "sett",
-        "width:carriageway": "11.5",
+        "width:carriageway": "3.7",
         "wikidata": "Q2263733",
         "wikipedia": "nl:Geldmuntstraat",
         "id": "way/145395609"
@@ -173025,8 +173023,12 @@
             51.2085638
           ],
           [
-            3.2212367,
-            51.208414
+            3.2212875,
+            51.2084468
+          ],
+          [
+            3.2212349,
+            51.2084087
           ],
           [
             3.2211776,
