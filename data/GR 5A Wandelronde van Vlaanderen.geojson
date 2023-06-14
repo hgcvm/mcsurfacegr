@@ -13280,6 +13280,7 @@
       "id": "way/34295445",
       "properties": {
         "highway": "track",
+        "smoothness": "impassable",
         "surface": "unpaved",
         "id": "way/34295445"
       },
@@ -34542,7 +34543,6 @@
       "id": "way/153168164",
       "properties": {
         "highway": "footway",
-        "name": "Hof Van Straeten",
         "surface": "asphalt",
         "id": "way/153168164"
       },
@@ -43730,7 +43730,6 @@
       "id": "way/246969236",
       "properties": {
         "highway": "service",
-        "name": "Hof Van Straeten",
         "service": "driveway",
         "surface": "asphalt",
         "id": "way/246969236"
@@ -136281,6 +136280,10 @@
             50.7557859
           ],
           [
+            3.4664093,
+            50.7558018
+          ],
+          [
             3.4665477,
             50.755846
           ],
@@ -171785,12 +171788,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2208275,
-            51.2109244
+            3.220853,
+            51.2109258
           ],
           [
-            3.2206119,
-            51.2108131
+            3.220782,
+            51.2109172
+          ],
+          [
+            3.2207229,
+            51.2108993
+          ],
+          [
+            3.2206013,
+            51.2108247
           ],
           [
             3.2205311,
@@ -171853,6 +171864,10 @@
             51.2132598
           ],
           [
+            3.2260088,
+            51.2132358
+          ],
+          [
             3.2260311,
             51.2132131
           ]
@@ -171865,21 +171880,21 @@
       "properties": {
         "cyclestreet": "yes",
         "cycleway:left": "shared_lane",
-        "highway": "tertiary",
-        "lane_markings": "no",
+        "cycleway:right": "no",
+        "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Sint-Jakobsstraat",
         "name:etymology:wikidata": "Q43999",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "overtaking:motor_vehicle": "no",
+        "oneway:mofa": "no",
         "parking:left": "no",
-        "parking:right": "yes",
-        "parking:right:orientation": "parallel",
+        "parking:right": "separate",
         "sett:pattern": "arc",
-        "sidewalk": "separate",
-        "source:maxspeed": "sign",
+        "sett:type": "cubes",
+        "sidewalk": "both",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width:carriageway": "8.8",
         "wikidata": "Q2221196",
@@ -171891,12 +171906,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2207362,
-            51.2114113
+            3.2207493,
+            51.2114152
           ],
           [
-            3.2209834,
-            51.211268
+            3.2209919,
+            51.2112748
           ]
         ]
       }
@@ -172173,8 +172188,9 @@
         "name": "Augustijnenrei",
         "name:etymology:wikidata": "Q2283106",
         "oneway": "no",
-        "parking:both": "no",
-        "sidewalk": "no",
+        "parking:both": "no_parking",
+        "sidewalk:left": "yes",
+        "sidewalk:right": "separate",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width:carriageway": "5.3",
@@ -172186,32 +172202,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.22538,
-            51.2133553
+            3.2247342,
+            51.2132268
           ],
           [
-            3.2250263,
-            51.2132929
+            3.224648,
+            51.2132207
           ],
           [
-            3.2247303,
-            51.2132297
+            3.2245409,
+            51.2132056
           ],
           [
-            3.2245514,
-            51.213188
+            3.2244699,
+            51.2131841
           ],
           [
-            3.2239359,
-            51.21296
+            3.2242987,
+            51.213119
           ],
           [
-            3.2238853,
-            51.2129392
+            3.2238846,
+            51.2129467
           ],
           [
-            3.2231109,
-            51.2126212
+            3.2231251,
+            51.2126362
           ]
         ]
       }
@@ -172262,8 +172278,8 @@
             51.2096002
           ],
           [
-            3.2198641,
-            51.2097483
+            3.2198386,
+            51.2097718
           ]
         ]
       }
@@ -173347,24 +173363,22 @@
       "properties": {
         "bridge": "yes",
         "cyclestreet": "yes",
-        "cycleway": "opposite",
-        "highway": "tertiary",
-        "lane_markings": "no",
-        "layer": "1",
+        "cycleway:left": "shared_lane",
+        "cycleway:right": "no",
+        "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
-        "maxweight:signed": "no",
         "name": "Ezelstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "overtaking:motor_vehicle": "no",
-        "parking:both": "no",
+        "oneway:mofa": "no",
+        "parking:both": "no_parking",
         "sett:pattern": "arc",
+        "sett:type": "cubes",
         "sidewalk": "both",
-        "sidewalk:both:surface": "sett",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
-        "width:carriageway": "9.2",
+        "width:carriageway": "10",
         "wikidata": "Q1991265",
         "wikipedia": "nl:Ezelstraat",
         "zone:traffic": "BE-VLG:urban",
@@ -173374,12 +173388,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.220534,
-            51.2115247
+            3.2205432,
+            51.2115319
           ],
           [
-            3.2206917,
-            51.2114364
+            3.2206995,
+            51.2114426
           ]
         ]
       }
@@ -173389,20 +173403,22 @@
       "id": "way/226199616",
       "properties": {
         "cyclestreet": "yes",
-        "cycleway": "opposite",
-        "highway": "tertiary",
-        "lane_markings": "no",
+        "cycleway:left": "shared_lane",
+        "cycleway:right": "no",
+        "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Ezelstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "overtaking:motor_vehicle": "no",
+        "oneway:mofa": "no",
+        "parking:both": "no_parking",
         "sett:pattern": "arc",
+        "sett:type": "cubes",
         "sidewalk": "both",
-        "sidewalk:both:surface": "sett",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
+        "width:carriageway": "10",
         "wikidata": "Q1991265",
         "wikipedia": "nl:Ezelstraat",
         "zone:traffic": "BE-VLG:urban",
@@ -173412,12 +173428,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2206917,
-            51.2114364
+            3.2206995,
+            51.2114426
           ],
           [
-            3.2207362,
-            51.2114113
+            3.2207493,
+            51.2114152
           ]
         ]
       }
@@ -173585,8 +173601,8 @@
             51.2124134
           ],
           [
-            3.2231109,
-            51.2126212
+            3.2231251,
+            51.2126362
           ]
         ]
       }
@@ -173724,8 +173740,8 @@
             51.2101916
           ],
           [
-            3.2198641,
-            51.2097483
+            3.2198386,
+            51.2097718
           ]
         ]
       }
@@ -173813,35 +173829,34 @@
       "properties": {
         "cyclestreet": "yes",
         "cycleway:left": "lane",
-        "cycleway:left:width": "1.28",
-        "highway": "tertiary",
-        "lane_markings": "no",
+        "cycleway:right": "no",
+        "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Sint-Jakobsstraat",
         "name:etymology:wikidata": "Q43999",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "overtaking:motor_vehicle": "no",
+        "oneway:mofa": "no",
         "parking:left": "no",
-        "parking:right": "yes",
-        "parking:right:orientation": "parallel",
+        "parking:right": "separate",
         "sett:pattern": "arc",
+        "sett:type": "cubes",
         "sidewalk": "both",
-        "sidewalk:both:surface": "sett",
-        "source:maxspeed": "sign",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width:carriageway": "10.4",
         "wikidata": "Q2221196",
         "wikipedia": "nl:Sint-Jakobsstraat",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/539677944"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.2209834,
-            51.211268
+            3.2209919,
+            51.2112748
           ],
           [
             3.2210739,
@@ -173860,8 +173875,20 @@
             51.2111137
           ],
           [
-            3.2208275,
-            51.2109244
+            3.2210196,
+            51.2110571
+          ],
+          [
+            3.2208757,
+            51.2109629
+          ],
+          [
+            3.2208536,
+            51.2109388
+          ],
+          [
+            3.220853,
+            51.2109258
           ]
         ]
       }
@@ -174565,8 +174592,8 @@
             51.2136352
           ],
           [
-            3.2254859,
-            51.2136348
+            3.2254676,
+            51.2136367
           ]
         ]
       }
@@ -174581,7 +174608,7 @@
         "name": "Oost-Gistelhof",
         "name:etymology:wikidata": "Q63419362",
         "oneway": "no",
-        "parking:lane:left": "no_parking",
+        "parking:lane:left": "no",
         "parking:lane:right": "parallel",
         "sett:pattern": "arc",
         "sidewalk": "no",
@@ -174595,16 +174622,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2254859,
-            51.2136348
+            3.2254676,
+            51.2136367
           ],
           [
             3.2254431,
             51.2135399
           ],
           [
-            3.22538,
-            51.2133553
+            3.2253925,
+            51.2133802
+          ],
+          [
+            3.2253697,
+            51.2133636
           ]
         ]
       }
@@ -174613,23 +174644,22 @@
       "type": "Feature",
       "id": "way/1113617997",
       "properties": {
-        "highway": "tertiary",
+        "cycleway:left": "shared_lane",
+        "cycleway:right": "no",
+        "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
-        "maxweight": "3.5",
-        "maxweight:conditional": "12 @ (06:00-11:00,19:00-21:00)",
         "name": "Ezelstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
-        "parking:lane:left": "no_parking",
-        "parking:lane:right": "parallel",
+        "parking:both": "no_parking",
         "sett:pattern": "arc",
         "sett:type": "cubes",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
-        "width:carriageway": "10.0",
+        "width:carriageway": "10",
         "wikidata": "Q1991265",
         "wikipedia": "nl:Ezelstraat",
         "zone:traffic": "BE-VLG:urban",
@@ -174647,8 +174677,8 @@
             51.211612
           ],
           [
-            3.220534,
-            51.2115247
+            3.2205432,
+            51.2115319
           ]
         ]
       }
@@ -175074,6 +175104,83 @@
           [
             3.2233551,
             51.2036422
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1181486891",
+      "properties": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Oost-Gistelhof",
+        "name:etymology:wikidata": "Q63419362",
+        "oneway": "no",
+        "parking:both": "lane",
+        "sidewalk:left": "no",
+        "sidewalk:right": "shared",
+        "source:maxspeed": "BE:zone30",
+        "surface": "sett",
+        "width:carriageway": "5.3",
+        "wikidata": "Q2612016",
+        "wikipedia": "nl:Gistelhof",
+        "id": "way/1181486891"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2253697,
+            51.2133636
+          ],
+          [
+            3.2250113,
+            51.2133106
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1181486892",
+      "properties": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Augustijnenrei",
+        "name:etymology:wikidata": "Q2283106",
+        "oneway": "no",
+        "parking:left": "lane",
+        "parking:right": "no_parking",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "source:maxspeed": "BE:zone30",
+        "surface": "sett",
+        "width:carriageway": "5.3",
+        "wikidata": "Q2705155",
+        "wikipedia": "nl:Augustijnenrei",
+        "id": "way/1181486892"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2250113,
+            51.2133106
+          ],
+          [
+            3.224899,
+            51.2132829
+          ],
+          [
+            3.2248027,
+            51.2132518
+          ],
+          [
+            3.2247342,
+            51.2132268
           ]
         ]
       }
