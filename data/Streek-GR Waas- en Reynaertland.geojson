@@ -11396,10 +11396,12 @@
       "id": "way/49329013",
       "properties": {
         "bicycle": "yes",
-        "highway": "footway",
+        "highway": "path",
+        "horse": "no",
         "name": "Buntwegel",
-        "surface": "dirt",
+        "surface": "compacted",
         "tracktype": "grade3",
+        "width": "1.5",
         "id": "way/49329013"
       },
       "geometry": {
@@ -21930,34 +21932,18 @@
       "id": "way/147533496",
       "properties": {
         "bicycle": "yes",
-        "highway": "track",
+        "highway": "path",
+        "horse": "no",
+        "motor_vehicle": "no",
         "name": "Binnenbunt",
-        "surface": "dirt",
+        "surface": "compacted",
+        "tracktype": "grade2",
+        "width": "1.2",
         "id": "way/147533496"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.1572605,
-            51.1040018
-          ],
-          [
-            4.1571922,
-            51.1040889
-          ],
-          [
-            4.1571035,
-            51.1042284
-          ],
-          [
-            4.1570896,
-            51.1043511
-          ],
-          [
-            4.1571123,
-            51.1043686
-          ],
           [
             4.1571557,
             51.1044003
@@ -29653,54 +29639,20 @@
       "id": "way/465967102",
       "properties": {
         "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "no",
+        "motor_vehicle": "destination",
         "name": "Binnenbunt",
-        "surface": "dirt",
+        "smoothness": "intermediate",
+        "surface": "compacted",
+        "tracktype": "grade2",
+        "width": "2.5",
         "id": "way/465967102"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.1599839,
-            51.1051309
-          ],
-          [
-            4.1600069,
-            51.1051503
-          ],
-          [
-            4.1599419,
-            51.1054113
-          ],
-          [
-            4.1600452,
-            51.1054477
-          ],
-          [
-            4.1601125,
-            51.1054641
-          ],
-          [
-            4.1601546,
-            51.1054852
-          ],
-          [
-            4.1602577,
-            51.1055563
-          ],
-          [
-            4.1603441,
-            51.1056006
-          ],
-          [
-            4.1604405,
-            51.105633
-          ],
-          [
-            4.1606385,
-            51.1056716
-          ],
           [
             4.1608488,
             51.1056703
@@ -42059,6 +42011,112 @@
           [
             4.2675277,
             51.2130868
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1182938303",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "track",
+        "motor_vehicle": "private",
+        "name": "Binnenbunt",
+        "surface": "compacted",
+        "tracktype": "grade2",
+        "width": "2.5",
+        "id": "way/1182938303"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1572605,
+            51.1040018
+          ],
+          [
+            4.1571922,
+            51.1040889
+          ],
+          [
+            4.1571035,
+            51.1042284
+          ],
+          [
+            4.1570896,
+            51.1043511
+          ],
+          [
+            4.1571123,
+            51.1043686
+          ],
+          [
+            4.1571557,
+            51.1044003
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1182938304",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "no",
+        "name": "Binnenbunt",
+        "smoothness": "intermediate",
+        "surface": "compacted",
+        "id": "way/1182938304"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1599839,
+            51.1051309
+          ],
+          [
+            4.1600069,
+            51.1051503
+          ],
+          [
+            4.1599419,
+            51.1054113
+          ],
+          [
+            4.1600452,
+            51.1054477
+          ],
+          [
+            4.1601125,
+            51.1054641
+          ],
+          [
+            4.1601546,
+            51.1054852
+          ],
+          [
+            4.1602577,
+            51.1055563
+          ],
+          [
+            4.1603441,
+            51.1056006
+          ],
+          [
+            4.1604405,
+            51.105633
+          ],
+          [
+            4.1606385,
+            51.1056716
+          ],
+          [
+            4.1608488,
+            51.1056703
           ]
         ]
       }
