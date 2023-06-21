@@ -11201,8 +11201,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6467598,
-            51.1191557
+            5.6467558,
+            51.1191575
           ],
           [
             5.6473517,
@@ -11258,7 +11258,9 @@
         "highway": "tertiary",
         "maxspeed": "50",
         "name": "Tongerlostraat",
+        "smoothness": "good",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/123363524"
       },
@@ -13266,8 +13268,12 @@
       "type": "Feature",
       "id": "way/148449327",
       "properties": {
+        "bicycle": "yes",
         "highway": "track",
+        "smoothness": "bad",
+        "surface": "gravel",
         "tracktype": "grade2",
+        "vehicle:conditional": "yes @ permit",
         "id": "way/148449327"
       },
       "geometry": {
@@ -13304,6 +13310,10 @@
           [
             5.6671941,
             51.1164148
+          ],
+          [
+            5.6675063,
+            51.1162073
           ],
           [
             5.6676115,
@@ -21446,7 +21456,9 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "track",
+        "lit": "yes",
         "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/234865932"
@@ -21475,24 +21487,16 @@
             51.118356
           ],
           [
-            5.6459243,
-            51.1184401
+            5.6459237,
+            51.1184423
           ],
           [
-            5.6464308,
-            51.1188723
+            5.6467182,
+            51.1191258
           ],
           [
-            5.6465898,
-            51.1190097
-          ],
-          [
-            5.6467211,
-            51.1191247
-          ],
-          [
-            5.6467598,
-            51.1191557
+            5.6467558,
+            51.1191575
           ]
         ]
       }
@@ -30141,6 +30145,8 @@
         "highway": "tertiary",
         "maxspeed": "50",
         "name": "Weerterweg",
+        "smoothness": "intermediate",
+        "surface": "concrete:plates",
         "id": "way/307599744"
       },
       "geometry": {
@@ -30316,7 +30322,8 @@
       "id": "way/313132326",
       "properties": {
         "highway": "track",
-        "surface": "compacted",
+        "smoothness": "bad",
+        "surface": "gravel",
         "tracktype": "grade2",
         "id": "way/313132326"
       },
@@ -30372,7 +30379,9 @@
       "properties": {
         "check_date:surface": "2021-04-21",
         "highway": "path",
-        "surface": "compacted",
+        "smoothness": "intermediate",
+        "surface": "gravel",
+        "width": "0.8",
         "id": "way/313132336"
       },
       "geometry": {
