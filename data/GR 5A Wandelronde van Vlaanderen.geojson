@@ -31772,7 +31772,7 @@
         "highway": "unclassified",
         "lit": "no",
         "name": "Mareweg",
-        "surface": "compacted",
+        "surface": "asphalt",
         "width": "3",
         "id": "way/135847238"
       },
@@ -40274,6 +40274,7 @@
         "surface": "concrete",
         "surface:middle": "grass",
         "tracktype": "grade1",
+        "traffic_sign": "BE:F99c",
         "id": "way/224716227"
       },
       "geometry": {
@@ -41737,12 +41738,16 @@
             51.2027405
           ],
           [
+            3.2341625,
+            51.2027831
+          ],
+          [
             3.2342729,
             51.2028824
           ],
           [
-            3.2343749,
-            51.2029649
+            3.2343937,
+            51.2029796
           ]
         ]
       }
@@ -64641,8 +64646,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2343749,
-            51.2029649
+            3.2343937,
+            51.2029796
           ],
           [
             3.2344928,
@@ -104759,24 +104764,36 @@
             50.7816659
           ],
           [
-            2.8259808,
-            50.7816218
+            2.8260156,
+            50.7816337
+          ],
+          [
+            2.8258976,
+            50.7815921
           ],
           [
             2.8257339,
             50.781552
           ],
           [
+            2.8255919,
+            50.7815404
+          ],
+          [
             2.8253639,
             50.7815404
           ],
           [
-            2.8251364,
-            50.781555
+            2.8251359,
+            50.7815447
           ],
           [
-            2.8248685,
-            50.7814903
+            2.8249991,
+            50.7815353
+          ],
+          [
+            2.824861,
+            50.7815023
           ],
           [
             2.8246288,
@@ -139424,8 +139441,8 @@
             50.7778059
           ],
           [
-            3.2803469,
-            50.7778498
+            3.2803463,
+            50.7778322
           ],
           [
             3.2804072,
@@ -139609,6 +139626,10 @@
           [
             3.2802838,
             50.7776955
+          ],
+          [
+            3.2802895,
+            50.7777771
           ],
           [
             3.2802922,
@@ -171455,36 +171476,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2252238,
-            51.2056329
+            3.2252328,
+            51.2056381
           ],
           [
-            3.2251867,
-            51.2056606
+            3.2251958,
+            51.2056639
           ],
           [
-            3.2252412,
-            51.2057727
+            3.2251722,
+            51.2056804
           ],
           [
-            3.2252141,
-            51.2058403
+            3.2252422,
+            51.205779
           ],
           [
-            3.2252356,
-            51.2058689
+            3.2260383,
+            51.2062782
           ],
           [
-            3.2255842,
-            51.2060672
-          ],
-          [
-            3.2261959,
-            51.206404
+            3.2262624,
+            51.2064145
           ],
           [
             3.2263474,
             51.2064263
+          ],
+          [
+            3.2263706,
+            51.2064435
           ],
           [
             3.2265242,
@@ -172028,12 +172049,12 @@
             51.2053884
           ],
           [
-            3.2253088,
-            51.2055855
+            3.2252965,
+            51.205598
           ],
           [
-            3.2252489,
-            51.2056516
+            3.2252328,
+            51.2056381
           ]
         ]
       }
@@ -172490,11 +172511,13 @@
       "id": "way/61412755",
       "properties": {
         "bridge": "yes",
-        "cycleway": "opposite",
-        "highway": "tertiary",
+        "cycleway:left": "opposite_lane",
+        "cycleway:right": "no",
+        "highway": "residential",
         "lane_markings": "no",
         "layer": "1",
         "lit": "yes",
+        "maxspeed": "30",
         "maxweight:signed": "no",
         "name": "Wollestraat",
         "oneway": "yes",
@@ -172523,8 +172546,8 @@
             51.2070145
           ],
           [
-            3.2270248,
-            51.2069917
+            3.2270417,
+            51.2069847
           ]
         ]
       }
@@ -173291,40 +173314,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/182729714",
-      "properties": {
-        "cycleway": "opposite",
-        "highway": "tertiary",
-        "lane_markings": "no",
-        "lit": "yes",
-        "name": "Wollestraat",
-        "oneway": "yes",
-        "oneway:bicycle": "no",
-        "parking:both": "no",
-        "sett:pattern": "arc",
-        "sidewalk": "both",
-        "surface": "sett",
-        "width:carriageway": "4.3",
-        "wikidata": "Q2521932",
-        "wikipedia": "nl:Wollestraat",
-        "id": "way/182729714"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2270248,
-            51.2069917
-          ],
-          [
-            3.2270417,
-            51.2069847
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/226199300",
       "properties": {
         "bridge": "yes",
@@ -173680,12 +173669,8 @@
             51.2042282
           ],
           [
-            3.2242338,
-            51.2042349
-          ],
-          [
-            3.2243869,
-            51.2042794
+            3.2244034,
+            51.2042841
           ],
           [
             3.2245977,
@@ -173812,8 +173797,8 @@
             51.2042739
           ],
           [
-            3.2241142,
-            51.2042924
+            3.2241189,
+            51.2042946
           ]
         ]
       }
@@ -174742,7 +174727,7 @@
       "properties": {
         "cyclestreet": "yes",
         "cycleway:right": "no",
-        "highway": "tertiary",
+        "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "30",
@@ -174815,9 +174800,9 @@
       "properties": {
         "cyclestreet": "yes",
         "cycleway:class": "-1",
-        "cycleway:left": "lane",
+        "cycleway:left": "opposite_lane",
         "cycleway:left:width": "0.97",
-        "highway": "tertiary",
+        "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "30",
@@ -174826,9 +174811,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "parking:left": "no",
-        "parking:right": "yes",
-        "parking:right:orientation": "parallel",
+        "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
@@ -174858,50 +174841,15 @@
     },
     {
       "type": "Feature",
-      "id": "way/1113618007",
-      "properties": {
-        "highway": "tertiary",
-        "lane_markings": "no",
-        "lit": "yes",
-        "maxspeed": "30",
-        "name": "Dijver",
-        "parking:left": "no",
-        "parking:right": "yes",
-        "parking:right:orientation": "parallel",
-        "sett:pattern": "arc",
-        "sidewalk": "right",
-        "source:maxspeed": "sign",
-        "surface": "sett",
-        "width:carriageway": "8.1",
-        "wikidata": "Q2296717",
-        "wikipedia": "nl:Dijver",
-        "id": "way/1113618007"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2252238,
-            51.2056329
-          ],
-          [
-            3.2252489,
-            51.2056516
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1113618010",
       "properties": {
-        "bicycle": "yes",
+        "access": "yes",
+        "cyclestreet": "yes",
         "cycleway": "opposite",
-        "highway": "tertiary",
-        "lane_markings": "no",
+        "highway": "pedestrian",
         "lit": "yes",
         "maxspeed": "30",
-        "maxspeed:type": "sign",
+        "motor_vehicle:conditional": "permit @ (Mo-Su 13:00-18:00)",
         "name": "Mariastraat",
         "name:etymology:wikidata": "Q345",
         "oneway": "yes",
@@ -174923,12 +174871,8 @@
             51.2042282
           ],
           [
-            3.2241413,
-            51.2042737
-          ],
-          [
-            3.2241142,
-            51.2042924
+            3.2241189,
+            51.2042946
           ]
         ]
       }

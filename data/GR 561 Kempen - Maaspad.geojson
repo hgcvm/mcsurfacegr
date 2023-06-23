@@ -7242,7 +7242,7 @@
         "highway": "track",
         "name": "Langedijk",
         "surface": "dirt",
-        "tracktype": "grade2",
+        "tracktype": "grade4",
         "id": "way/54059895"
       },
       "geometry": {
@@ -15060,7 +15060,7 @@
       "properties": {
         "highway": "track",
         "surface": "dirt",
-        "tracktype": "grade2",
+        "tracktype": "grade3",
         "width": "3",
         "id": "way/182567428"
       },
@@ -17839,7 +17839,7 @@
         "highway": "track",
         "name": "Merelstraat",
         "surface": "dirt",
-        "tracktype": "grade2",
+        "tracktype": "grade4",
         "id": "way/219685211"
       },
       "geometry": {
@@ -24880,18 +24880,21 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "bus": "yes",
+        "cyclestreet": "yes",
         "emergency": "yes",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "mofa": "yes",
         "motor_vehicle": "destination",
         "name": "Luysenweg",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
         "oneway:speed_pedelec": "no",
+        "smoothness": "intermediate",
         "speed_pedelec": "yes",
+        "surface": "asphalt",
         "traffic_sign": "BE:C3,BE:M12_nl,BE:Type_IV_local_traffic_nl",
         "vehicle": "destination",
         "id": "way/249747084"
@@ -24906,10 +24909,6 @@
           [
             5.6303556,
             51.1816349
-          ],
-          [
-            5.6302489,
-            51.1820269
           ]
         ]
       }
@@ -31667,7 +31666,7 @@
         "name": "Langedijk",
         "speed_pedelec": "no",
         "surface": "dirt",
-        "tracktype": "grade2",
+        "tracktype": "grade3",
         "id": "way/318265223"
       },
       "geometry": {
@@ -37204,7 +37203,7 @@
         "highway": "track",
         "name": "Bergstraat",
         "surface": "dirt",
-        "tracktype": "grade2",
+        "tracktype": "grade3",
         "id": "way/420300499"
       },
       "geometry": {
@@ -38555,7 +38554,7 @@
         "highway": "track",
         "name": "Schoterheide",
         "surface": "dirt",
-        "tracktype": "grade2",
+        "tracktype": "grade4",
         "id": "way/472167897"
       },
       "geometry": {
@@ -38668,7 +38667,7 @@
       "properties": {
         "highway": "track",
         "surface": "dirt",
-        "tracktype": "grade2",
+        "tracktype": "grade4",
         "id": "way/472395478"
       },
       "geometry": {
@@ -52217,6 +52216,43 @@
     },
     {
       "type": "Feature",
+      "id": "way/1184249705",
+      "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "bus": "yes",
+        "emergency": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "horse": "yes",
+        "maxspeed": "50",
+        "mofa": "yes",
+        "motor_vehicle": "destination",
+        "name": "Luysenweg",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "oneway:speed_pedelec": "no",
+        "speed_pedelec": "yes",
+        "traffic_sign": "BE:C3,BE:M12_nl,BE:Type_IV_local_traffic_nl",
+        "vehicle": "destination",
+        "id": "way/1184249705"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6303556,
+            51.1816349
+          ],
+          [
+            5.6302489,
+            51.1820269
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/30881260",
       "properties": {
         "highway": "unclassified",
@@ -52904,6 +52940,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "concrete",
         "id": "way/266225318"
       },
       "geometry": {
@@ -53697,6 +53734,8 @@
       "id": "way/440458885",
       "properties": {
         "highway": "cycleway",
+        "smoothness": "good",
+        "surface": "concrete",
         "width": "10",
         "id": "way/440458885"
       },
@@ -53723,6 +53762,8 @@
       "id": "way/440458886",
       "properties": {
         "highway": "cycleway",
+        "smoothness": "good",
+        "surface": "concrete",
         "id": "way/440458886"
       },
       "geometry": {
@@ -53744,6 +53785,8 @@
       "id": "way/440514778",
       "properties": {
         "highway": "cycleway",
+        "smoothness": "good",
+        "surface": "concrete",
         "id": "way/440514778"
       },
       "geometry": {
@@ -53770,6 +53813,8 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "no",
+        "smoothness": "good",
+        "surface": "concrete",
         "id": "way/440514780"
       },
       "geometry": {
@@ -53808,6 +53853,8 @@
       "properties": {
         "highway": "cycleway",
         "layer": "-1",
+        "smoothness": "good",
+        "surface": "concrete",
         "tunnel": "yes",
         "width": "10",
         "id": "way/544870810"
@@ -53840,7 +53887,8 @@
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
         "sidewalk": "both",
-        "surface": "asphalt",
+        "smoothness": "intermediate",
+        "surface": "concrete:plates",
         "id": "way/549335574"
       },
       "geometry": {
