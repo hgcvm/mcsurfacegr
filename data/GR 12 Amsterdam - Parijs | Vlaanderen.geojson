@@ -902,10 +902,11 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "residential",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "maxweight": "5.5",
         "maxweight:conditional": "none @ (destination,agricultural)",
         "name": "Galgstraat",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/495176413"
       },
@@ -931,11 +932,12 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "maxweight": "3.5",
         "maxweight:conditional": "none @ (destination,agricultural)",
         "name": "Galgstraat",
         "sidewalk": "right",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/495176417"
       },
@@ -967,16 +969,8 @@
             50.7540499
           ],
           [
-            4.3412798,
-            50.7544176
-          ],
-          [
-            4.3416594,
-            50.7546555
-          ],
-          [
-            4.3417658,
-            50.7547137
+            4.3412744,
+            50.7544303
           ]
         ]
       }
@@ -1852,10 +1846,11 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "maxweight": "5.5",
         "maxweight:conditional": "none @ destination",
         "name": "Galgstraat",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/1031323302"
       },
@@ -2028,6 +2023,40 @@
           [
             4.3229453,
             50.7426086
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1185565838",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ (destination,agricultural)",
+        "name": "Galgstraat",
+        "sidewalk": "right",
+        "surface": "asphalt",
+        "id": "way/1185565838"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3412744,
+            50.7544303
+          ],
+          [
+            4.3416594,
+            50.7546555
+          ],
+          [
+            4.3417658,
+            50.7547137
           ]
         ]
       }
@@ -20921,6 +20950,7 @@
         "highway": "pedestrian",
         "lit": "yes",
         "name": "Napoleonkaai",
+        "name:etymology:wikidata": "Q517",
         "surface": "paving_stones",
         "id": "way/479893486"
       },
@@ -21569,6 +21599,7 @@
         "highway": "pedestrian",
         "lit": "yes",
         "name": "Verbindingsdok-Oostkaai",
+        "name:etymology:wikidata": "Q2671019",
         "surface": "sett",
         "id": "way/549221432"
       },
@@ -21596,6 +21627,7 @@
         "maxspeed": "20",
         "maxspeed:zone": "yes",
         "name": "Verbindingsdok-Westkaai",
+        "name:etymology:wikidata": "Q2671019",
         "surface": "paving_stones",
         "id": "way/549221433"
       },
@@ -22783,6 +22815,7 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Napelsstraat",
+        "name:etymology:wikidata": "Q2634",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "sidewalk": "both",
