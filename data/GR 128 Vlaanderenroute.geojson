@@ -366,12 +366,16 @@
       "id": "way/5898937",
       "properties": {
         "bicycle": "yes",
-        "emergency": "no",
+        "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "pedestrian",
         "maxspeed": "30",
+        "mofa": "yes",
         "name": "Lindenlei",
+        "private": "exceptional_permit",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/5898937"
       },
       "geometry": {
@@ -514,13 +518,17 @@
         "bicycle": "yes",
         "bridge": "yes",
         "bridge:name": "Sint-Agnetebrug",
-        "emergency": "no",
+        "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "pedestrian",
         "layer": "1",
         "maxspeed": "30",
+        "mofa": "yes",
         "name": "Sint-Agnetabrug",
+        "private": "exceptional_permit",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/6234999"
       },
       "geometry": {
@@ -542,12 +550,16 @@
       "id": "way/6235000",
       "properties": {
         "bicycle": "yes",
-        "emergency": "no",
+        "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "pedestrian",
         "maxspeed": "30",
+        "mofa": "yes",
         "name": "Lindenlei",
+        "private": "exceptional_permit",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/6235000"
       },
       "geometry": {
@@ -4657,18 +4669,18 @@
       "id": "way/20554791",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "cycleway": "shared",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Predikherenlei",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "asphalt",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/20554791"
       },
       "geometry": {
@@ -5815,18 +5827,18 @@
       "id": "way/23085992",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Sint-Michielshelling",
         "name:etymology:wikidata": "Q45581",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/23085992"
       },
       "geometry": {
@@ -7250,8 +7262,8 @@
       "id": "way/23982707",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
@@ -7259,10 +7271,11 @@
         "name": "Hoofdkerkstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "traffic_sign": "BE:ZC3",
-        "vehicle": "permit",
+        "vehicle": "private",
         "id": "way/23982707"
       },
       "geometry": {
@@ -7292,18 +7305,19 @@
       "id": "way/23982709",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "cycleway": "no",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Kapittelstraat",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "traffic_sign": "BE:ZC3",
-        "vehicle": "permit",
+        "vehicle": "private",
         "id": "way/23982709"
       },
       "geometry": {
@@ -8044,17 +8058,17 @@
       "id": "way/23997294",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "no",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Groentenmarkt",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "paving_stones",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/23997294"
       },
       "geometry": {
@@ -12136,21 +12150,21 @@
       "properties": {
         "bicycle": "yes",
         "bridge": "yes",
-        "bus": "yes",
         "cyclestreet": "yes",
         "cycleway": "shared",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "residential",
         "layer": "1",
         "lit": "no",
         "maxspeed": "30",
         "mofa": "yes",
         "name": "Predikherenbrug",
+        "private": "exceptional_permit",
         "sidewalk": "both",
         "speed_pedelec": "yes",
         "surface": "asphalt",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/25580387"
       },
       "geometry": {
@@ -29014,6 +29028,10 @@
             50.9722557
           ],
           [
+            4.6223985,
+            50.972153
+          ],
+          [
             4.6229766,
             50.9719814
           ],
@@ -31483,18 +31501,18 @@
       "properties": {
         "bicycle": "yes",
         "bridge": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "layer": "1",
         "lit": "no",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Grasbrug",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "wikidata": "Q2520254",
         "id": "way/38668453"
       },
@@ -32146,10 +32164,9 @@
       "type": "Feature",
       "id": "way/38881244",
       "properties": {
-        "access": "permit",
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "horse": "yes",
         "lit": "yes",
@@ -32158,10 +32175,11 @@
         "name": "Bisdomkaai",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
         "traffic_sign": "BE:ZC3",
-        "vehicle": "permit",
+        "vehicle": "private",
         "id": "way/38881244"
       },
       "geometry": {
@@ -32240,18 +32258,18 @@
       "id": "way/38883274",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "cyclestreet": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "residential",
         "lit": "yes",
         "mofa": "yes",
         "name": "Hoornstraat",
+        "private": "exceptional_permit",
         "sidewalk": "both",
         "speed_pedelec": "yes",
         "surface": "asphalt",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/38883274"
       },
       "geometry": {
@@ -32273,16 +32291,16 @@
       "id": "way/38884233",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "pedestrian",
         "maxspeed": "30",
         "mofa": "yes",
         "name": "Coupure Links",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "asphalt",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/38884233"
       },
       "geometry": {
@@ -47762,16 +47780,16 @@
       "id": "way/45139004",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Kortemunt",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/45139004"
       },
       "geometry": {
@@ -48787,15 +48805,15 @@
       "id": "way/47444152",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Korenlei",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/47444152"
       },
       "geometry": {
@@ -49672,17 +49690,17 @@
       "id": "way/52186394",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Predikherenlei",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "asphalt",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/52186394"
       },
       "geometry": {
@@ -63767,17 +63785,17 @@
       "id": "way/121290169",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Korenlei",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/121290169"
       },
       "geometry": {
@@ -68585,18 +68603,19 @@
       "id": "way/141974228",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "cycleway": "no",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Bisdomkaai",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
         "traffic_sign": "BE:ZC3",
-        "vehicle": "permit",
+        "vehicle": "private",
         "id": "way/141974228"
       },
       "geometry": {
@@ -73317,20 +73336,20 @@
       "id": "way/154318659",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "cyclestreet": "yes",
         "cycleway": "shared",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "mofa": "yes",
         "name": "Hoornstraat",
+        "private": "exceptional_permit",
         "sidewalk": "both",
         "speed_pedelec": "yes",
         "surface": "asphalt",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/154318659"
       },
       "geometry": {
@@ -76695,18 +76714,18 @@
       "id": "way/179879862",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Korenmarkt",
+        "private": "exceptional_permit",
         "smoothness": "good",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/179879862"
       },
       "geometry": {
@@ -76748,16 +76767,16 @@
       "id": "way/179879865",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Groentenmarkt",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "paving_stones",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/179879865"
       },
       "geometry": {
@@ -95799,16 +95818,16 @@
       "id": "way/386932628",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Korenlei",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/386932628"
       },
       "geometry": {
@@ -101263,16 +101282,16 @@
       "id": "way/443238390",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Klein Turkije",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "paving_stones",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/443238390"
       },
       "geometry": {
@@ -101298,16 +101317,16 @@
       "id": "way/443238392",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Botermarkt",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "paving_stones",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/443238392"
       },
       "geometry": {
@@ -102455,18 +102474,18 @@
       "id": "way/483284169",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "cycleway": "no",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "residential",
         "maxspeed": "30",
         "mofa": "yes",
         "name": "Albert Baertsoenkaai",
         "name:etymology:wikidata": "Q2830938",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "asphalt",
-        "taxi": "yes",
-        "vehicle": "yes",
+        "vehicle": "private",
         "id": "way/483284169"
       },
       "geometry": {
@@ -112027,8 +112046,8 @@
       "properties": {
         "bicycle": "yes",
         "bridge": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "layer": "1",
         "lit": "yes",
@@ -112036,11 +112055,10 @@
         "mofa": "yes",
         "name": "Sint-Michielsbrug",
         "name:etymology:wikidata": "Q45581",
-        "name:ru": "Мост святого Михаила",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/727132727"
       },
       "geometry": {
@@ -113719,18 +113737,16 @@
       "id": "way/771986232",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
-        "highway": "living_street",
-        "image": "https://images.mapillary.com/jzTOELYSKlA8xIzGecrXfX/thumb-2048.jpg",
+        "highway": "pedestrian",
         "mapillary": "807980890150482",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Goudenleeuwplein",
-        "speed_pedelec": "yes",
+        "private": "government_service",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "traffic_sign": "BE:C3,M2,GIV[uitgezonderd IVAGO]",
+        "vehicle": "private",
         "id": "way/771986232"
       },
       "geometry": {
@@ -115741,17 +115757,17 @@
       "id": "way/781142743",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Predikherenlei",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "asphalt",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/781142743"
       },
       "geometry": {
@@ -115773,17 +115789,17 @@
       "id": "way/781142744",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Sint-Michielshelling",
         "name:etymology:wikidata": "Q45581",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "cobblestone",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/781142744"
       },
       "geometry": {
@@ -115805,14 +115821,14 @@
       "id": "way/781142749",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/781142749"
       },
       "geometry": {
@@ -115838,18 +115854,19 @@
       "id": "way/781142751",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Sint-Baafsplein",
         "name:etymology:wikidata": "Q457903",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
         "traffic_sign": "BE:ZC3",
-        "vehicle": "permit",
+        "vehicle": "private",
         "id": "way/781142751"
       },
       "geometry": {
@@ -115879,16 +115896,17 @@
       "id": "way/781142752",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Bisdomplein",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
         "traffic_sign": "BE:ZC3",
-        "vehicle": "permit",
+        "vehicle": "private",
         "id": "way/781142752"
       },
       "geometry": {
@@ -117183,16 +117201,16 @@
       "id": "way/795401253",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Groentenmarkt",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "paving_stones",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/795401253"
       },
       "geometry": {
@@ -117853,18 +117871,18 @@
       "id": "way/810217397",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Sint-Baafsplein",
         "name:etymology:wikidata": "Q457903",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "paving_stones",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/810217397"
       },
       "geometry": {
@@ -117990,17 +118008,17 @@
       "id": "way/815876387",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "cycleway": "shared",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Emile Braunplein",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/815876387"
       },
       "geometry": {
@@ -119558,16 +119576,16 @@
       "id": "way/857498598",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Goudenleeuwplein",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/857498598"
       },
       "geometry": {
@@ -124713,18 +124731,19 @@
       "id": "way/1050313872",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Sint-Baafsplein",
         "name:etymology:wikidata": "Q457903",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
         "traffic_sign": "BE:ZC3",
-        "vehicle": "permit",
+        "vehicle": "private",
         "id": "way/1050313872"
       },
       "geometry": {
@@ -128515,18 +128534,18 @@
       "id": "way/1144681320",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "cycleway": "no",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "pedestrian",
         "maxspeed": "30",
         "mofa": "yes",
         "name": "Albert Baertsoenkaai",
         "name:etymology:wikidata": "Q2830938",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "asphalt",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/1144681320"
       },
       "geometry": {
@@ -129743,12 +129762,16 @@
       "id": "way/1165393386",
       "properties": {
         "bicycle": "yes",
-        "emergency": "no",
+        "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "pedestrian",
         "maxspeed": "30",
+        "mofa": "yes",
         "name": "Lindenlei",
+        "private": "exceptional_permit",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/1165393386"
       },
       "geometry": {
@@ -147756,8 +147779,8 @@
       "id": "way/23982725",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
@@ -147765,10 +147788,10 @@
         "name": "Geldmunt",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/23982725"
       },
       "geometry": {
@@ -148042,18 +148065,18 @@
       "properties": {
         "bicycle": "yes",
         "bridge": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "layer": "1",
         "lit": "no",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Zuivelbrug",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "wood",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "wikidata": "Q23806583",
         "id": "way/25728316"
       },
@@ -148076,17 +148099,17 @@
       "id": "way/25728317",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Zuivelbrugstraat",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/25728317"
       },
       "geometry": {
@@ -148116,17 +148139,17 @@
       "id": "way/25956587",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Rodekoningstraat",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/25956587"
       },
       "geometry": {
@@ -148156,16 +148179,16 @@
       "id": "way/25956589",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Plotersgracht",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "paving_stones",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/25956589"
       },
       "geometry": {
@@ -148202,14 +148225,16 @@
       "type": "Feature",
       "id": "way/25956595",
       "properties": {
+        "bicycle": "yes",
         "cycleway": "opposite",
+        "emergency": "yes",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Lievestraat",
-        "oneway": "yes",
-        "oneway:bicycle": "no",
+        "private": "government_service",
         "sidewalk": "both",
         "surface": "sett",
+        "vehicle": "private",
         "id": "way/25956595"
       },
       "geometry": {
@@ -148231,17 +148256,17 @@
       "id": "way/25956602",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Meerseniersstraat",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/25956602"
       },
       "geometry": {
@@ -148840,17 +148865,17 @@
       "id": "way/46962035",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Haringsteeg",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/46962035"
       },
       "geometry": {
@@ -148880,18 +148905,18 @@
       "id": "way/46962042",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Karmelietenstraat",
         "old_name": "Onze-Lieve-Vrouwstraat",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "paving_stones",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/46962042"
       },
       "geometry": {
@@ -149129,16 +149154,11 @@
         "oneway:bicycle": "no",
         "sidewalk": "both",
         "surface": "sett",
-        "vehicle": "no",
         "id": "way/85636734"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.7198241,
-            51.0582259
-          ],
           [
             3.7198701,
             51.0582419
@@ -149966,14 +149986,15 @@
       "properties": {
         "bicycle": "yes",
         "bridge": "yes",
-        "foot": "yes",
+        "emergency": "yes",
         "highway": "residential",
         "layer": "1",
         "maxspeed": "30",
         "name": "Lievebrug",
+        "private": "government_service",
         "sidewalk": "both",
         "surface": "sett",
-        "vehicle": "no",
+        "vehicle": "private",
         "wikidata": "Q23806633",
         "id": "way/169481437"
       },
@@ -150144,12 +150165,19 @@
       "type": "Feature",
       "id": "way/227923878",
       "properties": {
+        "bicycle": "yes",
+        "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
+        "mofa": "yes",
         "name": "Vrijdagmarkt",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "private": "exceptional_permit",
+        "speed_pedelec": "yes",
         "surface": "sett",
+        "vehicle": "private",
         "wikidata": "Q2762897",
         "wikipedia": "nl:Vrijdagmarkt (Gent)",
         "id": "way/227923878"
@@ -150484,8 +150512,8 @@
       "id": "way/443247362",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
@@ -150494,10 +150522,10 @@
         "name:etymology:wikidata": "Q1394408",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/443247362"
       },
       "geometry": {
@@ -150619,17 +150647,17 @@
       "id": "way/540085641",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Meerseniersstraat",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/540085641"
       },
       "geometry": {
@@ -150651,16 +150679,16 @@
       "id": "way/540085643",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Jan Breydel straat",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/540085643"
       },
       "geometry": {
@@ -151924,16 +151952,16 @@
       "id": "way/842244905",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Vrijdagmarkt",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "wikidata": "Q2762897",
         "wikipedia": "nl:Vrijdagmarkt (Gent)",
         "id": "way/842244905"
@@ -151961,19 +151989,19 @@
       "id": "way/842244906",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "cycleway": "shared",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Oudburg",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/842244906"
       },
       "geometry": {
@@ -151995,17 +152023,17 @@
       "id": "way/842244908",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Corduwaniersstraat",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "paving_stones",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/842244908"
       },
       "geometry": {
@@ -152178,18 +152206,18 @@
       "id": "way/1116478191",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "pedestrian",
         "horse": "no",
         "maxspeed": "30",
         "mofa": "yes",
         "moped": "yes",
         "name": "Beverhoutplein",
+        "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "asphalt",
-        "taxi": "yes",
-        "vehicle": "no",
+        "vehicle": "private",
         "id": "way/1116478191"
       },
       "geometry": {
@@ -152403,6 +152431,36 @@
           [
             3.7424068,
             51.0573581
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1186223380",
+      "properties": {
+        "bicycle": "yes",
+        "cycleway": "opposite",
+        "emergency": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Lievestraat",
+        "private": "government_service",
+        "sidewalk": "both",
+        "surface": "sett",
+        "vehicle": "private",
+        "id": "way/1186223380"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7198241,
+            51.0582259
+          ],
+          [
+            3.7198701,
+            51.0582419
           ]
         ]
       }
