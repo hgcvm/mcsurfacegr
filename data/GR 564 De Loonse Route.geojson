@@ -1152,6 +1152,8 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Mettekovenstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone50",
         "surface": "concrete",
@@ -1163,48 +1165,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.2881324,
-            50.7800583
-          ],
-          [
-            5.2887132,
-            50.7801732
-          ],
-          [
-            5.2888691,
-            50.7802133
-          ],
-          [
-            5.2890018,
-            50.7802925
-          ],
-          [
-            5.2890716,
-            50.7803716
-          ],
-          [
-            5.2891477,
-            50.7805008
-          ],
-          [
-            5.2893331,
-            50.7807289
-          ],
-          [
-            5.2895228,
-            50.7809193
-          ],
-          [
-            5.2896885,
-            50.7810561
+            5.2899586,
+            50.7811913
           ],
           [
             5.2898317,
             50.7811533
           ],
           [
-            5.2899586,
-            50.7811913
+            5.2896885,
+            50.7810561
+          ],
+          [
+            5.2895228,
+            50.7809193
+          ],
+          [
+            5.2893331,
+            50.7807289
+          ],
+          [
+            5.2891477,
+            50.7805008
+          ],
+          [
+            5.2890716,
+            50.7803716
+          ],
+          [
+            5.2890018,
+            50.7802925
+          ],
+          [
+            5.2888691,
+            50.7802133
+          ],
+          [
+            5.2887132,
+            50.7801732
+          ],
+          [
+            5.2881324,
+            50.7800583
           ]
         ]
       }
@@ -5446,6 +5448,14 @@
             50.5759971
           ],
           [
+            5.1806073,
+            50.575931
+          ],
+          [
+            5.1805794,
+            50.5759236
+          ],
+          [
             5.1803771,
             50.575874
           ],
@@ -6085,8 +6095,8 @@
             50.7592403
           ],
           [
-            5.0815657,
-            50.7595394
+            5.0815515,
+            50.7595125
           ],
           [
             5.081866,
@@ -6979,7 +6989,6 @@
       "type": "Feature",
       "id": "way/99499013",
       "properties": {
-        "access": "no",
         "foot": "yes",
         "highway": "path",
         "surface": "dirt",
@@ -7845,7 +7854,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "horse": "yes",
-        "name": "L127",
+        "name": "Ravel L127",
         "railway": "abandoned",
         "segregated": "no",
         "surface": "asphalt",
@@ -9230,7 +9239,7 @@
       "id": "way/149018135",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "concrete",
         "id": "way/149018135"
       },
       "geometry": {
@@ -9611,7 +9620,7 @@
       "properties": {
         "highway": "track",
         "motor_vehicle": "no",
-        "surface": "ground",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/153365774"
       },
@@ -9647,8 +9656,8 @@
             50.9819259
           ],
           [
-            5.4291286,
-            50.9815908
+            5.4291432,
+            50.9815871
           ],
           [
             5.4288403,
@@ -10040,8 +10049,8 @@
       "properties": {
         "highway": "path",
         "smoothness": "horrible",
-        "surface": "grass",
-        "trail_visibility": "bad",
+        "surface": "ground",
+        "trail_visibility": "good",
         "id": "way/155444721"
       },
       "geometry": {
@@ -10506,24 +10515,8 @@
             50.575797
           ],
           [
-            5.1828632,
-            50.5757879
-          ],
-          [
-            5.1827275,
-            50.5757974
-          ],
-          [
-            5.1825604,
-            50.5758423
-          ],
-          [
-            5.1823487,
-            50.5759005
-          ],
-          [
-            5.1821589,
-            50.575919
+            5.1828688,
+            50.5757699
           ]
         ]
       }
@@ -10697,7 +10690,7 @@
         "foot": "designated",
         "highway": "cycleway",
         "horse": "yes",
-        "name": "L127",
+        "name": "Ravel L127",
         "railway": "abandoned",
         "segregated": "no",
         "surface": "asphalt",
@@ -11694,6 +11687,10 @@
             51.0116008
           ],
           [
+            5.4575011,
+            51.0116127
+          ],
+          [
             5.4576717,
             51.0116543
           ],
@@ -11805,12 +11802,12 @@
             51.0112126
           ],
           [
-            5.446893,
-            51.0113076
+            5.4468897,
+            51.0113063
           ],
           [
-            5.4467941,
-            51.0113534
+            5.4467734,
+            51.011346
           ]
         ]
       }
@@ -11958,12 +11955,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4666119,
-            51.0069583
+            5.4665368,
+            51.0069358
           ],
           [
-            5.4664264,
-            51.0070096
+            5.4664079,
+            51.0069391
+          ],
+          [
+            5.4663045,
+            51.0069719
           ],
           [
             5.4662368,
@@ -12025,7 +12026,7 @@
       "properties": {
         "highway": "track",
         "motor_vehicle": "no",
-        "surface": "ground",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/161535385"
       },
@@ -12118,8 +12119,6 @@
       "type": "Feature",
       "id": "way/161537609",
       "properties": {
-        "access": "no",
-        "foot": "yes",
         "highway": "track",
         "surface": "dirt",
         "tracktype": "grade3",
@@ -14933,10 +14932,10 @@
       "type": "Feature",
       "id": "way/199749751",
       "properties": {
-        "access": "no",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
+        "motor_vehicle": "no",
         "surface": "gravel",
         "tracktype": "grade2",
         "id": "way/199749751"
@@ -15017,8 +15016,8 @@
       "id": "way/199904491",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
-        "tracktype": "grade4",
+        "surface": "sand",
+        "tracktype": "grade5",
         "id": "way/199904491"
       },
       "geometry": {
@@ -15062,12 +15061,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4466,
-            51.0112955
+            5.4465516,
+            51.0112743
           ],
           [
-            5.4465611,
-            51.0113078
+            5.4465424,
+            51.0112965
           ],
           [
             5.4464282,
@@ -15284,7 +15283,7 @@
       "id": "way/200219362",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/200219362"
       },
       "geometry": {
@@ -15295,8 +15294,12 @@
             51.0070333
           ],
           [
-            5.465897,
-            51.0070562
+            5.4660694,
+            51.0070777
+          ],
+          [
+            5.4659315,
+            51.0070957
           ],
           [
             5.465572,
@@ -15399,11 +15402,10 @@
       "type": "Feature",
       "id": "way/200221071",
       "properties": {
-        "access": "no",
         "foot": "yes",
         "highway": "path",
         "motor_vehicle": "no",
-        "surface": "dirt",
+        "surface": "sand",
         "id": "way/200221071"
       },
       "geometry": {
@@ -15430,16 +15432,16 @@
             51.0132226
           ],
           [
-            5.4367576,
-            51.0132969
+            5.4367458,
+            51.0132972
           ],
           [
-            5.4364526,
-            51.0134637
+            5.4364253,
+            51.0134411
           ],
           [
-            5.436411,
-            51.0135079
+            5.4364099,
+            51.0135227
           ],
           [
             5.4364366,
@@ -15462,16 +15464,16 @@
             51.0144383
           ],
           [
-            5.4362226,
-            51.0145905
+            5.4362306,
+            51.0146539
           ],
           [
-            5.4363034,
-            51.014688
+            5.4363029,
+            51.0147163
           ],
           [
-            5.4363864,
-            51.0147834
+            5.4363703,
+            51.0147787
           ],
           [
             5.4364262,
@@ -15492,12 +15494,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4467941,
-            51.0113534
+            5.4467734,
+            51.011346
           ],
           [
-            5.4466,
-            51.0112955
+            5.4465516,
+            51.0112743
           ]
         ]
       }
@@ -15506,7 +15508,6 @@
       "type": "Feature",
       "id": "way/200221075",
       "properties": {
-        "access": "no",
         "foot": "yes",
         "highway": "path",
         "motor_vehicle": "no",
@@ -15521,6 +15522,10 @@
             51.0149533
           ],
           [
+            5.4363478,
+            51.0149863
+          ],
+          [
             5.436302,
             51.0150056
           ],
@@ -15533,8 +15538,8 @@
             51.0151345
           ],
           [
-            5.4356189,
-            51.0152185
+            5.4356066,
+            51.0152242
           ]
         ]
       }
@@ -15543,8 +15548,6 @@
       "type": "Feature",
       "id": "way/200858245",
       "properties": {
-        "access": "no",
-        "foot": "yes",
         "highway": "track",
         "surface": "dirt",
         "tracktype": "grade3",
@@ -15731,7 +15734,7 @@
       "properties": {
         "highway": "track",
         "motor_vehicle": "no",
-        "surface": "ground",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/201026458"
       },
@@ -19960,9 +19963,6 @@
       "type": "Feature",
       "id": "way/222566609",
       "properties": {
-        "access": "no",
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
         "surface": "compacted",
         "tracktype": "grade2",
@@ -20561,8 +20561,12 @@
             50.9722752
           ],
           [
-            5.4170633,
-            50.9724329
+            5.4170176,
+            50.9723359
+          ],
+          [
+            5.4171236,
+            50.9724684
           ]
         ]
       }
@@ -20826,9 +20830,10 @@
         "bicycle": "yes",
         "cycleway": "no",
         "foot": "yes",
-        "highway": "unclassified",
+        "highway": "track",
         "motorcar": "agricultural",
         "surface": "concrete",
+        "tracktype": "grade1",
         "width": "3",
         "id": "way/239654638"
       },
@@ -21405,8 +21410,6 @@
       "type": "Feature",
       "id": "way/245372646",
       "properties": {
-        "access": "no",
-        "foot": "yes",
         "highway": "path",
         "surface": "dirt",
         "id": "way/245372646"
@@ -22081,7 +22084,6 @@
       "type": "Feature",
       "id": "way/253260917",
       "properties": {
-        "access": "no",
         "foot": "yes",
         "highway": "path",
         "motor_vehicle": "no",
@@ -22092,8 +22094,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4356189,
-            51.0152185
+            5.4356066,
+            51.0152242
           ],
           [
             5.4353881,
@@ -22922,7 +22924,6 @@
       "type": "Feature",
       "id": "way/256225639",
       "properties": {
-        "access": "no",
         "foot": "yes",
         "highway": "path",
         "surface": "dirt",
@@ -23006,7 +23007,6 @@
       "type": "Feature",
       "id": "way/256225644",
       "properties": {
-        "access": "no",
         "foot": "yes",
         "highway": "path",
         "surface": "compacted",
@@ -23050,7 +23050,6 @@
       "type": "Feature",
       "id": "way/256228268",
       "properties": {
-        "access": "no",
         "bridge": "boardwalk",
         "foot": "yes",
         "highway": "path",
@@ -23293,8 +23292,16 @@
             51.0215607
           ],
           [
-            5.42125,
-            51.0219426
+            5.4215725,
+            51.0217108
+          ],
+          [
+            5.4215562,
+            51.0217873
+          ],
+          [
+            5.4210735,
+            51.0221047
           ],
           [
             5.4199648,
@@ -23363,13 +23370,12 @@
       "type": "Feature",
       "id": "way/256631513",
       "properties": {
-        "access": "no",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
         "horse": "yes",
         "motor_vehicle": "no",
-        "surface": "compacted",
+        "surface": "gravel",
         "tracktype": "grade2",
         "id": "way/256631513"
       },
@@ -23685,7 +23691,7 @@
       "id": "way/257190386",
       "properties": {
         "highway": "path",
-        "surface": "compacted",
+        "surface": "dirt",
         "id": "way/257190386"
       },
       "geometry": {
@@ -25784,6 +25790,10 @@
           [
             5.1987369,
             50.5430971
+          ],
+          [
+            5.1984751,
+            50.5431949
           ],
           [
             5.1982593,
@@ -28945,6 +28955,8 @@
       "properties": {
         "highway": "track",
         "name": "Chemin d'Avernas",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/345560411"
       },
       "geometry": {
@@ -29004,7 +29016,7 @@
         "cycleway": "lane",
         "highway": "secondary",
         "lanes": "2",
-        "maxspeed": "90",
+        "maxspeed": "70",
         "name": "Borgwormsesteenweg",
         "ref": "N789",
         "surface": "asphalt",
@@ -30220,7 +30232,7 @@
       "id": "way/360060881",
       "properties": {
         "highway": "track",
-        "surface": "compacted",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/360060881"
       },
@@ -30243,6 +30255,7 @@
       "id": "way/360064151",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/360064151"
       },
       "geometry": {
@@ -30673,7 +30686,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "horse": "yes",
-        "name": "L127",
+        "name": "Ravel L127",
         "railway": "abandoned",
         "segregated": "no",
         "id": "way/367155644"
@@ -31382,8 +31395,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1821589,
-            50.575919
+            5.1828688,
+            50.5757699
           ],
           [
             5.1820299,
@@ -31796,7 +31809,9 @@
       "id": "way/367276619",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "sunset-sunrise",
+        "maxspeed:type": "BE:urban",
         "name": "Rue Sous les Roches",
         "sidewalk": "both",
         "surface": "asphalt",
@@ -32774,9 +32789,6 @@
       "type": "Feature",
       "id": "way/378014598",
       "properties": {
-        "access": "no",
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
         "surface": "compacted",
         "tracktype": "grade2",
@@ -34973,7 +34985,7 @@
       "id": "way/553247728",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/553247728"
       },
       "geometry": {
@@ -35043,7 +35055,7 @@
       "id": "way/553247729",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/553247729"
       },
       "geometry": {
@@ -35441,8 +35453,8 @@
             51.007117
           ],
           [
-            5.4666119,
-            51.0069583
+            5.4665368,
+            51.0069358
           ]
         ]
       }
@@ -35973,6 +35985,7 @@
       "id": "way/624439103",
       "properties": {
         "highway": "footway",
+        "vehicle": "no",
         "id": "way/624439103"
       },
       "geometry": {
@@ -36035,32 +36048,16 @@
             50.7523173
           ],
           [
-            5.085038,
-            50.7523384
+            5.0847146,
+            50.7522744
           ],
           [
-            5.0851762,
-            50.7524132
+            5.085,
+            50.7523535
           ],
           [
-            5.0853043,
-            50.7524711
-          ],
-          [
-            5.0853193,
-            50.7524869
-          ],
-          [
-            5.0852577,
-            50.7526385
-          ],
-          [
-            5.0851512,
-            50.7526711
-          ],
-          [
-            5.0850236,
-            50.7527495
+            5.0850567,
+            50.7524026
           ]
         ]
       }
@@ -36130,10 +36127,10 @@
       "type": "Feature",
       "id": "way/640364074",
       "properties": {
-        "access": "no",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
+        "motor_vehicle": "no",
         "surface": "gravel",
         "tracktype": "grade2",
         "id": "way/640364074"
@@ -38008,6 +38005,7 @@
       "properties": {
         "highway": "cycleway",
         "name": "Boekrakelaan",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/785576769"
       },
@@ -38015,12 +38013,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4170633,
-            50.9724329
+            5.4171236,
+            50.9724684
           ],
           [
-            5.4237225,
-            50.9745273
+            5.4188264,
+            50.9730405
+          ],
+          [
+            5.4237104,
+            50.9745442
+          ],
+          [
+            5.4239005,
+            50.9745327
           ],
           [
             5.423936,
@@ -38468,7 +38474,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "horse": "yes",
-        "name": "L127",
+        "name": "Ravel L127",
         "railway": "abandoned",
         "segregated": "no",
         "id": "way/828491077"
@@ -38546,7 +38552,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "horse": "yes",
-        "name": "L127",
+        "name": "Ravel L127",
         "railway": "abandoned",
         "segregated": "no",
         "id": "way/828492309"
@@ -38969,7 +38975,7 @@
         "cycleway": "lane",
         "highway": "secondary",
         "lanes": "2",
-        "maxspeed": "90",
+        "maxspeed": "70",
         "name": "Borgwormsesteenweg",
         "ref": "N789",
         "surface": "asphalt",
@@ -39605,7 +39611,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "horse": "yes",
-        "name": "L127",
+        "name": "Ravel L127",
         "railway": "abandoned",
         "segregated": "no",
         "id": "way/943477368"
@@ -40751,6 +40757,72 @@
           [
             5.1808812,
             50.5759971
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1178728665",
+      "properties": {
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1",
+        "vehicle": "no",
+        "id": "way/1178728665"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0850567,
+            50.7524026
+          ],
+          [
+            5.085098,
+            50.7524344
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1178728666",
+      "properties": {
+        "highway": "footway",
+        "vehicle": "no",
+        "id": "way/1178728666"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.085098,
+            50.7524344
+          ],
+          [
+            5.0851647,
+            50.7524463
+          ],
+          [
+            5.0853043,
+            50.7524711
+          ],
+          [
+            5.0853193,
+            50.7524869
+          ],
+          [
+            5.0852577,
+            50.7526385
+          ],
+          [
+            5.0851512,
+            50.7526711
+          ],
+          [
+            5.0850236,
+            50.7527495
           ]
         ]
       }

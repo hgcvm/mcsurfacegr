@@ -80,6 +80,7 @@
         "maxspeed:zone": "yes",
         "name": "Meirbrug",
         "oneway": "yes",
+        "sidewalk": "both",
         "surface": "paving_stones",
         "id": "way/4446825"
       },
@@ -526,10 +527,7 @@
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
-        "maxspeed:zone": "yes",
-        "maxweight": "7.5",
         "name": "Van Leentstraat",
-        "noexit": "yes",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
@@ -843,6 +841,7 @@
         "maxspeed:zone": "yes",
         "name": "Meir",
         "oneway": "yes",
+        "sidewalk": "right",
         "surface": "paving_stones",
         "wikidata": "Q12852",
         "wikipedia": "nl:Meir (straat)",
@@ -872,6 +871,7 @@
         "name": "Everdijstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "parking:both": "no",
         "sidewalk": "no",
         "surface": "sett",
         "wikidata": "Q26196720",
@@ -1727,7 +1727,7 @@
         "maxspeed:zone": "yes",
         "name": "Schoenmarkt",
         "oneway": "yes",
-        "sidewalk": "both",
+        "sidewalk": "right",
         "surface": "paving_stones",
         "id": "way/76441133"
       },
@@ -1783,7 +1783,7 @@
         "maxspeed": "20",
         "maxspeed:zone": "yes",
         "name": "Meir",
-        "parking:lane:both": "no",
+        "parking:both": "no",
         "surface": "paving_stones",
         "wikidata": "Q12852",
         "wikipedia": "nl:Meir (straat)",
@@ -1903,9 +1903,12 @@
       "type": "Feature",
       "id": "way/133638706",
       "properties": {
-        "access": "no",
+        "access": "yes",
         "description": "http://wegenenverkeer.be/werken/heraanleg-noordersingel-turnhoutsepoort",
+        "foot": "yes",
         "highway": "cycleway",
+        "horse": "no",
+        "motor_vehicle": "service",
         "note": "Bezocht 220318 en webstek Oosterweel : deze ways gedurende een jaaar niet toegankelijk wegens bouw fiets-/voetgangerstunnel onderdoor Turnhoutsebaan ; wegens dat sommige routeerders elke way met fietsrelatie als berijdbaar beschouwen ook FFRN verwijderd.",
         "id": "way/133638706"
       },
@@ -1913,12 +1916,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4524031,
-            51.2189646
+            4.4527678,
+            51.219102
           ],
           [
-            4.4520868,
-            51.2188406
+            4.4524879,
+            51.2189837
+          ],
+          [
+            4.4520282,
+            51.2188195
           ],
           [
             4.4518649,
@@ -2666,9 +2673,12 @@
       "type": "Feature",
       "id": "way/211933893",
       "properties": {
-        "access": "no",
+        "access": "yes",
         "description": "http://wegenenverkeer.be/werken/heraanleg-noordersingel-turnhoutsepoort",
+        "foot": "yes",
         "highway": "cycleway",
+        "horse": "no",
+        "motor_vehicle": "service",
         "note": "Bezocht 220318 en webstek Oosterweel : deze ways gedurende een jaaar niet toegankelijk wegens bouw fiets-/voetgangerstunnel onderdoor Turnhoutsebaan ; wegens dat sommige routeerders elke way met fietsrelatie als berijdbaar beschouwen ook FFRN verwijderd.",
         "id": "way/211933893"
       },
@@ -2700,8 +2710,8 @@
             51.2191673
           ],
           [
-            4.4524031,
-            51.2189646
+            4.4527678,
+            51.219102
           ]
         ]
       }
@@ -2715,7 +2725,7 @@
         "lit": "yes",
         "maxspeed": "20",
         "name": "Meir",
-        "parking:lane:both": "no",
+        "parking:both": "no",
         "surface": "paving_stones",
         "wikidata": "Q12852",
         "wikipedia": "nl:Meir (straat)",
@@ -2802,6 +2812,7 @@
         "name": "Vrijdagmarkt",
         "oneway": "yes",
         "surface": "sett",
+        "width": "4.5",
         "id": "way/255929109"
       },
       "geometry": {
@@ -4479,6 +4490,7 @@
         "name": "Kammenstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "parking:both": "no",
         "sidewalk": "both",
         "surface": "paving_stones",
         "id": "way/933739970"
@@ -4969,7 +4981,6 @@
         "highway": "residential",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
-        "maxweight": "7.5",
         "name": "Van Leentstraat",
         "noexit": "yes",
         "source:maxspeed": "BE:zone30",
@@ -5031,7 +5042,7 @@
         "name:etymology:wikidata": "Q619",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "parking:lane:both": "no",
+        "parking:both": "no",
         "surface": "asphalt",
         "id": "way/1111521865"
       },

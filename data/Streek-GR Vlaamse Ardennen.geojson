@@ -9,7 +9,7 @@
         "cycleway": "lane",
         "highway": "tertiary",
         "maxspeed": "70",
-        "name": "Rozenaaksesteenweg",
+        "name": "Rozenaaksesteenweg - Chaussée de Russeignies",
         "surface": "concrete:plates",
         "id": "way/5117167"
       },
@@ -59,7 +59,7 @@
         "highway": "pedestrian",
         "motor_vehicle": "permit",
         "motor_vehicle:conditional": "delivery @ (08:30-17:00)",
-        "name": "Schipstraat",
+        "name": "Schipstraat - Rue du Bateau",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "traffic_sign": "BE:F103",
@@ -86,7 +86,7 @@
         "cycleway": "opposite",
         "highway": "residential",
         "maxspeed": "30",
-        "name": "Sint-Hermesstraat",
+        "name": "Sint-Hermesstraat - Rue Saint-Hermes",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "source:maxspeed": "BE:zone30",
@@ -502,7 +502,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "70",
-        "name": "Kapellestraat",
+        "name": "Kapellestraat - Rue de la Chapelle",
         "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
         "id": "way/25711651"
@@ -562,7 +562,7 @@
         "foot": "yes",
         "highway": "residential",
         "motor_vehicle": "no",
-        "name": "Beekstraat",
+        "name": "Beekstraat - Rue du Ruisseau",
         "id": "way/25751040"
       },
       "geometry": {
@@ -747,7 +747,7 @@
       "id": "way/28030246",
       "properties": {
         "highway": "residential",
-        "name": "Bois",
+        "name": "Bois - Ten Bosse",
         "name:fr": "Bois",
         "name:lg": "Bois - Ten Bosse",
         "name:nl": "Ten Bosse",
@@ -834,6 +834,7 @@
       "properties": {
         "highway": "residential",
         "name": "Sint-Ursmarsstraat",
+        "surface": "cobblestone",
         "id": "way/28545260"
       },
       "geometry": {
@@ -880,16 +881,8 @@
             50.8197424
           ],
           [
-            3.7138918,
-            50.8196717
-          ],
-          [
-            3.7137326,
-            50.8196034
-          ],
-          [
-            3.7136283,
-            50.8195302
+            3.7139412,
+            50.8196913
           ]
         ]
       }
@@ -3226,6 +3219,7 @@
       "id": "way/32861382",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Boigneberg",
         "surface": "asphalt",
         "id": "way/32861382"
@@ -3379,7 +3373,7 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "30",
-        "name": "Rijkswachtdreef",
+        "name": "Rijkswachtdreef - Drève de la Gendarmerie",
         "source:maxspeed": "sign",
         "surface": "asphalt",
         "id": "way/34006540"
@@ -4120,7 +4114,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "30",
-        "name": "Langehaag",
+        "name": "Langehaag - Longue Haie",
         "oneway": "yes",
         "oneway:bicycle": "yes",
         "source:maxspeed": "BE:zone30",
@@ -4194,7 +4188,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "70",
-        "name": "Fiertelmeers",
+        "name": "Fiertelmeers - Fiertelmeers",
         "surface": "asphalt",
         "id": "way/37130456"
       },
@@ -4822,7 +4816,7 @@
         "highway": "track",
         "horse": "yes",
         "motorcar": "no",
-        "name": "Muziekbosstraat",
+        "name": "Muziekbosstraat - Rue du Muziekbos",
         "ski": "yes",
         "snowmobile": "no",
         "surface": "unpaved",
@@ -5163,7 +5157,7 @@
       "id": "way/41265936",
       "properties": {
         "highway": "unclassified",
-        "name": "Zomerij",
+        "name": "Zomerij - Façade Blanche",
         "id": "way/41265936"
       },
       "geometry": {
@@ -5203,7 +5197,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
-        "name": "Langveld",
+        "name": "Langveld - Longchamp",
         "surface": "concrete",
         "id": "way/41266865"
       },
@@ -6020,8 +6014,13 @@
       "type": "Feature",
       "id": "way/59076095",
       "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
-        "tracktype": "grade3",
+        "horse": "yes",
+        "motor_vehicle": "yes",
+        "smoothness": "bad",
+        "tracktype": "grade4",
         "id": "way/59076095"
       },
       "geometry": {
@@ -6434,7 +6433,9 @@
       "id": "way/61098225",
       "properties": {
         "bicycle": "no",
+        "dog": "leashed",
         "highway": "path",
+        "horse": "no",
         "surface": "dirt",
         "id": "way/61098225"
       },
@@ -6509,6 +6510,7 @@
       "id": "way/62943371",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Kapelleberg",
         "surface": "asphalt",
         "id": "way/62943371"
@@ -6636,16 +6638,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.5827351,
-            50.7918035
+            3.5826211,
+            50.7918463
           ],
           [
-            3.582469,
-            50.7918987
+            3.5825584,
+            50.7919357
           ],
           [
-            3.5824634,
-            50.7919454
+            3.5825897,
+            50.7919863
           ],
           [
             3.5826146,
@@ -7398,8 +7400,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6001182,
-            50.8283287
+            3.600063,
+            50.82829
           ],
           [
             3.6000321,
@@ -7887,6 +7889,7 @@
       "id": "way/75542889",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kokereelstraat",
         "surface": "asphalt",
         "id": "way/75542889"
@@ -8194,7 +8197,7 @@
       "properties": {
         "highway": "track",
         "incline": "-10%",
-        "name": "Bremstraat",
+        "name": "Bremstraat - Rue des Genêts",
         "surface": "pebblestone",
         "tracktype": "grade3",
         "id": "way/75542892"
@@ -8273,7 +8276,7 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "70",
-        "name": "Scherpenberg",
+        "name": "Scherpenberg - Scherpenberg",
         "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
         "id": "way/75542893"
@@ -8340,7 +8343,7 @@
         "maxspeed": "30",
         "maxweight": "5",
         "maxweight:conditional": "none @ destination",
-        "name": "Opgeëistenstraat",
+        "name": "Opgeëistenstraat - Rue des Déportés",
         "oneway": "yes",
         "oneway:bicycle": "yes",
         "source:maxspeed": "BE:zone30",
@@ -9035,7 +9038,7 @@
       "id": "way/75542907",
       "properties": {
         "highway": "track",
-        "name": "Mont de Rhodes",
+        "name": "Mont de Rhodes - Berg van Rhodes",
         "tracktype": "grade1",
         "id": "way/75542907"
       },
@@ -10032,32 +10035,56 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6240736,
-            50.8183017
+            3.6240776,
+            50.8182983
+          ],
+          [
+            3.6242075,
+            50.8182415
+          ],
+          [
+            3.6244751,
+            50.8181606
           ],
           [
             3.6248965,
-            50.8180229
+            50.818017
           ],
           [
-            3.6254134,
-            50.8178277
+            3.6253986,
+            50.8178518
           ],
           [
-            3.625637,
-            50.8177143
+            3.6255131,
+            50.8177755
           ],
           [
-            3.6258524,
-            50.8176421
+            3.6256229,
+            50.8176931
           ],
           [
-            3.6261056,
-            50.8176043
+            3.6256982,
+            50.8176607
           ],
           [
-            3.6264125,
-            50.8175912
+            3.6257686,
+            50.8176471
+          ],
+          [
+            3.6258625,
+            50.8176391
+          ],
+          [
+            3.6261039,
+            50.8176189
+          ],
+          [
+            3.6262611,
+            50.8176064
+          ],
+          [
+            3.6264038,
+            50.8175946
           ]
         ]
       }
@@ -10075,8 +10102,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6276191,
-            50.818088
+            3.6276184,
+            50.8180855
           ],
           [
             3.6277056,
@@ -10588,9 +10615,15 @@
       "type": "Feature",
       "id": "way/76237421",
       "properties": {
-        "highway": "track",
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "footway",
+        "horse": "yes",
         "name": "Kapelleberg",
+        "surface": "ground",
         "tracktype": "grade4",
+        "width": "0.6",
         "id": "way/76237421"
       },
       "geometry": {
@@ -14583,8 +14616,10 @@
       "properties": {
         "bridge": "movable",
         "highway": "tertiary",
+        "lanes": "1",
         "layer": "1",
         "maxheight": "4.5",
+        "maxweight": "20",
         "name": "Jan De Coomanstraat",
         "surface": "asphalt",
         "id": "way/83019448"
@@ -14593,12 +14628,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9648304,
-            50.803872
+            3.9648296,
+            50.8038791
           ],
           [
-            3.9647353,
-            50.8040579
+            3.9647424,
+            50.8040457
           ]
         ]
       }
@@ -14742,43 +14777,35 @@
       "id": "way/86501814",
       "properties": {
         "highway": "residential",
-        "name": "Wolfabriekstraat",
+        "name": "Puistraat",
         "id": "way/86501814"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.6001182,
-            50.8283287
-          ],
-          [
-            3.6001119,
-            50.828347
-          ],
-          [
-            3.6000981,
-            50.8283867
-          ],
-          [
-            3.6001146,
-            50.8284546
-          ],
-          [
-            3.6004027,
-            50.8293681
-          ],
-          [
-            3.600424,
-            50.8294675
+            3.6003878,
+            50.8296265
           ],
           [
             3.6004197,
             50.8295455
           ],
           [
-            3.6003878,
-            50.8296265
+            3.600424,
+            50.8294675
+          ],
+          [
+            3.6004027,
+            50.8293681
+          ],
+          [
+            3.6001146,
+            50.8284546
+          ],
+          [
+            3.6000759,
+            50.8283341
           ]
         ]
       }
@@ -15098,8 +15125,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.5827351,
-            50.7918035
+            3.5826211,
+            50.7918463
           ],
           [
             3.5829678,
@@ -15597,6 +15624,7 @@
       "id": "way/86502128",
       "properties": {
         "highway": "tertiary",
+        "lanes": "2",
         "name": "Lumen",
         "surface": "concrete:plates",
         "id": "way/86502128"
@@ -17925,6 +17953,8 @@
       "id": "way/86503723",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
+        "maxspeed:type": "sign",
         "name": "Brusselsestraat",
         "surface": "asphalt",
         "id": "way/86503723"
@@ -19897,12 +19927,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6240736,
-            50.8183017
+            3.6240776,
+            50.8182983
           ],
           [
             3.6241528,
             50.8183733
+          ],
+          [
+            3.624286,
+            50.8184902
           ],
           [
             3.6244072,
@@ -20050,6 +20084,7 @@
       "id": "way/86504429",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Boigneberg",
         "id": "way/86504429"
       },
@@ -20290,6 +20325,7 @@
       "id": "way/86504441",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Boigneberg",
         "surface": "asphalt",
         "id": "way/86504441"
@@ -20408,8 +20444,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9647353,
-            50.8040579
+            3.9647424,
+            50.8040457
           ],
           [
             3.9646952,
@@ -20785,8 +20821,8 @@
             50.8038108
           ],
           [
-            3.9648304,
-            50.803872
+            3.9648296,
+            50.8038791
           ]
         ]
       }
@@ -20922,7 +20958,7 @@
       "id": "way/116500996",
       "properties": {
         "highway": "unclassified",
-        "name": "Houppe",
+        "name": "Houppe - D'Hoppe",
         "surface": "asphalt",
         "id": "way/116500996"
       },
@@ -21577,7 +21613,7 @@
         "highway": "unclassified",
         "maxspeed": "70",
         "maxwidth": "2.2",
-        "name": "Bierinkstraat",
+        "name": "Bierinkstraat - Rue Bierink",
         "source:maxspeed": "BE-VLG:rural",
         "id": "way/121761968"
       },
@@ -21688,7 +21724,7 @@
         "lane_markings": "no",
         "maxspeed": "70",
         "maxwidth": "2.2",
-        "name": "Riekestraat",
+        "name": "Riekestraat - Rue du Rieke",
         "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
         "id": "way/121761983"
@@ -21890,7 +21926,7 @@
         "cycleway": "lane",
         "highway": "tertiary",
         "maxspeed": "70",
-        "name": "Rozenaaksesteenweg",
+        "name": "Rozenaaksesteenweg - Chaussée de Russeignies",
         "id": "way/121761984"
       },
       "geometry": {
@@ -22053,7 +22089,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "50",
-        "name": "Mussenstraat",
+        "name": "Mussenstraat - Rue des Moineaux",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -22119,7 +22155,7 @@
       "properties": {
         "highway": "unclassified",
         "maxspeed": "70",
-        "name": "Ossestraat",
+        "name": "Ossestraat - Rue du Boeuf",
         "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
@@ -22283,7 +22319,7 @@
         "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
-        "name": "Beekstraat",
+        "name": "Beekstraat - Rue du Ruisseau",
         "source:maxspeed": "BE:zone30",
         "traffic_sign": "BE:F45b,BE:F111",
         "id": "way/121772346"
@@ -23169,7 +23205,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
-        "name": "Bremstraat",
+        "name": "Bremstraat - Rue des Genêts",
         "surface": "asphalt",
         "id": "way/133297207"
       },
@@ -23567,7 +23603,7 @@
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "50",
-        "name": "Bruul",
+        "name": "Bruul - Bruul",
         "oneway:bicycle": "yes",
         "ref": "N48b",
         "zone:traffic": "BE-VLG:urban",
@@ -27221,7 +27257,7 @@
       "id": "way/184231331",
       "properties": {
         "highway": "unclassified",
-        "name": "Muziekbosstraat",
+        "name": "Muziekbosstraat - Rue du Muziekbos",
         "id": "way/184231331"
       },
       "geometry": {
@@ -27259,7 +27295,7 @@
       "id": "way/184231332",
       "properties": {
         "highway": "unclassified",
-        "name": "Muziekbosstraat",
+        "name": "Muziekbosstraat - Rue du Muziekbos",
         "surface": "asphalt",
         "id": "way/184231332"
       },
@@ -27732,28 +27768,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6264125,
-            50.8175912
+            3.6264038,
+            50.8175946
           ],
           [
-            3.6265918,
-            50.8175892
+            3.6265911,
+            50.8175867
           ],
           [
-            3.6270524,
-            50.8175534
+            3.6270993,
+            50.817553
           ],
           [
-            3.627222,
-            50.81755
+            3.6271603,
+            50.817553
           ],
           [
-            3.6272836,
-            50.8175732
+            3.6271982,
+            50.8175598
           ],
           [
-            3.6276191,
-            50.818088
+            3.6272277,
+            50.817567
+          ],
+          [
+            3.6272592,
+            50.8175814
+          ],
+          [
+            3.627301,
+            50.8176206
+          ],
+          [
+            3.6273591,
+            50.8177386
+          ],
+          [
+            3.6274322,
+            50.8178589
+          ],
+          [
+            3.6276184,
+            50.8180855
           ]
         ]
       }
@@ -27767,7 +27823,7 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
-        "name": "Boetzittingstraat",
+        "name": "Boetzittingstraat - Rue Boetzitting",
         "id": "way/186390054"
       },
       "geometry": {
@@ -28354,7 +28410,7 @@
         "junction": "roundabout",
         "lanes": "1",
         "maxspeed": "50",
-        "name": "Eugène Soudansquare",
+        "name": "Eugène Soudansquare - Square Eugène Soudan",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/225977093"
       },
@@ -28394,7 +28450,7 @@
         "maxspeed": "50",
         "maxweight": "5",
         "maxweight:conditional": "none @ destination",
-        "name": "Aime Delhayeplein",
+        "name": "Aime Delhayeplein - Place Aime Delhaye",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/226011531"
       },
@@ -28553,7 +28609,7 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
-        "name": "Zomerij",
+        "name": "Zomerij - Façade Blanche",
         "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/229044694"
@@ -30143,8 +30199,10 @@
       "id": "way/314292796",
       "properties": {
         "highway": "residential",
+        "lanes": "1",
         "name": "Sint-Ursmarsstraat",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/314292796"
       },
       "geometry": {
@@ -30159,8 +30217,12 @@
             50.8195115
           ],
           [
-            3.7134397,
-            50.8193876
+            3.7134694,
+            50.8194336
+          ],
+          [
+            3.7134182,
+            50.8193402
           ],
           [
             3.7133995,
@@ -30543,20 +30605,8 @@
             50.7529935
           ],
           [
-            3.6860079,
-            50.7530347
-          ],
-          [
-            3.6860521,
-            50.7530893
-          ],
-          [
-            3.6861046,
-            50.7531664
-          ],
-          [
-            3.6862791,
-            50.7533021
+            3.6860017,
+            50.7530427
           ]
         ]
       }
@@ -30574,24 +30624,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6862791,
-            50.7533021
-          ],
-          [
-            3.686409,
-            50.7533653
-          ],
-          [
-            3.6864384,
-            50.7534218
-          ],
-          [
-            3.6863935,
-            50.7534884
-          ],
-          [
-            3.6863384,
-            50.7535696
+            3.6863444,
+            50.7535666
           ],
           [
             3.6863492,
@@ -31431,6 +31465,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Rotelenberg",
+        "surface": "asphalt",
         "id": "way/370300944"
       },
       "geometry": {
@@ -32334,9 +32369,14 @@
       "type": "Feature",
       "id": "way/372364210",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
         "foot": "yes",
-        "highway": "path",
+        "highway": "footway",
+        "horse": "yes",
         "name": "Kapelleberg",
+        "surface": "ground",
+        "width": "0.6",
         "id": "way/372364210"
       },
       "geometry": {
@@ -32579,14 +32619,13 @@
       "type": "Feature",
       "id": "way/372695788",
       "properties": {
+        "check_date:surface": "2023-05-18",
         "foot": "yes",
         "highway": "unclassified",
         "lit": "no",
         "name": "Cabernhol",
         "sidewalk": "no",
-        "smoothness": "good",
         "surface": "asphalt",
-        "tracktype": "grade3",
         "id": "way/372695788"
       },
       "geometry": {
@@ -33113,7 +33152,7 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "70",
-        "name": "Scherpenberg",
+        "name": "Scherpenberg - Scherpenberg",
         "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
         "id": "way/374730266"
@@ -33178,7 +33217,7 @@
         "highway": "track",
         "horse": "yes",
         "motorcar": "no",
-        "name": "Muziekbosstraat",
+        "name": "Muziekbosstraat - Rue du Muziekbos",
         "ski": "yes",
         "snowmobile": "no",
         "surface": "gravel",
@@ -33892,7 +33931,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "70",
-        "name": "Fiertelmeers",
+        "name": "Fiertelmeers - Fiertelmeers",
         "surface": "asphalt",
         "id": "way/377184509"
       },
@@ -34190,7 +34229,7 @@
       "id": "way/392441230",
       "properties": {
         "highway": "residential",
-        "name": "Mont de Rhodes",
+        "name": "Mont de Rhodes - Berg van Rhodes",
         "id": "way/392441230"
       },
       "geometry": {
@@ -34221,7 +34260,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "50",
-        "name": "Langehaag",
+        "name": "Langehaag - Longue Haie",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/393001608"
       },
@@ -36103,7 +36142,7 @@
         "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
-        "name": "Beekstraat",
+        "name": "Beekstraat - Rue du Ruisseau",
         "source:maxspeed": "BE:zone30",
         "traffic_sign": "BE:F45b",
         "id": "way/422056653"
@@ -36155,7 +36194,7 @@
         "foot": "yes",
         "highway": "residential",
         "motor_vehicle": "no",
-        "name": "Beekstraat",
+        "name": "Beekstraat - Rue du Ruisseau",
         "traffic_sign": "BE:F45b",
         "id": "way/422056654"
       },
@@ -36238,7 +36277,7 @@
         "foot": "yes",
         "highway": "residential",
         "motor_vehicle": "no",
-        "name": "Beekstraat",
+        "name": "Beekstraat - Rue du Ruisseau",
         "id": "way/422059404"
       },
       "geometry": {
@@ -36522,7 +36561,7 @@
       "id": "way/434977202",
       "properties": {
         "highway": "unclassified",
-        "name": "Bois",
+        "name": "Bois - Ten Bosse",
         "id": "way/434977202"
       },
       "geometry": {
@@ -36573,7 +36612,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "30",
-        "name": "Wijnstraat",
+        "name": "Wijnstraat - Rue du Vin",
         "oneway": "yes",
         "oneway:bicycle": "yes",
         "source:maxspeed": "BE:zone30",
@@ -37233,7 +37272,7 @@
       "id": "way/471924036",
       "properties": {
         "highway": "track",
-        "name": "Mont de Rhodes",
+        "name": "Mont de Rhodes - Berg van Rhodes",
         "tracktype": "grade3",
         "id": "way/471924036"
       },
@@ -40664,7 +40703,7 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "unclassified",
-        "name": "Langveld",
+        "name": "Langveld - Longchamp",
         "surface": "asphalt",
         "id": "way/498376777"
       },
@@ -42397,8 +42436,8 @@
             50.751539
           ],
           [
-            3.6861645,
-            50.7515783
+            3.6861835,
+            50.7515811
           ],
           [
             3.6859606,
@@ -42749,7 +42788,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "30",
-        "name": "Voorzienigheidsstraat",
+        "name": "Voorzienigheidsstraat - Rue de la Prévoyance",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "source:maxspeed": "BE:zone30",
@@ -42891,7 +42930,7 @@
         "highway": "pedestrian",
         "motor_vehicle": "permit",
         "motor_vehicle:conditional": "delivery @ (08:30-17:00)",
-        "name": "Kaatsspelplein",
+        "name": "Kaatsspelplein - Place du Jeu de Paume",
         "surface": "cobblestone",
         "traffic_sign": "BE:F103",
         "id": "way/624109032"
@@ -44327,7 +44366,7 @@
         "highway": "pedestrian",
         "motor_vehicle": "permit",
         "motor_vehicle:conditional": "delivery @ (08:30-17:00)",
-        "name": "Kleine Markt",
+        "name": "Kleine Markt - Petite Place",
         "surface": "cobblestone",
         "traffic_sign": "BE:F103",
         "id": "way/732585907"
@@ -44356,7 +44395,7 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "residential",
-        "name": "Beekstraat",
+        "name": "Beekstraat - Rue du Ruisseau",
         "id": "way/733034307"
       },
       "geometry": {
@@ -44405,7 +44444,7 @@
         "highway": "pedestrian",
         "motor_vehicle": "permit",
         "motor_vehicle:conditional": "delivery @ (08:30-17:00)",
-        "name": "Kleine Markt",
+        "name": "Kleine Markt - Petite Place",
         "surface": "sett",
         "traffic_sign": "BE:F103",
         "id": "way/733606241"
@@ -44435,7 +44474,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
-        "name": "Bremstraat",
+        "name": "Bremstraat - Rue des Genêts",
         "surface": "asphalt",
         "id": "way/737311070"
       },
@@ -45084,7 +45123,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "50",
-        "name": "Mussenstraat",
+        "name": "Mussenstraat - Rue des Moineaux",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/793275897"
@@ -45113,7 +45152,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "50",
-        "name": "Fiertelmeers",
+        "name": "Fiertelmeers - Fiertelmeers",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/793936269"
       },
@@ -47029,7 +47068,7 @@
         "highway": "residential",
         "maxspeed": "70",
         "maxwidth:backward": "2",
-        "name": "Kapellestraat",
+        "name": "Kapellestraat - Rue de la Chapelle",
         "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
         "id": "way/934650733"
@@ -47377,7 +47416,7 @@
       "id": "way/944544052",
       "properties": {
         "highway": "unclassified",
-        "name": "Populierstraat",
+        "name": "Populierstraat - Rue du Peuplier",
         "surface": "asphalt",
         "id": "way/944544052"
       },
@@ -47620,7 +47659,7 @@
         "highway": "track",
         "horse": "yes",
         "motorcar": "no",
-        "name": "Muziekbosstraat",
+        "name": "Muziekbosstraat - Rue du Muziekbos",
         "ski": "yes",
         "snowmobile": "no",
         "surface": "gravel",
@@ -47707,7 +47746,7 @@
         "maxspeed": "50",
         "maxweight": "5",
         "maxweight:conditional": "none @ destination",
-        "name": "Aime Delhayeplein",
+        "name": "Aime Delhayeplein - Place Aime Delhaye",
         "oneway": "yes",
         "ref": "N36",
         "zone:traffic": "BE-VLG:urban",
@@ -47737,7 +47776,7 @@
         "maxspeed": "50",
         "maxweight": "5",
         "maxweight:conditional": "none @ destination",
-        "name": "Aime Delhayeplein",
+        "name": "Aime Delhayeplein - Place Aime Delhaye",
         "oneway": "yes",
         "ref": "N36",
         "zone:traffic": "BE-VLG:urban",
@@ -47777,7 +47816,7 @@
         "highway": "pedestrian",
         "motor_vehicle": "permit",
         "motor_vehicle:conditional": "delivery @ (08:30-17:00)",
-        "name": "Kleine Markt",
+        "name": "Kleine Markt - Petite Place",
         "traffic_sign": "BE:F103",
         "id": "way/1009085953"
       },
@@ -47822,6 +47861,7 @@
       "type": "Feature",
       "id": "way/1055185894",
       "properties": {
+        "access": "private",
         "highway": "path",
         "surface": "dirt",
         "id": "way/1055185894"
@@ -47918,7 +47958,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "50",
-        "name": "Fiertelmeers",
+        "name": "Fiertelmeers - Fiertelmeers",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1065125787"
       },
@@ -47982,7 +48022,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "70",
-        "name": "Fiertelmeers",
+        "name": "Fiertelmeers - Fiertelmeers",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/1065125788"
       },
@@ -48027,7 +48067,7 @@
         "cycleway": "lane",
         "highway": "tertiary",
         "maxspeed": "50",
-        "name": "Rozenaaksesteenweg",
+        "name": "Rozenaaksesteenweg - Chaussée de Russeignies",
         "source:maxspeed": "BE-VLG:urban",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1065867556"
@@ -48100,7 +48140,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "70",
-        "name": "Kapellestraat",
+        "name": "Kapellestraat - Rue de la Chapelle",
         "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
         "id": "way/1066913474"
@@ -49045,7 +49085,7 @@
       "id": "way/1156284713",
       "properties": {
         "highway": "track",
-        "name": "Mont de Rhodes",
+        "name": "Mont de Rhodes - Berg van Rhodes",
         "tracktype": "grade3",
         "id": "way/1156284713"
       },
@@ -49059,6 +49099,105 @@
           [
             3.7293036,
             50.7662001
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1166305644",
+      "properties": {
+        "highway": "path",
+        "surface": "ground",
+        "id": "way/1166305644"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6860017,
+            50.7530427
+          ],
+          [
+            3.6855047,
+            50.7535534
+          ],
+          [
+            3.6855742,
+            50.7536067
+          ],
+          [
+            3.6856652,
+            50.7536294
+          ],
+          [
+            3.6858744,
+            50.7536549
+          ],
+          [
+            3.6860622,
+            50.753643
+          ],
+          [
+            3.686207,
+            50.7536176
+          ],
+          [
+            3.6862714,
+            50.7535921
+          ],
+          [
+            3.6863444,
+            50.7535666
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1166593955",
+      "properties": {
+        "highway": "residential",
+        "name": "Sint-Ursmarsstraat",
+        "surface": "asphalt",
+        "id": "way/1166593955"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7139412,
+            50.8196913
+          ],
+          [
+            3.7137326,
+            50.8196034
+          ],
+          [
+            3.7136283,
+            50.8195302
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1177599060",
+      "properties": {
+        "highway": "residential",
+        "name": "Wolfabriekstraat",
+        "id": "way/1177599060"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.600063,
+            50.82829
+          ],
+          [
+            3.6000759,
+            50.8283341
           ]
         ]
       }
