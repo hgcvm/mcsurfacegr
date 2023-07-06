@@ -21695,10 +21695,14 @@
       "type": "Feature",
       "id": "way/33437639",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
         "highway": "track",
         "horse": "yes",
         "maxspeed": "30",
-        "motor_vehicle": "agricultural",
+        "motor_vehicle": "destination",
+        "speed_pedelec": "yes",
         "tracktype": "grade3",
         "traffic_sign": "BE:F99c",
         "id": "way/33437639"
@@ -26793,11 +26797,15 @@
       "type": "Feature",
       "id": "way/37563406",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
         "highway": "track",
         "horse": "yes",
         "maxspeed": "30",
-        "motor_vehicle": "agricultural",
+        "motor_vehicle": "destination",
         "mtb:scale": "0",
+        "speed_pedelec": "yes",
         "surface": "unpaved",
         "tracktype": "grade3",
         "traffic_sign": "BE:F99c",
@@ -47487,6 +47495,10 @@
             50.8212064
           ],
           [
+            2.9080945,
+            50.8214617
+          ],
+          [
             2.9080191,
             50.8215487
           ],
@@ -64264,12 +64276,24 @@
             50.8144927
           ],
           [
-            2.9370535,
-            50.8147336
+            2.9370321,
+            50.8147552
           ],
           [
-            2.9364956,
-            50.8147065
+            2.9366904,
+            50.8146435
+          ],
+          [
+            2.9365753,
+            50.8146237
+          ],
+          [
+            2.9364649,
+            50.8146298
+          ],
+          [
+            2.9363921,
+            50.8146664
           ]
         ]
       }
@@ -64286,16 +64310,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.9364956,
-            50.8147065
+            2.9363921,
+            50.8146664
           ],
           [
-            2.9362902,
-            50.814828
+            2.936195,
+            50.8147879
           ],
           [
-            2.9364882,
-            50.8151812
+            2.9363331,
+            50.8150706
           ],
           [
             2.9372252,
@@ -64326,8 +64350,8 @@
             50.8189363
           ],
           [
-            2.9346708,
-            50.8199737
+            2.9349472,
+            50.8199122
           ],
           [
             2.9325903,
@@ -64338,8 +64362,8 @@
             50.8214306
           ],
           [
-            2.9312077,
-            50.8215723
+            2.9313177,
+            50.8214612
           ],
           [
             2.9292725,
@@ -88485,6 +88509,10 @@
             50.8582151
           ],
           [
+            2.9946781,
+            50.8581994
+          ],
+          [
             2.9924117,
             50.8576274
           ]
@@ -100521,6 +100549,7 @@
       "properties": {
         "bridge": "boardwalk",
         "highway": "path",
+        "horse": "no",
         "surface": "wood",
         "id": "way/438083783"
       },
@@ -118202,10 +118231,18 @@
       "type": "Feature",
       "id": "way/823337610",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
         "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "mtb:scale": "0+",
+        "speed_pedelec": "yes",
         "surface": "gravel",
         "tracktype": "grade3",
+        "traffic_sign": "BE:F99c",
         "trail_visibility": "excellent",
         "id": "way/823337610"
       },
