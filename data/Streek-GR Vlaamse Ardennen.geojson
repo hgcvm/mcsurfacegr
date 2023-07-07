@@ -16556,7 +16556,9 @@
       "id": "way/86503674",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Berendries",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
         "id": "way/86503674"
       },
@@ -23384,10 +23386,16 @@
       "type": "Feature",
       "id": "way/135049279",
       "properties": {
+        "agricultural": "yes",
         "bicycle": "yes",
+        "emergency": "yes",
         "foot": "yes",
         "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Perlinkweg",
+        "speed_pedelec": "yes",
         "tracktype": "grade3",
         "id": "way/135049279"
       },
@@ -23421,12 +23429,18 @@
       "type": "Feature",
       "id": "way/135049282",
       "properties": {
+        "agricultural": "yes",
         "alt_name": "Karreputstraat",
         "bicycle": "yes",
+        "emergency": "yes",
         "foot": "yes",
         "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Perlinkweg",
         "official_vicinal_ref": "283_11_1",
+        "speed_pedelec": "yes",
         "surface": "dirt",
         "tracktype": "grade4",
         "vicinal_ref": "Chemin nr. 11",
@@ -23526,10 +23540,18 @@
       "type": "Feature",
       "id": "way/135049283",
       "properties": {
+        "agricultural": "yes",
         "alt_name": "Karreputstraat",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "unclassified",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Perlinkweg",
         "official_vicinal_ref": "283_11_1",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
         "vicinal_ref": "Chemin nr. 11",
         "id": "way/135049283"
@@ -38254,9 +38276,13 @@
       "type": "Feature",
       "id": "way/484044781",
       "properties": {
+        "bicycle": "yes",
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Berendries",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "vehicle": "destination",
         "id": "way/484044781"
       },
       "geometry": {
