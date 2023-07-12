@@ -10458,7 +10458,6 @@
       "type": "Feature",
       "id": "way/32136843",
       "properties": {
-        "addr:housenumber": "8A-39",
         "highway": "tertiary",
         "name": "Driesstraat",
         "surface": "asphalt",
@@ -25964,7 +25963,6 @@
         "access": "no",
         "highway": "path",
         "surface": "unpaved",
-        "tracktype": "grade1",
         "id": "way/128865437"
       },
       "geometry": {
@@ -28021,6 +28019,7 @@
       "properties": {
         "highway": "path",
         "name": "Depotwegel",
+        "surface": "dirt",
         "id": "way/135434743"
       },
       "geometry": {
@@ -28099,6 +28098,7 @@
       "properties": {
         "bridge": "yes",
         "highway": "track",
+        "layer": "1",
         "surface": "concrete",
         "tracktype": "grade1",
         "id": "way/135434745"
@@ -28961,7 +28961,7 @@
             50.9358194
           ],
           [
-            4.5296146,
+            4.5296369,
             50.9361423
           ],
           [
@@ -30361,6 +30361,7 @@
       "properties": {
         "highway": "path",
         "name": "Depotwegel",
+        "surface": "dirt",
         "id": "way/219233397"
       },
       "geometry": {
@@ -36789,15 +36790,23 @@
           ],
           [
             4.5597146,
-            50.9249289
+            50.9249236
+          ],
+          [
+            4.5597768,
+            50.924887
           ],
           [
             4.5600711,
             50.9246258
           ],
           [
+            4.5601513,
+            50.9245684
+          ],
+          [
             4.5602207,
-            50.9245415
+            50.9245354
           ],
           [
             4.5603266,
@@ -39613,15 +39622,19 @@
         "coordinates": [
           [
             4.5587759,
-            50.9247749
+            50.9247819
           ],
           [
-            4.5591116,
-            50.9248972
+            4.5591046,
+            50.9248875
           ],
           [
-            4.5595303,
-            50.9249764
+            4.559412,
+            50.9249633
+          ],
+          [
+            4.5595219,
+            50.9249685
           ],
           [
             4.5596158,
@@ -39696,8 +39709,10 @@
       "type": "Feature",
       "id": "way/878929476",
       "properties": {
-        "highway": "path",
+        "highway": "track",
         "name": "Depotwegel",
+        "surface": "dirt",
+        "tracktype": "grade4",
         "id": "way/878929476"
       },
       "geometry": {
@@ -39708,12 +39723,8 @@
             50.9360597
           ],
           [
-            4.5259589,
-            50.9364486
-          ],
-          [
-            4.5251217,
-            50.9365871
+            4.5269252,
+            50.9363135
           ]
         ]
       }
@@ -40505,7 +40516,6 @@
       "type": "Feature",
       "id": "way/910132712",
       "properties": {
-        "addr:housenumber": "1-13",
         "highway": "tertiary",
         "name": "Driesstraat",
         "oneway": "no",
@@ -40674,7 +40684,7 @@
           ],
           [
             4.5587759,
-            50.9247749
+            50.9247819
           ]
         ]
       }
@@ -42366,7 +42376,7 @@
       "properties": {
         "highway": "track",
         "name": "Groenenwegel",
-        "surface": "asphalt",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/1174625387"
       },
@@ -42704,6 +42714,29 @@
           [
             4.6887301,
             50.8689015
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1188985021",
+      "properties": {
+        "highway": "path",
+        "name": "Depotwegel",
+        "surface": "dirt",
+        "id": "way/1188985021"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5269252,
+            50.9363135
+          ],
+          [
+            4.5251217,
+            50.9365871
           ]
         ]
       }
