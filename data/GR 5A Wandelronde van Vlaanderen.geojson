@@ -2922,10 +2922,14 @@
       "type": "Feature",
       "id": "way/13466071",
       "properties": {
+        "bicycle": "yes",
         "highway": "residential",
+        "horse": "no",
         "maxspeed": "30",
+        "mofa": "yes",
         "name": "Xaverianenstraat",
         "surface": "concrete",
+        "vehicle": "destination",
         "id": "way/13466071"
       },
       "geometry": {
@@ -47328,12 +47332,16 @@
       "type": "Feature",
       "id": "way/311345156",
       "properties": {
+        "bicycle": "yes",
         "highway": "residential",
+        "horse": "no",
         "lit": "yes",
         "maxspeed": "30",
+        "mofa": "yes",
         "name": "Xaverianenstraat",
         "surface": "asphalt",
         "traffic_calming": "hump",
+        "vehicle": "destination",
         "id": "way/311345156"
       },
       "geometry": {
@@ -70725,29 +70733,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/18063876",
-      "properties": {
-        "highway": "tertiary",
-        "name": "Veerstraat",
-        "surface": "asphalt",
-        "id": "way/18063876"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.1017991,
-            51.033144
-          ],
-          [
-            4.1018168,
-            51.0332536
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/22956276",
       "properties": {
         "bicycle": "designated",
@@ -77958,10 +77943,6 @@
           [
             4.101798,
             51.0330893
-          ],
-          [
-            4.1017991,
-            51.033144
           ]
         ]
       }
@@ -81174,8 +81155,9 @@
       "type": "Feature",
       "id": "way/40571193",
       "properties": {
-        "highway": "unclassified",
+        "highway": "cycleway",
         "name": "Veerstraat",
+        "oneway": "no",
         "surface": "asphalt",
         "id": "way/40571193"
       },
@@ -81183,16 +81165,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1018168,
-            51.0332536
-          ],
-          [
             4.1018137,
             51.0332785
-          ],
-          [
-            4.1018084,
-            51.0333214
           ],
           [
             4.1018057,
