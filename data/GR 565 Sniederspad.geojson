@@ -295,7 +295,7 @@
       "properties": {
         "highway": "cycleway",
         "lit": "yes",
-        "mofa": "yes",
+        "mofa": "designated",
         "moped": "designated",
         "name": "Bredasebaan",
         "segregated": "yes",
@@ -303,6 +303,7 @@
         "smoothness": "intermediate",
         "surface": "paving_stones",
         "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
         "id": "way/5367268"
       },
       "geometry": {
@@ -439,8 +440,10 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "60",
         "name": "Tipmast",
         "surface": "paving_stones",
+        "zone:traffic": "NL:rural",
         "id": "way/7189786"
       },
       "geometry": {
@@ -463,8 +466,8 @@
             51.354783
           ],
           [
-            5.2168971,
-            51.3556353
+            5.2168493,
+            51.3554976
           ]
         ]
       }
@@ -473,37 +476,13 @@
       "type": "Feature",
       "id": "way/7189861",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "maxspeed": "30",
         "name": "Marktstraat",
         "oneway": "no",
         "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
         "id": "way/7189861"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.21721,
-            51.3653
-          ],
-          [
-            5.21689,
-            51.36555
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/7189970",
-      "properties": {
-        "highway": "unclassified",
-        "maxspeed": "30",
-        "name": "Marktstraat",
-        "oneway": "no",
-        "surface": "paving_stones",
-        "id": "way/7189970"
       },
       "geometry": {
         "type": "LineString",
@@ -515,6 +494,10 @@
           [
             5.21721,
             51.3653
+          ],
+          [
+            5.21689,
+            51.36555
           ]
         ]
       }
@@ -595,11 +578,12 @@
       "type": "Feature",
       "id": "way/7190236",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "maxspeed": "30",
         "name": "Marktstraat",
         "oneway": "no",
         "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
         "id": "way/7190236"
       },
       "geometry": {
@@ -625,6 +609,7 @@
         "maxspeed": "50",
         "name": "Bossingel",
         "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
         "id": "way/7190335"
       },
       "geometry": {
@@ -659,8 +644,10 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Bossingel",
         "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
         "id": "way/7190336"
       },
       "geometry": {
@@ -682,8 +669,10 @@
       "id": "way/7190384",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Tipmast",
         "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
         "id": "way/7190384"
       },
       "geometry": {
@@ -9732,7 +9721,7 @@
       "properties": {
         "highway": "cycleway",
         "lit": "yes",
-        "mofa": "yes",
+        "mofa": "designated",
         "moped": "designated",
         "name": "Europalaan",
         "oneway": "yes",
@@ -9741,6 +9730,7 @@
         "smoothness": "intermediate",
         "surface": "paving_stones",
         "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
         "id": "way/55509943"
       },
       "geometry": {
@@ -9757,60 +9747,6 @@
           [
             5.2191678,
             51.3620378
-          ],
-          [
-            5.2191006,
-            51.3621098
-          ],
-          [
-            5.2189852,
-            51.3622116
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/55510006",
-      "properties": {
-        "bicycle": "no",
-        "highway": "unclassified",
-        "maxspeed": "50",
-        "name": "Boskant",
-        "oneway": "no",
-        "surface": "paving_stones",
-        "id": "way/55510006"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.2189852,
-            51.3622116
-          ],
-          [
-            5.21907,
-            51.3622528
-          ],
-          [
-            5.2191539,
-            51.3622793
-          ],
-          [
-            5.2193204,
-            51.3623257
-          ],
-          [
-            5.2196087,
-            51.3623964
-          ],
-          [
-            5.2199181,
-            51.3624722
-          ],
-          [
-            5.2200439,
-            51.3625196
           ]
         ]
       }
@@ -9980,6 +9916,7 @@
         "highway": "track",
         "surface": "sand",
         "tracktype": "grade3",
+        "zone:traffic": "NL:rural",
         "id": "way/55515105"
       },
       "geometry": {
@@ -10072,6 +10009,7 @@
         "maxspeed": "60",
         "name": "Burgemeester Willekenslaan",
         "surface": "asphalt",
+        "zone:traffic": "NL:rural",
         "id": "way/55518404"
       },
       "geometry": {
@@ -10256,6 +10194,7 @@
         "maxspeed": "70",
         "name": "Reuselseweg",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/55521094"
       },
       "geometry": {
@@ -14256,8 +14195,10 @@
       "id": "way/70596726",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Tipmast",
         "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
         "id": "way/70596726"
       },
       "geometry": {
@@ -20929,6 +20870,53 @@
     },
     {
       "type": "Feature",
+      "id": "way/198350152",
+      "properties": {
+        "highway": "cycleway",
+        "mofa": "yes",
+        "moped": "no",
+        "name": "Boskant",
+        "sidewalk": "right",
+        "traffic_sign": "NL:G11",
+        "zone:traffic": "NL:urban",
+        "id": "way/198350152"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2199939,
+            51.3625347
+          ],
+          [
+            5.2198628,
+            51.3625017
+          ],
+          [
+            5.2197306,
+            51.3624664
+          ],
+          [
+            5.2195869,
+            51.3624301
+          ],
+          [
+            5.2192168,
+            51.3623365
+          ],
+          [
+            5.2190827,
+            51.3622991
+          ],
+          [
+            5.2189499,
+            51.3622431
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/211334447",
       "properties": {
         "highway": "residential",
@@ -20995,6 +20983,7 @@
         "maxspeed": "60",
         "name": "Burgemeester Willekenslaan",
         "surface": "asphalt",
+        "zone:traffic": "NL:rural",
         "id": "way/214611756"
       },
       "geometry": {
@@ -21284,6 +21273,7 @@
         "maxspeed": "60",
         "name": "Burgemeester Willekenslaan",
         "surface": "asphalt",
+        "zone:traffic": "NL:rural",
         "id": "way/228893547"
       },
       "geometry": {
@@ -23052,25 +23042,26 @@
       "properties": {
         "highway": "cycleway",
         "lit": "yes",
-        "mofa": "yes",
-        "moped": "no",
+        "mofa": "designated",
+        "moped": "designated",
         "name": "Bredasebaan",
         "oneway": "yes",
         "smoothness": "intermediate",
         "surface": "paving_stones",
-        "traffic_sign": "NL:G11",
+        "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
         "id": "way/368942389"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.2191066,
-            51.3608819
+            5.2192158,
+            51.360894
           ],
           [
-            5.2192445,
-            51.3608976
+            5.2192777,
+            51.3609002
           ],
           [
             5.2193286,
@@ -23093,12 +23084,16 @@
             51.3612831
           ],
           [
+            5.2193523,
+            51.3613102
+          ],
+          [
             5.2193656,
             51.3613996
           ],
           [
-            5.2193987,
-            51.3614878
+            5.219398,
+            51.3614793
           ],
           [
             5.2194724,
@@ -23344,6 +23339,7 @@
         "smoothness": "intermediate",
         "surface": "paving_stones",
         "traffic_sign": "NL:G11",
+        "zone:traffic": "NL:urban",
         "id": "way/400376660"
       },
       "geometry": {
@@ -23394,7 +23390,7 @@
       "properties": {
         "highway": "cycleway",
         "lit": "yes",
-        "mofa": "yes",
+        "mofa": "designated",
         "moped": "designated",
         "name": "Bredasebaan",
         "oneway": "yes",
@@ -23403,6 +23399,7 @@
         "smoothness": "intermediate",
         "surface": "paving_stones",
         "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
         "id": "way/400376662"
       },
       "geometry": {
@@ -30379,6 +30376,7 @@
         "maxspeed": "60",
         "name": "Burgemeester Willekenslaan",
         "surface": "asphalt",
+        "zone:traffic": "NL:rural",
         "id": "way/1039385443"
       },
       "geometry": {
@@ -30979,36 +30977,65 @@
     },
     {
       "type": "Feature",
-      "id": "way/1135874630",
+      "id": "way/1135874631",
       "properties": {
-        "highway": "unclassified",
-        "maxspeed": "50",
+        "highway": "cycleway",
+        "mofa": "yes",
+        "moped": "no",
         "name": "Boskant",
-        "surface": "paving_stones",
-        "id": "way/1135874630"
+        "oneway": "yes",
+        "sidewalk": "right",
+        "traffic_sign": "NL:G11",
+        "zone:traffic": "NL:urban",
+        "id": "way/1135874631"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.2200439,
-            51.3625196
-          ],
-          [
-            5.220109,
-            51.3625485
-          ],
-          [
             5.2201832,
             51.3625864
           ],
           [
-            5.2202581,
-            51.3626246
+            5.2200821,
+            51.3625659
           ],
           [
-            5.2204382,
-            51.3627471
+            5.2200175,
+            51.3625458
+          ],
+          [
+            5.2199939,
+            51.3625347
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1135874632",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "name": "Bossingel",
+        "surface": "asphalt",
+        "zone:traffic": "NL:urban",
+        "id": "way/1135874632"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2184481,
+            51.360492
+          ],
+          [
+            5.2184841,
+            51.3605437
+          ],
+          [
+            5.218579,
+            51.36068
           ]
         ]
       }
@@ -31448,6 +31475,160 @@
           [
             4.4861564,
             51.2412515
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1192426049",
+      "properties": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "50",
+        "name": "Tipmast",
+        "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
+        "id": "way/1192426049"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2168493,
+            51.3554976
+          ],
+          [
+            5.2168971,
+            51.3556353
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1192427363",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "mofa": "yes",
+        "moped": "no",
+        "name": "Europalaan",
+        "oneway": "yes",
+        "segregated": "yes",
+        "sidewalk": "right",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
+        "traffic_sign": "NL:G11",
+        "zone:traffic": "NL:urban",
+        "id": "way/1192427363"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2189852,
+            51.3622116
+          ],
+          [
+            5.2189499,
+            51.3622431
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1192427367",
+      "properties": {
+        "cycleway": "lane",
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "name": "Boskant",
+        "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
+        "id": "way/1192427367"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2201832,
+            51.3625864
+          ],
+          [
+            5.2202581,
+            51.3626246
+          ],
+          [
+            5.2204382,
+            51.3627471
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1192429246",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "mofa": "yes",
+        "moped": "no",
+        "name": "Bredasebaan",
+        "oneway": "yes",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
+        "traffic_sign": "NL:G11",
+        "zone:traffic": "NL:urban",
+        "id": "way/1192429246"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2191066,
+            51.3608819
+          ],
+          [
+            5.2192158,
+            51.360894
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1192430210",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "mofa": "designated",
+        "moped": "designated",
+        "name": "Europalaan",
+        "oneway": "yes",
+        "segregated": "yes",
+        "sidewalk": "right",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
+        "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:urban",
+        "id": "way/1192430210"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2191678,
+            51.3620378
+          ],
+          [
+            5.2191006,
+            51.3621098
+          ],
+          [
+            5.2189852,
+            51.3622116
           ]
         ]
       }
