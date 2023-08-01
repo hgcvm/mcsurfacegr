@@ -923,7 +923,9 @@
       "id": "way/7230789",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Strijbeekseweg",
+        "zone:traffic": "NL:rural",
         "id": "way/7230789"
       },
       "geometry": {
@@ -981,7 +983,9 @@
       "id": "way/7230793",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Markweg",
+        "zone:traffic": "NL:rural",
         "id": "way/7230793"
       },
       "geometry": {
@@ -1024,8 +1028,8 @@
             51.5048687
           ],
           [
-            4.7814443,
-            51.5052343
+            4.7814422,
+            51.5052497
           ]
         ]
       }
@@ -1093,19 +1097,21 @@
       "id": "way/7230822",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "60",
         "name": "Markweg",
+        "zone:traffic": "NL:rural",
         "id": "way/7230822"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7807061,
-            51.5052045
+            4.780701,
+            51.5052199
           ],
           [
-            4.7808036,
-            51.5052084
+            4.7808602,
+            51.5052251
           ]
         ]
       }
@@ -1115,19 +1121,21 @@
       "id": "way/7230828",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "60",
         "name": "Markweg",
+        "zone:traffic": "NL:rural",
         "id": "way/7230828"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7812829,
-            51.5052278
+            4.781286,
+            51.5052406
           ],
           [
-            4.7814443,
-            51.5052343
+            4.7814422,
+            51.5052497
           ]
         ]
       }
@@ -1250,63 +1258,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/7230892",
-      "properties": {
-        "bicycle": "use_sidepath",
-        "highway": "secondary",
-        "maxspeed": "60",
-        "name": "Strijbeekseweg",
-        "id": "way/7230892"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.7969991,
-            51.5010403
-          ],
-          [
-            4.7968407,
-            51.5012966
-          ],
-          [
-            4.7960565,
-            51.5022418
-          ],
-          [
-            4.7957012,
-            51.5025883
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/7230897",
-      "properties": {
-        "bicycle": "use_sidepath",
-        "bridge": "yes",
-        "highway": "secondary",
-        "layer": "1",
-        "name": "Strijbeekseweg",
-        "id": "way/7230897"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.7962302,
-            51.499395
-          ],
-          [
-            4.7962021,
-            51.499492
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/8502304",
       "properties": {
         "highway": "unclassified",
@@ -1375,8 +1326,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7807061,
-            51.5052045
+            4.780701,
+            51.5052199
           ],
           [
             4.7807529,
@@ -10843,19 +10794,21 @@
         "bridge": "yes",
         "highway": "tertiary",
         "layer": "1",
+        "maxspeed": "60",
         "name": "Markbrug",
+        "zone:traffic": "NL:rural",
         "id": "way/53806519"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7808036,
-            51.5052084
+            4.7808602,
+            51.5052251
           ],
           [
-            4.7812829,
-            51.5052278
+            4.781286,
+            51.5052406
           ]
         ]
       }
@@ -10865,9 +10818,11 @@
       "id": "way/53806726",
       "properties": {
         "highway": "track",
+        "maxspeed": "60",
         "name": "Markweg",
         "surface": "sand",
         "tracktype": "grade3",
+        "zone:traffic": "NL:rural",
         "id": "way/53806726"
       },
       "geometry": {
@@ -10905,8 +10860,11 @@
       "id": "way/53806870",
       "properties": {
         "highway": "track",
+        "maxspeed": "60",
+        "name": "Markweg",
         "surface": "sand",
         "tracktype": "grade3",
+        "zone:traffic": "NL:rural",
         "id": "way/53806870"
       },
       "geometry": {
@@ -26117,8 +26075,10 @@
       "id": "way/190284097",
       "properties": {
         "highway": "track",
+        "maxspeed": "60",
         "surface": "sand",
         "tracktype": "grade4",
+        "zone:traffic": "NL:rural",
         "id": "way/190284097"
       },
       "geometry": {
@@ -26197,11 +26157,51 @@
     },
     {
       "type": "Feature",
+      "id": "way/190284099",
+      "properties": {
+        "highway": "cycleway",
+        "name": "Strijbeek",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "surface:colour": "grey",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/190284099"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7964359,
+            51.4989486
+          ],
+          [
+            4.796418,
+            51.4990439
+          ],
+          [
+            4.7963842,
+            51.4991764
+          ],
+          [
+            4.7963285,
+            51.4993151
+          ],
+          [
+            4.7963032,
+            51.4993802
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/190284111",
       "properties": {
         "highway": "track",
+        "maxspeed": "60",
         "surface": "sand",
         "tracktype": "grade3",
+        "zone:traffic": "NL:rural",
         "id": "way/190284111"
       },
       "geometry": {
@@ -29497,39 +29497,37 @@
       "id": "way/239229271",
       "properties": {
         "highway": "cycleway",
+        "mofa": "designated",
+        "moped": "designated",
+        "name": "Oude Bredasebaan",
+        "oneway": "no",
         "source": "survey",
+        "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
         "id": "way/239229271"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.8674721,
-            51.4840697
-          ],
-          [
-            4.865434,
-            51.4857706
-          ],
-          [
-            4.8649412,
-            51.4861487
-          ],
-          [
-            4.864671,
-            51.4862389
-          ],
-          [
-            4.8632377,
-            51.4865918
+            4.8619146,
+            51.4870656
           ],
           [
             4.8620388,
             51.486999
           ],
           [
-            4.8619146,
-            51.4870656
+            4.8632377,
+            51.4865918
+          ],
+          [
+            4.8646408,
+            51.4862465
+          ],
+          [
+            4.8648066,
+            51.486192
           ]
         ]
       }
@@ -29538,12 +29536,15 @@
       "type": "Feature",
       "id": "way/239229277",
       "properties": {
+        "cycleway": "shared_lane",
         "cycleway:both": "shared_lane",
         "cycleway:both:lane": "advisory",
         "highway": "tertiary",
         "lane_markings": "no",
+        "maxspeed": "60",
         "name": "Ulicotenseweg",
         "surface": "asphalt",
+        "zone:traffic": "NL:rural",
         "id": "way/239229277"
       },
       "geometry": {
@@ -30252,6 +30253,29 @@
           [
             4.7906216,
             51.4470741
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/242731491",
+      "properties": {
+        "highway": "cycleway",
+        "name": "Strijbeek",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/242731491"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.796438,
+            51.4988916
+          ],
+          [
+            4.7964359,
+            51.4989486
           ]
         ]
       }
@@ -32105,72 +32129,112 @@
     },
     {
       "type": "Feature",
-      "id": "way/298192842",
+      "id": "way/298192844",
       "properties": {
-        "bicycle": "use_sidepath",
-        "highway": "secondary",
-        "maxspeed": "80",
-        "name": "Strijbeekseweg",
-        "id": "way/298192842"
+        "bridge": "yes",
+        "highway": "cycleway",
+        "layer": "1",
+        "name": "Strijbeek",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "surface:colour": "grey",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/298192844"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7962021,
-            51.499492
+            4.7963032,
+            51.4993802
           ],
           [
-            4.7962032,
-            51.4995466
+            4.7962832,
+            51.4994408
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/298192850",
+      "properties": {
+        "highway": "cycleway",
+        "mofa": "designated",
+        "moped": "designated",
+        "name": "Strijbeekseweg",
+        "oneway": "yes",
+        "segregated": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "surface:colour": "grey",
+        "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
+        "id": "way/298192850"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7962697,
+            51.4994833
           ],
           [
-            4.7962193,
-            51.4996286
+            4.796277,
+            51.4995206
           ],
           [
-            4.79628,
-            51.49972
+            4.7963568,
+            51.4997399
           ],
           [
-            4.7963484,
-            51.4998303
+            4.7965131,
+            51.4999175
           ],
           [
-            4.79645,
-            51.49993
+            4.7967593,
+            51.5000781
           ],
           [
-            4.7966613,
-            51.5000866
+            4.7969443,
+            51.5002719
           ],
           [
-            4.79674,
-            51.50014
+            4.7970552,
+            51.5004404
           ],
           [
-            4.79684,
-            51.50024
+            4.7971441,
+            51.5007394
           ],
           [
-            4.79696,
-            51.50042
+            4.7970715,
+            51.5010437
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/299860615",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "service",
+        "maxspeed": "60",
+        "name": "Strijbeekseweg",
+        "zone:traffic": "NL:rural",
+        "id": "way/299860615"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7957788,
+            51.5026197
           ],
           [
-            4.79701,
-            51.50055
-          ],
-          [
-            4.79704,
-            51.50077
-          ],
-          [
-            4.7970366,
-            51.5009146
-          ],
-          [
-            4.7969991,
-            51.5010403
+            4.7957012,
+            51.5025883
           ]
         ]
       }
@@ -33591,8 +33655,10 @@
         "highway": "cycleway",
         "mofa": "no",
         "moped": "no",
+        "oneway": "no",
         "surface": "fine_gravel",
         "traffic_sign": "NL:G13",
+        "zone:traffic": "NL:rural",
         "id": "way/337591118"
       },
       "geometry": {
@@ -33653,8 +33719,10 @@
         "mofa": "no",
         "moped": "no",
         "name": "Langeweg",
+        "oneway": "no",
         "surface": "fine_gravel",
         "traffic_sign": "NL:G13",
+        "zone:traffic": "NL:rural",
         "id": "way/337633910"
       },
       "geometry": {
@@ -33704,27 +33772,45 @@
       "id": "way/337633912",
       "properties": {
         "highway": "cycleway",
+        "mofa": "designated",
+        "moped": "designated",
+        "name": "Oude Baan",
+        "oneway": "no",
         "source": "survey",
+        "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
         "id": "way/337633912"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.8719535,
-            51.4793456
-          ],
-          [
-            4.8713061,
-            51.4802331
-          ],
-          [
-            4.8685989,
-            51.4830075
-          ],
-          [
             4.8674721,
             51.4840697
+          ],
+          [
+            4.8683004,
+            51.4833235
+          ],
+          [
+            4.8686102,
+            51.4830051
+          ],
+          [
+            4.8706436,
+            51.4809719
+          ],
+          [
+            4.8712734,
+            51.4803028
+          ],
+          [
+            4.8713363,
+            51.4802225
+          ],
+          [
+            4.8716538,
+            51.4798038
           ]
         ]
       }
@@ -38015,10 +38101,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7963011,
-            51.4977425
-          ],
-          [
             4.7963669,
             51.4977195
           ],
@@ -39835,52 +39917,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/540428758",
-      "properties": {
-        "bicycle": "use_sidepath",
-        "highway": "secondary",
-        "lanes": "2",
-        "maxspeed": "70",
-        "name": "Strijbeek",
-        "ref": "N14",
-        "id": "way/540428758"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.7963011,
-            51.4977425
-          ],
-          [
-            4.7963728,
-            51.4981614
-          ],
-          [
-            4.796383,
-            51.4984488
-          ],
-          [
-            4.7963881,
-            51.4987212
-          ],
-          [
-            4.7963557,
-            51.4989149
-          ],
-          [
-            4.7963267,
-            51.499088
-          ],
-          [
-            4.7962302,
-            51.499395
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/540654074",
       "properties": {
         "highway": "path",
@@ -41180,8 +41216,10 @@
         "layer": "1",
         "mofa": "no",
         "moped": "no",
+        "oneway": "no",
         "surface": "wood",
         "traffic_sign": "NL:G13",
+        "zone:traffic": "NL:rural",
         "id": "way/656293100"
       },
       "geometry": {
@@ -41205,8 +41243,10 @@
         "highway": "cycleway",
         "mofa": "no",
         "moped": "no",
+        "oneway": "no",
         "surface": "fine_gravel",
         "traffic_sign": "NL:G13",
+        "zone:traffic": "NL:rural",
         "id": "way/656293101"
       },
       "geometry": {
@@ -46803,6 +46843,7 @@
         "maxspeed": "60",
         "name": "Oude Bredasebaan",
         "surface": "asphalt",
+        "zone:traffic": "NL:rural",
         "id": "way/878240665"
       },
       "geometry": {
@@ -48998,6 +49039,180 @@
           [
             4.8023447,
             51.4417808
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1193645204",
+      "properties": {
+        "highway": "cycleway",
+        "mofa": "designated",
+        "moped": "designated",
+        "name": "Oude Baan",
+        "oneway": "no",
+        "source": "survey",
+        "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
+        "id": "way/1193645204"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8648066,
+            51.486192
+          ],
+          [
+            4.8649572,
+            51.4861346
+          ],
+          [
+            4.865434,
+            51.4857706
+          ],
+          [
+            4.8674721,
+            51.4840697
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1193645209",
+      "properties": {
+        "highway": "cycleway",
+        "mofa": "designated",
+        "moped": "designated",
+        "name": "Oude Bredasebaan",
+        "oneway": "no",
+        "source": "survey",
+        "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
+        "id": "way/1193645209"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8716538,
+            51.4798038
+          ],
+          [
+            4.8719535,
+            51.4793456
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1193645985",
+      "properties": {
+        "highway": "cycleway",
+        "mofa": "designated",
+        "moped": "designated",
+        "name": "Strijbeekseweg",
+        "oneway": "yes",
+        "segregated": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "surface:colour": "grey",
+        "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
+        "id": "way/1193645985"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7970715,
+            51.5010437
+          ],
+          [
+            4.7970028,
+            51.5011808
+          ],
+          [
+            4.7969136,
+            51.5013155
+          ],
+          [
+            4.7961494,
+            51.5022765
+          ],
+          [
+            4.7957788,
+            51.5026197
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1193645986",
+      "properties": {
+        "highway": "cycleway",
+        "name": "Strijbeek",
+        "oneway": "yes",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1193645986"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7963669,
+            51.4977195
+          ],
+          [
+            4.796425,
+            51.4979355
+          ],
+          [
+            4.7964514,
+            51.4981569
+          ],
+          [
+            4.796463,
+            51.4987316
+          ],
+          [
+            4.796438,
+            51.4988916
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1193645988",
+      "properties": {
+        "bridge": "yes",
+        "highway": "cycleway",
+        "layer": "1",
+        "mofa": "designated",
+        "moped": "designated",
+        "name": "Strijbeekseweg",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "surface:colour": "grey",
+        "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
+        "id": "way/1193645988"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7962832,
+            51.4994408
+          ],
+          [
+            4.7962697,
+            51.4994833
           ]
         ]
       }
@@ -58893,8 +59108,10 @@
       "id": "way/7217557",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Kleine Maaijen",
         "surface": "concrete",
+        "zone:traffic": "NL:rural",
         "id": "way/7217557"
       },
       "geometry": {
@@ -58989,8 +59206,11 @@
       "type": "Feature",
       "id": "way/7217849",
       "properties": {
+        "cycleway": "shared_lane",
         "highway": "tertiary",
+        "maxspeed": "60",
         "name": "Chaamseweg-Hazenberg",
+        "zone:traffic": "NL:rural",
         "id": "way/7217849"
       },
       "geometry": {
@@ -59080,23 +59300,33 @@
       "id": "way/239229273",
       "properties": {
         "highway": "cycleway",
+        "mofa": "designated",
+        "moped": "designated",
+        "name": "Oude Bredasebaan",
+        "oneway": "no",
         "source": "survey",
+        "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
         "id": "way/239229273"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.8722083,
-            51.4790345
+            4.8719535,
+            51.4793456
           ],
           [
             4.8720138,
             51.4792519
           ],
           [
-            4.8719535,
-            51.4793456
+            4.8721185,
+            51.4791033
+          ],
+          [
+            4.8722215,
+            51.4789957
           ]
         ]
       }
@@ -59166,14 +59396,19 @@
         "name": "Kleine Maaijen",
         "surface": "sand",
         "tracktype": "grade4",
+        "zone:traffic": "NL:rural",
         "id": "way/337590432"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.8722083,
-            51.4790345
+            4.8722215,
+            51.4789957
+          ],
+          [
+            4.8721543,
+            51.4789617
           ],
           [
             4.8706209,
@@ -59201,6 +59436,7 @@
         "highway": "unclassified",
         "name": "Kleine Maaijen",
         "surface": "concrete",
+        "zone:traffic": "NL:rural",
         "id": "way/759967609"
       },
       "geometry": {
