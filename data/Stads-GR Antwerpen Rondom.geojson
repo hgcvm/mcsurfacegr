@@ -68,19 +68,17 @@
       "type": "Feature",
       "id": "way/4416869",
       "properties": {
-        "access": "yes",
-        "bicycle": "yes",
         "cycleway": "no",
-        "foot": "yes",
-        "highway": "residential",
+        "foot": "designated",
+        "highway": "living_street",
         "lit": "yes",
-        "maxspeed": "30",
-        "maxspeed:zone": "yes",
-        "motor_vehicle": "yes",
+        "maxspeed": "20",
         "name": "Bouwmeestersstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:speed_pedelec": "no",
         "sidewalk": "both",
+        "source:maxspeed": "BE:living_street",
         "surface": "sett",
         "id": "way/4416869"
       },
@@ -321,10 +319,11 @@
       "type": "Feature",
       "id": "way/4576770",
       "properties": {
+        "foot": "designated",
         "highway": "living_street",
-        "maxspeed": "30",
-        "maxspeed:zone": "yes",
+        "maxspeed": "20",
         "name": "Plaatsnijdersstraat",
+        "source:maxspeed": "BE:living_street",
         "surface": "asphalt",
         "id": "way/4576770"
       },
@@ -338,6 +337,10 @@
           [
             4.3960118,
             51.2079799
+          ],
+          [
+            4.3965609,
+            51.2084132
           ],
           [
             4.3966134,
@@ -1458,6 +1461,7 @@
         "name": "Schildersstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:speed_pedelec": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/23221243"
