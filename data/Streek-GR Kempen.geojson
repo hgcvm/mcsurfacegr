@@ -2730,6 +2730,7 @@
       "type": "Feature",
       "id": "way/31735475",
       "properties": {
+        "cycleway": "shared",
         "highway": "unclassified",
         "junction": "roundabout",
         "maxspeed": "50",
@@ -14543,6 +14544,7 @@
       "type": "Feature",
       "id": "way/80438483",
       "properties": {
+        "bicycle": "designated",
         "cyclestreet": "yes",
         "highway": "residential",
         "lit": "yes",
@@ -14551,6 +14553,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:speed_pedelec": "no",
+        "overtaking:motor_vehicle": "no",
         "sidewalk": "both",
         "source": "https://www.rijkevorsel.be/nieuwsberichten/gemeente-test-fietsstraten-schoolomgeving-centrum",
         "surface": "asphalt",
@@ -21935,7 +21938,7 @@
       "id": "way/140856708",
       "properties": {
         "bicycle": "yes",
-        "cycleway:both": "shared_lane",
+        "cycleway:both": "shared",
         "cycleway:both:lane": "pictogram",
         "highway": "residential",
         "lanes": "2",
@@ -34396,7 +34399,7 @@
       "type": "Feature",
       "id": "way/346393383",
       "properties": {
-        "cycleway:both": "shared_lane",
+        "cycleway": "shared",
         "cycleway:both:lane": "pictogram",
         "highway": "residential",
         "lanes": "2",
@@ -39566,6 +39569,7 @@
       "type": "Feature",
       "id": "way/540394820",
       "properties": {
+        "bicycle": "designated",
         "cyclestreet": "yes",
         "highway": "residential",
         "lit": "yes",
@@ -39574,6 +39578,8 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
+        "oneway:speed_pedelec": "no",
+        "overtaking:motor_vehicle": "no",
         "sidewalk": "no",
         "surface": "concrete",
         "id": "way/540394820"
@@ -39612,6 +39618,7 @@
         "name": "Molenstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/540395269"
@@ -44492,11 +44499,13 @@
       "type": "Feature",
       "id": "way/696905938",
       "properties": {
+        "bicycle": "designated",
         "cyclestreet": "yes",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Banmolenweg",
+        "overtaking:motor_vehicle": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/696905938"
@@ -48773,11 +48782,13 @@
       "type": "Feature",
       "id": "way/1141339434",
       "properties": {
+        "bicycle": "designated",
         "cyclestreet": "yes",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Banmolenweg",
+        "overtaking:motor_vehicle": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/1141339434"

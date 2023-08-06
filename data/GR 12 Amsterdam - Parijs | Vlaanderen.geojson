@@ -4627,7 +4627,9 @@
         "cycleway:right": "track",
         "cycleway:right:oneway": "no",
         "highway": "tertiary",
+        "lanes": "2",
         "name": "Notmeir",
+        "surface": "concrete",
         "id": "way/22909024"
       },
       "geometry": {
@@ -4657,7 +4659,9 @@
       "id": "way/22909030",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Notmeir",
+        "surface": "asphalt",
         "id": "way/22909030"
       },
       "geometry": {
@@ -4691,7 +4695,9 @@
       "id": "way/22909082",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Notmeir",
+        "surface": "asphalt",
         "id": "way/22909082"
       },
       "geometry": {
@@ -4719,8 +4725,11 @@
         "access": "destination",
         "bicycle": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "mofa": "yes",
         "moped": "yes",
+        "name": "Lazarusstraat",
+        "surface": "asphalt",
         "id": "way/22909084"
       },
       "geometry": {
@@ -4755,6 +4764,7 @@
         "maxspeed": "50",
         "name": "Lazarusstraat",
         "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/22909092"
       },
       "geometry": {
@@ -6013,6 +6023,7 @@
         "name": "Mechelsesteenweg",
         "overtaking": "no",
         "ref": "N1",
+        "surface": "asphalt",
         "toll:hgv": "yes",
         "id": "way/22999222"
       },
@@ -6048,6 +6059,7 @@
         "name": "Mechelsesteenweg",
         "overtaking": "no",
         "ref": "N1",
+        "surface": "asphalt",
         "toll:hgv": "yes",
         "id": "way/22999223"
       },
@@ -6528,7 +6540,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "vehicle": "no",
         "id": "way/23899764"
       },
@@ -7602,6 +7614,8 @@
       "id": "way/27661643",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
+        "surface": "asphalt",
         "id": "way/27661643"
       },
       "geometry": {
@@ -7686,6 +7700,10 @@
           [
             4.4422687,
             51.080084
+          ],
+          [
+            4.4428706,
+            51.0800825
           ],
           [
             4.4432891,
@@ -9135,7 +9153,9 @@
       "id": "way/36736964",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Notmeir",
+        "surface": "asphalt",
         "id": "way/36736964"
       },
       "geometry": {
@@ -10017,7 +10037,13 @@
       "type": "Feature",
       "id": "way/55301810",
       "properties": {
+        "handrail": "yes",
         "highway": "steps",
+        "incline": "down",
+        "ramp": "no",
+        "step_count": "28",
+        "surface": "concrete",
+        "tactile_paving": "no",
         "id": "way/55301810"
       },
       "geometry": {
@@ -10759,7 +10785,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/112792341"
       },
@@ -10786,7 +10812,7 @@
       "id": "way/112792342",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/112792342"
       },
@@ -10810,7 +10836,7 @@
       "properties": {
         "bicycle": "no",
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "compacted",
         "tracktype": "grade3",
         "id": "way/112792343"
       },
@@ -10907,7 +10933,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Rozendaal",
-        "surface": "cobblestone",
+        "surface": "sett",
         "id": "way/112793071"
       },
       "geometry": {
@@ -10929,6 +10955,7 @@
       "id": "way/113042297",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Rozendaal",
         "surface": "sett",
         "id": "way/113042297"
@@ -10995,7 +11022,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "pebblestone",
         "tracktype": "grade3",
         "traffic_sign": "f99a",
         "id": "way/113055246"
@@ -11120,6 +11147,7 @@
         "motor_vehicle": "destination",
         "name": "Kapellenlei",
         "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/115170478"
       },
       "geometry": {
@@ -11511,7 +11539,7 @@
         "horse": "no",
         "name": "Oude Spoorwegberm",
         "note": "nature reserve",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/123450505"
       },
       "geometry": {
@@ -11585,6 +11613,7 @@
         "foot": "yes",
         "highway": "path",
         "name": "Oude Spoorwegberm",
+        "surface": "dirt",
         "id": "way/124946023"
       },
       "geometry": {
@@ -11696,7 +11725,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "pebblestone",
         "tracktype": "grade3",
         "traffic_sign": "f99a",
         "id": "way/124946033"
@@ -12493,6 +12522,7 @@
       "properties": {
         "bicycle": "no",
         "highway": "path",
+        "surface": "fine_gravel",
         "wheelchair": "no",
         "id": "way/159812502"
       },
@@ -12780,7 +12810,9 @@
       "id": "way/171351893",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Lazarusstraat",
+        "surface": "asphalt",
         "id": "way/171351893"
       },
       "geometry": {
@@ -15799,6 +15831,7 @@
         "name": "Mechelsesteenweg",
         "overtaking": "no",
         "ref": "N1",
+        "surface": "asphalt",
         "toll:hgv": "yes",
         "id": "way/362755604"
       },
@@ -24120,7 +24153,7 @@
         "highway": "path",
         "horse": "no",
         "name": "Oude Spoorwegberm",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/793303928"
       },
       "geometry": {
@@ -24200,6 +24233,7 @@
         "horse": "no",
         "layer": "1",
         "name": "Oude Spoorwegberm - brug over Scheibeek",
+        "surface": "wood",
         "id": "way/793303929"
       },
       "geometry": {
