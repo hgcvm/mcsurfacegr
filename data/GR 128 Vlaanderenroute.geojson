@@ -58380,6 +58380,10 @@
             50.8723685
           ],
           [
+            2.9890422,
+            50.8724582
+          ],
+          [
             2.9890326,
             50.8724948
           ]
@@ -73987,6 +73991,9 @@
       "type": "Feature",
       "id": "way/157393641",
       "properties": {
+        "access": "permit",
+        "bicycle": "permit",
+        "foot": "designated",
         "highway": "path",
         "surface": "compacted",
         "id": "way/157393641"
@@ -84724,9 +84731,11 @@
       "id": "way/244759037",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Nieuwenhoven",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "surface": "asphalt",
         "id": "way/244759037"
       },
       "geometry": {
@@ -86167,6 +86176,7 @@
       "id": "way/263900040",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Nieuwenhoven",
         "surface": "asphalt",
         "id": "way/263900040"
@@ -87593,9 +87603,11 @@
       "id": "way/288088040",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Nieuwenhoven",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "surface": "asphalt",
         "id": "way/288088040"
       },
       "geometry": {
@@ -127713,8 +127725,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.9880268,
-            50.8727437
+            2.9882829,
+            50.8726982
+          ],
+          [
+            2.9882971,
+            50.8726953
           ],
           [
             2.9883252,
@@ -133696,10 +133712,6 @@
           [
             6.0212696,
             50.7535636
-          ],
-          [
-            6.0212703,
-            50.7535242
           ]
         ]
       }
@@ -134981,20 +134993,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.0214257,
-            50.7533978
+            6.0214307,
+            50.753334
           ],
           [
-            6.0214541,
-            50.7533753
+            6.0214678,
+            50.7533057
           ],
           [
-            6.0214948,
-            50.7533468
+            6.0215085,
+            50.7532768
           ],
           [
-            6.0216653,
-            50.7532269
+            6.0217458,
+            50.7531505
           ]
         ]
       }
@@ -136820,16 +136832,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.0216653,
-            50.7532269
+            6.0217458,
+            50.7531505
           ],
           [
-            6.0217831,
-            50.753193
+            6.0218374,
+            50.7531323
           ],
           [
-            6.0220608,
-            50.7530694
+            6.0220615,
+            50.7530562
           ],
           [
             6.0223463,
@@ -140367,16 +140379,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.0212703,
-            50.7535242
+            6.0212529,
+            50.7535234
           ],
           [
-            6.0213435,
-            50.7534642
+            6.021309,
+            50.7534536
           ],
           [
-            6.0214257,
-            50.7533978
+            6.0213775,
+            50.7533825
+          ],
+          [
+            6.0214307,
+            50.753334
           ]
         ]
       }
@@ -143511,6 +143527,30 @@
           [
             5.9218663,
             50.7734434
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1195354095",
+      "properties": {
+        "highway": "unclassified",
+        "lanes": "1",
+        "name": "Route des Trois Bornes",
+        "surface": "asphalt",
+        "id": "way/1195354095"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.0212696,
+            50.7535636
+          ],
+          [
+            6.0212529,
+            50.7535234
           ]
         ]
       }
