@@ -22579,10 +22579,16 @@
         "maxspeed": "50",
         "maxweight": "3.5",
         "maxweight:conditional": "none @ destination",
-        "name": "de Castonierlaan - Avenue de Castonier",
+        "name": "Avenue de Castonier - de Castonierlaan / de Castonierlaan - Avenue de Castonier",
         "name:etymology:wikidata": "Q88385819",
         "name:fr": "Avenue de Castonier",
+        "name:left": "Avenue de Castonier - de Castonierlaan",
+        "name:left:fr": "Avenue de Castonier",
+        "name:left:nl": "de Castonierlaan",
         "name:nl": "de Castonierlaan",
+        "name:right": "de Castonierlaan - Avenue de Castonier",
+        "name:right:fr": "Avenue de Castonier",
+        "name:right:nl": "de Castonierlaan",
         "note": "speed limit signs are conflicting here",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone50",
@@ -22595,32 +22601,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3826484,
-            50.7687332
-          ],
-          [
-            4.3822541,
-            50.7686484
-          ],
-          [
-            4.3821133,
-            50.7686181
+            4.3816801,
+            50.7685573
           ],
           [
             4.3818087,
             50.7685792
           ],
           [
-            4.3816801,
-            50.7685573
+            4.3821133,
+            50.7686181
           ],
           [
-            4.3815772,
-            50.7685259
+            4.3822541,
+            50.7686484
           ],
           [
-            4.381117,
-            50.7683327
+            4.3826484,
+            50.7687332
           ]
         ]
       }
@@ -44890,6 +44888,47 @@
           [
             5.0520877,
             50.987913
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1195595629",
+      "properties": {
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ destination",
+        "name": "de Castonierlaan - Avenue de Castonier",
+        "name:etymology:wikidata": "Q88385819",
+        "name:fr": "Avenue de Castonier",
+        "name:nl": "de Castonierlaan",
+        "note": "speed limit signs are conflicting here",
+        "sidewalk": "both",
+        "source:maxspeed": "BE:zone50",
+        "surface": "sett",
+        "vehicle": "destination",
+        "wikidata": "Q86002195",
+        "id": "way/1195595629"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3816801,
+            50.7685573
+          ],
+          [
+            4.3815772,
+            50.7685259
+          ],
+          [
+            4.381117,
+            50.7683327
           ]
         ]
       }
