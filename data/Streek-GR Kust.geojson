@@ -3485,7 +3485,9 @@
         "maxspeed": "30",
         "maxspeed:type": "sign",
         "name": "Halvemaanstraat",
+        "smoothness": "excellent",
         "surface": "paving_stones",
+        "width": "4",
         "id": "way/40808620"
       },
       "geometry": {
@@ -3882,6 +3884,7 @@
       "id": "way/42497656",
       "properties": {
         "highway": "path",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "id": "way/42497656"
       },
@@ -11444,12 +11447,24 @@
             51.3469153
           ],
           [
-            3.305034,
+            3.3049294,
+            51.3469208
+          ],
+          [
+            3.3049783,
+            51.3469317
+          ],
+          [
+            3.3050582,
             51.3469606
           ],
           [
-            3.3051403,
-            51.3469554
+            3.3051215,
+            51.3469822
+          ],
+          [
+            3.3052245,
+            51.3469422
           ],
           [
             3.3068069,
@@ -11470,6 +11485,10 @@
           [
             3.308081,
             51.3465543
+          ],
+          [
+            3.3081169,
+            51.3465588
           ],
           [
             3.3082688,
@@ -14788,6 +14807,7 @@
         "highway": "service",
         "maxspeed": "30",
         "name": "Nieuwe Jachthavenweg",
+        "smoothness": "excellent",
         "surface": "paving_stones",
         "id": "way/136704283"
       },
@@ -17164,6 +17184,7 @@
       "properties": {
         "highway": "service",
         "name": "Vierboeteweg",
+        "smoothness": "intermediate",
         "surface": "concrete",
         "id": "way/146436836"
       },
@@ -17497,6 +17518,7 @@
       "id": "way/153048196",
       "properties": {
         "highway": "service",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/153048196"
       },
@@ -17519,6 +17541,7 @@
       "id": "way/153048197",
       "properties": {
         "highway": "service",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/153048197"
       },
@@ -17541,6 +17564,7 @@
       "id": "way/153048200",
       "properties": {
         "highway": "service",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/153048200"
       },
@@ -17563,6 +17587,7 @@
       "id": "way/153048727",
       "properties": {
         "highway": "service",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/153048727"
       },
@@ -19320,8 +19345,16 @@
             51.3466875
           ],
           [
+            3.3049012,
+            51.3466172
+          ],
+          [
             3.3048986,
             51.3462824
+          ],
+          [
+            3.3049011,
+            51.3462016
           ],
           [
             3.3049195,
@@ -19330,6 +19363,14 @@
           [
             3.3049264,
             51.3452311
+          ],
+          [
+            3.3049327,
+            51.3450372
+          ],
+          [
+            3.3049375,
+            51.3449024
           ],
           [
             3.3049361,
@@ -24836,6 +24877,7 @@
       "id": "way/250002369",
       "properties": {
         "highway": "footway",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/250002369"
       },
@@ -24843,12 +24885,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.7540512,
-            51.1368538
-          ],
-          [
-            2.7540984,
-            51.1368597
+            2.7541266,
+            51.1368632
           ],
           [
             2.7541967,
@@ -24859,20 +24897,8 @@
             51.1368801
           ],
           [
-            2.7543348,
-            51.1368892
-          ],
-          [
-            2.7544238,
-            51.1369003
-          ],
-          [
-            2.7544802,
-            51.1368959
-          ],
-          [
-            2.7545684,
-            51.1368867
+            2.7543098,
+            51.1368861
           ]
         ]
       }
@@ -26065,6 +26091,7 @@
       "id": "way/350634390",
       "properties": {
         "highway": "footway",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/350634390"
       },
@@ -26088,6 +26115,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/350634392"
       },
@@ -27457,6 +27485,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "no",
+        "smoothness": "excellent",
         "surface": "paving_stones",
         "id": "way/428848637"
       },
@@ -42716,6 +42745,160 @@
           [
             3.2636112,
             51.3429198
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1196063406",
+      "properties": {
+        "highway": "footway",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "id": "way/1196063406"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7540512,
+            51.1368538
+          ],
+          [
+            2.7540725,
+            51.1368565
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1196063407",
+      "properties": {
+        "highway": "footway",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "id": "way/1196063407"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7540725,
+            51.1368565
+          ],
+          [
+            2.7540984,
+            51.1368597
+          ],
+          [
+            2.7541266,
+            51.1368632
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1196063408",
+      "properties": {
+        "highway": "footway",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "id": "way/1196063408"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7543098,
+            51.1368861
+          ],
+          [
+            2.7543348,
+            51.1368892
+          ],
+          [
+            2.7543621,
+            51.1368926
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1196063409",
+      "properties": {
+        "highway": "footway",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "id": "way/1196063409"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7543621,
+            51.1368926
+          ],
+          [
+            2.7544238,
+            51.1369003
+          ],
+          [
+            2.7544554,
+            51.1368978
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1196063410",
+      "properties": {
+        "highway": "footway",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "id": "way/1196063410"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7544554,
+            51.1368978
+          ],
+          [
+            2.7544802,
+            51.1368959
+          ],
+          [
+            2.754512,
+            51.1368926
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1196063411",
+      "properties": {
+        "highway": "footway",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "id": "way/1196063411"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.754512,
+            51.1368926
+          ],
+          [
+            2.7545684,
+            51.1368867
           ]
         ]
       }
