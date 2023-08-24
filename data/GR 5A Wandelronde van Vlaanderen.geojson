@@ -176116,16 +176116,17 @@
       "properties": {
         "bicycle": "yes",
         "cyclestreet": "yes",
-        "highway": "pedestrian",
+        "highway": "unclassified",
+        "lanes": "1",
         "lit": "yes",
         "maxspeed": "30",
-        "motor_vehicle": "yes",
-        "motor_vehicle:conditional": "permit @ (Sa-Su 13:00-18:00)",
+        "mofa": "yes",
+        "motor_vehicle": "permit",
+        "motor_vehicle:conditional": "yes @ (Sa-Su 13:00-18:00)",
         "name": "Geldmuntstraat",
         "name:etymology:wikidata": "Q464780",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "overtaking:motor_vehicle": "no",
         "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
@@ -177150,8 +177151,8 @@
             51.2045736
           ],
           [
-            3.2250642,
-            51.2046185
+            3.2250629,
+            51.2046206
           ],
           [
             3.2250798,
@@ -177476,6 +177477,7 @@
       "type": "Feature",
       "id": "way/1017806950",
       "properties": {
+        "covered": "yes",
         "cyclestreet": "yes",
         "cycleway": "opposite",
         "highway": "residential",
