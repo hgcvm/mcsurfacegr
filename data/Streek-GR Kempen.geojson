@@ -2516,7 +2516,8 @@
         "bicycle": "yes",
         "highway": "path",
         "name": "Oude Beersebaan",
-        "surface": "unpaved",
+        "smoothness": "intermediate",
+        "surface": "compacted",
         "id": "way/27993110"
       },
       "geometry": {
@@ -12503,6 +12504,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
+        "sidewalk": "no",
         "surface": "paving_stones",
         "id": "way/60580765"
       },
@@ -14930,10 +14932,12 @@
       "type": "Feature",
       "id": "way/81109180",
       "properties": {
+        "check_date:surface": "2023-08-25",
         "highway": "track",
         "name": "Galgenbeekweg",
+        "smoothness": "intermediate",
         "surface": "compacted",
-        "tracktype": "grade1",
+        "tracktype": "grade2",
         "id": "way/81109180"
       },
       "geometry": {
@@ -15044,7 +15048,9 @@
       "properties": {
         "highway": "track",
         "name": "Oude Beersebaan",
-        "surface": "unpaved",
+        "smoothness": "good",
+        "surface": "compacted",
+        "tracktype": "grade2",
         "id": "way/81110503"
       },
       "geometry": {
