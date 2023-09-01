@@ -180,9 +180,11 @@
       "id": "way/23628558",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Westkaaipad",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "width": "3",
         "id": "way/23628558"
@@ -7698,9 +7700,11 @@
       "id": "way/96594887",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Molenweg",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/96594887"
       },
@@ -12667,11 +12671,16 @@
       "type": "Feature",
       "id": "way/129703990",
       "properties": {
+        "access:conditional": "yes @ permit",
         "bicycle": "yes",
+        "emergency": "yes",
         "foot": "yes",
         "highway": "path",
         "horse": "yes",
+        "maxspeed": "30",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99a",
+        "vehicle": "no",
         "id": "way/129703990"
       },
       "geometry": {
@@ -12684,6 +12693,10 @@
           [
             2.889935,
             50.8435455
+          ],
+          [
+            2.8899597,
+            50.8435383
           ],
           [
             2.89016,
@@ -21373,8 +21386,16 @@
       "type": "Feature",
       "id": "way/191606512",
       "properties": {
+        "access:conditional": "yes @ permit",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "path",
+        "horse": "yes",
+        "maxspeed": "30",
         "surface": "grass",
+        "traffic_sign": "BE:F99a",
+        "vehicle": "no",
         "id": "way/191606512"
       },
       "geometry": {
@@ -22286,9 +22307,16 @@
       "type": "Feature",
       "id": "way/328953898",
       "properties": {
-        "bicycle": "no",
+        "access:conditional": "yes @ permit",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "path",
+        "horse": "yes",
+        "maxspeed": "30",
         "surface": "grass",
+        "traffic_sign": "BE:F99a",
+        "vehicle": "no",
         "id": "way/328953898"
       },
       "geometry": {
@@ -24239,8 +24267,10 @@
       "id": "way/569257577",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Molenweg",
         "oneway": "no",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/569257577"
       },
