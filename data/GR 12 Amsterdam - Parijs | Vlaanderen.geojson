@@ -6,7 +6,6 @@
       "id": "way/23489466",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
         "highway": "residential",
         "horse": "yes",
@@ -15,7 +14,7 @@
         "name": "Oude Postweg",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
-        "traffic_sign": "C3 + uitgezonderd plaatselijk verkeer",
+        "traffic_sign": "BE:C3,BE:Type_IV_local_traffic_nl",
         "vehicle": "destination",
         "id": "way/23489466"
       },
@@ -609,7 +608,8 @@
         "lit": "yes",
         "name": "Onze-Lieve-Vrouwstraat",
         "official_name": "O. L. Vrouwstraat",
-        "oneway": "no",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
         "surface": "sett",
         "id": "way/129212010"
       },
@@ -617,28 +617,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3375396,
-            50.749198
-          ],
-          [
-            4.337368,
-            50.7485604
-          ],
-          [
-            4.33722,
-            50.7479934
-          ],
-          [
-            4.3371084,
-            50.7476947
+            4.3369367,
+            50.7472602
           ],
           [
             4.3370492,
             50.7475184
           ],
           [
-            4.3369367,
-            50.7472602
+            4.3371084,
+            50.7476947
+          ],
+          [
+            4.33722,
+            50.7479934
+          ],
+          [
+            4.337368,
+            50.7485604
+          ],
+          [
+            4.3375396,
+            50.749198
           ]
         ]
       }
@@ -1408,7 +1408,8 @@
         "maxspeed": "30",
         "name": "Onze-Lieve-Vrouwstraat",
         "official_name": "O. L. Vrouwstraat",
-        "oneway": "no",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
         "surface": "sett",
         "id": "way/888358750"
       },
@@ -1416,16 +1417,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3369367,
-            50.7472602
+            4.3365916,
+            50.7467466
           ],
           [
             4.3366361,
             50.7468261
           ],
           [
-            4.3365916,
-            50.7467466
+            4.3369367,
+            50.7472602
           ]
         ]
       }
@@ -1435,7 +1436,6 @@
       "id": "way/888358751",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
         "highway": "residential",
         "horse": "yes",
@@ -1446,7 +1446,7 @@
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
-        "traffic_sign": "C3 + uitgezonderd plaatselijk verkeer",
+        "traffic_sign": "BE:C3,BE:Type_IV_local_traffic_nl",
         "vehicle": "destination",
         "id": "way/888358751"
       },
@@ -1469,7 +1469,6 @@
       "id": "way/888358752",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
         "highway": "residential",
         "horse": "yes",
@@ -1479,7 +1478,7 @@
         "name": "Oude Postweg",
         "sidewalk": "no",
         "surface": "asphalt",
-        "traffic_sign": "C3 + uitgezonderd plaatselijk verkeer",
+        "traffic_sign": "BE:C3,BE:Type_IV_local_traffic_nl",
         "vehicle": "destination",
         "id": "way/888358752"
       },
@@ -1680,7 +1679,6 @@
       "id": "way/941597709",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
         "highway": "residential",
         "horse": "yes",
@@ -1689,7 +1687,7 @@
         "name": "Oude Postweg",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
-        "traffic_sign": "C3 + uitgezonderd plaatselijk verkeer",
+        "traffic_sign": "BE:C3,BE:Type_IV_local_traffic_nl",
         "vehicle": "destination",
         "id": "way/941597709"
       },
@@ -2156,9 +2154,13 @@
       "type": "Feature",
       "id": "way/4446099",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
+        "name": "Lange Leemstraat",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "paving_stones",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/4446099"
       },
@@ -18053,6 +18055,7 @@
         "maxspeed": "50",
         "name": "Lange Leemstraat",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/424286632"
       },
@@ -23895,13 +23898,14 @@
       "type": "Feature",
       "id": "way/783016746",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Sint-Vincentiusstraat",
         "oneway": "yes",
-        "oneway:bicycle": "yes",
+        "oneway:bicycle": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/783016746"
