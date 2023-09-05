@@ -65331,10 +65331,16 @@
       "type": "Feature",
       "id": "way/129811259",
       "properties": {
+        "designation": "towpath",
         "highway": "unclassified",
+        "horse": "destination",
         "maxspeed": "30",
+        "mofa": "yes",
         "name": "Tragelweg",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
+        "vehicle": "destination",
+        "vehicle:conditional": "yes @ permit",
         "id": "way/129811259"
       },
       "geometry": {
@@ -65421,16 +65427,16 @@
             51.0102726
           ],
           [
-            3.8867214,
-            51.0102122
+            3.8862927,
+            51.0100436
           ],
           [
-            3.8863625,
-            51.0100701
+            3.8857746,
+            51.0097987
           ],
           [
-            3.8859008,
-            51.0098641
+            3.8851969,
+            51.0095039
           ]
         ]
       }
@@ -98828,8 +98834,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9499527,
-            51.0141995
+            3.9499536,
+            51.0142114
           ],
           [
             3.949858,
@@ -104581,8 +104587,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9499527,
-            51.0141995
+            3.9499536,
+            51.0142114
           ],
           [
             3.9500145,
@@ -123855,38 +123861,6 @@
           [
             4.0669559,
             50.981508
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1000529981",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
-        "name": "Tragelweg",
-        "surface": "asphalt",
-        "id": "way/1000529981"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.8859008,
-            51.0098641
-          ],
-          [
-            3.8856966,
-            51.0097582
-          ],
-          [
-            3.8853373,
-            51.0095752
-          ],
-          [
-            3.8851969,
-            51.0095039
           ]
         ]
       }

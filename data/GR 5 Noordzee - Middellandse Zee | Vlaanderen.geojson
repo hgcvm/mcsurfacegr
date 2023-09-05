@@ -34033,6 +34033,7 @@
         "cycleway": "shared_lane",
         "highway": "residential",
         "lanes": "2",
+        "maxspeed": "50",
         "name": "Slagmolenweg",
         "surface": "asphalt",
         "id": "way/198690465"
@@ -34083,14 +34084,6 @@
           [
             5.4774065,
             50.9583637
-          ],
-          [
-            5.4775367,
-            50.958289
-          ],
-          [
-            5.4776805,
-            50.9582509
           ]
         ]
       }
@@ -34703,9 +34696,11 @@
       "id": "way/199416097",
       "properties": {
         "highway": "residential",
-        "maxspeed": "50",
+        "lanes": "2",
+        "maxspeed": "30",
         "name": "Dominikanenlaan",
         "source:maxspeed": "BE:zone50",
+        "surface": "paving_stones",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/199416097"
       },
@@ -55237,7 +55232,7 @@
         "maxspeed": "50",
         "name": "Dominikanenlaan",
         "source:maxspeed": "BE:zone50",
-        "surface": "ground",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/834150843"
       },
@@ -55253,8 +55248,8 @@
             50.9587642
           ],
           [
-            5.4782991,
-            50.9585561
+            5.4785179,
+            50.958666
           ]
         ]
       }
@@ -63396,6 +63391,63 @@
           [
             5.4120264,
             50.9477277
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1204884661",
+      "properties": {
+        "cycleway": "shared_lane",
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Slagmolenweg",
+        "surface": "paving_stones",
+        "id": "way/1204884661"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4774065,
+            50.9583637
+          ],
+          [
+            5.4775367,
+            50.958289
+          ],
+          [
+            5.4776805,
+            50.9582509
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1204884662",
+      "properties": {
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Dominikanenlaan",
+        "source:maxspeed": "BE:zone50",
+        "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1204884662"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4785179,
+            50.958666
+          ],
+          [
+            5.4782991,
+            50.9585561
           ]
         ]
       }
