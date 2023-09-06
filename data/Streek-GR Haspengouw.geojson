@@ -254,6 +254,7 @@
       "id": "way/23113989",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Wagenstraat",
         "id": "way/23113989"
       },
@@ -311,6 +312,10 @@
           [
             5.4975635,
             50.8689464
+          ],
+          [
+            5.4974373,
+            50.869583
           ],
           [
             5.4973771,
@@ -2329,7 +2334,11 @@
       "id": "way/345377483",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "30",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ destination",
         "name": "Oude Tongersestraat",
+        "source:maxspeed": "sign",
         "id": "way/345377483"
       },
       "geometry": {

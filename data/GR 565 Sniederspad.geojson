@@ -149,7 +149,10 @@
       "id": "way/5009701",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Rubensstraat",
+        "surface": "paving_stones",
+        "width": "5",
         "id": "way/5009701"
       },
       "geometry": {
@@ -9267,7 +9270,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "vehicle": "no",
         "id": "way/53565589"
       },
@@ -20306,8 +20309,10 @@
       "id": "way/187739181",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Rubensstraat",
         "surface": "paving_stones",
+        "width": "5",
         "id": "way/187739181"
       },
       "geometry": {
@@ -21482,8 +21487,10 @@
       "id": "way/244816610",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Rubensstraat",
         "surface": "paving_stones",
+        "width": "5",
         "id": "way/244816610"
       },
       "geometry": {
@@ -23449,9 +23456,13 @@
       "id": "way/403438203",
       "properties": {
         "bicycle": "designated",
+        "cycleway:surface": "paving_stones",
+        "cycleway:width": "3",
         "foot": "designated",
+        "footway:surface": "asphalt",
         "highway": "path",
         "segregated": "yes",
+        "surface": "paved",
         "id": "way/403438203"
       },
       "geometry": {
@@ -24914,6 +24925,8 @@
         "maxspeed": "50",
         "name": "Rubensstraat",
         "oneway": "yes",
+        "surface": "paving_stones",
+        "width": "5",
         "id": "way/480181091"
       },
       "geometry": {
@@ -24937,6 +24950,8 @@
         "highway": "cycleway",
         "name": "Kempenlaan",
         "oneway": "yes",
+        "surface": "paving_stones",
+        "width": "3",
         "id": "way/480181092"
       },
       "geometry": {
@@ -24958,9 +24973,13 @@
       "id": "way/480181095",
       "properties": {
         "bicycle": "designated",
+        "cycleway:surface": "paving_stones",
+        "cycleway:width": "3",
         "foot": "designated",
+        "footway:surface": "paving_stones",
         "highway": "path",
         "segregated": "yes",
+        "surface": "paving_stones",
         "id": "way/480181095"
       },
       "geometry": {
@@ -26140,10 +26159,13 @@
       "id": "way/542550285",
       "properties": {
         "bicycle": "designated",
+        "cycleway:surface": "paving_stones",
+        "cycleway:width": "3",
         "foot": "designated",
+        "footway:surface": "asphalt",
         "highway": "path",
         "segregated": "yes",
-        "surface": "unpaved",
+        "surface": "paved",
         "vehicle": "no",
         "id": "way/542550285"
       },
@@ -37983,9 +38005,10 @@
       "properties": {
         "highway": "cycleway",
         "lit": "yes",
-        "oneway": "yes",
-        "surface": "paving_stones",
-        "width": "1.5",
+        "oneway": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "width": "2.5",
         "id": "way/228483007"
       },
       "geometry": {
@@ -38020,24 +38043,8 @@
             51.1905091
           ],
           [
-            4.4245849,
-            51.1905659
-          ],
-          [
-            4.4245622,
-            51.1906005
-          ],
-          [
-            4.4245444,
-            51.190635
-          ],
-          [
-            4.4245476,
-            51.1906706
-          ],
-          [
-            4.4245527,
-            51.190713
+            4.4244171,
+            51.1906965
           ]
         ]
       }
@@ -38959,12 +38966,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4242625,
-            51.1906737
+            4.4242933,
+            51.1906476
           ],
           [
-            4.4243817,
-            51.1907264
+            4.4244171,
+            51.1906965
           ]
         ]
       }
@@ -39616,8 +39623,8 @@
             51.1906293
           ],
           [
-            4.4242625,
-            51.1906737
+            4.4242933,
+            51.1906476
           ]
         ]
       }
@@ -41603,40 +41610,6 @@
           [
             4.4255861,
             51.189704
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1113259777",
-      "properties": {
-        "cycleway:comfort": "14",
-        "cycleway:surface": "asphalt",
-        "cycleway:width": "3.03",
-        "highway": "cycleway",
-        "lit": "yes",
-        "name": "Ringfietspad",
-        "oneway": "no",
-        "smoothness": "excellent",
-        "surface": "asphalt",
-        "width": "2.9",
-        "id": "way/1113259777"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4243817,
-            51.1907264
-          ],
-          [
-            4.4244717,
-            51.1907188
-          ],
-          [
-            4.4245527,
-            51.190713
           ]
         ]
       }

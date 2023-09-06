@@ -14845,8 +14845,12 @@
             50.9531748
           ],
           [
-            5.4402865,
-            50.9535806
+            5.4403068,
+            50.9535273
+          ],
+          [
+            5.4402759,
+            50.9535739
           ]
         ]
       }
@@ -34154,6 +34158,8 @@
       "properties": {
         "cycleway": "no",
         "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "30",
         "name": "Drijtap",
         "sidewalk": "no",
         "surface": "asphalt",
@@ -34163,8 +34169,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4567279,
-            50.9594909
+            5.4567816,
+            50.9593646
           ],
           [
             5.4573996,
@@ -34179,6 +34185,8 @@
       "properties": {
         "cycleway": "no",
         "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "30",
         "name": "Heiweier",
         "sidewalk": "no",
         "surface": "asphalt",
@@ -34188,8 +34196,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4524253,
-            50.9588111
+            5.4524893,
+            50.9586578
           ],
           [
             5.4526722,
@@ -34221,12 +34229,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4567279,
-            50.9594909
+            5.4565113,
+            50.9594567
           ],
           [
-            5.4524253,
-            50.9588111
+            5.4526447,
+            50.9588458
           ]
         ]
       }
@@ -45564,6 +45572,7 @@
       "id": "way/390917336",
       "properties": {
         "highway": "track",
+        "motor_vehicle": "destination",
         "surface": "fine_gravel",
         "tracktype": "grade3",
         "id": "way/390917336"
@@ -62578,8 +62587,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4402865,
-            50.9535806
+            5.4404354,
+            50.9536373
           ],
           [
             5.4406404,
@@ -62596,40 +62605,6 @@
           [
             5.4407298,
             50.9538319
-          ],
-          [
-            5.4405813,
-            50.9542034
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1160416135",
-      "properties": {
-        "bicycle": "designated",
-        "cycleway": "no",
-        "foot": "designated",
-        "highway": "cycleway",
-        "maxspeed": "30",
-        "maxweight": "7.5",
-        "motor_vehicle": "no",
-        "name": "De Mierlik",
-        "sidewalk": "no",
-        "surface": "asphalt",
-        "id": "way/1160416135"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.4405813,
-            50.9542034
-          ],
-          [
-            5.4405541,
-            50.9542727
           ],
           [
             5.4405334,
@@ -63448,6 +63423,154 @@
           [
             5.4782991,
             50.9585561
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1205149672",
+      "properties": {
+        "bicycle": "designated",
+        "cycleway": "no",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lane_markings": "no",
+        "lanes": "2",
+        "maxspeed": "30",
+        "maxweight": "7.5",
+        "motor_vehicle": "no",
+        "name": "De Mierlik",
+        "sidewalk": "no",
+        "surface": "asphalt",
+        "id": "way/1205149672"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4402759,
+            50.9535739
+          ],
+          [
+            5.4403566,
+            50.9536073
+          ],
+          [
+            5.4404354,
+            50.9536373
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1205149686",
+      "properties": {
+        "cyclestreet": "yes",
+        "cycleway": "no",
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "name": "Kneippstraat",
+        "sidewalk": "no",
+        "surface": "paving_stones",
+        "id": "way/1205149686"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4526447,
+            50.9588458
+          ],
+          [
+            5.4524253,
+            50.9588111
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1205149687",
+      "properties": {
+        "cycleway": "no",
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Heiweier",
+        "sidewalk": "no",
+        "surface": "paving_stones",
+        "id": "way/1205149687"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4524253,
+            50.9588111
+          ],
+          [
+            5.4524893,
+            50.9586578
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1205167860",
+      "properties": {
+        "cycleway": "no",
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Drijtap",
+        "sidewalk": "no",
+        "surface": "paving_stones",
+        "id": "way/1205167860"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4567279,
+            50.9594909
+          ],
+          [
+            5.4567816,
+            50.9593646
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1205167861",
+      "properties": {
+        "cyclestreet": "yes",
+        "cycleway": "no",
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "name": "Kneippstraat",
+        "sidewalk": "no",
+        "surface": "paving_stones",
+        "id": "way/1205167861"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4567279,
+            50.9594909
+          ],
+          [
+            5.4565113,
+            50.9594567
           ]
         ]
       }
