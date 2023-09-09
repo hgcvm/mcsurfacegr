@@ -3828,7 +3828,6 @@
       "id": "way/34626690",
       "properties": {
         "highway": "path",
-        "surface": "gravel",
         "id": "way/34626690"
       },
       "geometry": {
@@ -6173,10 +6172,9 @@
       "properties": {
         "highway": "cycleway",
         "lit": "yes",
-        "oneway": "no",
-        "smoothness": "excellent",
-        "surface": "asphalt",
-        "width": "2.5",
+        "oneway": "yes",
+        "surface": "paving_stones",
+        "width": "1.5",
         "id": "way/228483007"
       },
       "geometry": {
@@ -6211,8 +6209,24 @@
             51.1905091
           ],
           [
-            4.4244171,
-            51.1906965
+            4.4245849,
+            51.1905659
+          ],
+          [
+            4.4245622,
+            51.1906005
+          ],
+          [
+            4.4245444,
+            51.190635
+          ],
+          [
+            4.4245476,
+            51.1906706
+          ],
+          [
+            4.4245527,
+            51.190713
           ]
         ]
       }
@@ -8265,12 +8279,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4242933,
-            51.1906476
+            4.4242625,
+            51.1906737
           ],
           [
-            4.4244171,
-            51.1906965
+            4.4243817,
+            51.1907264
           ]
         ]
       }
@@ -9196,8 +9210,8 @@
             51.1906293
           ],
           [
-            4.4242933,
-            51.1906476
+            4.4242625,
+            51.1906737
           ]
         ]
       }
@@ -11844,6 +11858,40 @@
     },
     {
       "type": "Feature",
+      "id": "way/1113259777",
+      "properties": {
+        "cycleway:comfort": "14",
+        "cycleway:surface": "asphalt",
+        "cycleway:width": "3.03",
+        "highway": "cycleway",
+        "lit": "yes",
+        "name": "Ringfietspad",
+        "oneway": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "width": "2.9",
+        "id": "way/1113259777"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4243817,
+            51.1907264
+          ],
+          [
+            4.4244717,
+            51.1907188
+          ],
+          [
+            4.4245527,
+            51.190713
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1113263821",
       "properties": {
         "highway": "path",
@@ -12093,7 +12141,6 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Sint-Pietersvliet",
-        "surface": "asphalt",
         "id": "way/1114923504"
       },
       "geometry": {
