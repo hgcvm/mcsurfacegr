@@ -73915,6 +73915,7 @@
         "name": "Rijkenhoek",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "surface": "paving_stones",
         "id": "way/26235926"
       },
       "geometry": {
@@ -77581,6 +77582,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Kasteelstraat",
+        "surface": "paving_stones",
         "id": "way/31720629"
       },
       "geometry": {
@@ -77628,7 +77630,8 @@
         "horse": "yes",
         "maxspeed": "30",
         "name": "Donkweg",
-        "surface": "unpaved",
+        "surface": "ground",
+        "tracktype": "grade3",
         "id": "way/31720751"
       },
       "geometry": {
@@ -77707,7 +77710,7 @@
         "highway": "track",
         "horse": "yes",
         "mtb:scale": "0",
-        "surface": "unpaved",
+        "surface": "ground",
         "tracktype": "grade2",
         "id": "way/31720865"
       },
@@ -77811,7 +77814,8 @@
         "highway": "track",
         "horse": "yes",
         "name": "Luipegemsedijk",
-        "surface": "unpaved",
+        "surface": "ground",
+        "tracktype": "grade3",
         "id": "way/31720919"
       },
       "geometry": {
@@ -77887,7 +77891,8 @@
         "horse": "yes",
         "mtb:scale": "0",
         "name": "Luipegemsedijk",
-        "surface": "unpaved",
+        "surface": "ground",
+        "tracktype": "grade2",
         "id": "way/31721052"
       },
       "geometry": {
@@ -78014,7 +78019,8 @@
         "highway": "track",
         "horse": "yes",
         "name": "Luipegemsedijk",
-        "surface": "unpaved",
+        "surface": "pebblestone",
+        "tracktype": "grade2",
         "id": "way/31721078"
       },
       "geometry": {
@@ -78162,7 +78168,8 @@
         "horse": "yes",
         "mtb:scale": "0",
         "name": "Luipegemsedijk",
-        "surface": "unpaved",
+        "surface": "ground",
+        "tracktype": "grade2",
         "id": "way/31721089"
       },
       "geometry": {
@@ -78317,6 +78324,7 @@
         "horse": "yes",
         "mtb:scale": "0",
         "surface": "ground",
+        "tracktype": "grade4",
         "vehicle": "destination",
         "id": "way/31721099"
       },
@@ -90100,6 +90108,7 @@
         "mofa": "yes",
         "segregated": "no",
         "surface": "asphalt",
+        "traffic_sign": "BE:C3,BE:Type_IV_residents_exceptions_nl",
         "vehicle": "destination",
         "vehicle:conditional": "yes @ permit",
         "website": "http://www.descheepvaart.be/Rubriek/Recreatie/Jaagpaden.aspx",
@@ -121168,9 +121177,12 @@
       "type": "Feature",
       "id": "way/249504661",
       "properties": {
+        "bicycle": "designated",
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "service",
+        "segregated": "no",
         "surface": "asphalt",
+        "traffic_sign": "BE:C3,BE:Type_IV_residents_exceptions_nl",
         "id": "way/249504661"
       },
       "geometry": {
@@ -168357,9 +168369,10 @@
       "properties": {
         "highway": "cycleway",
         "lit": "yes",
-        "oneway": "yes",
-        "surface": "paving_stones",
-        "width": "1.5",
+        "oneway": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "width": "2.5",
         "id": "way/228483007"
       },
       "geometry": {
@@ -168394,24 +168407,8 @@
             51.1905091
           ],
           [
-            4.4245849,
-            51.1905659
-          ],
-          [
-            4.4245622,
-            51.1906005
-          ],
-          [
-            4.4245444,
-            51.190635
-          ],
-          [
-            4.4245476,
-            51.1906706
-          ],
-          [
-            4.4245527,
-            51.190713
+            4.4244171,
+            51.1906965
           ]
         ]
       }
@@ -169333,12 +169330,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4242625,
-            51.1906737
+            4.4242933,
+            51.1906476
           ],
           [
-            4.4243817,
-            51.1907264
+            4.4244171,
+            51.1906965
           ]
         ]
       }
@@ -169990,8 +169987,8 @@
             51.1906293
           ],
           [
-            4.4242625,
-            51.1906737
+            4.4242933,
+            51.1906476
           ]
         ]
       }
@@ -171977,40 +171974,6 @@
           [
             4.4255861,
             51.189704
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1113259777",
-      "properties": {
-        "cycleway:comfort": "14",
-        "cycleway:surface": "asphalt",
-        "cycleway:width": "3.03",
-        "highway": "cycleway",
-        "lit": "yes",
-        "name": "Ringfietspad",
-        "oneway": "no",
-        "smoothness": "excellent",
-        "surface": "asphalt",
-        "width": "2.9",
-        "id": "way/1113259777"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4243817,
-            51.1907264
-          ],
-          [
-            4.4244717,
-            51.1907188
-          ],
-          [
-            4.4245527,
-            51.190713
           ]
         ]
       }

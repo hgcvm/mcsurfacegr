@@ -108,6 +108,7 @@
       "type": "Feature",
       "id": "way/17253979",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "lit": "yes",
         "name": "Varkensmarkt",
@@ -227,6 +228,7 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Marktplein",
         "sidewalk": "left",
         "surface": "unhewn_cobblestone",
@@ -4931,16 +4933,13 @@
       "id": "way/57403632",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Sint-Janslaan",
         "id": "way/57403632"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.4197398,
-            50.906898
-          ],
           [
             5.420008,
             50.9060634
@@ -5784,11 +5783,9 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "30",
+        "motorcar": "no",
         "name": "Strobandersplein",
-        "oneway": "yes",
-        "oneway:bicycle": "no",
-        "oneway:mofa": "no",
-        "oneway:speed_pedelec": "no",
         "sidewalk": "no",
         "surface": "unhewn_cobblestone",
         "id": "way/61950377"
@@ -5843,11 +5840,13 @@
         "cycleway:both:lane": "pictogram",
         "highway": "tertiary",
         "lanes": "2",
-        "maxspeed": "50",
+        "maxspeed": "30",
+        "maxweight": "3.5",
         "name": "Kapelstraat",
         "ref": "N2",
         "surface": "asphalt",
         "toll:hgv": "yes",
+        "traffic_sign": "BE:C21",
         "id": "way/62746069"
       },
       "geometry": {
@@ -13210,6 +13209,7 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Marktplein",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -17348,6 +17348,7 @@
       "id": "way/219576120",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Toekomststraat",
         "id": "way/219576120"
       },
@@ -17573,6 +17574,7 @@
       "type": "Feature",
       "id": "way/220071347",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "lit": "yes",
         "name": "Varkensmarkt",
@@ -21126,12 +21128,13 @@
       "type": "Feature",
       "id": "way/242428623",
       "properties": {
+        "cyclestreet": "yes",
         "cycleway:both": "shared_lane",
         "cycleway:both:lane": "pictogram",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Stationsstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -41216,12 +41219,13 @@
       "type": "Feature",
       "id": "way/1205532469",
       "properties": {
+        "cyclestreet": "yes",
         "cycleway:both": "shared_lane",
         "cycleway:both:lane": "pictogram",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Stationsstraat",
         "sidewalk": "both",
         "surface": "asphalt",
@@ -41242,6 +41246,31 @@
           [
             5.4191278,
             50.9091189
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1207295679",
+      "properties": {
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Sint-Janslaan",
+        "oneway": "yes",
+        "id": "way/1207295679"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.420008,
+            50.9060634
+          ],
+          [
+            5.4197398,
+            50.906898
           ]
         ]
       }
