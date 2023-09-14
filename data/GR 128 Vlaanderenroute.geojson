@@ -4668,6 +4668,7 @@
         "oneway:bicycle": "no",
         "sidewalk": "both",
         "surface": "asphalt",
+        "wikidata": "Q115809400",
         "id": "way/19742262"
       },
       "geometry": {
@@ -32223,6 +32224,7 @@
         "surface": "sett",
         "traffic_sign": "BE:ZC3",
         "vehicle": "private",
+        "wikidata": "Q115808978",
         "id": "way/38881244"
       },
       "geometry": {
@@ -50460,16 +50462,20 @@
             50.8236128
           ],
           [
-            2.9387003,
-            50.8240057
+            2.9386602,
+            50.8240671
           ],
           [
             2.9396959,
             50.8244802
           ],
           [
-            2.9408341,
-            50.8249096
+            2.939896,
+            50.8245738
+          ],
+          [
+            2.9410115,
+            50.8250397
           ],
           [
             2.9417244,
@@ -65331,10 +65337,16 @@
       "type": "Feature",
       "id": "way/129811259",
       "properties": {
+        "designation": "towpath",
         "highway": "unclassified",
+        "horse": "destination",
         "maxspeed": "30",
+        "mofa": "yes",
         "name": "Tragelweg",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
+        "vehicle": "destination",
+        "vehicle:conditional": "yes @ permit",
         "id": "way/129811259"
       },
       "geometry": {
@@ -65421,16 +65433,16 @@
             51.0102726
           ],
           [
-            3.8867214,
-            51.0102122
+            3.8862927,
+            51.0100436
           ],
           [
-            3.8863625,
-            51.0100701
+            3.8857746,
+            51.0097987
           ],
           [
-            3.8859008,
-            51.0098641
+            3.8851969,
+            51.0095039
           ]
         ]
       }
@@ -68757,6 +68769,7 @@
         "surface": "sett",
         "traffic_sign": "BE:ZC3",
         "vehicle": "private",
+        "wikidata": "Q115808978",
         "id": "way/141974228"
       },
       "geometry": {
@@ -98828,8 +98841,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9499527,
-            51.0141995
+            3.9499536,
+            51.0142114
           ],
           [
             3.949858,
@@ -104581,8 +104594,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9499527,
-            51.0141995
+            3.9499536,
+            51.0142114
           ],
           [
             3.9500145,
@@ -112586,6 +112599,7 @@
         "oneway:bicycle": "no",
         "surface": "sett",
         "vehicle": "destination",
+        "wikidata": "Q115808978",
         "id": "way/734758656"
       },
       "geometry": {
@@ -116193,7 +116207,7 @@
       "type": "Feature",
       "id": "way/781144053",
       "properties": {
-        "bicycle": "no",
+        "bicycle": "yes",
         "highway": "pedestrian",
         "surface": "paving_stones",
         "id": "way/781144053"
@@ -120641,6 +120655,10 @@
             50.832686
           ],
           [
+            5.5536949,
+            50.8326816
+          ],
+          [
             5.5538202,
             50.8326664
           ],
@@ -123855,38 +123873,6 @@
           [
             4.0669559,
             50.981508
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1000529981",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
-        "name": "Tragelweg",
-        "surface": "asphalt",
-        "id": "way/1000529981"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.8859008,
-            51.0098641
-          ],
-          [
-            3.8856966,
-            51.0097582
-          ],
-          [
-            3.8853373,
-            51.0095752
-          ],
-          [
-            3.8851969,
-            51.0095039
           ]
         ]
       }
@@ -156386,6 +156372,7 @@
         "highway": "unclassified",
         "lanes": "1",
         "maxspeed": "10",
+        "parking:both": "no",
         "source": "survey",
         "surface": "paving_stones",
         "id": "way/85840924"
@@ -158132,6 +158119,7 @@
         "highway": "unclassified",
         "lanes": "1",
         "maxspeed": "10",
+        "parking:both": "no",
         "source": "survey",
         "surface": "paving_stones",
         "id": "way/326826779"
@@ -158161,6 +158149,7 @@
         "highway": "unclassified",
         "lanes": "1",
         "maxspeed": "10",
+        "parking:both": "no",
         "source": "survey",
         "surface": "paving_stones",
         "id": "way/326826788"
@@ -159623,6 +159612,7 @@
         "bicycle": "yes",
         "highway": "unclassified",
         "lanes": "1",
+        "parking:both": "no",
         "source": "survey",
         "surface": "asphalt",
         "id": "way/910580264"
@@ -160171,6 +160161,7 @@
         "bicycle": "yes",
         "highway": "unclassified",
         "lanes": "1",
+        "parking:both": "no",
         "source": "survey",
         "surface": "asphalt",
         "id": "way/1114905864"
