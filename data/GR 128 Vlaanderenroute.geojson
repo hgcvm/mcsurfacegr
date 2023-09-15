@@ -277,6 +277,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:speed_pedelec": "no",
+        "sidewalk": "both",
         "surface": "asphalt",
         "wikidata": "Q115811058",
         "id": "way/5365925"
@@ -326,6 +327,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:speed_pedelec": "no",
+        "sidewalk:left": "yes",
         "smoothness": "good",
         "surface": "asphalt",
         "wikidata": "Q115807583",
@@ -357,10 +359,6 @@
           [
             3.7197904,
             51.0482316
-          ],
-          [
-            3.7196565,
-            51.0489681
           ]
         ]
       }
@@ -52716,8 +52714,12 @@
       "type": "Feature",
       "id": "way/57849360",
       "properties": {
+        "handrail": "yes",
         "highway": "steps",
         "incline": "up",
+        "ramp": "no",
+        "surface": "paving_stones",
+        "tactile_paving": "no",
         "id": "way/57849360"
       },
       "geometry": {
@@ -80293,8 +80295,8 @@
             50.9703908
           ],
           [
-            4.0764602,
-            50.9704782
+            4.0763744,
+            50.970414
           ],
           [
             4.0771284,
@@ -130565,6 +130567,37 @@
     },
     {
       "type": "Feature",
+      "id": "way/1207831386",
+      "properties": {
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Lindenlei",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:speed_pedelec": "no",
+        "sidewalk": "both",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wikidata": "Q115807583",
+        "id": "way/1207831386"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7197904,
+            51.0482316
+          ],
+          [
+            3.7196565,
+            51.0489681
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/31347411",
       "properties": {
         "bridge": "yes",
@@ -133547,12 +133580,8 @@
             50.7685465
           ],
           [
-            5.9529452,
-            50.7684384
-          ],
-          [
-            5.9529143,
-            50.7683774
+            5.9529275,
+            50.7684221
           ],
           [
             5.9528363,
@@ -134603,8 +134632,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.9659254,
-            50.7720677
+            5.9659669,
+            50.7720653
           ],
           [
             5.9659724,
@@ -136439,8 +136468,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.9659254,
-            50.7720677
+            5.9659669,
+            50.7720653
           ],
           [
             5.9658851,
@@ -145570,6 +145599,7 @@
         "maxspeed": "30",
         "motor_vehicle:conditional": "no @ (Mo-Fr 08:20-09:00,16:00-16:40; We off)",
         "name": "Rue des Sœurs Noires",
+        "note": "rue scolaire depuis 2020-2021",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "ref:FR:FANTOIR": "590430610L",
