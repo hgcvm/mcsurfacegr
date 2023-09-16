@@ -266,7 +266,9 @@
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Oude Zoutdijk",
+        "operator": "Gemeente Hulst",
         "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
         "id": "way/7595759"
       },
       "geometry": {
@@ -301,12 +303,8 @@
             51.288991
           ],
           [
-            4.0445325,
-            51.2891658
-          ],
-          [
-            4.0444567,
-            51.2892003
+            4.0445539,
+            51.2891561
           ]
         ]
       }
@@ -318,7 +316,9 @@
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Tivoliweg",
+        "operator": "Gemeente Hulst",
         "surface": "asphalt",
+        "zone:traffic": "NL:urban",
         "id": "way/7595787"
       },
       "geometry": {
@@ -366,7 +366,9 @@
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Glacisweg",
+        "operator": "Gemeente Hulst",
         "surface": "asphalt",
+        "zone:traffic": "NL:urban",
         "id": "way/7595795"
       },
       "geometry": {
@@ -542,7 +544,9 @@
         "highway": "unclassified",
         "maxspeed": "60",
         "name": "Hogeweg",
+        "operator": "Waterschap Scheldestromen",
         "surface": "asphalt",
+        "zone:traffic": "NL:rural",
         "id": "way/7596308"
       },
       "geometry": {
@@ -618,7 +622,9 @@
         "highway": "unclassified",
         "maxspeed": "60",
         "name": "Parallelweg West",
+        "operator": "Provincie Zeeland",
         "surface": "asphalt",
+        "zone:traffic": "NL:rural",
         "id": "way/7596363"
       },
       "geometry": {
@@ -663,15 +669,17 @@
         "lanes": "1",
         "maxspeed": "60",
         "name": "Hulster Nieuwlanddijk",
+        "operator": "Waterschap Scheldestromen",
         "surface": "asphalt",
+        "zone:traffic": "NL:rural",
         "id": "way/7596364"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.0397646,
-            51.2853159
+            4.0393778,
+            51.2854308
           ],
           [
             4.03855,
@@ -17262,9 +17270,11 @@
         "mofa": "designated",
         "moped": "designated",
         "oneway": "yes",
+        "operator": "Provincie Zeeland",
         "segregated": "no",
         "surface": "asphalt",
         "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
         "id": "way/38654301"
       },
       "geometry": {
@@ -17291,8 +17301,8 @@
             51.2891839
           ],
           [
-            4.0444567,
-            51.2892003
+            4.0445539,
+            51.2891561
           ]
         ]
       }
@@ -51134,7 +51144,9 @@
         "highway": "unclassified",
         "maxspeed": "60",
         "name": "Hogeweg",
+        "operator": "Waterschap Scheldestromen",
         "surface": "asphalt",
+        "zone:traffic": "NL:rural",
         "id": "way/444924739"
       },
       "geometry": {
@@ -56802,7 +56814,9 @@
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Tivoliweg",
+        "operator": "Gemeente Hulst",
         "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
         "id": "way/682129377"
       },
       "geometry": {
@@ -71154,6 +71168,32 @@
     },
     {
       "type": "Feature",
+      "id": "way/1208097181",
+      "properties": {
+        "highway": "unclassified",
+        "lanes": "1",
+        "maxspeed": "60",
+        "name": "Hulster Nieuwlanddijk",
+        "operator": "Provincie Zeeland",
+        "surface": "asphalt",
+        "id": "way/1208097181"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.0397646,
+            51.2853159
+          ],
+          [
+            4.0393778,
+            51.2854308
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/5117167",
       "properties": {
         "check_date:surface": "2023-01-13",
@@ -83750,6 +83790,7 @@
       "properties": {
         "bridge": "yes",
         "highway": "residential",
+        "lane_markings": "no",
         "layer": "1",
         "lit": "no",
         "maxspeed:type": "BE:urban",
@@ -104112,6 +104153,7 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:type": "BE:urban",
