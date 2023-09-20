@@ -13382,15 +13382,20 @@
       "id": "way/187276392",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "70",
+        "maxspeed": "50",
         "name": "Bormansstraat",
-        "surface": "cobblestone",
+        "smoothness": "bad",
+        "surface": "sett",
         "width": "5",
         "id": "way/187276392"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.0953437,
+            50.7190734
+          ],
           [
             5.0957054,
             50.7189856
@@ -24832,8 +24837,11 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Bormansstraat",
+        "smoothness": "good",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "width": "5",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/268496695"
       },
       "geometry": {
@@ -24914,10 +24922,6 @@
           [
             5.0953437,
             50.7190734
-          ],
-          [
-            5.0957054,
-            50.7189856
           ]
         ]
       }
