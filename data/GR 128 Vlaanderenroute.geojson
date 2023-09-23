@@ -4115,6 +4115,7 @@
       "type": "Feature",
       "id": "way/18494055",
       "properties": {
+        "foot": "designated",
         "highway": "pedestrian",
         "lane_markings": "no",
         "maxspeed": "walk",
@@ -11208,6 +11209,7 @@
       "type": "Feature",
       "id": "way/25240764",
       "properties": {
+        "foot": "designated",
         "highway": "pedestrian",
         "lane_markings": "no",
         "maxspeed": "walk",
@@ -104064,6 +104066,7 @@
         "lanes": "2",
         "maxspeed": "70",
         "name": "Hasseltsesteenweg",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N20",
         "toll:hgv": "yes",
         "id": "way/521193931"
@@ -119311,6 +119314,7 @@
       "type": "Feature",
       "id": "way/849543043",
       "properties": {
+        "foot": "designated",
         "highway": "pedestrian",
         "lane_markings": "no",
         "maxspeed": "walk",
@@ -151008,8 +151012,8 @@
             51.0567778
           ],
           [
-            3.7400872,
-            51.0568338
+            3.740112,
+            51.0567933
           ]
         ]
       }
@@ -152840,6 +152844,29 @@
     },
     {
       "type": "Feature",
+      "id": "way/1000813697",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "no",
+        "surface": "asphalt",
+        "id": "way/1000813697"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7407157,
+            51.0570005
+          ],
+          [
+            3.7408849,
+            51.0569497
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1004255864",
       "properties": {
         "bicycle": "yes",
@@ -152950,6 +152977,50 @@
     },
     {
       "type": "Feature",
+      "id": "way/1118589094",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "oneway": "no",
+        "surface": "asphalt",
+        "id": "way/1118589094"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.740112,
+            51.0567933
+          ],
+          [
+            3.7401741,
+            51.0568494
+          ],
+          [
+            3.7402071,
+            51.0568779
+          ],
+          [
+            3.7403246,
+            51.0569581
+          ],
+          [
+            3.7403686,
+            51.0569767
+          ],
+          [
+            3.7404421,
+            51.0569904
+          ],
+          [
+            3.7407157,
+            51.0570005
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1118680597",
       "properties": {
         "highway": "footway",
@@ -153005,8 +153076,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7407149,
-            51.0570631
+            3.7408849,
+            51.0569497
+          ],
+          [
+            3.741052,
+            51.0570655
           ],
           [
             3.7412599,
@@ -153035,44 +153110,6 @@
           [
             3.7417238,
             51.057206
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1173610966",
-      "properties": {
-        "highway": "cycleway",
-        "oneway": "yes",
-        "id": "way/1173610966"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.7400872,
-            51.0568338
-          ],
-          [
-            3.7400984,
-            51.0569053
-          ],
-          [
-            3.7402277,
-            51.056999
-          ],
-          [
-            3.7403076,
-            51.0570378
-          ],
-          [
-            3.7404136,
-            51.057061
-          ],
-          [
-            3.7407149,
-            51.0570631
           ]
         ]
       }
@@ -162075,6 +162112,10 @@
             50.8205269
           ],
           [
+            5.1844931,
+            50.8205255
+          ],
+          [
             5.1843893,
             50.8205203
           ]
@@ -167440,6 +167481,7 @@
         "maxspeed": "50",
         "name": "Eeuwfeestwal",
         "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
         "placement": "right_of:1",
         "ref": "R72",
         "sidewalk": "right",
@@ -167471,6 +167513,7 @@
         "maxspeed": "50",
         "name": "Eeuwfeestwal",
         "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "R72",
         "surface": "asphalt",
         "turn:lanes": "left|through|through|right",
@@ -167503,6 +167546,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Sint-Truidersteenweg",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N79",
         "surface": "asphalt",
         "id": "way/245059565"
@@ -167731,6 +167775,7 @@
         "maxspeed": "50",
         "name": "Eeuwfeestwal",
         "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "R72",
         "surface": "asphalt",
         "turn:lanes": "left|through|through|right",
