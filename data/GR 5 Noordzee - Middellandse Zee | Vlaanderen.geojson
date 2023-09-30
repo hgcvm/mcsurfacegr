@@ -39829,15 +39829,18 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
         "name": "Sledderloweg",
+        "surface": "asphalt",
         "id": "way/233048708"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.5139068,
-            50.9496132
+            5.5139723,
+            50.9494952
           ],
           [
             5.5142144,
@@ -59071,7 +59074,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Daalstraat",
-        "surface": "asphalt",
+        "surface": "paving_stones",
         "id": "way/1024512928"
       },
       "geometry": {
@@ -59082,8 +59085,12 @@
             50.9496132
           ],
           [
-            5.514148,
-            50.9496852
+            5.5140481,
+            50.9496554
+          ],
+          [
+            5.5140793,
+            50.9496647
           ]
         ]
       }
@@ -63595,6 +63602,57 @@
           [
             5.4565113,
             50.9594567
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1211796726",
+      "properties": {
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Daalstraat",
+        "surface": "asphalt",
+        "id": "way/1211796726"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5140793,
+            50.9496647
+          ],
+          [
+            5.514148,
+            50.9496852
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1211796728",
+      "properties": {
+        "cycleway": "track",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Sledderloweg",
+        "surface": "paving_stones",
+        "id": "way/1211796728"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5139068,
+            50.9496132
+          ],
+          [
+            5.5139723,
+            50.9494952
           ]
         ]
       }
