@@ -73120,10 +73120,16 @@
       "type": "Feature",
       "id": "way/153219247",
       "properties": {
+        "bicycle": "yes",
+        "bus": "yes",
+        "emergency": "yes",
         "highway": "residential",
+        "horse": "yes",
         "lit": "yes",
         "name": "Le Brouc",
         "surface": "asphalt",
+        "traffic_sign": "BE:C3,BE:Type_IV_local_traffic_fr",
+        "vehicle": "destination",
         "id": "way/153219247"
       },
       "geometry": {
@@ -73134,12 +73140,12 @@
             50.7558033
           ],
           [
-            4.9878956,
-            50.7558089
+            4.9879506,
+            50.7558112
           ],
           [
-            4.9877054,
-            50.7558082
+            4.9878882,
+            50.7558105
           ]
         ]
       }
@@ -130841,6 +130847,30 @@
           [
             4.787221,
             50.8299482
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1212899123",
+      "properties": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Le Brouc",
+        "surface": "asphalt",
+        "id": "way/1212899123"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9878882,
+            50.7558105
+          ],
+          [
+            4.9877054,
+            50.7558082
           ]
         ]
       }

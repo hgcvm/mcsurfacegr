@@ -6670,7 +6670,8 @@
       "type": "Feature",
       "id": "way/26377511",
       "properties": {
-        "highway": "path",
+        "highway": "footway",
+        "traffic_sign": "NL:G7",
         "id": "way/26377511"
       },
       "geometry": {
@@ -6700,8 +6701,9 @@
       "id": "way/26377516",
       "properties": {
         "bridge": "viaduct",
-        "highway": "path",
+        "highway": "footway",
         "layer": "1",
+        "traffic_sign": "NL:G7",
         "id": "way/26377516"
       },
       "geometry": {
@@ -6722,7 +6724,8 @@
       "type": "Feature",
       "id": "way/26377517",
       "properties": {
-        "highway": "path",
+        "highway": "footway",
+        "traffic_sign": "NL:G7",
         "id": "way/26377517"
       },
       "geometry": {
@@ -14027,7 +14030,8 @@
       "type": "Feature",
       "id": "way/34315892",
       "properties": {
-        "highway": "path",
+        "highway": "footway",
+        "traffic_sign": "NL:G7",
         "id": "way/34315892"
       },
       "geometry": {
@@ -14048,7 +14052,8 @@
       "type": "Feature",
       "id": "way/34315894",
       "properties": {
-        "highway": "path",
+        "highway": "footway",
+        "traffic_sign": "NL:G7",
         "id": "way/34315894"
       },
       "geometry": {
@@ -78563,12 +78568,16 @@
             51.0328406
           ],
           [
-            4.1017975,
-            51.033066
+            4.1018107,
+            51.0330193
           ],
           [
-            4.101798,
-            51.0330893
+            4.101804,
+            51.0330656
+          ],
+          [
+            4.1018012,
+            51.0330906
           ]
         ]
       }
@@ -79214,12 +79223,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1017441,
-            51.0334765
-          ],
-          [
-            4.1017817,
-            51.0335202
+            4.101749,
+            51.0334834
           ],
           [
             4.1018061,
@@ -81843,20 +81848,24 @@
             51.0332785
           ],
           [
-            4.1018057,
-            51.0333645
+            4.1018102,
+            51.0333211
+          ],
+          [
+            4.1018069,
+            51.0333622
           ],
           [
             4.1017922,
             51.0334132
           ],
           [
-            4.1017793,
-            51.0334492
+            4.1017708,
+            51.033453
           ],
           [
-            4.1017441,
-            51.0334765
+            4.101749,
+            51.0334834
           ]
         ]
       }
@@ -158971,6 +158980,36 @@
           [
             3.6651184,
             50.7622406
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1212889776",
+      "properties": {
+        "cyclestreet": "yes",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "name": "Veerstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
+        "id": "way/1212889776"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1018012,
+            51.0330906
+          ],
+          [
+            4.101804,
+            51.0331361
           ]
         ]
       }
