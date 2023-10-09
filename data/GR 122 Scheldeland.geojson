@@ -8000,11 +8000,13 @@
       "type": "Feature",
       "id": "way/40980565",
       "properties": {
+        "access": "destination",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "path",
-        "horse": "yes",
-        "name": "Hellestraatwegel",
+        "highway": "cycleway",
+        "name": "Hellewegel",
+        "note": "C3 uitgezonderd fietsers en aangelanden",
+        "oneway": "no",
         "surface": "concrete",
         "vicinal_ref": "15",
         "vicinal_type": "path",
@@ -9809,8 +9811,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9242826,
-            51.111084
+            3.924284,
+            51.1110893
+          ],
+          [
+            3.9243158,
+            51.1110597
           ],
           [
             3.9243922,
@@ -41298,8 +41304,12 @@
             51.1112033
           ],
           [
-            3.9242622,
-            51.1111448
+            3.9242588,
+            51.1111847
+          ],
+          [
+            3.9242636,
+            51.1111554
           ]
         ]
       }
@@ -41310,6 +41320,7 @@
       "properties": {
         "highway": "tertiary",
         "name": "Doorgangstraat",
+        "oneway": "yes",
         "surface": "asphalt",
         "id": "way/954739214"
       },
@@ -41317,12 +41328,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9242826,
-            51.111084
+            3.9242636,
+            51.1111554
           ],
           [
-            3.9242622,
-            51.1111448
+            3.924284,
+            51.1110893
           ]
         ]
       }
