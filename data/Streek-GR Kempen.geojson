@@ -56960,7 +56960,10 @@
       "id": "way/37675099",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Kongostraat",
+        "source:maxspeed": "BE:zone50",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/37675099"
       },
       "geometry": {
@@ -57349,10 +57352,11 @@
         "cycleway:both": "shared_lane",
         "cycleway:both:lane": "advisory",
         "highway": "secondary",
-        "lanes": "2",
+        "lanes": "2zone:traffic=BE-VLG:urban",
         "maxspeed": "50",
         "name": "Heilaarstraat",
         "ref": "N132",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "id": "way/37676959"
       },
@@ -57771,9 +57775,12 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Onze Lieve Vrouwstraat",
         "sidewalk": "no",
+        "source:maxspeed": "BE:zone50",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/54206223"
       },
       "geometry": {
@@ -57798,7 +57805,7 @@
         "maxspeed": "50",
         "name": "Kongostraat",
         "source:maxspeed": "BE:zone50",
-        "zone:traffic": "BE-VLG:rural",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/54206226"
       },
       "geometry": {
@@ -58576,9 +58583,12 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Pastoor Carpentierstraat",
         "sidewalk": "no",
+        "source:maxspeed": "BE:zone50",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/479456073"
       },
       "geometry": {
