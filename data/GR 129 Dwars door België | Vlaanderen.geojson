@@ -477,7 +477,6 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Parkstraat",
-        "oneway": "no",
         "ref": "N370",
         "surface": "asphalt",
         "id": "way/12297154"
@@ -513,7 +512,6 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Parkstraat",
-        "oneway": "no",
         "ref": "N370",
         "surface": "asphalt",
         "id": "way/12297177"
@@ -567,7 +565,6 @@
         "layer": "1",
         "maxspeed": "50",
         "name": "Parkstraat",
-        "oneway": "no",
         "ref": "N370",
         "surface": "asphalt",
         "id": "way/12297196"
@@ -8316,40 +8313,44 @@
             51.1505525
           ],
           [
-            3.2992799,
-            51.1503448
+            3.29927,
+            51.1503653
           ],
           [
-            3.2992419,
-            51.1498458
+            3.2992305,
+            51.1498583
           ],
           [
-            3.299222,
-            51.1495852
+            3.2992078,
+            51.1496084
           ],
           [
-            3.2991744,
-            51.1491585
+            3.2991645,
+            51.1492218
           ],
           [
-            3.2991715,
-            51.1490385
+            3.299153,
+            51.1490661
           ],
           [
-            3.2991613,
-            51.148616
+            3.2991343,
+            51.1487131
           ],
           [
-            3.2990758,
-            51.1483604
+            3.29911,
+            51.1485448
           ],
           [
-            3.2990252,
-            51.1483084
+            3.2990602,
+            51.1484344
           ],
           [
-            3.2986753,
-            51.1479484
+            3.2989897,
+            51.1483075
+          ],
+          [
+            3.2986497,
+            51.147952
           ],
           [
             3.2977006,
@@ -9171,14 +9172,12 @@
       "type": "Feature",
       "id": "way/114302019",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
-        "foot": "yes",
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Vaart-Noord",
-        "oneway": "no",
         "surface": "asphalt",
+        "vehicle": "destination",
         "id": "way/114302019"
       },
       "geometry": {
@@ -16280,9 +16279,14 @@
       "type": "Feature",
       "id": "way/184676389",
       "properties": {
-        "highway": "unclassified",
+        "bicycle": "yes",
+        "designation": "towpath",
+        "highway": "service",
+        "horse": "destination",
+        "mofa": "yes",
         "name": "Gevaerts-Noord",
         "surface": "asphalt",
+        "vehicle": "destination",
         "id": "way/184676389"
       },
       "geometry": {
@@ -16339,14 +16343,14 @@
       "type": "Feature",
       "id": "way/184676390",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
-        "highway": "unclassified",
-        "horse": "yes",
-        "motor_vehicle": "no",
+        "designation": "towpath",
+        "highway": "service",
+        "horse": "destination",
+        "mofa": "yes",
         "name": "Gevaerts-Noord",
-        "oneway": "no",
         "surface": "asphalt",
+        "vehicle": "destination",
         "width": "3",
         "id": "way/184676390"
       },
@@ -16378,12 +16382,12 @@
             51.1407038
           ],
           [
-            3.3275126,
-            51.1405597
+            3.3275082,
+            51.1405625
           ],
           [
-            3.3277559,
-            51.1404526
+            3.3278178,
+            51.1404287
           ]
         ]
       }
@@ -25618,35 +25622,6 @@
           [
             3.6494082,
             50.7649034
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/598459066",
-      "properties": {
-        "access": "destination",
-        "bicycle": "yes",
-        "highway": "unclassified",
-        "horse": "yes",
-        "motor_vehicle": "no",
-        "name": "Gevaerts-Noord",
-        "oneway": "no",
-        "surface": "asphalt",
-        "width": "3",
-        "id": "way/598459066"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.3277559,
-            51.1404526
-          ],
-          [
-            3.3278178,
-            51.1404287
           ]
         ]
       }
