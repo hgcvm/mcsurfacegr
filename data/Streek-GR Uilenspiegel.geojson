@@ -1454,8 +1454,10 @@
       "id": "way/7618057",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Slepersdijk",
         "surface": "asphalt",
+        "zone:traffic": "NL:rural",
         "id": "way/7618057"
       },
       "geometry": {
@@ -1496,6 +1498,7 @@
         "name": "de Munte",
         "oneway": "no",
         "surface": "asphalt",
+        "zone:traffic": "NL:rural",
         "id": "way/7618062"
       },
       "geometry": {
@@ -1703,18 +1706,22 @@
       "properties": {
         "highway": "tertiary",
         "horse": "no",
-        "lanes": "2",
         "maxspeed": "30",
         "name": "Grotendam",
         "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
         "id": "way/7618122"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.48666,
-            51.32158
+            3.4866762,
+            51.3215746
+          ],
+          [
+            3.4866348,
+            51.3216876
           ],
           [
             3.4866121,
@@ -1743,6 +1750,7 @@
         "name": "Zuidwal",
         "oneway": "no",
         "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
         "id": "way/7618124"
       },
       "geometry": {
@@ -7768,6 +7776,7 @@
         "smoothness": "bad",
         "surface": "sand",
         "tracktype": "grade3",
+        "zone:traffic": "NL:rural",
         "id": "way/67330160"
       },
       "geometry": {
@@ -7804,6 +7813,7 @@
         "surface": "sand",
         "tracktype": "grade3",
         "vehicle": "no",
+        "zone:traffic": "NL:rural",
         "id": "way/67330165"
       },
       "geometry": {
@@ -18328,6 +18338,7 @@
         "surface": "dirt",
         "tracktype": "grade2",
         "width": "3",
+        "zone:traffic": "NL:rural",
         "id": "way/188891672"
       },
       "geometry": {
@@ -22254,21 +22265,15 @@
       "type": "Feature",
       "id": "way/255528802",
       "properties": {
-        "covered": "no",
-        "flood_prone": "no",
         "highway": "tertiary",
         "horse": "no",
         "lane_markings": "no",
         "lanes": "2",
         "lit": "yes",
-        "maxheight": "none",
         "maxspeed": "30",
         "name": "Grotendam",
-        "oneway": "no",
-        "oneway:bicycle": "no",
         "surface": "paving_stones",
-        "toll": "no",
-        "trolley_wire": "no",
+        "zone:traffic": "NL:urban",
         "id": "way/255528802"
       },
       "geometry": {
@@ -23425,6 +23430,7 @@
         "oneway:moped": "no",
         "surface": "asphalt",
         "width": "4",
+        "zone:traffic": "NL:rural",
         "id": "way/330764220"
       },
       "geometry": {
@@ -29829,19 +29835,13 @@
       "type": "Feature",
       "id": "way/1118084207",
       "properties": {
-        "covered": "no",
         "cycleway": "lane",
-        "expressway": "no",
         "highway": "tertiary",
-        "lanes": "2",
         "lit": "yes",
         "maxspeed": "60",
         "name": "Bakkersstraat",
-        "oneway": "no",
-        "oneway:bicycle": "no",
         "surface": "paving_stones",
-        "toll": "no",
-        "trolley_wire": "no",
+        "zone:traffic": "NL:rural",
         "id": "way/1118084207"
       },
       "geometry": {
@@ -29856,8 +29856,8 @@
             51.32103
           ],
           [
-            3.48666,
-            51.32158
+            3.4867501,
+            51.3214452
           ]
         ]
       }
@@ -30949,6 +30949,33 @@
     },
     {
       "type": "Feature",
+      "id": "way/1217535037",
+      "properties": {
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Bakkersstraat",
+        "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
+        "id": "way/1217535037"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4867501,
+            51.3214452
+          ],
+          [
+            3.4866762,
+            51.3215746
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/7618207",
       "properties": {
         "highway": "unclassified",
@@ -31019,6 +31046,7 @@
         "highway": "unclassified",
         "historic": "yes",
         "name": "Sint-Margrietepolder",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/7618235"
       },
       "geometry": {
@@ -33809,6 +33837,7 @@
         "historic": "yes",
         "name": "Hontseindestraat",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/33893680"
       },
       "geometry": {
@@ -36267,6 +36296,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Sint-Margrietepolder",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/165066938"
       },
       "geometry": {
@@ -37292,6 +37322,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Hontseindestraat",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/271154672"
       },
       "geometry": {
@@ -38767,6 +38798,7 @@
         "highway": "unclassified",
         "name": "Hontseindestraat",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/1150767137"
       },
       "geometry": {
