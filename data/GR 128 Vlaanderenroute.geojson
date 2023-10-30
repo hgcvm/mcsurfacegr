@@ -18651,6 +18651,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Jan Van Heelustraat",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "width": "5",
         "id": "way/30752033"
@@ -18663,6 +18664,10 @@
             50.8204237
           ],
           [
+            5.0838819,
+            50.8204468
+          ],
+          [
             5.0837784,
             50.8204988
           ],
@@ -18671,8 +18676,8 @@
             50.8210158
           ],
           [
-            5.0817597,
-            50.8214599
+            5.0816515,
+            50.821497
           ],
           [
             5.0807552,
@@ -18721,11 +18726,14 @@
       "type": "Feature",
       "id": "way/30752035",
       "properties": {
-        "access": "destination",
+        "bicycle": "yes",
         "bridge": "yes",
         "highway": "unclassified",
+        "layer": "1",
         "maxspeed": "50",
         "name": "Jan Van Heelustraat",
+        "source:maxspeed": "BE:zone50",
+        "vehicle": "destination",
         "width": "4",
         "id": "way/30752035"
       },
@@ -18747,13 +18755,13 @@
       "type": "Feature",
       "id": "way/30752038",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
         "cyclestreet": "yes",
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Koepoortstraat",
         "surface": "cobblestone",
+        "vehicle": "destination",
         "width": "3",
         "id": "way/30752038"
       },
@@ -18791,11 +18799,11 @@
       "type": "Feature",
       "id": "way/30752039",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
         "highway": "unclassified",
         "name": "Koepoortstraat",
         "surface": "cobblestone",
+        "vehicle": "destination",
         "width": "3",
         "id": "way/30752039"
       },
@@ -19245,12 +19253,11 @@
       "type": "Feature",
       "id": "way/30800324",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
         "highway": "unclassified",
-        "horse": "yes",
         "name": "Moesbeekstraat",
         "surface": "concrete",
+        "vehicle": "destination",
         "width": "3",
         "id": "way/30800324"
       },
@@ -19354,8 +19361,12 @@
             50.8284725
           ],
           [
-            5.0741137,
-            50.8285411
+            5.0740938,
+            50.8285236
+          ],
+          [
+            5.0741168,
+            50.8285743
           ]
         ]
       }
@@ -43201,8 +43212,8 @@
             50.8365089
           ],
           [
-            5.0797714,
-            50.8364591
+            5.0798008,
+            50.8364386
           ]
         ]
       }
@@ -43292,7 +43303,7 @@
       "id": "way/39537607",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/39537607"
       },
       "geometry": {
@@ -43301,6 +43312,10 @@
           [
             5.0795947,
             50.8334713
+          ],
+          [
+            5.0796508,
+            50.8335844
           ],
           [
             5.0798719,
@@ -43315,16 +43330,24 @@
             50.8346597
           ],
           [
+            5.0798872,
+            50.8348249
+          ],
+          [
+            5.0798208,
+            50.8349186
+          ],
+          [
             5.0797279,
             50.8350058
           ],
           [
-            5.0795219,
-            50.8351884
+            5.0795064,
+            50.8351923
           ],
           [
-            5.0795014,
-            50.8353179
+            5.0794859,
+            50.8352984
           ],
           [
             5.0794893,
@@ -43351,8 +43374,8 @@
             50.8363447
           ],
           [
-            5.0797714,
-            50.8364591
+            5.0798008,
+            50.8364386
           ]
         ]
       }
@@ -43361,24 +43384,23 @@
       "type": "Feature",
       "id": "way/39537712",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
         "highway": "unclassified",
-        "horse": "yes",
         "name": "Moesbeekstraat",
         "surface": "concrete",
+        "vehicle": "destination",
         "id": "way/39537712"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.0741137,
-            50.8285411
+            5.0741168,
+            50.8285743
           ],
           [
-            5.0742908,
-            50.8286345
+            5.0742352,
+            50.8286042
           ],
           [
             5.0753736,
@@ -43429,8 +43451,8 @@
             50.830955
           ],
           [
-            5.0783882,
-            50.8314208
+            5.0786355,
+            50.8315867
           ],
           [
             5.0793522,
@@ -43445,8 +43467,12 @@
             50.8322466
           ],
           [
-            5.079523,
-            50.8333335
+            5.079516,
+            50.8333291
+          ],
+          [
+            5.0795449,
+            50.8333985
           ],
           [
             5.0795947,
@@ -43462,6 +43488,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Jan Van Heelustraat",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "width": "5",
         "id": "way/39538110"
@@ -43502,7 +43529,9 @@
       "properties": {
         "highway": "tertiary",
         "junction": "roundabout",
+        "maxspeed": "50",
         "name": "Orsmaalstraat",
+        "source:maxspeed": "BE:zone50",
         "id": "way/39538438"
       },
       "geometry": {
@@ -43549,8 +43578,8 @@
             50.8203391
           ],
           [
-            5.0841093,
-            50.8203513
+            5.0841062,
+            50.8203489
           ]
         ]
       }
@@ -43559,11 +43588,12 @@
       "type": "Feature",
       "id": "way/39538484",
       "properties": {
-        "access": "destination",
+        "bicycle": "yes",
         "highway": "unclassified",
         "lit": "yes",
         "name": "Jan Van Heelustraat",
         "surface": "cobblestone",
+        "vehicle": "destination",
         "width": "3",
         "id": "way/39538484"
       },
@@ -43597,11 +43627,11 @@
       "type": "Feature",
       "id": "way/39538575",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
         "highway": "unclassified",
         "name": "Koepoortstraat",
         "surface": "cobblestone",
+        "vehicle": "destination",
         "width": "3",
         "id": "way/39538575"
       },
@@ -43617,8 +43647,12 @@
             50.8228375
           ],
           [
-            5.0939746,
-            50.8227777
+            5.0939854,
+            50.8227718
+          ],
+          [
+            5.0938631,
+            50.8227185
           ],
           [
             5.0937276,
@@ -43635,6 +43669,10 @@
           [
             5.0921906,
             50.8216817
+          ],
+          [
+            5.092001,
+            50.8215509
           ],
           [
             5.0917186,
@@ -43655,12 +43693,11 @@
       "type": "Feature",
       "id": "way/39539722",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
         "highway": "unclassified",
-        "horse": "yes",
         "name": "Koepoortstraat",
         "surface": "cobblestone",
+        "vehicle": "destination",
         "width": "3",
         "id": "way/39539722"
       },
@@ -80908,11 +80945,11 @@
       "type": "Feature",
       "id": "way/193775538",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
         "highway": "unclassified",
         "name": "Koepoortstraat",
         "surface": "cobblestone",
+        "vehicle": "destination",
         "width": "3",
         "id": "way/193775538"
       },
@@ -80990,13 +81027,13 @@
       "type": "Feature",
       "id": "way/193775546",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
         "bridge": "yes",
         "highway": "unclassified",
         "layer": "1",
         "name": "Koepoortstraat",
         "surface": "cobblestone",
+        "vehicle": "destination",
         "width": "3",
         "id": "way/193775546"
       },
@@ -91152,11 +91189,13 @@
       "type": "Feature",
       "id": "way/321354736",
       "properties": {
+        "bicycle": "yes",
         "highway": "unclassified",
-        "maxspeed": "30",
+        "maxspeed": "50",
         "name": "Jan Van Heelustraat",
-        "source:maxspeed": "BE:zone30",
+        "source:maxspeed": "BE:zone50",
         "surface": "concrete",
+        "vehicle": "destination",
         "width": "6",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/321354736"
@@ -91193,8 +91232,12 @@
             50.8202812
           ],
           [
-            5.0841093,
-            50.8203513
+            5.0841477,
+            50.8203291
+          ],
+          [
+            5.0841062,
+            50.8203489
           ]
         ]
       }
@@ -91203,11 +91246,11 @@
       "type": "Feature",
       "id": "way/321520593",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
         "highway": "unclassified",
         "name": "Kleine Getestraat",
         "surface": "cobblestone",
+        "vehicle": "destination",
         "width": "3",
         "id": "way/321520593"
       },
@@ -95358,13 +95401,13 @@
       "type": "Feature",
       "id": "way/378903104",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
         "cyclestreet": "yes",
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Koepoortstraat",
         "surface": "cobblestone",
+        "vehicle": "destination",
         "width": "3",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/378903104"
@@ -95391,7 +95434,6 @@
       "type": "Feature",
       "id": "way/378903105",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
         "cyclestreet": "yes",
         "highway": "unclassified",
@@ -95399,6 +95441,7 @@
         "maxspeed": "30",
         "name": "Koepoortstraat",
         "surface": "cobblestone",
+        "vehicle": "destination",
         "width": "4",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/378903105"
@@ -104715,12 +104758,12 @@
       "type": "Feature",
       "id": "way/536913006",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
         "highway": "unclassified",
         "lit": "yes",
         "name": "Kleine Getestraat",
         "surface": "cobblestone",
+        "vehicle": "destination",
         "width": "3",
         "id": "way/536913006"
       },
@@ -158520,6 +158563,7 @@
         "cycleway": "crossing",
         "foot": "yes",
         "highway": "cycleway",
+        "segregated": "no",
         "surface": "concrete",
         "id": "way/314629170"
       },
@@ -163119,7 +163163,7 @@
         "lane_markings": "no",
         "motor_vehicle": "yes",
         "name": "Oude Tongersebaan",
-        "surface": "paved",
+        "surface": "asphalt",
         "vehicle": "no",
         "id": "way/248276020"
       },
