@@ -3904,6 +3904,7 @@
         "cycleway:right": "shared_lane",
         "cycleway:right:lane": "advisory",
         "highway": "secondary",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Dorpsstraat",
         "oneway": "yes",
@@ -4015,7 +4016,8 @@
       "properties": {
         "highway": "track",
         "name": "Mastendreef",
-        "surface": "asphalt",
+        "surface": "ground",
+        "tracktype": "grade3",
         "id": "way/35283174"
       },
       "geometry": {
@@ -4049,9 +4051,11 @@
       "id": "way/35283434",
       "properties": {
         "highway": "secondary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Nieuwmoerse Steenweg",
         "ref": "N133",
+        "surface": "asphalt",
         "id": "way/35283434"
       },
       "geometry": {
@@ -4077,8 +4081,10 @@
       "id": "way/35283441",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Peerdsvenweg",
+        "surface": "asphalt",
         "id": "way/35283441"
       },
       "geometry": {
@@ -5797,6 +5803,7 @@
       "id": "way/148741478",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Achter d'Hoven",
         "oneway": "yes",
@@ -6186,9 +6193,11 @@
       "id": "way/185368114",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Witgoorse Baan",
         "source:maxspeed": "BE:zone50",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/185368114"
       },
@@ -8797,7 +8806,8 @@
       "properties": {
         "highway": "track",
         "name": "Mastendreef",
-        "surface": "sett",
+        "surface": "ground",
+        "tracktype": "grade4",
         "id": "way/297145364"
       },
       "geometry": {
@@ -10553,8 +10563,10 @@
       "id": "way/631445586",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Peerdsvenweg",
+        "surface": "asphalt",
         "id": "way/631445586"
       },
       "geometry": {
@@ -12026,6 +12038,7 @@
         "lane_markings": "no",
         "lanes": "1",
         "maxspeed": "80",
+        "motor_vehicle": "destination",
         "name": "Oude Smeermaeserweg",
         "sidewalk": "none",
         "surface": "asphalt",
