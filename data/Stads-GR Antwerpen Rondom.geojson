@@ -750,6 +750,7 @@
         "bicycle": "yes",
         "cycleway": "opposite",
         "highway": "pedestrian",
+        "lit": "yes",
         "maxspeed": "20",
         "maxspeed:zone": "yes",
         "motor_vehicle": "delivery",
@@ -1592,9 +1593,12 @@
         "bridge": "yes",
         "handrail": "yes",
         "highway": "steps",
+        "incline": "down",
         "layer": "1",
         "ramp": "no",
+        "step_count": "30",
         "surface": "concrete",
+        "tactile_paving": "no",
         "id": "way/24450655"
       },
       "geometry": {
@@ -3288,7 +3292,7 @@
         "motor_vehicle": "private",
         "name": "Oostendekaai",
         "name:etymology:wikidata": "Q12996",
-        "surface": "paved",
+        "surface": "sett",
         "id": "way/25364897"
       },
       "geometry": {
@@ -3810,6 +3814,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "pedestrian",
+        "lit": "no",
         "motor_vehicle": "private",
         "name": "Hanzestedenplaats",
         "name:etymology:wikidata": "Q707813",
@@ -5220,6 +5225,10 @@
             51.1989317
           ],
           [
+            4.4316259,
+            51.1988144
+          ],
+          [
             4.4316457,
             51.1987609
           ]
@@ -6237,6 +6246,7 @@
         "bicycle": "yes",
         "cycleway": "opposite",
         "highway": "pedestrian",
+        "lit": "yes",
         "name": "Hoogstraat",
         "oneway:bicycle": "no",
         "oneway:vehicle": "yes",
@@ -6263,6 +6273,7 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "residential",
+        "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Sint-Jansvliet",
@@ -11162,6 +11173,7 @@
         "bridge:movable": "swing",
         "highway": "pedestrian",
         "layer": "1",
+        "lit": "no",
         "maxspeed": "20",
         "maxspeed:zone": "yes",
         "name": "Nassaubrug",
