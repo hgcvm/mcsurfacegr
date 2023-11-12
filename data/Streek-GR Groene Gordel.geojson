@@ -404,8 +404,8 @@
             50.9477419
           ],
           [
-            4.4129928,
-            50.9477542
+            4.4129868,
+            50.9477626
           ],
           [
             4.4130881,
@@ -418,7 +418,7 @@
       "type": "Feature",
       "id": "way/22977103",
       "properties": {
-        "bicycle": "use_sidepath",
+        "cycleway": "track",
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Verbrande Brugsteenweg",
@@ -13138,10 +13138,12 @@
       "type": "Feature",
       "id": "way/39725378",
       "properties": {
-        "bicycle": "yes",
+        "bicycle": "designated",
+        "foot": "designated",
         "highway": "path",
         "name": "Buurtweg 17 - Tommenmolenstraat",
-        "surface": "unpaved",
+        "segregated": "no",
+        "surface": "compacted",
         "id": "way/39725378"
       },
       "geometry": {
@@ -19389,9 +19391,9 @@
       "type": "Feature",
       "id": "way/117548979",
       "properties": {
-        "bicycle": "use_sidepath",
         "bridge": "yes",
         "bridge:name": "Verbrande Brug",
+        "cycleway": "track",
         "highway": "secondary",
         "layer": "1",
         "maxspeed": "50",
@@ -28717,7 +28719,7 @@
       "type": "Feature",
       "id": "way/348455014",
       "properties": {
-        "bicycle": "use_sidepath",
+        "cycleway": "track",
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Verbrande Brugsteenweg",
@@ -28746,7 +28748,7 @@
       "type": "Feature",
       "id": "way/348455015",
       "properties": {
-        "bicycle": "use_sidepath",
+        "cycleway": "track",
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Eppegemsesteenweg",
@@ -38207,14 +38209,19 @@
         "bicycle": "yes",
         "foot": "designated",
         "highway": "cycleway",
+        "oneway": "yes",
         "id": "way/881734524"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4128188,
-            50.9477534
+            4.4130881,
+            50.9477855
+          ],
+          [
+            4.4128485,
+            50.9477625
           ],
           [
             4.4127311,
@@ -42521,29 +42528,6 @@
           [
             4.412671,
             50.9477107
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1105516865",
-      "properties": {
-        "bicycle": "yes",
-        "foot": "designated",
-        "highway": "cycleway",
-        "id": "way/1105516865"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4128765,
-            50.9477419
-          ],
-          [
-            4.4128188,
-            50.9477534
           ]
         ]
       }
