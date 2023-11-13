@@ -1553,6 +1553,7 @@
         "cycleway:right": "lane",
         "highway": "residential",
         "lit": "yes",
+        "maxheight": "below_default",
         "maxlength:hgv": "10 m",
         "maxspeed": "30",
         "name": "Guldenvliesstraat",
@@ -5665,6 +5666,7 @@
         "foot": "yes",
         "footway:surface": "asphalt",
         "highway": "cycleway",
+        "lit": "yes",
         "oneway": "no",
         "segregated": "yes",
         "surface": "asphalt",
@@ -5781,6 +5783,7 @@
       "id": "way/169678093",
       "properties": {
         "highway": "cycleway",
+        "lit": "yes",
         "surface": "paving_stones",
         "width": "1",
         "id": "way/169678093"
@@ -7303,6 +7306,7 @@
       "properties": {
         "foot": "yes",
         "highway": "footway",
+        "lit": "yes",
         "oneway": "no",
         "surface": "paving_stones",
         "id": "way/678481224"
@@ -8156,54 +8160,6 @@
           [
             4.4297626,
             51.1917807
-          ],
-          [
-            4.4297907,
-            51.1917518
-          ],
-          [
-            4.4298041,
-            51.1917104
-          ],
-          [
-            4.4297907,
-            51.1916763
-          ],
-          [
-            4.4297641,
-            51.1916486
-          ],
-          [
-            4.4297132,
-            51.1916286
-          ],
-          [
-            4.4296601,
-            51.1916214
-          ],
-          [
-            4.4296071,
-            51.1916286
-          ],
-          [
-            4.4295624,
-            51.1916454
-          ],
-          [
-            4.4295339,
-            51.19167
-          ],
-          [
-            4.4295196,
-            51.1917086
-          ],
-          [
-            4.4295267,
-            51.1917446
-          ],
-          [
-            4.4295478,
-            51.1917753
           ]
         ]
       }
@@ -8543,8 +8499,8 @@
             51.1896585
           ],
           [
-            4.4269723,
-            51.1896276
+            4.4269533,
+            51.1896283
           ]
         ]
       }
@@ -8557,6 +8513,7 @@
         "cycleway": "crossing",
         "foot": "yes",
         "highway": "cycleway",
+        "lit": "yes",
         "id": "way/862055237"
       },
       "geometry": {
@@ -9911,8 +9868,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4269723,
-            51.1896276
+            4.4269533,
+            51.1896283
           ],
           [
             4.4263979,
@@ -10000,6 +9957,7 @@
         "cycleway:comfort": "24",
         "cycleway:width": "1.50",
         "highway": "cycleway",
+        "lit": "yes",
         "oneway": "no",
         "surface": "sett",
         "id": "way/1213841160"
@@ -10014,6 +9972,85 @@
           [
             4.431005,
             51.1997767
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1222937430",
+      "properties": {
+        "bicycle": "dismount",
+        "bridge": "yes",
+        "foot": "designated",
+        "highway": "cycleway",
+        "layer": "1",
+        "lit": "no",
+        "motor_vehicle": "no",
+        "name": "Berchembrug",
+        "oneway": "no",
+        "segregated": "no",
+        "smoothness": "good",
+        "surface": "concrete",
+        "width": "3",
+        "wikidata": "Q1945637",
+        "wikipedia": "nl:Berchembrug",
+        "id": "way/1222937430"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4297626,
+            51.1917807
+          ],
+          [
+            4.4297907,
+            51.1917518
+          ],
+          [
+            4.4298041,
+            51.1917104
+          ],
+          [
+            4.4297907,
+            51.1916763
+          ],
+          [
+            4.4297641,
+            51.1916486
+          ],
+          [
+            4.4297132,
+            51.1916286
+          ],
+          [
+            4.4296601,
+            51.1916214
+          ],
+          [
+            4.4296071,
+            51.1916286
+          ],
+          [
+            4.4295624,
+            51.1916454
+          ],
+          [
+            4.4295339,
+            51.19167
+          ],
+          [
+            4.4295196,
+            51.1917086
+          ],
+          [
+            4.4295267,
+            51.1917446
+          ],
+          [
+            4.4295478,
+            51.1917753
           ]
         ]
       }
