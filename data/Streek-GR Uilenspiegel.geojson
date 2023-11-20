@@ -31209,6 +31209,7 @@
         "name": "Westmolenstraat",
         "oneway": "yes",
         "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
         "id": "way/7629826"
       },
       "geometry": {
@@ -31277,6 +31278,7 @@
         "maxspeed": "30",
         "name": "Markt",
         "oneway": "yes",
+        "zone:traffic": "NL:urban",
         "id": "way/7629865"
       },
       "geometry": {
@@ -31483,6 +31485,7 @@
         "name": "Kaai",
         "oneway": "no",
         "surface": "sett",
+        "zone:traffic": "NL:urban",
         "id": "way/7629943"
       },
       "geometry": {
@@ -31549,6 +31552,7 @@
         "maxspeed": "60",
         "name": "Binnenweg",
         "operator": "Waterschap Scheldestromen",
+        "zone:traffic": "NL:rural",
         "id": "way/7630025"
       },
       "geometry": {
@@ -31711,6 +31715,7 @@
         "name": "Kaai",
         "oneway": "no",
         "surface": "sett",
+        "zone:traffic": "NL:urban",
         "id": "way/7630093"
       },
       "geometry": {
@@ -31789,6 +31794,7 @@
         "name": "Kaai",
         "oneway": "no",
         "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
         "id": "way/7630098"
       },
       "geometry": {
@@ -31980,6 +31986,7 @@
         "name": "Markt",
         "operator": "Gemeente Sluis",
         "surface": "asphalt",
+        "zone:traffic": "NL:urban",
         "id": "way/7630132"
       },
       "geometry": {
@@ -32014,6 +32021,7 @@
         "name": "Marktstraat",
         "operator": "Gemeente Sluis",
         "surface": "asphalt",
+        "zone:traffic": "NL:urban",
         "id": "way/7630135"
       },
       "geometry": {
@@ -32048,6 +32056,7 @@
         "oneway": "no",
         "operator": "Gemeente Sluis",
         "surface": "asphalt",
+        "zone:traffic": "NL:urban",
         "id": "way/7630140"
       },
       "geometry": {
@@ -32095,6 +32104,7 @@
         "oneway": "no",
         "operator": "Gemeente Sluis",
         "surface": "asphalt",
+        "zone:traffic": "NL:urban",
         "id": "way/7630162"
       },
       "geometry": {
@@ -37493,8 +37503,10 @@
         "highway": "cycleway",
         "mofa": "designated",
         "moped": "designated",
+        "name": "Bogaardstraat",
         "oneway": "no",
         "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
         "id": "way/367466676"
       },
       "geometry": {
@@ -37551,11 +37563,11 @@
       "type": "Feature",
       "id": "way/379066995",
       "properties": {
-        "cycleway": "track",
         "highway": "secondary",
         "maxspeed": "30",
         "name": "Bogaardstraat",
         "operator": "Gemeente Sluis",
+        "zone:traffic": "NL:urban",
         "id": "way/379066995"
       },
       "geometry": {
@@ -37588,6 +37600,7 @@
         "maxspeed": "60",
         "oneway": "no",
         "operator": "Provincie Zeeland",
+        "zone:traffic": "NL:rural",
         "id": "way/379067001"
       },
       "geometry": {
@@ -37611,6 +37624,7 @@
         "highway": "unclassified",
         "maxspeed": "60",
         "operator": "Provincie Zeeland",
+        "zone:traffic": "NL:rural",
         "id": "way/379067005"
       },
       "geometry": {
@@ -37646,28 +37660,18 @@
         "highway": "cycleway",
         "mofa": "designated",
         "moped": "designated",
+        "name": "Sint Pietersdijk",
         "oneway": "no",
         "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
         "id": "way/379067007"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.4610126,
-            51.2706248
-          ],
-          [
-            3.4614856,
-            51.2706311
-          ],
-          [
-            3.462183,
-            51.2706915
-          ],
-          [
-            3.4629072,
-            51.2707452
+            3.4633313,
+            51.2708247
           ],
           [
             3.4636327,
@@ -38065,6 +38069,7 @@
         "name": "Herendreef",
         "oneway": "no",
         "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
         "id": "way/484184172"
       },
       "geometry": {
@@ -38126,6 +38131,7 @@
         "name": "Herendreef",
         "oneway": "no",
         "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
         "id": "way/484184174"
       },
       "geometry": {
@@ -38158,6 +38164,7 @@
         "oneway": "no",
         "surface": "paving_stones",
         "tunnel": "yes",
+        "zone:traffic": "NL:urban",
         "id": "way/484184175"
       },
       "geometry": {
@@ -38184,6 +38191,7 @@
         "name": "Kaai",
         "oneway": "no",
         "surface": "paving_stones",
+        "zone:traffic": "NL:urban",
         "id": "way/484184177"
       },
       "geometry": {
@@ -38498,6 +38506,7 @@
         "oneway": "no",
         "operator": "Gemeente Sluis",
         "surface": "asphalt",
+        "zone:traffic": "NL:urban",
         "id": "way/887042656"
       },
       "geometry": {
@@ -38938,6 +38947,45 @@
           [
             3.4099189,
             51.2617368
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1225196782",
+      "properties": {
+        "highway": "cycleway",
+        "mofa": "designated",
+        "moped": "designated",
+        "name": "Bogaardstraat",
+        "oneway": "no",
+        "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
+        "id": "way/1225196782"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4610126,
+            51.2706248
+          ],
+          [
+            3.4614856,
+            51.2706311
+          ],
+          [
+            3.462183,
+            51.2706915
+          ],
+          [
+            3.4629072,
+            51.2707452
+          ],
+          [
+            3.4633313,
+            51.2708247
           ]
         ]
       }
