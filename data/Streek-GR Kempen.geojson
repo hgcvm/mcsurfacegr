@@ -40842,7 +40842,7 @@
       "properties": {
         "highway": "secondary",
         "lanes": "2",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Gelmelstraat",
         "ref": "N124",
         "source:maxspeed": "BE-VLG:urban",
@@ -40877,7 +40877,7 @@
       "properties": {
         "highway": "secondary",
         "lanes": "2",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "maxspeed:variable": "school_zone",
         "name": "Gelmelstraat",
         "note": "maxspeed wordt verlaaagd tot 30 door oplichtend bord",
@@ -58365,12 +58365,13 @@
         "cycleway:both": "shared_lane",
         "cycleway:both:lane": "advisory",
         "highway": "secondary",
-        "lanes": "2zone:traffic=BE-VLG:urban",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Heilaarstraat",
         "ref": "N132",
         "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/37676959"
       },
       "geometry": {
