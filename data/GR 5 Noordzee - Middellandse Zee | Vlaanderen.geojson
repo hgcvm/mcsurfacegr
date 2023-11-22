@@ -2847,7 +2847,6 @@
       "id": "way/35002771",
       "properties": {
         "bicycle": "use_sidepath",
-        "cycleway": "separate",
         "highway": "primary",
         "lanes": "3",
         "lanes:backward": "1",
@@ -8774,8 +8773,8 @@
       "type": "Feature",
       "id": "way/296767370",
       "properties": {
+        "bicycle:forward": "use_sidepath",
         "cycleway:left": "lane",
-        "cycleway:right": "separate",
         "highway": "primary",
         "lanes": "3",
         "lanes:backward": "1",
@@ -14785,8 +14784,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4120264,
-            50.9477277
+            5.41203,
+            50.9477311
+          ],
+          [
+            5.4125492,
+            50.9473474
           ],
           [
             5.4140454,
@@ -63466,8 +63469,8 @@
             50.9478206
           ],
           [
-            5.4120264,
-            50.9477277
+            5.41203,
+            50.9477311
           ]
         ]
       }
