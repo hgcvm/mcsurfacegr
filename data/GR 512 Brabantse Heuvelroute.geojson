@@ -1404,37 +1404,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/24451438",
-      "properties": {
-        "highway": "primary",
-        "lanes": "4",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Chaussée de Waterloo - Waterloosesteenweg",
-        "name:fr": "Chaussée de Waterloo",
-        "name:nl": "Waterloosesteenweg",
-        "ref": "N5",
-        "source:maxspeed": "sign",
-        "surface": "asphalt",
-        "toll:hgv": "yes",
-        "id": "way/24451438"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.3826484,
-            50.7687332
-          ],
-          [
-            4.3826509,
-            50.7689202
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/24485981",
       "properties": {
         "highway": "tertiary",
@@ -20192,7 +20161,7 @@
         "motor_vehicle": "no",
         "mtb:scale": "1",
         "smoothness": "bad",
-        "surface": "unpaved",
+        "surface": "dirt",
         "width": "0.5",
         "id": "way/122554675"
       },
@@ -30604,6 +30573,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
+        "surface": "compacted",
         "tracktype": "grade3",
         "id": "way/198904093"
       },
@@ -42041,28 +42011,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/843843828",
-      "properties": {
-        "highway": "cycleway",
-        "surface": "asphalt",
-        "id": "way/843843828"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.3826509,
-            50.7689202
-          ],
-          [
-            4.3827587,
-            50.7689195
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/845803319",
       "properties": {
         "highway": "path",
@@ -45059,6 +45007,52 @@
           [
             4.2381003,
             50.7825251
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1226698344",
+      "properties": {
+        "bicycle": "designated",
+        "highway": "cycleway",
+        "horse": "no",
+        "oneway": "no",
+        "segregated": "no",
+        "id": "way/1226698344"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3827587,
+            50.768735
+          ],
+          [
+            4.3827587,
+            50.7689195
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1226698345",
+      "properties": {
+        "highway": "cycleway",
+        "id": "way/1226698345"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3827587,
+            50.768735
+          ],
+          [
+            4.3826484,
+            50.7687332
           ]
         ]
       }

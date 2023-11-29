@@ -5187,7 +5187,7 @@
       "properties": {
         "highway": "track",
         "name": "Coolsweg",
-        "surface": "dirt",
+        "surface": "ground",
         "tracktype": "grade2",
         "vehicle": "destination",
         "id": "way/37286423"
@@ -5871,6 +5871,7 @@
       "type": "Feature",
       "id": "way/37615629",
       "properties": {
+        "check_date:surface": "2023-11-28",
         "highway": "path",
         "surface": "dirt",
         "id": "way/37615629"
@@ -6943,6 +6944,7 @@
       "id": "way/38255084",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Bekenbaan",
         "sidewalk": "no",
@@ -12782,6 +12784,10 @@
             51.2327824
           ],
           [
+            4.8255676,
+            51.2326406
+          ],
+          [
             4.8262611,
             51.2322301
           ],
@@ -12806,12 +12812,20 @@
             51.2308708
           ],
           [
-            4.8279627,
-            51.2306212
+            4.8279506,
+            51.2306178
           ],
           [
-            4.8280279,
-            51.2305718
+            4.8280118,
+            51.2305701
+          ],
+          [
+            4.8282418,
+            51.2303178
+          ],
+          [
+            4.8286736,
+            51.2298374
           ],
           [
             4.8288057,
@@ -16221,7 +16235,8 @@
         "highway": "track",
         "name": "Diestweg",
         "name:etymology:wikidata": "Q743236",
-        "surface": "sand",
+        "surface": "ground",
+        "tracktype": "grade2",
         "id": "way/82294004"
       },
       "geometry": {
@@ -16663,6 +16678,7 @@
       "id": "way/82787155",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Sint-Rochusstraat",
         "source:maxspeed": "BE:zone50",
@@ -19487,6 +19503,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Bekenbaan",
+        "surface": "pebblestone",
         "id": "way/116352970"
       },
       "geometry": {
@@ -19598,6 +19615,7 @@
       "id": "way/116352977",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/116352977"
       },
       "geometry": {
@@ -22413,6 +22431,7 @@
       "id": "way/141123244",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Bekenbaan",
         "sidewalk": "no",
@@ -23873,10 +23892,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.9621541,
-            51.3783354
-          ],
           [
             4.9602679,
             51.3783064
@@ -37299,7 +37314,7 @@
           ],
           [
             5.0504062,
-            51.4868656
+            51.4868621
           ],
           [
             5.050737,
@@ -40161,6 +40176,7 @@
       "id": "way/536714301",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Bekenbaan",
         "sidewalk": "no",
@@ -44882,6 +44898,10 @@
           [
             4.8309561,
             51.2250116
+          ],
+          [
+            4.8309401,
+            51.2250512
           ],
           [
             4.8308713,
@@ -50234,6 +50254,32 @@
           [
             4.7798434,
             51.4279847
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1227049656",
+      "properties": {
+        "bicycle": "yes",
+        "check_date:surface": "2021-03-06",
+        "foot": "yes",
+        "highway": "path",
+        "oneway": "no",
+        "surface": "dirt",
+        "id": "way/1227049656"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9621541,
+            51.3783354
+          ],
+          [
+            4.9602679,
+            51.3783064
           ]
         ]
       }
