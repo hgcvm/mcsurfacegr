@@ -150086,6 +150086,7 @@
       "id": "way/781296597",
       "properties": {
         "bicycle": "use_sidepath",
+        "cycleway": "separate",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Vierstraat",
@@ -150105,8 +150106,8 @@
             50.788202
           ],
           [
-            2.8795658,
-            50.7881776
+            2.8795565,
+            50.7881856
           ]
         ]
       }
@@ -155498,6 +155499,31 @@
     },
     {
       "type": "Feature",
+      "id": "way/1065973654",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "50",
+        "name": "Vierstraat",
+        "oneway": "no",
+        "surface": "asphalt",
+        "id": "way/1065973654"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8795565,
+            50.7881856
+          ],
+          [
+            2.8795658,
+            50.7881776
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1065973657",
       "properties": {
         "cycleway": "shared_lane",
@@ -159517,84 +159543,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1189334081",
-      "properties": {
-        "crossing": "zebra",
-        "crossing:island": "yes",
-        "crossing:markings": "zebra",
-        "footway": "crossing",
-        "highway": "footway",
-        "surface": "asphalt",
-        "id": "way/1189334081"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.1016144,
-            51.0330944
-          ],
-          [
-            4.1016138,
-            51.0331409
-          ],
-          [
-            4.1016102,
-            51.0332529
-          ],
-          [
-            4.1016104,
-            51.0332823
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1190015577",
-      "properties": {
-        "highway": "cycleway",
-        "oneway": "yes",
-        "id": "way/1190015577"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.1018137,
-            51.0332785
-          ],
-          [
-            4.1017836,
-            51.033279
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1190015580",
-      "properties": {
-        "highway": "cycleway",
-        "oneway": "yes",
-        "id": "way/1190015580"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.1017796,
-            51.03309
-          ],
-          [
-            4.1018012,
-            51.0330906
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1192829698",
       "properties": {
         "bicycle": "no",
@@ -159692,6 +159640,36 @@
     },
     {
       "type": "Feature",
+      "id": "way/1212889776",
+      "properties": {
+        "cyclestreet": "yes",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "name": "Veerstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
+        "id": "way/1212889776"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1018012,
+            51.0330906
+          ],
+          [
+            4.101804,
+            51.0331361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1217870437",
       "properties": {
         "agricultural": "designated",
@@ -159716,50 +159694,6 @@
           [
             4.083001,
             51.01745
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1228234866",
-      "properties": {
-        "highway": "cycleway",
-        "oneway": "yes",
-        "id": "way/1228234866"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.1016144,
-            51.0330944
-          ],
-          [
-            4.1017796,
-            51.03309
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1228234867",
-      "properties": {
-        "highway": "cycleway",
-        "oneway": "yes",
-        "id": "way/1228234867"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.1017836,
-            51.033279
-          ],
-          [
-            4.1016104,
-            51.0332823
           ]
         ]
       }
