@@ -24236,7 +24236,7 @@
       "properties": {
         "highway": "unclassified",
         "maxweight": "2.5",
-        "name": "Koppenberg",
+        "ref": "Koppenberg",
         "id": "way/137843691"
       },
       "geometry": {
@@ -30321,6 +30321,7 @@
       "id": "way/313857579",
       "properties": {
         "bicycle": "use_sidepath",
+        "cycleway:right:oneway": "no",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Ronseweg",
@@ -37158,6 +37159,10 @@
           [
             3.6038994,
             50.8300475
+          ],
+          [
+            3.6038534,
+            50.8300483
           ]
         ]
       }
@@ -45699,7 +45704,8 @@
       "type": "Feature",
       "id": "way/838948306",
       "properties": {
-        "highway": "path",
+        "bicycle": "no",
+        "highway": "footway",
         "name": "Kerkhofwegel",
         "id": "way/838948306"
       },
@@ -49616,28 +49622,6 @@
           [
             3.5827499,
             50.7988542
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1227672232",
-      "properties": {
-        "highway": "service",
-        "name": "Kerkhofwegel",
-        "id": "way/1227672232"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.6038994,
-            50.8300475
-          ],
-          [
-            3.6038534,
-            50.8300483
           ]
         ]
       }
