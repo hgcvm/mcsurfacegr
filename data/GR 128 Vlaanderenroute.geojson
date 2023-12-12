@@ -63623,6 +63623,10 @@
       "type": "Feature",
       "id": "way/116954831",
       "properties": {
+        "addr:city": "Gent",
+        "addr:housenumber": "77",
+        "addr:postcode": "9000",
+        "addr:street": "Visserij",
         "bicycle": "yes",
         "highway": "footway",
         "lit": "no",
@@ -75573,7 +75577,7 @@
         "cyclestreet": "yes",
         "cycleway": "no",
         "highway": "residential",
-        "junction": "roundabout",
+        "junction": "mini_roundabout",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Markt",
@@ -83738,6 +83742,10 @@
           [
             3.7584829,
             51.0477514
+          ],
+          [
+            3.7576124,
+            51.0475346
           ],
           [
             3.7571901,
@@ -117395,7 +117403,6 @@
       "id": "way/781296597",
       "properties": {
         "bicycle": "use_sidepath",
-        "cycleway": "separate",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Vierstraat",
@@ -117415,8 +117422,8 @@
             50.788202
           ],
           [
-            2.8795565,
-            50.7881856
+            2.8795658,
+            50.7881776
           ]
         ]
       }
@@ -125992,31 +125999,6 @@
           [
             3.5220292,
             50.9861215
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1065973654",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "50",
-        "name": "Vierstraat",
-        "oneway": "no",
-        "surface": "asphalt",
-        "id": "way/1065973654"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.8795565,
-            50.7881856
-          ],
-          [
-            2.8795658,
-            50.7881776
           ]
         ]
       }
@@ -157203,7 +157185,6 @@
         "ref": "N251",
         "sidewalk:left": "yes",
         "sidewalk:right": "separate",
-        "smoothness": "good",
         "surface": "asphalt",
         "wikidata": "Q2567735",
         "id": "way/85799351"
@@ -159727,7 +159708,6 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "parking:lane": "no_parking",
-        "sidewalk": "both",
         "source": "survey",
         "surface": "asphalt",
         "id": "way/564392130"
@@ -160349,7 +160329,6 @@
         "foot": "designated",
         "highway": "cycleway",
         "segregated": "no",
-        "smoothness": "good",
         "source": "survey",
         "surface": "paving_stones",
         "id": "way/810761980"
@@ -160855,7 +160834,6 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
-        "lit": "yes",
         "segregated": "no",
         "source": "survey",
         "surface": "wood",
@@ -161380,7 +161358,7 @@
         "lanes:backward": "2",
         "lanes:forward": "1",
         "maxspeed": "50",
-        "name": "Ridders de Menten de Horneplein",
+        "name": "a+ Medicina Diagnóstica",
         "ref": "N716",
         "surface": "asphalt",
         "turn:lanes:backward": "left|through",
