@@ -16872,6 +16872,7 @@
       "id": "way/29254073",
       "properties": {
         "highway": "track",
+        "name": "Gat van Belham",
         "tracktype": "grade3",
         "id": "way/29254073"
       },
@@ -63623,6 +63624,10 @@
       "type": "Feature",
       "id": "way/116954831",
       "properties": {
+        "addr:city": "Gent",
+        "addr:housenumber": "77",
+        "addr:postcode": "9000",
+        "addr:street": "Visserij",
         "bicycle": "yes",
         "highway": "footway",
         "lit": "no",
@@ -75573,7 +75578,7 @@
         "cyclestreet": "yes",
         "cycleway": "no",
         "highway": "residential",
-        "junction": "roundabout",
+        "junction": "mini_roundabout",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Markt",
@@ -83738,6 +83743,10 @@
           [
             3.7584829,
             51.0477514
+          ],
+          [
+            3.7576124,
+            51.0475346
           ],
           [
             3.7571901,
@@ -96590,6 +96599,7 @@
       "id": "way/387425326",
       "properties": {
         "highway": "track",
+        "name": "Gat van Belham",
         "tracktype": "grade3",
         "id": "way/387425326"
       },
@@ -96614,6 +96624,7 @@
         "bridge": "yes",
         "highway": "track",
         "layer": "1",
+        "name": "Gat van Belham",
         "tracktype": "grade3",
         "id": "way/387425327"
       },
@@ -96638,6 +96649,7 @@
         "highway": "track",
         "lanes": "1",
         "lit": "no",
+        "name": "Gat van Belham",
         "surface": "dirt",
         "tracktype": "grade1",
         "id": "way/387425333"
@@ -117395,7 +117407,6 @@
       "id": "way/781296597",
       "properties": {
         "bicycle": "use_sidepath",
-        "cycleway": "separate",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Vierstraat",
@@ -117415,8 +117426,8 @@
             50.788202
           ],
           [
-            2.8795565,
-            50.7881856
+            2.8795658,
+            50.7881776
           ]
         ]
       }
@@ -125992,31 +126003,6 @@
           [
             3.5220292,
             50.9861215
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1065973654",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "50",
-        "name": "Vierstraat",
-        "oneway": "no",
-        "surface": "asphalt",
-        "id": "way/1065973654"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.8795565,
-            50.7881856
-          ],
-          [
-            2.8795658,
-            50.7881776
           ]
         ]
       }
