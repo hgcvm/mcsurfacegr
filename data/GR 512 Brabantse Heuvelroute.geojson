@@ -10276,7 +10276,7 @@
       "type": "Feature",
       "id": "way/40418128",
       "properties": {
-        "access": "yes",
+        "abandoned:railway": "tram",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
@@ -10284,6 +10284,7 @@
         "maxspeed": "30",
         "motor_vehicle": "no",
         "name": "Lange Tramweg",
+        "railway": "abandoned",
         "segregated": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
@@ -20161,7 +20162,7 @@
         "motor_vehicle": "no",
         "mtb:scale": "1",
         "smoothness": "bad",
-        "surface": "unpaved",
+        "surface": "dirt",
         "width": "0.5",
         "id": "way/122554675"
       },
@@ -21540,8 +21541,10 @@
       "type": "Feature",
       "id": "way/128049765",
       "properties": {
+        "abandoned:railway": "tram",
         "highway": "residential",
         "name": "Doelestraat",
+        "railway": "abandoned",
         "surface": "asphalt",
         "id": "way/128049765"
       },
@@ -24827,9 +24830,11 @@
       "type": "Feature",
       "id": "way/146790854",
       "properties": {
+        "abandoned:railway": "tram",
         "highway": "residential",
         "lit": "yes",
         "name": "Stationsstraat",
+        "railway": "abandoned",
         "sidewalk": "right",
         "surface": "asphalt",
         "id": "way/146790854"
@@ -30573,6 +30578,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
+        "surface": "compacted",
         "tracktype": "grade3",
         "id": "way/198904093"
       },
@@ -36355,16 +36361,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.2727031,
-            50.7675277
+            4.2728009,
+            50.7675918
+          ],
+          [
+            4.2727618,
+            50.7675611
+          ],
+          [
+            4.2727179,
+            50.7675266
           ],
           [
             4.2726434,
             50.7674372
           ],
           [
-            4.272619,
-            50.7674089
+            4.2725857,
+            50.7673632
           ]
         ]
       }
@@ -37674,8 +37688,10 @@
       "type": "Feature",
       "id": "way/493452002",
       "properties": {
+        "abandoned:railway": "tram",
         "highway": "residential",
         "name": "Lange Tramweg",
+        "railway": "abandoned",
         "surface": "asphalt",
         "id": "way/493452002"
       },
@@ -38374,8 +38390,10 @@
       "type": "Feature",
       "id": "way/531660275",
       "properties": {
+        "abandoned:railway": "tram",
         "foot": "yes",
         "highway": "cycleway",
+        "railway": "abandoned",
         "segregated": "no",
         "id": "way/531660275"
       },
@@ -39888,8 +39906,8 @@
             50.7674472
           ],
           [
-            4.2727031,
-            50.7675277
+            4.2728009,
+            50.7675918
           ]
         ]
       }
@@ -41382,8 +41400,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.272619,
-            50.7674089
+            4.2725857,
+            50.7673632
           ],
           [
             4.2726758,
@@ -42202,6 +42220,7 @@
       "type": "Feature",
       "id": "way/852454262",
       "properties": {
+        "cycleway": "track",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
