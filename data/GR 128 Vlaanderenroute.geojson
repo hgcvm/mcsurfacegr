@@ -16872,7 +16872,6 @@
       "id": "way/29254073",
       "properties": {
         "highway": "track",
-        "name": "Gat van Belham",
         "tracktype": "grade3",
         "id": "way/29254073"
       },
@@ -27570,12 +27569,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9300339,
-            50.7732672
+            4.9298627,
+            50.7731851
           ],
           [
-            4.9303122,
-            50.7733868
+            4.9303205,
+            50.7733801
           ]
         ]
       }
@@ -31831,8 +31830,8 @@
             51.0554775
           ],
           [
-            3.7207363,
-            51.0555017
+            3.720739,
+            51.0555034
           ],
           [
             3.7205459,
@@ -39679,6 +39678,8 @@
       "type": "Feature",
       "id": "way/39426608",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Singelstraat",
@@ -40732,8 +40733,8 @@
             50.7730781
           ],
           [
-            4.9300339,
-            50.7732672
+            4.9298627,
+            50.7731851
           ]
         ]
       }
@@ -40750,12 +40751,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9303122,
-            50.7733868
+            4.9303205,
+            50.7733801
           ],
           [
-            4.9304291,
-            50.773437
+            4.9304444,
+            50.7734273
           ]
         ]
       }
@@ -40776,12 +40777,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9304291,
-            50.773437
+            4.9304444,
+            50.7734273
           ],
           [
-            4.9312209,
-            50.7737823
+            4.9312327,
+            50.7737778
           ]
         ]
       }
@@ -40867,12 +40868,12 @@
             50.7738244
           ],
           [
-            4.932841,
-            50.7735755
+            4.9329071,
+            50.7735509
           ],
           [
-            4.9329487,
-            50.7735509
+            4.9330018,
+            50.773539
           ],
           [
             4.9330783,
@@ -40911,20 +40912,12 @@
             50.7728567
           ],
           [
-            4.9383274,
-            50.7727421
-          ],
-          [
             4.9395121,
             50.7726295
           ],
           [
             4.9397625,
             50.7726141
-          ],
-          [
-            4.9416599,
-            50.772492
           ],
           [
             4.9418115,
@@ -40938,6 +40931,7 @@
       "id": "way/39483934",
       "properties": {
         "cyclestreet": "yes",
+        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -43408,13 +43402,11 @@
       "type": "Feature",
       "id": "way/39536882",
       "properties": {
-        "abandoned:railway": "rail",
         "highway": "cycleway",
         "horse": "yes",
         "railway": "abandoned",
         "surface": "concrete",
         "width": "2.5",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/39536882"
       },
       "geometry": {
@@ -43451,14 +43443,12 @@
       "type": "Feature",
       "id": "way/39536883",
       "properties": {
-        "abandoned:railway": "rail",
         "highway": "cycleway",
         "horse": "yes",
         "name": "IJzerenweg lijn 23",
         "railway": "abandoned",
         "surface": "asphalt",
         "width": "3",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/39536883"
       },
       "geometry": {
@@ -43479,14 +43469,12 @@
       "type": "Feature",
       "id": "way/39536927",
       "properties": {
-        "abandoned:railway": "rail",
         "highway": "cycleway",
         "horse": "yes",
         "name": "IJzerenweg lijn 23",
         "railway": "abandoned",
         "surface": "concrete",
         "width": "3",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/39536927"
       },
       "geometry": {
@@ -48206,8 +48194,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7220366,
-            51.0553686
+            3.7219928,
+            51.0552809
+          ],
+          [
+            3.7220085,
+            51.0553141
           ],
           [
             3.7220882,
@@ -55207,6 +55199,8 @@
       "type": "Feature",
       "id": "way/64250005",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Kleine Veldsteeg",
@@ -55325,11 +55319,12 @@
       "type": "Feature",
       "id": "way/64250009",
       "properties": {
-        "highway": "track",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
+        "highway": "unclassified",
         "lane_markings": "no",
         "name": "Wilderstraat",
         "surface": "concrete",
-        "tracktype": "grade1",
         "id": "way/64250009"
       },
       "geometry": {
@@ -63628,10 +63623,6 @@
       "type": "Feature",
       "id": "way/116954831",
       "properties": {
-        "addr:city": "Gent",
-        "addr:housenumber": "77",
-        "addr:postcode": "9000",
-        "addr:street": "Visserij",
         "bicycle": "yes",
         "highway": "footway",
         "lit": "no",
@@ -75582,7 +75573,7 @@
         "cyclestreet": "yes",
         "cycleway": "no",
         "highway": "residential",
-        "junction": "mini_roundabout",
+        "junction": "roundabout",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Markt",
@@ -80855,6 +80846,8 @@
       "type": "Feature",
       "id": "way/191008654",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Keelstraat",
@@ -82007,14 +82000,12 @@
       "type": "Feature",
       "id": "way/201799136",
       "properties": {
-        "abandoned:railway": "rail",
         "highway": "cycleway",
         "horse": "yes",
         "name": "IJzerenweg lijn 23",
         "railway": "abandoned",
         "surface": "concrete",
         "width": "3",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/201799136"
       },
       "geometry": {
@@ -82071,7 +82062,6 @@
       "type": "Feature",
       "id": "way/201799147",
       "properties": {
-        "abandoned:railway": "rail",
         "bridge": "yes",
         "highway": "cycleway",
         "horse": "yes",
@@ -82079,7 +82069,6 @@
         "railway": "abandoned",
         "surface": "asphalt",
         "width": "3",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/201799147"
       },
       "geometry": {
@@ -82684,6 +82673,8 @@
       "type": "Feature",
       "id": "way/217597293",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "no",
@@ -83070,6 +83061,8 @@
       "type": "Feature",
       "id": "way/217597319",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Grootloonstraat",
@@ -83745,10 +83738,6 @@
           [
             3.7584829,
             51.0477514
-          ],
-          [
-            3.7576124,
-            51.0475346
           ],
           [
             3.7571901,
@@ -91571,14 +91560,12 @@
       "type": "Feature",
       "id": "way/324049865",
       "properties": {
-        "abandoned:railway": "rail",
         "highway": "cycleway",
         "horse": "yes",
         "name": "IJzerenweg lijn 23",
         "railway": "abandoned",
         "surface": "concrete",
         "width": "3",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/324049865"
       },
       "geometry": {
@@ -96603,7 +96590,6 @@
       "id": "way/387425326",
       "properties": {
         "highway": "track",
-        "name": "Gat van Belham",
         "tracktype": "grade3",
         "id": "way/387425326"
       },
@@ -96628,7 +96614,6 @@
         "bridge": "yes",
         "highway": "track",
         "layer": "1",
-        "name": "Gat van Belham",
         "tracktype": "grade3",
         "id": "way/387425327"
       },
@@ -96653,7 +96638,6 @@
         "highway": "track",
         "lanes": "1",
         "lit": "no",
-        "name": "Gat van Belham",
         "surface": "dirt",
         "tracktype": "grade1",
         "id": "way/387425333"
@@ -98322,11 +98306,14 @@
       "properties": {
         "access": "destination",
         "agricultural": "yes",
-        "highway": "track",
+        "bicycle": "yes",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
+        "foot": "yes",
+        "highway": "unclassified",
         "horse": "yes",
         "maxspeed": "30",
         "surface": "concrete",
-        "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "width": "3",
         "id": "way/409626105"
@@ -101222,7 +101209,7 @@
         "bicycle": "no",
         "bridge": "boardwalk",
         "foot": "yes",
-        "highway": "footway",
+        "highway": "path",
         "horse": "no",
         "surface": "wood",
         "id": "way/438083783"
@@ -107064,32 +107051,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9312209,
-            50.7737823
+            4.9312327,
+            50.7737778
           ],
           [
-            4.9314009,
-            50.7738629
+            4.9314221,
+            50.7738704
           ],
           [
-            4.9314734,
-            50.7738895
-          ],
-          [
-            4.9315514,
-            50.7739066
-          ],
-          [
-            4.9316363,
-            50.7739119
+            4.9315549,
+            50.7739118
           ],
           [
             4.9317417,
             50.773905
           ],
           [
-            4.931883,
-            50.773881
+            4.931896,
+            50.7738713
           ],
           [
             4.9321134,
@@ -107266,12 +107245,8 @@
             50.7724667
           ],
           [
-            4.9426945,
-            50.7724271
-          ],
-          [
-            4.9428416,
-            50.7724002
+            4.9427901,
+            50.7724152
           ],
           [
             4.9429508,
@@ -111402,7 +111377,7 @@
       "type": "Feature",
       "id": "way/689666578",
       "properties": {
-        "highway": "footway",
+        "highway": "path",
         "surface": "paving_stones",
         "id": "way/689666578"
       },
@@ -117420,6 +117395,7 @@
       "id": "way/781296597",
       "properties": {
         "bicycle": "use_sidepath",
+        "cycleway": "separate",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Vierstraat",
@@ -117439,8 +117415,8 @@
             50.788202
           ],
           [
-            2.8795658,
-            50.7881776
+            2.8795565,
+            50.7881856
           ]
         ]
       }
@@ -118797,6 +118773,8 @@
       "type": "Feature",
       "id": "way/810294090",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Kleine Veldsteeg",
@@ -120542,6 +120520,8 @@
       "type": "Feature",
       "id": "way/857602628",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -121119,6 +121099,8 @@
       "type": "Feature",
       "id": "way/871956657",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -126010,6 +125992,31 @@
           [
             3.5220292,
             50.9861215
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1065973654",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "50",
+        "name": "Vierstraat",
+        "oneway": "no",
+        "surface": "asphalt",
+        "id": "way/1065973654"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8795565,
+            50.7881856
+          ],
+          [
+            2.8795658,
+            50.7881776
           ]
         ]
       }
@@ -131536,41 +131543,6 @@
           [
             5.0033019,
             50.7725273
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1231648152",
-      "properties": {
-        "bicycle": "yes",
-        "emergency": "yes",
-        "exceptional_permit": "BE:gent:autovrij_gebied",
-        "highway": "living_street",
-        "maxspeed": "20",
-        "mofa": "yes",
-        "name": "Korenmarkt",
-        "private": "exceptional_permit",
-        "speed_pedelec": "yes",
-        "surface": "sett",
-        "vehicle": "private",
-        "id": "way/1231648152"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.7219928,
-            51.0552809
-          ],
-          [
-            3.7220085,
-            51.0553141
-          ],
-          [
-            3.7220366,
-            51.0553686
           ]
         ]
       }
@@ -157231,7 +157203,6 @@
         "ref": "N251",
         "sidewalk:left": "yes",
         "sidewalk:right": "separate",
-        "smoothness": "good",
         "surface": "asphalt",
         "wikidata": "Q2567735",
         "id": "way/85799351"
@@ -159755,11 +159726,8 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "parking:lane": "no_parking",
-        "sidewalk": "both",
         "source": "survey",
-        "source:width": "ARCore",
         "surface": "asphalt",
-        "width": "3.6",
         "id": "way/564392130"
       },
       "geometry": {
@@ -160379,7 +160347,6 @@
         "foot": "designated",
         "highway": "cycleway",
         "segregated": "no",
-        "smoothness": "good",
         "source": "survey",
         "surface": "paving_stones",
         "id": "way/810761980"
@@ -160885,7 +160852,6 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
-        "lit": "yes",
         "segregated": "no",
         "source": "survey",
         "surface": "wood",
@@ -161410,7 +161376,7 @@
         "lanes:backward": "2",
         "lanes:forward": "1",
         "maxspeed": "50",
-        "name": "Ridders de Menten de Horneplein",
+        "name": "a+ Medicina Diagnóstica",
         "ref": "N716",
         "surface": "asphalt",
         "turn:lanes:backward": "left|through",
@@ -161742,6 +161708,10 @@
           [
             5.1389985,
             50.8155119
+          ],
+          [
+            5.138406,
+            50.81573
           ]
         ]
       }
@@ -162681,7 +162651,6 @@
       "type": "Feature",
       "id": "way/187791956",
       "properties": {
-        "abandoned:railway": "abandoned",
         "highway": "cycleway",
         "horse": "yes",
         "motor_vehicle": "destination",
@@ -162689,7 +162658,6 @@
         "railway": "abandoned",
         "surface": "concrete",
         "width": "3",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/187791956"
       },
       "geometry": {
@@ -162734,14 +162702,12 @@
       "type": "Feature",
       "id": "way/187791961",
       "properties": {
-        "abandoned:railway": "rail",
         "highway": "cycleway",
         "motor_vehicle": "destination",
         "name": "IJzerenweg lijn 23",
         "railway": "abandoned",
         "surface": "concrete",
         "width": "3",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/187791961"
       },
       "geometry": {
@@ -163152,12 +163118,23 @@
         "railway": "abandoned",
         "surface": "paved",
         "width": "2",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/222176875"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.1476848,
+            50.8124483
+          ],
+          [
+            5.1476447,
+            50.8125728
+          ],
+          [
+            5.1476178,
+            50.8126635
+          ],
           [
             5.1475565,
             50.8127271
@@ -163806,13 +163783,11 @@
       "type": "Feature",
       "id": "way/254555975",
       "properties": {
-        "abandoned:railway": "rail",
         "highway": "unclassified",
         "name": "IJzerenweg",
         "railway": "abandoned",
         "surface": "paved",
         "width": "3",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/254555975"
       },
       "geometry": {
@@ -163833,13 +163808,11 @@
       "type": "Feature",
       "id": "way/266408188",
       "properties": {
-        "abandoned:railway": "rail",
         "highway": "cycleway",
         "name": "IJzerenweg",
         "railway": "abandoned",
         "surface": "paved",
         "width": "3",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/266408188"
       },
       "geometry": {
@@ -163873,7 +163846,6 @@
         "segregated": "no",
         "surface": "asphalt",
         "width": "3",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/266408189"
       },
       "geometry": {
@@ -163906,15 +163878,12 @@
       "type": "Feature",
       "id": "way/266408190",
       "properties": {
-        "abandoned:railway": "rail",
         "highway": "cycleway",
         "horse": "yes",
         "motor_vehicle": "destination",
         "name": "IJzerenweg lijn 23",
-        "railway": "abandoned",
         "surface": "concrete",
         "width": "3",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/266408190"
       },
       "geometry": {
@@ -163955,13 +163924,10 @@
       "type": "Feature",
       "id": "way/266408192",
       "properties": {
-        "abandoned:railway": "rail",
         "highway": "unclassified",
         "name": "Louis Claeslaan",
-        "railway": "abandoned",
         "surface": "asphalt",
         "width": "3",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/266408192"
       },
       "geometry": {
@@ -165270,14 +165236,12 @@
       "type": "Feature",
       "id": "way/791108580",
       "properties": {
-        "abandoned:railway": "rail",
         "highway": "cycleway",
         "horse": "yes",
         "name": "Spoorwegstraat",
         "railway": "abandoned",
         "surface": "concrete",
         "width": "3",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/791108580"
       },
       "geometry": {
@@ -165616,67 +165580,6 @@
           [
             5.2171419,
             50.8039186
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1231906248",
-      "properties": {
-        "foot": "yes",
-        "highway": "cycleway",
-        "surface": "paved",
-        "width": "2",
-        "id": "way/1231906248"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.1476848,
-            50.8124483
-          ],
-          [
-            5.1476447,
-            50.8125728
-          ],
-          [
-            5.1476178,
-            50.8126635
-          ],
-          [
-            5.1475565,
-            50.8127271
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1231906250",
-      "properties": {
-        "agricultural": "yes",
-        "bicycle": "yes",
-        "highway": "unclassified",
-        "name": "Ende Poel",
-        "railway": "abandoned",
-        "surface": "paved",
-        "vehicle": "destination",
-        "width": "3",
-        "wikipedia": "nl:Spoorlijn 23",
-        "id": "way/1231906250"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.1389985,
-            50.8155119
-          ],
-          [
-            5.138406,
-            50.81573
           ]
         ]
       }

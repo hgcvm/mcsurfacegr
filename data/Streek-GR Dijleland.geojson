@@ -508,7 +508,7 @@
         "lanes": "1",
         "name": "Kasteelpark Arenberg",
         "source": "survey",
-        "surface": "cobblestone",
+        "surface": "sett",
         "id": "way/4003918"
       },
       "geometry": {
@@ -2618,8 +2618,8 @@
             50.9006783
           ],
           [
-            4.6320184,
-            50.9005867
+            4.6320213,
+            50.9005891
           ]
         ]
       }
@@ -10557,10 +10557,11 @@
         "bridge": "yes",
         "cycleway:right": "lane",
         "highway": "secondary",
-        "lanes": "2",
+        "lanes": "1",
         "layer": "1",
         "name": "Brusselsepoortstraat",
         "oneway": "yes",
+        "oneway:bicycle": "no",
         "id": "way/32224266"
       },
       "geometry": {
@@ -11021,9 +11022,10 @@
         "cycleway:surface": "paving_stones",
         "cycleway:width": "1.76",
         "highway": "secondary",
-        "lanes": "2",
+        "lanes": "1",
         "name": "Brusselsepoortstraat",
         "oneway": "yes",
+        "oneway:bicycle": "no",
         "id": "way/33056629"
       },
       "geometry": {
@@ -20224,28 +20226,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6318598,
-            50.9005075
+            4.6318607,
+            50.9005036
           ],
           [
-            4.6317089,
-            50.900496
+            4.6317101,
+            50.9004913
           ],
           [
-            4.6314705,
-            50.9004788
+            4.6314648,
+            50.9004713
           ],
           [
-            4.6314579,
-            50.9004948
+            4.6314594,
+            50.9004976
           ],
           [
-            4.6317844,
+            4.6317773,
             50.9005235
           ],
           [
-            4.6320184,
-            50.9005867
+            4.6318481,
+            50.9005293
+          ],
+          [
+            4.6320213,
+            50.9005891
           ]
         ]
       }
@@ -20267,32 +20273,32 @@
             50.9000939
           ],
           [
-            4.6321701,
-            50.9001997
+            4.6321741,
+            50.9001977
           ],
           [
-            4.6322081,
-            50.9002026
+            4.6322086,
+            50.9002005
           ],
           [
-            4.6324667,
-            50.9002216
+            4.6324795,
+            50.9002226
           ],
           [
-            4.6324645,
-            50.9002367
+            4.6324771,
+            50.9002345
           ],
           [
-            4.6324628,
-            50.9002479
+            4.6324745,
+            50.9002471
           ],
           [
             4.6319728,
-            50.9002055
+            50.9002062
           ],
           [
-            4.6319239,
-            50.9002015
+            4.6319234,
+            50.9002022
           ]
         ]
       }
@@ -26487,8 +26493,8 @@
             50.8331722
           ],
           [
-            4.5578544,
-            50.8331402
+            4.5578684,
+            50.8331425
           ]
         ]
       }
@@ -27002,8 +27008,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6319239,
-            50.9002015
+            4.6319234,
+            50.9002022
           ],
           [
             4.6319047,
@@ -27014,8 +27020,8 @@
             50.9004238
           ],
           [
-            4.6318598,
-            50.9005075
+            4.6318607,
+            50.9005036
           ]
         ]
       }
@@ -28457,8 +28463,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5578544,
-            50.8331402
+            4.5578684,
+            50.8331425
           ],
           [
             4.5577645,
@@ -28821,7 +28827,7 @@
       "id": "way/141038468",
       "properties": {
         "bicycle": "use_sidepath",
-        "highway": "primary",
+        "highway": "residential",
         "junction": "circular",
         "lanes": "1",
         "maxspeed": "30",
@@ -30837,6 +30843,7 @@
         "highway": "secondary",
         "name": "Brusselsepoortstraat",
         "oneway": "yes",
+        "oneway:bicycle": "no",
         "source": "GRB",
         "id": "way/248808844"
       },
@@ -42443,7 +42450,7 @@
       "id": "way/1149076199",
       "properties": {
         "bicycle": "use_sidepath",
-        "highway": "primary",
+        "highway": "residential",
         "junction": "circular",
         "lanes": "1",
         "maxspeed": "30",
@@ -48015,6 +48022,7 @@
         "ref": "N251",
         "sidewalk:left": "yes",
         "sidewalk:right": "separate",
+        "smoothness": "good",
         "surface": "asphalt",
         "wikidata": "Q2567735",
         "id": "way/85799351"
@@ -51389,8 +51397,11 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "parking:lane": "no_parking",
+        "sidewalk": "both",
         "source": "survey",
+        "source:width": "ARCore",
         "surface": "asphalt",
+        "width": "3.6",
         "id": "way/564392130"
       },
       "geometry": {
@@ -52211,6 +52222,7 @@
         "foot": "designated",
         "highway": "cycleway",
         "segregated": "no",
+        "smoothness": "good",
         "source": "survey",
         "surface": "paving_stones",
         "id": "way/810761980"
@@ -52862,6 +52874,7 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "lit": "yes",
         "segregated": "no",
         "source": "survey",
         "surface": "wood",
@@ -64613,8 +64626,8 @@
             50.8331722
           ],
           [
-            4.5578684,
-            50.8331425
+            4.5578544,
+            50.8331402
           ]
         ]
       }
@@ -64930,8 +64943,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5578684,
-            50.8331425
+            4.5578544,
+            50.8331402
           ],
           [
             4.5577645,
@@ -74182,8 +74195,8 @@
             50.8331722
           ],
           [
-            4.5578544,
-            50.8331402
+            4.5578684,
+            50.8331425
           ]
         ]
       }
@@ -74499,8 +74512,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5578544,
-            50.8331402
+            4.5578684,
+            50.8331425
           ],
           [
             4.5577645,
