@@ -3461,6 +3461,10 @@
             50.9918791
           ],
           [
+            5.0523284,
+            50.9916656
+          ],
+          [
             5.0522619,
             50.9915414
           ]
@@ -3471,7 +3475,10 @@
       "type": "Feature",
       "id": "way/34835939",
       "properties": {
-        "highway": "footway",
+        "bicycle": "designated",
+        "cycleway": "crossing",
+        "foot": "designated",
+        "highway": "cycleway",
         "surface": "asphalt",
         "id": "way/34835939"
       },
@@ -7450,12 +7457,10 @@
       "type": "Feature",
       "id": "way/61122701",
       "properties": {
-        "cyclestreet": "yes",
         "highway": "unclassified",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Luysenweg",
-        "overtaking:motor_vehicle": "no",
         "surface": "asphalt",
         "id": "way/61122701"
       },
@@ -22300,7 +22305,6 @@
         "lanes": "2",
         "maxspeed": "70",
         "name": "Nieuwe Baan",
-        "ref": "N174",
         "surface": "asphalt",
         "id": "way/239233826"
       },
@@ -22762,10 +22766,6 @@
           [
             5.041935,
             51.0094942
-          ],
-          [
-            5.041916,
-            51.0093991
           ],
           [
             5.0419125,
@@ -42531,7 +42531,7 @@
         "cycleway": "lane",
         "highway": "secondary",
         "lanes": "2",
-        "maxspeed": "70",
+        "maxspeed": "90",
         "name": "'t Hasseltkiezel",
         "ref": "N73",
         "toll:hgv": "yes",
@@ -51942,12 +51942,10 @@
       "type": "Feature",
       "id": "way/1180702224",
       "properties": {
-        "cyclestreet": "yes",
         "highway": "unclassified",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Luysenweg",
-        "overtaking:motor_vehicle": "no",
         "id": "way/1180702224"
       },
       "geometry": {
@@ -51980,12 +51978,10 @@
       "type": "Feature",
       "id": "way/1180702225",
       "properties": {
-        "cyclestreet": "yes",
         "highway": "unclassified",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Luysenweg",
-        "overtaking:motor_vehicle": "no",
         "smoothness": "intermediate",
         "surface": "cobblestone",
         "id": "way/1180702225"
@@ -52184,7 +52180,7 @@
       "id": "way/1183356910",
       "properties": {
         "highway": "footway",
-        "surface": "paving_stones",
+        "surface": "asphalt",
         "id": "way/1183356910"
       },
       "geometry": {
@@ -52256,19 +52252,17 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "bus": "yes",
-        "cyclestreet": "yes",
         "emergency": "yes",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
-        "maxspeed": "30",
+        "maxspeed": "50",
         "mofa": "yes",
         "motor_vehicle": "destination",
         "name": "Luysenweg",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
         "oneway:speed_pedelec": "no",
-        "overtaking:motor_vehicle": "no",
         "speed_pedelec": "yes",
         "traffic_sign": "BE:C3,BE:M12_nl,BE:Type_IV_local_traffic_nl",
         "vehicle": "destination",
