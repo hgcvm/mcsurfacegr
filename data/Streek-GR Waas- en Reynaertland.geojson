@@ -9984,9 +9984,9 @@
       "properties": {
         "cycleway": "track",
         "highway": "secondary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Vijfstraten",
-        "old_ref": "N451",
         "ref": "N451",
         "sidewalk": "both",
         "surface": "asphalt",
@@ -10000,16 +10000,16 @@
             51.1760627
           ],
           [
-            4.1524176,
-            51.1762378
+            4.1524078,
+            51.1761815
           ],
           [
-            4.1524299,
-            51.1762639
+            4.1524425,
+            51.1762613
           ],
           [
-            4.1525252,
-            51.176465
+            4.1525322,
+            51.1764641
           ]
         ]
       }
@@ -11884,8 +11884,16 @@
             51.1663146
           ],
           [
-            4.1315601,
-            51.1668336
+            4.1307669,
+            51.1664642
+          ],
+          [
+            4.1315943,
+            51.1668786
+          ],
+          [
+            4.1316482,
+            51.1669056
           ]
         ]
       }
@@ -11894,11 +11902,12 @@
       "type": "Feature",
       "id": "way/51678834",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
+        "lanes": "1",
         "maxspeed": "30",
         "name": "Westerlaan",
         "oneway": "yes",
-        "oneway:bicycle": "no",
         "surface": "asphalt",
         "id": "way/51678834"
       },
@@ -11906,8 +11915,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1315601,
-            51.1668336
+            4.1316482,
+            51.1669056
           ],
           [
             4.1319807,
@@ -11918,8 +11927,8 @@
             51.1670807
           ],
           [
-            4.1320764,
-            51.1671355
+            4.1320553,
+            51.1671276
           ]
         ]
       }
@@ -11928,8 +11937,7 @@
       "type": "Feature",
       "id": "way/51678838",
       "properties": {
-        "cycleway:right": "track",
-        "cycleway:surface": "concrete",
+        "bicycle": "use_sidepath",
         "footway:surface": "paving_stones",
         "highway": "primary",
         "lanes": "2",
@@ -11975,8 +11983,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1095434,
-            51.1586232
+            4.1095616,
+            51.1586311
           ],
           [
             4.1142029,
@@ -22125,8 +22133,9 @@
       "type": "Feature",
       "id": "way/146374738",
       "properties": {
-        "cycleway:right": "track",
+        "bicycle": "use_sidepath",
         "highway": "primary",
+        "lanes": "1",
         "maxspeed": "30",
         "maxspeed:practical:emergency": "50",
         "name": "Plezantstraat",
@@ -22154,16 +22163,16 @@
             51.166868
           ],
           [
-            4.1342938,
-            51.1667126
+            4.1342959,
+            51.1667117
           ],
           [
             4.1347245,
             51.1665324
           ],
           [
-            4.1353753,
-            51.1662929
+            4.135376,
+            51.1662926
           ],
           [
             4.1358411,
@@ -22172,6 +22181,10 @@
           [
             4.1362874,
             51.1659808
+          ],
+          [
+            4.1363465,
+            51.1659624
           ],
           [
             4.1365785,
@@ -23085,8 +23098,8 @@
             51.158556
           ],
           [
-            4.1095434,
-            51.1586232
+            4.1095616,
+            51.1586311
           ]
         ]
       }
@@ -24830,9 +24843,9 @@
       "properties": {
         "cycleway": "track",
         "highway": "secondary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Vijfstraten",
-        "old_ref": "N451",
         "ref": "N451",
         "sidewalk": "both",
         "surface": "asphalt",
@@ -24842,7 +24855,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1527961,
+            4.1528045,
             51.1769576
           ],
           [
@@ -29373,7 +29386,7 @@
         "coordinates": [
           [
             4.136841,
-            51.1656902
+            51.1656871
           ],
           [
             4.1368564,
@@ -29400,9 +29413,9 @@
       "properties": {
         "cycleway": "track",
         "highway": "secondary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Vijfstraten",
-        "old_ref": "N451",
         "ref": "N451",
         "sidewalk": "both",
         "surface": "asphalt",
@@ -29412,31 +29425,27 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1525252,
-            51.176465
+            4.1525322,
+            51.1764641
           ],
           [
-            4.1526006,
-            51.1766267
+            4.1526041,
+            51.1766271
           ],
           [
-            4.1526116,
-            51.1766533
+            4.1526172,
+            51.1766537
           ],
           [
-            4.1526264,
-            51.1766821
+            4.1526432,
+            51.1767042
           ],
           [
-            4.1526404,
-            51.1767038
+            4.1527119,
+            51.1768196
           ],
           [
-            4.152768,
-            51.176912
-          ],
-          [
-            4.1527961,
+            4.1528045,
             51.1769576
           ]
         ]
@@ -31574,9 +31583,8 @@
       "type": "Feature",
       "id": "way/531503273",
       "properties": {
+        "bicycle": "use_sidepath",
         "change:lanes": "no|no",
-        "cycleway:right": "track",
-        "cycleway:surface": "concrete",
         "footway:surface": "paving_stones",
         "highway": "primary",
         "lanes": "2",
@@ -31607,8 +31615,7 @@
       "type": "Feature",
       "id": "way/531503274",
       "properties": {
-        "cycleway:right": "track",
-        "cycleway:surface": "concrete",
+        "bicycle": "use_sidepath",
         "footway:surface": "paving_stones",
         "highway": "primary",
         "lanes": "2",
@@ -31625,12 +31632,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1320764,
-            51.1671355
+            4.1320553,
+            51.1671276
           ],
           [
-            4.132341,
-            51.1672592
+            4.1323221,
+            51.1672513
           ],
           [
             4.1324683,
@@ -33048,16 +33055,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1365785,
-            51.1658899
+            4.133105,
+            51.1672689
           ],
           [
-            4.136712,
-            51.1657768
+            4.1339445,
+            51.1668147
+          ],
+          [
+            4.1342505,
+            51.166673
+          ],
+          [
+            4.1344708,
+            51.1665727
+          ],
+          [
+            4.1353326,
+            51.1662479
+          ],
+          [
+            4.1358015,
+            51.1660763
+          ],
+          [
+            4.1363051,
+            51.1659092
+          ],
+          [
+            4.1363779,
+            51.1658851
+          ],
+          [
+            4.136521,
+            51.1658305
+          ],
+          [
+            4.1367022,
+            51.1657662
           ],
           [
             4.136841,
-            51.1656902
+            51.1656871
           ]
         ]
       }
@@ -37168,8 +37207,8 @@
             51.1761611
           ],
           [
-            4.1520866,
-            51.1761423
+            4.1520403,
+            51.1761449
           ]
         ]
       }
@@ -37190,8 +37229,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1520866,
-            51.1761423
+            4.1520403,
+            51.1761449
+          ],
+          [
+            4.1521831,
+            51.176124
           ],
           [
             4.1523452,
@@ -40937,9 +40980,9 @@
       "type": "Feature",
       "id": "way/976120187",
       "properties": {
-        "cycleway:right": "track",
-        "cycleway:surface": "concrete",
+        "bicycle": "use_sidepath",
         "highway": "primary",
+        "lanes": "1",
         "maxspeed": "30",
         "maxspeed:practical:emergency": "50",
         "name": "Plezantstraat",
@@ -40957,8 +41000,12 @@
             51.1674784
           ],
           [
-            4.1330177,
-            51.1674045
+            4.1329702,
+            51.1674215
+          ],
+          [
+            4.1330093,
+            51.1674019
           ],
           [
             4.1331701,
@@ -42916,6 +42963,28 @@
           [
             3.9930844,
             51.1079186
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1234575955",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "yes",
+        "id": "way/1234575955"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1328854,
+            51.1673939
+          ],
+          [
+            4.133105,
+            51.1672689
           ]
         ]
       }
