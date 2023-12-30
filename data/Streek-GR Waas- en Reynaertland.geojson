@@ -3996,6 +3996,10 @@
           [
             4.1407242,
             51.1053653
+          ],
+          [
+            4.140861,
+            51.1052516
           ]
         ]
       }
@@ -4031,29 +4035,6 @@
           [
             4.1415652,
             51.1046516
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/24789266",
-      "properties": {
-        "highway": "cycleway",
-        "mofa": "yes",
-        "name": "Koolputten",
-        "id": "way/24789266"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.1407242,
-            51.1053653
-          ],
-          [
-            4.140861,
-            51.1052516
           ]
         ]
       }
@@ -11454,31 +11435,31 @@
       "type": "Feature",
       "id": "way/45187281",
       "properties": {
+        "access:lanes": "no|yes",
+        "bus:lanes": "designated|yes",
         "cycleway:right": "lane",
         "highway": "primary",
         "lanes": "2",
-        "lanes:bus": "1",
         "maxspeed": "30",
         "maxspeed:practical:emergency": "40",
         "name": "Onze-Lieve-Vrouwplein",
         "oneway": "yes",
-        "ref": "N16",
         "id": "way/45187281"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.137276,
-            51.1654867
+            4.1372802,
+            51.1654889
           ],
           [
-            4.137506,
-            51.1653252
+            4.1375158,
+            51.1653322
           ],
           [
-            4.13754,
-            51.1653024
+            4.137554,
+            51.1653077
           ]
         ]
       }
@@ -11859,8 +11840,8 @@
             51.163954
           ],
           [
-            4.1396826,
-            51.1640026
+            4.1397008,
+            51.1640079
           ],
           [
             4.1397325,
@@ -19172,32 +19153,6 @@
           [
             4.2495672,
             51.2066746
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/128396277",
-      "properties": {
-        "cycleway:right": "lane",
-        "highway": "primary",
-        "name": "Grote Markt",
-        "oneway": "yes",
-        "ref": "N16",
-        "surface": "asphalt",
-        "id": "way/128396277"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.1389489,
-            51.1643479
-          ],
-          [
-            4.1389942,
-            51.1643241
           ]
         ]
       }
@@ -37370,8 +37325,11 @@
       "type": "Feature",
       "id": "way/672465093",
       "properties": {
+        "access:lanes": "no|yes",
+        "bus:lanes": "designated|yes",
         "cycleway:right": "lane",
         "highway": "primary",
+        "lanes": "2",
         "maxspeed": "30",
         "maxspeed:practical:emergency": "40",
         "name": "Grote Markt",
@@ -37384,16 +37342,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1389942,
-            51.1643241
+            4.139004,
+            51.1643347
           ],
           [
-            4.1390978,
-            51.1642635
-          ],
-          [
-            4.1394048,
-            51.1640982
+            4.1392448,
+            51.1642144
           ]
         ]
       }
@@ -38800,15 +38754,15 @@
       "type": "Feature",
       "id": "way/813425808",
       "properties": {
+        "access:lanes": "no|yes",
+        "bus:lanes": "designated|yes",
         "cycleway:right": "lane",
         "highway": "primary",
         "lanes": "2",
-        "lanes:bus": "1",
         "maxspeed": "30",
         "maxspeed:practical:emergency": "40",
         "name": "Onze-Lieve-Vrouwstraat",
         "oneway": "yes",
-        "ref": "N16",
         "surface": "asphalt",
         "id": "way/813425808"
       },
@@ -38824,8 +38778,20 @@
             51.1648697
           ],
           [
-            4.1389489,
-            51.1643479
+            4.1385968,
+            51.1645773
+          ],
+          [
+            4.1388087,
+            51.1644339
+          ],
+          [
+            4.1389021,
+            51.1643846
+          ],
+          [
+            4.139004,
+            51.1643347
           ]
         ]
       }
@@ -39517,15 +39483,15 @@
       "type": "Feature",
       "id": "way/820339683",
       "properties": {
+        "access:lanes": "no|yes",
+        "bus:lanes": "designated|yes",
         "cycleway:right": "lane",
         "highway": "primary",
         "lanes": "2",
-        "lanes:bus": "1",
         "maxspeed": "30",
         "maxspeed:practical:emergency": "40",
         "name": "Onze-Lieve-Vrouwstraat",
         "oneway": "yes",
-        "ref": "N16",
         "surface": "asphalt",
         "id": "way/820339683"
       },
@@ -39533,12 +39499,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.13754,
-            51.1653024
-          ],
-          [
-            4.1376923,
-            51.1652002
+            4.137554,
+            51.1653077
           ],
           [
             4.1380141,
@@ -42243,11 +42205,11 @@
       "properties": {
         "cycleway:right": "lane",
         "highway": "primary",
+        "lanes": "1",
         "maxspeed": "30",
         "maxspeed:practical:emergency": "40",
         "name": "Grote Markt",
         "oneway": "yes",
-        "ref": "N16",
         "surface": "asphalt",
         "id": "way/1116084158"
       },
@@ -42255,8 +42217,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1394048,
-            51.1640982
+            4.1392448,
+            51.1642144
           ],
           [
             4.1396366,
@@ -42478,8 +42440,8 @@
             51.1654798
           ],
           [
-            4.137276,
-            51.1654867
+            4.1372802,
+            51.1654889
           ]
         ]
       }
