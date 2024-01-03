@@ -161564,7 +161564,7 @@
         "lanes:backward": "2",
         "lanes:forward": "1",
         "maxspeed": "50",
-        "name": "a+ Medicina Diagnóstica",
+        "name": "Ridders de Menten de Horneplein",
         "ref": "N716",
         "surface": "asphalt",
         "turn:lanes:backward": "left|through",
@@ -161896,10 +161896,6 @@
           [
             5.1389985,
             50.8155119
-          ],
-          [
-            5.138406,
-            50.81573
           ]
         ]
       }
@@ -162839,6 +162835,7 @@
       "type": "Feature",
       "id": "way/187791956",
       "properties": {
+        "abandoned:railway": "abandoned",
         "highway": "cycleway",
         "horse": "yes",
         "motor_vehicle": "destination",
@@ -162846,6 +162843,7 @@
         "railway": "abandoned",
         "surface": "concrete",
         "width": "3",
+        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/187791956"
       },
       "geometry": {
@@ -162890,12 +162888,14 @@
       "type": "Feature",
       "id": "way/187791961",
       "properties": {
+        "abandoned:railway": "rail",
         "highway": "cycleway",
         "motor_vehicle": "destination",
         "name": "IJzerenweg lijn 23",
         "railway": "abandoned",
         "surface": "concrete",
         "width": "3",
+        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/187791961"
       },
       "geometry": {
@@ -163306,23 +163306,12 @@
         "railway": "abandoned",
         "surface": "paved",
         "width": "2",
+        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/222176875"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.1476848,
-            50.8124483
-          ],
-          [
-            5.1476447,
-            50.8125728
-          ],
-          [
-            5.1476178,
-            50.8126635
-          ],
           [
             5.1475565,
             50.8127271
@@ -163971,11 +163960,13 @@
       "type": "Feature",
       "id": "way/254555975",
       "properties": {
+        "abandoned:railway": "rail",
         "highway": "unclassified",
         "name": "IJzerenweg",
         "railway": "abandoned",
         "surface": "paved",
         "width": "3",
+        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/254555975"
       },
       "geometry": {
@@ -163996,11 +163987,13 @@
       "type": "Feature",
       "id": "way/266408188",
       "properties": {
+        "abandoned:railway": "rail",
         "highway": "cycleway",
         "name": "IJzerenweg",
         "railway": "abandoned",
         "surface": "paved",
         "width": "3",
+        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/266408188"
       },
       "geometry": {
@@ -164034,6 +164027,7 @@
         "segregated": "no",
         "surface": "asphalt",
         "width": "3",
+        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/266408189"
       },
       "geometry": {
@@ -164066,12 +164060,15 @@
       "type": "Feature",
       "id": "way/266408190",
       "properties": {
+        "abandoned:railway": "rail",
         "highway": "cycleway",
         "horse": "yes",
         "motor_vehicle": "destination",
         "name": "IJzerenweg lijn 23",
+        "railway": "abandoned",
         "surface": "concrete",
         "width": "3",
+        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/266408190"
       },
       "geometry": {
@@ -164112,10 +164109,13 @@
       "type": "Feature",
       "id": "way/266408192",
       "properties": {
+        "abandoned:railway": "rail",
         "highway": "unclassified",
         "name": "Louis Claeslaan",
+        "railway": "abandoned",
         "surface": "asphalt",
         "width": "3",
+        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/266408192"
       },
       "geometry": {
@@ -164487,7 +164487,6 @@
       "type": "Feature",
       "id": "way/342394098",
       "properties": {
-        "cycleway:both": "no",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Prins Albertlaan",
@@ -165389,7 +165388,6 @@
       "type": "Feature",
       "id": "way/699288530",
       "properties": {
-        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
@@ -165424,12 +165422,14 @@
       "type": "Feature",
       "id": "way/791108580",
       "properties": {
+        "abandoned:railway": "rail",
         "highway": "cycleway",
         "horse": "yes",
         "name": "Spoorwegstraat",
         "railway": "abandoned",
         "surface": "concrete",
         "width": "3",
+        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/791108580"
       },
       "geometry": {
@@ -165768,6 +165768,67 @@
           [
             5.2171419,
             50.8039186
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1231906248",
+      "properties": {
+        "foot": "yes",
+        "highway": "cycleway",
+        "surface": "paved",
+        "width": "2",
+        "id": "way/1231906248"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1476848,
+            50.8124483
+          ],
+          [
+            5.1476447,
+            50.8125728
+          ],
+          [
+            5.1476178,
+            50.8126635
+          ],
+          [
+            5.1475565,
+            50.8127271
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1231906250",
+      "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "highway": "unclassified",
+        "name": "Ende Poel",
+        "railway": "abandoned",
+        "surface": "paved",
+        "vehicle": "destination",
+        "width": "3",
+        "wikipedia": "nl:Spoorlijn 23",
+        "id": "way/1231906250"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1389985,
+            50.8155119
+          ],
+          [
+            5.138406,
+            50.81573
           ]
         ]
       }
