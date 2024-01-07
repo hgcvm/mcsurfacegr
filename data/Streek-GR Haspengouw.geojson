@@ -5263,16 +5263,8 @@
             50.8019857
           ],
           [
-            5.5349875,
-            50.8020153
-          ],
-          [
-            5.5352969,
-            50.8020358
-          ],
-          [
-            5.5354725,
-            50.802019
+            5.5348615,
+            50.8019997
           ]
         ]
       }
@@ -5475,7 +5467,10 @@
       "id": "way/30185011",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Demerstraat",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/30185011"
       },
       "geometry": {
@@ -5896,8 +5891,11 @@
       "id": "way/164243849",
       "properties": {
         "highway": "track",
+        "maxspeed": "50",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "unpaved",
         "tracktype": "grade3",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/164243849"
       },
       "geometry": {
@@ -6029,9 +6027,12 @@
       "id": "way/210134957",
       "properties": {
         "highway": "track",
+        "maxspeed": "50",
         "name": "Sint-Maartenstraat",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "concrete:lanes",
         "tracktype": "grade1",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/210134957"
       },
       "geometry": {
@@ -6136,7 +6137,10 @@
       "id": "way/210884621",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Kasteelstraat",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/210884621"
       },
       "geometry": {
@@ -6233,7 +6237,10 @@
       "id": "way/210884627",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Zagerijstraat",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/210884627"
       },
       "geometry": {
@@ -6461,7 +6468,10 @@
       "id": "way/243839368",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Sint-Maartenstraat",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/243839368"
       },
       "geometry": {
@@ -7270,8 +7280,11 @@
       "id": "way/706210265",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Sint-Maartenstraat",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/706210265"
       },
       "geometry": {
@@ -7632,6 +7645,40 @@
           [
             5.5400979,
             50.8148612
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1234846581",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "name": "Holstraat",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1234846581"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5348615,
+            50.8019997
+          ],
+          [
+            5.5349875,
+            50.8020153
+          ],
+          [
+            5.5352969,
+            50.8020358
+          ],
+          [
+            5.5354725,
+            50.802019
           ]
         ]
       }
@@ -24610,7 +24657,7 @@
         "lanes:backward": "2",
         "lanes:forward": "1",
         "maxspeed": "50",
-        "name": "a+ Medicina Diagnóstica",
+        "name": "Ridders de Menten de Horneplein",
         "ref": "N716",
         "surface": "asphalt",
         "turn:lanes:backward": "left|through",
@@ -24876,7 +24923,6 @@
       "type": "Feature",
       "id": "way/342394098",
       "properties": {
-        "cycleway:both": "no",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Prins Albertlaan",
@@ -24929,7 +24975,6 @@
       "type": "Feature",
       "id": "way/699288530",
       "properties": {
-        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
@@ -37474,8 +37519,6 @@
       "type": "Feature",
       "id": "way/191008654",
       "properties": {
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Keelstraat",
@@ -38524,7 +38567,6 @@
       "type": "Feature",
       "id": "way/9643553",
       "properties": {
-        "cycleway:both": "no",
         "foot": "yes",
         "highway": "tertiary",
         "lane_markings": "no",
@@ -38554,7 +38596,6 @@
       "type": "Feature",
       "id": "way/32019316",
       "properties": {
-        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Truierweg",
@@ -39014,10 +39055,7 @@
       "id": "way/220287195",
       "properties": {
         "highway": "path",
-        "old_ref": "L23",
-        "railway": "abandoned",
         "surface": "dirt",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/220287195"
       },
       "geometry": {
@@ -39532,7 +39570,6 @@
       "type": "Feature",
       "id": "way/288092124",
       "properties": {
-        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Bronstraat",
@@ -39932,7 +39969,6 @@
       "type": "Feature",
       "id": "way/757577576",
       "properties": {
-        "cycleway:both": "no",
         "highway": "secondary",
         "lane_markings": "no",
         "maxspeed": "50",
@@ -39987,11 +40023,8 @@
       "id": "way/761049333",
       "properties": {
         "highway": "track",
-        "old_ref": "L23",
-        "railway": "abandoned",
         "surface": "dirt",
         "tracktype": "grade4",
-        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/761049333"
       },
       "geometry": {
@@ -45354,6 +45387,8 @@
       "type": "Feature",
       "id": "way/347371029",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Espenbos",
