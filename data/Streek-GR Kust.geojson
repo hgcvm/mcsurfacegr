@@ -1820,6 +1820,7 @@
       "properties": {
         "highway": "service",
         "name": "Buskruitstraat",
+        "smoothness": "good",
         "surface": "concrete",
         "id": "way/33889735"
       },
@@ -4857,12 +4858,12 @@
             51.1387294
           ],
           [
-            2.741115,
-            51.1389249
+            2.7412616,
+            51.1387633
           ],
           [
-            2.7410767,
-            51.1389623
+            2.7410113,
+            51.1390231
           ]
         ]
       }
@@ -6218,6 +6219,7 @@
         "highway": "path",
         "name": "Spinoladijk",
         "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "vehicle": "no",
         "id": "way/72897199"
@@ -7070,9 +7072,11 @@
       "properties": {
         "highway": "residential",
         "incline": "up",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Manitobahelling",
         "sidewalk": "both",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/78411174"
       },
@@ -7733,6 +7737,8 @@
       "properties": {
         "highway": "steps",
         "incline": "up",
+        "ramp": "no",
+        "surface": "concrete",
         "id": "way/84305417"
       },
       "geometry": {
@@ -12142,7 +12148,8 @@
       "properties": {
         "highway": "service",
         "name": "Havengeulkaai",
-        "surface": "sett",
+        "smoothness": "good",
+        "surface": "concrete",
         "traffic_sign": "BE:C3,BE:M2_nl ,GIV[uitgezonderd diensten]",
         "id": "way/111324424"
       },
@@ -12963,8 +12970,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.7410767,
-            51.1389623
+            2.7410113,
+            51.1390231
           ],
           [
             2.7407504,
@@ -12985,6 +12992,10 @@
           [
             2.7394116,
             51.1408076
+          ],
+          [
+            2.7392938,
+            51.1409062
           ],
           [
             2.7392885,
@@ -17458,7 +17469,8 @@
       "properties": {
         "highway": "service",
         "name": "Buskruitstraat",
-        "surface": "sett",
+        "smoothness": "good",
+        "surface": "concrete",
         "id": "way/148739049"
       },
       "geometry": {
@@ -21065,6 +21077,7 @@
       "id": "way/212772853",
       "properties": {
         "highway": "path",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/212772853"
       },
@@ -22785,6 +22798,7 @@
       "id": "way/232226988",
       "properties": {
         "highway": "footway",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/232226988"
       },
@@ -22830,6 +22844,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "footway",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/232227008"
       },
@@ -22864,6 +22879,7 @@
         "highway": "footway",
         "incline": "down",
         "layer": "1",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/232227009"
       },
@@ -22894,6 +22910,7 @@
         "highway": "footway",
         "incline": "down",
         "layer": "1",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/232228449"
       },
@@ -23627,6 +23644,7 @@
       "id": "way/237229334",
       "properties": {
         "highway": "path",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/237229334"
       },
@@ -23682,7 +23700,9 @@
         "bicycle": "yes",
         "highway": "unclassified",
         "horse": "no",
+        "lane_markings": "no",
         "name": "Halvemaandijk",
+        "smoothness": "very_bad",
         "surface": "sett",
         "traffic_sign": "BE:C3,GIV[uitgezonderd diensten],M2",
         "vehicle": "no",
@@ -23712,6 +23732,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "footway",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/237229757"
       },
@@ -23744,6 +23765,7 @@
         "bicycle": "yes",
         "highway": "footway",
         "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "traffic_sign": "BE:D10",
         "id": "way/237230375"
@@ -23981,7 +24003,8 @@
         "bicycle": "yes",
         "highway": "path",
         "name": "Spinoladijk",
-        "surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "concrete",
         "vehicle": "no",
         "id": "way/238257255"
       },
@@ -27972,12 +27995,16 @@
             51.1196586
           ],
           [
-            2.6722791,
-            51.1197446
+            2.6722064,
+            51.1197096
           ],
           [
-            2.6723865,
-            51.1198244
+            2.672283,
+            51.1197872
+          ],
+          [
+            2.6723536,
+            51.1198255
           ],
           [
             2.6725022,
@@ -28683,6 +28710,7 @@
       "id": "way/496980699",
       "properties": {
         "highway": "footway",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/496980699"
       },
@@ -30642,6 +30670,7 @@
         "highway": "living_street",
         "maxspeed": "20",
         "name": "Zeedijk-Wenduine",
+        "smoothness": "good",
         "surface": "paving_stones",
         "vehicle": "no",
         "vehicle:conditional": "yes @ (06:00-12:00); yes @ (day 1,15,16,-1)",
@@ -33074,7 +33103,8 @@
       "properties": {
         "highway": "service",
         "name": "Buskruitstraat",
-        "surface": "sett",
+        "smoothness": "good",
+        "surface": "concrete",
         "id": "way/822677595"
       },
       "geometry": {
@@ -35266,7 +35296,8 @@
       "properties": {
         "bicycle": "dismount",
         "highway": "footway",
-        "surface": "asphalt",
+        "smoothness": "excellent",
+        "surface": "concrete",
         "id": "way/969597348"
       },
       "geometry": {
@@ -35309,6 +35340,7 @@
       "properties": {
         "bicycle": "dismount",
         "highway": "footway",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/969597349"
       },
@@ -35337,6 +35369,7 @@
         "bicycle": "dismount",
         "highway": "footway",
         "layer": "1",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/969597350"
       },
@@ -36707,6 +36740,7 @@
       "properties": {
         "highway": "steps",
         "incline": "down",
+        "ramp": "no",
         "step_count": "6",
         "surface": "paving_stones",
         "id": "way/1046461282"
@@ -36913,7 +36947,9 @@
         "bicycle": "yes",
         "highway": "unclassified",
         "horse": "no",
+        "lane_markings": "no",
         "name": "Halvemaandijk",
+        "smoothness": "bad",
         "surface": "sett",
         "traffic_sign": "BE:C3,GIV[uitgezonderd diensten],M2",
         "vehicle": "no",
@@ -37014,8 +37050,10 @@
       "id": "way/1064866608",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Buskruitstraat",
-        "surface": "sett",
+        "smoothness": "good",
+        "surface": "concrete",
         "id": "way/1064866608"
       },
       "geometry": {
@@ -37574,6 +37612,7 @@
         "foot": "yes",
         "highway": "steps",
         "incline": "up",
+        "ramp": "no",
         "sac_scale": "mountain_hiking",
         "ski": "no",
         "snowmobile": "no",
@@ -37606,7 +37645,9 @@
         "highway": "path",
         "sac_scale": "mountain_hiking",
         "ski": "no",
+        "smoothness": "intermediate",
         "snowmobile": "no",
+        "surface": "paving_stones",
         "wheelchair": "no",
         "id": "way/1114750658"
       },
@@ -38201,6 +38242,8 @@
       "id": "way/1123610859",
       "properties": {
         "highway": "path",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
         "id": "way/1123610859"
       },
       "geometry": {
@@ -40930,12 +40973,8 @@
             51.1926059
           ],
           [
-            2.8273197,
-            51.1926478
-          ],
-          [
-            2.8268895,
-            51.1926429
+            2.8269056,
+            51.1925488
           ],
           [
             2.8267125,
@@ -40946,6 +40985,10 @@
             51.1924949
           ],
           [
+            2.8261226,
+            51.1924414
+          ],
+          [
             2.8259669,
             51.1924243
           ],
@@ -40954,16 +40997,32 @@
             51.1922125
           ],
           [
-            2.8255162,
-            51.1918999
+            2.8253016,
+            51.1918226
           ],
           [
-            2.8252587,
-            51.1915939
+            2.8251192,
+            51.1915805
           ],
           [
-            2.8245867,
-            51.19035
+            2.8247068,
+            51.1909445
+          ],
+          [
+            2.8245791,
+            51.190659
+          ],
+          [
+            2.8246884,
+            51.1905217
+          ],
+          [
+            2.8245013,
+            51.1904132
+          ],
+          [
+            2.8244751,
+            51.1903383
           ]
         ]
       }
@@ -40982,10 +41041,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            2.8245867,
-            51.19035
-          ],
           [
             2.8244751,
             51.1903383
@@ -41335,6 +41390,7 @@
       "id": "way/1185106533",
       "properties": {
         "highway": "path",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/1185106533"
       },
