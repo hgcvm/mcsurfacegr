@@ -5263,8 +5263,16 @@
             50.8019857
           ],
           [
-            5.5348615,
-            50.8019997
+            5.5349875,
+            50.8020153
+          ],
+          [
+            5.5352969,
+            50.8020358
+          ],
+          [
+            5.5354725,
+            50.802019
           ]
         ]
       }
@@ -5467,10 +5475,7 @@
       "id": "way/30185011",
       "properties": {
         "highway": "residential",
-        "maxspeed": "50",
         "name": "Demerstraat",
-        "source:maxspeed": "BE-VLG:urban",
-        "zone:traffic": "BE-VLG:urban",
         "id": "way/30185011"
       },
       "geometry": {
@@ -5891,11 +5896,8 @@
       "id": "way/164243849",
       "properties": {
         "highway": "track",
-        "maxspeed": "50",
-        "source:maxspeed": "BE-VLG:urban",
         "surface": "unpaved",
         "tracktype": "grade3",
-        "zone:traffic": "BE-VLG:urban",
         "id": "way/164243849"
       },
       "geometry": {
@@ -6027,12 +6029,9 @@
       "id": "way/210134957",
       "properties": {
         "highway": "track",
-        "maxspeed": "50",
         "name": "Sint-Maartenstraat",
-        "source:maxspeed": "BE-VLG:urban",
         "surface": "concrete:lanes",
         "tracktype": "grade1",
-        "zone:traffic": "BE-VLG:urban",
         "id": "way/210134957"
       },
       "geometry": {
@@ -6137,10 +6136,7 @@
       "id": "way/210884621",
       "properties": {
         "highway": "residential",
-        "maxspeed": "50",
         "name": "Kasteelstraat",
-        "source:maxspeed": "BE-VLG:urban",
-        "zone:traffic": "BE-VLG:urban",
         "id": "way/210884621"
       },
       "geometry": {
@@ -6237,10 +6233,7 @@
       "id": "way/210884627",
       "properties": {
         "highway": "residential",
-        "maxspeed": "50",
         "name": "Zagerijstraat",
-        "source:maxspeed": "BE-VLG:urban",
-        "zone:traffic": "BE-VLG:urban",
         "id": "way/210884627"
       },
       "geometry": {
@@ -6468,10 +6461,7 @@
       "id": "way/243839368",
       "properties": {
         "highway": "residential",
-        "maxspeed": "50",
         "name": "Sint-Maartenstraat",
-        "source:maxspeed": "BE-VLG:urban",
-        "zone:traffic": "BE-VLG:urban",
         "id": "way/243839368"
       },
       "geometry": {
@@ -7280,11 +7270,8 @@
       "id": "way/706210265",
       "properties": {
         "highway": "residential",
-        "maxspeed": "50",
         "name": "Sint-Maartenstraat",
-        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
-        "zone:traffic": "BE-VLG:urban",
         "id": "way/706210265"
       },
       "geometry": {
@@ -7645,40 +7632,6 @@
           [
             5.5400979,
             50.8148612
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1234846581",
-      "properties": {
-        "highway": "unclassified",
-        "maxspeed": "50",
-        "name": "Holstraat",
-        "source:maxspeed": "BE-VLG:urban",
-        "surface": "asphalt",
-        "zone:traffic": "BE-VLG:urban",
-        "id": "way/1234846581"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.5348615,
-            50.8019997
-          ],
-          [
-            5.5349875,
-            50.8020153
-          ],
-          [
-            5.5352969,
-            50.8020358
-          ],
-          [
-            5.5354725,
-            50.802019
           ]
         ]
       }
@@ -8680,6 +8633,7 @@
         "access": "destination",
         "highway": "unclassified",
         "name": "Oude Blaarstraat",
+        "surface": "dirt",
         "id": "way/28081703"
       },
       "geometry": {
@@ -19993,6 +19947,8 @@
       "type": "Feature",
       "id": "way/126805239",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -20188,6 +20144,7 @@
       "type": "Feature",
       "id": "way/130308292",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Thewissensteeg",
@@ -20224,7 +20181,7 @@
         "bicycle": "yes",
         "highway": "track",
         "name": "Steenveld",
-        "surface": "gravel",
+        "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",
         "id": "way/130308298"
@@ -20687,6 +20644,8 @@
       "type": "Feature",
       "id": "way/219091878",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Logebeekstraat",
@@ -20717,6 +20676,8 @@
       "type": "Feature",
       "id": "way/219091885",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Vrijheersstraat",
@@ -20832,6 +20793,8 @@
       "type": "Feature",
       "id": "way/225956523",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "residential",
         "lane_markings": "no",
         "maxspeed": "50",
@@ -21087,6 +21050,7 @@
       "type": "Feature",
       "id": "way/255476270",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -21123,6 +21087,8 @@
       "type": "Feature",
       "id": "way/260343951",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Boterdelstraat",
@@ -21164,7 +21130,7 @@
         "bicycle": "yes",
         "highway": "track",
         "name": "Steenveld",
-        "surface": "gravel",
+        "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",
         "id": "way/260343990"
@@ -21283,6 +21249,8 @@
       "type": "Feature",
       "id": "way/260344002",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Wingerd",
@@ -21319,6 +21287,8 @@
       "type": "Feature",
       "id": "way/260344006",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Wingerd",
@@ -21421,6 +21391,8 @@
       "type": "Feature",
       "id": "way/294499823",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "direction": "both",
         "highway": "residential",
         "lit": "yes",
@@ -21629,6 +21601,7 @@
       "type": "Feature",
       "id": "way/346396360",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -22071,6 +22044,7 @@
       "type": "Feature",
       "id": "way/346592943",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -22279,6 +22253,8 @@
       "type": "Feature",
       "id": "way/519348517",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -22522,6 +22498,8 @@
       "type": "Feature",
       "id": "way/1052983489",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -24656,7 +24634,7 @@
         "lanes:backward": "2",
         "lanes:forward": "1",
         "maxspeed": "50",
-        "name": "Ridders de Menten de Horneplein",
+        "name": "a+ Medicina Diagnóstica",
         "ref": "N716",
         "surface": "asphalt",
         "turn:lanes:backward": "left|through",
@@ -24922,6 +24900,7 @@
       "type": "Feature",
       "id": "way/342394098",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Prins Albertlaan",
@@ -24974,6 +24953,7 @@
       "type": "Feature",
       "id": "way/699288530",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
@@ -35277,8 +35257,6 @@
       "type": "Feature",
       "id": "way/337081195",
       "properties": {
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Brandstraat",
@@ -35328,8 +35306,6 @@
       "type": "Feature",
       "id": "way/337081196",
       "properties": {
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -35588,7 +35564,6 @@
       "type": "Feature",
       "id": "way/337886504",
       "properties": {
-        "cycleway:both": "no",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Luyssenstraat",
@@ -35625,8 +35600,6 @@
       "type": "Feature",
       "id": "way/353431283",
       "properties": {
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -35898,8 +35871,6 @@
       "type": "Feature",
       "id": "way/587934780",
       "properties": {
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Henisveld",
@@ -37527,6 +37498,8 @@
       "type": "Feature",
       "id": "way/191008654",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Keelstraat",
@@ -38575,6 +38548,7 @@
       "type": "Feature",
       "id": "way/9643553",
       "properties": {
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "tertiary",
         "lane_markings": "no",
@@ -38604,6 +38578,7 @@
       "type": "Feature",
       "id": "way/32019316",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Truierweg",
@@ -39063,7 +39038,10 @@
       "id": "way/220287195",
       "properties": {
         "highway": "path",
+        "old_ref": "L23",
+        "railway": "abandoned",
         "surface": "dirt",
+        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/220287195"
       },
       "geometry": {
@@ -39578,6 +39556,7 @@
       "type": "Feature",
       "id": "way/288092124",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Bronstraat",
@@ -39977,6 +39956,7 @@
       "type": "Feature",
       "id": "way/757577576",
       "properties": {
+        "cycleway:both": "no",
         "highway": "secondary",
         "lane_markings": "no",
         "maxspeed": "50",
@@ -40031,8 +40011,11 @@
       "id": "way/761049333",
       "properties": {
         "highway": "track",
+        "old_ref": "L23",
+        "railway": "abandoned",
         "surface": "dirt",
         "tracktype": "grade4",
+        "wikipedia": "nl:Spoorlijn 23",
         "id": "way/761049333"
       },
       "geometry": {
@@ -41340,8 +41323,10 @@
       "type": "Feature",
       "id": "way/166027782",
       "properties": {
+        "abandoned:railway": "tram",
         "highway": "path",
         "name": "Oude Tramweg",
+        "railway": "abandoned",
         "surface": "unpaved",
         "id": "way/166027782"
       },
@@ -41942,14 +41927,11 @@
         "access": "destination",
         "agricultural": "yes",
         "bicycle": "yes",
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "foot": "yes",
-        "highway": "track",
+        "highway": "unclassified",
         "horse": "yes",
         "maxspeed": "30",
         "surface": "concrete",
-        "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "id": "way/217597309"
       },
@@ -41982,14 +41964,11 @@
         "access": "destination",
         "agricultural": "yes",
         "bicycle": "yes",
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "foot": "yes",
-        "highway": "track",
+        "highway": "unclassified",
         "horse": "yes",
         "maxspeed": "30",
         "surface": "concrete",
-        "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "width": "2",
         "id": "way/217620805"
@@ -42276,14 +42255,11 @@
         "access": "destination",
         "agricultural": "yes",
         "bicycle": "yes",
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "foot": "yes",
-        "highway": "track",
+        "highway": "unclassified",
         "horse": "yes",
         "maxspeed": "30",
         "surface": "concrete",
-        "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "width": "2",
         "id": "way/810301939"
@@ -45419,8 +45395,6 @@
       "type": "Feature",
       "id": "way/347371029",
       "properties": {
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Espenbos",
@@ -47536,8 +47510,6 @@
       "type": "Feature",
       "id": "way/35140145",
       "properties": {
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Colenstraat",
@@ -47641,8 +47613,6 @@
       "type": "Feature",
       "id": "way/208954520",
       "properties": {
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Colenstraat",
@@ -47718,8 +47688,6 @@
       "id": "way/219110517",
       "properties": {
         "bridge": "yes",
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "layer": "1",
@@ -47746,8 +47714,6 @@
       "type": "Feature",
       "id": "way/219110518",
       "properties": {
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Colenstraat",
@@ -47810,8 +47776,6 @@
       "type": "Feature",
       "id": "way/220166022",
       "properties": {
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Colenstraat",
@@ -47870,8 +47834,6 @@
       "type": "Feature",
       "id": "way/565849954",
       "properties": {
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Colenstraat",
