@@ -3461,6 +3461,10 @@
             50.9918791
           ],
           [
+            5.0523284,
+            50.9916656
+          ],
+          [
             5.0522619,
             50.9915414
           ]
@@ -3471,7 +3475,10 @@
       "type": "Feature",
       "id": "way/34835939",
       "properties": {
-        "highway": "footway",
+        "bicycle": "designated",
+        "cycleway": "crossing",
+        "foot": "designated",
+        "highway": "cycleway",
         "surface": "asphalt",
         "id": "way/34835939"
       },
@@ -7450,12 +7457,10 @@
       "type": "Feature",
       "id": "way/61122701",
       "properties": {
-        "cyclestreet": "yes",
         "highway": "unclassified",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Luysenweg",
-        "overtaking:motor_vehicle": "no",
         "surface": "asphalt",
         "id": "way/61122701"
       },
@@ -22300,7 +22305,6 @@
         "lanes": "2",
         "maxspeed": "70",
         "name": "Nieuwe Baan",
-        "ref": "N174",
         "surface": "asphalt",
         "id": "way/239233826"
       },
@@ -22762,10 +22766,6 @@
           [
             5.041935,
             51.0094942
-          ],
-          [
-            5.041916,
-            51.0093991
           ],
           [
             5.0419125,
@@ -42531,7 +42531,7 @@
         "cycleway": "lane",
         "highway": "secondary",
         "lanes": "2",
-        "maxspeed": "70",
+        "maxspeed": "90",
         "name": "'t Hasseltkiezel",
         "ref": "N73",
         "toll:hgv": "yes",
@@ -47081,7 +47081,6 @@
         "opening_hours": "sunrise-sunset",
         "ramp": "no",
         "step_count": "32",
-        "surface": "concrete",
         "tactile_paving": "no",
         "id": "way/860308761"
       },
@@ -51943,12 +51942,10 @@
       "type": "Feature",
       "id": "way/1180702224",
       "properties": {
-        "cyclestreet": "yes",
         "highway": "unclassified",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Luysenweg",
-        "overtaking:motor_vehicle": "no",
         "id": "way/1180702224"
       },
       "geometry": {
@@ -51981,12 +51978,10 @@
       "type": "Feature",
       "id": "way/1180702225",
       "properties": {
-        "cyclestreet": "yes",
         "highway": "unclassified",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Luysenweg",
-        "overtaking:motor_vehicle": "no",
         "smoothness": "intermediate",
         "surface": "cobblestone",
         "id": "way/1180702225"
@@ -52185,7 +52180,7 @@
       "id": "way/1183356910",
       "properties": {
         "highway": "footway",
-        "surface": "paving_stones",
+        "surface": "asphalt",
         "id": "way/1183356910"
       },
       "geometry": {
@@ -52257,19 +52252,17 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "bus": "yes",
-        "cyclestreet": "yes",
         "emergency": "yes",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
-        "maxspeed": "30",
+        "maxspeed": "50",
         "mofa": "yes",
         "motor_vehicle": "destination",
         "name": "Luysenweg",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
         "oneway:speed_pedelec": "no",
-        "overtaking:motor_vehicle": "no",
         "speed_pedelec": "yes",
         "traffic_sign": "BE:C3,BE:M12_nl,BE:Type_IV_local_traffic_nl",
         "vehicle": "destination",
@@ -55225,8 +55218,8 @@
             51.1662779
           ],
           [
-            4.9874398,
-            51.1663405
+            4.9874506,
+            51.166334
           ],
           [
             4.9873986,
@@ -55624,18 +55617,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.989837,
-            51.1619127
-          ],
-          [
-            4.989947,
-            51.1619015
-          ],
-          [
-            4.9899562,
-            51.1619003
-          ],
           [
             4.9900076,
             51.1618954
@@ -56494,12 +56475,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0087031,
-            51.1587188
+            5.0086809,
+            51.1587803
           ],
           [
-            5.0089394,
-            51.1584005
+            5.0089502,
+            51.1584082
           ],
           [
             5.0091489,
@@ -57804,10 +57785,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0014537,
-            51.1625402
-          ],
-          [
             5.0012092,
             51.1624863
           ],
@@ -57877,12 +57854,8 @@
             51.1598474
           ],
           [
-            5.0085712,
-            51.1589068
-          ],
-          [
-            5.0087031,
-            51.1587188
+            5.0085642,
+            51.1589434
           ]
         ]
       }
@@ -57908,6 +57881,89 @@
           [
             5.0304272,
             51.1500072
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1227786024",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "name": "Lemersveld",
+        "surface": "concrete",
+        "tracktype": "grade1",
+        "id": "way/1227786024"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0085642,
+            51.1589434
+          ],
+          [
+            5.0085994,
+            51.1588942
+          ],
+          [
+            5.0086809,
+            51.1587803
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1232991993",
+      "properties": {
+        "highway": "footway",
+        "surface": "paving_stones",
+        "id": "way/1232991993"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0014537,
+            51.1625402
+          ],
+          [
+            5.0012092,
+            51.1624863
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1232992005",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "surface": "paving_stones",
+        "id": "way/1232992005"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.989837,
+            51.1619127
+          ],
+          [
+            4.989947,
+            51.1619015
+          ],
+          [
+            4.9899562,
+            51.1619003
+          ],
+          [
+            4.9900076,
+            51.1618954
           ]
         ]
       }
