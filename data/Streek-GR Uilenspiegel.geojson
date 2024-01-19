@@ -8781,7 +8781,7 @@
       "id": "way/84269034",
       "properties": {
         "cycleway": "lane",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "50",
         "name": "Assenedestraat",
@@ -9028,6 +9028,7 @@
       "id": "way/86401756",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Kanaalweg",
@@ -10927,8 +10928,10 @@
         "foot": "yes",
         "highway": "track",
         "horse": "yes",
+        "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Veertig Gemetenstraat",
+        "source:maxspeed": "sign",
         "surface": "compacted",
         "traffic_sign": "BE:F99c",
         "id": "way/121213657"
@@ -13777,7 +13780,8 @@
         "cycleway:both": "no",
         "highway": "residential",
         "lit": "no",
-        "maxspeed:type": "BE:rural",
+        "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Groot Burkelkalseide",
         "sidewalk": "no",
         "smoothness": "excellent",

@@ -781,6 +781,7 @@
       "properties": {
         "cycleway": "lane",
         "highway": "secondary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Wellingstraat",
         "ref": "N368",
@@ -828,6 +829,7 @@
         "bridge": "yes",
         "cycleway": "track",
         "highway": "secondary",
+        "lanes": "2",
         "layer": "1",
         "maxspeed": "50",
         "name": "Wellingstraat",
@@ -3494,6 +3496,7 @@
       "id": "way/42039797",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Ooikestraat",
         "surface": "concrete:plates",
         "id": "way/42039797"
@@ -9939,6 +9942,8 @@
       "id": "way/117809514",
       "properties": {
         "highway": "track",
+        "surface": "ground",
+        "tracktype": "grade2",
         "id": "way/117809514"
       },
       "geometry": {
@@ -11257,6 +11262,7 @@
       "properties": {
         "cycleway": "lane",
         "highway": "secondary",
+        "lanes": "2",
         "maxspeed": "70",
         "name": "Wellingstraat",
         "ref": "N368",
@@ -11286,6 +11292,7 @@
       "id": "way/134140738",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Blommeke",
         "surface": "asphalt",
         "id": "way/134140738"
@@ -11703,6 +11710,7 @@
       "id": "way/135194457",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Woestestraat",
         "surface": "asphalt",
         "id": "way/135194457"
@@ -11738,6 +11746,7 @@
       "id": "way/135194460",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Woestestraat",
         "surface": "asphalt",
         "id": "way/135194460"
@@ -11762,6 +11771,8 @@
       "properties": {
         "highway": "track",
         "name": "Zandberg",
+        "surface": "ground",
+        "tracktype": "grade3",
         "id": "way/135194461"
       },
       "geometry": {
@@ -20309,6 +20320,7 @@
       "type": "Feature",
       "id": "way/221231959",
       "properties": {
+        "abandoned:railway": "rail",
         "bicycle": "designated",
         "foot": "designated",
         "highway": "path",
@@ -20316,6 +20328,7 @@
         "motor_vehicle": "no",
         "name": "Mijnwerkerspad - Sentier des Mineurs",
         "old_name": "Oude Spoorweg Lijn 87",
+        "railway": "abandoned",
         "segregated": "no",
         "surface": "concrete",
         "id": "way/221231959"
@@ -20323,26 +20336,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.6568489,
-            50.7462476
-          ],
-          [
-            3.6566825,
-            50.7462074
-          ],
-          [
-            3.6565436,
-            50.7461727
-          ],
-          [
-            3.6564688,
-            50.7461568
-          ],
-          [
-            3.6564049,
-            50.7461459
-          ],
           [
             3.6563375,
             50.7461358
@@ -21434,6 +21427,7 @@
       "id": "way/283457115",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Meerbergstraat",
         "surface": "asphalt",
         "id": "way/283457115"
@@ -26459,6 +26453,7 @@
       "id": "way/724485017",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Vossenpad",
         "surface": "asphalt",
         "id": "way/724485017"
@@ -30900,6 +30895,51 @@
           [
             3.4581944,
             50.9706528
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1238171805",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "horse": "no",
+        "motor_vehicle": "no",
+        "name": "Mijnwerkerspad - Sentier des Mineurs",
+        "old_name": "Oude Spoorweg Lijn 87",
+        "segregated": "no",
+        "surface": "concrete",
+        "id": "way/1238171805"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6568489,
+            50.7462476
+          ],
+          [
+            3.6566825,
+            50.7462074
+          ],
+          [
+            3.6565436,
+            50.7461727
+          ],
+          [
+            3.6564688,
+            50.7461568
+          ],
+          [
+            3.6564049,
+            50.7461459
+          ],
+          [
+            3.6563375,
+            50.7461358
           ]
         ]
       }

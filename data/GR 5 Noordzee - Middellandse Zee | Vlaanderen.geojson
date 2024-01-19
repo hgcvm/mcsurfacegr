@@ -1516,8 +1516,8 @@
             51.3832374
           ],
           [
-            4.4762177,
-            51.3833353
+            4.476215,
+            51.3833412
           ]
         ]
       }
@@ -6053,16 +6053,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6349226,
-            51.3528363
+            4.6349081,
+            51.3528142
           ],
           [
-            4.6350444,
-            51.352778
+            4.6350184,
+            51.3527618
           ],
           [
-            4.6351101,
-            51.3527465
+            4.635082,
+            51.3527322
           ]
         ]
       }
@@ -6959,6 +6959,7 @@
         "highway": "unclassified",
         "maxspeed": "60",
         "name": "Boslustweg",
+        "surface": "asphalt",
         "id": "way/233827225"
       },
       "geometry": {
@@ -7479,6 +7480,8 @@
       "id": "way/252638502",
       "properties": {
         "highway": "track",
+        "surface": "ground",
+        "tracktype": "grade3",
         "id": "way/252638502"
       },
       "geometry": {
@@ -8590,6 +8593,8 @@
       "id": "way/295732704",
       "properties": {
         "highway": "track",
+        "surface": "dirt",
+        "tracktype": "grade4",
         "id": "way/295732704"
       },
       "geometry": {
@@ -9161,6 +9166,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Balsedreef",
+        "surface": "asphalt",
         "id": "way/345038752"
       },
       "geometry": {
@@ -9300,12 +9306,8 @@
       "type": "Feature",
       "id": "way/372270993",
       "properties": {
-        "access": "yes",
-        "bicycle": "yes",
-        "cycleway": "no",
-        "foot": "yes",
+        "bicycle": "use_sidepath",
         "highway": "residential",
-        "horse": "yes",
         "lanes": "1",
         "maxspeed": "50",
         "name": "Ringlaan",
@@ -9318,8 +9320,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6349226,
-            51.3528363
+            4.6349081,
+            51.3528142
           ],
           [
             4.6354512,
@@ -9395,12 +9397,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6351101,
-            51.3527465
+            4.635082,
+            51.3527322
           ],
           [
-            4.6352442,
-            51.3527733
+            4.6351257,
+            51.3527683
+          ],
+          [
+            4.6352484,
+            51.3527856
           ],
           [
             4.6353403,
@@ -10268,7 +10274,9 @@
       "id": "way/542603015",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Oudaenstraat",
+        "surface": "asphalt",
         "id": "way/542603015"
       },
       "geometry": {
@@ -11386,7 +11394,8 @@
       "type": "Feature",
       "id": "way/1094736440",
       "properties": {
-        "bicycle": "yes",
+        "bicycle": "designated",
+        "foot": "designated",
         "highway": "cycleway",
         "surface": "concrete",
         "vehicle": "no",
@@ -11396,8 +11405,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4762177,
-            51.3833353
+            4.476215,
+            51.3833412
+          ],
+          [
+            4.4762082,
+            51.3833834
           ],
           [
             4.4760832,
@@ -13701,24 +13714,40 @@
             50.8872954
           ],
           [
-            5.6288874,
-            50.8871447
+            5.6290183,
+            50.8872108
           ],
           [
-            5.6287245,
-            50.8868901
+            5.6290393,
+            50.8871214
           ],
           [
-            5.6285894,
-            50.8867993
+            5.6290961,
+            50.8870009
           ],
           [
-            5.6283359,
-            50.8867413
+            5.6291389,
+            50.886892
           ],
           [
-            5.628237,
-            50.8867203
+            5.629144,
+            50.886809
+          ],
+          [
+            5.629105,
+            50.8866624
+          ],
+          [
+            5.6289983,
+            50.8863098
+          ],
+          [
+            5.6289581,
+            50.8862546
+          ],
+          [
+            5.6288717,
+            50.8862168
           ]
         ]
       }
@@ -21867,6 +21896,7 @@
       "id": "way/37334833",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Belgiëlaan",
         "name:etymology:wikidata": "Q31",
         "oneway": "yes",
@@ -36658,8 +36688,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.967066,
-            51.0111707
+            4.9670821,
+            51.0111635
           ],
           [
             4.9669827,
@@ -39317,6 +39347,44 @@
     },
     {
       "type": "Feature",
+      "id": "way/232077642",
+      "properties": {
+        "highway": "residential",
+        "name": "Op de Puin",
+        "id": "way/232077642"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6281546,
+            50.8868467
+          ],
+          [
+            5.628237,
+            50.8867203
+          ],
+          [
+            5.6283778,
+            50.8864861
+          ],
+          [
+            5.6284319,
+            50.8864223
+          ],
+          [
+            5.6285204,
+            50.8863547
+          ],
+          [
+            5.6288717,
+            50.8862168
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/232077650",
       "properties": {
         "highway": "cycleway",
@@ -39937,6 +40005,7 @@
       "properties": {
         "highway": "track",
         "motor_vehicle": "no",
+        "railway": "abandoned",
         "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/233048726"
@@ -40658,6 +40727,10 @@
           [
             5.0571217,
             50.9905838
+          ],
+          [
+            5.0571549,
+            50.9906451
           ],
           [
             5.0571568,
@@ -42904,7 +42977,8 @@
       "type": "Feature",
       "id": "way/289090878",
       "properties": {
-        "highway": "track",
+        "construction": "track",
+        "highway": "construction",
         "layer": "-1",
         "motor_vehicle": "no",
         "surface": "cobblestone",
@@ -42930,7 +43004,8 @@
       "type": "Feature",
       "id": "way/289090881",
       "properties": {
-        "highway": "track",
+        "construction": "track",
+        "highway": "construction",
         "layer": "-1",
         "motor_vehicle": "no",
         "name": "Schaffensepoort",
@@ -43229,7 +43304,7 @@
       "properties": {
         "cycleway": "opposite",
         "highway": "residential",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Blijdenberg",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -43257,7 +43332,7 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Nieuwstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -43285,7 +43360,7 @@
         "cycleway": "opposite",
         "highway": "residential",
         "lit": "yes",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Vaartstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -43348,7 +43423,7 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Nieuwstraat",
         "oneway": "yes",
         "proposed:cyclestreet": "yes",
@@ -45692,6 +45767,7 @@
       "properties": {
         "highway": "track",
         "motor_vehicle": "no",
+        "railway": "abandoned",
         "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/393292786"
@@ -47608,8 +47684,8 @@
             50.9545425
           ],
           [
-            5.4854616,
-            50.9545409
+            5.485467,
+            50.9545426
           ],
           [
             5.4854114,
@@ -49017,28 +49093,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/478491574",
-      "properties": {
-        "highway": "residential",
-        "name": "Op de Puin",
-        "id": "way/478491574"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.6281546,
-            50.8868467
-          ],
-          [
-            5.628237,
-            50.8867203
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/478493198",
       "properties": {
         "highway": "track",
@@ -50352,8 +50406,8 @@
             51.009636
           ],
           [
-            4.979862,
-            51.0089468
+            4.9798607,
+            51.0090109
           ],
           [
             4.9798752,
@@ -51545,6 +51599,10 @@
           [
             5.0577482,
             50.9917367
+          ],
+          [
+            5.0577522,
+            50.9917443
           ],
           [
             5.0578324,
@@ -56795,8 +56853,8 @@
             51.01791
           ],
           [
-            4.9769696,
-            51.0178131
+            4.9769998,
+            51.0178333
           ]
         ]
       }
@@ -56815,12 +56873,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9769696,
-            51.0178131
+            4.9769998,
+            51.0178333
           ],
           [
-            4.9770464,
-            51.0177292
+            4.977035,
+            51.0177258
           ],
           [
             4.9769237,
@@ -56883,24 +56941,52 @@
             51.0176706
           ],
           [
-            4.9766675,
-            51.0176068
+            4.9766531,
+            51.0176385
+          ],
+          [
+            4.9766975,
+            51.0176161
+          ],
+          [
+            4.9766816,
+            51.0175929
           ],
           [
             4.9766155,
             51.0175608
           ],
           [
-            4.9764196,
-            51.0175541
+            4.9765005,
+            51.0175612
           ],
           [
-            4.9763713,
-            51.0174701
+            4.9764538,
+            51.0175659
           ],
           [
-            4.9762097,
-            51.0173674
+            4.9764142,
+            51.0175592
+          ],
+          [
+            4.9763844,
+            51.0175418
+          ],
+          [
+            4.9763411,
+            51.0174579
+          ],
+          [
+            4.9763068,
+            51.0174316
+          ],
+          [
+            4.976267,
+            51.0174103
+          ],
+          [
+            4.9761353,
+            51.0173712
           ],
           [
             4.9760196,
@@ -58749,6 +58835,7 @@
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Teerlingbrug",
+        "railway": "abandoned",
         "surface": "concrete",
         "traffic_sign": "BE:F99c",
         "width": "4",
@@ -60674,8 +60761,8 @@
             51.0111117
           ],
           [
-            4.967066,
-            51.0111707
+            4.9670821,
+            51.0111635
           ]
         ]
       }
@@ -69292,24 +69379,24 @@
             50.9470448
           ],
           [
-            5.3596726,
-            50.947083
+            5.3595996,
+            50.9470359
           ],
           [
-            5.3597416,
-            50.9471154
+            5.3596835,
+            50.9470568
           ],
           [
-            5.3599566,
-            50.9472043
+            5.3599898,
+            50.947175
           ],
           [
             5.3611631,
             50.9477033
           ],
           [
-            5.3615229,
-            50.9478035
+            5.3615013,
+            50.9478108
           ],
           [
             5.363425,
@@ -69345,6 +69432,10 @@
           [
             5.3651683,
             50.9487465
+          ],
+          [
+            5.3652498,
+            50.9487507
           ],
           [
             5.3657745,
@@ -70767,8 +70858,8 @@
             50.9292608
           ],
           [
-            5.3361015,
-            50.9292541
+            5.3361451,
+            50.9292647
           ],
           [
             5.3362703,
@@ -72760,6 +72851,10 @@
           [
             4.9546097,
             51.0079389
+          ],
+          [
+            4.9547331,
+            51.0079392
           ],
           [
             4.954909,
