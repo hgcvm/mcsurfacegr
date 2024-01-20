@@ -10000,12 +10000,13 @@
       "id": "way/39727303",
       "properties": {
         "cycleway": "no",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:type": "BE:zone30",
         "name": "Markt",
         "oneway": "no",
+        "ref": "N407b",
         "surface": "sett",
         "id": "way/39727303"
       },
@@ -13988,8 +13989,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9806433,
-            51.1262913
+            3.9806264,
+            51.1262729
           ],
           [
             3.9822386,
@@ -17307,13 +17308,14 @@
       "type": "Feature",
       "id": "way/73546094",
       "properties": {
-        "highway": "secondary",
+        "highway": "tertiary",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:type": "BE:zone30",
         "name": "Markt",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "ref": "N473b",
         "surface": "sett",
         "id": "way/73546094"
       },
@@ -19421,24 +19423,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9801177,
-            51.1277022
+            3.9801008,
+            51.1276993
           ],
           [
-            3.9801868,
-            51.1273464
+            3.9802086,
+            51.127217
           ],
           [
-            3.9802505,
-            51.1271233
+            3.9802389,
+            51.1271223
           ],
           [
-            3.9803032,
-            51.1270102
+            3.9802916,
+            51.1270063
           ],
           [
-            3.9806433,
-            51.1262913
+            3.9806264,
+            51.1262729
           ]
         ]
       }
@@ -21748,8 +21750,7 @@
         "highway": "pedestrian",
         "motor_vehicle": "destination",
         "name": "Apostelstraat",
-        "oneway": "yes",
-        "oneway:bicycle": "no",
+        "oneway:motor_vehicle": "yes",
         "id": "way/146222583"
       },
       "geometry": {
@@ -21766,6 +21767,10 @@
           [
             4.1415822,
             51.1640106
+          ],
+          [
+            4.1417801,
+            51.1640301
           ],
           [
             4.141861,
@@ -22283,24 +22288,32 @@
             51.1302453
           ],
           [
-            3.9796191,
-            51.1297685
+            3.9794991,
+            51.1300754
           ],
           [
-            3.9797383,
-            51.1294034
+            3.9795975,
+            51.1297651
           ],
           [
-            3.9798304,
-            51.1290292
+            3.9797214,
+            51.1294024
           ],
           [
-            3.9798672,
-            51.1288593
+            3.9798181,
+            51.1290302
           ],
           [
-            3.9801177,
-            51.1277022
+            3.9798533,
+            51.1288574
+          ],
+          [
+            3.9800065,
+            51.1281006
+          ],
+          [
+            3.9801008,
+            51.1276993
           ]
         ]
       }
@@ -23844,6 +23857,7 @@
         "bicycle": "yes",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "30",
         "name": "Grote Heimelinkstraat",
         "sidewalk": "right",
         "surface": "asphalt",
