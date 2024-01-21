@@ -131885,8 +131885,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0121491,
-            51.0049465
+            4.0121681,
+            51.0049516
           ],
           [
             4.012346,
@@ -131906,12 +131906,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0120836,
-            51.0050526
+            4.0120798,
+            51.0050578
           ],
           [
-            4.0121491,
-            51.0049465
+            4.0121681,
+            51.0049516
           ]
         ]
       }
@@ -133027,7 +133027,9 @@
       "type": "Feature",
       "id": "way/842234072",
       "properties": {
-        "highway": "cycleway",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
         "segregated": "no",
         "id": "way/842234072"
       },
@@ -133035,8 +133037,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0120836,
-            51.0050526
+            4.0120798,
+            51.0050578
           ],
           [
             4.0119094,
@@ -134295,6 +134297,7 @@
       "type": "Feature",
       "id": "way/28388159",
       "properties": {
+        "bicycle": "no",
         "highway": "path",
         "surface": "unhewn_cobblestone",
         "id": "way/28388159"
@@ -134847,6 +134850,7 @@
       "type": "Feature",
       "id": "way/32993559",
       "properties": {
+        "bicycle": "no",
         "highway": "path",
         "surface": "sett",
         "id": "way/32993559"
@@ -138893,6 +138897,7 @@
       "type": "Feature",
       "id": "way/132015684",
       "properties": {
+        "bicycle": "no",
         "highway": "path",
         "traffic_sign": "NL:G07",
         "id": "way/132015684"
@@ -149414,43 +149419,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/22902345",
-      "properties": {
-        "alt_name": "Joremaaie",
-        "bridge": "yes",
-        "cycleway": "shared",
-        "highway": "tertiary",
-        "lanes": "3",
-        "lanes:backward": "1",
-        "lanes:forward": "2",
-        "layer": "2",
-        "loc_name": "Kemelbrug",
-        "maxspeed": "30",
-        "name": "Sint-Jorisbrug",
-        "name:etymology:wikidata": "Q48438",
-        "surface": "asphalt",
-        "id": "way/22902345"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.7326858,
-            51.056697
-          ],
-          [
-            3.7329014,
-            51.0567357
-          ],
-          [
-            3.7330299,
-            51.0567474
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/23095390",
       "properties": {
         "bicycle": "designated",
@@ -149643,32 +149611,6 @@
           [
             3.7321325,
             51.0571503
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/23997306",
-      "properties": {
-        "cycleway": "shared",
-        "highway": "tertiary",
-        "maxspeed": "30",
-        "name": "Sint-Joriskaai",
-        "name:etymology:wikidata": "Q48438",
-        "surface": "asphalt",
-        "id": "way/23997306"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.7326547,
-            51.0566977
-          ],
-          [
-            3.7326858,
-            51.056697
           ]
         ]
       }
@@ -150501,8 +150443,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7326547,
-            51.0566977
+            3.7326858,
+            51.056697
           ],
           [
             3.7325535,
@@ -151528,6 +151470,10 @@
             51.057336
           ],
           [
+            3.7424321,
+            51.0573164
+          ],
+          [
             3.7424433,
             51.0572979
           ],
@@ -152204,8 +152150,8 @@
             51.0567443
           ],
           [
-            3.73304,
-            51.0567478
+            3.7330299,
+            51.0567474
           ]
         ]
       }
@@ -152256,22 +152202,31 @@
       "type": "Feature",
       "id": "way/419179538",
       "properties": {
-        "cycleway:both": "no",
+        "alt_name": "Joremaaie",
+        "bridge": "yes",
+        "cycleway": "shared",
         "highway": "tertiary",
-        "lanes": "2",
-        "lit": "yes",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "layer": "2",
+        "loc_name": "Kemelbrug",
         "maxspeed": "30",
-        "name": "Joremaaie",
+        "name": "Sint-Jorisbrug",
+        "name:etymology:wikidata": "Q48438",
         "surface": "asphalt",
-        "wikidata": "Q115810845",
         "id": "way/419179538"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.73304,
-            51.0567478
+            3.7326858,
+            51.056697
+          ],
+          [
+            3.7329014,
+            51.0567357
           ],
           [
             3.7330299,
@@ -152459,6 +152414,37 @@
     },
     {
       "type": "Feature",
+      "id": "way/493388224",
+      "properties": {
+        "highway": "cycleway",
+        "name": "Land van Waaslaan",
+        "oneway": "yes",
+        "id": "way/493388224"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7407145,
+            51.0570994
+          ],
+          [
+            3.7408693,
+            51.0571485
+          ],
+          [
+            3.7408877,
+            51.057153
+          ],
+          [
+            3.7409981,
+            51.0571801
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/540085641",
       "properties": {
         "bicycle": "yes",
@@ -152500,7 +152486,7 @@
         "highway": "living_street",
         "maxspeed": "20",
         "mofa": "yes",
-        "name": "Jan Breydel straat",
+        "name": "Jan Breydelstraat",
         "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
@@ -152856,6 +152842,43 @@
           [
             3.7356927,
             51.0559128
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/708085759",
+      "properties": {
+        "bicycle": "designated",
+        "cycleway:surface": "asphalt",
+        "foot": "designated",
+        "footway:surface": "paving_stones",
+        "highway": "cycleway",
+        "lit": "no",
+        "oneway": "no",
+        "segregated": "yes",
+        "surface": "asphalt",
+        "id": "way/708085759"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7407145,
+            51.0570994
+          ],
+          [
+            3.7407149,
+            51.0570631
+          ],
+          [
+            3.740714,
+            51.0570463
+          ],
+          [
+            3.7407157,
+            51.0570005
           ]
         ]
       }
@@ -154000,29 +154023,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1000813697",
-      "properties": {
-        "highway": "cycleway",
-        "oneway": "no",
-        "surface": "asphalt",
-        "id": "way/1000813697"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.7407157,
-            51.0570005
-          ],
-          [
-            3.7410328,
-            51.0569101
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1004255864",
       "properties": {
         "bicycle": "yes",
@@ -154064,6 +154064,7 @@
       "id": "way/1116478191",
       "properties": {
         "bicycle": "yes",
+        "bus": "yes",
         "emergency": "yes",
         "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "pedestrian",
@@ -154221,83 +154222,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1165605017",
-      "properties": {
-        "highway": "cycleway",
-        "note": "fase 5",
-        "oneway": "yes",
-        "id": "way/1165605017"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.7410328,
-            51.0569101
-          ],
-          [
-            3.7411889,
-            51.0570343
-          ],
-          [
-            3.7413985,
-            51.057044
-          ],
-          [
-            3.7414502,
-            51.0570682
-          ],
-          [
-            3.7414913,
-            51.057081
-          ],
-          [
-            3.7415165,
-            51.0570918
-          ],
-          [
-            3.7416162,
-            51.0571427
-          ],
-          [
-            3.7416629,
-            51.057166
-          ],
-          [
-            3.7417238,
-            51.057206
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1173614441",
-      "properties": {
-        "highway": "cycleway",
-        "oneway": "yes",
-        "id": "way/1173614441"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.7417238,
-            51.057206
-          ],
-          [
-            3.7418056,
-            51.0572275
-          ],
-          [
-            3.7424068,
-            51.0573581
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1186223380",
       "properties": {
         "bicycle": "yes",
@@ -154361,6 +154285,43 @@
           [
             3.721025,
             51.0584926
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1240389401",
+      "properties": {
+        "highway": "cycleway",
+        "name": "Land van Waaslaan",
+        "oneway": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "id": "way/1240389401"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7409981,
+            51.0571801
+          ],
+          [
+            3.7411565,
+            51.0572424
+          ],
+          [
+            3.7413594,
+            51.0572881
+          ],
+          [
+            3.7421211,
+            51.0573919
+          ],
+          [
+            3.7424068,
+            51.0573581
           ]
         ]
       }
