@@ -3045,6 +3045,7 @@
         "bridge:name": "Humbeekbrug",
         "highway": "tertiary",
         "layer": "1",
+        "maxspeed": "50",
         "name": "Kanaalstraat",
         "id": "way/10868946"
       },
@@ -116471,11 +116472,13 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "path",
+        "layer": "-1",
         "motor_vehicle": "no",
         "name": "Visserij",
         "segregated": "no",
         "surface": "concrete",
         "traffic_sign": "BE:C3,BE:M2_nl,GIV[uitgezonderd diensten]",
+        "tunnel": "yes",
         "id": "way/781140956"
       },
       "geometry": {
@@ -116486,8 +116489,8 @@
             51.0429247
           ],
           [
-            3.7405443,
-            51.0430888
+            3.7405765,
+            51.0430751
           ]
         ]
       }
@@ -131847,6 +131850,34 @@
     },
     {
       "type": "Feature",
+      "id": "way/1241997796",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "motor_vehicle": "no",
+        "name": "Visserij",
+        "segregated": "no",
+        "surface": "concrete",
+        "traffic_sign": "BE:C3,BE:M2_nl,GIV[uitgezonderd diensten]",
+        "id": "way/1241997796"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7405765,
+            51.0430751
+          ],
+          [
+            3.7405443,
+            51.0430888
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/31347411",
       "properties": {
         "bridge": "yes",
@@ -131885,8 +131916,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0121491,
-            51.0049465
+            4.0121681,
+            51.0049516
           ],
           [
             4.012346,
@@ -131906,12 +131937,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0120836,
-            51.0050526
+            4.0120798,
+            51.0050578
           ],
           [
-            4.0121491,
-            51.0049465
+            4.0121681,
+            51.0049516
           ]
         ]
       }
@@ -133027,7 +133058,9 @@
       "type": "Feature",
       "id": "way/842234072",
       "properties": {
-        "highway": "cycleway",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
         "segregated": "no",
         "id": "way/842234072"
       },
@@ -133035,8 +133068,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0120836,
-            51.0050526
+            4.0120798,
+            51.0050578
           ],
           [
             4.0119094,
@@ -134295,7 +134328,6 @@
       "type": "Feature",
       "id": "way/28388159",
       "properties": {
-        "bicycle": "no",
         "highway": "path",
         "surface": "unhewn_cobblestone",
         "id": "way/28388159"
@@ -134848,7 +134880,6 @@
       "type": "Feature",
       "id": "way/32993559",
       "properties": {
-        "bicycle": "no",
         "highway": "path",
         "surface": "sett",
         "id": "way/32993559"
@@ -134880,10 +134911,9 @@
       "id": "way/33381424",
       "properties": {
         "highway": "tertiary",
-        "name": "Teuven-Dorp - Teuven-Village",
+        "name": "Teuven-Dorp",
         "name:fr": "Teuven-Village",
         "name:nl": "Teuven-Dorp",
-        "note:name": "https://www.vlaanderen.be/gemeenten-en-provincies/organisatie-en-werking-van-gemeenten/faciliteitengemeenten-in-het-vlaamse-gewest",
         "surface": "asphalt",
         "id": "way/33381424"
       },
@@ -138895,7 +138925,6 @@
       "type": "Feature",
       "id": "way/132015684",
       "properties": {
-        "bicycle": "no",
         "highway": "path",
         "traffic_sign": "NL:G07",
         "id": "way/132015684"
@@ -142300,10 +142329,9 @@
       "id": "way/436363379",
       "properties": {
         "highway": "tertiary",
-        "name": "Teuven-Dorp - Teuven-Village",
+        "name": "Teuven-Dorp",
         "name:fr": "Teuven-Village",
         "name:nl": "Teuven-Dorp",
-        "note:name": "https://www.vlaanderen.be/gemeenten-en-provincies/organisatie-en-werking-van-gemeenten/faciliteitengemeenten-in-het-vlaamse-gewest",
         "id": "way/436363379"
       },
       "geometry": {

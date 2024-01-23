@@ -10195,7 +10195,7 @@
       "properties": {
         "highway": "secondary",
         "maxspeed": "50",
-        "name": "Louise-Mariestraat - Rue Louis-Marie",
+        "name": "Louise-Mariestraat",
         "ref": "N454",
         "id": "way/121772377"
       },
@@ -20320,6 +20320,7 @@
       "type": "Feature",
       "id": "way/221231959",
       "properties": {
+        "abandoned:railway": "rail",
         "bicycle": "designated",
         "foot": "designated",
         "highway": "path",
@@ -20327,6 +20328,7 @@
         "motor_vehicle": "no",
         "name": "Mijnwerkerspad - Sentier des Mineurs",
         "old_name": "Oude Spoorweg Lijn 87",
+        "railway": "abandoned",
         "segregated": "no",
         "surface": "concrete",
         "id": "way/221231959"
@@ -20334,26 +20336,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.6568489,
-            50.7462476
-          ],
-          [
-            3.6566825,
-            50.7462074
-          ],
-          [
-            3.6565436,
-            50.7461727
-          ],
-          [
-            3.6564688,
-            50.7461568
-          ],
-          [
-            3.6564049,
-            50.7461459
-          ],
           [
             3.6563375,
             50.7461358
@@ -30913,6 +30895,51 @@
           [
             3.4581944,
             50.9706528
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1238171805",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "horse": "no",
+        "motor_vehicle": "no",
+        "name": "Mijnwerkerspad - Sentier des Mineurs",
+        "old_name": "Oude Spoorweg Lijn 87",
+        "segregated": "no",
+        "surface": "concrete",
+        "id": "way/1238171805"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6568489,
+            50.7462476
+          ],
+          [
+            3.6566825,
+            50.7462074
+          ],
+          [
+            3.6565436,
+            50.7461727
+          ],
+          [
+            3.6564688,
+            50.7461568
+          ],
+          [
+            3.6564049,
+            50.7461459
+          ],
+          [
+            3.6563375,
+            50.7461358
           ]
         ]
       }
