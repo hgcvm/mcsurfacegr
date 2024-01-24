@@ -1424,11 +1424,12 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
-        "maxlength": "2.5",
         "maxspeed": "60",
         "maxweight": "12",
+        "maxwidth": "2.5",
         "name": "Schrans",
         "surface": "asphalt",
+        "traffic_sign": "NL:C18;NL:C21",
         "id": "way/7230817"
       },
       "geometry": {
@@ -2566,6 +2567,10 @@
           [
             4.9764094,
             51.3861616
+          ],
+          [
+            4.9766425,
+            51.3863603
           ],
           [
             4.9769334,
@@ -7643,20 +7648,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0319923,
-            51.4872622
-          ],
-          [
-            5.0321899,
-            51.487271
-          ],
-          [
-            5.0325189,
-            51.4872814
-          ],
-          [
-            5.033234,
-            51.4873107
+            5.0332551,
+            51.487311
           ],
           [
             5.0336648,
@@ -38155,7 +38148,6 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
-        "maxlength": "2.5",
         "maxspeed": "60",
         "maxweight": "12",
         "name": "Schrans",
@@ -51245,6 +51237,64 @@
           [
             4.679599,
             51.3459827
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1238855077",
+      "properties": {
+        "highway": "track",
+        "maxweight": "4.8",
+        "name": "Nieuwkerk",
+        "surface": "compacted",
+        "tracktype": "grade4",
+        "traffic_sign": "NL:C20",
+        "id": "way/1238855077"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0331595,
+            51.4873074
+          ],
+          [
+            5.0332551,
+            51.487311
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1238855078",
+      "properties": {
+        "highway": "track",
+        "name": "Nieuwkerk",
+        "surface": "compacted",
+        "tracktype": "grade4",
+        "id": "way/1238855078"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0319923,
+            51.4872622
+          ],
+          [
+            5.0321899,
+            51.487271
+          ],
+          [
+            5.0325189,
+            51.4872814
+          ],
+          [
+            5.0331595,
+            51.4873074
           ]
         ]
       }
