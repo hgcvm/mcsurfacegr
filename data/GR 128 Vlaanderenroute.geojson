@@ -3045,6 +3045,7 @@
         "bridge:name": "Humbeekbrug",
         "highway": "tertiary",
         "layer": "1",
+        "maxspeed": "50",
         "name": "Kanaalstraat",
         "id": "way/10868946"
       },
@@ -116471,11 +116472,13 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "path",
+        "layer": "-1",
         "motor_vehicle": "no",
         "name": "Visserij",
         "segregated": "no",
         "surface": "concrete",
         "traffic_sign": "BE:C3,BE:M2_nl,GIV[uitgezonderd diensten]",
+        "tunnel": "yes",
         "id": "way/781140956"
       },
       "geometry": {
@@ -116486,8 +116489,8 @@
             51.0429247
           ],
           [
-            3.7405443,
-            51.0430888
+            3.7405765,
+            51.0430751
           ]
         ]
       }
@@ -131841,6 +131844,34 @@
           [
             3.5827734,
             51.0123795
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1241997796",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "motor_vehicle": "no",
+        "name": "Visserij",
+        "segregated": "no",
+        "surface": "concrete",
+        "traffic_sign": "BE:C3,BE:M2_nl,GIV[uitgezonderd diensten]",
+        "id": "way/1241997796"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7405765,
+            51.0430751
+          ],
+          [
+            3.7405443,
+            51.0430888
           ]
         ]
       }
