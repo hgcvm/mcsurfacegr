@@ -156577,25 +156577,27 @@
       "type": "Feature",
       "id": "way/38212557",
       "properties": {
-        "highway": "track",
+        "crossing": "uncontrolled",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway",
         "surface": "asphalt",
-        "tracktype": "grade1",
         "id": "way/38212557"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7306621,
-            50.8938225
-          ],
-          [
-            4.7306193,
-            50.8938244
+            4.7305836,
+            50.8938267
           ],
           [
             4.7305371,
             50.8938297
+          ],
+          [
+            4.7304845,
+            50.8938332
           ]
         ]
       }
@@ -160959,28 +160961,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/844373399",
-      "properties": {
-        "highway": "cycleway",
-        "surface": "asphalt",
-        "id": "way/844373399"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.7303738,
-            50.8938407
-          ],
-          [
-            4.7305371,
-            50.8938297
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/910580264",
       "properties": {
         "access": "permissive",
@@ -161705,6 +161685,54 @@
           [
             4.6867899,
             50.8628444
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1243620172",
+      "properties": {
+        "highway": "cycleway",
+        "surface": "asphalt",
+        "id": "way/1243620172"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7304845,
+            50.8938332
+          ],
+          [
+            4.7303738,
+            50.8938407
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1243620173",
+      "properties": {
+        "highway": "cycleway",
+        "surface": "asphalt",
+        "id": "way/1243620173"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7306621,
+            50.8938225
+          ],
+          [
+            4.7306193,
+            50.8938244
+          ],
+          [
+            4.7305836,
+            50.8938267
           ]
         ]
       }
@@ -164728,10 +164756,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.1766468,
-            50.8180028
-          ],
           [
             5.1765182,
             50.8179238
