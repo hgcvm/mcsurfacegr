@@ -13801,7 +13801,12 @@
       "type": "Feature",
       "id": "way/192156470",
       "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "path",
+        "horse": "no",
+        "motor_vehicle": "no",
+        "surface": "gravel",
         "id": "way/192156470"
       },
       "geometry": {
@@ -15454,8 +15459,8 @@
             50.9747225
           ],
           [
-            5.4238929,
-            50.9746295
+            5.4239041,
+            50.9746181
           ]
         ]
       }
@@ -28662,6 +28667,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Kruisstraat",
+        "oneway": "no",
         "width": "3.1",
         "id": "way/337248728"
       },
@@ -30453,8 +30459,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4239166,
-            50.9745881
+            5.4239236,
+            50.9745675
           ],
           [
             5.423936,
@@ -31433,8 +31439,8 @@
             50.5505785
           ],
           [
-            5.1834347,
-            50.5505471
+            5.18343,
+            50.5505434
           ],
           [
             5.1833793,
@@ -37113,7 +37119,9 @@
       "properties": {
         "cycleway": "track",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Winkelstraat",
+        "surface": "asphalt",
         "id": "way/722981686"
       },
       "geometry": {
@@ -37979,12 +37987,16 @@
             50.9730405
           ],
           [
-            5.4237145,
-            50.9745398
+            5.4236987,
+            50.9745329
           ],
           [
-            5.4239005,
-            50.9745327
+            5.4237781,
+            50.9745099
+          ],
+          [
+            5.4238991,
+            50.9745283
           ],
           [
             5.423936,
@@ -39520,14 +39532,15 @@
       "id": "way/929402368",
       "properties": {
         "highway": "service",
+        "surface": "paving_stones",
         "id": "way/929402368"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.4238929,
-            50.9746295
+            5.4239041,
+            50.9746181
           ],
           [
             5.4239166,
@@ -41792,6 +41805,30 @@
           [
             5.0859501,
             50.7499986
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1244567508",
+      "properties": {
+        "crossing": "unmarked",
+        "crossing:markings": "no",
+        "cycleway": "crossing",
+        "highway": "cycleway",
+        "id": "way/1244567508"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4239166,
+            50.9745881
+          ],
+          [
+            5.4239236,
+            50.9745675
           ]
         ]
       }
