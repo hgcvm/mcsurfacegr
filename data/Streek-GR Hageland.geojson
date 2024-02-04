@@ -2704,9 +2704,9 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
-        "maxspeed": "30",
+        "maxspeed": "50",
         "name": "Roosbeeksestraat",
-        "source:maxspeed": "BE:zone30",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "width": "3",
         "zone:traffic": "BE-VLG:urban",
@@ -17634,8 +17634,8 @@
             50.8337019
           ],
           [
-            4.8333131,
-            50.8332265
+            4.8333173,
+            50.83322
           ]
         ]
       }
@@ -18688,9 +18688,7 @@
       "id": "way/104592397",
       "properties": {
         "highway": "residential",
-        "maxspeed": "30",
         "name": "Maagdomstraat",
-        "source:maxspeed": "BE:zone30",
         "surface": "concrete",
         "width": "4",
         "id": "way/104592397"
@@ -22388,35 +22386,37 @@
     },
     {
       "type": "Feature",
-      "id": "way/157005830",
+      "id": "way/157005838",
       "properties": {
         "bicycle": "yes",
         "cycleway": "no",
-        "destination:forward": "Bevekom;Bierbeek;Neervelp",
-        "destination:int_ref:forward": "E40",
         "highway": "secondary",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Smidstraat",
+        "oneway": "yes",
         "ref": "N234",
-        "source:maxspeed": "BE:zone30",
-        "zone:traffic": "BE-VLG:urban",
-        "id": "way/157005830"
+        "surface": "concrete",
+        "id": "way/157005838"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.8336912,
-            50.8333978
+            4.8333173,
+            50.83322
           ],
           [
-            4.8336045,
-            50.8333567
+            4.8335767,
+            50.8333004
           ],
           [
-            4.8333131,
-            50.8332265
+            4.8337971,
+            50.8333474
+          ],
+          [
+            4.8338446,
+            50.8333575
           ]
         ]
       }
@@ -39153,9 +39153,7 @@
       "id": "way/501248793",
       "properties": {
         "highway": "residential",
-        "maxspeed": "30",
         "name": "Roosbeeksestraat",
-        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "width": "3",
         "id": "way/501248793"
@@ -43864,9 +43862,7 @@
       "id": "way/908616724",
       "properties": {
         "highway": "residential",
-        "maxspeed": "30",
         "name": "Roosbeeksestraat",
-        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "width": "4",
         "id": "way/908616724"
@@ -43931,9 +43927,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "lit": "yes",
-        "maxspeed": "30",
         "name": "Stationsstraat",
-        "source:maxspeed": "BE:zone30",
         "surface": "concrete",
         "width": "6",
         "id": "way/908616728"
@@ -43958,24 +43952,8 @@
             50.8328744
           ],
           [
-            4.8339038,
-            50.8331957
-          ],
-          [
-            4.8338747,
-            50.8332773
-          ],
-          [
-            4.8338142,
-            50.8333249
-          ],
-          [
-            4.833751,
-            50.8333603
-          ],
-          [
-            4.8336912,
-            50.8333978
+            4.8338446,
+            50.8333575
           ]
         ]
       }
@@ -49125,9 +49103,7 @@
       "id": "way/148735418",
       "properties": {
         "highway": "residential",
-        "maxspeed": "30",
         "name": "Brugstraat",
-        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "width": "5",
         "id": "way/148735418"
@@ -49171,9 +49147,7 @@
       "id": "way/1115248540",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "30",
         "name": "Stationsstraat",
-        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/1115248540"
       },
