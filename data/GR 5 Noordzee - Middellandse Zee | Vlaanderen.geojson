@@ -22356,8 +22356,8 @@
       "type": "Feature",
       "id": "way/39350632",
       "properties": {
+        "bicycle": "use_sidepath",
         "bridge": "yes",
-        "cycleway": "track",
         "highway": "residential",
         "lanes": "2",
         "layer": "1",
@@ -22383,7 +22383,7 @@
       "type": "Feature",
       "id": "way/39350633",
       "properties": {
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Overdemerstraat",
@@ -23185,7 +23185,7 @@
       "id": "way/49802440",
       "properties": {
         "highway": "footway",
-        "surface": "paved",
+        "surface": "gravel",
         "id": "way/49802440"
       },
       "geometry": {
@@ -23196,8 +23196,12 @@
             50.9554737
           ],
           [
-            5.4083071,
-            50.9554228
+            5.4083189,
+            50.955425
+          ],
+          [
+            5.4082993,
+            50.9553827
           ],
           [
             5.4082942,
@@ -23290,8 +23294,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4082513,
-            50.9558807
+            5.4082554,
+            50.955882
           ],
           [
             5.4083064,
@@ -34118,12 +34122,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4082173,
-            50.955927
+            5.4082265,
+            50.9559302
           ],
           [
-            5.4082513,
-            50.9558807
+            5.4082554,
+            50.955882
           ]
         ]
       }
@@ -34133,7 +34137,7 @@
       "id": "way/198975706",
       "properties": {
         "highway": "footway",
-        "surface": "compacted",
+        "surface": "gravel",
         "id": "way/198975706"
       },
       "geometry": {
@@ -34148,8 +34152,8 @@
             50.9527179
           ],
           [
-            5.4088844,
-            50.9526488
+            5.4088795,
+            50.9526334
           ],
           [
             5.408837,
@@ -40770,7 +40774,7 @@
       "type": "Feature",
       "id": "way/242823910",
       "properties": {
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "highway": "residential",
         "lanes": "2",
         "maxspeed": "50",
@@ -40785,8 +40789,8 @@
             50.9537793
           ],
           [
-            5.3122258,
-            50.9540958
+            5.3122523,
+            50.9541198
           ]
         ]
       }
@@ -40928,7 +40932,7 @@
       "type": "Feature",
       "id": "way/245515809",
       "properties": {
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Overdemerstraat",
@@ -40940,6 +40944,10 @@
           [
             5.314151,
             50.9556809
+          ],
+          [
+            5.3143258,
+            50.9558258
           ],
           [
             5.3153922,
@@ -42852,7 +42860,7 @@
       "type": "Feature",
       "id": "way/287150370",
       "properties": {
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Overdemerstraat",
@@ -42864,6 +42872,10 @@
           [
             5.3137635,
             50.9553581
+          ],
+          [
+            5.3139725,
+            50.9555322
           ],
           [
             5.314151,
@@ -54420,7 +54432,7 @@
       "id": "way/755501428",
       "properties": {
         "highway": "footway",
-        "surface": "compacted",
+        "surface": "gravel",
         "id": "way/755501428"
       },
       "geometry": {
@@ -54450,7 +54462,7 @@
       "id": "way/755501433",
       "properties": {
         "highway": "footway",
-        "surface": "paved",
+        "surface": "sett",
         "id": "way/755501433"
       },
       "geometry": {
@@ -54465,8 +54477,8 @@
             50.9559461
           ],
           [
-            5.4082173,
-            50.955927
+            5.4082265,
+            50.9559302
           ]
         ]
       }
@@ -54476,7 +54488,7 @@
       "id": "way/755501434",
       "properties": {
         "highway": "footway",
-        "surface": "compacted",
+        "surface": "gravel",
         "id": "way/755501434"
       },
       "geometry": {
@@ -57915,32 +57927,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/934951079",
-      "properties": {
-        "cycleway": "track",
-        "highway": "residential",
-        "lanes": "2",
-        "layer": "1",
-        "maxspeed": "50",
-        "name": "Overdemerstraat",
-        "id": "way/934951079"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3122258,
-            50.9540958
-          ],
-          [
-            5.3122523,
-            50.9541198
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/936630859",
       "properties": {
         "highway": "path",
@@ -61178,6 +61164,10 @@
           [
             5.3118466,
             50.9537793
+          ],
+          [
+            5.3119079,
+            50.9537578
           ],
           [
             5.311967,
