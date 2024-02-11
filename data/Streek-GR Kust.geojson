@@ -9381,6 +9381,9 @@
         "oneway": "no",
         "paving_stones:pattern": "herringbone",
         "paving_stones:shape": "rectangular",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
         "surface": "paving_stones",
         "zone:maxspeed": "BE:30",
         "zone:traffic": "BE-VLG:urban",
@@ -15841,6 +15844,7 @@
         "highway": "pedestrian",
         "lit": "yes",
         "name": "Zeedijk",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/137821868"
       },
@@ -15872,6 +15876,7 @@
       "properties": {
         "highway": "pedestrian",
         "name": "Baron De Maerelaan",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/137821869"
       },
@@ -20207,6 +20212,7 @@
         "lit": "yes",
         "name": "Londenstraat",
         "name:etymology:wikidata": "Q84",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "vehicle": "private",
         "id": "way/199093653"
@@ -20849,6 +20855,7 @@
         "name": "Zeedijk-Wenduine",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "smoothness": "good",
         "surface": "paving_stones",
         "vehicle": "no",
         "vehicle:conditional": "yes @ (06:00-12:00); yes @ (day 1,15,16,-1)",
@@ -20898,6 +20905,7 @@
         "moped": "no",
         "paving_stones:pattern": "herringbone",
         "paving_stones:shape": "rectangular",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "vehicle": "private",
         "id": "way/206578320"
@@ -25131,6 +25139,7 @@
         "lit": "yes",
         "name": "A. Wittevrongelwandeling",
         "segregated": "no",
+        "smoothness": "good",
         "surface": "paving_stones",
         "traffic_sign": "BE:F99a",
         "vehicle": "no",
@@ -31834,6 +31843,7 @@
       "properties": {
         "highway": "pedestrian",
         "name": "Baron De Maerelaan",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/715025070"
       },
@@ -31858,6 +31868,7 @@
         "footway": "crossing",
         "highway": "footway",
         "name": "Baron De Maerelaan",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/715025073"
       },
@@ -31887,6 +31898,7 @@
         "highway": "pedestrian",
         "lit": "yes",
         "name": "Baron De Maerelaan",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/715025074"
       },
@@ -31934,6 +31946,7 @@
         "bridge": "boardwalk",
         "highway": "steps",
         "incline": "up",
+        "ramp": "no",
         "step_count": "13",
         "surface": "wood",
         "id": "way/722232472"
@@ -32516,6 +32529,8 @@
         "highway": "path",
         "mofa": "no",
         "moped": "no",
+        "smoothness": "good",
+        "surface": "paving_stones",
         "id": "way/797426859"
       },
       "geometry": {
@@ -34118,6 +34133,7 @@
         "emergency": "yes",
         "highway": "pedestrian",
         "name": "Zeedijk",
+        "smoothness": "good",
         "surface": "paving_stones",
         "vehicle": "delivery",
         "id": "way/931724857"
@@ -35286,6 +35302,7 @@
         "highway": "steps",
         "incline": "up",
         "layer": "1",
+        "ramp": "no",
         "step_count": "27",
         "surface": "wood",
         "id": "way/965402185"
@@ -41484,6 +41501,8 @@
       "properties": {
         "highway": "footway",
         "incline": "up",
+        "smoothness": "intermediate",
+        "surface": "compacted",
         "id": "way/1185106540"
       },
       "geometry": {
@@ -41554,9 +41573,12 @@
       "id": "way/1185116231",
       "properties": {
         "highway": "residential",
+        "lanes": "2",
         "name": "Wenduinse Steenweg",
         "name:etymology:wikidata": "Q498639",
         "oneway": "no",
+        "sidewalk": "both",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/1185116231"
       },
@@ -43413,6 +43435,7 @@
         "bridge": "boardwalk",
         "highway": "steps",
         "incline": "up",
+        "ramp": "no",
         "step_count": "4",
         "surface": "wood",
         "id": "way/1204679319"
