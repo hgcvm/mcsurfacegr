@@ -3349,6 +3349,7 @@
         "cycleway": "shared",
         "highway": "unclassified",
         "junction": "roundabout",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Molenstraat",
         "oneway": "yes",
@@ -6229,6 +6230,8 @@
       "properties": {
         "highway": "track",
         "name": "Herentalsesteenweg",
+        "surface": "concrete:lanes",
+        "tracktype": "grade1",
         "id": "way/37615626"
       },
       "geometry": {
@@ -9611,6 +9614,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Sint-Rochusstraat",
@@ -9915,12 +9919,12 @@
             51.3276016
           ],
           [
-            4.9448065,
-            51.3274716
+            4.9448036,
+            51.3274859
           ],
           [
-            4.9447026,
-            51.3274921
+            4.9447226,
+            51.3274618
           ]
         ]
       }
@@ -13631,6 +13635,7 @@
         "foot": "yes",
         "highway": "path",
         "name": "Barbarapad",
+        "surface": "dirt",
         "id": "way/61041082"
       },
       "geometry": {
@@ -15211,6 +15216,7 @@
       "properties": {
         "highway": "unclassified",
         "junction": "roundabout",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Molenstraat",
         "oneway": "yes",
@@ -16392,7 +16398,7 @@
         "highway": "footway",
         "horse": "no",
         "motor_vehicle": "no",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/81163718"
       },
       "geometry": {
@@ -16480,7 +16486,7 @@
         "highway": "service",
         "motor_vehicle": "no",
         "name": "Ossengoor",
-        "surface": "paved",
+        "surface": "concrete",
         "id": "way/81164219"
       },
       "geometry": {
@@ -20759,8 +20765,9 @@
       "id": "way/128203676",
       "properties": {
         "highway": "residential",
+        "maxspeed": "20",
         "name": "Sint Beggaplein",
-        "oneway": "yes",
+        "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/128203676"
@@ -20773,36 +20780,24 @@
             51.3272208
           ],
           [
-            4.9447091,
-            51.3272231
+            4.9447287,
+            51.3272663
           ],
           [
-            4.9447572,
-            51.3272369
+            4.944767,
+            51.327309
           ],
           [
-            4.9448024,
-            51.3272627
+            4.9447894,
+            51.3273496
           ],
           [
-            4.9448226,
-            51.3272832
+            4.9447667,
+            51.3274078
           ],
           [
-            4.9448368,
-            51.3273207
-          ],
-          [
-            4.9448293,
-            51.3273549
-          ],
-          [
-            4.9448009,
-            51.32739
-          ],
-          [
-            4.9447026,
-            51.3274921
+            4.9447226,
+            51.3274618
           ]
         ]
       }
@@ -32448,7 +32443,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "trail_visibility": "good",
         "id": "way/274929147"
       },
@@ -45080,6 +45075,8 @@
       "id": "way/685523891",
       "properties": {
         "highway": "track",
+        "surface": "ground",
+        "tracktype": "grade4",
         "id": "way/685523891"
       },
       "geometry": {
@@ -48302,6 +48299,7 @@
       "id": "way/847289576",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "maxspeed:zone": "yes",
@@ -48338,6 +48336,7 @@
       "properties": {
         "highway": "unclassified",
         "junction": "roundabout",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Molenstraat",
         "oneway": "yes",
