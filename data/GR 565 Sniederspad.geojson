@@ -37428,7 +37428,8 @@
         "highway": "cycleway",
         "lit": "yes",
         "oneway": "yes",
-        "surface": "paved",
+        "segregated": "yes",
+        "surface": "paving_stones",
         "id": "way/169678091"
       },
       "geometry": {
@@ -38334,11 +38335,14 @@
       "type": "Feature",
       "id": "way/424116082",
       "properties": {
+        "be:zone": "30",
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Beschavingstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:speed_pedelec": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/424116082"
@@ -40428,9 +40432,17 @@
       "type": "Feature",
       "id": "way/933293131",
       "properties": {
-        "highway": "path",
-        "lit": "yes",
+        "bicycle": "permissive",
+        "foot": "designated",
+        "highway": "footway",
+        "horse": "no",
+        "incline": "0%",
+        "leisure": "track",
+        "lit": "no",
+        "note": "'Finse Piste' = jogging (rather than running) track",
+        "sport": "jogging",
         "surface": "woodchips",
+        "width": "1",
         "id": "way/933293131"
       },
       "geometry": {
@@ -41414,9 +41426,17 @@
       "type": "Feature",
       "id": "way/1035360557",
       "properties": {
-        "highway": "path",
-        "lit": "yes",
+        "bicycle": "permissive",
+        "foot": "designated",
+        "highway": "footway",
+        "horse": "no",
+        "incline": "0%",
+        "leisure": "track",
+        "lit": "no",
+        "note": "'Finse Piste' = jogging (rather than running) track",
+        "sport": "jogging",
         "surface": "woodchips",
+        "width": "1",
         "id": "way/1035360557"
       },
       "geometry": {
