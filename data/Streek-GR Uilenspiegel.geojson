@@ -5200,8 +5200,10 @@
       "id": "way/38259013",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Oude Westkapellestraat",
         "oneway": "no",
+        "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
         "id": "way/38259013"
       },
@@ -5213,8 +5215,8 @@
             51.2911712
           ],
           [
-            3.3376204,
-            51.2908756
+            3.3376276,
+            51.2908782
           ],
           [
             3.3378766,
@@ -5460,7 +5462,9 @@
       "id": "way/38419225",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Damse Vaart-Oost",
+        "source:maxspeed": "BE-VLG:rural",
         "surface": "compacted",
         "id": "way/38419225"
       },
@@ -9061,7 +9065,9 @@
       "id": "way/87888428",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Damse Vaart-Oost",
+        "source:maxspeed": "BE-VLG:rural",
         "surface": "sett",
         "id": "way/87888428"
       },
@@ -37259,8 +37265,16 @@
       "type": "Feature",
       "id": "way/233743012",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Zeedijk",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "id": "way/233743012"
       },
