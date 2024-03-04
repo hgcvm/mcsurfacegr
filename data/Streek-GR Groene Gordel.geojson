@@ -7243,17 +7243,10 @@
       "type": "Feature",
       "id": "way/31021979",
       "properties": {
-        "cycleway:both": "no",
         "highway": "residential",
-        "lane_markings": "no",
-        "maxspeed": "50",
-        "maxspeed:type": "BE:zone50",
         "name": "Schoon Horizonlaan - Avenue Bel Horizon",
         "name:fr": "Avenue Bel Horizon",
         "name:nl": "Schoon Horizonlaan",
-        "sidewalk": "no",
-        "smoothness": "excellent",
-        "surface": "asphalt",
         "id": "way/31021979"
       },
       "geometry": {
@@ -19104,7 +19097,6 @@
       "properties": {
         "cycleway": "lane",
         "highway": "unclassified",
-        "maxspeed": "50",
         "name": "Ildefonse Vandammestraat",
         "id": "way/105040388"
       },
@@ -19502,16 +19494,10 @@
       "type": "Feature",
       "id": "way/116452041",
       "properties": {
-        "cycleway:both": "no",
         "highway": "residential",
-        "lane_markings": "no",
-        "maxspeed": "50",
-        "maxspeed:type": "BE:zone50",
         "name": "Steentijdpad - Chemin de l'Âge de Pierre",
         "name:fr": "Chemin de l'Âge de Pierre",
         "name:nl": "Steentijdpad",
-        "sidewalk": "no",
-        "surface": "concrete:lanes",
         "id": "way/116452041"
       },
       "geometry": {
@@ -19791,7 +19777,6 @@
         "bicycle": "use_sidepath",
         "highway": "secondary",
         "lanes": "2",
-        "maxspeed": "50",
         "name": "Groenendaalsesteenweg",
         "surface": "asphalt",
         "id": "way/123929506"
@@ -19850,7 +19835,6 @@
       "properties": {
         "cycleway:left": "lane",
         "highway": "unclassified",
-        "maxspeed": "50",
         "name": "Ildefonse Vandammestraat",
         "id": "way/123929539"
       },
@@ -19879,7 +19863,6 @@
         "cycleway:both": "lane",
         "cycleway:both:lane": "exclusive",
         "highway": "unclassified",
-        "maxspeed": "50",
         "name": "Ildefonse Vandammestraat",
         "id": "way/123929542"
       },
@@ -25496,7 +25479,6 @@
         "name:fr": "Sentier des Pêcheurs",
         "name:nl": "Visserspad",
         "note": "there is a cycle and horse prohibition, but only marked only at the Monniksweg side",
-        "surface": "ground",
         "id": "way/198832506"
       },
       "geometry": {
@@ -31830,7 +31812,7 @@
         "name": "Steentijdpad - Chemin de l'Âge de Pierre",
         "name:fr": "Chemin de l'Âge de Pierre",
         "name:nl": "Steentijdpad",
-        "surface": "concrete:lanes",
+        "surface": "unpaved",
         "tracktype": "grade2",
         "id": "way/532747520"
       },
@@ -31846,8 +31828,12 @@
             50.7481503
           ],
           [
-            4.3881585,
-            50.7481096
+            4.3881298,
+            50.748105
+          ],
+          [
+            4.3853989,
+            50.7476771
           ]
         ]
       }
@@ -32952,9 +32938,6 @@
         "name": "Heukenweg - Chemin Heuken",
         "name:fr": "Chemin Heuken",
         "name:nl": "Heukenweg",
-        "smoothness": "bad",
-        "surface": "gravel",
-        "tracktype": "grade2",
         "id": "way/579606507"
       },
       "geometry": {
@@ -32995,16 +32978,11 @@
       "type": "Feature",
       "id": "way/579606508",
       "properties": {
-        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Dragonderstraat - Rue du Dragon",
         "name:fr": "Rue du Dragon",
         "name:nl": "Dragonderstraat",
-        "sidewalk": "right",
-        "sidewalk:right:surface": "paving_stones",
-        "smoothness": "excellent",
-        "surface": "asphalt",
         "id": "way/579606508"
       },
       "geometry": {
@@ -36314,7 +36292,6 @@
         "cycleway:both": "lane",
         "cycleway:both:lane": "exclusive",
         "highway": "unclassified",
-        "maxspeed": "50",
         "name": "Ildefonse Vandammestraat",
         "surface": "asphalt",
         "id": "way/659434130"
@@ -37893,17 +37870,10 @@
       "type": "Feature",
       "id": "way/868870867",
       "properties": {
-        "cycleway:both": "no",
         "highway": "residential",
-        "lane_markings": "no",
-        "maxspeed": "50",
-        "maxspeed:type": "BE:zone50",
         "name": "Arthur Grumiauxlaan - Avenue Arthur Grumiaux",
         "name:fr": "Avenue Arthur Grumiaux",
         "name:nl": "Arthur Grumiauxlaan",
-        "sidewalk": "no",
-        "smoothness": "excellent",
-        "surface": "asphalt",
         "id": "way/868870867"
       },
       "geometry": {
@@ -40668,7 +40638,6 @@
         "name": "Hazenbergweg - Chemin du Hazenberg",
         "name:fr": "Chemin du Hazenberg",
         "name:nl": "Hazenbergweg",
-        "smoothness": "bad",
         "surface": "compacted",
         "id": "way/940825040"
       },
@@ -43861,36 +43830,6 @@
           [
             4.5149472,
             50.821726
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1256862983",
-      "properties": {
-        "highway": "track",
-        "name": "Steentijdpad - Chemin de l'Âge de Pierre",
-        "name:fr": "Chemin de l'Âge de Pierre",
-        "name:nl": "Steentijdpad",
-        "surface": "dirt",
-        "tracktype": "grade4",
-        "id": "way/1256862983"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.3881585,
-            50.7481096
-          ],
-          [
-            4.3881298,
-            50.748105
-          ],
-          [
-            4.3853989,
-            50.7476771
           ]
         ]
       }
