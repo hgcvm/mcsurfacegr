@@ -1844,11 +1844,11 @@
       "type": "Feature",
       "id": "way/7187265",
       "properties": {
+        "bridge": "yes",
         "cycleway:both": "no",
         "highway": "unclassified",
         "maxspeed": "60",
-        "name": "Vlieterdijk",
-        "zone:traffic": "NL:rural",
+        "maxweight:signed": "no",
         "id": "way/7187265"
       },
       "geometry": {
@@ -1856,8 +1856,27 @@
         "coordinates": [
           [
             5.3462756,
-            51.2758388
+            51.2758333
           ],
+          [
+            5.345991,
+            51.2759519
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/7187271",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "60",
+        "name": "Vlieterdijk",
+        "id": "way/7187271"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             5.345991,
             51.2759519
@@ -8666,24 +8685,21 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
-        "layer": "1",
         "maxspeed": "60",
         "maxweight:signed": "no",
-        "name": "Hutten",
         "surface": "concrete",
-        "zone:traffic": "NL:rural",
         "id": "way/78193746"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.3464153,
-            51.2758157
+            5.3463704,
+            51.2758182
           ],
           [
-            5.3463214,
-            51.2758266
+            5.3463033,
+            51.2758258
           ]
         ]
       }
@@ -8696,21 +8712,19 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "60",
-        "name": "Hutten",
         "surface": "concrete",
-        "zone:traffic": "NL:rural",
         "id": "way/78193765"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.3463214,
-            51.2758266
+            5.3463033,
+            51.2758258
           ],
           [
             5.3462756,
-            51.2758388
+            51.2758333
           ]
         ]
       }
@@ -9153,7 +9167,6 @@
         "highway": "track",
         "name": "Hutten",
         "surface": "sand",
-        "zone:traffic": "NL:rural",
         "id": "way/82614123"
       },
       "geometry": {
@@ -10795,7 +10808,7 @@
       "properties": {
         "highway": "track",
         "name": "Heikant",
-        "surface": "fine_gravel",
+        "surface": "compacted",
         "id": "way/113494516"
       },
       "geometry": {
@@ -14621,11 +14634,9 @@
       "id": "way/166169259",
       "properties": {
         "bridge": "yes",
-        "bridge:name": "Sint-Lutgardis brug",
         "highway": "unclassified",
         "layer": "1",
         "name": "Kluizerdijk",
-        "surface": "asphalt",
         "id": "way/166169259"
       },
       "geometry": {
@@ -20402,9 +20413,10 @@
       "id": "way/230139133",
       "properties": {
         "bridge": "yes",
-        "highway": "path",
+        "highway": "track",
         "layer": "1",
         "surface": "wood",
+        "tracktype": "grade3",
         "id": "way/230139133"
       },
       "geometry": {
@@ -27580,9 +27592,7 @@
       "properties": {
         "highway": "unclassified",
         "maxspeed": "60",
-        "name": "Hutten",
         "surface": "concrete",
-        "zone:traffic": "NL:rural",
         "id": "way/295703023"
       },
       "geometry": {
@@ -27593,8 +27603,8 @@
             51.275766
           ],
           [
-            5.3464153,
-            51.2758157
+            5.3463704,
+            51.2758182
           ]
         ]
       }
@@ -29659,11 +29669,11 @@
             51.2929782
           ],
           [
-            5.4896544,
+            5.489641,
             51.2931669
           ],
           [
-            5.4896433,
+            5.489651,
             51.2933008
           ],
           [

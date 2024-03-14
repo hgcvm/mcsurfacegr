@@ -74287,9 +74287,13 @@
       "id": "way/24873827",
       "properties": {
         "bicycle": "designated",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "foot": "designated",
         "highway": "unclassified",
         "motor_vehicle": "destination",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/24873827"
       },
       "geometry": {
@@ -90744,9 +90748,12 @@
       "id": "way/66153075",
       "properties": {
         "highway": "residential",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Waterstraat",
+        "sidewalk": "right",
         "source:maxspeed": "BE:zone50",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/66153075"
       },
@@ -104583,6 +104590,7 @@
       "id": "way/120551669",
       "properties": {
         "highway": "footway",
+        "surface": "grass",
         "id": "way/120551669"
       },
       "geometry": {
@@ -104616,6 +104624,7 @@
       "id": "way/120551670",
       "properties": {
         "highway": "footway",
+        "surface": "dirt",
         "id": "way/120551670"
       },
       "geometry": {
@@ -113666,12 +113675,15 @@
       "id": "way/149923404",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "designation": "towpath",
         "embankment": "yes",
         "foot": "yes",
         "highway": "service",
         "historic:towpath": "yes",
         "motor_vehicle": "permit",
+        "sidewalk": "no",
         "surface": "asphalt",
         "towpath": "yes",
         "vehicle": "permit",
@@ -114180,12 +114192,16 @@
       "id": "way/149923405",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "designation": "towpath",
         "embankment": "yes",
         "foot": "yes",
         "highway": "service",
         "historic:towpath": "yes",
         "motor_vehicle": "permit",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "towpath": "yes",
         "vehicle": "permit",
@@ -126040,9 +126056,11 @@
       "type": "Feature",
       "id": "way/267948541",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "maxspeed": "30",
         "name": "Walleweg",
+        "name:vls": "Walleboane",
+        "oneway": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -127303,8 +127321,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3086414,
-            51.1465083
+            4.308656,
+            51.1465345
+          ],
+          [
+            4.3086425,
+            51.1465703
           ],
           [
             4.3086445,
@@ -130183,8 +130205,8 @@
             51.1536992
           ],
           [
-            4.3153076,
-            51.1537192
+            4.3153169,
+            51.1537217
           ]
         ]
       }
@@ -142638,7 +142660,11 @@
       "type": "Feature",
       "id": "way/525310854",
       "properties": {
+        "bicycle": "no",
+        "foot": "yes",
         "highway": "track",
+        "horse": "no",
+        "motor_vehicle": "no",
         "name": "Nieuwe Gaanweg",
         "id": "way/525310854"
       },
@@ -142646,8 +142672,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3252806,
-            51.1597888
+            4.3253253,
+            51.159808
           ],
           [
             4.3253532,
@@ -142677,8 +142703,9 @@
       "id": "way/525311606",
       "properties": {
         "bicycle": "no",
-        "highway": "footway",
+        "highway": "path",
         "horse": "no",
+        "name": "Tilleken Tangdijk",
         "smoothness": "very_bad",
         "surface": "grass",
         "width": "0.6",
@@ -142688,8 +142715,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3253132,
-            51.1596729
+            4.3253241,
+            51.1596684
+          ],
+          [
+            4.3252785,
+            51.1596497
           ],
           [
             4.3251401,
@@ -144260,8 +144291,12 @@
       "type": "Feature",
       "id": "way/583405831",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "70",
         "name": "Priesterstraat",
+        "name:vls": "Pastrestroate",
+        "oneway": "no",
         "surface": "asphalt",
         "width": "3",
         "id": "way/583405831"
@@ -144364,10 +144399,12 @@
       "type": "Feature",
       "id": "way/587325720",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Walleweg",
+        "name:vls": "Walleboane",
+        "oneway": "no",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
@@ -146122,6 +146159,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
+        "name": "Tilleken Tangdijk",
         "surface": "unpaved",
         "id": "way/631833313"
       },
@@ -146129,8 +146167,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3130967,
-            51.1539831
+            4.3131275,
+            51.153981
+          ],
+          [
+            4.3131421,
+            51.1540011
+          ],
+          [
+            4.3132484,
+            51.1540523
           ],
           [
             4.3133121,
@@ -147068,8 +147114,16 @@
             51.1467244
           ],
           [
+            4.3117916,
+            51.1467147
+          ],
+          [
             4.3115394,
             51.1467092
+          ],
+          [
+            4.3090432,
+            51.146672
           ],
           [
             4.308952,
@@ -147088,8 +147142,8 @@
             51.1465816
           ],
           [
-            4.3086414,
-            51.1465083
+            4.308656,
+            51.1465345
           ]
         ]
       }
@@ -147109,8 +147163,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3153076,
-            51.1537192
+            4.3153169,
+            51.1537217
+          ],
+          [
+            4.3152701,
+            51.1537632
           ],
           [
             4.315209,
@@ -147130,7 +147188,7 @@
         "highway": "service",
         "lanes": "1",
         "maxspeed": "30",
-        "name": "Kemphoekstraat",
+        "name": "Dweerse gaanweg",
         "source:maxspeed": "BE:zone30",
         "surface": "concrete:lanes",
         "surface:middle": "cobblestones",
@@ -147142,8 +147200,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3149771,
-            51.1539536
+            4.3149852,
+            51.1539468
           ],
           [
             4.315076,
@@ -147187,8 +147245,12 @@
             51.1286215
           ],
           [
-            4.2988486,
-            51.1293147
+            4.2988747,
+            51.1293103
+          ],
+          [
+            4.2992896,
+            51.1297329
           ],
           [
             4.2996904,
@@ -147244,8 +147306,12 @@
             51.1337258
           ],
           [
-            4.3025058,
-            51.1339883
+            4.3025131,
+            51.1339851
+          ],
+          [
+            4.3026522,
+            51.1343058
           ],
           [
             4.3027111,
@@ -147253,7 +147319,7 @@
           ],
           [
             4.3027482,
-            51.134589
+            51.1345729
           ]
         ]
       }
@@ -147278,7 +147344,7 @@
         "coordinates": [
           [
             4.3027482,
-            51.134589
+            51.1345729
           ],
           [
             4.3029425,
@@ -153321,7 +153387,7 @@
         "highway": "service",
         "lanes": "1",
         "maxspeed": "30",
-        "name": "Kemphoekstraat",
+        "name": "Dweerse gaanweg",
         "source:maxspeed": "BE:zone30",
         "surface": "concrete:lanes",
         "surface:middle": "cobblestones",
@@ -153333,28 +153399,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3130967,
-            51.1539831
+            4.3131275,
+            51.153981
+          ],
+          [
+            4.3133002,
+            51.1539571
           ],
           [
             4.3135161,
             51.1539367
           ],
           [
-            4.3138122,
-            51.1539264
+            4.3136522,
+            51.153924
+          ],
+          [
+            4.3137847,
+            51.1539192
+          ],
+          [
+            4.3139096,
+            51.1539345
           ],
           [
             4.3141658,
             51.1539986
           ],
           [
-            4.3143715,
-            51.1540502
+            4.3143709,
+            51.1540475
           ],
           [
-            4.3145236,
-            51.1540656
+            4.3144476,
+            51.1540579
+          ],
+          [
+            4.3145348,
+            51.1540629
           ],
           [
             4.3146634,
@@ -153365,12 +153447,12 @@
             51.1540218
           ],
           [
-            4.3149554,
-            51.153965
+            4.3149244,
+            51.1539713
           ],
           [
-            4.3149771,
-            51.1539536
+            4.3149852,
+            51.1539468
           ]
         ]
       }
@@ -153379,8 +153461,11 @@
       "type": "Feature",
       "id": "way/910881352",
       "properties": {
-        "access": "private",
+        "bicycle": "no",
+        "foot": "yes",
         "highway": "track",
+        "horse": "no",
+        "motor_vehicle": "no",
         "name": "Nieuwe Gaanweg",
         "id": "way/910881352"
       },
@@ -153388,16 +153473,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3253132,
-            51.1596729
+            4.3253241,
+            51.1596684
           ],
           [
-            4.3252959,
-            51.1597066
+            4.3253176,
+            51.1597134
           ],
           [
-            4.3252806,
-            51.1597888
+            4.3253253,
+            51.159808
           ]
         ]
       }
@@ -158627,9 +158712,13 @@
       "type": "Feature",
       "id": "way/1116471217",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
+        "lit": "no",
         "maxspeed": "70",
         "name": "Zandbeekstraat",
+        "name:vls": "Zandbèkestroate",
+        "oneway": "no",
+        "surface": "asphalt",
         "id": "way/1116471217"
       },
       "geometry": {
@@ -158666,8 +158755,12 @@
       "type": "Feature",
       "id": "way/1116471218",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
+        "lit": "no",
+        "maxspeed": "70",
         "name": "Brucqstraat",
+        "name:vls": "Brucqstroate",
+        "oneway": "no",
         "surface": "asphalt",
         "id": "way/1116471218"
       },
@@ -159887,9 +159980,11 @@
       "type": "Feature",
       "id": "way/1167454638",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "maxspeed": "30",
         "name": "Kapelweg",
+        "name:vls": "Kapelleboane",
+        "oneway": "no",
         "source:geometry": "AIV Flanders preliminary aerial imagery",
         "source:maxspeed": "BE:zone30",
         "zone:traffic": "BE-VLG:urban",
@@ -171028,6 +171123,7 @@
       "type": "Feature",
       "id": "way/424116082",
       "properties": {
+        "be:zone": "30",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -171037,7 +171133,6 @@
         "oneway:speed_pedelec": "no",
         "sidewalk": "both",
         "surface": "asphalt",
-        "zone:maxspeed": "BE:30",
         "id": "way/424116082"
       },
       "geometry": {
