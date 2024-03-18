@@ -2033,6 +2033,7 @@
         "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Zeedijk",
+        "ref": "N34",
         "surface": "paving_stones",
         "id": "way/34760924"
       },
@@ -2676,6 +2677,7 @@
       "type": "Feature",
       "id": "way/40334511",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Zwartenhoekstraat",
         "source": "Ortho littorale 2000",
@@ -4414,7 +4416,9 @@
         "highway": "track",
         "horse": "no",
         "lit": "no",
+        "smoothness": "good",
         "surface": "compacted",
+        "tracktype": "grade2",
         "traffic_sign": "BE:C3",
         "vehicle": "no",
         "id": "way/50843442"
@@ -5851,10 +5855,13 @@
       "type": "Feature",
       "id": "way/72111389",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Zwartenhoekstraat",
         "oneway": "no",
         "sidewalk": "no",
+        "smoothness": "excellent",
         "source": "Ortho littorale 2000",
         "surface": "asphalt",
         "width": "3.5",
@@ -5931,6 +5938,7 @@
       "id": "way/72111390",
       "properties": {
         "bridge": "yes",
+        "cycleway:both": "no",
         "highway": "residential",
         "layer": "1",
         "name": "Zwartenhoekstraat",
@@ -11699,9 +11707,11 @@
         "foot": "yes",
         "highway": "cycleway",
         "layer": "1",
+        "name": "De Lichtenlijn",
         "oneway": "no",
         "segregated": "no",
         "surface": "asphalt",
+        "wikidata": "Q106331998",
         "id": "way/107717882"
       },
       "geometry": {
@@ -13105,12 +13115,15 @@
       "id": "way/127671542",
       "properties": {
         "bicycle": "designated",
+        "check_date:cycleway:surface": "2024-03-09",
+        "cycleway:surface": "compacted",
         "foot": "designated",
+        "footway:surface": "fine_gravel",
         "highway": "path",
         "horse": "designated",
         "name": "Zenopad",
         "segregated": "yes",
-        "surface": "compacted",
+        "surface": "unpaved",
         "wheelchair": "yes",
         "id": "way/127671542"
       },
@@ -18081,6 +18094,7 @@
       "id": "way/158926105",
       "properties": {
         "bicycle": "designated",
+        "cycleway:surface": "compacted",
         "foot": "designated",
         "highway": "path",
         "horse": "designated",
@@ -23013,11 +23027,13 @@
       "properties": {
         "bicycle": "designated",
         "colour": "blue",
+        "cycleway:surface": "compacted",
         "foot": "designated",
+        "footway:surface": "fine_gravel",
         "highway": "path",
         "name": "Yourcenarpad",
         "segregated": "yes",
-        "surface": "compacted",
+        "surface": "unpaved",
         "wheelchair": "yes",
         "id": "way/233664598"
       },
@@ -24815,6 +24831,8 @@
       "id": "way/247557471",
       "properties": {
         "highway": "footway",
+        "lit": "yes",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/247557471"
       },
@@ -24849,6 +24867,8 @@
       "id": "way/247557476",
       "properties": {
         "highway": "footway",
+        "lit": "yes",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/247557476"
       },
@@ -25615,6 +25635,7 @@
         "maxspeed": "50",
         "name": "Zeedijk",
         "oneway:bicycle": "yes",
+        "ref": "N34",
         "surface": "paving_stones",
         "id": "way/319328549"
       },
@@ -25700,6 +25721,7 @@
         "name": "Zeedijk",
         "oneway:bicycle": "yes",
         "placement": "transition",
+        "ref": "N34",
         "surface": "paving_stones",
         "id": "way/319328553"
       },
@@ -30496,6 +30518,7 @@
       "id": "way/572931125",
       "properties": {
         "highway": "footway",
+        "smoothness": "excellent",
         "surface": "concrete",
         "id": "way/572931125"
       },
@@ -32091,6 +32114,7 @@
         "maxspeed": "50",
         "name": "Zeedijk",
         "oneway:bicycle": "yes",
+        "ref": "N34",
         "surface": "paving_stones",
         "id": "way/740843958"
       },
@@ -42463,8 +42487,12 @@
       "id": "way/1185124025",
       "properties": {
         "bicycle": "designated",
+        "check_date:surface": "2024-03-09",
         "colour": "blue",
+        "cycleway:surface": "paving_stones",
+        "cycleway:width": "1.5",
         "foot": "designated",
+        "footway:surface": "paving_stones",
         "highway": "path",
         "name": "Zeedijk-Het Zoute",
         "segregated": "yes",

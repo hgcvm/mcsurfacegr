@@ -3711,9 +3711,12 @@
       "type": "Feature",
       "id": "way/31902630",
       "properties": {
+        "access": "no",
         "bridge": "yes",
-        "highway": "footway",
+        "construction": "footway",
+        "highway": "construction",
         "name": "Wandelterras Noord",
+        "note": "AYV maandan 18 sept.23: Wandelterras Noord gesloten wegens renovatie / herinrichting, gedurende ongeveer een jaar",
         "id": "way/31902630"
       },
       "geometry": {
@@ -3768,11 +3771,14 @@
       "type": "Feature",
       "id": "way/31903851",
       "properties": {
+        "access": "no",
         "bridge": "yes",
-        "highway": "footway",
+        "construction": "footway",
+        "highway": "construction",
         "layer": "1",
         "lit": "yes",
         "name": "Wandelterras Noord",
+        "note": "AYV maandan 18 sept.23: Wandelterras Noord gesloten wegens renovatie / herinrichting, gedurende ongeveer een jaar",
         "surface": "metal",
         "id": "way/31903851"
       },
@@ -5960,7 +5966,6 @@
       "properties": {
         "bicycle": "use_sidepath",
         "highway": "tertiary",
-        "lanes": "2",
         "maxspeed": "50",
         "name": "Van Meterenkaai",
         "name:etymology:wikidata": "Q240336",
@@ -6917,6 +6922,7 @@
       "type": "Feature",
       "id": "way/424116082",
       "properties": {
+        "be:zone": "30",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -6926,7 +6932,6 @@
         "oneway:speed_pedelec": "no",
         "sidewalk": "both",
         "surface": "asphalt",
-        "zone:maxspeed": "BE:30",
         "id": "way/424116082"
       },
       "geometry": {
@@ -6986,7 +6991,6 @@
       "id": "way/424820160",
       "properties": {
         "highway": "service",
-        "surface": "paving_stones",
         "id": "way/424820160"
       },
       "geometry": {
@@ -7272,7 +7276,6 @@
       "id": "way/425308306",
       "properties": {
         "highway": "footway",
-        "surface": "paving_stones",
         "id": "way/425308306"
       },
       "geometry": {
