@@ -54614,12 +54614,17 @@
       "type": "Feature",
       "id": "way/13269362",
       "properties": {
-        "cycleway": "track",
-        "highway": "residential",
+        "cycleway:both": "track",
+        "cycleway:both:smoothness": "good",
+        "cycleway:both:surface": "paving_stones",
+        "highway": "tertiary",
+        "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Kauwereelstraat",
-        "surface": "concrete",
+        "smoothness": "excellent",
+        "source:maxspeed": "sign",
+        "surface": "asphalt",
         "width": "5",
         "id": "way/13269362"
       },
@@ -54627,32 +54632,64 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6458245,
-            50.8025673
+            4.6458194,
+            50.8025763
           ],
           [
-            4.6458299,
-            50.8024898
+            4.6458281,
+            50.8025425
           ],
           [
-            4.6466847,
-            50.8010579
+            4.6458549,
+            50.8024386
+          ],
+          [
+            4.6463202,
+            50.8016635
+          ],
+          [
+            4.6466839,
+            50.8010577
+          ],
+          [
+            4.6467244,
+            50.8009902
+          ],
+          [
+            4.6467527,
+            50.800943
           ],
           [
             4.6468491,
             50.8007825
           ],
           [
+            4.6469204,
+            50.800668
+          ],
+          [
             4.6470482,
             50.8004942
           ],
           [
-            4.6477668,
-            50.7996675
+            4.6477595,
+            50.799665
           ],
           [
-            4.6493248,
-            50.7978419
+            4.6478737,
+            50.7995319
+          ],
+          [
+            4.6484565,
+            50.7988526
+          ],
+          [
+            4.6491866,
+            50.7980015
+          ],
+          [
+            4.6493238,
+            50.7978416
           ]
         ]
       }
@@ -54662,11 +54699,16 @@
       "id": "way/13269781",
       "properties": {
         "alt_name": "Rue de Weert Saint-Georges",
-        "cycleway": "shared_lane",
-        "highway": "unclassified",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
         "maxspeed": "50",
         "maxweight": "5",
         "name": "Rue de Weert St-Georges",
+        "sidewalk:both": "no",
+        "smoothness": "good",
+        "source:maxspeed": "sign",
+        "surface": "asphalt",
         "id": "way/13269781"
       },
       "geometry": {
@@ -54675,6 +54717,10 @@
           [
             4.6448711,
             50.7981723
+          ],
+          [
+            4.6448153,
+            50.7981774
           ],
           [
             4.6447763,
@@ -54737,6 +54783,10 @@
             50.7976497
           ],
           [
+            4.6432432,
+            50.7976088
+          ],
+          [
             4.6432276,
             50.7975956
           ]
@@ -54749,7 +54799,8 @@
       "properties": {
         "highway": "unclassified",
         "name": "Dijlestraat",
-        "surface": "cobblestone",
+        "smoothness": "bad",
+        "surface": "sett",
         "id": "way/13271065"
       },
       "geometry": {
@@ -54808,10 +54859,15 @@
       "type": "Feature",
       "id": "way/24485985",
       "properties": {
-        "cycleway": "lane",
+        "cycleway:both": "track",
+        "cycleway:both:smoothness": "excellent",
+        "cycleway:both:surface": "concrete",
         "highway": "tertiary",
+        "lanes": "2",
         "lit": "yes",
         "name": "Neerijsebaan",
+        "sidewalk:both": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "width": "5",
         "id": "way/24485985"
@@ -54820,24 +54876,40 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6458245,
-            50.8025673
+            4.6458194,
+            50.8025763
           ],
           [
-            4.6455876,
-            50.8025745
+            4.6456913,
+            50.8025772
           ],
           [
-            4.6453676,
-            50.8025908
+            4.6455646,
+            50.8025844
           ],
           [
-            4.643698,
-            50.8027792
+            4.6453446,
+            50.8026014
           ],
           [
-            4.6425834,
-            50.8028582
+            4.6441323,
+            50.8027302
+          ],
+          [
+            4.6436991,
+            50.8027734
+          ],
+          [
+            4.6430133,
+            50.8028235
+          ],
+          [
+            4.6429562,
+            50.8028277
+          ],
+          [
+            4.6425828,
+            50.8028549
           ]
         ]
       }
@@ -54848,11 +54920,17 @@
       "properties": {
         "alt_name": "Rue de Weert Saint-Georges",
         "bridge": "yes",
-        "highway": "unclassified",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
         "layer": "1",
         "maxspeed": "50",
         "maxweight": "5",
         "name": "Rue de Weert St-Georges",
+        "sidewalk:both": "no",
+        "smoothness": "good",
+        "source:maxspeed": "sign",
+        "surface": "asphalt",
         "id": "way/24486106"
       },
       "geometry": {
@@ -54874,13 +54952,18 @@
       "id": "way/24486111",
       "properties": {
         "bridge": "yes",
-        "highway": "unclassified",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
         "layer": "1",
         "maxspeed": "50",
         "maxweight": "5",
         "name": "Leuvensebaan",
         "name:etymology:wikidata": "Q118958",
-        "surface": "cobblestone",
+        "sidewalk:both": "no",
+        "smoothness": "good",
+        "source:maxspeed": "sign",
+        "surface": "asphalt",
         "id": "way/24486111"
       },
       "geometry": {
@@ -54901,13 +54984,17 @@
       "type": "Feature",
       "id": "way/24486112",
       "properties": {
-        "cycleway": "lane",
+        "cycleway:both": "no",
         "highway": "tertiary",
-        "lanes": "2",
-        "maxspeed": "70",
+        "lane_markings": "no",
+        "maxspeed": "30",
         "maxweight": "5",
         "name": "Leuvensebaan",
         "name:etymology:wikidata": "Q118958",
+        "sidewalk:both": "no",
+        "smoothness": "bad",
+        "source:maxspeed": "sign",
+        "surface": "sett",
         "id": "way/24486112"
       },
       "geometry": {
@@ -54918,8 +55005,8 @@
             50.7972453
           ],
           [
-            4.6426164,
-            50.7968555
+            4.6426067,
+            50.7968583
           ]
         ]
       }
@@ -57120,8 +57207,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6426164,
-            50.7968555
+            4.6426067,
+            50.7968583
           ],
           [
             4.6426394,
@@ -57222,9 +57309,14 @@
       "type": "Feature",
       "id": "way/119260137",
       "properties": {
-        "cycleway": "track",
+        "cycleway:both": "track",
+        "cycleway:both:smoothness": "excellent",
+        "cycleway:both:surface": "concrete",
         "highway": "tertiary",
+        "lanes": "2",
         "name": "Neerijsebaan",
+        "sidewalk:both": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/119260137"
       },
@@ -57232,8 +57324,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6422528,
-            50.8028799
+            4.6422526,
+            50.8028791
           ],
           [
             4.642181,
@@ -57246,9 +57338,14 @@
       "type": "Feature",
       "id": "way/119260138",
       "properties": {
-        "cycleway": "track",
+        "cycleway:both": "track",
+        "cycleway:both:smoothness": "excellent",
+        "cycleway:both:surface": "concrete",
         "highway": "tertiary",
+        "lanes": "2",
         "name": "Neerijsebaan",
+        "sidewalk:both": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/119260138"
       },
@@ -57256,12 +57353,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6425834,
-            50.8028582
+            4.6425828,
+            50.8028549
           ],
           [
-            4.6425478,
-            50.8028605
+            4.6425473,
+            50.8028575
           ]
         ]
       }
@@ -57271,10 +57368,15 @@
       "id": "way/119260139",
       "properties": {
         "bridge": "yes",
-        "cycleway": "track",
+        "cycleway:both": "track",
+        "cycleway:both:smoothness": "excellent",
+        "cycleway:both:surface": "concrete",
         "highway": "tertiary",
+        "lanes": "2",
         "layer": "1",
         "name": "Neerijsebaan",
+        "sidewalk:both": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/119260139"
       },
@@ -57282,16 +57384,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6425478,
-            50.8028605
+            4.6425473,
+            50.8028575
           ],
           [
-            4.6424065,
-            50.8028707
-          ],
-          [
-            4.6422528,
-            50.8028799
+            4.6422526,
+            50.8028791
           ]
         ]
       }
@@ -58846,10 +58944,16 @@
       "id": "way/186974169",
       "properties": {
         "alt_name": "Rue de Weert Saint-Georges",
-        "highway": "unclassified",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
         "maxspeed": "50",
         "maxweight": "5",
         "name": "Rue de Weert St-Georges",
+        "sidewalk:both": "no",
+        "smoothness": "good",
+        "source:maxspeed": "sign",
+        "surface": "asphalt",
         "id": "way/186974169"
       },
       "geometry": {
@@ -59625,12 +59729,16 @@
       "type": "Feature",
       "id": "way/485389077",
       "properties": {
-        "cycleway": "shared_lane",
-        "highway": "unclassified",
-        "maxspeed": "50",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "maxspeed": "30",
         "maxweight": "5",
         "name": "Roodsestraat / Rue de Weert St-Georges",
         "oneway": "no",
+        "sidewalk:both": "no",
+        "smoothness": "good",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
         "id": "way/485389077"
       },
@@ -59638,16 +59746,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6493248,
-            50.7978419
+            4.6493238,
+            50.7978416
           ],
           [
-            4.6492461,
-            50.79781
+            4.6492623,
+            50.797818
           ],
           [
-            4.6491656,
-            50.7977937
+            4.6492435,
+            50.7978109
+          ],
+          [
+            4.649207,
+            50.7978005
+          ],
+          [
+            4.6491715,
+            50.7977941
+          ],
+          [
+            4.6491473,
+            50.7977924
+          ],
+          [
+            4.6491208,
+            50.7977922
           ],
           [
             4.6490907,

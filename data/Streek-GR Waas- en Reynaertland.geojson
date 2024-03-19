@@ -744,6 +744,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Scheldelei",
+        "name:etymology:wikidata": "Q37620",
         "oneway": "yes",
         "ref": "N408",
         "surface": "cobblestone",
@@ -1069,6 +1070,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Lijsterbessenlaan",
+        "name:etymology:wikidata": "Q157964",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "id": "way/23621110"
@@ -1095,6 +1097,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Lijsterbessenlaan",
+        "name:etymology:wikidata": "Q157964",
         "surface": "asphalt",
         "id": "way/23621111"
       },
@@ -1124,6 +1127,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Lijsterbessenlaan",
+        "name:etymology:wikidata": "Q157964",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "surface": "paving_stones",
@@ -1166,6 +1170,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Lijsterbessenlaan",
+        "name:etymology:wikidata": "Q157964",
         "id": "way/23621146"
       },
       "geometry": {
@@ -1360,6 +1365,7 @@
         "cycleway": "track",
         "highway": "tertiary",
         "name": "Nieuwkerkenstraat",
+        "name:etymology:wikidata": "Q2614931",
         "surface": "asphalt",
         "id": "way/23633611"
       },
@@ -1392,6 +1398,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Gerard Walschaplaan",
+        "name:etymology:wikidata": "Q2602795",
         "id": "way/23635088"
       },
       "geometry": {
@@ -1447,6 +1454,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Leo Metslaan",
+        "name:etymology:wikidata": "Q13749195",
         "id": "way/23635095"
       },
       "geometry": {
@@ -4892,6 +4900,7 @@
       "properties": {
         "highway": "residential",
         "name": "Nieuwkerkenstraat",
+        "name:etymology:wikidata": "Q2614931",
         "surface": "paving_stones",
         "id": "way/24865619"
       },
@@ -5142,9 +5151,13 @@
       "id": "way/24873827",
       "properties": {
         "bicycle": "designated",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "foot": "designated",
         "highway": "unclassified",
         "motor_vehicle": "destination",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/24873827"
       },
       "geometry": {
@@ -6467,6 +6480,10 @@
             51.1770104
           ],
           [
+            3.9769431,
+            51.1770257
+          ],
+          [
             3.97715,
             51.1770937
           ]
@@ -7016,6 +7033,10 @@
             51.1464115
           ],
           [
+            4.0837945,
+            51.1464183
+          ],
+          [
             4.0830889,
             51.1465035
           ],
@@ -7120,16 +7141,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0833752,
-            51.1453979
+            4.0833783,
+            51.1454318
           ],
           [
             4.083359,
             51.1454928
           ],
           [
-            4.083862,
-            51.1463106
+            4.0838475,
+            51.1463054
           ],
           [
             4.0839801,
@@ -11270,36 +11291,38 @@
       "type": "Feature",
       "id": "way/43992615",
       "properties": {
+        "dual_carriageway": "yes",
         "highway": "tertiary",
         "name": "Polenlaan",
+        "oneway": "yes",
         "id": "way/43992615"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.0412817,
-            51.2064965
-          ],
-          [
-            4.0413684,
-            51.2065498
-          ],
-          [
-            4.0414001,
-            51.2065645
-          ],
-          [
-            4.0414393,
-            51.2065772
+            4.0415077,
+            51.2065892
           ],
           [
             4.0414792,
             51.2065852
           ],
           [
-            4.0415077,
-            51.2065892
+            4.0414393,
+            51.2065772
+          ],
+          [
+            4.0414001,
+            51.2065645
+          ],
+          [
+            4.0413684,
+            51.2065498
+          ],
+          [
+            4.0412817,
+            51.2064965
           ]
         ]
       }
@@ -17764,8 +17787,12 @@
             51.1451933
           ],
           [
-            4.0833752,
-            51.1453979
+            4.0834037,
+            51.1453392
+          ],
+          [
+            4.0833783,
+            51.1454318
           ]
         ]
       }
@@ -17880,8 +17907,8 @@
             51.1146173
           ],
           [
-            4.0786342,
-            51.1137133
+            4.0786459,
+            51.1137163
           ]
         ]
       }
@@ -18164,6 +18191,7 @@
         "foot": "yes",
         "highway": "track",
         "name": "Dijk Molsbroek",
+        "name:etymology:wikidata": "Q2201014",
         "surface": "asphalt",
         "tracktype": "grade1",
         "id": "way/117135774"
@@ -18549,6 +18577,7 @@
       "id": "way/120551669",
       "properties": {
         "highway": "footway",
+        "surface": "grass",
         "id": "way/120551669"
       },
       "geometry": {
@@ -18582,6 +18611,7 @@
       "id": "way/120551670",
       "properties": {
         "highway": "footway",
+        "surface": "dirt",
         "id": "way/120551670"
       },
       "geometry": {
@@ -19332,6 +19362,7 @@
         "foot": "yes",
         "highway": "track",
         "name": "Dijk Molsbroek",
+        "name:etymology:wikidata": "Q2201014",
         "surface": "asphalt",
         "tracktype": "grade1",
         "id": "way/130878982"
@@ -21347,23 +21378,28 @@
       "type": "Feature",
       "id": "way/145819404",
       "properties": {
-        "highway": "cycleway",
+        "highway": "track",
+        "name": "Rivierstraat",
         "id": "way/145819404"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.0786342,
-            51.1137133
+            4.0786459,
+            51.1137163
           ],
           [
-            4.0789917,
-            51.1132344
+            4.0788642,
+            51.1134083
           ],
           [
-            4.0793229,
-            51.1129236
+            4.0789961,
+            51.1132455
+          ],
+          [
+            4.079324,
+            51.1129319
           ],
           [
             4.0795792,
@@ -22270,6 +22306,8 @@
       "type": "Feature",
       "id": "way/148743147",
       "properties": {
+        "crossing": "uncontrolled",
+        "crossing:markings": "zebra:rainbow",
         "footway": "crossing",
         "highway": "footway",
         "surface": "paved",
@@ -22473,12 +22511,15 @@
       "id": "way/149923404",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "designation": "towpath",
         "embankment": "yes",
         "foot": "yes",
         "highway": "service",
         "historic:towpath": "yes",
         "motor_vehicle": "permit",
+        "sidewalk": "no",
         "surface": "asphalt",
         "towpath": "yes",
         "vehicle": "permit",
@@ -22987,12 +23028,16 @@
       "id": "way/149923405",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "designation": "towpath",
         "embankment": "yes",
         "foot": "yes",
         "highway": "service",
         "historic:towpath": "yes",
         "motor_vehicle": "permit",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "towpath": "yes",
         "vehicle": "permit",
@@ -26159,8 +26204,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3086414,
-            51.1465083
+            4.308656,
+            51.1465345
+          ],
+          [
+            4.3086425,
+            51.1465703
           ],
           [
             4.3086445,
@@ -26507,6 +26556,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Scheldelei",
+        "name:etymology:wikidata": "Q37620",
         "surface": "asphalt",
         "id": "way/331055793"
       },
@@ -27102,8 +27152,8 @@
             51.1536992
           ],
           [
-            4.3153076,
-            51.1537192
+            4.3153169,
+            51.1537217
           ]
         ]
       }
@@ -28033,6 +28083,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Scheldelei",
+        "name:etymology:wikidata": "Q37620",
         "oneway": "yes",
         "ref": "N408",
         "surface": "cobblestone",
@@ -30932,7 +30983,11 @@
       "type": "Feature",
       "id": "way/525310854",
       "properties": {
+        "bicycle": "no",
+        "foot": "yes",
         "highway": "track",
+        "horse": "no",
+        "motor_vehicle": "no",
         "name": "Nieuwe Gaanweg",
         "id": "way/525310854"
       },
@@ -30940,8 +30995,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3252806,
-            51.1597888
+            4.3253253,
+            51.159808
           ],
           [
             4.3253532,
@@ -30971,8 +31026,9 @@
       "id": "way/525311606",
       "properties": {
         "bicycle": "no",
-        "highway": "footway",
+        "highway": "path",
         "horse": "no",
+        "name": "Tilleken Tangdijk",
         "smoothness": "very_bad",
         "surface": "grass",
         "width": "0.6",
@@ -30982,8 +31038,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3253132,
-            51.1596729
+            4.3253241,
+            51.1596684
+          ],
+          [
+            4.3252785,
+            51.1596497
           ],
           [
             4.3251401,
@@ -31318,6 +31378,7 @@
       "properties": {
         "highway": "track",
         "name": "Durmedijk",
+        "name:etymology:wikidata": "Q1984940",
         "surface": "grass",
         "tracktype": "grade5",
         "id": "way/529210312"
@@ -33368,6 +33429,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
+        "name": "Tilleken Tangdijk",
         "surface": "unpaved",
         "id": "way/631833313"
       },
@@ -33375,8 +33437,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3130967,
-            51.1539831
+            4.3131275,
+            51.153981
+          ],
+          [
+            4.3131421,
+            51.1540011
+          ],
+          [
+            4.3132484,
+            51.1540523
           ],
           [
             4.3133121,
@@ -34183,8 +34253,16 @@
             51.1467244
           ],
           [
+            4.3117916,
+            51.1467147
+          ],
+          [
             4.3115394,
             51.1467092
+          ],
+          [
+            4.3090432,
+            51.146672
           ],
           [
             4.308952,
@@ -34203,8 +34281,8 @@
             51.1465816
           ],
           [
-            4.3086414,
-            51.1465083
+            4.308656,
+            51.1465345
           ]
         ]
       }
@@ -34224,8 +34302,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3153076,
-            51.1537192
+            4.3153169,
+            51.1537217
+          ],
+          [
+            4.3152701,
+            51.1537632
           ],
           [
             4.315209,
@@ -34245,7 +34327,7 @@
         "highway": "service",
         "lanes": "1",
         "maxspeed": "30",
-        "name": "Kemphoekstraat",
+        "name": "Dweerse gaanweg",
         "source:maxspeed": "BE:zone30",
         "surface": "concrete:lanes",
         "surface:middle": "cobblestones",
@@ -34257,8 +34339,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3149771,
-            51.1539536
+            4.3149852,
+            51.1539468
           ],
           [
             4.315076,
@@ -34302,8 +34384,12 @@
             51.1286215
           ],
           [
-            4.2988486,
-            51.1293147
+            4.2988747,
+            51.1293103
+          ],
+          [
+            4.2992896,
+            51.1297329
           ],
           [
             4.2996904,
@@ -34359,8 +34445,12 @@
             51.1337258
           ],
           [
-            4.3025058,
-            51.1339883
+            4.3025131,
+            51.1339851
+          ],
+          [
+            4.3026522,
+            51.1343058
           ],
           [
             4.3027111,
@@ -34368,7 +34458,7 @@
           ],
           [
             4.3027482,
-            51.134589
+            51.1345729
           ]
         ]
       }
@@ -34393,7 +34483,7 @@
         "coordinates": [
           [
             4.3027482,
-            51.134589
+            51.1345729
           ],
           [
             4.3029425,
@@ -35466,6 +35556,7 @@
       "properties": {
         "highway": "track",
         "name": "Durmedijk",
+        "name:etymology:wikidata": "Q1984940",
         "surface": "grass",
         "tracktype": "grade5",
         "id": "way/670332594"
@@ -35928,6 +36019,7 @@
         "cycleway": "track",
         "highway": "secondary",
         "name": "Burchtstraat",
+        "name:etymology:wikidata": "Q2045929",
         "ref": "N419",
         "id": "way/671065261"
       },
@@ -36399,6 +36491,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Goudenregenlaan",
+        "name:etymology:wikidata": "Q147939",
         "id": "way/671065713"
       },
       "geometry": {
@@ -36912,6 +37005,7 @@
       "properties": {
         "highway": "tertiary",
         "name": "Nieuwkerkenstraat",
+        "name:etymology:wikidata": "Q2614931",
         "surface": "asphalt",
         "id": "way/672461626"
       },
@@ -38145,6 +38239,7 @@
         "foot": "yes",
         "highway": "track",
         "name": "Dijk Molsbroek",
+        "name:etymology:wikidata": "Q2201014",
         "surface": "asphalt",
         "tracktype": "grade1",
         "width": "2",
@@ -38225,6 +38320,7 @@
         "foot": "yes",
         "highway": "track",
         "name": "Dijk Molsbroek",
+        "name:etymology:wikidata": "Q2201014",
         "surface": "asphalt",
         "tracktype": "grade1",
         "width": "1",
@@ -38269,6 +38365,7 @@
         "foot": "yes",
         "highway": "track",
         "name": "Dijk Molsbroek",
+        "name:etymology:wikidata": "Q2201014",
         "surface": "asphalt",
         "tracktype": "grade1",
         "id": "way/742858972"
@@ -39424,6 +39521,18 @@
           [
             4.0748178,
             51.288515
+          ],
+          [
+            4.0749223,
+            51.2885385
+          ],
+          [
+            4.0768537,
+            51.2898514
+          ],
+          [
+            4.0769841,
+            51.28994
           ]
         ]
       }
@@ -40433,7 +40542,7 @@
         "highway": "service",
         "lanes": "1",
         "maxspeed": "30",
-        "name": "Kemphoekstraat",
+        "name": "Dweerse gaanweg",
         "source:maxspeed": "BE:zone30",
         "surface": "concrete:lanes",
         "surface:middle": "cobblestones",
@@ -40445,28 +40554,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3130967,
-            51.1539831
+            4.3131275,
+            51.153981
+          ],
+          [
+            4.3133002,
+            51.1539571
           ],
           [
             4.3135161,
             51.1539367
           ],
           [
-            4.3138122,
-            51.1539264
+            4.3136522,
+            51.153924
+          ],
+          [
+            4.3137847,
+            51.1539192
+          ],
+          [
+            4.3139096,
+            51.1539345
           ],
           [
             4.3141658,
             51.1539986
           ],
           [
-            4.3143715,
-            51.1540502
+            4.3143709,
+            51.1540475
           ],
           [
-            4.3145236,
-            51.1540656
+            4.3144476,
+            51.1540579
+          ],
+          [
+            4.3145348,
+            51.1540629
           ],
           [
             4.3146634,
@@ -40477,12 +40602,12 @@
             51.1540218
           ],
           [
-            4.3149554,
-            51.153965
+            4.3149244,
+            51.1539713
           ],
           [
-            4.3149771,
-            51.1539536
+            4.3149852,
+            51.1539468
           ]
         ]
       }
@@ -40491,8 +40616,11 @@
       "type": "Feature",
       "id": "way/910881352",
       "properties": {
-        "access": "private",
+        "bicycle": "no",
+        "foot": "yes",
         "highway": "track",
+        "horse": "no",
+        "motor_vehicle": "no",
         "name": "Nieuwe Gaanweg",
         "id": "way/910881352"
       },
@@ -40500,16 +40628,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3253132,
-            51.1596729
+            4.3253241,
+            51.1596684
           ],
           [
-            4.3252959,
-            51.1597066
+            4.3253176,
+            51.1597134
           ],
           [
-            4.3252806,
-            51.1597888
+            4.3253253,
+            51.159808
           ]
         ]
       }
@@ -41233,38 +41361,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/997775814",
-      "properties": {
-        "bicycle": "yes",
-        "highway": "path",
-        "name": "Liniedijk",
-        "surface": "unpaved",
-        "id": "way/997775814"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.0748178,
-            51.288515
-          ],
-          [
-            4.0749223,
-            51.2885385
-          ],
-          [
-            4.0768537,
-            51.2898514
-          ],
-          [
-            4.0769841,
-            51.28994
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/997775815",
       "properties": {
         "highway": "footway",
@@ -41273,6 +41369,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            4.0747846,
+            51.2876965
+          ],
           [
             4.0747156,
             51.2876133
@@ -41305,27 +41405,6 @@
           [
             4.0747846,
             51.2876965
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/997775817",
-      "properties": {
-        "highway": "footway",
-        "id": "way/997775817"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.0747846,
-            51.2876965
-          ],
-          [
-            4.0747156,
-            51.2876133
           ]
         ]
       }
@@ -43128,6 +43207,7 @@
       "properties": {
         "highway": "residential",
         "name": "Gentstraat",
+        "name:etymology:wikidata": "Q1296",
         "id": "way/1249830631"
       },
       "geometry": {
@@ -43629,8 +43709,16 @@
             51.1054534
           ],
           [
+            3.9886074,
+            51.105434
+          ],
+          [
             3.9885846,
             51.1054236
+          ],
+          [
+            3.9885417,
+            51.1054167
           ],
           [
             3.9883787,
@@ -43916,8 +44004,10 @@
       "type": "Feature",
       "id": "way/183596988",
       "properties": {
+        "bicycle": "yes",
         "bridge": "yes",
-        "highway": "cycleway",
+        "foot": "yes",
+        "highway": "path",
         "layer": "1",
         "id": "way/183596988"
       },
@@ -43955,7 +44045,9 @@
       "type": "Feature",
       "id": "way/183603653",
       "properties": {
-        "highway": "cycleway",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
         "surface": "asphalt",
         "id": "way/183603653"
       },
@@ -43963,8 +44055,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9814799,
-            51.1062899
+            3.9814858,
+            51.1062984
           ],
           [
             3.981656,
@@ -44003,7 +44095,9 @@
       "type": "Feature",
       "id": "way/589416762",
       "properties": {
-        "highway": "cycleway",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
         "lit": "yes",
         "surface": "asphalt",
         "id": "way/589416762"
@@ -44124,8 +44218,10 @@
       "type": "Feature",
       "id": "way/948675024",
       "properties": {
+        "bicycle": "yes",
         "bridge": "yes",
-        "highway": "cycleway",
+        "foot": "yes",
+        "highway": "path",
         "layer": "1",
         "surface": "asphalt",
         "id": "way/948675024"
@@ -44148,7 +44244,9 @@
       "type": "Feature",
       "id": "way/948675025",
       "properties": {
-        "highway": "cycleway",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
         "surface": "asphalt",
         "id": "way/948675025"
       },
@@ -44160,8 +44258,8 @@
             51.1062566
           ],
           [
-            3.9814799,
-            51.1062899
+            3.9814858,
+            51.1062984
           ]
         ]
       }
