@@ -2596,8 +2596,11 @@
       "id": "way/7631074",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "60",
         "name": "Killedijk",
+        "sidewalk": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/7631074"
       },
@@ -4090,8 +4093,10 @@
         "highway": "cycleway",
         "mofa": "no",
         "moped": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "traffic_sign": "NL:G13",
+        "width": "2.9",
         "id": "way/33686266"
       },
       "geometry": {
@@ -4133,6 +4138,7 @@
       "id": "way/33686267",
       "properties": {
         "highway": "path",
+        "smoothness": "good",
         "surface": "compacted",
         "id": "way/33686267"
       },
@@ -4265,6 +4271,7 @@
         "moped": "no",
         "surface": "wood",
         "traffic_sign": "NL:G13",
+        "width": "1.7",
         "id": "way/33686268"
       },
       "geometry": {
@@ -4288,6 +4295,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Noordstraat",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/33686269"
       },
@@ -4348,8 +4356,10 @@
         "highway": "cycleway",
         "mofa": "no",
         "moped": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "traffic_sign": "NL:G13",
+        "width": "2.4",
         "id": "way/33686272"
       },
       "geometry": {
@@ -6786,6 +6796,7 @@
         "foot": "yes",
         "highway": "path",
         "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "id": "way/50906073"
       },
@@ -6918,6 +6929,7 @@
         "horse": "no",
         "lit": "no",
         "oneway": "no",
+        "smoothness": "excellent",
         "source": "survey",
         "surface": "asphalt",
         "width": "2",
@@ -6933,10 +6945,6 @@
           [
             3.3799906,
             51.3766352
-          ],
-          [
-            3.3795653,
-            51.3765918
           ]
         ]
       }
@@ -8986,6 +8994,7 @@
         "lit": "no",
         "oneway": "no",
         "segregated": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "width": "2",
         "id": "way/86401754"
@@ -9032,6 +9041,7 @@
       "type": "Feature",
       "id": "way/86401756",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lane_markings": "no",
         "lit": "yes",
@@ -9039,6 +9049,9 @@
         "name": "Kanaalweg",
         "oneway": "no",
         "scenic": "yes",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/86401756"
       },
@@ -10244,7 +10257,8 @@
       "id": "way/112553048",
       "properties": {
         "highway": "footway",
-        "surface": "compacted",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
         "id": "way/112553048"
       },
       "geometry": {
@@ -21281,7 +21295,7 @@
       "type": "Feature",
       "id": "way/217961731",
       "properties": {
-        "highway": "cycleway",
+        "highway": "path",
         "lit": "no",
         "surface": "compacted",
         "id": "way/217961731"
@@ -21595,6 +21609,7 @@
       "type": "Feature",
       "id": "way/230187781",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -25394,6 +25409,7 @@
         "foot": "yes",
         "highway": "path",
         "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "id": "way/513842602"
       },
@@ -26894,6 +26910,7 @@
         "description": "wie wat access",
         "foot": "yes",
         "highway": "service",
+        "smoothness": "intermediate",
         "surface": "fine_gravel",
         "id": "way/679296735"
       },
@@ -26989,7 +27006,8 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "surface": "fine_gravel",
+        "smoothness": "good",
+        "surface": "compacted",
         "width": "3",
         "id": "way/682274406"
       },
@@ -27960,7 +27978,8 @@
         "description": "wie wat access",
         "foot": "yes",
         "highway": "service",
-        "surface": "fine_gravel",
+        "smoothness": "good",
+        "surface": "compacted",
         "id": "way/714993632"
       },
       "geometry": {
@@ -28050,7 +28069,8 @@
         "description": "wie wat access",
         "foot": "yes",
         "highway": "service",
-        "surface": "fine_gravel",
+        "smoothness": "good",
+        "surface": "compacted",
         "id": "way/714993634"
       },
       "geometry": {
@@ -28606,12 +28626,17 @@
       "type": "Feature",
       "id": "way/887062455",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Kanaalweg",
         "oneway": "no",
         "scenic": "yes",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/887062455"
       },
@@ -28807,7 +28832,8 @@
         "description": "wie wat access",
         "foot": "yes",
         "highway": "service",
-        "surface": "fine_gravel",
+        "smoothness": "good",
+        "surface": "compacted",
         "id": "way/954078258"
       },
       "geometry": {
@@ -29668,6 +29694,7 @@
         "description": "wie wat access",
         "foot": "yes",
         "highway": "service",
+        "smoothness": "good",
         "surface": "compacted",
         "id": "way/1115682426"
       },
@@ -29742,7 +29769,8 @@
         "description": "wie wat access",
         "foot": "yes",
         "highway": "service",
-        "surface": "fine_gravel",
+        "smoothness": "good",
+        "surface": "compacted",
         "id": "way/1115682427"
       },
       "geometry": {
@@ -29788,7 +29816,8 @@
         "description": "wie wat access",
         "foot": "yes",
         "highway": "service",
-        "surface": "fine_gravel",
+        "smoothness": "good",
+        "surface": "compacted",
         "id": "way/1115682428"
       },
       "geometry": {
@@ -29813,6 +29842,7 @@
         "foot": "yes",
         "highway": "path",
         "segregated": "no",
+        "smoothness": "good",
         "surface": "compacted",
         "id": "way/1115682430"
       },
@@ -30983,7 +31013,8 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "surface": "fine_gravel",
+        "smoothness": "good",
+        "surface": "compacted",
         "width": "3",
         "id": "way/1172360014"
       },
@@ -31210,6 +31241,34 @@
           [
             3.4866762,
             51.3215746
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1259425409",
+      "properties": {
+        "highway": "cycleway",
+        "horse": "no",
+        "lit": "no",
+        "oneway": "no",
+        "smoothness": "intermediate",
+        "source": "survey",
+        "surface": "asphalt",
+        "width": "2",
+        "id": "way/1259425409"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3799906,
+            51.3766352
+          ],
+          [
+            3.3795653,
+            51.3765918
           ]
         ]
       }

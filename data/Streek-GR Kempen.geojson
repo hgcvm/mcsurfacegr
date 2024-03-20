@@ -12618,7 +12618,9 @@
       "id": "way/59753020",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Heikant",
+        "surface": "asphalt",
         "id": "way/59753020"
       },
       "geometry": {
@@ -12647,6 +12649,7 @@
         "foot": "yes",
         "highway": "track",
         "name": "Heikant",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/59753022"
       },
@@ -12733,7 +12736,9 @@
       "id": "way/59753023",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Slaaplaken",
+        "surface": "paving_stones",
         "id": "way/59753023"
       },
       "geometry": {
@@ -30761,6 +30766,10 @@
             51.2376384
           ],
           [
+            4.8175826,
+            51.2375179
+          ],
+          [
             4.8172372,
             51.23742
           ],
@@ -37066,7 +37075,11 @@
       "type": "Feature",
       "id": "way/376455724",
       "properties": {
+        "bicycle": "no",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
+        "motor_vehicle": "no",
         "surface": "ground",
         "tracktype": "grade3",
         "id": "way/376455724"
@@ -37418,6 +37431,7 @@
       "id": "way/377738302",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Slaaplaken",
         "surface": "paving_stones",
         "id": "way/377738302"
@@ -45707,6 +45721,7 @@
       "id": "way/685607810",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Hulsbos",
         "surface": "paving_stones",
         "id": "way/685607810"
@@ -48946,7 +48961,7 @@
       "type": "Feature",
       "id": "way/966567239",
       "properties": {
-        "highway": "track",
+        "highway": "path",
         "horse": "no",
         "surface": "grass",
         "tracktype": "grade5",
@@ -57347,10 +57362,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8303416,
-            51.1813689
-          ],
-          [
             4.8298136,
             51.1811649
           ],
@@ -58034,6 +58045,30 @@
           [
             4.844318,
             51.1941976
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1256641557",
+      "properties": {
+        "highway": "service",
+        "motor_vehicle": "no",
+        "oneway": "yes",
+        "psv": "yes",
+        "id": "way/1256641557"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8303416,
+            51.1813689
+          ],
+          [
+            4.8298136,
+            51.1811649
           ]
         ]
       }
