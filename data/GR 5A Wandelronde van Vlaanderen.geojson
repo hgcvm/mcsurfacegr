@@ -4953,7 +4953,6 @@
       "id": "way/23713863",
       "properties": {
         "bicycle": "yes",
-        "created_by": "Potlatch 0.10f",
         "highway": "path",
         "surface": "dirt",
         "vehicle": "no",
@@ -4965,6 +4964,10 @@
           [
             4.3749064,
             51.2289532
+          ],
+          [
+            4.3749084,
+            51.2290687
           ],
           [
             4.3749084,
@@ -27503,10 +27506,14 @@
       "type": "Feature",
       "id": "way/108586414",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "motor_vehicle": "no",
         "name": "Comer-Graafjansdijk",
         "name:etymology:wikidata": "Q3027864",
+        "sidewalk": "no",
+        "surface": "concrete",
         "id": "way/108586414"
       },
       "geometry": {
@@ -47787,8 +47794,11 @@
       "properties": {
         "access": "permissive",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "highway": "unclassified",
         "motor_vehicle": "no",
+        "sidewalk": "no",
+        "surface": "concrete",
         "id": "way/272340655"
       },
       "geometry": {
@@ -50510,6 +50520,7 @@
       "type": "Feature",
       "id": "way/390494369",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lanes": "1",
         "lit": "yes",
@@ -56656,6 +56667,7 @@
       "id": "way/667214503",
       "properties": {
         "highway": "path",
+        "surface": "wood",
         "id": "way/667214503"
       },
       "geometry": {
@@ -56677,6 +56689,7 @@
       "id": "way/667214505",
       "properties": {
         "highway": "path",
+        "surface": "wood",
         "id": "way/667214505"
       },
       "geometry": {
@@ -74589,13 +74602,9 @@
       "id": "way/24873827",
       "properties": {
         "bicycle": "designated",
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "foot": "designated",
         "highway": "unclassified",
         "motor_vehicle": "destination",
-        "sidewalk": "no",
-        "surface": "asphalt",
         "id": "way/24873827"
       },
       "geometry": {
@@ -91050,12 +91059,9 @@
       "id": "way/66153075",
       "properties": {
         "highway": "residential",
-        "lit": "yes",
         "maxspeed": "50",
         "name": "Waterstraat",
-        "sidewalk": "right",
         "source:maxspeed": "BE:zone50",
-        "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/66153075"
       },
@@ -99207,7 +99213,6 @@
       "id": "way/95683624",
       "properties": {
         "highway": "service",
-        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/95683624"
       },
@@ -104893,7 +104898,6 @@
       "id": "way/120551669",
       "properties": {
         "highway": "footway",
-        "surface": "grass",
         "id": "way/120551669"
       },
       "geometry": {
@@ -104927,7 +104931,6 @@
       "id": "way/120551670",
       "properties": {
         "highway": "footway",
-        "surface": "dirt",
         "id": "way/120551670"
       },
       "geometry": {
@@ -111428,7 +111431,6 @@
         "motor_vehicle": "no",
         "segregated": "no",
         "surface": "concrete:lanes",
-        "tracktype": "grade1",
         "id": "way/141183290"
       },
       "geometry": {
@@ -111477,7 +111479,6 @@
         "motor_vehicle": "no",
         "segregated": "no",
         "surface": "concrete:lanes",
-        "tracktype": "grade1",
         "id": "way/141183295"
       },
       "geometry": {
@@ -113980,15 +113981,12 @@
       "id": "way/149923404",
       "properties": {
         "bicycle": "yes",
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "designation": "towpath",
         "embankment": "yes",
         "foot": "yes",
         "highway": "service",
         "historic:towpath": "yes",
         "motor_vehicle": "permit",
-        "sidewalk": "no",
         "surface": "asphalt",
         "towpath": "yes",
         "vehicle": "permit",
@@ -114497,16 +114495,12 @@
       "id": "way/149923405",
       "properties": {
         "bicycle": "yes",
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "pictogram",
         "designation": "towpath",
         "embankment": "yes",
         "foot": "yes",
         "highway": "service",
         "historic:towpath": "yes",
         "motor_vehicle": "permit",
-        "sidewalk": "no",
-        "smoothness": "good",
         "surface": "asphalt",
         "towpath": "yes",
         "vehicle": "permit",
@@ -117998,7 +117992,6 @@
         "name": "Muziekbosstraat - Rue du Muziekbos",
         "name:fr": "Rue du Muziekbos",
         "name:nl": "Muziekbosstraat",
-        "surface": "asphalt",
         "traffic_sign": "BE:C3,BE:M2,BE:F45b",
         "id": "way/184231331"
       },
@@ -132292,7 +132285,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Groenestraat",
-        "name:etymology:wikidata": "Q3133",
+        "name:etymology:wikidata": "L614072",
         "surface": "asphalt",
         "width": "3",
         "id": "way/371794027"
@@ -132521,7 +132514,7 @@
       "properties": {
         "highway": "tertiary",
         "name": "Groenestraat",
-        "name:etymology:wikidata": "Q3133",
+        "name:etymology:wikidata": "L614072",
         "surface": "concrete",
         "id": "way/371794782"
       },
@@ -137676,7 +137669,6 @@
         "horse": "yes",
         "motor_vehicle": "no",
         "segregated": "no",
-        "smoothness": "good",
         "surface": "paving_stones",
         "tracktype": "grade1",
         "id": "way/418153664"
@@ -143012,7 +143004,6 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
-        "name": "Tilleken Tangdijk",
         "smoothness": "very_bad",
         "surface": "grass",
         "width": "0.6",
@@ -144598,12 +144589,8 @@
       "type": "Feature",
       "id": "way/583405831",
       "properties": {
-        "highway": "residential",
-        "lit": "yes",
-        "maxspeed": "70",
+        "highway": "unclassified",
         "name": "Priesterstraat",
-        "name:vls": "Pastrestroate",
-        "oneway": "no",
         "surface": "asphalt",
         "width": "3",
         "id": "way/583405831"
@@ -146466,7 +146453,6 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
-        "name": "Tilleken Tangdijk",
         "surface": "unpaved",
         "id": "way/631833313"
       },
@@ -149755,7 +149741,6 @@
         "ref": "D 60",
         "shoulder": "no",
         "sidewalk": "both",
-        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/691306490"
       },
@@ -150154,7 +150139,6 @@
         "foot": "designated",
         "highway": "service",
         "segregated": "no",
-        "smoothness": "good",
         "surface": "concrete",
         "id": "way/715049793"
       },
@@ -159021,13 +159005,9 @@
       "type": "Feature",
       "id": "way/1116471217",
       "properties": {
-        "highway": "residential",
-        "lit": "no",
+        "highway": "unclassified",
         "maxspeed": "70",
         "name": "Zandbeekstraat",
-        "name:vls": "Zandbèkestroate",
-        "oneway": "no",
-        "surface": "asphalt",
         "id": "way/1116471217"
       },
       "geometry": {
@@ -159064,12 +159044,8 @@
       "type": "Feature",
       "id": "way/1116471218",
       "properties": {
-        "highway": "residential",
-        "lit": "no",
-        "maxspeed": "70",
+        "highway": "unclassified",
         "name": "Brucqstraat",
-        "name:vls": "Brucqstroate",
-        "oneway": "no",
         "surface": "asphalt",
         "id": "way/1116471218"
       },

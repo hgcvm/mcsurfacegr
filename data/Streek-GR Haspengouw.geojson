@@ -5142,7 +5142,6 @@
         "horse": "yes",
         "maxspeed": "30",
         "name": "Genoelsweg",
-        "smoothness": "intermediate",
         "surface": "concrete",
         "traffic_sign": "BE:F99c",
         "id": "way/29350445"
@@ -5201,7 +5200,6 @@
         "horse": "yes",
         "maxspeed": "30",
         "name": "Demerbronstraat",
-        "smoothness": "good",
         "surface": "asphalt",
         "traffic_sign": "BE:F99c",
         "id": "way/29350502"
@@ -15023,24 +15021,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.2687513,
-            50.7137711
-          ],
-          [
-            5.2688342,
-            50.7137918
-          ],
-          [
-            5.2695428,
-            50.7139404
-          ],
-          [
-            5.2709039,
-            50.7141794
-          ],
-          [
             5.2713207,
             50.7141942
+          ],
+          [
+            5.2727411,
+            50.7142713
           ],
           [
             5.2750373,
@@ -19731,6 +19717,50 @@
           [
             5.2635792,
             50.7634003
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1257864260",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Chaussée de Nivelles",
+        "smoothness": "excellent",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
+        "width": "4",
+        "zone:traffic": "BE-WAL:urban",
+        "id": "way/1257864260"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2687513,
+            50.7137711
+          ],
+          [
+            5.2688342,
+            50.7137918
+          ],
+          [
+            5.2691283,
+            50.7138529
+          ],
+          [
+            5.2695428,
+            50.7139404
+          ],
+          [
+            5.2709039,
+            50.7141794
+          ],
+          [
+            5.2713207,
+            50.7141942
           ]
         ]
       }
@@ -38745,10 +38775,6 @@
             50.8081843
           ],
           [
-            5.3041096,
-            50.8081798
-          ],
-          [
             5.3040761,
             50.8081794
           ]
@@ -39113,10 +39139,10 @@
       "type": "Feature",
       "id": "way/220287813",
       "properties": {
-        "highway": "path",
+        "highway": "footway",
         "old_ref": "L23",
         "railway": "abandoned",
-        "surface": "ground",
+        "surface": "unpaved",
         "wikipedia": "nl:Spoorlijn 23",
         "id": "way/220287813"
       },
@@ -43255,7 +43281,7 @@
         "horse": "no",
         "note": "wenslijn F79",
         "old_ref": "L23",
-        "railway": "razed",
+        "railway": "abandoned",
         "vehicle": "no",
         "wikipedia": "nl:Spoorlijn 23",
         "id": "way/267854632"
@@ -43322,11 +43348,11 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "track",
+        "highway": "unclassified",
         "horse": "yes",
         "maxspeed": "30",
         "oneway": "no",
-        "surface": "concrete:lanes",
+        "surface": "concrete",
         "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "id": "way/267854635"
@@ -43335,16 +43361,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3891241,
-            50.8123213
+            5.3888768,
+            50.8122337
+          ],
+          [
+            5.3890772,
+            50.8123018
           ],
           [
             5.3892754,
             50.812389
           ],
           [
+            5.389678,
+            50.8125667
+          ],
+          [
             5.390266,
             50.8128141
+          ],
+          [
+            5.3903781,
+            50.812859
           ],
           [
             5.390481,
@@ -43355,12 +43393,32 @@
             50.8129133
           ],
           [
+            5.3907237,
+            50.8129254
+          ],
+          [
+            5.3909023,
+            50.812938
+          ],
+          [
             5.3910696,
             50.8129556
           ],
           [
-            5.3914574,
-            50.8130189
+            5.3911889,
+            50.8129751
+          ],
+          [
+            5.3913594,
+            50.8130076
+          ],
+          [
+            5.3914568,
+            50.8130224
+          ],
+          [
+            5.3917532,
+            50.8130642
           ]
         ]
       }
@@ -44091,8 +44149,8 @@
             50.812322
           ],
           [
-            5.3888848,
-            50.8122329
+            5.3888768,
+            50.8122337
           ]
         ]
       }
@@ -44434,99 +44492,6 @@
           [
             5.3749491,
             50.8161352
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1264348118",
-      "properties": {
-        "access": "destination",
-        "agricultural": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "horse": "yes",
-        "maxspeed": "30",
-        "oneway": "no",
-        "surface": "concrete",
-        "tracktype": "grade1",
-        "traffic_sign": "BE:F99c",
-        "id": "way/1264348118"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3914574,
-            50.8130189
-          ],
-          [
-            5.3917532,
-            50.8130642
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1264348119",
-      "properties": {
-        "access": "destination",
-        "agricultural": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "horse": "yes",
-        "maxspeed": "30",
-        "oneway": "no",
-        "surface": "concrete",
-        "tracktype": "grade1",
-        "traffic_sign": "BE:F99c",
-        "id": "way/1264348119"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3888848,
-            50.8122329
-          ],
-          [
-            5.3891241,
-            50.8123213
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1264348120",
-      "properties": {
-        "access": "destination",
-        "agricultural": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "horse": "yes",
-        "maxspeed": "30",
-        "oneway": "no",
-        "surface": "concrete",
-        "tracktype": "grade1",
-        "traffic_sign": "BE:F99c",
-        "id": "way/1264348120"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3887577,
-            50.8121779
-          ],
-          [
-            5.3888848,
-            50.8122329
           ]
         ]
       }

@@ -3573,9 +3573,6 @@
         "name": "Schoutetstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "sidewalk": "no",
-        "smoothness": "intermediate",
-        "surface": "sett",
         "id": "way/20178966"
       },
       "geometry": {
@@ -4243,8 +4240,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3988568,
-            51.221792
+            4.3988525,
+            51.2217883
           ],
           [
             4.398731,
@@ -4931,7 +4928,6 @@
         "lanes:forward": "1",
         "maxspeed": "70",
         "name": "Mechelsesteenweg",
-        "name:etymology:wikidata": "Q162022",
         "ref": "N1",
         "toll:hgv": "yes",
         "turn:lanes:backward": "left|none",
@@ -4962,7 +4958,6 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Mechelsesteenweg",
-        "name:etymology:wikidata": "Q162022",
         "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/22909198"
@@ -5521,7 +5516,6 @@
         "highway": "footway",
         "image": "https://photos.app.goo.gl/CpC6K6XDZs77TyMQA",
         "name": "Klapgat",
-        "smoothness": "intermediate",
         "surface": "sett",
         "id": "way/22930811"
       },
@@ -5546,7 +5540,6 @@
         "bicycle": "yes",
         "highway": "pedestrian",
         "name": "Sint-Janskerkhof",
-        "smoothness": "intermediate",
         "speed_pedelec": "yes",
         "surface": "sett",
         "id": "way/22931538"
@@ -5996,7 +5989,6 @@
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Ferdinand Maesstraat",
-        "name:etymology:wikidata": "Q2682680",
         "source:maxspeed": "BE:zone30",
         "id": "way/22997673"
       },
@@ -6073,7 +6065,6 @@
         "lanes": "2",
         "maxspeed": "70",
         "name": "Mechelsesteenweg",
-        "name:etymology:wikidata": "Q162022",
         "overtaking": "no",
         "ref": "N1",
         "surface": "asphalt",
@@ -6110,7 +6101,6 @@
         "maxspeed:left": "70",
         "maxspeed:right": "50",
         "name": "Mechelsesteenweg",
-        "name:etymology:wikidata": "Q162022",
         "overtaking": "no",
         "ref": "N1",
         "surface": "asphalt",
@@ -7343,28 +7333,20 @@
             51.2222531
           ],
           [
-            4.399231,
-            51.2222282
+            4.3992272,
+            51.2222281
           ],
           [
-            4.3991525,
-            51.2220943
+            4.3988431,
+            51.2220778
           ],
           [
-            4.398911,
-            51.2220239
+            4.3989162,
+            51.2218981
           ],
           [
-            4.3988528,
-            51.221938
-          ],
-          [
-            4.3989283,
-            51.2219184
-          ],
-          [
-            4.3989055,
-            51.2218791
+            4.3989054,
+            51.2218794
           ]
         ]
       }
@@ -7657,7 +7639,6 @@
         "highway": "unclassified",
         "lanes": "1",
         "name": "Mechelsesteenweg",
-        "name:etymology:wikidata": "Q162022",
         "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/27661629"
@@ -7903,12 +7884,15 @@
       "properties": {
         "highway": "pedestrian",
         "name": "Sint-Katelijnekerkhof",
-        "surface": "sett",
         "id": "way/28618209"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            4.4770915,
+            51.0320831
+          ],
           [
             4.4768469,
             51.0321009
@@ -8436,9 +8420,12 @@
       "type": "Feature",
       "id": "way/31902630",
       "properties": {
+        "access": "no",
         "bridge": "yes",
-        "highway": "footway",
+        "construction": "footway",
+        "highway": "construction",
         "name": "Wandelterras Noord",
+        "note": "AYV maandan 18 sept.23: Wandelterras Noord gesloten wegens renovatie / herinrichting, gedurende ongeveer een jaar",
         "id": "way/31902630"
       },
       "geometry": {
@@ -8493,11 +8480,14 @@
       "type": "Feature",
       "id": "way/31903851",
       "properties": {
+        "access": "no",
         "bridge": "yes",
-        "highway": "footway",
+        "construction": "footway",
+        "highway": "construction",
         "layer": "1",
         "lit": "yes",
         "name": "Wandelterras Noord",
+        "note": "AYV maandan 18 sept.23: Wandelterras Noord gesloten wegens renovatie / herinrichting, gedurende ongeveer een jaar",
         "surface": "metal",
         "id": "way/31903851"
       },
@@ -8889,7 +8879,6 @@
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Ferdinand Maesstraat",
-        "name:etymology:wikidata": "Q2682680",
         "source:maxspeed": "BE:zone30",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/36563428"
@@ -8977,7 +8966,6 @@
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Ferdinand Maesstraat",
-        "name:etymology:wikidata": "Q2682680",
         "source:maxspeed": "BE:zone30",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/36564534"
@@ -9804,8 +9792,6 @@
       "properties": {
         "highway": "pedestrian",
         "name": "Sint-Katelijnekerkhof",
-        "smoothness": "intermediate",
-        "surface": "sett",
         "id": "way/50070445"
       },
       "geometry": {
@@ -9875,7 +9861,6 @@
         "name": "Frederik de Merodestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "smoothness": "intermediate",
         "surface": "sett",
         "id": "way/50073979"
       },
@@ -13627,7 +13612,6 @@
         "bicycle": "yes",
         "highway": "pedestrian",
         "name": "Sint-Janskerkhof",
-        "smoothness": "intermediate",
         "speed_pedelec": "yes",
         "surface": "sett",
         "id": "way/190275868"
@@ -13727,7 +13711,6 @@
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Ferdinand Maesstraat",
-        "name:etymology:wikidata": "Q2682680",
         "source:maxspeed": "BE:zone30",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/197189845"
@@ -14077,7 +14060,6 @@
       "properties": {
         "bicycle": "use_sidepath",
         "highway": "tertiary",
-        "lanes": "2",
         "maxspeed": "50",
         "name": "Van Meterenkaai",
         "name:etymology:wikidata": "Q240336",
@@ -14715,7 +14697,6 @@
         "lanes:backward": "1",
         "maxspeed": "70",
         "name": "Mechelsesteenweg",
-        "name:etymology:wikidata": "Q162022",
         "ref": "N1",
         "toll:hgv": "yes",
         "id": "way/286663536"
@@ -14745,7 +14726,6 @@
         "lanes:forward": "2",
         "maxspeed": "50",
         "name": "Liersesteenweg",
-        "name:etymology:wikidata": "Q12460",
         "ref": "N14",
         "surface": "asphalt",
         "turn:lanes:forward": "left|none",
@@ -14776,7 +14756,6 @@
         "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Liersesteenweg",
-        "name:etymology:wikidata": "Q12460",
         "ref": "N14",
         "surface": "asphalt",
         "id": "way/287763085"
@@ -14806,7 +14785,6 @@
         "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Liersesteenweg",
-        "name:etymology:wikidata": "Q12460",
         "ref": "N14",
         "surface": "asphalt",
         "turn:lanes:backward": "left|none",
@@ -14837,7 +14815,6 @@
         "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Liersesteenweg",
-        "name:etymology:wikidata": "Q12460",
         "ref": "N14",
         "surface": "asphalt",
         "turn:lanes:backward": "left|none",
@@ -14868,7 +14845,6 @@
         "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Liersesteenweg",
-        "name:etymology:wikidata": "Q12460",
         "ref": "N14",
         "surface": "asphalt",
         "id": "way/287763102"
@@ -15915,7 +15891,6 @@
         "maxspeed:left": "70",
         "maxspeed:right": "50",
         "name": "Mechelsesteenweg",
-        "name:etymology:wikidata": "Q162022",
         "overtaking": "no",
         "ref": "N1",
         "surface": "asphalt",
@@ -16202,7 +16177,6 @@
         "highway": "pedestrian",
         "maxspeed": "30",
         "name": "Frederik de Merodestraat",
-        "smoothness": "bad",
         "speed_pedelec": "yes",
         "surface": "sett",
         "id": "way/423658603"
@@ -18927,7 +18901,6 @@
       "id": "way/424820160",
       "properties": {
         "highway": "service",
-        "surface": "paving_stones",
         "id": "way/424820160"
       },
       "geometry": {
@@ -19555,7 +19528,6 @@
       "id": "way/425308306",
       "properties": {
         "highway": "footway",
-        "surface": "paving_stones",
         "id": "way/425308306"
       },
       "geometry": {
@@ -21749,6 +21721,33 @@
     },
     {
       "type": "Feature",
+      "id": "way/546470204",
+      "properties": {
+        "foot": "yes",
+        "highway": "cycleway",
+        "lit": "yes",
+        "oneway": "no",
+        "segregated": "no",
+        "surface": "concrete",
+        "width": "4",
+        "id": "way/546470204"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4313623,
+            51.2388039
+          ],
+          [
+            4.4308055,
+            51.2383631
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/549221432",
       "properties": {
         "bicycle": "yes",
@@ -21816,12 +21815,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3989055,
-            51.2218791
+            4.3989054,
+            51.2218794
           ],
           [
-            4.398872,
-            51.2218178
+            4.3988703,
+            51.2218189
           ]
         ]
       }
@@ -21839,12 +21838,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.398872,
-            51.2218178
+            4.3988703,
+            51.2218189
           ],
           [
-            4.3988568,
-            51.221792
+            4.3988525,
+            51.2217883
           ]
         ]
       }
@@ -22124,10 +22123,9 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "footway",
-        "lit": "yes",
         "motor_vehicle": "no",
         "name": "Vijverpad",
-        "surface": "fine_gravel",
+        "surface": "unpaved",
         "id": "way/581791406"
       },
       "geometry": {
@@ -23164,7 +23162,6 @@
         "maxspeed:left": "70",
         "maxspeed:right": "50",
         "name": "Mechelsesteenweg",
-        "name:etymology:wikidata": "Q162022",
         "overtaking": "no",
         "ref": "N1",
         "toll:hgv": "yes",
@@ -24575,6 +24572,38 @@
           [
             4.4027535,
             51.2199395
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/822884184",
+      "properties": {
+        "foot": "yes",
+        "highway": "cycleway",
+        "lit": "yes",
+        "motor_vehicle": "no",
+        "oneway": "no",
+        "segregated": "no",
+        "surface": "concrete",
+        "width": "4",
+        "id": "way/822884184"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4320489,
+            51.2393014
+          ],
+          [
+            4.4319661,
+            51.239276
+          ],
+          [
+            4.4313623,
+            51.2388039
           ]
         ]
       }
@@ -26406,7 +26435,6 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Mechelsesteenweg",
-        "name:etymology:wikidata": "Q162022",
         "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/1026928483"
@@ -26841,7 +26869,6 @@
       "properties": {
         "highway": "footway",
         "name": "Klapgat",
-        "smoothness": "intermediate",
         "surface": "sett",
         "id": "way/1084503789"
       },
@@ -26869,8 +26896,6 @@
       "properties": {
         "highway": "footway",
         "name": "Klapgat",
-        "smoothness": "intermediate",
-        "surface": "sett",
         "id": "way/1084503790"
       },
       "geometry": {
@@ -26894,8 +26919,6 @@
         "highway": "footway",
         "layer": "-1",
         "name": "Klapgat",
-        "smoothness": "intermediate",
-        "surface": "sett",
         "tunnel": "building_passage",
         "id": "way/1084503791"
       },
@@ -28706,103 +28729,6 @@
           [
             4.4418027,
             51.078829
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1264212175",
-      "properties": {
-        "fixme": "wegens sloop Viaduct van Merksem en aanverwante werken werden diverse paden oostzijde Ijzerlaan fietsbrug weggegraven of op z'n minst achter werfraster : tracé obv GPS, relaties tzt na te kijken",
-        "foot": "yes",
-        "highway": "cycleway",
-        "incline": "10%",
-        "lit": "yes",
-        "oneway": "no",
-        "segregated": "no",
-        "smoothness": "excellent",
-        "surface": "asphalt",
-        "width": "3",
-        "id": "way/1264212175"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4319388,
-            51.2387726
-          ],
-          [
-            4.4318435,
-            51.2386468
-          ],
-          [
-            4.4317497,
-            51.238536
-          ],
-          [
-            4.4316807,
-            51.2383942
-          ],
-          [
-            4.4316063,
-            51.2383377
-          ],
-          [
-            4.4315037,
-            51.2383022
-          ],
-          [
-            4.4313533,
-            51.2383155
-          ],
-          [
-            4.4312666,
-            51.2383632
-          ],
-          [
-            4.4311922,
-            51.238454
-          ],
-          [
-            4.4311215,
-            51.2384994
-          ],
-          [
-            4.4310183,
-            51.2384946
-          ],
-          [
-            4.4309541,
-            51.2384808
-          ],
-          [
-            4.4308055,
-            51.2383631
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1265111827",
-      "properties": {
-        "highway": "pedestrian",
-        "name": "Sint-Katelijnekerkhof",
-        "surface": "paving_stones",
-        "id": "way/1265111827"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4770915,
-            51.0320831
-          ],
-          [
-            4.4768469,
-            51.0321009
           ]
         ]
       }
