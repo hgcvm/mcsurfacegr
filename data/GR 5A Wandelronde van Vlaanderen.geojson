@@ -62535,7 +62535,8 @@
       "id": "way/948484811",
       "properties": {
         "highway": "residential",
-        "name": "Gemene Weidestraat",
+        "maxspeed": "30",
+        "name": "Gemeneweidestraat",
         "surface": "asphalt",
         "id": "way/948484811"
       },
@@ -144589,8 +144590,12 @@
       "type": "Feature",
       "id": "way/583405831",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "70",
         "name": "Priesterstraat",
+        "name:vls": "Pastrestroate",
+        "oneway": "no",
         "surface": "asphalt",
         "width": "3",
         "id": "way/583405831"
@@ -159005,9 +159010,13 @@
       "type": "Feature",
       "id": "way/1116471217",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
+        "lit": "no",
         "maxspeed": "70",
         "name": "Zandbeekstraat",
+        "name:vls": "Zandbèkestroate",
+        "oneway": "no",
+        "surface": "asphalt",
         "id": "way/1116471217"
       },
       "geometry": {
@@ -159044,8 +159053,12 @@
       "type": "Feature",
       "id": "way/1116471218",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
+        "lit": "no",
+        "maxspeed": "70",
         "name": "Brucqstraat",
+        "name:vls": "Brucqstroate",
+        "oneway": "no",
         "surface": "asphalt",
         "id": "way/1116471218"
       },
@@ -161791,6 +161804,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Scheldelei",
+        "name:etymology:wikidata": "Q37620",
         "oneway": "yes",
         "ref": "N408",
         "surface": "cobblestone",
@@ -162855,6 +162869,7 @@
         "created_by": "Potlatch 0.10d",
         "highway": "residential",
         "name": "Populierenlaan",
+        "name:etymology:wikidata": "Q25356",
         "oneway": "yes",
         "id": "way/27603383"
       },
@@ -162887,6 +162902,7 @@
         "created_by": "Potlatch 0.10d",
         "highway": "residential",
         "name": "Populierenlaan",
+        "name:etymology:wikidata": "Q25356",
         "id": "way/27603504"
       },
       "geometry": {
@@ -163522,6 +163538,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Scheldelei",
+        "name:etymology:wikidata": "Q37620",
         "surface": "asphalt",
         "id": "way/331055793"
       },
@@ -163802,6 +163819,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Scheldelei",
+        "name:etymology:wikidata": "Q37620",
         "oneway": "yes",
         "ref": "N408",
         "surface": "cobblestone",
@@ -164204,6 +164222,7 @@
         "cycleway": "track",
         "highway": "secondary",
         "name": "Burchtstraat",
+        "name:etymology:wikidata": "Q2045929",
         "ref": "N419",
         "id": "way/671065261"
       },
