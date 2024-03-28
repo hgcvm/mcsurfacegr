@@ -118741,6 +118741,7 @@
       "id": "way/807117577",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "De Roestestraat",
         "surface": "asphalt",
         "width": "3",
@@ -118988,7 +118989,7 @@
       "id": "way/815876387",
       "properties": {
         "bicycle": "yes",
-        "cycleway": "shared",
+        "cycleway:both": "no",
         "emergency": "yes",
         "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
@@ -161386,6 +161387,10 @@
             50.8852364
           ],
           [
+            4.7055531,
+            50.8850403
+          ],
+          [
             4.7055757,
             50.8850264
           ]
@@ -161732,6 +161737,10 @@
           [
             4.705559,
             50.8849496
+          ],
+          [
+            4.7055696,
+            50.8849953
           ],
           [
             4.7055717,
@@ -167291,7 +167300,8 @@
         "access": "destination",
         "highway": "unclassified",
         "name": "Oude Blaarstraat",
-        "surface": "dirt",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
         "id": "way/28081703"
       },
       "geometry": {
@@ -167911,6 +167921,7 @@
         "highway": "track",
         "horse": "yes",
         "name": "Oude Blaarstraat",
+        "smoothness": "bad",
         "surface": "fine_gravel",
         "tracktype": "grade2",
         "traffic_sign": "BE:F99c",
@@ -168896,6 +168907,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Ketsingenstraat",
+        "smoothness": "intermediate",
+        "surface": "concrete",
         "id": "way/39424028"
       },
       "geometry": {
@@ -169199,7 +169212,10 @@
       "properties": {
         "highway": "tertiary",
         "lanes": "2",
+        "maxspeed": "70",
         "name": "Ketsingenstraat",
+        "smoothness": "intermediate",
+        "surface": "concrete",
         "id": "way/245328788"
       },
       "geometry": {
@@ -169240,6 +169256,8 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Ketsingenstraat",
+        "smoothness": "intermediate",
+        "surface": "concrete",
         "id": "way/245328789"
       },
       "geometry": {
@@ -169334,6 +169352,8 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Ketsingenstraat",
+        "smoothness": "intermediate",
+        "surface": "concrete",
         "traffic_calming": "table",
         "id": "way/284703907"
       },
