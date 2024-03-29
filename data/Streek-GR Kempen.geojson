@@ -2190,6 +2190,7 @@
       "id": "way/24497232",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "70",
         "name": "Diepte",
         "sidewalk": "no",
@@ -2238,6 +2239,7 @@
       "properties": {
         "cycleway": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Kolonie",
         "sidewalk": "no",
@@ -2727,7 +2729,7 @@
       "properties": {
         "bicycle": "use_sidepath",
         "destination:forward": "Meerle;Minderhout",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "lanes:backward": "2",
         "lanes:forward": "1",
@@ -7169,8 +7171,8 @@
       "properties": {
         "highway": "track",
         "name": "Lijsterpad",
-        "surface": "unpaved",
-        "tracktype": "grade1",
+        "surface": "ground",
+        "tracktype": "grade2",
         "id": "way/37681422"
       },
       "geometry": {
@@ -12618,7 +12620,9 @@
       "id": "way/59753020",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Heikant",
+        "surface": "asphalt",
         "id": "way/59753020"
       },
       "geometry": {
@@ -12647,6 +12651,7 @@
         "foot": "yes",
         "highway": "track",
         "name": "Heikant",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/59753022"
       },
@@ -12733,7 +12738,9 @@
       "id": "way/59753023",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Slaaplaken",
+        "surface": "paving_stones",
         "id": "way/59753023"
       },
       "geometry": {
@@ -23920,6 +23927,7 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Oude weg",
         "oneway": "yes",
@@ -25620,7 +25628,7 @@
       "id": "way/186003131",
       "properties": {
         "bicycle": "use_sidepath",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "maxspeed": "50",
         "name": "Klein Ravels",
@@ -26712,7 +26720,7 @@
       "properties": {
         "cycleway:right": "lane",
         "cycleway:right:oneway": "no",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "maxspeed": "70",
         "name": "Steenweg op Baarle-Hertog",
@@ -30761,6 +30769,10 @@
             51.2376384
           ],
           [
+            4.8175826,
+            51.2375179
+          ],
+          [
             4.8172372,
             51.23742
           ],
@@ -31897,7 +31909,7 @@
       "id": "way/251563169",
       "properties": {
         "bicycle": "use_sidepath",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "1",
@@ -33127,7 +33139,7 @@
       "type": "Feature",
       "id": "way/297810330",
       "properties": {
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
@@ -33158,7 +33170,7 @@
       "id": "way/297810332",
       "properties": {
         "bicycle": "use_sidepath",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "maxspeed": "50",
         "maxweight": "3.5",
@@ -33394,7 +33406,7 @@
       "type": "Feature",
       "id": "way/318819921",
       "properties": {
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "1",
@@ -37422,6 +37434,7 @@
       "id": "way/377738302",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Slaaplaken",
         "surface": "paving_stones",
         "id": "way/377738302"
@@ -41474,6 +41487,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "concrete",
         "id": "way/540656146"
       },
       "geometry": {
@@ -45711,6 +45725,7 @@
       "id": "way/685607810",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Hulsbos",
         "surface": "paving_stones",
         "id": "way/685607810"
@@ -48203,6 +48218,7 @@
       "properties": {
         "highway": "footway",
         "name": "Kasteelvoetpad",
+        "surface": "dirt",
         "width": "1",
         "id": "way/838141229"
       },
