@@ -2186,6 +2186,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Graafjansdijk A",
+        "zone:traffic": "NL:urban",
         "id": "way/7611822"
       },
       "geometry": {
@@ -4952,7 +4953,6 @@
       "id": "way/23713863",
       "properties": {
         "bicycle": "yes",
-        "created_by": "Potlatch 0.10f",
         "highway": "path",
         "surface": "dirt",
         "vehicle": "no",
@@ -4964,6 +4964,10 @@
           [
             4.3749064,
             51.2289532
+          ],
+          [
+            4.3749084,
+            51.2290687
           ],
           [
             4.3749084,
@@ -27077,6 +27081,7 @@
       "type": "Feature",
       "id": "way/95951196",
       "properties": {
+        "check_date": "2024-03-28",
         "highway": "unclassified",
         "name": "Ter Bieststraat",
         "surface": "asphalt",
@@ -27502,10 +27507,14 @@
       "type": "Feature",
       "id": "way/108586414",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "motor_vehicle": "no",
         "name": "Comer-Graafjansdijk",
         "name:etymology:wikidata": "Q3027864",
+        "sidewalk": "no",
+        "surface": "concrete",
         "id": "way/108586414"
       },
       "geometry": {
@@ -32040,7 +32049,7 @@
         "smoothness": "excellent",
         "surface": "tiles",
         "tactile_paving": "yes",
-        "tunnel": "building_passage",
+        "tunnel": "yes",
         "id": "way/135261425"
       },
       "geometry": {
@@ -45847,20 +45856,20 @@
             51.2261419
           ],
           [
-            2.9061127,
-            51.2261665
+            2.9061145,
+            51.2261646
           ],
           [
-            2.9060824,
-            51.2261914
+            2.9060823,
+            51.2261909
           ],
           [
-            2.90606,
-            51.2262099
+            2.906055,
+            51.2262133
           ],
           [
-            2.9060293,
-            51.2262352
+            2.9060307,
+            51.2262331
           ],
           [
             2.9060017,
@@ -47786,8 +47795,11 @@
       "properties": {
         "access": "permissive",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "highway": "unclassified",
         "motor_vehicle": "no",
+        "sidewalk": "no",
+        "surface": "concrete",
         "id": "way/272340655"
       },
       "geometry": {
@@ -50509,6 +50521,7 @@
       "type": "Feature",
       "id": "way/390494369",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lanes": "1",
         "lit": "yes",
@@ -54165,6 +54178,7 @@
         "cyclestreet": "yes",
         "highway": "unclassified",
         "lit": "no",
+        "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Noorweegse Kaai",
         "not:designation": "towpath",
@@ -56655,6 +56669,7 @@
       "id": "way/667214503",
       "properties": {
         "highway": "path",
+        "surface": "wood",
         "id": "way/667214503"
       },
       "geometry": {
@@ -56676,6 +56691,7 @@
       "id": "way/667214505",
       "properties": {
         "highway": "path",
+        "surface": "wood",
         "id": "way/667214505"
       },
       "geometry": {
@@ -62521,7 +62537,8 @@
       "id": "way/948484811",
       "properties": {
         "highway": "residential",
-        "name": "Gemene Weidestraat",
+        "maxspeed": "30",
+        "name": "Gemeneweidestraat",
         "surface": "asphalt",
         "id": "way/948484811"
       },
@@ -67739,6 +67756,7 @@
         "access": "destination",
         "bicycle": "yes",
         "highway": "unclassified",
+        "maxspeed": "30",
         "name": "Damse Vaart-West",
         "oneway": "no",
         "oneway:bicycle": "no",
@@ -91299,14 +91317,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            2.5620606,
-            51.0588443
-          ],
-          [
-            2.5620047,
-            51.0588301
-          ],
           [
             2.5619639,
             51.0588204
@@ -115038,6 +115048,7 @@
       "id": "way/155610966",
       "properties": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Schuilhavenlaan",
         "surface": "asphalt",
         "id": "way/155610966"
@@ -161612,6 +161623,40 @@
     },
     {
       "type": "Feature",
+      "id": "way/1267330174",
+      "properties": {
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "name": "Rue de la Frontière",
+        "oneway": "no",
+        "sidewalk": "no",
+        "surface": "asphalt",
+        "id": "way/1267330174"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5620606,
+            51.0588443
+          ],
+          [
+            2.5620047,
+            51.0588301
+          ],
+          [
+            2.5619639,
+            51.0588204
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/23166943",
       "properties": {
         "highway": "unclassified",
@@ -165269,6 +165314,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Scheldelei",
+        "name:etymology:wikidata": "Q37620",
         "surface": "asphalt",
         "id": "way/23171838"
       },
@@ -165320,6 +165366,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Scheldelei",
+        "name:etymology:wikidata": "Q37620",
         "surface": "asphalt",
         "id": "way/23171852"
       },
@@ -171368,6 +171415,7 @@
         "bicycle": "yes",
         "highway": "unclassified",
         "name": "Scheldelei",
+        "name:etymology:wikidata": "Q37620",
         "surface": "asphalt",
         "vehicle": "no",
         "id": "way/387123105"
