@@ -10687,7 +10687,7 @@
       "id": "way/109890586",
       "properties": {
         "cycleway": "track",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Hamonterweg",
         "ref": "N76",
@@ -42570,7 +42570,7 @@
       "id": "way/560475989",
       "properties": {
         "cycleway": "lane",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "maxspeed": "70",
         "name": "'t Hasseltkiezel",
@@ -46129,7 +46129,7 @@
       "type": "Feature",
       "id": "way/769035818",
       "properties": {
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "maxspeed": "70",
         "name": "Hamonterweg",
@@ -50490,10 +50490,36 @@
           [
             5.6789619,
             50.8438599
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1149542821",
+      "properties": {
+        "crossing": "traffic_signals",
+        "cycleway": "crossing",
+        "foot": "use_sidepath",
+        "highway": "cycleway",
+        "mofa": "designated",
+        "moped": "designated",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "surface:colour": "red",
+        "traffic_sign": "NL:G12a",
+        "id": "way/1149542821"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6790544,
+            50.8439064
           ],
           [
-            5.6788892,
-            50.8438505
+            5.6791736,
+            50.8439233
           ]
         ]
       }
@@ -50596,45 +50622,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6787824,
-            50.8438572
-          ],
-          [
             5.6787747,
             50.843869
           ],
           [
             5.6787695,
             50.8438779
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1149542846",
-      "properties": {
-        "crossing": "traffic_signals",
-        "crossing_ref": "zebra",
-        "footway": "crossing",
-        "highway": "footway",
-        "surface": "asphalt",
-        "id": "way/1149542846"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.6791387,
-            50.8438826
-          ],
-          [
-            5.6790684,
-            50.843874
-          ],
-          [
-            5.6790267,
-            50.8438684
           ]
         ]
       }
@@ -50772,12 +50765,54 @@
             50.8440628
           ],
           [
-            5.6786815,
-            50.8441093
+            5.6786954,
+            50.8440861
+          ],
+          [
+            5.678689,
+            50.8441032
+          ],
+          [
+            5.6786853,
+            50.8441286
+          ],
+          [
+            5.6786836,
+            50.8441492
           ],
           [
             5.6786972,
             50.844402
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1149542856",
+      "properties": {
+        "crossing": "traffic_signals",
+        "cycleway": "crossing",
+        "foot": "use_sidepath",
+        "highway": "cycleway",
+        "mofa": "designated",
+        "moped": "designated",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "surface:colour": "red",
+        "traffic_sign": "NL:G12a",
+        "id": "way/1149542856"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6788647,
+            50.8438793
+          ],
+          [
+            5.6789497,
+            50.8438915
           ]
         ]
       }
@@ -50806,42 +50841,6 @@
           [
             5.6795875,
             50.8440092
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1149542870",
-      "properties": {
-        "footway": "sidewalk",
-        "highway": "footway",
-        "paving_stones:length": "0.3",
-        "surface": "paving_stones",
-        "id": "way/1149542870"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.6788892,
-            50.8438505
-          ],
-          [
-            5.6788569,
-            50.8438427
-          ],
-          [
-            5.6788293,
-            50.8438524
-          ],
-          [
-            5.6787909,
-            50.8438441
-          ],
-          [
-            5.6787824,
-            50.8438572
           ]
         ]
       }
@@ -50920,32 +50919,59 @@
     },
     {
       "type": "Feature",
-      "id": "way/1152697430",
+      "id": "way/1150128883",
       "properties": {
-        "footway": "sidewalk",
-        "highway": "footway",
-        "paving_stones:length": "0.3",
-        "surface": "paving_stones",
-        "id": "way/1152697430"
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Cannerweg",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|right",
+        "id": "way/1150128883"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.6791736,
-            50.8439233
+            5.6790684,
+            50.843874
           ],
           [
-            5.6791778,
-            50.8439073
+            5.6790544,
+            50.8439064
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1151991753",
+      "properties": {
+        "foot": "use_sidepath",
+        "highway": "cycleway",
+        "mofa": "designated",
+        "moped": "designated",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "surface:colour": "red",
+        "traffic_sign": "NL:G12a",
+        "id": "way/1151991753"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6787747,
+            50.843869
           ],
           [
-            5.6791574,
-            50.8438846
+            5.6788308,
+            50.8438753
           ],
           [
-            5.6791387,
-            50.8438826
+            5.6788647,
+            50.8438793
           ]
         ]
       }
@@ -52688,6 +52714,58 @@
           [
             5.6750711,
             51.0063343
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1264449426",
+      "properties": {
+        "crossing": "traffic_signals",
+        "crossing_ref": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "surface": "asphalt",
+        "id": "way/1264449426"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6790684,
+            50.843874
+          ],
+          [
+            5.6790267,
+            50.8438684
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1264449429",
+      "properties": {
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Cannerweg",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "id": "way/1264449429"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6789497,
+            50.8438915
+          ],
+          [
+            5.6789619,
+            50.8438599
           ]
         ]
       }
@@ -55159,6 +55237,8 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "30",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Stationsstraat",
         "name:etymology:wikidata": "Q2453559",
         "old_ref": "N19",
@@ -55467,6 +55547,8 @@
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Kameinestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -55601,7 +55683,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "maxweight": "5",
-        "maxweight:conditional": "none @ delivery",
+        "maxweight:conditional": "none @ destination",
         "name": "De-Billemontstraat",
         "name:etymology": "Jan Frans De Billemont",
         "name:etymology:wikidata": "Q2413488",
@@ -55658,7 +55740,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "maxweight": "5",
-        "maxweight:conditional": "none @ delivery",
+        "maxweight:conditional": "none @ destination",
         "name": "De-Billemontstraat",
         "name:etymology": "Jan Frans De Billemont",
         "name:etymology:wikidata": "Q2413488",
@@ -55812,6 +55894,8 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "30",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Stationsstraat",
         "name:etymology:wikidata": "Q2453559",
         "old_ref": "N19",
@@ -56352,7 +56436,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "maxweight": "5",
-        "maxweight:conditional": "none @ delivery",
+        "maxweight:conditional": "none @ destination",
         "name": "De-Billemontstraat",
         "name:etymology": "Jan Frans De Billemont",
         "name:etymology:wikidata": "Q2413488",
@@ -56442,7 +56526,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "maxweight": "5",
-        "maxweight:conditional": "none @ delivery",
+        "maxweight:conditional": "none @ destination",
         "name": "De-Billemontstraat",
         "name:etymology": "Jan Frans De Billemont",
         "name:etymology:wikidata": "Q2413488",
@@ -56486,7 +56570,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "maxweight": "5",
-        "maxweight:conditional": "none @ delivery",
+        "maxweight:conditional": "none @ destination",
         "name": "Doelenstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -56543,6 +56627,8 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "30",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Lebonstraat",
         "name:etymology": "Karel Theodoor Le Bon",
         "name:etymology:description": "Vermoorde oud burgemeester van Geel",
@@ -56581,6 +56667,8 @@
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Werft",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -56798,6 +56886,8 @@
         "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Technische-Schoolstraat",
         "overtaking:motor_vehicle": "no",
         "sidewalk": "both",
@@ -57026,6 +57116,8 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "30",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Stationsstraat",
         "name:etymology:wikidata": "Q2453559",
         "old_ref": "N19",
@@ -57677,7 +57769,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "maxweight": "5",
-        "maxweight:conditional": "none @ delivery",
+        "maxweight:conditional": "none @ destination",
         "name": "Doelenstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -58565,7 +58657,7 @@
       "type": "Feature",
       "id": "way/148892831",
       "properties": {
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "50",
         "name": "Stationsstraat",
@@ -58590,7 +58682,7 @@
       "type": "Feature",
       "id": "way/148892832",
       "properties": {
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "50",
         "name": "Stationsstraat",
