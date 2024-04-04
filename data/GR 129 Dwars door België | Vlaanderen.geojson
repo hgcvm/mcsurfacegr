@@ -673,6 +673,8 @@
         "maxspeed": "50",
         "name": "Kanegem-Dorp",
         "oneway": "no",
+        "sidewalk": "both",
+        "surface": "concrete",
         "id": "way/14325747"
       },
       "geometry": {
@@ -992,12 +994,14 @@
       "type": "Feature",
       "id": "way/23762255",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "maxspeed": "50",
         "name": "Sint-Bavostraat",
         "name:etymology:wikidata": "Q457903",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/23762255"
       },
@@ -3205,6 +3209,7 @@
         "maxspeed": "50",
         "name": "Bundingstraat",
         "oneway": "no",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/40623219"
       },
@@ -3298,9 +3303,13 @@
       "type": "Feature",
       "id": "way/41195435",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "70",
         "name": "Kasteelhoevestraat",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/41195435"
       },
       "geometry": {
@@ -4180,6 +4189,7 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Lozerstraat",
+        "name:etymology:wikidata": "Q2000701",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "cobblestone",
         "zone:traffic": "BE-VLG:urban",
@@ -4919,7 +4929,6 @@
         "highway": "secondary",
         "maxspeed": "70",
         "name": "Deinsesteenweg",
-        "old_ref": "N494",
         "ref": "N494",
         "surface": "asphalt",
         "id": "way/55896531"
@@ -8970,6 +8979,7 @@
         "highway": "tertiary",
         "maxspeed": "50",
         "name": "Kanegem-Dorp",
+        "surface": "concrete",
         "id": "way/104176256"
       },
       "geometry": {
@@ -13670,10 +13680,12 @@
       "type": "Feature",
       "id": "way/138138958",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "maxspeed": "50",
         "name": "Kanegem-Dorp",
+        "sidewalk": "both",
         "surface": "paving_stones",
         "id": "way/138138958"
       },
@@ -14229,24 +14241,28 @@
             50.892465
           ],
           [
-            3.5566417,
-            50.8916315
+            3.5564784,
+            50.8921962
           ],
           [
-            3.5567163,
-            50.8912728
+            3.5566128,
+            50.8916281
           ],
           [
-            3.5568284,
-            50.8909092
+            3.5566981,
+            50.8912681
           ],
           [
-            3.5568278,
-            50.890745
+            3.5567956,
+            50.8909134
           ],
           [
-            3.55687,
-            50.8905712
+            3.5568398,
+            50.8907425
+          ],
+          [
+            3.5568774,
+            50.8905708
           ],
           [
             3.5569402,
@@ -14892,8 +14908,11 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "70",
         "name": "Bundingstraat",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/161915693"
       },
       "geometry": {
@@ -17955,64 +17974,72 @@
             50.8866484
           ],
           [
-            3.5694347,
-            50.8866105
+            3.5694194,
+            50.8866212
           ],
           [
-            3.5692608,
-            50.8865982
+            3.5691934,
+            50.8865928
           ],
           [
-            3.5690373,
-            50.8865485
+            3.5690311,
+            50.8865548
           ],
           [
-            3.5679836,
-            50.886297
+            3.5679824,
+            50.8863018
           ],
           [
-            3.5678708,
-            50.8862719
+            3.5678738,
+            50.886276
           ],
           [
-            3.5677901,
-            50.8862793
+            3.5678034,
+            50.8862735
           ],
           [
-            3.5677481,
-            50.8863009
+            3.567743,
+            50.8862916
           ],
           [
-            3.5677213,
-            50.8863314
+            3.5676974,
+            50.8863297
           ],
           [
-            3.5676999,
-            50.8863969
+            3.5676806,
+            50.8863813
           ],
           [
-            3.567526,
-            50.8870045
+            3.5674882,
+            50.8870006
           ],
           [
-            3.5674222,
-            50.8872152
+            3.567395,
+            50.8872109
           ],
           [
-            3.5673078,
-            50.8874235
+            3.5672562,
+            50.8874985
           ],
           [
-            3.5672059,
-            50.8876062
+            3.5671864,
+            50.8876064
           ],
           [
-            3.566844,
-            50.8880882
+            3.5668042,
+            50.8881165
           ],
           [
-            3.5667099,
-            50.888246
+            3.5666634,
+            50.8882324
+          ],
+          [
+            3.5666111,
+            50.8883035
+          ],
+          [
+            3.5665548,
+            50.8884016
           ],
           [
             3.5665407,
@@ -20963,7 +20990,9 @@
       "type": "Feature",
       "id": "way/205963152",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
+        "surface": "grass",
         "id": "way/205963152"
       },
       "geometry": {
@@ -27635,6 +27664,7 @@
         "lane_markings": "no",
         "maxspeed": "70",
         "name": "Bundingstraat",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/693487620"
       },
@@ -27665,6 +27695,7 @@
         "lane_markings": "no",
         "motor_vehicle": "no",
         "name": "Bundingstraat",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/693487621"
       },
@@ -28320,6 +28351,7 @@
       "id": "way/788906880",
       "properties": {
         "highway": "footway",
+        "lit": "no",
         "surface": "grass",
         "id": "way/788906880"
       },
@@ -29281,9 +29313,13 @@
       "id": "way/907662878",
       "properties": {
         "alt_name": "Meerstraat",
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "70",
         "name": "Bundingstraat",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/907662878"
       },
       "geometry": {
@@ -29340,46 +29376,6 @@
           [
             3.4092038,
             51.0297716
-          ],
-          [
-            3.4092544,
-            51.0297247
-          ],
-          [
-            3.4093402,
-            51.0296841
-          ],
-          [
-            3.4094333,
-            51.0296497
-          ],
-          [
-            3.4095839,
-            51.0296249
-          ],
-          [
-            3.4098745,
-            51.029601
-          ],
-          [
-            3.4104707,
-            51.0295729
-          ],
-          [
-            3.4108571,
-            51.0295572
-          ],
-          [
-            3.4109715,
-            51.0295335
-          ],
-          [
-            3.4110729,
-            51.0294904
-          ],
-          [
-            3.4114937,
-            51.0292336
           ]
         ]
       }
@@ -29394,7 +29390,8 @@
         "lane_markings": "no",
         "maxspeed": "70",
         "name": "Meerstraat",
-        "surface": "concrete:plates",
+        "sidewalk": "no",
+        "surface": "concrete",
         "id": "way/907662879"
       },
       "geometry": {
@@ -31509,6 +31506,7 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Nagelstraat",
+        "sidewalk": "both",
         "surface": "concrete",
         "id": "way/1133844860"
       },
@@ -31560,9 +31558,11 @@
       "properties": {
         "access": "permissive",
         "bicycle": "no",
+        "cycleway:both": "no",
         "highway": "track",
         "horse": "no",
         "motor_vehicle": "no",
+        "surface": "grass",
         "id": "way/1133844863"
       },
       "geometry": {
@@ -31595,9 +31595,14 @@
       "type": "Feature",
       "id": "way/1133844866",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "70",
         "name": "Mevrouw-Molenstraat",
+        "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "width": "3",
         "id": "way/1133844866"
@@ -32492,6 +32497,70 @@
           [
             3.5894371,
             50.9028301
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1267709219",
+      "properties": {
+        "alt_name": "Meerstraat",
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "70",
+        "name": "Bundingstraat",
+        "sidewalk": "no",
+        "surface": "concrete",
+        "id": "way/1267709219"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4092038,
+            51.0297716
+          ],
+          [
+            3.4092544,
+            51.0297247
+          ],
+          [
+            3.4093402,
+            51.0296841
+          ],
+          [
+            3.4094333,
+            51.0296497
+          ],
+          [
+            3.4095839,
+            51.0296249
+          ],
+          [
+            3.4098745,
+            51.029601
+          ],
+          [
+            3.4104707,
+            51.0295729
+          ],
+          [
+            3.4108571,
+            51.0295572
+          ],
+          [
+            3.4109715,
+            51.0295335
+          ],
+          [
+            3.4110729,
+            51.0294904
+          ],
+          [
+            3.4114937,
+            51.0292336
           ]
         ]
       }
