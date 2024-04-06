@@ -2750,8 +2750,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7325432,
-            50.8588187
+            4.7324872,
+            50.8588836
           ],
           [
             4.7325846,
@@ -118081,8 +118081,8 @@
             50.8589744
           ],
           [
-            4.7325432,
-            50.8588187
+            4.7324872,
+            50.8588836
           ]
         ]
       }
@@ -118741,6 +118741,7 @@
       "id": "way/807117577",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "De Roestestraat",
         "surface": "asphalt",
         "width": "3",
@@ -118988,7 +118989,7 @@
       "id": "way/815876387",
       "properties": {
         "bicycle": "yes",
-        "cycleway": "shared",
+        "cycleway:both": "no",
         "emergency": "yes",
         "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
@@ -145192,8 +145193,14 @@
       "type": "Feature",
       "id": "way/52174091",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Beukelaarstraat",
+        "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
         "width": "3",
         "id": "way/52174091"
       },
@@ -147208,9 +147215,14 @@
       "properties": {
         "access": "destination",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kleine Kemmelstraat",
+        "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "width": "3",
         "id": "way/136001020"
@@ -147419,9 +147431,14 @@
       "properties": {
         "access": "destination",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Klokhofweg",
+        "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "width": "3",
         "id": "way/158036178"
@@ -149444,8 +149461,12 @@
       "type": "Feature",
       "id": "way/1094426090",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kemmelbergweg",
+        "oneway": "no",
+        "sidewalk": "no",
         "surface": "sett",
         "width": "3",
         "id": "way/1094426090"
@@ -149654,7 +149675,9 @@
       "type": "Feature",
       "id": "way/22797657",
       "properties": {
+        "cycleway:left": "no",
         "cycleway:right": "shared_lane",
+        "cycleway:right:lane": "advisory",
         "highway": "tertiary",
         "lane_markings": "no",
         "lit": "yes",
@@ -149662,6 +149685,7 @@
         "name": "Rodetorenkaai",
         "oneway": "yes",
         "oneway:bicycle": "yes",
+        "sidewalk": "both",
         "surface": "asphalt",
         "wikidata": "Q115809494",
         "id": "way/22797657"
@@ -149723,7 +149747,7 @@
         "note": "Heeft 'woonerf'-verkeersborden",
         "segregated": "yes",
         "speed_pedelec": "no",
-        "surface": "asphalt",
+        "surface": "paving_stones",
         "taxi": "no",
         "wikidata": "Q2184400",
         "id": "way/23095390"
@@ -149873,6 +149897,7 @@
         "maxspeed": "30",
         "name": "Koning Willem I-kaai",
         "name:etymology:wikidata": "Q2079957",
+        "sidewalk": "both",
         "wikidata": "Q115807543",
         "id": "way/23997305"
       },
@@ -149902,7 +149927,9 @@
       "type": "Feature",
       "id": "way/23997309",
       "properties": {
+        "cycleway:left": "no",
         "cycleway:right": "shared_lane",
+        "cycleway:right:lane": "advisory",
         "highway": "tertiary",
         "lane_markings": "no",
         "lit": "yes",
@@ -149910,6 +149937,7 @@
         "name": "Hagelandkaai",
         "oneway": "yes",
         "oneway:bicycle": "yes",
+        "sidewalk": "both",
         "surface": "asphalt",
         "wikidata": "Q115807395",
         "id": "way/23997309"
@@ -150730,6 +150758,7 @@
         "maxspeed": "30",
         "name": "Sint-Joriskaai",
         "name:etymology:wikidata": "Q48438",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/38715195"
       },
@@ -151433,6 +151462,7 @@
         "maxspeed": "30",
         "name": "Rodetorenkaai",
         "oneway": "yes",
+        "sidewalk": "both",
         "surface": "asphalt",
         "wikidata": "Q115809494",
         "id": "way/130656314"
@@ -151742,6 +151772,7 @@
       "type": "Feature",
       "id": "way/149870509",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Bibliotheekstraat",
@@ -152291,7 +152322,7 @@
       "type": "Feature",
       "id": "way/228123670",
       "properties": {
-        "cycleway:right": "no",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "junction": "roundabout",
         "lane_markings": "no",
@@ -152299,6 +152330,7 @@
         "name": "Bij Sint-Jacobs",
         "name:etymology:wikidata": "Q43999",
         "oneway": "yes",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/228123670"
       },
@@ -152397,6 +152429,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Joremaaie",
+        "sidewalk": "both",
         "surface": "asphalt",
         "wikidata": "Q115810845",
         "id": "way/320462080"
@@ -152486,6 +152519,7 @@
         "maxspeed": "30",
         "name": "Sint-Jorisbrug",
         "name:etymology:wikidata": "Q48438",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/419179538"
       },
@@ -153173,14 +153207,15 @@
       "type": "Feature",
       "id": "way/722707329",
       "properties": {
+        "cycleway:left": "no",
         "cycleway:right": "shared_lane",
+        "cycleway:right:lane": "advisory",
         "highway": "tertiary",
         "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Hagelandkaai",
         "oneway": "yes",
-        "oneway:bicycle": "yes",
         "sidewalk": "both",
         "surface": "asphalt",
         "wikidata": "Q115807395",
