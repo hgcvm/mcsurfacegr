@@ -2190,6 +2190,7 @@
       "id": "way/24497232",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "70",
         "name": "Diepte",
         "sidewalk": "no",
@@ -2238,6 +2239,7 @@
       "properties": {
         "cycleway": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Kolonie",
         "sidewalk": "no",
@@ -2727,7 +2729,7 @@
       "properties": {
         "bicycle": "use_sidepath",
         "destination:forward": "Meerle;Minderhout",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "lanes:backward": "2",
         "lanes:forward": "1",
@@ -8383,6 +8385,10 @@
           [
             4.8743188,
             51.2599463
+          ],
+          [
+            4.8743854,
+            51.2599378
           ],
           [
             4.8744955,
@@ -23925,6 +23931,7 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Oude weg",
         "oneway": "yes",
@@ -25625,7 +25632,7 @@
       "id": "way/186003131",
       "properties": {
         "bicycle": "use_sidepath",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "maxspeed": "50",
         "name": "Klein Ravels",
@@ -26717,7 +26724,7 @@
       "properties": {
         "cycleway:right": "lane",
         "cycleway:right:oneway": "no",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "maxspeed": "70",
         "name": "Steenweg op Baarle-Hertog",
@@ -31906,7 +31913,7 @@
       "id": "way/251563169",
       "properties": {
         "bicycle": "use_sidepath",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "1",
@@ -33136,7 +33143,7 @@
       "type": "Feature",
       "id": "way/297810330",
       "properties": {
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
@@ -33167,7 +33174,7 @@
       "id": "way/297810332",
       "properties": {
         "bicycle": "use_sidepath",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "maxspeed": "50",
         "maxweight": "3.5",
@@ -33403,7 +33410,7 @@
       "type": "Feature",
       "id": "way/318819921",
       "properties": {
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "1",
@@ -40949,12 +40956,24 @@
             51.2599237
           ],
           [
-            4.8746961,
-            51.2598991
+            4.8746497,
+            51.2598935
           ],
           [
-            4.8754537,
-            51.2599406
+            4.8747124,
+            51.2598813
+          ],
+          [
+            4.8750739,
+            51.2599008
+          ],
+          [
+            4.8753939,
+            51.2599226
+          ],
+          [
+            4.8754507,
+            51.2599285
           ],
           [
             4.8764383,
@@ -41484,6 +41503,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "concrete",
         "id": "way/540656146"
       },
       "geometry": {
@@ -48214,6 +48234,7 @@
       "properties": {
         "highway": "footway",
         "name": "Kasteelvoetpad",
+        "surface": "dirt",
         "width": "1",
         "id": "way/838141229"
       },
@@ -51796,6 +51817,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "30",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Dr.-Van de Perrestraat",
         "name:etymology": "Josephus Alphonsus Vandeperre",
         "name:etymology:wikidata": "Q2658124",
@@ -54077,6 +54100,8 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "30",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Stationsstraat",
         "name:etymology:wikidata": "Q2453559",
         "old_ref": "N19",
