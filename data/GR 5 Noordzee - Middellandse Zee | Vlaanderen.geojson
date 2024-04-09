@@ -6,7 +6,9 @@
       "id": "way/7242319",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Vleetweg",
+        "zone:traffic": "NL:rural",
         "id": "way/7242319"
       },
       "geometry": {
@@ -53,8 +55,8 @@
             51.45706
           ],
           [
-            4.3993,
-            51.45712
+            4.3993189,
+            51.4571082
           ],
           [
             4.39902,
@@ -76,7 +78,9 @@
       "id": "way/7242320",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Vleetweg",
+        "zone:traffic": "NL:rural",
         "id": "way/7242320"
       },
       "geometry": {
@@ -193,7 +197,9 @@
       "id": "way/7251208",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Vleetweg",
+        "zone:traffic": "NL:rural",
         "id": "way/7251208"
       },
       "geometry": {
@@ -247,7 +253,9 @@
       "id": "way/7251234",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Schouwenbaan",
+        "zone:traffic": "NL:rural",
         "id": "way/7251234"
       },
       "geometry": {
@@ -313,7 +321,9 @@
       "id": "way/7251235",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Kriekendreef",
+        "zone:traffic": "NL:rural",
         "id": "way/7251235"
       },
       "geometry": {
@@ -4753,8 +4763,10 @@
       "id": "way/42264524",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Vleetweg",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/42264524"
       },
       "geometry": {
@@ -6921,7 +6933,9 @@
       "id": "way/233347724",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Vleetweg",
+        "zone:traffic": "NL:rural",
         "id": "way/233347724"
       },
       "geometry": {
@@ -6943,7 +6957,9 @@
       "id": "way/233350601",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Kriekendreef",
+        "zone:traffic": "NL:rural",
         "id": "way/233350601"
       },
       "geometry": {
@@ -8932,6 +8948,7 @@
         "name": "Moerlandpad",
         "surface": "asphalt",
         "tracktype": "grade3",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/297154888"
       },
       "geometry": {
@@ -9000,6 +9017,7 @@
         "name": "Moerlandpad",
         "surface": "grass_paver",
         "tracktype": "grade3",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/297154889"
       },
       "geometry": {
@@ -9043,7 +9061,9 @@
       "id": "way/297162567",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/297162567"
       },
       "geometry": {
@@ -9068,6 +9088,7 @@
         "name": "Pachtersweg",
         "surface": "paving_stones",
         "tracktype": "grade5",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/297162571"
       },
       "geometry": {
@@ -9128,7 +9149,9 @@
       "id": "way/297163631",
       "properties": {
         "highway": "residential",
+        "maxspeed": "70",
         "name": "Huybergsebaan",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/297163631"
       },
       "geometry": {
@@ -9852,11 +9875,14 @@
       "id": "way/495272861",
       "properties": {
         "highway": "cycleway",
+        "mofa": "designated",
         "moped": "designated",
+        "name": "Plantagebaan",
         "oneway": "no",
         "source": "survey",
         "surface": "concrete",
         "traffic_sign": "NL:G12a",
+        "zone:traffic": "NL:rural",
         "id": "way/495272861"
       },
       "geometry": {
@@ -42503,8 +42529,10 @@
         "highway": "path",
         "lit": "yes",
         "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "tracktype": "grade2",
+        "width": "4",
         "id": "way/285982462"
       },
       "geometry": {
@@ -42523,20 +42551,12 @@
             50.9553566
           ],
           [
-            5.3086804,
-            50.9553211
-          ],
-          [
             5.3086221,
             50.9553069
           ],
           [
             5.3082784,
             50.9552491
-          ],
-          [
-            5.3080699,
-            50.9552212
           ],
           [
             5.3079859,
@@ -42555,10 +42575,6 @@
             50.955037
           ],
           [
-            5.3070771,
-            50.9549598
-          ],
-          [
             5.3068526,
             50.9548982
           ],
@@ -42569,10 +42585,6 @@
           [
             5.3059599,
             50.9547374
-          ],
-          [
-            5.3058758,
-            50.9547061
           ],
           [
             5.3056938,
@@ -43455,12 +43467,17 @@
       "properties": {
         "highway": "residential",
         "name": "Kuilenbeekstraat",
-        "surface": "paved",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
         "id": "way/300121486"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.3053709,
+            50.9543545
+          ],
           [
             5.3053449,
             50.9542676
@@ -43480,8 +43497,10 @@
         "foot": "designated",
         "highway": "path",
         "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "tracktype": "grade2",
+        "width": "4",
         "id": "way/300121487"
       },
       "geometry": {
@@ -43492,12 +43511,8 @@
             50.9545374
           ],
           [
-            5.3053776,
-            50.9543575
-          ],
-          [
-            5.3053449,
-            50.9542676
+            5.3053709,
+            50.9543545
           ]
         ]
       }
@@ -43506,8 +43521,13 @@
       "type": "Feature",
       "id": "way/300121488",
       "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
         "highway": "path",
+        "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
+        "width": "4",
         "id": "way/300121488"
       },
       "geometry": {
@@ -43967,6 +43987,7 @@
         "highway": "path",
         "layer": "1",
         "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/330235794"
@@ -68783,6 +68804,10 @@
             50.9356836
           ],
           [
+            5.3508969,
+            50.935671
+          ],
+          [
             5.3509521,
             50.9356643
           ],
@@ -70859,6 +70884,10 @@
             50.9369107
           ],
           [
+            5.358444,
+            50.9369404
+          ],
+          [
             5.3580248,
             50.9370534
           ],
@@ -71096,6 +71125,7 @@
       "id": "way/350463930",
       "properties": {
         "highway": "path",
+        "surface": "unpaved",
         "id": "way/350463930"
       },
       "geometry": {
@@ -71880,6 +71910,7 @@
         "highway": "cycleway",
         "layer": "1",
         "lit": "yes",
+        "smoothness": "good",
         "surface": "concrete",
         "id": "way/734411840"
       },
@@ -71923,6 +71954,10 @@
           [
             5.3614743,
             50.9398692
+          ],
+          [
+            5.3602525,
+            50.9399382
           ],
           [
             5.3601752,
@@ -72209,6 +72244,8 @@
       "id": "way/951501028",
       "properties": {
         "highway": "cycleway",
+        "smoothness": "excellent",
+        "surface": "asphalt",
         "width": "4",
         "id": "way/951501028"
       },
@@ -72220,12 +72257,12 @@
             50.941504
           ],
           [
-            5.360588,
-            50.9415045
+            5.3605277,
+            50.9415024
           ],
           [
-            5.3603794,
-            50.9415232
+            5.3603707,
+            50.9415198
           ],
           [
             5.3602962,

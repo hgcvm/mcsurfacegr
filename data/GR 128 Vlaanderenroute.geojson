@@ -32048,10 +32048,11 @@
       "type": "Feature",
       "id": "way/38820280",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Gremmerslinde",
         "oneway": "yes",
-        "oneway:bicycle": "no",
+        "sidewalk": "no",
         "surface": "asphalt",
         "width": "3",
         "id": "way/38820280"
@@ -56372,28 +56373,12 @@
         "bicycle": "no",
         "highway": "track",
         "horse": "no",
-        "surface": "dirt",
+        "surface": "pebblestone",
         "id": "way/70881827"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            2.8262302,
-            50.7817367
-          ],
-          [
-            2.8265152,
-            50.7817198
-          ],
-          [
-            2.8267445,
-            50.7816905
-          ],
-          [
-            2.8268587,
-            50.7816724
-          ],
           [
             2.8272556,
             50.781469
@@ -68487,8 +68472,13 @@
       "type": "Feature",
       "id": "way/136001017",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kemmelbergweg",
+        "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "width": "3",
         "id": "way/136001017"
@@ -68613,7 +68603,7 @@
         "foot": "yes",
         "highway": "track",
         "horse": "no",
-        "surface": "gravel",
+        "surface": "dirt",
         "vehicle": "private",
         "id": "way/136001026"
       },
@@ -68787,8 +68777,11 @@
       "type": "Feature",
       "id": "way/136071081",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Gremmerslinde",
+        "oneway": "no",
+        "sidewalk": "no",
         "width": "3",
         "id": "way/136071081"
       },
@@ -74911,6 +74904,7 @@
         "bicycle": "yes",
         "highway": "unclassified",
         "name": "Kattekerkhofstraat",
+        "oneway": "no",
         "surface": "asphalt",
         "width": "3",
         "id": "way/158047177"
@@ -79293,9 +79287,12 @@
       "type": "Feature",
       "id": "way/187285151",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kattekerkhofstraat",
         "oneway": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "width": "3",
         "id": "way/187285151"
@@ -96497,6 +96494,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
+        "surface": "grass",
         "id": "way/384722138"
       },
       "geometry": {
@@ -107211,8 +107209,13 @@
       "type": "Feature",
       "id": "way/587931550",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kemmelbergweg",
+        "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
         "surface": "sett",
         "width": "3",
         "id": "way/587931550"
@@ -112952,6 +112955,10 @@
           [
             3.7209144,
             51.0538746
+          ],
+          [
+            3.7202978,
+            51.0538584
           ],
           [
             3.7201958,
@@ -132088,6 +132095,42 @@
     },
     {
       "type": "Feature",
+      "id": "way/1268157529",
+      "properties": {
+        "bicycle": "no",
+        "highway": "track",
+        "horse": "no",
+        "surface": "dirt",
+        "id": "way/1268157529"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8262302,
+            50.7817367
+          ],
+          [
+            2.8265152,
+            50.7817198
+          ],
+          [
+            2.8267445,
+            50.7816905
+          ],
+          [
+            2.8268587,
+            50.7816724
+          ],
+          [
+            2.8272556,
+            50.781469
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/31347411",
       "properties": {
         "bridge": "yes",
@@ -145218,8 +145261,14 @@
       "type": "Feature",
       "id": "way/52174091",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Beukelaarstraat",
+        "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
         "width": "3",
         "id": "way/52174091"
       },
@@ -147234,9 +147283,14 @@
       "properties": {
         "access": "destination",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kleine Kemmelstraat",
+        "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "width": "3",
         "id": "way/136001020"
@@ -147445,9 +147499,14 @@
       "properties": {
         "access": "destination",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Klokhofweg",
+        "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "width": "3",
         "id": "way/158036178"
@@ -149470,8 +149529,12 @@
       "type": "Feature",
       "id": "way/1094426090",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kemmelbergweg",
+        "oneway": "no",
+        "sidewalk": "no",
         "surface": "sett",
         "width": "3",
         "id": "way/1094426090"
