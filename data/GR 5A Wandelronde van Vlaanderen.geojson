@@ -66,8 +66,11 @@
       "type": "Feature",
       "id": "way/5023930",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Lage Duinenstraat",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/5023930"
       },
@@ -7514,6 +7517,8 @@
       "properties": {
         "highway": "path",
         "lit": "no",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
         "id": "way/26718861"
       },
       "geometry": {
@@ -29283,6 +29288,7 @@
       "properties": {
         "highway": "footway",
         "lit": "no",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/121087652"
       },
@@ -31168,16 +31174,13 @@
       "id": "way/132926698",
       "properties": {
         "highway": "footway",
-        "surface": "unpaved",
+        "lit": "no",
+        "surface": "sand",
         "id": "way/132926698"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            2.7512297,
-            51.1609415
-          ],
           [
             2.7514282,
             51.1609388
@@ -34870,8 +34873,11 @@
       "type": "Feature",
       "id": "way/150612383",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Alexisstraat",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/150612383"
       },
@@ -40533,8 +40539,11 @@
       "type": "Feature",
       "id": "way/219437086",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Idyllelaan",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/219437086"
       },
@@ -40727,8 +40736,12 @@
       "type": "Feature",
       "id": "way/219437096",
       "properties": {
+        "handrail": "no",
         "highway": "steps",
-        "surface": "unpaved",
+        "lit": "no",
+        "ramp": "no",
+        "step_count": "40",
+        "surface": "sand",
         "id": "way/219437096"
       },
       "geometry": {
@@ -41148,7 +41161,9 @@
       "id": "way/219437099",
       "properties": {
         "highway": "footway",
-        "surface": "asphalt",
+        "lit": "no",
+        "smoothness": "very_bad",
+        "surface": "concrete",
         "id": "way/219437099"
       },
       "geometry": {
@@ -70803,7 +70818,10 @@
       "type": "Feature",
       "id": "way/1173032314",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/1173032314"
       },
@@ -72976,6 +72994,28 @@
           [
             3.9824735,
             51.2632651
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1268386156",
+      "properties": {
+        "highway": "footway",
+        "surface": "sand",
+        "id": "way/1268386156"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7512297,
+            51.1609415
+          ],
+          [
+            2.7514282,
+            51.1609388
           ]
         ]
       }
@@ -82341,7 +82381,6 @@
         "highway": "unclassified",
         "name": "Gremmerslinde",
         "oneway": "yes",
-        "oneway:bicycle": "no",
         "sidewalk": "no",
         "surface": "asphalt",
         "width": "3",
@@ -119896,12 +119935,9 @@
       "type": "Feature",
       "id": "way/195804732",
       "properties": {
-        "bicycle": "yes",
-        "highway": "path",
-        "incline": "0",
+        "highway": "footway",
         "smoothness": "bad",
-        "surface": "concrete",
-        "width": "1",
+        "surface": "paved",
         "id": "way/195804732"
       },
       "geometry": {
