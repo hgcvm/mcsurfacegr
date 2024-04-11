@@ -35222,6 +35222,8 @@
         "maxspeed": "30",
         "motor_vehicle": "no",
         "name": "Bronsbosstraat",
+        "sidewalk": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/206178437"
       },
@@ -35229,8 +35231,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.5408834,
-            50.9481657
+            5.5408926,
+            50.9482033
           ],
           [
             5.541254,
@@ -35310,8 +35312,8 @@
             50.949112
           ],
           [
-            5.5408834,
-            50.9481657
+            5.5408926,
+            50.9482033
           ]
         ]
       }
@@ -42522,10 +42524,15 @@
       "type": "Feature",
       "id": "way/285982462",
       "properties": {
-        "highway": "track",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
         "lit": "yes",
+        "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "tracktype": "grade2",
+        "width": "4",
         "id": "way/285982462"
       },
       "geometry": {
@@ -42544,20 +42551,12 @@
             50.9553566
           ],
           [
-            5.3086804,
-            50.9553211
-          ],
-          [
             5.3086221,
             50.9553069
           ],
           [
             5.3082784,
             50.9552491
-          ],
-          [
-            5.3080699,
-            50.9552212
           ],
           [
             5.3079859,
@@ -42576,10 +42575,6 @@
             50.955037
           ],
           [
-            5.3070771,
-            50.9549598
-          ],
-          [
             5.3068526,
             50.9548982
           ],
@@ -42590,10 +42585,6 @@
           [
             5.3059599,
             50.9547374
-          ],
-          [
-            5.3058758,
-            50.9547061
           ],
           [
             5.3056938,
@@ -43476,12 +43467,17 @@
       "properties": {
         "highway": "residential",
         "name": "Kuilenbeekstraat",
-        "surface": "paved",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
         "id": "way/300121486"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.3053709,
+            50.9543545
+          ],
           [
             5.3053449,
             50.9542676
@@ -43497,9 +43493,14 @@
       "type": "Feature",
       "id": "way/300121487",
       "properties": {
-        "highway": "track",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "tracktype": "grade2",
+        "width": "4",
         "id": "way/300121487"
       },
       "geometry": {
@@ -43510,12 +43511,8 @@
             50.9545374
           ],
           [
-            5.3053776,
-            50.9543575
-          ],
-          [
-            5.3053449,
-            50.9542676
+            5.3053709,
+            50.9543545
           ]
         ]
       }
@@ -43524,8 +43521,13 @@
       "type": "Feature",
       "id": "way/300121488",
       "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
         "highway": "path",
+        "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
+        "width": "4",
         "id": "way/300121488"
       },
       "geometry": {
@@ -43979,9 +43981,13 @@
       "type": "Feature",
       "id": "way/330235794",
       "properties": {
+        "bicycle": "designated",
         "bridge": "yes",
-        "highway": "track",
+        "foot": "designated",
+        "highway": "path",
         "layer": "1",
+        "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/330235794"
@@ -64236,8 +64242,6 @@
       "type": "Feature",
       "id": "way/12375939",
       "properties": {
-        "cycleway:both:lane": "advisory",
-        "cycleway:both:surface": "concrete",
         "highway": "unclassified",
         "lanes": "2",
         "layer": "-1",
@@ -64265,13 +64269,8 @@
       "type": "Feature",
       "id": "way/12375947",
       "properties": {
-        "cycleway:both": "shared_lane",
-        "cycleway:both:lane": "advisory",
-        "cycleway:both:surface": "concrete",
         "highway": "unclassified",
         "name": "Hoogzij",
-        "smoothness": "good",
-        "surface": "asphalt",
         "id": "way/12375947"
       },
       "geometry": {
@@ -64749,10 +64748,8 @@
       "id": "way/198505723",
       "properties": {
         "highway": "unclassified",
-        "lane_markings": "no",
         "motor_vehicle": "no",
         "name": "Kielstraat",
-        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/198505723"
       },
@@ -65282,9 +65279,7 @@
         "highway": "cycleway",
         "motor_vehicle": "destination",
         "name": "Kielstraat",
-        "smoothness": "excellent",
         "surface": "asphalt",
-        "width": "2.9",
         "id": "way/206723307"
       },
       "geometry": {
@@ -65310,7 +65305,6 @@
       "id": "way/206723308",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/206723308"
       },
@@ -66326,7 +66320,6 @@
         "highway": "cycleway",
         "motor_vehicle": "destination",
         "name": "Kielstraat",
-        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/536452495"
       },

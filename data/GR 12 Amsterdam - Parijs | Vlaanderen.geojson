@@ -10322,8 +10322,8 @@
             51.2458514
           ],
           [
-            4.4506922,
-            51.2466932
+            4.4507092,
+            51.246683
           ]
         ]
       }
@@ -12429,6 +12429,7 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
+        "lit": "yes",
         "maxspeed": "50",
         "maxspeed:source": "traffic_sign",
         "name": "Borgeindstraat",
@@ -20502,6 +20503,7 @@
       "type": "Feature",
       "id": "way/426146435",
       "properties": {
+        "footway": "crossing",
         "highway": "footway",
         "id": "way/426146435"
       },
@@ -20509,24 +20511,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4499181,
-            51.2465565
+            4.4499094,
+            51.2465528
           ],
           [
-            4.4499585,
-            51.2465153
+            4.4499349,
+            51.246529
           ],
           [
-            4.4499791,
-            51.2464979
+            4.4499558,
+            51.2465096
           ],
           [
-            4.4499956,
-            51.2464788
+            4.4499705,
+            51.2464959
           ],
           [
-            4.4500302,
-            51.2464413
+            4.4499852,
+            51.2464822
+          ],
+          [
+            4.4500057,
+            51.246463
+          ],
+          [
+            4.4500294,
+            51.246441
+          ],
+          [
+            4.4500561,
+            51.2464161
           ]
         ]
       }
@@ -20555,12 +20569,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4499181,
-            51.2465565
+            4.4499094,
+            51.2465528
           ],
           [
-            4.4497845,
-            51.2464871
+            4.449696,
+            51.2464483
           ]
         ]
       }
@@ -20661,8 +20675,12 @@
       "id": "way/426148397",
       "properties": {
         "highway": "residential",
+        "lit": "yes",
         "maxspeed": "30",
         "name": "Pieter Breughelstraat",
+        "sidewalk": "left",
+        "sidewalk:left:surface": "paving_stones",
+        "surface": "asphalt",
         "id": "way/426148397"
       },
       "geometry": {
@@ -21714,8 +21732,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4497845,
-            51.2464871
+            4.449696,
+            51.2464483
           ],
           [
             4.4495727,
@@ -23180,55 +23198,6 @@
           [
             4.4527307,
             51.0713414
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/724415488",
-      "properties": {
-        "highway": "cycleway",
-        "name": "Bredabaan",
-        "name:etymology:wikidata": "Q40844",
-        "oneway": "yes",
-        "id": "way/724415488"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.450056,
-            51.246416
-          ],
-          [
-            4.4501392,
-            51.2464546
-          ],
-          [
-            4.4506922,
-            51.2466932
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/724415489",
-      "properties": {
-        "highway": "footway",
-        "id": "way/724415489"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4500302,
-            51.2464413
-          ],
-          [
-            4.450056,
-            51.246416
           ]
         ]
       }
@@ -28803,6 +28772,36 @@
           [
             4.4768469,
             51.0321009
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1268988574",
+      "properties": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "id": "way/1268988574"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4507092,
+            51.246683
+          ],
+          [
+            4.4501589,
+            51.2464368
+          ],
+          [
+            4.4500744,
+            51.246399
+          ],
+          [
+            4.4500561,
+            51.2464161
           ]
         ]
       }
