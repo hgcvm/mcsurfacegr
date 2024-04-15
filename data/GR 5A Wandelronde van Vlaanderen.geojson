@@ -10479,7 +10479,7 @@
         "highway": "path",
         "horse": "yes",
         "name": "Lange Vaagpad",
-        "surface": "unpaved",
+        "surface": "dirt",
         "width": "3",
         "id": "way/28956099"
       },
@@ -10551,8 +10551,8 @@
             51.249884
           ],
           [
-            3.2808164,
-            51.2498337
+            3.2808077,
+            51.2498358
           ],
           [
             3.280809,
@@ -10613,6 +10613,9 @@
       "properties": {
         "highway": "residential",
         "name": "Slekstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "surface": "asphalt",
         "id": "way/28986167"
       },
@@ -10620,16 +10623,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.284273,
-            51.2542123
+            3.2842891,
+            51.2542287
           ],
           [
-            3.2841792,
-            51.2543382
+            3.2842054,
+            51.2542996
           ],
           [
-            3.2840412,
-            51.2545262
+            3.2840513,
+            51.2545283
+          ],
+          [
+            3.2839049,
+            51.2547227
           ],
           [
             3.2837923,
@@ -11722,8 +11729,7 @@
       "id": "way/32908553",
       "properties": {
         "highway": "track",
-        "name": "Sint-Annastrand",
-        "name:etymology:wikidata": "Q164294",
+        "name": "Esmoreitpark",
         "surface": "gravel",
         "tracktype": "grade3",
         "vehicle": "no",
@@ -13572,9 +13578,12 @@
       "type": "Feature",
       "id": "way/34294970",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lanes": "1",
         "name": "Sluisstraat",
+        "sidewalk": "no",
+        "surface": "concrete",
         "id": "way/34294970"
       },
       "geometry": {
@@ -13651,24 +13660,32 @@
       "type": "Feature",
       "id": "way/34294973",
       "properties": {
+        "cycleway:both": "no",
+        "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Sluisstraat",
+        "oneway": "yes",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "concrete",
+        "width": "0.5",
         "id": "way/34294973"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.1036597,
-            51.2529685
+            4.1034617,
+            51.2528785
           ],
           [
             4.1035287,
             51.2529396
           ],
           [
-            4.1034617,
-            51.2528785
+            4.1036597,
+            51.2529685
           ]
         ]
       }
@@ -13677,8 +13694,13 @@
       "type": "Feature",
       "id": "way/34295381",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Lage Sluisstraat",
+        "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "concrete",
         "width": "3",
         "id": "way/34295381"
@@ -13738,6 +13760,9 @@
         "lanes": "2",
         "maxspeed": "70",
         "name": "Klingedijkstraat",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "concrete",
         "id": "way/34295383"
       },
       "geometry": {
@@ -13758,9 +13783,9 @@
       "type": "Feature",
       "id": "way/34295445",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
-        "smoothness": "impassable",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/34295445"
       },
       "geometry": {
@@ -13899,6 +13924,7 @@
         "moped": "no",
         "motorcar": "no",
         "motorcycle": "no",
+        "surface": "sand",
         "id": "way/34299055"
       },
       "geometry": {
@@ -13951,6 +13977,7 @@
         "moped": "no",
         "motorcar": "no",
         "motorcycle": "no",
+        "surface": "sand",
         "id": "way/34299484"
       },
       "geometry": {
@@ -13979,6 +14006,7 @@
         "moped": "no",
         "motorcar": "no",
         "motorcycle": "no",
+        "surface": "sand",
         "id": "way/34299488"
       },
       "geometry": {
@@ -15061,12 +15089,16 @@
             51.2771143
           ],
           [
-            3.294485,
-            51.2773021
+            3.2944816,
+            51.2773043
           ],
           [
-            3.2947383,
-            51.2773675
+            3.2945815,
+            51.2773525
+          ],
+          [
+            3.2947338,
+            51.277386
           ]
         ]
       }
@@ -20080,8 +20112,13 @@
       "type": "Feature",
       "id": "way/41600672",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Sluisstraat",
+        "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "concrete",
         "width": "3",
         "id": "way/41600672"
@@ -29181,6 +29218,10 @@
             51.254432
           ],
           [
+            3.2851086,
+            51.2544721
+          ],
+          [
             3.2850452,
             51.2545086
           ],
@@ -29193,8 +29234,8 @@
             51.2545296
           ],
           [
-            3.2848155,
-            51.2545158
+            3.2848349,
+            51.2545242
           ],
           [
             3.2847439,
@@ -29209,8 +29250,12 @@
             51.2543588
           ],
           [
-            3.284273,
-            51.2542123
+            3.2843732,
+            51.2542807
+          ],
+          [
+            3.2842891,
+            51.2542287
           ]
         ]
       }
@@ -29505,7 +29550,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "sand",
         "id": "way/123742941"
       },
       "geometry": {
@@ -29851,12 +29896,16 @@
             51.2766585
           ],
           [
-            3.2931736,
-            51.2765742
+            3.2931787,
+            51.2765381
           ],
           [
-            3.2932047,
-            51.2764033
+            3.2931975,
+            51.2764326
+          ],
+          [
+            3.2932471,
+            51.2763172
           ],
           [
             3.2936011,
@@ -29899,8 +29948,8 @@
             51.2725486
           ],
           [
-            3.2963604,
-            51.2714095
+            3.2963436,
+            51.2714057
           ],
           [
             3.2965589,
@@ -29935,8 +29984,12 @@
             51.2702263
           ],
           [
-            3.2976228,
-            51.2693105
+            3.2973287,
+            51.2697658
+          ],
+          [
+            3.2976077,
+            51.2693102
           ],
           [
             3.2980255,
@@ -29974,8 +30027,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2947383,
-            51.2773675
+            3.2947338,
+            51.277386
           ],
           [
             3.2947567,
@@ -29986,16 +30039,20 @@
             51.2771955
           ],
           [
-            3.2949604,
-            51.2771319
+            3.2949496,
+            51.2771209
           ],
           [
-            3.2952063,
-            51.2770798
+            3.295024,
+            51.2771025
           ],
           [
-            3.295481,
-            51.2770586
+            3.2952003,
+            51.2770869
+          ],
+          [
+            3.2954857,
+            51.2770699
           ],
           [
             3.2956714,
@@ -33548,9 +33605,13 @@
       "type": "Feature",
       "id": "way/138464809",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Prinses Astridlaan",
         "name:etymology:wikidata": "Q230238",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/138464809"
       },
@@ -40530,8 +40591,8 @@
             51.2515601
           ],
           [
-            3.2814595,
-            51.2512792
+            3.2814515,
+            51.2512775
           ]
         ]
       }
@@ -43319,16 +43380,16 @@
             51.2677635
           ],
           [
-            3.2975378,
-            51.2671643
+            3.2975271,
+            51.2671662
           ],
           [
             3.2974685,
             51.2671084
           ],
           [
-            3.2974418,
-            51.2670868
+            3.2974582,
+            51.2671001
           ]
         ]
       }
@@ -45405,8 +45466,8 @@
             51.2548997
           ],
           [
-            3.2887116,
-            51.259145
+            3.2886968,
+            51.2591521
           ],
           [
             3.2953687,
@@ -45537,9 +45598,12 @@
       "type": "Feature",
       "id": "way/246292049",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Buitenstraat",
         "oneway": "no",
+        "surface": "sett",
         "id": "way/246292049"
       },
       "geometry": {
@@ -47815,7 +47879,10 @@
       "type": "Feature",
       "id": "way/272353449",
       "properties": {
-        "highway": "service",
+        "highway": "residential",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Kasteeldreef",
         "oneway": "yes",
         "surface": "compacted",
         "id": "way/272353449"
@@ -49279,8 +49346,8 @@
       "id": "way/354699155",
       "properties": {
         "highway": "path",
-        "name": "Sint-Annastrand",
-        "name:etymology:wikidata": "Q164294",
+        "name": "Esmoreitpark",
+        "note": "naam gebaseerd op RUP",
         "surface": "dirt",
         "vehicle": "no",
         "id": "way/354699155"
@@ -53213,16 +53280,24 @@
             51.2532853
           ],
           [
-            3.2865732,
-            51.253101
+            3.2865684,
+            51.2531984
           ],
           [
-            3.2866817,
-            51.252755
+            3.2865825,
+            51.2531031
           ],
           [
-            3.2867019,
-            51.2525981
+            3.2866824,
+            51.2527602
+          ],
+          [
+            3.2866985,
+            51.2526818
+          ],
+          [
+            3.2866971,
+            51.2525949
           ],
           [
             3.28666,
@@ -53253,12 +53328,12 @@
             51.2511033
           ],
           [
-            3.2858944,
-            51.2510519
+            3.2858917,
+            51.2510481
           ],
           [
-            3.2859104,
-            51.251002
+            3.2859057,
+            51.2509995
           ],
           [
             3.2860032,
@@ -53277,15 +53352,15 @@
             51.2495102
           ],
           [
-            3.2868444,
-            51.249444
+            3.286841,
+            51.2494457
           ],
           [
-            3.2868467,
-            51.2493745
+            3.2868407,
+            51.2493762
           ],
           [
-            3.2868192,
+            3.2868158,
             51.2493214
           ],
           [
@@ -53309,44 +53384,56 @@
             51.2488385
           ],
           [
-            3.2851522,
+            3.2851374,
             51.2488108
           ],
           [
-            3.2850348,
-            51.2487911
+            3.2850382,
+            51.2487953
           ],
           [
-            3.2845795,
-            51.248729
+            3.2848719,
+            51.2487802
           ],
           [
-            3.2844771,
-            51.2486756
+            3.2846767,
+            51.2487575
           ],
           [
-            3.2844528,
-            51.2486383
+            3.2845923,
+            51.2487382
           ],
           [
-            3.28444,
-            51.2485997
+            3.2845292,
+            51.248713
           ],
           [
-            3.2844335,
-            51.2485311
+            3.2844756,
+            51.2486803
           ],
           [
-            3.2844266,
-            51.2484754
+            3.2844467,
+            51.2486442
           ],
           [
-            3.2843572,
-            51.248437
+            3.2844367,
+            51.2486026
           ],
           [
-            3.2841964,
-            51.2484092
+            3.2844353,
+            51.2485157
+          ],
+          [
+            3.2844206,
+            51.248475
+          ],
+          [
+            3.2843652,
+            51.248424
+          ],
+          [
+            3.2842505,
+            51.2483511
           ]
         ]
       }
@@ -54485,7 +54572,7 @@
         "horse": "no",
         "name": "Mechelen-Terneuzenwegel",
         "railway": "abandoned",
-        "surface": "asphalt",
+        "surface": "compacted",
         "traffic_sign": "BE:C3,M2",
         "vehicle": "no",
         "width": "2",
@@ -56078,6 +56165,7 @@
       "id": "way/643093297",
       "properties": {
         "highway": "path",
+        "surface": "sand",
         "id": "way/643093297"
       },
       "geometry": {
@@ -56107,6 +56195,7 @@
         "horse": "no",
         "name": "Mechelen-Terneuzenwegel",
         "railway": "abandoned",
+        "smoothness": "good",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,M2",
         "vehicle": "no",
@@ -56624,6 +56713,7 @@
         "moped": "no",
         "motorcar": "no",
         "motorcycle": "no",
+        "surface": "sand",
         "id": "way/666867237"
       },
       "geometry": {
@@ -56655,7 +56745,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "sand",
         "id": "way/666867240"
       },
       "geometry": {
@@ -59335,8 +59425,8 @@
             51.2485378
           ],
           [
-            3.2841964,
-            51.2484092
+            3.2841658,
+            51.2484175
           ]
         ]
       }
@@ -59414,6 +59504,7 @@
         "horse": "no",
         "name": "Mechelen-Terneuzenwegel",
         "railway": "abandoned",
+        "smoothness": "good",
         "surface": "compacted",
         "traffic_sign": "BE:C3,M2",
         "vehicle": "no",
@@ -60359,20 +60450,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.297901,
-            51.2668722
+            3.2978896,
+            51.2668667
           ],
           [
-            3.2978355,
-            51.2669025
+            3.2978328,
+            51.2668987
           ],
           [
-            3.2976397,
-            51.2669942
-          ],
-          [
-            3.2974418,
-            51.2670868
+            3.2974582,
+            51.2671001
           ]
         ]
       }
@@ -60425,8 +60512,8 @@
             51.2666365
           ],
           [
-            3.297901,
-            51.2668722
+            3.2978896,
+            51.2668667
           ]
         ]
       }
@@ -62704,8 +62791,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2814595,
-            51.2512792
+            3.2814515,
+            51.2512775
           ],
           [
             3.281544,
@@ -64215,6 +64302,7 @@
         "layer": "1",
         "name": "Mechelen-Terneuzenwegel",
         "railway": "abandoned",
+        "smoothness": "good",
         "surface": "compacted",
         "traffic_sign": "BE:C3,M2",
         "vehicle": "no",
@@ -64245,6 +64333,7 @@
         "horse": "no",
         "name": "Mechelen-Terneuzenwegel",
         "railway": "abandoned",
+        "smoothness": "good",
         "surface": "compacted",
         "traffic_sign": "BE:C3,M2",
         "vehicle": "no",
@@ -64275,6 +64364,9 @@
         "lanes": "2",
         "maxspeed": "70",
         "name": "Klingedijkstraat",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "concrete",
         "id": "way/985573877"
       },
       "geometry": {
@@ -64297,11 +64389,16 @@
       "properties": {
         "bridge": "yes",
         "cycleway": "lane",
+        "foot": "yes",
         "highway": "tertiary",
         "lanes": "2",
         "layer": "1",
         "maxspeed": "70",
+        "maxweight:signed": "no",
         "name": "Klingedijkstraat",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "concrete",
         "id": "way/985573878"
       },
       "geometry": {
@@ -64322,8 +64419,9 @@
       "type": "Feature",
       "id": "way/985573880",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/985573880"
       },
       "geometry": {
@@ -64345,9 +64443,10 @@
       "id": "way/985573881",
       "properties": {
         "bridge": "yes",
+        "cycleway:both": "no",
         "highway": "track",
         "layer": "1",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/985573881"
       },
       "geometry": {

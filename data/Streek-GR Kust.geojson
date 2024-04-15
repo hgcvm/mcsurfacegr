@@ -1884,6 +1884,7 @@
       "id": "way/34347059",
       "properties": {
         "highway": "footway",
+        "smoothness": "intermediate",
         "surface": "gravel",
         "id": "way/34347059"
       },
@@ -7899,7 +7900,9 @@
       "type": "Feature",
       "id": "way/87652611",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "sidewalk": "right",
         "surface": "paving_stones",
         "id": "way/87652611"
       },
@@ -7929,9 +7932,11 @@
       "type": "Feature",
       "id": "way/87652627",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lit": "no",
         "name": "Zeegeulstraat",
+        "sidewalk": "right",
         "surface": "paving_stones",
         "id": "way/87652627"
       },
@@ -8068,8 +8073,8 @@
             51.3278643
           ],
           [
-            3.1969662,
-            51.3272818
+            3.1969729,
+            51.3272826
           ]
         ]
       }
@@ -8078,10 +8083,12 @@
       "type": "Feature",
       "id": "way/87695162",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lit": "yes",
         "name": "Werfkaai",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "paving_stones",
         "id": "way/87695162"
       },
@@ -8095,6 +8102,14 @@
           [
             3.1997653,
             51.3299925
+          ],
+          [
+            3.2005877,
+            51.3300729
+          ],
+          [
+            3.2008381,
+            51.3300974
           ],
           [
             3.20134,
@@ -8117,6 +8132,7 @@
       "properties": {
         "highway": "residential",
         "name": "Wandelaarstraat",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/87700809"
       },
@@ -8238,6 +8254,7 @@
         "highway": "residential",
         "lane_markings": "no",
         "name": "Wandelaarstraat",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/87700828"
       },
@@ -8245,12 +8262,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2045568,
-            51.3327806
+            3.2045682,
+            51.3327798
           ],
           [
             3.2050128,
-            51.3320805
+            51.3320994
           ],
           [
             3.2050905,
@@ -8635,9 +8652,11 @@
       "type": "Feature",
       "id": "way/87724496",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Vindictivestraat",
         "name:etymology:wikidata": "Q1565676",
+        "sidewalk": "both",
         "surface": "sett",
         "id": "way/87724496"
       },
@@ -8747,6 +8766,7 @@
       "type": "Feature",
       "id": "way/88076097",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Londenstraat",
@@ -16039,9 +16059,13 @@
       "type": "Feature",
       "id": "way/138464809",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Prinses Astridlaan",
         "name:etymology:wikidata": "Q230238",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/138464809"
       },
@@ -18281,8 +18305,8 @@
             51.3272711
           ],
           [
-            3.1969662,
-            51.3272818
+            3.1969729,
+            51.3272826
           ]
         ]
       }
@@ -20022,6 +20046,7 @@
       "type": "Feature",
       "id": "way/199093637",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Londenstraat",
@@ -25091,8 +25116,8 @@
             51.3328964
           ],
           [
-            3.2045568,
-            51.3327806
+            3.2045682,
+            51.3327798
           ]
         ]
       }
@@ -27008,6 +27033,8 @@
       "id": "way/390602078",
       "properties": {
         "bicycle": "designated",
+        "cycleway:surface": "asphalt",
+        "cycleway:width": "2.4",
         "foot": "designated",
         "highway": "path",
         "lit": "yes",
@@ -27270,6 +27297,7 @@
       "type": "Feature",
       "id": "way/421624286",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Londenstraat",
@@ -27296,6 +27324,7 @@
       "type": "Feature",
       "id": "way/421624287",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Londenstraat",
@@ -32713,6 +32742,7 @@
         "handrail": "no",
         "highway": "steps",
         "incline": "up",
+        "step_count": "10",
         "surface": "ground",
         "id": "way/799490822"
       },
@@ -33778,6 +33808,10 @@
           [
             3.1406725,
             51.3194422
+          ],
+          [
+            3.140574,
+            51.3194239
           ],
           [
             3.1404803,
@@ -40639,10 +40673,12 @@
       "type": "Feature",
       "id": "way/1175267057",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lit": "no",
         "name": "Werfkaai",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "concrete",
         "id": "way/1175267057"
       },
@@ -41379,6 +41415,8 @@
       "id": "way/1185106529",
       "properties": {
         "highway": "footway",
+        "smoothness": "good",
+        "surface": "paving_stones",
         "id": "way/1185106529"
       },
       "geometry": {
@@ -41431,6 +41469,7 @@
       "type": "Feature",
       "id": "way/1185106530",
       "properties": {
+        "cycleway:left": "no",
         "cycleway:right": "lane",
         "highway": "primary",
         "lanes": "2",
@@ -41462,6 +41501,8 @@
       "id": "way/1185106531",
       "properties": {
         "highway": "footway",
+        "smoothness": "good",
+        "surface": "asphalt",
         "id": "way/1185106531"
       },
       "geometry": {
@@ -41881,6 +41922,7 @@
       "properties": {
         "highway": "residential",
         "name": "Venetiëstraat",
+        "sidewalk": "both",
         "surface": "concrete",
         "id": "way/1185116243"
       },
@@ -42042,11 +42084,13 @@
       "type": "Feature",
       "id": "way/1185118121",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "junction": "roundabout",
         "name": "Admiraal Keyesplein",
         "name:etymology:wikidata": "Q333787",
-        "surface": "paving_stones",
+        "sidewalk": "both",
+        "surface": "sett",
         "id": "way/1185118121"
       },
       "geometry": {
@@ -42075,9 +42119,11 @@
       "type": "Feature",
       "id": "way/1185118122",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "name": "Westhinderstraat",
+        "sidewalk": "both",
         "surface": "concrete",
         "id": "way/1185118122"
       },
