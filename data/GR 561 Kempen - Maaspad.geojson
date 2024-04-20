@@ -505,7 +505,7 @@
         "maxspeed": "30",
         "mofa": "yes",
         "moped": "yes",
-        "motor_vehicle:conditional": "no @ (Mo-Fr 11:00-18:00; Sa 11:00-17:00; Su 12:00-17:00)",
+        "motor_vehicle:conditional": "no @ (Mo – Fri 11.00 - 18.00; Sa 11.00 - 17.00; Su 12.00 - 17.00)",
         "name": "Vissersmaas",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -11496,9 +11496,6 @@
       "id": "way/129241515",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "50",
-        "maxweight": "5",
-        "maxweight:conditional": "none @ destination",
         "name": "Jagersweg",
         "surface": "concrete",
         "width": "5",
@@ -11887,7 +11884,6 @@
       "id": "way/129764846",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "50",
         "maxweight": "5",
         "maxweight:conditional": "none @ destination",
         "name": "Weversdries",
@@ -33488,9 +33484,6 @@
       "id": "way/371850458",
       "properties": {
         "highway": "track",
-        "maxspeed": "50",
-        "maxweight": "5",
-        "maxweight:conditional": "none @ destination",
         "name": "Waterhoefstraat",
         "surface": "dirt",
         "tracktype": "grade3",
@@ -36382,6 +36375,74 @@
           [
             5.0758039,
             51.1376921
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/414698599",
+      "properties": {
+        "highway": "unclassified",
+        "name": "Sparrendal",
+        "surface": "asphalt",
+        "id": "way/414698599"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6781872,
+            51.0152091
+          ],
+          [
+            5.6780303,
+            51.0150847
+          ],
+          [
+            5.6779472,
+            51.0150067
+          ],
+          [
+            5.6779128,
+            51.0149718
+          ],
+          [
+            5.677819,
+            51.0148608
+          ],
+          [
+            5.6778106,
+            51.0147845
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/414698600",
+      "properties": {
+        "highway": "path",
+        "id": "way/414698600"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6774621,
+            51.0147318
+          ],
+          [
+            5.6774596,
+            51.0146346
+          ],
+          [
+            5.6773331,
+            51.0145211
+          ],
+          [
+            5.6772386,
+            51.0144219
           ]
         ]
       }
@@ -40721,6 +40782,37 @@
     },
     {
       "type": "Feature",
+      "id": "way/506102516",
+      "properties": {
+        "highway": "unclassified",
+        "name": "Sparrendal",
+        "surface": "asphalt",
+        "id": "way/506102516"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6781872,
+            51.0152091
+          ],
+          [
+            5.678321,
+            51.0153248
+          ],
+          [
+            5.6784397,
+            51.0154371
+          ],
+          [
+            5.6785062,
+            51.0154961
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/506102517",
       "properties": {
         "highway": "track",
@@ -40777,9 +40869,6 @@
       "type": "Feature",
       "id": "way/516404188",
       "properties": {
-        "access": "no",
-        "bicycle": "no",
-        "foot": "yes",
         "highway": "footway",
         "lit": "no",
         "surface": "dirt",
@@ -40788,10 +40877,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.1411285,
-            51.1451375
-          ],
           [
             5.1409416,
             51.1459198
@@ -41164,9 +41249,6 @@
       "id": "way/541530945",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "50",
-        "maxweight": "5",
-        "maxweight:conditional": "none @ destination",
         "name": "Alvinnenberg",
         "surface": "asphalt",
         "width": "3.5",
@@ -41200,8 +41282,6 @@
       "properties": {
         "highway": "track",
         "maxspeed": "50",
-        "maxweight": "5",
-        "maxweight:conditional": "none @ destination",
         "name": "De Meren",
         "surface": "compacted",
         "tracktype": "grade3",
@@ -42001,30 +42081,17 @@
       "type": "Feature",
       "id": "way/551934410",
       "properties": {
-        "access": "no",
         "bicycle": "no",
-        "foot": "yes",
         "highway": "footway",
         "horse": "no",
         "lit": "no",
         "surface": "dirt",
+        "width": "1",
         "id": "way/551934410"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.1414626,
-            51.1488734
-          ],
-          [
-            5.1411692,
-            51.149226
-          ],
-          [
-            5.1411474,
-            51.1493097
-          ],
           [
             5.1411738,
             51.14938
@@ -43667,6 +43734,29 @@
           [
             5.3119646,
             51.2108182
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/655338926",
+      "properties": {
+        "highway": "path",
+        "name": "Echelpoel",
+        "surface": "compacted",
+        "id": "way/655338926"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1411285,
+            51.1451375
+          ],
+          [
+            5.1409416,
+            51.1459198
           ]
         ]
       }
@@ -48974,7 +49064,6 @@
       "id": "way/1014237308",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "50",
         "maxweight": "5",
         "maxweight:conditional": "none @ destination",
         "name": "Weversdries",
@@ -49469,6 +49558,37 @@
           [
             5.6874316,
             50.8631374
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1063726113",
+      "properties": {
+        "highway": "footway",
+        "lit": "no",
+        "surface": "dirt",
+        "id": "way/1063726113"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1414626,
+            51.1488734
+          ],
+          [
+            5.1411692,
+            51.149226
+          ],
+          [
+            5.1411474,
+            51.1493097
+          ],
+          [
+            5.1411738,
+            51.14938
           ]
         ]
       }
@@ -50137,89 +50257,6 @@
           [
             5.7082383,
             51.1576061
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1111630202",
-      "properties": {
-        "bridge": "yes",
-        "highway": "cycleway",
-        "layer": "1",
-        "name": "Fietsbrug Sparrendal",
-        "id": "way/1111630202"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.6765113,
-            51.0150974
-          ],
-          [
-            5.6768632,
-            51.0143049
-          ],
-          [
-            5.6768486,
-            51.0142622
-          ],
-          [
-            5.6762797,
-            51.0138227
-          ],
-          [
-            5.6762478,
-            51.0137503
-          ],
-          [
-            5.6755006,
-            51.0132137
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1111636924",
-      "properties": {
-        "highway": "cycleway",
-        "smoothness": "excellent",
-        "surface": "asphalt",
-        "id": "way/1111636924"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.6784471,
-            51.0155001
-          ],
-          [
-            5.6783889,
-            51.0155051
-          ],
-          [
-            5.6776446,
-            51.0156977
-          ],
-          [
-            5.6772593,
-            51.0156947
-          ],
-          [
-            5.676918,
-            51.0155877
-          ],
-          [
-            5.6766811,
-            51.0154432
-          ],
-          [
-            5.6765113,
-            51.0150974
           ]
         ]
       }
@@ -52478,6 +52515,46 @@
     },
     {
       "type": "Feature",
+      "id": "way/1205717577",
+      "properties": {
+        "highway": "track",
+        "name": "Hoeveweg",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "id": "way/1205717577"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6772386,
+            51.0144219
+          ],
+          [
+            5.67719,
+            51.0143559
+          ],
+          [
+            5.6771094,
+            51.0142394
+          ],
+          [
+            5.6758425,
+            51.0131435
+          ],
+          [
+            5.6755657,
+            51.012873
+          ],
+          [
+            5.6754056,
+            51.0127774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1207843166",
       "properties": {
         "highway": "track",
@@ -52571,35 +52648,48 @@
     },
     {
       "type": "Feature",
-      "id": "way/1262508114",
+      "id": "way/1262508107",
       "properties": {
         "highway": "cycleway",
-        "smoothness": "excellent",
+        "name": "Sparrendal",
         "surface": "asphalt",
-        "id": "way/1262508114"
+        "tracktype": "grade2",
+        "id": "way/1262508107"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.6754056,
-            51.0127774
+            5.6785062,
+            51.0154961
           ],
           [
-            5.6753853,
-            51.0128206
+            5.6784471,
+            51.0155001
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1262508111",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "id": "way/1262508111"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6778106,
+            51.0147845
           ],
           [
-            5.6753542,
-            51.0128683
-          ],
-          [
-            5.6753584,
-            51.012939
-          ],
-          [
-            5.6755006,
-            51.0132137
+            5.6774621,
+            51.0147318
           ]
         ]
       }
@@ -54986,16 +55076,20 @@
             51.1507139
           ],
           [
-            5.0184238,
-            51.1510237
+            5.0181502,
+            51.1507636
+          ],
+          [
+            5.0184184,
+            51.1510239
           ],
           [
             5.0185356,
             51.1511396
           ],
           [
-            5.0186173,
-            51.1512474
+            5.0185981,
+            51.1512368
           ],
           [
             5.0187546,
@@ -55029,8 +55123,8 @@
             51.1501508
           ],
           [
-            5.0180928,
-            51.150277
+            5.0180885,
+            51.1502731
           ]
         ]
       }
@@ -56062,8 +56156,8 @@
             51.1497537
           ],
           [
-            5.0287973,
-            51.1497833
+            5.028816,
+            51.1497789
           ],
           [
             5.0286978,
@@ -56074,32 +56168,40 @@
             51.1498642
           ],
           [
-            5.0285803,
-            51.1498962
+            5.0285679,
+            51.1498992
           ],
           [
-            5.0284585,
-            51.1499964
+            5.0284995,
+            51.1499556
           ],
           [
-            5.0282236,
-            51.1503497
+            5.0284472,
+            51.1500313
           ],
           [
-            5.028132,
-            51.1504148
+            5.0283265,
+            51.1502466
           ],
           [
-            5.0280233,
-            51.1504605
+            5.02824,
+            51.1503526
           ],
           [
-            5.027874,
-            51.1505
+            5.0281448,
+            51.1504212
           ],
           [
-            5.0275383,
-            51.1505612
+            5.0280295,
+            51.1504654
+          ],
+          [
+            5.02789,
+            51.1505015
+          ],
+          [
+            5.0275775,
+            51.1505587
           ],
           [
             5.0274599,
@@ -56169,6 +56271,10 @@
           [
             5.0262925,
             51.1505798
+          ],
+          [
+            5.0260869,
+            51.1496359
           ],
           [
             5.0260474,
@@ -57755,8 +57861,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0180928,
-            51.150277
+            5.0180885,
+            51.1502731
           ],
           [
             5.0180922,
