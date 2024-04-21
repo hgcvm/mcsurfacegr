@@ -838,8 +838,6 @@
       "id": "way/23114474",
       "properties": {
         "highway": "unclassified",
-        "lane_markings": "no",
-        "smoothness": "bad",
         "surface": "sett",
         "id": "way/23114474"
       },
@@ -5515,11 +5513,10 @@
       "type": "Feature",
       "id": "way/36330930",
       "properties": {
-        "check_date:surface": "2024-04-13",
         "highway": "track",
         "name": "Puttestraat",
         "surface": "dirt",
-        "tracktype": "grade4",
+        "tracktype": "grade2",
         "id": "way/36330930"
       },
       "geometry": {
@@ -5592,16 +5589,12 @@
       "type": "Feature",
       "id": "way/36330934",
       "properties": {
-        "cycleway": "no",
+        "cycleway": "opposite",
         "foot": "yes",
         "highway": "residential",
-        "lane_markings": "no",
-        "motor_vehicle": "destination",
         "name": "Beukenlandschap",
-        "oneway": "no",
+        "oneway": "yes",
         "oneway:bicycle": "no",
-        "sidewalk": "no",
-        "smoothness": "bad",
         "surface": "sett",
         "id": "way/36330934"
       },
@@ -30817,7 +30810,6 @@
       "properties": {
         "bicycle": "designated",
         "cycleway:surface": "paving_stones",
-        "cycleway:width": "2",
         "foot": "designated",
         "footway:surface": "paving_stones",
         "highway": "cycleway",
@@ -38329,14 +38321,10 @@
       "type": "Feature",
       "id": "way/518818846",
       "properties": {
-        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
         "name": "Lotsestraat",
-        "sidewalk": "both",
-        "sidewalk:both:surface": "paving_stones",
-        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/518818846"
       },
@@ -43233,9 +43221,6 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Lotsestraat",
-        "sidewalk": "both",
-        "sidewalk:both:surface": "paving_stones",
-        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/923146259"
       },
@@ -44001,16 +43986,19 @@
       "properties": {
         "highway": "footway",
         "name": "Puttestraat",
-        "smoothness": "bad",
-        "surface": "sett",
+        "surface": "compacted",
         "id": "way/1083972650"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.3025513,
-            50.7666995
+            4.3027032,
+            50.7668484
+          ],
+          [
+            4.3025653,
+            50.7667111
           ],
           [
             4.3025077,
@@ -44346,12 +44334,11 @@
       "type": "Feature",
       "id": "way/1106556801",
       "properties": {
-        "cycleway": "no",
+        "cycleway": "opposite",
         "foot": "yes",
         "highway": "residential",
-        "motor_vehicle": "destination",
         "name": "Beukenlandschap",
-        "oneway": "no",
+        "oneway": "yes",
         "oneway:bicycle": "no",
         "surface": "asphalt",
         "id": "way/1106556801"
@@ -45284,34 +45271,6 @@
           [
             4.3826484,
             50.7687332
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1272337587",
-      "properties": {
-        "highway": "footway",
-        "name": "Puttestraat",
-        "smoothness": "bad",
-        "surface": "concrete",
-        "id": "way/1272337587"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.3027032,
-            50.7668484
-          ],
-          [
-            4.3025653,
-            50.7667111
-          ],
-          [
-            4.3025513,
-            50.7666995
           ]
         ]
       }
