@@ -181,9 +181,6 @@
       "id": "way/7615960",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "70",
-        "name": "Timmermansweg",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/7615960"
       },
       "geometry": {
@@ -194,8 +191,8 @@
             51.2901674
           ],
           [
-            3.6570189,
-            51.2902206
+            3.6570387,
+            51.2902572
           ]
         ]
       }
@@ -205,9 +202,7 @@
       "id": "way/7615964",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "70",
         "name": "Rovershoek",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/7615964"
       },
       "geometry": {
@@ -228,6 +223,38 @@
           [
             3.612665,
             51.297942
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/7615966",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "60",
+        "name": "Timmermansweg",
+        "surface": "cobblestone",
+        "id": "way/7615966"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6607985,
+            51.2958839
+          ],
+          [
+            3.6614436,
+            51.2968472
+          ],
+          [
+            3.66357,
+            51.30031
+          ],
+          [
+            3.6638006,
+            51.300686
           ]
         ]
       }
@@ -299,15 +326,14 @@
         "maxspeed": "60",
         "name": "Timmermansweg",
         "surface": "cobblestone",
-        "zone:traffic": "NL:rural",
         "id": "way/7615980"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.6570189,
-            51.2902206
+            3.6570387,
+            51.2902572
           ],
           [
             3.65892,
@@ -320,18 +346,6 @@
           [
             3.6607985,
             51.2958839
-          ],
-          [
-            3.6614436,
-            51.2968472
-          ],
-          [
-            3.66357,
-            51.30031
-          ],
-          [
-            3.6638006,
-            51.300686
           ]
         ]
       }
@@ -378,7 +392,6 @@
         "highway": "unclassified",
         "maxspeed": "60",
         "name": "Oudemansdijk",
-        "zone:traffic": "NL:rural",
         "id": "way/7616348"
       },
       "geometry": {
@@ -4597,9 +4610,7 @@
       "properties": {
         "highway": "unclassified",
         "lanes": "1",
-        "maxspeed": "70",
         "name": "Veldzigt",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/33893596"
       },
       "geometry": {
@@ -5535,9 +5546,7 @@
       "id": "way/39509290",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "70",
         "name": "Meuleken",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/39509290"
       },
       "geometry": {
@@ -5590,6 +5599,73 @@
           [
             3.6129035,
             51.2976029
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39509293",
+      "properties": {
+        "highway": "service",
+        "lanes": "1",
+        "name": "Veldzigt",
+        "id": "way/39509293"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6312383,
+            51.2909992
+          ],
+          [
+            3.6313784,
+            51.2909902
+          ],
+          [
+            3.6315487,
+            51.2909868
+          ],
+          [
+            3.6322126,
+            51.2910037
+          ],
+          [
+            3.6323631,
+            51.2909825
+          ],
+          [
+            3.6364934,
+            51.2895535
+          ],
+          [
+            3.637455,
+            51.2892122
+          ],
+          [
+            3.6385144,
+            51.2888389
+          ],
+          [
+            3.6393412,
+            51.2885471
+          ],
+          [
+            3.6400513,
+            51.288295
+          ],
+          [
+            3.6401989,
+            51.2882426
+          ],
+          [
+            3.6403926,
+            51.2881565
+          ],
+          [
+            3.6405194,
+            51.2881068
           ]
         ]
       }
@@ -5726,11 +5802,9 @@
       "id": "way/39509296",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "70",
         "name": "Vrijedijk / Mollekot",
         "name:left": "Vrijedijk",
         "name:right": "Mollekot",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/39509296"
       },
       "geometry": {
@@ -7255,7 +7329,6 @@
         "bicycle": "yes",
         "highway": "track",
         "lit": "no",
-        "maxspeed": "60",
         "mofa": "yes",
         "moped": "yes",
         "name": "Wildeweg",
@@ -7263,7 +7336,6 @@
         "surface": "grass",
         "tracktype": "grade4",
         "vehicle": "no",
-        "zone:traffic": "NL:rural",
         "id": "way/67312770"
       },
       "geometry": {
@@ -7411,7 +7483,6 @@
         "smoothness": "intermediate",
         "surface": "sand",
         "tracktype": "grade3",
-        "zone:traffic": "NL:rural",
         "id": "way/67312794"
       },
       "geometry": {
@@ -7498,12 +7569,10 @@
       "properties": {
         "highway": "track",
         "lit": "no",
-        "maxspeed": "60",
         "name": "Krommeslag",
         "smoothness": "intermediate",
         "surface": "gravel",
         "tracktype": "grade3",
-        "zone:traffic": "NL:rural",
         "id": "way/67312805"
       },
       "geometry": {
@@ -7575,7 +7644,6 @@
         "smoothness": "good",
         "surface": "sand",
         "tracktype": "grade3",
-        "zone:traffic": "NL:rural",
         "id": "way/67312841"
       },
       "geometry": {
@@ -17899,9 +17967,7 @@
       "id": "way/188108943",
       "properties": {
         "highway": "track",
-        "name": "Withuisweg",
         "surface": "grass",
-        "zone:traffic": "NL:rural",
         "id": "way/188108943"
       },
       "geometry": {
@@ -17963,8 +18029,6 @@
       "id": "way/188109967",
       "properties": {
         "highway": "track",
-        "name": "Plattedijk",
-        "zone:traffic": "NL:rural",
         "id": "way/188109967"
       },
       "geometry": {
@@ -18026,9 +18090,7 @@
       "id": "way/188112076",
       "properties": {
         "highway": "tertiary",
-        "maxspeed": "60",
         "name": "Molenweg",
-        "zone:traffic": "NL:rural",
         "id": "way/188112076"
       },
       "geometry": {
@@ -18073,7 +18135,6 @@
         "highway": "unclassified",
         "maxspeed": "60",
         "name": "Oudemansdijk",
-        "zone:traffic": "NL:rural",
         "id": "way/188113071"
       },
       "geometry": {
@@ -23850,7 +23911,6 @@
         "maxspeed": "60",
         "name": "Kasseiweg",
         "surface": "cobblestone",
-        "zone:traffic": "NL:rural",
         "id": "way/372623606"
       },
       "geometry": {
@@ -25064,12 +25124,10 @@
       "properties": {
         "highway": "track",
         "lit": "no",
-        "maxspeed": "60",
         "name": "Krommeslag",
         "smoothness": "intermediate",
         "surface": "gravel",
         "tracktype": "grade3",
-        "zone:traffic": "NL:rural",
         "id": "way/457691948"
       },
       "geometry": {
@@ -25480,62 +25538,12 @@
       "properties": {
         "highway": "unclassified",
         "lanes": "1",
-        "maxspeed": "70",
         "name": "Veldzigt",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/530353746"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.6312383,
-            51.2909992
-          ],
-          [
-            3.6313784,
-            51.2909902
-          ],
-          [
-            3.6315487,
-            51.2909868
-          ],
-          [
-            3.6322126,
-            51.2910037
-          ],
-          [
-            3.6323631,
-            51.2909825
-          ],
-          [
-            3.6364934,
-            51.2895535
-          ],
-          [
-            3.637455,
-            51.2892122
-          ],
-          [
-            3.6385144,
-            51.2888389
-          ],
-          [
-            3.6393412,
-            51.2885471
-          ],
-          [
-            3.6400513,
-            51.288295
-          ],
-          [
-            3.6401989,
-            51.2882426
-          ],
-          [
-            3.6403926,
-            51.2881565
-          ],
           [
             3.6405194,
             51.2881068
@@ -25543,6 +25551,10 @@
           [
             3.6406408,
             51.2881088
+          ],
+          [
+            3.6407185,
+            51.2880052
           ]
         ]
       }
@@ -25561,7 +25573,6 @@
         "ref": "N456",
         "sidewalk": "right",
         "surface": "asphalt",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/532932990"
       },
       "geometry": {
@@ -31243,31 +31254,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1274507181",
-      "properties": {
-        "highway": "unclassified",
-        "lanes": "1",
-        "maxspeed": "70",
-        "name": "Veldzigt",
-        "zone:traffic": "BE-VLG:rural",
-        "id": "way/1274507181"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.6406408,
-            51.2881088
-          ],
-          [
-            3.6407185,
-            51.2880052
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/7618207",
       "properties": {
         "highway": "unclassified",
@@ -33505,7 +33491,6 @@
         "ref": "N456",
         "sidewalk": "both",
         "surface": "asphalt",
-        "zone:traffic": "BE-VLG:urban",
         "id": "way/33890900"
       },
       "geometry": {
@@ -33694,18 +33679,20 @@
       "id": "way/33893609",
       "properties": {
         "highway": "residential",
-        "maxspeed": "70",
         "name": "Zeestraat",
         "surface": "concrete",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/33893609"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.5866502,
-            51.2908727
+            3.5877145,
+            51.2913959
+          ],
+          [
+            3.5871793,
+            51.2911511
           ],
           [
             3.5862677,
@@ -33791,10 +33778,8 @@
       "id": "way/33893632",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "70",
         "name": "Vluchtelingenstraat",
         "surface": "asphalt",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/33893632"
       },
       "geometry": {
@@ -33936,11 +33921,9 @@
       "id": "way/33893638",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "70",
         "name": "Sint-Livinuspolder",
         "surface": "asphalt",
         "width": "3",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/33893638"
       },
       "geometry": {
@@ -33970,9 +33953,7 @@
       "id": "way/33893640",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "70",
         "name": "Sint-Livinuspolder",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/33893640"
       },
       "geometry": {
@@ -34006,12 +33987,10 @@
       "id": "way/33893658",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "70",
         "name": "Baeyensmolenstraat",
         "smoothness": "excellent",
         "surface": "concrete",
         "width": "3",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/33893658"
       },
       "geometry": {
@@ -34583,11 +34562,9 @@
       "id": "way/39505525",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "70",
         "name": "Sint-Livinuspolder",
         "surface": "asphalt",
         "width": "3",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/39505525"
       },
       "geometry": {
@@ -34705,10 +34682,8 @@
       "id": "way/39507659",
       "properties": {
         "highway": "tertiary",
-        "maxspeed": "50",
         "name": "Nieuwstraat",
         "surface": "asphalt",
-        "zone:traffic": "BE-VLG:urban",
         "id": "way/39507659"
       },
       "geometry": {
@@ -35461,12 +35436,10 @@
       "properties": {
         "highway": "track",
         "lit": "no",
-        "maxspeed": "60",
         "name": "Brandkreekdijk",
         "smoothness": "intermediate",
         "surface": "gravel",
         "tracktype": "grade3",
-        "zone:traffic": "NL:rural",
         "id": "way/67312725"
       },
       "geometry": {
@@ -35545,13 +35518,11 @@
       "properties": {
         "highway": "track",
         "lit": "no",
-        "maxspeed": "60",
         "name": "Brandkreekdijk",
         "smoothness": "intermediate",
         "surface": "gravel",
         "tracktype": "grade3",
         "width": "3",
-        "zone:traffic": "NL:rural",
         "id": "way/67312821"
       },
       "geometry": {
@@ -35726,10 +35697,7 @@
       "id": "way/97817389",
       "properties": {
         "highway": "tertiary",
-        "maxspeed": "60",
-        "name": "Goedleven",
         "surface": "asphalt",
-        "zone:traffic": "NL:rural",
         "id": "way/97817389"
       },
       "geometry": {
@@ -35742,10 +35710,6 @@
           [
             3.5865542,
             51.2926927
-          ],
-          [
-            3.5858917,
-            51.2934276
           ]
         ]
       }
@@ -35819,6 +35783,29 @@
           [
             3.5429971,
             51.2575072
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/111342625",
+      "properties": {
+        "highway": "tertiary",
+        "name": "Goedleven",
+        "surface": "asphalt",
+        "id": "way/111342625"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.5865542,
+            51.2926927
+          ],
+          [
+            3.5858917,
+            51.2934276
           ]
         ]
       }
@@ -36601,7 +36588,6 @@
       "id": "way/165066938",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "70",
         "name": "Sint-Margrietepolder",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/165066938"
@@ -37704,7 +37690,6 @@
         "name": "Sint-Margrietestraat",
         "ref": "N455",
         "surface": "asphalt",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/347993440"
       },
       "geometry": {
@@ -37727,12 +37712,10 @@
       "properties": {
         "highway": "track",
         "lit": "no",
-        "maxspeed": "60",
         "name": "Brandkreekdijk",
         "smoothness": "intermediate",
         "surface": "gravel",
         "tracktype": "grade3",
-        "zone:traffic": "NL:rural",
         "id": "way/347993441"
       },
       "geometry": {
@@ -38543,12 +38526,10 @@
       "id": "way/526147268",
       "properties": {
         "highway": "track",
-        "maxspeed": "60",
         "name": "Plakkebord",
         "smoothness": "horrible",
         "surface": "compacted",
         "tracktype": "grade3",
-        "zone:traffic": "NL:rural",
         "id": "way/526147268"
       },
       "geometry": {
@@ -38570,10 +38551,8 @@
       "id": "way/526168969",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "70",
         "name": "Goeleven",
         "surface": "concrete",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/526168969"
       },
       "geometry": {
@@ -38756,10 +38735,8 @@
       "id": "way/737689453",
       "properties": {
         "highway": "cycleway",
-        "name": "Molenstraat",
         "oneway": "no",
         "surface": "asphalt",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/737689453"
       },
       "geometry": {
@@ -38785,10 +38762,8 @@
       "id": "way/737689457",
       "properties": {
         "highway": "cycleway",
-        "name": "Molenstraat",
         "oneway": "yes",
         "surface": "asphalt",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/737689457"
       },
       "geometry": {
@@ -39022,9 +38997,7 @@
       "id": "way/1114900646",
       "properties": {
         "highway": "service",
-        "name": "Molenstraat",
         "surface": "asphalt",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/1114900646"
       },
       "geometry": {
@@ -39152,10 +39125,8 @@
       "id": "way/1162006536",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "70",
         "name": "Vluchtelingenstraat",
         "surface": "concrete",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/1162006536"
       },
       "geometry": {
@@ -39328,35 +39299,6 @@
           [
             3.4633313,
             51.2708247
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1274500697",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "50",
-        "name": "Zeestraat",
-        "surface": "concrete",
-        "zone:traffic": "BE-VLG:urban",
-        "id": "way/1274500697"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.5877145,
-            51.2913959
-          ],
-          [
-            3.5871793,
-            51.2911511
-          ],
-          [
-            3.5866502,
-            51.2908727
           ]
         ]
       }
