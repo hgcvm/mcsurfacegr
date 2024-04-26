@@ -14517,6 +14517,10 @@
             50.9533858
           ],
           [
+            5.5231375,
+            50.9533842
+          ],
+          [
             5.5232411,
             50.9533825
           ],
@@ -22440,6 +22444,7 @@
       "properties": {
         "highway": "residential",
         "name": "Galgebergstraat",
+        "surface": "asphalt",
         "id": "way/40012523"
       },
       "geometry": {
@@ -22454,8 +22459,8 @@
             50.9568801
           ],
           [
-            5.3150399,
-            50.9572491
+            5.3151586,
+            50.9571365
           ],
           [
             5.3144704,
@@ -25771,6 +25776,7 @@
         "highway": "residential",
         "junction": "roundabout",
         "maxspeed": "50",
+        "surface": "asphalt",
         "id": "way/97452197"
       },
       "geometry": {
@@ -27003,9 +27009,12 @@
       "type": "Feature",
       "id": "way/128935322",
       "properties": {
-        "highway": "path",
+        "dog": "no",
+        "highway": "track",
+        "horse": "no",
         "smoothness": "intermediate",
-        "surface": "unpaved",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/128935322"
       },
       "geometry": {
@@ -27020,20 +27029,20 @@
             50.9647256
           ],
           [
-            5.33364,
-            50.9643503
+            5.3338485,
+            50.9644568
           ],
           [
             5.3332459,
             50.9641308
           ],
           [
-            5.3329662,
-            50.9639802
+            5.3329562,
+            50.963981
           ],
           [
-            5.3324613,
-            50.9637992
+            5.3325431,
+            50.963824
           ],
           [
             5.3323171,
@@ -34723,6 +34732,7 @@
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Semmestraat",
+        "surface": "asphalt",
         "traffic_sign": "BE:F99c",
         "id": "way/200522213"
       },
@@ -34810,6 +34820,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Semmestraat",
+        "surface": "asphalt",
         "id": "way/200522214"
       },
       "geometry": {
@@ -39761,6 +39772,10 @@
           [
             5.5226563,
             50.9533904
+          ],
+          [
+            5.5227459,
+            50.9533893
           ],
           [
             5.5228445,
@@ -54235,7 +54250,7 @@
       "properties": {
         "highway": "track",
         "smoothness": "intermediate",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/749050154"
       },
@@ -55313,6 +55328,7 @@
       "id": "way/844297188",
       "properties": {
         "highway": "cycleway",
+        "surface": "paving_stones",
         "id": "way/844297188"
       },
       "geometry": {
@@ -55323,8 +55339,8 @@
             50.9512055
           ],
           [
-            5.5185569,
-            50.9512474
+            5.518498,
+            50.9512265
           ]
         ]
       }
@@ -56950,6 +56966,10 @@
           [
             5.518646,
             50.9512791
+          ],
+          [
+            5.5187194,
+            50.9512983
           ],
           [
             5.5188332,
@@ -59006,6 +59026,7 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "surface": "asphalt",
         "id": "way/1024512926"
       },
       "geometry": {
@@ -64211,6 +64232,34 @@
           [
             5.281076,
             50.9680673
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1274015035",
+      "properties": {
+        "crossing": "uncontrolled",
+        "crossing:markings": "yes",
+        "cycleway": "crossing",
+        "highway": "cycleway",
+        "id": "way/1274015035"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.518498,
+            50.9512265
+          ],
+          [
+            5.5185275,
+            50.9512369
+          ],
+          [
+            5.5185569,
+            50.9512474
           ]
         ]
       }
