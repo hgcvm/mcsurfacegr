@@ -11496,6 +11496,9 @@
       "id": "way/129241515",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Jagersweg",
         "surface": "concrete",
         "width": "5",
@@ -11884,6 +11887,7 @@
       "id": "way/129764846",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "maxweight": "5",
         "maxweight:conditional": "none @ destination",
         "name": "Weversdries",
@@ -33484,6 +33488,9 @@
       "id": "way/371850458",
       "properties": {
         "highway": "track",
+        "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Waterhoefstraat",
         "surface": "dirt",
         "tracktype": "grade3",
@@ -40772,7 +40779,7 @@
       "properties": {
         "access": "no",
         "bicycle": "no",
-        "foot": "designated",
+        "foot": "yes",
         "highway": "footway",
         "lit": "no",
         "surface": "dirt",
@@ -40781,6 +40788,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.1411285,
+            51.1451375
+          ],
           [
             5.1409416,
             51.1459198
@@ -41153,6 +41164,9 @@
       "id": "way/541530945",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Alvinnenberg",
         "surface": "asphalt",
         "width": "3.5",
@@ -41186,6 +41200,8 @@
       "properties": {
         "highway": "track",
         "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "De Meren",
         "surface": "compacted",
         "tracktype": "grade3",
@@ -41985,17 +42001,30 @@
       "type": "Feature",
       "id": "way/551934410",
       "properties": {
+        "access": "no",
         "bicycle": "no",
+        "foot": "yes",
         "highway": "footway",
         "horse": "no",
         "lit": "no",
         "surface": "dirt",
-        "width": "1",
         "id": "way/551934410"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.1414626,
+            51.1488734
+          ],
+          [
+            5.1411692,
+            51.149226
+          ],
+          [
+            5.1411474,
+            51.1493097
+          ],
           [
             5.1411738,
             51.14938
@@ -43638,30 +43667,6 @@
           [
             5.3119646,
             51.2108182
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/655338926",
-      "properties": {
-        "bicycle": "no",
-        "highway": "path",
-        "name": "Echelpoel",
-        "surface": "compacted",
-        "id": "way/655338926"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.1411285,
-            51.1451375
-          ],
-          [
-            5.1409416,
-            51.1459198
           ]
         ]
       }
@@ -48969,6 +48974,7 @@
       "id": "way/1014237308",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "maxweight": "5",
         "maxweight:conditional": "none @ destination",
         "name": "Weversdries",
@@ -49463,38 +49469,6 @@
           [
             5.6874316,
             50.8631374
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1063726113",
-      "properties": {
-        "bicycle": "no",
-        "highway": "footway",
-        "lit": "no",
-        "surface": "dirt",
-        "id": "way/1063726113"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.1414626,
-            51.1488734
-          ],
-          [
-            5.1411692,
-            51.149226
-          ],
-          [
-            5.1411474,
-            51.1493097
-          ],
-          [
-            5.1411738,
-            51.14938
           ]
         ]
       }
