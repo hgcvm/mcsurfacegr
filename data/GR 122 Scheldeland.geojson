@@ -1070,6 +1070,7 @@
         "highway": "unclassified",
         "maxspeed": "60",
         "name": "Langeweg",
+        "operator": "Provincie Zeeland",
         "id": "way/7598237"
       },
       "geometry": {
@@ -3257,7 +3258,8 @@
       "properties": {
         "highway": "track",
         "name": "weg nr. 85",
-        "surface": "dirt",
+        "surface": "ground",
+        "tracktype": "grade2",
         "id": "way/29341220"
       },
       "geometry": {
@@ -9763,6 +9765,7 @@
         "cyclestreet": "yes",
         "cycleway": "opposite",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Ooststraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -9964,6 +9967,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Willemsveld",
+        "surface": "asphalt",
         "id": "way/66861307"
       },
       "geometry": {
@@ -10479,6 +10483,7 @@
       "id": "way/70601205",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Brandekenswegel",
         "surface": "concrete",
         "id": "way/70601205"
@@ -10795,9 +10800,10 @@
       "type": "Feature",
       "id": "way/72584563",
       "properties": {
-        "highway": "residential",
+        "highway": "unclassified",
         "maxspeed": "30",
         "name": "Prijckestraat",
+        "oneway": "alternating",
         "priority": "backward",
         "surface": "asphalt",
         "id": "way/72584563"
@@ -10806,8 +10812,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9174309,
-            51.1702935
+            3.9174519,
+            51.1702968
           ],
           [
             3.9174368,
@@ -20144,6 +20150,7 @@
         "highway": "track",
         "name": "Voordestraat (T21)",
         "surface": "compacted",
+        "tracktype": "grade2",
         "id": "way/151866018"
       },
       "geometry": {
@@ -20574,6 +20581,7 @@
       "id": "way/155366903",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Oostremstraat",
         "oneway": "yes",
         "surface": "asphalt",
@@ -20610,6 +20618,7 @@
       "id": "way/157393738",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Termstraat",
         "surface": "concrete",
         "id": "way/157393738"
@@ -21608,6 +21617,7 @@
         "highway": "track",
         "name": "Kouterwegel",
         "surface": "sand",
+        "tracktype": "grade3",
         "id": "way/181306700"
       },
       "geometry": {
@@ -21874,7 +21884,7 @@
       "properties": {
         "access": "permissive",
         "bicycle": "yes",
-        "highway": "track",
+        "highway": "unclassified",
         "name": "Terwesttragel",
         "surface": "asphalt",
         "tracktype": "grade1",
@@ -21888,8 +21898,12 @@
             51.1703673
           ],
           [
-            3.9174309,
-            51.1702935
+            3.9176089,
+            51.1703081
+          ],
+          [
+            3.9174519,
+            51.1702968
           ]
         ]
       }
@@ -24754,6 +24768,7 @@
       "id": "way/222334291",
       "properties": {
         "highway": "tertiary",
+        "lanes": "2",
         "maxspeed": "30",
         "name": "Wegvoeringstraat",
         "surface": "asphalt",
@@ -26052,7 +26067,8 @@
         "loc_name": "wegel nr. 99",
         "name": "Achterstraat",
         "note": "Achterstraat volgens crab",
-        "surface": "sand",
+        "surface": "ground",
+        "tracktype": "grade2",
         "id": "way/254894128"
       },
       "geometry": {
@@ -26095,7 +26111,8 @@
       "properties": {
         "highway": "track",
         "name": "Slagstraat (T22)",
-        "surface": "dirt",
+        "surface": "ground",
+        "tracktype": "grade2",
         "id": "way/255814440"
       },
       "geometry": {
@@ -37357,12 +37374,13 @@
       "properties": {
         "bridge": "movable",
         "bridge:movable": "bascule",
-        "highway": "residential",
+        "highway": "unclassified",
         "layer": "1",
         "maxheight": "4.60",
         "maxspeed": "30",
         "maxweight": "20",
         "name": "Prijckestraat",
+        "oneway": "alternating",
         "priority": "backward",
         "surface": "wood",
         "id": "way/516119518"
@@ -37412,9 +37430,10 @@
       "type": "Feature",
       "id": "way/516368793",
       "properties": {
-        "highway": "residential",
+        "highway": "unclassified",
         "maxspeed": "30",
         "name": "Prijckestraat",
+        "oneway": "alternating",
         "priority": "backward",
         "surface": "asphalt",
         "id": "way/516368793"
@@ -41102,6 +41121,7 @@
       "id": "way/781135314",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Preekheerstraat",
         "surface": "concrete",
         "id": "way/781135314"
@@ -41153,6 +41173,7 @@
       "id": "way/781135315",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Slagstraat",
         "surface": "concrete",
         "id": "way/781135315"
@@ -41194,6 +41215,7 @@
         "highway": "track",
         "name": "Kouterwegel",
         "surface": "sand",
+        "tracktype": "grade3",
         "id": "way/781135796"
       },
       "geometry": {
@@ -44541,6 +44563,8 @@
       "properties": {
         "cycleway": "opposite",
         "highway": "residential",
+        "lane_markings": "no",
+        "name": "Veldstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "surface": "concrete",
@@ -44637,6 +44661,7 @@
       "id": "way/944559916",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Oostremstraat",
         "surface": "asphalt",
         "id": "way/944559916"
@@ -45521,6 +45546,7 @@
       "id": "way/1106539943",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Voordestraat",
         "surface": "asphalt",
         "id": "way/1106539943"
@@ -46482,6 +46508,7 @@
         "highway": "unclassified",
         "maxspeed": "60",
         "name": "Langeweg",
+        "operator": "Provincie Zeeland",
         "id": "way/1257738431"
       },
       "geometry": {
