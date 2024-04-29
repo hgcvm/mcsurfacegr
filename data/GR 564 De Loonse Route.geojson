@@ -110,6 +110,7 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Varkensmarkt",
         "oneway": "yes",
@@ -261,7 +262,9 @@
       "id": "way/17725074",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Zavelstraat",
+        "surface": "paving_stones",
         "id": "way/17725074"
       },
       "geometry": {
@@ -7763,6 +7766,10 @@
             50.6588268
           ],
           [
+            5.0887171,
+            50.6588294
+          ],
+          [
             5.0886943,
             50.6588676
           ],
@@ -9258,7 +9265,9 @@
       "type": "Feature",
       "id": "way/149935152",
       "properties": {
-        "highway": "unclassified",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
         "name": "Halletweg",
         "surface": "concrete",
         "id": "way/149935152"
@@ -10881,7 +10890,9 @@
       "type": "Feature",
       "id": "way/159022582",
       "properties": {
-        "highway": "unclassified",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
         "name": "Waterparkweg",
         "id": "way/159022582"
       },
@@ -10924,6 +10935,7 @@
       "id": "way/161173844",
       "properties": {
         "highway": "track",
+        "name": "Klein Hengelhoef",
         "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/161173844"
@@ -11008,6 +11020,7 @@
       "properties": {
         "highway": "track",
         "motor_vehicle": "no",
+        "name": "Klein Hengelhoef",
         "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/161173846"
@@ -11028,60 +11041,24 @@
             51.0028806
           ],
           [
-            5.4439302,
-            51.0028246
-          ],
-          [
             5.4431279,
             51.0026123
-          ],
-          [
-            5.4420197,
-            51.0023191
-          ],
-          [
-            5.4413367,
-            51.002103
           ],
           [
             5.4406179,
             51.0019218
           ],
           [
-            5.4399715,
-            51.0017125
-          ],
-          [
             5.4397757,
             51.0016483
-          ],
-          [
-            5.4395178,
-            51.0015854
           ],
           [
             5.4393314,
             51.001555
           ],
           [
-            5.4391132,
-            51.0015622
-          ],
-          [
             5.4389431,
             51.0015564
-          ],
-          [
-            5.4388364,
-            51.0015215
-          ],
-          [
-            5.4387457,
-            51.0014694
-          ],
-          [
-            5.4385788,
-            51.0013986
           ],
           [
             5.4384064,
@@ -11092,40 +11069,12 @@
             51.0012815
           ],
           [
-            5.4378999,
-            51.0012429
-          ],
-          [
-            5.437625,
-            51.0010926
-          ],
-          [
             5.4374842,
             51.001039
           ],
           [
-            5.4373514,
-            51.0010093
-          ],
-          [
-            5.4369433,
-            51.0009546
-          ],
-          [
             5.4367405,
             51.0008999
-          ],
-          [
-            5.4365785,
-            51.0008398
-          ],
-          [
-            5.4359992,
-            51.0005495
-          ],
-          [
-            5.4356609,
-            51.0003789
           ],
           [
             5.4355439,
@@ -11652,8 +11601,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4293833,
-            50.9979246
+            5.4293692,
+            50.9979132
           ],
           [
             5.429391,
@@ -13079,7 +13028,9 @@
       "type": "Feature",
       "id": "way/183792023",
       "properties": {
-        "highway": "unclassified",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
         "name": "Waterparkweg",
         "surface": "asphalt",
         "width": "5",
@@ -13103,7 +13054,9 @@
       "type": "Feature",
       "id": "way/183792025",
       "properties": {
-        "highway": "unclassified",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
         "name": "Waterparkweg",
         "surface": "asphalt",
         "width": "3",
@@ -13131,7 +13084,9 @@
       "type": "Feature",
       "id": "way/183792026",
       "properties": {
-        "highway": "unclassified",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
         "name": "Waterparkweg",
         "surface": "asphalt",
         "width": "4",
@@ -15482,16 +15437,16 @@
             50.9972275
           ],
           [
-            5.4302115,
-            50.9974033
+            5.4302135,
+            50.9973949
           ],
           [
             5.4300105,
             50.997473
           ],
           [
-            5.4298043,
-            50.9975898
+            5.4297983,
+            50.9975961
           ],
           [
             5.4297346,
@@ -17316,6 +17271,7 @@
       "type": "Feature",
       "id": "way/219576126",
       "properties": {
+        "check_date:surface": "2024-04-20",
         "highway": "path",
         "surface": "grass",
         "trail_visibility": "horrible",
@@ -17396,6 +17352,7 @@
       "id": "way/219576129",
       "properties": {
         "highway": "track",
+        "surface": "grass",
         "tracktype": "grade5",
         "id": "way/219576129"
       },
@@ -17463,6 +17420,7 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Varkensmarkt",
         "oneway": "yes",
@@ -17492,7 +17450,9 @@
       "id": "way/220072163",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Dooistraat",
+        "surface": "asphalt",
         "id": "way/220072163"
       },
       "geometry": {
@@ -35701,7 +35661,9 @@
       "type": "Feature",
       "id": "way/595603528",
       "properties": {
-        "highway": "unclassified",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
         "layer": "-1",
         "name": "Waterparkweg",
         "surface": "asphalt",
@@ -35727,7 +35689,9 @@
       "type": "Feature",
       "id": "way/595603530",
       "properties": {
-        "highway": "unclassified",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
         "layer": "-1",
         "name": "Waterparkweg",
         "surface": "asphalt",
@@ -37015,6 +36979,7 @@
       "id": "way/722977170",
       "properties": {
         "highway": "track",
+        "surface": "pebblestone",
         "tracktype": "grade2",
         "id": "way/722977170"
       },
@@ -39852,16 +39817,16 @@
             50.9976189
           ],
           [
-            5.429548,
-            50.9978066
+            5.4295785,
+            50.9977655
           ],
           [
             5.4294966,
             50.9978364
           ],
           [
-            5.4293833,
-            50.9979246
+            5.4293692,
+            50.9979132
           ]
         ]
       }
@@ -40708,6 +40673,7 @@
       "properties": {
         "highway": "track",
         "motor_vehicle": "no",
+        "name": "Klein Hengelhoef",
         "surface": "gravel",
         "tracktype": "grade2",
         "id": "way/1191465340"
@@ -40736,28 +40702,8 @@
             51.0020039
           ],
           [
-            5.4513867,
-            51.0020786
-          ],
-          [
-            5.4502051,
-            51.0022119
-          ],
-          [
             5.4495026,
             51.0023054
-          ],
-          [
-            5.4492247,
-            51.0023358
-          ],
-          [
-            5.4484332,
-            51.0024018
-          ],
-          [
-            5.4478783,
-            51.0024696
           ],
           [
             5.4466478,
@@ -41293,7 +41239,9 @@
       "type": "Feature",
       "id": "way/1213043663",
       "properties": {
-        "highway": "unclassified",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
         "surface": "concrete",
         "id": "way/1213043663"
       },
