@@ -4137,8 +4137,12 @@
             51.3920815
           ],
           [
-            4.5619439,
-            51.391895
+            4.5619534,
+            51.3919643
+          ],
+          [
+            4.5619474,
+            51.3919065
           ]
         ]
       }
@@ -4149,16 +4153,23 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Blekenberg",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/35283511"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.5619439,
-            51.391895
+            4.5619474,
+            51.3919065
+          ],
+          [
+            4.5619275,
+            51.3918577
           ],
           [
             4.5618333,
@@ -4176,8 +4187,11 @@
       "id": "way/35283620",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Ponydreef",
+        "source:maxspeed": "BE:zone50",
         "surface": "sett",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/35283620"
       },
       "geometry": {
@@ -4209,8 +4223,11 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Wouwerstraat",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/35283789"
       },
       "geometry": {
@@ -4324,8 +4341,11 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Bleekvenweg",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/35284443"
       },
       "geometry": {
@@ -4489,8 +4509,11 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Wouwerstraat",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/37697876"
       },
       "geometry": {
@@ -4919,6 +4942,8 @@
       "id": "way/74413764",
       "properties": {
         "highway": "unclassified",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ destination; none @ agricultural",
         "name": "Hagelkruisakker",
         "surface": "paving_stones",
         "id": "way/74413764"
@@ -6335,6 +6360,8 @@
       "id": "way/206289967",
       "properties": {
         "highway": "unclassified",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ destination; none @ agricultural",
         "name": "Hagelkruisakker",
         "surface": "paving_stones",
         "id": "way/206289967"
@@ -6362,6 +6389,8 @@
       "id": "way/206290082",
       "properties": {
         "highway": "unclassified",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ destination; none @ agricultural",
         "name": "Hagelkruisakker",
         "surface": "paving_stones",
         "id": "way/206290082"
@@ -11462,8 +11491,11 @@
       "id": "way/1094750687",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Ponydreef",
+        "source:maxspeed": "BE:zone50",
         "surface": "grass_paver",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/1094750687"
       },
       "geometry": {
@@ -22444,6 +22476,7 @@
       "properties": {
         "highway": "residential",
         "name": "Galgebergstraat",
+        "surface": "asphalt",
         "id": "way/40012523"
       },
       "geometry": {
@@ -22458,8 +22491,8 @@
             50.9568801
           ],
           [
-            5.3150399,
-            50.9572491
+            5.3151586,
+            50.9571365
           ],
           [
             5.3144704,
@@ -22690,10 +22723,12 @@
       "type": "Feature",
       "id": "way/43190178",
       "properties": {
-        "cycleway": "track",
+        "cycleway:both": "track",
+        "cycleway:both:surface": "concrete",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Langvennestraat",
+        "surface": "asphalt",
         "id": "way/43190178"
       },
       "geometry": {
@@ -25775,6 +25810,7 @@
         "highway": "residential",
         "junction": "roundabout",
         "maxspeed": "50",
+        "surface": "asphalt",
         "id": "way/97452197"
       },
       "geometry": {
@@ -26744,6 +26780,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "service",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/126808486"
       },
@@ -27007,9 +27044,12 @@
       "type": "Feature",
       "id": "way/128935322",
       "properties": {
-        "highway": "path",
+        "dog": "no",
+        "highway": "track",
+        "horse": "no",
         "smoothness": "intermediate",
-        "surface": "unpaved",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/128935322"
       },
       "geometry": {
@@ -27024,20 +27064,20 @@
             50.9647256
           ],
           [
-            5.33364,
-            50.9643503
+            5.3338485,
+            50.9644568
           ],
           [
             5.3332459,
             50.9641308
           ],
           [
-            5.3329662,
-            50.9639802
+            5.3329562,
+            50.963981
           ],
           [
-            5.3324613,
-            50.9637992
+            5.3325431,
+            50.963824
           ],
           [
             5.3323171,
@@ -29778,6 +29818,7 @@
       "id": "way/172073387",
       "properties": {
         "highway": "cycleway",
+        "surface": "concrete",
         "id": "way/172073387"
       },
       "geometry": {
@@ -29836,6 +29877,7 @@
       "properties": {
         "bicycle": "no",
         "highway": "track",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/172116636"
       },
@@ -34666,10 +34708,12 @@
       "type": "Feature",
       "id": "way/200522212",
       "properties": {
-        "cycleway": "track",
+        "cycleway:both": "track",
+        "cycleway:both:surface": "concrete",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Paalsteenstraat",
+        "surface": "asphalt",
         "id": "way/200522212"
       },
       "geometry": {
@@ -34727,6 +34771,7 @@
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Semmestraat",
+        "surface": "asphalt",
         "traffic_sign": "BE:F99c",
         "id": "way/200522213"
       },
@@ -34814,6 +34859,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Semmestraat",
+        "surface": "asphalt",
         "id": "way/200522214"
       },
       "geometry": {
@@ -38082,7 +38128,9 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
-        "surface": "paved",
+        "segregated": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
         "id": "way/224925553"
       },
       "geometry": {
@@ -49981,9 +50029,11 @@
       "type": "Feature",
       "id": "way/515020706",
       "properties": {
-        "cycleway": "track",
+        "cycleway:both": "track",
+        "cycleway:both:surface": "concrete",
         "highway": "unclassified",
         "name": "Ranonkelstraat",
+        "surface": "asphalt",
         "id": "way/515020706"
       },
       "geometry": {
@@ -51418,6 +51468,7 @@
       "id": "way/584926102",
       "properties": {
         "highway": "footway",
+        "surface": "paving_stones",
         "id": "way/584926102"
       },
       "geometry": {
@@ -53891,16 +53942,8 @@
             51.1405565
           ],
           [
-            4.8807319,
-            51.1405256
-          ],
-          [
             4.8806273,
             51.1404937
-          ],
-          [
-            4.8805668,
-            51.1404341
           ],
           [
             4.880507,
@@ -53991,10 +54034,6 @@
             51.1397093
           ],
           [
-            4.8788121,
-            51.1396133
-          ],
-          [
             4.8787102,
             51.1395199
           ],
@@ -54007,10 +54046,6 @@
             51.1395121
           ],
           [
-            4.8784796,
-            51.1395796
-          ],
-          [
             4.8773857,
             51.1402693
           ],
@@ -54021,10 +54056,6 @@
           [
             4.8772407,
             51.1402403
-          ],
-          [
-            4.8772128,
-            51.1401973
           ],
           [
             4.8771874,
@@ -54085,10 +54116,6 @@
           [
             4.8760034,
             51.1395668
-          ],
-          [
-            4.8759181,
-            51.1395327
           ],
           [
             4.875589,
@@ -54243,7 +54270,7 @@
       "properties": {
         "highway": "track",
         "smoothness": "intermediate",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/749050154"
       },
