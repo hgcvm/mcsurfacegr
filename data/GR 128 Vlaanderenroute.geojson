@@ -10603,10 +10603,9 @@
         "lane_markings": "no",
         "layer": "1",
         "maxspeed": "30",
-        "name": "Gentbruggestraat",
+        "name": "Gentbruggebrug",
         "name:etymology:wikidata": "Q680916",
         "surface": "asphalt",
-        "wikidata": "Q115810282",
         "id": "way/24765672"
       },
       "geometry": {
@@ -10627,13 +10626,13 @@
       "type": "Feature",
       "id": "way/24765673",
       "properties": {
+        "bridge:name": "Gentbruggebrug",
         "cycleway": "shared_lane",
         "highway": "tertiary",
         "maxspeed": "30",
-        "name": "Gentbruggestraat",
+        "name": "Gentbruggebrug",
         "name:etymology:wikidata": "Q680916",
         "surface": "asphalt",
-        "wikidata": "Q115810282",
         "id": "way/24765673"
       },
       "geometry": {
@@ -10662,13 +10661,13 @@
       "type": "Feature",
       "id": "way/24765674",
       "properties": {
+        "bridge:name": "Gentbruggebrug",
         "cycleway": "shared_lane",
         "highway": "tertiary",
         "maxspeed": "30",
-        "name": "Edmond Blockstraat",
-        "name:etymology:wikidata": "Q99520837",
+        "name": "Gentbruggebrug",
+        "name:etymology:wikidata": "Q680916",
         "surface": "asphalt",
-        "wikidata": "Q115808554",
         "id": "way/24765674"
       },
       "geometry": {
@@ -16961,7 +16960,8 @@
       "properties": {
         "highway": "track",
         "name": "weg nr. 85",
-        "surface": "dirt",
+        "surface": "ground",
+        "tracktype": "grade2",
         "id": "way/29341220"
       },
       "geometry": {
@@ -31767,8 +31767,8 @@
             50.8268876
           ],
           [
-            5.6632611,
-            50.8268558
+            5.6633292,
+            50.8268795
           ],
           [
             5.6630855,
@@ -49899,6 +49899,7 @@
       "id": "way/52021604",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Koewegstraat",
         "surface": "concrete",
         "id": "way/52021604"
@@ -54874,7 +54875,8 @@
       "properties": {
         "highway": "track",
         "name": "Koewegstraat",
-        "surface": "dirt",
+        "surface": "ground",
+        "tracktype": "grade2",
         "id": "way/61796800"
       },
       "geometry": {
@@ -56303,6 +56305,7 @@
       "id": "way/70601205",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Brandekenswegel",
         "surface": "concrete",
         "id": "way/70601205"
@@ -65944,7 +65947,9 @@
       "id": "way/130307742",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Kouterdreef",
+        "surface": "asphalt",
         "id": "way/130307742"
       },
       "geometry": {
@@ -73410,6 +73415,7 @@
       "properties": {
         "highway": "track",
         "surface": "sand",
+        "tracktype": "grade3",
         "id": "way/151777628"
       },
       "geometry": {
@@ -73437,6 +73443,7 @@
         "highway": "track",
         "name": "Voordestraat (T21)",
         "surface": "compacted",
+        "tracktype": "grade2",
         "id": "way/151866018"
       },
       "geometry": {
@@ -74519,7 +74526,9 @@
       "id": "way/157391627",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Driesstraat",
+        "surface": "concrete",
         "id": "way/157391627"
       },
       "geometry": {
@@ -74561,6 +74570,7 @@
       "id": "way/157391631",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Vagevuurstraat",
         "surface": "concrete",
         "id": "way/157391631"
@@ -74675,6 +74685,7 @@
       "id": "way/157393738",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Termstraat",
         "surface": "concrete",
         "id": "way/157393738"
@@ -77705,6 +77716,7 @@
         "highway": "track",
         "name": "Kouterwegel",
         "surface": "sand",
+        "tracktype": "grade3",
         "id": "way/181306700"
       },
       "geometry": {
@@ -82402,6 +82414,7 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "path",
+        "segregated": "no",
         "surface": "concrete",
         "width": "3",
         "id": "way/210829398"
@@ -83729,9 +83742,11 @@
         "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
+        "lanes": "1",
         "maxspeed": "30",
         "name": "Nijverheidskaai",
-        "oneway": "no",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "wikidata": "Q115810058",
@@ -83741,48 +83756,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7642711,
-            51.0494576
-          ],
-          [
-            3.7641062,
-            51.0494125
-          ],
-          [
-            3.7631339,
-            51.0491324
-          ],
-          [
-            3.7616077,
-            51.0486856
-          ],
-          [
-            3.7601969,
-            51.0482522
-          ],
-          [
-            3.7592259,
-            51.0479571
-          ],
-          [
-            3.7584829,
-            51.0477514
-          ],
-          [
-            3.7576124,
-            51.0475346
-          ],
-          [
-            3.7571901,
-            51.0474294
+            3.7554702,
+            51.0470571
           ],
           [
             3.7563318,
             51.0472422
           ],
           [
-            3.7554192,
-            51.0470474
+            3.7571901,
+            51.0474294
+          ],
+          [
+            3.7576124,
+            51.0475346
+          ],
+          [
+            3.7584829,
+            51.0477514
+          ],
+          [
+            3.7592259,
+            51.0479571
+          ],
+          [
+            3.7601969,
+            51.0482522
+          ],
+          [
+            3.7616077,
+            51.0486856
+          ],
+          [
+            3.7631339,
+            51.0491324
+          ],
+          [
+            3.7641062,
+            51.0494125
+          ],
+          [
+            3.7642711,
+            51.0494576
           ]
         ]
       }
@@ -85883,7 +85898,8 @@
       "properties": {
         "highway": "track",
         "name": "Slagstraat (T22)",
-        "surface": "dirt",
+        "surface": "ground",
+        "tracktype": "grade2",
         "id": "way/255814440"
       },
       "geometry": {
@@ -99083,6 +99099,7 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Spiltstraat",
         "id": "way/419562690"
       },
@@ -115880,6 +115897,7 @@
       "id": "way/781135314",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Preekheerstraat",
         "surface": "concrete",
         "id": "way/781135314"
@@ -115931,6 +115949,7 @@
       "id": "way/781135315",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Slagstraat",
         "surface": "concrete",
         "id": "way/781135315"
@@ -116192,7 +116211,9 @@
       "id": "way/781135794",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Keistraat",
+        "surface": "asphalt",
         "id": "way/781135794"
       },
       "geometry": {
@@ -116215,7 +116236,9 @@
       "properties": {
         "cycleway": "track",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Achterdreef",
+        "surface": "paving_stones",
         "id": "way/781136223"
       },
       "geometry": {
@@ -116592,13 +116615,13 @@
       "type": "Feature",
       "id": "way/781140957",
       "properties": {
+        "bridge:name": "Gentbruggebrug",
         "cycleway": "shared_lane",
         "highway": "tertiary",
         "maxspeed": "30",
-        "name": "Gentbruggestraat",
+        "name": "Gentbruggebrug",
         "name:etymology:wikidata": "Q680916",
         "surface": "asphalt",
-        "wikidata": "Q115810282",
         "id": "way/781140957"
       },
       "geometry": {
@@ -116624,11 +116647,14 @@
       "id": "way/781140958",
       "properties": {
         "cycleway:both": "no",
-        "highway": "residential",
+        "highway": "tertiary",
         "lane_markings": "no",
+        "lanes": "1",
         "maxheight": "2.4",
         "maxspeed": "30",
         "name": "Waterkluiskaai",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
         "sidewalk": "right",
         "surface": "asphalt",
         "wikidata": "Q115811660",
@@ -116638,12 +116664,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7554192,
-            51.0470474
+            3.755373,
+            51.0471121
           ],
           [
-            3.7550359,
-            51.0469802
+            3.7553192,
+            51.0470511
+          ],
+          [
+            3.7550292,
+            51.0470004
           ]
         ]
       }
@@ -116663,8 +116693,8 @@
             51.0470574
           ],
           [
-            3.7550359,
-            51.0469802
+            3.7550292,
+            51.0470004
           ]
         ]
       }
@@ -127616,6 +127646,7 @@
       "id": "way/1106539943",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Voordestraat",
         "surface": "asphalt",
         "id": "way/1106539943"
@@ -156089,28 +156120,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7061959,
-            50.8636287
+            4.7062578,
+            50.8636349
           ],
           [
-            4.706455,
-            50.8636274
+            4.7063778,
+            50.8636345
           ],
           [
-            4.7066375,
-            50.8636401
+            4.7066394,
+            50.8636524
           ],
           [
-            4.7068447,
-            50.8636711
+            4.7068496,
+            50.8636831
           ],
           [
-            4.7075865,
-            50.8638041
+            4.707582,
+            50.8638121
           ],
           [
-            4.7076665,
-            50.8638184
+            4.7076613,
+            50.8638274
           ]
         ]
       }
@@ -156135,16 +156166,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7112426,
-            50.8647135
+            4.7112476,
+            50.8647096
           ],
           [
-            4.7109152,
-            50.8646486
+            4.7111068,
+            50.8646755
           ],
           [
-            4.7107016,
-            50.8646065
+            4.7109183,
+            50.8646462
+          ],
+          [
+            4.7107869,
+            50.8646258
           ]
         ]
       }
@@ -158090,8 +158125,8 @@
             50.8643968
           ],
           [
-            4.7112426,
-            50.8647135
+            4.7112476,
+            50.8647096
           ]
         ]
       }
@@ -158155,20 +158190,24 @@
             50.8638789
           ],
           [
-            4.7022548,
-            50.8639211
+            4.7022552,
+            50.8639198
           ],
           [
-            4.7024797,
-            50.8639414
+            4.7024791,
+            50.8639393
           ],
           [
-            4.7029752,
-            50.8639419
+            4.7026747,
+            50.8639434
           ],
           [
-            4.7032476,
-            50.8639241
+            4.7029763,
+            50.8639398
+          ],
+          [
+            4.7032499,
+            50.8639248
           ],
           [
             4.7035024,
@@ -158179,32 +158218,28 @@
             50.8638854
           ],
           [
-            4.7038637,
-            50.8638745
+            4.7039094,
+            50.8638732
           ],
           [
-            4.7040223,
-            50.8638697
+            4.7040244,
+            50.8638711
           ],
           [
-            4.7046398,
-            50.8638707
+            4.7046432,
+            50.8638748
           ],
           [
-            4.7046953,
-            50.8638715
+            4.7046968,
+            50.8638754
           ],
           [
-            4.7047582,
-            50.8638723
+            4.7048939,
+            50.8638704
           ],
           [
-            4.7048932,
-            50.8638683
-          ],
-          [
-            4.7050466,
-            50.8638598
+            4.7050462,
+            50.8638567
           ],
           [
             4.7051073,
@@ -158215,16 +158250,20 @@
             50.8637921
           ],
           [
-            4.7054133,
-            50.8637808
+            4.7057713,
+            50.8637003
           ],
           [
-            4.7060038,
-            50.86365
+            4.7060195,
+            50.8636589
           ],
           [
-            4.7061959,
-            50.8636287
+            4.7060914,
+            50.8636479
+          ],
+          [
+            4.7062578,
+            50.8636349
           ]
         ]
       }
@@ -160297,24 +160336,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7107016,
-            50.8646065
+            4.7107869,
+            50.8646258
           ],
           [
             4.7105891,
             50.8645745
           ],
           [
-            4.7104436,
-            50.864533
+            4.7104469,
+            50.8645309
           ],
           [
             4.7096855,
             50.8642912
           ],
           [
-            4.7091132,
-            50.8641336
+            4.7092497,
+            50.8641686
+          ],
+          [
+            4.7091133,
+            50.8641355
           ]
         ]
       }
@@ -162093,32 +162136,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7076665,
-            50.8638184
+            4.7076613,
+            50.8638274
           ],
           [
-            4.7077849,
-            50.8638429
+            4.7077833,
+            50.863851
           ],
           [
-            4.7078984,
-            50.8638664
+            4.7078953,
+            50.8638727
           ],
           [
-            4.7082206,
-            50.8639331
+            4.7082195,
+            50.8639354
           ],
           [
-            4.7084084,
-            50.863972
+            4.708411,
+            50.8639736
           ],
           [
-            4.7086425,
-            50.8640205
+            4.7086439,
+            50.8640232
           ],
           [
-            4.7091132,
-            50.8641336
+            4.7091133,
+            50.8641355
           ]
         ]
       }
