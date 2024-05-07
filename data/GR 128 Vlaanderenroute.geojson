@@ -10603,10 +10603,9 @@
         "lane_markings": "no",
         "layer": "1",
         "maxspeed": "30",
-        "name": "Gentbruggestraat",
+        "name": "Gentbruggebrug",
         "name:etymology:wikidata": "Q680916",
         "surface": "asphalt",
-        "wikidata": "Q115810282",
         "id": "way/24765672"
       },
       "geometry": {
@@ -10627,13 +10626,13 @@
       "type": "Feature",
       "id": "way/24765673",
       "properties": {
+        "bridge:name": "Gentbruggebrug",
         "cycleway": "shared_lane",
         "highway": "tertiary",
         "maxspeed": "30",
-        "name": "Gentbruggestraat",
+        "name": "Gentbruggebrug",
         "name:etymology:wikidata": "Q680916",
         "surface": "asphalt",
-        "wikidata": "Q115810282",
         "id": "way/24765673"
       },
       "geometry": {
@@ -10662,13 +10661,13 @@
       "type": "Feature",
       "id": "way/24765674",
       "properties": {
+        "bridge:name": "Gentbruggebrug",
         "cycleway": "shared_lane",
         "highway": "tertiary",
         "maxspeed": "30",
-        "name": "Edmond Blockstraat",
-        "name:etymology:wikidata": "Q99520837",
+        "name": "Gentbruggebrug",
+        "name:etymology:wikidata": "Q680916",
         "surface": "asphalt",
-        "wikidata": "Q115808554",
         "id": "way/24765674"
       },
       "geometry": {
@@ -22167,12 +22166,16 @@
             50.9819505
           ],
           [
-            4.3764181,
-            50.9825747
+            4.3763793,
+            50.9825872
           ],
           [
             4.3737467,
             50.983187
+          ],
+          [
+            4.3719776,
+            50.9836075
           ],
           [
             4.3716016,
@@ -31768,8 +31771,8 @@
             50.8268876
           ],
           [
-            5.6632611,
-            50.8268558
+            5.6633292,
+            50.8268795
           ],
           [
             5.6630855,
@@ -83743,9 +83746,11 @@
         "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
+        "lanes": "1",
         "maxspeed": "30",
         "name": "Nijverheidskaai",
-        "oneway": "no",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "wikidata": "Q115810058",
@@ -83755,48 +83760,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7642711,
-            51.0494576
-          ],
-          [
-            3.7641062,
-            51.0494125
-          ],
-          [
-            3.7631339,
-            51.0491324
-          ],
-          [
-            3.7616077,
-            51.0486856
-          ],
-          [
-            3.7601969,
-            51.0482522
-          ],
-          [
-            3.7592259,
-            51.0479571
-          ],
-          [
-            3.7584829,
-            51.0477514
-          ],
-          [
-            3.7576124,
-            51.0475346
-          ],
-          [
-            3.7571901,
-            51.0474294
+            3.7554702,
+            51.0470571
           ],
           [
             3.7563318,
             51.0472422
           ],
           [
-            3.7554192,
-            51.0470474
+            3.7571901,
+            51.0474294
+          ],
+          [
+            3.7576124,
+            51.0475346
+          ],
+          [
+            3.7584829,
+            51.0477514
+          ],
+          [
+            3.7592259,
+            51.0479571
+          ],
+          [
+            3.7601969,
+            51.0482522
+          ],
+          [
+            3.7616077,
+            51.0486856
+          ],
+          [
+            3.7631339,
+            51.0491324
+          ],
+          [
+            3.7641062,
+            51.0494125
+          ],
+          [
+            3.7642711,
+            51.0494576
           ]
         ]
       }
@@ -99098,6 +99103,7 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Spiltstraat",
         "id": "way/419562690"
       },
@@ -116613,13 +116619,13 @@
       "type": "Feature",
       "id": "way/781140957",
       "properties": {
+        "bridge:name": "Gentbruggebrug",
         "cycleway": "shared_lane",
         "highway": "tertiary",
         "maxspeed": "30",
-        "name": "Gentbruggestraat",
+        "name": "Gentbruggebrug",
         "name:etymology:wikidata": "Q680916",
         "surface": "asphalt",
-        "wikidata": "Q115810282",
         "id": "way/781140957"
       },
       "geometry": {
@@ -116645,11 +116651,14 @@
       "id": "way/781140958",
       "properties": {
         "cycleway:both": "no",
-        "highway": "residential",
+        "highway": "tertiary",
         "lane_markings": "no",
+        "lanes": "1",
         "maxheight": "2.4",
         "maxspeed": "30",
         "name": "Waterkluiskaai",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
         "sidewalk": "right",
         "surface": "asphalt",
         "wikidata": "Q115811660",
@@ -116659,12 +116668,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7554192,
-            51.0470474
+            3.755373,
+            51.0471121
           ],
           [
-            3.7550359,
-            51.0469802
+            3.7553192,
+            51.0470511
+          ],
+          [
+            3.7550292,
+            51.0470004
           ]
         ]
       }
@@ -116684,8 +116697,8 @@
             51.0470574
           ],
           [
-            3.7550359,
-            51.0469802
+            3.7550292,
+            51.0470004
           ]
         ]
       }
@@ -126387,7 +126400,9 @@
       "type": "Feature",
       "id": "way/1084123415",
       "properties": {
+        "bicycle": "no",
         "highway": "path",
+        "horse": "no",
         "name": "Vleeshuistragel",
         "surface": "gravel",
         "id": "way/1084123415"
@@ -152092,9 +152107,6 @@
       "type": "Feature",
       "id": "way/157389110",
       "properties": {
-        "access": "no",
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "residential",
         "lit": "no",
         "maxspeed": "30",
@@ -159200,7 +159212,8 @@
       "id": "way/133801033",
       "properties": {
         "highway": "residential",
-        "lanes": "1",
+        "lane_markings": "no",
+        "lanes": "2",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Dreefstraat",
