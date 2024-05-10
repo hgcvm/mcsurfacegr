@@ -1897,8 +1897,12 @@
             51.2198748
           ],
           [
-            4.4703855,
-            51.2196627
+            4.4695955,
+            51.2198035
+          ],
+          [
+            4.4703843,
+            51.2196611
           ]
         ]
       }
@@ -2454,7 +2458,7 @@
       "id": "way/27993111",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/27993111"
       },
       "geometry": {
@@ -7112,7 +7116,7 @@
       "id": "way/37678788",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/37678788"
       },
       "geometry": {
@@ -7708,6 +7712,7 @@
       "id": "way/37681122",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Renier Sniederspad",
@@ -14231,6 +14236,7 @@
       "id": "way/60580765",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Oudebaan",
@@ -14467,7 +14473,7 @@
       "id": "way/81109183",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/81109183"
       },
       "geometry": {
@@ -19082,36 +19088,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/176710586",
-      "properties": {
-        "bicycle": "use_sidepath",
-        "highway": "secondary",
-        "lanes": "1",
-        "maxspeed": "50",
-        "name": "Turnhoutsebaan",
-        "name:etymology:wikidata": "Q271783",
-        "oneway": "yes",
-        "ref": "N12",
-        "source:maxspeed": "BE-VLG:urban",
-        "zone:traffic": "BE-VLG:urban",
-        "id": "way/176710586"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4704445,
-            51.2197992
-          ],
-          [
-            4.4703452,
-            51.2198169
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/176710588",
       "properties": {
         "cycleway": "track",
@@ -19299,10 +19275,8 @@
       "type": "Feature",
       "id": "way/176710599",
       "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "path",
-        "segregated": "yes",
+        "footway": "crossing",
+        "highway": "footway",
         "surface": "paved",
         "id": "way/176710599"
       },
@@ -19312,6 +19286,10 @@
           [
             4.4704445,
             51.2197992
+          ],
+          [
+            4.4704311,
+            51.2197682
           ],
           [
             4.4704206,
@@ -19326,8 +19304,12 @@
             51.2197123
           ],
           [
-            4.4703855,
-            51.2196627
+            4.4703969,
+            51.2196896
+          ],
+          [
+            4.4703843,
+            51.2196611
           ]
         ]
       }
@@ -24965,6 +24947,29 @@
     },
     {
       "type": "Feature",
+      "id": "way/474041689",
+      "properties": {
+        "footway": "crossing",
+        "highway": "footway",
+        "surface": "paved",
+        "id": "way/474041689"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4704626,
+            51.219841
+          ],
+          [
+            4.4704445,
+            51.2197992
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/478870691",
       "properties": {
         "highway": "path",
@@ -27141,7 +27146,8 @@
         "highway": "track",
         "motor_vehicle": "no",
         "name": "Konijnenbergpad",
-        "surface": "sand",
+        "surface": "compacted",
+        "tracktype": "grade2",
         "width": "4",
         "id": "way/685523871"
       },
@@ -29575,34 +29581,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/865004994",
-      "properties": {
-        "highway": "residential",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Venneborglaan",
-        "oneway": "yes",
-        "source:maxspeed": "BE-VLG:urban",
-        "surface": "asphalt",
-        "zone:traffic": "BE-VLG:urban",
-        "id": "way/865004994"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4703728,
-            51.2198568
-          ],
-          [
-            4.4703452,
-            51.2198169
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/886654355",
       "properties": {
         "highway": "path",
@@ -31114,6 +31092,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "concrete",
         "id": "way/1113015528"
       },
       "geometry": {
@@ -31769,6 +31748,30 @@
           [
             5.1924061,
             51.2891408
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1280119684",
+      "properties": {
+        "foot": "yes",
+        "highway": "cycleway",
+        "oneway": "no",
+        "segregated": "yes",
+        "id": "way/1280119684"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4704626,
+            51.219841
+          ],
+          [
+            4.4703728,
+            51.2198568
           ]
         ]
       }
@@ -35283,24 +35286,24 @@
             51.1922973
           ],
           [
-            4.3806167,
-            51.1923125
+            4.3806168,
+            51.1923124
           ],
           [
-            4.3805859,
-            51.192324
+            4.3805852,
+            51.1923243
           ],
           [
             4.3805588,
             51.1923342
           ],
           [
-            4.3805377,
-            51.1923421
+            4.38054,
+            51.1923412
           ],
           [
-            4.3805058,
-            51.192354
+            4.3805051,
+            51.1923543
           ],
           [
             4.380466,
