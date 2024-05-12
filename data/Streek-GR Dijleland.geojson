@@ -1001,6 +1001,10 @@
             50.884684
           ],
           [
+            4.7157955,
+            50.8846886
+          ],
+          [
             4.7158238,
             50.8846958
           ],
@@ -1031,6 +1035,10 @@
           [
             4.7176021,
             50.8860104
+          ],
+          [
+            4.7176871,
+            50.8860681
           ],
           [
             4.7180765,
@@ -17550,6 +17558,9 @@
       "properties": {
         "bicycle": "no",
         "highway": "footway",
+        "lit": "yes",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
         "id": "way/41703942"
       },
       "geometry": {
@@ -17586,22 +17597,6 @@
           [
             4.6283762,
             50.8610022
-          ],
-          [
-            4.6283353,
-            50.8609754
-          ],
-          [
-            4.628303,
-            50.8609468
-          ],
-          [
-            4.6280135,
-            50.8610688
-          ],
-          [
-            4.6274539,
-            50.8610349
           ]
         ]
       }
@@ -19126,6 +19121,7 @@
       "properties": {
         "cycleway": "lane",
         "highway": "tertiary",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Dorpstraat",
@@ -37365,7 +37361,7 @@
         "alt_name": "Lod. van Veltemstraat - Lod. Van Velthemstraat",
         "cycleway": "track",
         "highway": "residential",
-        "maxspeed": "70",
+        "maxspeed": "50",
         "name": "Lodewijk van Veltemstraat",
         "surface": "asphalt",
         "id": "way/650311862"
@@ -43742,6 +43738,40 @@
           [
             4.7234177,
             50.9273914
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1281163803",
+      "properties": {
+        "bicycle": "no",
+        "highway": "footway",
+        "id": "way/1281163803"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.6283762,
+            50.8610022
+          ],
+          [
+            4.6283353,
+            50.8609754
+          ],
+          [
+            4.628303,
+            50.8609468
+          ],
+          [
+            4.6280135,
+            50.8610688
+          ],
+          [
+            4.6274539,
+            50.8610349
           ]
         ]
       }
@@ -90284,11 +90314,12 @@
         "name": "Tiensevest",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "oneway:psv": "no",
+        "oneway:bus": "no",
         "parking:both": "no",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
         "surface": "concrete",
+        "taxi:oneway": "no",
         "width": "6",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1115244401"
