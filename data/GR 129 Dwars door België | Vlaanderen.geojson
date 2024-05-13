@@ -3618,8 +3618,6 @@
         "lane_markings": "no",
         "name": "Driesstraat",
         "oneway": "no",
-        "sidewalk": "no",
-        "smoothness": "intermediate",
         "source:width": "ARCore",
         "surface": "concrete",
         "width": "3.9",
@@ -7266,10 +7264,9 @@
       "type": "Feature",
       "id": "way/59826853",
       "properties": {
-        "bicycle": "designated",
         "foot": "yes",
         "highway": "path",
-        "surface": "concrete",
+        "surface": "paving_stones",
         "width": "0.5",
         "id": "way/59826853"
       },
@@ -7387,13 +7384,10 @@
       "type": "Feature",
       "id": "way/60438000",
       "properties": {
-        "cycleway:both": "no",
         "highway": "unclassified",
         "incline": "11%",
-        "lane_markings": "no",
         "maxspeed": "70",
         "name": "Korte Aststraat",
-        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/60438000"
       },
@@ -7607,8 +7601,8 @@
         "highway": "path",
         "name": "Labeurpad",
         "segregated": "no",
-        "smoothness": "good",
-        "surface": "paving_stones",
+        "smoothness": "bad",
+        "surface": "grass_paver",
         "traffic_sign": "BE:C3,BE:M2_nl",
         "id": "way/69973942"
       },
@@ -9287,13 +9281,9 @@
       "id": "way/112166179",
       "properties": {
         "bicycle": "use_sidepath",
-        "cycleway:both": "separate",
-        "foot": "yes",
         "highway": "unclassified",
-        "lane_markings": "no",
         "maxspeed": "70",
         "name": "Lange Aststraat",
-        "sidewalk": "no",
         "surface": "concrete",
         "id": "way/112166179"
       },
@@ -9482,12 +9472,9 @@
       "type": "Feature",
       "id": "way/112166200",
       "properties": {
-        "cycleway:both": "no",
         "highway": "unclassified",
-        "lane_markings": "no",
         "name": "Molendamstraat",
-        "sidewalk": "no",
-        "surface": "sett",
+        "surface": "cobblestone",
         "id": "way/112166200"
       },
       "geometry": {
@@ -9530,10 +9517,8 @@
       "properties": {
         "access": "destination",
         "bicycle": "yes",
-        "cycleway:both": "no",
         "highway": "track",
         "name": "Hagepreekpad",
-        "surface": "paving_stones",
         "tracktype": "grade1",
         "id": "way/112166229"
       },
@@ -10274,11 +10259,9 @@
       "type": "Feature",
       "id": "way/117555511",
       "properties": {
-        "cycleway:both": "no",
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Mullemstraat",
-        "sidewalk": "both",
         "surface": "sett",
         "id": "way/117555511"
       },
@@ -15240,10 +15223,8 @@
       "type": "Feature",
       "id": "way/163642134",
       "properties": {
-        "cycleway:both": "no",
         "highway": "track",
         "name": "Molenstraat",
-        "surface": "gravel",
         "id": "way/163642134"
       },
       "geometry": {
@@ -15318,8 +15299,12 @@
             50.9013912
           ],
           [
-            3.5874508,
-            50.9015063
+            3.5876343,
+            50.9016052
+          ],
+          [
+            3.5877458,
+            50.9016777
           ]
         ]
       }
@@ -15334,8 +15319,6 @@
         "name": "Diepepad",
         "note": "naambordje Diepestraat",
         "official_name": "Diepestraat",
-        "smoothness": "intermediate",
-        "surface": "paving_stones",
         "traffic_sign:backward": "BE:C3,M2,GIV[uitgezonderd met toelating]",
         "vehicle:conditional": "yes @ permit",
         "width": "0.7",
@@ -15391,11 +15374,9 @@
       "type": "Feature",
       "id": "way/163752832",
       "properties": {
-        "cycleway:both": "no",
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Mullemstraat",
-        "sidewalk": "both",
         "surface": "sett",
         "id": "way/163752832"
       },
@@ -15813,10 +15794,8 @@
       "type": "Feature",
       "id": "way/169810116",
       "properties": {
-        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Keitelstraat",
-        "sidewalk": "no",
         "surface": "concrete",
         "id": "way/169810116"
       },
@@ -23696,7 +23675,7 @@
         "foot": "designated",
         "highway": "path",
         "segregated": "no",
-        "surface": "paving_stones",
+        "surface": "grass_paver",
         "traffic_sign": "BE:C3,M2_nl,GIV[uitgezonderd aangelanden mist toelating]",
         "id": "way/377900674"
       },
@@ -30712,13 +30691,10 @@
       "type": "Feature",
       "id": "way/1116094758",
       "properties": {
-        "cycleway:both": "no",
         "highway": "unclassified",
         "incline": "11%",
-        "lane_markings": "no",
         "maxspeed": "70",
         "name": "Mullemstraat",
-        "sidewalk": "no",
         "surface": "sett",
         "id": "way/1116094758"
       },
@@ -32505,11 +32481,8 @@
       "type": "Feature",
       "id": "way/1249070562",
       "properties": {
-        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Molenstraat",
-        "sidewalk": "no",
-        "surface": "asphalt",
         "id": "way/1249070562"
       },
       "geometry": {
@@ -32614,34 +32587,6 @@
           [
             3.4114937,
             51.0292336
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1279667516",
-      "properties": {
-        "cycleway:both": "no",
-        "highway": "track",
-        "name": "Molenstraat",
-        "surface": "sett",
-        "id": "way/1279667516"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.5874508,
-            50.9015063
-          ],
-          [
-            3.5876343,
-            50.9016052
-          ],
-          [
-            3.5877458,
-            50.9016777
           ]
         ]
       }
