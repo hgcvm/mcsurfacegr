@@ -126400,7 +126400,9 @@
       "type": "Feature",
       "id": "way/1084123415",
       "properties": {
+        "bicycle": "no",
         "highway": "path",
+        "horse": "no",
         "name": "Vleeshuistragel",
         "surface": "gravel",
         "id": "way/1084123415"
@@ -152827,6 +152829,7 @@
         "maxspeed": "30",
         "name": "Sint-Jorisbrug",
         "name:etymology:wikidata": "Q48438",
+        "note": "Unsure how to map this situation, but car traffic on Sint-Jorisbrug direction Joremaaie is not allowed to turn left into Reke. This turn is reserved for bikes, busses and taxis. The other direction allows all traffic to turn into Reke.",
         "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/419179538"
@@ -155908,10 +155911,6 @@
             50.884684
           ],
           [
-            4.7157955,
-            50.8846886
-          ],
-          [
             4.7158238,
             50.8846958
           ],
@@ -155942,10 +155941,6 @@
           [
             4.7176021,
             50.8860104
-          ],
-          [
-            4.7176871,
-            50.8860681
           ],
           [
             4.7180765,
@@ -156118,7 +156113,6 @@
       "id": "way/11614454",
       "properties": {
         "highway": "residential",
-        "lane_markings": "no",
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
@@ -156517,7 +156511,6 @@
       "id": "way/21845582",
       "properties": {
         "highway": "residential",
-        "lane_markings": "no",
         "name": "Zeepweg",
         "sidewalk": "no",
         "surface": "concrete",
@@ -157825,8 +157818,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6936003,
-            50.8668289
+            4.6935978,
+            50.8668305
           ],
           [
             4.6941601,
@@ -157851,10 +157844,8 @@
       "type": "Feature",
       "id": "way/71829723",
       "properties": {
-        "bicycle": "dismount",
         "highway": "service",
-        "horse": "no",
-        "motor_vehicle": "no",
+        "motor_vehicle": "designated",
         "surface": "compacted",
         "id": "way/71829723"
       },
@@ -157862,24 +157853,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6936003,
-            50.8668289
+            4.6935978,
+            50.8668305
           ],
           [
-            4.6936228,
-            50.8668756
-          ],
-          [
-            4.6932947,
-            50.8671079
-          ],
-          [
-            4.6931748,
-            50.8670742
-          ],
-          [
-            4.6930549,
-            50.8671588
+            4.6935094,
+            50.8668383
           ],
           [
             4.6930345,
@@ -158201,7 +158180,6 @@
       "id": "way/85801366",
       "properties": {
         "highway": "residential",
-        "lane_markings": "no",
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
@@ -159235,8 +159213,7 @@
       "id": "way/133801033",
       "properties": {
         "highway": "residential",
-        "lane_markings": "no",
-        "lanes": "2",
+        "lanes": "1",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Dreefstraat",
@@ -162152,7 +162129,6 @@
       "id": "way/1083999433",
       "properties": {
         "highway": "residential",
-        "lane_markings": "no",
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
