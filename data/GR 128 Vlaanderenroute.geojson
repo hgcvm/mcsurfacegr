@@ -18359,7 +18359,9 @@
       "id": "way/30411883",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Hollebekestraat",
+        "surface": "asphalt",
         "width": "5",
         "id": "way/30411883"
       },
@@ -22504,9 +22506,13 @@
       "id": "way/33942455",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
         "maxspeed": "50",
         "maxweight": "7.5",
         "name": "Paddegatstraat",
+        "source:width": "ARCore",
+        "surface": "concrete",
+        "width": "5.6",
         "id": "way/33942455"
       },
       "geometry": {
@@ -22528,7 +22534,9 @@
       "id": "way/33944337",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Nieuwenrodestraat",
+        "surface": "concrete",
         "id": "way/33944337"
       },
       "geometry": {
@@ -22564,6 +22572,7 @@
         "name": "Voetweg 33",
         "smoothness": "intermediate",
         "surface": "gravel",
+        "tracktype": "grade3",
         "id": "way/33944570"
       },
       "geometry": {
@@ -51734,8 +51743,10 @@
       "id": "way/53586638",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Hospicestraat",
+        "surface": "asphalt",
         "id": "way/53586638"
       },
       "geometry": {
@@ -57784,17 +57795,13 @@
       "properties": {
         "highway": "secondary",
         "maxspeed": "50",
-        "name": "Opwijkse Steenweg",
+        "name": "Moorsel-Dorp",
         "ref": "N411",
         "id": "way/80536651"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.0990641,
-            50.9475192
-          ],
           [
             4.098867,
             50.9476358
@@ -61722,24 +61729,24 @@
             51.0425105
           ],
           [
-            3.7423199,
-            51.0424558
+            3.7423162,
+            51.0424611
           ],
           [
-            3.7423077,
-            51.0424266
+            3.742301,
+            51.0424201
           ],
           [
-            3.7422816,
-            51.0423928
+            3.7422789,
+            51.0423964
           ],
           [
-            3.7422252,
-            51.0423608
+            3.7422473,
+            51.0423665
           ],
           [
-            3.7421486,
-            51.042342
+            3.7421566,
+            51.0423374
           ]
         ]
       }
@@ -68084,7 +68091,9 @@
       "type": "Feature",
       "id": "way/135767365",
       "properties": {
+        "bicycle": "no",
         "highway": "footway",
+        "horse": "no",
         "id": "way/135767365"
       },
       "geometry": {
@@ -68228,6 +68237,8 @@
       "id": "way/135768059",
       "properties": {
         "highway": "track",
+        "surface": "grass",
+        "tracktype": "grade3",
         "id": "way/135768059"
       },
       "geometry": {
@@ -68251,6 +68262,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
+        "surface": "dirt",
         "id": "way/135768069"
       },
       "geometry": {
@@ -68272,6 +68284,8 @@
       "id": "way/135768079",
       "properties": {
         "highway": "track",
+        "surface": "grass",
+        "tracktype": "grade5",
         "id": "way/135768079"
       },
       "geometry": {
@@ -70083,6 +70097,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
+        "surface": "dirt",
         "id": "way/144383968"
       },
       "geometry": {
@@ -73933,8 +73948,9 @@
       "type": "Feature",
       "id": "way/153349890",
       "properties": {
-        "access": "permissive",
+        "access": "yes",
         "highway": "path",
+        "surface": "dirt",
         "wheelchair": "no",
         "id": "way/153349890"
       },
@@ -78806,6 +78822,7 @@
       "id": "way/187278709",
       "properties": {
         "highway": "footway",
+        "surface": "paving_stones",
         "id": "way/187278709"
       },
       "geometry": {
@@ -78827,7 +78844,9 @@
       "id": "way/187278710",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Kapelaniestraat",
+        "surface": "asphalt",
         "id": "way/187278710"
       },
       "geometry": {
@@ -80068,6 +80087,7 @@
       "id": "way/187799128",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Driesstraat",
         "sidewalk": "no",
@@ -81428,6 +81448,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
+        "surface": "dirt",
         "id": "way/195411166"
       },
       "geometry": {
@@ -81493,7 +81514,9 @@
       "id": "way/195411954",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kroonaardstraat",
+        "surface": "asphalt",
         "id": "way/195411954"
       },
       "geometry": {
@@ -83304,7 +83327,7 @@
         "highway": "secondary",
         "lane_markings": "no",
         "maxspeed": "50",
-        "name": "Broekstraat",
+        "name": "Moorsel-Dorp",
         "ref": "N411",
         "surface": "concrete",
         "id": "way/220126930"
@@ -86914,6 +86937,7 @@
       "id": "way/264296123",
       "properties": {
         "highway": "service",
+        "surface": "asphalt",
         "id": "way/264296123"
       },
       "geometry": {
@@ -86937,6 +86961,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
+        "surface": "asphalt",
         "id": "way/264296126"
       },
       "geometry": {
@@ -92475,8 +92500,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0979752,
-            50.9477931
+            4.0978795,
+            50.9477823
           ],
           [
             4.0977417,
@@ -98649,9 +98674,11 @@
       "id": "way/415745739",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Hospicestraat",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/415745739"
       },
       "geometry": {
@@ -98681,8 +98708,10 @@
       "id": "way/415745741",
       "properties": {
         "highway": "secondary",
+        "lanes": "2",
         "name": "Ieperstraat",
         "ref": "N365",
+        "surface": "asphalt",
         "id": "way/415745741"
       },
       "geometry": {
@@ -103012,7 +103041,10 @@
       "id": "way/464961767",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Nieuwenrodestraat",
+        "surface": "asphalt",
+        "width": "4.3",
         "id": "way/464961767"
       },
       "geometry": {
@@ -103857,7 +103889,7 @@
         "highway": "secondary",
         "lane_markings": "no",
         "maxspeed": "50",
-        "name": "Pachting",
+        "name": "Moorsel-Dorp",
         "ref": "N411",
         "surface": "concrete",
         "id": "way/504471073"
@@ -112559,8 +112591,8 @@
             51.0424294
           ],
           [
-            3.7420424,
-            51.0423483
+            3.7420944,
+            51.0423169
           ]
         ]
       }
@@ -112678,12 +112710,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7420424,
-            51.0423483
+            3.7420944,
+            51.0423169
           ],
           [
-            3.7421486,
-            51.042342
+            3.7421566,
+            51.0423374
           ]
         ]
       }
@@ -117565,6 +117597,7 @@
       "properties": {
         "bicycle": "use_sidepath",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Vierstraat",
         "oneway": "no",
@@ -119158,7 +119191,7 @@
         "highway": "secondary",
         "lane_markings": "no",
         "maxspeed": "50",
-        "name": "Pachting",
+        "name": "Moorsel-Dorp",
         "ref": "N411",
         "surface": "concrete",
         "id": "way/821444872"
@@ -124153,6 +124186,7 @@
       "id": "way/965077046",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Vierstraat",
         "oneway": "no",
@@ -126138,6 +126172,7 @@
       "properties": {
         "cycleway": "shared_lane",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Vierstraat",
         "oneway": "no",
@@ -132364,6 +132399,57 @@
           [
             4.9548693,
             50.7604775
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1282489423",
+      "properties": {
+        "highway": "secondary",
+        "maxspeed": "50",
+        "name": "Opwijkse Steenweg",
+        "ref": "N411",
+        "id": "way/1282489423"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.0990641,
+            50.9475192
+          ],
+          [
+            4.098867,
+            50.9476358
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1282489425",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "secondary",
+        "lane_markings": "no",
+        "maxspeed": "50",
+        "name": "Moorsel-Dorp",
+        "ref": "N411",
+        "surface": "concrete",
+        "id": "way/1282489425"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.0979752,
+            50.9477931
+          ],
+          [
+            4.0978795,
+            50.9477823
           ]
         ]
       }
@@ -152829,7 +152915,6 @@
         "maxspeed": "30",
         "name": "Sint-Jorisbrug",
         "name:etymology:wikidata": "Q48438",
-        "note": "Unsure how to map this situation, but car traffic on Sint-Jorisbrug direction Joremaaie is not allowed to turn left into Reke. This turn is reserved for bikes, busses and taxis. The other direction allows all traffic to turn into Reke.",
         "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/419179538"
@@ -156113,6 +156198,7 @@
       "id": "way/11614454",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
@@ -156511,6 +156597,7 @@
       "id": "way/21845582",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Zeepweg",
         "sidewalk": "no",
         "surface": "concrete",
@@ -158180,6 +158267,7 @@
       "id": "way/85801366",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
@@ -159213,7 +159301,8 @@
       "id": "way/133801033",
       "properties": {
         "highway": "residential",
-        "lanes": "1",
+        "lane_markings": "no",
+        "lanes": "2",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Dreefstraat",
@@ -162129,6 +162218,7 @@
       "id": "way/1083999433",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
