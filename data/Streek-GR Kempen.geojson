@@ -2879,6 +2879,7 @@
         "name": "Sint Antoniusstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "surface": "paving_stones",
         "id": "way/25828299"
       },
       "geometry": {
@@ -4679,6 +4680,7 @@
         "horse": "yes",
         "mapillary": "https://www.mapillary.com/app/?pKey=682847179624322",
         "mofa": "yes",
+        "name": "Den Akker",
         "speed_pedelec": "yes",
         "surface": "unpaved",
         "traffic_sign": "BE:C3,BE:Type_IV_residents_nl,BE:M12_nl",
@@ -14422,6 +14424,10 @@
       "properties": {
         "highway": "residential",
         "name": "Antoon de Lalaingstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "traffic_sign": "BE:F19,BE:M5",
         "id": "way/70133853"
       },
       "geometry": {
@@ -14438,6 +14444,10 @@
           [
             4.7679093,
             51.400573
+          ],
+          [
+            4.767686,
+            51.4009657
           ],
           [
             4.7675564,
@@ -19890,7 +19900,9 @@
       "type": "Feature",
       "id": "way/115888370",
       "properties": {
-        "highway": "cycleway",
+        "highway": "path",
+        "smoothness": "good",
+        "surface": "paving_stones",
         "id": "way/115888370"
       },
       "geometry": {
@@ -19935,8 +19947,13 @@
       "type": "Feature",
       "id": "way/115888372",
       "properties": {
-        "highway": "cycleway",
+        "bicycle": "yes",
+        "highway": "path",
+        "horse": "no",
+        "mofa": "yes",
         "name": "Rozenkranspad",
+        "traffic_sign": "BE:C3,BE:M3_nl",
+        "vehicle": "no",
         "id": "way/115888372"
       },
       "geometry": {
@@ -27107,6 +27124,10 @@
           [
             4.8370093,
             51.2827208
+          ],
+          [
+            4.8369081,
+            51.2827479
           ],
           [
             4.8363013,
@@ -41667,9 +41688,15 @@
       "type": "Feature",
       "id": "way/540660158",
       "properties": {
-        "highway": "cycleway",
+        "highway": "path",
+        "mofa": "yes",
+        "moped": "yes",
+        "motor_vehicle": "no",
+        "motorcycle": "yes",
         "name": "Rozenkranspad",
+        "speed_pedelec": "yes",
         "surface": "paved",
+        "traffic_sign": "BE:C5",
         "id": "way/540660158"
       },
       "geometry": {
@@ -60073,6 +60100,7 @@
       "id": "way/54206221",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "sunset-23:00",
         "name": "Kardinaal Cardijnlaan",
         "sidewalk": "no",
@@ -60906,6 +60934,7 @@
       "id": "way/479456073",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "sunset-23:00",
         "maxspeed": "50",
         "name": "Pastoor Carpentierstraat",
