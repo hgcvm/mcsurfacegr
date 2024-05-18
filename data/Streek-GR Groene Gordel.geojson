@@ -11816,7 +11816,7 @@
         "highway": "path",
         "motorcycle": "no",
         "name": "Rotstraat",
-        "surface": "dirt",
+        "surface": "ground",
         "width": "1.65",
         "id": "way/37956872"
       },
@@ -11852,10 +11852,6 @@
             50.9642886
           ],
           [
-            4.4734096,
-            50.964197
-          ],
-          [
             4.4735748,
             50.9641008
           ],
@@ -11872,20 +11868,12 @@
             50.9637208
           ],
           [
-            4.4745544,
-            50.9635277
-          ],
-          [
-            4.4746661,
-            50.9634253
-          ],
-          [
             4.474782,
-            50.9633608
+            50.9633691
           ],
           [
-            4.4748919,
-            50.9633215
+            4.4748837,
+            50.9633339
           ],
           [
             4.4751676,
@@ -12016,24 +12004,8 @@
             50.9608219
           ],
           [
-            4.4779453,
-            50.9609659
-          ],
-          [
-            4.4778811,
-            50.961049
-          ],
-          [
-            4.4775287,
-            50.9612601
-          ],
-          [
-            4.4774434,
-            50.9613243
-          ],
-          [
-            4.4774309,
-            50.9613344
+            4.4779645,
+            50.9609217
           ]
         ]
       }
@@ -19706,12 +19678,15 @@
       "type": "Feature",
       "id": "way/117811973",
       "properties": {
-        "highway": "track",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "yes",
         "motor_vehicle": "no",
         "name": "Buurtweg 52 - Kauwenbergsweidevoetweg",
         "smoothness": "very_bad",
-        "surface": "dirt",
-        "tracktype": "grade4",
+        "surface": "grass",
+        "tracktype": "grade5",
         "width": "3",
         "id": "way/117811973"
       },
@@ -19739,16 +19714,16 @@
             50.9498449
           ],
           [
-            4.4377643,
-            50.9499174
+            4.4377725,
+            50.9499081
           ],
           [
-            4.4384595,
-            50.9501028
+            4.4384809,
+            50.9500738
           ],
           [
-            4.4392637,
-            50.9503363
+            4.4392703,
+            50.9503301
           ],
           [
             4.4398336,
@@ -19767,8 +19742,8 @@
             50.9506973
           ],
           [
-            4.4412062,
-            50.9508316
+            4.441083,
+            50.9508057
           ],
           [
             4.4417377,
@@ -29445,8 +29420,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4472393,
-            50.9551921
+            4.4472541,
+            50.9551812
           ],
           [
             4.447455,
@@ -31555,7 +31530,10 @@
       "type": "Feature",
       "id": "way/511115070",
       "properties": {
-        "highway": "cycleway",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "segregated": "no",
         "id": "way/511115070"
       },
       "geometry": {
@@ -32324,7 +32302,7 @@
         "highway": "track",
         "motorcycle": "no",
         "name": "Steenvaartvoetweg",
-        "surface": "fine_gravel",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/544342841"
       },
@@ -36409,12 +36387,12 @@
       "type": "Feature",
       "id": "way/661696664",
       "properties": {
-        "highway": "track",
+        "highway": "path",
         "motor_vehicle": "no",
         "name": "Korte Tangebeekvoetweg",
         "smoothness": "very_bad",
-        "surface": "dirt",
-        "tracktype": "grade4",
+        "surface": "grass",
+        "tracktype": "grade5",
         "width": "3",
         "id": "way/661696664"
       },
@@ -36518,8 +36496,8 @@
             50.9551025
           ],
           [
-            4.4472393,
-            50.9551921
+            4.4472541,
+            50.9551812
           ]
         ]
       }
@@ -37702,8 +37680,8 @@
         "lit": "yes",
         "motorcycle": "no",
         "name": "Steenvaartvoetweg",
-        "surface": "fine_gravel",
-        "tracktype": "grade2",
+        "surface": "compacted",
+        "tracktype": "grade1",
         "id": "way/781127018"
       },
       "geometry": {
@@ -39383,6 +39361,76 @@
           [
             4.5132747,
             50.8237822
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/910737776",
+      "properties": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Steendreef",
+        "source:maxspeed": "BE:zone50",
+        "surface": "asphalt",
+        "width": "6",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/910737776"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4779363,
+            50.9609649
+          ],
+          [
+            4.4778811,
+            50.961049
+          ],
+          [
+            4.4775287,
+            50.9612601
+          ],
+          [
+            4.4774434,
+            50.9613243
+          ],
+          [
+            4.4774309,
+            50.9613344
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/910737777",
+      "properties": {
+        "bridge": "yes",
+        "highway": "residential",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Steendreef",
+        "source:maxspeed": "BE:zone50",
+        "surface": "asphalt",
+        "width": "6",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/910737777"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4779645,
+            50.9609217
+          ],
+          [
+            4.4779363,
+            50.9609649
           ]
         ]
       }
