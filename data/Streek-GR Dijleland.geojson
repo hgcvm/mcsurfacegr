@@ -7736,30 +7736,27 @@
       "properties": {
         "highway": "service",
         "name": "Molenkensbeekvoetweg",
+        "surface": "paving_stones",
         "id": "way/24883988"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.5029146,
-            50.9608836
+            4.5029409,
+            50.9608877
           ],
           [
-            4.5030971,
-            50.9603888
+            4.5031382,
+            50.9603929
           ],
           [
-            4.5031672,
-            50.9602101
+            4.5032,
+            50.9602153
           ],
           [
-            4.5032262,
-            50.9601784
-          ],
-          [
-            4.5033206,
-            50.9599357
+            4.5032237,
+            50.9601695
           ]
         ]
       }
@@ -7803,8 +7800,8 @@
             50.9606219
           ],
           [
-            4.5029146,
-            50.9608836
+            4.5029409,
+            50.9608877
           ]
         ]
       }
@@ -7813,28 +7810,29 @@
       "type": "Feature",
       "id": "way/24884252",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "footway",
+        "highway": "path",
         "name": "Molenkensbeekvoetweg",
         "surface": "paving_stones",
-        "tracktype": "grade3",
         "id": "way/24884252"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.5033206,
-            50.9599357
+            4.5032237,
+            50.9601695
           ],
           [
-            4.5033906,
-            50.9599431
+            4.5033241,
+            50.9599338
           ],
           [
             4.5037355,
             50.9599945
+          ],
+          [
+            4.5037759,
+            50.9599841
           ],
           [
             4.5038121,
@@ -12843,6 +12841,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "lit": "no",
         "maxspeed": "50",
         "name": "Huldenbergstraat",
         "oneway": "no",
@@ -17361,7 +17360,8 @@
         "name": "Hoofdbosweg",
         "sac_scale": "hiking",
         "smoothness": "bad",
-        "surface": "unpaved",
+        "surface": "dirt",
+        "tracktype": "grade4",
         "vicinal_ref": "41",
         "vicinal_type": "path",
         "id": "way/40732868"
@@ -17370,8 +17370,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.508453,
-            50.9573527
+            4.5084481,
+            50.9573444
           ],
           [
             4.5086038,
@@ -17382,40 +17382,40 @@
             50.9569644
           ],
           [
-            4.5099386,
-            50.9560615
+            4.5099419,
+            50.956077
           ],
           [
             4.5101204,
             50.9559151
           ],
           [
-            4.5107309,
-            50.9554588
+            4.5106915,
+            50.9554464
           ],
           [
-            4.5109108,
-            50.9552781
+            4.5108648,
+            50.9552843
           ],
           [
-            4.5114162,
-            50.9547704
+            4.5114326,
+            50.9547766
           ],
           [
             4.5123163,
             50.9540041
           ],
           [
-            4.5130595,
-            50.9533208
+            4.5130726,
+            50.9533374
           ],
           [
             4.5135443,
             50.9529179
           ],
           [
-            4.5140829,
-            50.9524022
+            4.5143555,
+            50.9521953
           ],
           [
             4.514425,
@@ -17426,17 +17426,77 @@
     },
     {
       "type": "Feature",
-      "id": "way/40732871",
+      "id": "way/40734474",
       "properties": {
-        "highway": "track",
+        "bridge": "yes",
+        "highway": "path",
+        "layer": "1",
         "name": "Meulekensweg",
-        "surface": "compacted",
-        "tracktype": "grade2",
-        "id": "way/40732871"
+        "surface": "concrete",
+        "id": "way/40734474"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            4.5051966,
+            50.9594412
+          ],
+          [
+            4.5052447,
+            50.9593727
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/40734475",
+      "properties": {
+        "highway": "path",
+        "name": "Meulekensweg",
+        "surface": "compacted",
+        "id": "way/40734475"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5052447,
+            50.9593727
+          ],
+          [
+            4.5052843,
+            50.9593665
+          ],
+          [
+            4.5053765,
+            50.9593696
+          ],
+          [
+            4.5054945,
+            50.9593634
+          ],
+          [
+            4.5056081,
+            50.9593432
+          ],
+          [
+            4.5057493,
+            50.9593008
+          ],
+          [
+            4.5059647,
+            50.9592178
+          ],
+          [
+            4.5062672,
+            50.9590829
+          ],
+          [
+            4.5066932,
+            50.9589116
+          ],
           [
             4.5069311,
             50.9588051
@@ -17466,84 +17526,11 @@
     },
     {
       "type": "Feature",
-      "id": "way/40734474",
-      "properties": {
-        "bridge": "yes",
-        "highway": "path",
-        "layer": "1",
-        "name": "Meulekensweg",
-        "surface": "sand",
-        "id": "way/40734474"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.5051851,
-            50.9594681
-          ],
-          [
-            4.5052447,
-            50.9593727
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/40734475",
-      "properties": {
-        "highway": "track",
-        "name": "Meulekensweg",
-        "surface": "compacted",
-        "tracktype": "grade2",
-        "id": "way/40734475"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.5052447,
-            50.9593727
-          ],
-          [
-            4.5052843,
-            50.9593665
-          ],
-          [
-            4.5054945,
-            50.9593634
-          ],
-          [
-            4.505627,
-            50.9593344
-          ],
-          [
-            4.5059647,
-            50.9592178
-          ],
-          [
-            4.5062672,
-            50.9590829
-          ],
-          [
-            4.5066932,
-            50.9589116
-          ],
-          [
-            4.5069311,
-            50.9588051
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/40734476",
       "properties": {
         "highway": "path",
         "name": "Molenkensbeekvoetweg",
-        "surface": "sand",
+        "surface": "asphalt",
         "id": "way/40734476"
       },
       "geometry": {
@@ -17558,8 +17545,8 @@
             50.9596088
           ],
           [
-            4.5051851,
-            50.9594681
+            4.5051966,
+            50.9594412
           ]
         ]
       }
@@ -18546,6 +18533,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "lit": "no",
         "name": "Huldenbergstraat",
         "oneway": "no",
         "surface": "sett",
@@ -28442,16 +28430,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.508453,
-            50.9573527
+            4.5084481,
+            50.9573444
           ],
           [
-            4.5085474,
-            50.9574874
-          ],
-          [
-            4.5085705,
-            50.9575419
+            4.5085869,
+            50.9575367
           ]
         ]
       }
@@ -28577,8 +28561,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5150953,
-            50.9515965
+            4.5150871,
+            50.951582
           ],
           [
             4.5148479,
@@ -28712,7 +28696,7 @@
       "properties": {
         "highway": "track",
         "name": "Voetweg 41 - Hoofdbosweg",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/135434757"
       },
@@ -28744,8 +28728,8 @@
             50.9516763
           ],
           [
-            4.5150953,
-            50.9515965
+            4.5150871,
+            50.951582
           ]
         ]
       }
@@ -30981,6 +30965,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "lit": "no",
         "maxspeed": "50",
         "name": "Huldenbergstraat",
         "oneway": "no",
@@ -33505,8 +33490,8 @@
             50.9575595
           ],
           [
-            4.5085705,
-            50.9575419
+            4.5085869,
+            50.9575367
           ]
         ]
       }
@@ -33515,10 +33500,9 @@
       "type": "Feature",
       "id": "way/375972566",
       "properties": {
-        "highway": "track",
+        "highway": "path",
         "name": "Molenkensbeekvoetweg",
-        "surface": "sand",
-        "tracktype": "grade3",
+        "surface": "asphalt",
         "id": "way/375972566"
       },
       "geometry": {
@@ -62033,6 +62017,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "lit": "no",
         "maxspeed": "50",
         "name": "Huldenbergstraat",
         "oneway": "no",
@@ -63305,6 +63290,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "lit": "no",
         "name": "Huldenbergstraat",
         "oneway": "no",
         "surface": "sett",
@@ -66763,6 +66749,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "lit": "no",
         "maxspeed": "50",
         "name": "Huldenbergstraat",
         "oneway": "no",
@@ -79114,8 +79101,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5130761,
-            50.971135
+            4.513063,
+            50.9711443
           ],
           [
             4.5141316,
@@ -79128,7 +79115,7 @@
       "type": "Feature",
       "id": "way/23686540",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "50",
@@ -80194,9 +80181,7 @@
         "bicycle": "yes",
         "highway": "service",
         "name": "Kasteeldreef",
-        "surface": "unpaved",
-        "tracktype": "grade2",
-        "vehicle": "no",
+        "surface": "fine_gravel",
         "id": "way/24580818"
       },
       "geometry": {
@@ -80211,8 +80196,8 @@
             50.9773837
           ],
           [
-            4.5259967,
-            50.9765965
+            4.5261084,
+            50.9766317
           ],
           [
             4.5243145,
@@ -84596,8 +84581,8 @@
             50.9687837
           ],
           [
-            4.5094305,
-            50.9683173
+            4.5094141,
+            50.9683194
           ]
         ]
       }
@@ -84608,7 +84593,7 @@
       "properties": {
         "highway": "track",
         "name": "Mosvinvoetweg",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/37994532"
       },
@@ -84616,20 +84601,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5094305,
-            50.9683173
+            4.5094141,
+            50.9683194
           ],
           [
-            4.511293,
-            50.969074
+            4.5118498,
+            50.9693036
           ],
           [
-            4.5118812,
-            50.9692953
+            4.5119042,
+            50.9693139
           ],
           [
-            4.5120912,
-            50.9693767
+            4.5121109,
+            50.9693974
           ]
         ]
       }
@@ -87119,14 +87104,10 @@
       "type": "Feature",
       "id": "way/375972558",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
-        "horse": "yes",
         "name": "Schiplakenvoetweg",
-        "surface": "unpaved",
-        "tracktype": "grade2",
-        "vehicle": "no",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "width": "3",
         "id": "way/375972558"
       },
@@ -87166,8 +87147,12 @@
             50.9760964
           ],
           [
-            4.5219681,
-            50.9760153
+            4.5220469,
+            50.9760277
+          ],
+          [
+            4.5218912,
+            50.9759393
           ],
           [
             4.521745,
@@ -87218,20 +87203,16 @@
             50.9728537
           ],
           [
-            4.5162089,
-            50.9723294
+            4.5160203,
+            50.9723696
           ],
           [
-            4.514552,
-            50.9716663
+            4.5142219,
+            50.9716289
           ],
           [
-            4.5142777,
-            50.9715565
-          ],
-          [
-            4.5130761,
-            50.971135
+            4.513063,
+            50.9711443
           ]
         ]
       }
@@ -89217,7 +89198,7 @@
       "properties": {
         "highway": "track",
         "name": "Mosvinvoetweg",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/878376585"
       },
@@ -89225,8 +89206,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5120912,
-            50.9693767
+            4.5121109,
+            50.9693974
+          ],
+          [
+            4.5137693,
+            50.9700773
           ],
           [
             4.5141316,
