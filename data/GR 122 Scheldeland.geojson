@@ -9770,6 +9770,7 @@
         "name": "Ooststraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "left",
         "surface": "asphalt",
         "id": "way/62110760"
       },
@@ -20581,6 +20582,7 @@
       "type": "Feature",
       "id": "way/155366903",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "name": "Oostremstraat",
@@ -24768,10 +24770,13 @@
       "type": "Feature",
       "id": "way/222334291",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "30",
         "name": "Wegvoeringstraat",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/222334291"
       },
@@ -44609,6 +44614,7 @@
         "name": "Lepelstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "both",
         "surface": "paving_stones",
         "id": "way/944559915"
       },
@@ -44634,9 +44640,11 @@
       "type": "Feature",
       "id": "way/944559916",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "name": "Oostremstraat",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/944559916"
       },
