@@ -10926,6 +10926,9 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
+        "horse": "no",
+        "mofa": "no",
+        "speed_pedelec": "no",
         "surface": "compacted",
         "id": "way/113496536"
       },
@@ -17787,14 +17790,16 @@
       "type": "Feature",
       "id": "way/219376994",
       "properties": {
-        "access": "destination",
+        "access": "private",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "service",
-        "horse": "yes",
+        "maxspeed": "30",
         "name": "Watermolen",
         "oneway": "no",
-        "surface": "asphalt",
+        "private": "residents",
+        "speed_pedelec": "yes",
+        "surface": "paving_stones",
         "id": "way/219376994"
       },
       "geometry": {
@@ -29239,7 +29244,8 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "surface": "compacted",
+        "name": "Watermolen",
+        "surface": "paving_stones",
         "id": "way/304423085"
       },
       "geometry": {
@@ -41551,7 +41557,8 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "surface": "compacted",
+        "name": "Watermolen",
+        "surface": "paving_stones",
         "id": "way/539861392"
       },
       "geometry": {
@@ -41715,10 +41722,11 @@
       "id": "way/541530951",
       "properties": {
         "bicycle": "use_sidepath",
-        "cycleway:right:oneway": "no",
         "highway": "secondary",
         "lanes": "2",
-        "maxspeed": "50",
+        "maxspeed": "30",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Bevrijdingslaan",
         "ref": "N102",
         "surface": "asphalt",
@@ -50268,7 +50276,8 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "surface": "compacted",
+        "name": "Watermolen",
+        "surface": "paving_stones",
         "id": "way/1086929797"
       },
       "geometry": {
