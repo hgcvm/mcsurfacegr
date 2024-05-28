@@ -109781,6 +109781,10 @@
             50.9254148
           ],
           [
+            4.1239322,
+            50.9253407
+          ],
+          [
             4.1238202,
             50.9253197
           ],
@@ -114284,8 +114288,10 @@
       "type": "Feature",
       "id": "way/759687053",
       "properties": {
+        "check_date:surface": "2024-05-27",
         "highway": "footway",
         "surface": "paved",
+        "surface:note": "blauwe steen",
         "id": "way/759687053"
       },
       "geometry": {
@@ -116856,13 +116862,14 @@
         "emergency": "yes",
         "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "living_street",
+        "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
         "name": "Sint-Michielshelling",
         "name:etymology:wikidata": "Q45581",
         "private": "exceptional_permit",
         "speed_pedelec": "yes",
-        "surface": "cobblestone",
+        "surface": "sett",
         "vehicle": "private",
         "id": "way/781142744"
       },
@@ -153150,7 +153157,6 @@
       "id": "way/493388224",
       "properties": {
         "highway": "cycleway",
-        "name": "Land van Waaslaan",
         "oneway": "yes",
         "smoothness": "excellent",
         "surface": "asphalt",
@@ -153164,24 +153170,16 @@
             51.0571476
           ],
           [
-            3.7408877,
-            51.057153
+            3.7413247,
+            51.0571652
           ],
           [
-            3.7412638,
-            51.0571714
+            3.7414922,
+            51.0571704
           ],
           [
-            3.7416049,
-            51.0571756
-          ],
-          [
-            3.7417475,
-            51.0572079
-          ],
-          [
-            3.7424132,
-            51.0573603
+            3.7416027,
+            51.05718
           ]
         ]
       }
@@ -155111,6 +155109,35 @@
           [
             3.721025,
             51.0584926
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1287051843",
+      "properties": {
+        "highway": "cycleway",
+        "name": "Land van Waaslaan",
+        "oneway": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "id": "way/1287051843"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7416027,
+            51.05718
+          ],
+          [
+            3.7417475,
+            51.0572079
+          ],
+          [
+            3.7424132,
+            51.0573603
           ]
         ]
       }
