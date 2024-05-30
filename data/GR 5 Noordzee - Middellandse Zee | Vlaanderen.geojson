@@ -399,7 +399,9 @@
       "id": "way/7251506",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Boerhaaveplein",
+        "source:maxspeed": "NL:zone30",
         "id": "way/7251506"
       },
       "geometry": {
@@ -508,23 +510,25 @@
       "id": "way/7251510",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Balsedreef",
+        "source:maxspeed": "NL:zone60",
         "id": "way/7251510"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.3177425,
-            51.4874245
+            4.318236,
+            51.4874086
           ],
           [
-            4.3184058,
-            51.4874026
+            4.3184407,
+            51.4874084
           ],
           [
-            4.3186367,
-            51.4873952
+            4.3186434,
+            51.4874065
           ],
           [
             4.3192477,
@@ -547,8 +551,8 @@
             51.48741
           ],
           [
-            4.3218066,
-            51.4875107
+            4.3217349,
+            51.4875028
           ]
         ]
       }
@@ -558,6 +562,7 @@
       "id": "way/7251512",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "60",
         "name": "Balsedreef",
         "id": "way/7251512"
       },
@@ -580,6 +585,7 @@
       "id": "way/7251519",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "30",
         "name": "Balsedreef",
         "id": "way/7251519"
       },
@@ -595,12 +601,8 @@
             51.487628
           ],
           [
-            4.3149803,
-            51.4876575
-          ],
-          [
-            4.3147568,
-            51.4876772
+            4.3151167,
+            51.4876464
           ]
         ]
       }
@@ -609,7 +611,8 @@
       "type": "Feature",
       "id": "way/7251937",
       "properties": {
-        "highway": "unclassified",
+        "cycleway": "lane",
+        "highway": "residential",
         "maxspeed": "50",
         "name": "Ericalaan",
         "oneway": "no",
@@ -623,8 +626,8 @@
             51.4937608
           ],
           [
-            4.3054753,
-            51.4938597
+            4.305482,
+            51.4938589
           ],
           [
             4.3056735,
@@ -653,6 +656,7 @@
       "type": "Feature",
       "id": "way/7251957",
       "properties": {
+        "cycleway": "lane",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Gentiaanstraat",
@@ -682,16 +686,16 @@
             51.4933933
           ],
           [
-            4.3032607,
-            51.4935298
+            4.3032909,
+            51.4935152
           ],
           [
-            4.303491,
-            51.4935722
+            4.3034716,
+            51.4935463
           ],
           [
-            4.3041944,
-            51.493701
+            4.3041971,
+            51.4936814
           ],
           [
             4.3045903,
@@ -853,6 +857,7 @@
       "type": "Feature",
       "id": "way/7252332",
       "properties": {
+        "cycleway": "lane",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Ericalaan",
@@ -930,7 +935,8 @@
       "type": "Feature",
       "id": "way/7254645",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
+        "maxspeed": "30",
         "name": "Iepstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -9230,6 +9236,7 @@
       "id": "way/345038752",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Balsedreef",
         "surface": "asphalt",
         "id": "way/345038752"
@@ -9238,8 +9245,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3218066,
-            51.4875107
+            4.3217349,
+            51.4875028
+          ],
+          [
+            4.3221514,
+            51.487555
           ],
           [
             4.3230062,
@@ -10901,7 +10912,9 @@
       "properties": {
         "cutting": "yes",
         "highway": "unclassified",
+        "maxspeed": "30",
         "name": "Balsedreef",
+        "source:maxspeed": "NL:zone30",
         "id": "way/740269994"
       },
       "geometry": {
@@ -10912,8 +10925,12 @@
             51.4875062
           ],
           [
-            4.3177425,
-            51.4874245
+            4.3177637,
+            51.4874235
+          ],
+          [
+            4.318236,
+            51.4874086
           ]
         ]
       }
@@ -11693,6 +11710,34 @@
           [
             4.4049035,
             51.415343
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1287820720",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Balsedreef",
+        "source:maxspeed": "NL:zone30",
+        "id": "way/1287820720"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3151167,
+            51.4876464
+          ],
+          [
+            4.3149803,
+            51.4876575
+          ],
+          [
+            4.3147568,
+            51.4876772
           ]
         ]
       }
