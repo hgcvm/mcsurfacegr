@@ -2842,8 +2842,8 @@
             51.0342132
           ],
           [
-            4.4754948,
-            51.0341257
+            4.4755096,
+            51.034127
           ]
         ]
       }
@@ -3499,10 +3499,10 @@
       "id": "way/20019665",
       "properties": {
         "cyclestreet": "yes",
-        "highway": "residential",
+        "highway": "living_street",
         "maxlength": "11",
         "maxlength:bus": "none",
-        "maxspeed": "30",
+        "maxspeed": "20",
         "maxweight": "10",
         "maxweight:bus": "none",
         "name": "Twaalf-Apostelenstraat",
@@ -3564,16 +3564,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4754946,
-            51.034091
+            4.475512,
+            51.0340935
           ],
           [
-            4.4754944,
-            51.0340452
+            4.4755092,
+            51.034046
           ],
           [
-            4.4754889,
-            51.0335921
+            4.4755197,
+            51.0335862
           ]
         ]
       }
@@ -5480,10 +5480,10 @@
       "id": "way/22925696",
       "properties": {
         "cyclestreet": "yes",
-        "highway": "residential",
+        "highway": "living_street",
         "maxlength": "11",
         "maxlength:bus": "none",
-        "maxspeed": "30",
+        "maxspeed": "20",
         "maxweight": "10",
         "maxweight:bus": "none",
         "name": "Moreelstraat",
@@ -5515,10 +5515,10 @@
       "properties": {
         "cyclestreet": "yes",
         "cycleway": "opposite",
-        "highway": "residential",
+        "highway": "living_street",
         "maxlength": "11",
         "maxlength:bus": "none",
-        "maxspeed": "30",
+        "maxspeed": "20",
         "maxweight": "10",
         "maxweight:bus": "none",
         "name": "Schrijnstraat",
@@ -5530,12 +5530,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4754889,
-            51.0335921
+            4.4755197,
+            51.0335862
           ],
           [
-            4.4751025,
-            51.033559
+            4.4749979,
+            51.033543
+          ],
+          [
+            4.4746783,
+            51.0335191
           ],
           [
             4.4744117,
@@ -5574,6 +5578,7 @@
       "id": "way/22931538",
       "properties": {
         "bicycle": "yes",
+        "cyclestreet": "yes",
         "highway": "pedestrian",
         "name": "Sint-Janskerkhof",
         "smoothness": "intermediate",
@@ -7931,7 +7936,8 @@
       "type": "Feature",
       "id": "way/28618209",
       "properties": {
-        "highway": "pedestrian",
+        "cyclestreet": "yes",
+        "highway": "residential",
         "name": "Sint-Katelijnekerkhof",
         "surface": "sett",
         "id": "way/28618209"
@@ -9832,7 +9838,8 @@
       "type": "Feature",
       "id": "way/50070445",
       "properties": {
-        "highway": "pedestrian",
+        "cyclestreet": "yes",
+        "highway": "residential",
         "name": "Sint-Katelijnekerkhof",
         "smoothness": "intermediate",
         "surface": "sett",
@@ -9877,6 +9884,8 @@
         "maxweight:bus": "none",
         "name": "Sint-Beggastraat",
         "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:speed_pedelec": "no",
         "surface": "cobblestone",
         "id": "way/50073690"
       },
@@ -12425,14 +12434,16 @@
       "id": "way/147019987",
       "properties": {
         "cyclestreet": "yes",
-        "highway": "residential",
+        "highway": "living_street",
         "maxlength": "11",
         "maxlength:bus": "none",
-        "maxspeed": "30",
+        "maxspeed": "20",
         "maxweight": "10",
         "maxweight:bus": "none",
         "name": "Begijnenkerkhof",
         "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:speed_pedelec": "no",
         "id": "way/147019987"
       },
       "geometry": {
@@ -13673,7 +13684,9 @@
       "id": "way/190275868",
       "properties": {
         "bicycle": "yes",
+        "cyclestreet": "yes",
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Sint-Janskerkhof",
         "private": "exceptional_permit",
         "smoothness": "intermediate",
@@ -13730,8 +13743,8 @@
       "properties": {
         "access": "destination",
         "cyclestreet": "yes",
-        "highway": "living_street",
-        "maxspeed": "20",
+        "highway": "residential",
+        "maxspeed": "30",
         "name": "Klein-Begijnhofbogaard",
         "surface": "sett",
         "id": "way/190360158"
@@ -16338,7 +16351,7 @@
       "id": "way/423658607",
       "properties": {
         "cyclestreet": "yes",
-        "highway": "living_street",
+        "highway": "pedestrian",
         "maxspeed": "20",
         "name": "Klein Begijnhof",
         "noexit": "yes",
@@ -16350,6 +16363,10 @@
           [
             4.4775093,
             51.0320051
+          ],
+          [
+            4.4774853,
+            51.0320255
           ],
           [
             4.4773763,
@@ -23415,12 +23432,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4754948,
-            51.0341257
+            4.4755096,
+            51.034127
           ],
           [
-            4.4754946,
-            51.034091
+            4.475512,
+            51.0340935
           ]
         ]
       }

@@ -637,8 +637,8 @@
             50.7992571
           ],
           [
-            2.8294051,
-            50.7993464
+            2.8294202,
+            50.7993343
           ]
         ]
       }
@@ -3020,7 +3020,7 @@
           ],
           [
             2.7810846,
-            50.7967928
+            50.7967913
           ]
         ]
       }
@@ -5192,6 +5192,7 @@
         "highway": "unclassified",
         "maxspeed": "80",
         "name": "Rue de Westoutre",
+        "oneway": "no",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
         "surface": "asphalt",
         "width": "3",
@@ -12539,20 +12540,28 @@
             50.7725448
           ],
           [
-            2.8113509,
-            50.7724693
+            2.8113514,
+            50.7724663
           ],
           [
-            2.8112403,
-            50.7724273
+            2.8112457,
+            50.7724245
           ],
           [
-            2.8110257,
-            50.7723561
+            2.8111322,
+            50.7723851
           ],
           [
-            2.8108326,
-            50.7723153
+            2.8110231,
+            50.772354
+          ],
+          [
+            2.8109321,
+            50.772334
+          ],
+          [
+            2.8108336,
+            50.7723195
           ],
           [
             2.8105244,
@@ -12563,8 +12572,8 @@
             50.7722586
           ],
           [
-            2.8102157,
-            50.772217
+            2.8102332,
+            50.7722264
           ],
           [
             2.8099522,
@@ -14300,10 +14309,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            2.8986392,
-            50.764141
-          ],
           [
             2.8986775,
             50.7640394
@@ -18369,6 +18374,7 @@
         "highway": "unclassified",
         "maxspeed": "80",
         "name": "Rue de Westoutre",
+        "oneway": "no",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
         "surface": "asphalt",
         "width": "3",
@@ -18903,8 +18909,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.8294051,
-            50.7993464
+            2.8294202,
+            50.7993343
+          ],
+          [
+            2.8293566,
+            50.7993869
           ],
           [
             2.8282978,
@@ -19920,14 +19930,6 @@
           [
             2.8992396,
             50.7610919
-          ],
-          [
-            2.8992499,
-            50.7611311
-          ],
-          [
-            2.8986715,
-            50.7623314
           ]
         ]
       }
@@ -28531,6 +28533,7 @@
         "highway": "service",
         "name": "Chemin du Vierayms",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "surface": "asphalt",
         "id": "way/372860689"
       },
       "geometry": {
@@ -33938,8 +33941,16 @@
             50.7968731
           ],
           [
+            2.780567,
+            50.7968176
+          ],
+          [
+            2.7810176,
+            50.7967917
+          ],
+          [
             2.7810846,
-            50.7967928
+            50.7967913
           ]
         ]
       }
@@ -34878,6 +34889,59 @@
           [
             2.7377513,
             50.7868935
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1290392454",
+      "properties": {
+        "foot": "yes",
+        "highway": "track",
+        "surface": "grass",
+        "tracktype": "grade5",
+        "id": "way/1290392454"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8992396,
+            50.7610919
+          ],
+          [
+            2.8992499,
+            50.7611311
+          ],
+          [
+            2.8986715,
+            50.7623314
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1290392455",
+      "properties": {
+        "highway": "residential",
+        "name": "Kerkstraat - Rue de l'Eglise",
+        "name:fr": "Rue de l'Eglise",
+        "name:nl": "Kerkstraat",
+        "surface": "asphalt",
+        "id": "way/1290392455"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8986392,
+            50.764141
+          ],
+          [
+            2.8986775,
+            50.7640394
           ]
         ]
       }
