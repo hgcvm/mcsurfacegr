@@ -24081,6 +24081,7 @@
       "type": "Feature",
       "id": "way/75435045",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Laambeekstraat",
@@ -24163,6 +24164,7 @@
       "properties": {
         "bicycle": "use_sidepath",
         "highway": "tertiary",
+        "lanes": "2",
         "maxspeed": "70",
         "name": "Rekhovenstraat",
         "id": "way/75435048"
@@ -25040,6 +25042,7 @@
       "properties": {
         "cycleway": "lane",
         "highway": "tertiary",
+        "lanes": "2",
         "name": "Westlaan",
         "id": "way/87837443"
       },
@@ -32181,7 +32184,7 @@
       "type": "Feature",
       "id": "way/197860973",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Vijverstraat",
@@ -32234,6 +32237,7 @@
       "type": "Feature",
       "id": "way/197860974",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Watermolenstraat",
@@ -33101,7 +33105,7 @@
       "id": "way/198078603",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/198078603"
       },
       "geometry": {
@@ -33423,10 +33427,10 @@
       "type": "Feature",
       "id": "way/198205312",
       "properties": {
-        "access": "no",
         "foot": "yes",
         "highway": "path",
         "surface": "unpaved",
+        "vehicle": "no",
         "id": "way/198205312"
       },
       "geometry": {
@@ -33759,7 +33763,9 @@
       "type": "Feature",
       "id": "way/198357422",
       "properties": {
+        "cycleway": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kluisstraat",
         "id": "way/198357422"
       },
@@ -40607,7 +40613,7 @@
         "highway": "track",
         "motor_vehicle:backward": "destination",
         "name": "Vijverstraat",
-        "surface": "ground",
+        "surface": "gravel",
         "tracktype": "grade2",
         "traffic_sign:backward": "BE:C5-C7-C9,GIV[uitgezonderd aangelanden]",
         "id": "way/236410032"
@@ -42158,6 +42164,7 @@
       "type": "Feature",
       "id": "way/275113112",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Laambeekstraat",
@@ -43782,7 +43789,7 @@
       "id": "way/316605288",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/316605288"
       },
       "geometry": {
@@ -47705,6 +47712,7 @@
       "type": "Feature",
       "id": "way/457416056",
       "properties": {
+        "cycleway": "no",
         "highway": "unclassified",
         "name": "Vijverstraat",
         "id": "way/457416056"
@@ -48210,12 +48218,10 @@
       "type": "Feature",
       "id": "way/477962095",
       "properties": {
-        "access": "no",
-        "bicycle": "no",
-        "foot": "yes",
         "highway": "path",
         "horse": "no",
         "surface": "unpaved",
+        "vehicle": "no",
         "wheelchair": "no",
         "width": "1.5",
         "id": "way/477962095"
@@ -48258,10 +48264,10 @@
       "type": "Feature",
       "id": "way/477962096",
       "properties": {
-        "access": "no",
         "foot": "yes",
         "highway": "track",
         "tracktype": "grade3",
+        "vehicle": "no",
         "id": "way/477962096"
       },
       "geometry": {
@@ -51092,7 +51098,7 @@
         "highway": "track",
         "motor_vehicle": "no",
         "name": "Vijverstraat",
-        "surface": "ground",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/551491681"
       },
@@ -54375,6 +54381,7 @@
       "properties": {
         "cycleway": "lane",
         "highway": "tertiary",
+        "lanes": "2",
         "name": "Rekhovenstraat",
         "id": "way/746428658"
       },
@@ -56176,7 +56183,7 @@
         "highway": "track",
         "motor_vehicle:backward": "destination",
         "name": "Vijverstraat",
-        "surface": "ground",
+        "surface": "gravel",
         "tracktype": "grade2",
         "traffic_sign:backward": "BE:C5-C7-C9,GIV[uitgezonderd aangelanden]",
         "id": "way/860198354"
@@ -59960,6 +59967,7 @@
       "properties": {
         "cycleway": "lane",
         "highway": "tertiary",
+        "lanes": "2",
         "name": "Westlaan",
         "id": "way/1074881530"
       },
@@ -60117,7 +60125,7 @@
       "type": "Feature",
       "id": "way/1080724991",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Vijverstraat",
@@ -60458,7 +60466,7 @@
       "id": "way/1085589271",
       "properties": {
         "highway": "path",
-        "surface": "ground",
+        "surface": "gravel",
         "id": "way/1085589271"
       },
       "geometry": {
