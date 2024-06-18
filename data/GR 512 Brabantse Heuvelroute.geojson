@@ -1759,6 +1759,7 @@
       "properties": {
         "highway": "residential",
         "name": "Hoogstraat",
+        "surface": "asphalt",
         "id": "way/24591764"
       },
       "geometry": {
@@ -1793,16 +1794,8 @@
             50.7841902
           ],
           [
-            4.2376591,
-            50.7841555
-          ],
-          [
-            4.2375105,
-            50.7841035
-          ],
-          [
-            4.2373839,
-            50.7840798
+            4.2376811,
+            50.7841685
           ]
         ]
       }
@@ -2091,8 +2084,11 @@
       "id": "way/24974520",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Brabantsebaan",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/24974520"
       },
       "geometry": {
@@ -2126,8 +2122,11 @@
       "id": "way/24974522",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Sint-Laureinsstraat",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/24974522"
       },
       "geometry": {
@@ -7070,13 +7069,18 @@
       "id": "way/39325597",
       "properties": {
         "agricultural": "yes",
-        "highway": "unclassified",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
+        "highway": "residential",
+        "horse": "yes",
         "maxspeed": "30",
-        "motor_vehicle": "no",
+        "motor_vehicle": "destination",
         "name": "Alfons Fleurusstraat",
-        "source:maxspeed": "sign",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
         "traffic_sign": "BE:F99c",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/39325597"
       },
       "geometry": {
@@ -7469,11 +7473,13 @@
       "type": "Feature",
       "id": "way/39325598",
       "properties": {
-        "description": "bord C3 dienst voertuigen toegelaten.",
+        "bicycle": "yes",
+        "description": "bord C3 dienstvoertuigen toegelaten.",
         "foot": "yes",
         "highway": "track",
         "horse": "no",
         "motor_vehicle": "private",
+        "note": "bicycle yes: ignore C3 as cycle routes pass trough!",
         "surface": "compacted",
         "traffic_sign": "BE:C3",
         "vehicle": "private",
@@ -7650,7 +7656,9 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Oudenakenstraat",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/39325649"
       },
       "geometry": {
@@ -7781,8 +7789,11 @@
       "properties": {
         "highway": "unclassified",
         "lanes": "1",
+        "maxspeed": "50",
         "name": "Hemelrijkstraat",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/39330604"
       },
       "geometry": {
@@ -7813,7 +7824,10 @@
       "properties": {
         "highway": "unclassified",
         "lanes": "1",
+        "maxspeed": "50",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/39330605"
       },
       "geometry": {
@@ -9123,8 +9137,11 @@
       "id": "way/39448939",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Molenborrestraat",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/39448939"
       },
       "geometry": {
@@ -9170,9 +9187,12 @@
       "id": "way/39448942",
       "properties": {
         "highway": "track",
+        "maxspeed": "50",
         "name": "Sint-Laureinsstraat",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
         "tracktype": "grade2",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/39448942"
       },
       "geometry": {
@@ -9209,7 +9229,9 @@
         "maxspeed": "50",
         "name": "Postweg",
         "oneway": "no",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/39448944"
       },
       "geometry": {
@@ -15506,6 +15528,10 @@
             50.8026575
           ],
           [
+            3.9662264,
+            50.8027623
+          ],
+          [
             3.9661142,
             50.8028786
           ],
@@ -15534,8 +15560,8 @@
             50.8031069
           ],
           [
-            3.9656763,
-            50.8031759
+            3.9656817,
+            50.8031767
           ],
           [
             3.9656279,
@@ -16585,7 +16611,9 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Jaak Calloensstraat",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/88010586"
       },
       "geometry": {
@@ -16681,7 +16709,9 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Oudenakenstraat",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/88010602"
       },
       "geometry": {
@@ -16910,16 +16940,20 @@
             50.8038108
           ],
           [
-            3.9657973,
-            50.8040334
+            3.9656947,
+            50.8040131
           ],
           [
-            3.9660955,
-            50.8041263
+            3.9660948,
+            50.8041318
           ],
           [
-            3.9663828,
-            50.8042421
+            3.9663198,
+            50.8042222
+          ],
+          [
+            3.9664943,
+            50.8043028
           ],
           [
             3.966847,
@@ -32020,8 +32054,9 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Ferdinand Uylenbroeckstraat",
-        "source:maxspeed": "BE:zone50",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/257376309"
       },
       "geometry": {
@@ -35169,8 +35204,11 @@
         "cutting": "yes",
         "highway": "unclassified",
         "lanes": "1",
+        "maxspeed": "50",
         "name": "Hemelrijkstraat",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/365297837"
       },
       "geometry": {
@@ -35193,8 +35231,11 @@
       "properties": {
         "highway": "unclassified",
         "lanes": "1",
+        "maxspeed": "50",
         "name": "Hemelrijkstraat",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/365297838"
       },
       "geometry": {
@@ -44704,9 +44745,12 @@
       "id": "way/1107240813",
       "properties": {
         "highway": "track",
+        "maxspeed": "50",
         "name": "Sint-Laureinsstraat",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "compacted",
         "tracktype": "grade2",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/1107240813"
       },
       "geometry": {
@@ -44995,7 +45039,8 @@
         "maxspeed": "50",
         "name": "Ferdinand Uylenbroeckstraat",
         "oneway": "yes",
-        "source:maxspeed": "BE:zone50",
+        "source:maxspeed": "BE-VLG:zone50",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/1130573073"
       },
       "geometry": {
@@ -45348,6 +45393,33 @@
           [
             4.3025513,
             50.7666995
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1292406422",
+      "properties": {
+        "highway": "residential",
+        "name": "Hoogstraat",
+        "surface": "grass",
+        "id": "way/1292406422"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.2376811,
+            50.7841685
+          ],
+          [
+            4.2375105,
+            50.7841035
+          ],
+          [
+            4.2373839,
+            50.7840798
           ]
         ]
       }
