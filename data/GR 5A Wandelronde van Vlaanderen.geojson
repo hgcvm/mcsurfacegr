@@ -76998,6 +76998,8 @@
         "cyclestreet": "yes",
         "cycleway": "opposite",
         "highway": "residential",
+        "lanes": "0",
+        "maxspeed": "30",
         "name": "Rijkenhoek",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -80624,11 +80626,12 @@
         "access": "destination",
         "agricultural": "yes",
         "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
         "horse": "yes",
         "maxspeed": "30",
         "mtb:scale": "0",
-        "surface": "gravel",
+        "surface": "concrete",
         "tracktype": "grade2",
         "id": "way/31720620"
       },
@@ -80682,7 +80685,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Kasteelstraat",
-        "surface": "paving_stones",
+        "surface": "asphalt",
         "id": "way/31720629"
       },
       "geometry": {
@@ -180363,10 +180366,6 @@
           [
             3.2252864,
             51.2055972
-          ],
-          [
-            3.2252554,
-            51.2056179
           ]
         ]
       }
@@ -183761,6 +183760,34 @@
           [
             3.2270677,
             51.2070094
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1293284243",
+      "properties": {
+        "highway": "footway",
+        "lit": "yes",
+        "name": "Groeninge",
+        "sett:pattern": "arc",
+        "surface": "sett",
+        "tactile_paving": "yes",
+        "wikidata": "Q1958773",
+        "wikipedia": "nl:Groeninge",
+        "id": "way/1293284243"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2252864,
+            51.2055972
+          ],
+          [
+            3.2252554,
+            51.2056179
           ]
         ]
       }

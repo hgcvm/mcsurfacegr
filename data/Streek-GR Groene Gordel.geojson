@@ -10650,7 +10650,7 @@
         "highway": "path",
         "horse": "no",
         "name": "O.L.V. van Loretopad",
-        "surface": "ground",
+        "surface": "fine_gravel",
         "id": "way/35401506"
       },
       "geometry": {
@@ -10716,7 +10716,7 @@
         "highway": "path",
         "horse": "no",
         "name": "O.L.V. van Loretopad",
-        "surface": "ground",
+        "surface": "fine_gravel",
         "width": "1.5",
         "id": "way/35401507"
       },
@@ -33732,7 +33732,7 @@
         "mofa": "yes",
         "motor_vehicle": "no",
         "speed_pedelec": "designated",
-        "surface": "asphalt",
+        "surface": "metal",
         "traffic_sign": "BE:C3,BE:M12_nl",
         "vehicle": "destination",
         "vehicle:conditional": "yes @ permit",
@@ -34130,6 +34130,8 @@
         "horse": "yes",
         "mapillary": "https://www.mapillary.com/app/?lat=50.96105371583337&lng=4.457586882499982&z=20&pKey=4Q8sCjRAze_cFdNRXehaYQ&focus=photo",
         "oneway": "no",
+        "segregated": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/522555192"
       },
@@ -34179,8 +34181,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4580897,
-            50.9619029
+            4.4580377,
+            50.9619369
+          ],
+          [
+            4.4579707,
+            50.9619691
           ],
           [
             4.4577964,
@@ -36521,7 +36527,7 @@
       "type": "Feature",
       "id": "way/580578715",
       "properties": {
-        "highway": "tertiary",
+        "highway": "residential",
         "maxspeed": "50",
         "maxweight": "3.5 t",
         "name": "Boektsestraat",
@@ -36550,7 +36556,7 @@
       "type": "Feature",
       "id": "way/580578717",
       "properties": {
-        "highway": "tertiary",
+        "highway": "residential",
         "maxspeed": "50",
         "maxweight": "3.5 t",
         "name": "Hoogstraat",
@@ -37691,6 +37697,7 @@
         "mofa": "yes",
         "motor_vehicle": "no",
         "name": "Weerdemolenvoetweg",
+        "smoothness": "excellent",
         "speed_pedelec": "designated",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,BE:M12_nl",
@@ -37751,9 +37758,14 @@
       "type": "Feature",
       "id": "way/627999404",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Spoorwegstraat",
+        "sidewalk": "left",
+        "sidewalk:left:surface": "paving_stones",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/627999404"
       },
@@ -37787,6 +37799,7 @@
         "highway": "service",
         "maxspeed": "10",
         "mofa": "yes",
+        "smoothness": "excellent",
         "speed_pedelec": "designated",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,BE:M12_nl",
@@ -37798,8 +37811,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4580897,
-            50.9619029
+            4.4580377,
+            50.9619369
           ],
           [
             4.4581237,
@@ -40021,6 +40034,7 @@
         "mapillary": "https://www.mapillary.com/app/?lat=50.961562245833306&lng=4.4585674813888545&z=20&pKey=pBvFOlyQLRW4GaE0BZkifQ&focus=photo",
         "maxspeed": "10",
         "mofa": "yes",
+        "smoothness": "excellent",
         "speed_pedelec": "designated",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,BE:M12_nl",
