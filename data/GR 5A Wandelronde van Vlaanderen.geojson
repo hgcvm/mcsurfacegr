@@ -8252,7 +8252,6 @@
       "type": "Feature",
       "id": "way/26718861",
       "properties": {
-        "bicycle": "no",
         "highway": "path",
         "lit": "no",
         "smoothness": "intermediate",
@@ -8618,7 +8617,6 @@
       "type": "Feature",
       "id": "way/26763748",
       "properties": {
-        "bicycle": "no",
         "highway": "footway",
         "lit": "no",
         "smoothness": "intermediate",
@@ -11031,7 +11029,6 @@
       "type": "Feature",
       "id": "way/28881291",
       "properties": {
-        "bicycle": "no",
         "highway": "path",
         "lit": "no",
         "surface": "compacted",
@@ -19806,7 +19803,6 @@
       "type": "Feature",
       "id": "way/40327347",
       "properties": {
-        "bicycle": "no",
         "highway": "path",
         "lit": "no",
         "id": "way/40327347"
@@ -37377,7 +37373,6 @@
       "type": "Feature",
       "id": "way/165572405",
       "properties": {
-        "bicycle": "no",
         "highway": "footway",
         "lit": "no",
         "id": "way/165572405"
@@ -40804,12 +40799,9 @@
       "type": "Feature",
       "id": "way/219046120",
       "properties": {
-        "bicycle": "yes",
         "highway": "path",
-        "horse": "no",
         "surface": "concrete",
-        "traffic_sign": "BE:C3+M2",
-        "vehicle": "no",
+        "traffic_sign": "BE:C3,BE:M2_nl",
         "id": "way/219046120"
       },
       "geometry": {
@@ -41023,17 +41015,38 @@
       "type": "Feature",
       "id": "way/219046179",
       "properties": {
-        "bicycle": "yes",
         "highway": "path",
-        "horse": "no",
         "surface": "asphalt",
-        "traffic_sign": "BE:C3+M2",
-        "vehicle": "no",
+        "traffic_sign": "BE:C3",
         "id": "way/219046179"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            2.8342997,
+            51.1957035
+          ],
+          [
+            2.8340422,
+            51.1955739
+          ],
+          [
+            2.8338192,
+            51.1954583
+          ],
+          [
+            2.8337409,
+            51.1954038
+          ],
+          [
+            2.8333992,
+            51.1951374
+          ],
+          [
+            2.8333154,
+            51.1951085
+          ],
           [
             2.833239,
             51.1950944
@@ -41334,7 +41347,6 @@
       "type": "Feature",
       "id": "way/219046206",
       "properties": {
-        "bicycle": "no",
         "highway": "path",
         "lit": "no",
         "surface": "compacted",
@@ -53270,7 +53282,6 @@
       "type": "Feature",
       "id": "way/451082488",
       "properties": {
-        "bicycle": "no",
         "highway": "path",
         "lit": "no",
         "surface": "paving_stones",
@@ -53298,7 +53309,6 @@
       "type": "Feature",
       "id": "way/451093428",
       "properties": {
-        "bicycle": "no",
         "highway": "footway",
         "lit": "no",
         "surface": "shells",
@@ -53370,7 +53380,6 @@
       "type": "Feature",
       "id": "way/451093429",
       "properties": {
-        "bicycle": "no",
         "highway": "footway",
         "lit": "no",
         "surface": "compacted",
@@ -70399,7 +70408,6 @@
       "type": "Feature",
       "id": "way/1154217522",
       "properties": {
-        "bicycle": "no",
         "highway": "path",
         "lit": "no",
         "surface": "compacted",
@@ -72010,7 +72018,6 @@
       "type": "Feature",
       "id": "way/1178806040",
       "properties": {
-        "bicycle": "no",
         "highway": "path",
         "lit": "no",
         "smoothness": "intermediate",
@@ -74175,49 +74182,6 @@
           [
             3.0426731,
             51.2761133
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1293092110",
-      "properties": {
-        "highway": "path",
-        "surface": "asphalt",
-        "traffic_sign": "BE:C3",
-        "id": "way/1293092110"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.8342997,
-            51.1957035
-          ],
-          [
-            2.8340422,
-            51.1955739
-          ],
-          [
-            2.8338192,
-            51.1954583
-          ],
-          [
-            2.8337409,
-            51.1954038
-          ],
-          [
-            2.8333992,
-            51.1951374
-          ],
-          [
-            2.8333154,
-            51.1951085
-          ],
-          [
-            2.833239,
-            51.1950944
           ]
         ]
       }
@@ -76998,8 +76962,6 @@
         "cyclestreet": "yes",
         "cycleway": "opposite",
         "highway": "residential",
-        "lanes": "0",
-        "maxspeed": "30",
         "name": "Rijkenhoek",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -80626,12 +80588,11 @@
         "access": "destination",
         "agricultural": "yes",
         "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
         "horse": "yes",
         "maxspeed": "30",
         "mtb:scale": "0",
-        "surface": "concrete",
+        "surface": "gravel",
         "tracktype": "grade2",
         "id": "way/31720620"
       },
@@ -80685,7 +80646,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Kasteelstraat",
-        "surface": "asphalt",
+        "surface": "paving_stones",
         "id": "way/31720629"
       },
       "geometry": {
@@ -100664,10 +100625,6 @@
           [
             2.6762832,
             50.8861053
-          ],
-          [
-            2.6763822,
-            50.8860353
           ],
           [
             2.6773958,
@@ -126224,6 +126181,18 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            3.9947521,
+            50.8743612
+          ],
+          [
+            3.9948674,
+            50.8741628
+          ],
+          [
+            3.994925,
+            50.8740646
+          ],
           [
             3.9949781,
             50.8739804
@@ -163653,48 +163622,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1293138048",
-      "properties": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "horse": "yes",
-        "incline": "down",
-        "motor_vehicle": "no",
-        "mtb:scale": "1",
-        "name": "Borrekensveldweg",
-        "official_vicinal_ref": "039_91_1",
-        "sac_scale": "hiking",
-        "source": "survey / GPS",
-        "surface": "concrete",
-        "width": "1",
-        "id": "way/1293138048"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.9947521,
-            50.8743612
-          ],
-          [
-            3.9948674,
-            50.8741628
-          ],
-          [
-            3.994925,
-            50.8740646
-          ],
-          [
-            3.9949781,
-            50.8739804
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/23166943",
       "properties": {
         "highway": "unclassified",
@@ -180366,6 +180293,10 @@
           [
             3.2252864,
             51.2055972
+          ],
+          [
+            3.2252554,
+            51.2056179
           ]
         ]
       }
@@ -183760,34 +183691,6 @@
           [
             3.2270677,
             51.2070094
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1293284243",
-      "properties": {
-        "highway": "footway",
-        "lit": "yes",
-        "name": "Groeninge",
-        "sett:pattern": "arc",
-        "surface": "sett",
-        "tactile_paving": "yes",
-        "wikidata": "Q1958773",
-        "wikipedia": "nl:Groeninge",
-        "id": "way/1293284243"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2252864,
-            51.2055972
-          ],
-          [
-            3.2252554,
-            51.2056179
           ]
         ]
       }

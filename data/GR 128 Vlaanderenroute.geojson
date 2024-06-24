@@ -34563,6 +34563,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
+        "horse": "no",
         "mtb:scale:imba": "0",
         "name": "Vontpad",
         "segregated": "no",
@@ -34571,6 +34572,7 @@
         "surface": "compacted",
         "tracktype": "grade3",
         "traffic_sign": "BE:C3,M11_nl",
+        "vehicle": "no",
         "id": "way/38922118"
       },
       "geometry": {
@@ -34628,11 +34630,14 @@
       "id": "way/38922230",
       "properties": {
         "bicycle": "yes",
-        "highway": "track",
+        "highway": "path",
+        "horse": "no",
         "name": "Vontpad",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
         "traffic_sign": "BE:C3,M11_nl,GIV[uitgezonderd landbouwvoertuigen]",
+        "vehicle": "no",
         "id": "way/38922230"
       },
       "geometry": {
@@ -51219,8 +51224,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.9088371,
-            50.8201443
+            2.9091867,
+            50.8202856
+          ],
+          [
+            2.9091826,
+            50.8202308
+          ],
+          [
+            2.9091022,
+            50.8201845
+          ],
+          [
+            2.9090179,
+            50.8201381
+          ],
+          [
+            2.9089914,
+            50.8200891
+          ],
+          [
+            2.9090036,
+            50.8200374
           ],
           [
             2.9100709,
@@ -56087,8 +56112,8 @@
             50.8203207
           ],
           [
-            2.9088371,
-            50.8201443
+            2.9091867,
+            50.8202856
           ]
         ]
       }
@@ -78034,7 +78059,7 @@
       "id": "way/183973674",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "30",
+        "maxspeed": "60",
         "motor_vehicle": "destination",
         "name": "Kattenroth / Heerbaan",
         "name:left": "Heerbaan",
@@ -92493,6 +92518,29 @@
     },
     {
       "type": "Feature",
+      "id": "way/342290165",
+      "properties": {
+        "highway": "cycleway",
+        "name": "Muizenberg",
+        "surface": "paved",
+        "id": "way/342290165"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.645466,
+            50.8296299
+          ],
+          [
+            5.6455735,
+            50.8296605
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/343316740",
       "properties": {
         "cycleway:both": "no",
@@ -102308,11 +102356,15 @@
       "type": "Feature",
       "id": "way/445007870",
       "properties": {
-        "highway": "track",
+        "bicycle": "yes",
+        "highway": "path",
+        "horse": "no",
         "name": "Vontpad",
+        "speed_pedelec": "yes",
         "surface": "unpaved",
         "tracktype": "grade2",
         "traffic_sign": "BE:C3,M11_nl,GIV[uitgezonderd landbouwvoertuigen]",
+        "vehicle": "no",
         "id": "way/445007870"
       },
       "geometry": {
@@ -112397,6 +112449,34 @@
     },
     {
       "type": "Feature",
+      "id": "way/706465844",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Muizenberg",
+        "shoulder": "no",
+        "surface": "asphalt",
+        "width": "5",
+        "id": "way/706465844"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6455735,
+            50.8296605
+          ],
+          [
+            5.6453419,
+            50.8299698
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/708084129",
       "properties": {
         "cycleway": "no",
@@ -115333,37 +115413,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6452411,
-            50.8299262
+            5.645466,
+            50.8296299
           ],
           [
             5.6450527,
             50.830183
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/781108945",
-      "properties": {
-        "highway": "path",
-        "id": "way/781108945"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.6453419,
-            50.8299698
-          ],
-          [
-            5.6452757,
-            50.8299412
-          ],
-          [
-            5.6452411,
-            50.8299262
           ]
         ]
       }
@@ -127103,11 +127158,14 @@
       "properties": {
         "bicycle": "yes",
         "highway": "track",
+        "horse": "no",
         "mtb:scale:imba": "0",
         "name": "Vontpad",
         "smoothness": "intermediate",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade3",
+        "vehicle": "no",
         "id": "way/1099857890"
       },
       "geometry": {
@@ -127280,6 +127338,7 @@
         "bicycle": "yes",
         "bridge": "yes",
         "highway": "path",
+        "horse": "no",
         "layer": "1",
         "mtb:scale:imba": "0",
         "name": "Vontpad",
@@ -127289,6 +127348,7 @@
         "surface": "concrete",
         "tracktype": "grade3",
         "traffic_sign": "BE:C3,M11_nl",
+        "vehicle": "no",
         "id": "way/1101647327"
       },
       "geometry": {
@@ -127311,6 +127371,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
+        "horse": "no",
         "mtb:scale:imba": "0",
         "name": "Vontpad",
         "segregated": "no",
@@ -127319,6 +127380,7 @@
         "surface": "compacted",
         "tracktype": "grade3",
         "traffic_sign": "BE:C3,M11_nl",
+        "vehicle": "no",
         "id": "way/1101647328"
       },
       "geometry": {
@@ -128731,6 +128793,7 @@
       "id": "way/1120287296",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "70",
         "name": "Ankelaarstraat",
         "oneway": "no",
@@ -140022,97 +140085,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/132026724",
-      "properties": {
-        "highway": "track",
-        "surface": "sand",
-        "tracktype": "grade3",
-        "id": "way/132026724"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.9349161,
-            50.7743658
-          ],
-          [
-            5.9348782,
-            50.7743037
-          ],
-          [
-            5.9346991,
-            50.7740138
-          ],
-          [
-            5.9346338,
-            50.7739084
-          ],
-          [
-            5.9345863,
-            50.7738506
-          ],
-          [
-            5.9345253,
-            50.7737938
-          ],
-          [
-            5.9344674,
-            50.7737408
-          ],
-          [
-            5.9343998,
-            50.7736854
-          ],
-          [
-            5.9343449,
-            50.7736441
-          ],
-          [
-            5.934294,
-            50.7736151
-          ],
-          [
-            5.9342126,
-            50.7735886
-          ],
-          [
-            5.9341601,
-            50.7735624
-          ],
-          [
-            5.9340725,
-            50.7735147
-          ],
-          [
-            5.9339945,
-            50.7734617
-          ],
-          [
-            5.9339226,
-            50.7734215
-          ],
-          [
-            5.9338864,
-            50.7733858
-          ],
-          [
-            5.9338796,
-            50.7733721
-          ],
-          [
-            5.9338704,
-            50.7733557
-          ],
-          [
-            5.9338597,
-            50.7733265
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/134431111",
       "properties": {
         "bicycle": "designated",
@@ -143986,29 +143958,6 @@
           [
             5.9336054,
             50.7767012
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/501296487",
-      "properties": {
-        "bicycle": "yes",
-        "highway": "path",
-        "mtb:scale": "0",
-        "sac_scale": "hiking",
-        "surface": "sand",
-        "trail_visibility": "intermediate",
-        "width": "0.5",
-        "id": "way/501296487"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.9336054,
-            50.7767012
           ],
           [
             5.9336301,
@@ -144041,6 +143990,78 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.9349161,
+            50.7743658
+          ],
+          [
+            5.9348782,
+            50.7743037
+          ],
+          [
+            5.9346991,
+            50.7740138
+          ],
+          [
+            5.9346338,
+            50.7739084
+          ],
+          [
+            5.9345863,
+            50.7738506
+          ],
+          [
+            5.9345253,
+            50.7737938
+          ],
+          [
+            5.9344674,
+            50.7737408
+          ],
+          [
+            5.9343998,
+            50.7736854
+          ],
+          [
+            5.9343449,
+            50.7736441
+          ],
+          [
+            5.934294,
+            50.7736151
+          ],
+          [
+            5.9342126,
+            50.7735886
+          ],
+          [
+            5.9341601,
+            50.7735624
+          ],
+          [
+            5.9340725,
+            50.7735147
+          ],
+          [
+            5.9339945,
+            50.7734617
+          ],
+          [
+            5.9339226,
+            50.7734215
+          ],
+          [
+            5.9338864,
+            50.7733858
+          ],
+          [
+            5.9338796,
+            50.7733721
+          ],
+          [
+            5.9338704,
+            50.7733557
+          ],
           [
             5.9338597,
             50.7733265

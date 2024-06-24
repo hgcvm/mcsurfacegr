@@ -3905,6 +3905,8 @@
         "maxspeed": "30",
         "name": "Stationsstraat",
         "surface": "asphalt",
+        "traffic_calming": "table",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/33126667"
       },
       "geometry": {
@@ -3934,6 +3936,7 @@
         "overtaking:motor_vehicle": "no",
         "source:maxspeed": "cyclestreet",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/33126786"
       },
       "geometry": {
@@ -6476,9 +6479,11 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Stationsstraat",
         "surface": "asphalt",
+        "traffic_calming": "table",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/38537623"
       },
       "geometry": {
@@ -6493,8 +6498,8 @@
             50.7665956
           ],
           [
-            4.2705278,
-            50.7666275
+            4.2705454,
+            50.7666116
           ]
         ]
       }
@@ -6505,9 +6510,11 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
-        "maxspeed": "50",
+        "maxspeed": "70",
         "name": "Stationsstraat",
+        "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/38537624"
       },
       "geometry": {
@@ -8544,9 +8551,10 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Ferdinand Uylenbroeckstraat",
-        "source:maxspeed": "BE:zone50",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
         "vehicle": "destination",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/39448415"
       },
       "geometry": {
@@ -8587,10 +8595,12 @@
         "name:nl": "Bergensesteenweg",
         "oneway": "yes",
         "ref": "N6",
+        "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
         "toll:hgv": "yes",
         "wikidata": "Q43375172",
         "wikipedia": "nl:Bergensesteenweg",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/39448509"
       },
       "geometry": {
@@ -30959,11 +30969,13 @@
       "id": "way/221123864",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "30",
         "maxweight": "5.5",
         "maxweight:conditional": "none @ destination",
         "name": "Stationsstraat",
         "surface": "paving_stones",
         "traffic_calming": "table",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/221123864"
       },
       "geometry": {
@@ -33702,17 +33714,19 @@
         "cycleway": "track",
         "highway": "tertiary",
         "layer": "1",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Stationsstraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/316505687"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.2705278,
-            50.7666275
+            4.2705454,
+            50.7666116
           ],
           [
             4.2703777,
@@ -33727,9 +33741,13 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
-        "maxspeed": "50",
+        "maxspeed:backward": "30",
+        "maxspeed:forward": "50",
         "name": "Stationsstraat",
+        "source:maxspeed:backward": "sign",
+        "source:maxspeed:forward": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/316505688"
       },
       "geometry": {
@@ -33740,8 +33758,8 @@
             50.7667514
           ],
           [
-            4.2701575,
-            50.7669349
+            4.2702374,
+            50.7668709
           ]
         ]
       }
@@ -36607,8 +36625,10 @@
       "id": "way/418663569",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "30",
+        "maxspeed": "50",
         "name": "Vaartweg",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/418663569"
       },
       "geometry": {
@@ -37911,8 +37931,11 @@
       "id": "way/487810083",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Sashoek",
         "oneway": "yes",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/487810083"
       },
       "geometry": {
@@ -41679,7 +41702,10 @@
       "id": "way/761540539",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Sashoek",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/761540539"
       },
       "geometry": {
@@ -43490,8 +43516,9 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Ferdinand Uylenbroeckstraat",
-        "source:maxspeed": "BE:zone50",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/929198597"
       },
       "geometry": {
@@ -43557,12 +43584,13 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "maxweight": "5.5",
         "maxweight:conditional": "none @ destination",
         "name": "Jozef Huysmanslaan",
         "surface": "paving_stones",
         "traffic_calming": "table",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/940899253"
       },
       "geometry": {
@@ -45423,6 +45451,31 @@
           [
             4.2373839,
             50.7840798
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1294754904",
+      "properties": {
+        "cycleway": "track",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Stationsstraat",
+        "surface": "asphalt",
+        "id": "way/1294754904"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.2702374,
+            50.7668709
+          ],
+          [
+            4.2701575,
+            50.7669349
           ]
         ]
       }

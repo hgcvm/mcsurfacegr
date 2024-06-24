@@ -156,6 +156,7 @@
         "horse": "yes",
         "lit": "no",
         "segregated": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/22956276"
       },
@@ -2533,8 +2534,13 @@
       "type": "Feature",
       "id": "way/31825685",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Majoor Van Lierdelaan",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/31825685"
       },
@@ -3026,10 +3032,12 @@
       "type": "Feature",
       "id": "way/32530819",
       "properties": {
+        "cycleway:both": "no",
         "embankment": "yes",
         "highway": "residential",
         "lanes": "1",
         "name": "Majoor Van Lierdelaan",
+        "surface": "sett",
         "id": "way/32530819"
       },
       "geometry": {
@@ -3052,6 +3060,7 @@
       "properties": {
         "highway": "cycleway",
         "lit": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/32530821"
       },
@@ -5947,6 +5956,7 @@
       "id": "way/51812713",
       "properties": {
         "bridge": "yes",
+        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "layer": "1",
@@ -14753,6 +14763,7 @@
       "id": "way/83019448",
       "properties": {
         "bridge": "movable",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "1",
         "layer": "1",
@@ -16253,12 +16264,14 @@
       "type": "Feature",
       "id": "way/86502366",
       "properties": {
+        "cycleway:both": "no",
         "embankment": "yes",
         "highway": "residential",
         "layer": "1",
         "maxspeed": "50",
         "maxspeed:type": "sign",
         "name": "Majoor Van Lierdelaan",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/86502366"
       },
@@ -16487,6 +16500,7 @@
         "horse": "yes",
         "lit": "no",
         "segregated": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/86502372"
       },
@@ -21088,6 +21102,7 @@
       "type": "Feature",
       "id": "way/103962746",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
         "name": "Zandbergenplein",
         "surface": "asphalt",
@@ -48824,6 +48839,8 @@
       "type": "Feature",
       "id": "way/1092797217",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "tertiary",
         "name": "Zandbergenplein",
         "surface": "asphalt",
