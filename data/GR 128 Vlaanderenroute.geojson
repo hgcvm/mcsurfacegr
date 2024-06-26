@@ -17601,7 +17601,7 @@
         "incline": "up",
         "maxspeed": "30",
         "motor_vehicle": "permit",
-        "name": "Scheldetragel",
+        "name": "Scheldekant",
         "segregated": "no",
         "surface": "asphalt",
         "tracktype": "grade1",
@@ -17640,7 +17640,7 @@
         "mofa": "yes",
         "moped": "no",
         "motor_vehicle": "permit",
-        "name": "Scheldetragel",
+        "name": "Scheldekant",
         "smoothness": "excellent",
         "surface": "asphalt",
         "towpath": "yes",
@@ -24835,7 +24835,7 @@
         "motor_vehicle": "no",
         "name": "Maastrichterallee",
         "oneway:mofa": "no",
-        "surface": "cobblestone",
+        "surface": "sett",
         "traffic_sign": "BE:C3,BE:M3_nl,BE:Type_IV_local_traffic_nl",
         "vehicle": "destination",
         "id": "way/35325850"
@@ -26725,6 +26725,7 @@
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Keiberg",
         "surface": "concrete",
@@ -39199,6 +39200,7 @@
       "id": "way/39225142",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "mofa:backward": "yes",
         "moped:backward": "yes",
         "motor_vehicle:backward": "no",
@@ -45404,6 +45406,7 @@
       "id": "way/40752370",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Mankemerriestraat",
         "surface": "asphalt",
         "id": "way/40752370"
@@ -45447,6 +45450,7 @@
       "id": "way/40760854",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Dentergemstraat",
         "surface": "asphalt",
         "id": "way/40760854"
@@ -53344,6 +53348,7 @@
         "highway": "track",
         "horse": "yes",
         "smoothness": "bad",
+        "surface": "dirt",
         "tracktype": "grade3",
         "traffic_sign": "BE:F99c",
         "id": "way/58507942"
@@ -55009,7 +55014,7 @@
       "properties": {
         "highway": "path",
         "horse": "no",
-        "surface": "unpaved",
+        "surface": "dirt",
         "vehicle": "no",
         "id": "way/62075818"
       },
@@ -120313,6 +120318,7 @@
       "id": "way/851180060",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Bergstraat",
         "surface": "asphalt",
         "id": "way/851180060"
@@ -120381,6 +120387,7 @@
       "properties": {
         "highway": "track",
         "surface": "compacted",
+        "tracktype": "grade2",
         "id": "way/851180061"
       },
       "geometry": {
@@ -131220,6 +131227,7 @@
       "id": "way/1175760628",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Mankemerriestraat",
         "surface": "asphalt",
         "id": "way/1175760628"
@@ -140085,97 +140093,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/132026724",
-      "properties": {
-        "highway": "track",
-        "surface": "sand",
-        "tracktype": "grade3",
-        "id": "way/132026724"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.9349161,
-            50.7743658
-          ],
-          [
-            5.9348782,
-            50.7743037
-          ],
-          [
-            5.9346991,
-            50.7740138
-          ],
-          [
-            5.9346338,
-            50.7739084
-          ],
-          [
-            5.9345863,
-            50.7738506
-          ],
-          [
-            5.9345253,
-            50.7737938
-          ],
-          [
-            5.9344674,
-            50.7737408
-          ],
-          [
-            5.9343998,
-            50.7736854
-          ],
-          [
-            5.9343449,
-            50.7736441
-          ],
-          [
-            5.934294,
-            50.7736151
-          ],
-          [
-            5.9342126,
-            50.7735886
-          ],
-          [
-            5.9341601,
-            50.7735624
-          ],
-          [
-            5.9340725,
-            50.7735147
-          ],
-          [
-            5.9339945,
-            50.7734617
-          ],
-          [
-            5.9339226,
-            50.7734215
-          ],
-          [
-            5.9338864,
-            50.7733858
-          ],
-          [
-            5.9338796,
-            50.7733721
-          ],
-          [
-            5.9338704,
-            50.7733557
-          ],
-          [
-            5.9338597,
-            50.7733265
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/134431111",
       "properties": {
         "bicycle": "designated",
@@ -140782,6 +140699,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.8898931,
+            50.7534799
+          ],
           [
             5.8899438,
             50.7534906
@@ -144045,29 +143966,6 @@
           [
             5.9336054,
             50.7767012
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/501296487",
-      "properties": {
-        "bicycle": "yes",
-        "highway": "path",
-        "mtb:scale": "0",
-        "sac_scale": "hiking",
-        "surface": "sand",
-        "trail_visibility": "intermediate",
-        "width": "0.5",
-        "id": "way/501296487"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.9336054,
-            50.7767012
           ],
           [
             5.9336301,
@@ -144100,6 +143998,78 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.9349161,
+            50.7743658
+          ],
+          [
+            5.9348782,
+            50.7743037
+          ],
+          [
+            5.9346991,
+            50.7740138
+          ],
+          [
+            5.9346338,
+            50.7739084
+          ],
+          [
+            5.9345863,
+            50.7738506
+          ],
+          [
+            5.9345253,
+            50.7737938
+          ],
+          [
+            5.9344674,
+            50.7737408
+          ],
+          [
+            5.9343998,
+            50.7736854
+          ],
+          [
+            5.9343449,
+            50.7736441
+          ],
+          [
+            5.934294,
+            50.7736151
+          ],
+          [
+            5.9342126,
+            50.7735886
+          ],
+          [
+            5.9341601,
+            50.7735624
+          ],
+          [
+            5.9340725,
+            50.7735147
+          ],
+          [
+            5.9339945,
+            50.7734617
+          ],
+          [
+            5.9339226,
+            50.7734215
+          ],
+          [
+            5.9338864,
+            50.7733858
+          ],
+          [
+            5.9338796,
+            50.7733721
+          ],
+          [
+            5.9338704,
+            50.7733557
+          ],
           [
             5.9338597,
             50.7733265
@@ -144320,27 +144290,6 @@
           [
             5.8922208,
             50.7552597
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/514000095",
-      "properties": {
-        "highway": "path",
-        "id": "way/514000095"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.8898931,
-            50.7534799
-          ],
-          [
-            5.8899438,
-            50.7534906
           ]
         ]
       }
@@ -163172,6 +163121,7 @@
       "id": "way/29042834",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Tichelrijstraat",
         "sidewalk": "both",
@@ -164399,6 +164349,7 @@
       "id": "way/187794179",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Clement Cartuyvelsstraat",
         "oneway": "yes",
