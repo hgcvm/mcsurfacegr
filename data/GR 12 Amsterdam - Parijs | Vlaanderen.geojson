@@ -3341,48 +3341,52 @@
       "type": "Feature",
       "id": "way/19782105",
       "properties": {
+        "bicycle": "dismount",
         "cycleway:both": "no",
+        "fixme": "vanaf 22 jun'24 wegenwerken - om op te volgen",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
+        "motor_vehicle": "no",
         "name": "Wolstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "sidewalk": "both",
-        "surface": "sett",
+        "smoothness": "horrible",
+        "surface": "unpaved",
         "id": "way/19782105"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4025469,
-            51.2216159
-          ],
-          [
-            4.4025855,
-            51.2216226
-          ],
-          [
-            4.4026635,
-            51.2216306
-          ],
-          [
-            4.4029061,
-            51.2216198
-          ],
-          [
-            4.4031856,
-            51.2215906
+            4.4036898,
+            51.2215272
           ],
           [
             4.4035824,
             51.2215402
           ],
           [
-            4.4036898,
-            51.2215272
+            4.4031856,
+            51.2215906
+          ],
+          [
+            4.4029061,
+            51.2216198
+          ],
+          [
+            4.4026635,
+            51.2216306
+          ],
+          [
+            4.4025855,
+            51.2216226
+          ],
+          [
+            4.4025469,
+            51.2216159
           ]
         ]
       }
@@ -3778,38 +3782,42 @@
       "type": "Feature",
       "id": "way/20413919",
       "properties": {
+        "bicycle": "dismount",
+        "fixme": "vanaf 22 jun'24 wegenwerken - om op te volgen",
         "highway": "residential",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
+        "motor_vehicle": "no",
         "name": "Wijngaardbrug",
         "oneway": "yes",
         "oneway:bicycle": "yes",
         "sidewalk": "both",
-        "surface": "sett",
+        "smoothness": "horrible",
+        "surface": "unpaved",
         "id": "way/20413919"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4047656,
-            51.2213338
-          ],
-          [
-            4.405036,
-            51.2212791
-          ],
-          [
-            4.4050389,
-            51.2212785
+            4.40517,
+            51.2212614
           ],
           [
             4.4051431,
             51.2212644
           ],
           [
-            4.40517,
-            51.2212614
+            4.4050389,
+            51.2212785
+          ],
+          [
+            4.405036,
+            51.2212791
+          ],
+          [
+            4.4047656,
+            51.2213338
           ]
         ]
       }
@@ -4084,6 +4092,10 @@
             51.2215445
           ],
           [
+            4.4023784,
+            51.2215361
+          ],
+          [
             4.4023454,
             51.2215319
           ],
@@ -4157,11 +4169,11 @@
         "lit": "yes",
         "maxspeed:zone": "yes",
         "name": "Parochiaanstraat",
+        "note": "bezocht 22 jun'24 : geen tijdsbeperking voertuigen (meer)",
+        "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:speed_pedelec": "no",
         "surface": "paving_stones",
-        "traffic_sign": "BE:C3,BE:M2",
-        "vehicle": "no",
-        "vehicle:conditional": "yes @ delivery; delivery @ (05:00-11:00,19:00-22:00)",
         "id": "way/20642054"
       },
       "geometry": {
@@ -9476,7 +9488,10 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Eikenstraat",
-        "noexit": "yes",
+        "noexit:bicycle": "no",
+        "noexit:motor_vehicle": "yes",
+        "noexit:pedestrian": "no",
+        "noexit:speed_pedelec": "no",
         "sidewalk": "no",
         "source:width": "ARCore",
         "surface": "paving_stones",
@@ -18642,7 +18657,7 @@
       "type": "Feature",
       "id": "way/424806793",
       "properties": {
-        "highway": "residential",
+        "highway": "living_street",
         "lit": "yes",
         "name": "Frans Halsplein",
         "name:etymology:wikidata": "Q167654",
@@ -18697,6 +18712,7 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Lange Nieuwstraat",
+        "note": "befietst , 22 jun'24 werd eenrichting omgedraaid.",
         "oneway": "yes",
         "oneway:bicycle": "yes",
         "sidewalk": "both",
@@ -18707,24 +18723,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4113386,
-            51.2194764
-          ],
-          [
-            4.4111331,
-            51.219491
-          ],
-          [
-            4.4110786,
-            51.2194956
+            4.4104141,
+            51.2195706
           ],
           [
             4.4109757,
             51.2195042
           ],
           [
-            4.4104141,
-            51.2195706
+            4.4110786,
+            51.2194956
+          ],
+          [
+            4.4111331,
+            51.219491
+          ],
+          [
+            4.4113386,
+            51.2194764
           ]
         ]
       }
@@ -18736,22 +18752,27 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Sint-Jacobsmarkt",
-        "oneway": "yes",
+        "note": "dit stukje weg ligt tussen twee eenrichtingsborden, is tweerichting fiets / speed-pedelec",
+        "oneway": "no",
         "oneway:bicycle": "yes",
         "sidewalk": "both",
-        "surface": "asphalt",
+        "surface": "concrete",
         "id": "way/424806797"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4114563,
-            51.2204175
-          ],
-          [
             4.4115596,
             51.2204002
+          ],
+          [
+            4.4115109,
+            51.2204084
+          ],
+          [
+            4.4114563,
+            51.2204175
           ]
         ]
       }
@@ -21626,16 +21647,20 @@
       "type": "Feature",
       "id": "way/496694452",
       "properties": {
+        "bicycle": "dismount",
         "cycleway:both": "no",
+        "fixme": "vanaf 22 jun'24 wegenwerken - om op te volgen",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
+        "motor_vehicle": "no",
         "name": "Wolstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "sidewalk": "both",
-        "surface": "asphalt",
+        "smoothness": "horrible",
+        "surface": "unpaved",
         "id": "way/496694452"
       },
       "geometry": {
