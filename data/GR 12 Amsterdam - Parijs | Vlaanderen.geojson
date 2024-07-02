@@ -4169,11 +4169,11 @@
         "lit": "yes",
         "maxspeed:zone": "yes",
         "name": "Parochiaanstraat",
+        "note": "bezocht 22 jun'24 : geen tijdsbeperking voertuigen (meer)",
+        "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:speed_pedelec": "no",
         "surface": "paving_stones",
-        "traffic_sign": "BE:C3,BE:M2",
-        "vehicle": "no",
-        "vehicle:conditional": "yes @ delivery; delivery @ (05:00-11:00,19:00-22:00)",
         "id": "way/20642054"
       },
       "geometry": {
@@ -9488,7 +9488,10 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Eikenstraat",
-        "noexit": "yes",
+        "noexit:bicycle": "no",
+        "noexit:motor_vehicle": "yes",
+        "noexit:pedestrian": "no",
+        "noexit:speed_pedelec": "no",
         "sidewalk": "no",
         "source:width": "ARCore",
         "surface": "paving_stones",
@@ -18654,7 +18657,7 @@
       "type": "Feature",
       "id": "way/424806793",
       "properties": {
-        "highway": "residential",
+        "highway": "living_street",
         "lit": "yes",
         "name": "Frans Halsplein",
         "name:etymology:wikidata": "Q167654",
@@ -18749,22 +18752,27 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Sint-Jacobsmarkt",
-        "oneway": "yes",
+        "note": "dit stukje weg ligt tussen twee eenrichtingsborden, is tweerichting fiets / speed-pedelec",
+        "oneway": "no",
         "oneway:bicycle": "yes",
         "sidewalk": "both",
-        "surface": "asphalt",
+        "surface": "concrete",
         "id": "way/424806797"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4114563,
-            51.2204175
-          ],
-          [
             4.4115596,
             51.2204002
+          ],
+          [
+            4.4115109,
+            51.2204084
+          ],
+          [
+            4.4114563,
+            51.2204175
           ]
         ]
       }
