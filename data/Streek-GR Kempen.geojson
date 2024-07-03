@@ -4460,6 +4460,7 @@
       "id": "way/35959960",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Hermelijnpad",
         "id": "way/35959960"
       },
@@ -22774,6 +22775,7 @@
       "id": "way/141109332",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Bosbergen",
         "id": "way/141109332"
       },
@@ -45510,6 +45512,7 @@
       "id": "way/685523906",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Eekhoornpad",
         "surface": "dirt",
         "id": "way/685523906"
@@ -51645,6 +51648,7 @@
       "id": "way/35976634",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "id": "way/35976634"
       },
       "geometry": {
@@ -53212,6 +53216,7 @@
       "id": "way/141112638",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "id": "way/141112638"
       },
       "geometry": {
@@ -54008,7 +54013,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "residential",
-        "maxspeed": "70",
+        "maxspeed": "50",
         "name": "Zeggendijk",
         "name:etymology:wikidata": "Q2531000",
         "sidewalk": "no",
@@ -54018,26 +54023,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.9500307,
-            51.1996088
-          ],
-          [
-            4.9499307,
-            51.1997077
-          ],
-          [
-            4.9494853,
-            51.200113
-          ],
-          [
-            4.9486777,
-            51.2008711
-          ],
-          [
-            4.948239,
-            51.2012918
-          ],
           [
             4.9454987,
             51.20381
@@ -54956,6 +54941,7 @@
       "id": "way/845516555",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "id": "way/845516555"
       },
       "geometry": {
@@ -56136,6 +56122,49 @@
     },
     {
       "type": "Feature",
+      "id": "way/1298145989",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "residential",
+        "maxspeed": "70",
+        "name": "Zeggendijk",
+        "name:etymology:wikidata": "Q2531000",
+        "sidewalk": "no",
+        "surface": "asphalt",
+        "id": "way/1298145989"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9500307,
+            51.1996088
+          ],
+          [
+            4.9499307,
+            51.1997077
+          ],
+          [
+            4.9494853,
+            51.200113
+          ],
+          [
+            4.9486777,
+            51.2008711
+          ],
+          [
+            4.948239,
+            51.2012918
+          ],
+          [
+            4.9454987,
+            51.20381
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/35957457",
       "properties": {
         "bicycle": "yes",
@@ -56464,6 +56493,7 @@
       "id": "way/107012909",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Belgiëlaan",
         "name:etymology:wikidata": "Q31",
         "id": "way/107012909"
@@ -56494,7 +56524,6 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Begijnhof",
-        "proposed:cyclestreet": "yes",
         "surface": "cobblestone",
         "id": "way/107682756"
       },
@@ -56894,7 +56923,6 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Begijnhof",
-        "proposed:cyclestreet": "yes",
         "surface": "cobblestone",
         "id": "way/241062818"
       },
@@ -56988,7 +57016,6 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Begijnhof",
-        "proposed:cyclestreet": "yes",
         "surface": "cobblestone",
         "tunnel": "building_passage",
         "id": "way/241062819"
@@ -57116,7 +57143,6 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Burchtstraat",
-        "proposed:cyclestreet": "yes",
         "id": "way/266912712"
       },
       "geometry": {
@@ -57141,7 +57167,6 @@
         "maxspeed": "30",
         "name": "Nederrij",
         "old_ref": "N123",
-        "proposed:cyclestreet": "yes",
         "id": "way/266912723"
       },
       "geometry": {
@@ -57178,7 +57203,6 @@
         "maxspeed": "30",
         "name": "Nederrij",
         "old_ref": "N123",
-        "proposed:cyclestreet": "yes",
         "id": "way/266912725"
       },
       "geometry": {
@@ -57461,6 +57485,7 @@
       "type": "Feature",
       "id": "way/297738712",
       "properties": {
+        "cyclestreet": "yes",
         "cycleway": "opposite",
         "highway": "residential",
         "maxspeed": "30",
@@ -57468,7 +57493,6 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
-        "proposed:cyclestreet": "yes",
         "surface": "sett",
         "id": "way/297738712"
       },
@@ -57517,6 +57541,7 @@
       "type": "Feature",
       "id": "way/297738714",
       "properties": {
+        "cyclestreet": "yes",
         "cycleway": "opposite",
         "highway": "residential",
         "lit": "yes",
@@ -57524,7 +57549,6 @@
         "name": "Vaartstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "proposed:cyclestreet": "yes",
         "surface": "sett",
         "id": "way/297738714"
       },
@@ -57582,12 +57606,12 @@
       "type": "Feature",
       "id": "way/297739457",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Nieuwstraat",
         "oneway": "yes",
-        "proposed:cyclestreet": "yes",
         "surface": "asphalt",
         "id": "way/297739457"
       },
@@ -58188,7 +58212,6 @@
         "maxspeed": "30",
         "name": "Nederrij",
         "old_ref": "N123",
-        "proposed:cyclestreet": "yes",
         "id": "way/1109674582"
       },
       "geometry": {

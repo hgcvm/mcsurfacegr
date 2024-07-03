@@ -81305,6 +81305,10 @@
             50.8719887
           ],
           [
+            4.7342905,
+            50.8718583
+          ],
+          [
             4.7344605,
             50.8717809
           ],
@@ -84190,6 +84194,9 @@
       "id": "way/233961409",
       "properties": {
         "bridge": "yes",
+        "cycleway": "track",
+        "cycleway:foot": "designated",
+        "cycleway:segregated": "no",
         "foot": "designated",
         "highway": "cycleway",
         "layer": "1",
@@ -101292,14 +101299,6 @@
           [
             2.9883289,
             50.8716721
-          ],
-          [
-            2.988276,
-            50.8716139
-          ],
-          [
-            2.9881974,
-            50.8715428
           ]
         ]
       }
@@ -111249,7 +111248,8 @@
       "type": "Feature",
       "id": "way/680688406",
       "properties": {
-        "highway": "path",
+        "construction": "path",
+        "highway": "construction",
         "surface": "dirt",
         "id": "way/680688406"
       },
@@ -132698,6 +132698,32 @@
     },
     {
       "type": "Feature",
+      "id": "way/1296443212",
+      "properties": {
+        "highway": "footway",
+        "surface": "grass",
+        "id": "way/1296443212"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.9883289,
+            50.8716721
+          ],
+          [
+            2.988276,
+            50.8716139
+          ],
+          [
+            2.9881974,
+            50.8715428
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/31347411",
       "properties": {
         "bridge": "yes",
@@ -138646,7 +138672,8 @@
         "highway": "service",
         "mtb:scale": "0",
         "name": "Harles",
-        "surface": "paved",
+        "oneway": "no",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "width": "3",
         "id": "way/106109751"
@@ -138773,6 +138800,7 @@
         "highway": "service",
         "motorcar": "destination",
         "motorcycle": "no",
+        "oneway": "no",
         "surface": "ground",
         "tracktype": "grade3",
         "width": "2",
