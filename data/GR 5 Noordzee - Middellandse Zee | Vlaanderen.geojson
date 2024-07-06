@@ -14892,7 +14892,6 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Noorderwijksebaan",
-        "proposed:cyclestreet": "yes",
         "id": "way/30216985"
       },
       "geometry": {
@@ -14933,14 +14932,6 @@
           [
             4.8340591,
             51.171451
-          ],
-          [
-            4.8342602,
-            51.1715536
-          ],
-          [
-            4.8344344,
-            51.1715818
           ]
         ]
       }
@@ -15221,13 +15212,13 @@
       "type": "Feature",
       "id": "way/31359331",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Rode-Kruisstraat",
         "name:etymology:wikidata": "Q7178",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "proposed:cyclestreet": "yes",
         "id": "way/31359331"
       },
       "geometry": {
@@ -17131,6 +17122,10 @@
             50.9677475
           ],
           [
+            5.0514633,
+            50.9676935
+          ],
+          [
             5.0515636,
             50.9675596
           ],
@@ -17139,16 +17134,36 @@
             50.9674414
           ],
           [
-            5.0518641,
-            50.9669053
+            5.051789,
+            50.9670619
           ],
           [
-            5.0519108,
-            50.9667712
+            5.0518536,
+            50.9669023
           ],
           [
-            5.0520552,
-            50.9663523
+            5.0519049,
+            50.9667678
+          ],
+          [
+            5.0520001,
+            50.9664818
+          ],
+          [
+            5.0520215,
+            50.9664455
+          ],
+          [
+            5.052049,
+            50.9664176
+          ],
+          [
+            5.052072,
+            50.9664021
+          ],
+          [
+            5.0521048,
+            50.9663883
           ]
         ]
       }
@@ -20862,13 +20877,13 @@
       "type": "Feature",
       "id": "way/35994835",
       "properties": {
+        "cyclestreet": "yes",
         "cycleway": "opposite",
         "highway": "residential",
         "maxspeed": "30",
         "name": "de Paepestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "proposed:cyclestreet": "yes",
         "id": "way/35994835"
       },
       "geometry": {
@@ -20970,11 +20985,11 @@
       "type": "Feature",
       "id": "way/36073533",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Bovenrij",
         "old_ref": "N13a",
-        "proposed:cyclestreet": "yes",
         "surface": "sett",
         "id": "way/36073533"
       },
@@ -21752,6 +21767,7 @@
         "highway": "track",
         "name": "Molenpad",
         "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/36866092"
       },
       "geometry": {
@@ -26569,7 +26585,9 @@
       "id": "way/125854403",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Honingstraat",
+        "surface": "asphalt",
         "id": "way/125854403"
       },
       "geometry": {
@@ -26591,7 +26609,9 @@
       "id": "way/125854409",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Honingstraat",
+        "surface": "asphalt",
         "id": "way/125854409"
       },
       "geometry": {
@@ -26670,6 +26690,7 @@
         "cycleway:right:oneway": "no",
         "cycleway:right:surface": "asphalt",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "maxspeed:type": "BE:zone50",
@@ -27872,10 +27893,12 @@
       "type": "Feature",
       "id": "way/141104395",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "lane_markings": "no",
+        "maxspeed": "30",
         "name": "Peerdsbosstraat",
-        "proposed:cyclestreet": "yes",
+        "overtaking:motor_vehicle": "no",
         "surface": "asphalt",
         "id": "way/141104395"
       },
@@ -40362,11 +40385,11 @@
       "type": "Feature",
       "id": "way/234004969",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Herenthoutseweg",
         "name:etymology:wikidata": "Q724534",
-        "proposed:cyclestreet": "yes",
         "id": "way/234004969"
       },
       "geometry": {
@@ -43289,6 +43312,7 @@
       "type": "Feature",
       "id": "way/297738712",
       "properties": {
+        "cyclestreet": "yes",
         "cycleway": "opposite",
         "highway": "residential",
         "maxspeed": "30",
@@ -43296,7 +43320,6 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
-        "proposed:cyclestreet": "yes",
         "surface": "sett",
         "id": "way/297738712"
       },
@@ -43345,6 +43368,7 @@
       "type": "Feature",
       "id": "way/297738714",
       "properties": {
+        "cyclestreet": "yes",
         "cycleway": "opposite",
         "highway": "residential",
         "lit": "yes",
@@ -43352,7 +43376,6 @@
         "name": "Vaartstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "proposed:cyclestreet": "yes",
         "surface": "sett",
         "id": "way/297738714"
       },
@@ -43410,12 +43433,12 @@
       "type": "Feature",
       "id": "way/297739457",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Nieuwstraat",
         "oneway": "yes",
-        "proposed:cyclestreet": "yes",
         "surface": "asphalt",
         "id": "way/297739457"
       },
@@ -45179,7 +45202,7 @@
         "foot": "no",
         "highway": "residential",
         "horse": "no",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Herenthoutseweg",
         "name:etymology:wikidata": "Q724534",
         "id": "way/372131408"
@@ -45210,10 +45233,10 @@
       "type": "Feature",
       "id": "way/372131409",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
         "name": "St.-Waldetrudisstraat",
-        "proposed:cyclestreet": "yes",
         "id": "way/372131409"
       },
       "geometry": {
@@ -53569,6 +53592,7 @@
       "id": "way/719433054",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "30",
         "name": "Olympiadelaan",
         "id": "way/719433054"
       },
@@ -57376,8 +57400,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0520552,
-            50.9663523
+            5.0521048,
+            50.9663883
+          ],
+          [
+            5.0520189,
+            50.9663404
           ],
           [
             5.0511212,
@@ -58356,10 +58384,10 @@
       "type": "Feature",
       "id": "way/957646671",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Kerkstraat",
-        "proposed:cyclestreet": "yes",
         "surface": "sett",
         "id": "way/957646671"
       },
@@ -64635,6 +64663,34 @@
           [
             5.3384148,
             50.9637322
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1298066207",
+      "properties": {
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Noorderwijksebaan",
+        "id": "way/1298066207"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8340591,
+            51.171451
+          ],
+          [
+            4.8342602,
+            51.1715536
+          ],
+          [
+            4.8344344,
+            51.1715818
           ]
         ]
       }
