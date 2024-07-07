@@ -2013,7 +2013,12 @@
       "type": "Feature",
       "id": "way/23588309",
       "properties": {
-        "highway": "track",
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "bridleway",
+        "horse": "yes",
+        "surface": "dirt",
         "id": "way/23588309"
       },
       "geometry": {
@@ -4460,6 +4465,7 @@
       "id": "way/35959960",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Hermelijnpad",
         "id": "way/35959960"
       },
@@ -22774,6 +22780,7 @@
       "id": "way/141109332",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Bosbergen",
         "id": "way/141109332"
       },
@@ -26719,8 +26726,10 @@
         "lanes": "2",
         "maxspeed": "70",
         "name": "Steenweg op Baarle-Hertog",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N119",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/187975059"
       },
       "geometry": {
@@ -45510,6 +45519,7 @@
       "id": "way/685523906",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Eekhoornpad",
         "surface": "dirt",
         "id": "way/685523906"
@@ -56490,6 +56500,7 @@
       "id": "way/107012909",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Belgiëlaan",
         "name:etymology:wikidata": "Q31",
         "id": "way/107012909"
@@ -56520,7 +56531,6 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Begijnhof",
-        "proposed:cyclestreet": "yes",
         "surface": "cobblestone",
         "id": "way/107682756"
       },
@@ -56920,7 +56930,6 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Begijnhof",
-        "proposed:cyclestreet": "yes",
         "surface": "cobblestone",
         "id": "way/241062818"
       },
@@ -57014,7 +57023,6 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Begijnhof",
-        "proposed:cyclestreet": "yes",
         "surface": "cobblestone",
         "tunnel": "building_passage",
         "id": "way/241062819"
@@ -57142,7 +57150,6 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Burchtstraat",
-        "proposed:cyclestreet": "yes",
         "id": "way/266912712"
       },
       "geometry": {
@@ -57167,7 +57174,6 @@
         "maxspeed": "30",
         "name": "Nederrij",
         "old_ref": "N123",
-        "proposed:cyclestreet": "yes",
         "id": "way/266912723"
       },
       "geometry": {
@@ -57204,7 +57210,6 @@
         "maxspeed": "30",
         "name": "Nederrij",
         "old_ref": "N123",
-        "proposed:cyclestreet": "yes",
         "id": "way/266912725"
       },
       "geometry": {
@@ -57487,6 +57492,7 @@
       "type": "Feature",
       "id": "way/297738712",
       "properties": {
+        "cyclestreet": "yes",
         "cycleway": "opposite",
         "highway": "residential",
         "maxspeed": "30",
@@ -57494,7 +57500,6 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
-        "proposed:cyclestreet": "yes",
         "surface": "sett",
         "id": "way/297738712"
       },
@@ -57543,6 +57548,7 @@
       "type": "Feature",
       "id": "way/297738714",
       "properties": {
+        "cyclestreet": "yes",
         "cycleway": "opposite",
         "highway": "residential",
         "lit": "yes",
@@ -57550,7 +57556,6 @@
         "name": "Vaartstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "proposed:cyclestreet": "yes",
         "surface": "sett",
         "id": "way/297738714"
       },
@@ -57608,12 +57613,12 @@
       "type": "Feature",
       "id": "way/297739457",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Nieuwstraat",
         "oneway": "yes",
-        "proposed:cyclestreet": "yes",
         "surface": "asphalt",
         "id": "way/297739457"
       },
@@ -58214,7 +58219,6 @@
         "maxspeed": "30",
         "name": "Nederrij",
         "old_ref": "N123",
-        "proposed:cyclestreet": "yes",
         "id": "way/1109674582"
       },
       "geometry": {

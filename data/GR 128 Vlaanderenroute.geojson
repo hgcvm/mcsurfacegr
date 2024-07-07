@@ -16718,6 +16718,7 @@
       "properties": {
         "highway": "track",
         "name": "Gat van Belham",
+        "surface": "ground",
         "tracktype": "grade3",
         "id": "way/29254073"
       },
@@ -51625,6 +51626,7 @@
       "properties": {
         "highway": "track",
         "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/53565031"
       },
       "geometry": {
@@ -63626,8 +63628,8 @@
             51.0561675
           ],
           [
-            3.7211828,
-            51.0557932
+            3.7211975,
+            51.0558004
           ]
         ]
       }
@@ -96846,7 +96848,7 @@
         "lanes": "1",
         "lit": "no",
         "name": "Gat van Belham",
-        "surface": "dirt",
+        "surface": "asphalt",
         "tracktype": "grade1",
         "id": "way/387425333"
       },
@@ -99443,6 +99445,8 @@
       "properties": {
         "embankment": "yes",
         "highway": "track",
+        "surface": "ground",
+        "tracktype": "grade2",
         "id": "way/423632302"
       },
       "geometry": {
@@ -105300,7 +105304,8 @@
       "id": "way/548756980",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
+        "surface": "ground",
+        "tracktype": "grade3",
         "id": "way/548756980"
       },
       "geometry": {
@@ -105321,8 +105326,13 @@
       "type": "Feature",
       "id": "way/548756981",
       "properties": {
+        "handrail": "yes",
         "highway": "steps",
+        "incline": "up",
+        "ramp": "no",
+        "step_count": "22",
         "surface": "concrete",
+        "tactile_paving": "no",
         "id": "way/548756981"
       },
       "geometry": {
@@ -105348,6 +105358,7 @@
         "foot": "yes",
         "highway": "track",
         "surface": "gravel",
+        "tracktype": "grade2",
         "id": "way/548756982"
       },
       "geometry": {
@@ -105478,8 +105489,10 @@
         "handrail": "no",
         "highway": "steps",
         "incline": "up",
+        "ramp": "no",
         "step_count": "30",
         "surface": "concrete",
+        "tactile_paving": "no",
         "width": "1.5",
         "id": "way/548767776"
       },
@@ -132686,6 +132699,34 @@
           [
             5.3760907,
             50.7954817
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1297645041",
+      "properties": {
+        "access": "no",
+        "bicycle": "no",
+        "highway": "path",
+        "horse": "no",
+        "name": "Vleeshuistragel",
+        "note": "This part of the \"Vleeshuistragel\" is closed since 2021, and will remain closed for many years (>2026?) due to restoration works of the building next to it",
+        "surface": "gravel",
+        "wikidata": "Q115809618",
+        "id": "way/1297645041"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7211975,
+            51.0558004
+          ],
+          [
+            3.7211828,
+            51.0557932
           ]
         ]
       }
