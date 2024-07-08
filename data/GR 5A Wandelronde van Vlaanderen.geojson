@@ -77914,11 +77914,12 @@
       "id": "way/26704203",
       "properties": {
         "highway": "residential",
+        "lanes": "1",
         "maxspeed": "50",
         "maxweight": "3.5",
         "name": "Broekkantstraat",
         "source:maxspeed": "BE-VLG:urban",
-        "surface": "compacted",
+        "surface": "asphalt",
         "id": "way/26704203"
       },
       "geometry": {
@@ -84760,6 +84761,7 @@
       "properties": {
         "embankment": "yes",
         "highway": "unclassified",
+        "name": "Killeweg",
         "surface": "asphalt",
         "id": "way/40567412"
       },
@@ -84820,6 +84822,7 @@
         "bicycle": "yes",
         "embankment": "yes",
         "highway": "cycleway",
+        "name": "Killeweg",
         "surface": "asphalt",
         "vehicle": "no",
         "id": "way/40569444"
@@ -111313,6 +111316,7 @@
       "properties": {
         "bicycle": "no",
         "highway": "path",
+        "horse": "no",
         "surface": "gravel",
         "id": "way/136022634"
       },
@@ -117318,7 +117322,7 @@
         "highway": "residential",
         "maxweight": "3.5",
         "name": "Broekkantstraat",
-        "surface": "compacted",
+        "surface": "asphalt",
         "id": "way/160722832"
       },
       "geometry": {
@@ -130066,20 +130070,28 @@
             50.7942688
           ],
           [
-            3.1408805,
-            50.7939704
+            3.1407705,
+            50.7940603
           ],
           [
-            3.1415886,
-            50.7937229
+            3.1412691,
+            50.7940206
+          ],
+          [
+            3.1415024,
+            50.7939002
+          ],
+          [
+            3.1416986,
+            50.7937178
           ],
           [
             3.1421572,
             50.7935737
           ],
           [
-            3.1422136,
-            50.7935597
+            3.1422404,
+            50.7935156
           ]
         ]
       }
@@ -159947,7 +159959,10 @@
         "highway": "track",
         "horse": "yes",
         "motor_vehicle": "no",
-        "surface": "gravel",
+        "smoothness": "bad",
+        "surface": "compacted",
+        "tracktype": "grade2",
+        "width": "3",
         "id": "way/1113008480"
       },
       "geometry": {
@@ -160457,6 +160472,14 @@
             50.7936463
           ],
           [
+            3.1438735,
+            50.7936468
+          ],
+          [
+            3.1432673,
+            50.7936477
+          ],
+          [
             3.1424356,
             50.793649
           ],
@@ -160465,8 +160488,8 @@
             50.7936109
           ],
           [
-            3.1422136,
-            50.7935597
+            3.1422404,
+            50.7935156
           ]
         ]
       }
@@ -181449,8 +181472,10 @@
         "motor_vehicle:conditional": "yes @ (Sa-Su 13:00-18:00)",
         "name": "Geldmuntstraat",
         "name:etymology:wikidata": "Q464780",
+        "old_ref:-2011": "N32",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "operator": "Stad Brugge",
         "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
