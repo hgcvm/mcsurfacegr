@@ -395,6 +395,7 @@
         "highway": "secondary",
         "maxspeed": "60",
         "name": "Groot Bedaf",
+        "operator": "Gemeente Baarle-Nassau",
         "surface": "asphalt",
         "zone:traffic": "NL:rural",
         "id": "way/7216253"
@@ -6029,7 +6030,9 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Kastanjelaan",
+        "surface": "concrete",
         "id": "way/37292569"
       },
       "geometry": {
@@ -7499,6 +7502,7 @@
       "id": "way/38375762",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
         "maxweight": "5",
         "maxweight:bus": "none",
         "maxweight:conditional": "none @ delivery",
@@ -12121,6 +12125,7 @@
       "id": "way/54571561",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
         "maxweight": "5",
         "name": "Dorpsstraat",
         "ref": "N153a",
@@ -17812,14 +17817,19 @@
         "highway": "track",
         "name": "Berkelheide",
         "surface": "gravel",
+        "tracktype": "grade4",
         "id": "way/89591381"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7992409,
-            51.2292234
+            4.7991271,
+            51.2292218
+          ],
+          [
+            4.799001,
+            51.2292172
           ],
           [
             4.7979878,
@@ -18175,7 +18185,9 @@
       "id": "way/89844627",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Varenstraat",
+        "surface": "asphalt",
         "id": "way/89844627"
       },
       "geometry": {
@@ -23983,6 +23995,7 @@
         "highway": "tertiary",
         "name": "Heihoefke",
         "ref": "N153a",
+        "surface": "concrete",
         "id": "way/151615632"
       },
       "geometry": {
@@ -30928,8 +30941,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7992409,
-            51.2292234
+            4.7991271,
+            51.2292218
           ],
           [
             4.8007463,
@@ -32675,7 +32688,9 @@
       "id": "way/276202060",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Bosstraat",
+        "surface": "paving_stones",
         "id": "way/276202060"
       },
       "geometry": {
@@ -38253,6 +38268,7 @@
       "properties": {
         "highway": "service",
         "name": "Heiend",
+        "surface": "fine_gravel",
         "id": "way/423211251"
       },
       "geometry": {
@@ -43874,6 +43890,8 @@
       "id": "way/685523816",
       "properties": {
         "highway": "track",
+        "surface": "ground",
+        "tracktype": "grade3",
         "id": "way/685523816"
       },
       "geometry": {
@@ -43911,6 +43929,7 @@
       "id": "way/685523817",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/685523817"
       },
       "geometry": {
