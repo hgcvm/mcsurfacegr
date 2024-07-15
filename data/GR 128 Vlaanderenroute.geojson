@@ -2410,6 +2410,7 @@
         "name": "Abdij van Park",
         "parking:both": "no",
         "sidewalk": "no",
+        "smoothness": "good",
         "speed_pedelec": "designated",
         "surface": "asphalt",
         "tracktype": "grade1",
@@ -2682,8 +2683,6 @@
       "type": "Feature",
       "id": "way/9904025",
       "properties": {
-        "access": "destination",
-        "bicycle": "yes",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
@@ -2697,16 +2696,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7324872,
-            50.8588836
+            4.7325715,
+            50.8588361
           ],
           [
-            4.7325846,
-            50.8587744
+            4.7325873,
+            50.8587771
           ],
           [
-            4.7326435,
-            50.8587203
+            4.7326156,
+            50.8587461
           ],
           [
             4.732902,
@@ -2741,8 +2740,10 @@
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Hoegaardsestraat",
+        "overtaking:motor_vehicle": "no",
         "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F111",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/9904031"
       },
@@ -6356,8 +6357,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.9506236,
-            50.8323144
+            2.9506244,
+            50.8323109
           ],
           [
             2.9505821,
@@ -29325,8 +29326,8 @@
             50.970774
           ],
           [
-            4.6279907,
-            50.9708513
+            4.6280017,
+            50.9708467
           ],
           [
             4.6275505,
@@ -29495,7 +29496,7 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Dijlekant",
-        "old_ref": "N286",
+        "ref": "N286",
         "source:maxspeed": "BE:zone50",
         "surface": "concrete",
         "width": "3",
@@ -29547,7 +29548,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Pastoriestraat",
-        "old_ref": "N286",
+        "ref": "N286",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "width": "4",
@@ -30046,16 +30047,24 @@
             50.9223886
           ],
           [
-            4.7256425,
-            50.9223377
+            4.7256072,
+            50.9223638
           ],
           [
-            4.725709,
-            50.9222706
+            4.7256446,
+            50.9223364
           ],
           [
-            4.7257378,
-            50.9221904
+            4.7256929,
+            50.9222914
+          ],
+          [
+            4.7257391,
+            50.9222516
+          ],
+          [
+            4.7257762,
+            50.9222225
           ]
         ]
       }
@@ -60011,8 +60020,10 @@
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Hoegaardsestraat",
+        "overtaking:motor_vehicle": "no",
         "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F111",
         "tunnel": "yes",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/93337264"
@@ -60046,8 +60057,10 @@
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Hoegaardsestraat",
+        "overtaking:motor_vehicle": "no",
         "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F111",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/93337266"
       },
@@ -60834,12 +60847,16 @@
             50.8316467
           ],
           [
-            2.950177,
-            50.83196
+            2.9501785,
+            50.8319755
           ],
           [
-            2.9506236,
-            50.8323144
+            2.9503835,
+            50.8321214
+          ],
+          [
+            2.9506244,
+            50.8323109
           ]
         ]
       }
@@ -63500,8 +63517,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9823724,
-            51.0367982
+            3.9823595,
+            51.0368381
           ],
           [
             3.9824138,
@@ -64230,20 +64247,24 @@
             50.9190967
           ],
           [
-            3.1239985,
-            50.9194887
+            3.1239969,
+            50.9194908
           ],
           [
             3.1241257,
             50.9195427
           ],
           [
+            3.1243616,
+            50.9196379
+          ],
+          [
             3.1245553,
             50.9196973
           ],
           [
-            3.1247309,
-            50.919757
+            3.1247369,
+            50.91975
           ],
           [
             3.1253602,
@@ -66547,24 +66568,28 @@
             51.0412573
           ],
           [
-            3.9839041,
-            51.0411578
+            3.9838844,
+            51.0411573
           ],
           [
-            3.9839924,
-            51.0411187
+            3.9839506,
+            51.0411359
           ],
           [
-            3.9840383,
-            51.0410983
+            3.9840391,
+            51.0410902
           ],
           [
-            3.9851855,
-            51.0404302
+            3.9851833,
+            51.0404264
           ],
           [
-            3.9853002,
-            51.0403705
+            3.9852343,
+            51.0404045
+          ],
+          [
+            3.9853107,
+            51.0403861
           ]
         ]
       }
@@ -68175,8 +68200,8 @@
             50.7876836
           ],
           [
-            2.8701411,
-            50.7877411
+            2.8701277,
+            50.7877398
           ]
         ]
       }
@@ -68224,10 +68249,6 @@
           [
             2.8794149,
             50.7881973
-          ],
-          [
-            2.8781564,
-            50.78766
           ]
         ]
       }
@@ -69143,16 +69164,19 @@
       "id": "way/139898734",
       "properties": {
         "access": "destination",
-        "bicycle": "yes",
+        "bicycle": "designated",
         "cutting": "yes",
+        "cyclestreet": "yes",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
         "lanes": "1",
         "lit": "yes",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Hoegaardsestraat",
+        "overtaking:motor_vehicle": "no",
         "surface": "sett",
+        "traffic_sign": "BE:F111",
         "id": "way/139898734"
       },
       "geometry": {
@@ -70435,8 +70459,8 @@
             51.040214
           ],
           [
-            3.9853002,
-            51.0403705
+            3.9853107,
+            51.0403861
           ]
         ]
       }
@@ -70490,6 +70514,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "track",
+        "name": "Sparrendreef",
         "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/145593086"
@@ -70502,20 +70527,32 @@
             51.0383309
           ],
           [
-            3.9837796,
-            51.0377693
+            3.9841475,
+            51.038061
+          ],
+          [
+            3.9837762,
+            51.037779
           ],
           [
             3.9834298,
             51.0375076
           ],
           [
+            3.9829489,
+            51.03718
+          ],
+          [
             3.9828829,
             51.037135
           ],
           [
-            3.9823724,
-            51.0367982
+            3.9824565,
+            51.0368626
+          ],
+          [
+            3.9823595,
+            51.0368381
           ]
         ]
       }
@@ -73615,12 +73652,16 @@
             50.8313392
           ],
           [
-            2.9502145,
-            50.8314949
+            2.950326,
+            50.8314632
           ],
           [
-            2.9498441,
-            50.8315718
+            2.9501872,
+            50.8314988
+          ],
+          [
+            2.949864,
+            50.8315632
           ],
           [
             2.9497379,
@@ -81440,10 +81481,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.8781564,
-            50.78766
-          ],
-          [
             2.8781178,
             50.7876527
           ],
@@ -81508,60 +81545,96 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.8701411,
-            50.7877411
+            2.8701277,
+            50.7877398
           ],
           [
-            2.8701803,
-            50.7873621
+            2.8701763,
+            50.7873625
           ],
           [
             2.8702648,
             50.786743
           ],
           [
-            2.870299,
-            50.7860722
+            2.8702976,
+            50.7860725
           ],
           [
-            2.8702977,
-            50.7858666
+            2.8702956,
+            50.785953
           ],
           [
-            2.8702564,
-            50.7857442
+            2.8702895,
+            50.7858669
           ],
           [
-            2.8701135,
-            50.7855556
+            2.8702667,
+            50.7857864
           ],
           [
-            2.8700296,
-            50.7854155
+            2.8702372,
+            50.7857236
           ],
           [
-            2.8699841,
-            50.7852435
+            2.8701916,
+            50.7856562
           ],
           [
-            2.8699606,
-            50.7851258
+            2.8701125,
+            50.7855549
+          ],
+          [
+            2.8700636,
+            50.7854875
+          ],
+          [
+            2.870024,
+            50.7854179
+          ],
+          [
+            2.8699918,
+            50.7853281
+          ],
+          [
+            2.8699724,
+            50.7852463
+          ],
+          [
+            2.8699449,
+            50.785125
+          ],
+          [
+            2.8699227,
+            50.7850012
           ],
           [
             2.8699057,
             50.7849218
           ],
           [
-            2.8698586,
-            50.7847884
+            2.8698879,
+            50.7848609
           ],
           [
-            2.8697644,
-            50.7846629
+            2.8698577,
+            50.7848007
           ],
           [
-            2.8696979,
-            50.7845258
+            2.8697652,
+            50.7846756
+          ],
+          [
+            2.8697229,
+            50.7845925
+          ],
+          [
+            2.8697028,
+            50.7845111
+          ],
+          [
+            2.8697149,
+            50.7844484
           ],
           [
             2.8700754,
@@ -94181,7 +94254,7 @@
         "name": "Dijlekant",
         "name:left": "Pastoriestraat",
         "name:right": "Dijlekant",
-        "old_ref": "N286",
+        "ref": "N286",
         "source:maxspeed": "BE:zone50",
         "surface": "concrete",
         "width": "3",
@@ -104267,12 +104340,12 @@
       "properties": {
         "bicycle": "designated",
         "cyclestreet": "yes",
+        "description": "the street has a lateral hump in the middle, cars are supposed to have their 2 left wheels on it",
         "foot": "yes",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Hoegaardsestraat",
-        "note": "the street has a lateral hump in the middle, cars are supposed to have their 2 left wheels on it",
         "overtaking:motor_vehicle": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
@@ -106091,7 +106164,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Pastoriestraat",
-        "old_ref": "N286",
+        "ref": "N286",
         "source:maxspeed": "BE:zone30",
         "surface": "cobblestone",
         "width": "4",
@@ -106345,7 +106418,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Pastoriestraat",
-        "old_ref": "N286",
+        "ref": "N286",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "width": "4",
@@ -110159,11 +110232,23 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7257378,
-            50.9221904
+            4.7257762,
+            50.9222225
           ],
           [
-            4.7260093,
+            4.7258263,
+            50.9221958
+          ],
+          [
+            4.725896,
+            50.9221772
+          ],
+          [
+            4.7259547,
+            50.9221699
+          ],
+          [
+            4.7260124,
             50.9221678
           ],
           [
@@ -118196,20 +118281,16 @@
             50.8598507
           ],
           [
-            4.7311957,
-            50.8596248
+            4.7311919,
+            50.8596197
           ],
           [
             4.7318325,
             50.8592691
           ],
           [
-            4.7323208,
-            50.8589744
-          ],
-          [
-            4.7324872,
-            50.8588836
+            4.7325715,
+            50.8588361
           ]
         ]
       }
@@ -122640,6 +122721,7 @@
         "motorcycle": "destination",
         "name": "IJzerenweg lijn 22",
         "railway": "abandoned",
+        "smoothness": "good",
         "surface": "concrete",
         "width": "2.5",
         "id": "way/907023097"
@@ -127529,7 +127611,7 @@
         "cycleway:right": "lane",
         "cycleway:right:oneway": "no",
         "highway": "tertiary",
-        "maxspeed": "70",
+        "maxspeed": "50",
         "name": "Pittemstraat",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
@@ -132755,6 +132837,53 @@
     },
     {
       "type": "Feature",
+      "id": "way/1299867254",
+      "properties": {
+        "highway": "track",
+        "surface": "grass",
+        "tracktype": "grade5",
+        "id": "way/1299867254"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8794149,
+            50.7881973
+          ],
+          [
+            2.8781564,
+            50.78766
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1299868156",
+      "properties": {
+        "bicycle": "no",
+        "highway": "path",
+        "horse": "no",
+        "surface": "dirt",
+        "id": "way/1299868156"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8781564,
+            50.78766
+          ],
+          [
+            2.8781178,
+            50.7876527
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/31347411",
       "properties": {
         "bridge": "yes",
@@ -137328,8 +137457,8 @@
             50.7531026
           ],
           [
-            6.0218261,
-            50.7530796
+            6.0218576,
+            50.7530546
           ],
           [
             6.0219023,
@@ -139168,16 +139297,16 @@
             50.7529675
           ],
           [
-            6.0222412,
-            50.7529557
+            6.0222814,
+            50.7529489
           ],
           [
-            6.0222948,
-            50.7529349
+            6.0223498,
+            50.7529179
           ],
           [
-            6.0223711,
-            50.7529054
+            6.0224844,
+            50.752857
           ],
           [
             6.0228821,
@@ -156145,6 +156274,7 @@
         "name": "Abdij van Park",
         "parking:both": "no",
         "sidewalk": "no",
+        "smoothness": "good",
         "speed_pedelec": "designated",
         "surface": "asphalt",
         "tracktype": "grade1",
@@ -156744,6 +156874,7 @@
         "parking:right:fee": "no",
         "parking:right:orientation": "parallel",
         "sidewalk": "both",
+        "smoothness": "good",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/11614454"
@@ -156790,7 +156921,7 @@
         "oneway:bicycle": "no",
         "parking:lane:both": "no_parking",
         "sidewalk": "both",
-        "source": "survey",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/11614459"
       },
@@ -159558,6 +159689,7 @@
         "parking:both": "no",
         "shoulder": "no",
         "sidewalk": "no",
+        "smoothness": "bad",
         "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/114869077"
@@ -160979,6 +161111,7 @@
         "oneway:bicycle": "no",
         "parking:both": "no",
         "sidewalk": "right",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/370822528"
       },
@@ -161693,6 +161826,7 @@
         "name": "Abdij van Park",
         "parking:both": "no",
         "sidewalk": "no",
+        "smoothness": "bad",
         "surface": "sett",
         "tunnel": "building_passage",
         "zone:traffic": "BE-VLG:urban",
@@ -161729,6 +161863,7 @@
         "parking:both": "no",
         "shoulder": "no",
         "sidewalk": "no",
+        "smoothness": "bad",
         "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/773642168"
@@ -162779,6 +162914,7 @@
         "parking:right:fee": "no",
         "parking:right:orientation": "parallel",
         "sidewalk": "both",
+        "smoothness": "good",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1083999433"
@@ -162861,6 +162997,7 @@
         "parking:both": "no",
         "shoulder": "no",
         "sidewalk": "no",
+        "smoothness": "bad",
         "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1172748587"

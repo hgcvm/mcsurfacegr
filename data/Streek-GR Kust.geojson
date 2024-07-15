@@ -2023,6 +2023,7 @@
         "dog": "leashed",
         "foot": "yes",
         "highway": "path",
+        "operator": "Provincie West-Vlaanderen",
         "segregated": "no",
         "surface": "paving_stones",
         "id": "way/34664459"
@@ -3664,9 +3665,12 @@
       "type": "Feature",
       "id": "way/41533396",
       "properties": {
-        "highway": "residential",
+        "highway": "living_street",
+        "maxspeed": "20",
         "name": "Hendrikaplein",
         "oneway": "yes",
+        "oneway:bicycle": "no",
+        "source:maxspeed": "BE:living_street",
         "surface": "paving_stones",
         "id": "way/41533396"
       },
@@ -4024,6 +4028,7 @@
         "dog": "leashed",
         "foot": "yes",
         "highway": "path",
+        "operator": "Provincie West-Vlaanderen",
         "segregated": "no",
         "surface": "compacted",
         "id": "way/43026547"
@@ -4035,27 +4040,6 @@
             2.8479821,
             51.20023
           ],
-          [
-            2.8482969,
-            51.200391
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/43026548",
-      "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "segregated": "no",
-        "surface": "compacted",
-        "id": "way/43026548"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [
             2.8482969,
             51.200391
@@ -4087,33 +4071,6 @@
           [
             2.8490555,
             51.2003167
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/43063376",
-      "properties": {
-        "highway": "cycleway",
-        "segregated": "no",
-        "surface": "concrete",
-        "id": "way/43063376"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.8544721,
-            51.2018644
-          ],
-          [
-            2.8542016,
-            51.2017259
-          ],
-          [
-            2.853967,
-            51.2016134
           ]
         ]
       }
@@ -16769,9 +16726,11 @@
       "type": "Feature",
       "id": "way/141613499",
       "properties": {
+        "bicycle": "yes",
         "foot": "yes",
-        "highway": "cycleway",
-        "sidewalk": "both",
+        "highway": "path",
+        "operator": "Provincie West-Vlaanderen",
+        "segregated": "no",
         "surface": "concrete",
         "id": "way/141613499"
       },
@@ -24613,7 +24572,6 @@
       "id": "way/239427679",
       "properties": {
         "bicycle": "yes",
-        "cycleway": "no",
         "highway": "pedestrian",
         "lit": "yes",
         "name": "Zeedijk",
@@ -26532,6 +26490,7 @@
         "highway": "secondary",
         "name": "Leopold II Laan",
         "name:etymology:wikidata": "Q12967",
+        "operator": "Gemeente Koksijde",
         "ref": "N330",
         "source": "survey",
         "surface": "paving_stones",
@@ -27075,8 +27034,10 @@
       "type": "Feature",
       "id": "way/406478909",
       "properties": {
+        "bicycle": "yes",
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "path",
+        "operator": "Provincie West-Vlaanderen",
         "segregated": "no",
         "surface": "gravel",
         "id": "way/406478909"
@@ -28717,6 +28678,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
+        "operator": "Provincie West-Vlaanderen",
         "segregated": "no",
         "surface": "compacted",
         "id": "way/497105546"
@@ -28759,9 +28721,10 @@
       "type": "Feature",
       "id": "way/497105548",
       "properties": {
-        "bicycle": "no",
+        "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
+        "operator": "Provincie West-Vlaanderen",
         "surface": "gravel",
         "id": "way/497105548"
       },
@@ -37621,8 +37584,10 @@
       "type": "Feature",
       "id": "way/1119117644",
       "properties": {
+        "bicycle": "yes",
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "path",
+        "operator": "Provincie West-Vlaanderen",
         "segregated": "no",
         "surface": "concrete",
         "id": "way/1119117644"
@@ -37630,6 +37595,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            2.853967,
+            51.2016134
+          ],
+          [
+            2.8542016,
+            51.2017259
+          ],
           [
             2.8544721,
             51.2018644
@@ -40495,6 +40468,10 @@
           [
             2.824237,
             51.1902984
+          ],
+          [
+            2.8241864,
+            51.1903296
           ],
           [
             2.8240701,

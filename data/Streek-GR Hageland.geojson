@@ -96,6 +96,7 @@
         "name": "Abdij van Park",
         "parking:both": "no",
         "sidewalk": "no",
+        "smoothness": "good",
         "speed_pedelec": "designated",
         "surface": "asphalt",
         "tracktype": "grade1",
@@ -225,8 +226,6 @@
       "type": "Feature",
       "id": "way/9904025",
       "properties": {
-        "access": "destination",
-        "bicycle": "yes",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
@@ -240,16 +239,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7324872,
-            50.8588836
+            4.7325715,
+            50.8588361
           ],
           [
-            4.7325846,
-            50.8587744
+            4.7325873,
+            50.8587771
           ],
           [
-            4.7326435,
-            50.8587203
+            4.7326156,
+            50.8587461
           ],
           [
             4.732902,
@@ -284,8 +283,10 @@
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Hoegaardsestraat",
+        "overtaking:motor_vehicle": "no",
         "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F111",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/9904031"
       },
@@ -8037,8 +8038,8 @@
             50.9868551
           ],
           [
-            5.0634921,
-            50.9869719
+            5.063506,
+            50.9869814
           ]
         ]
       }
@@ -8055,20 +8056,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0634921,
-            50.9869719
+            5.063506,
+            50.9869814
           ],
           [
-            5.0634579,
-            50.9870241
+            5.063483,
+            50.9870185
           ],
           [
-            5.0634379,
-            50.9870479
+            5.0634518,
+            50.9870585
           ],
           [
-            5.0634053,
-            50.9870704
+            5.063428,
+            50.9870775
           ]
         ]
       }
@@ -12065,8 +12066,9 @@
       "id": "way/39304210",
       "properties": {
         "bicycle": "yes",
+        "construction": "track",
         "designation": "towpath",
-        "highway": "track",
+        "highway": "construction",
         "mofa": "yes",
         "smoothness": "bad",
         "surface": "pebblestone",
@@ -15464,6 +15466,7 @@
       "properties": {
         "highway": "cycleway",
         "lit": "no",
+        "smoothness": "good",
         "surface": "sett",
         "width": "3",
         "id": "way/58804208"
@@ -15472,8 +15475,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0726374,
-            50.9757003
+            5.072631,
+            50.9757065
           ],
           [
             5.0726511,
@@ -15488,12 +15491,12 @@
             50.975518
           ],
           [
-            5.072756,
-            50.9754276
+            5.0727658,
+            50.975394
           ],
           [
-            5.0727973,
-            50.9753464
+            5.0728173,
+            50.9753183
           ]
         ]
       }
@@ -17334,6 +17337,7 @@
       "type": "Feature",
       "id": "way/81759316",
       "properties": {
+        "embankment": "two_sided",
         "highway": "cycleway",
         "smoothness": "intermediate",
         "surface": "compacted",
@@ -17348,8 +17352,8 @@
             50.9747143
           ],
           [
-            5.0738728,
-            50.9746445
+            5.0738789,
+            50.9746441
           ],
           [
             5.0740867,
@@ -18164,8 +18168,10 @@
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Hoegaardsestraat",
+        "overtaking:motor_vehicle": "no",
         "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F111",
         "tunnel": "yes",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/93337264"
@@ -18199,8 +18205,10 @@
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Hoegaardsestraat",
+        "overtaking:motor_vehicle": "no",
         "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F111",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/93337266"
       },
@@ -19585,9 +19593,13 @@
       "type": "Feature",
       "id": "way/122955205",
       "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
         "maxwidth": "2",
-        "surface": "cobblestone",
+        "motor_vehicle": "destination",
+        "surface": "sett",
         "tracktype": "grade1",
         "width": "3",
         "id": "way/122955205"
@@ -19596,8 +19608,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0726374,
-            50.9757003
+            5.072631,
+            50.9757065
+          ],
+          [
+            5.0727181,
+            50.9757182
           ],
           [
             5.072785,
@@ -19616,12 +19632,12 @@
             50.9757167
           ],
           [
-            5.0731203,
-            50.9756946
+            5.0731439,
+            50.9756881
           ],
           [
-            5.0736503,
-            50.9753692
+            5.0736529,
+            50.9753695
           ],
           [
             5.0737511,
@@ -19940,8 +19956,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0727973,
-            50.9753464
+            5.0728173,
+            50.9753183
           ],
           [
             5.0728488,
@@ -20821,16 +20837,19 @@
       "id": "way/139898734",
       "properties": {
         "access": "destination",
-        "bicycle": "yes",
+        "bicycle": "designated",
         "cutting": "yes",
+        "cyclestreet": "yes",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
         "lanes": "1",
         "lit": "yes",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Hoegaardsestraat",
+        "overtaking:motor_vehicle": "no",
         "surface": "sett",
+        "traffic_sign": "BE:F111",
         "id": "way/139898734"
       },
       "geometry": {
@@ -39203,12 +39222,12 @@
       "properties": {
         "bicycle": "designated",
         "cyclestreet": "yes",
+        "description": "the street has a lateral hump in the middle, cars are supposed to have their 2 left wheels on it",
         "foot": "yes",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Hoegaardsestraat",
-        "note": "the street has a lateral hump in the middle, cars are supposed to have their 2 left wheels on it",
         "overtaking:motor_vehicle": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
@@ -41875,20 +41894,16 @@
             50.8598507
           ],
           [
-            4.7311957,
-            50.8596248
+            4.7311919,
+            50.8596197
           ],
           [
             4.7318325,
             50.8592691
           ],
           [
-            4.7323208,
-            50.8589744
-          ],
-          [
-            4.7324872,
-            50.8588836
+            4.7325715,
+            50.8588361
           ]
         ]
       }
@@ -43284,6 +43299,7 @@
         "motorcycle": "destination",
         "name": "IJzerenweg lijn 22",
         "railway": "abandoned",
+        "smoothness": "good",
         "surface": "concrete",
         "width": "2.5",
         "id": "way/907023097"
@@ -45225,8 +45241,8 @@
             50.9871659
           ],
           [
-            5.0634053,
-            50.9870704
+            5.063428,
+            50.9870775
           ]
         ]
       }
