@@ -2749,6 +2749,33 @@
     },
     {
       "type": "Feature",
+      "id": "way/20445360",
+      "properties": {
+        "cycleway": "track",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Mechelseweg",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/20445360"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4487851,
+            51.0150996
+          ],
+          [
+            4.4488209,
+            51.0151
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/20982556",
       "properties": {
         "bicycle": "yes",
@@ -9079,8 +9106,8 @@
             51.0150464
           ],
           [
-            4.448793,
-            51.0150997
+            4.4487851,
+            51.0150996
           ]
         ]
       }
@@ -11891,8 +11918,8 @@
             51.0152859
           ],
           [
-            4.4497007,
-            51.0151068
+            4.4497003,
+            51.015109
           ]
         ]
       }
@@ -11902,12 +11929,17 @@
       "id": "way/33057918",
       "properties": {
         "bridge": "yes",
+        "change:lanes": "no|no",
         "cycleway": "track",
         "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
         "layer": "1",
         "maxspeed": "50",
         "motor_vehicle": "yes",
         "name": "Mechelseweg",
+        "sidewalk": "both",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/33057918"
@@ -11916,20 +11948,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.448793,
-            51.0150997
+            4.4488209,
+            51.0151
           ],
           [
-            4.4489445,
-            51.0151011
-          ],
-          [
-            4.4490191,
-            51.015102
-          ],
-          [
-            4.4495214,
-            51.0151071
+            4.4495337,
+            51.0151073
           ]
         ]
       }
@@ -11938,22 +11962,27 @@
       "type": "Feature",
       "id": "way/33057925",
       "properties": {
+        "change:lanes": "no|no",
         "cycleway": "track",
         "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Mechelseweg",
+        "sidewalk": "both",
         "id": "way/33057925"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4495214,
-            51.0151071
+            4.4495337,
+            51.0151073
           ],
           [
-            4.4496066,
-            51.0151086
+            4.4495855,
+            51.015108
           ]
         ]
       }
@@ -25581,22 +25610,27 @@
       "type": "Feature",
       "id": "way/124348628",
       "properties": {
+        "change:lanes": "no|no",
         "cycleway": "track",
         "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Mechelseweg",
+        "sidewalk": "both",
         "id": "way/124348628"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4496066,
-            51.0151086
+            4.4495855,
+            51.015108
           ],
           [
-            4.4497007,
-            51.0151068
+            4.4497003,
+            51.015109
           ]
         ]
       }
@@ -60772,15 +60806,13 @@
       "type": "Feature",
       "id": "way/23920212",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "unclassified",
+        "highway": "track",
         "incline": "down",
         "lanes": "1",
-        "motor_vehicle": "no",
         "name": "Bredeweg",
-        "smoothness": "intermediate",
+        "smoothness": "good",
         "surface": "concrete",
+        "tracktype": "grade1",
         "id": "way/23920212"
       },
       "geometry": {
@@ -60827,16 +60859,12 @@
             50.8325418
           ],
           [
-            4.595989,
-            50.8318571
+            4.5959948,
+            50.8318689
           ],
           [
-            4.5962401,
-            50.8317857
-          ],
-          [
-            4.5965236,
-            50.8317566
+            4.5963068,
+            50.8317791
           ]
         ]
       }
@@ -68490,6 +68518,33 @@
     },
     {
       "type": "Feature",
+      "id": "way/1301890498",
+      "properties": {
+        "highway": "track",
+        "incline": "down",
+        "lanes": "1",
+        "name": "Bredeweg",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "id": "way/1301890498"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5963068,
+            50.8317791
+          ],
+          [
+            4.5965236,
+            50.8317566
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/13269362",
       "properties": {
         "cycleway:both": "track",
@@ -68909,15 +68964,13 @@
       "type": "Feature",
       "id": "way/23920212",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "unclassified",
+        "highway": "track",
         "incline": "down",
         "lanes": "1",
-        "motor_vehicle": "no",
         "name": "Bredeweg",
-        "smoothness": "intermediate",
+        "smoothness": "good",
         "surface": "concrete",
+        "tracktype": "grade1",
         "id": "way/23920212"
       },
       "geometry": {
@@ -68964,16 +69017,12 @@
             50.8325418
           ],
           [
-            4.595989,
-            50.8318571
+            4.5959948,
+            50.8318689
           ],
           [
-            4.5962401,
-            50.8317857
-          ],
-          [
-            4.5965236,
-            50.8317566
+            4.5963068,
+            50.8317791
           ]
         ]
       }
@@ -78736,6 +78785,33 @@
     },
     {
       "type": "Feature",
+      "id": "way/1301890498",
+      "properties": {
+        "highway": "track",
+        "incline": "down",
+        "lanes": "1",
+        "name": "Bredeweg",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "id": "way/1301890498"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5963068,
+            50.8317791
+          ],
+          [
+            4.5965236,
+            50.8317566
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/4903158",
       "properties": {
         "access": "destination",
@@ -78907,6 +78983,33 @@
           [
             4.4749355,
             51.0234297
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/20445360",
+      "properties": {
+        "cycleway": "track",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Mechelseweg",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/20445360"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4487851,
+            51.0150996
+          ],
+          [
+            4.4488209,
+            51.0151
           ]
         ]
       }
@@ -82091,8 +82194,8 @@
             51.0150464
           ],
           [
-            4.448793,
-            51.0150997
+            4.4487851,
+            51.0150996
           ]
         ]
       }
@@ -83600,8 +83703,8 @@
             51.0152859
           ],
           [
-            4.4497007,
-            51.0151068
+            4.4497003,
+            51.015109
           ]
         ]
       }
@@ -83611,12 +83714,17 @@
       "id": "way/33057918",
       "properties": {
         "bridge": "yes",
+        "change:lanes": "no|no",
         "cycleway": "track",
         "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
         "layer": "1",
         "maxspeed": "50",
         "motor_vehicle": "yes",
         "name": "Mechelseweg",
+        "sidewalk": "both",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/33057918"
@@ -83625,20 +83733,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.448793,
-            51.0150997
+            4.4488209,
+            51.0151
           ],
           [
-            4.4489445,
-            51.0151011
-          ],
-          [
-            4.4490191,
-            51.015102
-          ],
-          [
-            4.4495214,
-            51.0151071
+            4.4495337,
+            51.0151073
           ]
         ]
       }
@@ -83647,22 +83747,27 @@
       "type": "Feature",
       "id": "way/33057925",
       "properties": {
+        "change:lanes": "no|no",
         "cycleway": "track",
         "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Mechelseweg",
+        "sidewalk": "both",
         "id": "way/33057925"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4495214,
-            51.0151071
+            4.4495337,
+            51.0151073
           ],
           [
-            4.4496066,
-            51.0151086
+            4.4495855,
+            51.015108
           ]
         ]
       }
@@ -85782,22 +85887,27 @@
       "type": "Feature",
       "id": "way/124348628",
       "properties": {
+        "change:lanes": "no|no",
         "cycleway": "track",
         "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Mechelseweg",
+        "sidewalk": "both",
         "id": "way/124348628"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4496066,
-            51.0151086
+            4.4495855,
+            51.015108
           ],
           [
-            4.4497007,
-            51.0151068
+            4.4497003,
+            51.015109
           ]
         ]
       }
@@ -91055,15 +91165,13 @@
       "type": "Feature",
       "id": "way/23920212",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "unclassified",
+        "highway": "track",
         "incline": "down",
         "lanes": "1",
-        "motor_vehicle": "no",
         "name": "Bredeweg",
-        "smoothness": "intermediate",
+        "smoothness": "good",
         "surface": "concrete",
+        "tracktype": "grade1",
         "id": "way/23920212"
       },
       "geometry": {
@@ -91110,16 +91218,12 @@
             50.8325418
           ],
           [
-            4.595989,
-            50.8318571
+            4.5959948,
+            50.8318689
           ],
           [
-            4.5962401,
-            50.8317857
-          ],
-          [
-            4.5965236,
-            50.8317566
+            4.5963068,
+            50.8317791
           ]
         ]
       }
@@ -92378,6 +92482,33 @@
           [
             4.5925915,
             50.8284789
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1301890498",
+      "properties": {
+        "highway": "track",
+        "incline": "down",
+        "lanes": "1",
+        "name": "Bredeweg",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "id": "way/1301890498"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5963068,
+            50.8317791
+          ],
+          [
+            4.5965236,
+            50.8317566
           ]
         ]
       }

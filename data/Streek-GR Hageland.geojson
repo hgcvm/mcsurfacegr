@@ -5832,6 +5832,7 @@
         "horse": "yes",
         "maxspeed": "30",
         "name": "Groenstraat",
+        "smoothness": "good",
         "surface": "concrete",
         "traffic_sign": "BE:F99c",
         "width": "3",
@@ -6566,6 +6567,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Groenstraat",
+        "smoothness": "good",
         "surface": "concrete",
         "width": "3",
         "id": "way/31543104"
@@ -6574,12 +6576,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0454996,
-            50.9054634
-          ],
-          [
-            5.0448233,
-            50.9051991
+            5.0446392,
+            50.9051257
           ],
           [
             5.042701,
@@ -13927,8 +13925,11 @@
       "id": "way/39586170",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
+        "name": "Voetweg 20",
+        "surface": "grass",
         "tracktype": "grade4",
+        "vicinal_ref": "Voetweg 20",
+        "vicinal_type": "path",
         "id": "way/39586170"
       },
       "geometry": {
@@ -13961,6 +13962,7 @@
         "horse": "yes",
         "maxspeed": "30",
         "name": "Groenstraat",
+        "smoothness": "good",
         "surface": "concrete",
         "traffic_sign": "BE:F99c",
         "id": "way/39586287"
@@ -14005,6 +14007,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Groenstraat",
+        "smoothness": "intermediate",
         "surface": "concrete",
         "id": "way/39586631"
       },
@@ -14020,96 +14023,44 @@
             50.905658
           ],
           [
-            5.0463644,
-            50.9057603
-          ],
-          [
             5.0466348,
             50.9058583
-          ],
-          [
-            5.0468229,
-            50.9059472
           ],
           [
             5.0469399,
             50.9060163
           ],
           [
-            5.0470239,
-            50.9060693
-          ],
-          [
-            5.0471332,
-            50.9061587
-          ],
-          [
-            5.0473481,
-            50.9063444
-          ],
-          [
             5.0476023,
             50.9065261
           ],
           [
-            5.0482227,
-            50.9069211
-          ],
-          [
-            5.0488129,
-            50.9073316
+            5.0482446,
+            50.90694
           ],
           [
             5.0488671,
             50.9073818
           ],
           [
-            5.0488928,
-            50.9074475
-          ],
-          [
             5.0488851,
             50.9075218
-          ],
-          [
-            5.0488468,
-            50.9076023
-          ],
-          [
-            5.0484242,
-            50.9083245
           ],
           [
             5.0483741,
             50.908422
           ],
           [
-            5.0483656,
-            50.9084937
-          ],
-          [
-            5.0483768,
-            50.9085819
-          ],
-          [
-            5.0484069,
-            50.9086881
-          ],
-          [
-            5.0484542,
-            50.9089443
-          ],
-          [
             5.0484628,
             50.9090538
           ],
           [
-            5.0484489,
-            50.9091785
-          ],
-          [
             5.0484023,
             50.9094034
+          ],
+          [
+            5.0483036,
+            50.9096637
           ]
         ]
       }
@@ -29458,6 +29409,7 @@
         "horse": "yes",
         "maxspeed": "30",
         "name": "Groenstraat",
+        "smoothness": "good",
         "surface": "concrete:lanes",
         "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
@@ -29476,14 +29428,6 @@
             50.9030611
           ],
           [
-            5.0380392,
-            50.9029913
-          ],
-          [
-            5.0379211,
-            50.9029048
-          ],
-          [
             5.0377261,
             50.9027862
           ],
@@ -29492,52 +29436,12 @@
             50.9026581
           ],
           [
-            5.0371217,
-            50.902521
-          ],
-          [
             5.0368367,
             50.9024106
           ],
           [
-            5.0364905,
-            50.9023017
-          ],
-          [
             5.0363139,
             50.9022451
-          ],
-          [
-            5.0359727,
-            50.9021521
-          ],
-          [
-            5.0350434,
-            50.9018985
-          ],
-          [
-            5.0346228,
-            50.9017778
-          ],
-          [
-            5.0343824,
-            50.9017164
-          ],
-          [
-            5.0339943,
-            50.9016104
-          ],
-          [
-            5.0334192,
-            50.9014609
-          ],
-          [
-            5.0326919,
-            50.9012788
-          ],
-          [
-            5.0316653,
-            50.9010081
           ],
           [
             5.0310536,
@@ -34452,8 +34356,12 @@
       "id": "way/356840813",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Borgveldstraat",
+        "smoothness": "good",
+        "source:maxspeed": "sign",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/356840813"
       },
       "geometry": {
@@ -46287,6 +46195,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Groenstraat",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/1114699399"
       },
@@ -46294,8 +46203,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0484023,
-            50.9094034
+            5.0483036,
+            50.9096637
           ],
           [
             5.0482852,
@@ -47826,6 +47735,31 @@
           [
             4.7826054,
             50.9518168
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1301834369",
+      "properties": {
+        "highway": "unclassified",
+        "name": "Groenstraat",
+        "smoothness": "intermediate",
+        "surface": "concrete",
+        "width": "3",
+        "id": "way/1301834369"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0454996,
+            50.9054634
+          ],
+          [
+            5.0446392,
+            50.9051257
           ]
         ]
       }

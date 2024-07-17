@@ -5347,19 +5347,25 @@
       "id": "way/47245907",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Wanstraat",
+        "surface": "asphalt",
         "id": "way/47245907"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.3039948,
-            51.2371709
+            5.304006,
+            51.23713
           ],
           [
             5.3040592,
             51.2372321
+          ],
+          [
+            5.3041214,
+            51.2373153
           ],
           [
             5.3041334,
@@ -5376,8 +5382,12 @@
       "type": "Feature",
       "id": "way/47245908",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Wanstraat",
+        "sidewalk": "both",
+        "surface": "asphalt",
         "id": "way/47245908"
       },
       "geometry": {
@@ -5388,12 +5398,12 @@
             51.2333961
           ],
           [
-            5.304645,
+            5.3046477,
             51.2341386
           ],
           [
-            5.304539,
-            51.2346433
+            5.3045327,
+            51.2346394
           ],
           [
             5.3043875,
@@ -5422,8 +5432,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.304177,
-            51.2435206
+            5.3041799,
+            51.2434908
+          ],
+          [
+            5.3041075,
+            51.2434718
           ],
           [
             5.3025813,
@@ -5480,6 +5494,7 @@
       "properties": {
         "highway": "residential",
         "name": "Rijtenstraat",
+        "surface": "paving_stones",
         "id": "way/47271571"
       },
       "geometry": {
@@ -5490,8 +5505,8 @@
             51.2402643
           ],
           [
-            5.3047684,
-            51.2402194
+            5.3047679,
+            51.2402136
           ]
         ]
       }
@@ -5501,7 +5516,9 @@
       "id": "way/47271576",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Heibergstraat",
+        "surface": "asphalt",
         "id": "way/47271576"
       },
       "geometry": {
@@ -9147,7 +9164,7 @@
       "type": "Feature",
       "id": "way/81282712",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "maxspeed": "60",
         "name": "Kluizerdijk",
         "surface": "gravel",
@@ -14647,7 +14664,7 @@
       "id": "way/164322826",
       "properties": {
         "cycleway:both": "no",
-        "highway": "unclassified",
+        "highway": "residential",
         "maxspeed": "60",
         "name": "Bruggerhuizen",
         "surface": "asphalt",
@@ -31699,6 +31716,7 @@
       "id": "way/315081730",
       "properties": {
         "highway": "path",
+        "surface": "paving_stones",
         "id": "way/315081730"
       },
       "geometry": {
@@ -31709,12 +31727,12 @@
             51.2404008
           ],
           [
-            5.3043584,
-            51.2403566
+            5.3043533,
+            51.2403527
           ],
           [
-            5.3046048,
-            51.2402615
+            5.3046033,
+            51.240257
           ],
           [
             5.3046336,
@@ -31728,22 +31746,23 @@
       "id": "way/315081731",
       "properties": {
         "highway": "path",
+        "surface": "paving_stones",
         "id": "way/315081731"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.3047684,
-            51.2402194
+            5.3047679,
+            51.2402136
           ],
           [
-            5.3047808,
-            51.240196
+            5.3047752,
+            51.2401941
           ],
           [
-            5.305155,
-            51.2398963
+            5.3051519,
+            51.2398944
           ],
           [
             5.3052234,
@@ -31864,7 +31883,9 @@
       "id": "way/315223299",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Speelpleinstraat",
+        "surface": "asphalt",
         "id": "way/315223299"
       },
       "geometry": {
@@ -31886,9 +31907,12 @@
       "id": "way/315223300",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
+        "maxweight": "3.5",
         "name": "Speelpleinstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "surface": "asphalt",
         "id": "way/315223300"
       },
       "geometry": {
@@ -31899,8 +31923,8 @@
             51.2444116
           ],
           [
-            5.304177,
-            51.2435206
+            5.3041799,
+            51.2434908
           ]
         ]
       }
@@ -41366,23 +41390,20 @@
         "highway": "path",
         "motor_vehicle": "no",
         "name": "Schoterweg",
-        "surface": "dirt/sand",
+        "smoothness": "very_bad",
+        "surface": "asphalt",
         "id": "way/530016532"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.0205022,
-            51.0664886
+            5.0202699,
+            51.0670045
           ],
           [
-            5.0204427,
-            51.0666307
-          ],
-          [
-            5.0203152,
-            51.0669411
+            5.0202666,
+            51.0670392
           ],
           [
             5.0202338,
@@ -41442,7 +41463,7 @@
         "motor_vehicle": "no",
         "name": "Schoterweg",
         "smoothness": "bad",
-        "surface": "dirt/sand",
+        "surface": "gravel",
         "id": "way/530016533"
       },
       "geometry": {
@@ -44655,8 +44676,12 @@
       "type": "Feature",
       "id": "way/668080909",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Wanstraat",
+        "sidewalk": "both",
+        "surface": "asphalt",
         "id": "way/668080909"
       },
       "geometry": {
@@ -44680,11 +44705,11 @@
           ],
           [
             5.3040267,
-            51.2369437
+            51.2369365
           ],
           [
-            5.3039948,
-            51.2371709
+            5.304006,
+            51.23713
           ]
         ]
       }
@@ -53721,6 +53746,37 @@
           [
             5.6746193,
             50.8325248
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1301852122",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "motor_vehicle": "no",
+        "name": "Schoterweg",
+        "smoothness": "intermediate",
+        "surface": "gravel",
+        "id": "way/1301852122"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0205022,
+            51.0664886
+          ],
+          [
+            5.0204427,
+            51.0666307
+          ],
+          [
+            5.0202699,
+            51.0670045
           ]
         ]
       }
