@@ -8312,7 +8312,6 @@
       "type": "Feature",
       "id": "way/38255092",
       "properties": {
-        "cycleway": "opposite",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -8328,20 +8327,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9714822,
-            51.2340904
+            4.9714715,
+            51.2341261
           ],
           [
-            4.9714205,
-            51.2340872
+            4.9713796,
+            51.2341044
           ],
           [
-            4.9713802,
-            51.2340604
+            4.9713534,
+            51.2340852
           ],
           [
-            4.9713565,
-            51.2340188
+            4.9713531,
+            51.2340175
           ],
           [
             4.9713578,
@@ -8378,14 +8377,12 @@
       "type": "Feature",
       "id": "way/38255449",
       "properties": {
-        "cycleway:left": "no",
-        "cycleway:right": "track",
+        "cycleway": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Doornboom",
-        "oneway": "no",
         "sidewalk": "right",
         "surface": "paving_stones",
         "id": "way/38255449"
@@ -13229,16 +13226,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9714822,
-            51.2340904
+            4.9714715,
+            51.2341261
           ],
           [
-            4.9715051,
-            51.234014
+            4.9715078,
+            51.2340006
           ],
           [
-            4.9715145,
-            51.2339827
+            4.9715373,
+            51.2338853
           ]
         ]
       }
@@ -13889,15 +13886,19 @@
         "highway": "track",
         "name": "Hoge Weg",
         "surface": "dirt",
-        "tracktype": "grade4",
+        "tracktype": "grade3",
         "id": "way/56311754"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.9394221,
-            51.2248793
+            4.9393349,
+            51.2248776
+          ],
+          [
+            4.9396004,
+            51.2248706
           ],
           [
             4.9401907,
@@ -13922,11 +13923,9 @@
       "type": "Feature",
       "id": "way/56311756",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
         "surface": "dirt",
-        "tracktype": "grade2",
+        "tracktype": "grade3",
         "id": "way/56311756"
       },
       "geometry": {
@@ -13980,7 +13979,8 @@
       "id": "way/56312161",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
         "id": "way/56312161"
       },
       "geometry": {
@@ -16475,7 +16475,7 @@
       "type": "Feature",
       "id": "way/102961065",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -17886,19 +17886,21 @@
       "type": "Feature",
       "id": "way/142585676",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
-        "surface": "ground",
-        "tracktype": "grade2",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/142585676"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.938238,
-            51.2284367
+            4.9382434,
+            51.2284972
+          ],
+          [
+            4.9382123,
+            51.2284299
           ],
           [
             4.9382862,
@@ -17940,16 +17942,16 @@
             51.226365
           ],
           [
-            4.9390492,
-            51.2261379
+            4.9390358,
+            51.2262101
           ],
           [
             4.9390588,
             51.2261101
           ],
           [
-            4.939061,
-            51.225873
+            4.9390503,
+            51.2258898
           ],
           [
             4.9391894,
@@ -17960,8 +17962,8 @@
             51.2249536
           ],
           [
-            4.9394221,
-            51.2248793
+            4.9393349,
+            51.2248776
           ]
         ]
       }
@@ -17970,12 +17972,10 @@
       "type": "Feature",
       "id": "way/142588996",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
         "name": "Hoge Weg",
-        "surface": "ground",
-        "tracktype": "grade2",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/142588996"
       },
       "geometry": {
@@ -24186,10 +24186,8 @@
       "type": "Feature",
       "id": "way/463614312",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
-        "surface": "ground",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/463614312"
       },
@@ -24225,8 +24223,8 @@
             51.2288098
           ],
           [
-            4.9386391,
-            51.2287211
+            4.938682,
+            51.2287522
           ]
         ]
       }
@@ -27553,11 +27551,9 @@
       "type": "Feature",
       "id": "way/732649678",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
-        "surface": "ground",
-        "tracktype": "grade2",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/732649678"
       },
       "geometry": {
@@ -29712,7 +29708,7 @@
       "type": "Feature",
       "id": "way/911238131",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -29734,8 +29730,12 @@
             51.2338619
           ],
           [
-            4.9715145,
-            51.2339827
+            4.9716555,
+            51.2338867
+          ],
+          [
+            4.9715373,
+            51.2338853
           ]
         ]
       }
@@ -30767,10 +30767,8 @@
       "type": "Feature",
       "id": "way/1108959156",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
-        "surface": "ground",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/1108959156"
       },
@@ -30778,16 +30776,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9386391,
-            51.2287211
+            4.938682,
+            51.2287522
           ],
           [
-            4.9384138,
-            51.228568
+            4.9383923,
+            51.2285747
           ],
           [
-            4.938238,
-            51.2284367
+            4.9382982,
+            51.2285441
+          ],
+          [
+            4.9382434,
+            51.2284972
           ]
         ]
       }

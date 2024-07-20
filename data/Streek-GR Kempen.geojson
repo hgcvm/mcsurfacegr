@@ -4428,7 +4428,7 @@
         "highway": "track",
         "mofa": "yes",
         "name": "Heistraat",
-        "surface": "dirt",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "vehicle": "no",
         "id": "way/35959957"
@@ -4573,8 +4573,7 @@
       "id": "way/36263103",
       "properties": {
         "highway": "track",
-        "mtb": "yes",
-        "surface": "dirt",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/36263103"
       },
@@ -4632,13 +4631,11 @@
       "type": "Feature",
       "id": "way/36263108",
       "properties": {
-        "bicycle": "yes",
         "cycleway": "no",
         "highway": "unclassified",
         "maxspeed": "70",
         "name": "Watervoort",
         "old_name": "Hulzen",
-        "oneway": "no",
         "source": "https://www.herentals.be/sites/default/files/public/stad/Bestuur/Documenten/Schepencollege/Beslissingen/2016/160125_besluiten_cbs.pdf",
         "source:maxspeed": "zone70",
         "surface": "concrete",
@@ -5344,11 +5341,10 @@
       "id": "way/37255406",
       "properties": {
         "highway": "track",
-        "incline": "0%",
         "name": "Diestweg",
         "name:etymology:wikidata": "Q743236",
         "smoothness": "good",
-        "surface": "compacted",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "width": "3",
         "id": "way/37255406"
@@ -5499,10 +5495,8 @@
       "type": "Feature",
       "id": "way/37284267",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/37284267"
       },
       "geometry": {
@@ -5581,7 +5575,7 @@
       "properties": {
         "highway": "track",
         "name": "Coolsweg",
-        "surface": "ground",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "vehicle": "destination",
         "id": "way/37286423"
@@ -5648,7 +5642,7 @@
       "type": "Feature",
       "id": "way/37287046",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Vennepad",
@@ -5723,7 +5717,7 @@
       "id": "way/37287205",
       "properties": {
         "highway": "track",
-        "surface": "compacted",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/37287205"
       },
@@ -6212,11 +6206,10 @@
       "type": "Feature",
       "id": "way/37615494",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
         "name": "Bekenbaan",
-        "surface": "gravel",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/37615494"
       },
       "geometry": {
@@ -7370,6 +7363,10 @@
           [
             4.9091818,
             51.211622
+          ],
+          [
+            4.909116,
+            51.2115872
           ],
           [
             4.9080271,
@@ -12568,7 +12565,8 @@
       "id": "way/56312161",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
         "id": "way/56312161"
       },
       "geometry": {
@@ -13584,56 +13582,62 @@
       "type": "Feature",
       "id": "way/61041079",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
         "name": "Hoge Weg",
         "surface": "dirt",
-        "tracktype": "grade4",
+        "tracktype": "grade3",
         "id": "way/61041079"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.9394221,
-            51.2248793
+            4.9393349,
+            51.2248776
           ],
           [
             4.938939,
             51.2248555
           ],
           [
-            4.9378215,
-            51.2244916
+            4.9378456,
+            51.2245084
           ],
           [
             4.9376909,
             51.2244581
           ],
           [
-            4.9362,
-            51.2236806
+            4.9370402,
+            51.2240979
           ],
           [
-            4.935726,
-            51.2234644
+            4.9364146,
+            51.2237999
           ],
           [
-            4.9346068,
-            51.2230489
+            4.9357475,
+            51.2234694
           ],
           [
-            4.934075,
-            51.2228201
+            4.9344056,
+            51.2229834
+          ],
+          [
+            4.934083,
+            51.2228083
           ],
           [
             4.933653,
             51.2226247
           ],
           [
-            4.933094,
-            51.2223487
+            4.9332771,
+            51.2224214
+          ],
+          [
+            4.9330055,
+            51.2222933
           ],
           [
             4.9324109,
@@ -13644,8 +13648,8 @@
             51.2218061
           ],
           [
-            4.9320513,
-            51.2217173
+            4.9320433,
+            51.2217291
           ],
           [
             4.9317702,
@@ -13662,8 +13666,6 @@
       "type": "Feature",
       "id": "way/61041082",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
         "name": "Barbarapad",
         "surface": "dirt",
@@ -13729,8 +13731,8 @@
             51.2184609
           ],
           [
-            4.9236434,
-            51.2183265
+            4.92363,
+            51.2183341
           ],
           [
             4.9233458,
@@ -15095,7 +15097,6 @@
       "type": "Feature",
       "id": "way/77786296",
       "properties": {
-        "bicycle": "yes",
         "cycleway": "no",
         "highway": "unclassified",
         "maxspeed": "70",
@@ -16696,12 +16697,10 @@
       "type": "Feature",
       "id": "way/82294004",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
         "name": "Diestweg",
         "name:etymology:wikidata": "Q743236",
-        "surface": "ground",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/82294004"
       },
@@ -16733,11 +16732,23 @@
             51.212608
           ],
           [
-            4.875489,
-            51.2122212
+            4.876408,
+            51.2124053
           ],
           [
-            4.8748244,
+            4.875923,
+            51.2123195
+          ],
+          [
+            4.8755779,
+            51.2122421
+          ],
+          [
+            4.875264,
+            51.2120737
+          ],
+          [
+            4.8748022,
             51.2117496
           ],
           [
@@ -16937,8 +16948,6 @@
       "type": "Feature",
       "id": "way/82294023",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
         "surface": "dirt",
         "id": "way/82294023"
@@ -17120,8 +17129,8 @@
       "properties": {
         "highway": "track",
         "name": "Coolsweg",
-        "surface": "dirt",
-        "tracktype": "grade3",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
         "vehicle": "destination",
         "id": "way/82587838"
       },
@@ -20024,9 +20033,10 @@
       "type": "Feature",
       "id": "way/116352970",
       "properties": {
-        "highway": "unclassified",
+        "highway": "track",
         "name": "Bekenbaan",
-        "surface": "pebblestone",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
         "id": "way/116352970"
       },
       "geometry": {
@@ -20796,20 +20806,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8468553,
-            51.1962654
+            4.8468515,
+            51.1962785
           ],
           [
-            4.8464158,
-            51.1962319
+            4.8466154,
+            51.1962796
           ],
           [
-            4.846087,
-            51.1961578
+            4.8460623,
+            51.1961935
           ],
           [
-            4.8460371,
-            51.1961446
+            4.8458679,
+            51.196116
           ],
           [
             4.8457003,
@@ -22849,9 +22859,11 @@
       "type": "Feature",
       "id": "way/141109332",
       "properties": {
-        "highway": "unclassified",
+        "highway": "track",
         "maxspeed": "50",
         "name": "Bosbergen",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
         "id": "way/141109332"
       },
       "geometry": {
@@ -22906,9 +22918,9 @@
       "type": "Feature",
       "id": "way/141119313",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
         "id": "way/141119313"
       },
       "geometry": {
@@ -23070,10 +23082,10 @@
       "type": "Feature",
       "id": "way/141517117",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
         "name": "Corneliuspad",
+        "surface": "dirt",
+        "tracktype": "grade4",
         "id": "way/141517117"
       },
       "geometry": {
@@ -23084,8 +23096,8 @@
             51.2214062
           ],
           [
-            4.9315196,
-            51.2213967
+            4.9315183,
+            51.2213891
           ],
           [
             4.9314103,
@@ -23100,12 +23112,16 @@
             51.2211371
           ],
           [
-            4.9293498,
-            51.2208041
+            4.9293485,
+            51.2207999
           ],
           [
-            4.9291222,
-            51.2207759
+            4.9292135,
+            51.2207869
+          ],
+          [
+            4.9290914,
+            51.2208036
           ]
         ]
       }
@@ -23142,7 +23158,8 @@
         "highway": "track",
         "name": "Diestweg",
         "name:etymology:wikidata": "Q743236",
-        "surface": "unpaved",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
         "id": "way/141522378"
       },
       "geometry": {
@@ -23181,12 +23198,8 @@
             51.214303
           ],
           [
-            4.8833105,
-            51.2139576
-          ],
-          [
-            4.883211,
-            51.2139235
+            4.8833078,
+            51.2139626
           ]
         ]
       }
@@ -23195,7 +23208,7 @@
       "type": "Feature",
       "id": "way/141525880",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Eindeke",
@@ -23559,19 +23572,21 @@
       "type": "Feature",
       "id": "way/142585676",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
-        "surface": "ground",
-        "tracktype": "grade2",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/142585676"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.938238,
-            51.2284367
+            4.9382434,
+            51.2284972
+          ],
+          [
+            4.9382123,
+            51.2284299
           ],
           [
             4.9382862,
@@ -23613,16 +23628,16 @@
             51.226365
           ],
           [
-            4.9390492,
-            51.2261379
+            4.9390358,
+            51.2262101
           ],
           [
             4.9390588,
             51.2261101
           ],
           [
-            4.939061,
-            51.225873
+            4.9390503,
+            51.2258898
           ],
           [
             4.9391894,
@@ -23633,8 +23648,8 @@
             51.2249536
           ],
           [
-            4.9394221,
-            51.2248793
+            4.9393349,
+            51.2248776
           ]
         ]
       }
@@ -29046,8 +29061,8 @@
             51.1967315
           ],
           [
-            4.8440528,
-            51.1974017
+            4.8440034,
+            51.1974184
           ]
         ]
       }
@@ -32570,11 +32585,9 @@
       "type": "Feature",
       "id": "way/274929147",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "path",
+        "highway": "track",
         "surface": "dirt",
-        "trail_visibility": "good",
+        "tracktype": "grade4",
         "id": "way/274929147"
       },
       "geometry": {
@@ -32593,8 +32606,8 @@
             51.2181163
           ],
           [
-            4.9228479,
-            51.2181299
+            4.9228492,
+            51.21814
           ],
           [
             4.9230337,
@@ -39070,10 +39083,8 @@
       "type": "Feature",
       "id": "way/463614312",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
-        "surface": "ground",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/463614312"
       },
@@ -39109,8 +39120,8 @@
             51.2288098
           ],
           [
-            4.9386391,
-            51.2287211
+            4.938682,
+            51.2287522
           ]
         ]
       }
@@ -39119,18 +39130,20 @@
       "type": "Feature",
       "id": "way/463834420",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
         "name": "Diestweg",
         "name:etymology:wikidata": "Q743236",
-        "surface": "unpaved",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/463834420"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            4.8833078,
+            51.2139626
+          ],
           [
             4.883211,
             51.2139235
@@ -39517,8 +39530,6 @@
       "type": "Feature",
       "id": "way/465136089",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
         "surface": "asphalt",
         "id": "way/465136089"
@@ -45548,18 +45559,17 @@
       "type": "Feature",
       "id": "way/685523899",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
-        "name": "Corneliuspad",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/685523899"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.9291222,
-            51.2207759
+            4.9290914,
+            51.2208036
           ],
           [
             4.9292227,
@@ -45799,8 +45809,8 @@
             51.1974357
           ],
           [
-            4.8440528,
-            51.1974017
+            4.8440034,
+            51.1974184
           ]
         ]
       }
@@ -48569,13 +48579,11 @@
       "type": "Feature",
       "id": "way/845516552",
       "properties": {
-        "bicycle": "yes",
         "cycleway": "no",
         "highway": "unclassified",
         "maxspeed": "70",
         "name": "Watervoort",
         "old_name": "Hulzen",
-        "oneway": "no",
         "source": "https://www.herentals.be/sites/default/files/public/stad/Bestuur/Documenten/Schepencollege/Beslissingen/2016/160125_besluiten_cbs.pdf",
         "source:maxspeed": "zone70",
         "surface": "concrete",
@@ -48609,8 +48617,7 @@
       "id": "way/845516554",
       "properties": {
         "highway": "track",
-        "mtb": "yes",
-        "surface": "dirt",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/845516554"
       },
@@ -50297,10 +50304,8 @@
       "type": "Feature",
       "id": "way/1108959156",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
-        "surface": "ground",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/1108959156"
       },
@@ -50308,16 +50313,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9386391,
-            51.2287211
+            4.938682,
+            51.2287522
           ],
           [
-            4.9384138,
-            51.228568
+            4.9383923,
+            51.2285747
           ],
           [
-            4.938238,
-            51.2284367
+            4.9382982,
+            51.2285441
+          ],
+          [
+            4.9382434,
+            51.2284972
           ]
         ]
       }
@@ -51407,8 +51416,8 @@
             51.1963015
           ],
           [
-            4.8468553,
-            51.1962654
+            4.8468515,
+            51.1962785
           ]
         ]
       }
@@ -51840,6 +51849,7 @@
       "properties": {
         "highway": "unclassified",
         "maxspeed": "50",
+        "name": "Bosbergen",
         "id": "way/35976634"
       },
       "geometry": {
@@ -53384,8 +53394,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8454898,
-            51.1920281
+            4.8454822,
+            51.1920323
           ],
           [
             4.8452328,
@@ -53414,8 +53424,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8454898,
-            51.1920281
+            4.8454822,
+            51.1920323
           ],
           [
             4.8455322,
@@ -53723,8 +53733,9 @@
       "type": "Feature",
       "id": "way/234050698",
       "properties": {
-        "highway": "path",
-        "surface": "gravel",
+        "highway": "track",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/234050698"
       },
       "geometry": {
@@ -55133,6 +55144,7 @@
       "properties": {
         "highway": "unclassified",
         "maxspeed": "50",
+        "name": "Bosbergen",
         "id": "way/845516555"
       },
       "geometry": {
@@ -57046,10 +57058,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8391074,
-            51.1901855
-          ],
-          [
             4.8390898,
             51.1900395
           ],
@@ -57258,9 +57266,13 @@
       "type": "Feature",
       "id": "way/249361957",
       "properties": {
+        "bicycle": "yes",
         "highway": "track",
+        "mofa": "yes",
         "name": "Heistraat",
-        "surface": "paved",
+        "surface": "asphalt",
+        "tracktype": "grade1",
+        "vehicle": "no",
         "id": "way/249361957"
       },
       "geometry": {
@@ -58544,6 +58556,31 @@
           [
             4.8298136,
             51.1811649
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1302585366",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "maxspeed:zone": "yes",
+        "name": "Heistraat",
+        "surface": "paved",
+        "id": "way/1302585366"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8391074,
+            51.1901855
+          ],
+          [
+            4.8390898,
+            51.1900395
           ]
         ]
       }
