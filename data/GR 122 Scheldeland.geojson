@@ -3075,8 +3075,11 @@
       "type": "Feature",
       "id": "way/29254075",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Zonneveld",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/29254075"
       },
@@ -4075,9 +4078,11 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Lindestraat",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "no",
         "source:maxspeed": "BE:zone30;BE:cyclestreet",
         "surface": "asphalt",
         "id": "way/31308996"
@@ -4115,7 +4120,7 @@
         "bicycle": "yes",
         "highway": "footway",
         "name": "Moortseelsewegel",
-        "surface": "compacted",
+        "surface": "fine_gravel",
         "id": "way/31318303"
       },
       "geometry": {
@@ -4244,7 +4249,7 @@
       "properties": {
         "highway": "path",
         "name": "Moortseelsewegel",
-        "surface": "dirt",
+        "surface": "sand",
         "id": "way/31318322"
       },
       "geometry": {
@@ -4259,12 +4264,8 @@
             50.9631552
           ],
           [
-            3.7606751,
-            50.9633581
-          ],
-          [
-            3.7620053,
-            50.9638811
+            3.7603865,
+            50.9632433
           ]
         ]
       }
@@ -4273,9 +4274,10 @@
       "type": "Feature",
       "id": "way/31318324",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "name": "Kolbergwegel",
-        "surface": "compacted",
+        "surface": "sand",
         "id": "way/31318324"
       },
       "geometry": {
@@ -4328,8 +4330,10 @@
       "type": "Feature",
       "id": "way/31318326",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Zonneveld",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/31318326"
       },
@@ -4403,6 +4407,7 @@
       "type": "Feature",
       "id": "way/31318327",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "name": "Heiwegel",
         "surface": "sand",
@@ -4431,8 +4436,11 @@
       "id": "way/31318328",
       "properties": {
         "alt_name": "Heiwegel",
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Schooierswegel",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/31318328"
       },
@@ -4455,6 +4463,7 @@
       "id": "way/31318330",
       "properties": {
         "alt_name": "Heiwegel",
+        "cycleway:both": "no",
         "highway": "track",
         "name": "Schooierswegel",
         "surface": "sand",
@@ -4539,6 +4548,7 @@
       "type": "Feature",
       "id": "way/31318338",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "name": "Driebunderwegel",
         "surface": "sand",
@@ -4559,10 +4569,6 @@
           [
             3.7777371,
             50.975146
-          ],
-          [
-            3.7778404,
-            50.9751722
           ]
         ]
       }
@@ -38577,9 +38583,13 @@
       "type": "Feature",
       "id": "way/584969481",
       "properties": {
+        "cyclestreet": "yes",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Diepestraat",
+        "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/584969481"
@@ -38592,8 +38602,8 @@
             50.963173
           ],
           [
-            3.7591254,
-            50.9627379
+            3.7588041,
+            50.9630534
           ]
         ]
       }
@@ -38604,9 +38614,11 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Lindestraat",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "no",
         "source:maxspeed": "BE:zone30;BE:cyclestreet",
         "surface": "paving_stones",
         "id": "way/584969496"
@@ -38644,8 +38656,10 @@
         "cycleway:right": "track",
         "cycleway:right:oneway": "no",
         "highway": "tertiary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Poelstraat",
+        "sidewalk": "no",
         "surface": "concrete",
         "id": "way/584969501"
       },
@@ -47188,6 +47202,84 @@
           [
             3.6855443,
             50.7535458
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1302886226",
+      "properties": {
+        "highway": "track",
+        "name": "Driebunderwegel",
+        "surface": "sett",
+        "id": "way/1302886226"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7777371,
+            50.975146
+          ],
+          [
+            3.7778404,
+            50.9751722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1302886265",
+      "properties": {
+        "highway": "path",
+        "name": "Moortseelsewegel",
+        "surface": "grass",
+        "id": "way/1302886265"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7603865,
+            50.9632433
+          ],
+          [
+            3.7606751,
+            50.9633581
+          ],
+          [
+            3.7620053,
+            50.9638811
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1302886266",
+      "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Diepestraat",
+        "sidewalk": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
+        "id": "way/1302886266"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7588041,
+            50.9630534
+          ],
+          [
+            3.7591254,
+            50.9627379
           ]
         ]
       }
