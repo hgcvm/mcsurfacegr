@@ -3112,8 +3112,8 @@
             50.8723963
           ],
           [
-            4.7552059,
-            50.8720538
+            4.7551719,
+            50.8720567
           ]
         ]
       }
@@ -3131,8 +3131,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7446554,
-            50.8713143
+            4.7446908,
+            50.8713094
+          ],
+          [
+            4.7447939,
+            50.8712997
           ],
           [
             4.7471271,
@@ -3147,8 +3151,8 @@
             50.8709895
           ],
           [
-            4.7482895,
-            50.8712025
+            4.7482248,
+            50.8711597
           ]
         ]
       }
@@ -56895,8 +56899,8 @@
             50.8714045
           ],
           [
-            4.7446554,
-            50.8713143
+            4.7446908,
+            50.8713094
           ]
         ]
       }
@@ -56932,8 +56936,8 @@
             50.8708857
           ],
           [
-            4.7482895,
-            50.8712025
+            4.7482248,
+            50.8711597
           ]
         ]
       }
@@ -127966,8 +127970,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7552059,
-            50.8720538
+            4.7551719,
+            50.8720567
           ],
           [
             4.754666,
@@ -134154,6 +134158,8 @@
         "maxspeed": "30",
         "name": "Am Wassersprung",
         "sidewalk": "both",
+        "sidewalk:left:surface": "paving_stones",
+        "sidewalk:right:surface": "asphalt",
         "surface": "asphalt",
         "id": "way/4443729"
       },
@@ -135276,10 +135282,15 @@
       "id": "way/26133641",
       "properties": {
         "highway": "residential",
+        "lit": "yes",
         "maxspeed": "30",
         "name": "Maria-Theresia-Allee",
+        "parking:both:orientation": "parallel",
+        "parking:left": "on_kerb",
+        "parking:right": "lane",
         "sidewalk:left": "separate",
         "sidewalk:right": "yes",
+        "sidewalk:right:surface": "paving_stones",
         "surface": "asphalt",
         "id": "way/26133641"
       },
@@ -139672,6 +139683,7 @@
         "maxspeed": "30",
         "name": "Colynshofstraße",
         "sidewalk": "left",
+        "sidewalk:left:surface": "paving_stones",
         "surface": "asphalt",
         "id": "way/122718424"
       },
@@ -139717,6 +139729,8 @@
         "name": "Kaiser-Friedrich-Allee",
         "oneway": "yes",
         "sidewalk": "both",
+        "sidewalk:left:surface": "fine_gravel",
+        "sidewalk:right:surface": "paving_stones",
         "surface": "asphalt",
         "id": "way/122718430"
       },
@@ -139738,6 +139752,7 @@
       "type": "Feature",
       "id": "way/122718431",
       "properties": {
+        "cycleway:right": "no",
         "highway": "tertiary",
         "lanes": "2",
         "lit": "yes",
@@ -139745,6 +139760,8 @@
         "name": "Kaiser-Friedrich-Allee",
         "oneway": "yes",
         "sidewalk": "both",
+        "sidewalk:left:surface": "fine_gravel",
+        "sidewalk:right:surface": "paving_stones",
         "surface": "asphalt",
         "id": "way/122718431"
       },
@@ -145060,6 +145077,8 @@
       "id": "way/816859254",
       "properties": {
         "highway": "footway",
+        "lit": "no",
+        "surface": "fine_gravel",
         "id": "way/816859254"
       },
       "geometry": {
@@ -145723,7 +145742,10 @@
       "id": "way/1087199945",
       "properties": {
         "bicycle": "designated",
+        "check_date:surface": "2024-07-23",
+        "cycleway:surface": "paving_stones",
         "foot": "designated",
+        "footway:surface": "paving_stones",
         "highway": "path",
         "lit": "yes",
         "oneway": "yes",
@@ -145769,6 +145791,7 @@
         "ref": "L 260",
         "sidewalk:left": "separate",
         "sidewalk:right": "yes",
+        "sidewalk:right:surface": "paving_stones",
         "source:maxspeed": "DE:urban",
         "surface": "asphalt",
         "turn:lanes:forward": "left|through",
