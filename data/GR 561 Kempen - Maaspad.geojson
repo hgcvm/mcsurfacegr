@@ -25562,8 +25562,14 @@
       "type": "Feature",
       "id": "way/253384276",
       "properties": {
+        "cycleway": "no",
         "highway": "unclassified",
+        "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Steenheuvel",
+        "sidewalk": "no",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "id": "way/253384276"
       },
@@ -28788,7 +28794,11 @@
       "id": "way/303444040",
       "properties": {
         "highway": "track",
+        "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Steenheuvel",
+        "source:maxspeed": "BE:zone50",
         "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/303444040"
@@ -57003,6 +57013,8 @@
       "id": "way/158547702",
       "properties": {
         "highway": "track",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "smoothness": "bad",
         "surface": "sand",
         "tracktype": "grade4",
