@@ -3769,9 +3769,13 @@
       "type": "Feature",
       "id": "way/41535258",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Zeedijk",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/41535258"
       },
@@ -3802,6 +3806,7 @@
         "highway": "pedestrian",
         "lit": "yes",
         "name": "Zeedijk",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/41594936"
       },
@@ -3891,6 +3896,7 @@
       "type": "Feature",
       "id": "way/42302899",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lit": "yes",
         "name": "Zeedijk",
@@ -3898,6 +3904,7 @@
         "oneway:bicycle": "no",
         "segregated": "yes",
         "sidewalk:left": "yes",
+        "smoothness": "good",
         "surface": "asphalt",
         "traffic_sign": "BE:F19,BE:M5",
         "id": "way/42302899"
@@ -3932,6 +3939,7 @@
         "highway": "pedestrian",
         "lit": "yes",
         "name": "Zeedijk",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/42302904"
       },
@@ -13550,8 +13558,10 @@
       "type": "Feature",
       "id": "way/130992655",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "P. de Smet de Naeyerstraat",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/130992655"
       },
@@ -17564,6 +17574,7 @@
         "lane_markings": "no",
         "name": "Alexisstraat",
         "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/150612383"
       },
@@ -30298,7 +30309,8 @@
         "foot": "yes",
         "highway": "cycleway",
         "segregated": "no",
-        "surface": "asphalt",
+        "smoothness": "good",
+        "surface": "paving_stones",
         "id": "way/659762282"
       },
       "geometry": {
@@ -30482,6 +30494,7 @@
         "lit": "yes",
         "name": "Zeedijk",
         "segregated": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,BE:M2_nl",
         "id": "way/674209334"
@@ -30510,6 +30523,7 @@
         "lit": "yes",
         "name": "Zeedijk",
         "segregated": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,BE:M2_nl",
         "id": "way/674209335"
@@ -32840,6 +32854,10 @@
           [
             2.7252974,
             51.1509978
+          ],
+          [
+            2.7252051,
+            51.150931
           ],
           [
             2.7251096,
@@ -42144,6 +42162,7 @@
       "properties": {
         "highway": "service",
         "name": "Duinenpad",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/1185271400"
       },
