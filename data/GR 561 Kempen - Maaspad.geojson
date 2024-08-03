@@ -2337,8 +2337,16 @@
       "type": "Feature",
       "id": "way/23449440",
       "properties": {
+        "cycleway": "no",
         "highway": "unclassified",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Veedijk",
+        "sidewalk": "no",
+        "source:maxspeed": "BE:zone50",
+        "surface": "asphalt",
         "id": "way/23449440"
       },
       "geometry": {
@@ -2359,9 +2367,14 @@
       "type": "Feature",
       "id": "way/23449441",
       "properties": {
+        "cycleway": "no",
         "highway": "unclassified",
+        "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Vogelspoel",
         "sidewalk": "no",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "wikidata": "Q111805209",
         "id": "way/23449441"
@@ -6924,10 +6937,20 @@
       "type": "Feature",
       "id": "way/53004587",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "track",
-        "maxspeed": "50",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "smoothness": "good",
+        "source:maxspeed": "sign",
+        "speed_pedelec": "yes",
         "surface": "dirt",
-        "tracktype": "grade4",
+        "tracktype": "grade3",
+        "traffic_sign": "F99c",
         "id": "way/53004587"
       },
       "geometry": {
@@ -10346,7 +10369,9 @@
       "id": "way/95947967",
       "properties": {
         "highway": "track",
-        "maxspeed": "50",
+        "maxspeed": "30",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Kwachtstraat",
         "surface": "dirt",
         "tracktype": "grade3",
@@ -10564,9 +10589,9 @@
       "id": "way/98787424",
       "properties": {
         "highway": "track",
-        "maxspeed": "70",
+        "maxspeed": "50",
         "name": "Heikant",
-        "source:maxspeed": "BE-VLG:zone70",
+        "source:maxspeed": "sign",
         "surface": "compacted",
         "tracktype": "grade3",
         "zone:traffic": "BE-VLG:rural",
@@ -13807,10 +13832,12 @@
       "id": "way/158393335",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "30",
+        "maxspeed": "50",
         "maxweight": "5",
         "maxweight:conditional": "none @ destination",
         "name": "Alvinnenberg",
+        "sidewalk": "no",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "id": "way/158393335"
       },
@@ -16630,9 +16657,15 @@
       "id": "way/204152203",
       "properties": {
         "bridge": "yes",
+        "cycleway": "no",
         "highway": "unclassified",
         "layer": "1",
+        "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Vogelspoel",
+        "source:maxspeed": "BE:zone50",
+        "surface": "asphalt",
         "wikidata": "Q111805209",
         "id": "way/204152203"
       },
@@ -41664,6 +41697,8 @@
         "maxweight": "5",
         "maxweight:conditional": "none @ destination",
         "name": "Alvinnenberg",
+        "sidewalk": "no",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "width": "3.5",
         "id": "way/541530945"
@@ -43777,29 +43812,21 @@
       "type": "Feature",
       "id": "way/627078532",
       "properties": {
+        "cycleway": "no",
         "highway": "unclassified",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Veedijk",
+        "sidewalk": "no",
+        "source:maxspeed": "BE:zone50",
+        "surface": "asphalt",
         "id": "way/627078532"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.050389,
-            51.1072533
-          ],
-          [
-            5.0503727,
-            51.1072367
-          ],
-          [
-            5.0503375,
-            51.1072092
-          ],
-          [
-            5.0502969,
-            51.1071864
-          ],
           [
             5.050221,
             51.1071575
@@ -45871,12 +45898,14 @@
       "type": "Feature",
       "id": "way/708318252",
       "properties": {
+        "cycleway": "no",
         "highway": "unclassified",
         "maxspeed": "50",
         "maxweight": "5",
         "maxweight:conditional": "none @ destination",
         "name": "Veedijk",
         "sidewalk": "no",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "id": "way/708318252"
       },
@@ -45906,8 +45935,16 @@
       "type": "Feature",
       "id": "way/708318253",
       "properties": {
+        "cycleway": "no",
         "highway": "unclassified",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Veedijk",
+        "sidewalk": "no",
+        "source:maxspeed": "BE:zone50",
+        "surface": "asphalt",
         "id": "way/708318253"
       },
       "geometry": {
@@ -48343,9 +48380,9 @@
       "id": "way/953817133",
       "properties": {
         "highway": "track",
-        "maxspeed": "70",
+        "maxspeed": "50",
         "name": "Heikant",
-        "source:maxspeed": "BE-VLG:zone70",
+        "source:maxspeed": "sign",
         "surface": "fine_gravel",
         "tracktype": "grade2",
         "zone:traffic": "BE-VLG:rural",
@@ -48385,10 +48422,19 @@
       "type": "Feature",
       "id": "way/953817134",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "track",
-        "maxspeed": "50",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "source:maxspeed": "sign",
+        "speed_pedelec": "yes",
         "surface": "dirt",
         "tracktype": "grade3",
+        "traffic_sign": "F99c",
         "id": "way/953817134"
       },
       "geometry": {
@@ -52450,10 +52496,19 @@
       "type": "Feature",
       "id": "way/1180991056",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "track",
-        "maxspeed": "50",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "source:maxspeed": "sign",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade3",
+        "traffic_sign": "F99c",
         "id": "way/1180991056"
       },
       "geometry": {
@@ -53569,6 +53624,48 @@
           [
             5.6606259,
             51.0006191
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1305185908",
+      "properties": {
+        "cycleway": "no",
+        "highway": "unclassified",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
+        "name": "Veedijk",
+        "sidewalk": "no",
+        "source:maxspeed": "BE:zone50",
+        "surface": "paving_stones",
+        "id": "way/1305185908"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.050389,
+            51.1072533
+          ],
+          [
+            5.0503727,
+            51.1072367
+          ],
+          [
+            5.0503375,
+            51.1072092
+          ],
+          [
+            5.0502969,
+            51.1071864
+          ],
+          [
+            5.050221,
+            51.1071575
           ]
         ]
       }
