@@ -14622,7 +14622,7 @@
       "id": "way/9642956",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "gravel",
         "tracktype": "grade3",
         "id": "way/9642956"
       },
@@ -14630,8 +14630,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.2846327,
-            50.7290457
+            5.2847443,
+            50.7289857
           ],
           [
             5.2848389,
@@ -15072,6 +15072,7 @@
       "properties": {
         "highway": "residential",
         "name": "Chaussée de Nivelles",
+        "oneway": "no",
         "surface": "asphalt",
         "width": "4",
         "id": "way/94562063"
@@ -15532,8 +15533,10 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "unclassified",
+        "highway": "track",
         "horse": "yes",
+        "surface": "asphalt",
+        "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "width": "3",
         "id": "way/115986253"
@@ -17853,9 +17856,11 @@
       "id": "way/337464842",
       "properties": {
         "highway": "secondary",
+        "lane_markings": "no",
         "maxspeed": "70",
         "name": "Opheersstraat",
         "ref": "N784",
+        "surface": "asphalt",
         "id": "way/337464842"
       },
       "geometry": {
@@ -17877,6 +17882,7 @@
       "id": "way/337464843",
       "properties": {
         "highway": "secondary",
+        "lane_markings": "no",
         "name": "Rue Nationale",
         "ref": "N784",
         "surface": "asphalt",
@@ -17905,6 +17911,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Rue de Saint-Trond",
         "surface": "asphalt",
         "id": "way/337464844"
@@ -17939,9 +17946,10 @@
       "type": "Feature",
       "id": "way/337464845",
       "properties": {
-        "highway": "unclassified",
+        "highway": "track",
         "maxspeed": "70",
         "surface": "concrete",
+        "tracktype": "grade1",
         "id": "way/337464845"
       },
       "geometry": {
@@ -17987,7 +17995,7 @@
       "id": "way/337464846",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "grass",
         "tracktype": "grade4",
         "id": "way/337464846"
       },
@@ -18556,6 +18564,7 @@
         "ref": "N784",
         "smoothness": "good",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/465038297"
       },
@@ -18849,8 +18858,9 @@
       "type": "Feature",
       "id": "way/829824751",
       "properties": {
-        "highway": "unclassified",
+        "highway": "track",
         "surface": "asphalt",
+        "tracktype": "grade1",
         "id": "way/829824751"
       },
       "geometry": {
@@ -18892,6 +18902,7 @@
         "maxspeed": "70",
         "name": "Opheersstraat",
         "ref": "N784",
+        "surface": "asphalt",
         "id": "way/829824753"
       },
       "geometry": {
@@ -19609,6 +19620,7 @@
       "id": "way/998487131",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "70",
         "name": "Heersestraat",
         "surface": "asphalt",
@@ -19777,6 +19789,29 @@
           [
             5.2713207,
             50.7141942
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1305524220",
+      "properties": {
+        "highway": "track",
+        "surface": "asphalt",
+        "tracktype": "grade1",
+        "id": "way/1305524220"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2846327,
+            50.7290457
+          ],
+          [
+            5.2847443,
+            50.7289857
           ]
         ]
       }
@@ -41790,6 +41825,7 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Lod Lavkistraat",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/195030746"
       },
@@ -41853,16 +41889,8 @@
             50.7793618
           ],
           [
-            5.3707295,
-            50.7796372
-          ],
-          [
-            5.3711351,
-            50.7798186
-          ],
-          [
-            5.3713673,
-            50.7799023
+            5.3707458,
+            50.7796493
           ]
         ]
       }
@@ -42432,6 +42460,35 @@
           [
             5.3698077,
             50.7647651
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1305525898",
+      "properties": {
+        "cycleway": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Lod Lavkistraat",
+        "surface": "asphalt",
+        "id": "way/1305525898"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3707458,
+            50.7796493
+          ],
+          [
+            5.3711351,
+            50.7798186
+          ],
+          [
+            5.3713673,
+            50.7799023
           ]
         ]
       }
