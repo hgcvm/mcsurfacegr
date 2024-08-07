@@ -17797,9 +17797,11 @@
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Keulestraat",
+        "oneway": "no",
         "source:maxspeed": "BE:F99c",
         "surface": "asphalt",
         "traffic_sign": "BE:F99c",
@@ -23723,26 +23725,23 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/137613449"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.840993,
-            50.9418155
+            4.8411172,
+            50.9418002
           ],
           [
             4.8411684,
             50.9417939
           ],
           [
-            4.8412773,
-            50.9417756
-          ],
-          [
-            4.8413444,
-            50.9417781
+            4.8412205,
+            50.9417851
           ]
         ]
       }
@@ -24887,6 +24886,7 @@
       "id": "way/146276276",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Keulestraat",
         "surface": "asphalt",
@@ -31809,6 +31809,7 @@
       "type": "Feature",
       "id": "way/252355524",
       "properties": {
+        "check_date:surface": "2024-08-06",
         "highway": "path",
         "surface": "asphalt",
         "width": "1.5",
@@ -32215,6 +32216,7 @@
       "properties": {
         "highway": "track",
         "name": "Molenstraat",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/260757791"
       },
@@ -38367,6 +38369,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "concrete",
         "id": "way/505893621"
       },
       "geometry": {
@@ -38391,6 +38394,7 @@
         "highway": "cycleway",
         "name": "Rijksweg",
         "oneway": "yes",
+        "segregated": "no",
         "surface": "concrete",
         "width": "1",
         "id": "way/505893622"
@@ -38417,6 +38421,7 @@
         "highway": "cycleway",
         "name": "Rijksweg",
         "oneway": "yes",
+        "segregated": "no",
         "surface": "concrete",
         "width": "1",
         "id": "way/505893626"
@@ -40050,7 +40055,7 @@
         "motor_vehicle": "destination",
         "name": "Blerebergstraat",
         "source:maxspeed": "BE:F99c",
-        "surface": "cobblestone",
+        "surface": "sett",
         "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "id": "way/608424776"
@@ -40080,6 +40085,7 @@
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
+        "lane_markings": "no",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Blerebergstraat",
@@ -45629,6 +45635,56 @@
           [
             4.1782865,
             50.7942867
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1306005152",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "yes",
+        "surface": "concrete",
+        "id": "way/1306005152"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.840993,
+            50.9418155
+          ],
+          [
+            4.8411172,
+            50.9418002
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1306005153",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "yes",
+        "surface": "concrete",
+        "id": "way/1306005153"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8412205,
+            50.9417851
+          ],
+          [
+            4.8412773,
+            50.9417756
+          ],
+          [
+            4.8413444,
+            50.9417781
           ]
         ]
       }
