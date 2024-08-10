@@ -1165,6 +1165,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "sidewalk": "both",
+        "smoothness": "intermediate",
         "source:maxspeed": "BE:zone50",
         "surface": "concrete",
         "width": "6",
@@ -2675,6 +2676,7 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Bergstraat",
+        "smoothness": "intermediate",
         "surface": "concrete",
         "width": "6",
         "zone:traffic": "BE-VLG:urban",
@@ -2684,44 +2686,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.293087,
-            50.7833046
-          ],
-          [
-            5.2930495,
-            50.7832283
-          ],
-          [
-            5.2929559,
-            50.7831066
-          ],
-          [
-            5.2926542,
-            50.7827877
-          ],
-          [
-            5.2922304,
-            50.7823406
+            5.2930381,
+            50.7832245
           ],
           [
             5.2920762,
             50.7821933
-          ],
-          [
-            5.2919112,
-            50.7820543
-          ],
-          [
-            5.2916261,
-            50.781842
-          ],
-          [
-            5.2912809,
-            50.781576
-          ],
-          [
-            5.2907175,
-            50.781117
           ],
           [
             5.2905952,
@@ -16305,8 +16275,10 @@
         "highway": "tertiary",
         "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "70",
         "name": "Mettekovenstraat",
         "sidewalk": "no",
+        "smoothness": "good",
         "surface": "concrete",
         "width": "6",
         "id": "way/218521295"
@@ -16317,10 +16289,6 @@
           [
             5.2873286,
             50.7798236
-          ],
-          [
-            5.2871545,
-            50.7797142
           ],
           [
             5.2860637,
@@ -16343,12 +16311,12 @@
             50.7787037
           ],
           [
-            5.2849036,
-            50.7787269
+            5.2849737,
+            50.778715
           ],
           [
-            5.2846256,
-            50.7787699
+            5.2847588,
+            50.7787456
           ]
         ]
       }
@@ -20163,6 +20131,7 @@
         "foot": "yes",
         "highway": "unclassified",
         "motorcar": "agricultural",
+        "smoothness": "good",
         "surface": "concrete",
         "width": "3",
         "id": "way/239654638"
@@ -23573,6 +23542,7 @@
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Daalstraat",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/260509725"
       },
@@ -42408,6 +42378,65 @@
           [
             5.4467734,
             51.011346
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1306612227",
+      "properties": {
+        "cycleway:both": "no",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "lit": "yes",
+        "name": "Mettekovenstraat",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "width": "6",
+        "id": "way/1306612227"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2847588,
+            50.7787456
+          ],
+          [
+            5.2846256,
+            50.7787699
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1306625462",
+      "properties": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Bergstraat",
+        "smoothness": "bad",
+        "surface": "sett",
+        "width": "6",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1306625462"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.293087,
+            50.7833046
+          ],
+          [
+            5.2930381,
+            50.7832245
           ]
         ]
       }
