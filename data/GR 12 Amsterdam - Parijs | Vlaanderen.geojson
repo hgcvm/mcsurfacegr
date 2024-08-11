@@ -2862,6 +2862,7 @@
       "id": "way/8609467",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Maurits Sabbestraat",
         "surface": "asphalt",
@@ -2934,6 +2935,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "private": "exceptional_permit",
+        "sidewalk": "both",
         "speed_pedelec": "yes",
         "surface": "sett",
         "vehicle": "private",
@@ -3683,13 +3685,17 @@
         "bicycle": "yes",
         "cyclestreet": "yes",
         "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxlength": "11",
         "maxlength:bus": "none",
         "maxweight": "10",
         "maxweight:bus": "none",
         "name": "Schoolstraat",
+        "parking:both": "no",
         "private": "exceptional_permit",
         "speed_pedelec": "yes",
+        "surface": "paving_stones",
         "vehicle": "private",
         "vehicle:conditional": "yes @ (PH,Mo-Su 18:00-11:00); yes @ permit_holder",
         "id": "way/20313976"
@@ -5465,6 +5471,8 @@
         "maxweight": "10",
         "maxweight:bus": "none",
         "name": "Sint-Romboutskerkhof",
+        "parking:both": "no",
+        "sidewalk": "both",
         "surface": "sett",
         "id": "way/22925294"
       },
@@ -5936,6 +5944,8 @@
         "maxweight": "10",
         "maxweight:bus": "none",
         "name": "Arme-Clarenstraat",
+        "sidewalk": "left",
+        "surface": "sett",
         "id": "way/22959372"
       },
       "geometry": {
@@ -6473,6 +6483,7 @@
         "name": "Melaan",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "both",
         "id": "way/23885960"
       },
       "geometry": {
@@ -8028,7 +8039,9 @@
         "maxweight:bus": "none",
         "motor_vehicle": "no",
         "name": "Minderbroedersgang",
-        "surface": "cobblestone",
+        "parking:both": "no",
+        "sidewalk": "no",
+        "surface": "paving_stones",
         "wikidata": "Q2027327",
         "wikipedia": "nl:Minderbroedersgang",
         "id": "way/28620326"
@@ -8956,7 +8969,9 @@
         "cycleway": "lane",
         "highway": "tertiary",
         "layer": "1",
+        "lit": "yes",
         "name": "Maurits Sabbestraat",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/36073466"
       },
@@ -9977,6 +9992,7 @@
         "bicycle": "yes",
         "cyclestreet": "yes",
         "highway": "residential",
+        "lit": "yes",
         "maxlength": "11",
         "maxlength:bus": "none",
         "maxspeed": "30",
@@ -9986,7 +10002,11 @@
         "name": "Frederik de Merodestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "parking:left": "street_side",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "private": "exceptional_permit",
+        "sidewalk": "both",
         "smoothness": "intermediate",
         "speed_pedelec": "yes",
         "surface": "sett",
@@ -10660,6 +10680,8 @@
         "maxweight": "10",
         "maxweight:bus": "none",
         "name": "Minderbroedersgang",
+        "parking:both": "no",
+        "sidewalk": "right",
         "surface": "sett",
         "wikidata": "Q2027327",
         "wikipedia": "nl:Minderbroedersgang",
@@ -13601,13 +13623,17 @@
         "bicycle": "yes",
         "cyclestreet": "yes",
         "highway": "residential",
+        "lane_markings": "no",
         "maxlength": "11",
         "maxlength:bus": "none",
         "maxweight": "10",
         "maxweight:bus": "none",
         "name": "Vismarkt",
+        "parking:both": "no",
         "private": "exceptional_permit",
+        "sidewalk": "no",
         "speed_pedelec": "yes",
+        "surface": "sett",
         "vehicle": "private",
         "vehicle:conditional": "yes @ (PH,Mo-Sa 06:00-11:30,Su 06:00-13:30); yes @ permit_holder",
         "id": "way/187424380"
@@ -15576,6 +15602,7 @@
         "maxweight": "10",
         "maxweight:bus": "none",
         "name": "Onder-den-Toren",
+        "parking:both": "no",
         "surface": "sett",
         "id": "way/322896926"
       },
@@ -16355,13 +16382,16 @@
         "bicycle": "yes",
         "cyclestreet": "yes",
         "highway": "residential",
+        "lit": "yes",
         "maxlength": "11",
         "maxlength:bus": "none",
         "maxspeed": "30",
         "maxweight": "10",
         "maxweight:bus": "none",
         "name": "Frederik de Merodestraat",
+        "parking:both": "no",
         "private": "exceptional_permit",
+        "sidewalk": "both",
         "smoothness": "bad",
         "speed_pedelec": "yes",
         "surface": "sett",
@@ -16511,6 +16541,7 @@
       "id": "way/423658612",
       "properties": {
         "highway": "footway",
+        "surface": "sett",
         "id": "way/423658612"
       },
       "geometry": {
@@ -16566,13 +16597,16 @@
         "bicycle": "yes",
         "cyclestreet": "yes",
         "highway": "residential",
+        "lane_markings": "no",
         "maxlength": "11",
         "maxlength:bus": "none",
         "maxweight": "10",
         "maxweight:bus": "none",
         "name": "Wollemarkt",
+        "parking:both": "no",
         "private": "exceptional_permit",
         "speed_pedelec": "yes",
+        "surface": "sett",
         "vehicle": "private",
         "vehicle:conditional": "yes @ (PH,Mo-Su 18:00-11:00); yes @ permit_holder",
         "id": "way/423658613"
@@ -21075,6 +21109,7 @@
       "properties": {
         "bicycle": "no",
         "highway": "footway",
+        "surface": "sett",
         "id": "way/427006242"
       },
       "geometry": {
@@ -23442,6 +23477,7 @@
       "properties": {
         "cycleway": "lane",
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Maurits Sabbestraat",
         "surface": "asphalt",
         "id": "way/737219217"
@@ -27614,6 +27650,7 @@
       "id": "way/1118863171",
       "properties": {
         "highway": "cycleway",
+        "lit": "yes",
         "oneway": "no",
         "id": "way/1118863171"
       },
