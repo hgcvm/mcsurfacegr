@@ -3547,16 +3547,20 @@
             50.9228205
           ],
           [
-            4.724115,
-            50.9234891
+            4.7241806,
+            50.923413
+          ],
+          [
+            4.7241225,
+            50.9234907
           ],
           [
             4.724095,
             50.9235626
           ],
           [
-            4.7241211,
-            50.9236035
+            4.7240877,
+            50.9236103
           ]
         ]
       }
@@ -86438,8 +86442,12 @@
         "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Engelbamp",
+        "smoothness": "intermediate",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/263887154"
       },
       "geometry": {
@@ -98291,7 +98299,7 @@
       "type": "Feature",
       "id": "way/407448756",
       "properties": {
-        "highway": "tertiary",
+        "highway": "unclassified",
         "lit": "yes",
         "name": "Boven Vrijlegem",
         "sidewalk": "left",
@@ -118926,8 +118934,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7241211,
-            50.9236035
+            4.7240877,
+            50.9236103
+          ],
+          [
+            4.724104,
+            50.9236919
           ],
           [
             4.724223,
@@ -163335,7 +163347,7 @@
         "horse": "yes",
         "lit": "yes",
         "name": "Kapucijnenvest",
-        "surface": "ground",
+        "surface": "compacted",
         "width": "4",
         "id": "way/28676422"
       },
@@ -163343,12 +163355,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1887566,
-            50.8195675
-          ],
-          [
-            5.188873,
-            50.8195075
+            5.1889307,
+            50.8194884
           ],
           [
             5.1890714,
@@ -163421,6 +163429,7 @@
       "type": "Feature",
       "id": "way/28676436",
       "properties": {
+        "bicycle": "yes",
         "highway": "footway",
         "id": "way/28676436"
       },
@@ -163428,8 +163437,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1887566,
-            50.8195675
+            5.1887338,
+            50.8195603
           ],
           [
             5.1886603,
@@ -164366,6 +164375,8 @@
         "highway": "residential",
         "lit": "yes",
         "name": "Nieuwpoort",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
         "sidewalk": "both",
         "surface": "paving_stones",
         "id": "way/126786287"
@@ -164374,16 +164385,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1913256,
-            50.8190125
+            5.1917311,
+            50.8183172
           ],
           [
             5.1917051,
             50.8183499
           ],
           [
-            5.1917311,
-            50.8183172
+            5.1913256,
+            50.8190125
           ]
         ]
       }
@@ -164756,6 +164767,10 @@
             50.8188741
           ],
           [
+            5.1823062,
+            50.8188788
+          ],
+          [
             5.1823959,
             50.8188981
           ],
@@ -164792,8 +164807,8 @@
             50.8198461
           ],
           [
-            5.1843893,
-            50.8205203
+            5.1844094,
+            50.8205093
           ]
         ]
       }
@@ -164811,8 +164826,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1851809,
-            50.8203877
+            5.1851796,
+            50.8203805
           ],
           [
             5.1857945,
@@ -164894,8 +164909,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1851809,
-            50.8203877
+            5.1851796,
+            50.8203805
           ],
           [
             5.1845212,
@@ -164906,8 +164921,8 @@
             50.8205255
           ],
           [
-            5.1843893,
-            50.8205203
+            5.1844094,
+            50.8205093
           ]
         ]
       }
@@ -165471,8 +165486,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1815578,
-            50.8186437
+            5.1815525,
+            50.8186471
           ],
           [
             5.181708,
@@ -165725,8 +165740,8 @@
             50.8208164
           ],
           [
-            5.1237905,
-            50.8208842
+            5.1237731,
+            50.8209096
           ],
           [
             5.1237149,
@@ -167138,8 +167153,8 @@
             50.8185901
           ],
           [
-            5.1815578,
-            50.8186437
+            5.1815525,
+            50.8186471
           ]
         ]
       }
@@ -167613,6 +167628,62 @@
           [
             5.2221619,
             50.801447
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1307262474",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "footway",
+        "horse": "yes",
+        "lit": "yes",
+        "name": "Kapucijnenvest",
+        "surface": "paving_stones",
+        "width": "4",
+        "id": "way/1307262474"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1888091,
+            50.8195281
+          ],
+          [
+            5.1889307,
+            50.8194884
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1307262475",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "footway",
+        "horse": "yes",
+        "lit": "yes",
+        "name": "Kapucijnenvest",
+        "surface": "ground",
+        "width": "4",
+        "id": "way/1307262475"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1887338,
+            50.8195603
+          ],
+          [
+            5.1888091,
+            50.8195281
           ]
         ]
       }
