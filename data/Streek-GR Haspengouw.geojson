@@ -14476,6 +14476,7 @@
       "type": "Feature",
       "id": "way/997750589",
       "properties": {
+        "cobblestone": "unhewn_cobblestone",
         "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
@@ -14484,7 +14485,7 @@
         "name": "Tongersestraat",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone50",
-        "surface": "unhewn_cobblestone",
+        "surface": "cobblestone",
         "id": "way/997750589"
       },
       "geometry": {
@@ -24763,6 +24764,7 @@
       "type": "Feature",
       "id": "way/28676436",
       "properties": {
+        "bicycle": "yes",
         "highway": "footway",
         "id": "way/28676436"
       },
@@ -24770,8 +24772,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1887566,
-            50.8195675
+            5.1887338,
+            50.8195603
           ],
           [
             5.1886603,
@@ -24800,6 +24802,10 @@
           [
             5.1822843,
             50.8188741
+          ],
+          [
+            5.1823062,
+            50.8188788
           ],
           [
             5.1823959,
@@ -24838,8 +24844,8 @@
             50.8198461
           ],
           [
-            5.1843893,
-            50.8205203
+            5.1844094,
+            50.8205093
           ]
         ]
       }
@@ -24857,8 +24863,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1851809,
-            50.8203877
+            5.1851796,
+            50.8203805
           ],
           [
             5.1857945,
@@ -24940,8 +24946,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1851809,
-            50.8203877
+            5.1851796,
+            50.8203805
           ],
           [
             5.1845212,
@@ -24952,8 +24958,8 @@
             50.8205255
           ],
           [
-            5.1843893,
-            50.8205203
+            5.1844094,
+            50.8205093
           ]
         ]
       }
@@ -24978,8 +24984,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1815578,
-            50.8186437
+            5.1815525,
+            50.8186471
           ],
           [
             5.181708,
@@ -25080,8 +25086,8 @@
             50.8185901
           ],
           [
-            5.1815578,
-            50.8186437
+            5.1815525,
+            50.8186471
           ]
         ]
       }
@@ -25092,8 +25098,12 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Engelbamp",
+        "smoothness": "intermediate",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/27811054"
       },
       "geometry": {
@@ -25245,20 +25255,16 @@
             50.8205877
           ],
           [
-            5.1897012,
-            50.8204305
+            5.1897285,
+            50.8203649
           ],
           [
-            5.1897647,
-            50.8203946
+            5.1897422,
+            50.8203389
           ],
           [
-            5.1898301,
-            50.8203576
-          ],
-          [
-            5.1897686,
-            50.8203163
+            5.1897344,
+            50.8202786
           ]
         ]
       }
@@ -25283,16 +25289,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1897686,
-            50.8203163
+            5.1897344,
+            50.8202786
           ],
           [
-            5.1894051,
-            50.8200611
+            5.1894192,
+            50.8200526
           ],
           [
-            5.1893292,
-            50.8199961
+            5.1893352,
+            50.8199914
           ],
           [
             5.1891119,
@@ -25359,12 +25365,8 @@
             50.8282349
           ],
           [
-            5.1902725,
-            50.8283504
-          ],
-          [
-            5.1904007,
-            50.8284207
+            5.1904047,
+            50.8284169
           ]
         ]
       }
@@ -25390,11 +25392,7 @@
         "coordinates": [
           [
             5.1938685,
-            50.8291595
-          ],
-          [
-            5.1939665,
-            50.8291614
+            50.8291633
           ],
           [
             5.1942693,
@@ -25431,7 +25429,7 @@
         "lit": "yes",
         "old_ref": "L23",
         "segregated": "no",
-        "surface": "asphalt",
+        "surface": "concrete",
         "wikipedia": "nl:Spoorlijn 23",
         "id": "way/29349066"
       },
@@ -25444,7 +25442,7 @@
           ],
           [
             5.1938685,
-            50.8291595
+            50.8291633
           ]
         ]
       }
@@ -25586,7 +25584,10 @@
       "id": "way/42782342",
       "properties": {
         "highway": "path",
+        "name": "Sentier nr. 111",
         "surface": "dirt",
+        "vicinal_ref": "Voetweg 111",
+        "vicinal_type": "path",
         "id": "way/42782342"
       },
       "geometry": {
@@ -25599,10 +25600,6 @@
           [
             5.2103604,
             50.8575493
-          ],
-          [
-            5.2109456,
-            50.857637
           ],
           [
             5.2110967,
@@ -25800,8 +25797,11 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Engelbamp",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/149170842"
       },
       "geometry": {
@@ -25885,8 +25885,11 @@
       "properties": {
         "highway": "path",
         "horse": "no",
+        "name": "Sentier nr. 111",
         "surface": "dirt",
         "vehicle": "no",
+        "vicinal_ref": "Voetweg 111",
+        "vicinal_type": "path",
         "id": "way/263897020"
       },
       "geometry": {
@@ -25909,14 +25912,19 @@
       "properties": {
         "agricultural": "yes",
         "bicycle": "yes",
+        "cobblestone": "unhewn_cobblestone",
         "emergency": "yes",
         "foot": "yes",
         "highway": "service",
         "horse": "yes",
         "maxspeed": "30",
         "motor_vehicle": "private",
-        "surface": "unhewn_cobblestone",
+        "name": "Sentier nr. 111",
+        "service": "driveway",
+        "surface": "cobblestone",
         "traffic_sign": "BE:F99c",
+        "vicinal_ref": "Voetweg 111",
+        "vicinal_type": "path",
         "id": "way/264006269"
       },
       "geometry": {
@@ -25931,8 +25939,8 @@
             50.8570685
           ],
           [
-            5.2071281,
-            50.8569915
+            5.2071361,
+            50.8569907
           ]
         ]
       }
@@ -26040,8 +26048,12 @@
         "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Engelbamp",
+        "smoothness": "intermediate",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/288090381"
       },
       "geometry": {
@@ -26080,8 +26092,8 @@
             50.8558779
           ],
           [
-            5.2071281,
-            50.8569915
+            5.2071361,
+            50.8569907
           ]
         ]
       }
@@ -26335,8 +26347,11 @@
       "id": "way/336145498",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Bornedries",
+        "source:maxspeed": "BE-VLG:zone70",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/336145498"
       },
       "geometry": {
@@ -26418,6 +26433,7 @@
         "old_ref": "L23",
         "railway": "abandoned",
         "segregated": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "width": "2.5",
         "wikipedia": "nl:Spoorlijn 23",
@@ -26427,72 +26443,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1904007,
-            50.8284207
+            5.1904047,
+            50.8284169
           ],
           [
-            5.1905025,
-            50.8284723
+            5.1905052,
+            50.8284698
           ],
           [
-            5.1906271,
-            50.8285443
+            5.1907348,
+            50.8285869
           ],
           [
-            5.1907335,
-            50.8285924
+            5.191032,
+            50.8286912
           ],
           [
-            5.190866,
-            50.8286293
-          ],
-          [
-            5.1910332,
-            50.8286917
-          ],
-          [
-            5.1911361,
-            50.828728
-          ],
-          [
-            5.191217,
-            50.828754
-          ],
-          [
-            5.1913543,
-            50.8287981
-          ],
-          [
-            5.1916211,
-            50.8288592
-          ],
-          [
-            5.1917894,
-            50.8288977
-          ],
-          [
-            5.1921702,
-            50.8289791
-          ],
-          [
-            5.1925971,
-            50.8290474
-          ],
-          [
-            5.1927624,
-            50.8290703
-          ],
-          [
-            5.1930885,
-            50.8291155
-          ],
-          [
-            5.1932219,
-            50.8291244
-          ],
-          [
-            5.1937406,
-            50.829159
+            5.1914361,
+            50.8288138
           ]
         ]
       }
@@ -26574,6 +26542,10 @@
           [
             5.1891521,
             50.8276218
+          ],
+          [
+            5.1891773,
+            50.8276336
           ],
           [
             5.1892108,
@@ -26761,20 +26733,20 @@
             50.8218053
           ],
           [
-            5.1908326,
-            50.8217322
+            5.1909081,
+            50.8217895
           ],
           [
-            5.1907832,
-            50.821706
+            5.1908091,
+            50.8217398
           ],
           [
-            5.1906605,
-            50.8216409
+            5.1907725,
+            50.8217191
           ],
           [
-            5.1905686,
-            50.8215717
+            5.1907169,
+            50.8216925
           ]
         ]
       }
@@ -26799,8 +26771,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1887566,
-            50.8195675
+            5.1887338,
+            50.8195603
           ],
           [
             5.1888641,
@@ -27148,8 +27120,11 @@
       "id": "way/1113415689",
       "properties": {
         "highway": "track",
+        "name": "Sentier nr. 111",
         "surface": "fine_gravel",
         "tracktype": "grade2",
+        "vicinal_ref": "Voetweg 111",
+        "vicinal_type": "path",
         "id": "way/1113415689"
       },
       "geometry": {
@@ -27183,24 +27158,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1905686,
-            50.8215717
+            5.1905411,
+            50.821592
           ],
           [
-            5.1904251,
-            50.8214443
+            5.1903741,
+            50.8214884
           ],
           [
-            5.1904515,
-            50.8212615
+            5.1905809,
+            50.8212564
           ],
           [
-            5.1900904,
-            50.8210299
+            5.1901038,
+            50.821013
           ],
           [
-            5.1898606,
-            50.8208824
+            5.1898727,
+            50.8208765
           ],
           [
             5.1896467,
@@ -27209,6 +27184,75 @@
           [
             5.1895542,
             50.8206809
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1307276245",
+      "properties": {
+        "embankment": "yes",
+        "foot": "yes",
+        "highway": "cycleway",
+        "lit": "yes",
+        "old_ref": "L23",
+        "railway": "abandoned",
+        "segregated": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "2.5",
+        "wikipedia": "nl:Spoorlijn 23",
+        "id": "way/1307276245"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1914361,
+            50.8288138
+          ],
+          [
+            5.1921702,
+            50.8289791
+          ],
+          [
+            5.1926333,
+            50.8290537
+          ],
+          [
+            5.1930885,
+            50.8291079
+          ],
+          [
+            5.1937406,
+            50.829159
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1307276255",
+      "properties": {
+        "highway": "path",
+        "surface": "paving_stones",
+        "id": "way/1307276255"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1907169,
+            50.8216925
+          ],
+          [
+            5.1906033,
+            50.8216318
+          ],
+          [
+            5.1905411,
+            50.821592
           ]
         ]
       }
@@ -40329,13 +40373,15 @@
       "type": "Feature",
       "id": "way/28734830",
       "properties": {
+        "cobblestone": "unhewn_cobblestone",
         "highway": "residential",
         "lit": "yes",
         "name": "Padonck",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "sidewalk": "no",
-        "surface": "unhewn_cobblestone",
+        "smoothness": "bad",
+        "surface": "cobblestone",
         "id": "way/28734830"
       },
       "geometry": {
@@ -40848,11 +40894,12 @@
       "type": "Feature",
       "id": "way/340498701",
       "properties": {
+        "cobblestone": "unhewn_cobblestone",
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Stationsplein",
-        "surface": "unhewn_cobblestone",
+        "surface": "cobblestone",
         "width": "2.2",
         "id": "way/340498701"
       },
