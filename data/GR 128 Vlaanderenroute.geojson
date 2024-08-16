@@ -3547,16 +3547,20 @@
             50.9228205
           ],
           [
-            4.724115,
-            50.9234891
+            4.7241806,
+            50.923413
+          ],
+          [
+            4.7241225,
+            50.9234907
           ],
           [
             4.724095,
             50.9235626
           ],
           [
-            4.7241211,
-            50.9236035
+            4.7240877,
+            50.9236103
           ]
         ]
       }
@@ -39631,10 +39635,11 @@
       "type": "Feature",
       "id": "way/39426773",
       "properties": {
+        "cobblestone": "unhewn_cobblestone",
         "highway": "track",
         "incline": "20%",
         "smoothness": "very_bad",
-        "surface": "unhewn_cobblestone",
+        "surface": "cobblestone",
         "tracktype": "grade1",
         "id": "way/39426773"
       },
@@ -86438,8 +86443,12 @@
         "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Engelbamp",
+        "smoothness": "intermediate",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/263887154"
       },
       "geometry": {
@@ -98291,7 +98300,7 @@
       "type": "Feature",
       "id": "way/407448756",
       "properties": {
-        "highway": "tertiary",
+        "highway": "unclassified",
         "lit": "yes",
         "name": "Boven Vrijlegem",
         "sidewalk": "left",
@@ -118926,8 +118935,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7241211,
-            50.9236035
+            4.7240877,
+            50.9236103
+          ],
+          [
+            4.724104,
+            50.9236919
           ],
           [
             4.724223,
@@ -119061,10 +119074,11 @@
       "type": "Feature",
       "id": "way/810294090",
       "properties": {
+        "cobblestone": "unhewn_cobblestone",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Kleine Veldsteeg",
-        "surface": "unhewn_cobblestone",
+        "surface": "cobblestone",
         "id": "way/810294090"
       },
       "geometry": {
@@ -133348,12 +133362,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9924317,
-            51.0192505
+            3.9924397,
+            51.0192583
           ],
           [
-            3.9920299,
-            51.0196993
+            3.9923548,
+            51.0193122
+          ],
+          [
+            3.9920256,
+            51.019693
           ],
           [
             3.9915539,
@@ -133660,8 +133678,8 @@
             51.0191324
           ],
           [
-            3.9924317,
-            51.0192505
+            3.9924397,
+            51.0192583
           ]
         ]
       }
@@ -163726,10 +163744,11 @@
       "id": "way/31854206",
       "properties": {
         "bicycle": "yes",
-        "highway": "unclassified",
+        "highway": "track",
         "horse": "yes",
         "smoothness": "intermediate",
         "surface": "concrete",
+        "tracktype": "grade1",
         "vehicle": "destination",
         "width": "3",
         "id": "way/31854206"
@@ -163841,6 +163860,7 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Romeinseweg-Brustem",
+        "oneway": "no",
         "surface": "concrete",
         "vehicle": "destination",
         "width": "3",
@@ -164167,7 +164187,9 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Tomstraat",
+        "oneway": "no",
         "surface": "concrete",
         "vehicle": "no",
         "width": "3",
@@ -167192,6 +167214,7 @@
       "id": "way/835443429",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Geelstraat",
         "oneway": "no",
@@ -167222,11 +167245,12 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "unclassified",
+        "highway": "track",
         "horse": "yes",
         "maxspeed": "30",
         "smoothness": "good",
         "surface": "concrete",
+        "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "width": "3",
         "id": "way/891324394"
@@ -167323,6 +167347,7 @@
       "id": "way/955459724",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Geelstraat",
         "oneway": "no",
