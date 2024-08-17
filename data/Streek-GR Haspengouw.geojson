@@ -4326,11 +4326,16 @@
       "type": "Feature",
       "id": "way/36267840",
       "properties": {
+        "bicycle": "yes",
+        "bus": "yes",
+        "emergency": "yes",
         "highway": "service",
-        "horse": "no",
+        "horse": "yes",
+        "moped": "yes",
         "motor_vehicle": "no",
         "name": "Maastrichterallee",
         "surface": "cobblestone",
+        "vehicle": "destination",
         "id": "way/36267840"
       },
       "geometry": {
@@ -4453,6 +4458,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Lethenstraat",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/61434460"
       },
@@ -4919,6 +4925,7 @@
         "name": "Lethenstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/874404297"
       },
@@ -4930,8 +4937,8 @@
             50.8512811
           ],
           [
-            5.5156949,
-            50.8519076
+            5.5156801,
+            50.8519093
           ]
         ]
       }
@@ -20064,14 +20071,16 @@
       "type": "Feature",
       "id": "way/126805239",
       "properties": {
+        "cobblestone": "unhewn_cobblestone",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Kerkom-Dorp",
         "sidewalk": "no",
+        "smoothness": "bad",
         "source:maxspeed": "BE-VLG:urban",
-        "surface": "unhewn_cobblestone",
+        "surface": "cobblestone",
         "width": "5",
         "id": "way/126805239"
       },
@@ -27691,9 +27700,14 @@
       "type": "Feature",
       "id": "way/17956731",
       "properties": {
+        "access": "destination",
+        "bicycle": "yes",
         "highway": "unclassified",
         "maxspeed": "50",
+        "moped": "yes",
+        "motor_vehicle:conditional": "no @ Mo-Fr 07:00-09:00,16:00-18:00",
         "name": "Kruisstraat",
+        "smoothness": "good",
         "source:maxspeed": "BE:zone50",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/17956731"
@@ -28024,12 +28038,17 @@
       "type": "Feature",
       "id": "way/31646896",
       "properties": {
+        "access": "destination",
+        "bicycle": "yes",
         "highway": "unclassified",
         "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
+        "moped": "yes",
+        "motor_vehicle:conditional": "no @ Mo-Fr 07:00-09:00,16:00-18:00",
         "name": "Melbeekstraat",
         "sidewalk": "no",
+        "smoothness": "good",
         "source:maxspeed": "sign",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
@@ -28073,10 +28092,12 @@
         "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "30",
+        "maxweight": "5",
         "name": "Mombeekdreef",
         "sidewalk": "no",
         "source:maxspeed": "sign",
         "surface": "asphalt",
+        "traffic_sign": "BE:C21",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/35202402"
       },
@@ -32718,6 +32739,7 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Netelbroekstraat",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/194938572"
       },
@@ -33323,9 +33345,14 @@
       "type": "Feature",
       "id": "way/17957510",
       "properties": {
+        "access": "destination",
+        "bicycle": "yes",
         "highway": "unclassified",
+        "moped": "yes",
+        "motor_vehicle:conditional": "no @ Mo-Fr 07:00-09:00,16:00-18:00",
         "name": "Luimertingenstraat",
-        "surface": "concrete",
+        "smoothness": "good",
+        "surface": "asphalt",
         "id": "way/17957510"
       },
       "geometry": {
@@ -33362,8 +33389,12 @@
       "type": "Feature",
       "id": "way/31647021",
       "properties": {
+        "access": "destination",
+        "bicycle": "yes",
         "highway": "unclassified",
         "maxspeed": "50",
+        "moped": "yes",
+        "motor_vehicle:conditional": "no @ Mo-Fr 07:00-09:00,16:00-18:00",
         "name": "Netelbroekstraat",
         "source:maxspeed": "BE:zone50",
         "zone:traffic": "BE-VLG:rural",
@@ -33430,9 +33461,12 @@
       "id": "way/100225794",
       "properties": {
         "cycleway": "lane",
+        "cycleway:smoothness": "intermediate",
+        "cycleway:surface": "concrete",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Luimertingenstraat",
+        "smoothness": "bad",
         "surface": "sett",
         "id": "way/100225794"
       },
@@ -33916,9 +33950,12 @@
       "type": "Feature",
       "id": "way/336755071",
       "properties": {
+        "cycleway": "lane",
+        "cycleway:surface": "paving_stones",
         "highway": "residential",
         "lane_markings": "no",
         "name": "Tapstraat",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/336755071"
       },
@@ -34278,6 +34315,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Reeweg",
+        "surface": "asphalt",
         "id": "way/722981688"
       },
       "geometry": {
@@ -40371,13 +40409,15 @@
       "type": "Feature",
       "id": "way/28734830",
       "properties": {
+        "cobblestone": "unhewn_cobblestone",
         "highway": "residential",
         "lit": "yes",
         "name": "Padonck",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "sidewalk": "no",
-        "surface": "unhewn_cobblestone",
+        "smoothness": "bad",
+        "surface": "cobblestone",
         "id": "way/28734830"
       },
       "geometry": {
@@ -40890,11 +40930,12 @@
       "type": "Feature",
       "id": "way/340498701",
       "properties": {
+        "cobblestone": "unhewn_cobblestone",
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Stationsplein",
-        "surface": "unhewn_cobblestone",
+        "surface": "cobblestone",
         "width": "2.2",
         "id": "way/340498701"
       },

@@ -1784,19 +1784,18 @@
       "type": "Feature",
       "id": "way/48468693",
       "properties": {
-        "bicycle": "yes",
         "class:bicycle": "+3",
         "highway": "track",
         "name": "Scheiddreef",
-        "surface": "ground",
-        "tracktype": "grade3",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
         "id": "way/48468693"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.3165333,
+            3.3165576,
             51.1032505
           ],
           [
@@ -9480,16 +9479,16 @@
         "name": "Vagevuurstraat / Scheiddreef",
         "name:left": "Scheiddreef",
         "name:right": "Vagevuurstraat",
-        "surface": "compacted",
-        "tracktype": "grade3",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
         "id": "way/107119877"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.3174098,
-            51.1035127
+            3.3195077,
+            51.1041453
           ],
           [
             3.3203012,
@@ -11920,7 +11919,8 @@
       "properties": {
         "highway": "track",
         "name": "Scheiddreef",
-        "surface": "ground",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/120583837"
       },
       "geometry": {
@@ -11935,8 +11935,8 @@
             51.1023453
           ],
           [
-            3.3123575,
-            51.1019894
+            3.3126924,
+            51.1020913
           ]
         ]
       }
@@ -12644,7 +12644,8 @@
       "properties": {
         "highway": "track",
         "smoothness": "bad",
-        "tracktype": "grade5",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/127811114"
       },
       "geometry": {
@@ -12659,8 +12660,8 @@
             51.0988817
           ],
           [
-            3.2836936,
-            51.0979559
+            3.2774482,
+            51.0987008
           ]
         ]
       }
@@ -12671,8 +12672,8 @@
       "properties": {
         "highway": "track",
         "smoothness": "horrible",
-        "surface": "compacted",
-        "tracktype": "grade5",
+        "surface": "dirt",
+        "tracktype": "grade4",
         "id": "way/127811118"
       },
       "geometry": {
@@ -12701,18 +12702,6 @@
           [
             3.2735639,
             51.0989363
-          ],
-          [
-            3.274757,
-            51.0989528
-          ],
-          [
-            3.2753743,
-            51.09896
-          ],
-          [
-            3.27587,
-            51.0989152
           ]
         ]
       }
@@ -12721,12 +12710,11 @@
       "type": "Feature",
       "id": "way/127854607",
       "properties": {
-        "bicycle": "yes",
         "class:bicycle": "+3",
         "highway": "track",
         "name": "Scheiddreef",
-        "surface": "ground",
-        "tracktype": "grade3",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
         "id": "way/127854607"
       },
       "geometry": {
@@ -14063,7 +14051,7 @@
       "type": "Feature",
       "id": "way/134197682",
       "properties": {
-        "highway": "bridleway",
+        "highway": "path",
         "surface": "dirt",
         "id": "way/134197682"
       },
@@ -14071,12 +14059,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.291389,
-            51.0957776
+            3.2912363,
+            51.0957748
           ],
           [
-            3.2912996,
-            51.0957666
+            3.2893705,
+            51.0958678
           ],
           [
             3.2875238,
@@ -27542,7 +27530,7 @@
       "properties": {
         "highway": "track",
         "name": "Scheiddreef",
-        "surface": "ground",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/746015992"
       },
@@ -27550,7 +27538,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.3165333,
+            3.3165576,
             51.1032505
           ],
           [
@@ -32840,6 +32828,135 @@
           [
             3.0986054,
             51.075668
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1307802723",
+      "properties": {
+        "highway": "track",
+        "name": "Vagevuurstraat / Scheiddreef",
+        "name:left": "Scheiddreef",
+        "name:right": "Vagevuurstraat",
+        "surface": "dirt",
+        "tracktype": "grade3",
+        "id": "way/1307802723"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3174098,
+            51.1035127
+          ],
+          [
+            3.3195077,
+            51.1041453
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1307809356",
+      "properties": {
+        "highway": "track",
+        "smoothness": "horrible",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "id": "way/1307809356"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2735639,
+            51.0989363
+          ],
+          [
+            3.274757,
+            51.0989528
+          ],
+          [
+            3.2753743,
+            51.09896
+          ],
+          [
+            3.27587,
+            51.0989152
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1307809357",
+      "properties": {
+        "highway": "track",
+        "smoothness": "bad",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "id": "way/1307809357"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2774482,
+            51.0987008
+          ],
+          [
+            3.2836936,
+            51.0979559
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1307809358",
+      "properties": {
+        "highway": "track",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "id": "way/1307809358"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.291389,
+            51.0957776
+          ],
+          [
+            3.2912363,
+            51.0957748
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1307905019",
+      "properties": {
+        "highway": "track",
+        "name": "Scheiddreef",
+        "surface": "dirt",
+        "tracktype": "grade3",
+        "id": "way/1307905019"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3126924,
+            51.1020913
+          ],
+          [
+            3.3123575,
+            51.1019894
           ]
         ]
       }

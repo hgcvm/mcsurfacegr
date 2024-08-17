@@ -240,7 +240,7 @@
       "properties": {
         "highway": "service",
         "motor_vehicle": "private",
-        "surface": "cobblestone",
+        "surface": "compacted",
         "id": "way/3878252"
       },
       "geometry": {
@@ -2160,16 +2160,20 @@
             50.9228205
           ],
           [
-            4.724115,
-            50.9234891
+            4.7241806,
+            50.923413
+          ],
+          [
+            4.7241225,
+            50.9234907
           ],
           [
             4.724095,
             50.9235626
           ],
           [
-            4.7241211,
-            50.9236035
+            4.7240877,
+            50.9236103
           ]
         ]
       }
@@ -3785,6 +3789,7 @@
         "maxspeed": "50",
         "maxspeed:type": "sign",
         "name": "Dorpstraat",
+        "proposed:cyclestreet": "yes",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -22729,12 +22734,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6362954,
-            50.8102818
+            4.636754,
+            50.809855
           ],
           [
-            4.6366039,
-            50.8099872
+            4.6367888,
+            50.8098246
           ],
           [
             4.638306,
@@ -39770,8 +39775,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7241211,
-            50.9236035
+            4.7240877,
+            50.9236103
+          ],
+          [
+            4.724104,
+            50.9236919
           ],
           [
             4.724223,
@@ -42995,6 +43004,7 @@
         "maxspeed": "30",
         "name": "Ridder Dessainlaan",
         "sidewalk": "both",
+        "surface": "paving_stones",
         "id": "way/1135125799"
       },
       "geometry": {
@@ -43019,6 +43029,7 @@
         "maxspeed": "30",
         "name": "Ridder Dessainlaan",
         "sidewalk": "both",
+        "surface": "paving_stones",
         "id": "way/1135125800"
       },
       "geometry": {
@@ -43044,6 +43055,7 @@
         "maxspeed": "30",
         "name": "Ridder Dessainlaan",
         "sidewalk": "both",
+        "surface": "asphalt",
         "id": "way/1135125801"
       },
       "geometry": {
@@ -43725,6 +43737,7 @@
         "maxspeed": "30",
         "name": "Ridder Dessainlaan",
         "sidewalk": "both",
+        "surface": "paving_stones",
         "id": "way/1238640238"
       },
       "geometry": {
@@ -43952,6 +43965,69 @@
           [
             4.7369701,
             50.9083848
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1307822281",
+      "properties": {
+        "bicycle": "permissive",
+        "description": "on former tramtrack",
+        "embankment": "yes",
+        "foot": "permissive",
+        "highway": "path",
+        "motor_vehicle": "no",
+        "mtb:scale": "1",
+        "name": "Zwette Jean",
+        "surface": "dirt",
+        "id": "way/1307822281"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.6362954,
+            50.8102818
+          ],
+          [
+            4.6366039,
+            50.8099872
+          ],
+          [
+            4.6367171,
+            50.8098877
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1307822282",
+      "properties": {
+        "bicycle": "permissive",
+        "bridge": "yes",
+        "description": "on former tramtrack",
+        "foot": "permissive",
+        "highway": "path",
+        "layer": "1",
+        "motor_vehicle": "no",
+        "mtb:scale": "1",
+        "name": "Zwette Jean",
+        "surface": "dirt",
+        "id": "way/1307822282"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.6367171,
+            50.8098877
+          ],
+          [
+            4.636754,
+            50.809855
           ]
         ]
       }
@@ -57122,12 +57198,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6362954,
-            50.8102818
+            4.636754,
+            50.809855
           ],
           [
-            4.6366039,
-            50.8099872
+            4.6367888,
+            50.8098246
           ],
           [
             4.638306,
@@ -60051,6 +60127,8 @@
         "maxspeed": "30",
         "maxweight": "5",
         "name": "Roodsestraat / Rue de Weert St-Georges",
+        "name:left": "Rue de Weert St-Georges",
+        "name:right": "Roodsestraat",
         "oneway": "no",
         "sidewalk:both": "no",
         "smoothness": "good",
@@ -60678,6 +60756,69 @@
           [
             4.6402428,
             50.789424
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1307822281",
+      "properties": {
+        "bicycle": "permissive",
+        "description": "on former tramtrack",
+        "embankment": "yes",
+        "foot": "permissive",
+        "highway": "path",
+        "motor_vehicle": "no",
+        "mtb:scale": "1",
+        "name": "Zwette Jean",
+        "surface": "dirt",
+        "id": "way/1307822281"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.6362954,
+            50.8102818
+          ],
+          [
+            4.6366039,
+            50.8099872
+          ],
+          [
+            4.6367171,
+            50.8098877
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1307822282",
+      "properties": {
+        "bicycle": "permissive",
+        "bridge": "yes",
+        "description": "on former tramtrack",
+        "foot": "permissive",
+        "highway": "path",
+        "layer": "1",
+        "motor_vehicle": "no",
+        "mtb:scale": "1",
+        "name": "Zwette Jean",
+        "surface": "dirt",
+        "id": "way/1307822282"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.6367171,
+            50.8098877
+          ],
+          [
+            4.636754,
+            50.809855
           ]
         ]
       }
@@ -73756,12 +73897,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6362954,
-            50.8102818
+            4.636754,
+            50.809855
           ],
           [
-            4.6366039,
-            50.8099872
+            4.6367888,
+            50.8098246
           ],
           [
             4.638306,
@@ -78874,6 +79015,69 @@
           [
             4.5965236,
             50.8317566
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1307822281",
+      "properties": {
+        "bicycle": "permissive",
+        "description": "on former tramtrack",
+        "embankment": "yes",
+        "foot": "permissive",
+        "highway": "path",
+        "motor_vehicle": "no",
+        "mtb:scale": "1",
+        "name": "Zwette Jean",
+        "surface": "dirt",
+        "id": "way/1307822281"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.6362954,
+            50.8102818
+          ],
+          [
+            4.6366039,
+            50.8099872
+          ],
+          [
+            4.6367171,
+            50.8098877
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1307822282",
+      "properties": {
+        "bicycle": "permissive",
+        "bridge": "yes",
+        "description": "on former tramtrack",
+        "foot": "permissive",
+        "highway": "path",
+        "layer": "1",
+        "motor_vehicle": "no",
+        "mtb:scale": "1",
+        "name": "Zwette Jean",
+        "surface": "dirt",
+        "id": "way/1307822282"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.6367171,
+            50.8098877
+          ],
+          [
+            4.636754,
+            50.809855
           ]
         ]
       }
