@@ -5253,6 +5253,7 @@
       "properties": {
         "cycleway": "track",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Bieststraat",
         "note": "housenumbers ranging from 1 to 91 and from 2 to 160",
@@ -167878,6 +167879,8 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "smoothness": "intermediate",
+        "traffic_sign": "BE:F111",
         "id": "way/20748917"
       },
       "geometry": {
@@ -168549,6 +168552,7 @@
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Goudsbeemdstraat",
+        "smoothness": "intermediate",
         "surface": "concrete",
         "id": "way/27938143"
       },
@@ -168872,14 +168876,16 @@
       "properties": {
         "highway": "residential",
         "name": "Godensteenstraat",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
         "id": "way/28761882"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.4932371,
-            50.7908482
+            5.4932519,
+            50.7908652
           ],
           [
             5.4933344,
@@ -169431,8 +169437,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4642233,
-            50.7810101
+            5.464187,
+            50.7809917
           ],
           [
             5.4641148,
@@ -169752,27 +169758,20 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Sint-Martensstraat",
-        "surface": "asphalt",
+        "smoothness": "intermediate",
+        "surface": "concrete",
         "id": "way/39057269"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.4960504,
-            50.7907527
-          ],
-          [
-            5.4960307,
-            50.7907805
+            5.496031,
+            50.7907574
           ],
           [
             5.4960142,
             50.7910189
-          ],
-          [
-            5.4959838,
-            50.7911152
           ],
           [
             5.4959264,
@@ -170466,6 +170465,7 @@
         "overtaking:motor_vehicle": "no",
         "sidewalk": "both",
         "sidewalk:both:surface": "cobblestone:flattened",
+        "smoothness": "intermediate",
         "surface": "sett",
         "id": "way/148819238"
       },
@@ -170652,14 +170652,6 @@
             50.7960774
           ],
           [
-            5.5063642,
-            50.7961419
-          ],
-          [
-            5.5065134,
-            50.7962933
-          ],
-          [
             5.5066497,
             50.7964405
           ]
@@ -170698,6 +170690,7 @@
       "properties": {
         "highway": "residential",
         "name": "Godensteenstraat",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/284332198"
       },
@@ -170713,12 +170706,12 @@
             50.7906692
           ],
           [
-            5.4959395,
-            50.7907258
+            5.4959335,
+            50.7907296
           ],
           [
-            5.4960504,
-            50.7907527
+            5.496031,
+            50.7907574
           ]
         ]
       }
@@ -171443,6 +171436,8 @@
       "properties": {
         "highway": "residential",
         "name": "Bergerstraat",
+        "smoothness": "intermediate",
+        "surface": "concrete",
         "id": "way/722746116"
       },
       "geometry": {
@@ -171477,12 +171472,8 @@
             50.7906174
           ],
           [
-            5.4931537,
-            50.7908387
-          ],
-          [
-            5.4932371,
-            50.7908482
+            5.4929468,
+            50.7907504
           ]
         ]
       }
@@ -172148,10 +172139,13 @@
       "id": "way/875211047",
       "properties": {
         "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
-        "bicycle": "yes",
+        "bicycle": "designated",
+        "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Stadhuisplein",
+        "overtaking:motor_vehicle": "no",
+        "traffic_sign": "BE:F111",
         "id": "way/875211047"
       },
       "geometry": {
@@ -172462,6 +172456,60 @@
           [
             5.4748069,
             50.7782135
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1308437775",
+      "properties": {
+        "highway": "residential",
+        "name": "Bergerstraat",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "id": "way/1308437775"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4929468,
+            50.7907504
+          ],
+          [
+            5.4931537,
+            50.7908387
+          ],
+          [
+            5.4932519,
+            50.7908652
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1308449117",
+      "properties": {
+        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "image:streetsign": "https://i.imgur.com/EkYBIX9.jpg",
+        "maxspeed": "30",
+        "name": "Stadhuisplein",
+        "id": "way/1308449117"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4642233,
+            50.7810101
+          ],
+          [
+            5.464187,
+            50.7809917
           ]
         ]
       }
