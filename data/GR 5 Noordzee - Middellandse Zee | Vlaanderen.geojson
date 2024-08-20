@@ -15043,8 +15043,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4423653,
-            50.9503461
+            5.4423761,
+            50.9503521
           ],
           [
             5.4416423,
@@ -19717,8 +19717,16 @@
             50.9485945
           ],
           [
-            5.4419009,
-            50.9486644
+            5.4418186,
+            50.9486547
+          ],
+          [
+            5.4419245,
+            50.948686
+          ],
+          [
+            5.4421245,
+            50.9487209
           ],
           [
             5.4424444,
@@ -33504,8 +33512,8 @@
             50.9494454
           ],
           [
-            5.4423653,
-            50.9503461
+            5.4423761,
+            50.9503521
           ]
         ]
       }
@@ -39667,7 +39675,6 @@
       "id": "way/233557428",
       "properties": {
         "highway": "cycleway",
-        "layer": "-1",
         "oneway": "yes",
         "tunnel": "yes",
         "id": "way/233557428"
@@ -44952,7 +44959,7 @@
       "type": "Feature",
       "id": "way/382007040",
       "properties": {
-        "dogs": "no",
+        "dog": "no",
         "highway": "footway",
         "opening_hours": "Apr-Aug 08:00-20:00; Sep-Mar 09:00-17:00",
         "scenic": "yes",
@@ -66228,18 +66235,15 @@
         "name": "Eindgracht",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "surface": "asphalt",
         "id": "way/478168984"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.4946208,
-            50.964323
-          ],
-          [
-            5.4946227,
-            50.9642848
+            5.4946269,
+            50.9642019
           ],
           [
             5.4946345,
@@ -66947,8 +66951,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.49438,
-            50.9645213
+            5.4943787,
+            50.9645205
           ],
           [
             5.4939256,
@@ -66967,8 +66971,8 @@
             50.9645268
           ],
           [
-            5.4934711,
-            50.9645728
+            5.4934779,
+            50.9645661
           ],
           [
             5.4934429,
@@ -66981,33 +66985,21 @@
       "type": "Feature",
       "id": "way/914959805",
       "properties": {
-        "crossing": "zebra",
-        "footway": "crossing",
+        "footway": "sidewalk",
         "highway": "footway",
+        "surface": "paving_stones",
         "id": "way/914959805"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.4943794,
-            50.9643646
+            5.494379,
+            50.9643924
           ],
           [
-            5.4943791,
-            50.9643808
-          ],
-          [
-            5.4943784,
-            50.9644413
-          ],
-          [
-            5.4943776,
-            50.9644983
-          ],
-          [
-            5.4943778,
-            50.964509
+            5.4943786,
+            50.9644227
           ]
         ]
       }
@@ -67016,8 +67008,9 @@
       "type": "Feature",
       "id": "way/914959806",
       "properties": {
+        "footway": "sidewalk",
         "highway": "footway",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/914959806"
       },
       "geometry": {
@@ -67028,8 +67021,8 @@
             50.964509
           ],
           [
-            5.49438,
-            50.9645213
+            5.4943787,
+            50.9645205
           ]
         ]
       }
@@ -67038,6 +67031,9 @@
       "type": "Feature",
       "id": "way/914959807",
       "properties": {
+        "crossing": "zebra",
+        "crossing:markings": "yes",
+        "footway": "crossing",
         "highway": "footway",
         "surface": "paved",
         "id": "way/914959807"
@@ -67046,8 +67042,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4943794,
-            50.9643646
+            5.4943801,
+            50.9643432
           ],
           [
             5.4943809,
@@ -67060,8 +67056,9 @@
       "type": "Feature",
       "id": "way/914994165",
       "properties": {
+        "footway": "sidewalk",
         "highway": "footway",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/914994165"
       },
       "geometry": {
@@ -67130,8 +67127,9 @@
       "type": "Feature",
       "id": "way/914994188",
       "properties": {
+        "footway": "sidewalk",
         "highway": "footway",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/914994188"
       },
       "geometry": {
@@ -67152,7 +67150,9 @@
       "type": "Feature",
       "id": "way/914994189",
       "properties": {
+        "footway": "sidewalk",
         "highway": "footway",
+        "surface": "paving_stones",
         "id": "way/914994189"
       },
       "geometry": {
@@ -67180,7 +67180,7 @@
         "highway": "cycleway",
         "lit": "yes",
         "oneway": "no",
-        "surface": "paved",
+        "surface": "paving_stones",
         "width": "2.5",
         "id": "way/914994192"
       },
@@ -67552,6 +67552,164 @@
           [
             5.4960506,
             50.9661053
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1308770827",
+      "properties": {
+        "highway": "residential",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "Eindgracht",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "surface": "paving_stones",
+        "id": "way/1308770827"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4946208,
+            50.964323
+          ],
+          [
+            5.4946227,
+            50.9642848
+          ],
+          [
+            5.4946269,
+            50.9642019
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1308770828",
+      "properties": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paving_stones",
+        "id": "way/1308770828"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4943794,
+            50.9643646
+          ],
+          [
+            5.4943801,
+            50.9643432
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1308770830",
+      "properties": {
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "id": "way/1308770830"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4943778,
+            50.9644811
+          ],
+          [
+            5.4943776,
+            50.9644983
+          ],
+          [
+            5.4943778,
+            50.964509
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1308770831",
+      "properties": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paving_stones",
+        "id": "way/1308770831"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4943782,
+            50.9644538
+          ],
+          [
+            5.4943778,
+            50.9644811
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1308770832",
+      "properties": {
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "id": "way/1308770832"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4943786,
+            50.9644227
+          ],
+          [
+            5.4943784,
+            50.9644413
+          ],
+          [
+            5.4943782,
+            50.9644538
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1308770833",
+      "properties": {
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "id": "way/1308770833"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4943794,
+            50.9643646
+          ],
+          [
+            5.4943791,
+            50.9643808
+          ],
+          [
+            5.494379,
+            50.9643924
           ]
         ]
       }

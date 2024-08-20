@@ -8203,7 +8203,10 @@
       "type": "Feature",
       "id": "way/74721100",
       "properties": {
+        "agricultural": "yes",
         "highway": "unclassified",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Weg naar Sint-Kruis",
         "surface": "asphalt",
         "id": "way/74721100"
@@ -12693,7 +12696,10 @@
       "type": "Feature",
       "id": "way/137414975",
       "properties": {
+        "agricultural": "yes",
         "highway": "unclassified",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Weg naar Sint-Kruis",
         "surface": "sett",
         "id": "way/137414975"
@@ -17031,14 +17037,6 @@
           [
             3.294304,
             51.1963978
-          ],
-          [
-            3.294178,
-            51.1965827
-          ],
-          [
-            3.2940134,
-            51.196848
           ]
         ]
       }
@@ -29156,7 +29154,7 @@
       "id": "way/981365416",
       "properties": {
         "bicycle": "yes",
-        "highway": "path",
+        "highway": "track",
         "name": "Ryckevelde",
         "surface": "compacted",
         "id": "way/981365416"
@@ -29167,6 +29165,10 @@
           [
             3.2939163,
             51.1968249
+          ],
+          [
+            3.2932876,
+            51.1966495
           ],
           [
             3.2928099,
@@ -29338,7 +29340,7 @@
       "id": "way/1026867319",
       "properties": {
         "bicycle": "yes",
-        "highway": "path",
+        "highway": "track",
         "surface": "compacted",
         "id": "way/1026867319"
       },
@@ -31637,6 +31639,32 @@
           [
             3.3899934,
             51.3233413
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1308746224",
+      "properties": {
+        "highway": "track",
+        "surface": "compacted",
+        "id": "way/1308746224"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.294304,
+            51.1963978
+          ],
+          [
+            3.294178,
+            51.1965827
+          ],
+          [
+            3.2940134,
+            51.196848
           ]
         ]
       }
