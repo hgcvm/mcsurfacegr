@@ -62627,7 +62627,7 @@
       "id": "way/937737707",
       "properties": {
         "highway": "path",
-        "surface": "grass",
+        "surface": "sand",
         "id": "way/937737707"
       },
       "geometry": {
@@ -66001,18 +66001,6 @@
           [
             2.6893759,
             51.1251285
-          ],
-          [
-            2.6893222,
-            51.125078
-          ],
-          [
-            2.6892793,
-            51.1249669
-          ],
-          [
-            2.6891943,
-            51.1248318
           ]
         ]
       }
@@ -68684,7 +68672,7 @@
       "id": "way/1118722226",
       "properties": {
         "highway": "path",
-        "surface": "grass",
+        "surface": "dirt",
         "id": "way/1118722226"
       },
       "geometry": {
@@ -68707,6 +68695,7 @@
       "properties": {
         "foot": "designated",
         "highway": "path",
+        "lit": "no",
         "surface": "sand",
         "id": "way/1118722227"
       },
@@ -69037,7 +69026,7 @@
       "id": "way/1119660750",
       "properties": {
         "highway": "path",
-        "surface": "dirt",
+        "surface": "sand",
         "id": "way/1119660750"
       },
       "geometry": {
@@ -70862,6 +70851,7 @@
       "properties": {
         "foot": "designated",
         "highway": "path",
+        "lit": "no",
         "surface": "sand",
         "id": "way/1158623627"
       },
@@ -74634,6 +74624,36 @@
           [
             2.8252554,
             51.1926624
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1308991893",
+      "properties": {
+        "highway": "path",
+        "surface": "sand",
+        "id": "way/1308991893"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.6893759,
+            51.1251285
+          ],
+          [
+            2.6893222,
+            51.125078
+          ],
+          [
+            2.6892793,
+            51.1249669
+          ],
+          [
+            2.6891943,
+            51.1248318
           ]
         ]
       }
@@ -83238,6 +83258,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Achterhoek",
+        "surface": "asphalt",
         "id": "way/34949200"
       },
       "geometry": {
@@ -88336,6 +88357,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Comminnestraat",
+        "surface": "asphalt",
         "id": "way/53361440"
       },
       "geometry": {
@@ -89012,6 +89034,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Achterhoek",
+        "surface": "asphalt",
         "id": "way/53848831"
       },
       "geometry": {
@@ -180710,6 +180733,8 @@
         "maxspeed": "30",
         "maxspeed:type": "BE:zone30",
         "name": "Minnewater",
+        "sidewalk": "both",
+        "smoothness": "intermediate",
         "surface": "sett",
         "id": "way/4329630"
       },
@@ -180743,6 +180768,7 @@
         "oneway:bicycle": "yes",
         "parking:both": "no",
         "sidewalk": "both",
+        "smoothness": "intermediate",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width:carriageway": "3.0",
@@ -181916,6 +181942,7 @@
         "layer": "1",
         "name": "Wijngaardbrug",
         "sett:pattern": "arc",
+        "smoothness": "intermediate",
         "surface": "sett",
         "id": "way/116029940"
       },
@@ -181942,6 +181969,7 @@
         "name": "Wijngaardstraat",
         "oneway": "no",
         "sett:pattern": "arc",
+        "smoothness": "intermediate",
         "surface": "sett",
         "wikidata": "Q2488895",
         "wikipedia": "nl:Wijngaardstraat (Brugge)",
@@ -182074,6 +182102,7 @@
         "ramp": "no",
         "step_count": "7",
         "surface": "wood",
+        "tactile_paving": "no",
         "id": "way/126092343"
       },
       "geometry": {
@@ -182882,6 +182911,7 @@
       "id": "way/523125639",
       "properties": {
         "highway": "footway",
+        "smoothness": "intermediate",
         "surface": "sett",
         "id": "way/523125639"
       },
@@ -183007,6 +183037,7 @@
       "properties": {
         "highway": "footway",
         "lit": "yes",
+        "smoothness": "good",
         "surface": "compacted",
         "id": "way/541181489"
       },
@@ -183997,6 +184028,7 @@
         "parking:both": "no",
         "sett:pattern": "arc",
         "sidewalk": "both",
+        "smoothness": "intermediate",
         "surface": "sett",
         "width:carriageway": "4.5",
         "wikidata": "Q2152814",
