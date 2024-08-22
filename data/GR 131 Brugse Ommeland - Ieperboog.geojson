@@ -458,6 +458,7 @@
         "name": "Parklaan",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/24056628"
       },
@@ -652,7 +653,7 @@
       "id": "way/24207348",
       "properties": {
         "highway": "footway",
-        "surface": "asphalt",
+        "surface": "sett",
         "id": "way/24207348"
       },
       "geometry": {
@@ -705,8 +706,11 @@
       "type": "Feature",
       "id": "way/24208336",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Handzamedijk",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/24208336"
       },
@@ -3595,9 +3599,11 @@
       "id": "way/54428191",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Fraeysstraat",
         "oneway": "yes",
         "oneway:bicycle": "yes",
+        "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
         "id": "way/54428191"
       },
@@ -3804,9 +3810,11 @@
         "cycleway": "opposite_lane",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "30",
         "name": "Aartrijkestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/57936203"
       },
@@ -19177,6 +19185,7 @@
       "properties": {
         "access": "agricultural",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "embankment": "yes",
         "foot": "yes",
         "highway": "track",
@@ -19258,6 +19267,7 @@
       "properties": {
         "access": "agricultural",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "embankment": "yes",
         "foot": "yes",
         "highway": "track",
@@ -19266,8 +19276,7 @@
         "motorcar": "no",
         "motorcycle": "no",
         "name": "Boterdijk",
-        "smoothness": "bad",
-        "surface": "grass_paver",
+        "surface": "pebblestone",
         "tracktype": "grade4",
         "width": "3",
         "id": "way/191431401"
@@ -22987,7 +22996,9 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "30",
         "name": "Aartrijkestraat",
+        "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
         "id": "way/357317450"
       },
@@ -23185,7 +23196,11 @@
       "id": "way/386509801",
       "properties": {
         "highway": "path",
+        "mofa": "no",
+        "moped": "no",
+        "speed_pedelec": "no",
         "surface": "compacted",
+        "traffic_sign": "BE:C9",
         "id": "way/386509801"
       },
       "geometry": {
@@ -23810,6 +23825,8 @@
       "properties": {
         "highway": "residential",
         "junction": "roundabout",
+        "maxspeed": "30",
+        "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
         "id": "way/432889534"
       },
@@ -23932,8 +23949,11 @@
       "type": "Feature",
       "id": "way/443943673",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Handzamedijk",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/443943673"
       },
@@ -24019,8 +24039,10 @@
       "type": "Feature",
       "id": "way/443943674",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Handzamedijk",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/443943674"
       },
@@ -29823,8 +29845,12 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "path",
+        "mofa": "no",
+        "moped": "no",
         "segregated": "no",
+        "speed_pedelec": "no",
         "surface": "compacted",
+        "traffic_sign": "BE:C9",
         "id": "way/989742527"
       },
       "geometry": {
@@ -32563,7 +32589,9 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Aartrijkestraat",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "paving_stones",
         "id": "way/1135386266"
       },
@@ -32577,10 +32605,6 @@
           [
             3.1003777,
             51.07034
-          ],
-          [
-            3.1003347,
-            51.0701023
           ]
         ]
       }
@@ -32971,6 +32995,32 @@
           [
             3.3123575,
             51.1019894
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1309394973",
+      "properties": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "name": "Aartrijkestraat",
+        "source:maxspeed": "BE:zone30",
+        "surface": "paving_stones",
+        "id": "way/1309394973"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.1003777,
+            51.07034
+          ],
+          [
+            3.1003347,
+            51.0701023
           ]
         ]
       }
