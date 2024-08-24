@@ -1286,8 +1286,12 @@
       "type": "Feature",
       "id": "way/41662558",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Verbrandemolenstraat",
+        "oneway": "no",
+        "sidewalk": "no",
         "surface": "asphalt",
         "width": "3",
         "id": "way/41662558"
@@ -1497,6 +1501,7 @@
       "type": "Feature",
       "id": "way/42997712",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "surface": "concrete",
         "tracktype": "grade1",
@@ -1505,26 +1510,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            2.9200295,
-            50.8281876
-          ],
-          [
-            2.9201008,
-            50.8282181
-          ],
-          [
-            2.9221332,
-            50.8285885
-          ],
-          [
-            2.9222534,
-            50.8286089
-          ],
-          [
-            2.9223419,
-            50.8286361
-          ],
           [
             2.9224239,
             50.8286678
@@ -5216,6 +5201,7 @@
       "type": "Feature",
       "id": "way/70042052",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Perseweide",
         "surface": "asphalt",
@@ -5243,10 +5229,12 @@
       "type": "Feature",
       "id": "way/70042059",
       "properties": {
-        "cycleway:right": "lane",
-        "cycleway:right:oneway": "no",
+        "cycleway:left": "no",
+        "cycleway:right": "separate",
         "highway": "tertiary",
+        "lanes": "2",
         "name": "Komenseweg",
+        "sidewalk": "no",
         "surface": "concrete",
         "id": "way/70042059"
       },
@@ -7098,6 +7086,7 @@
       "type": "Feature",
       "id": "way/90437686",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "name": "Seelbachdreef",
         "surface": "asphalt",
@@ -16039,6 +16028,7 @@
       "id": "way/153528369",
       "properties": {
         "bicycle": "no",
+        "cycleway:both": "no",
         "highway": "track",
         "surface": "dirt",
         "tracktype": "grade5",
@@ -28282,6 +28272,7 @@
       "type": "Feature",
       "id": "way/801295281",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "name": "Seelbachdreef",
         "surface": "concrete:plates",
@@ -31288,6 +31279,7 @@
       "type": "Feature",
       "id": "way/1103750648",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "name": "Seelbachdreef",
         "surface": "asphalt",
@@ -31312,6 +31304,7 @@
       "type": "Feature",
       "id": "way/1103750649",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "name": "Seelbachdreef",
         "surface": "concrete",
@@ -33027,6 +33020,66 @@
     },
     {
       "type": "Feature",
+      "id": "way/1310382148",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "track",
+        "surface": "concrete",
+        "tracktype": "grade1",
+        "id": "way/1310382148"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.9200295,
+            50.8281876
+          ],
+          [
+            2.9201008,
+            50.8282181
+          ],
+          [
+            2.9221332,
+            50.8285885
+          ],
+          [
+            2.9222534,
+            50.8286089
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1310382149",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "track",
+        "surface": "asphalt",
+        "tracktype": "grade1",
+        "id": "way/1310382149"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.9222534,
+            50.8286089
+          ],
+          [
+            2.9223419,
+            50.8286361
+          ],
+          [
+            2.9224239,
+            50.8286678
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/40774916",
       "properties": {
         "bicycle": "yes",
@@ -33109,6 +33162,7 @@
       "id": "way/44717306",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "track",
         "surface": "gravel",
@@ -33162,6 +33216,7 @@
       "id": "way/53104883",
       "properties": {
         "bicycle": "no",
+        "cycleway:both": "no",
         "highway": "track",
         "tracktype": "grade5",
         "id": "way/53104883"
@@ -33448,9 +33503,13 @@
       "id": "way/70042038",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Verbrandemolenstraat",
+        "oneway": "no",
+        "sidewalk": "no",
         "surface": "asphalt",
         "width": "3",
         "id": "way/70042038"
@@ -33706,6 +33765,7 @@
       "id": "way/178637919",
       "properties": {
         "bicycle": "no",
+        "cycleway:both": "no",
         "highway": "track",
         "tracktype": "grade5",
         "id": "way/178637919"
@@ -33957,6 +34017,7 @@
       "id": "way/264139334",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "track",
         "id": "way/264139334"
