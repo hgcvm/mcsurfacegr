@@ -14118,6 +14118,7 @@
         "highway": "residential",
         "lane_markings": "no",
         "maxweight": "5",
+        "maxweight:conditional": "none @ destination",
         "name": "Varendonksesteenweg",
         "name:etymology:wikidata": "Q3475648",
         "note": "dit zijn wegen met een woonfunctie",
@@ -14153,7 +14154,9 @@
       "id": "way/24879005",
       "properties": {
         "highway": "track",
-        "name": "Lange dreefpad",
+        "horse": "no",
+        "name": "Lange Dreefpad",
+        "smoothness": "good",
         "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/24879005"
@@ -18901,6 +18904,9 @@
         "designation": "towpath",
         "highway": "path",
         "horse": "no",
+        "mofa": "yes",
+        "motor_vehicle": "no",
+        "motor_vehicle:conditional": "yes @ permit",
         "surface": "compacted",
         "width": "1",
         "id": "way/34886650"
@@ -19060,6 +19066,7 @@
       "id": "way/34886778",
       "properties": {
         "highway": "track",
+        "name": "Lange Dreefpad",
         "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/34886778"

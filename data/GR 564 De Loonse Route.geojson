@@ -451,6 +451,7 @@
         "cycleway": "track",
         "highway": "residential",
         "name": "Winkelstraat",
+        "smoothness": "good",
         "id": "way/17952000"
       },
       "geometry": {
@@ -4066,10 +4067,6 @@
           [
             5.3607446,
             50.8628971
-          ],
-          [
-            5.3630184,
-            50.8645303
           ]
         ]
       }
@@ -17303,6 +17300,7 @@
       "properties": {
         "highway": "cycleway",
         "name": "Printhagendreef",
+        "smoothness": "intermediate",
         "surface": "concrete",
         "id": "way/220075383"
       },
@@ -20779,7 +20777,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "no",
-        "surface": "paved",
+        "surface": "concrete",
         "id": "way/247015320"
       },
       "geometry": {
@@ -24891,6 +24889,7 @@
       "id": "way/277173619",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "30",
         "name": "Printhagendreef",
         "surface": "asphalt",
         "id": "way/277173619"
@@ -36622,6 +36621,7 @@
         "highway": "residential",
         "lane_markings": "no",
         "name": "Winkelstraat",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/722981686"
       },
@@ -42444,6 +42444,31 @@
           [
             5.2930381,
             50.7832245
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1311022074",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "30",
+        "name": "Printhagendreef",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "id": "way/1311022074"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3607446,
+            50.8628971
+          ],
+          [
+            5.3630184,
+            50.8645303
           ]
         ]
       }

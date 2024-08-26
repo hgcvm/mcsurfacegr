@@ -12670,7 +12670,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Widooierlinde",
-        "smoothness": "intermediate",
+        "smoothness": "good",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "id": "way/29352075"
@@ -13447,10 +13447,18 @@
       "properties": {
         "access": "destination",
         "agricultural": "yes",
-        "bicycle": "designated",
+        "bicycle": "yes",
+        "emergency": "yes",
         "foot": "yes",
         "highway": "unclassified",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Hamtstraat",
+        "smoothness": "intermediate",
+        "speed_pedelec": "yes",
+        "surface": "concrete",
+        "traffic_sign": "BE:F99c",
         "id": "way/257030930"
       },
       "geometry": {
@@ -13461,20 +13469,12 @@
             50.7758694
           ],
           [
-            5.4072241,
-            50.7757786
-          ],
-          [
-            5.4071024,
-            50.7755502
+            5.4071027,
+            50.7755425
           ],
           [
             5.4070103,
             50.7753372
-          ],
-          [
-            5.4069646,
-            50.7751722
           ],
           [
             5.406953,
@@ -13485,24 +13485,8 @@
             50.774998
           ],
           [
-            5.4069857,
-            50.7749432
-          ],
-          [
-            5.407107,
-            50.7747846
-          ],
-          [
             5.4071385,
             50.7747199
-          ],
-          [
-            5.407152,
-            50.7746777
-          ],
-          [
-            5.4071554,
-            50.7746286
           ],
           [
             5.4071435,
@@ -13608,10 +13592,6 @@
           [
             5.406722,
             50.7730179
-          ],
-          [
-            5.4070519,
-            50.7729536
           ],
           [
             5.4071885,
@@ -14111,6 +14091,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Hamtstraat",
+        "smoothness": "good",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "id": "way/346382060"
@@ -14492,6 +14473,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Hamtstraat",
+        "smoothness": "intermediate",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "concrete",
         "id": "way/857602640"
@@ -14504,8 +14486,8 @@
             50.7742449
           ],
           [
-            5.4070867,
-            50.7743843
+            5.4070807,
+            50.7743894
           ],
           [
             5.4071201,
@@ -35182,6 +35164,7 @@
       "id": "way/336914008",
       "properties": {
         "highway": "path",
+        "smoothness": "bad",
         "surface": "compacted",
         "id": "way/336914008"
       },
@@ -35217,16 +35200,8 @@
             50.8533238
           ],
           [
-            5.3867389,
-            50.853114
-          ],
-          [
-            5.3869735,
-            50.8528913
-          ],
-          [
-            5.3870264,
-            50.8528289
+            5.3866898,
+            50.8531629
           ]
         ]
       }
@@ -35369,6 +35344,7 @@
       "id": "way/336914037",
       "properties": {
         "highway": "track",
+        "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
         "id": "way/336914037"
@@ -35603,6 +35579,7 @@
       "id": "way/337081218",
       "properties": {
         "highway": "track",
+        "smoothness": "very_bad",
         "surface": "dirt",
         "tracktype": "grade4",
         "vehicle": "no",
@@ -35800,6 +35777,7 @@
       "properties": {
         "highway": "track",
         "name": "Wouddal",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "tracktype": "grade1",
         "id": "way/412531332"
@@ -35937,6 +35915,7 @@
       "id": "way/494778401",
       "properties": {
         "highway": "track",
+        "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
         "id": "way/494778401"
@@ -35968,6 +35947,7 @@
       "id": "way/494778402",
       "properties": {
         "highway": "path",
+        "smoothness": "bad",
         "surface": "compacted",
         "id": "way/494778402"
       },
@@ -36432,6 +36412,7 @@
       "id": "way/777321916",
       "properties": {
         "highway": "path",
+        "smoothness": "bad",
         "surface": "compacted",
         "id": "way/777321916"
       },
@@ -36738,6 +36719,37 @@
           [
             5.4063192,
             50.8386761
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1311019739",
+      "properties": {
+        "highway": "track",
+        "smoothness": "bad",
+        "surface": "compacted",
+        "id": "way/1311019739"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3866898,
+            50.8531629
+          ],
+          [
+            5.3867389,
+            50.853114
+          ],
+          [
+            5.3869735,
+            50.8528913
+          ],
+          [
+            5.3870264,
+            50.8528289
           ]
         ]
       }
@@ -43072,11 +43084,13 @@
         "bicycle": "yes",
         "highway": "track",
         "name": "Dassenweg",
+        "smoothness": "intermediate",
         "surface": "concrete:lanes",
+        "surface:middle": "asphalt",
         "tracktype": "grade1",
         "traffic_sign": "BE:C3,BE:M2",
         "vehicle": "no",
-        "width": "2.5",
+        "width": "3",
         "id": "way/215811035"
       },
       "geometry": {
@@ -43087,36 +43101,24 @@
             50.8220698
           ],
           [
-            5.4020374,
-            50.8220397
+            5.4019207,
+            50.8220566
           ],
           [
-            5.4043426,
-            50.82178
+            5.4042891,
+            50.8217822
           ],
           [
-            5.4051806,
-            50.8217202
+            5.4051179,
+            50.8217262
           ],
           [
             5.4053216,
             50.8216875
           ],
           [
-            5.4054107,
-            50.8216456
-          ],
-          [
             5.4058895,
             50.8213194
-          ],
-          [
-            5.4059708,
-            50.8212798
-          ],
-          [
-            5.4061331,
-            50.8212247
           ],
           [
             5.4062357,
@@ -43127,24 +43129,12 @@
             50.8210781
           ],
           [
-            5.4070169,
-            50.8206689
-          ],
-          [
-            5.4075319,
-            50.8202707
-          ],
-          [
             5.4077385,
             50.8201263
           ],
           [
-            5.4078692,
-            50.820066
-          ],
-          [
-            5.4089132,
-            50.8196471
+            5.4088736,
+            50.8196632
           ],
           [
             5.4100304,
