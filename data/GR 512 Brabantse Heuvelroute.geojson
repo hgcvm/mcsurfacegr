@@ -1409,9 +1409,13 @@
       "type": "Feature",
       "id": "way/24485981",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "tertiary",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Beekstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
         "surface": "asphalt",
         "id": "way/24485981"
       },
@@ -12324,6 +12328,8 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Neerijsebaan",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "concrete",
@@ -32987,8 +32993,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.433021,
-            50.7781633
+            4.4329712,
+            50.7781967
           ],
           [
             4.4330098,
@@ -37821,6 +37827,8 @@
         "highway": "tertiary",
         "lit": "yes",
         "name": "Neerijsebaan",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
         "surface": "concrete",
         "width": "5",
         "id": "way/469932628"
@@ -45583,8 +45591,8 @@
             50.7780834
           ],
           [
-            4.433021,
-            50.7781633
+            4.4329957,
+            50.7781564
           ]
         ]
       }

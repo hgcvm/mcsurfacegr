@@ -13096,6 +13096,7 @@
         "lanes": "2",
         "layer": "1",
         "maxspeed": "70",
+        "maxweight:signed": "no",
         "name": "Hollakenbaan",
         "surface": "paving_stones",
         "id": "way/26371072"
@@ -53152,26 +53153,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.228753,
-            50.9609333
-          ],
-          [
-            3.2286294,
-            50.9609405
-          ],
-          [
-            3.2285415,
-            50.9610055
-          ],
-          [
-            3.2283262,
-            50.9612062
-          ],
-          [
-            3.2281592,
-            50.9613791
-          ],
-          [
             3.2280923,
             50.9614548
           ],
@@ -53230,18 +53211,6 @@
           [
             3.2328598,
             50.9610016
-          ],
-          [
-            3.2331388,
-            50.9613125
-          ],
-          [
-            3.2333534,
-            50.9615287
-          ],
-          [
-            3.2333677,
-            50.9615095
           ]
         ]
       }
@@ -76309,12 +76278,12 @@
             51.0009083
           ],
           [
-            4.5633233,
-            51.0009852
+            4.5634362,
+            51.0010065
           ],
           [
-            4.5635671,
-            51.0010211
+            4.5635953,
+            51.0010253
           ],
           [
             4.5637691,
@@ -126475,13 +126444,19 @@
       "type": "Feature",
       "id": "way/1083314027",
       "properties": {
+        "bicycle": "yes",
+        "bus": "yes",
+        "emergency": "yes",
         "foot": "yes",
         "highway": "living_street",
+        "horse": "yes",
         "lit": "yes",
         "motor_vehicle": "no",
         "name": "Emiel Hullebroeckplein",
         "segregated": "no",
         "surface": "concrete",
+        "taxi": "yes",
+        "vehicle": "destination",
         "wikidata": "Q115811787",
         "id": "way/1083314027"
       },
@@ -132997,6 +132972,74 @@
           [
             5.2914261,
             50.7913984
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1311351722",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/1311351722"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.228753,
+            50.9609333
+          ],
+          [
+            3.2286294,
+            50.9609405
+          ],
+          [
+            3.2285415,
+            50.9610055
+          ],
+          [
+            3.2283262,
+            50.9612062
+          ],
+          [
+            3.2281592,
+            50.9613791
+          ],
+          [
+            3.2280923,
+            50.9614548
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1311351727",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/1311351727"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2328598,
+            50.9610016
+          ],
+          [
+            3.2331388,
+            50.9613125
+          ],
+          [
+            3.2333534,
+            50.9615287
+          ],
+          [
+            3.2333677,
+            50.9615095
           ]
         ]
       }
@@ -151737,13 +151780,19 @@
       "type": "Feature",
       "id": "way/30037036",
       "properties": {
+        "bicycle": "yes",
+        "bus": "yes",
         "cycleway": "no",
+        "emergency": "yes",
         "highway": "residential",
+        "horse": "yes",
         "maxspeed": "30",
         "name": "Johannes Hartmannlaan",
         "name:etymology:wikidata": "Q96580069",
         "oneway": "no",
         "surface": "asphalt",
+        "taxi": "yes",
+        "vehicle": "destination",
         "wikidata": "Q115808275",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/30037036"
@@ -152848,12 +152897,18 @@
       "type": "Feature",
       "id": "way/149865343",
       "properties": {
+        "bicycle": "yes",
+        "bus": "yes",
         "cycleway": "no",
+        "emergency": "yes",
         "highway": "residential",
+        "horse": "yes",
         "maxspeed": "30",
         "name": "Henri Van Cleemputteplein",
         "name:etymology:wikidata": "Q94222177",
         "surface": "paving_stones",
+        "taxi": "yes",
+        "vehicle": "destination",
         "wikidata": "Q115808268",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/149865343"
@@ -152888,11 +152943,17 @@
       "type": "Feature",
       "id": "way/149865344",
       "properties": {
+        "bicycle": "yes",
+        "bus": "yes",
+        "emergency": "yes",
         "highway": "residential",
+        "horse": "yes",
         "maxspeed": "30",
         "name": "Jan Roomsstraat",
         "name:etymology:wikidata": "Q15876900",
         "surface": "sett",
+        "taxi": "yes",
+        "vehicle": "destination",
         "wikidata": "Q115811593",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/149865344"
@@ -153029,14 +153090,20 @@
       "type": "Feature",
       "id": "way/157389309",
       "properties": {
+        "bicycle": "yes",
+        "bus": "yes",
         "cycleway": "no",
+        "emergency": "yes",
         "highway": "residential",
+        "horse": "yes",
         "lane_markings": "no",
         "maxspeed": "30",
         "name": "Schoolstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "surface": "asphalt",
+        "taxi": "yes",
+        "vehicle": "destination",
         "wikidata": "Q115808308",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/157389309"
@@ -153071,12 +153138,18 @@
       "type": "Feature",
       "id": "way/157389320",
       "properties": {
+        "bicycle": "yes",
+        "bus": "yes",
         "cycleway": "shared",
+        "emergency": "yes",
         "highway": "residential",
+        "horse": "yes",
         "maxspeed": "30",
         "name": "Engelbert van Arenbergstraat",
         "name:etymology:wikidata": "Q72247",
         "surface": "sett",
+        "taxi": "yes",
+        "vehicle": "destination",
         "wikidata": "Q115809988",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/157389320"
@@ -155261,12 +155334,18 @@
       "type": "Feature",
       "id": "way/842244900",
       "properties": {
+        "bicycle": "yes",
+        "bus": "yes",
         "cycleway": "no",
+        "emergency": "yes",
         "highway": "residential",
+        "horse": "yes",
         "maxspeed": "30",
         "name": "Johannes Hartmannlaan",
         "name:etymology:wikidata": "Q96580069",
         "oneway": "no",
+        "taxi": "yes",
+        "vehicle": "destination",
         "wikidata": "Q115808275",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/842244900"
