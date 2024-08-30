@@ -4476,6 +4476,7 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Hermelijnpad",
+        "surface": "asphalt",
         "id": "way/35959960"
       },
       "geometry": {
@@ -5608,10 +5609,9 @@
       "type": "Feature",
       "id": "way/37286425",
       "properties": {
-        "highway": "track",
+        "highway": "path",
         "name": "Coolsweg",
-        "surface": "unpaved",
-        "vehicle": "destination",
+        "surface": "dirt",
         "id": "way/37286425"
       },
       "geometry": {
@@ -5638,8 +5638,12 @@
             51.2209231
           ],
           [
-            4.8873535,
-            51.2211103
+            4.8873355,
+            51.221099
+          ],
+          [
+            4.887118,
+            51.2212184
           ]
         ]
       }
@@ -13516,19 +13520,15 @@
         "highway": "track",
         "name": "Huyskens",
         "surface": "dirt",
-        "tracktype": "grade4",
+        "tracktype": "grade3",
         "id": "way/61025860"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.8709407,
-            51.2195609
-          ],
-          [
-            4.8709852,
-            51.2195736
+            4.870957,
+            51.2195803
           ],
           [
             4.8710447,
@@ -13575,12 +13575,20 @@
             51.2199667
           ],
           [
-            4.8774961,
-            51.2198111
+            4.8774879,
+            51.219808
           ],
           [
-            4.8779341,
-            51.2198204
+            4.8777511,
+            51.2198091
+          ],
+          [
+            4.8782233,
+            51.219867
+          ],
+          [
+            4.8785631,
+            51.2199273
           ],
           [
             4.8788877,
@@ -13591,20 +13599,8 @@
             51.220257
           ],
           [
-            4.8817129,
-            51.2203561
-          ],
-          [
-            4.8824056,
-            51.2206684
-          ],
-          [
-            4.8827925,
-            51.2208763
-          ],
-          [
-            4.8829463,
-            51.2209318
+            4.8814955,
+            51.2202865
           ]
         ]
       }
@@ -16517,8 +16513,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.941077,
-            51.2363571
+            4.9410345,
+            51.2363499
           ],
           [
             4.9407166,
@@ -16537,20 +16533,8 @@
             51.2359451
           ],
           [
-            4.939986,
-            51.2358907
-          ],
-          [
-            4.9398878,
-            51.2358053
-          ],
-          [
-            4.9398675,
-            51.2356977
-          ],
-          [
-            4.939705,
-            51.2354332
+            4.9399501,
+            51.2358835
           ]
         ]
       }
@@ -16586,26 +16570,24 @@
       "id": "way/81164223",
       "properties": {
         "highway": "track",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/81164223"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.939705,
-            51.2354332
+            4.9397197,
+            51.2354434
           ],
           [
-            4.9391992,
-            51.2343599
+            4.9389788,
+            51.2338634
           ],
           [
-            4.9389559,
-            51.2338573
-          ],
-          [
-            4.9377238,
-            51.2312355
+            4.9384813,
+            51.2328217
           ]
         ]
       }
@@ -23161,31 +23143,6 @@
           [
             4.9290914,
             51.2208036
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/141522377",
-      "properties": {
-        "highway": "track",
-        "name": "Coolsweg",
-        "surface": "dirt",
-        "tracktype": "grade3",
-        "vehicle": "destination",
-        "id": "way/141522377"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.8873535,
-            51.2211103
-          ],
-          [
-            4.887118,
-            51.2212184
           ]
         ]
       }
@@ -39088,9 +39045,11 @@
       "id": "way/462375256",
       "properties": {
         "bridge": "yes",
-        "foot": "yes",
         "highway": "path",
+        "horse": "no",
+        "layer": "1",
         "surface": "wood",
+        "vehicle": "no",
         "id": "way/462375256"
       },
       "geometry": {
@@ -39101,8 +39060,8 @@
             51.2364765
           ],
           [
-            4.941077,
-            51.2363571
+            4.9410345,
+            51.2363499
           ]
         ]
       }
@@ -43285,7 +43244,7 @@
       "properties": {
         "highway": "track",
         "name": "Huyskens",
-        "surface": "compacted",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/659289123"
       },
@@ -43305,8 +43264,8 @@
             51.2189764
           ],
           [
-            4.8709407,
-            51.2195609
+            4.870957,
+            51.2195803
           ]
         ]
       }
@@ -45694,7 +45653,7 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Eekhoornpad",
-        "surface": "dirt",
+        "surface": "asphalt",
         "id": "way/685523906"
       },
       "geometry": {
@@ -46603,11 +46562,9 @@
       "type": "Feature",
       "id": "way/700544015",
       "properties": {
-        "highway": "track",
+        "highway": "path",
         "name": "Coolsweg",
         "surface": "dirt",
-        "tracktype": "grade3",
-        "vehicle": "destination",
         "id": "way/700544015"
       },
       "geometry": {
@@ -51423,8 +51380,9 @@
       "type": "Feature",
       "id": "way/1218009531",
       "properties": {
-        "highway": "path",
+        "highway": "track",
         "surface": "dirt",
+        "tracktype": "grade4",
         "id": "way/1218009531"
       },
       "geometry": {
@@ -51439,8 +51397,8 @@
             51.2015953
           ],
           [
-            4.8434771,
-            51.201422
+            4.8434444,
+            51.20142
           ],
           [
             4.8435698,
@@ -52142,6 +52100,96 @@
           [
             4.7107232,
             51.2670806
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1312095960",
+      "properties": {
+        "highway": "track",
+        "name": "Huyskens",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "id": "way/1312095960"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8814955,
+            51.2202865
+          ],
+          [
+            4.8817129,
+            51.2203561
+          ],
+          [
+            4.8824056,
+            51.2206684
+          ],
+          [
+            4.8827925,
+            51.2208763
+          ],
+          [
+            4.8829463,
+            51.2209318
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1312095969",
+      "properties": {
+        "highway": "track",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "id": "way/1312095969"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9384813,
+            51.2328217
+          ],
+          [
+            4.9377238,
+            51.2312355
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1312095970",
+      "properties": {
+        "highway": "track",
+        "surface": "dirt",
+        "tracktype": "grade3",
+        "id": "way/1312095970"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9399501,
+            51.2358835
+          ],
+          [
+            4.9398878,
+            51.2358053
+          ],
+          [
+            4.9398512,
+            51.2357059
+          ],
+          [
+            4.9397197,
+            51.2354434
           ]
         ]
       }
@@ -54813,6 +54861,7 @@
       "properties": {
         "bicycle": "no",
         "highway": "path",
+        "horse": "no",
         "surface": "gravel",
         "id": "way/297736911"
       },

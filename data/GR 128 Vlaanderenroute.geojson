@@ -54365,7 +54365,9 @@
       "id": "way/61294843",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Aartstraat",
+        "surface": "concrete",
         "id": "way/61294843"
       },
       "geometry": {
@@ -69396,9 +69398,12 @@
       "type": "Feature",
       "id": "way/143666214",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Autoweg-Zuid",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/143666214"
       },
       "geometry": {
@@ -69459,6 +69464,7 @@
       "type": "Feature",
       "id": "way/143666217",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "maxspeed": "50",
         "name": "Kleinemoortelputstraat",
@@ -72168,8 +72174,12 @@
       "type": "Feature",
       "id": "way/147016124",
       "properties": {
+        "handrail": "yes",
         "highway": "steps",
+        "incline": "down",
+        "ramp": "no",
         "surface": "concrete",
+        "tactile_paving": "no",
         "id": "way/147016124"
       },
       "geometry": {
@@ -72345,6 +72355,7 @@
         "highway": "unclassified",
         "name": "Aartstraat",
         "official_vicinal_ref": "089_30_1",
+        "surface": "dirt",
         "id": "way/147016133"
       },
       "geometry": {
@@ -72355,8 +72366,8 @@
             50.9786296
           ],
           [
-            4.0621407,
-            50.9778352
+            4.0629219,
+            50.9785363
           ]
         ]
       }
@@ -72456,8 +72467,13 @@
       "type": "Feature",
       "id": "way/147016150",
       "properties": {
+        "handrail": "yes",
         "highway": "steps",
+        "incline": "up",
+        "ramp": "no",
+        "step_count": "44",
         "surface": "concrete",
+        "tactile_paving": "no",
         "id": "way/147016150"
       },
       "geometry": {
@@ -72859,6 +72875,7 @@
       "id": "way/147024342",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Berkenlaan",
         "surface": "asphalt",
         "id": "way/147024342"
@@ -133048,6 +133065,58 @@
           [
             3.2333677,
             50.9615095
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1312040580",
+      "properties": {
+        "alt_name": "Grote Tragelwegel",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Aartstraat",
+        "official_vicinal_ref": "089_30_1",
+        "surface": "concrete",
+        "id": "way/1312040580"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.0629219,
+            50.9785363
+          ],
+          [
+            4.0626071,
+            50.9782537
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1312040624",
+      "properties": {
+        "alt_name": "Grote Tragelwegel",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Aartstraat",
+        "official_vicinal_ref": "089_30_1",
+        "surface": "asphalt",
+        "id": "way/1312040624"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.0626071,
+            50.9782537
+          ],
+          [
+            4.0621407,
+            50.9778352
           ]
         ]
       }
