@@ -89800,7 +89800,10 @@
         "name": "Vroonhof",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "parking:both": "street_side",
+        "parking:both:orientation": "parallel",
         "ref": "N308",
+        "sidewalk": "both",
         "surface": "asphalt",
         "width": "4",
         "id": "way/56228194"
@@ -124921,6 +124924,7 @@
         "name": "Veurnestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "parking:both": "no",
         "ref": "N321",
         "source:maxspeed": "BE:living_street",
         "traffic_calming": "table",
@@ -130131,6 +130135,7 @@
         "name": "Grote Markt",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "parking:both": "no",
         "ref": "N333",
         "source:maxspeed": "BE:living_street",
         "surface": "paving_stones",
@@ -150650,6 +150655,7 @@
       "id": "way/668638194",
       "properties": {
         "highway": "path",
+        "surface": "paving_stones",
         "id": "way/668638194"
       },
       "geometry": {
@@ -163219,7 +163225,10 @@
         "name": "Veurnestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "parking:both": "street_side",
+        "parking:both:orientation": "parallel",
         "ref": "N321",
+        "sidewalk": "both",
         "width": "4",
         "id": "way/1173223149"
       },
@@ -163244,12 +163253,16 @@
         "bicycle": "yes",
         "cycleway": "opposite",
         "highway": "residential",
+        "lanes": "1",
         "lit": "yes",
         "mofa": "yes",
         "name": "Rekhof",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
+        "parking:both": "street_side",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
         "surface": "paving_stones",
         "traffic_sign:backward": "BE:F19,BE:M5",
         "traffic_sign:forward": "BE:C1,BE:M5",
@@ -163279,10 +163292,15 @@
       "id": "way/1173223155",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Deken De Bolaan",
         "operator": "Stad Poperinge",
+        "parking:both": "lane",
+        "parking:both:orientation": "parallel",
         "ref": "N304",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/1173223155"
       },
@@ -179401,6 +179419,9 @@
       "properties": {
         "highway": "residential",
         "name": "Nieuwstraat",
+        "parking:both": "lane",
+        "parking:both:orientation": "parallel",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/67551076"
       },
@@ -179463,9 +179484,15 @@
       "id": "way/67551078",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
+        "lanes": "2",
         "name": "Ieperstraat",
         "name:etymology:wikidata": "Q102728",
         "old_ref": "N308",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/67551078"
       },
@@ -179602,6 +179629,8 @@
       "id": "way/246545412",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
+        "lanes": "2",
         "name": "Ieperstraat",
         "name:etymology:wikidata": "Q102728",
         "old_ref": "N308",
@@ -180545,9 +180574,15 @@
       "id": "way/984932114",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
+        "lanes": "2",
         "name": "Ieperstraat",
         "name:etymology:wikidata": "Q102728",
         "old_ref": "N308",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/984932114"
       },
@@ -182300,12 +182335,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2252087,
-            51.2074832
+            3.2251879,
+            51.2074849
           ],
           [
-            3.2251405,
-            51.2075415
+            3.2251601,
+            51.2075089
+          ],
+          [
+            3.2251311,
+            51.2075339
           ],
           [
             3.2244354,
@@ -182877,8 +182916,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2242192,
-            51.2042315
+            3.2242659,
+            51.2042448
           ],
           [
             3.2244034,
@@ -182889,8 +182928,12 @@
             51.2043396
           ],
           [
-            3.2249757,
-            51.2044437
+            3.2248972,
+            51.2044221
+          ],
+          [
+            3.2249495,
+            51.2044174
           ]
         ]
       }
@@ -183011,8 +183054,12 @@
             51.2042739
           ],
           [
-            3.2241189,
-            51.2042946
+            3.2240823,
+            51.2042775
+          ],
+          [
+            3.2240944,
+            51.204281
           ]
         ]
       }
@@ -183036,8 +183083,8 @@
             51.2042234
           ],
           [
-            3.2240012,
-            51.2042465
+            3.2240026,
+            51.2042452
           ],
           [
             3.22407,
@@ -183286,20 +183333,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2249757,
-            51.2044437
+            3.2249495,
+            51.2044174
           ],
           [
-            3.2250057,
-            51.2044868
+            3.2249949,
+            51.204477
           ],
           [
-            3.2250337,
-            51.2045304
+            3.2250298,
+            51.2045299
           ],
           [
-            3.225053,
-            51.2045736
+            3.2250519,
+            51.2045803
           ],
           [
             3.2250629,
@@ -183619,8 +183666,12 @@
             51.2073048
           ],
           [
-            3.2250841,
-            51.2073399
+            3.2251243,
+            51.2073158
+          ],
+          [
+            3.2250707,
+            51.207343
           ]
         ]
       }
@@ -184029,7 +184080,7 @@
         "parking:right": "yes",
         "parking:right:orientation": "parallel",
         "sett:pattern": "arc",
-        "sidewalk": "both",
+        "sidewalk:both": "separate",
         "surface": "sett",
         "width:carriageway": "6.4",
         "wikidata": "Q4526647",
@@ -184040,12 +184091,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2250841,
-            51.2073399
+            3.2250707,
+            51.207343
           ],
           [
-            3.2252087,
-            51.2074832
+            3.2251879,
+            51.2074849
           ]
         ]
       }
@@ -184096,44 +184147,6 @@
           [
             3.226857,
             51.2070639
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1113618010",
-      "properties": {
-        "access": "yes",
-        "cycleway": "opposite",
-        "highway": "residential",
-        "lit": "yes",
-        "maxspeed": "30",
-        "motor_vehicle:conditional": "permit @ (Mo-Su 13:00-18:00)",
-        "name": "Mariastraat",
-        "name:etymology:wikidata": "Q345",
-        "oneway": "yes",
-        "oneway:bicycle": "no",
-        "parking:both": "no",
-        "sett:pattern": "arc",
-        "sidewalk": "both",
-        "smoothness": "intermediate",
-        "surface": "sett",
-        "width:carriageway": "4.5",
-        "wikidata": "Q2152814",
-        "wikipedia": "nl:Mariastraat (Brugge)",
-        "id": "way/1113618010"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2242192,
-            51.2042315
-          ],
-          [
-            3.2241189,
-            51.2042946
           ]
         ]
       }
@@ -184667,6 +184680,106 @@
           [
             3.2252554,
             51.2056179
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1312388620",
+      "properties": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "sett",
+        "id": "way/1312388620"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2242659,
+            51.2042448
+          ],
+          [
+            3.2242385,
+            51.2042623
+          ],
+          [
+            3.2242037,
+            51.2042808
+          ],
+          [
+            3.2241692,
+            51.2043029
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1312388622",
+      "properties": {
+        "footway": "crossing",
+        "highway": "footway",
+        "smoothness": "intermediate",
+        "surface": "sett",
+        "id": "way/1312388622"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2240944,
+            51.204281
+          ],
+          [
+            3.2241269,
+            51.2042905
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1312388623",
+      "properties": {
+        "highway": "footway",
+        "surface": "sett",
+        "id": "way/1312388623"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2241558,
+            51.204299
+          ],
+          [
+            3.2241692,
+            51.2043029
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1312388624",
+      "properties": {
+        "footway": "crossing",
+        "highway": "footway",
+        "surface": "sett",
+        "id": "way/1312388624"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2241269,
+            51.2042905
+          ],
+          [
+            3.2241558,
+            51.204299
           ]
         ]
       }
