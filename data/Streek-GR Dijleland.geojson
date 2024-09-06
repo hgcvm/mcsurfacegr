@@ -4309,12 +4309,8 @@
       "type": "Feature",
       "id": "way/23669801",
       "properties": {
+        "fixme": "This part of the highway is broken up and replaced by a street cabinet. Relations must be redirected and then the higway can be razed.",
         "highway": "residential",
-        "maxspeed": "50",
-        "maxweight": "3.5",
-        "name": "Diestbrugstraat",
-        "oneway": "no",
-        "surface": "asphalt",
         "id": "way/23669801"
       },
       "geometry": {
@@ -24104,11 +24100,15 @@
       "type": "Feature",
       "id": "way/104502509",
       "properties": {
-        "crossing": "marked",
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "crossing:markings": "dashes",
         "cycleway": "crossing",
         "highway": "cycleway",
         "lit": "yes",
         "surface": "asphalt",
+        "traffic_signals:vibration": "no",
         "id": "way/104502509"
       },
       "geometry": {
@@ -42104,6 +42104,10 @@
             50.8847604
           ],
           [
+            4.7142089,
+            50.8847797
+          ],
+          [
             4.7141928,
             50.8847892
           ]
@@ -49940,11 +49944,15 @@
       "type": "Feature",
       "id": "way/104502509",
       "properties": {
-        "crossing": "marked",
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "crossing:markings": "dashes",
         "cycleway": "crossing",
         "highway": "cycleway",
         "lit": "yes",
         "surface": "asphalt",
+        "traffic_signals:vibration": "no",
         "id": "way/104502509"
       },
       "geometry": {
@@ -54260,6 +54268,10 @@
           [
             4.7142413,
             50.8847604
+          ],
+          [
+            4.7142089,
+            50.8847797
           ],
           [
             4.7141928,
@@ -85277,10 +85289,11 @@
         "cycleway": "track",
         "highway": "tertiary",
         "lane_markings": "no",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Bieststraat",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/37995062"
       },
       "geometry": {
@@ -85725,10 +85738,11 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Bieststraat",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/41577244"
       },
       "geometry": {
@@ -90789,30 +90803,36 @@
       "type": "Feature",
       "id": "way/126304914",
       "properties": {
-        "bicycle": "designated",
+        "button_operated": "no",
         "check_date:surface": "2024-04-04",
-        "crossing": "marked",
+        "crossing": "traffic_signals",
+        "crossing:island": "yes",
+        "crossing:markings": "dots",
+        "cycleway": "crossing",
         "cycleway:surface": "asphalt",
-        "foot": "designated",
         "footway:surface": "asphalt",
-        "highway": "path",
+        "highway": "cycleway",
         "lit": "yes",
         "oneway": "no",
-        "segregated": "yes",
         "source": "bing",
         "surface": "asphalt",
+        "traffic_signals:vibration": "no",
         "id": "way/126304914"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7142413,
-            50.8847604
+            4.7141608,
+            50.884714
           ],
           [
             4.7141201,
             50.8846906
+          ],
+          [
+            4.7140705,
+            50.8846394
           ],
           [
             4.7140378,
@@ -90871,8 +90891,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7140386,
-            50.8844892
+            4.7140416,
+            50.8844634
           ],
           [
             4.7141086,
@@ -90934,16 +90954,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7140378,
-            50.8846056
-          ],
-          [
             4.714014,
             50.8845747
           ],
           [
-            4.7140386,
-            50.8844892
+            4.7140352,
+            50.8845009
+          ],
+          [
+            4.7140416,
+            50.8844634
           ]
         ]
       }
@@ -90979,6 +90999,68 @@
           [
             4.7144955,
             50.8815426
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1313454424",
+      "properties": {
+        "check_date:surface": "2024-04-04",
+        "cycleway:surface": "asphalt",
+        "footway:surface": "asphalt",
+        "highway": "cycleway",
+        "lit": "yes",
+        "oneway": "no",
+        "source": "bing",
+        "surface": "asphalt",
+        "id": "way/1313454424"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7142413,
+            50.8847604
+          ],
+          [
+            4.7141608,
+            50.884714
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1313454425",
+      "properties": {
+        "crossing": "traffic_signals",
+        "crossing:island": "yes",
+        "crossing:markings": "dots",
+        "cycleway": "crossing",
+        "cycleway:buffer": "1",
+        "cycleway:width": "1.75",
+        "highway": "cycleway",
+        "lit": "yes",
+        "name": "Diestsepoort",
+        "name:etymology:wikidata": "Q743236",
+        "oneway": "no",
+        "source": "bing",
+        "surface": "asphalt",
+        "tactile_paving": "no",
+        "id": "way/1313454425"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7140378,
+            50.8846056
+          ],
+          [
+            4.714014,
+            50.8845747
           ]
         ]
       }

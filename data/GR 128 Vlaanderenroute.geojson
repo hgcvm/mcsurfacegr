@@ -28229,10 +28229,11 @@
         "cycleway": "track",
         "highway": "tertiary",
         "lane_markings": "no",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Bieststraat",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/37995062"
       },
       "geometry": {
@@ -46147,10 +46148,11 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Bieststraat",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/41577244"
       },
       "geometry": {
@@ -85102,6 +85104,10 @@
             51.046473
           ],
           [
+            3.751405,
+            51.0463477
+          ],
+          [
             3.7515319,
             51.0463025
           ],
@@ -85110,8 +85116,12 @@
             51.0462445
           ],
           [
-            3.7520752,
-            51.0462073
+            3.7520806,
+            51.0462053
+          ],
+          [
+            3.7522367,
+            51.046189
           ],
           [
             3.7524573,
@@ -160012,11 +160022,15 @@
       "type": "Feature",
       "id": "way/104502509",
       "properties": {
-        "crossing": "marked",
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "crossing:markings": "dashes",
         "cycleway": "crossing",
         "highway": "cycleway",
         "lit": "yes",
         "surface": "asphalt",
+        "traffic_signals:vibration": "no",
         "id": "way/104502509"
       },
       "geometry": {
@@ -163100,6 +163114,10 @@
           [
             4.7142413,
             50.8847604
+          ],
+          [
+            4.7142089,
+            50.8847797
           ],
           [
             4.7141928,
