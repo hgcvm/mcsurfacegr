@@ -27539,8 +27539,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.8129856,
-            51.1873993
+            2.8130058,
+            51.1874313
           ],
           [
             2.813057,
@@ -42220,12 +42220,16 @@
             51.1651292
           ],
           [
+            2.763483,
+            51.165185
+          ],
+          [
             2.7635288,
             51.1652048
           ],
           [
-            2.7635614,
-            51.1652188
+            2.7635783,
+            51.165225
           ]
         ]
       }
@@ -73742,8 +73746,8 @@
             51.1648757
           ],
           [
-            2.7636513,
-            51.1648855
+            2.7636703,
+            51.1648842
           ]
         ]
       }
@@ -73752,41 +73756,22 @@
       "type": "Feature",
       "id": "way/1276738118",
       "properties": {
-        "highway": "cycleway",
+        "bicycle": "no",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "traffic_sign": "BE:D14",
         "id": "way/1276738118"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            2.7636513,
-            51.1648855
+            2.7636703,
+            51.1648842
           ],
           [
-            2.7635614,
-            51.1652188
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1276738119",
-      "properties": {
-        "highway": "footway",
-        "surface": "concrete",
-        "id": "way/1276738119"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.7635614,
-            51.1652188
-          ],
-          [
-            2.7635967,
-            51.1652341
+            2.7635783,
+            51.165225
           ]
         ]
       }
@@ -74169,8 +74154,8 @@
             51.1880902
           ],
           [
-            2.8145842,
-            51.1881288
+            2.814585,
+            51.1881282
           ]
         ]
       }
@@ -74186,16 +74171,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.81445,
-            51.1881915
+            2.8144492,
+            51.1881918
           ],
           [
-            2.8144044,
-            51.188194
+            2.8143614,
+            51.1881938
           ],
           [
-            2.814277,
-            51.1881915
+            2.8142833,
+            51.1881931
           ]
         ]
       }
@@ -74212,16 +74197,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.8145842,
-            51.1881288
+            2.814585,
+            51.1881282
           ],
           [
             2.8145385,
             51.1881646
           ],
           [
-            2.81445,
-            51.1881915
+            2.8144492,
+            51.1881918
           ]
         ]
       }
@@ -74246,8 +74231,8 @@
             51.1877729
           ],
           [
-            2.8125188,
-            51.187899
+            2.8124933,
+            51.1878826
           ],
           [
             2.812673,
@@ -74278,6 +74263,10 @@
             51.1881445
           ],
           [
+            2.8138549,
+            51.188136
+          ],
+          [
             2.8139149,
             51.1881285
           ],
@@ -74290,8 +74279,12 @@
             51.1881478
           ],
           [
-            2.814277,
-            51.1881915
+            2.8142101,
+            51.1881764
+          ],
+          [
+            2.8142833,
+            51.1881931
           ]
         ]
       }
@@ -74594,12 +74587,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.8120869,
-            51.1875149
+            2.8119677,
+            51.1873716
           ],
           [
-            2.8129856,
-            51.1873993
+            2.8122434,
+            51.1873602
+          ],
+          [
+            2.8125408,
+            51.187351
+          ],
+          [
+            2.8126728,
+            51.1873213
           ]
         ]
       }
@@ -74659,6 +74660,54 @@
           [
             2.6891943,
             51.1248318
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1314333335",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "surface": "paved",
+        "id": "way/1314333335"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8130058,
+            51.1874313
+          ],
+          [
+            2.8126728,
+            51.1873213
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1314333337",
+      "properties": {
+        "highway": "footway",
+        "id": "way/1314333337"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8119677,
+            51.1873716
+          ],
+          [
+            2.8120354,
+            51.1874471
+          ],
+          [
+            2.8120869,
+            51.1875149
           ]
         ]
       }
@@ -145112,6 +145161,8 @@
       "id": "way/519417357",
       "properties": {
         "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Rodebergstraat",
         "oneway": "no",
@@ -169055,7 +169106,7 @@
         "highway": "cycleway",
         "incline": "0%",
         "lit": "yes",
-        "name": "Ringfietspad",
+        "loc_name": "Ringfietspad",
         "oneway": "no",
         "segregated": "no",
         "smoothness": "excellent",
@@ -169411,9 +169462,9 @@
         "foot": "designated",
         "highway": "cycleway",
         "lit": "yes",
+        "loc_name": "Ringfietspad",
         "mofa": "yes",
         "moped": "yes",
-        "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "no",
         "smoothness": "good",
@@ -170099,7 +170150,7 @@
         "highway": "cycleway",
         "incline": "0%",
         "lit": "yes",
-        "name": "Ringfietspad",
+        "loc_name": "Ringfietspad",
         "oneway": "no",
         "segregated": "no",
         "smoothness": "excellent",
@@ -172038,7 +172089,7 @@
         "cycleway:comfort": "14",
         "highway": "cycleway",
         "lit": "yes",
-        "name": "Ringfietspad",
+        "loc_name": "Ringfietspad",
         "oneway": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
@@ -172534,8 +172585,8 @@
         "footway:surface": "fine_gravel",
         "highway": "cycleway",
         "lit": "yes",
+        "loc_name": "Ringfietspad",
         "moped": "no",
-        "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "yes",
         "smoothness": "good",
@@ -174968,7 +175019,7 @@
         "footway:surface": "asphalt",
         "highway": "cycleway",
         "lit": "yes",
-        "name": "Ringfietspad",
+        "loc_name": "Ringfietspad",
         "oneway": "no",
         "segregated": "yes",
         "surface": "asphalt",
@@ -175270,7 +175321,7 @@
         "foot": "designated",
         "highway": "cycleway",
         "lit": "yes",
-        "name": "Ringfietspad",
+        "loc_name": "Ringfietspad",
         "note": "tweede fase werken 29 jun'24 - 2 sep'24 05:00; bus tegenrichting oostelijke rijbaan, trams om beurten over één spoor; aansluiting Ringfietspad wordt ruimer",
         "oneway": "no",
         "opening_date": "2024-09-02",
@@ -175374,8 +175425,8 @@
         "highway": "cycleway",
         "incline": "up",
         "lit": "yes",
+        "loc_name": "Ringfietspad",
         "moped": "no",
-        "name": "Ringfietspad",
         "note": "befietst 2021-04-23 : 'de bordjes zijn verhangen', en FKP 03-04 loopt nu onderdoor de Stenenbrug.",
         "oneway": "no",
         "segregated": "yes",
@@ -175442,8 +175493,8 @@
         "highway": "cycleway",
         "layer": "-1",
         "lit": "yes",
+        "loc_name": "Ringfietspad",
         "moped": "no",
-        "name": "Ringfietspad",
         "note": "befietst 2021-04-23 : 'de bordjes zijn verhangen', en FKP 03-04 loopt nu onderdoor de Stenenbrug.",
         "oneway": "no",
         "segregated": "yes",
@@ -175530,8 +175581,8 @@
         "highway": "cycleway",
         "incline": "up",
         "lit": "yes",
+        "loc_name": "Ringfietspad",
         "moped": "no",
-        "name": "Ringfietspad",
         "note": "befietst 2021-04-23 : 'de bordjes zijn verhangen', en FKP 03-04 loopt nu onderdoor de Stenenbrug.",
         "oneway": "no",
         "smoothness": "excellent",
@@ -175572,7 +175623,7 @@
         "foot": "designated",
         "highway": "cycleway",
         "lit": "yes",
-        "name": "Ringfietspad",
+        "loc_name": "Ringfietspad",
         "oneway": "no",
         "segregated": "no",
         "smoothness": "good",
@@ -175615,7 +175666,7 @@
         "footway:surface": "asphalt",
         "highway": "cycleway",
         "lit": "yes",
-        "name": "Ringfietspad",
+        "loc_name": "Ringfietspad",
         "note": "tweede fase werken 29 jun'24 - 2 sep'24 05:00; bus tegenrichting oostelijke rijbaan, trams om beurten over één spoor; aansluiting Ringfietspad wordt ruimer",
         "oneway": "no",
         "opening_date": "2024-09-02",
@@ -175726,7 +175777,7 @@
         "foot": "designated",
         "highway": "cycleway",
         "lit": "yes",
-        "name": "Ringfietspad",
+        "loc_name": "Ringfietspad",
         "oneway": "no",
         "segregated": "yes",
         "smoothness": "good",
@@ -175758,7 +175809,7 @@
         "foot": "designated",
         "highway": "cycleway",
         "lit": "yes",
-        "name": "Ringfietspad",
+        "loc_name": "Ringfietspad",
         "oneway": "no",
         "segregated": "no",
         "smoothness": "good",
@@ -176241,7 +176292,7 @@
         "foot": "no",
         "highway": "cycleway",
         "lit": "yes",
-        "name": "Ringfietspad",
+        "loc_name": "Ringfietspad",
         "oneway": "no",
         "segregated": "yes",
         "surface": "asphalt",
@@ -176280,7 +176331,7 @@
         "highway": "cycleway",
         "incline": "0%",
         "lit": "yes",
-        "name": "Ringfietspad",
+        "loc_name": "Ringfietspad",
         "oneway": "no",
         "segregated": "no",
         "smoothness": "excellent",
@@ -177149,8 +177200,8 @@
         "footway:surface": "fine_gravel",
         "highway": "cycleway",
         "lit": "yes",
+        "loc_name": "Ringfietspad",
         "moped": "no",
-        "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "yes",
         "smoothness": "good",
@@ -177206,9 +177257,9 @@
         "foot": "designated",
         "highway": "cycleway",
         "lit": "yes",
+        "loc_name": "Ringfietspad",
         "mofa": "yes",
         "moped": "yes",
-        "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "no",
         "smoothness": "good",
@@ -177264,8 +177315,8 @@
         "highway": "cycleway",
         "incline": "down",
         "lit": "yes",
+        "loc_name": "Ringfietspad",
         "moped": "no",
-        "name": "Ringfietspad",
         "note": "befietst 2021-04-23 : 'de bordjes zijn verhangen', en FKP 03-04 loopt nu onderdoor de Stenenbrug.",
         "oneway": "no",
         "segregated": "yes",
