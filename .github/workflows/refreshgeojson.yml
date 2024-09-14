@@ -14,18 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Install osmtogeojson and geojson-merge
-      run: |
-       npm install -g osmtogeojson
-       npm install -g @mapbox/geojson-merge
-       
-    - name: Set locale to get date in nl_BE format
-      run: |
-        sudo locale-gen nl_BE.UTF-8
-        sudo update-locale LANG=nl_BE.UTF-8
-
-    - name: Call the automate.sh script
-      run: bash automate.sh
+    - name: Call the BEnotes_without_hashtag.sh script
+      run: bash BEnotes_without_hashtag.sh
 
     - name: Push to remote
       run: |
