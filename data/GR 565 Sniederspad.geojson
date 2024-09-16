@@ -6752,6 +6752,10 @@
             51.2441366
           ],
           [
+            4.7319929,
+            51.2447305
+          ],
+          [
             4.7338005,
             51.2452012
           ],
@@ -6783,8 +6787,8 @@
             51.2469964
           ],
           [
-            4.7284521,
-            51.2467576
+            4.7284394,
+            51.2467179
           ],
           [
             4.7280124,
@@ -20083,6 +20087,7 @@
       "id": "way/176717183",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Oosterenberg",
         "surface": "asphalt",
         "id": "way/176717183"
@@ -31291,6 +31296,8 @@
       "properties": {
         "highway": "track",
         "name": "Oosterenberg",
+        "surface": "ground",
+        "tracktype": "grade2",
         "id": "way/1160840289"
       },
       "geometry": {
@@ -39945,6 +39952,10 @@
             51.190593
           ],
           [
+            4.4241687,
+            51.190601
+          ],
+          [
             4.4241895,
             51.1906089
           ],
@@ -40290,12 +40301,14 @@
       "type": "Feature",
       "id": "way/786538655",
       "properties": {
-        "highway": "residential",
+        "construction": "residential",
+        "highway": "construction",
         "junction": "roundabout",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Cogels-Osylei",
+        "note": "wordt heraangelegd, precast beton elementen waarin tramrails komen, rond punt verdwijnt",
         "oneway": "yes",
         "sidewalk": "right",
         "surface": "sett",
@@ -40442,12 +40455,14 @@
       "type": "Feature",
       "id": "way/818085147",
       "properties": {
-        "highway": "residential",
+        "construction": "residential",
+        "highway": "construction",
         "junction": "roundabout",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Cogels-Osylei",
+        "note": "wordt heraangelegd, precast beton elementen waarin tramrails komen, rond punt verdwijnt",
         "oneway": "yes",
         "sidewalk": "right",
         "surface": "sett",
@@ -42685,7 +42700,6 @@
         "name": "Sint-Erasmusstraat",
         "noexit": "yes",
         "oneway": "no",
-        "schoolstreet": "yes",
         "source:maxspeed": "BE:zone30",
         "straatnummer": "21401309",
         "surface": "asphalt",
