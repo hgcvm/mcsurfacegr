@@ -31107,7 +31107,7 @@
       "properties": {
         "highway": "cycleway",
         "lit": "yes",
-        "oneway": "yes",
+        "oneway": "no",
         "surface": "paving_stones",
         "width": "2",
         "id": "way/130343334"
@@ -31701,7 +31701,7 @@
         "highway": "cycleway",
         "horse": "no",
         "layer": "2",
-        "oneway": "yes",
+        "oneway": "no",
         "segregated": "no",
         "surface": "asphalt",
         "width": "2",
@@ -31736,7 +31736,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "horse": "no",
-        "oneway": "yes",
+        "oneway": "no",
         "segregated": "no",
         "surface": "paving_stones",
         "width": "2",
@@ -33437,7 +33437,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "horse": "no",
-        "oneway": "yes",
+        "oneway": "no",
         "segregated": "yes",
         "surface": "paving_stones",
         "width": "2",
@@ -34602,7 +34602,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "horse": "no",
-        "oneway": "yes",
+        "oneway": "no",
         "segregated": "no",
         "surface": "paving_stones",
         "width": "2",
@@ -50157,7 +50157,7 @@
       "id": "way/350634392",
       "properties": {
         "highway": "cycleway",
-        "oneway": "yes",
+        "oneway": "no",
         "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/350634392"
@@ -65259,6 +65259,10 @@
             51.1719558
           ],
           [
+            2.77341,
+            51.1709827
+          ],
+          [
             2.7731485,
             51.1708773
           ],
@@ -69779,22 +69783,22 @@
         "bicycle": "no",
         "bridge": "yes",
         "foot": "yes",
+        "footway": "sidewalk",
         "highway": "footway",
         "horse": "no",
         "layer": "1",
-        "surface": "asphalt",
         "id": "way/1123323534"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.2343015,
-            51.2209853
+            3.2342898,
+            51.2209813
           ],
           [
-            3.2341069,
-            51.2209182
+            3.2341145,
+            51.2209208
           ]
         ]
       }
@@ -69805,6 +69809,7 @@
       "properties": {
         "bicycle": "no",
         "foot": "yes",
+        "footway": "sidewalk",
         "highway": "footway",
         "horse": "no",
         "surface": "asphalt",
@@ -69818,12 +69823,16 @@
             51.2209909
           ],
           [
+            3.2344115,
+            51.2210176
+          ],
+          [
             3.2343977,
             51.2210184
           ],
           [
-            3.2343015,
-            51.2209853
+            3.2342898,
+            51.2209813
           ]
         ]
       }
@@ -69834,17 +69843,17 @@
       "properties": {
         "bicycle": "no",
         "foot": "yes",
+        "footway": "sidewalk",
         "highway": "footway",
         "horse": "no",
-        "surface": "asphalt",
         "id": "way/1123364830"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.2341069,
-            51.2209182
+            3.2341145,
+            51.2209208
           ],
           [
             3.2338817,
@@ -89872,12 +89881,12 @@
             50.855151
           ],
           [
-            2.7268332,
-            50.8550792
+            2.7267989,
+            50.8550453
           ],
           [
-            2.7267226,
-            50.8549296
+            2.7267148,
+            50.8549284
           ]
         ]
       }
@@ -105804,12 +105813,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.7267226,
-            50.8549296
+            2.7267148,
+            50.8549284
           ],
           [
-            2.7269664,
-            50.8548825
+            2.7269936,
+            50.8548654
           ],
           [
             2.727083,
@@ -137843,7 +137852,10 @@
       "type": "Feature",
       "id": "way/389525407",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "unclassified",
+        "maxspeed": "30",
+        "overtaking:motor_vehicle": "no",
         "id": "way/389525407"
       },
       "geometry": {
@@ -176459,9 +176471,9 @@
         "foot": "yes",
         "highway": "cycleway",
         "lit": "yes",
+        "loc_name": "Ringfietspad",
         "mofa": "yes",
         "moped": "no",
-        "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "no",
         "surface": "asphalt",
