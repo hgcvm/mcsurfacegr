@@ -109,7 +109,7 @@
       "id": "way/3390204",
       "properties": {
         "cyclestreet": "yes",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "cycleway:smoothness": "excellent",
         "highway": "residential",
         "lanes": "1",
@@ -14289,7 +14289,7 @@
       "type": "Feature",
       "id": "way/37911871",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Neerstraat",
@@ -25967,7 +25967,7 @@
       "type": "Feature",
       "id": "way/125472523",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lanes": "1",
         "maxspeed": "30",
@@ -39998,6 +39998,7 @@
         "name": "Guldenstraat",
         "private": "exceptional_permit",
         "speed_pedelec": "yes",
+        "surface": "sett",
         "vehicle": "private",
         "vehicle:conditional": "yes @ (PH,Mo-Su 18:00-11:00); yes @ permit_holder",
         "id": "way/822103621"
@@ -44281,7 +44282,7 @@
       "id": "way/3390204",
       "properties": {
         "cyclestreet": "yes",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "cycleway:smoothness": "excellent",
         "highway": "residential",
         "lanes": "1",
@@ -44458,7 +44459,7 @@
       "type": "Feature",
       "id": "way/3992545",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lanes": "1",
         "lit": "yes",
@@ -48397,7 +48398,7 @@
       "id": "way/72856795",
       "properties": {
         "access": "permissive",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "foot": "yes",
         "highway": "unclassified",
         "lanes": "1",
@@ -48577,7 +48578,7 @@
       "id": "way/77864399",
       "properties": {
         "access": "permissive",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "foot": "yes",
         "highway": "unclassified",
         "lanes": "1",
@@ -48611,11 +48612,12 @@
       "type": "Feature",
       "id": "way/77864400",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "service",
         "lanes": "1",
         "lit": "no",
         "maxspeed": "10",
+        "oneway:bicycle": "no",
         "service": "driveway",
         "source": "survey",
         "surface": "paved",
@@ -49596,7 +49598,7 @@
       "id": "way/85840988",
       "properties": {
         "access": "permissive",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "foot": "yes",
         "highway": "unclassified",
         "lanes": "1",
@@ -50110,7 +50112,7 @@
       "type": "Feature",
       "id": "way/125472523",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lanes": "1",
         "maxspeed": "30",
@@ -50701,7 +50703,7 @@
       "id": "way/177322355",
       "properties": {
         "access": "permissive",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "foot": "yes",
         "highway": "unclassified",
         "lanes": "1",
@@ -61049,7 +61051,7 @@
       "id": "way/23920212",
       "properties": {
         "bicycle": "yes",
-        "highway": "track",
+        "highway": "unclassified",
         "incline": "down",
         "lanes": "1",
         "name": "Bredeweg",
@@ -62386,7 +62388,9 @@
         "maxspeed": "50",
         "name": "Huldenbergstraat",
         "oneway": "no",
+        "sidewalk:both": "no",
         "surface": "asphalt",
+        "verge:both": "yes",
         "width": "3",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/35575402"
@@ -62468,8 +62472,11 @@
         "maxspeed": "50",
         "name": "Huldenbergstraat",
         "oneway": "no",
+        "sidewalk:both": "no",
+        "smoothness": "bad",
         "source:maxspeed": "sign",
         "surface": "sett",
+        "verge:both": "yes",
         "width": "2.5",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/36985824"
@@ -63502,6 +63509,7 @@
         "horse": "yes",
         "motor_vehicle": "yes",
         "name": "Keizerinnendreef",
+        "priority": "forward",
         "surface": "cobblestone",
         "id": "way/37907013"
       },
@@ -63740,7 +63748,10 @@
         "lit": "no",
         "name": "Huldenbergstraat",
         "oneway": "no",
+        "sidewalk:both": "no",
+        "smoothness": "bad",
         "surface": "sett",
+        "verge:both": "yes",
         "width": "2.5",
         "id": "way/55699820"
       },
@@ -67214,8 +67225,10 @@
         "maxspeed": "50",
         "name": "Huldenbergstraat",
         "oneway": "no",
+        "sidewalk:both": "no",
         "source:maxspeed": "sign",
         "surface": "asphalt",
+        "verge:both": "yes",
         "width": "3",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/232224467"
@@ -69218,7 +69231,7 @@
       "id": "way/23920212",
       "properties": {
         "bicycle": "yes",
-        "highway": "track",
+        "highway": "unclassified",
         "incline": "down",
         "lanes": "1",
         "name": "Bredeweg",
@@ -71112,7 +71125,9 @@
         "maxspeed": "50",
         "name": "Huldenbergstraat",
         "oneway": "no",
+        "sidewalk:both": "no",
         "surface": "asphalt",
+        "verge:both": "yes",
         "width": "3",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/35575402"
@@ -71249,8 +71264,11 @@
         "maxspeed": "50",
         "name": "Huldenbergstraat",
         "oneway": "no",
+        "sidewalk:both": "no",
+        "smoothness": "bad",
         "source:maxspeed": "sign",
         "surface": "sett",
+        "verge:both": "yes",
         "width": "2.5",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/36985824"
@@ -72241,6 +72259,7 @@
         "horse": "yes",
         "motor_vehicle": "yes",
         "name": "Keizerinnendreef",
+        "priority": "forward",
         "surface": "cobblestone",
         "id": "way/37907013"
       },
@@ -72574,7 +72593,10 @@
         "lit": "no",
         "name": "Huldenbergstraat",
         "oneway": "no",
+        "sidewalk:both": "no",
+        "smoothness": "bad",
         "surface": "sett",
+        "verge:both": "yes",
         "width": "2.5",
         "id": "way/55699820"
       },
@@ -76548,8 +76570,10 @@
         "maxspeed": "50",
         "name": "Huldenbergstraat",
         "oneway": "no",
+        "sidewalk:both": "no",
         "source:maxspeed": "sign",
         "surface": "asphalt",
+        "verge:both": "yes",
         "width": "3",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/232224467"

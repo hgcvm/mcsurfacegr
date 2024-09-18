@@ -173,7 +173,7 @@
       "type": "Feature",
       "id": "way/4480931",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway:both": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -323,6 +323,7 @@
         "highway": "living_street",
         "maxspeed": "20",
         "name": "Plaatsnijdersstraat",
+        "schoolstreet": "yes",
         "source:maxspeed": "BE:living_street",
         "surface": "asphalt",
         "id": "way/4576770"
@@ -749,7 +750,7 @@
       "id": "way/18915514",
       "properties": {
         "bicycle": "yes",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "pedestrian",
         "lit": "yes",
         "maxspeed": "20",
@@ -856,7 +857,7 @@
       "type": "Feature",
       "id": "way/19586879",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -921,7 +922,7 @@
       "id": "way/19586886",
       "properties": {
         "bicycle": "yes",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -1050,7 +1051,7 @@
       "id": "way/20564006",
       "properties": {
         "bicycle": "yes",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "foot": "yes",
         "highway": "residential",
         "lit": "yes",
@@ -1157,7 +1158,7 @@
       "id": "way/21050673",
       "properties": {
         "bicycle": "yes",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -3369,6 +3370,7 @@
       "type": "Feature",
       "id": "way/25381403",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -6192,7 +6194,7 @@
       "properties": {
         "access": "delivery",
         "bicycle": "yes",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "pedestrian",
         "lit": "yes",
         "name": "Hoogstraat",
@@ -6286,7 +6288,7 @@
       "type": "Feature",
       "id": "way/255940139",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -6986,7 +6988,7 @@
       "type": "Feature",
       "id": "way/424821106",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -7327,8 +7329,8 @@
         "bicycle": "no",
         "foot": "no",
         "highway": "cycleway",
+        "loc_name": "Ringfietspad",
         "motor_vehicle": "no",
-        "name": "Ringfietspad",
         "note": "befietst 26 jun'24 : deze delen fietspad achter raster / poorten 'Oosterweel'",
         "oneway": "no",
         "segregated": "no",
@@ -9160,6 +9162,10 @@
             51.190593
           ],
           [
+            4.4241687,
+            51.190601
+          ],
+          [
             4.4241895,
             51.1906089
           ],
@@ -9651,12 +9657,14 @@
       "type": "Feature",
       "id": "way/786538655",
       "properties": {
-        "highway": "residential",
+        "construction": "residential",
+        "highway": "construction",
         "junction": "roundabout",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Cogels-Osylei",
+        "note": "wordt heraangelegd, precast beton elementen waarin tramrails komen, rond punt verdwijnt",
         "oneway": "yes",
         "sidewalk": "right",
         "surface": "sett",
@@ -9980,12 +9988,14 @@
       "type": "Feature",
       "id": "way/818085147",
       "properties": {
-        "highway": "residential",
+        "construction": "residential",
+        "highway": "construction",
         "junction": "roundabout",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Cogels-Osylei",
+        "note": "wordt heraangelegd, precast beton elementen waarin tramrails komen, rond punt verdwijnt",
         "oneway": "yes",
         "sidewalk": "right",
         "surface": "sett",
@@ -10956,8 +10966,8 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "loc_name": "Ringfietspad",
         "motor_vehicle": "service",
-        "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "yes",
         "surface": "asphalt",
@@ -12357,8 +12367,8 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "loc_name": "Ringfietspad",
         "motor_vehicle": "service",
-        "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "yes",
         "surface": "asphalt",
