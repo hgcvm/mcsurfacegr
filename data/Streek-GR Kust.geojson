@@ -1467,6 +1467,7 @@
       "properties": {
         "bicycle": "use_sidepath",
         "highway": "tertiary",
+        "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Driftweg",
@@ -5346,6 +5347,7 @@
         "handrail": "no",
         "highway": "steps",
         "incline": "up",
+        "ramp": "no",
         "step_count": "25",
         "surface": "paving_stones",
         "tactile_paving": "no",
@@ -6037,6 +6039,7 @@
         "handrail": "no",
         "highway": "steps",
         "incline": "up",
+        "ramp": "no",
         "step_count": "19",
         "surface": "paving_stones",
         "tactile_paving": "no",
@@ -6291,8 +6294,8 @@
             51.2396166
           ],
           [
-            2.9343141,
-            51.2398269
+            2.9343097,
+            51.2398241
           ],
           [
             2.9346753,
@@ -9960,6 +9963,7 @@
       "id": "way/88561748",
       "properties": {
         "bicycle": "no",
+        "bicycle:signed": "yes",
         "embankment": "yes",
         "foot": "yes",
         "highway": "path",
@@ -12281,6 +12285,7 @@
       "id": "way/111324822",
       "properties": {
         "highway": "path",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/111324822"
       },
@@ -13383,7 +13388,7 @@
       "properties": {
         "highway": "cycleway",
         "lit": "yes",
-        "oneway": "yes",
+        "oneway": "no",
         "surface": "paving_stones",
         "width": "2",
         "id": "way/130343334"
@@ -13741,7 +13746,7 @@
         "highway": "cycleway",
         "horse": "no",
         "layer": "2",
-        "oneway": "yes",
+        "oneway": "no",
         "segregated": "no",
         "surface": "asphalt",
         "width": "2",
@@ -13776,7 +13781,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "horse": "no",
-        "oneway": "yes",
+        "oneway": "no",
         "segregated": "no",
         "surface": "paving_stones",
         "width": "2",
@@ -14797,7 +14802,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "horse": "no",
-        "oneway": "yes",
+        "oneway": "no",
         "segregated": "yes",
         "surface": "paving_stones",
         "width": "2",
@@ -16189,7 +16194,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "horse": "no",
-        "oneway": "yes",
+        "oneway": "no",
         "segregated": "no",
         "surface": "paving_stones",
         "width": "2",
@@ -26250,7 +26255,7 @@
       "id": "way/350634392",
       "properties": {
         "highway": "cycleway",
-        "oneway": "yes",
+        "oneway": "no",
         "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/350634392"
@@ -35463,6 +35468,10 @@
             51.1719558
           ],
           [
+            2.77341,
+            51.1709827
+          ],
+          [
             2.7731485,
             51.1708773
           ],
@@ -36478,6 +36487,7 @@
       "properties": {
         "bicycle": "no",
         "foot": "yes",
+        "handrail": "no",
         "highway": "steps",
         "horse": "no",
         "incline": "up",
@@ -36509,11 +36519,13 @@
       "type": "Feature",
       "id": "way/1046461282",
       "properties": {
+        "handrail": "no",
         "highway": "steps",
         "incline": "down",
         "ramp": "no",
         "step_count": "6",
         "surface": "paving_stones",
+        "tactile_paving": "no",
         "id": "way/1046461282"
       },
       "geometry": {
@@ -37357,6 +37369,7 @@
         "bicycle": "no",
         "embankment": "yes",
         "foot": "yes",
+        "handrail": "no",
         "highway": "steps",
         "incline": "up",
         "ramp": "no",
@@ -38052,9 +38065,11 @@
       "id": "way/1126763664",
       "properties": {
         "highway": "tertiary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Driftweg",
         "ref": "N317",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/1126763664"
       },

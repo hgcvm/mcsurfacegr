@@ -5,7 +5,7 @@
       "type": "Feature",
       "id": "way/3992545",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lanes": "1",
         "lit": "yes",
@@ -3210,6 +3210,10 @@
             50.9042346
           ],
           [
+            4.7224404,
+            50.9042156
+          ],
+          [
             4.7225607,
             50.9041522
           ],
@@ -3222,8 +3226,12 @@
             50.9034947
           ],
           [
-            4.72373,
-            50.9032847
+            4.7235149,
+            50.9034389
+          ],
+          [
+            4.7237371,
+            50.9032882
           ],
           [
             4.7239715,
@@ -17727,12 +17735,15 @@
       "type": "Feature",
       "id": "way/30143011",
       "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
         "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Nijverheidskaai",
         "oneway": "yes",
+        "overtaking:motor_vehicle": "no",
         "surface": "asphalt",
         "wikidata": "Q115810058",
         "id": "way/30143011"
@@ -19514,7 +19525,7 @@
       "type": "Feature",
       "id": "way/31056578",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "name": "Vroentestraat",
         "oneway": "yes",
@@ -30989,6 +31000,10 @@
             50.9043649
           ],
           [
+            4.722284,
+            50.9043543
+          ],
+          [
             4.7222873,
             50.9043407
           ],
@@ -31019,12 +31034,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7246085,
-            50.9028423
+            4.7247422,
+            50.9028302
           ],
           [
-            4.7244666,
-            50.90287
+            4.7245333,
+            50.9028645
           ]
         ]
       }
@@ -31045,20 +31060,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7244666,
-            50.90287
+            4.7245333,
+            50.9028645
           ],
           [
-            4.7243533,
-            50.902893
-          ],
-          [
-            4.7242237,
-            50.9029239
-          ],
-          [
-            4.7241939,
-            50.9029377
+            4.7241342,
+            50.9029546
           ]
         ]
       }
@@ -31094,12 +31101,8 @@
             50.9028248
           ],
           [
-            4.7247429,
-            50.9028283
-          ],
-          [
-            4.7246085,
-            50.9028423
+            4.7247422,
+            50.9028302
           ]
         ]
       }
@@ -36928,7 +36931,7 @@
       "properties": {
         "alt_name": "Denterghemlaan",
         "highway": "tertiary",
-        "loc_name": "De Denterghemlaan",
+        "loc_name": "de Denterghemlaan",
         "name": "Philippe de Denterghemlaan",
         "id": "way/39122344"
       },
@@ -53345,8 +53348,8 @@
             50.8370548
           ],
           [
-            5.7028277,
-            50.8367833
+            5.7028029,
+            50.836774
           ],
           [
             5.7026367,
@@ -54904,7 +54907,7 @@
       "type": "Feature",
       "id": "way/61804605",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "name": "Driesstraat",
         "oneway": "yes",
@@ -69742,20 +69745,20 @@
             50.9422953
           ],
           [
-            4.1091688,
-            50.9423389
+            4.1092224,
+            50.94236
           ],
           [
-            4.1090932,
-            50.9424567
+            4.1091482,
+            50.9424863
           ],
           [
-            4.1088948,
-            50.9427592
+            4.1089297,
+            50.942766
           ],
           [
-            4.1088518,
-            50.9428809
+            4.1087163,
+            50.9430161
           ],
           [
             4.108486,
@@ -69772,6 +69775,10 @@
           [
             4.108022,
             50.943947
+          ],
+          [
+            4.107998,
+            50.9439743
           ],
           [
             4.107982,
@@ -76709,7 +76716,7 @@
       "properties": {
         "bicycle": "designated",
         "cyclestreet": "yes",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -77464,8 +77471,8 @@
             50.9029895
           ],
           [
-            4.7241939,
-            50.9029377
+            4.7241342,
+            50.9029546
           ]
         ]
       }
@@ -83867,6 +83874,8 @@
       "type": "Feature",
       "id": "way/223134476",
       "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
         "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
@@ -83875,6 +83884,7 @@
         "name": "Nijverheidskaai",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "wikidata": "Q115810058",
@@ -93379,6 +93389,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Bellewaardestraat",
+        "surface": "asphalt",
         "width": "3",
         "id": "way/350318730"
       },
@@ -97195,8 +97206,12 @@
             50.7726215
           ],
           [
-            5.7234205,
-            50.7724819
+            5.723426,
+            50.7725996
+          ],
+          [
+            5.7234281,
+            50.7724828
           ],
           [
             5.7234244,
@@ -113229,7 +113244,7 @@
       "properties": {
         "bicycle": "designated",
         "cyclestreet": "yes",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -118981,7 +118996,7 @@
       "type": "Feature",
       "id": "way/804901098",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "name": "Driesstraat",
         "oneway": "yes",
@@ -119664,13 +119679,15 @@
       "type": "Feature",
       "id": "way/829447491",
       "properties": {
-        "bicycle": "yes",
+        "bicycle": "designated",
+        "cyclestreet": "yes",
         "cycleway:both": "no",
         "highway": "residential",
         "horse": "yes",
         "maxspeed": "30",
         "name": "Nijverheidskaai",
         "oneway": "no",
+        "overtaking:motor_vehicle": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "vehicle:forward": "destination",
@@ -123445,7 +123462,7 @@
       "properties": {
         "bicycle": "designated",
         "cyclestreet": "yes",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -129060,7 +129077,7 @@
       "type": "Feature",
       "id": "way/1122256935",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "name": "Vroentestraat",
         "oneway": "yes",
@@ -156370,7 +156387,7 @@
       "id": "way/3390204",
       "properties": {
         "cyclestreet": "yes",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "cycleway:smoothness": "excellent",
         "highway": "residential",
         "lanes": "1",
@@ -159194,7 +159211,7 @@
       "id": "way/72856795",
       "properties": {
         "access": "permissive",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "foot": "yes",
         "highway": "unclassified",
         "lanes": "1",
@@ -159229,7 +159246,7 @@
       "id": "way/77864399",
       "properties": {
         "access": "permissive",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "foot": "yes",
         "highway": "unclassified",
         "lanes": "1",
@@ -159263,11 +159280,12 @@
       "type": "Feature",
       "id": "way/77864400",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "service",
         "lanes": "1",
         "lit": "no",
         "maxspeed": "10",
+        "oneway:bicycle": "no",
         "service": "driveway",
         "source": "survey",
         "surface": "paved",
@@ -159695,7 +159713,7 @@
       "id": "way/85840988",
       "properties": {
         "access": "permissive",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "foot": "yes",
         "highway": "unclassified",
         "lanes": "1",
@@ -160231,7 +160249,7 @@
       "type": "Feature",
       "id": "way/125472523",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lanes": "1",
         "maxspeed": "30",
@@ -160578,7 +160596,7 @@
       "id": "way/177322355",
       "properties": {
         "access": "permissive",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "foot": "yes",
         "highway": "unclassified",
         "lanes": "1",
