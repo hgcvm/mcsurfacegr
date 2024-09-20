@@ -1998,7 +1998,7 @@
       "type": "Feature",
       "id": "way/25827262",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "living_street",
         "maxspeed": "20",
         "name": "Molenstraat",
@@ -2197,7 +2197,7 @@
       "type": "Feature",
       "id": "way/27882533",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Korte Begijnenstraat",
@@ -6752,6 +6752,10 @@
             51.2441366
           ],
           [
+            4.7319929,
+            51.2447305
+          ],
+          [
             4.7338005,
             51.2452012
           ],
@@ -6783,8 +6787,8 @@
             51.2469964
           ],
           [
-            4.7284521,
-            51.2467576
+            4.7284394,
+            51.2467179
           ],
           [
             4.7280124,
@@ -20083,6 +20087,7 @@
       "id": "way/176717183",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Oosterenberg",
         "surface": "asphalt",
         "id": "way/176717183"
@@ -21276,7 +21281,7 @@
       "type": "Feature",
       "id": "way/242649314",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Grote Markt",
@@ -21303,7 +21308,7 @@
       "type": "Feature",
       "id": "way/242649315",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Grote Markt",
@@ -22658,7 +22663,7 @@
       "type": "Feature",
       "id": "way/346092948",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Grote Markt",
@@ -24098,7 +24103,7 @@
       "type": "Feature",
       "id": "way/462701369",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -31291,6 +31296,8 @@
       "properties": {
         "highway": "track",
         "name": "Oosterenberg",
+        "surface": "ground",
+        "tracktype": "grade2",
         "id": "way/1160840289"
       },
       "geometry": {
@@ -39533,8 +39540,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4235911,
-            51.1907148
+            4.423625,
+            51.1907228
           ],
           [
             4.4235687,
@@ -39588,12 +39595,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4235911,
-            51.1907148
-          ],
-          [
-            4.4236478,
-            51.190694
+            4.423625,
+            51.1907228
           ],
           [
             4.4237166,
@@ -40290,12 +40293,14 @@
       "type": "Feature",
       "id": "way/786538655",
       "properties": {
-        "highway": "residential",
+        "construction": "residential",
+        "highway": "construction",
         "junction": "roundabout",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Cogels-Osylei",
+        "note": "wordt heraangelegd, precast beton elementen waarin tramrails komen, rond punt verdwijnt",
         "oneway": "yes",
         "sidewalk": "right",
         "surface": "sett",
@@ -40442,12 +40447,14 @@
       "type": "Feature",
       "id": "way/818085147",
       "properties": {
-        "highway": "residential",
+        "construction": "residential",
+        "highway": "construction",
         "junction": "roundabout",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Cogels-Osylei",
+        "note": "wordt heraangelegd, precast beton elementen waarin tramrails komen, rond punt verdwijnt",
         "oneway": "yes",
         "sidewalk": "right",
         "surface": "sett",
@@ -40702,9 +40709,9 @@
         "foot": "yes",
         "highway": "cycleway",
         "lit": "yes",
+        "loc_name": "Ringfietspad",
         "mofa": "yes",
         "moped": "no",
-        "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "no",
         "surface": "asphalt",

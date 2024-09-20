@@ -137025,6 +137025,34 @@
     },
     {
       "type": "Feature",
+      "id": "way/57841874",
+      "properties": {
+        "highway": "track",
+        "horse": "yes",
+        "incline": "down",
+        "mtb:scale": "0",
+        "name": "Cotessen",
+        "smoothness": "bad",
+        "surface": "gravel",
+        "tracktype": "grade2",
+        "id": "way/57841874"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.9519976,
+            50.767915
+          ],
+          [
+            5.9519323,
+            50.7678922
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/57841904",
       "properties": {
         "highway": "path",
@@ -139443,6 +139471,7 @@
         "highway": "track",
         "name": "Sinnigerdalweg",
         "smoothness": "horrible",
+        "surface": "grass",
         "tracktype": "grade3",
         "id": "way/106109775"
       },
@@ -146078,11 +146107,11 @@
           ],
           [
             5.9521157,
-            50.7679265
+            50.7679329
           ],
           [
-            5.952003,
-            50.7679171
+            5.9519976,
+            50.767915
           ]
         ]
       }
@@ -146339,24 +146368,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.952003,
-            50.7679171
+            5.9519323,
+            50.7678922
           ],
           [
-            5.9519286,
-            50.7679049
+            5.9518636,
+            50.7678947
           ],
           [
-            5.9518438,
-            50.767903
+            5.9518009,
+            50.7678975
           ],
           [
             5.9517307,
             50.7679021
           ],
           [
-            5.9516251,
-            50.7679125
+            5.9515594,
+            50.7679201
           ],
           [
             5.9514416,
@@ -151088,6 +151117,8 @@
         "oneway": "yes",
         "oneway:bicycle": "yes",
         "sidewalk": "both",
+        "sidewalk:left:surface": "paving_stones",
+        "sidewalk:right:surface": "compacted",
         "surface": "asphalt",
         "wikidata": "Q115809494",
         "id": "way/22797657"
@@ -151297,10 +151328,13 @@
       "id": "way/23997305",
       "properties": {
         "highway": "residential",
+        "lit": "yes",
         "maxspeed": "30",
         "name": "Koning Willem I-kaai",
         "name:etymology:wikidata": "Q2079957",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "surface": "paving_stones",
         "wikidata": "Q115807543",
         "id": "way/23997305"
       },
@@ -151341,6 +151375,7 @@
         "oneway": "yes",
         "oneway:bicycle": "yes",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "surface": "asphalt",
         "wikidata": "Q115807395",
         "id": "way/23997309"
@@ -151463,6 +151498,8 @@
         "name": "Wijzemanstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "source:width": "ARCore",
         "surface": "sett",
         "width": "5.5",
@@ -151662,12 +151699,13 @@
       "properties": {
         "access": "permit",
         "bicycle": "yes",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "emergency": "yes",
         "highway": "residential",
         "maxspeed": "30",
         "motor_vehicle": "permit",
         "name": "Lievestraat",
+        "oneway:bicycle": "no",
         "private": "government_service",
         "sidewalk": "both",
         "surface": "sett",
@@ -152168,10 +152206,13 @@
       "properties": {
         "cycleway": "shared",
         "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
         "maxspeed": "30",
         "name": "Sint-Joriskaai",
         "name:etymology:wikidata": "Q48438",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "surface": "asphalt",
         "id": "way/38715195"
       },
@@ -152237,13 +152278,15 @@
       "type": "Feature",
       "id": "way/41387201",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Bij Sint-Jacobs",
         "name:etymology:wikidata": "Q43999",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "surface": "sett",
         "id": "way/41387201"
       },
@@ -152606,7 +152649,7 @@
       "id": "way/85636734",
       "properties": {
         "bicycle": "yes",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "foot": "yes",
         "highway": "residential",
         "maxspeed": "30",
@@ -153437,6 +153480,7 @@
       "id": "way/158579417",
       "properties": {
         "highway": "living_street",
+        "lit": "yes",
         "maxspeed": "20",
         "name": "Koning Willem I-kaai",
         "name:etymology:wikidata": "Q2079957",
@@ -154547,7 +154591,7 @@
         "name:etymology:wikidata": "Q18654812",
         "segregated": "yes",
         "speed_pedelec": "no",
-        "surface": "sett",
+        "surface": "paving_stones",
         "taxi": "no",
         "id": "way/706354643"
       },
@@ -154668,6 +154712,7 @@
         "name": "Hagelandkaai",
         "oneway": "yes",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "surface": "asphalt",
         "wikidata": "Q115807395",
         "id": "way/722707329"
@@ -155565,6 +155610,7 @@
         "foot": "designated",
         "highway": "path",
         "motor_vehicle": "no",
+        "segregated": "no",
         "surface": "concrete",
         "id": "way/842244903"
       },
@@ -155796,6 +155842,7 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "path",
+        "lit": "yes",
         "maxspeed": "20",
         "name": "Koning Willem I-kaai",
         "name:etymology:wikidata": "Q2079957",
@@ -155831,9 +155878,11 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "path",
+        "lit": "yes",
         "motor_vehicle": "no",
         "name": "Rembert Dodoensdreef",
         "name:etymology:wikidata": "Q437466",
+        "segregated": "no",
         "surface": "concrete",
         "id": "way/984905094"
       },
@@ -156087,11 +156136,12 @@
       "id": "way/1186223380",
       "properties": {
         "bicycle": "yes",
-        "cycleway": "opposite",
+        "cycleway": "no",
         "emergency": "yes",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Lievestraat",
+        "oneway:bicycle": "no",
         "private": "government_service",
         "sidewalk": "both",
         "surface": "sett",
@@ -156387,7 +156437,7 @@
       "id": "way/3390204",
       "properties": {
         "cyclestreet": "yes",
-        "cycleway": "no",
+        "cycleway": "opposite",
         "cycleway:smoothness": "excellent",
         "highway": "residential",
         "lanes": "1",
@@ -159211,7 +159261,7 @@
       "id": "way/72856795",
       "properties": {
         "access": "permissive",
-        "cycleway": "no",
+        "cycleway": "opposite",
         "foot": "yes",
         "highway": "unclassified",
         "lanes": "1",
@@ -159246,7 +159296,7 @@
       "id": "way/77864399",
       "properties": {
         "access": "permissive",
-        "cycleway": "no",
+        "cycleway": "opposite",
         "foot": "yes",
         "highway": "unclassified",
         "lanes": "1",
@@ -159280,12 +159330,11 @@
       "type": "Feature",
       "id": "way/77864400",
       "properties": {
-        "cycleway": "no",
+        "cycleway": "opposite",
         "highway": "service",
         "lanes": "1",
         "lit": "no",
         "maxspeed": "10",
-        "oneway:bicycle": "no",
         "service": "driveway",
         "source": "survey",
         "surface": "paved",
@@ -159713,7 +159762,7 @@
       "id": "way/85840988",
       "properties": {
         "access": "permissive",
-        "cycleway": "no",
+        "cycleway": "opposite",
         "foot": "yes",
         "highway": "unclassified",
         "lanes": "1",
@@ -160249,7 +160298,7 @@
       "type": "Feature",
       "id": "way/125472523",
       "properties": {
-        "cycleway": "no",
+        "cycleway": "opposite",
         "highway": "residential",
         "lanes": "1",
         "maxspeed": "30",
@@ -160596,7 +160645,7 @@
       "id": "way/177322355",
       "properties": {
         "access": "permissive",
-        "cycleway": "no",
+        "cycleway": "opposite",
         "foot": "yes",
         "highway": "unclassified",
         "lanes": "1",

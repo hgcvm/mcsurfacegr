@@ -74814,7 +74814,7 @@
       "type": "Feature",
       "id": "way/8117688",
       "properties": {
-        "cycleway": "no",
+        "cycleway": "opposite",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Sint-Hermesstraat - Rue Saint-Hermes",
@@ -77504,10 +77504,9 @@
       "id": "way/26235926",
       "properties": {
         "cyclestreet": "yes",
-        "cycleway": "no",
+        "cycleway": "opposite",
         "highway": "residential",
-        "lane_markings": "no",
-        "lanes": "1",
+        "lanes": "0",
         "maxspeed": "30",
         "name": "Rijkenhoek",
         "oneway": "yes",
@@ -80549,7 +80548,7 @@
       "id": "way/31295211",
       "properties": {
         "bicycle": "yes",
-        "cycleway": "no",
+        "cycleway": "opposite",
         "highway": "residential",
         "lanes": "1",
         "lit": "yes",
@@ -81003,7 +81002,7 @@
       "properties": {
         "bicycle": "yes",
         "cyclestreet": "yes",
-        "cycleway": "no",
+        "cycleway": "opposite",
         "foot": "yes",
         "highway": "residential",
         "maxspeed": "30",
@@ -81046,7 +81045,7 @@
       "id": "way/31720534",
       "properties": {
         "cyclestreet": "yes",
-        "cycleway": "no",
+        "cycleway": "opposite",
         "highway": "residential",
         "name": "Rijkenhoek",
         "oneway": "yes",
@@ -81092,7 +81091,7 @@
       "id": "way/31720538",
       "properties": {
         "cyclestreet": "yes",
-        "cycleway": "no",
+        "cycleway": "opposite",
         "highway": "residential",
         "name": "Rijkenhoek",
         "oneway": "yes",
@@ -82940,7 +82939,7 @@
       "id": "way/33210658",
       "properties": {
         "cyclestreet": "yes",
-        "cycleway": "no",
+        "cycleway": "opposite",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -89866,7 +89865,7 @@
       "type": "Feature",
       "id": "way/56228194",
       "properties": {
-        "cycleway": "no",
+        "cycleway": "opposite",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Vroonhof",
@@ -90602,7 +90601,7 @@
       "type": "Feature",
       "id": "way/60688202",
       "properties": {
-        "cycleway": "no",
+        "cycleway": "opposite",
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Avenue Albert Opsomer",
@@ -124990,7 +124989,7 @@
       "type": "Feature",
       "id": "way/246698854",
       "properties": {
-        "cycleway": "no",
+        "cycleway": "opposite",
         "highway": "living_street",
         "maxspeed": "20",
         "name": "Veurnestraat",
@@ -130201,7 +130200,7 @@
       "type": "Feature",
       "id": "way/299523132",
       "properties": {
-        "cycleway": "no",
+        "cycleway": "opposite",
         "highway": "living_street",
         "maxspeed": "20",
         "name": "Grote Markt",
@@ -163297,7 +163296,7 @@
       "type": "Feature",
       "id": "way/1173223149",
       "properties": {
-        "cycleway": "no",
+        "cycleway": "opposite",
         "highway": "tertiary",
         "name": "Veurnestraat",
         "oneway": "yes",
@@ -163328,7 +163327,7 @@
       "id": "way/1173223153",
       "properties": {
         "bicycle": "yes",
-        "cycleway": "no",
+        "cycleway": "opposite",
         "highway": "residential",
         "lanes": "1",
         "lit": "yes",
@@ -175301,8 +175300,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4235911,
-            51.1907148
+            4.423625,
+            51.1907228
           ],
           [
             4.4235687,
@@ -175356,12 +175355,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4235911,
-            51.1907148
-          ],
-          [
-            4.4236478,
-            51.190694
+            4.423625,
+            51.1907228
           ],
           [
             4.4237166,
@@ -176058,12 +176053,14 @@
       "type": "Feature",
       "id": "way/786538655",
       "properties": {
-        "highway": "residential",
+        "construction": "residential",
+        "highway": "construction",
         "junction": "roundabout",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Cogels-Osylei",
+        "note": "wordt heraangelegd, precast beton elementen waarin tramrails komen, rond punt verdwijnt",
         "oneway": "yes",
         "sidewalk": "right",
         "surface": "sett",
@@ -176210,12 +176207,14 @@
       "type": "Feature",
       "id": "way/818085147",
       "properties": {
-        "highway": "residential",
+        "construction": "residential",
+        "highway": "construction",
         "junction": "roundabout",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Cogels-Osylei",
+        "note": "wordt heraangelegd, precast beton elementen waarin tramrails komen, rond punt verdwijnt",
         "oneway": "yes",
         "sidewalk": "right",
         "surface": "sett",
@@ -176470,9 +176469,9 @@
         "foot": "yes",
         "highway": "cycleway",
         "lit": "yes",
+        "loc_name": "Ringfietspad",
         "mofa": "yes",
         "moped": "no",
-        "name": "Ringfietspad",
         "oneway": "no",
         "segregated": "no",
         "surface": "asphalt",

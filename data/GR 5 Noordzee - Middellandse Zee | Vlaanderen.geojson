@@ -23047,10 +23047,6 @@
             50.8887311
           ],
           [
-            5.6557128,
-            50.8888104
-          ],
-          [
             5.6557563,
             50.8888552
           ]
@@ -23167,7 +23163,7 @@
       "id": "way/49802474",
       "properties": {
         "highway": "cycleway",
-        "surface": "paved",
+        "surface": "concrete",
         "id": "way/49802474"
       },
       "geometry": {
@@ -34940,7 +34936,7 @@
       "type": "Feature",
       "id": "way/206178437",
       "properties": {
-        "highway": "unclassified",
+        "highway": "cycleway",
         "lanes": "1",
         "maxspeed": "30",
         "motor_vehicle": "no",
@@ -34948,14 +34944,15 @@
         "sidewalk": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
+        "tracktype": "grade1",
         "id": "way/206178437"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.5408926,
-            50.9482033
+            5.5408801,
+            50.94817
           ],
           [
             5.541254,
@@ -35035,8 +35032,8 @@
             50.949112
           ],
           [
-            5.5408926,
-            50.9482033
+            5.5408801,
+            50.94817
           ]
         ]
       }
@@ -41442,7 +41439,10 @@
       "id": "way/273261307",
       "properties": {
         "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "50",
         "name": "Langerloweg",
+        "surface": "asphalt",
         "id": "way/273261307"
       },
       "geometry": {
@@ -41465,20 +41465,8 @@
             50.9477772
           ],
           [
-            5.4971516,
-            50.9478717
-          ],
-          [
-            5.497084,
-            50.9479396
-          ],
-          [
-            5.4970526,
-            50.9479553
-          ],
-          [
-            5.4970173,
-            50.9479729
+            5.4971588,
+            50.9478423
           ]
         ]
       }
@@ -46678,8 +46666,10 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Langerloweg",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/430089442"
       },
@@ -46687,8 +46677,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4970173,
-            50.9479729
+            5.4970087,
+            50.947969
           ],
           [
             5.4971566,
@@ -62629,7 +62619,7 @@
       "id": "way/1202843228",
       "properties": {
         "highway": "cycleway",
-        "surface": "paved",
+        "surface": "concrete",
         "id": "way/1202843228"
       },
       "geometry": {
@@ -62680,7 +62670,7 @@
       "id": "way/1202843230",
       "properties": {
         "highway": "cycleway",
-        "surface": "paved",
+        "surface": "concrete",
         "id": "way/1202843230"
       },
       "geometry": {
@@ -64475,6 +64465,43 @@
     },
     {
       "type": "Feature",
+      "id": "way/1316096320",
+      "properties": {
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Langerloweg",
+        "surface": "paving_stones",
+        "id": "way/1316096320"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4971588,
+            50.9478423
+          ],
+          [
+            5.4971516,
+            50.9478717
+          ],
+          [
+            5.49713,
+            50.9479023
+          ],
+          [
+            5.497077,
+            50.9479318
+          ],
+          [
+            5.4970087,
+            50.947969
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/11991650",
       "properties": {
         "highway": "residential",
@@ -64974,7 +65001,7 @@
           ],
           [
             5.5468968,
-            50.9517579
+            50.9517545
           ],
           [
             5.547063,
