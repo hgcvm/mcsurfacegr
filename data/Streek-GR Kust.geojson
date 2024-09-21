@@ -1467,6 +1467,7 @@
       "properties": {
         "bicycle": "use_sidepath",
         "highway": "tertiary",
+        "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Driftweg",
@@ -5346,6 +5347,7 @@
         "handrail": "no",
         "highway": "steps",
         "incline": "up",
+        "ramp": "no",
         "step_count": "25",
         "surface": "paving_stones",
         "tactile_paving": "no",
@@ -6037,6 +6039,7 @@
         "handrail": "no",
         "highway": "steps",
         "incline": "up",
+        "ramp": "no",
         "step_count": "19",
         "surface": "paving_stones",
         "tactile_paving": "no",
@@ -15029,6 +15032,10 @@
           [
             2.7418944,
             51.1380618
+          ],
+          [
+            2.7416379,
+            51.1383146
           ],
           [
             2.7412399,
@@ -36484,6 +36491,7 @@
       "properties": {
         "bicycle": "no",
         "foot": "yes",
+        "handrail": "no",
         "highway": "steps",
         "horse": "no",
         "incline": "up",
@@ -38061,9 +38069,11 @@
       "id": "way/1126763664",
       "properties": {
         "highway": "tertiary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Driftweg",
         "ref": "N317",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/1126763664"
       },

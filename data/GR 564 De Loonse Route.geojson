@@ -4677,9 +4677,12 @@
       "type": "Feature",
       "id": "way/52873285",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "grade": "2",
-        "highway": "track",
-        "oneway": "no",
+        "highway": "cycleway",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/52873285"
       },
@@ -6390,7 +6393,6 @@
       "type": "Feature",
       "id": "way/95126193",
       "properties": {
-        "fixme:name": "WikiProject_Belgium/Municipality_Fusions",
         "highway": "unclassified",
         "name": "Weg naar het Plat",
         "old_name": "Venstraat",
@@ -8070,7 +8072,7 @@
       "type": "Feature",
       "id": "way/126805243",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -18011,7 +18013,7 @@
       "type": "Feature",
       "id": "way/220226058",
       "properties": {
-        "cycleway:left": "opposite_lane",
+        "cycleway:left": "lane",
         "cycleway:right": "shared_lane",
         "highway": "secondary",
         "lane_markings": "no",
@@ -25033,10 +25035,9 @@
         "access": "private",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "service",
+        "highway": "cycleway",
         "motor_vehicle": "permissive",
         "name": "Rue Naxhelet",
-        "service": "emergency_access",
         "surface": "asphalt",
         "id": "way/292221476"
       },
@@ -27949,6 +27950,10 @@
             50.8935
           ],
           [
+            5.3908035,
+            50.8937551
+          ],
+          [
             5.3900599,
             50.8947121
           ]
@@ -29920,7 +29925,7 @@
       "properties": {
         "access": "yes",
         "bicycle": "yes",
-        "cycleway:left": "opposite_lane",
+        "cycleway:left": "lane",
         "cycleway:right": "shared_lane",
         "foot": "yes",
         "highway": "secondary",
@@ -30990,7 +30995,7 @@
       "type": "Feature",
       "id": "way/367270364",
       "properties": {
-        "highway": "unclassified",
+        "highway": "cycleway",
         "lane_markings": "no",
         "lit": "no",
         "maxspeed": "30",
@@ -38585,7 +38590,7 @@
       "type": "Feature",
       "id": "way/871683076",
       "properties": {
-        "cycleway": "opposite",
+        "cycleway": "no",
         "highway": "residential",
         "lane_markings": "no",
         "maxspeed": "50",
@@ -38971,7 +38976,7 @@
       "type": "Feature",
       "id": "way/905928712",
       "properties": {
-        "cycleway:left": "opposite_lane",
+        "cycleway:left": "lane",
         "cycleway:right": "shared_lane",
         "highway": "secondary",
         "maxspeed": "50",
