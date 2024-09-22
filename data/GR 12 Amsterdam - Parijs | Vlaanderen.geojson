@@ -4536,6 +4536,7 @@
       "id": "way/22795117",
       "properties": {
         "highway": "cycleway",
+        "lit": "yes",
         "surface": "asphalt",
         "id": "way/22795117"
       },
@@ -5581,10 +5582,10 @@
         "cycleway": "no",
         "highway": "living_street",
         "maxlength": "11",
-        "maxlength:bus": "none",
+        "maxlength:conditional": "none @ bus",
         "maxspeed": "20",
         "maxweight": "10",
-        "maxweight:bus": "none",
+        "maxweight:conditional": "none @ bus",
         "name": "Schrijnstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -15356,6 +15357,7 @@
         "bridge": "yes",
         "highway": "cycleway",
         "layer": "1",
+        "lit": "yes",
         "surface": "paving_stones",
         "id": "way/316142318"
       },
@@ -15378,6 +15380,7 @@
       "id": "way/316142323",
       "properties": {
         "highway": "cycleway",
+        "surface": "paving_stones",
         "id": "way/316142323"
       },
       "geometry": {
@@ -15411,6 +15414,8 @@
         "cycleway:surface": "paving_stones:20",
         "cycleway:width": "1.76",
         "highway": "cycleway",
+        "segregated": "yes",
+        "surface": "paving_stones",
         "id": "way/316142329"
       },
       "geometry": {
@@ -17612,11 +17617,14 @@
       "properties": {
         "cycleway:buffer": "0",
         "cycleway:comfort": "26",
-        "cycleway:surface": "paving_stones:30",
+        "cycleway:surface": "paving_stones",
         "cycleway:width": "1.50",
+        "footway:surface": "paving_stones",
         "highway": "cycleway",
         "oneway": "no",
+        "segregated": "yes",
         "source": "bing2011",
+        "surface": "paving_stones",
         "id": "way/424285497"
       },
       "geometry": {
@@ -21516,6 +21524,7 @@
       "id": "way/489072059",
       "properties": {
         "highway": "path",
+        "surface": "paving_stones",
         "id": "way/489072059"
       },
       "geometry": {

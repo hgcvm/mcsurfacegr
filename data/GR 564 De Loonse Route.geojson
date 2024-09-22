@@ -1728,8 +1728,10 @@
       "id": "way/30908489",
       "properties": {
         "bicycle": "no",
+        "cycleway:both": "no",
         "highway": "track",
-        "surface": "ground",
+        "lit": "no",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/30908489"
       },
@@ -11421,6 +11423,7 @@
       "id": "way/161536045",
       "properties": {
         "highway": "path",
+        "lit": "no",
         "smoothness": "bad",
         "surface": "ground",
         "width": "1",
@@ -12239,6 +12242,7 @@
       "id": "way/175498089",
       "properties": {
         "highway": "path",
+        "lit": "no",
         "surface": "ground",
         "id": "way/175498089"
       },
@@ -12345,6 +12349,7 @@
       "id": "way/175498261",
       "properties": {
         "highway": "path",
+        "lit": "no",
         "surface": "ground",
         "id": "way/175498261"
       },
@@ -13731,8 +13736,10 @@
       "type": "Feature",
       "id": "way/194946971",
       "properties": {
+        "cycleway:both": "no",
         "highway": "pedestrian",
         "lit": "yes",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/194946971"
       },
@@ -13831,6 +13838,7 @@
       "properties": {
         "highway": "pedestrian",
         "lit": "yes",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/194947022"
       },
@@ -13853,7 +13861,9 @@
       "id": "way/194952261",
       "properties": {
         "bicycle": "no",
+        "cycleway:both": "no",
         "highway": "pedestrian",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/194952261"
       },
@@ -13917,6 +13927,8 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
+        "lit": "no",
+        "moped": "yes",
         "segregated": "no",
         "surface": "asphalt",
         "id": "way/197598012"
@@ -13948,6 +13960,7 @@
       "id": "way/197598020",
       "properties": {
         "highway": "track",
+        "lit": "no",
         "surface": "ground",
         "tracktype": "grade4",
         "id": "way/197598020"
@@ -14880,7 +14893,9 @@
       "type": "Feature",
       "id": "way/200852707",
       "properties": {
+        "cycleway:both": "no",
         "highway": "service",
+        "lit": "no",
         "surface": "asphalt",
         "id": "way/200852707"
       },
@@ -19851,7 +19866,10 @@
       "id": "way/236066067",
       "properties": {
         "highway": "cycleway",
-        "surface": "paving_stones",
+        "lit": "no",
+        "moped": "yes",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
         "id": "way/236066067"
       },
       "geometry": {
@@ -23621,6 +23639,7 @@
       "id": "way/260544146",
       "properties": {
         "highway": "path",
+        "lit": "no",
         "surface": "ground",
         "id": "way/260544146"
       },
@@ -28840,7 +28859,9 @@
       "id": "way/350463927",
       "properties": {
         "bicycle": "no",
+        "cycleway:both": "no",
         "highway": "track",
+        "lit": "no",
         "surface": "ground",
         "tracktype": "grade3",
         "id": "way/350463927"
@@ -29775,6 +29796,10 @@
       "id": "way/364646953",
       "properties": {
         "highway": "cycleway",
+        "lit": "no",
+        "moped": "yes",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/364646953"
       },
       "geometry": {
@@ -37472,7 +37497,10 @@
       "id": "way/785576769",
       "properties": {
         "highway": "cycleway",
+        "lit": "no",
+        "moped": "yes",
         "name": "Boekrakelaan",
+        "sidewalk": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/785576769"
@@ -39036,7 +39064,8 @@
       "id": "way/929402368",
       "properties": {
         "highway": "service",
-        "surface": "paving_stones",
+        "lit": "no",
+        "surface": "asphalt",
         "id": "way/929402368"
       },
       "geometry": {
@@ -39498,6 +39527,7 @@
       "id": "way/1012557314",
       "properties": {
         "highway": "path",
+        "lit": "no",
         "surface": "ground",
         "id": "way/1012557314"
       },
@@ -39522,6 +39552,7 @@
         "bridge": "yes",
         "highway": "path",
         "layer": "1",
+        "lit": "no",
         "surface": "wood",
         "id": "way/1012557315"
       },
@@ -39546,6 +39577,7 @@
         "bridge": "yes",
         "highway": "path",
         "layer": "1",
+        "lit": "no",
         "surface": "wood",
         "id": "way/1012557316"
       },
@@ -39568,6 +39600,7 @@
       "id": "way/1012557317",
       "properties": {
         "highway": "path",
+        "lit": "no",
         "surface": "ground",
         "id": "way/1012557317"
       },
@@ -39595,6 +39628,8 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
+        "lit": "no",
+        "moped": "yes",
         "surface": "asphalt",
         "id": "way/1012557318"
       },
@@ -39617,7 +39652,8 @@
       "id": "way/1012557319",
       "properties": {
         "highway": "cycleway",
-        "surface": "compacted",
+        "lit": "no",
+        "surface": "asphalt",
         "id": "way/1012557319"
       },
       "geometry": {
@@ -41349,6 +41385,9 @@
         "crossing:markings": "no",
         "cycleway": "crossing",
         "highway": "cycleway",
+        "lit": "no",
+        "moped": "yes",
+        "surface": "asphalt",
         "id": "way/1244567508"
       },
       "geometry": {
