@@ -13194,12 +13194,8 @@
             50.9514778
           ],
           [
-            5.4972256,
-            50.9516138
-          ],
-          [
-            5.4974305,
-            50.9518586
+            5.4971201,
+            50.9515025
           ]
         ]
       }
@@ -28402,6 +28398,10 @@
             50.945879
           ],
           [
+            5.5016969,
+            50.9459077
+          ],
+          [
             5.5019932,
             50.9460054
           ],
@@ -39347,7 +39347,10 @@
       "properties": {
         "cycleway": "lane",
         "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "50",
         "name": "Hooiweg",
+        "surface": "asphalt",
         "id": "way/233048705"
       },
       "geometry": {
@@ -41416,10 +41419,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.5011326,
-            50.9457132
-          ],
           [
             5.5010105,
             50.9456471
@@ -58912,7 +58911,7 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Langerloweg",
-        "surface": "paved",
+        "surface": "paving_stones",
         "traffic_calming": "table",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1031134327"
@@ -64484,6 +64483,90 @@
     },
     {
       "type": "Feature",
+      "id": "way/1318048741",
+      "properties": {
+        "cycleway": "track",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Langerloweg",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1318048741"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4971881,
+            50.9515742
+          ],
+          [
+            5.4972256,
+            50.9516138
+          ],
+          [
+            5.4974305,
+            50.9518586
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1318048742",
+      "properties": {
+        "cycleway": "track",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Langerloweg",
+        "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1318048742"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4971201,
+            50.9515025
+          ],
+          [
+            5.4971881,
+            50.9515742
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1318102144",
+      "properties": {
+        "cycleway": "lane",
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Hooiweg",
+        "surface": "asphalt",
+        "id": "way/1318102144"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5011326,
+            50.9457132
+          ],
+          [
+            5.5010105,
+            50.9456471
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/11991650",
       "properties": {
         "highway": "residential",
@@ -64545,15 +64628,14 @@
       "type": "Feature",
       "id": "way/12375939",
       "properties": {
+        "cycleway": "shared_lane",
         "cycleway:both:lane": "advisory",
         "cycleway:both:surface": "concrete",
         "highway": "unclassified",
         "lanes": "2",
-        "layer": "-1",
         "maxspeed": "50",
         "name": "Hoogzij",
         "surface": "asphalt",
-        "tunnel": "yes",
         "id": "way/12375939"
       },
       "geometry": {
@@ -64574,10 +64656,13 @@
       "type": "Feature",
       "id": "way/12375947",
       "properties": {
+        "cycleway": "shared_lane",
         "cycleway:both": "shared_lane",
         "cycleway:both:lane": "advisory",
         "cycleway:both:surface": "concrete",
         "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "50",
         "name": "Hoogzij",
         "smoothness": "good",
         "surface": "asphalt",
@@ -64614,6 +64699,8 @@
       "id": "way/13236710",
       "properties": {
         "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "30",
         "name": "Kattevennen",
         "surface": "asphalt",
         "id": "way/13236710"
@@ -64622,20 +64709,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.5233555,
-            50.9642639
-          ],
-          [
-            5.5233922,
-            50.9641814
-          ],
-          [
             5.5234067,
             50.9641361
           ],
           [
-            5.5233751,
-            50.9638121
+            5.5233786,
+            50.9638173
           ]
         ]
       }
@@ -64710,8 +64789,10 @@
       "type": "Feature",
       "id": "way/117509626",
       "properties": {
-        "bridge": "yes",
-        "highway": "path",
+        "crossing": "unmarked",
+        "crossing:markings": "no",
+        "footway": "crossing",
+        "highway": "footway",
         "layer": "1",
         "surface": "wood",
         "id": "way/117509626"
@@ -64720,12 +64801,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.5235221,
-            50.963819
+            5.5234486,
+            50.9638156
           ],
           [
-            5.5233751,
-            50.9638121
+            5.5233786,
+            50.9638173
           ]
         ]
       }
@@ -67582,6 +67663,9 @@
       "type": "Feature",
       "id": "way/1010917112",
       "properties": {
+        "crossing": "unmarked",
+        "crossing:markings": "no",
+        "footway": "crossing",
         "highway": "footway",
         "surface": "paved",
         "id": "way/1010917112"
@@ -68132,6 +68216,59 @@
           [
             5.4927333,
             50.9632413
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1318075567",
+      "properties": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Kattevennen",
+        "surface": "asphalt",
+        "id": "way/1318075567"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5233555,
+            50.9642639
+          ],
+          [
+            5.5233922,
+            50.9641814
+          ],
+          [
+            5.5234067,
+            50.9641361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1318075569",
+      "properties": {
+        "bridge": "boardwalk",
+        "highway": "path",
+        "layer": "1",
+        "surface": "wood",
+        "id": "way/1318075569"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5235221,
+            50.963819
+          ],
+          [
+            5.5234486,
+            50.9638156
           ]
         ]
       }
