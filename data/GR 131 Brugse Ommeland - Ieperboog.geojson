@@ -23502,7 +23502,7 @@
       "id": "way/410073205",
       "properties": {
         "highway": "footway",
-        "surface": "paving_stones",
+        "surface": "sett",
         "id": "way/410073205"
       },
       "geometry": {
@@ -23530,6 +23530,7 @@
         "bicycle": "no",
         "bridge": "yes",
         "highway": "footway",
+        "lit": "no",
         "surface": "wood",
         "id": "way/410073206"
       },
@@ -26146,8 +26147,11 @@
       "type": "Feature",
       "id": "way/682016070",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Nieuwstraat",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/682016070"
       },
@@ -32385,9 +32389,12 @@
       "type": "Feature",
       "id": "way/1135386255",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Nieuwstraat",
-        "surface": "asphalt",
+        "sidewalk": "both",
+        "surface": "paving_stones",
         "id": "way/1135386255"
       },
       "geometry": {
@@ -32408,12 +32415,14 @@
       "type": "Feature",
       "id": "way/1135386256",
       "properties": {
+        "cycleway:both": "no",
         "highway": "living_street",
         "lanes": "1",
         "maxspeed": "20",
         "name": "Nieuwstraat",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "both",
         "surface": "paving_stones",
         "id": "way/1135386256"
       },
@@ -32451,11 +32460,12 @@
       "type": "Feature",
       "id": "way/1135386257",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Oostendestraat",
         "oneway": "yes",
-        "oneway:bicycle": "no",
+        "sidewalk": "both",
         "surface": "paving_stones",
         "id": "way/1135386257"
       },
