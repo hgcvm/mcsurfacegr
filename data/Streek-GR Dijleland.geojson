@@ -10951,19 +10951,25 @@
       "type": "Feature",
       "id": "way/32265843",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lit": "no",
         "maxspeed": "30",
         "name": "Torfbroeklaan",
+        "sidewalk:both": "no",
+        "smoothness": "good",
         "source:maxspeed": "zone30",
         "surface": "asphalt",
+        "verge:both": "yes",
+        "width": "2",
         "id": "way/32265843"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.5376891,
-            50.9290137
+            4.5376818,
+            50.9290338
           ],
           [
             4.537776,
@@ -10989,7 +10995,9 @@
       "id": "way/32265844",
       "properties": {
         "highway": "path",
-        "surface": "dirt",
+        "smoothness": "bad",
+        "surface": "gravel",
+        "trail_visibility": "excellent",
         "id": "way/32265844"
       },
       "geometry": {
@@ -26511,11 +26519,9 @@
       "type": "Feature",
       "id": "way/128865436",
       "properties": {
-        "foot": "yes",
         "highway": "path",
-        "motorcar": "no",
-        "snowmobile": "no",
-        "surface": "unpaved",
+        "smoothness": "bad",
+        "surface": "dirt",
         "id": "way/128865436"
       },
       "geometry": {
@@ -27988,28 +27994,37 @@
       "type": "Feature",
       "id": "way/134835061",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
+        "lanes": "2",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Torfbroeklaan",
+        "sidewalk:left": "yes",
+        "sidewalk:left:surface": "paving_stones",
+        "sidewalk:right": "separate",
+        "sidewalk:right:smoothness": "good",
+        "smoothness": "excellent",
         "source:maxspeed": "zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/134835061"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.5374341,
-            50.9294672
+            4.5376433,
+            50.929145
           ],
           [
             4.5375708,
             50.9292979
           ],
           [
-            4.5376433,
-            50.929145
+            4.5373781,
+            50.9295507
           ]
         ]
       }
@@ -28351,7 +28366,9 @@
       "id": "way/134835084",
       "properties": {
         "highway": "path",
-        "surface": "dirt",
+        "smoothness": "bad",
+        "surface": "gravel",
+        "trail_visibility": "excellent",
         "id": "way/134835084"
       },
       "geometry": {
@@ -28360,6 +28377,10 @@
           [
             4.5454525,
             50.9277147
+          ],
+          [
+            4.5454695,
+            50.9277175
           ],
           [
             4.5460924,
@@ -37035,9 +37056,17 @@
       "type": "Feature",
       "id": "way/608715505",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
         "name": "Visserijlaan",
+        "sidewalk:both": "no",
+        "smoothness": "good",
         "surface": "asphalt",
+        "verge:both": "yes",
+        "width": "4",
         "id": "way/608715505"
       },
       "geometry": {
@@ -37048,8 +37077,8 @@
             50.929145
           ],
           [
-            4.5376891,
-            50.9290137
+            4.5376818,
+            50.9290338
           ]
         ]
       }
@@ -38310,11 +38339,17 @@
       "type": "Feature",
       "id": "way/660878708",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lit": "no",
         "maxspeed": "30",
         "name": "Torfbroeklaan",
+        "sidewalk:both": "no",
+        "smoothness": "good",
         "source:maxspeed": "zone30",
         "surface": "asphalt",
+        "verge:both": "yes",
+        "width": "2",
         "id": "way/660878708"
       },
       "geometry": {
@@ -38343,6 +38378,10 @@
           [
             4.5393166,
             50.9278478
+          ],
+          [
+            4.5394072,
+            50.9278118
           ],
           [
             4.5395377,
@@ -42334,9 +42373,18 @@
       "type": "Feature",
       "id": "way/1002340331",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
+        "lanes": "2",
         "maxspeed": "30",
         "name": "Torfbroeklaan",
+        "parking:left:restriction:conditional": "no_stopping @ (Mo-Fr 08:00-16:00); none @ (SH)",
+        "parking:right:restriction": "no_stopping",
+        "sidewalk:both": "yes",
+        "sidewalk:both:smoothness": "good",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "excellent",
         "source:maxspeed": "zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -42345,10 +42393,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.5374341,
-            50.9294672
-          ],
           [
             4.5373781,
             50.9295507
