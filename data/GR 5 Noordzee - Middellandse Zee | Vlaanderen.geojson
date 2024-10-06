@@ -20571,6 +20571,7 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Beverstseweg",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/35479364"
       },
@@ -39281,8 +39282,15 @@
       "type": "Feature",
       "id": "way/232912609",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "residential",
+        "lane_markings": "no",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Veugenstraat",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "width": "5",
         "id": "way/232912609"
@@ -64696,6 +64704,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Hoogzij",
+        "sidewalk:both": "separate",
         "smoothness": "good",
         "surface": "asphalt",
         "id": "way/12375947"
@@ -64730,6 +64739,7 @@
       "type": "Feature",
       "id": "way/13236710",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lanes": "2",
         "maxspeed": "30",
@@ -68277,7 +68287,8 @@
       "type": "Feature",
       "id": "way/1318075567",
       "properties": {
-        "cycleway": "shared_lane",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "unclassified",
         "lanes": "2",
         "maxspeed": "50",
