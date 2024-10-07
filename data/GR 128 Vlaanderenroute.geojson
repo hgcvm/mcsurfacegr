@@ -63124,14 +63124,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.8133507,
-            50.7789614
-          ],
-          [
-            2.8131425,
-            50.7791848
-          ],
-          [
             2.813026,
             50.7793097
           ],
@@ -124834,6 +124826,7 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Gillebeekstraat",
+        "smoothness": "good",
         "source:maxspeed": "sign",
         "zone:traffic": "BE:rural",
         "id": "way/1003199571"
@@ -124854,18 +124847,6 @@
             50.8323952
           ],
           [
-            5.481649,
-            50.8323534
-          ],
-          [
-            5.4818827,
-            50.832291
-          ],
-          [
-            5.4820162,
-            50.832251
-          ],
-          [
             5.4821213,
             50.8322107
           ],
@@ -124874,32 +124855,12 @@
             50.8319451
           ],
           [
-            5.482854,
-            50.8318378
-          ],
-          [
-            5.4831026,
-            50.8317399
-          ],
-          [
             5.4832786,
             50.8316477
           ],
           [
-            5.483472,
-            50.8315219
-          ],
-          [
-            5.4837442,
-            50.831318
-          ],
-          [
             5.4839846,
             50.8311089
-          ],
-          [
-            5.4843958,
-            50.830687
           ],
           [
             5.4848416,
@@ -131694,6 +131655,32 @@
     },
     {
       "type": "Feature",
+      "id": "way/1224476140",
+      "properties": {
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "name": "Bedevaartstraat",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "id": "way/1224476140"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3315536,
+            50.9906039
+          ],
+          [
+            3.3315487,
+            50.9906142
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1225261883",
       "properties": {
         "highway": "track",
@@ -132494,6 +132481,31 @@
     },
     {
       "type": "Feature",
+      "id": "way/1278212022",
+      "properties": {
+        "highway": "residential",
+        "lanes": "1",
+        "maxspeed": "30",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "id": "way/1278212022"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.755373,
+            51.0471121
+          ],
+          [
+            3.7554702,
+            51.0470571
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1282489423",
       "properties": {
         "highway": "secondary",
@@ -133223,6 +133235,79 @@
           [
             4.0748102,
             50.9459489
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1321589555",
+      "properties": {
+        "bicycle": "no",
+        "highway": "path",
+        "incline": "down",
+        "surface": "dirt",
+        "id": "way/1321589555"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8133507,
+            50.7789614
+          ],
+          [
+            2.8131425,
+            50.7791848
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1321589556",
+      "properties": {
+        "bicycle": "no",
+        "highway": "steps",
+        "incline": "down",
+        "surface": "dirt",
+        "id": "way/1321589556"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8131425,
+            50.7791848
+          ],
+          [
+            2.813026,
+            50.7793097
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1321591035",
+      "properties": {
+        "highway": "footway",
+        "id": "way/1321591035"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.9909825,
+            50.8558968
+          ],
+          [
+            2.9908855,
+            50.8558189
+          ],
+          [
+            2.9911873,
+            50.8553826
           ]
         ]
       }
