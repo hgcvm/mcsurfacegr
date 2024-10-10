@@ -20089,10 +20089,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9931038,
-            51.1083785
-          ],
-          [
             3.9931339,
             51.1084248
           ],
@@ -27862,7 +27858,10 @@
       "type": "Feature",
       "id": "way/382065212",
       "properties": {
-        "highway": "path",
+        "crossing": "uncontrolled",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway",
         "lit": "yes",
         "surface": "asphalt",
         "id": "way/382065212"
@@ -27871,12 +27870,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9931038,
-            51.1083785
+            3.9930245,
+            51.1083646
           ],
           [
-            3.9930816,
-            51.1083057
+            3.9930478,
+            51.1083009
           ],
           [
             3.9930611,
@@ -43414,6 +43413,56 @@
           [
             4.1454992,
             51.1728634
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1322483475",
+      "properties": {
+        "crossing": "uncontrolled",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway",
+        "id": "way/1322483475"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.9930245,
+            51.1083646
+          ],
+          [
+            3.9930095,
+            51.1084068
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1322483477",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "yes",
+        "id": "way/1322483477"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.9931339,
+            51.1084248
+          ],
+          [
+            3.9930822,
+            51.1084184
+          ],
+          [
+            3.9930095,
+            51.1084068
           ]
         ]
       }
