@@ -39277,26 +39277,29 @@
       "properties": {
         "access": "no",
         "check_date": "2022-02-17",
-        "construction": "residential",
-        "highway": "construction",
-        "surface": "pebblestone",
-        "tracktype": "grade2",
+        "highway": "residential",
+        "name": "Stationsplein",
+        "surface": "concrete",
         "id": "way/220166023"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.3438769,
-            50.8109651
+            5.3436141,
+            50.8108254
           ],
           [
-            5.3435277,
-            50.8107668
+            5.3435672,
+            50.8107776
           ],
           [
-            5.3421116,
-            50.8105284
+            5.3434781,
+            50.8107448
+          ],
+          [
+            5.3421163,
+            50.8105119
           ]
         ]
       }
@@ -40166,8 +40169,8 @@
             50.8106789
           ],
           [
-            5.3421116,
-            50.8105284
+            5.3421163,
+            50.8105119
           ]
         ]
       }
@@ -40518,6 +40521,29 @@
     },
     {
       "type": "Feature",
+      "id": "way/1323224164",
+      "properties": {
+        "highway": "service",
+        "service": "parking_aisle",
+        "surface": "concrete",
+        "id": "way/1323224164"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3438747,
+            50.8108727
+          ],
+          [
+            5.3436141,
+            50.8108254
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/28734830",
       "properties": {
         "cobblestone": "unhewn_cobblestone",
@@ -40697,35 +40723,6 @@
           [
             5.3479858,
             50.803727
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/145576428",
-      "properties": {
-        "cycleway:both": "no",
-        "highway": "unclassified",
-        "lane_markings": "no",
-        "name": "Stationsplein",
-        "surface": "asphalt",
-        "id": "way/145576428"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3438769,
-            50.8109651
-          ],
-          [
-            5.343872,
-            50.8106746
-          ],
-          [
-            5.343827,
-            50.8105493
           ]
         ]
       }
@@ -41180,6 +41177,31 @@
           [
             5.3438116,
             50.8105065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1323224152",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Stationsplein",
+        "surface": "asphalt",
+        "id": "way/1323224152"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.343879,
+            50.8106947
+          ],
+          [
+            5.343827,
+            50.8105493
           ]
         ]
       }
@@ -47902,36 +47924,23 @@
     },
     {
       "type": "Feature",
-      "id": "way/165057081",
+      "id": "way/145576428",
       "properties": {
-        "highway": "cycleway",
-        "lit": "no",
+        "highway": "unclassified",
+        "name": "Stationsplein",
         "surface": "asphalt",
-        "width": "3",
-        "id": "way/165057081"
+        "id": "way/145576428"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.346945,
-            50.8113118
+            5.3438747,
+            50.8108727
           ],
           [
-            5.346073,
-            50.8112375
-          ],
-          [
-            5.3458682,
-            50.8112301
-          ],
-          [
-            5.3457837,
-            50.8112363
-          ],
-          [
-            5.3454329,
-            50.8112929
+            5.343879,
+            50.8106947
           ]
         ]
       }
@@ -48266,37 +48275,13 @@
     },
     {
       "type": "Feature",
-      "id": "way/777537747",
-      "properties": {
-        "cycleway:both": "no",
-        "highway": "service",
-        "surface": "asphalt",
-        "width": "3",
-        "id": "way/777537747"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3454329,
-            50.8112929
-          ],
-          [
-            5.3438769,
-            50.8109651
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/777540337",
       "properties": {
         "highway": "cycleway",
         "lit": "no",
         "old_ref": "L23",
-        "railway": "abandoned",
-        "surface": "asphalt",
+        "railway": "razed",
+        "surface": "concrete",
         "wikipedia": "nl:Spoorlijn 23",
         "id": "way/777540337"
       },
@@ -48304,12 +48289,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3479086,
-            50.8114877
+            5.3470201,
+            50.8113262
           ],
           [
-            5.346945,
-            50.8113118
+            5.34543,
+            50.8109776
+          ],
+          [
+            5.343879,
+            50.8106947
           ]
         ]
       }
@@ -48336,6 +48325,32 @@
           [
             5.3598677,
             50.8151501
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1323224158",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "no",
+        "old_ref": "L23",
+        "railway": "razed",
+        "surface": "asphalt",
+        "wikipedia": "nl:Spoorlijn 23",
+        "id": "way/1323224158"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3479086,
+            50.8114877
+          ],
+          [
+            5.3470201,
+            50.8113262
           ]
         ]
       }
