@@ -9730,6 +9730,7 @@
         "ramp:wheelchair": "separate",
         "step_count": "12",
         "surface": "concrete",
+        "tactile_paving": "no",
         "tunnel": "building_passage",
         "id": "way/27549081"
       },
@@ -11023,10 +11024,23 @@
       "type": "Feature",
       "id": "way/32430489",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "50",
+        "maxspeed:type": "BE-VLG:urban",
+        "maxweight": "5.5",
+        "maxweight:agricultural": "none",
+        "maxweight:conditional": "none @ delivery",
         "name": "Terschurenstraat",
+        "sidewalk:left": "no",
+        "sidewalk:right": "yes",
+        "sidewalk:right:smoothness": "good",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "good",
         "surface": "asphalt",
+        "verge:left": "yes",
         "width": "3",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/32430489"
@@ -11035,12 +11049,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.543223,
-            50.811803
+            4.5432115,
+            50.8118051
           ],
           [
-            4.543128,
-            50.8117521
+            4.5431428,
+            50.8117627
+          ],
+          [
+            4.5431125,
+            50.8117448
           ],
           [
             4.5429408,
@@ -11123,16 +11141,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5432993,
-            50.8118143
+            4.5432992,
+            50.8118144
           ],
           [
-            4.5433675,
-            50.8117572
+            4.5433372,
+            50.8117827
           ],
           [
-            4.5433733,
-            50.8117524
+            4.5433554,
+            50.8117675
+          ],
+          [
+            4.5433726,
+            50.8117532
           ],
           [
             4.5435221,
@@ -12716,13 +12738,15 @@
       "id": "way/35573483",
       "properties": {
         "bicycle": "yes",
+        "dog": "leashed",
         "foot": "yes",
         "highway": "track",
         "horse": "yes",
         "name": "Terschurenstraat",
         "smoothness": "very_bad",
-        "surface": "ground",
-        "tracktype": "grade2",
+        "surface": "dirt",
+        "tracktype": "grade4",
+        "vehicle": "no",
         "id": "way/35573483"
       },
       "geometry": {
@@ -26833,12 +26857,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5432993,
-            50.8118143
+            4.5432992,
+            50.8118144
           ],
           [
-            4.543223,
-            50.811803
+            4.5432808,
+            50.8118093
+          ],
+          [
+            4.5432572,
+            50.8118055
+          ],
+          [
+            4.543235,
+            50.8118041
+          ],
+          [
+            4.5432115,
+            50.8118051
           ]
         ]
       }
@@ -32101,12 +32137,20 @@
       "type": "Feature",
       "id": "way/295479476",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "maxweight": "5.5",
+        "maxweight:agricultural": "none",
+        "maxweight:conditional": "none @ delivery",
         "name": "Terschurenstraat",
-        "source:maxspeed": "BE:zone50",
+        "sidewalk:both": "no",
+        "smoothness": "good",
         "surface": "asphalt",
+        "verge:both": "yes",
         "width": "3",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/295479476"
@@ -32115,8 +32159,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5429408,
-            50.8116517
+            4.5417562,
+            50.8110658
           ],
           [
             4.5413534,
@@ -32127,8 +32171,8 @@
             50.8101963
           ],
           [
-            4.5394558,
-            50.8099593
+            4.539424,
+            50.8099558
           ],
           [
             4.5388922,
@@ -32143,20 +32187,28 @@
             50.8092474
           ],
           [
-            4.5366172,
-            50.808907
+            4.5367083,
+            50.8089416
           ],
           [
-            4.5365085,
-            50.8088812
+            4.5366213,
+            50.8089209
           ],
           [
-            4.5363919,
-            50.808883
+            4.5365323,
+            50.8089051
           ],
           [
-            4.5347658,
-            50.8090183
+            4.5364239,
+            50.8088946
+          ],
+          [
+            4.5362963,
+            50.8088937
+          ],
+          [
+            4.5361571,
+            50.8089008
           ],
           [
             4.5331253,
@@ -38836,6 +38888,7 @@
         "ramp": "no",
         "step_count": "12",
         "surface": "concrete",
+        "tactile_paving": "no",
         "tunnel": "building_passage",
         "id": "way/712599165"
       },
@@ -38858,7 +38911,10 @@
       "id": "way/712599167",
       "properties": {
         "bicycle": "designated",
+        "check_date:surface": "2024-10-18",
+        "cycleway:surface": "concrete",
         "foot": "designated",
+        "footway:surface": "concrete",
         "highway": "cycleway",
         "incline": "up",
         "layer": "-1",
@@ -44142,6 +44198,45 @@
     },
     {
       "type": "Feature",
+      "id": "way/1326275150",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
+        "maxweight": "5.5",
+        "maxweight:agricultural": "none",
+        "maxweight:conditional": "none @ delivery",
+        "name": "Terschurenstraat",
+        "sidewalk:left": "no",
+        "sidewalk:right": "yes",
+        "sidewalk:right:smoothness": "good",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "verge:left": "yes",
+        "width": "3",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1326275150"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5429408,
+            50.8116517
+          ],
+          [
+            4.5417562,
+            50.8110658
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/3372474",
       "properties": {
         "bicycle": "designated",
@@ -47439,6 +47534,7 @@
         "ramp:wheelchair": "separate",
         "step_count": "12",
         "surface": "concrete",
+        "tactile_paving": "no",
         "tunnel": "building_passage",
         "id": "way/27549081"
       },
@@ -53185,6 +53281,7 @@
         "ramp": "no",
         "step_count": "12",
         "surface": "concrete",
+        "tactile_paving": "no",
         "tunnel": "building_passage",
         "id": "way/712599165"
       },
@@ -53207,7 +53304,10 @@
       "id": "way/712599167",
       "properties": {
         "bicycle": "designated",
+        "check_date:surface": "2024-10-18",
+        "cycleway:surface": "concrete",
         "foot": "designated",
+        "footway:surface": "concrete",
         "highway": "cycleway",
         "incline": "up",
         "layer": "-1",
@@ -61514,10 +61614,23 @@
       "type": "Feature",
       "id": "way/32430489",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "50",
+        "maxspeed:type": "BE-VLG:urban",
+        "maxweight": "5.5",
+        "maxweight:agricultural": "none",
+        "maxweight:conditional": "none @ delivery",
         "name": "Terschurenstraat",
+        "sidewalk:left": "no",
+        "sidewalk:right": "yes",
+        "sidewalk:right:smoothness": "good",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "good",
         "surface": "asphalt",
+        "verge:left": "yes",
         "width": "3",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/32430489"
@@ -61526,12 +61639,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.543223,
-            50.811803
+            4.5432115,
+            50.8118051
           ],
           [
-            4.543128,
-            50.8117521
+            4.5431428,
+            50.8117627
+          ],
+          [
+            4.5431125,
+            50.8117448
           ],
           [
             4.5429408,
@@ -61614,16 +61731,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5432993,
-            50.8118143
+            4.5432992,
+            50.8118144
           ],
           [
-            4.5433675,
-            50.8117572
+            4.5433372,
+            50.8117827
           ],
           [
-            4.5433733,
-            50.8117524
+            4.5433554,
+            50.8117675
+          ],
+          [
+            4.5433726,
+            50.8117532
           ],
           [
             4.5435221,
@@ -62303,13 +62424,15 @@
       "id": "way/35573483",
       "properties": {
         "bicycle": "yes",
+        "dog": "leashed",
         "foot": "yes",
         "highway": "track",
         "horse": "yes",
         "name": "Terschurenstraat",
         "smoothness": "very_bad",
-        "surface": "ground",
-        "tracktype": "grade2",
+        "surface": "dirt",
+        "tracktype": "grade4",
+        "vehicle": "no",
         "id": "way/35573483"
       },
       "geometry": {
@@ -66122,12 +66245,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5432993,
-            50.8118143
+            4.5432992,
+            50.8118144
           ],
           [
-            4.543223,
-            50.811803
+            4.5432808,
+            50.8118093
+          ],
+          [
+            4.5432572,
+            50.8118055
+          ],
+          [
+            4.543235,
+            50.8118041
+          ],
+          [
+            4.5432115,
+            50.8118051
           ]
         ]
       }
@@ -67606,12 +67741,20 @@
       "type": "Feature",
       "id": "way/295479476",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "maxweight": "5.5",
+        "maxweight:agricultural": "none",
+        "maxweight:conditional": "none @ delivery",
         "name": "Terschurenstraat",
-        "source:maxspeed": "BE:zone50",
+        "sidewalk:both": "no",
+        "smoothness": "good",
         "surface": "asphalt",
+        "verge:both": "yes",
         "width": "3",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/295479476"
@@ -67620,8 +67763,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5429408,
-            50.8116517
+            4.5417562,
+            50.8110658
           ],
           [
             4.5413534,
@@ -67632,8 +67775,8 @@
             50.8101963
           ],
           [
-            4.5394558,
-            50.8099593
+            4.539424,
+            50.8099558
           ],
           [
             4.5388922,
@@ -67648,20 +67791,28 @@
             50.8092474
           ],
           [
-            4.5366172,
-            50.808907
+            4.5367083,
+            50.8089416
           ],
           [
-            4.5365085,
-            50.8088812
+            4.5366213,
+            50.8089209
           ],
           [
-            4.5363919,
-            50.808883
+            4.5365323,
+            50.8089051
           ],
           [
-            4.5347658,
-            50.8090183
+            4.5364239,
+            50.8088946
+          ],
+          [
+            4.5362963,
+            50.8088937
+          ],
+          [
+            4.5361571,
+            50.8089008
           ],
           [
             4.5331253,
@@ -68871,6 +69022,45 @@
           [
             4.5965236,
             50.8317566
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1326275150",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
+        "maxweight": "5.5",
+        "maxweight:agricultural": "none",
+        "maxweight:conditional": "none @ delivery",
+        "name": "Terschurenstraat",
+        "sidewalk:left": "no",
+        "sidewalk:right": "yes",
+        "sidewalk:right:smoothness": "good",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "verge:left": "yes",
+        "width": "3",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1326275150"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5429408,
+            50.8116517
+          ],
+          [
+            4.5417562,
+            50.8110658
           ]
         ]
       }
@@ -70214,10 +70404,23 @@
       "type": "Feature",
       "id": "way/32430489",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "50",
+        "maxspeed:type": "BE-VLG:urban",
+        "maxweight": "5.5",
+        "maxweight:agricultural": "none",
+        "maxweight:conditional": "none @ delivery",
         "name": "Terschurenstraat",
+        "sidewalk:left": "no",
+        "sidewalk:right": "yes",
+        "sidewalk:right:smoothness": "good",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "good",
         "surface": "asphalt",
+        "verge:left": "yes",
         "width": "3",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/32430489"
@@ -70226,12 +70429,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.543223,
-            50.811803
+            4.5432115,
+            50.8118051
           ],
           [
-            4.543128,
-            50.8117521
+            4.5431428,
+            50.8117627
+          ],
+          [
+            4.5431125,
+            50.8117448
           ],
           [
             4.5429408,
@@ -70314,16 +70521,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5432993,
-            50.8118143
+            4.5432992,
+            50.8118144
           ],
           [
-            4.5433675,
-            50.8117572
+            4.5433372,
+            50.8117827
           ],
           [
-            4.5433733,
-            50.8117524
+            4.5433554,
+            50.8117675
+          ],
+          [
+            4.5433726,
+            50.8117532
           ],
           [
             4.5435221,
@@ -71040,13 +71251,15 @@
       "id": "way/35573483",
       "properties": {
         "bicycle": "yes",
+        "dog": "leashed",
         "foot": "yes",
         "highway": "track",
         "horse": "yes",
         "name": "Terschurenstraat",
         "smoothness": "very_bad",
-        "surface": "ground",
-        "tracktype": "grade2",
+        "surface": "dirt",
+        "tracktype": "grade4",
+        "vehicle": "no",
         "id": "way/35573483"
       },
       "geometry": {
@@ -75890,12 +76103,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5432993,
-            50.8118143
+            4.5432992,
+            50.8118144
           ],
           [
-            4.543223,
-            50.811803
+            4.5432808,
+            50.8118093
+          ],
+          [
+            4.5432572,
+            50.8118055
+          ],
+          [
+            4.543235,
+            50.8118041
+          ],
+          [
+            4.5432115,
+            50.8118051
           ]
         ]
       }
@@ -76951,12 +77176,20 @@
       "type": "Feature",
       "id": "way/295479476",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "maxweight": "5.5",
+        "maxweight:agricultural": "none",
+        "maxweight:conditional": "none @ delivery",
         "name": "Terschurenstraat",
-        "source:maxspeed": "BE:zone50",
+        "sidewalk:both": "no",
+        "smoothness": "good",
         "surface": "asphalt",
+        "verge:both": "yes",
         "width": "3",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/295479476"
@@ -76965,8 +77198,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5429408,
-            50.8116517
+            4.5417562,
+            50.8110658
           ],
           [
             4.5413534,
@@ -76977,8 +77210,8 @@
             50.8101963
           ],
           [
-            4.5394558,
-            50.8099593
+            4.539424,
+            50.8099558
           ],
           [
             4.5388922,
@@ -76993,20 +77226,28 @@
             50.8092474
           ],
           [
-            4.5366172,
-            50.808907
+            4.5367083,
+            50.8089416
           ],
           [
-            4.5365085,
-            50.8088812
+            4.5366213,
+            50.8089209
           ],
           [
-            4.5363919,
-            50.808883
+            4.5365323,
+            50.8089051
           ],
           [
-            4.5347658,
-            50.8090183
+            4.5364239,
+            50.8088946
+          ],
+          [
+            4.5362963,
+            50.8088937
+          ],
+          [
+            4.5361571,
+            50.8089008
           ],
           [
             4.5331253,
@@ -79225,6 +79466,45 @@
           [
             4.636754,
             50.809855
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1326275150",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
+        "maxweight": "5.5",
+        "maxweight:agricultural": "none",
+        "maxweight:conditional": "none @ delivery",
+        "name": "Terschurenstraat",
+        "sidewalk:left": "no",
+        "sidewalk:right": "yes",
+        "sidewalk:right:smoothness": "good",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "verge:left": "yes",
+        "width": "3",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1326275150"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5429408,
+            50.8116517
+          ],
+          [
+            4.5417562,
+            50.8110658
           ]
         ]
       }

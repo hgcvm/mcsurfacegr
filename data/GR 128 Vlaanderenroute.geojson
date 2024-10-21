@@ -6496,6 +6496,7 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Kouterdreef",
         "sidewalk": "both",
         "surface": "asphalt",
@@ -65807,11 +65808,13 @@
       "type": "Feature",
       "id": "way/129811259",
       "properties": {
+        "bicycle": "yes",
         "designation": "towpath",
+        "embankment": "yes",
         "highway": "unclassified",
-        "horse": "destination",
         "maxspeed": "30",
         "mofa": "yes",
+        "motor_vehicle": "destination",
         "name": "Tragelweg",
         "speed_pedelec": "yes",
         "surface": "asphalt",
@@ -65903,16 +65906,8 @@
             51.0102726
           ],
           [
-            3.8862927,
-            51.0100436
-          ],
-          [
-            3.8857746,
-            51.0097987
-          ],
-          [
-            3.8851969,
-            51.0095039
+            3.8864744,
+            51.0101157
           ]
         ]
       }
@@ -65923,6 +65918,7 @@
       "properties": {
         "highway": "residential",
         "lane_markings": "no",
+        "maxspeed": "30",
         "name": "Kouterdreef",
         "surface": "asphalt",
         "id": "way/130307742"
@@ -74753,7 +74749,9 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Termstraat",
+        "oneway": "no",
         "surface": "concrete",
         "id": "way/157393738"
       },
@@ -74804,7 +74802,9 @@
       "id": "way/157396515",
       "properties": {
         "highway": "track",
-        "surface": "grass",
+        "smoothness": "very_bad",
+        "surface": "dirt",
+        "tracktype": "grade5",
         "id": "way/157396515"
       },
       "geometry": {
@@ -108970,6 +108970,7 @@
       "id": "way/640935774",
       "properties": {
         "highway": "path",
+        "smoothness": "very_bad",
         "surface": "dirt",
         "id": "way/640935774"
       },
@@ -111311,7 +111312,9 @@
       "id": "way/684643067",
       "properties": {
         "highway": "track",
+        "smoothness": "very_bad",
         "surface": "dirt",
+        "tracktype": "grade5",
         "id": "way/684643067"
       },
       "geometry": {
@@ -116010,6 +116013,7 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Preekheerstraat",
         "surface": "concrete",
         "id": "way/781135314"
@@ -116347,6 +116351,7 @@
         "cycleway": "track",
         "highway": "residential",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Achterdreef",
         "surface": "paving_stones",
         "id": "way/781136223"
@@ -133428,6 +133433,45 @@
           [
             4.0697119,
             50.9736873
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1326270872",
+      "properties": {
+        "bicycle": "yes",
+        "designation": "towpath",
+        "highway": "unclassified",
+        "maxspeed": "30",
+        "mofa": "yes",
+        "motor_vehicle": "yes",
+        "name": "Tragelweg",
+        "speed_pedelec": "yes",
+        "surface": "asphalt",
+        "vehicle": "destination",
+        "vehicle:conditional": "yes @ permit",
+        "id": "way/1326270872"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.8864744,
+            51.0101157
+          ],
+          [
+            3.8862927,
+            51.0100436
+          ],
+          [
+            3.8857746,
+            51.0097987
+          ],
+          [
+            3.8851969,
+            51.0095039
           ]
         ]
       }
@@ -158444,6 +158488,7 @@
         "ramp:wheelchair": "separate",
         "step_count": "12",
         "surface": "concrete",
+        "tactile_paving": "no",
         "tunnel": "building_passage",
         "id": "way/27549081"
       },
@@ -162505,6 +162550,7 @@
         "ramp": "no",
         "step_count": "12",
         "surface": "concrete",
+        "tactile_paving": "no",
         "tunnel": "building_passage",
         "id": "way/712599165"
       },
@@ -162527,7 +162573,10 @@
       "id": "way/712599167",
       "properties": {
         "bicycle": "designated",
+        "check_date:surface": "2024-10-18",
+        "cycleway:surface": "concrete",
         "foot": "designated",
+        "footway:surface": "concrete",
         "highway": "cycleway",
         "incline": "up",
         "layer": "-1",

@@ -9784,6 +9784,10 @@
             51.0309808
           ],
           [
+            3.8517123,
+            51.0310117
+          ],
+          [
             3.8523797,
             51.0310605
           ],
@@ -9812,8 +9816,9 @@
       "properties": {
         "cyclestreet": "yes",
         "cycleway": "no",
-        "highway": "unclassified",
+        "highway": "residential",
         "lane_markings": "no",
+        "maxspeed": "30",
         "name": "Ooststraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -20685,7 +20690,9 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Termstraat",
+        "oneway": "no",
         "surface": "concrete",
         "id": "way/157393738"
       },
@@ -41205,6 +41212,7 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Preekheerstraat",
         "surface": "concrete",
         "id": "way/781135314"
@@ -44684,22 +44692,14 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Achterstraat",
-        "oneway": "yes",
+        "oneway": "no",
         "oneway:bicycle": "no",
-        "surface": "paving_stones",
+        "surface": "sett",
         "id": "way/944559913"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.8510753,
-            51.0309808
-          ],
-          [
-            3.8509793,
-            51.0309292
-          ],
           [
             3.8509113,
             51.0308973
@@ -44717,8 +44717,9 @@
       "properties": {
         "cyclestreet": "yes",
         "cycleway": "no",
-        "highway": "unclassified",
+        "highway": "residential",
         "lanes": "1",
+        "maxspeed": "30",
         "name": "Lepelstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -47315,6 +47316,38 @@
           [
             3.7591254,
             50.9627379
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1326265837",
+      "properties": {
+        "cyclestreet": "yes",
+        "cycleway": "no",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Achterstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "surface": "paving_stones",
+        "id": "way/1326265837"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.8510753,
+            51.0309808
+          ],
+          [
+            3.8509793,
+            51.0309292
+          ],
+          [
+            3.8509113,
+            51.0308973
           ]
         ]
       }
