@@ -12972,7 +12972,7 @@
         "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
-        "name": "Stationsstraat",
+        "name": "Koning Albertlaan",
         "oneway": "no",
         "source": "http://www.lanaken.be/Leven/Mobiliteit/Nieuwe_verkeerssituatie/Stationsstraat_werd_een_fietsstraat",
         "id": "way/8519185"
@@ -12985,8 +12985,8 @@
             50.8892778
           ],
           [
-            5.6513206,
-            50.8891106
+            5.6515082,
+            50.8892393
           ]
         ]
       }
@@ -18557,7 +18557,7 @@
       "type": "Feature",
       "id": "way/34884763",
       "properties": {
-        "bicycle": "no",
+        "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
         "horse": "no",
@@ -18591,12 +18591,13 @@
       "id": "way/34885094",
       "properties": {
         "access": "yes",
-        "bicycle": "no",
+        "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
         "horse": "no",
         "motor_vehicle": "no",
         "surface": "asphalt",
+        "tracktype": "grade1",
         "width": "2",
         "id": "way/34885094"
       },
@@ -18626,7 +18627,7 @@
       "type": "Feature",
       "id": "way/34885098",
       "properties": {
-        "bicycle": "no",
+        "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
         "horse": "no",
@@ -24669,12 +24670,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6874204,
-            50.8622087
+            5.6874289,
+            50.8622125
           ],
           [
-            5.6875549,
-            50.8622414
+            5.6875475,
+            50.86224
           ]
         ]
       }
@@ -24692,8 +24693,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6875549,
-            50.8622414
+            5.6875475,
+            50.86224
           ],
           [
             5.6876605,
@@ -29586,6 +29587,7 @@
       "id": "way/172073387",
       "properties": {
         "highway": "cycleway",
+        "oneway": "no",
         "surface": "concrete",
         "id": "way/172073387"
       },
@@ -49633,6 +49635,9 @@
         "cycleway:both:surface": "concrete",
         "highway": "unclassified",
         "name": "Ranonkelstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:bus": "no",
         "surface": "asphalt",
         "id": "way/515020706"
       },
@@ -49640,24 +49645,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3411779,
-            50.9610468
-          ],
-          [
-            5.341119,
-            50.9609597
-          ],
-          [
-            5.3410665,
-            50.9609101
+            5.3409313,
+            50.9608629
           ],
           [
             5.3409986,
             50.9608804
           ],
           [
-            5.3409313,
-            50.9608629
+            5.3410665,
+            50.9609101
+          ],
+          [
+            5.341119,
+            50.9609597
+          ],
+          [
+            5.3411779,
+            50.9610468
           ]
         ]
       }
@@ -54225,8 +54230,8 @@
             50.8621782
           ],
           [
-            5.6874204,
-            50.8622087
+            5.6874289,
+            50.8622125
           ]
         ]
       }
@@ -64649,6 +64654,32 @@
     },
     {
       "type": "Feature",
+      "id": "way/1328227126",
+      "properties": {
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Stationsstraat",
+        "oneway": "no",
+        "source": "http://www.lanaken.be/Leven/Mobiliteit/Nieuwe_verkeerssituatie/Stationsstraat_werd_een_fietsstraat",
+        "id": "way/1328227126"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6515082,
+            50.8892393
+          ],
+          [
+            5.6513206,
+            50.8891106
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/11991650",
       "properties": {
         "highway": "residential",
@@ -68907,6 +68938,10 @@
             50.935455
           ],
           [
+            5.3476095,
+            50.9354634
+          ],
+          [
             5.3478289,
             50.9354936
           ]
@@ -69700,16 +69735,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3658785,
-            50.9414207
+            5.3659319,
+            50.9414175
           ],
           [
-            5.365727,
-            50.9414037
+            5.3656572,
+            50.9413908
           ],
           [
-            5.3608088,
-            50.9414655
+            5.3607793,
+            50.9414604
           ]
         ]
       }
@@ -71850,6 +71885,7 @@
       "id": "way/350463930",
       "properties": {
         "highway": "path",
+        "incline": "down",
         "surface": "unpaved",
         "id": "way/350463930"
       },
@@ -71861,16 +71897,32 @@
             50.9415018
           ],
           [
-            5.3669986,
-            50.9414807
+            5.3670434,
+            50.9414877
           ],
           [
-            5.3659445,
-            50.9414583
+            5.367006,
+            50.941489
           ],
           [
-            5.3658785,
-            50.9414207
+            5.3669921,
+            50.9414826
+          ],
+          [
+            5.3669348,
+            50.9414781
+          ],
+          [
+            5.3660975,
+            50.9414721
+          ],
+          [
+            5.3659418,
+            50.9414532
+          ],
+          [
+            5.3659319,
+            50.9414175
           ]
         ]
       }
@@ -72057,16 +72109,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3481582,
-            50.9353276
-          ],
-          [
-            5.3480245,
-            50.9354611
-          ],
-          [
             5.3478289,
             50.9354936
+          ],
+          [
+            5.3479762,
+            50.9354476
+          ],
+          [
+            5.3480683,
+            50.9353361
           ]
         ]
       }
@@ -72089,12 +72141,12 @@
             50.9353074
           ],
           [
-            5.3481821,
-            50.9353198
+            5.3480976,
+            50.9353266
           ],
           [
-            5.3481582,
-            50.9353276
+            5.3480683,
+            50.9353361
           ]
         ]
       }
@@ -72352,8 +72404,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3372999,
-            50.9293853
+            5.3372826,
+            50.9293898
           ],
           [
             5.3378644,
@@ -72769,14 +72821,13 @@
       "type": "Feature",
       "id": "way/796267900",
       "properties": {
-        "alt_name": "Langeman",
         "bicycle": "yes",
         "bridge": "yes",
+        "bridge:name": "De Langeman",
         "description": "De Langeman = de naam van een reus",
         "foot": "yes",
         "highway": "cycleway",
         "layer": "1",
-        "name": "De Langeman",
         "oneway": "no",
         "speed_pedelec": "designated",
         "start_date": "2021-12-27",
@@ -72788,8 +72839,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3673467,
-            50.9413784
+            5.3673459,
+            50.9413213
           ],
           [
             5.3673429,
@@ -72828,16 +72879,8 @@
             50.94001
           ],
           [
-            5.3662667,
-            50.939712
-          ],
-          [
-            5.3662768,
-            50.9396553
-          ],
-          [
-            5.3663054,
-            50.9396135
+            5.3662645,
+            50.9397074
           ]
         ]
       }
@@ -73015,8 +73058,8 @@
             50.941504
           ],
           [
-            5.3608088,
-            50.9414655
+            5.3607793,
+            50.9414604
           ]
         ]
       }
@@ -73316,8 +73359,12 @@
             50.9293891
           ],
           [
-            5.3372999,
-            50.9293853
+            5.337107,
+            50.9293893
+          ],
+          [
+            5.3372826,
+            50.9293898
           ]
         ]
       }
@@ -73444,6 +73491,62 @@
           [
             5.3487732,
             50.9359023
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1327968185",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "cycleway",
+        "oneway": "no",
+        "speed_pedelec": "designated",
+        "width": "6",
+        "id": "way/1327968185"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3673467,
+            50.9413784
+          ],
+          [
+            5.3673459,
+            50.9413213
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1327968186",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "cycleway",
+        "oneway": "no",
+        "speed_pedelec": "designated",
+        "width": "6",
+        "id": "way/1327968186"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3662645,
+            50.9397074
+          ],
+          [
+            5.3662768,
+            50.9396553
+          ],
+          [
+            5.3663054,
+            50.9396135
           ]
         ]
       }

@@ -2299,6 +2299,8 @@
       "type": "Feature",
       "id": "way/7127031",
       "properties": {
+        "bicycle": "use_sidepath",
+        "foot": "use_sidepath",
         "highway": "residential",
         "lanes": "3",
         "lanes:backward": "1",
@@ -22111,7 +22113,10 @@
       "type": "Feature",
       "id": "way/33934328",
       "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
+        "motor_vehicle": "no",
         "name": "Buurtweg 30 - Driesbosweg",
         "surface": "unpaved",
         "id": "way/33934328"
@@ -49077,22 +49082,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.1399582,
-            50.9224257
-          ],
-          [
-            3.1398946,
-            50.9224228
-          ],
-          [
-            3.1398215,
-            50.9224295
-          ],
-          [
-            3.1397007,
-            50.9224589
-          ],
-          [
             3.1395602,
             50.9225185
           ],
@@ -63711,42 +63700,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.73994,
-            51.0427801
-          ],
-          [
-            3.739917,
-            51.0427803
-          ],
-          [
-            3.7398016,
-            51.0427795
-          ],
-          [
-            3.7397097,
-            51.0428058
-          ],
-          [
-            3.7396248,
-            51.0428428
-          ],
-          [
-            3.7394496,
-            51.0429589
-          ],
-          [
-            3.73928,
-            51.0430825
-          ],
-          [
-            3.7391677,
-            51.0431952
-          ],
-          [
-            3.7390764,
-            51.0433103
-          ],
           [
             3.7389955,
             51.0434151
@@ -114101,8 +114054,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.3315487,
-            50.9906142
+            3.3315536,
+            50.9906039
           ],
           [
             3.331425,
@@ -131611,32 +131564,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1224476140",
-      "properties": {
-        "highway": "tertiary",
-        "lane_markings": "no",
-        "maxspeed": "30",
-        "name": "Bedevaartstraat",
-        "oneway": "yes",
-        "surface": "asphalt",
-        "id": "way/1224476140"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.3315536,
-            50.9906039
-          ],
-          [
-            3.3315487,
-            50.9906142
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1225261883",
       "properties": {
         "highway": "track",
@@ -133472,6 +133399,108 @@
           [
             3.8851969,
             51.0095039
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1327536798",
+      "properties": {
+        "bicycle": "yes",
+        "cycleway": "no",
+        "goods:conditional": "delivery @ (weight>5)",
+        "hgv:conditional": "delivery @ (weight>5)",
+        "highway": "tertiary",
+        "maxspeed": "70",
+        "name": "Oude Zilverbergstraat",
+        "surface": "asphalt",
+        "width": "6",
+        "id": "way/1327536798"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.1399582,
+            50.9224257
+          ],
+          [
+            3.1398946,
+            50.9224228
+          ],
+          [
+            3.1398215,
+            50.9224295
+          ],
+          [
+            3.1397007,
+            50.9224589
+          ],
+          [
+            3.1395602,
+            50.9225185
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1327818250",
+      "properties": {
+        "addr:city": "Gent",
+        "addr:housenumber": "77",
+        "addr:postcode": "9000",
+        "addr:street": "Visserij",
+        "bicycle": "yes",
+        "highway": "footway",
+        "lit": "no",
+        "name": "Achtervisserij",
+        "surface": "gravel",
+        "id": "way/1327818250"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.73994,
+            51.0427801
+          ],
+          [
+            3.739917,
+            51.0427803
+          ],
+          [
+            3.7398016,
+            51.0427795
+          ],
+          [
+            3.7397097,
+            51.0428058
+          ],
+          [
+            3.7396248,
+            51.0428428
+          ],
+          [
+            3.7394496,
+            51.0429589
+          ],
+          [
+            3.73928,
+            51.0430825
+          ],
+          [
+            3.7391677,
+            51.0431952
+          ],
+          [
+            3.7390764,
+            51.0433103
+          ],
+          [
+            3.7389955,
+            51.0434151
           ]
         ]
       }
@@ -151937,10 +151966,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7229568,
-            51.0582561
-          ],
-          [
             3.7225446,
             51.0580985
           ],
@@ -156499,6 +156524,38 @@
           [
             3.7424132,
             51.0573603
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1327814700",
+      "properties": {
+        "bicycle": "yes",
+        "emergency": "yes",
+        "exceptional_permit": "BE:gent:autovrij_gebied",
+        "highway": "living_street",
+        "maxspeed": "20",
+        "mofa": "yes",
+        "name": "Plotersgracht",
+        "private": "exceptional_permit",
+        "speed_pedelec": "yes",
+        "surface": "paving_stones",
+        "vehicle": "private",
+        "wikidata": "Q115807668",
+        "id": "way/1327814700"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7229568,
+            51.0582561
+          ],
+          [
+            3.7225446,
+            51.0580985
           ]
         ]
       }
