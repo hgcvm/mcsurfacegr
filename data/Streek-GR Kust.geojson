@@ -18086,7 +18086,10 @@
       "type": "Feature",
       "id": "way/158926042",
       "properties": {
+        "handrail": "yes",
         "highway": "steps",
+        "incline": "down",
+        "ramp": "no",
         "surface": "concrete",
         "id": "way/158926042"
       },
@@ -23142,6 +23145,7 @@
         "bicycle": "designated",
         "colour": "blue",
         "cycleway:surface": "compacted",
+        "cycleway:width": "3",
         "foot": "designated",
         "footway:surface": "fine_gravel",
         "highway": "path",
@@ -23155,32 +23159,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.3473801,
-            51.3648205
-          ],
-          [
-            3.3473861,
-            51.3647611
-          ],
-          [
-            3.3473766,
-            51.3647015
-          ],
-          [
-            3.3473083,
-            51.364654
-          ],
-          [
-            3.3471644,
-            51.3646285
-          ],
-          [
-            3.346639,
-            51.3647093
-          ],
-          [
-            3.3460031,
-            51.3648072
+            3.3460835,
+            51.3648065
           ],
           [
             3.3459404,
@@ -44386,6 +44366,7 @@
       "id": "way/1305765723",
       "properties": {
         "highway": "path",
+        "surface": "sand",
         "id": "way/1305765723"
       },
       "geometry": {
@@ -44484,6 +44465,58 @@
           [
             2.8120869,
             51.1875149
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1328616623",
+      "properties": {
+        "bicycle": "designated",
+        "check_date:surface": "2024-10-27",
+        "colour": "blue",
+        "cycleway:surface": "concrete",
+        "cycleway:width": "3",
+        "foot": "designated",
+        "footway:surface": "concrete",
+        "highway": "path",
+        "name": "Yourcenarpad",
+        "segregated": "no",
+        "surface": "concrete",
+        "wheelchair": "yes",
+        "id": "way/1328616623"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3473801,
+            51.3648205
+          ],
+          [
+            3.3473861,
+            51.3647611
+          ],
+          [
+            3.3473766,
+            51.3647015
+          ],
+          [
+            3.3473083,
+            51.364654
+          ],
+          [
+            3.3471644,
+            51.3646285
+          ],
+          [
+            3.346639,
+            51.3647093
+          ],
+          [
+            3.3460835,
+            51.3648065
           ]
         ]
       }

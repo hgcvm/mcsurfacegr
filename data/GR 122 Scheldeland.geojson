@@ -2550,8 +2550,11 @@
       "type": "Feature",
       "id": "way/27387464",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Voordestraat",
+        "sidewalk": "no",
         "surface": "concrete",
         "id": "way/27387464"
       },
@@ -2559,32 +2562,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.8553616,
-            51.0042155
-          ],
-          [
-            3.8553717,
-            51.0043397
-          ],
-          [
-            3.8556416,
-            51.0051907
-          ],
-          [
-            3.8556545,
-            51.0053049
-          ],
-          [
-            3.8556237,
-            51.0054754
-          ],
-          [
-            3.8554358,
-            51.0057157
-          ],
-          [
-            3.8549522,
-            51.0061925
+            3.8549421,
+            51.0062941
           ],
           [
             3.8549368,
@@ -2619,16 +2598,8 @@
             51.0083253
           ],
           [
-            3.8542079,
-            51.0084497
-          ],
-          [
-            3.8542402,
-            51.0085349
-          ],
-          [
-            3.8542706,
-            51.0085741
+            3.8542121,
+            51.0083942
           ]
         ]
       }
@@ -11297,8 +11268,13 @@
       "type": "Feature",
       "id": "way/73910442",
       "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
         "lit": "no",
+        "motor_vehicle": "designated",
+        "name": "Bavopad",
         "surface": "ground",
         "tracktype": "grade4",
         "id": "way/73910442"
@@ -13512,6 +13488,7 @@
       "type": "Feature",
       "id": "way/89705533",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "name": "Molenrede (T143)",
         "surface": "dirt",
@@ -14860,10 +14837,16 @@
       "type": "Feature",
       "id": "way/111427411",
       "properties": {
+        "access": "public",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "path",
-        "lit": "no",
-        "surface": "ground",
+        "horse": "yes",
+        "motor_vehicle": "no",
+        "name": "Paddenwegel",
+        "surface": "fine_gravel",
         "tracktype": "grade5",
+        "width": "1",
         "id": "way/111427411"
       },
       "geometry": {
@@ -14990,10 +14973,16 @@
       "type": "Feature",
       "id": "way/111427448",
       "properties": {
+        "access": "public",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "path",
-        "lit": "no",
-        "surface": "ground",
+        "horse": "yes",
+        "motor_vehicle": "no",
+        "name": "Paddenwegel",
+        "surface": "grass",
         "tracktype": "grade5",
+        "width": "1",
         "id": "way/111427448"
       },
       "geometry": {
@@ -20219,8 +20208,7 @@
       "properties": {
         "highway": "track",
         "name": "Voordestraat (T21)",
-        "surface": "compacted",
-        "tracktype": "grade2",
+        "surface": "dirt",
         "id": "way/151866018"
       },
       "geometry": {
@@ -24449,7 +24437,13 @@
       "type": "Feature",
       "id": "way/191252053",
       "properties": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
+        "motor_vehicle": "designated",
+        "name": "Doorn",
         "surface": "dirt",
         "id": "way/191252053"
       },
@@ -24481,7 +24475,9 @@
         "highway": "path",
         "horse": "no",
         "motor_vehicle": "no",
+        "name": "Doorn",
         "surface": "dirt",
+        "width": "1",
         "id": "way/191252054"
       },
       "geometry": {
@@ -41211,6 +41207,7 @@
       "type": "Feature",
       "id": "way/781135314",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "50",
@@ -45641,9 +45638,11 @@
       "type": "Feature",
       "id": "way/1106539943",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Voordestraat",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/1106539943"
       },
@@ -47349,6 +47348,116 @@
           [
             3.8509113,
             51.0308973
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1328563912",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Voordestraat",
+        "sidewalk": "no",
+        "surface": "concrete",
+        "id": "way/1328563912"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.8553616,
+            51.0042155
+          ],
+          [
+            3.8553717,
+            51.0043397
+          ],
+          [
+            3.8556416,
+            51.0051907
+          ],
+          [
+            3.8556545,
+            51.0053049
+          ],
+          [
+            3.8556237,
+            51.0054754
+          ],
+          [
+            3.8554358,
+            51.0057157
+          ],
+          [
+            3.8550243,
+            51.0061214
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1328563913",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Voordestraat",
+        "sidewalk": "no",
+        "surface": "paving_stones",
+        "id": "way/1328563913"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.8550243,
+            51.0061214
+          ],
+          [
+            3.8549522,
+            51.0061925
+          ],
+          [
+            3.8549421,
+            51.0062941
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1328564343",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Voordestraat",
+        "sidewalk": "no",
+        "surface": "paving_stones",
+        "id": "way/1328564343"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.8542121,
+            51.0083942
+          ],
+          [
+            3.8542079,
+            51.0084497
+          ],
+          [
+            3.8542402,
+            51.0085349
+          ],
+          [
+            3.8542706,
+            51.0085741
           ]
         ]
       }
