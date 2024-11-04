@@ -6135,6 +6135,8 @@
       "properties": {
         "highway": "service",
         "oneway": "yes",
+        "smoothness": "good",
+        "surface": "concrete",
         "id": "way/169838815"
       },
       "geometry": {
@@ -10361,6 +10363,7 @@
       "type": "Feature",
       "id": "way/542603015",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Oudaenstraat",
@@ -10393,8 +10396,11 @@
       "type": "Feature",
       "id": "way/542603017",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Oudaenstraat",
+        "smoothness": "excellent",
+        "surface": "asphalt",
         "id": "way/542603017"
       },
       "geometry": {
@@ -10529,7 +10535,8 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
-        "surface": "paved",
+        "smoothness": "excellent",
+        "surface": "concrete",
         "id": "way/551709552"
       },
       "geometry": {
