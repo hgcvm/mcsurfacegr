@@ -31957,18 +31957,20 @@
       "id": "way/7618300",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "30",
         "name": "Dorpsstraat",
+        "source:maxspeed": "NL:zone30",
         "id": "way/7618300"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.4949075,
+            3.4949263,
             51.2722672
           ],
           [
-            3.4948721,
+            3.4948942,
             51.2724762
           ],
           [
@@ -31987,6 +31989,9 @@
         "maxspeed": "30",
         "name": "Westmolenstraat",
         "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "oneway:moped": "no",
         "surface": "paving_stones",
         "zone:traffic": "NL:urban",
         "id": "way/7629826"
@@ -32053,10 +32058,13 @@
       "type": "Feature",
       "id": "way/7629865",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "maxspeed": "30",
         "name": "Markt",
         "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "oneway:moped": "no",
         "zone:traffic": "NL:urban",
         "id": "way/7629865"
       },
@@ -32068,16 +32076,16 @@
             51.2732753
           ],
           [
-            3.4500314,
-            51.2734105
+            3.4500207,
+            51.273429
           ],
           [
-            3.4503768,
-            51.2737457
+            3.450352,
+            51.2737637
           ],
           [
-            3.4502496,
-            51.273838
+            3.4502281,
+            51.2738237
           ]
         ]
       }
@@ -32087,6 +32095,7 @@
       "id": "way/7629887",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Zuiderbruggeweg",
         "surface": "asphalt",
         "id": "way/7629887"
@@ -32241,6 +32250,7 @@
       "id": "way/7629940",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "30",
         "name": "Ezelstraat",
         "surface": "asphalt",
         "id": "way/7629940"
@@ -32309,6 +32319,7 @@
         "foot": "yes",
         "highway": "residential",
         "lit": "no",
+        "maxspeed": "30",
         "name": "Vleeschouwerstraat",
         "smoothness": "good",
         "surface": "gravel",
@@ -32318,8 +32329,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.4502496,
-            51.273838
+            3.4502281,
+            51.2738237
           ],
           [
             3.4504157,
@@ -32710,7 +32721,9 @@
       "id": "way/7630109",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "30",
         "name": "Zuiderbruggeweg",
+        "source:maxspeed": "NL:zone30",
         "surface": "asphalt",
         "id": "way/7630109"
       },
@@ -32770,48 +32783,8 @@
             51.2693759
           ],
           [
-            3.417956,
-            51.2696166
-          ],
-          [
-            3.418516,
-            51.2698406
-          ],
-          [
-            3.4189015,
-            51.2699986
-          ],
-          [
-            3.4192415,
-            51.2701226
-          ],
-          [
-            3.4198998,
-            51.270286
-          ],
-          [
-            3.4205447,
-            51.2703932
-          ],
-          [
-            3.4209764,
-            51.2704052
-          ],
-          [
-            3.4213813,
-            51.2704872
-          ],
-          [
-            3.4222862,
-            51.2707172
-          ],
-          [
-            3.4233483,
-            51.2710059
-          ],
-          [
-            3.4260798,
-            51.2717601
+            3.4174726,
+            51.26942
           ]
         ]
       }
@@ -32880,8 +32853,8 @@
             51.2741018
           ],
           [
-            3.4476582,
-            51.2741998
+            3.4476515,
+            51.2742002
           ]
         ]
       }
@@ -32951,8 +32924,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.4476582,
-            51.2741998
+            3.4476515,
+            51.2742002
           ],
           [
             3.4474652,
@@ -36409,6 +36382,7 @@
       "id": "way/111345117",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Zuidweg",
         "id": "way/111345117"
       },
@@ -37048,7 +37022,9 @@
       "id": "way/160732231",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Zuiderbruggeweg",
+        "source:maxspeed": "NL:urban",
         "surface": "asphalt",
         "id": "way/160732231"
       },
@@ -37056,8 +37032,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.4107421,
-            51.2625816
+            3.4109706,
+            51.2629724
           ],
           [
             3.4112643,
@@ -37535,6 +37511,7 @@
       "id": "way/217672891",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "30",
         "name": "Noorderbruggeweg",
         "surface": "asphalt",
         "id": "way/217672891"
@@ -38170,6 +38147,7 @@
         "highway": "cycleway",
         "mofa": "designated",
         "moped": "designated",
+        "name": "Sint Pietersdijk",
         "oneway": "no",
         "traffic_sign": "NL:G12a",
         "id": "way/266013260"
@@ -38204,10 +38182,6 @@
           [
             3.4945421,
             51.2726365
-          ],
-          [
-            3.4948164,
-            51.2726699
           ]
         ]
       }
@@ -38493,6 +38467,7 @@
         "maxspeed": "30",
         "name": "Bogaardstraat",
         "operator": "Gemeente Sluis",
+        "source:maxspeed": "NL:zone30",
         "zone:traffic": "NL:urban",
         "id": "way/379066995"
       },
@@ -39488,36 +39463,14 @@
       "id": "way/887052279",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "30",
         "name": "Dorpsstraat",
+        "source:maxspeed": "NL:zone30",
         "id": "way/887052279"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.4967779,
-            51.2689948
-          ],
-          [
-            3.4966876,
-            51.2690415
-          ],
-          [
-            3.49663,
-            51.2690763
-          ],
-          [
-            3.4965697,
-            51.2691316
-          ],
-          [
-            3.4953748,
-            51.2706253
-          ],
-          [
-            3.4953017,
-            51.2707266
-          ],
           [
             3.4952106,
             51.2708653
@@ -39547,7 +39500,7 @@
             51.271913
           ],
           [
-            3.4949075,
+            3.4949263,
             51.2722672
           ]
         ]
@@ -39885,6 +39838,7 @@
       "id": "way/1164612383",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Zuiderbruggeweg",
         "surface": "compacted",
         "id": "way/1164612383"
@@ -39995,6 +39949,166 @@
           [
             3.5866502,
             51.2908727
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1333061262",
+      "properties": {
+        "highway": "cycleway",
+        "mofa": "designated",
+        "moped": "designated",
+        "name": "Sint Pietersdijk",
+        "oneway": "no",
+        "traffic_sign": "NL:G12a",
+        "id": "way/1333061262"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4945421,
+            51.2726365
+          ],
+          [
+            3.4948164,
+            51.2726699
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1333061268",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "60",
+        "name": "Zuiderbruggeweg",
+        "source:maxspeed": "NL:zone60",
+        "surface": "asphalt",
+        "id": "way/1333061268"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4107421,
+            51.2625816
+          ],
+          [
+            3.4109706,
+            51.2629724
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1333061269",
+      "properties": {
+        "highway": "tertiary",
+        "maxspeed": "60",
+        "name": "Zuiderbruggeweg",
+        "source:maxspeed": "NL:zone60",
+        "surface": "asphalt",
+        "id": "way/1333061269"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4174726,
+            51.26942
+          ],
+          [
+            3.417956,
+            51.2696166
+          ],
+          [
+            3.418516,
+            51.2698406
+          ],
+          [
+            3.4189015,
+            51.2699986
+          ],
+          [
+            3.4192415,
+            51.2701226
+          ],
+          [
+            3.4198998,
+            51.270286
+          ],
+          [
+            3.4205447,
+            51.2703932
+          ],
+          [
+            3.4209764,
+            51.2704052
+          ],
+          [
+            3.4213813,
+            51.2704872
+          ],
+          [
+            3.4222862,
+            51.2707172
+          ],
+          [
+            3.4233483,
+            51.2710059
+          ],
+          [
+            3.4260798,
+            51.2717601
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1333061290",
+      "properties": {
+        "highway": "tertiary",
+        "maxspeed": "60",
+        "name": "Dorpsstraat",
+        "source:maxspeed": "NL:zone60",
+        "id": "way/1333061290"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4967779,
+            51.2689948
+          ],
+          [
+            3.4966876,
+            51.2690415
+          ],
+          [
+            3.49663,
+            51.2690763
+          ],
+          [
+            3.4965697,
+            51.2691316
+          ],
+          [
+            3.4953748,
+            51.2706253
+          ],
+          [
+            3.4953017,
+            51.2707266
+          ],
+          [
+            3.4952106,
+            51.2708653
           ]
         ]
       }
