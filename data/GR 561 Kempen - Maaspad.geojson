@@ -6450,6 +6450,8 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Onderwijsstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
         "id": "way/48839516"
       },
@@ -6457,8 +6459,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6540282,
-            50.8907045
+            5.6540257,
+            50.8907132
           ],
           [
             5.6540441,
@@ -6477,16 +6479,12 @@
             50.8899975
           ],
           [
-            5.6548693,
-            50.8899445
+            5.6550494,
+            50.8898591
           ],
           [
-            5.6549593,
-            50.889897
-          ],
-          [
-            5.6550766,
-            50.8898458
+            5.655288,
+            50.8897852
           ]
         ]
       }
@@ -21647,7 +21645,7 @@
           ],
           [
             5.5112545,
-            51.2613896
+            51.2613972
           ]
         ]
       }
@@ -30168,7 +30166,6 @@
         "maxspeed": "50",
         "name": "Orchideeënlaan",
         "source:maxspeed": "sign",
-        "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/305961634"
       },
@@ -35319,7 +35316,7 @@
           ],
           [
             5.6538004,
-            50.8906643
+            50.8906698
           ]
         ]
       }
@@ -35916,13 +35913,8 @@
       "type": "Feature",
       "id": "way/389418553",
       "properties": {
-        "bicycle": "yes",
         "highway": "track",
-        "horse": "no",
-        "mofa": "yes",
         "tracktype": "grade2",
-        "traffic_sign": "BE:C3,BE:M3_nl,BE:Type_IV_residents_nl",
-        "vehicle": "destination",
         "id": "way/389418553"
       },
       "geometry": {
@@ -35997,7 +35989,6 @@
         "maxspeed": "50",
         "name": "Orchideeënlaan",
         "source:maxspeed": "sign",
-        "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/389575017"
       },
@@ -42770,7 +42761,7 @@
         "coordinates": [
           [
             5.5112545,
-            51.2613896
+            51.2613972
           ],
           [
             5.5102085,
@@ -45961,8 +45952,8 @@
             50.8906219
           ],
           [
-            5.6540282,
-            50.8907045
+            5.6540257,
+            50.8907132
           ]
         ]
       }
@@ -45983,7 +45974,7 @@
           ],
           [
             5.6538004,
-            50.8906643
+            50.8906698
           ]
         ]
       }
@@ -46205,9 +46196,7 @@
       "type": "Feature",
       "id": "way/758514685",
       "properties": {
-        "handrail": "no",
         "highway": "steps",
-        "incline": "down",
         "surface": "dirt",
         "id": "way/758514685"
       },
@@ -53968,30 +53957,6 @@
           [
             5.6751082,
             50.8961744
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1332569861",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
-        "name": "Onderwijsstraat",
-        "overtaking:motor_vehicle": "no",
-        "id": "way/1332569861"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.6550766,
-            50.8898458
-          ],
-          [
-            5.655288,
-            50.8897852
           ]
         ]
       }
