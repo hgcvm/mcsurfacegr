@@ -17930,6 +17930,7 @@
         "highway": "residential",
         "layer": "1",
         "maxspeed": "30",
+        "maxweight:signed": "no",
         "name": "Schaffensestraat",
         "surface": "asphalt",
         "id": "way/88685879"
@@ -33968,8 +33969,10 @@
       "properties": {
         "access": "yes",
         "foot": "yes",
+        "handrail": "yes",
         "highway": "steps",
         "incline": "up",
+        "ramp": "no",
         "step_count": "12",
         "surface": "wood",
         "width": "2",
@@ -43174,7 +43177,7 @@
       "type": "Feature",
       "id": "way/907021631",
       "properties": {
-        "access": "no",
+        "access": "yes",
         "agricultural": "designated",
         "bicycle": "designated",
         "foot": "designated",
@@ -43479,7 +43482,9 @@
       "id": "way/908365103",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Heikenstraat",
+        "oneway": "no",
         "surface": "asphalt",
         "width": "3",
         "id": "way/908365103"
@@ -46559,7 +46564,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
-        "surface": "asphalt",
+        "surface": "paving_stones",
         "id": "way/1116627907"
       },
       "geometry": {
@@ -48137,8 +48142,8 @@
             50.8802739
           ],
           [
-            4.7184783,
-            50.8803888
+            4.7184694,
+            50.8803534
           ]
         ]
       }
@@ -48388,12 +48393,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7184783,
-            50.8803888
+            4.7184694,
+            50.8803534
           ],
           [
-            4.7184242,
-            50.8803946
+            4.7184574,
+            50.8803761
           ]
         ]
       }
@@ -48404,19 +48409,19 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "no",
-        "surface": "concrete",
+        "surface": "paving_stones",
         "id": "way/622063631"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7184242,
-            50.8803946
+            4.7184574,
+            50.8803761
           ],
           [
-            4.718375,
-            50.8804915
+            4.7183698,
+            50.8805099
           ],
           [
             4.7180018,

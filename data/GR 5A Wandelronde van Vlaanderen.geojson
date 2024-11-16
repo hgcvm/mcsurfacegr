@@ -993,6 +993,7 @@
       "id": "way/7598071",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Fort Ferdinandusweg",
         "operator": "Waterschap Scheldestromen",
         "surface": "asphalt",
@@ -1141,6 +1142,7 @@
       "id": "way/7598230",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Fort Ferdinandusweg",
         "operator": "Waterschap Scheldestromen",
         "surface": "asphalt",
@@ -1280,6 +1282,7 @@
       "id": "way/7599231",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Kloosterweg",
         "surface": "asphalt",
         "id": "way/7599231"
@@ -1323,6 +1326,7 @@
       "id": "way/7599235",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Kloosterweg",
         "surface": "asphalt",
         "id": "way/7599235"
@@ -1352,6 +1356,7 @@
         "bridge": "yes",
         "highway": "unclassified",
         "layer": "1",
+        "maxspeed": "60",
         "name": "Rode Sluisweg",
         "surface": "asphalt",
         "id": "way/7599241"
@@ -1375,6 +1380,7 @@
       "id": "way/7599243",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Rode Sluisweg",
         "surface": "asphalt",
         "id": "way/7599243"
@@ -1462,6 +1468,7 @@
       "id": "way/7599245",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Rode Sluisweg",
         "surface": "asphalt",
         "id": "way/7599245"
@@ -1558,7 +1565,7 @@
       "id": "way/7599293",
       "properties": {
         "highway": "tertiary",
-        "maxspeed": "30",
+        "maxspeed": "60",
         "name": "Dorpsstraat",
         "surface": "asphalt",
         "id": "way/7599293"
@@ -1567,8 +1574,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.891829,
-            51.2047853
+            3.8916016,
+            51.2050912
           ],
           [
             3.8915082,
@@ -2258,8 +2265,8 @@
             51.2283916
           ],
           [
-            3.8172472,
-            51.2284465
+            3.8172575,
+            51.2284429
           ]
         ]
       }
@@ -2453,6 +2460,7 @@
       "id": "way/7629759",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Verloren Kostje",
         "surface": "paving_stones",
         "zone:traffic": "NL:urban",
@@ -2500,9 +2508,13 @@
       "type": "Feature",
       "id": "way/7629881",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
+        "maxspeed": "30",
         "name": "Brouwerijstraat",
         "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "oneway:moped": "no",
         "surface": "paving_stones",
         "zone:traffic": "NL:urban",
         "id": "way/7629881"
@@ -2538,6 +2550,7 @@
       "id": "way/7629887",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Zuiderbruggeweg",
         "surface": "asphalt",
         "id": "way/7629887"
@@ -2577,6 +2590,7 @@
       "id": "way/7629940",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "30",
         "name": "Ezelstraat",
         "surface": "asphalt",
         "id": "way/7629940"
@@ -2871,7 +2885,9 @@
       "id": "way/7630109",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "30",
         "name": "Zuiderbruggeweg",
+        "source:maxspeed": "NL:zone30",
         "surface": "asphalt",
         "id": "way/7630109"
       },
@@ -2931,48 +2947,8 @@
             51.2693759
           ],
           [
-            3.417956,
-            51.2696166
-          ],
-          [
-            3.418516,
-            51.2698406
-          ],
-          [
-            3.4189015,
-            51.2699986
-          ],
-          [
-            3.4192415,
-            51.2701226
-          ],
-          [
-            3.4198998,
-            51.270286
-          ],
-          [
-            3.4205447,
-            51.2703932
-          ],
-          [
-            3.4209764,
-            51.2704052
-          ],
-          [
-            3.4213813,
-            51.2704872
-          ],
-          [
-            3.4222862,
-            51.2707172
-          ],
-          [
-            3.4233483,
-            51.2710059
-          ],
-          [
-            3.4260798,
-            51.2717601
+            3.4174726,
+            51.26942
           ]
         ]
       }
@@ -8538,7 +8514,10 @@
       "id": "way/26740623",
       "properties": {
         "highway": "cycleway",
+        "mofa": "designated",
+        "moped": "designated",
         "operator": "Provincie Zeeland",
+        "traffic_sign": "NL:G12a",
         "id": "way/26740623"
       },
       "geometry": {
@@ -8549,20 +8528,24 @@
             51.2281989
           ],
           [
-            3.816907,
-            51.2282138
+            3.8168699,
+            51.2281922
           ],
           [
-            3.8169726,
-            51.2282417
+            3.816945,
+            51.2282078
           ],
           [
-            3.8171102,
-            51.228348
+            3.8170148,
+            51.2282426
           ],
           [
-            3.8172472,
-            51.2284465
+            3.817112,
+            51.228343
+          ],
+          [
+            3.8172575,
+            51.2284429
           ]
         ]
       }
@@ -22446,12 +22429,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.9215497,
-            51.2276575
+            2.9215583,
+            51.2276528
           ],
           [
-            2.921673,
-            51.2275354
+            2.9216662,
+            51.2275465
           ]
         ]
       }
@@ -23038,6 +23021,7 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Akkerstraat",
         "smoothness": "good",
         "surface": "asphalt",
@@ -23047,12 +23031,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.4531232,
-            51.2706931
-          ],
-          [
-            3.4533782,
-            51.2707732
+            3.4533681,
+            51.2707757
           ],
           [
             3.4544563,
@@ -36006,6 +35986,7 @@
       "id": "way/151695375",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Kloosterweg",
         "surface": "asphalt",
         "id": "way/151695375"
@@ -36149,6 +36130,7 @@
       "id": "way/151695378",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Kloosterweg",
         "surface": "asphalt",
         "id": "way/151695378"
@@ -37044,7 +37026,9 @@
       "id": "way/160732231",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Zuiderbruggeweg",
+        "source:maxspeed": "NL:urban",
         "surface": "asphalt",
         "id": "way/160732231"
       },
@@ -37052,8 +37036,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.4107421,
-            51.2625816
+            3.4109706,
+            51.2629724
           ],
           [
             3.4112643,
@@ -39732,6 +39716,7 @@
       "id": "way/217672891",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "30",
         "name": "Noorderbruggeweg",
         "surface": "asphalt",
         "id": "way/217672891"
@@ -40111,7 +40096,7 @@
       "type": "Feature",
       "id": "way/217883292",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "maxspeed": "30",
         "name": "Hanzestraat",
         "id": "way/217883292"
@@ -40135,7 +40120,8 @@
       "id": "way/217883301",
       "properties": {
         "cycleway:both": "no",
-        "highway": "unclassified",
+        "highway": "residential",
+        "maxspeed": "30",
         "name": "Voorstraat",
         "id": "way/217883301"
       },
@@ -40143,8 +40129,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.4531232,
-            51.2706931
+            3.4531453,
+            51.2706625
           ],
           [
             3.4530401,
@@ -40173,33 +40159,8 @@
             51.2703743
           ],
           [
-            3.4505787,
-            51.2703676
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/217883308",
-      "properties": {
-        "highway": "footway",
-        "id": "way/217883308"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.4519684,
-            51.2709428
-          ],
-          [
-            3.4518706,
-            51.2709292
-          ],
-          [
-            3.4517906,
-            51.2709177
+            3.4505395,
+            51.2703615
           ]
         ]
       }
@@ -40208,9 +40169,7 @@
       "type": "Feature",
       "id": "way/217883311",
       "properties": {
-        "highway": "cycleway",
-        "oneway": "yes",
-        "smoothness": "good",
+        "highway": "footway",
         "surface": "asphalt",
         "id": "way/217883311"
       },
@@ -40218,16 +40177,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.4517063,
-            51.2710697
+            3.4516249,
+            51.2712395
           ],
           [
             3.4517608,
             51.27098
-          ],
-          [
-            3.4517906,
-            51.2709177
           ]
         ]
       }
@@ -40490,27 +40445,35 @@
       "type": "Feature",
       "id": "way/217883313",
       "properties": {
-        "highway": "unclassified",
+        "highway": "path",
         "id": "way/217883313"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.4506602,
+            3.4510709,
+            51.2712468
+          ],
+          [
+            3.4507196,
+            51.2712441
+          ],
+          [
+            3.4506695,
+            51.271232
+          ],
+          [
+            3.4506522,
             51.2710823
           ],
           [
-            3.4506308,
+            3.4506134,
             51.2708641
           ],
           [
-            3.4506054,
-            51.2705632
-          ],
-          [
-            3.4505787,
-            51.2703676
+            3.450588,
+            51.2706974
           ]
         ]
       }
@@ -40519,27 +40482,19 @@
       "type": "Feature",
       "id": "way/217883314",
       "properties": {
-        "highway": "path",
+        "highway": "service",
         "id": "way/217883314"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.4517063,
-            51.2710697
+            3.4516249,
+            51.2712395
           ],
           [
-            3.4512627,
-            51.2710689
-          ],
-          [
-            3.4507189,
-            51.2710789
-          ],
-          [
-            3.4506602,
-            51.2710823
+            3.4510709,
+            51.2712468
           ]
         ]
       }
@@ -40548,7 +40503,9 @@
       "type": "Feature",
       "id": "way/217883316",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Akkerstraat",
         "id": "way/217883316"
       },
       "geometry": {
@@ -43709,12 +43666,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.921673,
-            51.2275354
+            2.9216662,
+            51.2275465
           ],
           [
-            2.9216846,
-            51.2275234
+            2.9216872,
+            51.2275244
           ],
           [
             2.921913,
@@ -50927,12 +50884,12 @@
             51.2279403
           ],
           [
-            2.9215395,
-            51.2276677
+            2.9215422,
+            51.2276688
           ],
           [
-            2.9215497,
-            51.2276575
+            2.9215583,
+            51.2276528
           ]
         ]
       }
@@ -51793,8 +51750,10 @@
       "properties": {
         "highway": "residential",
         "lit": "no",
+        "maxspeed": "30",
         "name": "Akkerstraat",
         "sidewalk": "no",
+        "source:maxspeed": "NL:zone30",
         "surface": "asphalt",
         "id": "way/410102509"
       },
@@ -54110,10 +54069,13 @@
       "id": "way/459878356",
       "properties": {
         "highway": "cycleway",
+        "mofa": "designated",
+        "moped": "designated",
         "name": "Smedekensbrugge",
         "oneway": "no",
         "smoothness": "good",
         "surface": "asphalt",
+        "traffic_sign": "NL:G12a",
         "id": "way/459878356"
       },
       "geometry": {
@@ -54231,8 +54193,8 @@
             51.2709249
           ],
           [
-            3.4519684,
-            51.2709428
+            3.4519711,
+            51.2709483
           ]
         ]
       }
@@ -55602,20 +55564,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2365788,
-            51.2046722
-          ],
-          [
-            3.2365869,
-            51.2046828
+            3.2368465,
+            51.2049997
           ],
           [
             3.2368278,
             51.2049768
           ],
           [
-            3.2368465,
-            51.2049997
+            3.2365869,
+            51.2046828
+          ],
+          [
+            3.2365788,
+            51.2046722
           ]
         ]
       }
@@ -58100,6 +58062,7 @@
       "id": "way/677759251",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Moerbekepolderweg",
         "surface": "asphalt",
         "id": "way/677759251"
@@ -71337,6 +71300,7 @@
       "id": "way/1164612383",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Zuiderbruggeweg",
         "surface": "compacted",
         "id": "way/1164612383"
@@ -71909,6 +71873,7 @@
       "id": "way/1175597132",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "60",
         "name": "Fort Ferdinandusweg",
         "operator": "Provincie Zeeland",
         "surface": "asphalt",
@@ -74952,6 +74917,233 @@
           [
             2.8120869,
             51.1875149
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1333061268",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "60",
+        "name": "Zuiderbruggeweg",
+        "source:maxspeed": "NL:zone60",
+        "surface": "asphalt",
+        "id": "way/1333061268"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4107421,
+            51.2625816
+          ],
+          [
+            3.4109706,
+            51.2629724
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1333061269",
+      "properties": {
+        "highway": "tertiary",
+        "maxspeed": "60",
+        "name": "Zuiderbruggeweg",
+        "source:maxspeed": "NL:zone60",
+        "surface": "asphalt",
+        "id": "way/1333061269"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4174726,
+            51.26942
+          ],
+          [
+            3.417956,
+            51.2696166
+          ],
+          [
+            3.418516,
+            51.2698406
+          ],
+          [
+            3.4189015,
+            51.2699986
+          ],
+          [
+            3.4192415,
+            51.2701226
+          ],
+          [
+            3.4198998,
+            51.270286
+          ],
+          [
+            3.4205447,
+            51.2703932
+          ],
+          [
+            3.4209764,
+            51.2704052
+          ],
+          [
+            3.4213813,
+            51.2704872
+          ],
+          [
+            3.4222862,
+            51.2707172
+          ],
+          [
+            3.4233483,
+            51.2710059
+          ],
+          [
+            3.4260798,
+            51.2717601
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1333061273",
+      "properties": {
+        "highway": "service",
+        "maxspeed": "30",
+        "id": "way/1333061273"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.450588,
+            51.2706974
+          ],
+          [
+            3.4505395,
+            51.2703615
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1333154186",
+      "properties": {
+        "highway": "footway",
+        "lit": "yes",
+        "name": "Akkerstraat",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "id": "way/1333154186"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4531453,
+            51.2706625
+          ],
+          [
+            3.4533681,
+            51.2707757
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1333154187",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Paardenmarkt",
+        "id": "way/1333154187"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4517608,
+            51.27098
+          ],
+          [
+            3.4518364,
+            51.2709996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1333154188",
+      "properties": {
+        "highway": "service",
+        "id": "way/1333154188"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4519386,
+            51.2710206
+          ],
+          [
+            3.4518364,
+            51.2709996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1333154189",
+      "properties": {
+        "highway": "footway",
+        "surface": "paving_stones",
+        "id": "way/1333154189"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4519711,
+            51.2709483
+          ],
+          [
+            3.4519386,
+            51.2710206
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1333743333",
+      "properties": {
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "name": "Dorpsstraat",
+        "surface": "asphalt",
+        "id": "way/1333743333"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.891829,
+            51.2047853
+          ],
+          [
+            3.8916016,
+            51.2050912
           ]
         ]
       }
@@ -83883,8 +84075,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "30",
-        "name": "Langehaag - Longue Haie",
-        "name:fr": "Longue Haie",
+        "name": "Langehaag",
         "name:nl": "Langehaag",
         "oneway": "yes",
         "oneway:bicycle": "yes",
@@ -87151,7 +87342,7 @@
         "motor_vehicle": "no",
         "not:designation": "towpath",
         "sidewalk": "no",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "traffic_sign": "BE:C3",
@@ -87193,6 +87384,10 @@
           [
             3.1094427,
             50.7928579
+          ],
+          [
+            3.1098299,
+            50.7933951
           ],
           [
             3.109893,
@@ -138293,7 +138488,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "50",
-        "name": "Langehaag - Longue Haie",
+        "name": "Langehaag",
         "name:fr": "Longue Haie",
         "name:nl": "Langehaag",
         "zone:traffic": "BE-VLG:urban",
@@ -142382,12 +142577,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7185217,
-            50.7739564
+            3.7186423,
+            50.7738966
           ],
           [
-            3.7187488,
-            50.7739478
+            3.7187,
+            50.77389
           ],
           [
             3.7189016,
@@ -154456,7 +154651,7 @@
         "motor_vehicle": "no",
         "not:designation": "towpath",
         "sidewalk": "no",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "traffic_sign": "BE:C3",
@@ -164226,7 +164421,7 @@
         "motor_vehicle": "no",
         "not:designation": "towpath",
         "sidewalk": "no",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "traffic_sign": "BE:C3",
@@ -165092,6 +165287,58 @@
           [
             4.0721352,
             50.9464347
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1332706850",
+      "properties": {
+        "bicycle": "no",
+        "bridge": "yes",
+        "highway": "path",
+        "layer": "1",
+        "name": "Riefontaineweg",
+        "official_vicinal_ref": "183_57_1",
+        "vicinal_ref": "Sentier nr. 57",
+        "id": "way/1332706850"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7185992,
+            50.7739275
+          ],
+          [
+            3.7186423,
+            50.7738966
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1332706851",
+      "properties": {
+        "bicycle": "no",
+        "highway": "path",
+        "name": "Riefontaineweg",
+        "official_vicinal_ref": "183_57_1",
+        "vicinal_ref": "Sentier nr. 57",
+        "id": "way/1332706851"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7185217,
+            50.7739564
+          ],
+          [
+            3.7185992,
+            50.7739275
           ]
         ]
       }
@@ -179071,56 +179318,60 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.9298409,
-            51.2220515
+            2.9298014,
+            51.2220647
           ],
           [
-            2.9297763,
-            51.2220649
+            2.9297325,
+            51.222084
           ],
           [
-            2.929702,
-            51.2220948
+            2.9296675,
+            51.2221181
           ],
           [
-            2.9296258,
-            51.2221425
+            2.9296241,
+            51.2221555
           ],
           [
-            2.9295593,
-            51.2221985
+            2.9295679,
+            51.2222052
           ],
           [
-            2.9294789,
-            51.2222877
+            2.9294954,
+            51.2222905
           ],
           [
-            2.9294365,
-            51.2223573
+            2.9294456,
+            51.2223598
+          ],
+          [
+            2.9294097,
+            51.2224368
           ],
           [
             2.9294028,
-            51.2224385
+            51.2224964
           ],
           [
-            2.9293957,
-            51.2225128
+            2.9293954,
+            51.2226994
           ],
           [
             2.929391,
             51.2227462
           ],
           [
-            2.9293727,
-            51.2228077
+            2.929372,
+            51.2227972
           ],
           [
             2.9293357,
             51.2228591
           ],
           [
-            2.9293012,
-            51.2228973
+            2.9292936,
+            51.2229214
           ]
         ]
       }
@@ -179275,24 +179526,24 @@
             51.223168
           ],
           [
-            2.9290771,
-            51.2230959
+            2.9290806,
+            51.2231009
           ],
           [
-            2.9291674,
-            51.2230394
+            2.929172,
+            51.2230437
           ],
           [
-            2.9292647,
-            51.2229829
+            2.9292622,
+            51.2229838
           ],
           [
-            2.9293001,
-            51.2229463
+            2.9292877,
+            51.2229523
           ],
           [
-            2.9293012,
-            51.2228973
+            2.9292936,
+            51.2229214
           ]
         ]
       }
@@ -179309,8 +179560,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.9298409,
-            51.2220515
+            2.9298014,
+            51.2220647
           ],
           [
             2.9302051,

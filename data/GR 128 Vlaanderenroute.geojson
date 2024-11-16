@@ -123,6 +123,7 @@
       "id": "way/4843765",
       "properties": {
         "highway": "footway",
+        "name": "Gouvernementspad",
         "id": "way/4843765"
       },
       "geometry": {
@@ -14378,21 +14379,13 @@
         "bicycle": "no",
         "highway": "residential",
         "maxspeed": "50",
-        "name": "Maaspuntweg",
+        "name": "Gouvernementspad",
         "surface": "paving_stones",
         "id": "way/27140778"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.7010272,
-            50.8420271
-          ],
-          [
-            5.701082,
-            50.8416365
-          ],
           [
             5.7010688,
             50.8413339
@@ -27254,10 +27247,20 @@
       "type": "Feature",
       "id": "way/37873463",
       "properties": {
+        "bicycle": "yes",
+        "bus": "yes",
+        "cycleway:both": "no",
+        "emergency": "yes",
         "highway": "residential",
+        "horse": "yes",
+        "lane_markings": "no",
+        "lanes": "1",
         "maxspeed": "50",
         "name": "Oude Pontweg",
-        "surface": "concrete:plates",
+        "sidewalk:both": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "vehicle": "destination",
         "id": "way/37873463"
       },
       "geometry": {
@@ -27272,12 +27275,8 @@
             51.0107113
           ],
           [
-            3.5936867,
-            51.0106994
-          ],
-          [
-            3.5931855,
-            51.0106186
+            3.5934567,
+            51.0106678
           ]
         ]
       }
@@ -27286,44 +27285,56 @@
       "type": "Feature",
       "id": "way/37873466",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
-        "highway": "track",
+        "bus": "yes",
+        "cycleway:both": "no",
+        "emergency": "yes",
+        "highway": "residential",
         "horse": "yes",
+        "lane_markings": "no",
+        "lanes": "1",
+        "maxspeed": "50",
         "name": "Oude Pontweg",
-        "surface": "dirt",
+        "sidewalk:both": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "vehicle": "destination",
         "id": "way/37873466"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.5975387,
-            51.011992
+            3.5975014,
+            51.0119657
           ],
           [
             3.596545,
             51.0113345
           ],
           [
-            3.5962057,
-            51.0111573
+            3.5962026,
+            51.0111574
           ],
           [
-            3.5959967,
-            51.0110719
+            3.5960547,
+            51.0110956
           ],
           [
-            3.5957747,
-            51.0110016
+            3.5959183,
+            51.0110445
+          ],
+          [
+            3.5957731,
+            51.0110021
           ],
           [
             3.5955836,
             51.0109614
           ],
           [
-            3.5954337,
-            51.0109313
+            3.5954311,
+            51.0109335
           ],
           [
             3.5948678,
@@ -37068,19 +37079,21 @@
       "type": "Feature",
       "id": "way/39123688",
       "properties": {
-        "access": "destination",
-        "bicycle": "yes",
         "highway": "path",
-        "horse": "yes",
-        "surface": "gravel",
+        "smoothness": "intermediate",
+        "surface": "dirt",
         "id": "way/39123688"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.5975387,
-            51.011992
+            3.5975014,
+            51.0119657
+          ],
+          [
+            3.5975796,
+            51.0120215
           ],
           [
             3.5986629,
@@ -45285,6 +45298,7 @@
       "id": "way/40632003",
       "properties": {
         "highway": "footway",
+        "name": "Gouvernementspad",
         "id": "way/40632003"
       },
       "geometry": {
@@ -46167,6 +46181,10 @@
           [
             3.1875224,
             50.9421094
+          ],
+          [
+            3.1879294,
+            50.9421937
           ],
           [
             3.18795,
@@ -75010,6 +75028,7 @@
       "properties": {
         "highway": "footway",
         "layer": "-1",
+        "name": "Gouvernementspad",
         "tunnel": "yes",
         "id": "way/161861855"
       },
@@ -75033,6 +75052,7 @@
       "properties": {
         "highway": "footway",
         "layer": "-1",
+        "name": "Gouvernementspad",
         "tunnel": "building_passage",
         "id": "way/161861856"
       },
@@ -78382,6 +78402,10 @@
           [
             3.1889677,
             50.9422392
+          ],
+          [
+            3.1890002,
+            50.9422426
           ],
           [
             3.1895859,
@@ -88341,6 +88365,10 @@
           [
             4.6469539,
             50.9639814
+          ],
+          [
+            4.647148,
+            50.9639752
           ]
         ]
       }
@@ -93288,8 +93316,8 @@
             51.0107137
           ],
           [
-            3.5930388,
-            51.0106655
+            3.5930258,
+            51.0106524
           ],
           [
             3.5931855,
@@ -122541,7 +122569,7 @@
       "type": "Feature",
       "id": "way/907021631",
       "properties": {
-        "access": "no",
+        "access": "yes",
         "agricultural": "designated",
         "bicycle": "designated",
         "foot": "designated",
@@ -129619,7 +129647,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Blokstraat",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/1146549716"
       },
@@ -129664,30 +129692,6 @@
           [
             4.536282,
             50.9854029
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1148042333",
-      "properties": {
-        "highway": "track",
-        "surface": "grass",
-        "tracktype": "grade5",
-        "width": "3",
-        "id": "way/1148042333"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.6469539,
-            50.9639814
-          ],
-          [
-            4.647148,
-            50.9639752
           ]
         ]
       }
@@ -133682,6 +133686,89 @@
           [
             4.0721352,
             50.9464347
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1332842637",
+      "properties": {
+        "bicycle": "yes",
+        "bus": "yes",
+        "cycleway:both": "no",
+        "emergency": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Oude Pontweg",
+        "sidewalk:both": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "vehicle": "destination",
+        "id": "way/1332842637"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.5934567,
+            51.0106678
+          ],
+          [
+            3.5934332,
+            51.0106637
+          ],
+          [
+            3.5934136,
+            51.0106581
+          ],
+          [
+            3.5933953,
+            51.0106509
+          ],
+          [
+            3.5933452,
+            51.0106279
+          ],
+          [
+            3.5933247,
+            51.0106224
+          ],
+          [
+            3.5931855,
+            51.0106186
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1333592315",
+      "properties": {
+        "bicycle": "no",
+        "highway": "residential",
+        "maxspeed": "50",
+        "name": "Maaspuntweg",
+        "surface": "paving_stones",
+        "id": "way/1333592315"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.7010272,
+            50.8420271
+          ],
+          [
+            5.701082,
+            50.8416365
+          ],
+          [
+            5.7010688,
+            50.8413339
           ]
         ]
       }
