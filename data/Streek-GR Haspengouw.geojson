@@ -3858,8 +3858,11 @@
       "type": "Feature",
       "id": "way/789671336",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "unclassified",
+        "maxspeed": "30",
         "name": "Stationlaan",
+        "overtaking:motor_vehicle": "no",
         "id": "way/789671336"
       },
       "geometry": {
@@ -22923,7 +22926,7 @@
         "layer": "1",
         "maxspeed": "30",
         "name": "Halmaalweg",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/38668812"
       },
@@ -23970,7 +23973,7 @@
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Halmaalweg",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/244759011"
       },
@@ -24579,12 +24582,13 @@
       "id": "way/759336795",
       "properties": {
         "bus": "yes",
+        "emergency": "yes",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Tiensesteenweg",
         "sidewalk": "right",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "traffic_sign": "BE:C3",
         "vehicle": "no",
@@ -24599,28 +24603,28 @@
             50.8157754
           ],
           [
-            5.1748219,
+            5.174822,
             50.8159402
           ],
           [
-            5.1748352,
-            50.8159558
+            5.1748569,
+            50.8159763
           ],
           [
-            5.174915,
-            50.8160287
+            5.1749143,
+            50.8160266
           ],
           [
-            5.1750453,
-            50.8161125
+            5.1749907,
+            50.8160808
           ],
           [
-            5.1760271,
-            50.8167224
+            5.1760236,
+            50.8167246
           ],
           [
-            5.176119,
-            50.8167861
+            5.1760842,
+            50.8167624
           ],
           [
             5.1761804,
@@ -24759,7 +24763,7 @@
         "maxspeed": "30",
         "name": "Tiensesteenweg",
         "sidewalk": "right",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1144545270"
@@ -24772,12 +24776,20 @@
             50.8150749
           ],
           [
-            5.1742202,
-            50.8151782
+            5.1741966,
+            50.8151076
           ],
           [
-            5.17425,
-            50.8152594
+            5.1741984,
+            50.8151229
+          ],
+          [
+            5.1742246,
+            50.8152064
+          ],
+          [
+            5.1742467,
+            50.8152454
           ],
           [
             5.1743334,
@@ -25075,6 +25087,8 @@
       "type": "Feature",
       "id": "way/342394098",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Prins Albertlaan",
@@ -25131,6 +25145,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Prins Albertlaan",
+        "sidewalk": "both",
         "surface": "asphalt",
         "width": "5",
         "id": "way/699288530"
@@ -28285,7 +28300,10 @@
       "id": "way/45144861",
       "properties": {
         "bicycle": "designated",
+        "check_date:surface": "2024-11-12",
+        "cycleway:surface": "paving_stones",
         "foot": "designated",
+        "footway:surface": "paving_stones",
         "highway": "path",
         "lit": "yes",
         "name": "Sint-Aldegondislaan",

@@ -2124,7 +2124,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Sint-Laureinsstraat",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/24974522"
@@ -9207,7 +9207,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Molenborrestraat",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/39448939"
@@ -11143,7 +11143,7 @@
         "cyclestreet": "yes",
         "highway": "living_street",
         "name": "Heilige Geeststraat",
-        "surface": "cobblestone",
+        "surface": "unhewn_cobblestone",
         "id": "way/47773400"
       },
       "geometry": {
@@ -11168,7 +11168,7 @@
         "highway": "living_street",
         "lit": "yes",
         "name": "Infirmeriestraat",
-        "surface": "sett",
+        "surface": "unhewn_cobblestone",
         "id": "way/47773401"
       },
       "geometry": {
@@ -11265,7 +11265,7 @@
         "highway": "living_street",
         "lit": "yes",
         "name": "Kerkstraat Begijnhof",
-        "surface": "sett",
+        "surface": "unhewn_cobblestone",
         "id": "way/47773402"
       },
       "geometry": {
@@ -16999,6 +16999,7 @@
         "highway": "residential",
         "layer": "1",
         "maxspeed": "30",
+        "maxweight:signed": "no",
         "name": "Schaffensestraat",
         "surface": "asphalt",
         "id": "way/88685879"
@@ -26938,9 +26939,10 @@
         "foot": "yes",
         "highway": "living_street",
         "layer": "-1",
+        "maxheight:signed": "no",
         "name": "Kerkstraat Begijnhof",
         "segregated": "no",
-        "surface": "cobblestone",
+        "surface": "unhewn_cobblestone",
         "tunnel": "yes",
         "id": "way/148009966"
       },
@@ -31533,7 +31535,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
-        "surface": "asphalt",
+        "surface": "paving_stones",
         "id": "way/246885850"
       },
       "geometry": {
@@ -34214,7 +34216,7 @@
         "highway": "living_street",
         "lit": "yes",
         "name": "Kraaieneststraat",
-        "surface": "sett",
+        "surface": "unhewn_cobblestone",
         "id": "way/324441398"
       },
       "geometry": {
@@ -34498,8 +34500,10 @@
       "properties": {
         "access": "yes",
         "foot": "yes",
+        "handrail": "yes",
         "highway": "steps",
         "incline": "up",
+        "ramp": "no",
         "step_count": "12",
         "surface": "wood",
         "width": "2",
@@ -39104,9 +39108,10 @@
         "cyclestreet": "yes",
         "foot": "yes",
         "highway": "residential",
+        "maxheight:signed": "no",
         "name": "Kerkstraat Begijnhof",
         "segregated": "no",
-        "surface": "cobblestone",
+        "surface": "unhewn_cobblestone",
         "id": "way/553454845"
       },
       "geometry": {
@@ -39257,14 +39262,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.8606784,
-            50.9357185
-          ],
-          [
-            4.86041,
-            50.9359321
-          ],
           [
             4.8603562,
             50.9359737
@@ -40768,7 +40765,7 @@
         "highway": "living_street",
         "lit": "yes",
         "name": "Kerkstraat Begijnhof",
-        "surface": "sett",
+        "surface": "unhewn_cobblestone",
         "id": "way/624131632"
       },
       "geometry": {
@@ -45238,7 +45235,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
-        "surface": "asphalt",
+        "surface": "paving_stones",
         "id": "way/1116627907"
       },
       "geometry": {
@@ -45953,6 +45950,31 @@
           [
             4.4329712,
             50.7781967
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1332634928",
+      "properties": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Molenstraat",
+        "surface": "asphalt",
+        "width": "3",
+        "id": "way/1332634928"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8606784,
+            50.9357185
+          ],
+          [
+            4.8603562,
+            50.9359737
           ]
         ]
       }

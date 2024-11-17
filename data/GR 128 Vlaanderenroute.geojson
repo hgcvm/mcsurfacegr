@@ -151773,10 +151773,6 @@
             51.0562423
           ],
           [
-            3.7356551,
-            51.056118
-          ],
-          [
             3.7356978,
             51.0559889
           ]
@@ -152121,12 +152117,12 @@
         "lit": "no",
         "maxspeed": "20",
         "mofa": "yes",
-        "name": "Zuivelbrug",
+        "name": "Zuivelbrugstraat",
         "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "wood",
         "vehicle": "private",
-        "wikidata": "Q23806583",
+        "wikidata": "Q115807895",
         "id": "way/25728316"
       },
       "geometry": {
@@ -153581,7 +153577,7 @@
       "properties": {
         "highway": "service",
         "maxspeed": "30",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/144587024"
       },
@@ -154429,7 +154425,7 @@
       "properties": {
         "highway": "service",
         "maxspeed": "30",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/238855890"
       },
@@ -154796,7 +154792,7 @@
         "maxspeed": "30",
         "oneway": "yes",
         "smoothness": "excellent",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/493388224"
       },
@@ -154837,12 +154833,12 @@
         "lit": "yes",
         "maxspeed": "20",
         "mofa": "yes",
-        "name": "Meerseniersstraat",
+        "name": "Zuivelbrugstraat",
         "private": "exceptional_permit",
         "speed_pedelec": "yes",
         "surface": "sett",
         "vehicle": "private",
-        "wikidata": "Q115809379",
+        "wikidata": "Q115807895",
         "id": "way/540085641"
       },
       "geometry": {
@@ -155063,7 +155059,7 @@
         "maxspeed": "30",
         "oneway": "no",
         "segregated": "yes",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "id": "way/579642686"
       },
       "geometry": {
@@ -155248,7 +155244,7 @@
         "maxspeed": "30",
         "oneway": "no",
         "segregated": "yes",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/708085759"
       },
@@ -155445,7 +155441,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "oneway": "no",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
         "id": "way/833947528"
       },
@@ -155509,7 +155505,7 @@
       "properties": {
         "highway": "service",
         "maxspeed": "30",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/833947529"
       },
@@ -156544,7 +156540,7 @@
       "properties": {
         "highway": "service",
         "maxspeed": "30",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/1080953796"
       },
@@ -156791,7 +156787,7 @@
         "name": "Land van Waaslaan",
         "oneway": "yes",
         "smoothness": "excellent",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/1287051843"
       },
@@ -167199,6 +167195,8 @@
       "type": "Feature",
       "id": "way/342394098",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Prins Albertlaan",
@@ -168108,6 +168106,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Prins Albertlaan",
+        "sidewalk": "both",
         "surface": "asphalt",
         "width": "5",
         "id": "way/699288530"
