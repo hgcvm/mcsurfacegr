@@ -884,16 +884,8 @@
             50.7638026
           ],
           [
-            4.276612,
-            50.7638364
-          ],
-          [
-            4.2775156,
-            50.7639237
-          ],
-          [
-            4.277794,
-            50.7639506
+            4.2766133,
+            50.7638305
           ]
         ]
       }
@@ -917,24 +909,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.2782092,
-            50.763098
+            4.2781033,
+            50.7631922
           ],
           [
             4.2781089,
             50.7632492
-          ],
-          [
-            4.2780872,
-            50.7632991
-          ],
-          [
-            4.2779274,
-            50.7636776
-          ],
-          [
-            4.277794,
-            50.7639506
           ]
         ]
       }
@@ -1124,6 +1104,7 @@
       "type": "Feature",
       "id": "way/23239074",
       "properties": {
+        "cutting": "yes",
         "highway": "track",
         "name": "Oude Geldenaaksebaan",
         "tracktype": "grade2",
@@ -3949,14 +3930,6 @@
           [
             4.2751651,
             50.7655189
-          ],
-          [
-            4.2750788,
-            50.7655808
-          ],
-          [
-            4.2742208,
-            50.7660547
           ]
         ]
       }
@@ -11348,12 +11321,16 @@
             50.7631971
           ],
           [
-            4.2783272,
-            50.7631235
+            4.2783648,
+            50.763182
           ],
           [
-            4.2782092,
-            50.763098
+            4.2782025,
+            50.7631931
+          ],
+          [
+            4.2781033,
+            50.7631922
           ]
         ]
       }
@@ -42830,7 +42807,7 @@
         "highway": "track",
         "horse": "no",
         "motor_vehicle": "no",
-        "tracktype": "grade2",
+        "tracktype": "grade3",
         "id": "way/875219670"
       },
       "geometry": {
@@ -43830,14 +43807,6 @@
           [
             4.2762578,
             50.7638713
-          ],
-          [
-            4.2762314,
-            50.7639691
-          ],
-          [
-            4.2761023,
-            50.7642157
           ]
         ]
       }
@@ -45975,6 +45944,141 @@
           [
             4.8603562,
             50.9359737
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1334678294",
+      "properties": {
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "maxweight": "5.5",
+        "maxweight:conditional": "none @ destination",
+        "name": "Emiel Debusscherstraat",
+        "overtaking:motor_vehicle": "no",
+        "source:maxspeed": "cyclestreet",
+        "surface": "paving_stones",
+        "id": "way/1334678294"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.2781089,
+            50.7632492
+          ],
+          [
+            4.2780872,
+            50.7632991
+          ],
+          [
+            4.2779274,
+            50.7636776
+          ],
+          [
+            4.2778041,
+            50.7639646
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1334678724",
+      "properties": {
+        "cyclestreet": "yes",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "maxweight": "5.5",
+        "maxweight:conditional": "none @ destination",
+        "name": "Stationsstraat",
+        "overtaking:motor_vehicle": "no",
+        "source:maxspeed": "cyclestreet",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1334678724"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.2751651,
+            50.7655189
+          ],
+          [
+            4.2750788,
+            50.7655808
+          ],
+          [
+            4.2742208,
+            50.7660547
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1334679173",
+      "properties": {
+        "cyclestreet": "yes",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "name": "Dworpsestraat",
+        "overtaking:motor_vehicle": "no",
+        "source:maxspeed": "cyclestreet",
+        "surface": "asphalt",
+        "id": "way/1334679173"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.2762578,
+            50.7638713
+          ],
+          [
+            4.2762314,
+            50.7639691
+          ],
+          [
+            4.2761023,
+            50.7642157
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1334679174",
+      "properties": {
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "maxweight": "5.5",
+        "maxweight:conditional": "none @ destination",
+        "name": "Kapellerond",
+        "overtaking:motor_vehicle": "no",
+        "source:maxspeed": "cyclestreet",
+        "surface": "asphalt",
+        "id": "way/1334679174"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.2766133,
+            50.7638305
+          ],
+          [
+            4.2775156,
+            50.7639237
+          ],
+          [
+            4.2778041,
+            50.7639646
           ]
         ]
       }
