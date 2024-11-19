@@ -928,8 +928,9 @@
         "maxspeed": "30",
         "maxweight": "5.5",
         "maxweight:conditional": "none @ destination",
-        "motor_vehicle": "no",
+        "motor_vehicle": "yes",
         "name": "Molenstraat",
+        "oneway": "no",
         "overtaking:motor_vehicle": "no",
         "source:maxspeed": "cyclestreet",
         "surface": "asphalt",
@@ -3910,6 +3911,7 @@
         "maxweight": "5.5",
         "maxweight:conditional": "none @ destination",
         "name": "Stationsstraat",
+        "oneway": "no",
         "overtaking:motor_vehicle": "no",
         "source:maxspeed": "cyclestreet",
         "surface": "asphalt",
@@ -18493,12 +18495,12 @@
             50.9354406
           ],
           [
-            4.8608199,
-            50.9356136
+            4.8608178,
+            50.9356125
           ],
           [
-            4.8606784,
-            50.9357185
+            4.8606786,
+            50.9357186
           ]
         ]
       }
@@ -20029,6 +20031,7 @@
         "maxweight": "5.5",
         "maxweight:conditional": "none @ destination",
         "name": "Dworpsestraat",
+        "oneway": "no",
         "overtaking:motor_vehicle": "no",
         "source:maxspeed": "cyclestreet",
         "surface": "asphalt",
@@ -23011,6 +23014,7 @@
         "maxweight": "5.5",
         "maxweight:conditional": "none @ destination",
         "name": "Dworpsestraat",
+        "oneway": "no",
         "overtaking:motor_vehicle": "no",
         "source:maxspeed": "cyclestreet",
         "surface": "asphalt",
@@ -37239,8 +37243,9 @@
         "maxspeed": "30",
         "maxweight": "5.5",
         "maxweight:conditional": "none @ destination",
-        "motor_vehicle": "no",
+        "motor_vehicle": "yes",
         "name": "Molenstraat",
+        "oneway": "no",
         "overtaking:motor_vehicle": "no",
         "source:maxspeed": "cyclestreet",
         "surface": "asphalt",
@@ -37272,8 +37277,9 @@
         "maxspeed": "30",
         "maxweight": "5.5",
         "maxweight:conditional": "none @ destination",
-        "motor_vehicle": "no",
+        "motor_vehicle": "yes",
         "name": "Molenstraat",
+        "oneway": "no",
         "overtaking:motor_vehicle": "no",
         "source:maxspeed": "cyclestreet",
         "surface": "asphalt",
@@ -39240,12 +39246,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8603562,
-            50.9359737
+            4.8603547,
+            50.935973
           ],
           [
-            4.8602228,
-            50.9360768
+            4.8603126,
+            50.9360067
+          ],
+          [
+            4.8602243,
+            50.9360775
           ],
           [
             4.8599825,
@@ -41813,6 +41823,7 @@
         "maxweight": "5.5",
         "maxweight:conditional": "none @ destination",
         "name": "Zittert",
+        "oneway": "no",
         "overtaking:motor_vehicle": "no",
         "source:maxspeed": "cyclestreet",
         "surface": "asphalt",
@@ -45938,12 +45949,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8606784,
-            50.9357185
+            4.8606786,
+            50.9357186
           ],
           [
-            4.8603562,
-            50.9359737
+            4.8606511,
+            50.9357396
+          ],
+          [
+            4.8605796,
+            50.9357941
+          ],
+          [
+            4.8604953,
+            50.9358603
+          ],
+          [
+            4.8604062,
+            50.9359317
+          ],
+          [
+            4.8603547,
+            50.935973
           ]
         ]
       }
@@ -46060,6 +46087,8 @@
         "maxweight": "5.5",
         "maxweight:conditional": "none @ destination",
         "name": "Kapellerond",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
         "source:maxspeed": "cyclestreet",
         "surface": "asphalt",
@@ -46069,16 +46098,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.2766133,
-            50.7638305
+            4.2778041,
+            50.7639646
           ],
           [
             4.2775156,
             50.7639237
           ],
           [
-            4.2778041,
-            50.7639646
+            4.2766133,
+            50.7638305
           ]
         ]
       }
