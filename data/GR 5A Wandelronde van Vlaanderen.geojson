@@ -168982,13 +168982,17 @@
       "type": "Feature",
       "id": "way/10661812",
       "properties": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
-        "highway": "cycleway",
-        "lit": "no",
-        "maxspeed": "10",
-        "motor_vehicle": "destination",
-        "surface": "fine_gravel",
+        "highway": "path",
+        "horse": "no",
+        "maxspeed": "20",
+        "motor_vehicle": "service",
+        "note": "bordC3 aan Beukenlaan, C3+ dienst en levering aan andere eind bij cricket / handboog",
+        "smoothness": "good",
+        "surface": "compacted",
+        "width": "5",
+        "width:carriageway": "5",
         "id": "way/10661812"
       },
       "geometry": {
@@ -170051,15 +170055,19 @@
       "type": "Feature",
       "id": "way/24479759",
       "properties": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "unclassified",
+        "horse": "no",
         "lane_markings": "no",
-        "lit": "no",
-        "maxspeed": "10",
-        "motor_vehicle": "destination",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "20",
+        "motor_vehicle": "service;deliveries",
         "name": "Floraliënlaan",
-        "surface": "asphalt",
+        "note": "Bij gate C3 met service en deliveries, andere eind bij Beukenlaan C3 zonder uitzonderingen",
+        "oneway": "no",
+        "surface": "compacted",
         "id": "way/24479759"
       },
       "geometry": {
@@ -170172,6 +170180,11 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
+        "incline": "0%",
+        "lit": "no",
+        "mofa": "no",
+        "moped": "no",
+        "speed_pedelec": "no",
         "surface": "compacted",
         "vehicle": "no",
         "id": "way/24479962"
@@ -170256,6 +170269,11 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
+        "incline": "0%",
+        "lit": "no",
+        "mofa": "no",
+        "moped": "no",
+        "speed_pedelec": "no",
         "surface": "compacted",
         "vehicle": "no",
         "id": "way/24480056"
@@ -170589,7 +170607,11 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
+        "incline": "0%",
         "lit": "no",
+        "mofa": "no",
+        "moped": "no",
+        "speed_pedelec": "no",
         "surface": "compacted",
         "vehicle": "no",
         "id": "way/24545638"
@@ -171041,7 +171063,11 @@
       "id": "way/24700598",
       "properties": {
         "highway": "path",
+        "incline": "0%",
         "lit": "no",
+        "mofa": "no",
+        "moped": "no",
+        "speed_pedelec": "no",
         "surface": "compacted",
         "vehicle": "no",
         "id": "way/24700598"
@@ -171086,11 +171112,12 @@
       "properties": {
         "bicycle": "designated",
         "cycleway:comfort": "14",
-        "foot": "designated",
+        "foot": "permissive",
         "highway": "cycleway",
-        "incline": "0%",
+        "incline": "0",
         "lit": "yes",
         "loc_name": "Ringfietspad",
+        "moped": "no",
         "oneway": "no",
         "segregated": "no",
         "smoothness": "excellent",
@@ -171128,6 +171155,7 @@
         "maxspeed": "20",
         "motor_vehicle": "destination",
         "name": "Floraliënlaan",
+        "oneway": "no",
         "surface": "asphalt",
         "id": "way/24700612"
       },
@@ -173022,10 +173050,14 @@
       "type": "Feature",
       "id": "way/50840630",
       "properties": {
+        "bicycle": "designated",
         "cycleway:comfort": "14",
+        "foot": "permissive",
         "highway": "cycleway",
+        "incline": "0",
         "lit": "yes",
         "loc_name": "Ringfietspad",
+        "moped": "no",
         "oneway": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
@@ -177281,9 +177313,10 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "lit": "yes",
-        "maxspeed": "10",
+        "maxspeed": "20",
         "motor_vehicle": "destination",
         "name": "Floraliënlaan",
+        "oneway": "no",
         "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/866974916"
@@ -177408,8 +177441,9 @@
         "horse": "no",
         "incline": "0%",
         "leisure": "track",
-        "lit": "no",
+        "lit": "yes",
         "note": "'Finse Piste' = jogging (rather than running) track",
+        "smoothness": "bad",
         "sport": "jogging",
         "surface": "woodchips",
         "width": "1",
@@ -178314,7 +178348,11 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
+        "incline": "0%",
         "lit": "no",
+        "mofa": "no",
+        "moped": "no",
+        "speed_pedelec": "no",
         "surface": "compacted",
         "vehicle": "no",
         "id": "way/1035356344"
@@ -178407,8 +178445,9 @@
         "horse": "no",
         "incline": "0%",
         "leisure": "track",
-        "lit": "no",
+        "lit": "yes",
         "note": "'Finse Piste' = jogging (rather than running) track",
+        "smoothness": "bad",
         "sport": "jogging",
         "surface": "woodchips",
         "width": "1",
@@ -180428,12 +180467,24 @@
             51.206728
           ],
           [
-            3.2269922,
-            51.2069062
+            3.2269804,
+            51.2068975
           ],
           [
-            3.22698,
-            51.2069382
+            3.2269905,
+            51.2069068
+          ],
+          [
+            3.2269942,
+            51.2069181
+          ],
+          [
+            3.2269905,
+            51.2069322
+          ],
+          [
+            3.2269851,
+            51.2069423
           ],
           [
             3.2269953,
