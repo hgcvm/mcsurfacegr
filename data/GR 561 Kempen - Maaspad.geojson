@@ -3736,8 +3736,13 @@
       "type": "Feature",
       "id": "way/36989101",
       "properties": {
-        "highway": "pedestrian",
+        "foot": "designated",
+        "highway": "living_street",
+        "maxspeed": "20",
+        "maxspeed:type": "BE:living_street",
         "name": "De Vryheyt",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
         "surface": "paving_stones",
         "id": "way/36989101"
       },
@@ -3745,36 +3750,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3086791,
-            51.2317722
-          ],
-          [
-            5.3086747,
-            51.2317239
-          ],
-          [
-            5.308643,
-            51.2313781
-          ],
-          [
-            5.3085576,
-            51.2307857
-          ],
-          [
-            5.3085449,
-            51.2306982
-          ],
-          [
-            5.3085371,
-            51.2306647
+            5.3084955,
+            51.2305796
           ],
           [
             5.3085274,
             51.2306229
           ],
           [
-            5.3084955,
-            51.2305796
+            5.3085371,
+            51.2306647
+          ],
+          [
+            5.3085449,
+            51.2306982
+          ],
+          [
+            5.3085576,
+            51.2307857
+          ],
+          [
+            5.308643,
+            51.2313781
+          ],
+          [
+            5.3086747,
+            51.2317239
+          ],
+          [
+            5.3086791,
+            51.2317722
           ]
         ]
       }
@@ -9288,7 +9293,7 @@
       "id": "way/82609264",
       "properties": {
         "highway": "track",
-        "surface": "gravel",
+        "surface": "pebblestone",
         "tracktype": "grade2",
         "id": "way/82609264"
       },
@@ -31894,9 +31899,10 @@
       "type": "Feature",
       "id": "way/315223284",
       "properties": {
-        "highway": "residential",
+        "bicycle": "dismount",
+        "foot": "yes",
+        "highway": "path",
         "name": "Adelbergpark",
-        "oneway": "yes",
         "id": "way/315223284"
       },
       "geometry": {
