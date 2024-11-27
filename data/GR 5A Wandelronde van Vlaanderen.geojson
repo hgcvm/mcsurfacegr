@@ -94429,8 +94429,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0477007,
-            50.9214686
+            4.0476955,
+            50.921475
           ],
           [
             4.0496931,
@@ -125125,7 +125125,7 @@
         "horse:conditional": "yes @ permit",
         "lit": "no",
         "mofa": "yes",
-        "name": "Ropswalle",
+        "name": "Leiekaai",
         "segregated": "no",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,BE:Type_IV_residents_exceptions_nl",
@@ -125145,12 +125145,12 @@
             50.7792823
           ],
           [
-            3.0977397,
-            50.7795469
+            3.0977256,
+            50.779555
           ],
           [
-            3.0982706,
-            50.7798402
+            3.0979707,
+            50.7796832
           ]
         ]
       }
@@ -162587,8 +162587,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0477007,
-            50.9214686
+            4.0476955,
+            50.921475
           ],
           [
             4.0467843,
@@ -165648,6 +165648,40 @@
           [
             3.7185992,
             50.7739275
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1338119156",
+      "properties": {
+        "bicycle": "yes",
+        "designation": "towpath",
+        "foot": "designated",
+        "highway": "unclassified",
+        "horse": "destination",
+        "horse:conditional": "yes @ permit",
+        "lit": "no",
+        "mofa": "yes",
+        "name": "Ropswalle",
+        "segregated": "no",
+        "surface": "asphalt",
+        "traffic_sign": "BE:C3,BE:Type_IV_residents_exceptions_nl",
+        "vehicle": "destination",
+        "vehicle:conditional": "yes @ permit",
+        "id": "way/1338119156"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0979707,
+            50.7796832
+          ],
+          [
+            3.0982706,
+            50.7798402
           ]
         ]
       }
@@ -170179,14 +170213,13 @@
         "incline": "0%",
         "lit": "yes",
         "loc_name": "Ringfietspad",
-        "mopde": "no",
+        "moped": "no",
         "oneway": "no",
         "segregated": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
         "traffic_sign": "BE:D7;BE:M7",
         "width": "2",
-        "width:carriageway": "3",
         "id": "way/24479931"
       },
       "geometry": {
@@ -171233,6 +171266,7 @@
         "motor_vehicle": "destination",
         "name": "Floraliënlaan",
         "oneway": "no",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/24700612"
       },
@@ -177354,9 +177388,11 @@
         "incline": "0%",
         "lit": "yes",
         "loc_name": "Ringfietspad",
+        "moped": "no",
         "oneway": "no",
         "segregated": "no",
         "smoothness": "excellent",
+        "speed_pedelec": "no",
         "surface": "asphalt",
         "traffic_sign": "BE:D7;BE:M7",
         "width": "3",
