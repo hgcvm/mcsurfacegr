@@ -125529,6 +125529,7 @@
         "name": "Veurnestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "operator": "Stad Poperinge",
         "parking:both": "no",
         "ref": "N321",
         "source:maxspeed": "BE:living_street",
@@ -130941,6 +130942,7 @@
         "name": "Grote Markt",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "operator": "Stad Poperinge",
         "parking:both": "no",
         "ref": "N333",
         "source:maxspeed": "BE:living_street",
@@ -164058,6 +164060,7 @@
         "name": "Veurnestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "operator": "Stad Poperinge",
         "parking:both": "street_side",
         "parking:both:orientation": "parallel",
         "ref": "N321",
@@ -182349,8 +182352,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2203652,
-            51.211631
+            3.2203675,
+            51.2116324
+          ],
+          [
+            3.2204118,
+            51.2116623
+          ],
+          [
+            3.2204298,
+            51.2116745
           ],
           [
             3.2208819,
@@ -182480,6 +182491,7 @@
         "cycleway:right": "no",
         "highway": "residential",
         "lane_markings": "no",
+        "layer": "1",
         "lit": "yes",
         "maxspeed": "30",
         "maxweight:signed": "no",
@@ -182490,7 +182502,7 @@
         "parking:both": "no_parking",
         "sett:pattern": "arc",
         "sett:type": "cubes",
-        "sidewalk": "both",
+        "sidewalk:both": "separate",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width:carriageway": "10",
@@ -182531,7 +182543,7 @@
         "parking:both": "no_parking",
         "sett:pattern": "arc",
         "sett:type": "cubes",
-        "sidewalk": "both",
+        "sidewalk:both": "separate",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width:carriageway": "10",
@@ -183833,7 +183845,7 @@
         "parking:both": "no_parking",
         "sett:pattern": "arc",
         "sett:type": "cubes",
-        "sidewalk": "both",
+        "sidewalk:both": "separate",
         "source:maxspeed": "BE:zone30",
         "source:width": "ARCore",
         "surface": "sett",
@@ -183848,12 +183860,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2203652,
-            51.211631
+            3.2203675,
+            51.2116324
           ],
           [
-            3.2203958,
-            51.211612
+            3.2203938,
+            51.2116162
           ],
           [
             3.2205432,
