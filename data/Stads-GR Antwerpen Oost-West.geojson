@@ -1595,6 +1595,7 @@
         "name": "Ploegstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:speed_pedelec": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/27221023"
@@ -2409,6 +2410,7 @@
         "highway": "pedestrian",
         "lit": "yes",
         "name": "Kievitplein",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/191567487"
       },
@@ -2440,6 +2442,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "pedestrian",
+        "lit": "yes",
         "name": "Kievitplein",
         "smoothness": "good",
         "surface": "paving_stones",
@@ -5137,6 +5140,7 @@
         "name:etymology:wikidata": "Q619",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:speed_pedelec": "no",
         "parking:both": "no",
         "surface": "asphalt",
         "id": "way/1111521865"
@@ -5186,8 +5190,11 @@
       "type": "Feature",
       "id": "way/1111521869",
       "properties": {
+        "bicycle": "yes",
         "highway": "pedestrian",
+        "lit": "yes",
         "name": "Mediaplein",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/1111521869"
       },
