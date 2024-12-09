@@ -24890,14 +24890,13 @@
       "id": "way/35325848",
       "properties": {
         "bicycle": "yes",
-        "bus": "yes",
         "emergency": "yes",
         "highway": "service",
-        "horse": "yes",
         "mofa": "yes",
         "motor_vehicle": "no",
         "name": "Maastrichterallee",
         "oneway:mofa": "no",
+        "smoothness": "bad",
         "surface": "cobblestone",
         "traffic_sign": "BE:C3,BE:M3_nl,BE:Type_IV_local_traffic_nl",
         "vehicle": "destination",
@@ -24915,8 +24914,8 @@
             50.8405727
           ],
           [
-            5.5292124,
-            50.8405754
+            5.5292121,
+            50.8405747
           ]
         ]
       }
@@ -24934,7 +24933,8 @@
         "motor_vehicle": "no",
         "name": "Maastrichterallee",
         "oneway:mofa": "no",
-        "surface": "sett",
+        "smoothness": "bad",
+        "surface": "cobblestone",
         "traffic_sign": "BE:C3,BE:M3_nl,BE:Type_IV_local_traffic_nl",
         "vehicle": "destination",
         "id": "way/35325850"
@@ -24943,7 +24943,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.5291315,
+            5.5291312,
             50.8405931
           ],
           [
@@ -25166,6 +25166,7 @@
         "motor_vehicle": "no",
         "name": "Maastrichterallee",
         "oneway:mofa": "no",
+        "smoothness": "bad",
         "surface": "cobblestone",
         "traffic_sign": "BE:C3,BE:M3_nl,BE:Type_IV_local_traffic_nl",
         "tunnel": "building_passage",
@@ -25176,11 +25177,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.5292124,
-            50.8405754
+            5.5292121,
+            50.8405747
           ],
           [
-            5.5291315,
+            5.5291312,
             50.8405931
           ]
         ]
@@ -26265,6 +26266,10 @@
             50.8325594
           ],
           [
+            5.553373,
+            50.8324609
+          ],
+          [
             5.5533386,
             50.8324326
           ],
@@ -26548,8 +26553,11 @@
       "id": "way/36266187",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Weerterstraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/36266187"
       },
       "geometry": {
@@ -26662,8 +26670,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.5349749,
-            50.8320787
+            5.5350044,
+            50.8320961
           ],
           [
             5.5342165,
@@ -26682,8 +26690,9 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
-        "source:maxspeed": "BE:zone50",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/36266411"
       },
       "geometry": {
@@ -26796,6 +26805,7 @@
       "properties": {
         "highway": "footway",
         "surface": "compacted",
+        "vehicle": "no",
         "id": "way/36267465"
       },
       "geometry": {
@@ -26844,7 +26854,8 @@
         "moped": "yes",
         "motor_vehicle": "no",
         "name": "Maastrichterallee",
-        "surface": "cobblestone",
+        "smoothness": "good",
+        "surface": "paving_stones",
         "vehicle": "destination",
         "id": "way/36267840"
       },
@@ -54677,24 +54688,12 @@
             50.8358095
           ],
           [
-            5.5293311,
-            50.8360107
-          ],
-          [
             5.5291129,
             50.8360909
           ],
           [
-            5.528925,
-            50.8361849
-          ],
-          [
             5.5287897,
             50.8362584
-          ],
-          [
-            5.5286987,
-            50.8363252
           ],
           [
             5.5285406,
@@ -54713,6 +54712,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Bosselaar",
+        "surface": "asphalt",
         "id": "way/61765029"
       },
       "geometry": {
@@ -54976,8 +54976,8 @@
             50.8433085
           ],
           [
-            5.5202465,
-            50.8428774
+            5.5202619,
+            50.8428838
           ],
           [
             5.520392,
@@ -83520,12 +83520,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.5350596,
-            50.8321311
+            5.5350375,
+            50.8321175
           ],
           [
-            5.5349749,
-            50.8320787
+            5.5350044,
+            50.8320961
           ]
         ]
       }
@@ -83542,6 +83542,7 @@
         "horse": "yes",
         "maxspeed": "30",
         "name": "Keiberg",
+        "smoothness": "good",
         "surface": "concrete",
         "traffic_sign": "BE:F99c",
         "id": "way/224767195"
@@ -83550,32 +83551,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.5350596,
-            50.8321311
-          ],
-          [
-            5.5349883,
-            50.8322185
+            5.5350375,
+            50.8321175
           ],
           [
             5.5347299,
             50.8327994
           ],
           [
-            5.5346719,
-            50.8328889
-          ],
-          [
-            5.5345948,
-            50.8329767
-          ],
-          [
             5.5344264,
             50.8331481
-          ],
-          [
-            5.5334017,
-            50.8340406
           ],
           [
             5.5330744,
@@ -86866,8 +86851,12 @@
             50.8308612
           ],
           [
-            5.5528111,
-            50.8307089
+            5.5528167,
+            50.8307131
+          ],
+          [
+            5.552799,
+            50.8306987
           ]
         ]
       }
@@ -86886,8 +86875,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.5528111,
-            50.8307089
+            5.552799,
+            50.8306987
           ],
           [
             5.5522666,
@@ -113720,7 +113709,8 @@
         "horse": "no",
         "motor_vehicle": "no",
         "name": "Maastrichterallee",
-        "surface": "cobblestone",
+        "smoothness": "good",
+        "surface": "paving_stones",
         "id": "way/756347790"
       },
       "geometry": {
@@ -124604,8 +124594,11 @@
       "id": "way/1008180423",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Weerterstraat",
+        "source:maxspeed": "sign",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/1008180423"
       },
       "geometry": {
@@ -126502,10 +126495,6 @@
           [
             5.5287438,
             50.8407704
-          ],
-          [
-            5.5251347,
-            50.8416999
           ],
           [
             5.5242808,

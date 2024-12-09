@@ -180798,7 +180798,7 @@
         "overtaking:motor_vehicle": "no",
         "parking:both": "no",
         "sett:pattern": "arc",
-        "sidewalk": "no",
+        "sidewalk:both": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width:carriageway": "3.7",
@@ -180861,7 +180861,7 @@
         "overtaking:motor_vehicle": "no",
         "parking:both": "no",
         "sett:pattern": "arc",
-        "sidewalk": "right",
+        "sidewalk:right": "separate",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width:carriageway": "4.7",
@@ -180885,8 +180885,8 @@
             51.2108972
           ],
           [
-            3.2206013,
-            51.2108247
+            3.2205933,
+            51.2108213
           ],
           [
             3.2205016,
@@ -181297,8 +181297,7 @@
         "name:etymology:wikidata": "Q2283106",
         "oneway": "no",
         "parking:both": "no_parking",
-        "sidewalk:left": "yes",
-        "sidewalk:right": "separate",
+        "sidewalk:left": "separate",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width:carriageway": "5.3",
@@ -181310,8 +181309,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2247342,
-            51.2132268
+            3.2247282,
+            51.2132398
           ],
           [
             3.224648,
@@ -181326,16 +181325,16 @@
             51.2131841
           ],
           [
-            3.2242987,
-            51.213119
+            3.2243,
+            51.2131198
           ],
           [
-            3.2238846,
+            3.2238873,
             51.2129467
           ],
           [
-            3.2231251,
-            51.2126362
+            3.2231227,
+            51.2126261
           ]
         ]
       }
@@ -182754,7 +182753,6 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "parking:both": "no",
-        "sidewalk": "left",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width:carriageway": "4.5",
@@ -182766,16 +182764,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.222606,
-            51.2123978
+            3.222599,
+            51.2123986
           ],
           [
             3.2226467,
             51.2124134
-          ],
-          [
-            3.2231251,
-            51.2126362
           ]
         ]
       }
@@ -182891,6 +182885,7 @@
       "id": "way/300654964",
       "properties": {
         "cyclestreet": "yes",
+        "foot": "use_sidepath",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -182900,7 +182895,7 @@
         "parking:left": "no",
         "parking:right": "yes",
         "parking:right:orientation": "parallel",
-        "sidewalk": "both",
+        "sidewalk:both": "separate",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width:carriageway": "5.6",
@@ -183320,7 +183315,7 @@
         "oneway": "no",
         "parking:both": "no",
         "sett:pattern": "arc",
-        "sidewalk": "no",
+        "sidewalk:both": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width:carriageway": "3.4",
@@ -183357,8 +183352,8 @@
             51.2123808
           ],
           [
-            3.222606,
-            51.2123978
+            3.222599,
+            51.2123986
           ]
         ]
       }
@@ -184308,8 +184303,12 @@
             51.2133636
           ],
           [
-            3.2250113,
-            51.2133106
+            3.2253309,
+            51.2133534
+          ],
+          [
+            3.225015,
+            51.2133068
           ]
         ]
       }
@@ -184339,20 +184338,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2250113,
-            51.2133106
+            3.225015,
+            51.2133068
           ],
           [
             3.224899,
             51.2132829
           ],
           [
-            3.2248027,
-            51.2132518
+            3.2248128,
+            51.2132615
           ],
           [
-            3.2247342,
-            51.2132268
+            3.2247282,
+            51.2132398
           ]
         ]
       }
@@ -184816,6 +184815,45 @@
           [
             3.226858,
             51.2070656
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1341033690",
+      "properties": {
+        "cycleway": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Augustijnenrei",
+        "name:etymology:wikidata": "Q2283106",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "source:maxspeed": "BE:zone30",
+        "surface": "sett",
+        "width:carriageway": "4.5",
+        "wikidata": "Q2705155",
+        "wikipedia": "nl:Augustijnenrei",
+        "id": "way/1341033690"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2226467,
+            51.2124134
+          ],
+          [
+            3.2226906,
+            51.212433
+          ],
+          [
+            3.2231227,
+            51.2126261
           ]
         ]
       }
