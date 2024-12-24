@@ -3128,7 +3128,7 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Knodbaan",
         "sidewalk": "no",
         "surface": "paving_stones",
@@ -3140,6 +3140,14 @@
           [
             4.5995641,
             51.2175638
+          ],
+          [
+            4.5994747,
+            51.2175778
+          ],
+          [
+            4.5980625,
+            51.2177944
           ],
           [
             4.5977247,
@@ -3202,6 +3210,7 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Knodbaan",
         "sidewalk": "no",
         "surface": "asphalt",
@@ -3231,6 +3240,7 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Knodbaan",
         "sidewalk": "no",
         "surface": "paving_stones",
@@ -3278,8 +3288,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.591263,
-            51.2178906
+            4.5912498,
+            51.2181678
           ],
           [
             4.5911341,
@@ -3328,8 +3338,11 @@
       "type": "Feature",
       "id": "way/29354962",
       "properties": {
+        "bicycle": "yes",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
+        "motor_vehicle": "destination",
         "name": "Rundvoortstraat",
         "surface": "asphalt",
         "id": "way/29354962"
@@ -8705,13 +8718,14 @@
       "type": "Feature",
       "id": "way/40667803",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Bredabaan",
+        "overtaking:motor_vehicle": "no",
         "sidewalk": "no",
-        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/40667803"
@@ -19625,15 +19639,15 @@
       "type": "Feature",
       "id": "way/176713156",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Bredabaan",
+        "overtaking:motor_vehicle": "no",
         "sidewalk": "no",
-        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
-        "zone:traffic": "BE-VLG:urban",
         "id": "way/176713156"
       },
       "geometry": {
@@ -32162,6 +32176,39 @@
           [
             4.9409994,
             51.2363616
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1345114325",
+      "properties": {
+        "access": "destination",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "unclassified",
+        "horse": "yes",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "name": "Rundvoortstraat",
+        "oneway": "no",
+        "sidewalk": "no",
+        "width": "3",
+        "id": "way/1345114325"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.591263,
+            51.2178906
+          ],
+          [
+            4.5912498,
+            51.2181678
           ]
         ]
       }
