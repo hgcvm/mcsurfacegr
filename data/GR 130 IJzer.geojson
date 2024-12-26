@@ -27488,7 +27488,7 @@
       "properties": {
         "highway": "steps",
         "incline": "down",
-        "surface": "asphalt",
+        "surface": "wood",
         "id": "way/951809733"
       },
       "geometry": {
@@ -27577,7 +27577,7 @@
       "properties": {
         "highway": "steps",
         "incline": "down",
-        "surface": "asphalt",
+        "surface": "wood",
         "id": "way/951809736"
       },
       "geometry": {
@@ -27995,9 +27995,11 @@
       "id": "way/951813695",
       "properties": {
         "bicycle": "yes",
+        "bridge": "yes",
         "designation": "towpath",
         "highway": "path",
         "horse": "no",
+        "layer": "1",
         "mofa": "yes",
         "note": "surface is in bad shape (cracks & holes)",
         "smoothness": "intermediate",
@@ -28018,24 +28020,12 @@
             50.9498124
           ],
           [
-            2.7196206,
-            50.9497298
+            2.7196074,
+            50.9497234
           ],
           [
-            2.7195395,
-            50.9497095
-          ],
-          [
-            2.71945,
-            50.9496869
-          ],
-          [
-            2.7193657,
-            50.9496613
-          ],
-          [
-            2.71909,
-            50.9495515
+            2.7194004,
+            50.9496739
           ]
         ]
       }
@@ -31432,6 +31422,40 @@
           [
             2.7934662,
             50.9647878
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1346152161",
+      "properties": {
+        "bicycle": "yes",
+        "designation": "towpath",
+        "highway": "path",
+        "horse": "no",
+        "mofa": "yes",
+        "note": "surface is in bad shape (cracks & holes)",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "traffic_sign": "BE:C3,GIII[JAAGPAD],GIV[UITGEZONDERD AANGELANDEN TOELATINGEN W&Z, RIJWIELEN EN BROMFIETSEN KLASSE A]",
+        "vehicle": "no",
+        "id": "way/1346152161"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7194004,
+            50.9496739
+          ],
+          [
+            2.7193657,
+            50.9496613
+          ],
+          [
+            2.71909,
+            50.9495515
           ]
         ]
       }
