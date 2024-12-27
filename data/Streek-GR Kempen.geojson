@@ -2550,14 +2550,6 @@
           [
             4.9472609,
             51.3324644
-          ],
-          [
-            4.9474588,
-            51.3322312
-          ],
-          [
-            4.947709,
-            51.3319943
           ]
         ]
       }
@@ -6246,7 +6238,9 @@
       "properties": {
         "highway": "track",
         "name": "Herentalsesteenweg",
+        "smoothness": "excellent",
         "surface": "concrete:lanes",
+        "surface:middle": "grass_paver",
         "tracktype": "grade1",
         "id": "way/37615626"
       },
@@ -7284,11 +7278,14 @@
       "type": "Feature",
       "id": "way/38255084",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "70",
         "name": "Bekenbaan",
         "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/38255084"
       },
@@ -7334,6 +7331,10 @@
           [
             4.9046452,
             51.2098397
+          ],
+          [
+            4.9039144,
+            51.2096442
           ]
         ]
       }
@@ -23015,32 +23016,6 @@
           [
             4.9207791,
             51.2157331
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/141123244",
-      "properties": {
-        "highway": "residential",
-        "lane_markings": "no",
-        "lit": "yes",
-        "name": "Bekenbaan",
-        "sidewalk": "no",
-        "surface": "asphalt",
-        "id": "way/141123244"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.9046452,
-            51.2098397
-          ],
-          [
-            4.9039144,
-            51.2096442
           ]
         ]
       }
@@ -41297,11 +41272,14 @@
       "type": "Feature",
       "id": "way/536714301",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "70",
         "name": "Bekenbaan",
         "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/536714301"
       },
@@ -52485,6 +52463,35 @@
           [
             4.9409994,
             51.2363616
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1346350252",
+      "properties": {
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Koningin Elisabethlei",
+        "name:etymology:wikidata": "Q235186",
+        "id": "way/1346350252"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9472609,
+            51.3324644
+          ],
+          [
+            4.9474588,
+            51.3322312
+          ],
+          [
+            4.947709,
+            51.3319943
           ]
         ]
       }

@@ -7051,6 +7051,7 @@
         "name": "Kinkenberg",
         "name:fr": "Kinkenberg",
         "name:nl": "Kinkenberg",
+        "surface": "asphalt",
         "id": "way/23971031"
       },
       "geometry": {
@@ -7099,6 +7100,7 @@
         "maxspeed": "30",
         "name": "Meulenberg",
         "speed_pedelec": "yes",
+        "surface": "asphalt",
         "traffic_sign": "BE:F99c",
         "id": "way/23971325"
       },
@@ -11427,9 +11429,10 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
-        "maxspeed": "70",
+        "maxspeed": "30",
         "name": "Piringenstraat",
         "surface": "paving_stones",
+        "traffic_sign": "BE:C43",
         "id": "way/25467197"
       },
       "geometry": {
@@ -11581,20 +11584,8 @@
             50.7869796
           ],
           [
-            5.4217567,
-            50.786945
-          ],
-          [
             5.4213241,
             50.7867174
-          ],
-          [
-            5.4210196,
-            50.7865411
-          ],
-          [
-            5.4204576,
-            50.7862182
           ],
           [
             5.4203501,
@@ -12011,6 +12002,7 @@
         "horse": "yes",
         "maxspeed": "30",
         "name": "Piringenstraat",
+        "speed_pedelec": "yes",
         "surface": "concrete",
         "traffic_sign": "BE:F99c",
         "id": "way/25493681"
@@ -12031,36 +12023,24 @@
             50.7821735
           ],
           [
-            5.4271951,
-            50.7820543
-          ],
-          [
-            5.4276854,
-            50.781914
+            5.4270476,
+            50.7820967
           ],
           [
             5.4278895,
             50.7818597
           ],
           [
-            5.4280213,
-            50.7818355
-          ],
-          [
-            5.428154,
-            50.7818191
+            5.4282251,
+            50.781805
           ],
           [
             5.4285496,
             50.781788
           ],
           [
-            5.4291547,
-            50.7817479
-          ],
-          [
-            5.4296504,
-            50.7816935
+            5.4295163,
+            50.7817054
           ],
           [
             5.4317991,
@@ -19569,6 +19549,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Gijberg",
+        "surface": "asphalt",
         "id": "way/31307078"
       },
       "geometry": {
@@ -27082,6 +27063,7 @@
         "name": "Kinkenberg",
         "name:fr": "Kinkenberg",
         "name:nl": "Kinkenberg",
+        "surface": "asphalt",
         "id": "way/37571904"
       },
       "geometry": {
@@ -40778,14 +40760,17 @@
       "type": "Feature",
       "id": "way/39483934",
       "properties": {
+        "bicycle": "designated",
         "cyclestreet": "yes",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Piringenstraat",
+        "overtaking:motor_vehicle": "no",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "paving_stones",
+        "traffic_sign": "BE:F111",
         "id": "way/39483934"
       },
       "geometry": {
@@ -44365,7 +44350,7 @@
         "highway": "track",
         "motor_vehicle": "no",
         "mtb:scale": "1",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/40393636"
       },
@@ -44441,12 +44426,12 @@
             50.7553147
           ],
           [
-            5.7877559,
-            50.7552234
+            5.7878492,
+            50.7552832
           ],
           [
-            5.787701,
-            50.755178
+            5.7877383,
+            50.7552049
           ],
           [
             5.7876122,
@@ -45537,7 +45522,7 @@
         "highway": "path",
         "incline": "10%",
         "mtb:scale": "4",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/40946589"
       },
       "geometry": {
@@ -45578,8 +45563,9 @@
       "type": "Feature",
       "id": "way/40946593",
       "properties": {
-        "highway": "path",
-        "surface": "unpaved",
+        "highway": "track",
+        "surface": "dirt",
+        "tracktype": "grade4",
         "id": "way/40946593"
       },
       "geometry": {
@@ -47340,6 +47326,7 @@
         "maxspeed": "30",
         "name": "Komberg",
         "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
         "id": "way/43580639"
       },
       "geometry": {
@@ -77719,7 +77706,7 @@
         "name": "Kattenroth / Heerbaan",
         "name:left": "Heerbaan",
         "name:right": "Kattenroth",
-        "surface": "asphalt",
+        "surface": "concrete",
         "traffic_sign": "BE:F99c",
         "id": "way/183973674"
       },
@@ -77786,6 +77773,7 @@
       "id": "way/183973680",
       "properties": {
         "highway": "track",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/183973680"
       },
@@ -88880,6 +88868,7 @@
         "name": "Kinkenberg",
         "name:fr": "Kinkenberg",
         "name:nl": "Kinkenberg",
+        "surface": "asphalt",
         "id": "way/307403858"
       },
       "geometry": {
@@ -88934,10 +88923,6 @@
             50.7603074
           ],
           [
-            5.7682446,
-            50.7603237
-          ],
-          [
             5.7682727,
             50.7603225
           ],
@@ -88955,6 +88940,7 @@
         "cutting": "yes",
         "highway": "unclassified",
         "name": "Gijberg",
+        "surface": "asphalt",
         "id": "way/307403864"
       },
       "geometry": {
@@ -97232,7 +97218,7 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Kattenroth",
-        "surface": "asphalt",
+        "surface": "concrete",
         "traffic_sign": "BE:F99c",
         "id": "way/399117943"
       },
@@ -97364,52 +97350,20 @@
             50.7563436
           ],
           [
-            5.8071192,
-            50.7562758
+            5.8070261,
+            50.7563109
           ],
           [
-            5.8071855,
-            50.756248
+            5.8070837,
+            50.7562906
           ],
           [
-            5.8072319,
-            50.7562181
+            5.8071453,
+            50.7562654
           ],
           [
-            5.8073244,
-            50.7561585
-          ],
-          [
-            5.8075152,
-            50.7560792
-          ],
-          [
-            5.8078201,
-            50.7560285
-          ],
-          [
-            5.8082919,
-            50.7559794
-          ],
-          [
-            5.8086633,
-            50.7559424
-          ],
-          [
-            5.8089875,
-            50.7559074
-          ],
-          [
-            5.8093385,
-            50.7558897
-          ],
-          [
-            5.8097311,
-            50.7558913
-          ],
-          [
-            5.8099069,
-            50.7559036
+            5.8072084,
+            50.7562342
           ]
         ]
       }
@@ -97512,6 +97466,7 @@
         "horse": "yes",
         "maxspeed": "30",
         "name": "Rooierweg",
+        "surface": "concrete",
         "traffic_sign": "BE:F99c",
         "id": "way/405187641"
       },
@@ -104232,6 +104187,7 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Vitschen",
+        "surface": "asphalt",
         "traffic_sign": "BE:F99c",
         "id": "way/524613240"
       },
@@ -106548,6 +106504,7 @@
       "properties": {
         "highway": "residential",
         "name": "Vitschen",
+        "surface": "asphalt",
         "id": "way/578250973"
       },
       "geometry": {
@@ -106626,6 +106583,7 @@
       "properties": {
         "highway": "track",
         "name": "Meulenberg",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/578250976"
       },
@@ -119489,7 +119447,7 @@
         "highway": "track",
         "motor_vehicle": "no",
         "mtb:scale": "1",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/846760285"
       },
@@ -119569,6 +119527,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Schophem",
+        "surface": "asphalt",
         "id": "way/846760286"
       },
       "geometry": {
@@ -119592,6 +119551,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Vitschen",
+        "surface": "asphalt",
         "traffic_sign": "BE:F99c",
         "id": "way/846760287"
       },
@@ -120437,14 +120397,17 @@
       "type": "Feature",
       "id": "way/857602627",
       "properties": {
+        "bicycle": "designated",
         "cyclestreet": "yes",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Piringenstraat",
+        "overtaking:motor_vehicle": "no",
         "sidewalk": "both",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "traffic_sign": "BE:F111",
         "id": "way/857602627"
       },
       "geometry": {
@@ -120546,6 +120509,7 @@
         "horse": "yes",
         "maxspeed": "30",
         "name": "Rooierweg",
+        "surface": "asphalt",
         "traffic_sign": "BE:F99c",
         "id": "way/857602631"
       },
@@ -122655,6 +122619,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Gijberg",
+        "surface": "asphalt",
         "id": "way/916215125"
       },
       "geometry": {
@@ -122677,6 +122642,7 @@
       "properties": {
         "highway": "residential",
         "name": "Vitschen",
+        "surface": "asphalt",
         "id": "way/916215126"
       },
       "geometry": {
@@ -134338,6 +134304,63 @@
           [
             4.7222653,
             50.8685307
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1346433999",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "30",
+        "name": "Kattenroth",
+        "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
+        "id": "way/1346433999"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.8072084,
+            50.7562342
+          ],
+          [
+            5.8073244,
+            50.7561585
+          ],
+          [
+            5.8075152,
+            50.7560792
+          ],
+          [
+            5.8078201,
+            50.7560285
+          ],
+          [
+            5.8082919,
+            50.7559794
+          ],
+          [
+            5.8086633,
+            50.7559424
+          ],
+          [
+            5.8089875,
+            50.7559074
+          ],
+          [
+            5.8093385,
+            50.7558897
+          ],
+          [
+            5.8097311,
+            50.7558913
+          ],
+          [
+            5.8099069,
+            50.7559036
           ]
         ]
       }
