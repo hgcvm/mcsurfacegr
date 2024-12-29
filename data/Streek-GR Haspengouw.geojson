@@ -8474,14 +8474,13 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "track",
+        "highway": "unclassified",
         "horse": "yes",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Eerste-Meistraat",
         "speed_pedelec": "yes",
         "surface": "asphalt",
-        "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "id": "way/28081593"
       },
@@ -9052,17 +9051,22 @@
       "type": "Feature",
       "id": "way/38612499",
       "properties": {
-        "foot": "yes",
-        "highway": "footway",
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "foot": "designated",
+        "highway": "path",
+        "maxspeed": "30",
+        "segregated": "no",
         "surface": "paved",
+        "traffic_sign": "BE:F111",
         "id": "way/38612499"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.4678454,
-            50.7783037
+            5.4678347,
+            50.7783122
           ],
           [
             5.4678621,
@@ -9225,12 +9229,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4679054,
-            50.7783249
-          ],
-          [
-            5.4680355,
-            50.7783698
+            5.4679094,
+            50.7783393
           ],
           [
             5.4681395,
@@ -9275,11 +9275,16 @@
       "type": "Feature",
       "id": "way/38922498",
       "properties": {
-        "bicycle": "designated",
+        "access": "destination",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "path",
+        "maxspeed": "30",
         "segregated": "no",
         "speed_pedelec": "yes",
-        "surface": "paved",
+        "surface": "sett",
+        "traffic_sign": "BE:F99a",
         "id": "way/38922498"
       },
       "geometry": {
@@ -9407,17 +9412,20 @@
       "properties": {
         "highway": "tertiary",
         "lanes": "2",
+        "maxspeed": "50",
         "name": "Sint-Martensstraat",
         "smoothness": "intermediate",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/39057269"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.496031,
-            50.7907574
+            5.4960283,
+            50.7907426
           ],
           [
             5.4960142,
@@ -9951,9 +9959,12 @@
       "id": "way/284332198",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Godensteenstraat",
         "smoothness": "intermediate",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/284332198"
       },
       "geometry": {
@@ -9968,12 +9979,8 @@
             50.7906692
           ],
           [
-            5.4959335,
-            50.7907296
-          ],
-          [
-            5.496031,
-            50.7907574
+            5.4960283,
+            50.7907426
           ]
         ]
       }
@@ -10630,6 +10637,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "cycleway",
+        "lit": "yes",
         "segregated": "no",
         "speed_pedelec": "yes",
         "surface": "concrete",
@@ -10644,116 +10652,64 @@
             50.7782893
           ],
           [
-            5.4745412,
-            50.7783054
+            5.4745104,
+            50.7783033
           ],
           [
-            5.4744603,
-            50.7782931
+            5.474282,
+            50.778235
           ],
           [
-            5.4743732,
-            50.778263
+            5.4737395,
+            50.7781994
           ],
           [
-            5.4743236,
-            50.7782477
+            5.473539,
+            50.7781188
           ],
           [
-            5.4742364,
-            50.7782299
+            5.4733935,
+            50.7780878
           ],
           [
-            5.4738737,
-            50.7782129
+            5.4731601,
+            50.7781218
           ],
           [
-            5.4737958,
-            50.7782083
-          ],
-          [
-            5.4737201,
-            50.7781934
-          ],
-          [
-            5.4736396,
-            50.7781642
-          ],
-          [
-            5.4735363,
-            50.778118
-          ],
-          [
-            5.4734425,
-            50.7780963
-          ],
-          [
-            5.4733673,
-            50.7780925
-          ],
-          [
-            5.4732889,
-            50.7781023
-          ],
-          [
-            5.4731675,
-            50.778118
-          ],
-          [
-            5.4729529,
-            50.7781277
-          ],
-          [
-            5.4729047,
-            50.7781387
-          ],
-          [
-            5.4728289,
-            50.7781612
+            5.4729375,
+            50.7781264
           ],
           [
             5.4727102,
             50.778207
           ],
           [
-            5.4726344,
-            50.7782867
+            5.4726532,
+            50.7782519
           ],
           [
-            5.4726297,
-            50.778377
+            5.4726223,
+            50.7783071
           ],
           [
-            5.4726271,
-            50.7785259
+            5.472633,
+            50.7785572
           ],
           [
-            5.472625,
-            50.7785657
+            5.4725848,
+            50.7786293
           ],
           [
-            5.4726009,
-            50.7786047
+            5.4725164,
+            50.7786997
           ],
           [
-            5.4725412,
-            50.7786662
-          ],
-          [
-            5.4724815,
-            50.7787133
-          ],
-          [
-            5.4724038,
-            50.7787484
+            5.4724252,
+            50.7787362
           ],
           [
             5.4723206,
             50.7787641
-          ],
-          [
-            5.4722261,
-            50.7787701
           ],
           [
             5.4721088,
@@ -10998,10 +10954,14 @@
       "type": "Feature",
       "id": "way/729377490",
       "properties": {
+        "bicycle": "designated",
         "bridge": "yes",
-        "highway": "footway",
+        "foot": "designated",
+        "highway": "path",
         "layer": "1",
-        "surface": "paved",
+        "segregated": "no",
+        "surface": "wood",
+        "width": "2",
         "id": "way/729377490"
       },
       "geometry": {
@@ -11022,8 +10982,16 @@
       "type": "Feature",
       "id": "way/729377491",
       "properties": {
-        "highway": "footway",
-        "surface": "paved",
+        "access": "destination",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "maxspeed": "30",
+        "segregated": "no",
+        "speed_pedelec": "yes",
+        "surface": "sett",
+        "traffic_sign": "BE:F99a",
         "id": "way/729377491"
       },
       "geometry": {
@@ -11078,12 +11046,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4678454,
-            50.7783037
+            5.4678347,
+            50.7783122
           ],
           [
-            5.4679054,
-            50.7783249
+            5.4679094,
+            50.7783393
           ]
         ]
       }
@@ -11176,7 +11144,10 @@
       "type": "Feature",
       "id": "way/832886899",
       "properties": {
-        "highway": "cycleway",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "segregated": "yes",
         "speed_pedelec": "yes",
         "id": "way/832886899"
       },
@@ -11512,6 +11483,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "cycleway",
+        "lit": "yes",
         "segregated": "no",
         "speed_pedelec": "yes",
         "surface": "concrete",
