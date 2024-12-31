@@ -1358,8 +1358,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2659248,
-            51.3420476
+            3.2659,
+            51.3420514
           ],
           [
             3.2658445,
@@ -5752,20 +5752,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2664564,
-            51.3419036
+            3.2666176,
+            51.3418638
           ],
           [
-            3.2667484,
-            51.3418383
+            3.2668604,
+            51.3418075
           ],
           [
             3.2671203,
             51.3417537
           ],
           [
-            3.2673826,
-            51.3417197
+            3.2673948,
+            51.3417157
           ],
           [
             3.2675503,
@@ -8096,6 +8096,10 @@
             51.3284272
           ],
           [
+            3.1967216,
+            51.3284122
+          ],
+          [
             3.196733,
             51.3283479
           ],
@@ -8112,8 +8116,12 @@
             51.3280976
           ],
           [
-            3.1968205,
-            51.3278643
+            3.1968226,
+            51.3278645
+          ],
+          [
+            3.1968588,
+            51.3277244
           ],
           [
             3.1969729,
@@ -8721,9 +8729,9 @@
       "type": "Feature",
       "id": "way/87782357",
       "properties": {
+        "bicycle": "use_sidepath",
         "highway": "residential",
-        "name": "Arcadelaan",
-        "oneway": "yes",
+        "oneway": "no",
         "surface": "asphalt",
         "id": "way/87782357"
       },
@@ -8731,16 +8739,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2661589,
-            51.342017
+            3.266131,
+            51.341991
           ],
           [
-            3.2660693,
-            51.3420351
-          ],
-          [
-            3.2659248,
-            51.3420476
+            3.2659,
+            51.3420514
           ]
         ]
       }
@@ -8749,9 +8753,11 @@
       "type": "Feature",
       "id": "way/87782362",
       "properties": {
+        "cycleway:left": "shared_lane",
+        "cycleway:left:oneway": "-1",
         "highway": "residential",
         "name": "Arcadelaan",
-        "oneway": "yes",
+        "sidewalk": "both",
         "surface": "paving_stones",
         "id": "way/87782362"
       },
@@ -8759,24 +8765,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2664564,
-            51.3419036
+            3.266474,
+            51.3419008
           ],
           [
-            3.2664137,
-            51.3419399
+            3.2662751,
+            51.3419521
           ],
           [
-            3.2662582,
-            51.3419912
+            3.2662428,
+            51.3419604
           ],
           [
-            3.2662259,
-            51.3419996
+            3.2662066,
+            51.3419704
           ],
           [
-            3.2661589,
-            51.342017
+            3.266131,
+            51.341991
           ]
         ]
       }
@@ -8815,8 +8821,10 @@
         "name": "Londenstraat",
         "name:etymology:wikidata": "Q84",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
         "traffic_calming": "table",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/88076097"
       },
       "geometry": {
@@ -8855,8 +8863,8 @@
             51.3273268
           ],
           [
-            3.1850102,
-            51.3273611
+            3.1850101,
+            51.3273641
           ],
           [
             3.1850082,
@@ -15902,40 +15910,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/137821868",
-      "properties": {
-        "bicycle": "yes",
-        "highway": "pedestrian",
-        "lit": "yes",
-        "name": "Zeedijk",
-        "smoothness": "good",
-        "surface": "paving_stones",
-        "id": "way/137821868"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.1831267,
-            51.3299757
-          ],
-          [
-            3.1828967,
-            51.329924
-          ],
-          [
-            3.1817214,
-            51.3296598
-          ],
-          [
-            3.1814799,
-            51.329605
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/137821869",
       "properties": {
         "highway": "pedestrian",
@@ -18389,14 +18363,6 @@
           [
             3.1950015,
             51.3270886
-          ],
-          [
-            3.1968569,
-            51.3272711
-          ],
-          [
-            3.1969729,
-            51.3272826
           ]
         ]
       }
@@ -20182,15 +20148,17 @@
         "name": "Londenstraat",
         "name:etymology:wikidata": "Q84",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/199093637"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.1762774,
-            51.3283357
+            3.176258,
+            51.328368
           ],
           [
             3.1766267,
@@ -20203,95 +20171,84 @@
       "type": "Feature",
       "id": "way/199093640",
       "properties": {
-        "bicycle": "no",
+        "bicycle": "yes",
         "highway": "pedestrian",
+        "horse": "no",
+        "horse:conditional": "yes @ permit; yes @ (delivery AND 06:00-11:00,19:00-21:00)",
         "lit": "yes",
+        "maxspeed": "30",
+        "mofa": "yes",
         "name": "Zeedijk",
+        "smoothness": "good",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "paving_stones",
+        "vehicle": "no",
+        "vehicle:conditional": "yes @ permit; yes @ (delivery AND 06:00-11:00,19:00-21:00)",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/199093640"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.1762228,
-            51.3284251
+            3.1831831,
+            51.3299396
           ],
           [
-            3.1763115,
-            51.3284493
+            3.183042,
+            51.3299365
           ],
           [
-            3.177844,
-            51.3288269
+            3.1828967,
+            51.329924
           ],
           [
-            3.1779058,
-            51.3288378
-          ],
-          [
-            3.1779655,
-            51.3288403
-          ],
-          [
-            3.1780129,
-            51.3288372
-          ],
-          [
-            3.1780552,
-            51.3288391
-          ],
-          [
-            3.1781287,
-            51.3288574
-          ],
-          [
-            3.1782431,
-            51.3288845
-          ],
-          [
-            3.1782834,
-            51.3289063
-          ],
-          [
-            3.178311,
-            51.3289277
-          ],
-          [
-            3.178362,
-            51.328949
-          ],
-          [
-            3.1784051,
-            51.3289605
-          ],
-          [
-            3.1785722,
-            51.3290052
-          ],
-          [
-            3.1791009,
-            51.329127
-          ],
-          [
-            3.1796413,
-            51.3292516
-          ],
-          [
-            3.1799784,
-            51.3293293
-          ],
-          [
-            3.1801431,
-            51.3293673
-          ],
-          [
-            3.1812426,
-            51.3296208
+            3.1817214,
+            51.3296598
           ],
           [
             3.1814799,
             51.329605
+          ],
+          [
+            3.1801738,
+            51.3293153
+          ],
+          [
+            3.1800091,
+            51.3292773
+          ],
+          [
+            3.1796716,
+            51.3292003
+          ],
+          [
+            3.1791312,
+            51.3290757
+          ],
+          [
+            3.1786048,
+            51.3289545
+          ],
+          [
+            3.1784359,
+            51.3289127
+          ],
+          [
+            3.1783363,
+            51.3288875
+          ],
+          [
+            3.1781417,
+            51.3288371
+          ],
+          [
+            3.1780422,
+            51.3288103
+          ],
+          [
+            3.176258,
+            51.328368
           ]
         ]
       }
@@ -20381,34 +20338,6 @@
           [
             3.2285897,
             51.3377333
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/199093653",
-      "properties": {
-        "bicycle": "no",
-        "highway": "pedestrian",
-        "lit": "yes",
-        "name": "Londenstraat",
-        "name:etymology:wikidata": "Q84",
-        "smoothness": "intermediate",
-        "surface": "paving_stones",
-        "vehicle": "private",
-        "id": "way/199093653"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.1762228,
-            51.3284251
-          ],
-          [
-            3.1762774,
-            51.3283357
           ]
         ]
       }
@@ -26303,10 +26232,6 @@
             51.3316468
           ],
           [
-            3.2061982,
-            51.3316599
-          ],
-          [
             3.2061463,
             51.3316819
           ],
@@ -27289,7 +27214,9 @@
         "name": "Londenstraat",
         "name:etymology:wikidata": "Q84",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/421624286"
       },
       "geometry": {
@@ -27316,8 +27243,10 @@
         "name": "Londenstraat",
         "name:etymology:wikidata": "Q84",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "paving_stones",
         "traffic_calming": "table",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/421624287"
       },
       "geometry": {
@@ -31549,8 +31478,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.183256,
-            51.3296854
+            3.183333,
+            51.3296767
           ],
           [
             3.1833846,
@@ -31604,12 +31533,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.1831267,
-            51.3299757
+            3.1831831,
+            51.3299396
           ],
           [
-            3.183256,
-            51.3296854
+            3.183333,
+            51.3296767
           ]
         ]
       }
@@ -44561,6 +44490,66 @@
           [
             3.3460835,
             51.3648065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1347393057",
+      "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:left:oneway": "-1",
+        "highway": "residential",
+        "name": "Arcadelaan",
+        "sidewalk": "both",
+        "surface": "paving_stones",
+        "id": "way/1347393057"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2666176,
+            51.3418638
+          ],
+          [
+            3.266474,
+            51.3419008
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1347414316",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "maxweight:backward": "3.5",
+        "maxweight:backward:conditional": "none @ destination",
+        "name": "Genuastraat",
+        "name:etymology:wikidata": "Q1449",
+        "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:zone30",
+        "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1347414316"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.1950015,
+            51.3270886
+          ],
+          [
+            3.1968569,
+            51.3272711
+          ],
+          [
+            3.1969729,
+            51.3272826
           ]
         ]
       }
