@@ -170,9 +170,12 @@
       "properties": {
         "cycleway": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "60",
+        "maxspeed:type": "NL:zone60",
         "name": "Statenboomweg",
         "surface": "asphalt",
+        "zone:traffic": "NL:rural",
         "id": "way/7261894"
       },
       "geometry": {
@@ -11031,6 +11034,7 @@
         "oneway": "yes",
         "oneway:bicycle": "yes",
         "sidewalk": "both",
+        "surface": "asphalt",
         "id": "way/43134402"
       },
       "geometry": {
@@ -11768,7 +11772,7 @@
       "id": "way/51677958",
       "properties": {
         "highway": "footway",
-        "surface": "paved",
+        "surface": "paving_stones",
         "vehicle": "no",
         "id": "way/51677958"
       },
@@ -11798,7 +11802,7 @@
         "dog": "no",
         "highway": "footway",
         "horse": "no",
-        "surface": "paved",
+        "surface": "paving_stones",
         "vehicle": "no",
         "id": "way/51677961"
       },
@@ -26185,6 +26189,7 @@
         "dog": "no",
         "highway": "footway",
         "horse": "no",
+        "surface": "paving_stones",
         "id": "way/276671703"
       },
       "geometry": {
@@ -29475,9 +29480,12 @@
       "properties": {
         "cycleway": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "60",
+        "maxspeed:type": "NL:zone60",
         "name": "Kielweg",
         "surface": "asphalt",
+        "zone:traffic": "NL:rural",
         "id": "way/444743041"
       },
       "geometry": {
@@ -30589,6 +30597,8 @@
         "dog": "no",
         "highway": "footway",
         "horse": "no",
+        "surface": "unpaved",
+        "surface:note": "/",
         "id": "way/505260843"
       },
       "geometry": {
@@ -30619,6 +30629,7 @@
         "highway": "footway",
         "horse": "no",
         "layer": "1",
+        "surface": "sett",
         "id": "way/505260844"
       },
       "geometry": {
@@ -30644,7 +30655,7 @@
         "highway": "footway",
         "horse": "no",
         "layer": "1",
-        "surface": "paved",
+        "surface": "paving_stones",
         "vehicle": "no",
         "id": "way/505260847"
       },
