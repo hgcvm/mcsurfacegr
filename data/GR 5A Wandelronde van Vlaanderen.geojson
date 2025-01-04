@@ -2331,12 +2331,14 @@
       "id": "way/7611823",
       "properties": {
         "highway": "unclassified",
-        "horse:forward": "no",
+        "lane_markings": "no",
         "maxspeed": "60",
+        "maxspeed:type": "NL:zone60",
         "mofa": "yes",
         "moped": "yes",
         "motor_vehicle": "destination",
         "name": "Vissersverkorting",
+        "zone:traffic": "NL:rural",
         "id": "way/7611823"
       },
       "geometry": {
@@ -8628,8 +8630,12 @@
             51.227724
           ],
           [
-            3.8167727,
-            51.2276254
+            3.8167633,
+            51.2276619
+          ],
+          [
+            3.816774,
+            51.2276149
           ],
           [
             3.8168159,
@@ -15588,8 +15594,8 @@
             51.227207
           ],
           [
-            3.81666,
-            51.22732
+            3.8166479,
+            51.2273309
           ],
           [
             3.8167534,
@@ -93369,6 +93375,8 @@
       "properties": {
         "highway": "residential",
         "name": "Leopold Sabbestraat / Priester Coulonstraat",
+        "name:left": "Leopold Sabbestraat",
+        "name:right": "Priester Coulonstraat",
         "sidewalk": "both",
         "id": "way/66152984"
       },
@@ -105794,8 +105802,8 @@
             50.7858283
           ],
           [
-            3.1834622,
-            50.7856846
+            3.1832087,
+            50.7856134
           ],
           [
             3.1824457,
@@ -131239,7 +131247,8 @@
         "highway": "footway",
         "horse": "yes",
         "lit": "no",
-        "name": "Kloosterhoekwegel nr 20",
+        "name": "Kloosterhoekwegel",
+        "ref": "20",
         "surface": "grass",
         "wheelchair": "no",
         "id": "way/308231897"
@@ -131657,12 +131666,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.1766464,
-            50.7866211
+            3.176637,
+            50.7866279
           ],
           [
-            3.1766118,
-            50.7866814
+            3.1764925,
+            50.7868848
+          ],
+          [
+            3.1764221,
+            50.7870416
           ],
           [
             3.1764012,
@@ -133463,8 +133476,8 @@
             50.7866643
           ],
           [
-            3.1766464,
-            50.7866211
+            3.176637,
+            50.7866279
           ]
         ]
       }
@@ -160820,6 +160833,10 @@
           [
             3.1293986,
             50.7914437
+          ],
+          [
+            3.1295237,
+            50.7914706
           ],
           [
             3.1298772,
