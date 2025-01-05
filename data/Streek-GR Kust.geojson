@@ -8003,6 +8003,7 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
+        "oneway": "yes",
         "segregated": "yes",
         "surface": "asphalt",
         "id": "way/87652633"
@@ -8053,6 +8054,7 @@
         "highway": "cycleway",
         "layer": "1",
         "name": "Kustlaan",
+        "oneway": "yes",
         "surface": "paving_stones",
         "id": "way/87653289"
       },
@@ -8793,6 +8795,7 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
+        "oneway": "yes",
         "segregated": "yes",
         "surface": "asphalt",
         "id": "way/88013282"
@@ -8801,8 +8804,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.1849694,
-            51.327184
+            3.1849734,
+            51.3271769
           ],
           [
             3.1850377,
@@ -9080,8 +9083,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.1849694,
-            51.327184
+            3.1849734,
+            51.3271769
           ],
           [
             3.1850142,
@@ -9327,6 +9330,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "layer": "1",
+        "oneway": "yes",
         "segregated": "yes",
         "surface": "paving_stones",
         "id": "way/88085251"
@@ -9368,48 +9372,52 @@
             51.3275288
           ],
           [
-            3.1848989,
-            51.3275535
+            3.1848964,
+            51.3275551
           ],
           [
-            3.1848699,
-            51.3276326
+            3.1848882,
+            51.3275778
           ],
           [
-            3.1848435,
-            51.3276919
+            3.1848669,
+            51.3276367
           ],
           [
-            3.184804,
-            51.3277611
+            3.1848402,
+            51.3277349
           ],
           [
-            3.1847354,
-            51.3278451
+            3.1848009,
+            51.3277958
           ],
           [
-            3.1846721,
-            51.3279275
+            3.1847466,
+            51.3278651
           ],
           [
-            3.1845535,
-            51.328051
+            3.1846605,
+            51.3279569
           ],
           [
-            3.1844166,
-            51.3281726
+            3.184558,
+            51.3280511
           ],
           [
-            3.1842289,
-            51.328338
+            3.184422,
+            51.3281738
           ],
           [
-            3.1841727,
-            51.3283916
+            3.1842363,
+            51.3283409
           ],
           [
-            3.1840736,
-            51.328486
+            3.1841826,
+            51.3283924
+          ],
+          [
+            3.1840661,
+            51.3285006
           ],
           [
             3.1839241,
@@ -9442,6 +9450,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "layer": "1",
+        "oneway": "yes",
         "segregated": "yes",
         "surface": "asphalt",
         "id": "way/88085257"
@@ -25449,8 +25458,10 @@
       "type": "Feature",
       "id": "way/294820622",
       "properties": {
+        "embankment": "yes",
         "foot": "yes",
         "highway": "cycleway",
+        "oneway": "yes",
         "segregated": "yes",
         "surface": "paving_stones",
         "id": "way/294820622"
@@ -30372,6 +30383,7 @@
       "id": "way/659762292",
       "properties": {
         "highway": "cycleway",
+        "oneway": "yes",
         "surface": "paving_stones",
         "id": "way/659762292"
       },
@@ -31332,8 +31344,10 @@
       "type": "Feature",
       "id": "way/700820027",
       "properties": {
+        "embankment": "yes",
         "foot": "yes",
         "highway": "cycleway",
+        "oneway": "yes",
         "segregated": "yes",
         "surface": "paving_stones",
         "id": "way/700820027"
@@ -41060,6 +41074,7 @@
         "foot": "yes",
         "footway:surface": "concrete",
         "highway": "cycleway",
+        "oneway": "yes",
         "segregated": "yes",
         "surface": "concrete",
         "traffic_sign": "BE:D9",
@@ -41068,14 +41083,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.1871469,
-            51.327408
-          ],
-          [
-            3.1874078,
-            51.3274371
-          ],
           [
             3.1875043,
             51.3274488
@@ -42400,6 +42407,7 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
+        "oneway": "yes",
         "segregated": "yes",
         "surface": "paving_stones",
         "traffic_sign": "BE:D9",
@@ -42428,6 +42436,7 @@
       "id": "way/1187416648",
       "properties": {
         "highway": "cycleway",
+        "oneway": "yes",
         "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/1187416648"
@@ -44550,6 +44559,39 @@
           [
             3.1969729,
             51.3272826
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1348487282",
+      "properties": {
+        "cycleway:surface": "concrete",
+        "embankment": "yes",
+        "foot": "yes",
+        "footway:surface": "concrete",
+        "highway": "cycleway",
+        "oneway": "yes",
+        "segregated": "yes",
+        "surface": "concrete",
+        "traffic_sign": "BE:D9",
+        "id": "way/1348487282"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.1871469,
+            51.327408
+          ],
+          [
+            3.1874078,
+            51.3274371
+          ],
+          [
+            3.1875043,
+            51.3274488
           ]
         ]
       }
