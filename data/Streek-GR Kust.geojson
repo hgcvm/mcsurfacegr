@@ -2594,8 +2594,7 @@
       "type": "Feature",
       "id": "way/40322227",
       "properties": {
-        "cycleway:both": "track",
-        "cycleway:left:oneway": "-1",
+        "cycleway": "track",
         "highway": "tertiary",
         "lit": "yes",
         "name": "Leopoldlaan",
@@ -7158,7 +7157,7 @@
       "type": "Feature",
       "id": "way/79418789",
       "properties": {
-        "bicycle": "yes",
+        "bicycle": "designated",
         "highway": "path",
         "segregated": "no",
         "surface": "paving_stones",
@@ -8756,7 +8755,6 @@
       "id": "way/87782362",
       "properties": {
         "cycleway:left": "shared_lane",
-        "cycleway:left:oneway": "-1",
         "highway": "residential",
         "name": "Arcadelaan",
         "sidewalk": "both",
@@ -13592,10 +13590,10 @@
       "type": "Feature",
       "id": "way/130435118",
       "properties": {
-        "bicycle": "yes",
-        "cycleway": "shared",
-        "highway": "pedestrian",
-        "surface": "paving_stones",
+        "bicycle": "designated",
+        "highway": "path",
+        "segregated": "no",
+        "surface": "paved",
         "traffic_sign": "BE:F103",
         "width": "5",
         "id": "way/130435118"
@@ -23789,6 +23787,7 @@
       "properties": {
         "cycleway:left": "track",
         "cycleway:left:foot": "designated",
+        "cycleway:left:oneway": "no",
         "cycleway:left:segregated": "no",
         "highway": "residential",
         "lanes": "2",
@@ -32752,6 +32751,7 @@
       "properties": {
         "cycleway:left": "track",
         "cycleway:left:foot": "designated",
+        "cycleway:left:oneway": "no",
         "cycleway:left:segregated": "no",
         "cycleway:right": "no",
         "highway": "residential",
@@ -39984,13 +39984,13 @@
       "id": "way/1173501715",
       "properties": {
         "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
         "horse": "no",
+        "mofa": "yes",
         "name": "Duinenstraat",
-        "segregated": "no",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
-        "traffic_sign": "BE:C3,BE:M2_nl",
+        "traffic_sign": "BE:C3,M12",
         "vehicle": "no",
         "width": "2",
         "id": "way/1173501715"
@@ -43070,8 +43070,7 @@
       "type": "Feature",
       "id": "way/1237508839",
       "properties": {
-        "cycleway:both": "track",
-        "cycleway:left:oneway": "-1",
+        "cycleway": "track",
         "highway": "tertiary",
         "lit": "yes",
         "name": "Leopoldlaan",
@@ -43103,8 +43102,7 @@
       "type": "Feature",
       "id": "way/1238532447",
       "properties": {
-        "cycleway:both": "track",
-        "cycleway:left:oneway": "-1",
+        "cycleway": "track",
         "highway": "tertiary",
         "lit": "yes",
         "name": "Leopoldlaan",
@@ -44508,7 +44506,6 @@
       "id": "way/1347393057",
       "properties": {
         "cycleway:both": "shared_lane",
-        "cycleway:left:oneway": "-1",
         "highway": "residential",
         "name": "Arcadelaan",
         "sidewalk": "both",

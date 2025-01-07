@@ -19929,8 +19929,7 @@
       "type": "Feature",
       "id": "way/40322227",
       "properties": {
-        "cycleway:both": "track",
-        "cycleway:left:oneway": "-1",
+        "cycleway": "track",
         "highway": "tertiary",
         "lit": "yes",
         "name": "Leopoldlaan",
@@ -25512,7 +25511,7 @@
       "type": "Feature",
       "id": "way/79418789",
       "properties": {
-        "bicycle": "yes",
+        "bicycle": "designated",
         "highway": "path",
         "segregated": "no",
         "surface": "paving_stones",
@@ -28389,20 +28388,52 @@
             51.2697093
           ],
           [
-            3.0705785,
-            51.2692203
+            3.0706016,
+            51.2693677
           ],
           [
-            3.0708235,
-            51.2685561
+            3.0705936,
+            51.2692767
           ],
           [
-            3.0708294,
-            51.2681285
+            3.0706023,
+            51.2691747
           ],
           [
-            3.0707659,
-            51.2677832
+            3.0706257,
+            51.2690866
+          ],
+          [
+            3.0707545,
+            51.2687824
+          ],
+          [
+            3.0708128,
+            51.2686054
+          ],
+          [
+            3.0708329,
+            51.2684762
+          ],
+          [
+            3.0708383,
+            51.2683482
+          ],
+          [
+            3.0708336,
+            51.2681363
+          ],
+          [
+            3.0708068,
+            51.2679236
+          ],
+          [
+            3.0707764,
+            51.2678127
+          ],
+          [
+            3.0707666,
+            51.2677768
           ]
         ]
       }
@@ -31390,10 +31421,10 @@
       "type": "Feature",
       "id": "way/130435118",
       "properties": {
-        "bicycle": "yes",
-        "cycleway": "shared",
-        "highway": "pedestrian",
-        "surface": "paving_stones",
+        "bicycle": "designated",
+        "highway": "path",
+        "segregated": "no",
+        "surface": "paved",
         "traffic_sign": "BE:F103",
         "width": "5",
         "id": "way/130435118"
@@ -44962,44 +44993,72 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.0820608,
-            51.2635713
+            3.082067,
+            51.2634721
           ],
           [
-            3.0820392,
-            51.263636
+            3.0820655,
+            51.2635693
+          ],
+          [
+            3.0820406,
+            51.2636363
+          ],
+          [
+            3.0820064,
+            51.2636963
           ],
           [
             3.0819072,
             51.2638417
           ],
           [
-            3.0808445,
-            51.2653132
+            3.0816833,
+            51.2641739
           ],
           [
-            3.0805524,
-            51.2655265
+            3.081311,
+            51.2646951
           ],
           [
-            3.0802413,
-            51.2657346
+            3.0809358,
+            51.2651928
           ],
           [
-            3.0794825,
-            51.2662717
+            3.0808355,
+            51.2653106
           ],
           [
-            3.079011,
-            51.2666444
+            3.0807509,
+            51.2653912
           ],
           [
-            3.0789442,
-            51.2667223
+            3.0806384,
+            51.2654783
           ],
           [
-            3.0788953,
-            51.2667794
+            3.0804557,
+            51.2655982
+          ],
+          [
+            3.0795012,
+            51.2662657
+          ],
+          [
+            3.0790711,
+            51.2665912
+          ],
+          [
+            3.0790019,
+            51.2666555
+          ],
+          [
+            3.0789556,
+            51.266729
+          ],
+          [
+            3.0789249,
+            51.2667828
           ]
         ]
       }
@@ -45241,15 +45300,15 @@
       "type": "Feature",
       "id": "way/237215067",
       "properties": {
-        "class:bicycle": "-2",
-        "class:bicycle:description": "Moordstrookje naast een baan waar vaak te snel gereden wordt",
-        "cycleway": "lane",
-        "cycleway:buffer": "0",
+        "bicycle": "use_sidepath",
         "highway": "tertiary",
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
+        "lit": "yes",
         "name": "Grotestraat",
+        "overtaking": "no",
+        "priority_road": "designated",
         "surface": "asphalt",
         "id": "way/237215067"
       },
@@ -45257,40 +45316,52 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.0788953,
-            51.2667794
+            3.0789249,
+            51.2667828
           ],
           [
-            3.0777419,
-            51.2665905
+            3.077598,
+            51.2665653
           ],
           [
-            3.0773753,
-            51.2665398
+            3.0773764,
+            51.266538
           ],
           [
-            3.0770123,
-            51.2665068
+            3.0771809,
+            51.2665201
           ],
           [
-            3.0765697,
-            51.2664992
+            3.0769455,
+            51.2665045
           ],
           [
-            3.0761841,
-            51.266515
+            3.0767115,
+            51.2664983
           ],
           [
-            3.0759735,
-            51.2665344
+            3.0764537,
+            51.2664999
           ],
           [
-            3.0757801,
-            51.2665572
+            3.076196,
+            51.2665131
           ],
           [
-            3.0755966,
-            51.2665814
+            3.0759818,
+            51.266531
+          ],
+          [
+            3.075795,
+            51.2665521
+          ],
+          [
+            3.0756195,
+            51.2665762
+          ],
+          [
+            3.0754476,
+            51.2666043
           ],
           [
             3.075243,
@@ -45301,16 +45372,8 @@
             51.2667381
           ],
           [
-            3.0728556,
-            51.2672703
-          ],
-          [
-            3.0713527,
-            51.2676565
-          ],
-          [
-            3.0707659,
-            51.2677832
+            3.0734792,
+            51.2671015
           ]
         ]
       }
@@ -45881,6 +45944,7 @@
       "properties": {
         "cycleway:left": "track",
         "cycleway:left:foot": "designated",
+        "cycleway:left:oneway": "no",
         "cycleway:left:segregated": "no",
         "highway": "residential",
         "lanes": "2",
@@ -61001,6 +61065,7 @@
       "properties": {
         "cycleway:left": "track",
         "cycleway:left:foot": "designated",
+        "cycleway:left:oneway": "no",
         "cycleway:left:segregated": "no",
         "cycleway:right": "no",
         "highway": "residential",
@@ -65654,29 +65719,6 @@
           [
             2.7670778,
             51.1685507
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/990575645",
-      "properties": {
-        "cycleway:both": "no",
-        "highway": "unclassified",
-        "surface": "asphalt",
-        "id": "way/990575645"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.082067,
-            51.2634721
-          ],
-          [
-            3.0820608,
-            51.2635713
           ]
         ]
       }
@@ -71813,13 +71855,13 @@
       "id": "way/1173501715",
       "properties": {
         "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
         "horse": "no",
+        "mofa": "yes",
         "name": "Duinenstraat",
-        "segregated": "no",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
-        "traffic_sign": "BE:C3,BE:M2_nl",
+        "traffic_sign": "BE:C3,M12",
         "vehicle": "no",
         "width": "2",
         "id": "way/1173501715"
@@ -73508,8 +73550,7 @@
       "type": "Feature",
       "id": "way/1237508839",
       "properties": {
-        "cycleway:both": "track",
-        "cycleway:left:oneway": "-1",
+        "cycleway": "track",
         "highway": "tertiary",
         "lit": "yes",
         "name": "Leopoldlaan",
@@ -73571,8 +73612,7 @@
       "type": "Feature",
       "id": "way/1238532447",
       "properties": {
-        "cycleway:both": "track",
-        "cycleway:left:oneway": "-1",
+        "cycleway": "track",
         "highway": "tertiary",
         "lit": "yes",
         "name": "Leopoldlaan",
@@ -75278,6 +75318,78 @@
           [
             3.8916016,
             51.2050912
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1349084351",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "lit": "yes",
+        "name": "Grotestraat",
+        "overtaking": "yes",
+        "priority_road": "designated",
+        "surface": "asphalt",
+        "id": "way/1349084351"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0734792,
+            51.2671015
+          ],
+          [
+            3.0728547,
+            51.2672649
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1349084359",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "lit": "yes",
+        "name": "Grotestraat",
+        "overtaking": "no",
+        "priority_road": "designated",
+        "surface": "asphalt",
+        "id": "way/1349084359"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0728547,
+            51.2672649
+          ],
+          [
+            3.0713527,
+            51.2676565
+          ],
+          [
+            3.0711957,
+            51.2676941
+          ],
+          [
+            3.0709945,
+            51.2677357
+          ],
+          [
+            3.0707666,
+            51.2677768
           ]
         ]
       }
@@ -148891,6 +149003,10 @@
             50.9192273
           ],
           [
+            4.0553302,
+            50.9192531
+          ],
+          [
             4.0553216,
             50.9192688
           ],
@@ -179689,10 +179805,12 @@
       "type": "Feature",
       "id": "way/165619132",
       "properties": {
-        "bicycle": "yes",
-        "highway": "pedestrian",
-        "surface": "paving_stones",
+        "bicycle": "designated",
+        "highway": "path",
+        "segregated": "no",
+        "surface": "paved",
         "traffic_sign": "BE:F103",
+        "width": "5",
         "id": "way/165619132"
       },
       "geometry": {
