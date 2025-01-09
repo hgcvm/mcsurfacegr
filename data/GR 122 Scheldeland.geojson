@@ -4089,7 +4089,7 @@
         "highway": "residential",
         "lane_markings": "no",
         "maxspeed": "30",
-        "name": "Lindestraat",
+        "name": "Maalderij",
         "overtaking:motor_vehicle": "no",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30;BE:cyclestreet",
@@ -4192,12 +4192,8 @@
             50.9553476
           ],
           [
-            3.7635295,
-            50.95553
-          ],
-          [
-            3.7635901,
-            50.9555923
+            3.7634785,
+            50.9555131
           ]
         ]
       }
@@ -17172,7 +17168,7 @@
         "cyclestreet": "yes",
         "highway": "secondary",
         "maxspeed": "30",
-        "name": "Kerkstraat",
+        "name": "Centrumstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "ref": "N438",
@@ -38754,7 +38750,7 @@
         "highway": "residential",
         "lane_markings": "no",
         "maxspeed": "30",
-        "name": "Lindestraat",
+        "name": "Maalderij",
         "overtaking:motor_vehicle": "no",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone30;BE:cyclestreet",
@@ -41535,6 +41531,10 @@
             50.9551366
           ],
           [
+            3.7638572,
+            50.9551416
+          ],
+          [
             3.7641147,
             50.9551735
           ],
@@ -41666,6 +41666,7 @@
         "horse": "yes",
         "name": "Stuytwegel",
         "surface": "dirt",
+        "tracktype": "grade4",
         "width": "1.5",
         "id": "way/787875491"
       },
@@ -41673,16 +41674,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7635901,
-            50.9555923
+            3.7634479,
+            50.9556987
           ],
           [
             3.7611209,
             50.9573395
-          ],
-          [
-            3.760856,
-            50.9575761
           ]
         ]
       }
@@ -47627,6 +47624,58 @@
           [
             3.7185992,
             50.7739275
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1349619006",
+      "properties": {
+        "foot": "yes",
+        "highway": "path",
+        "horse": "yes",
+        "name": "Stuytwegel",
+        "surface": "dirt",
+        "tracktype": "grade4",
+        "width": "1.5",
+        "id": "way/1349619006"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7611209,
+            50.9573395
+          ],
+          [
+            3.760856,
+            50.9575761
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1349619007",
+      "properties": {
+        "highway": "track",
+        "name": "Stuytwegel",
+        "surface": "dirt",
+        "tracktype": "grade4",
+        "vicinal_ref": "154_30_1",
+        "id": "way/1349619007"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7634785,
+            50.9555131
+          ],
+          [
+            3.7634479,
+            50.9556987
           ]
         ]
       }
