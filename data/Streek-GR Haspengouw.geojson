@@ -27902,6 +27902,7 @@
         "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
+        "maxspeed": "70",
         "name": "Nachtegaal",
         "ref": "N759",
         "sidewalk": "both",
@@ -30157,9 +30158,15 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ delivery",
         "name": "Begaardenbosstraat",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "traffic_sign": "BE:C21,BE:ZONE",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/244759001"
       },
       "geometry": {
@@ -30203,6 +30210,7 @@
         "cycleway": "lane",
         "highway": "secondary",
         "lanes": "2",
+        "maxspeed": "70",
         "name": "Nachtegaal",
         "ref": "N759",
         "surface": "asphalt",
@@ -30230,6 +30238,7 @@
         "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
+        "maxspeed": "70",
         "name": "Nachtegaal",
         "ref": "N759",
         "sidewalk": "both",
@@ -30243,6 +30252,10 @@
           [
             5.2430693,
             50.8537588
+          ],
+          [
+            5.2427714,
+            50.8537927
           ],
           [
             5.2426537,
@@ -30926,9 +30939,15 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "lit": "no",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ delivery",
         "name": "Begaardenbosstraat",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "traffic_sign": "BE:C21,BE:ZONE",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/336001618"
       },
       "geometry": {
@@ -30977,9 +30996,15 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ delivery",
         "name": "Begaardenbosstraat",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "paving_stones",
+        "traffic_sign": "BE:C21,BE:ZONE",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/336145497"
       },
       "geometry": {
@@ -31646,6 +31671,7 @@
         "lanes": "3",
         "lanes:backward": "2",
         "lanes:forward": "1",
+        "maxspeed": "70",
         "name": "Nachtegaal",
         "ref": "N759",
         "surface": "asphalt",
@@ -32319,9 +32345,15 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "30",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ delivery",
         "name": "Begaardenbosstraat",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
+        "traffic_sign": "BE:C21,BE:ZONE",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/894927053"
       },
       "geometry": {
@@ -32348,9 +32380,15 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ delivery",
         "name": "Begaardenbosstraat",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "traffic_sign": "BE:C21,BE:ZONE",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/894927097"
       },
       "geometry": {
@@ -36752,6 +36790,7 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Stokstraat",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/28193503"
       },
@@ -37399,9 +37438,12 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Stokstraat",
         "sidewalk": "no",
+        "smoothness": "intermediate",
         "surface": "concrete",
+        "traffic_sign": "BE:C43",
         "id": "way/187800460"
       },
       "geometry": {
