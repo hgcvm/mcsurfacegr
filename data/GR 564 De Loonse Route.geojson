@@ -3296,9 +3296,10 @@
       "type": "Feature",
       "id": "way/35140878",
       "properties": {
-        "highway": "unclassified",
+        "highway": "track",
         "name": "Langesteeg",
         "surface": "gravel",
+        "tracktype": "grade2",
         "width": "3",
         "id": "way/35140878"
       },
@@ -3314,22 +3315,6 @@
             50.8051643
           ],
           [
-            5.3478741,
-            50.805103
-          ],
-          [
-            5.3478887,
-            50.8050105
-          ],
-          [
-            5.3479131,
-            50.8045446
-          ],
-          [
-            5.3479698,
-            50.8038392
-          ],
-          [
             5.3479858,
             50.803727
           ]
@@ -3340,12 +3325,18 @@
       "type": "Feature",
       "id": "way/35140879",
       "properties": {
+        "goods:conditional": "no @ (weight>3.5)",
+        "hgv:conditional": "no @ (weight>3.5);yes @ delivery",
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Langesteeg",
         "sidewalk": "right",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
+        "traffic_sign": "BE:C23,BE:Type_VIIa[3.5]",
         "width": "3",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/35140879"
       },
       "geometry": {
@@ -3360,16 +3351,8 @@
             50.8030192
           ],
           [
-            5.3485582,
-            50.8032387
-          ],
-          [
             5.3483339,
             50.8034013
-          ],
-          [
-            5.3480539,
-            50.8036481
           ],
           [
             5.3479858,
@@ -27979,7 +27962,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
-        "name": "Stationsplein",
+        "name": "Stroopplein",
         "surface": "cobblestone",
         "width": "2.2",
         "id": "way/340498701"
@@ -36795,8 +36778,8 @@
             50.8092365
           ],
           [
-            5.3436311,
-            50.8091787
+            5.3435828,
+            50.8091956
           ],
           [
             5.3437829,
@@ -37297,10 +37280,9 @@
       "type": "Feature",
       "id": "way/777537739",
       "properties": {
-        "highway": "track",
-        "name": "Stationsplein",
-        "surface": "concrete",
-        "tracktype": "grade2",
+        "highway": "service",
+        "name": "Stroopplein",
+        "surface": "sett",
         "width": "2.2",
         "id": "way/777537739"
       },
@@ -37310,6 +37292,10 @@
           [
             5.3438116,
             50.8105065
+          ],
+          [
+            5.3438042,
+            50.8104884
           ],
           [
             5.343796,
@@ -37362,6 +37348,14 @@
           [
             5.34543,
             50.8109776
+          ],
+          [
+            5.3446992,
+            50.8108443
+          ],
+          [
+            5.3442593,
+            50.8107641
           ],
           [
             5.343879,
@@ -38311,10 +38305,9 @@
       "type": "Feature",
       "id": "way/837855060",
       "properties": {
-        "highway": "track",
-        "name": "Stationsplein",
-        "surface": "gravel",
-        "tracktype": "grade2",
+        "highway": "service",
+        "name": "Stroopplein",
+        "surface": "sett",
         "width": "2.2",
         "id": "way/837855060"
       },
@@ -38324,6 +38317,10 @@
           [
             5.343796,
             50.8104692
+          ],
+          [
+            5.3437681,
+            50.8104012
           ],
           [
             5.343751,
@@ -39040,7 +39037,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
-        "name": "Stationsplein",
+        "name": "Stroopplein",
         "surface": "asphalt",
         "id": "way/971150954"
       },
@@ -42463,10 +42460,8 @@
       "type": "Feature",
       "id": "way/1323224152",
       "properties": {
-        "cycleway:both": "no",
         "highway": "unclassified",
-        "lane_markings": "no",
-        "name": "Stationsplein",
+        "name": "Stroopplein",
         "surface": "asphalt",
         "id": "way/1323224152"
       },

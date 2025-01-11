@@ -38077,7 +38077,7 @@
         "maxspeed": "30",
         "name": "Kasteelstraat",
         "sidewalk": "both",
-        "source:maxspeed": "BE:zone30",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/343986560"
@@ -38605,9 +38605,12 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Bergstraat",
         "sidewalk": "no",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/9643482"
       },
       "geometry": {
@@ -38729,8 +38732,11 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Truierweg",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/32019316"
       },
       "geometry": {
@@ -38745,16 +38751,8 @@
             50.8128448
           ],
           [
-            5.2940147,
-            50.8127787
-          ],
-          [
-            5.2941046,
-            50.8127249
-          ],
-          [
-            5.2941462,
-            50.8127054
+            5.2941215,
+            50.8127162
           ],
           [
             5.2941901,
@@ -38770,12 +38768,15 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Smisstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
         "sidewalk": "no",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/32019640"
       },
       "geometry": {
@@ -38815,9 +38816,12 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Beekstraat",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "sett",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/32019652"
       },
       "geometry": {
@@ -38871,6 +38875,10 @@
           [
             5.3421163,
             50.8105119
+          ],
+          [
+            5.3421865,
+            50.8104087
           ],
           [
             5.3422081,
@@ -38961,7 +38969,10 @@
       "id": "way/176885677",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Truierweg",
+        "source:maxspeed": "sign",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/176885677"
       },
       "geometry": {
@@ -38976,124 +38987,64 @@
             50.8127796
           ],
           [
-            5.2947813,
-            50.8128449
-          ],
-          [
-            5.2948885,
-            50.8128601
-          ],
-          [
             5.2950089,
             50.8128662
           ],
           [
-            5.2957701,
-            50.8128053
+            5.2959397,
+            50.8128132
           ],
           [
             5.2959924,
             50.8128102
           ],
           [
-            5.2965896,
-            50.8128698
+            5.2971337,
+            50.8129211
           ],
           [
-            5.2971272,
-            50.8129183
+            5.2974835,
+            50.8129276
           ],
           [
-            5.2974488,
-            50.8129281
+            5.2983975,
+            50.812988
           ],
           [
-            5.2984336,
-            50.8129855
-          ],
-          [
-            5.2990984,
-            50.8130065
-          ],
-          [
-            5.2994871,
-            50.8130194
+            5.299618,
+            50.8130209
           ],
           [
             5.3002317,
             50.8130688
           ],
           [
-            5.3005278,
-            50.8130761
-          ],
-          [
-            5.3009593,
-            50.813085
-          ],
-          [
             5.301144,
             50.8130817
-          ],
-          [
-            5.3012993,
-            50.8130523
           ],
           [
             5.3014613,
             50.8130006
           ],
           [
-            5.3018649,
-            50.8128198
-          ],
-          [
             5.3020151,
             50.8127643
-          ],
-          [
-            5.3021525,
-            50.8127203
           ],
           [
             5.3023364,
             50.8126819
           ],
           [
-            5.3025535,
-            50.8126578
-          ],
-          [
             5.3027259,
             50.8126474
-          ],
-          [
-            5.3029358,
-            50.8126516
           ],
           [
             5.3035716,
             50.8127039
           ],
           [
-            5.3037572,
-            50.812705
-          ],
-          [
             5.3039165,
             50.8126939
-          ],
-          [
-            5.3040905,
-            50.8126698
-          ],
-          [
-            5.3044276,
-            50.8125837
-          ],
-          [
-            5.3048394,
-            50.8124916
           ],
           [
             5.3053868,
@@ -39238,6 +39189,10 @@
           [
             5.3194623,
             50.8086645
+          ],
+          [
+            5.3195541,
+            50.8086713
           ],
           [
             5.3196662,
@@ -39781,9 +39736,12 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Smisstraat",
         "sidewalk": "no",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/347344656"
       },
       "geometry": {
@@ -40369,6 +40327,10 @@
             50.8106947
           ],
           [
+            5.3436525,
+            50.8106481
+          ],
+          [
             5.342436,
             50.8103979
           ],
@@ -40484,9 +40446,10 @@
       "type": "Feature",
       "id": "way/35140878",
       "properties": {
-        "highway": "unclassified",
+        "highway": "track",
         "name": "Langesteeg",
         "surface": "gravel",
+        "tracktype": "grade2",
         "width": "3",
         "id": "way/35140878"
       },
@@ -40502,22 +40465,6 @@
             50.8051643
           ],
           [
-            5.3478741,
-            50.805103
-          ],
-          [
-            5.3478887,
-            50.8050105
-          ],
-          [
-            5.3479131,
-            50.8045446
-          ],
-          [
-            5.3479698,
-            50.8038392
-          ],
-          [
             5.3479858,
             50.803727
           ]
@@ -40528,12 +40475,18 @@
       "type": "Feature",
       "id": "way/35140879",
       "properties": {
+        "goods:conditional": "no @ (weight>3.5)",
+        "hgv:conditional": "no @ (weight>3.5);yes @ delivery",
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Langesteeg",
         "sidewalk": "right",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
+        "traffic_sign": "BE:C23,BE:Type_VIIa[3.5]",
         "width": "3",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/35140879"
       },
       "geometry": {
@@ -40548,16 +40501,8 @@
             50.8030192
           ],
           [
-            5.3485582,
-            50.8032387
-          ],
-          [
             5.3483339,
             50.8034013
-          ],
-          [
-            5.3480539,
-            50.8036481
           ],
           [
             5.3479858,
@@ -40885,7 +40830,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
-        "name": "Stationsplein",
+        "name": "Stroopplein",
         "surface": "cobblestone",
         "width": "2.2",
         "id": "way/340498701"
@@ -40939,8 +40884,8 @@
             50.8092365
           ],
           [
-            5.3436311,
-            50.8091787
+            5.3435828,
+            50.8091956
           ],
           [
             5.3437829,
@@ -40953,10 +40898,9 @@
       "type": "Feature",
       "id": "way/777537739",
       "properties": {
-        "highway": "track",
-        "name": "Stationsplein",
-        "surface": "concrete",
-        "tracktype": "grade2",
+        "highway": "service",
+        "name": "Stroopplein",
+        "surface": "sett",
         "width": "2.2",
         "id": "way/777537739"
       },
@@ -40966,6 +40910,10 @@
           [
             5.3438116,
             50.8105065
+          ],
+          [
+            5.3438042,
+            50.8104884
           ],
           [
             5.343796,
@@ -40978,10 +40926,9 @@
       "type": "Feature",
       "id": "way/837855060",
       "properties": {
-        "highway": "track",
-        "name": "Stationsplein",
-        "surface": "gravel",
-        "tracktype": "grade2",
+        "highway": "service",
+        "name": "Stroopplein",
+        "surface": "sett",
         "width": "2.2",
         "id": "way/837855060"
       },
@@ -40991,6 +40938,10 @@
           [
             5.343796,
             50.8104692
+          ],
+          [
+            5.3437681,
+            50.8104012
           ],
           [
             5.343751,
@@ -41006,7 +40957,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
-        "name": "Stationsplein",
+        "name": "Stroopplein",
         "surface": "asphalt",
         "id": "way/971150954"
       },
@@ -41028,10 +40979,8 @@
       "type": "Feature",
       "id": "way/1323224152",
       "properties": {
-        "cycleway:both": "no",
         "highway": "unclassified",
-        "lane_markings": "no",
-        "name": "Stationsplein",
+        "name": "Stroopplein",
         "surface": "asphalt",
         "id": "way/1323224152"
       },
@@ -48128,6 +48077,14 @@
           [
             5.34543,
             50.8109776
+          ],
+          [
+            5.3446992,
+            50.8108443
+          ],
+          [
+            5.3442593,
+            50.8107641
           ],
           [
             5.343879,
