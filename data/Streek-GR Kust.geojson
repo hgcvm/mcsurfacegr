@@ -4681,10 +4681,13 @@
       "type": "Feature",
       "id": "way/59553274",
       "properties": {
-        "highway": "cycleway",
+        "bicycle": "yes",
+        "foot": "designated",
+        "highway": "pedestrian",
         "name": "Koninginnelaan",
         "oneway": "no",
         "surface": "paving_stones",
+        "vehicle": "delivery",
         "id": "way/59553274"
       },
       "geometry": {
@@ -6474,8 +6477,8 @@
             51.2271764
           ],
           [
-            2.92228,
-            51.227212
+            2.9222693,
+            51.2272229
           ]
         ]
       }
@@ -10447,12 +10450,15 @@
       "type": "Feature",
       "id": "way/89209401",
       "properties": {
+        "bicycle": "yes",
         "bridge": "yes",
-        "highway": "cycleway",
+        "foot": "designated",
+        "highway": "pedestrian",
         "layer": "1",
         "name": "Koninginnelaan",
         "oneway": "no",
         "surface": "paving_stones",
+        "vehicle": "delivery",
         "id": "way/89209401"
       },
       "geometry": {
@@ -10481,10 +10487,13 @@
       "type": "Feature",
       "id": "way/89209410",
       "properties": {
-        "highway": "cycleway",
+        "bicycle": "yes",
+        "foot": "designated",
+        "highway": "pedestrian",
         "name": "Koninginnelaan",
         "oneway": "no",
         "surface": "paving_stones",
+        "vehicle": "delivery",
         "id": "way/89209410"
       },
       "geometry": {
@@ -10540,7 +10549,7 @@
       "type": "Feature",
       "id": "way/89564263",
       "properties": {
-        "highway": "cycleway",
+        "highway": "path",
         "surface": "paving_stones",
         "id": "way/89564263"
       },
@@ -11885,8 +11894,12 @@
       "type": "Feature",
       "id": "way/110517094",
       "properties": {
-        "highway": "path",
+        "bicycle": "yes",
+        "foot": "designated",
+        "highway": "pedestrian",
+        "name": "Koninginnelaan",
         "surface": "paving_stones",
+        "vehicle": "delivery",
         "id": "way/110517094"
       },
       "geometry": {
@@ -18524,8 +18537,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.92228,
-            51.227212
+            2.9222693,
+            51.2272229
           ],
           [
             2.9222187,
@@ -28318,9 +28331,12 @@
       "id": "way/458101789",
       "properties": {
         "bicycle": "yes",
-        "highway": "footway",
+        "foot": "designated",
+        "highway": "pedestrian",
         "name": "Koninginnelaan",
         "surface": "asphalt",
+        "vehicle": "permit",
+        "vehicle:conditional": "delivery @ 06:00-10:30 AND maxweightrating=12",
         "id": "way/458101789"
       },
       "geometry": {
@@ -28350,8 +28366,12 @@
       "id": "way/458101790",
       "properties": {
         "bicycle": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
+        "name": "Koninginnelaan",
         "surface": "paving_stones",
+        "vehicle": "permit",
+        "vehicle:conditional": "delivery @ 06:00-10:30 AND maxweightrating=12",
         "id": "way/458101790"
       },
       "geometry": {
@@ -28377,8 +28397,12 @@
       "id": "way/458101791",
       "properties": {
         "bicycle": "yes",
-        "highway": "footway",
+        "foot": "designated",
+        "highway": "pedestrian",
+        "name": "Koninginnelaan",
         "surface": "asphalt",
+        "vehicle": "permit",
+        "vehicle:conditional": "delivery @ 06:00-10:30 AND maxweightrating=12",
         "id": "way/458101791"
       },
       "geometry": {
@@ -28802,9 +28826,12 @@
       "id": "way/496918054",
       "properties": {
         "bicycle": "yes",
-        "highway": "footway",
+        "foot": "designated",
+        "highway": "pedestrian",
         "name": "Koninginnelaan",
         "surface": "asphalt",
+        "vehicle": "permit",
+        "vehicle:conditional": "delivery @ 06:00-10:30 AND maxweightrating=12",
         "id": "way/496918054"
       },
       "geometry": {
@@ -33057,8 +33084,12 @@
       "type": "Feature",
       "id": "way/870692394",
       "properties": {
-        "highway": "cycleway",
+        "bicycle": "yes",
+        "foot": "designated",
+        "highway": "pedestrian",
+        "name": "Koninginnelaan",
         "surface": "paving_stones",
+        "vehicle": "delivery",
         "id": "way/870692394"
       },
       "geometry": {
@@ -33087,8 +33118,13 @@
       "type": "Feature",
       "id": "way/887672811",
       "properties": {
+        "bicycle": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
+        "name": "Koninginnelaan",
         "surface": "paving_stones",
+        "vehicle": "permit",
+        "vehicle:conditional": "delivery @ 06:00-10:30 AND maxweightrating=12",
         "id": "way/887672811"
       },
       "geometry": {
@@ -33103,64 +33139,8 @@
             51.2245271
           ],
           [
-            2.9086354,
-            51.224501
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/887672812",
-      "properties": {
-        "crossing": "marked",
-        "footway": "crossing",
-        "highway": "footway",
-        "surface": "paving_stones",
-        "id": "way/887672812"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.9086354,
-            51.224501
-          ],
-          [
             2.9087097,
             51.2244411
-          ],
-          [
-            2.9087725,
-            51.2243915
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/887672813",
-      "properties": {
-        "crossing": "marked",
-        "footway": "crossing",
-        "highway": "footway",
-        "surface": "paving_stones",
-        "id": "way/887672813"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.9089434,
-            51.2242852
-          ],
-          [
-            2.9090476,
-            51.2242199
-          ],
-          [
-            2.9091243,
-            51.2241725
           ]
         ]
       }
@@ -33169,20 +33149,24 @@
       "type": "Feature",
       "id": "way/887672814",
       "properties": {
-        "highway": "footway",
+        "bicycle": "yes",
+        "foot": "designated",
+        "highway": "pedestrian",
+        "name": "Koninginnelaan",
         "surface": "paving_stones",
+        "vehicle": "no",
         "id": "way/887672814"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            2.9089434,
-            51.2242852
+            2.9090476,
+            51.2242199
           ],
           [
-            2.9087725,
-            51.2243915
+            2.9087097,
+            51.2244411
           ]
         ]
       }
@@ -33191,8 +33175,12 @@
       "type": "Feature",
       "id": "way/887672828",
       "properties": {
-        "highway": "path",
+        "bicycle": "yes",
+        "foot": "designated",
+        "highway": "pedestrian",
+        "name": "Koninginnelaan",
         "surface": "paving_stones",
+        "vehicle": "delivery",
         "id": "way/887672828"
       },
       "geometry": {
@@ -33207,8 +33195,8 @@
             51.2240888
           ],
           [
-            2.9091243,
-            51.2241725
+            2.9090476,
+            51.2242199
           ]
         ]
       }
