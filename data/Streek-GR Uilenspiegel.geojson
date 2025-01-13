@@ -2515,6 +2515,7 @@
       "type": "Feature",
       "id": "way/7631074",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "60",
@@ -2571,9 +2572,12 @@
       "id": "way/7631076",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "60",
         "name": "Zeedijk",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/7631076"
       },
@@ -2706,6 +2710,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Zuiddijk",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/7631097"
       },
@@ -2735,12 +2740,20 @@
       "type": "Feature",
       "id": "way/7631101",
       "properties": {
+        "cycleway:both": "no",
         "foot": "yes",
         "hgv": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lit": "no",
         "maxspeed": "60",
         "name": "Paspolder",
+        "oneway": "no",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "smoothness": "good",
         "surface": "asphalt",
+        "width": "3.5",
         "id": "way/7631101"
       },
       "geometry": {
@@ -2826,6 +2839,7 @@
         "highway": "unclassified",
         "maxspeed": "60",
         "name": "Zeedijk",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/7631104"
       },
@@ -2928,11 +2942,13 @@
       "id": "way/7631150",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lane_markings": "no",
         "maxspeed": "30",
         "name": "Molenstraat",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "paving_stones",
         "id": "way/7631150"
       },
@@ -2975,11 +2991,13 @@
       "id": "way/7631152",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lane_markings": "no",
         "maxspeed": "30",
         "name": "Markt",
         "oneway": "no",
+        "sidewalk": "left",
         "surface": "paving_stones",
         "id": "way/7631152"
       },
@@ -4026,6 +4044,7 @@
       "id": "way/33686266",
       "properties": {
         "highway": "cycleway",
+        "lit": "no",
         "mofa": "no",
         "moped": "no",
         "smoothness": "good",
@@ -4210,6 +4229,7 @@
         "bridge": "yes",
         "highway": "cycleway",
         "layer": "1",
+        "lit": "no",
         "mofa": "no",
         "moped": "no",
         "surface": "wood",
@@ -4378,6 +4398,10 @@
           [
             3.7152139,
             51.3062781
+          ],
+          [
+            3.7151958,
+            51.3062854
           ],
           [
             3.7140783,
@@ -6101,6 +6125,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Zwinstraat",
+        "sidewalk": "no",
         "surface": "sett",
         "id": "way/50891770"
       },
@@ -6123,6 +6148,7 @@
       "id": "way/50891773",
       "properties": {
         "highway": "footway",
+        "lit": "no",
         "surface": "shells",
         "id": "way/50891773"
       },
@@ -6195,6 +6221,7 @@
         "bridge": "yes",
         "highway": "footway",
         "layer": "1",
+        "lit": "no",
         "surface": "wood",
         "id": "way/50891774"
       },
@@ -6217,6 +6244,7 @@
       "id": "way/50891775",
       "properties": {
         "highway": "footway",
+        "lit": "no",
         "surface": "shells",
         "id": "way/50891775"
       },
@@ -6288,6 +6316,7 @@
       "properties": {
         "embankment": "yes",
         "highway": "footway",
+        "lit": "no",
         "surface": "shells",
         "id": "way/50891777"
       },
@@ -6540,6 +6569,7 @@
         "bicycle": "no",
         "highway": "footway",
         "horse": "no",
+        "lit": "no",
         "motor_vehicle": "no",
         "surface": "shells",
         "id": "way/50897683"
@@ -6811,10 +6841,13 @@
       "id": "way/54380805",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "highway": "tertiary",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Zwinstraat",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "paving_stones",
         "id": "way/54380805"
       },
@@ -6849,6 +6882,7 @@
       "id": "way/54380808",
       "properties": {
         "highway": "footway",
+        "lit": "no",
         "surface": "shells",
         "id": "way/54380808"
       },
@@ -18767,6 +18801,7 @@
       "id": "way/188907809",
       "properties": {
         "highway": "footway",
+        "lit": "no",
         "surface": "grass",
         "id": "way/188907809"
       },
@@ -18906,12 +18941,14 @@
       "type": "Feature",
       "id": "way/188927815",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lane_markings": "no",
         "lit": "no",
         "maxspeed": "60",
         "name": "Kanaalweg",
         "scenic": "yes",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/188927815"
       },
@@ -18936,8 +18973,10 @@
         "bicycle": "no",
         "dog": "leashed",
         "highway": "footway",
+        "lit": "no",
         "mofa": "no",
         "moped": "no",
+        "smoothness": "bad",
         "surface": "gravel",
         "traffic_sign": "NL:G7",
         "id": "way/188928918"
@@ -19751,6 +19790,7 @@
         "motorcar": "no",
         "motorcycle": "no",
         "name": "Nieuwedijk",
+        "smoothness": "bad",
         "surface": "compacted",
         "tracktype": "grade1",
         "id": "way/188945342"
@@ -21004,11 +21044,15 @@
       "properties": {
         "bicycle": "no",
         "dog": "leashed",
+        "handrail": "yes",
         "highway": "steps",
+        "incline": "up",
         "layer": "1",
         "mofa": "no",
         "moped": "no",
+        "ramp": "no",
         "surface": "asphalt",
+        "tactile_paving": "no",
         "traffic_sign": "NL:G7",
         "id": "way/191454208"
       },
@@ -29931,6 +29975,8 @@
       "properties": {
         "embankment": "yes",
         "highway": "footway",
+        "lit": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "id": "way/1117664551"
       },
@@ -30071,7 +30117,9 @@
         "bicycle": "no",
         "highway": "footway",
         "horse": "no",
+        "lit": "no",
         "motor_vehicle": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/1117667405"
       },
@@ -31542,6 +31590,7 @@
         "highway": "track",
         "source": "SURVEY;Bing",
         "surface": "grass",
+        "tracktype": "grade4",
         "id": "way/1306907242"
       },
       "geometry": {
