@@ -16901,11 +16901,12 @@
       "type": "Feature",
       "id": "way/77246503",
       "properties": {
+        "foot": "designated",
         "highway": "living_street",
         "maxspeed": "20",
+        "maxspeed:type": "BE:living_street",
         "name": "Pastoor Vandersandestraat",
         "oneway": "no",
-        "source:maxspeed": "BE:zone30",
         "surface": "paved",
         "id": "way/77246503"
       },
@@ -16933,12 +16934,20 @@
             50.8223907
           ],
           [
-            4.5135917,
-            50.8226138
+            4.5135935,
+            50.8226095
           ],
           [
-            4.5134291,
-            50.8226821
+            4.5135338,
+            50.8226391
+          ],
+          [
+            4.5134701,
+            50.8226673
+          ],
+          [
+            4.5134047,
+            50.8226876
           ],
           [
             4.5133088,
@@ -16951,11 +16960,18 @@
       "type": "Feature",
       "id": "way/77246506",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lit": "yes",
         "name": "Hoornzeelstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "sidewalk:right:smoothness": "good",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/77246506"
       },
@@ -16968,7 +16984,7 @@
           ],
           [
             4.5132614,
-            50.8229099
+            50.82291
           ],
           [
             4.5133088,
