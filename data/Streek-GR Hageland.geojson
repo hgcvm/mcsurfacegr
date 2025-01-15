@@ -3025,12 +3025,12 @@
       "type": "Feature",
       "id": "way/24429954",
       "properties": {
+        "access": "permit",
         "bicycle": "yes",
         "designation": "towpath",
         "foot": "designated",
         "highway": "path",
         "mofa": "yes",
-        "private": "permit",
         "segregated": "no",
         "surface": "wood",
         "vehicle": "private",
@@ -3054,12 +3054,12 @@
       "type": "Feature",
       "id": "way/24470856",
       "properties": {
+        "access": "permit",
         "bicycle": "yes",
         "designation": "towpath",
         "foot": "designated",
         "highway": "path",
         "mofa": "yes",
-        "private": "permit",
         "segregated": "no",
         "surface": "compacted",
         "vehicle": "private",
@@ -3083,11 +3083,11 @@
       "type": "Feature",
       "id": "way/24470857",
       "properties": {
+        "access": "permit",
         "bicycle": "yes",
         "designation": "towpath",
         "highway": "track",
         "mofa": "yes",
-        "private": "permit",
         "surface": "compacted",
         "towpath": "yes",
         "tracktype": "grade2",
@@ -8017,8 +8017,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0635312,
-            50.9868551
+            5.0635848,
+            50.9868368
           ],
           [
             5.063506,
@@ -8062,7 +8062,11 @@
       "id": "way/34847970",
       "properties": {
         "highway": "service",
+        "lane_markings": "no",
+        "parking:left:restriction": "no_parking",
+        "smoothness": "good",
         "surface": "asphalt",
+        "width": "3",
         "id": "way/34847970"
       },
       "geometry": {
@@ -8077,8 +8081,8 @@
             50.9867895
           ],
           [
-            5.0635312,
-            50.9868551
+            5.0635848,
+            50.9868368
           ]
         ]
       }
@@ -20002,6 +20006,7 @@
       "type": "Feature",
       "id": "way/128454327",
       "properties": {
+        "access": "permit",
         "bicycle": "yes",
         "bridge": "yes",
         "designation": "towpath",
@@ -20010,7 +20015,6 @@
         "layer": "1",
         "mofa": "yes",
         "name": "Beemdenbrug",
-        "private": "permit",
         "segregated": "no",
         "surface": "wood",
         "vehicle": "private",
