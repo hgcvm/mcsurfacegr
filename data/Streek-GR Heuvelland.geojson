@@ -20566,22 +20566,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.7352218,
-            50.7395542
-          ],
-          [
-            2.7351551,
-            50.7395586
-          ],
-          [
-            2.7351008,
-            50.7395573
-          ],
-          [
-            2.7350123,
-            50.7395522
-          ],
-          [
             2.7349431,
             50.7395424
           ],
@@ -28857,11 +28841,13 @@
       "type": "Feature",
       "id": "way/372860805",
       "properties": {
-        "cycleway:left": "opposite_lane",
+        "cycleway:left": "lane",
+        "cycleway:leftoneway": "-1",
         "highway": "residential",
         "lane_markings": "no",
         "name": "Allée Pierre de Coubertin",
         "oneway": "yes",
+        "oneway:bicycle": "no",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
         "surface": "asphalt",
         "id": "way/372860805"
@@ -32019,11 +32005,11 @@
       "type": "Feature",
       "id": "way/939902365",
       "properties": {
-        "cycleway": "opposite",
         "highway": "residential",
         "lane_markings": "no",
         "name": "Allée Pierre de Coubertin",
         "oneway": "yes",
+        "oneway:bicycle": "no",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
         "surface": "asphalt",
         "id": "way/939902365"
@@ -32036,6 +32022,10 @@
             50.7421301
           ],
           [
+            2.7275671,
+            50.7425556
+          ],
+          [
             2.7275957,
             50.7425726
           ]
@@ -32046,6 +32036,7 @@
       "type": "Feature",
       "id": "way/940304121",
       "properties": {
+        "cycleway:left": "lane",
         "grande_circulation": "yes",
         "highway": "secondary",
         "lane_markings": "no",
@@ -32069,6 +32060,10 @@
           [
             2.7353919,
             50.7395199
+          ],
+          [
+            2.7353604,
+            50.739528
           ],
           [
             2.7353288,
@@ -35325,6 +35320,50 @@
           [
             2.7305361,
             50.7413816
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1351573531",
+      "properties": {
+        "cycleway": "lane",
+        "grande_circulation": "yes",
+        "highway": "secondary",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "name": "Place Charles de Gaulle",
+        "old_name": "Grand'Place",
+        "old_ref": "N 42",
+        "ref": "D 933",
+        "ref:FR:FANTOIR": "590430256B",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "surface": "asphalt",
+        "id": "way/1351573531"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7352218,
+            50.7395542
+          ],
+          [
+            2.7351551,
+            50.7395586
+          ],
+          [
+            2.7351008,
+            50.7395573
+          ],
+          [
+            2.7350123,
+            50.7395522
+          ],
+          [
+            2.7349431,
+            50.7395424
           ]
         ]
       }
