@@ -11401,6 +11401,7 @@
         "bicycle": "yes",
         "highway": "unclassified",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Daknammolenstraat",
         "narrow": "yes",
         "parking:left": "no",
@@ -13986,6 +13987,7 @@
       "properties": {
         "highway": "residential",
         "lane_markings": "no",
+        "maxspeed": "30",
         "name": "Daknam-Dorp",
         "surface": "asphalt",
         "id": "way/52040071"
@@ -14018,12 +14020,8 @@
             51.1273277
           ],
           [
-            3.9871421,
-            51.1277345
-          ],
-          [
-            3.9872424,
-            51.1277503
+            3.9860688,
+            51.1276032
           ]
         ]
       }
@@ -14062,7 +14060,7 @@
         "cycleway": "no",
         "destination:backward": "E17",
         "highway": "tertiary",
-        "maxspeed": "70",
+        "maxspeed": "50",
         "name": "Pontweg",
         "oneway": "no",
         "surface": "asphalt",
@@ -16751,7 +16749,7 @@
       "id": "way/70580498",
       "properties": {
         "highway": "residential",
-        "maxspeed": "50",
+        "maxspeed": "70",
         "name": "Sint-Jansdam",
         "id": "way/70580498"
       },
@@ -22257,10 +22255,6 @@
           [
             3.9940819,
             51.1548873
-          ],
-          [
-            3.9940993,
-            51.1548282
           ]
         ]
       }
@@ -32820,7 +32814,7 @@
         "bicycle": "yes",
         "highway": "unclassified",
         "lit": "yes",
-        "maxspeed": "30",
+        "maxspeed": "50",
         "name": "Daknammolenstraat",
         "narrow": "yes",
         "surface": "concrete:lanes",
@@ -39786,7 +39780,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "unclassified",
-        "maxspeed": "30",
+        "maxspeed": "50",
         "name": "Daknammolenstraat",
         "surface": "concrete:lanes",
         "id": "way/838449605"
@@ -40242,7 +40236,7 @@
       "properties": {
         "highway": "tertiary",
         "lanes": "2",
-        "maxspeed": "70",
+        "maxspeed": "30",
         "name": "Nieuwe Baan",
         "surface": "paving_stones",
         "id": "way/885639736"
@@ -40266,6 +40260,7 @@
       "id": "way/885992983",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Sint-Jansdam",
         "id": "way/885992983"
       },
@@ -43511,9 +43506,64 @@
     },
     {
       "type": "Feature",
+      "id": "way/1353696573",
+      "properties": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "maxspeed": "50",
+        "name": "Daknam-Dorp",
+        "surface": "asphalt",
+        "id": "way/1353696573"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.9860688,
+            51.1276032
+          ],
+          [
+            3.9871421,
+            51.1277345
+          ],
+          [
+            3.9872424,
+            51.1277503
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1353806721",
+      "properties": {
+        "foot": "yes",
+        "highway": "track",
+        "name": "Leen",
+        "surface": "unpaved",
+        "tracktype": "grade2",
+        "id": "way/1353806721"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.9940819,
+            51.1548873
+          ],
+          [
+            3.9940993,
+            51.1548282
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/41179077",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Bosaardestraat",
         "id": "way/41179077"
       },
@@ -43923,6 +43973,7 @@
       "id": "way/126673090",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "70",
         "name": "Gentdam",
         "id": "way/126673090"
       },
@@ -43961,6 +44012,7 @@
       "id": "way/130795859",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "70",
         "name": "Gentdam",
         "id": "way/130795859"
       },
@@ -44434,6 +44486,7 @@
       "id": "way/727064766",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Holleweg",
         "id": "way/727064766"
       },
