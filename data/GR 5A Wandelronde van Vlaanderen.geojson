@@ -10382,6 +10382,7 @@
       "properties": {
         "highway": "unclassified",
         "lanes": "1",
+        "maxspeed": "70",
         "narrow": "yes",
         "surface": "sand",
         "id": "way/27293660"
@@ -14049,6 +14050,7 @@
       "id": "way/34261597",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Moerbeke Polderstraat",
         "surface": "concrete",
         "id": "way/34261597"
@@ -16422,6 +16424,7 @@
       "id": "way/35343748",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Kruisstraat",
         "surface": "concrete",
         "id": "way/35343748"
@@ -17211,6 +17214,7 @@
         "bridge": "yes",
         "highway": "unclassified",
         "layer": "1",
+        "maxspeed": "70",
         "name": "Moerbeke Polderstraat",
         "surface": "concrete",
         "id": "way/37190511"
@@ -17234,6 +17238,7 @@
       "id": "way/37190512",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Moerbeke Polderstraat",
         "surface": "concrete",
         "id": "way/37190512"
@@ -17367,6 +17372,7 @@
       "id": "way/37190516",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Moerbeke Polderstraat",
         "surface": "concrete",
         "id": "way/37190516"
@@ -46545,6 +46551,7 @@
         "access": "destination",
         "highway": "unclassified",
         "lanes": "1",
+        "maxspeed": "70",
         "name": "Kruisstraat",
         "oneway": "no",
         "surface": "concrete",
@@ -50939,7 +50946,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "layer": "1",
-        "maxspeed": "90",
+        "maxspeed": "70",
         "name": "Kruisstraat",
         "surface": "concrete",
         "id": "way/374137227"
@@ -50964,6 +50971,7 @@
       "properties": {
         "highway": "unclassified",
         "lanes": "1",
+        "maxspeed": "70",
         "narrow": "yes",
         "surface": "concrete",
         "id": "way/374137231"
@@ -53218,7 +53226,7 @@
       "properties": {
         "highway": "tertiary",
         "lanes": "2",
-        "maxspeed": "90",
+        "maxspeed": "70",
         "name": "Kruisstraat",
         "surface": "concrete",
         "id": "way/447381145"
@@ -61893,6 +61901,7 @@
         "access": "destination",
         "highway": "unclassified",
         "lanes": "1",
+        "maxspeed": "70",
         "name": "Oude Zeedijk",
         "oneway": "no",
         "surface": "concrete",
@@ -61904,6 +61913,10 @@
           [
             3.9344202,
             51.2105872
+          ],
+          [
+            3.9348517,
+            51.2106984
           ],
           [
             3.9377014,
@@ -73828,6 +73841,7 @@
       "id": "way/1272820856",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Moerbeke Polderstraat",
         "surface": "concrete",
         "id": "way/1272820856"
@@ -177444,7 +177458,7 @@
         "foot": "designated",
         "highway": "cycleway",
         "layer": "1",
-        "lit": "no",
+        "lit": "yes",
         "motor_vehicle": "no",
         "name": "Berchembrug",
         "oneway": "no",
@@ -182622,24 +182636,24 @@
       "id": "way/145395609",
       "properties": {
         "bicycle": "yes",
+        "bus": "yes",
         "cyclestreet": "yes",
         "highway": "unclassified",
         "lanes": "1",
         "lit": "yes",
         "maxspeed": "30",
         "mofa": "yes",
-        "motor_vehicle": "permit",
-        "motor_vehicle:conditional": "yes @ (Sa-Su 13:00-18:00)",
         "name": "Geldmuntstraat",
         "name:etymology:wikidata": "Q464780",
-        "old_ref:-2011": "N32",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "operator": "Stad Brugge",
         "parking:both": "no",
+        "ref": "N32",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "surface": "sett",
+        "vehicle:conditional": "permit @ (Sa-Su 13:00-18:00)",
         "width:carriageway": "3.7",
         "wikidata": "Q2263733",
         "wikipedia": "nl:Geldmuntstraat",
@@ -184374,6 +184388,7 @@
         "highway": "pedestrian",
         "lit": "yes",
         "name": "Markt",
+        "ref": "N50",
         "sett:pattern": "arc",
         "surface": "sett",
         "vehicle": "no",
@@ -184407,6 +184422,7 @@
         "name": "Markt",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "ref": "N50",
         "sett:pattern": "arc",
         "sidewalk": "both",
         "sidewalk:both:surface": "sett",
