@@ -19,22 +19,32 @@
     "enableLayers": "false",
     "enableSearch": "false",
     "enableAddNewPoints": "false",
-    "clustering": {
-        "maxZoom": 15
-    },
-    "layers": [
-        {
-            "id": "paden",
+
+
+
+	"layers": [
+		{
+			"id": "paden",
             "name": "ontbrekende surface tags",
-            "source": {
+			"source": {
                 "osmTags": "highway~*",   
-                "geoJson": "https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/data/E2 | Verbinding GR 5A - GR 565 | Kruibeke - Deurne.geojson",
-                "isOsmCache": true
+                "geoJson": "https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/data/E2 | Verbinding GR 5A - GR 565 | Kruibeke - Deurne.geojson"
+
                },
-            "title": "Ondergrond van dit segment",
+				"title": "Ondergrond van dit segment",
             "allowSplit": 1,
             "wayHandling": 0,
-            "mapRendering": [
+			"pointRendering": [
+				{
+					"location": "point",
+					"marker": [
+						{
+							"icon":  "bla" 
+						}
+					]
+				}
+			],            
+            "lineRendering": [
                 {
                     "width": {
                         "render": "5",
@@ -117,10 +127,9 @@
                 }
             ],
             "mappings": [],
-            "tagRenderings": [
-                {
-			"render": "{nearby_images()}"
-                },
+           "tagRenderings": [
+
+
                 {
                     "id": "way-surface",
                     "question": "Wat is de ondergrond van dit segment?",
@@ -224,6 +233,6 @@
                     ]
                 }
             ]
-        }
-    ]
+		}
+	]
 }

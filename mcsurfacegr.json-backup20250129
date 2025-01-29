@@ -19,32 +19,22 @@
     "enableLayers": "false",
     "enableSearch": "false",
     "enableAddNewPoints": "false",
-
-
-
-	"layers": [
-		{
-			"id": "paden",
+    "clustering": {
+        "maxZoom": 15
+    },
+    "layers": [
+        {
+            "id": "paden",
             "name": "ontbrekende surface tags",
-			"source": {
+            "source": {
                 "osmTags": "highway~*",   
-                "geoJson": "https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/data/Streek-GR Uilenspiegel.geojson"
-
+                "geoJson": "https://raw.githubusercontent.com/hgcvm/mcsurfacegr/main/test-export.geojson",
+                "isOsmCache": true
                },
-				"title": "Ondergrond van dit segment",
+            "title": "Ondergrond van dit segment",
             "allowSplit": 1,
             "wayHandling": 0,
-			"pointRendering": [
-				{
-					"location": "point",
-					"marker": [
-						{
-							"icon":  "bla" 
-						}
-					]
-				}
-			],            
-            "lineRendering": [
+            "mapRendering": [
                 {
                     "width": {
                         "render": "5",
@@ -127,9 +117,10 @@
                 }
             ],
             "mappings": [],
-           "tagRenderings": [
-
-
+            "tagRenderings": [
+                {
+			"render": "{nearby_images()}"
+                },
                 {
                     "id": "way-surface",
                     "question": "Wat is de ondergrond van dit segment?",
@@ -233,6 +224,6 @@
                     ]
                 }
             ]
-		}
-	]
+        }
+    ]
 }
