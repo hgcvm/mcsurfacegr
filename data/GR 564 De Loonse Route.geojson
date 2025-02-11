@@ -4068,6 +4068,7 @@
       "properties": {
         "highway": "residential",
         "name": "Hoog Kattenbos",
+        "surface": "asphalt",
         "id": "way/48161754"
       },
       "geometry": {
@@ -14792,6 +14793,10 @@
           [
             5.4239041,
             50.9746181
+          ],
+          [
+            5.4239166,
+            50.9745881
           ]
         ]
       }
@@ -26597,6 +26602,7 @@
       "id": "way/308623983",
       "properties": {
         "highway": "track",
+        "surface": "dirt",
         "tracktype": "grade2",
         "id": "way/308623983"
       },
@@ -29700,7 +29706,6 @@
         "highway": "cycleway",
         "lit": "no",
         "moped": "yes",
-        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/364646953"
       },
@@ -29708,12 +29713,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4239236,
-            50.9745675
+            5.4239166,
+            50.9745881
           ],
           [
-            5.423936,
-            50.9745306
+            5.4239411,
+            50.9745364
           ]
         ]
       }
@@ -37385,8 +37390,8 @@
             50.9730405
           ],
           [
-            5.4236987,
-            50.9745329
+            5.42363,
+            50.974505
           ]
         ]
       }
@@ -38922,29 +38927,6 @@
           [
             5.3418522,
             50.8017945
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/929402368",
-      "properties": {
-        "highway": "service",
-        "lit": "no",
-        "surface": "asphalt",
-        "id": "way/929402368"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.4239041,
-            50.9746181
-          ],
-          [
-            5.4239166,
-            50.9745881
           ]
         ]
       }
@@ -41252,33 +41234,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1244567508",
-      "properties": {
-        "crossing": "unmarked",
-        "crossing:markings": "no",
-        "cycleway": "crossing",
-        "highway": "cycleway",
-        "lit": "no",
-        "moped": "yes",
-        "surface": "asphalt",
-        "id": "way/1244567508"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.4239166,
-            50.9745881
-          ],
-          [
-            5.4239236,
-            50.9745675
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1253019621",
       "properties": {
         "highway": "unclassified",
@@ -42492,20 +42447,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4236987,
-            50.9745329
+            5.42363,
+            50.974505
           ],
           [
             5.4237781,
             50.9745099
           ],
           [
-            5.4238991,
-            50.9745283
-          ],
-          [
-            5.423936,
-            50.9745306
+            5.4238451,
+            50.9745201
           ]
         ]
       }
@@ -42591,6 +42542,37 @@
           [
             5.4360151,
             50.9186363
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1358536918",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "no",
+        "moped": "yes",
+        "name": "Boekrakelaan",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "id": "way/1358536918"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4238451,
+            50.9745201
+          ],
+          [
+            5.423889,
+            50.9745271
+          ],
+          [
+            5.4239411,
+            50.9745364
           ]
         ]
       }

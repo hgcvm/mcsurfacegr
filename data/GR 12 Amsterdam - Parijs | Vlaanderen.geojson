@@ -3127,14 +3127,6 @@
           [
             4.4022602,
             51.2205155
-          ],
-          [
-            4.4025326,
-            51.2203327
-          ],
-          [
-            4.4027028,
-            51.2202931
           ]
         ]
       }
@@ -6637,10 +6629,6 @@
           [
             4.4799388,
             51.0605352
-          ],
-          [
-            4.4798251,
-            51.0605385
           ]
         ]
       }
@@ -6667,41 +6655,6 @@
           [
             4.4829621,
             51.0577956
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/23899499",
-      "properties": {
-        "bicycle": "use_sidepath",
-        "highway": "primary",
-        "lanes": "3",
-        "lanes:backward": "2",
-        "lanes:forward": "1",
-        "maxspeed": "50",
-        "ref": "N14",
-        "source:maxspeed": "BE-VLG:urban",
-        "surface": "asphalt",
-        "turn:lanes:backward": "left|none",
-        "zone:traffic": "BE-VLG:urban",
-        "id": "way/23899499"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4798365,
-            51.060669
-          ],
-          [
-            4.4798275,
-            51.0605656
-          ],
-          [
-            4.4798251,
-            51.0605385
           ]
         ]
       }
@@ -29429,26 +29382,25 @@
     },
     {
       "type": "Feature",
-      "id": "way/1327253485",
+      "id": "way/1327875160",
       "properties": {
-        "bicycle": "use_sidepath",
         "highway": "unclassified",
         "maxspeed": "50",
-        "name": "Hogevelden",
-        "source:maxspeed": "traffic_sign",
+        "name": "Zorgvliet",
         "surface": "asphalt",
-        "id": "way/1327253485"
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1327875160"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4797303,
-            51.0606767
+            4.4887501,
+            51.0540987
           ],
           [
-            4.4798365,
-            51.060669
+            4.4887471,
+            51.0540915
           ]
         ]
       }
@@ -29480,6 +29432,95 @@
           [
             4.4688704,
             51.2453746
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1358635381",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "maxspeed": "20",
+        "maxspeed:zone": "yes",
+        "name": "Lijnwaadmarkt",
+        "surface": "sett",
+        "id": "way/1358635381"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4022602,
+            51.2205155
+          ],
+          [
+            4.4025326,
+            51.2203327
+          ],
+          [
+            4.4027028,
+            51.2202931
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1358648850",
+      "properties": {
+        "crossing": "uncontrolled",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway",
+        "surface": "unpaved",
+        "id": "way/1358648850"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4799388,
+            51.0605352
+          ],
+          [
+            4.4798251,
+            51.0605385
+          ],
+          [
+            4.4797192,
+            51.0605391
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1358648852",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "yes",
+        "id": "way/1358648852"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4797303,
+            51.0606767
+          ],
+          [
+            4.479723,
+            51.0606164
+          ],
+          [
+            4.4797207,
+            51.0605675
+          ],
+          [
+            4.4797192,
+            51.0605391
           ]
         ]
       }
