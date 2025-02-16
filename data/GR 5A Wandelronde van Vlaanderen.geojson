@@ -24684,7 +24684,8 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
-        "surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "concrete",
         "vehicle": "no",
         "id": "way/72896578"
       },
@@ -24714,7 +24715,7 @@
         "highway": "path",
         "incline": "19%",
         "smoothness": "good",
-        "surface": "paving_stones",
+        "surface": "concrete",
         "vehicle": "no",
         "id": "way/72896581"
       },
@@ -46294,6 +46295,7 @@
       "properties": {
         "bicycle": "no",
         "highway": "path",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/239221648"
       },
@@ -107298,7 +107300,7 @@
         "highway": "unclassified",
         "name": "Brusselsestraat",
         "surface": "asphalt",
-        "traffic_sign:BE": "F99C",
+        "traffic_sign": "BE:F99C",
         "id": "way/118015171"
       },
       "geometry": {
@@ -166728,6 +166730,7 @@
       "id": "way/23229652",
       "properties": {
         "highway": "living_street",
+        "maxspeed": "20",
         "noname": "yes",
         "id": "way/23229652"
       },
@@ -166743,8 +166746,8 @@
             51.2010302
           ],
           [
-            4.3459187,
-            51.2010495
+            4.3459873,
+            51.2010464
           ]
         ]
       }
@@ -166754,6 +166757,7 @@
       "id": "way/23229664",
       "properties": {
         "highway": "living_street",
+        "maxspeed": "20",
         "name": "Martinusplein",
         "id": "way/23229664"
       },
@@ -166790,8 +166794,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3459187,
-            51.2010495
+            4.3459873,
+            51.2010464
           ],
           [
             4.3462576,
@@ -167834,7 +167838,7 @@
             51.1999626
           ],
           [
-            4.3398568,
+            4.3398593,
             51.1994837
           ]
         ]
@@ -168166,12 +168170,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3398568,
+            4.3398593,
             51.1994837
           ],
           [
-            4.3393628,
-            51.1994359
+            4.3392443,
+            51.199371
+          ],
+          [
+            4.3389044,
+            51.1992726
           ],
           [
             4.3385645,
@@ -168785,10 +168793,6 @@
           [
             4.3868098,
             51.2192755
-          ],
-          [
-            4.3874365,
-            51.2202146
           ]
         ]
       }
@@ -168835,12 +168839,12 @@
             51.2084925
           ],
           [
-            4.3700441,
-            51.2087002
+            4.3700416,
+            51.2086963
           ],
           [
-            4.3701695,
-            51.2087585
+            4.3701782,
+            51.2087257
           ]
         ]
       }
@@ -169181,16 +169185,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3701695,
-            51.2087585
+            4.3701782,
+            51.2087257
           ],
           [
             4.3704678,
             51.2087901
           ],
           [
-            4.3709566,
-            51.2089523
+            4.3709504,
+            51.2089578
           ],
           [
             4.3713207,
@@ -169571,6 +169575,30 @@
           [
             4.3354335,
             51.2004328
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1360187175",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "no",
+        "surface": "asphalt",
+        "width": "3.07",
+        "id": "way/1360187175"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3868098,
+            51.2192755
+          ],
+          [
+            4.3874365,
+            51.2202146
           ]
         ]
       }

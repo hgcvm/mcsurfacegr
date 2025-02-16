@@ -702,9 +702,11 @@
       "type": "Feature",
       "id": "way/27610377",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
         "maxspeed": "70",
         "name": "Boekelstraat",
+        "sidewalk": "no",
         "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
@@ -11656,8 +11658,11 @@
       "type": "Feature",
       "id": "way/76237437",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Sieregem",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/76237437"
       },
       "geometry": {
@@ -11783,12 +11788,14 @@
       "id": "way/76237438",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "highway": "unclassified",
         "mofa": "yes",
         "moped": "yes",
         "motor_vehicle": "destination",
         "motorcycle": "no",
         "name": "Molenkouterweg",
+        "sidewalk": "no",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "id": "way/76237438"
@@ -11856,27 +11863,13 @@
         "highway": "path",
         "name": "Sterreweg",
         "official_vicinal_ref": "058_61_1",
+        "smoothness": "very_bad",
+        "surface": "asphalt",
         "id": "way/76237439"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.737103,
-            50.8310488
-          ],
-          [
-            3.7374283,
-            50.8308703
-          ],
-          [
-            3.7377405,
-            50.8306941
-          ],
-          [
-            3.7378065,
-            50.8306572
-          ],
           [
             3.7378561,
             50.8306331
@@ -16703,8 +16696,11 @@
       "type": "Feature",
       "id": "way/86503666",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Lepelstraat",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/86503666"
       },
       "geometry": {
@@ -18592,6 +18588,7 @@
         "maxspeed": "70",
         "name": "Gentsestraat",
         "ref": "N415",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/86503735"
       },
@@ -21526,7 +21523,7 @@
         "highway": "unclassified",
         "name": "Brusselsestraat",
         "surface": "asphalt",
-        "traffic_sign:BE": "F99C",
+        "traffic_sign": "BE:F99C",
         "id": "way/118015171"
       },
       "geometry": {
@@ -27376,6 +27373,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Bleinstraat",
+        "surface": "asphalt",
         "id": "way/172482835"
       },
       "geometry": {
@@ -27961,8 +27959,10 @@
       "type": "Feature",
       "id": "way/184233035",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Pottenberg",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/184233035"
       },
@@ -43020,13 +43020,16 @@
       "id": "way/514459305",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "highway": "unclassified",
         "mofa": "yes",
         "moped": "yes",
         "motor_vehicle": "destination",
         "motorcycle": "no",
         "name": "Molenkouterweg",
+        "sidewalk": "no",
         "speed_pedelec": "yes",
+        "surface": "asphalt",
         "id": "way/514459305"
       },
       "geometry": {
@@ -50323,6 +50326,45 @@
           [
             3.6863378,
             50.7536619
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1360086452",
+      "properties": {
+        "designation": "vicinal_road",
+        "foot": "yes",
+        "highway": "path",
+        "name": "Sterreweg",
+        "official_vicinal_ref": "058_61_1",
+        "smoothness": "intermediate",
+        "surface": "concrete",
+        "id": "way/1360086452"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.737103,
+            50.8310488
+          ],
+          [
+            3.7374283,
+            50.8308703
+          ],
+          [
+            3.7377405,
+            50.8306941
+          ],
+          [
+            3.7378065,
+            50.8306572
+          ],
+          [
+            3.7378561,
+            50.8306331
           ]
         ]
       }
