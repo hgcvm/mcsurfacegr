@@ -436,9 +436,11 @@
       "properties": {
         "highway": "tertiary",
         "lane_markings": "no",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Dries",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/30013324"
       },
       "geometry": {
@@ -3024,7 +3026,9 @@
         "name": "Reningelststraat",
         "ref": "N304",
         "sidewalk": "both",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/76180050"
       },
       "geometry": {
@@ -11508,9 +11512,12 @@
       "id": "way/98698625",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Sint-Laurentiusplein",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width": "3",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/98698625"
       },
       "geometry": {
@@ -11521,8 +11528,8 @@
             50.7833356
           ],
           [
-            2.8258529,
-            50.7834725
+            2.8258627,
+            50.7834928
           ]
         ]
       }
@@ -15700,13 +15707,15 @@
       "properties": {
         "highway": "residential",
         "lane_markings": "no",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Dries",
         "oneway": "yes",
         "oneway:bicycle": "yes",
         "oneway:mofa": "yes",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width": "3",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/136001014"
       },
       "geometry": {
@@ -17059,8 +17068,11 @@
       "id": "way/154466673",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Dries",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/154466673"
       },
       "geometry": {
@@ -19200,11 +19212,13 @@
         "cycleway:both:lane": "pictogram",
         "highway": "secondary",
         "lane_markings": "no",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Reningelststraat",
         "ref": "N304",
         "sidewalk": "both",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/179158884"
       },
       "geometry": {
@@ -25315,13 +25329,15 @@
       "properties": {
         "highway": "residential",
         "lane_markings": "no",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Dries",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width": "3",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/372752105"
       },
       "geometry": {
@@ -30557,47 +30573,23 @@
     },
     {
       "type": "Feature",
-      "id": "way/690645182",
-      "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "path",
-        "name": "Sint-Laurentiusplein",
-        "segregated": "no",
-        "surface": "sett",
-        "width": "1.5",
-        "id": "way/690645182"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.8258529,
-            50.7834725
-          ],
-          [
-            2.8258721,
-            50.7835119
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/690645183",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Sint-Laurentiusplein",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "width": "3",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/690645183"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            2.8258721,
-            50.7835119
+            2.8258627,
+            50.7834928
           ],
           [
             2.8258817,
@@ -34888,9 +34880,12 @@
         "cycleway:both": "shared_lane",
         "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
+        "maxspeed": "30",
         "name": "Hogenakkerstraat",
         "sidewalk": "both",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/1271786736"
       },
       "geometry": {
@@ -34911,10 +34906,6 @@
           [
             2.8249076,
             50.7863238
-          ],
-          [
-            2.8250077,
-            50.7867964
           ]
         ]
       }
@@ -34927,11 +34918,13 @@
         "cycleway:both:lane": "pictogram",
         "highway": "secondary",
         "lane_markings": "no",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Reningelststraat",
         "ref": "N304",
         "sidewalk": "both",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/1271787595"
       },
       "geometry": {
@@ -35329,6 +35322,35 @@
           [
             2.8903209,
             50.7605321
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1360311241",
+      "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "name": "Hogenakkerstraat",
+        "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1360311241"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8249076,
+            50.7863238
+          ],
+          [
+            2.8250077,
+            50.7867964
           ]
         ]
       }
