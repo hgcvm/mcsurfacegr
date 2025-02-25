@@ -2209,6 +2209,7 @@
         "maxspeed": "50",
         "name": "Lange Leemstraat",
         "parking:both": "no",
+        "sidewalk:both": "separate",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "paving_stones",
         "zone:traffic": "BE-VLG:urban",
@@ -3473,7 +3474,7 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Lange Brilstraat",
-        "note": "road blocked until July 2024",
+        "note": "deze straten en het Stadswaag plein werden 2024/2025 heraangelegd met andere wegenis. er zijn prentjes 23 feb'25 onderweg.",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "surface": "paving_stones",
@@ -3483,8 +3484,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4076328,
-            51.2238872
+            4.4077085,
+            51.2238774
           ],
           [
             4.4082953,
@@ -3937,6 +3938,7 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Raapstraat",
+        "note": "deze straten en het Stadswaag plein werden 2024/2025 heraangelegd met andere wegenis. er zijn prentjes 23 feb'25 onderweg.",
         "oneway": "no",
         "oneway:bicycle": "no",
         "surface": "sett",
@@ -26532,42 +26534,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/962908371",
-      "properties": {
-        "bicycle": "yes",
-        "construction": "residential",
-        "cycleway": "no",
-        "foot": "yes",
-        "highway": "construction",
-        "maxspeed": "30",
-        "maxspeed:zone": "yes",
-        "motor_vehicle": "no",
-        "name": "Raapstraat",
-        "oneway": "no",
-        "oneway:bicycle": "no",
-        "surface": "sett",
-        "id": "way/962908371"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4072746,
-            51.2239316
-          ],
-          [
-            4.4069213,
-            51.223976
-          ],
-          [
-            4.4068857,
-            51.2239802
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/968775554",
       "properties": {
         "alt_name": "IJzerlaanbrug;IJzerlaanfietsbrug",
@@ -29242,41 +29208,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1311938624",
-      "properties": {
-        "bicycle": "yes",
-        "construction": "residential",
-        "cycleway": "no",
-        "foot": "yes",
-        "highway": "construction",
-        "maxspeed": "30",
-        "maxspeed:zone": "yes",
-        "motor_vehicle": "no",
-        "name": "Lange Brilstraat",
-        "oneway": "yes",
-        "oneway:bicycle": "no",
-        "id": "way/1311938624"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4072746,
-            51.2239316
-          ],
-          [
-            4.4075922,
-            51.2238917
-          ],
-          [
-            4.4076328,
-            51.2238872
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1311938625",
       "properties": {
         "cycleway": "no",
@@ -29284,7 +29215,8 @@
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "motor_vehicle": "no",
-        "name": "Raapstraat",
+        "name": "stadswaag",
+        "note": "deze straten en het Stadswaag plein werden 2024/2025 heraangelegd met andere wegenis. er zijn prentjes 23 feb'25 onderweg.",
         "oneway": "no",
         "oneway:bicycle": "no",
         "surface": "sett",
@@ -29294,8 +29226,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4068857,
-            51.2239802
+            4.4069231,
+            51.2239767
           ],
           [
             4.4068308,
@@ -29532,6 +29464,36 @@
           [
             4.4797192,
             51.0605391
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1362604630",
+      "properties": {
+        "access": "yes",
+        "cycleway": "no",
+        "highway": "residential",
+        "maxspeed": "30",
+        "maxspeed:zone": "yes",
+        "name": "Stadswaag",
+        "note": "deze straten en het Stadswaag plein werden 2024/2025 heraangelegd met andere wegenis. er zijn prentjes 23 feb'25 onderweg.",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "surface": "paving_stones",
+        "id": "way/1362604630"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4075937,
+            51.2238899
+          ],
+          [
+            4.4077085,
+            51.2238774
           ]
         ]
       }
