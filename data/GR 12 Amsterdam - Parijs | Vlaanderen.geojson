@@ -4032,9 +4032,8 @@
       "type": "Feature",
       "id": "way/20631785",
       "properties": {
-        "foot": "designated",
-        "highway": "living_street",
-        "maxspeed": "20",
+        "highway": "residential",
+        "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Hofstraat",
         "oneway": "yes",
@@ -4042,7 +4041,6 @@
         "sidewalk": "both",
         "surface": "paving_stones",
         "width": "4",
-        "zone:maxspeed": "BE:living_street",
         "id": "way/20631785"
       },
       "geometry": {
@@ -4134,13 +4132,11 @@
       "type": "Feature",
       "id": "way/20632106",
       "properties": {
-        "foot": "designated",
-        "highway": "living_street",
+        "highway": "pedestrian",
         "maxspeed": "20",
         "maxspeed:zone": "yes",
         "name": "Stoelstraat",
         "surface": "paving_stones",
-        "zone:maxspeed": "BE:living_street",
         "id": "way/20632106"
       },
       "geometry": {
@@ -7275,7 +7271,6 @@
       "properties": {
         "bicycle": "yes",
         "highway": "pedestrian",
-        "lit": "yes",
         "motor_vehicle": "private",
         "name": "Oostendekaai",
         "name:etymology:wikidata": "Q12996",
@@ -9797,19 +9792,12 @@
       "type": "Feature",
       "id": "way/41680141",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "living_street",
-        "horse": "no",
-        "lanes": "1",
         "lit": "yes",
-        "maxspeed": "20",
         "name": "Gagelveldenstraat",
-        "note": "heraangelegd 2024H2",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "oneway:speed_pedelec": "no",
-        "surface": "paved;grass_pavers",
+        "surface": "asphalt",
         "id": "way/41680141"
       },
       "geometry": {
@@ -9830,10 +9818,6 @@
           [
             4.4375615,
             51.2436847
-          ],
-          [
-            4.4370826,
-            51.2435336
           ],
           [
             4.4368774,
@@ -19624,15 +19608,13 @@
       "type": "Feature",
       "id": "way/424820210",
       "properties": {
-        "foot": "designated",
         "highway": "living_street",
         "maxspeed": "20",
         "name": "Zwartzustersstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "oneway:speed_pedelec": "no",
+        "source:maxspeed": "BE:living_street",
         "surface": "sett",
-        "zone:maxspeed": "BE:living_street",
         "id": "way/424820210"
       },
       "geometry": {
@@ -19700,7 +19682,6 @@
         "name": "Zirkstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "oneway:speed_pedelec": "no",
         "sidewalk": "both",
         "surface": "paving_stones",
         "width": "4",
