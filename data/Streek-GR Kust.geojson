@@ -3572,9 +3572,6 @@
         "maxspeed": "30",
         "maxspeed:type": "sign",
         "name": "Halvemaanstraat",
-        "oneway": "no",
-        "sidewalk": "left",
-        "sidewalk:left:surface": "paving_stones",
         "smoothness": "excellent",
         "surface": "paving_stones",
         "width": "4",
@@ -3610,6 +3607,10 @@
           [
             2.746295,
             51.1445504
+          ],
+          [
+            2.7461153,
+            51.1444468
           ]
         ]
       }
@@ -14934,7 +14935,6 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Halvemaanstraat",
-        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/136704279"
       },
@@ -14956,12 +14956,9 @@
       "type": "Feature",
       "id": "way/136704283",
       "properties": {
-        "cycleway:both": "no",
         "highway": "service",
         "maxspeed": "30",
         "name": "Nieuwe Jachthavenweg",
-        "sidewalk": "right",
-        "sidewalk:right:surface": "paving_stones",
         "smoothness": "excellent",
         "surface": "paving_stones",
         "id": "way/136704283"
@@ -17449,10 +17446,8 @@
       "properties": {
         "access": "yes",
         "bicycle": "no",
-        "cycleway:both": "no",
         "foot": "yes",
         "highway": "service",
-        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/143956728"
       },
@@ -17825,9 +17820,7 @@
       "type": "Feature",
       "id": "way/153048196",
       "properties": {
-        "cycleway:both": "no",
         "highway": "service",
-        "sidewalk": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/153048196"
@@ -17850,9 +17843,7 @@
       "type": "Feature",
       "id": "way/153048197",
       "properties": {
-        "cycleway:both": "no",
         "highway": "service",
-        "sidewalk": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/153048197"
@@ -17875,9 +17866,7 @@
       "type": "Feature",
       "id": "way/153048200",
       "properties": {
-        "cycleway:both": "no",
         "highway": "service",
-        "sidewalk": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/153048200"
@@ -17900,9 +17889,7 @@
       "type": "Feature",
       "id": "way/153048727",
       "properties": {
-        "cycleway:both": "no",
         "highway": "service",
-        "sidewalk": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/153048727"
@@ -18421,38 +18408,6 @@
           [
             3.3244297,
             51.3568225
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/160840263",
-      "properties": {
-        "bicycle": "no",
-        "highway": "footway",
-        "name": "Groenplein",
-        "surface": "concrete:plates",
-        "id": "way/160840263"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2767088,
-            51.3444541
-          ],
-          [
-            3.2768511,
-            51.3444986
-          ],
-          [
-            3.277247,
-            51.3446352
-          ],
-          [
-            3.2777094,
-            51.344796
           ]
         ]
       }
@@ -19937,6 +19892,30 @@
     },
     {
       "type": "Feature",
+      "id": "way/198204196",
+      "properties": {
+        "bicycle": "no",
+        "highway": "footway",
+        "name": "Groenplein",
+        "surface": "concrete",
+        "id": "way/198204196"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2778061,
+            51.3447015
+          ],
+          [
+            3.2767793,
+            51.3443521
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/198204203",
       "properties": {
         "cycleway:right": "no",
@@ -19984,29 +19963,6 @@
           [
             3.2878483,
             51.3437747
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/198204206",
-      "properties": {
-        "cycleway": "track",
-        "highway": "residential",
-        "name": "Meerlaan",
-        "id": "way/198204206"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.2767529,
-            51.3443896
-          ],
-          [
-            3.2767088,
-            51.3444541
           ]
         ]
       }
@@ -27164,6 +27120,69 @@
     },
     {
       "type": "Feature",
+      "id": "way/390602080",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "oneway": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "traffic_sign": "BE:D7",
+        "width": "2",
+        "id": "way/390602080"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.075567,
+            51.2959457
+          ],
+          [
+            3.0754181,
+            51.2958613
+          ],
+          [
+            3.0749522,
+            51.2955225
+          ],
+          [
+            3.0748579,
+            51.2954532
+          ],
+          [
+            3.0745666,
+            51.29524
+          ],
+          [
+            3.0742842,
+            51.2950385
+          ],
+          [
+            3.0742058,
+            51.2949825
+          ],
+          [
+            3.0738899,
+            51.2947467
+          ],
+          [
+            3.0738303,
+            51.2947008
+          ],
+          [
+            3.073935,
+            51.2946325
+          ],
+          [
+            3.0739731,
+            51.2945891
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/403510936",
       "properties": {
         "highway": "path",
@@ -27602,7 +27621,6 @@
         "ramp": "no",
         "step_count": "34",
         "surface": "wood",
-        "tactile_paving": "no",
         "id": "way/424498431"
       },
       "geometry": {
@@ -33428,7 +33446,6 @@
         "name": "Zeedijk",
         "paving_stones:pattern": "half_bond",
         "paving_stones:shape": "rectangular",
-        "smoothness": "good",
         "surface": "paving_stones",
         "vehicle": "delivery",
         "zone:maxspeed": "BE:30",
@@ -41688,29 +41705,24 @@
     },
     {
       "type": "Feature",
-      "id": "way/1185122626",
+      "id": "way/1185122625",
       "properties": {
-        "bicycle": "no",
-        "highway": "footway",
-        "name": "Zegemeerpad",
-        "surface": "concrete:plates",
-        "traffic_sign": "BE:C11",
-        "id": "way/1185122626"
+        "cycleway": "track",
+        "highway": "residential",
+        "name": "Meerlaan",
+        "surface": "asphalt",
+        "id": "way/1185122625"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.2777094,
-            51.344796
+            3.2767793,
+            51.3443521
           ],
           [
-            3.2777556,
-            51.3447493
-          ],
-          [
-            3.2778061,
-            51.3447015
+            3.2767529,
+            51.3443896
           ]
         ]
       }
@@ -42839,7 +42851,6 @@
       "id": "way/1204679317",
       "properties": {
         "highway": "path",
-        "smoothness": "intermediate",
         "surface": "compacted",
         "id": "way/1204679317"
       },
@@ -44619,21 +44630,31 @@
     },
     {
       "type": "Feature",
-      "id": "way/1350912143",
+      "id": "way/1350912144",
       "properties": {
-        "highway": "footway",
-        "id": "way/1350912143"
+        "highway": "cycleway",
+        "lit": "yes",
+        "oneway": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "traffic_sign": "BE:D7",
+        "width": "2",
+        "id": "way/1350912144"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.0737722,
-            51.2947299
+            3.0762685,
+            51.2964337
           ],
           [
-            3.0738303,
-            51.2947008
+            3.0763005,
+            51.2963853
+          ],
+          [
+            3.0763415,
+            51.2963203
           ]
         ]
       }
@@ -44730,68 +44751,6 @@
           [
             2.7843136,
             51.1738317
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1364044274",
-      "properties": {
-        "highway": "cycleway",
-        "lit": "yes",
-        "oneway": "no",
-        "smoothness": "excellent",
-        "surface": "asphalt",
-        "traffic_sign": "BE:D7",
-        "width": "2",
-        "id": "way/1364044274"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.0738303,
-            51.2947008
-          ],
-          [
-            3.073935,
-            51.2946325
-          ],
-          [
-            3.0739731,
-            51.2945891
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1365015716",
-      "properties": {
-        "cycleway:both": "no",
-        "highway": "unclassified",
-        "lane_markings": "no",
-        "maxspeed": "30",
-        "maxspeed:type": "sign",
-        "name": "Halvemaanstraat",
-        "oneway": "no",
-        "sidewalk": "left",
-        "sidewalk:left:surface": "paving_stones",
-        "surface": "asphalt",
-        "width": "4",
-        "id": "way/1365015716"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.746295,
-            51.1445504
-          ],
-          [
-            2.7461153,
-            51.1444468
           ]
         ]
       }

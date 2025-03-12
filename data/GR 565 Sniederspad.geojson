@@ -1135,11 +1135,16 @@
       "properties": {
         "bicycle": "yes",
         "bus": "yes",
+        "cycleway:both": "no",
         "emergency": "yes",
         "highway": "residential",
         "horse": "yes",
+        "lane_markings": "no",
+        "lit": "no",
         "maxspeed": "50",
         "name": "Patappeltorenweg",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "vehicle": "destination",
         "id": "way/23584817"
       },
@@ -4084,6 +4089,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
+        "lit": "no",
         "motor_vehicle": "no",
         "note": "befietst 2021-01-01 : een verharde ondergrond met kuilen en 5cm laag bladmoes / modder ; in de winter amper te befietsen, in de zomer goed.",
         "surface": "compacted",
@@ -4136,8 +4142,13 @@
       "type": "Feature",
       "id": "way/29387492",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed:type": "BE:urban",
         "name": "Wijtschotbaan",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/29387492"
       },
@@ -4211,6 +4222,8 @@
       "type": "Feature",
       "id": "way/29387534",
       "properties": {
+        "cycleway:left": "separate",
+        "cycleway:right": "no",
         "highway": "unclassified",
         "lanes": "2",
         "lit": "yes",
@@ -5269,20 +5282,24 @@
             51.2341005
           ],
           [
-            4.6406455,
-            51.2340936
+            4.6406986,
+            51.2341424
           ],
           [
-            4.6406622,
-            51.2343301
+            4.6406959,
+            51.2342407
+          ],
+          [
+            4.6407047,
+            51.2343323
           ],
           [
             4.640672,
             51.2345431
           ],
           [
-            4.6406721,
-            51.2346373
+            4.640665,
+            51.2345996
           ]
         ]
       }
@@ -15967,6 +15984,10 @@
             51.2440948
           ],
           [
+            4.9404668,
+            51.2440667
+          ],
+          [
             4.9403347,
             51.2440096
           ],
@@ -16204,6 +16225,10 @@
           [
             4.6432091,
             51.2364255
+          ],
+          [
+            4.643063,
+            51.235484
           ],
           [
             4.6430544,
@@ -18597,8 +18622,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6406721,
-            51.2346373
+            4.640665,
+            51.2345996
           ],
           [
             4.6419331,
@@ -19162,6 +19187,7 @@
       "properties": {
         "footway": "crossing",
         "highway": "footway",
+        "lit": "yes",
         "surface": "paved",
         "id": "way/176710599"
       },
@@ -24857,6 +24883,7 @@
       "properties": {
         "footway": "crossing",
         "highway": "footway",
+        "lit": "yes",
         "surface": "paved",
         "id": "way/474041689"
       },
@@ -28933,6 +28960,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Schijnparklaan",
+        "surface": "concrete:plates",
         "id": "way/831405579"
       },
       "geometry": {
@@ -31670,6 +31698,7 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
+        "lit": "yes",
         "oneway": "no",
         "segregated": "yes",
         "id": "way/1280119684"
