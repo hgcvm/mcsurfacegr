@@ -11806,6 +11806,7 @@
       "id": "way/4821494",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kanaaldijk",
         "surface": "asphalt",
         "id": "way/4821494"
@@ -11833,6 +11834,7 @@
       "id": "way/4821495",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kanaaldijk",
         "surface": "asphalt",
         "id": "way/4821495"
@@ -52792,12 +52794,24 @@
             50.8556556
           ],
           [
-            5.683262,
+            5.6834981,
+            50.8556849
+          ],
+          [
+            5.6832749,
             50.8557224
+          ],
+          [
+            5.6831657,
+            50.8557444
           ],
           [
             5.6830651,
             50.8557692
+          ],
+          [
+            5.6829949,
+            50.8557992
           ],
           [
             5.6829311,
@@ -61389,9 +61403,7 @@
       "type": "Feature",
       "id": "way/1149542815",
       "properties": {
-        "crossing": "traffic_signals",
-        "crossing:island": "yes",
-        "footway": "crossing",
+        "footway": "traffic_island",
         "highway": "footway",
         "surface": "asphalt",
         "id": "way/1149542815"
@@ -61441,6 +61453,8 @@
       "id": "way/1149542821",
       "properties": {
         "crossing": "traffic_signals",
+        "crossing:markings": "dots",
+        "crossing:signals": "yes",
         "cycleway": "crossing",
         "highway": "cycleway",
         "mofa": "designated",
@@ -61603,6 +61617,7 @@
       "properties": {
         "crossing": "traffic_signals",
         "crossing:markings": "zebra",
+        "crossing:signals": "yes",
         "crossing_ref": "zebra",
         "footway": "crossing",
         "highway": "footway",
@@ -61665,6 +61680,7 @@
       "id": "way/1149542850",
       "properties": {
         "crossing": "unmarked",
+        "crossing:markings": "no",
         "footway": "crossing",
         "highway": "footway",
         "paving_stones:length": "0.3",
@@ -61734,6 +61750,8 @@
       "id": "way/1149542856",
       "properties": {
         "crossing": "traffic_signals",
+        "crossing:markings": "dots",
+        "crossing:signals": "yes",
         "cycleway": "crossing",
         "highway": "cycleway",
         "mofa": "designated",
