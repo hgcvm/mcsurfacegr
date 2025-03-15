@@ -1135,11 +1135,16 @@
       "properties": {
         "bicycle": "yes",
         "bus": "yes",
+        "cycleway:both": "no",
         "emergency": "yes",
         "highway": "residential",
         "horse": "yes",
+        "lane_markings": "no",
+        "lit": "no",
         "maxspeed": "50",
         "name": "Patappeltorenweg",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "vehicle": "destination",
         "id": "way/23584817"
       },
@@ -3373,8 +3378,12 @@
       "id": "way/29355489",
       "properties": {
         "bicycle": "no",
+        "check_date": "2025-03-13",
+        "check_date:lit": "2025-03-13",
+        "check_date:surface": "2025-03-13",
         "highway": "path",
-        "lastcheck": "2019-04-11",
+        "lit": "no",
+        "surface": "fine_gravel",
         "id": "way/29355489"
       },
       "geometry": {
@@ -3398,6 +3407,7 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "path",
+        "lit": "no",
         "motor_vehicle": "permit",
         "name": "Vincke Leije",
         "surface": "fine_gravel",
@@ -3971,6 +3981,7 @@
       "properties": {
         "hgv": "delivery",
         "highway": "residential",
+        "lanes": "2",
         "maxspeed": "30",
         "maxweight:conditional": "none @ delivery",
         "name": "Broekstraat",
@@ -4084,6 +4095,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
+        "lit": "no",
         "motor_vehicle": "no",
         "note": "befietst 2021-01-01 : een verharde ondergrond met kuilen en 5cm laag bladmoes / modder ; in de winter amper te befietsen, in de zomer goed.",
         "surface": "compacted",
@@ -4136,8 +4148,13 @@
       "type": "Feature",
       "id": "way/29387492",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed:type": "BE:urban",
         "name": "Wijtschotbaan",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/29387492"
       },
@@ -4211,6 +4228,8 @@
       "type": "Feature",
       "id": "way/29387534",
       "properties": {
+        "cycleway:left": "separate",
+        "cycleway:right": "no",
         "highway": "unclassified",
         "lanes": "2",
         "lit": "yes",
@@ -5269,20 +5288,24 @@
             51.2341005
           ],
           [
-            4.6406455,
-            51.2340936
+            4.6406986,
+            51.2341424
           ],
           [
-            4.6406622,
-            51.2343301
+            4.6406959,
+            51.2342407
+          ],
+          [
+            4.6407047,
+            51.2343323
           ],
           [
             4.640672,
             51.2345431
           ],
           [
-            4.6406721,
-            51.2346373
+            4.640665,
+            51.2345996
           ]
         ]
       }
@@ -15967,6 +15990,10 @@
             51.2440948
           ],
           [
+            4.9404668,
+            51.2440667
+          ],
+          [
             4.9403347,
             51.2440096
           ],
@@ -16204,6 +16231,10 @@
           [
             4.6432091,
             51.2364255
+          ],
+          [
+            4.643063,
+            51.235484
           ],
           [
             4.6430544,
@@ -18597,8 +18628,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6406721,
-            51.2346373
+            4.640665,
+            51.2345996
           ],
           [
             4.6419331,
@@ -19162,6 +19193,7 @@
       "properties": {
         "footway": "crossing",
         "highway": "footway",
+        "lit": "yes",
         "surface": "paved",
         "id": "way/176710599"
       },
@@ -19249,6 +19281,7 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
+        "lit": "no",
         "name": "Ponthoekweg",
         "sidewalk": "no",
         "surface": "dirt",
@@ -19471,6 +19504,7 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "path",
+        "lit": "no",
         "sidewalk": "no",
         "surface": "dirt",
         "id": "way/176712972"
@@ -19515,6 +19549,7 @@
         "fishing": "no",
         "foot": "yes",
         "highway": "track",
+        "lit": "no",
         "motor_vehicle": "permit",
         "smoking": "no",
         "surface": "dirt",
@@ -19569,6 +19604,8 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
+        "lit": "no",
+        "surface": "sett",
         "id": "way/176712974"
       },
       "geometry": {
@@ -19603,6 +19640,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
+        "lit": "no",
         "name": "Johanna De Pretdreef",
         "surface": "compacted",
         "id": "way/176712976"
@@ -20641,6 +20679,7 @@
         "bridge": "yes",
         "highway": "path",
         "horse": "no",
+        "lit": "no",
         "motor_vehicle": "no",
         "surface": "dirt",
         "id": "way/197668205"
@@ -24857,6 +24896,7 @@
       "properties": {
         "footway": "crossing",
         "highway": "footway",
+        "lit": "yes",
         "surface": "paved",
         "id": "way/474041689"
       },
@@ -27921,11 +27961,15 @@
       "id": "way/755255485",
       "properties": {
         "bicycle": "no",
+        "check_date": "2025-03-13",
+        "check_date:lit": "2025-03-13",
+        "check_date:surface": "2025-03-13",
         "foot": "yes",
         "highway": "path",
-        "lastcheck": "2019-04-11",
+        "lit": "no",
         "motor_vehicle": "permit",
         "name": "Johanna De Pretdreef",
+        "surface": "compacted",
         "id": "way/755255485"
       },
       "geometry": {
@@ -27960,9 +28004,13 @@
       "properties": {
         "bicycle": "yes",
         "bridge": "yes",
+        "check_date": "2025-03-13",
+        "check_date:lit": "2025-03-13",
+        "check_date:surface": "2025-03-13",
         "highway": "path",
-        "lastcheck": "2019-04-11",
         "layer": "1",
+        "lit": "no",
+        "surface": "concrete:plates",
         "id": "way/755255486"
       },
       "geometry": {
@@ -28933,6 +28981,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Schijnparklaan",
+        "surface": "concrete:plates",
         "id": "way/831405579"
       },
       "geometry": {
@@ -31259,12 +31308,13 @@
       "properties": {
         "cycleway:both": "no",
         "hgv": "delivery",
-        "highway": "unclassified",
+        "highway": "residential",
         "lanes": "2",
         "maxspeed": "30",
         "maxweight": "3.5",
         "maxweight:conditional": "none @ delivery",
         "name": "Broekstraat",
+        "oneway": "no",
         "smoothness": "bad",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
@@ -31353,9 +31403,11 @@
       "properties": {
         "hgv": "delivery",
         "highway": "residential",
+        "lanes": "2",
         "maxspeed": "50",
         "maxweight:conditional": "none @ delivery",
         "name": "Broekstraat",
+        "smoothness": "bad",
         "source:maxspeed": "sign",
         "surface": "sett",
         "id": "way/1160263080"
@@ -31670,6 +31722,7 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
+        "lit": "yes",
         "oneway": "no",
         "segregated": "yes",
         "id": "way/1280119684"
@@ -32278,7 +32331,6 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
-        "lit": "yes",
         "name": "Cornelissenlaan",
         "segregated": "no",
         "surface": "asphalt",
@@ -32314,7 +32366,6 @@
         "foot": "designated",
         "highway": "path",
         "horse": "no",
-        "lit": "no",
         "surface": "asphalt",
         "width": "1.5",
         "id": "way/6004176"
@@ -32340,7 +32391,6 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
-        "lit": "no",
         "segregated": "no",
         "surface": "asphalt",
         "width": "2",
@@ -32387,7 +32437,6 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
-        "lit": "no",
         "oneway": "no",
         "segregated": "no",
         "smoothness": "excellent",
@@ -32464,7 +32513,6 @@
         "foot": "designated",
         "highway": "path",
         "horse": "no",
-        "lit": "no",
         "surface": "asphalt",
         "id": "way/20454398"
       },
@@ -34735,7 +34783,6 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
-        "lit": "no",
         "surface": "asphalt",
         "id": "way/24919169"
       },
@@ -35289,8 +35336,8 @@
             51.193754
           ],
           [
-            4.4277761,
-            51.1937821
+            4.4279029,
+            51.1938323
           ],
           [
             4.4283388,
@@ -35320,10 +35367,6 @@
           [
             4.4283388,
             51.1939996
-          ],
-          [
-            4.4285587,
-            51.1940708
           ],
           [
             4.42912,
@@ -35356,10 +35399,6 @@
           [
             4.4298586,
             51.1946851
-          ],
-          [
-            4.4299254,
-            51.1947219
           ],
           [
             4.4301136,
@@ -36862,7 +36901,6 @@
         "foot": "yes",
         "highway": "residential",
         "layer": "1",
-        "lit": "yes",
         "name": "Cornelissenlaan",
         "smoothness": "good",
         "surface": "asphalt",
@@ -36891,10 +36929,8 @@
         "cycleway:both": "no",
         "foot": "yes",
         "highway": "residential",
-        "lit": "yes",
         "maxspeed": "10",
         "name": "Cornelissenlaan",
-        "sidewalk": "both",
         "smoothness": "good",
         "surface": "asphalt",
         "id": "way/87502539"
@@ -36927,7 +36963,6 @@
         "highway": "path",
         "horse": "no",
         "layer": "1",
-        "lit": "no",
         "surface": "wood",
         "width": "1.5",
         "id": "way/115666553"
@@ -36954,7 +36989,6 @@
         "foot": "designated",
         "highway": "path",
         "horse": "no",
-        "lit": "no",
         "surface": "asphalt",
         "width": "1.5",
         "id": "way/115666554"
@@ -36982,11 +37016,8 @@
         "cycleway:both": "no",
         "foot": "yes",
         "highway": "residential",
-        "lane_markings": "no",
-        "lit": "yes",
         "name": "Cornelissenlaan",
         "oneway": "no",
-        "sidewalk": "right",
         "smoothness": "good",
         "surface": "asphalt",
         "id": "way/128813909"
@@ -38875,15 +38906,11 @@
       "type": "Feature",
       "id": "way/488842542",
       "properties": {
-        "check_date:cycleway:surface": "2025-03-07",
-        "check_date:surface": "2025-03-07",
         "cycleway:buffer": "6.10",
         "cycleway:comfort": "25",
         "cycleway:surface": "paving_stones",
         "cycleway:width": "1.50",
-        "footway:surface": "paving_stones",
         "highway": "cycleway",
-        "lit": "yes",
         "oneway": "yes",
         "segregated": "yes",
         "smoothness": "intermediate",
@@ -39024,7 +39051,6 @@
         "crossing": "marked",
         "cycleway": "crossing",
         "highway": "cycleway",
-        "lit": "yes",
         "surface": "asphalt",
         "id": "way/488845769"
       },
@@ -39828,7 +39854,6 @@
         "cycleway:both": "no",
         "foot": "yes",
         "highway": "residential",
-        "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Cornelissenlaan",
@@ -39859,7 +39884,6 @@
         "cycleway:both": "no",
         "foot": "yes",
         "highway": "residential",
-        "lit": "yes",
         "maxspeed": "10",
         "name": "Cornelissenlaan",
         "smoothness": "good",
@@ -39996,10 +40020,8 @@
         "cycleway:both": "no",
         "foot": "yes",
         "highway": "residential",
-        "lit": "yes",
         "maxspeed": "10",
         "name": "Cornelissenlaan",
-        "sidewalk": "both",
         "smoothness": "good",
         "surface": "asphalt",
         "id": "way/760859899"
@@ -40023,7 +40045,6 @@
       "id": "way/761769639",
       "properties": {
         "highway": "cycleway",
-        "lit": "yes",
         "oneway": "yes",
         "id": "way/761769639"
       },
@@ -40059,7 +40080,6 @@
         "moped": "no",
         "note": "befietst 2021-04-23 : 'de bordjes zijn verhangen', en FKP 03-04 loopt nu onderdoor de Stenenbrug.",
         "oneway": "no",
-        "segregated": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
         "width": "2",
@@ -40183,7 +40203,6 @@
       "id": "way/767718095",
       "properties": {
         "highway": "cycleway",
-        "lit": "yes",
         "moped": "no",
         "oneway": "no",
         "smoothness": "good",
@@ -40250,18 +40269,17 @@
       "id": "way/779874071",
       "properties": {
         "bicycle": "designated",
-        "check_date:cycleway:surface": "2025-03-07",
         "cycleway:comfort": "16",
         "cycleway:surface": "asphalt",
         "cycleway:width": "3.20",
         "foot": "designated",
-        "footway:surface": "paving_stones",
         "highway": "cycleway",
         "lit": "yes",
         "loc_name": "Ringfietspad",
         "oneway": "no",
         "segregated": "yes",
-        "surface": "paved",
+        "smoothness": "good",
+        "surface": "asphalt",
         "id": "way/779874071"
       },
       "geometry": {
@@ -40652,7 +40670,6 @@
         "crossing": "marked",
         "crossing:markings": "yes",
         "cycleway": "crossing",
-        "cycleway:surface": "asphalt",
         "foot": "no",
         "highway": "cycleway",
         "lit": "yes",
@@ -41534,7 +41551,6 @@
         "cycleway:surface": "paving_stones",
         "cycleway:width": "1.50",
         "highway": "cycleway",
-        "lit": "yes",
         "oneway": "yes",
         "smoothness": "good",
         "surface": "paving_stones",
@@ -41979,7 +41995,6 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
-        "lit": "yes",
         "segregated": "no",
         "surface": "asphalt",
         "width": "2",
@@ -42620,7 +42635,6 @@
         "cycleway:width": "6",
         "foot": "yes",
         "highway": "unclassified",
-        "lit": "yes",
         "mapillary": "179105070768557",
         "motor_vehicle": "permit",
         "name": "Parkweg",
@@ -43329,7 +43343,6 @@
         "bicycle": "yes",
         "highway": "path",
         "horse": "no",
-        "lit": "no",
         "surface": "compacted",
         "id": "way/51492213"
       },
@@ -43356,7 +43369,6 @@
         "highway": "path",
         "horse": "no",
         "layer": "1",
-        "lit": "no",
         "id": "way/51492219"
       },
       "geometry": {
@@ -43711,7 +43723,6 @@
         "destination:forward": "Arboretum;Sprookjeshuis;Theater;Verkeerstuin;Rozentuin",
         "foot": "yes",
         "highway": "unclassified",
-        "lit": "yes",
         "mapillary": "179105070768557",
         "mofa": "no",
         "moped": "no",
@@ -43748,7 +43759,6 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
-        "lit": "no",
         "mofa": "no",
         "moped": "no",
         "oneway": "no",
@@ -43790,7 +43800,6 @@
         "foot": "yes",
         "highway": "unclassified",
         "horse": "no",
-        "lit": "yes",
         "mofa": "no",
         "moped": "no",
         "motor_vehicle": "permit",
@@ -44796,7 +44805,6 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "lit": "no",
         "segregated": "no",
         "smoothness": "intermediate",
         "surface": "compacted",
@@ -45331,7 +45339,6 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
-        "lit": "no",
         "oneway": "no",
         "segregated": "no",
         "smoothness": "excellent",
@@ -45387,7 +45394,6 @@
         "foot": "yes",
         "highway": "unclassified",
         "horse": "no",
-        "lit": "yes",
         "mofa": "no",
         "moped": "no",
         "motor_vehicle": "permit",
@@ -45452,7 +45458,6 @@
         "foot": "yes",
         "highway": "unclassified",
         "horse": "no",
-        "lit": "yes",
         "mofa": "no",
         "moped": "no",
         "motor_vehicle": "permit",

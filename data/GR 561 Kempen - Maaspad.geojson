@@ -77,7 +77,6 @@
       "id": "way/4821494",
       "properties": {
         "highway": "unclassified",
-        "lane_markings": "no",
         "name": "Kanaaldijk",
         "surface": "asphalt",
         "id": "way/4821494"
@@ -105,7 +104,6 @@
       "id": "way/4821495",
       "properties": {
         "highway": "unclassified",
-        "lane_markings": "no",
         "name": "Kanaaldijk",
         "surface": "asphalt",
         "id": "way/4821495"
@@ -766,10 +764,6 @@
             50.8431366
           ],
           [
-            5.6905504,
-            50.8432359
-          ],
-          [
             5.6906169,
             50.8432908
           ],
@@ -852,8 +846,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.691198,
-            50.8441165
+            5.6911989,
+            50.8441108
           ],
           [
             5.6911901,
@@ -3377,12 +3371,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6912831,
-            50.8439446
+            5.691283,
+            50.8439449
           ],
           [
-            5.691198,
-            50.8441165
+            5.6911989,
+            50.8441108
           ]
         ]
       }
@@ -5934,20 +5928,17 @@
       "id": "way/48161646",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "50",
         "name": "Eviestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "source:maxspeed": "sign",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/48161646"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.3045573,
-            51.2085711
+            5.304564,
+            51.2085669
           ],
           [
             5.3045074,
@@ -6875,7 +6866,7 @@
       "id": "way/50642493",
       "properties": {
         "highway": "path",
-        "surface": "ground",
+        "surface": "unpaved",
         "id": "way/50642493"
       },
       "geometry": {
@@ -6902,20 +6893,20 @@
             51.2097357
           ],
           [
-            5.3058465,
-            51.2094028
+            5.3058747,
+            51.2094356
           ],
           [
-            5.3053685,
-            51.209087
+            5.3051968,
+            51.2090231
           ],
           [
-            5.3047402,
-            51.2086859
+            5.3046745,
+            51.2087187
           ],
           [
-            5.3045573,
-            51.2085711
+            5.304564,
+            51.2085669
           ]
         ]
       }
@@ -7503,8 +7494,8 @@
             50.8439231
           ],
           [
-            5.6912831,
-            50.8439446
+            5.691283,
+            50.8439449
           ]
         ]
       }
@@ -8863,7 +8854,7 @@
         "highway": "living_street",
         "lanes": "2",
         "maxspeed": "20",
-        "name": "Kerkplein",
+        "name": "Kerkstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:bus": "no",
@@ -12371,7 +12362,7 @@
         "highway": "living_street",
         "lanes": "2",
         "maxspeed": "20",
-        "name": "Kerkplein",
+        "name": "Kerkstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:bus": "no",
@@ -16176,7 +16167,7 @@
         "highway": "living_street",
         "lanes": "2",
         "maxspeed": "20",
-        "name": "Kerkplein",
+        "name": "Kerkstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:bus": "no",
@@ -23828,7 +23819,6 @@
         "highway": "secondary",
         "junction": "roundabout",
         "maxspeed": "50",
-        "name": "Kerkplein",
         "ref": "N746",
         "id": "way/245750176"
       },
@@ -23858,7 +23848,6 @@
         "highway": "secondary",
         "junction": "roundabout",
         "maxspeed": "50",
-        "name": "Kerkplein",
         "ref": "N746",
         "id": "way/245750177"
       },
@@ -23900,7 +23889,6 @@
         "highway": "secondary",
         "junction": "roundabout",
         "maxspeed": "50",
-        "name": "Kerkplein",
         "ref": "N746",
         "id": "way/245750179"
       },
@@ -28621,8 +28609,7 @@
       "id": "way/300258471",
       "properties": {
         "highway": "track",
-        "smoothness": "bad",
-        "tracktype": "grade4",
+        "tracktype": "grade2",
         "id": "way/300258471"
       },
       "geometry": {
@@ -42799,7 +42786,6 @@
       "properties": {
         "foot": "yes",
         "highway": "track",
-        "lit": "no",
         "surface": "sand",
         "tracktype": "grade4",
         "id": "way/559427600"
@@ -44896,24 +44882,12 @@
             50.8556556
           ],
           [
-            5.6834981,
-            50.8556849
-          ],
-          [
-            5.6832749,
+            5.683262,
             50.8557224
-          ],
-          [
-            5.6831657,
-            50.8557444
           ],
           [
             5.6830651,
             50.8557692
-          ],
-          [
-            5.6829949,
-            50.8557992
           ],
           [
             5.6829311,
@@ -48444,8 +48418,6 @@
       "type": "Feature",
       "id": "way/945246105",
       "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
         "highway": "cycleway",
         "surface": "asphalt",
         "tracktype": "grade1",
@@ -51245,7 +51217,9 @@
       "type": "Feature",
       "id": "way/1149542815",
       "properties": {
-        "footway": "traffic_island",
+        "crossing": "traffic_signals",
+        "crossing:island": "yes",
+        "footway": "crossing",
         "highway": "footway",
         "surface": "asphalt",
         "id": "way/1149542815"
@@ -51295,8 +51269,6 @@
       "id": "way/1149542821",
       "properties": {
         "crossing": "traffic_signals",
-        "crossing:markings": "dots",
-        "crossing:signals": "yes",
         "cycleway": "crossing",
         "highway": "cycleway",
         "mofa": "designated",
@@ -51459,7 +51431,6 @@
       "properties": {
         "crossing": "traffic_signals",
         "crossing:markings": "zebra",
-        "crossing:signals": "yes",
         "crossing_ref": "zebra",
         "footway": "crossing",
         "highway": "footway",
@@ -51522,7 +51493,6 @@
       "id": "way/1149542850",
       "properties": {
         "crossing": "unmarked",
-        "crossing:markings": "no",
         "footway": "crossing",
         "highway": "footway",
         "paving_stones:length": "0.3",
@@ -51592,8 +51562,6 @@
       "id": "way/1149542856",
       "properties": {
         "crossing": "traffic_signals",
-        "crossing:markings": "dots",
-        "crossing:signals": "yes",
         "cycleway": "crossing",
         "highway": "cycleway",
         "mofa": "designated",
@@ -54133,10 +54101,6 @@
           [
             5.0494964,
             50.993459
-          ],
-          [
-            5.0502551,
-            50.9932916
           ],
           [
             5.050547,
