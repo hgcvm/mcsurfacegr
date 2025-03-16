@@ -10318,6 +10318,7 @@
         "highway": "path",
         "horse": "no",
         "name": "O.L.V. van Loretopad",
+        "smoothness": "bad",
         "surface": "fine_gravel",
         "id": "way/35401506"
       },
@@ -15336,12 +15337,16 @@
       "type": "Feature",
       "id": "way/58779089",
       "properties": {
-        "cycleway:both": "lane",
-        "cycleway:both:lane": "exclusive",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "unclassified",
+        "lanes": "2",
         "maxspeed": "50",
         "maxspeed:type": "BE:zone50",
         "name": "Ildefonse Vandammestraat",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/58779089"
       },
@@ -16306,8 +16311,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4896162,
-            50.787791
+            4.4896145,
+            50.7877914
           ],
           [
             4.4895582,
@@ -19519,7 +19524,9 @@
       "type": "Feature",
       "id": "way/105040388",
       "properties": {
-        "cycleway": "lane",
+        "cycleway:left": "track",
+        "cycleway:right": "shared_lane",
+        "cycleway:right:lane": "advisory",
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Ildefonse Vandammestraat",
@@ -19548,7 +19555,8 @@
         "foot": "yes",
         "highway": "track",
         "motor_vehicle": "no",
-        "surface": "compacted",
+        "smoothness": "good",
+        "surface": "paving_stones",
         "tracktype": "grade2",
         "id": "way/105040396"
       },
@@ -20702,11 +20710,16 @@
       "type": "Feature",
       "id": "way/123929542",
       "properties": {
-        "cycleway:both": "lane",
-        "cycleway:both:lane": "exclusive",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Ildefonse Vandammestraat",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt",
         "id": "way/123929542"
       },
       "geometry": {
@@ -25403,6 +25416,7 @@
         "motor_vehicle": "no",
         "name": "Hakenstakendreef",
         "name:nl": "Hakenstakendreef",
+        "smoothness": "good",
         "surface": "asphalt",
         "tracktype": "grade1",
         "tunnel": "yes",
@@ -26452,10 +26466,12 @@
       "id": "way/205169408",
       "properties": {
         "bicycle": "yes",
+        "check_date:surface": "2025-03-15",
         "foot": "yes",
         "highway": "track",
         "name": "Hakenstakendreef",
         "name:nl": "Hakenstakendreef",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/205169408"
@@ -29069,6 +29085,7 @@
         "name:fr": "Chemin du Cloître",
         "name:nl": "Kloosterweg",
         "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/302285720"
@@ -34031,10 +34048,6 @@
           [
             4.489715,
             50.7878545
-          ],
-          [
-            4.4896707,
-            50.7878266
           ]
         ]
       }
@@ -37829,8 +37842,9 @@
       "type": "Feature",
       "id": "way/659434130",
       "properties": {
-        "cycleway:both": "lane",
-        "cycleway:both:lane": "exclusive",
+        "cycleway:left": "shared_lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "track",
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Ildefonse Vandammestraat",
@@ -42397,6 +42411,7 @@
         "name": "Kloosterweg",
         "name:fr": "Chemin du Cloître",
         "name:nl": "Kloosterweg",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/940825231"
@@ -48824,24 +48839,26 @@
       "id": "way/1351685731",
       "properties": {
         "highway": "unclassified",
+        "lanes": "1",
         "maxspeed": "50",
         "name": "Esdoornenlaan",
+        "traffic_calming": "choker",
         "id": "way/1351685731"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
+            4.489715,
+            50.7878545
+          ],
+          [
             4.4896707,
             50.7878266
           ],
           [
-            4.4896442,
-            50.7878098
-          ],
-          [
-            4.4896162,
-            50.787791
+            4.4896351,
+            50.7878051
           ]
         ]
       }
@@ -49043,6 +49060,29 @@
           [
             4.5067432,
             50.8020232
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1367978606",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "name": "Esdoornenlaan",
+        "id": "way/1367978606"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4896351,
+            50.7878051
+          ],
+          [
+            4.4896145,
+            50.7877914
           ]
         ]
       }
