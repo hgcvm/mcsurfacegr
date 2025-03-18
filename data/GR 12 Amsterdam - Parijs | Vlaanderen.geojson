@@ -3032,12 +3032,16 @@
             51.2454256
           ],
           [
-            4.469538,
-            51.245445
+            4.4694909,
+            51.2454311
           ],
           [
-            4.4696839,
-            51.245458
+            4.4696809,
+            51.2454523
+          ],
+          [
+            4.4697647,
+            51.2454617
           ]
         ]
       }
@@ -3931,7 +3935,6 @@
       "properties": {
         "cycleway": "no",
         "highway": "residential",
-        "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Raapstraat",
@@ -3960,7 +3963,6 @@
       "id": "way/20591393",
       "properties": {
         "highway": "living_street",
-        "lit": "yes",
         "maxspeed": "20",
         "maxspeed:zone": "yes",
         "name": "Grote Kraaiwijk",
@@ -4030,9 +4032,8 @@
       "type": "Feature",
       "id": "way/20631785",
       "properties": {
-        "foot": "designated",
-        "highway": "living_street",
-        "maxspeed": "20",
+        "highway": "residential",
+        "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Hofstraat",
         "oneway": "yes",
@@ -4040,7 +4041,6 @@
         "sidewalk": "both",
         "surface": "paving_stones",
         "width": "4",
-        "zone:maxspeed": "BE:living_street",
         "id": "way/20631785"
       },
       "geometry": {
@@ -4132,14 +4132,11 @@
       "type": "Feature",
       "id": "way/20632106",
       "properties": {
-        "foot": "designated",
-        "highway": "living_street",
-        "lit": "yes",
+        "highway": "pedestrian",
         "maxspeed": "20",
         "maxspeed:zone": "yes",
         "name": "Stoelstraat",
         "surface": "paving_stones",
-        "zone:maxspeed": "BE:living_street",
         "id": "way/20632106"
       },
       "geometry": {
@@ -7274,7 +7271,6 @@
       "properties": {
         "bicycle": "yes",
         "highway": "pedestrian",
-        "lit": "yes",
         "motor_vehicle": "private",
         "name": "Oostendekaai",
         "name:etymology:wikidata": "Q12996",
@@ -7639,12 +7635,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4696839,
-            51.245458
-          ],
-          [
-            4.46988,
-            51.2454917
+            4.4697647,
+            51.2454617
           ],
           [
             4.4710052,
@@ -8534,9 +8526,7 @@
       "id": "way/31310395",
       "properties": {
         "access": "destination",
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "cycleway",
+        "highway": "service",
         "id": "way/31310395"
       },
       "geometry": {
@@ -8551,8 +8541,8 @@
             51.2458313
           ],
           [
-            4.4884778,
-            51.2457395
+            4.4884353,
+            51.2457785
           ]
         ]
       }
@@ -9802,19 +9792,12 @@
       "type": "Feature",
       "id": "way/41680141",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "living_street",
-        "horse": "no",
-        "lanes": "1",
         "lit": "yes",
-        "maxspeed": "20",
         "name": "Gagelveldenstraat",
-        "note": "heraangelegd 2024H2",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "oneway:speed_pedelec": "no",
-        "surface": "paved;grass_pavers",
+        "surface": "asphalt",
         "id": "way/41680141"
       },
       "geometry": {
@@ -9835,10 +9818,6 @@
           [
             4.4375615,
             51.2436847
-          ],
-          [
-            4.4370826,
-            51.2435336
           ],
           [
             4.4368774,
@@ -12668,7 +12647,6 @@
       "type": "Feature",
       "id": "way/147553477",
       "properties": {
-        "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Deurnevoetweg",
@@ -13303,7 +13281,6 @@
       "id": "way/180020698",
       "properties": {
         "highway": "pedestrian",
-        "lit": "yes",
         "name": "Veemarkt",
         "surface": "paving_stones",
         "id": "way/180020698"
@@ -14906,7 +14883,6 @@
         "highway": "residential",
         "lanes:backward": "1",
         "lanes:forward": "1",
-        "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Paardenmarkt",
@@ -19414,7 +19390,6 @@
       "properties": {
         "cycleway": "no",
         "highway": "living_street",
-        "lit": "yes",
         "maxspeed": "20",
         "maxspeed:zone": "yes",
         "name": "Venusstraat",
@@ -19609,7 +19584,6 @@
       "properties": {
         "bicycle": "yes",
         "highway": "pedestrian",
-        "lit": "yes",
         "name": "Veemarkt",
         "surface": "paving_stones",
         "vehicle": "no",
@@ -19634,16 +19608,13 @@
       "type": "Feature",
       "id": "way/424820210",
       "properties": {
-        "foot": "designated",
         "highway": "living_street",
-        "lit": "yes",
         "maxspeed": "20",
         "name": "Zwartzustersstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "oneway:speed_pedelec": "no",
+        "source:maxspeed": "BE:living_street",
         "surface": "sett",
-        "zone:maxspeed": "BE:living_street",
         "id": "way/424820210"
       },
       "geometry": {
@@ -19711,7 +19682,6 @@
         "name": "Zirkstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "oneway:speed_pedelec": "no",
         "sidewalk": "both",
         "surface": "paving_stones",
         "width": "4",
@@ -20942,6 +20912,18 @@
           [
             4.4884011,
             51.2455571
+          ],
+          [
+            4.488312,
+            51.245629
+          ],
+          [
+            4.4883865,
+            51.245716
+          ],
+          [
+            4.4884353,
+            51.2457785
           ]
         ]
       }
@@ -25471,7 +25453,6 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "residential",
-        "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
         "name": "Lange Lobroekstraat",
@@ -28622,7 +28603,6 @@
       "properties": {
         "cycleway": "no",
         "highway": "living_street",
-        "lit": "yes",
         "maxspeed": "20",
         "maxspeed:zone": "yes",
         "name": "Venusstraat",
@@ -29514,33 +29494,6 @@
           [
             4.4077085,
             51.2238774
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1366600058",
-      "properties": {
-        "access": "destination",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "service",
-        "motor_vehicle": "private",
-        "service": "parking_aisle",
-        "surface": "paved",
-        "id": "way/1366600058"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4883016,
-            51.2457125
-          ],
-          [
-            4.4884778,
-            51.2457395
           ]
         ]
       }
