@@ -4125,7 +4125,7 @@
       "id": "way/23647555",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/23647555"
       },
       "geometry": {
@@ -4315,30 +4315,33 @@
     },
     {
       "type": "Feature",
-      "id": "way/23669801",
+      "id": "way/23669802",
       "properties": {
-        "fixme": "This part of the highway is broken up and replaced by a street cabinet. Relations must be redirected and then the higway can be razed.",
         "highway": "residential",
-        "id": "way/23669801"
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "name": "Diestbrugstraat",
+        "surface": "asphalt",
+        "id": "way/23669802"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
+            4.5949445,
+            50.9000597
+          ],
+          [
+            4.5950636,
+            50.9001292
+          ],
+          [
+            4.5952464,
+            50.9002069
+          ],
+          [
             4.5954316,
             50.9002733
-          ],
-          [
-            4.5952966,
-            50.9002849
-          ],
-          [
-            4.5951263,
-            50.9002877
-          ],
-          [
-            4.5949042,
-            50.9002923
           ]
         ]
       }
@@ -13423,7 +13426,7 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
-        "maxspeed": "70",
+        "maxspeed": "50",
         "name": "Vijfde Liniestraat",
         "id": "way/37712783"
       },
@@ -17951,6 +17954,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:bus": "no",
+        "surface": "asphalt",
         "id": "way/42350819"
       },
       "geometry": {
@@ -20029,7 +20033,8 @@
       "properties": {
         "highway": "track",
         "name": "Puttebos",
-        "tracktype": "grade3",
+        "surface": "dirt",
+        "tracktype": "grade1",
         "id": "way/79432912"
       },
       "geometry": {
@@ -32607,6 +32612,7 @@
         "foot": "designated",
         "highway": "cycleway",
         "layer": "1",
+        "lit": "yes",
         "motor_vehicle": "no",
         "oneway": "no",
         "segregated": "no",
@@ -41978,6 +41984,8 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "lit": "no",
+        "segregated": "no",
         "surface": "concrete",
         "id": "way/938175487"
       },
@@ -41997,8 +42005,8 @@
             50.8859731
           ],
           [
-            4.7040225,
-            50.8859283
+            4.7040212,
+            50.8859284
           ],
           [
             4.7041219,
@@ -42563,8 +42571,8 @@
             50.8859035
           ],
           [
-            4.7038009,
-            50.8859838
+            4.7038001,
+            50.8859834
           ],
           [
             4.7038323,
@@ -42626,6 +42634,7 @@
       "id": "way/1014184567",
       "properties": {
         "highway": "cycleway",
+        "lit": "yes",
         "surface": "paving_stones",
         "id": "way/1014184567"
       },
@@ -43548,6 +43557,31 @@
           [
             4.576463,
             50.9052659
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1175756634",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "name": "Kerselarenstraat",
+        "surface": "asphalt",
+        "id": "way/1175756634"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5949445,
+            50.9000597
+          ],
+          [
+            4.5949042,
+            50.9002923
           ]
         ]
       }
@@ -65256,8 +65290,7 @@
       "properties": {
         "highway": "track",
         "name": "Puttebos",
-        "surface": "dirt",
-        "tracktype": "grade1",
+        "tracktype": "grade3",
         "id": "way/79432912"
       },
       "geometry": {
