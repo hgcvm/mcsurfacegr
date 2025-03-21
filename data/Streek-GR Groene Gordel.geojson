@@ -3200,6 +3200,10 @@
             50.9130247
           ],
           [
+            4.212474,
+            50.9133062
+          ],
+          [
             4.2121554,
             50.9134793
           ],
@@ -3255,28 +3259,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.2304027,
-            50.9114876
+            4.2304071,
+            50.9114893
           ],
           [
-            4.2303538,
-            50.9115437
+            4.2303631,
+            50.9115448
           ],
           [
-            4.2301821,
-            50.9116248
+            4.2303304,
+            50.9115875
           ],
           [
-            4.2298989,
-            50.9116302
+            4.2303069,
+            50.9116075
           ],
           [
-            4.2297101,
-            50.9116519
+            4.2302644,
+            50.9116104
           ],
           [
-            4.2294698,
-            50.911679
+            4.2301751,
+            50.9116111
+          ],
+          [
+            4.22997,
+            50.9116108
+          ],
+          [
+            4.2296461,
+            50.9116264
+          ],
+          [
+            4.229527,
+            50.9116456
+          ],
+          [
+            4.2293411,
+            50.9116803
           ],
           [
             4.2292809,
@@ -3287,48 +3307,48 @@
             50.9117261
           ],
           [
-            4.2288404,
-            50.9117527
+            4.2288397,
+            50.9117607
           ],
           [
-            4.2286481,
-            50.9117803
+            4.2286427,
+            50.9117888
           ],
           [
-            4.2283992,
-            50.9118132
+            4.2284079,
+            50.9118229
           ],
           [
-            4.2281964,
-            50.9118523
+            4.2281917,
+            50.9118616
           ],
           [
-            4.2279869,
-            50.9118969
+            4.2279896,
+            50.9119058
           ],
           [
-            4.2277825,
-            50.9119484
+            4.2277818,
+            50.9119547
           ],
           [
             4.227545,
-            50.9120118
+            50.9120173
           ],
           [
-            4.2273656,
-            50.9120589
+            4.2273663,
+            50.9120597
           ],
           [
-            4.2272171,
-            50.9120826
+            4.2272265,
+            50.9120957
           ],
           [
-            4.2271503,
-            50.912079
+            4.2271617,
+            50.9120997
           ],
           [
-            4.2270467,
-            50.9120733
+            4.2270474,
+            50.9120877
           ],
           [
             4.2269171,
@@ -3343,28 +3363,28 @@
             50.911993
           ],
           [
-            4.2261858,
-            50.9119101
+            4.2262207,
+            50.9119249
           ],
           [
-            4.2260195,
-            50.9118786
+            4.2260249,
+            50.9118879
           ],
           [
-            4.2258871,
-            50.9118624
+            4.2259293,
+            50.9118692
           ],
           [
-            4.2258282,
-            50.91185
+            4.2258274,
+            50.9118453
           ],
           [
-            4.2257483,
-            50.9118332
+            4.2256893,
+            50.9118138
           ],
           [
-            4.2256245,
-            50.9117818
+            4.2255682,
+            50.9117826
           ],
           [
             4.2252984,
@@ -4692,9 +4712,10 @@
       "id": "way/27026271",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Lellebaan",
         "oneway": "yes",
-        "surface": "cobblestone",
+        "surface": "sett",
         "id": "way/27026271"
       },
       "geometry": {
@@ -4903,8 +4924,9 @@
       "id": "way/27333802",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Lellebaan",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/27333802"
       },
       "geometry": {
@@ -4938,8 +4960,9 @@
       "id": "way/27333803",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Lellebaan",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/27333803"
       },
       "geometry": {
@@ -7883,7 +7906,7 @@
       "properties": {
         "highway": "track",
         "name": "Lellebaan",
-        "surface": "unpaved",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/32134951"
       },
@@ -7922,6 +7945,7 @@
       "id": "way/32139197",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Lellebaan",
         "surface": "asphalt",
         "id": "way/32139197"
@@ -10314,6 +10338,7 @@
         "highway": "path",
         "horse": "no",
         "name": "O.L.V. van Loretopad",
+        "smoothness": "bad",
         "surface": "fine_gravel",
         "id": "way/35401506"
       },
@@ -15332,12 +15357,16 @@
       "type": "Feature",
       "id": "way/58779089",
       "properties": {
-        "cycleway:both": "lane",
-        "cycleway:both:lane": "exclusive",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "unclassified",
+        "lanes": "2",
         "maxspeed": "50",
         "maxspeed:type": "BE:zone50",
         "name": "Ildefonse Vandammestraat",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/58779089"
       },
@@ -16302,8 +16331,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4896162,
-            50.787791
+            4.4896145,
+            50.7877914
           ],
           [
             4.4895582,
@@ -19515,7 +19544,9 @@
       "type": "Feature",
       "id": "way/105040388",
       "properties": {
-        "cycleway": "lane",
+        "cycleway:left": "track",
+        "cycleway:right": "shared_lane",
+        "cycleway:right:lane": "advisory",
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Ildefonse Vandammestraat",
@@ -19544,7 +19575,8 @@
         "foot": "yes",
         "highway": "track",
         "motor_vehicle": "no",
-        "surface": "compacted",
+        "smoothness": "good",
+        "surface": "paving_stones",
         "tracktype": "grade2",
         "id": "way/105040396"
       },
@@ -20698,11 +20730,16 @@
       "type": "Feature",
       "id": "way/123929542",
       "properties": {
-        "cycleway:both": "lane",
-        "cycleway:both:lane": "exclusive",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Ildefonse Vandammestraat",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt",
         "id": "way/123929542"
       },
       "geometry": {
@@ -25399,6 +25436,7 @@
         "motor_vehicle": "no",
         "name": "Hakenstakendreef",
         "name:nl": "Hakenstakendreef",
+        "smoothness": "good",
         "surface": "asphalt",
         "tracktype": "grade1",
         "tunnel": "yes",
@@ -26448,10 +26486,12 @@
       "id": "way/205169408",
       "properties": {
         "bicycle": "yes",
+        "check_date:surface": "2025-03-15",
         "foot": "yes",
         "highway": "track",
         "name": "Hakenstakendreef",
         "name:nl": "Hakenstakendreef",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/205169408"
@@ -29065,6 +29105,7 @@
         "name:fr": "Chemin du Cloître",
         "name:nl": "Kloosterweg",
         "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/302285720"
@@ -30560,7 +30601,9 @@
       "id": "way/361112612",
       "properties": {
         "highway": "cycleway",
+        "lit": "yes",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/361112612"
       },
       "geometry": {
@@ -34025,10 +34068,6 @@
           [
             4.489715,
             50.7878545
-          ],
-          [
-            4.4896707,
-            50.7878266
           ]
         ]
       }
@@ -37759,6 +37798,10 @@
             50.9208936
           ],
           [
+            4.2042717,
+            50.9208787
+          ],
+          [
             4.2045993,
             50.9208468
           ]
@@ -37823,8 +37866,9 @@
       "type": "Feature",
       "id": "way/659434130",
       "properties": {
-        "cycleway:both": "lane",
-        "cycleway:both:lane": "exclusive",
+        "cycleway:left": "shared_lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "track",
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Ildefonse Vandammestraat",
@@ -42391,6 +42435,7 @@
         "name": "Kloosterweg",
         "name:fr": "Chemin du Cloître",
         "name:nl": "Kloosterweg",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/940825231"
@@ -45287,24 +45332,36 @@
             50.9106902
           ],
           [
-            4.2306889,
-            50.9107426
+            4.2307153,
+            50.9107621
           ],
           [
-            4.2306714,
-            50.9109051
+            4.2306784,
+            50.9108199
           ],
           [
-            4.2306371,
-            50.9109971
+            4.2306617,
+            50.9108692
           ],
           [
-            4.2305684,
-            50.9111053
+            4.2306539,
+            50.910917
           ],
           [
-            4.2305684,
-            50.9111919
+            4.2306559,
+            50.9109616
+          ],
+          [
+            4.2306622,
+            50.9110611
+          ],
+          [
+            4.2306454,
+            50.9111296
+          ],
+          [
+            4.2306003,
+            50.911222
           ],
           [
             4.2305169,
@@ -45340,8 +45397,8 @@
             50.9114354
           ],
           [
-            4.2304027,
-            50.9114876
+            4.2304071,
+            50.9114893
           ]
         ]
       }
@@ -45736,6 +45793,7 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Colombastraat",
         "surface": "paving_stones",
         "id": "way/1157587079"
@@ -48597,7 +48655,6 @@
         "highway": "residential",
         "maxweight": "3.5",
         "name": "Mollemseweg",
-        "proposed:tunnel": "yes",
         "surface": "asphalt",
         "id": "way/1345143492"
       },
@@ -48817,24 +48874,26 @@
       "id": "way/1351685731",
       "properties": {
         "highway": "unclassified",
+        "lanes": "1",
         "maxspeed": "50",
         "name": "Esdoornenlaan",
+        "traffic_calming": "choker",
         "id": "way/1351685731"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
+            4.489715,
+            50.7878545
+          ],
+          [
             4.4896707,
             50.7878266
           ],
           [
-            4.4896442,
-            50.7878098
-          ],
-          [
-            4.4896162,
-            50.787791
+            4.4896351,
+            50.7878051
           ]
         ]
       }
@@ -49036,6 +49095,29 @@
           [
             4.5067432,
             50.8020232
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1367978606",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "name": "Esdoornenlaan",
+        "id": "way/1367978606"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4896351,
+            50.7878051
+          ],
+          [
+            4.4896145,
+            50.7877914
           ]
         ]
       }
