@@ -1822,41 +1822,20 @@
         "foot": "designated",
         "highway": "path",
         "horse": "designated",
+        "maxspeed": "30",
         "name": "Negenbunderspad",
         "segregated": "no",
         "smoothness": "intermediate",
-        "surface": "fine_gravel",
+        "source:maxspeed": "BE-VLG:zone30",
+        "surface": "asphalt",
         "traffic_sign": "F99c",
         "width": "1",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/22476414"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.7410087,
-            50.8943491
-          ],
-          [
-            4.744416,
-            50.8940857
-          ],
-          [
-            4.7453441,
-            50.8940594
-          ],
-          [
-            4.745699,
-            50.8940446
-          ],
-          [
-            4.7463364,
-            50.8940179
-          ],
-          [
-            4.7464689,
-            50.894029
-          ],
           [
             4.7465384,
             50.8940274
@@ -2140,6 +2119,7 @@
         "cycleway": "track",
         "highway": "tertiary",
         "lanes": "2",
+        "maxspeed": "50",
         "name": "Beninksstraat",
         "surface": "asphalt",
         "width": "5",
@@ -3462,6 +3442,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "layer": "1",
+        "maxspeed": "50",
         "name": "Beninksstraat",
         "surface": "asphalt",
         "width": "6",
@@ -9194,7 +9175,7 @@
         "maxlength:hgv": "10",
         "maxlength:hgv:conditional": "none @ delivery",
         "name": "Hooghuis",
-        "surface": "compacted",
+        "surface": "asphalt:lanes",
         "tracktype": "grade1",
         "id": "way/36333686"
       },
@@ -35050,6 +35031,7 @@
         "cycleway": "track",
         "highway": "tertiary",
         "lanes": "2",
+        "maxspeed": "50",
         "name": "Beninksstraat",
         "surface": "asphalt",
         "width": "5",
@@ -48561,6 +48543,56 @@
           [
             4.8438033,
             50.8151848
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1370064715",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "horse": "designated",
+        "name": "Negenbunderspad",
+        "segregated": "no",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel",
+        "traffic_sign": "F99c",
+        "width": "1",
+        "id": "way/1370064715"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7410087,
+            50.8943491
+          ],
+          [
+            4.744416,
+            50.8940857
+          ],
+          [
+            4.7453441,
+            50.8940594
+          ],
+          [
+            4.745699,
+            50.8940446
+          ],
+          [
+            4.7463364,
+            50.8940179
+          ],
+          [
+            4.7464689,
+            50.894029
+          ],
+          [
+            4.7465384,
+            50.8940274
           ]
         ]
       }

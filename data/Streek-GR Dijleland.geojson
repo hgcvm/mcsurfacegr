@@ -44622,8 +44622,6 @@
         "old_name": "Poreistraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "sidewalk": "both",
-        "sidewalk:both:surface": "paving_stones",
         "surface": "asphalt",
         "traffic_sign": "BE:F111;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
@@ -47035,20 +47033,41 @@
         "foot": "designated",
         "highway": "path",
         "horse": "designated",
-        "maxspeed": "30",
         "name": "Negenbunderspad",
         "segregated": "no",
         "smoothness": "intermediate",
-        "source:maxspeed": "BE-VLG:zone30",
-        "surface": "asphalt",
+        "surface": "fine_gravel",
         "traffic_sign": "F99c",
         "width": "1",
-        "zone:traffic": "BE-VLG:urban",
         "id": "way/22476414"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            4.7410087,
+            50.8943491
+          ],
+          [
+            4.744416,
+            50.8940857
+          ],
+          [
+            4.7453441,
+            50.8940594
+          ],
+          [
+            4.745699,
+            50.8940446
+          ],
+          [
+            4.7463364,
+            50.8940179
+          ],
+          [
+            4.7464689,
+            50.894029
+          ],
           [
             4.7465384,
             50.8940274
@@ -49538,7 +49557,6 @@
         "parking:both": "no",
         "ref": "N251",
         "sidewalk:left": "yes",
-        "sidewalk:left:surface": "paving_stones",
         "sidewalk:right": "separate",
         "smoothness": "good",
         "surface": "asphalt",
@@ -50387,14 +50405,11 @@
         "cycleway": "no",
         "highway": "residential",
         "lanes": "1",
-        "lit": "yes",
         "maxspeed": "30",
         "name": "Pater Damiaanplein",
         "name:etymology:wikidata": "Q232785",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "sidewalk": "both",
-        "sidewalk:both:surface": "paving_stones",
         "surface": "asphalt",
         "traffic_sign": "BE:F111;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
@@ -51922,7 +51937,6 @@
         "foot": "designated",
         "highway": "cycleway",
         "layer": "1",
-        "lit": "yes",
         "motor_vehicle": "no",
         "oneway": "no",
         "segregated": "no",
@@ -52942,7 +52956,6 @@
         "oneway:bicycle": "no",
         "parking:both": "no",
         "sidewalk": "both",
-        "sidewalk:both:surface": "paving_stones",
         "surface": "asphalt",
         "width": "3.6",
         "id": "way/564392130"
@@ -54315,8 +54328,6 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
-        "lit": "no",
-        "segregated": "no",
         "surface": "concrete",
         "id": "way/938175487"
       },
@@ -54336,8 +54347,8 @@
             50.8859731
           ],
           [
-            4.7040212,
-            50.8859284
+            4.7040225,
+            50.8859283
           ],
           [
             4.7041219,
@@ -54651,8 +54662,8 @@
             50.8859035
           ],
           [
-            4.7038001,
-            50.8859834
+            4.7038009,
+            50.8859838
           ],
           [
             4.7038323,
@@ -54714,7 +54725,6 @@
       "id": "way/1014184567",
       "properties": {
         "highway": "cycleway",
-        "lit": "yes",
         "surface": "paving_stones",
         "id": "way/1014184567"
       },
@@ -55417,56 +55427,6 @@
           [
             4.7222653,
             50.8685307
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1370064715",
-      "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "path",
-        "horse": "designated",
-        "name": "Negenbunderspad",
-        "segregated": "no",
-        "smoothness": "intermediate",
-        "surface": "fine_gravel",
-        "traffic_sign": "F99c",
-        "width": "1",
-        "id": "way/1370064715"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.7410087,
-            50.8943491
-          ],
-          [
-            4.744416,
-            50.8940857
-          ],
-          [
-            4.7453441,
-            50.8940594
-          ],
-          [
-            4.745699,
-            50.8940446
-          ],
-          [
-            4.7463364,
-            50.8940179
-          ],
-          [
-            4.7464689,
-            50.894029
-          ],
-          [
-            4.7465384,
-            50.8940274
           ]
         ]
       }
@@ -65296,7 +65256,8 @@
       "properties": {
         "highway": "track",
         "name": "Puttebos",
-        "tracktype": "grade3",
+        "surface": "dirt",
+        "tracktype": "grade1",
         "id": "way/79432912"
       },
       "geometry": {
@@ -73996,7 +73957,8 @@
       "properties": {
         "highway": "track",
         "name": "Puttebos",
-        "tracktype": "grade3",
+        "surface": "dirt",
+        "tracktype": "grade1",
         "id": "way/79432912"
       },
       "geometry": {
@@ -85054,8 +85016,8 @@
             51.008436
           ],
           [
-            4.5266465,
-            51.0084442
+            4.5266458,
+            51.0084446
           ],
           [
             4.5264825,
