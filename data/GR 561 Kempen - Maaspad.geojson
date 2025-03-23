@@ -35,13 +35,11 @@
         "access": "destination",
         "bicycle": "yes",
         "highway": "unclassified",
-        "lane_markings": "no",
         "name": "Kanaaldijk",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
         "oneway:speed_pedelec": "no",
-        "surface": "asphalt",
         "id": "way/4821492"
       },
       "geometry": {
@@ -2041,7 +2039,6 @@
       "id": "way/8465529",
       "properties": {
         "highway": "unclassified",
-        "lane_markings": "no",
         "name": "Kanaaldijk",
         "surface": "asphalt",
         "id": "way/8465529"
@@ -2624,7 +2621,6 @@
         "highway": "residential",
         "name": "Kerkstraat",
         "oneway": "yes",
-        "surface": "paving_stones",
         "id": "way/27073220"
       },
       "geometry": {
@@ -4053,7 +4049,6 @@
         "maxspeed": "50",
         "name": "Kerkstraat",
         "source:maxspeed": "BE-VLG:urban",
-        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/38384057"
       },
@@ -7276,7 +7271,6 @@
         "maxspeed": "30",
         "name": "Markt",
         "oneway": "yes",
-        "surface": "asphalt",
         "id": "way/54053096"
       },
       "geometry": {
@@ -13161,10 +13155,6 @@
           [
             5.6923702,
             50.8460132
-          ],
-          [
-            5.69236,
-            50.8460306
           ],
           [
             5.6923487,
@@ -22496,7 +22486,6 @@
       "properties": {
         "highway": "residential",
         "name": "Markt",
-        "surface": "concrete",
         "id": "way/239231431"
       },
       "geometry": {
@@ -26886,6 +26875,18 @@
           [
             5.6096676,
             51.1837378
+          ],
+          [
+            5.6091642,
+            51.1834118
+          ],
+          [
+            5.6090731,
+            51.1832874
+          ],
+          [
+            5.6090111,
+            51.1831906
           ]
         ]
       }
@@ -32109,7 +32110,6 @@
         "motor_vehicle": "destination",
         "name": "Mortelstraat",
         "sidewalk": "no",
-        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/318291836"
       },
@@ -32199,7 +32199,6 @@
         "highway": "residential",
         "motor_vehicle": "destination",
         "name": "Mortelstraat",
-        "surface": "paving_stones",
         "id": "way/318291838"
       },
       "geometry": {
@@ -32224,7 +32223,6 @@
         "highway": "residential",
         "motor_vehicle": "destination",
         "name": "Mortelstraat",
-        "surface": "paving_stones",
         "traffic_calming": "table",
         "id": "way/318291839"
       },
@@ -35963,11 +35961,9 @@
       "properties": {
         "highway": "unclassified",
         "maxspeed": "50",
-        "maxweight": "5",
         "name": "Orchideeënlaan",
         "source:maxspeed": "sign",
         "surface": "asphalt",
-        "traffic_sign": "BE:C21",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/389575017"
       },
@@ -37679,12 +37675,9 @@
       "type": "Feature",
       "id": "way/421364459",
       "properties": {
-        "cycleway": "la e",
-        "cycleway:both:surface": "asphalt",
+        "cycleway": "track",
         "highway": "tertiary",
-        "maxspeed": "50",
         "name": "Stramproyerweg",
-        "surface": "concrete",
         "id": "way/421364459"
       },
       "geometry": {
@@ -37703,8 +37696,12 @@
             51.1834566
           ],
           [
-            5.6079843,
-            51.1834174
+            5.6089063,
+            51.1832192
+          ],
+          [
+            5.6090111,
+            51.1831906
           ]
         ]
       }
@@ -39318,7 +39315,6 @@
       "id": "way/478346862",
       "properties": {
         "highway": "track",
-        "surface": "asphalt",
         "id": "way/478346862"
       },
       "geometry": {
@@ -46082,7 +46078,6 @@
         "maxspeed": "50",
         "name": "Markt",
         "ref": "N141",
-        "surface": "paving_stones",
         "id": "way/718141026"
       },
       "geometry": {
@@ -52581,10 +52576,6 @@
             50.8963569
           ],
           [
-            5.6751457,
-            50.8961991
-          ],
-          [
             5.6751082,
             50.8961744
           ]
@@ -53973,8 +53964,8 @@
             50.8959348
           ],
           [
-            5.6750599,
-            50.8961502
+            5.6750581,
+            50.8961493
           ],
           [
             5.6751082,
@@ -54221,69 +54212,6 @@
           [
             5.0499352,
             50.9939954
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1367347815",
-      "properties": {
-        "cycleway": "track",
-        "highway": "tertiary",
-        "maxspeed": "30",
-        "name": "Stramproyerweg",
-        "source:maxspeed": "BE-VLG:zone30",
-        "zone:traffic": "BE-VLG:urban",
-        "id": "way/1367347815"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.6079843,
-            51.1834174
-          ],
-          [
-            5.6089063,
-            51.1832192
-          ],
-          [
-            5.6090111,
-            51.1831906
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1367371648",
-      "properties": {
-        "highway": "unclassified",
-        "maxspeed": "30",
-        "name": "Kakebeekstraat",
-        "source:maxspeed": "BE-VLG:zone30",
-        "zone:traffic": "BE-VLG:urban",
-        "id": "way/1367371648"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.6096676,
-            51.1837378
-          ],
-          [
-            5.6091642,
-            51.1834118
-          ],
-          [
-            5.6090731,
-            51.1832874
-          ],
-          [
-            5.6090111,
-            51.1831906
           ]
         ]
       }

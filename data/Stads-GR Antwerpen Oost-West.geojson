@@ -381,6 +381,7 @@
         "cycleway:width": "6",
         "foot": "yes",
         "highway": "unclassified",
+        "lit": "yes",
         "mapillary": "179105070768557",
         "motor_vehicle": "permit",
         "name": "Parkweg",
@@ -1711,6 +1712,7 @@
         "bicycle": "yes",
         "highway": "path",
         "horse": "no",
+        "lit": "no",
         "surface": "compacted",
         "id": "way/51492213"
       },
@@ -1737,6 +1739,7 @@
         "highway": "path",
         "horse": "no",
         "layer": "1",
+        "lit": "no",
         "id": "way/51492219"
       },
       "geometry": {
@@ -2256,6 +2259,7 @@
         "destination:forward": "Arboretum;Sprookjeshuis;Theater;Verkeerstuin;Rozentuin",
         "foot": "yes",
         "highway": "unclassified",
+        "lit": "yes",
         "mapillary": "179105070768557",
         "mofa": "no",
         "moped": "no",
@@ -2292,6 +2296,7 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "lit": "no",
         "mofa": "no",
         "moped": "no",
         "oneway": "no",
@@ -3288,9 +3293,10 @@
       "type": "Feature",
       "id": "way/507981975",
       "properties": {
-        "highway": "residential",
+        "highway": "pedestrian",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
+        "motor_vehicle": "no",
         "name": "Jan De Laetstraat",
         "name:etymology:wikidata": "Q678518",
         "surface": "paving_stones",
@@ -3304,12 +3310,20 @@
             51.2179118
           ],
           [
+            4.4444673,
+            51.2178868
+          ],
+          [
             4.444448,
             51.2178498
           ],
           [
             4.4444286,
             51.217775
+          ],
+          [
+            4.4444156,
+            51.2177075
           ],
           [
             4.4444128,
@@ -3513,9 +3527,10 @@
       "type": "Feature",
       "id": "way/706485094",
       "properties": {
-        "highway": "residential",
+        "highway": "pedestrian",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
+        "motor_vehicle": "no",
         "name": "Zendelingenstraat",
         "oneway": "no",
         "surface": "paving_stones",
@@ -3527,6 +3542,14 @@
           [
             4.4440516,
             51.2177329
+          ],
+          [
+            4.4440906,
+            51.2177277
+          ],
+          [
+            4.44437,
+            51.2176904
           ],
           [
             4.4444128,
@@ -3901,6 +3924,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
+        "lit": "no",
         "segregated": "no",
         "smoothness": "intermediate",
         "surface": "compacted",
@@ -3979,6 +4003,7 @@
         "comfort": "35",
         "description": "http://wegenenverkeer.be/werken/heraanleg-noordersingel-turnhoutsepoort",
         "highway": "cycleway",
+        "lit": "yes",
         "oneway": "no",
         "surface": "concrete",
         "width": "2.60",
@@ -4007,6 +4032,7 @@
         "description": "http://wegenenverkeer.be/werken/heraanleg-noordersingel-turnhoutsepoort",
         "highway": "cycleway",
         "layer": "1",
+        "lit": "yes",
         "oneway": "no",
         "surface": "concrete",
         "width": "2.60",
@@ -4473,6 +4499,7 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "lit": "no",
         "oneway": "no",
         "segregated": "no",
         "smoothness": "excellent",
@@ -4951,6 +4978,7 @@
         "foot": "yes",
         "highway": "unclassified",
         "horse": "no",
+        "lit": "yes",
         "mofa": "no",
         "moped": "no",
         "motor_vehicle": "permit",
