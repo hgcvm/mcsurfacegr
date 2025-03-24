@@ -924,9 +924,11 @@
       "properties": {
         "cycleway": "track",
         "highway": "tertiary",
+        "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Braamstraat",
+        "surface": "asphalt",
         "id": "way/18960865"
       },
       "geometry": {
@@ -1986,6 +1988,7 @@
         "highway": "residential",
         "name": "Venneborglaan",
         "oneway": "yes",
+        "surface": "concrete",
         "id": "way/24919779"
       },
       "geometry": {
@@ -3378,8 +3381,12 @@
       "id": "way/29355489",
       "properties": {
         "bicycle": "no",
+        "check_date": "2025-03-13",
+        "check_date:lit": "2025-03-13",
+        "check_date:surface": "2025-03-13",
         "highway": "path",
-        "lastcheck": "2019-04-11",
+        "lit": "no",
+        "surface": "fine_gravel",
         "id": "way/29355489"
       },
       "geometry": {
@@ -3403,6 +3410,7 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "path",
+        "lit": "no",
         "motor_vehicle": "permit",
         "name": "Vincke Leije",
         "surface": "fine_gravel",
@@ -8304,6 +8312,7 @@
       "type": "Feature",
       "id": "way/38255092",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -8312,7 +8321,9 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "sidewalk": "no",
+        "smoothness": "good",
         "surface": "concrete",
+        "width": "6",
         "id": "way/38255092"
       },
       "geometry": {
@@ -13185,8 +13196,13 @@
         "cycleway": "track",
         "highway": "secondary",
         "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Geelsebaan",
         "ref": "N19",
+        "sidewalk": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/56301629"
       },
@@ -13212,12 +13228,18 @@
       "type": "Feature",
       "id": "way/56301630",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Kabouterstraat",
         "sidewalk": "no",
+        "smoothness": "good",
         "surface": "paving_stones",
         "traffic_calming": "table",
+        "width": "6",
         "id": "way/56301630"
       },
       "geometry": {
@@ -13271,7 +13293,8 @@
       "properties": {
         "bicycle": "no",
         "highway": "path",
-        "surface": "unpaved",
+        "smoothness": "intermediate",
+        "surface": "compacted",
         "id": "way/56302981"
       },
       "geometry": {
@@ -13402,7 +13425,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
-        "surface": "unpaved",
+        "surface": "sand",
         "id": "way/56303512"
       },
       "geometry": {
@@ -18961,10 +18984,12 @@
       "properties": {
         "bicycle": "use_sidepath",
         "highway": "tertiary",
+        "lanes": "1",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Braamstraat",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/176710584"
       },
       "geometry": {
@@ -19189,7 +19214,7 @@
         "footway": "crossing",
         "highway": "footway",
         "lit": "yes",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/176710599"
       },
       "geometry": {
@@ -19276,6 +19301,7 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
+        "lit": "no",
         "name": "Ponthoekweg",
         "sidewalk": "no",
         "surface": "dirt",
@@ -19291,6 +19317,10 @@
           [
             4.5730296,
             51.2239872
+          ],
+          [
+            4.5731299,
+            51.2240012
           ],
           [
             4.5731738,
@@ -19498,6 +19528,7 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "path",
+        "lit": "no",
         "sidewalk": "no",
         "surface": "dirt",
         "id": "way/176712972"
@@ -19542,6 +19573,7 @@
         "fishing": "no",
         "foot": "yes",
         "highway": "track",
+        "lit": "no",
         "motor_vehicle": "permit",
         "smoking": "no",
         "surface": "dirt",
@@ -19596,6 +19628,8 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
+        "lit": "no",
+        "surface": "sett",
         "id": "way/176712974"
       },
       "geometry": {
@@ -19630,6 +19664,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
+        "lit": "no",
         "name": "Johanna De Pretdreef",
         "surface": "compacted",
         "id": "way/176712976"
@@ -20668,6 +20703,7 @@
         "bridge": "yes",
         "highway": "path",
         "horse": "no",
+        "lit": "no",
         "motor_vehicle": "no",
         "surface": "dirt",
         "id": "way/197668205"
@@ -24197,11 +24233,17 @@
       "type": "Feature",
       "id": "way/462701368",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Kabouterstraat",
         "sidewalk": "no",
+        "smoothness": "good",
         "surface": "paving_stones",
+        "width": "6",
         "id": "way/462701368"
       },
       "geometry": {
@@ -24231,8 +24273,10 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "sidewalk": "no",
+        "smoothness": "good",
         "surface": "paving_stones",
         "traffic_calming": "table",
+        "width": "6",
         "id": "way/462701369"
       },
       "geometry": {
@@ -27949,11 +27993,15 @@
       "id": "way/755255485",
       "properties": {
         "bicycle": "no",
+        "check_date": "2025-03-13",
+        "check_date:lit": "2025-03-13",
+        "check_date:surface": "2025-03-13",
         "foot": "yes",
         "highway": "path",
-        "lastcheck": "2019-04-11",
+        "lit": "no",
         "motor_vehicle": "permit",
         "name": "Johanna De Pretdreef",
+        "surface": "compacted",
         "id": "way/755255485"
       },
       "geometry": {
@@ -27988,9 +28036,13 @@
       "properties": {
         "bicycle": "yes",
         "bridge": "yes",
+        "check_date": "2025-03-13",
+        "check_date:lit": "2025-03-13",
+        "check_date:surface": "2025-03-13",
         "highway": "path",
-        "lastcheck": "2019-04-11",
         "layer": "1",
+        "lit": "no",
+        "surface": "concrete:plates",
         "id": "way/755255486"
       },
       "geometry": {
@@ -31700,11 +31752,14 @@
       "type": "Feature",
       "id": "way/1280119684",
       "properties": {
+        "cycleway:surface": "paving_stones",
         "foot": "yes",
+        "footway:surface": "paving_stones",
         "highway": "cycleway",
         "lit": "yes",
         "oneway": "no",
         "segregated": "yes",
+        "surface": "paving_stones",
         "id": "way/1280119684"
       },
       "geometry": {

@@ -381,6 +381,10 @@
             51.0473445
           ],
           [
+            3.7198873,
+            51.0476133
+          ],
+          [
             3.7198591,
             51.0478244
           ],
@@ -4882,41 +4886,20 @@
         "foot": "designated",
         "highway": "path",
         "horse": "designated",
+        "maxspeed": "30",
         "name": "Negenbunderspad",
         "segregated": "no",
         "smoothness": "intermediate",
-        "surface": "fine_gravel",
+        "source:maxspeed": "BE-VLG:zone30",
+        "surface": "asphalt",
         "traffic_sign": "F99c",
         "width": "1",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/22476414"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.7410087,
-            50.8943491
-          ],
-          [
-            4.744416,
-            50.8940857
-          ],
-          [
-            4.7453441,
-            50.8940594
-          ],
-          [
-            4.745699,
-            50.8940446
-          ],
-          [
-            4.7463364,
-            50.8940179
-          ],
-          [
-            4.7464689,
-            50.894029
-          ],
           [
             4.7465384,
             50.8940274
@@ -44747,6 +44730,10 @@
             51.0142372
           ],
           [
+            4.0831559,
+            51.0142176
+          ],
+          [
             4.0830772,
             51.0142082
           ],
@@ -46691,8 +46678,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.0978743,
-            50.9070237
+            3.0980296,
+            50.9072028
           ],
           [
             3.0977764,
@@ -46928,12 +46915,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.0978743,
-            50.9070237
+            3.0980296,
+            50.9072028
           ],
           [
-            3.0988069,
-            50.9080641
+            3.099104,
+            50.9083954
           ],
           [
             3.0995023,
@@ -48826,8 +48813,12 @@
             50.8992463
           ],
           [
-            3.0877235,
-            50.8992937
+            3.0877199,
+            50.8992814
+          ],
+          [
+            3.0877196,
+            50.8993118
           ],
           [
             3.0877314,
@@ -49114,8 +49105,12 @@
             50.8927077
           ],
           [
-            3.086717,
-            50.8924504
+            3.0867854,
+            50.8924742
+          ],
+          [
+            3.0867478,
+            50.8924352
           ]
         ]
       }
@@ -62064,8 +62059,16 @@
             50.8924364
           ],
           [
-            3.086717,
-            50.8924504
+            3.0865252,
+            50.8924547
+          ],
+          [
+            3.0866459,
+            50.8924522
+          ],
+          [
+            3.0867478,
+            50.8924352
           ]
         ]
       }
@@ -69969,20 +69972,28 @@
             50.8456218
           ],
           [
-            5.69242,
-            50.84583
+            5.6924254,
+            50.8458307
           ],
           [
-            5.6923961,
+            5.6924131,
+            50.8459102
+          ],
+          [
+            5.6924036,
             50.8459517
           ],
           [
-            5.6923842,
+            5.6923906,
             50.8459852
           ],
           [
-            5.6923702,
+            5.6923745,
             50.8460132
+          ],
+          [
+            5.6923632,
+            50.8460303
           ],
           [
             5.6923487,
@@ -97331,6 +97342,7 @@
         "motorcar": "destination",
         "motorcycle": "destination",
         "name": "Aan de Bocht",
+        "sidewalk": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
         "wikidata": "Q115808904",
@@ -129835,14 +129847,6 @@
           [
             4.0730868,
             50.9456153
-          ],
-          [
-            4.0730529,
-            50.9456228
-          ],
-          [
-            4.0730036,
-            50.9456468
           ]
         ]
       }
@@ -134972,6 +134976,86 @@
           [
             4.8248538,
             50.7993798
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1369795051",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "residential",
+        "maxspeed": "20",
+        "name": "Doornveld",
+        "surface": "asphalt",
+        "id": "way/1369795051"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.0730868,
+            50.9456153
+          ],
+          [
+            4.0730529,
+            50.9456228
+          ],
+          [
+            4.0730036,
+            50.9456468
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1370064715",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "horse": "designated",
+        "name": "Negenbunderspad",
+        "segregated": "no",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel",
+        "traffic_sign": "F99c",
+        "width": "1",
+        "id": "way/1370064715"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7410087,
+            50.8943491
+          ],
+          [
+            4.744416,
+            50.8940857
+          ],
+          [
+            4.7453441,
+            50.8940594
+          ],
+          [
+            4.745699,
+            50.8940446
+          ],
+          [
+            4.7463364,
+            50.8940179
+          ],
+          [
+            4.7464689,
+            50.894029
+          ],
+          [
+            4.7465384,
+            50.8940274
           ]
         ]
       }
@@ -153868,6 +153952,7 @@
         "emergency": "yes",
         "highway": "residential",
         "horse": "yes",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Johannes Hartmannlaan",
         "name:etymology:wikidata": "Q96580069",
@@ -155897,8 +155982,8 @@
             51.056697
           ],
           [
-            3.7329014,
-            51.0567357
+            3.732849,
+            51.0567327
           ],
           [
             3.7330299,
@@ -157404,10 +157489,12 @@
         "emergency": "yes",
         "highway": "residential",
         "horse": "yes",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Johannes Hartmannlaan",
         "name:etymology:wikidata": "Q96580069",
         "oneway": "no",
+        "surface": "asphalt",
         "taxi": "yes",
         "vehicle": "destination",
         "wikidata": "Q115808275",
@@ -158435,6 +158522,8 @@
         "old_name": "Poreistraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "surface": "asphalt",
         "traffic_sign": "BE:F111;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
@@ -161369,6 +161458,7 @@
         "parking:both": "no",
         "ref": "N251",
         "sidewalk:left": "yes",
+        "sidewalk:left:surface": "paving_stones",
         "sidewalk:right": "separate",
         "smoothness": "good",
         "surface": "asphalt",
@@ -162239,11 +162329,14 @@
         "cycleway": "no",
         "highway": "residential",
         "lanes": "1",
+        "lit": "yes",
         "maxspeed": "30",
         "name": "Pater Damiaanplein",
         "name:etymology:wikidata": "Q232785",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "surface": "asphalt",
         "traffic_sign": "BE:F111;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
@@ -163906,6 +163999,7 @@
         "oneway:bicycle": "no",
         "parking:both": "no",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "surface": "asphalt",
         "width": "3.6",
         "id": "way/564392130"

@@ -36252,6 +36252,10 @@
         "type": "LineString",
         "coordinates": [
           [
+            5.496495,
+            50.9663836
+          ],
+          [
             5.4964961,
             50.9664091
           ],
@@ -40928,31 +40932,6 @@
           [
             5.3281136,
             51.0572548
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1153264329",
-      "properties": {
-        "crossing": "zebra",
-        "footway": "crossing",
-        "highway": "footway",
-        "smoothness": "good",
-        "surface": "paving_stones",
-        "id": "way/1153264329"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.496495,
-            50.9663836
-          ],
-          [
-            5.4964961,
-            50.9664091
           ]
         ]
       }
@@ -48624,9 +48603,13 @@
       "id": "way/1278430519",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "motor_vehicle": "permit",
         "name": "Stadsplein",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
         "id": "way/1278430519"
       },
       "geometry": {
@@ -54471,6 +54454,7 @@
         "crossing:markings": "yes",
         "footway": "crossing",
         "highway": "footway",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/1311701130"
       },
@@ -56095,6 +56079,56 @@
           [
             5.6825905,
             51.0020599
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1335953097",
+      "properties": {
+        "crossing": "unmarked",
+        "crossing:markings": "no",
+        "footway": "crossing",
+        "highway": "footway",
+        "surface": "paving_stones",
+        "id": "way/1335953097"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5029846,
+            50.96429
+          ],
+          [
+            5.503049,
+            50.9642865
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1335953098",
+      "properties": {
+        "crossing": "unmarked",
+        "crossing:markings": "no",
+        "footway": "crossing",
+        "highway": "footway",
+        "surface": "paving_stones",
+        "id": "way/1335953098"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5029412,
+            50.9642926
+          ],
+          [
+            5.5029846,
+            50.96429
           ]
         ]
       }

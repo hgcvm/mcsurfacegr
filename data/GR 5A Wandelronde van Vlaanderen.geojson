@@ -16260,50 +16260,6 @@
           [
             2.8830181,
             51.2181468
-          ],
-          [
-            2.8824602,
-            51.2180528
-          ],
-          [
-            2.8812377,
-            51.2175847
-          ],
-          [
-            2.8798292,
-            51.2170448
-          ],
-          [
-            2.8792146,
-            51.2167931
-          ],
-          [
-            2.8781296,
-            51.2163101
-          ],
-          [
-            2.87771,
-            51.2160689
-          ],
-          [
-            2.8774755,
-            51.2159205
-          ],
-          [
-            2.8774108,
-            51.2158796
-          ],
-          [
-            2.8768232,
-            51.2155608
-          ],
-          [
-            2.8764895,
-            51.2153797
-          ],
-          [
-            2.8756827,
-            51.2149394
           ]
         ]
       }
@@ -21259,8 +21215,8 @@
             51.1441018
           ],
           [
-            2.7043855,
-            51.1441148
+            2.7043788,
+            51.1441152
           ]
         ]
       }
@@ -21281,8 +21237,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.7043855,
-            51.1441148
+            2.7043788,
+            51.1441152
           ],
           [
             2.7063677,
@@ -31145,6 +31101,7 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Zuidervaartje",
+        "name:etymology:wikidata": "Q2240487",
         "oneway": "no",
         "surface": "asphalt",
         "id": "way/127102896"
@@ -31836,7 +31793,6 @@
         "layer": "1",
         "oneway": "no",
         "segregated": "no",
-        "surface": "wood",
         "traffic_sign": "BE:D10,GIV[opgepast slipgevaar bij nat wegdek]",
         "width": "2",
         "id": "way/131422581"
@@ -33729,7 +33685,7 @@
         "cycleway:both": "no",
         "highway": "service",
         "maxspeed": "30",
-        "name": "Nieuwe Jachthavenweg",
+        "name": "Nieuwe Yachthavenweg",
         "sidewalk": "right",
         "sidewalk:right:surface": "paving_stones",
         "smoothness": "excellent",
@@ -46219,6 +46175,7 @@
         "name": "Koning Boudewijnpromenade",
         "name:etymology:wikidata": "Q12976",
         "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/238257250"
       },
@@ -46510,6 +46467,7 @@
         "highway": "pedestrian",
         "lit": "yes",
         "name": "Zeedijk",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/239427679"
       },
@@ -55468,6 +55426,7 @@
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Noorweegse Kaai",
+        "name:etymology:wikidata": "Q20",
         "not:designation": "towpath",
         "oneway": "no",
         "scenic": "yes",
@@ -70140,6 +70099,7 @@
       "properties": {
         "highway": "cycleway",
         "name": "Damse Vaart",
+        "name:etymology:wikidata": "Q2111729",
         "oneway": "no",
         "surface": "concrete",
         "id": "way/1123569364"
@@ -71608,7 +71568,7 @@
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "1",
-        "name": "Albert I-laan",
+        "name": "Albert I laan",
         "name:etymology:wikidata": "Q55008046",
         "surface": "paving_stones",
         "id": "way/1164622449"
@@ -72062,10 +72022,12 @@
       "type": "Feature",
       "id": "way/1178184084",
       "properties": {
-        "foot": "yes",
         "highway": "path",
         "incline": "0%",
-        "surface": "gravel",
+        "sac_scale": "strolling",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
         "id": "way/1178184084"
       },
       "geometry": {
@@ -72217,10 +72179,12 @@
       "type": "Feature",
       "id": "way/1178543779",
       "properties": {
-        "foot": "yes",
         "highway": "path",
         "incline": "0%",
-        "surface": "gravel",
+        "sac_scale": "strolling",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
         "id": "way/1178543779"
       },
       "geometry": {
@@ -72313,10 +72277,12 @@
       "type": "Feature",
       "id": "way/1178543780",
       "properties": {
-        "foot": "yes",
         "highway": "path",
         "incline": "0%",
-        "surface": "gravel",
+        "sac_scale": "strolling",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
         "id": "way/1178543780"
       },
       "geometry": {
@@ -75551,6 +75517,72 @@
           [
             2.7461153,
             51.1444468
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1368102003",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "segregated": "no",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
+        "id": "way/1368102003"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8830181,
+            51.2181468
+          ],
+          [
+            2.8824602,
+            51.2180528
+          ],
+          [
+            2.8812377,
+            51.2175847
+          ],
+          [
+            2.8798292,
+            51.2170448
+          ],
+          [
+            2.8792146,
+            51.2167931
+          ],
+          [
+            2.8781296,
+            51.2163101
+          ],
+          [
+            2.87771,
+            51.2160689
+          ],
+          [
+            2.8774755,
+            51.2159205
+          ],
+          [
+            2.8774108,
+            51.2158796
+          ],
+          [
+            2.8768232,
+            51.2155608
+          ],
+          [
+            2.8764895,
+            51.2153797
+          ],
+          [
+            2.8756827,
+            51.2149394
           ]
         ]
       }
@@ -99466,6 +99498,10 @@
             50.7631234
           ],
           [
+            3.8687627,
+            50.7631933
+          ],
+          [
             3.8687325,
             50.7632671
           ],
@@ -99871,8 +99907,12 @@
             50.7742008
           ],
           [
-            3.8930297,
-            50.7742327
+            3.8929751,
+            50.7742117
+          ],
+          [
+            3.8930333,
+            50.7742282
           ]
         ]
       }
@@ -99963,8 +100003,8 @@
             50.7740183
           ],
           [
-            3.8930297,
-            50.7742327
+            3.8930333,
+            50.7742282
           ]
         ]
       }
@@ -134799,16 +134839,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9076863,
-            50.7761848
+            3.9077133,
+            50.7761882
           ],
           [
-            3.9076942,
-            50.7761341
+            3.9076951,
+            50.7761372
           ],
           [
-            3.9078337,
-            50.7758384
+            3.907705,
+            50.7760808
+          ],
+          [
+            3.9078212,
+            50.7758373
           ],
           [
             3.9079544,
@@ -135469,12 +135513,12 @@
             50.7762352
           ],
           [
-            3.9077639,
-            50.7762247
+            3.9077628,
+            50.7762206
           ],
           [
-            3.9076863,
-            50.7761848
+            3.9077133,
+            50.7761882
           ]
         ]
       }
@@ -140786,8 +140830,8 @@
             50.7935462
           ],
           [
-            3.9651151,
-            50.7935061
+            3.9651227,
+            50.7935
           ],
           [
             3.9649835,
@@ -141126,8 +141170,8 @@
             50.7944713
           ],
           [
-            3.9668997,
-            50.7943225
+            3.9668975,
+            50.7943218
           ]
         ]
       }
@@ -141172,8 +141216,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9668997,
-            50.7943225
+            3.9668975,
+            50.7943218
+          ],
+          [
+            3.9669073,
+            50.7942901
           ],
           [
             3.9669019,
@@ -142325,20 +142373,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.8850503,
-            50.7717939
+            3.8850506,
+            50.7717944
           ],
           [
-            3.8847962,
-            50.7718475
+            3.8847959,
+            50.771847
           ],
           [
-            3.8847612,
-            50.7718548
+            3.8847609,
+            50.7718543
           ],
           [
-            3.8846977,
-            50.7718675
+            3.884698,
+            50.771868
           ]
         ]
       }
@@ -142405,8 +142453,8 @@
             50.7717921
           ],
           [
-            3.8846977,
-            50.7718675
+            3.884698,
+            50.771868
           ]
         ]
       }
@@ -146100,8 +146148,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.8850503,
-            50.7717939
+            3.8850506,
+            50.7717944
           ],
           [
             3.8851777,
@@ -182586,6 +182634,7 @@
         "maxspeed": "30",
         "maxweight:signed": "no",
         "name": "Wollestraat",
+        "name:etymology:wikidata": "Q42329",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "parking:both": "no",
@@ -185021,6 +185070,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Wollestraat",
+        "name:etymology:wikidata": "Q42329",
         "note": "cycleway is slightly discouraged due to lots of tourists",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -185782,6 +185832,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Wollestraat",
+        "name:etymology:wikidata": "Q42329",
         "note": "cycleway is slightly discouraged due to lots of tourists",
         "oneway": "yes",
         "oneway:bicycle": "no",
