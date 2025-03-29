@@ -10567,42 +10567,56 @@
     },
     {
       "type": "Feature",
-      "id": "way/24728665",
+      "id": "way/24728680",
       "properties": {
         "hgv": "destination",
         "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
         "maxweight": "3.5",
         "name": "Dorp",
-        "sidewalk": "no",
+        "sidewalk": "right",
         "surface": "cobblestone",
-        "id": "way/24728665"
+        "id": "way/24728680"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.2276818,
-            50.9308307
+            4.2276523,
+            50.9311634
           ],
           [
-            4.2277411,
-            50.9308421
+            4.2275905,
+            50.9311576
           ],
           [
-            4.227821,
-            50.9308703
+            4.2275374,
+            50.931143
           ],
           [
-            4.2278612,
-            50.9309006
+            4.227492,
+            50.9311205
           ],
           [
-            4.2278931,
-            50.930931
+            4.2274618,
+            50.9311018
           ],
           [
-            4.2279128,
-            50.9309684
+            4.2272063,
+            50.9309467
+          ],
+          [
+            4.2271155,
+            50.9308976
+          ],
+          [
+            4.226944,
+            50.9308057
+          ],
+          [
+            4.2269211,
+            50.9307934
           ]
         ]
       }
@@ -109556,6 +109570,28 @@
     },
     {
       "type": "Feature",
+      "id": "way/658253063",
+      "properties": {
+        "highway": "cycleway",
+        "surface": "paving_stones",
+        "id": "way/658253063"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.2270318,
+            50.9306755
+          ],
+          [
+            4.2269211,
+            50.9307934
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/658793877",
       "properties": {
         "highway": "residential",
@@ -109832,129 +109868,6 @@
           [
             2.9977253,
             50.8826366
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/663784119",
-      "properties": {
-        "hgv": "destination",
-        "highway": "residential",
-        "maxweight": "3.5",
-        "name": "Dorp",
-        "sidewalk": "right",
-        "surface": "cobblestone",
-        "id": "way/663784119"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.2274463,
-            50.930779
-          ],
-          [
-            4.2276257,
-            50.9308176
-          ],
-          [
-            4.2276818,
-            50.9308307
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/663784120",
-      "properties": {
-        "hgv": "destination",
-        "highway": "residential",
-        "maxweight": "3.5",
-        "name": "Dorp",
-        "sidewalk": "right",
-        "surface": "cobblestone",
-        "id": "way/663784120"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.2270318,
-            50.9306755
-          ],
-          [
-            4.2272817,
-            50.9307429
-          ],
-          [
-            4.2274463,
-            50.930779
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/663784121",
-      "properties": {
-        "hgv": "destination",
-        "highway": "residential",
-        "maxweight": "3.5",
-        "name": "Dorp",
-        "oneway": "yes",
-        "sidewalk": "right",
-        "surface": "cobblestone",
-        "id": "way/663784121"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.2279128,
-            50.9309684
-          ],
-          [
-            4.2279242,
-            50.9310042
-          ],
-          [
-            4.227924,
-            50.9310405
-          ],
-          [
-            4.2279035,
-            50.9310787
-          ],
-          [
-            4.2278891,
-            50.9310955
-          ],
-          [
-            4.22787,
-            50.9311123
-          ],
-          [
-            4.2278469,
-            50.9311271
-          ],
-          [
-            4.2278231,
-            50.9311389
-          ],
-          [
-            4.2277669,
-            50.9311581
-          ],
-          [
-            4.2277102,
-            50.9311644
-          ],
-          [
-            4.2276523,
-            50.9311634
           ]
         ]
       }
@@ -133597,10 +133510,6 @@
       "type": "Feature",
       "id": "way/1327818250",
       "properties": {
-        "addr:city": "Gent",
-        "addr:housenumber": "77",
-        "addr:postcode": "9000",
-        "addr:street": "Visserij",
         "bicycle": "yes",
         "highway": "footway",
         "lit": "no",
