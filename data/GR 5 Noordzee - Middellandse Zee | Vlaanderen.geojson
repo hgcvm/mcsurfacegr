@@ -24080,6 +24080,7 @@
       "id": "way/75435049",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "maxweight": "3.5",
         "maxweight:conditional": "none @ destination",
         "name": "Laarstraat",
@@ -24459,10 +24460,12 @@
       "id": "way/83337961",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "maxweight": "3.5",
         "maxweight:conditional": "none @ destination",
         "name": "Laarstraat",
         "source:maxweight": "zone",
+        "surface": "asphalt",
         "id": "way/83337961"
       },
       "geometry": {
@@ -61905,6 +61908,7 @@
       "id": "way/1154722346",
       "properties": {
         "highway": "footway",
+        "surface": "pebblestone",
         "id": "way/1154722346"
       },
       "geometry": {
@@ -61934,7 +61938,7 @@
         "motor_vehicle": "unknown",
         "name": "Industriestraat",
         "source:maxweight": "zone",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/1154722347"
       },
       "geometry": {
@@ -62479,6 +62483,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "concrete",
         "id": "way/1164630319"
       },
       "geometry": {
@@ -62503,6 +62508,7 @@
         "highway": "cycleway",
         "layer": "1",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/1164630320"
       },
       "geometry": {
@@ -62573,7 +62579,14 @@
       "type": "Feature",
       "id": "way/1164630338",
       "properties": {
+        "handrail": "yes",
         "highway": "steps",
+        "incline": "up",
+        "ramp": "yes",
+        "ramp:bicycle": "yes",
+        "step_count": "43",
+        "surface": "concrete",
+        "tactile_paving": "no",
         "id": "way/1164630338"
       },
       "geometry": {
@@ -62595,6 +62608,7 @@
       "id": "way/1164630339",
       "properties": {
         "highway": "footway",
+        "surface": "concrete",
         "id": "way/1164630339"
       },
       "geometry": {
@@ -63975,7 +63989,7 @@
         "motor_vehicle": "unknown",
         "name": "Industriestraat",
         "source:maxweight": "zone",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/1271721503"
       },
       "geometry": {

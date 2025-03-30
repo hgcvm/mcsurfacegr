@@ -11336,10 +11336,14 @@
       "type": "Feature",
       "id": "way/128463306",
       "properties": {
-        "highway": "track",
+        "highway": "path",
         "horse": "no",
         "name": "Singelsepad",
+        "smoothness": "intermediate",
         "surface": "dirt",
+        "tracktype": "grade3",
+        "traffic_sign": "BE:C15",
+        "width": "0.4",
         "id": "way/128463306"
       },
       "geometry": {
@@ -11350,40 +11354,84 @@
             51.1763625
           ],
           [
-            3.6639149,
-            51.1750142
+            3.6638968,
+            51.1750148
           ],
           [
-            3.6643219,
-            51.1736004
+            3.6642328,
+            51.1738633
           ],
           [
-            3.6642725,
-            51.1734511
+            3.6642905,
+            51.1735881
+          ],
+          [
+            3.6642888,
+            51.1734769
+          ],
+          [
+            3.6642824,
+            51.1734496
+          ],
+          [
+            3.6642667,
+            51.173425
+          ],
+          [
+            3.6642526,
+            51.173416
+          ],
+          [
+            3.6642328,
+            51.1734086
+          ],
+          [
+            3.6642103,
+            51.1734021
           ],
           [
             3.6641867,
             51.1733972
           ],
           [
-            3.6636956,
-            51.1733392
+            3.6636997,
+            51.1733407
           ],
           [
-            3.6636071,
-            51.1733076
+            3.6636475,
+            51.1733324
           ],
           [
-            3.6635754,
-            51.1732738
+            3.6636086,
+            51.1733202
           ],
           [
-            3.6635578,
-            51.1732328
+            3.6635847,
+            51.1733064
+          ],
+          [
+            3.6635688,
+            51.1732918
+          ],
+          [
+            3.6635581,
+            51.1732753
+          ],
+          [
+            3.6635527,
+            51.1732526
+          ],
+          [
+            3.6635589,
+            51.1732263
           ],
           [
             3.6636235,
             51.1730158
+          ],
+          [
+            3.6636918,
+            51.1728141
           ],
           [
             3.6637319,
@@ -21094,10 +21142,13 @@
       "type": "Feature",
       "id": "way/195137847",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Heidestraat",
-        "sidewalk": "no",
+        "sidewalk:both": "no",
+        "smoothness": "good",
         "surface": "asphalt",
+        "verge:both": "yes",
         "id": "way/195137847"
       },
       "geometry": {
@@ -21114,6 +21165,10 @@
           [
             3.661529,
             51.1761272
+          ],
+          [
+            3.6610565,
+            51.176081
           ],
           [
             3.6594704,
@@ -21146,8 +21201,12 @@
       "type": "Feature",
       "id": "way/195137851",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "sidewalk:both": "no",
+        "smoothness": "good",
         "surface": "asphalt",
+        "verge:both": "yes",
         "id": "way/195137851"
       },
       "geometry": {
@@ -24182,9 +24241,13 @@
       "type": "Feature",
       "id": "way/382020407",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Heide",
+        "sidewalk:both": "no",
+        "smoothness": "good",
         "surface": "asphalt",
+        "verge:both": "yes",
         "id": "way/382020407"
       },
       "geometry": {
@@ -24193,6 +24256,10 @@
           [
             3.6635176,
             51.1763625
+          ],
+          [
+            3.6632967,
+            51.1763364
           ],
           [
             3.6630775,
@@ -26669,10 +26736,20 @@
       "type": "Feature",
       "id": "way/666927760",
       "properties": {
+        "agricultural": "designated",
+        "bicycle": "designated",
+        "emergency": "yes",
+        "foot": "designated",
         "highway": "track",
-        "horse": "no",
+        "horse": "designated",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:F99c",
+        "motor_vehicle": "destination",
         "name": "Singelsepad",
-        "surface": "dirt",
+        "smoothness": "intermediate",
+        "speed_pedelec": "designated",
+        "surface": "sand",
+        "tracktype": "grade4",
         "id": "way/666927760"
       },
       "geometry": {

@@ -20675,12 +20675,12 @@
             51.1336078
           ],
           [
-            2.7492116,
-            51.1335926
+            2.749107,
+            51.1335976
           ],
           [
-            2.7493077,
-            51.1335975
+            2.7492688,
+            51.1336025
           ],
           [
             2.7499267,
@@ -52061,8 +52061,10 @@
       "properties": {
         "cycleway": "track",
         "highway": "secondary",
-        "name": "Kerzelaarstraat",
+        "name": "Kerzelaarstraat / Kerselaarstraat",
         "name:etymology:wikidata": "Q62474322",
+        "name:left": "Kerzelaarstraat",
+        "name:right": "Kerselaarstraat",
         "ref": "N434",
         "id": "way/410579749"
       },
@@ -52094,8 +52096,10 @@
       "properties": {
         "cycleway": "track",
         "highway": "secondary",
-        "name": "Kerzelaarstraat",
+        "name": "Kerzelaarstraat / Kerselaarstraat",
         "name:etymology:wikidata": "Q62474322",
+        "name:left": "Kerzelaarstraat",
+        "name:right": "Kerselaarstraat",
         "ref": "N434",
         "id": "way/410579750"
       },
@@ -105673,8 +105677,11 @@
       "type": "Feature",
       "id": "way/105483272",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Maerestraat",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/105483272"
       },
@@ -105696,9 +105703,16 @@
       "type": "Feature",
       "id": "way/105483288",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lit": "no",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
         "name": "Cabourweg",
         "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "width": "3",
         "id": "way/105483288"
@@ -110213,8 +110227,10 @@
       "type": "Feature",
       "id": "way/129241968",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Cabourweg",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/129241968"
       },
@@ -110251,6 +110267,7 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Maerestraat",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/129241972"
       },
@@ -143470,20 +143487,20 @@
             50.7742391
           ],
           [
-            3.718443,
-            50.7741799
+            3.7184208,
+            50.7741805
           ],
           [
-            3.718485,
-            50.7741394
+            3.7184264,
+            50.7741439
           ],
           [
-            3.718516,
-            50.774103
+            3.7184379,
+            50.7741069
           ],
           [
-            3.7185695,
-            50.7740597
+            3.7184861,
+            50.7740603
           ],
           [
             3.7185426,
@@ -161723,8 +161740,11 @@
       "type": "Feature",
       "id": "way/1113008477",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Veldstraat",
+        "oneway": "no",
+        "sidewalk": "no",
         "surface": "asphalt",
         "width": "3",
         "id": "way/1113008477"
@@ -163339,10 +163359,12 @@
       "type": "Feature",
       "id": "way/1123168859",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Cabourweg",
         "oneway": "no",
-        "surface": "compacted",
+        "sidewalk": "no",
+        "surface": "gravel",
         "width": "3",
         "id": "way/1123168859"
       },
@@ -163350,32 +163372,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.5647845,
-            51.0597344
-          ],
-          [
-            2.56486,
-            51.0597536
-          ],
-          [
-            2.5653293,
-            51.0598537
-          ],
-          [
-            2.565759,
-            51.0599198
-          ],
-          [
-            2.5660014,
-            51.0599647
-          ],
-          [
-            2.5661932,
-            51.0600209
-          ],
-          [
-            2.5664842,
-            51.0601479
+            2.5669237,
+            51.0603601
           ],
           [
             2.567062,
@@ -165482,6 +165480,7 @@
         "cycleway": "no",
         "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Rue de la Frontière",
         "oneway": "no",
@@ -166654,6 +166653,57 @@
           [
             4.0370066,
             50.9398391
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1372627720",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "name": "Cabourweg",
+        "oneway": "no",
+        "sidewalk": "no",
+        "surface": "dirt",
+        "width": "3",
+        "id": "way/1372627720"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5647845,
+            51.0597344
+          ],
+          [
+            2.56486,
+            51.0597536
+          ],
+          [
+            2.5653293,
+            51.0598537
+          ],
+          [
+            2.565759,
+            51.0599198
+          ],
+          [
+            2.5660014,
+            51.0599647
+          ],
+          [
+            2.5661932,
+            51.0600209
+          ],
+          [
+            2.5664842,
+            51.0601479
+          ],
+          [
+            2.5669237,
+            51.0603601
           ]
         ]
       }
