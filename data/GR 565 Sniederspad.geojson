@@ -1137,7 +1137,8 @@
       "properties": {
         "bicycle": "yes",
         "bus": "yes",
-        "cycleway:both": "no",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "emergency": "yes",
         "highway": "residential",
         "horse": "yes",
@@ -4044,8 +4045,12 @@
       "properties": {
         "cycleway": "lane",
         "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Schijnparklaan",
+        "sidewalk": "no",
+        "surface": "concrete",
         "id": "way/29387038"
       },
       "geometry": {
@@ -29016,9 +29021,12 @@
       "properties": {
         "cycleway": "lane",
         "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Schijnparklaan",
-        "surface": "concrete:plates",
+        "sidewalk": "no",
+        "surface": "concrete",
         "id": "way/831405579"
       },
       "geometry": {
@@ -29046,8 +29054,15 @@
         "bridge": "yes",
         "cycleway": "lane",
         "highway": "residential",
+        "lane_markings": "no",
         "layer": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "sign",
+        "maxweight:signed": "no",
         "name": "Schijnparklaan",
+        "sidewalk": "no",
+        "surface": "concrete",
         "id": "way/831405580"
       },
       "geometry": {
@@ -43531,6 +43546,7 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
+        "lit": "yes",
         "note": "20200330 tweeweg expliciet toegestaan",
         "oneway": "no",
         "segregated": "yes",
@@ -44341,6 +44357,7 @@
         "cycleway": "crossing",
         "foot": "yes",
         "highway": "cycleway",
+        "lit": "yes",
         "note": "20200330 tweeweg expliciet toegestaan",
         "oneway": "no",
         "segregated": "yes",

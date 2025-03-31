@@ -1050,12 +1050,14 @@
       "type": "Feature",
       "id": "way/23492347",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "1",
         "maxspeed": "30",
         "name": "Vlonderse Hoek",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "smoothness": "bad",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
@@ -7436,9 +7438,14 @@
       "type": "Feature",
       "id": "way/30078460",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Hertenbergstraat",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "good",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "width": "5",
@@ -9996,12 +10003,14 @@
       "type": "Feature",
       "id": "way/34871160",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "1",
         "maxspeed": "30",
         "name": "Markt",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "smoothness": "bad",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
@@ -12118,6 +12127,7 @@
         "motor_vehicle": "no",
         "name": "Woudmeesterdreef",
         "name:nl": "Woudmeesterdreef",
+        "smoothness": "bad",
         "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/39442648"
@@ -16238,6 +16248,8 @@
       "properties": {
         "bicycle": "yes",
         "highway": "footway",
+        "smoothness": "intermediate",
+        "surface": "compacted",
         "id": "way/67327991"
       },
       "geometry": {
@@ -16695,7 +16707,8 @@
         "maxspeed:type": "BE:living_street",
         "name": "Pastoor Vandersandestraat",
         "oneway": "no",
-        "surface": "paved",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
         "id": "way/77246503"
       },
       "geometry": {
@@ -16750,6 +16763,7 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Hoornzeelstraat",
         "oneway": "yes",
@@ -16894,7 +16908,9 @@
         "highway": "track",
         "lanes": "2",
         "maxspeed": "30",
+        "smoothness": "bad",
         "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
         "surface:left": "unhewn_cobblestone",
         "surface:right": "asphalt",
         "tracktype": "grade1",
@@ -20134,10 +20150,15 @@
       "type": "Feature",
       "id": "way/115526915",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Hertenbergstraat",
-        "surface": "asphalt",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
         "width": "5",
         "id": "way/115526915"
       },
@@ -24654,6 +24675,8 @@
         "bicycle": "yes",
         "highway": "footway",
         "segregated": "no",
+        "smoothness": "intermediate",
+        "surface": "concrete",
         "id": "way/148213489"
       },
       "geometry": {
@@ -34935,6 +34958,7 @@
       "type": "Feature",
       "id": "way/579938491",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Lindeboomstraat",
@@ -41147,6 +41171,7 @@
       "type": "Feature",
       "id": "way/908679772",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "1",
         "lit": "yes",
@@ -41154,6 +41179,8 @@
         "name": "Kerkstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "smoothness": "bad",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
@@ -43792,6 +43819,8 @@
         "maxspeed": "50",
         "name": "Witherendreef",
         "sidewalk": "both",
+        "sidewalk:left:surface": "sett",
+        "sidewalk:right:surface": "concrete",
         "smoothness": "bad",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "sett",
@@ -45916,6 +45945,7 @@
         "motor_vehicle": "no",
         "name": "Lijsterweg",
         "name:fr": "Chemin des Grives",
+        "smoothness": "bad",
         "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/1165418956"
@@ -46603,6 +46633,7 @@
         "est_width": "1",
         "highway": "path",
         "maxspeed": "30",
+        "smoothness": "intermediate",
         "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
         "id": "way/1252817128"
