@@ -9999,7 +9999,7 @@
         "bridge": "yes",
         "highway": "unclassified",
         "maxspeed": "70",
-        "source:maxspeed": "zone70",
+        "source:maxspeed": "BE-VLG:rural",
         "id": "way/26963057"
       },
       "geometry": {
@@ -52170,7 +52170,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Kortbroekstraat",
-        "source:maxspeed": "Verhoogde inriching borden in Kortbroekstraat",
+        "source:maxspeed": "BE:F87",
         "traffic_calming": "table",
         "id": "way/422837037"
       },
@@ -52269,6 +52269,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Smisstraat",
+        "source:maxspeed": "BE:F87",
         "traffic_calming": "table",
         "id": "way/422837069"
       },
@@ -52278,6 +52279,10 @@
           [
             4.1888968,
             51.2230509
+          ],
+          [
+            4.188915,
+            51.2230653
           ],
           [
             4.1890207,
@@ -81327,7 +81332,7 @@
         "maxspeed:type": "sign",
         "name": "Pol Antheunisstraat",
         "overtaking:motor_vehicle": "no",
-        "source:maxspeed": "cyclestreet",
+        "source:maxspeed": "BE:cyclestreet",
         "surface": "asphalt",
         "id": "way/30900724"
       },
@@ -83079,7 +83084,7 @@
         "oneway": "yes",
         "oneway:bicycle": "yes",
         "overtaking:motor_vehicle": "no",
-        "source:maxspeed": "cyclestreet",
+        "source:maxspeed": "BE:cyclestreet",
         "surface": "asphalt",
         "id": "way/31825687"
       },
@@ -83155,7 +83160,7 @@
         "name": "Pol Antheunisstraat",
         "overtaking:motor_vehicle": "no",
         "sidewalk": "both",
-        "source:maxspeed": "cyclestreet",
+        "source:maxspeed": "BE:cyclestreet",
         "surface": "asphalt",
         "id": "way/31831669"
       },
@@ -83788,7 +83793,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
-        "source:maxspeed": "cyclestreet",
+        "source:maxspeed": "BE:cyclestreet",
         "surface": "asphalt",
         "id": "way/33210658"
       },
@@ -99134,7 +99139,7 @@
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
         "sidewalk": "both",
-        "source:maxspeed": "cyclestreet",
+        "source:maxspeed": "BE:cyclestreet",
         "source:width": "ARCore",
         "surface": "asphalt",
         "width": "5.3",
@@ -108969,7 +108974,7 @@
         "maxspeed:type": "BE:urban",
         "name": "Grotestraat",
         "overtaking:motor_vehicle": "no",
-        "source:maxspeed": "cyclestreet",
+        "source:maxspeed": "BE:cyclestreet",
         "surface": "asphalt",
         "id": "way/121791848"
       },
@@ -109716,7 +109721,7 @@
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
         "sidewalk": "both",
-        "source:maxspeed": "cyclestreet",
+        "source:maxspeed": "BE:cyclestreet",
         "surface": "asphalt",
         "id": "way/127707911"
       },
@@ -159427,13 +159432,10 @@
       "type": "Feature",
       "id": "way/965082320",
       "properties": {
-        "cyclestreet": "yes",
         "highway": "residential",
-        "maxspeed": "30",
+        "maxspeed": "50",
         "maxspeed:type": "sign",
         "name": "Majoor Van Lierdelaan",
-        "overtaking:motor_vehicle": "no",
-        "source:maxspeed": "cyclestreet",
         "surface": "asphalt",
         "id": "way/965082320"
       },
