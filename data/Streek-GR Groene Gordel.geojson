@@ -4742,6 +4742,7 @@
       "type": "Feature",
       "id": "way/27205343",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Amelgemstraat",
         "surface": "concrete",
@@ -4999,9 +5000,13 @@
       "properties": {
         "cycleway": "no",
         "highway": "unclassified",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Bosweg",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/27342140"
       },
       "geometry": {
@@ -14490,6 +14495,7 @@
       "type": "Feature",
       "id": "way/51889138",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lit": "yes",
         "name": "August Van Doorslaerlaan",
@@ -14521,16 +14527,8 @@
             50.9277069
           ],
           [
-            4.3168209,
-            50.9282637
-          ],
-          [
-            4.3172424,
-            50.9283805
-          ],
-          [
-            4.3180355,
-            50.9286008
+            4.3163155,
+            50.9281243
           ]
         ]
       }
@@ -19410,6 +19408,7 @@
       "type": "Feature",
       "id": "way/103344399",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lit": "yes",
         "name": "Amelgemstraat",
@@ -49150,6 +49149,43 @@
           [
             4.4896145,
             50.7877914
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1375327711",
+      "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
+        "name": "August Van Doorslaerlaan",
+        "sidewalk": "no",
+        "surface": "asphalt",
+        "id": "way/1375327711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3163155,
+            50.9281243
+          ],
+          [
+            4.3168209,
+            50.9282637
+          ],
+          [
+            4.3172424,
+            50.9283805
+          ],
+          [
+            4.3180355,
+            50.9286008
           ]
         ]
       }
