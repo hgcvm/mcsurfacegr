@@ -123,16 +123,18 @@
       "properties": {
         "access": "destination",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "residential",
         "horse": "yes",
         "lanes": "1",
+        "lit": "yes",
         "maxspeed": "50",
         "maxwidth": "2.1",
         "motor_vehicle": "destination",
         "name": "Grapheusstraat",
-        "smoothness": "good",
-        "surface": "paved",
+        "sidewalk": "no",
+        "surface": "paving_stones",
         "id": "way/4419810"
       },
       "geometry": {
@@ -6003,6 +6005,7 @@
       "id": "way/211933166",
       "properties": {
         "highway": "cycleway",
+        "lit": "yes",
         "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/211933166"
@@ -6042,6 +6045,7 @@
       "id": "way/211933187",
       "properties": {
         "highway": "cycleway",
+        "lit": "yes",
         "oneway": "yes",
         "surface": "asphalt",
         "id": "way/211933187"
@@ -8126,6 +8130,10 @@
             51.2181595
           ],
           [
+            4.4570257,
+            51.2181433
+          ],
+          [
             4.4571455,
             51.2180574
           ]
@@ -9083,6 +9091,10 @@
           [
             4.4610763,
             51.2178851
+          ],
+          [
+            4.4608923,
+            51.2178932
           ],
           [
             4.4571455,

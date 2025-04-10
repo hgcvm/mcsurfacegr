@@ -3350,7 +3350,9 @@
       "id": "way/30037253",
       "properties": {
         "highway": "unclassified",
-        "name": "Kleine Heidestraat",
+        "name": "Kleine Heistraat / Kleine Heidestraat",
+        "name:left": "Kleine Heistraat",
+        "name:right": "Kleine Heidestraat",
         "surface": "dirt",
         "id": "way/30037253"
       },
@@ -11016,6 +11018,7 @@
       "id": "way/72888549",
       "properties": {
         "highway": "track",
+        "name": "Callestraatje",
         "surface": "dirt",
         "tracktype": "grade2",
         "id": "way/72888549"
@@ -11098,38 +11101,6 @@
           [
             3.8892446,
             51.0628704
-          ],
-          [
-            3.8893118,
-            51.0629013
-          ],
-          [
-            3.8893986,
-            51.0629136
-          ],
-          [
-            3.889747,
-            51.062942
-          ],
-          [
-            3.891296,
-            51.0630226
-          ],
-          [
-            3.8915108,
-            51.0630317
-          ],
-          [
-            3.8916656,
-            51.0630568
-          ],
-          [
-            3.8916954,
-            51.0630859
-          ],
-          [
-            3.8917107,
-            51.0631212
           ]
         ]
       }
@@ -45796,7 +45767,9 @@
       "id": "way/1106117670",
       "properties": {
         "highway": "unclassified",
-        "name": "Kalkenweg",
+        "name": "Kalkenweg / Brugstraat",
+        "name:left": "Kalkenweg",
+        "name:right": "Brugstraat",
         "surface": "asphalt",
         "id": "way/1106117670"
       },
@@ -47879,6 +47852,60 @@
           [
             3.6863378,
             50.7536619
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1376104612",
+      "properties": {
+        "highway": "track",
+        "name": "Kleine Heidestraat / Kleine Heistraat",
+        "name:left": "Kleine Heidestraat",
+        "name:right": "Kleine Heistraat",
+        "surface": "dirt",
+        "tracktype": "grade2",
+        "id": "way/1376104612"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.8892446,
+            51.0628704
+          ],
+          [
+            3.8893118,
+            51.0629013
+          ],
+          [
+            3.8893986,
+            51.0629136
+          ],
+          [
+            3.889747,
+            51.062942
+          ],
+          [
+            3.891296,
+            51.0630226
+          ],
+          [
+            3.8915108,
+            51.0630317
+          ],
+          [
+            3.8916656,
+            51.0630568
+          ],
+          [
+            3.8916954,
+            51.0630859
+          ],
+          [
+            3.8917107,
+            51.0631212
           ]
         ]
       }

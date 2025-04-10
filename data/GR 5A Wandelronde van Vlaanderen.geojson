@@ -20010,6 +20010,7 @@
         "bicycle": "no",
         "highway": "path",
         "lit": "no",
+        "surface": "paving_stones",
         "id": "way/40327347"
       },
       "geometry": {
@@ -20090,18 +20091,16 @@
       "type": "Feature",
       "id": "way/40337506",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Lisbloemlaan",
-        "surface": "paving_stones",
+        "sidewalk": "both",
+        "surface": "asphalt",
         "id": "way/40337506"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            2.8167229,
-            51.1841917
-          ],
           [
             2.816555,
             51.184085
@@ -20174,8 +20173,10 @@
       "type": "Feature",
       "id": "way/40427437",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Warande",
+        "sidewalk": "no",
         "surface": "paving_stones",
         "id": "way/40427437"
       },
@@ -20262,6 +20263,7 @@
       "id": "way/40447063",
       "properties": {
         "highway": "service",
+        "sidewalk": "both",
         "surface": "paving_stones",
         "traffic_sign": "BE:C3,BE:C11",
         "vehicle": "no",
@@ -21509,8 +21511,10 @@
         "handrail:center": "yes",
         "highway": "steps",
         "incline": "up",
+        "ramp": "no",
         "step_count": "16",
         "surface": "paving_stones",
+        "tactile_paving": "no",
         "id": "way/44108739"
       },
       "geometry": {
@@ -21656,7 +21660,7 @@
         "bicycle": "no",
         "bridge": "yes",
         "highway": "footway",
-        "surface": "paving_stones",
+        "surface": "wood",
         "id": "way/44110070"
       },
       "geometry": {
@@ -27833,6 +27837,7 @@
       "type": "Feature",
       "id": "way/94412192",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "surface": "compacted",
         "tracktype": "grade2",
@@ -37691,6 +37696,7 @@
         "bicycle": "no",
         "highway": "footway",
         "lit": "no",
+        "surface": "asphalt",
         "id": "way/165572405"
       },
       "geometry": {
@@ -37711,10 +37717,6 @@
           [
             2.8034026,
             51.1809462
-          ],
-          [
-            2.8033603,
-            51.1809267
           ]
         ]
       }
@@ -41212,6 +41214,7 @@
       "id": "way/219046143",
       "properties": {
         "cyclestreet": "yes",
+        "cycleway:both": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -41248,7 +41251,8 @@
         "cycleway": "track",
         "highway": "residential",
         "name": "Ijzerlaan",
-        "surface": "paving_stones",
+        "sidewalk": "both",
+        "surface": "asphalt",
         "id": "way/219046168"
       },
       "geometry": {
@@ -41269,9 +41273,11 @@
       "type": "Feature",
       "id": "way/219046172",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Normandlaan",
-        "surface": "paving_stones",
+        "sidewalk": "both",
+        "surface": "asphalt",
         "id": "way/219046172"
       },
       "geometry": {
@@ -72220,10 +72226,12 @@
       "properties": {
         "bicycle": "yes",
         "cyclestreet": "yes",
+        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Duinenweg",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/1178543774"
       },
@@ -73468,7 +73476,7 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
-        "surface": "fine_gravel",
+        "surface": "compacted",
         "width": "1",
         "id": "way/1220553106"
       },
@@ -74554,6 +74562,7 @@
       "id": "way/1300776495",
       "properties": {
         "highway": "footway",
+        "surface": "paving_stones",
         "id": "way/1300776495"
       },
       "geometry": {
@@ -74575,6 +74584,7 @@
       "id": "way/1300776496",
       "properties": {
         "highway": "footway",
+        "surface": "paving_stones",
         "id": "way/1300776496"
       },
       "geometry": {
@@ -74601,6 +74611,7 @@
       "properties": {
         "highway": "steps",
         "incline": "up",
+        "surface": "paving_stones",
         "id": "way/1300776497"
       },
       "geometry": {
@@ -74627,6 +74638,7 @@
       "properties": {
         "highway": "footway",
         "layer": "1",
+        "surface": "paving_stones",
         "id": "way/1300776502"
       },
       "geometry": {
@@ -74703,9 +74715,13 @@
       "type": "Feature",
       "id": "way/1300776503",
       "properties": {
+        "handrail": "yes",
         "highway": "steps",
         "incline": "up",
         "layer": "1",
+        "ramp": "no",
+        "surface": "paving_stones",
+        "tactile_paving": "no",
         "id": "way/1300776503"
       },
       "geometry": {
@@ -74993,6 +75009,7 @@
       "properties": {
         "highway": "path",
         "informal": "yes",
+        "surface": "paving_stones",
         "id": "way/1304316000"
       },
       "geometry": {
@@ -75112,6 +75129,7 @@
       "id": "way/1314333337",
       "properties": {
         "highway": "footway",
+        "surface": "paving_stones",
         "id": "way/1314333337"
       },
       "geometry": {
@@ -75658,6 +75676,55 @@
           [
             2.8756827,
             51.2149394
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1376126147",
+      "properties": {
+        "bicycle": "no",
+        "highway": "footway",
+        "lit": "no",
+        "surface": "paving_stones",
+        "id": "way/1376126147"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8034026,
+            51.1809462
+          ],
+          [
+            2.8033603,
+            51.1809267
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1376130752",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "name": "Lisbloemlaan",
+        "sidewalk": "both",
+        "surface": "paving_stones",
+        "id": "way/1376130752"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8167229,
+            51.1841917
+          ],
+          [
+            2.816555,
+            51.184085
           ]
         ]
       }
