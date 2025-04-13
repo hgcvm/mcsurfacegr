@@ -8020,11 +8020,15 @@
         "access": "destination",
         "agricultural": "yes",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Oude Blaarstraat",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "traffic_sign": "BE:F99c",
         "id": "way/25603826"
@@ -10321,6 +10325,7 @@
         "access": "destination",
         "agricultural": "yes",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
@@ -10385,6 +10390,7 @@
         "access": "destination",
         "agricultural": "yes",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
@@ -10623,6 +10629,7 @@
         "highway": "cycleway",
         "lit": "yes",
         "segregated": "no",
+        "smoothness": "excellent",
         "speed_pedelec": "yes",
         "surface": "concrete",
         "traffic_sign": "BE:F99a",
@@ -29968,10 +29975,13 @@
       "type": "Feature",
       "id": "way/220152564",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Hoogdorpsstraat",
         "sidewalk": "both",
+        "smoothness": "very_bad",
         "surface": "sett",
         "id": "way/220152564"
       },
@@ -30377,6 +30387,7 @@
         "horse": "yes",
         "motor_vehicle": "no",
         "name": "Koutermanstraat",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/246996666"
       },
@@ -31064,10 +31075,13 @@
       "type": "Feature",
       "id": "way/336543810",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Doktoorstraat",
         "sidewalk": "both",
+        "smoothness": "intermediate",
         "surface": "concrete",
         "id": "way/336543810"
       },
@@ -32478,6 +32492,7 @@
       "properties": {
         "highway": "footway",
         "lit": "yes",
+        "smoothness": "very_bad",
         "surface": "sett",
         "id": "way/950054196"
       },
@@ -40355,7 +40370,9 @@
         "lit": "no",
         "old_ref": "L23",
         "railway": "razed",
+        "smoothness": "excellent",
         "surface": "concrete",
+        "width": "2.8",
         "wikipedia": "nl:Spoorlijn 23",
         "id": "way/1323224151"
       },
@@ -40871,7 +40888,7 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Stroopplein",
-        "surface": "cobblestone",
+        "surface": "sett",
         "width": "2.2",
         "id": "way/340498701"
       },
@@ -40998,7 +41015,8 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Stroopplein",
-        "surface": "asphalt",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel",
         "id": "way/971150954"
       },
       "geometry": {
@@ -41019,9 +41037,11 @@
       "type": "Feature",
       "id": "way/1323224152",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Stroopplein",
-        "surface": "asphalt",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel",
         "id": "way/1323224152"
       },
       "geometry": {
@@ -48127,7 +48147,9 @@
         "lit": "no",
         "old_ref": "L23",
         "railway": "razed",
+        "smoothness": "excellent",
         "surface": "concrete",
+        "width": "2.8",
         "wikipedia": "nl:Spoorlijn 23",
         "id": "way/777540337"
       },

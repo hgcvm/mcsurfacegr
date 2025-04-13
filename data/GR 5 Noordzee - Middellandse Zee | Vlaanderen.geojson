@@ -69956,6 +69956,7 @@
         "highway": "cycleway",
         "lit": "yes",
         "surface": "concrete",
+        "width": "2.5",
         "id": "way/18527830"
       },
       "geometry": {
@@ -69982,6 +69983,7 @@
         "smoothness": "good",
         "surface": "asphalt",
         "tunnel": "yes",
+        "width": "2.5",
         "id": "way/18528184"
       },
       "geometry": {
@@ -70007,6 +70009,7 @@
         "oneway": "yes",
         "smoothness": "excellent",
         "surface": "asphalt",
+        "width": "5",
         "id": "way/18528868"
       },
       "geometry": {
@@ -70164,6 +70167,7 @@
         "highway": "cycleway",
         "lit": "no",
         "surface": "concrete",
+        "width": "2.5",
         "id": "way/18626951"
       },
       "geometry": {
@@ -70246,6 +70250,8 @@
         "highway": "footway",
         "layer": "-1",
         "level": "-1",
+        "smoothness": "good",
+        "surface": "paving_stones",
         "tunnel": "yes",
         "id": "way/35549666"
       },
@@ -70954,6 +70960,7 @@
       "type": "Feature",
       "id": "way/170206708",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Monseigneur Broekxplein",
         "zone:traffic": "BE-VLG:urban",
@@ -71003,6 +71010,7 @@
         "cycleway:both": "no",
         "highway": "residential",
         "name": "Monseigneur Broekxplein",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/170206713"
       },
@@ -71024,8 +71032,14 @@
       "type": "Feature",
       "id": "way/170206716",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Monseigneur Broekxplein",
+        "sidewalk": "left",
+        "sidewalk:left:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/170206716"
       },
@@ -72712,6 +72726,7 @@
         "oneway": "yes",
         "smoothness": "excellent",
         "surface": "asphalt",
+        "width": "2.5",
         "id": "way/317083925"
       },
       "geometry": {
@@ -72748,6 +72763,7 @@
         "lit": "yes",
         "smoothness": "good",
         "surface": "concrete",
+        "width": "3",
         "id": "way/317083928"
       },
       "geometry": {
@@ -72785,6 +72801,7 @@
         "oneway": "yes",
         "smoothness": "excellent",
         "surface": "asphalt",
+        "width": "2.5",
         "id": "way/317083929"
       },
       "geometry": {
@@ -73015,6 +73032,10 @@
         "incline": "up",
         "level": "0;1",
         "lit": "yes",
+        "ramp": "yes",
+        "ramp:bicycle": "yes",
+        "surface": "concrete",
+        "tactile_paving": "no",
         "id": "way/343761791"
       },
       "geometry": {
@@ -73726,7 +73747,8 @@
       "properties": {
         "highway": "footway",
         "level": "0",
-        "surface": "paved",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
         "id": "way/714712232"
       },
       "geometry": {

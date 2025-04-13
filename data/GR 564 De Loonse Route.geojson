@@ -2096,12 +2096,14 @@
       "type": "Feature",
       "id": "way/31646452",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Hertenstraat",
         "sidewalk": "right",
+        "smoothness": "intermediate",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "paving_stones",
         "width": "5",
@@ -28068,7 +28070,7 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Stroopplein",
-        "surface": "cobblestone",
+        "surface": "sett",
         "width": "2.2",
         "id": "way/340498701"
       },
@@ -35762,6 +35764,8 @@
         "maxspeed": "50",
         "name": "Hertenstraat",
         "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "good",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "width": "5",
@@ -37419,7 +37423,9 @@
         "lit": "no",
         "old_ref": "L23",
         "railway": "razed",
+        "smoothness": "excellent",
         "surface": "concrete",
+        "width": "2.8",
         "wikipedia": "nl:Spoorlijn 23",
         "id": "way/777540337"
       },
@@ -39096,7 +39102,8 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Stroopplein",
-        "surface": "asphalt",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel",
         "id": "way/971150954"
       },
       "geometry": {
@@ -42479,9 +42486,11 @@
       "type": "Feature",
       "id": "way/1323224152",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Stroopplein",
-        "surface": "asphalt",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel",
         "id": "way/1323224152"
       },
       "geometry": {

@@ -2525,6 +2525,8 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "unclassified",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Hensbergweg",
         "id": "way/28308744"
       },
@@ -2595,6 +2597,7 @@
         "highway": "track",
         "horse": "no",
         "name": "Brakumdreef",
+        "surface": "compacted",
         "tracktype": "grade3",
         "vehicle": "no",
         "vehicle:conditional": "yes @ agricultural",
@@ -2717,7 +2720,7 @@
       "properties": {
         "highway": "track",
         "name": "Heurebeekstraat",
-        "surface": "cobblestone",
+        "surface": "unhewn_cobblestone",
         "tracktype": "grade1",
         "width": "3",
         "id": "way/28310536"
@@ -2752,10 +2755,13 @@
       "type": "Feature",
       "id": "way/28327126",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Boskouterstraat",
+        "sidewalk": "no",
         "surface": "concrete",
         "width": "5",
         "zone:traffic": "BE-VLG:urban",
@@ -2800,8 +2806,13 @@
       "id": "way/28327130",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Koppeleikenstraat",
-        "surface": "cobblestone",
+        "oneway": "no",
+        "sidewalk": "no",
+        "surface": "unhewn_cobblestone",
         "width": "3",
         "id": "way/28327130"
       },
@@ -2844,9 +2855,11 @@
       "id": "way/28327406",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "maxweight": "5",
         "noname": "yes",
+        "oneway": "no",
         "source:maxspeed": "sign",
         "surface": "asphalt",
         "width": "3",
@@ -28005,6 +28018,7 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Heurbeek",
+        "oneway": "no",
         "sidewalk": "no",
         "surface": "asphalt",
         "width": "3",
@@ -28095,6 +28109,7 @@
         "cycleway": "track",
         "cycleway:smoothness": "intermediate",
         "highway": "tertiary",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Binkomstraat",
         "smoothness": "intermediate",
@@ -28120,6 +28135,7 @@
       "id": "way/151855192",
       "properties": {
         "highway": "track",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/151855192"
       },
@@ -28276,8 +28292,10 @@
       "type": "Feature",
       "id": "way/151857189",
       "properties": {
+        "check_date:surface": "2025-04-12",
         "highway": "track",
         "name": "Heilige Geesthofstraat",
+        "surface": "unpaved",
         "tracktype": "grade3",
         "id": "way/151857189"
       },
@@ -28364,7 +28382,9 @@
       "type": "Feature",
       "id": "way/151857192",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Boskouterstraat",
         "surface": "concrete",
@@ -29382,6 +29402,7 @@
       "properties": {
         "highway": "track",
         "name": "Heilige Geesthofstraat",
+        "surface": "unpaved",
         "tracktype": "grade3",
         "id": "way/181753251"
       },
@@ -31328,6 +31349,7 @@
       "id": "way/238463298",
       "properties": {
         "highway": "track",
+        "surface": "unpaved",
         "tracktype": "grade3",
         "id": "way/238463298"
       },
@@ -35509,7 +35531,7 @@
       "properties": {
         "highway": "track",
         "name": "Heurebeekstraat",
-        "surface": "cobblestone",
+        "surface": "unhewn_cobblestone",
         "tracktype": "grade1",
         "width": "2.5",
         "id": "way/370847253"
@@ -35869,6 +35891,7 @@
       "id": "way/388915833",
       "properties": {
         "highway": "track",
+        "surface": "unhewn_cobblestone",
         "tracktype": "grade1",
         "id": "way/388915833"
       },
@@ -35891,6 +35914,7 @@
       "id": "way/388915838",
       "properties": {
         "highway": "track",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/388915838"
       },
@@ -35925,6 +35949,7 @@
       "id": "way/388915840",
       "properties": {
         "highway": "track",
+        "surface": "grass",
         "tracktype": "grade4",
         "id": "way/388915840"
       },
@@ -38234,8 +38259,13 @@
       "type": "Feature",
       "id": "way/499029367",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Koppeleikenstraat",
+        "sidewalk": "no",
         "surface": "concrete",
         "width": "5",
         "id": "way/499029367"
@@ -40525,7 +40555,7 @@
         "highway": "track",
         "horse": "no",
         "name": "Brakumdreef",
-        "surface": "cobblestone",
+        "surface": "unhewn_cobblestone",
         "tracktype": "grade1",
         "vehicle": "no",
         "vehicle:conditional": "yes @ agricultural",
