@@ -5881,7 +5881,8 @@
       "type": "Feature",
       "id": "way/55901338",
       "properties": {
-        "cycleway": "shared_lane",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "tertiary",
         "maxspeed": "50",
         "maxweight": "3.5",
@@ -16212,11 +16213,13 @@
       "id": "way/169828639",
       "properties": {
         "cyclestreet": "yes",
+        "cycleway:both": "no",
         "highway": "residential",
         "loc_name": "Leieplein",
         "maxspeed": "30",
         "name": "Roger Raveelplein",
         "old_name": "Karperstraat",
+        "sidewalk": "both",
         "surface": "sett",
         "id": "way/169828639"
       },
@@ -25559,10 +25562,11 @@
       "id": "way/507571017",
       "properties": {
         "cyclestreet": "yes",
-        "cycleway": "shared",
+        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Karperstraat",
+        "sidewalk": "both",
         "surface": "sett",
         "id": "way/507571017"
       },
@@ -29804,11 +29808,13 @@
       "id": "way/936884717",
       "properties": {
         "cyclestreet": "yes",
+        "cycleway:both": "no",
         "highway": "residential",
         "loc_name": "Leieplein",
         "maxspeed": "30",
         "name": "Roger Raveelplein",
         "old_name": "Karperstraat",
+        "sidewalk": "both",
         "surface": "sett",
         "id": "way/936884717"
       },
