@@ -12687,7 +12687,7 @@
         "highway": "track",
         "maxspeed": "50",
         "name": "Sint-Laureinsstraat",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "tracktype": "grade2",
         "zone:traffic": "BE-VLG:rural",
@@ -12727,7 +12727,7 @@
         "maxspeed": "50",
         "name": "Postweg",
         "oneway": "no",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/39448944"
@@ -23449,7 +23449,7 @@
         "maxspeed": "50",
         "name": "Brusselsestraat",
         "ref": "N282",
-        "source:maxspeed": "traffic_sign",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "id": "way/142802945"
       },
@@ -24108,15 +24108,15 @@
       "id": "way/143964785",
       "properties": {
         "bicycle": "yes",
+        "cyclestreet": "yes",
         "emergency": "yes",
         "highway": "unclassified",
         "horse": "yes",
         "lanes": "1",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Trontingenstraat",
-        "source:maxspeed": "traffic_sign",
+        "source:maxspeed": "BE:cyclestreet",
         "surface": "asphalt",
-        "vehicle": "destination",
         "id": "way/143964785"
       },
       "geometry": {
@@ -36608,7 +36608,7 @@
         "lanes": "1",
         "maxspeed": "50",
         "name": "Hemelrijkstraat",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/580597103"
@@ -44865,7 +44865,7 @@
         "highway": "track",
         "maxspeed": "50",
         "name": "Sint-Laureinsstraat",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "compacted",
         "tracktype": "grade2",
         "zone:traffic": "BE-VLG:rural",

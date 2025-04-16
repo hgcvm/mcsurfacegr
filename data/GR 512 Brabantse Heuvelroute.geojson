@@ -1689,6 +1689,7 @@
       "id": "way/24591011",
       "properties": {
         "highway": "residential",
+        "maxspeed": "BE:zone30",
         "name": "Albert Vanderkelenstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -2761,6 +2762,8 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Boskouterstraat",
+        "parking:both": "lane",
+        "parking:both:orientation": "parallel",
         "sidewalk": "no",
         "surface": "concrete",
         "width": "5",
@@ -2805,6 +2808,7 @@
       "type": "Feature",
       "id": "way/28327130",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "50",
@@ -7878,7 +7882,7 @@
         "lanes": "1",
         "maxspeed": "50",
         "name": "Hemelrijkstraat",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/39330604"
@@ -7912,7 +7916,7 @@
         "highway": "unclassified",
         "lanes": "1",
         "maxspeed": "50",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/39330605"
@@ -9284,7 +9288,7 @@
         "highway": "track",
         "maxspeed": "50",
         "name": "Sint-Laureinsstraat",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "tracktype": "grade2",
         "zone:traffic": "BE-VLG:rural",
@@ -9324,7 +9328,7 @@
         "maxspeed": "50",
         "name": "Postweg",
         "oneway": "no",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/39448944"
@@ -10601,9 +10605,9 @@
         "cycleway": "track",
         "highway": "tertiary",
         "lanes": "2",
-        "maxspeed": "30",
+        "maxspeed": "50",
         "name": "Donkerstraat",
-        "source:maxspeed": "BE:traffic_signA14",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "traffic_calming": "table",
         "id": "way/40427527"
@@ -16745,7 +16749,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Oudenakenstraat",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/88010602"
@@ -24069,7 +24073,7 @@
         "maxspeed": "50",
         "name": "Oudenaaksestraat",
         "oneway": "no",
-        "source:maxspeed": "city_limits",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "traffic_sign": "city_limit",
         "id": "way/142708741"
@@ -28390,6 +28394,8 @@
         "lane_markings": "no",
         "maxspeed": "50",
         "name": "Boskouterstraat",
+        "parking:both": "lane",
+        "parking:both:orientation": "parallel",
         "surface": "concrete",
         "width": "5",
         "zone:traffic": "BE-VLG:urban",
@@ -28555,7 +28561,7 @@
         "maxspeed": "70",
         "name": "Assesteenweg",
         "ref": "N285",
-        "source:maxspeed": "traffic_sign",
+        "source:maxspeed": "BE-VLG:rural",
         "id": "way/158245400"
       },
       "geometry": {
@@ -35388,7 +35394,7 @@
         "lanes": "1",
         "maxspeed": "50",
         "name": "Hemelrijkstraat",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/365297837"
@@ -35415,7 +35421,7 @@
         "lanes": "1",
         "maxspeed": "50",
         "name": "Hemelrijkstraat",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/365297838"
@@ -45039,7 +45045,7 @@
         "highway": "track",
         "maxspeed": "50",
         "name": "Sint-Laureinsstraat",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "compacted",
         "tracktype": "grade2",
         "zone:traffic": "BE-VLG:rural",
