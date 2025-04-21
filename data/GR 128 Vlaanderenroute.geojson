@@ -12826,26 +12826,36 @@
       "type": "Feature",
       "id": "way/25797858",
       "properties": {
-        "agricultural": "yes",
-        "highway": "residential",
+        "cycleway:both": "no",
+        "embankment": "yes",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "2",
+        "lit": "no",
         "maxlength": "10",
-        "maxlength:conditional": "yes @ delivery",
+        "maxlength:agricultural": "none",
+        "maxlength:conditional": "none @ delivery",
         "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Daalputstraat",
-        "source:maxspeed": "BE-VLG:urban",
-        "zone:traffic": "BE-VLG:urban",
+        "sidewalk:both": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "verge:both": "yes",
+        "width": "6",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/25797858"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7287747,
-            50.9221157
+            4.728956,
+            50.9220549
           ],
           [
-            4.730766,
-            50.9214475
+            4.7307649,
+            50.9214495
           ]
         ]
       }
@@ -30352,26 +30362,40 @@
       "type": "Feature",
       "id": "way/38197888",
       "properties": {
-        "agricultural": "yes",
         "cycleway:both": "no",
+        "embankment": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "2",
+        "lit": "no",
         "maxlength": "10",
-        "maxlength:conditional": "yes @ delivery",
-        "maxspeed": "70",
+        "maxlength:agricultural": "none",
+        "maxlength:conditional": "none @ delivery",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Daalputstraat",
+        "sidewalk:both": "no",
+        "smoothness": "good",
         "surface": "asphalt",
+        "verge:both": "yes",
+        "width": "6",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/38197888"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7313574,
-            50.9212513
+            4.7313598,
+            50.9212498
           ],
           [
-            4.7334129,
-            50.9205706
+            4.7331504,
+            50.9206506
+          ],
+          [
+            4.7334512,
+            50.9205437
           ]
         ]
       }
@@ -30380,26 +30404,40 @@
       "type": "Feature",
       "id": "way/38197889",
       "properties": {
-        "agricultural": "yes",
         "bridge": "yes",
-        "highway": "residential",
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "2",
         "layer": "1",
+        "lit": "no",
         "maxlength": "10",
-        "maxlength:conditional": "yes @ delivery",
-        "maxspeed": "70",
+        "maxlength:agricultural": "none",
+        "maxlength:conditional": "none @ delivery",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Daalputstraat",
+        "parking:both:restriction": "no_stopping",
+        "sidewalk:both": "yes",
+        "sidewalk:both:smoothness": "excellent",
+        "sidewalk:both:surface": "asphalt",
+        "sidewalk:both:width": "1.5",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "6",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/38197889"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.730766,
-            50.9214475
+            4.7307649,
+            50.9214495
           ],
           [
-            4.7313574,
-            50.9212513
+            4.7313598,
+            50.9212498
           ]
         ]
       }
@@ -30410,13 +30448,17 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
+        "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "maxweight": "5",
         "name": "Daalputstraat",
-        "sidewalk": "no",
-        "surface": "asphalt",
-        "zone:maxspeed": "BE:50",
+        "sidewalk:both": "no",
+        "smoothness": "good",
+        "surface": "concrete:plates",
+        "verge:both": "yes",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/38197942"
       },
@@ -30424,16 +30466,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.742548,
-            50.9167409
+            4.7425656,
+            50.9167216
           ],
           [
-            4.7430699,
-            50.9162113
+            4.7435951,
+            50.915687
           ],
           [
-            4.7435888,
-            50.9156593
+            4.7436055,
+            50.9156736
           ],
           [
             4.7436023,
@@ -30446,42 +30488,63 @@
       "type": "Feature",
       "id": "way/38197944",
       "properties": {
-        "agricultural": "yes",
         "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "1",
+        "lit": "yes",
         "maxlength": "10",
-        "maxlength:conditional": "yes @ delivery",
+        "maxlength:agricultural": "none",
+        "maxlength:conditional": "none @ delivery",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Daalputstraat",
-        "smoothness": "intermediate",
+        "sidewalk:both": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
+        "verge:both": "yes",
+        "width": "3",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/38197944"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7393271,
-            50.9207741
+            4.7393254,
+            50.9207733
           ],
           [
-            4.7393556,
-            50.920756
+            4.7393446,
+            50.9207633
           ],
           [
-            4.7393774,
-            50.9207323
+            4.7393606,
+            50.9207507
           ],
           [
-            4.7393952,
-            50.9207016
+            4.7393798,
+            50.9207324
           ],
           [
-            4.7394221,
-            50.9206543
+            4.739403,
+            50.9207007
           ],
           [
-            4.7394704,
-            50.9205818
+            4.7394298,
+            50.9206576
+          ],
+          [
+            4.7394794,
+            50.9205838
+          ],
+          [
+            4.7395431,
+            50.9205016
+          ],
+          [
+            4.7396853,
+            50.9203273
           ],
           [
             4.7407114,
@@ -77290,15 +77353,22 @@
       "type": "Feature",
       "id": "way/179687575",
       "properties": {
-        "agricultural": "yes",
         "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "2",
+        "lit": "yes",
         "maxlength": "10",
-        "maxlength:conditional": "yes @ delivery",
+        "maxlength:agricultural": "none",
+        "maxlength:conditional": "none @ delivery",
         "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Daalputstraat",
-        "surface": "concrete",
-        "zone:maxspeed": "BE:50",
+        "sidewalk:both": "no",
+        "smoothness": "good",
+        "surface": "concrete:plates",
+        "verge:both": "yes",
+        "width": "6",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/179687575"
       },
@@ -77306,16 +77376,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7416777,
-            50.9178219
+            4.7419364,
+            50.9174427
           ],
           [
             4.7420831,
             50.9172277
           ],
           [
-            4.7423703,
-            50.9169238
+            4.7421174,
+            50.9171859
+          ],
+          [
+            4.7421616,
+            50.9171352
+          ],
+          [
+            4.7423722,
+            50.9169245
           ]
         ]
       }
@@ -84384,76 +84462,159 @@
       "type": "Feature",
       "id": "way/240799271",
       "properties": {
-        "agricultural": "yes",
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "1",
+        "lit": "yes",
         "maxlength": "10",
-        "maxlength:conditional": "yes @ delivery",
+        "maxlength:agricultural": "none",
+        "maxlength:conditional": "none @ delivery",
         "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Daalputstraat",
+        "sidewalk:both": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "verge:both": "yes",
+        "width": "3",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/240799271"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7334129,
-            50.9205706
+            4.7341312,
+            50.9201503
           ],
           [
-            4.7337029,
-            50.92043
+            4.7341727,
+            50.9201442
           ],
           [
-            4.7341258,
-            50.9201506
+            4.7342665,
+            50.920137
           ],
           [
-            4.7343919,
-            50.9201186
+            4.7342924,
+            50.920136
           ],
           [
-            4.7354425,
-            50.9201575
+            4.7343826,
+            50.9201337
           ],
           [
-            4.7360071,
-            50.920262
+            4.7351859,
+            50.9201463
           ],
           [
-            4.7369311,
-            50.9204543
+            4.7353407,
+            50.920153
           ],
           [
-            4.7374058,
-            50.9204665
+            4.7354086,
+            50.920157
           ],
           [
-            4.7385008,
-            50.920679
+            4.7354239,
+            50.9201584
           ],
           [
-            4.7390117,
-            50.9207693
+            4.7354652,
+            50.9201631
           ],
           [
-            4.7390917,
-            50.9207788
+            4.7355326,
+            50.9201738
           ],
           [
-            4.7391594,
-            50.9207846
+            4.7360053,
+            50.9202662
           ],
           [
-            4.7392251,
+            4.7362748,
+            50.9203224
+          ],
+          [
+            4.7367523,
+            50.9204219
+          ],
+          [
+            4.7368804,
+            50.9204473
+          ],
+          [
+            4.73694,
+            50.9204549
+          ],
+          [
+            4.7370098,
+            50.9204591
+          ],
+          [
+            4.7373538,
+            50.9204693
+          ],
+          [
+            4.7374041,
+            50.9204716
+          ],
+          [
+            4.7374423,
+            50.9204748
+          ],
+          [
+            4.7374832,
+            50.9204807
+          ],
+          [
+            4.7377011,
+            50.9205188
+          ],
+          [
+            4.7380853,
+            50.9206037
+          ],
+          [
+            4.738261,
+            50.9206409
+          ],
+          [
+            4.7384961,
+            50.9206851
+          ],
+          [
+            4.7390094,
+            50.9207662
+          ],
+          [
+            4.7390858,
+            50.9207764
+          ],
+          [
+            4.7391552,
+            50.9207834
+          ],
+          [
+            4.7392149,
+            50.9207868
+          ],
+          [
+            4.7392581,
             50.9207865
           ],
           [
-            4.7392852,
-            50.920785
+            4.7392922,
+            50.9207832
           ],
           [
-            4.7393271,
-            50.9207741
+            4.7393086,
+            50.9207792
+          ],
+          [
+            4.7393254,
+            50.9207733
           ]
         ]
       }
@@ -95270,7 +95431,8 @@
         "agricultural": "yes",
         "highway": "residential",
         "maxlength": "10",
-        "maxlength:conditional": "yes @ delivery",
+        "maxlength:agricultural": "none",
+        "maxlength:conditional": "none @ delivery",
         "maxspeed": "50",
         "name": "Daalputstraat",
         "source:maxspeed": "BE-VLG:urban",
@@ -122731,13 +122893,23 @@
       "type": "Feature",
       "id": "way/914814390",
       "properties": {
-        "agricultural": "yes",
         "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "1",
+        "lit": "yes",
         "maxlength": "10",
-        "maxlength:conditional": "yes @ delivery",
+        "maxlength:agricultural": "none",
+        "maxlength:conditional": "none @ delivery",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Daalputstraat",
-        "surface": "concrete",
+        "sidewalk:both": "no",
+        "smoothness": "good",
+        "surface": "concrete:plates",
+        "verge:both": "yes",
+        "width": "3",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/914814390"
       },
       "geometry": {
@@ -122748,12 +122920,16 @@
             50.9189489
           ],
           [
-            4.7411087,
-            50.9186507
+            4.7411008,
+            50.918649
           ],
           [
-            4.7416777,
-            50.9178219
+            4.7411967,
+            50.918518
+          ],
+          [
+            4.7414035,
+            50.9182188
           ]
         ]
       }
@@ -126053,29 +126229,35 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "30",
+        "maxspeed:type": "BE:F87",
         "maxweight": "5",
         "name": "Daalputstraat",
-        "sidewalk": "no",
-        "surface": "asphalt",
+        "sidewalk:both": "no",
+        "smoothness": "excellent",
+        "surface": "paving_stones",
         "traffic_calming": "table",
+        "verge:both": "yes",
+        "width": "6",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/1066652226"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7424655,
-            50.9168308
+            4.7424647,
+            50.916832
           ],
           [
-            4.7425354,
-            50.9167537
+            4.7425393,
+            50.9167504
           ],
           [
-            4.742548,
-            50.9167409
+            4.7425656,
+            50.9167216
           ]
         ]
       }
@@ -126086,26 +126268,34 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "30",
+        "maxspeed:type": "BE:F87",
         "name": "Daalputstraat",
-        "surface": "concrete",
+        "sidewalk:both": "no",
+        "smoothness": "excellent",
+        "surface": "paving_stones",
         "traffic_calming": "table",
+        "verge:both": "yes",
+        "width": "6",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/1066652228"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7423703,
-            50.9169238
+            4.7423722,
+            50.9169245
           ],
           [
-            4.7423918,
-            50.9169011
+            4.7423945,
+            50.9169022
           ],
           [
-            4.7424655,
-            50.9168308
+            4.7424647,
+            50.916832
           ]
         ]
       }
@@ -134901,6 +135091,182 @@
           [
             3.7550171,
             51.0470386
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1379186641",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "2",
+        "lit": "no",
+        "maxlength": "10",
+        "maxlength:agricultural": "none",
+        "maxlength:conditional": "none @ delivery",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
+        "name": "Daalputstraat",
+        "sidewalk:both": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "verge:both": "yes",
+        "width": "6",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1379186641"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7287747,
+            50.9221157
+          ],
+          [
+            4.728956,
+            50.9220549
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1379186642",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "1",
+        "lit": "no",
+        "maxlength": "10",
+        "maxlength:agricultural": "none",
+        "maxlength:conditional": "none @ delivery",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
+        "name": "Daalputstraat",
+        "sidewalk:both": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "verge:both": "yes",
+        "width": "3",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1379186642"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7334512,
+            50.9205437
+          ],
+          [
+            4.7336302,
+            50.9204651
+          ],
+          [
+            4.7336828,
+            50.920438
+          ],
+          [
+            4.7337365,
+            50.920405
+          ],
+          [
+            4.7339997,
+            50.9202125
+          ],
+          [
+            4.7340573,
+            50.9201764
+          ],
+          [
+            4.7340914,
+            50.9201614
+          ],
+          [
+            4.7341312,
+            50.9201503
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1379186645",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "1",
+        "lit": "yes",
+        "maxlength": "10",
+        "maxlength:agricultural": "none",
+        "maxlength:conditional": "none @ delivery",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
+        "name": "Daalputstraat",
+        "sidewalk:both": "no",
+        "smoothness": "good",
+        "surface": "concrete:plates",
+        "verge:both": "yes",
+        "width": "4",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1379186645"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7416777,
+            50.9178219
+          ],
+          [
+            4.7417166,
+            50.9177648
+          ],
+          [
+            4.7419364,
+            50.9174427
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1379186646",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "1",
+        "lit": "yes",
+        "maxlength": "10",
+        "maxlength:agricultural": "none",
+        "maxlength:conditional": "none @ delivery",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
+        "name": "Daalputstraat",
+        "sidewalk:both": "no",
+        "smoothness": "good",
+        "surface": "concrete:plates",
+        "verge:both": "yes",
+        "width": "4",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1379186646"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7414035,
+            50.9182188
+          ],
+          [
+            4.7416777,
+            50.9178219
           ]
         ]
       }
