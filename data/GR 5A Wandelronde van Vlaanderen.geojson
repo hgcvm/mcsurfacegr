@@ -85077,7 +85077,9 @@
       "id": "way/38820280",
       "properties": {
         "cycleway:both": "no",
+        "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Gremmerslinde",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -102966,6 +102968,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
+        "surface": "dirt",
         "id": "way/98698620"
       },
       "geometry": {
@@ -102986,7 +102989,9 @@
       "type": "Feature",
       "id": "way/98698621",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
+        "surface": "asphalt",
         "id": "way/98698621"
       },
       "geometry": {
@@ -103076,7 +103081,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
-        "surface": "grass",
+        "surface": "ground",
         "id": "way/98698632"
       },
       "geometry": {
@@ -112651,10 +112656,11 @@
       "id": "way/136001026",
       "properties": {
         "bicycle": "no",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "track",
         "horse": "no",
-        "surface": "dirt",
+        "surface": "ground",
         "vehicle": "private",
         "id": "way/136001026"
       },
@@ -113015,9 +113021,11 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Gremmerslinde",
         "oneway": "no",
         "sidewalk": "no",
+        "surface": "asphalt",
         "width": "3",
         "id": "way/136071081"
       },
@@ -118311,9 +118319,12 @@
       "properties": {
         "access": "destination",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kattekerkhofstraat",
         "oneway": "no",
+        "sidewalk": "no",
         "surface": "asphalt",
         "width": "3",
         "id": "way/158047177"
@@ -122419,6 +122430,7 @@
         "lane_markings": "no",
         "name": "Kattekerkhofstraat",
         "oneway": "no",
+        "sidewalk": "no",
         "smoothness": "good",
         "surface": "asphalt",
         "width": "3",
@@ -138950,7 +138962,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
-        "surface": "grass",
+        "surface": "ground",
         "id": "way/384722138"
       },
       "geometry": {
@@ -139037,20 +139049,8 @@
             50.7761043
           ],
           [
-            2.8183137,
-            50.7763625
-          ],
-          [
-            2.8183184,
-            50.7764881
-          ],
-          [
-            2.8182842,
-            50.7766161
-          ],
-          [
-            2.8182298,
-            50.7767979
+            2.8183368,
+            50.7761975
           ]
         ]
       }
@@ -139083,6 +139083,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
+        "surface": "ground",
         "id": "way/384722140"
       },
       "geometry": {
@@ -166823,6 +166824,42 @@
           [
             2.5669237,
             51.0603601
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1379321018",
+      "properties": {
+        "bicycle": "no",
+        "highway": "path",
+        "horse": "no",
+        "surface": "ground",
+        "id": "way/1379321018"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8183368,
+            50.7761975
+          ],
+          [
+            2.8183137,
+            50.7763625
+          ],
+          [
+            2.8183184,
+            50.7764881
+          ],
+          [
+            2.8182842,
+            50.7766161
+          ],
+          [
+            2.8182298,
+            50.7767979
           ]
         ]
       }
