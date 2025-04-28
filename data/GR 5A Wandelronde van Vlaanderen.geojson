@@ -14432,6 +14432,7 @@
         "lanes": "1",
         "name": "Sluisstraat",
         "sidewalk": "no",
+        "smoothness": "good",
         "surface": "concrete",
         "id": "way/34294970"
       },
@@ -14558,8 +14559,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0908849,
-            51.2455744
+            4.0910494,
+            51.2456777
           ],
           [
             4.0916397,
@@ -38009,6 +38010,8 @@
         "highway": "cycleway",
         "name": "Mechelen-Terneuzenwegel",
         "railway": "abandoned",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
         "wikidata": "Q14907190",
         "wikipedia": "nl:Spoorlijn 54 Mechelen - Terneuzen",
         "id": "way/173454881"
@@ -38324,9 +38327,12 @@
       "type": "Feature",
       "id": "way/178041662",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Stationsweg",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
         "id": "way/178041662"
       },
       "geometry": {
@@ -55812,6 +55818,7 @@
         "horse": "no",
         "name": "Mechelen-Terneuzenwegel",
         "railway": "abandoned",
+        "smoothness": "good",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,M2",
         "vehicle": "no",
@@ -56492,8 +56499,8 @@
       "id": "way/584744221",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
-        "tracktype": "grade5",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/584744221"
       },
       "geometry": {
@@ -59624,7 +59631,8 @@
         "moped": "designated",
         "name": "Mechelen-Terneuzenwegel",
         "railway": "abandoned",
-        "surface": "fine_gravel",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
         "traffic_sign": "NL:G12a",
         "wikidata": "Q14907190",
         "wikipedia": "nl:Spoorlijn 54 Mechelen - Terneuzen",
@@ -60310,6 +60318,7 @@
         "horse": "no",
         "name": "Mechelen-Terneuzenwegel",
         "railway": "abandoned",
+        "smoothness": "good",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,M2",
         "vehicle": "no",
@@ -61450,6 +61459,7 @@
         "horse": "no",
         "name": "Mechelen-Terneuzenwegel",
         "railway": "abandoned",
+        "smoothness": "good",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,M2",
         "vehicle": "no",
@@ -75744,6 +75754,35 @@
     },
     {
       "type": "Feature",
+      "id": "way/1381657624",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Lage Sluisstraat",
+        "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "bad",
+        "surface": "sett",
+        "width": "3",
+        "id": "way/1381657624"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.0908849,
+            51.2455744
+          ],
+          [
+            4.0910494,
+            51.2456777
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/5117167",
       "properties": {
         "check_date:surface": "2023-01-13",
@@ -83731,6 +83770,7 @@
         "highway": "residential",
         "lanes": "1",
         "name": "Majoor Van Lierdelaan",
+        "sidewalk": "no",
         "surface": "sett",
         "id": "way/32530819"
       },
@@ -99353,6 +99393,7 @@
         "maxspeed": "50",
         "maxspeed:type": "sign",
         "name": "Majoor Van Lierdelaan",
+        "sidewalk": "no",
         "smoothness": "good",
         "surface": "asphalt",
         "id": "way/86502366"
@@ -123213,8 +123254,8 @@
       "id": "way/195804808",
       "properties": {
         "highway": "residential",
-        "name": "Anciènne Rue de Comines - Oude Komenstraat",
-        "name:fr": "Anciènne Rue de Comines",
+        "name": "Anciènne rue de Comines - Oude Komenstraat",
+        "name:fr": "Anciènne rue de Comines",
         "name:nl": "Oude Komenstraat",
         "id": "way/195804808"
       },

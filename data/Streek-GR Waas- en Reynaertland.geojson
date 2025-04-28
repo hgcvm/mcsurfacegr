@@ -8722,6 +8722,7 @@
         "lanes": "1",
         "name": "Sluisstraat",
         "sidewalk": "no",
+        "smoothness": "good",
         "surface": "concrete",
         "id": "way/34294970"
       },
@@ -8848,8 +8849,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0908849,
-            51.2455744
+            4.0910494,
+            51.2456777
           ],
           [
             4.0916397,
@@ -9062,9 +9063,12 @@
       "type": "Feature",
       "id": "way/34304890",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Gentsestraat",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
         "id": "way/34304890"
       },
       "geometry": {
@@ -9096,7 +9100,7 @@
         "bicycle": "yes",
         "highway": "path",
         "name": "Liniedijk",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/34329873"
       },
       "geometry": {
@@ -9149,14 +9153,6 @@
           [
             4.0873263,
             51.2969907
-          ],
-          [
-            4.0890064,
-            51.2982397
-          ],
-          [
-            4.0892123,
-            51.2983928
           ]
         ]
       }
@@ -9168,7 +9164,7 @@
         "bicycle": "yes",
         "highway": "path",
         "name": "Liniedijk",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/34329953"
       },
       "geometry": {
@@ -24571,9 +24567,11 @@
       "type": "Feature",
       "id": "way/197815556",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Zoutestraat",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/197815556"
       },
@@ -31632,10 +31630,12 @@
       "type": "Feature",
       "id": "way/531607497",
       "properties": {
+        "cycleway:both": "no",
         "hgv": "destination",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Zoutestraat",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/531607497"
       },
@@ -32365,8 +32365,8 @@
       "id": "way/584744221",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
-        "tracktype": "grade5",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/584744221"
       },
       "geometry": {
@@ -32664,6 +32664,7 @@
       "properties": {
         "highway": "cycleway",
         "name": "Koolstraat",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/589293474"
       },
@@ -33332,7 +33333,8 @@
       "id": "way/623068433",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/623068433"
       },
       "geometry": {
@@ -37820,10 +37822,12 @@
       "type": "Feature",
       "id": "way/688002701",
       "properties": {
+        "cycleway:both": "no",
         "hgv": "destination",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Zoutestraat",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/688002701"
       },
@@ -38161,6 +38165,7 @@
       "id": "way/724267522",
       "properties": {
         "highway": "footway",
+        "surface": "dirt",
         "id": "way/724267522"
       },
       "geometry": {
@@ -38194,6 +38199,7 @@
       "id": "way/724283720",
       "properties": {
         "highway": "footway",
+        "surface": "dirt",
         "id": "way/724283720"
       },
       "geometry": {
@@ -38219,6 +38225,7 @@
       "id": "way/724283722",
       "properties": {
         "highway": "footway",
+        "surface": "dirt",
         "id": "way/724283722"
       },
       "geometry": {
@@ -38466,6 +38473,7 @@
         "horse": "no",
         "name": "Mechelen-Terneuzenwegel",
         "railway": "abandoned",
+        "smoothness": "good",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,M2",
         "vehicle": "no",
@@ -39526,7 +39534,7 @@
         "bicycle": "yes",
         "highway": "path",
         "name": "Liniedijk",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/817515962"
       },
       "geometry": {
@@ -39859,6 +39867,7 @@
         "horse": "no",
         "name": "Mechelen-Terneuzenwegel",
         "railway": "abandoned",
+        "smoothness": "good",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,M2",
         "vehicle": "no",
@@ -41386,7 +41395,7 @@
         "bicycle": "yes",
         "highway": "path",
         "name": "Liniedijk",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/997775811"
       },
       "geometry": {
@@ -41412,6 +41421,7 @@
       "id": "way/997775815",
       "properties": {
         "highway": "footway",
+        "surface": "dirt",
         "id": "way/997775815"
       },
       "geometry": {
@@ -41437,6 +41447,7 @@
       "id": "way/997775816",
       "properties": {
         "highway": "footway",
+        "surface": "dirt",
         "id": "way/997775816"
       },
       "geometry": {
@@ -43664,6 +43675,63 @@
           [
             4.3236549,
             51.1736434
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1381657624",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Lage Sluisstraat",
+        "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "bad",
+        "surface": "sett",
+        "width": "3",
+        "id": "way/1381657624"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.0908849,
+            51.2455744
+          ],
+          [
+            4.0910494,
+            51.2456777
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1381684384",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "path",
+        "name": "Liniedijk",
+        "surface": "grass",
+        "id": "way/1381684384"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.0873263,
+            51.2969907
+          ],
+          [
+            4.0890064,
+            51.2982397
+          ],
+          [
+            4.0892123,
+            51.2983928
           ]
         ]
       }
