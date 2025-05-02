@@ -10640,6 +10640,8 @@
         "name": "Driftweg",
         "ref": "N317",
         "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "excellent",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "id": "way/27505918"
@@ -24886,6 +24888,7 @@
       "id": "way/73028939",
       "properties": {
         "bicycle": "designated",
+        "cycleway:surface": "paving_stones",
         "foot": "designated",
         "highway": "path",
         "lit": "yes",
@@ -25613,6 +25616,7 @@
         "layer": "1",
         "name": "Nelson Mandelabrug",
         "segregated": "no",
+        "smoothness": "excellent",
         "surface": "concrete",
         "id": "way/79418794"
       },
@@ -31444,7 +31448,8 @@
         "bicycle": "designated",
         "highway": "path",
         "segregated": "no",
-        "surface": "paved",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
         "traffic_sign": "BE:F103",
         "width": "5",
         "id": "way/130435118"
@@ -34027,6 +34032,7 @@
       "type": "Feature",
       "id": "way/137349969",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lit": "yes",
         "maxweight": "3.5",
@@ -34035,6 +34041,7 @@
         "parking:right": "on_kerb",
         "parking:right:orientation": "parallel",
         "sidewalk": "left",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/137349969"
@@ -37760,6 +37767,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/165863320"
       },
@@ -46315,6 +46323,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/238974944"
       },
@@ -55235,6 +55244,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "segregated": "no",
+        "smoothness": "excellent",
         "surface": "concrete",
         "id": "way/496912946"
       },
@@ -59788,12 +59798,15 @@
       "type": "Feature",
       "id": "way/714513353",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Maria-Hendrikalaan",
         "parking:right": "no",
         "parking:right:restriction": "no_parking",
         "sidewalk": "right",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/714513353"
@@ -61141,7 +61154,9 @@
       "type": "Feature",
       "id": "way/822677595",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Buskruitstraat",
         "smoothness": "good",
         "surface": "concrete",
@@ -61861,8 +61876,6 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Polderstraat",
-        "overtaking:motor_vehicle": "no",
-        "traffic_sign": "BE:F111",
         "id": "way/864558698"
       },
       "geometry": {
@@ -64243,8 +64256,8 @@
             51.2200703
           ],
           [
-            4.3432407,
-            51.2200671
+            4.3432412,
+            51.2200637
           ],
           [
             4.3431379,
@@ -68545,7 +68558,9 @@
       "type": "Feature",
       "id": "way/1114856860",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "maxweight": "3.5",
         "maxweight:conditional": "none @ destination",
@@ -68553,6 +68568,7 @@
         "parking:right": "on_kerb",
         "parking:right:orientation": "parallel",
         "sidewalk": "left",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1114856860"
@@ -70301,6 +70317,8 @@
       "type": "Feature",
       "id": "way/1126763664",
       "properties": {
+        "cycleway:left": "separate",
+        "cycleway:right": "no",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
@@ -180382,7 +180400,7 @@
         "highway": "cycleway",
         "layer": "1",
         "oneway": "no",
-        "surface": "paving_stones",
+        "surface": "asphalt",
         "id": "way/61565720"
       },
       "geometry": {
@@ -180443,7 +180461,8 @@
         "highway": "cycleway",
         "layer": "1",
         "oneway": "no",
-        "surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt",
         "id": "way/61565782"
       },
       "geometry": {
@@ -180466,7 +180485,8 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "no",
-        "surface": "paving_stones",
+        "smoothness": "excellent",
+        "surface": "asphalt",
         "id": "way/61565786"
       },
       "geometry": {
@@ -180573,10 +180593,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.9404606,
-            51.222939
-          ],
-          [
             2.9393813,
             51.2215902
           ],
@@ -180617,7 +180633,8 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "no",
-        "surface": "paving_stones",
+        "smoothness": "excellent",
+        "surface": "asphalt",
         "id": "way/131472768"
       },
       "geometry": {
@@ -180651,6 +180668,7 @@
       "id": "way/131472769",
       "properties": {
         "highway": "cycleway",
+        "smoothness": "good",
         "surface": "paving_stones",
         "traffic_sign": "BE:D7",
         "id": "way/131472769"
@@ -180817,6 +180835,7 @@
       "type": "Feature",
       "id": "way/165881675",
       "properties": {
+        "cycleway:surface": "concrete",
         "foot": "yes",
         "highway": "cycleway",
         "lit": "yes",
@@ -180824,6 +180843,7 @@
         "moped": "yes",
         "oneway": "no",
         "path": "sidepath",
+        "segregated": "yes",
         "surface": "paving_stones",
         "traffic_sign": "BE:D7,M14",
         "id": "way/165881675"
@@ -180949,6 +180969,7 @@
       "properties": {
         "bridge": "movable",
         "bridge:movable": "bascule",
+        "cycleway:surface": "concrete",
         "foot": "yes",
         "highway": "cycleway",
         "layer": "1",
@@ -180956,6 +180977,7 @@
         "moped": "yes",
         "oneway": "no",
         "path": "sidepath",
+        "segregated": "yes",
         "surface": "asphalt",
         "traffic_sign": "BE:D7,M14",
         "id": "way/227617858"
@@ -181389,11 +181411,14 @@
       "type": "Feature",
       "id": "way/436543124",
       "properties": {
+        "check_date:cycleway:surface": "2025-05-01",
         "cycleway:surface": "asphalt",
+        "cycleway:width": "2.5",
         "foot": "yes",
+        "footway:surface": "paving_stones",
         "highway": "cycleway",
         "segregated": "yes",
-        "surface": "asphalt",
+        "surface": "paved",
         "traffic_sign": "BE:D9",
         "id": "way/436543124"
       },
@@ -181485,6 +181510,7 @@
       "type": "Feature",
       "id": "way/659762284",
       "properties": {
+        "cycleway:surface": "paving_stones",
         "foot": "yes",
         "highway": "cycleway",
         "lit": "yes",
@@ -181492,6 +181518,7 @@
         "moped": "yes",
         "oneway": "no",
         "path": "sidepath",
+        "segregated": "yes",
         "surface": "paving_stones",
         "traffic_sign": "BE:D7,M14",
         "id": "way/659762284"
@@ -181583,6 +181610,7 @@
         "oneway": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
+        "width": "2.5",
         "id": "way/682620093"
       },
       "geometry": {
@@ -181651,14 +181679,18 @@
       "type": "Feature",
       "id": "way/806146504",
       "properties": {
+        "check_date:cycleway:surface": "2025-05-01",
+        "cycleway:surface": "concrete",
         "foot": "yes",
+        "footway:surface": "concrete",
         "highway": "cycleway",
         "lit": "yes",
         "mofa": "yes",
         "moped": "yes",
         "oneway": "no",
         "path": "sidepath",
-        "surface": "paving_stones",
+        "segregated": "yes",
+        "surface": "concrete",
         "traffic_sign": "BE:D7,M14",
         "id": "way/806146504"
       },
@@ -181680,13 +181712,18 @@
       "type": "Feature",
       "id": "way/806146505",
       "properties": {
+        "check_date:cycleway:surface": "2025-05-01",
+        "check_date:surface": "2025-05-01",
+        "cycleway:surface": "paving_stones",
         "foot": "yes",
+        "footway:surface": "paving_stones",
         "highway": "cycleway",
         "lit": "yes",
         "mofa": "yes",
         "moped": "yes",
         "oneway": "no",
         "path": "sidepath",
+        "segregated": "yes",
         "surface": "paving_stones",
         "traffic_sign": "BE:D7,M14",
         "id": "way/806146505"
@@ -181734,6 +181771,7 @@
       "id": "way/817841834",
       "properties": {
         "highway": "cycleway",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/817841834"
       },
@@ -181776,6 +181814,7 @@
       "id": "way/1047448811",
       "properties": {
         "highway": "cycleway",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/1047448811"
       },
@@ -181830,6 +181869,62 @@
           [
             2.9317363,
             51.2199091
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1382727551",
+      "properties": {
+        "foot": "yes",
+        "highway": "cycleway",
+        "mofa": "yes",
+        "moped": "yes",
+        "oneway": "no",
+        "path": "sidepath",
+        "surface": "asphalt",
+        "traffic_sign": "BE:D7,M14",
+        "id": "way/1382727551"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.9404606,
+            51.222939
+          ],
+          [
+            2.9401656,
+            51.2225703
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1382727599",
+      "properties": {
+        "foot": "yes",
+        "highway": "cycleway",
+        "mofa": "yes",
+        "moped": "yes",
+        "oneway": "no",
+        "path": "sidepath",
+        "surface": "paving_stones",
+        "traffic_sign": "BE:D7,M14",
+        "id": "way/1382727599"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.9401656,
+            51.2225703
+          ],
+          [
+            2.9393813,
+            51.2215902
           ]
         ]
       }

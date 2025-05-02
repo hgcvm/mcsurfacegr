@@ -1484,6 +1484,8 @@
         "name": "Driftweg",
         "ref": "N317",
         "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "excellent",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "id": "way/27505918"
@@ -6407,6 +6409,7 @@
       "id": "way/73028939",
       "properties": {
         "bicycle": "designated",
+        "cycleway:surface": "paving_stones",
         "foot": "designated",
         "highway": "path",
         "lit": "yes",
@@ -7106,6 +7109,7 @@
       "type": "Feature",
       "id": "way/78411174",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "incline": "up",
         "lane_markings": "no",
@@ -7253,6 +7257,7 @@
         "layer": "1",
         "name": "Nelson Mandelabrug",
         "segregated": "no",
+        "smoothness": "excellent",
         "surface": "concrete",
         "id": "way/79418794"
       },
@@ -13615,7 +13620,8 @@
         "bicycle": "designated",
         "highway": "path",
         "segregated": "no",
-        "surface": "paved",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
         "traffic_sign": "BE:F103",
         "width": "5",
         "id": "way/130435118"
@@ -15463,6 +15469,7 @@
       "type": "Feature",
       "id": "way/137349969",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lit": "yes",
         "maxweight": "3.5",
@@ -15471,6 +15478,7 @@
         "parking:right": "on_kerb",
         "parking:right:orientation": "parallel",
         "sidewalk": "left",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/137349969"
@@ -18638,6 +18646,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/165863320"
       },
@@ -24572,6 +24581,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/238974944"
       },
@@ -28880,6 +28890,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "segregated": "no",
+        "smoothness": "excellent",
         "surface": "concrete",
         "id": "way/496912946"
       },
@@ -31528,12 +31539,15 @@
       "type": "Feature",
       "id": "way/714513353",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Maria-Hendrikalaan",
         "parking:right": "no",
         "parking:right:restriction": "no_parking",
         "sidewalk": "right",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/714513353"
@@ -32916,7 +32930,9 @@
       "type": "Feature",
       "id": "way/822677595",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Buskruitstraat",
         "smoothness": "good",
         "surface": "concrete",
@@ -37452,7 +37468,9 @@
       "type": "Feature",
       "id": "way/1114856860",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "maxweight": "3.5",
         "maxweight:conditional": "none @ destination",
@@ -37460,6 +37478,7 @@
         "parking:right": "on_kerb",
         "parking:right:orientation": "parallel",
         "sidewalk": "left",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1114856860"
@@ -38017,6 +38036,8 @@
       "type": "Feature",
       "id": "way/1126763664",
       "properties": {
+        "cycleway:left": "separate",
+        "cycleway:right": "no",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
