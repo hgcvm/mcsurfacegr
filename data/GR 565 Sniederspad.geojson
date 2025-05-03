@@ -29134,7 +29134,9 @@
       "type": "Feature",
       "id": "way/837186745",
       "properties": {
+        "bicycle": "no",
         "highway": "path",
+        "horse": "no",
         "id": "way/837186745"
       },
       "geometry": {
@@ -46629,10 +46631,6 @@
           [
             4.9493437,
             51.3088662
-          ],
-          [
-            4.9492343,
-            51.3088698
           ]
         ]
       }
@@ -52425,6 +52423,7 @@
       "type": "Feature",
       "id": "way/1084427666",
       "properties": {
+        "bicycle": "use_sidepath",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Schorvoortstraat",
@@ -52542,6 +52541,31 @@
           [
             4.9777996,
             51.3195678
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1383001935",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "residential",
+        "maxspeed": "50",
+        "name": "Schorvoortstraat",
+        "oneway": "yes",
+        "id": "way/1383001935"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9493437,
+            51.3088662
+          ],
+          [
+            4.9492343,
+            51.3088698
           ]
         ]
       }
