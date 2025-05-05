@@ -57448,6 +57448,7 @@
         "name": "Grensstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "parking:left": "no",
         "parking_lane:right": "parallel",
         "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
@@ -99130,6 +99131,7 @@
         "name": "Grensstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "parking:left": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -158859,6 +158861,7 @@
         "highway": "footway",
         "lit": "yes",
         "segregated": "no",
+        "smoothness": "bad",
         "surface": "asphalt",
         "id": "way/3390187"
       },
@@ -158920,6 +158923,8 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "traffic_sign": "BE:F111;BE:F4a;BE:F1a",
         "wikidata": "Q20890406",
@@ -158976,6 +158981,7 @@
         "oneway:bicycle": "no",
         "sidewalk": "both",
         "sidewalk:both:surface": "paving_stones",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "traffic_sign": "BE:F111;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
@@ -159013,6 +159019,7 @@
         "old_name": "Poreistraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "traffic_sign": "BE:F111;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
@@ -159136,6 +159143,7 @@
         "layer": "-1",
         "lit": "yes",
         "segregated": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "tunnel": "yes",
         "id": "way/3994258"
@@ -159191,8 +159199,10 @@
         "foot": "yes",
         "highway": "track",
         "motor_vehicle": "no",
+        "smoothness": "intermediate",
         "source": "survey",
         "surface": "fine_gravel",
+        "tracktype": "grade2",
         "id": "way/4003907"
       },
       "geometry": {
@@ -159280,7 +159290,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Lavorenberg",
-        "surface": "cobblestone",
+        "surface": "sett",
         "id": "way/8081589"
       },
       "geometry": {
@@ -159466,6 +159476,7 @@
         "highway": "pedestrian",
         "name": "Benedenstraat",
         "segregated": "no",
+        "smoothness": "very_bad",
         "surface": "sett",
         "traffic_sign": "BE:F103;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
@@ -159536,6 +159547,7 @@
         "bicycle": "yes",
         "highway": "footway",
         "segregated": "no",
+        "smoothness": "very_bad",
         "surface": "sett",
         "id": "way/8129644"
       },
@@ -159965,6 +159977,7 @@
         "highway": "pedestrian",
         "name": "Rechtestraat",
         "segregated": "no",
+        "smoothness": "very_bad",
         "surface": "sett",
         "traffic_sign": "BE:F103;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
@@ -159995,6 +160008,7 @@
         "lit": "yes",
         "name": "Rechtestraat",
         "segregated": "no",
+        "smoothness": "bad",
         "surface": "sett",
         "traffic_sign": "BE:F103;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
@@ -160551,6 +160565,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Redingenstraat",
+        "smoothness": "intermediate",
         "source": "survey",
         "surface": "paving_stones",
         "traffic_sign": "F4a",
@@ -160589,6 +160604,7 @@
         "bicycle": "yes",
         "highway": "footway",
         "lit": "no",
+        "smoothness": "intermediate",
         "surface": "fine_gravel",
         "id": "way/27063960"
       },
@@ -160739,6 +160755,7 @@
         "highway": "pedestrian",
         "name": "Spaans Kwartier",
         "segregated": "no",
+        "smoothness": "very_bad",
         "surface": "sett",
         "traffic_sign": "BE:F103;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
@@ -160775,6 +160792,7 @@
         "lit": "yes",
         "name": "Spaans Kwartier",
         "segregated": "no",
+        "smoothness": "very_bad",
         "surface": "sett",
         "traffic_sign": "BE:F103;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
@@ -161415,8 +161433,9 @@
         "lanes": "1",
         "lit": "yes",
         "segregated": "no",
+        "smoothness": "excellent",
         "source": "survey",
-        "surface": "asphalt",
+        "surface": "concrete",
         "id": "way/64487789"
       },
       "geometry": {
@@ -161445,26 +161464,6 @@
           [
             4.6862797,
             50.866863
-          ],
-          [
-            4.6859597,
-            50.8666459
-          ],
-          [
-            4.6857527,
-            50.8665064
-          ],
-          [
-            4.6849573,
-            50.8659705
-          ],
-          [
-            4.6844384,
-            50.8656503
-          ],
-          [
-            4.6842446,
-            50.8655733
           ]
         ]
       }
@@ -161754,6 +161753,8 @@
       "id": "way/72856795",
       "properties": {
         "access": "permissive",
+        "check_date": "2025-05-04",
+        "check_date:smoothness": "2025-05-04",
         "cycleway": "no",
         "foot": "yes",
         "highway": "unclassified",
@@ -161765,9 +161766,9 @@
         "oneway:bicycle": "no",
         "shoulder": "no",
         "sidewalk": "no",
+        "smoothness": "good",
         "source:maxspeed": "sign",
         "surface": "asphalt",
-        "survey:date": "2022-10-21",
         "id": "way/72856795"
       },
       "geometry": {
@@ -161860,8 +161861,8 @@
         "foot": "yes",
         "highway": "path",
         "motor_vehicle": "no",
-        "surface": "compacted",
-        "tracktype": "grade1",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
         "id": "way/83917788"
       },
       "geometry": {
@@ -162105,6 +162106,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Redingenstraat",
+        "smoothness": "intermediate",
         "source": "survey",
         "surface": "paving_stones",
         "traffic_sign": "F4a",
@@ -162173,6 +162175,7 @@
         "lanes": "1",
         "maxspeed": "10",
         "parking:both": "no",
+        "smoothness": "good",
         "source": "survey",
         "surface": "paving_stones",
         "id": "way/85840924"
@@ -162230,8 +162233,9 @@
         "highway": "service",
         "lanes": "1",
         "name": "Kasteelpark Arenberg",
+        "smoothness": "bad",
         "source": "survey",
-        "surface": "cobblestone",
+        "surface": "sett",
         "id": "way/85840977"
       },
       "geometry": {
@@ -162257,6 +162261,8 @@
       "id": "way/85840988",
       "properties": {
         "access": "permissive",
+        "check_date": "2025-05-04",
+        "check_date:smoothness": "2025-05-04",
         "cycleway": "no",
         "foot": "yes",
         "highway": "unclassified",
@@ -162268,9 +162274,9 @@
         "oneway:bicycle": "no",
         "shoulder": "no",
         "sidewalk": "no",
+        "smoothness": "excellent",
         "source:maxspeed": "sign",
         "surface": "asphalt",
-        "survey:date": "2022-10-21",
         "id": "way/85840988"
       },
       "geometry": {
@@ -162351,8 +162357,9 @@
       "id": "way/85944757",
       "properties": {
         "highway": "path",
+        "smoothness": "good",
         "source": "survey",
-        "surface": "fine_gravel",
+        "surface": "compacted",
         "tracktype": "grade1",
         "id": "way/85944757"
       },
@@ -162726,6 +162733,7 @@
       "id": "way/117340199",
       "properties": {
         "highway": "path",
+        "smoothness": "intermediate",
         "source": "survey",
         "surface": "compacted",
         "tracktype": "grade1",
@@ -162758,6 +162766,7 @@
       "id": "way/117340203",
       "properties": {
         "highway": "path",
+        "smoothness": "good",
         "source": "survey",
         "surface": "compacted",
         "tracktype": "grade1",
@@ -162804,6 +162813,7 @@
         "oneway:bicycle": "no",
         "sidewalk": "both",
         "sidewalk:both:surface": "paving_stones",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "traffic_sign": "BE:F111;BE:F4a;BE:F1a",
         "zone:traffic": "BE-VLG:urban",
@@ -163218,6 +163228,7 @@
         "foot": "designated",
         "highway": "cycleway",
         "segregated": "no",
+        "smoothness": "excellent",
         "source": "survey",
         "surface": "asphalt",
         "width": "6",
@@ -163923,6 +163934,7 @@
         "lanes": "1",
         "maxspeed": "10",
         "parking:both": "no",
+        "smoothness": "good",
         "source": "survey",
         "surface": "paving_stones",
         "id": "way/326826779"
@@ -164439,6 +164451,7 @@
         "bicycle": "yes",
         "highway": "footway",
         "segregated": "no",
+        "smoothness": "very_bad",
         "surface": "sett",
         "tunnel": "building_passage",
         "id": "way/526825424"
@@ -165795,6 +165808,7 @@
         "foot": "yes",
         "highway": "path",
         "motor_vehicle": "no",
+        "smoothness": "intermediate",
         "source": "survey",
         "surface": "paving_stones",
         "tracktype": "grade1",
@@ -165985,11 +165999,13 @@
       "properties": {
         "access": "permissive",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lanes": "1",
         "parking:both": "no",
+        "smoothness": "good",
         "source": "survey",
-        "surface": "asphalt",
+        "surface": "paving_stones",
         "id": "way/1114905864"
       },
       "geometry": {
@@ -166281,6 +166297,51 @@
           [
             4.7018926,
             50.8638789
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1383563675",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lanes": "1",
+        "lit": "yes",
+        "segregated": "no",
+        "smoothness": "good",
+        "source": "survey",
+        "surface": "asphalt",
+        "id": "way/1383563675"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.6862797,
+            50.866863
+          ],
+          [
+            4.6859597,
+            50.8666459
+          ],
+          [
+            4.6857527,
+            50.8665064
+          ],
+          [
+            4.6849573,
+            50.8659705
+          ],
+          [
+            4.6844384,
+            50.8656503
+          ],
+          [
+            4.6842446,
+            50.8655733
           ]
         ]
       }

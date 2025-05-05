@@ -16651,6 +16651,7 @@
         "name": "Grensstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "parking:left": "no",
         "parking_lane:right": "parallel",
         "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
@@ -19035,8 +19036,11 @@
       "id": "way/115986053",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Leigrachtstraat",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/115986053"
       },
@@ -19178,6 +19182,7 @@
       "properties": {
         "highway": "track",
         "name": "Leigrachtstraat",
+        "smoothness": "bad",
         "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/115986094"
@@ -27426,7 +27431,10 @@
       "id": "way/214198566",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Jan Gorislaan",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/214198566"
       },
@@ -27711,6 +27719,7 @@
         "bicycle": "yes",
         "designation": "towpath",
         "highway": "track",
+        "smoothness": "intermediate",
         "surface": "fine_gravel",
         "towpath": "yes",
         "tracktype": "grade2",
@@ -37575,6 +37584,7 @@
         "name": "Grensstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "parking:left": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
