@@ -464,8 +464,8 @@
             50.7701561
           ],
           [
-            4.3126605,
-            50.7701642
+            4.3126501,
+            50.770164
           ]
         ]
       }
@@ -3555,8 +3555,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3126605,
-            50.7701642
+            4.3126501,
+            50.770164
           ],
           [
             4.3125903,
@@ -4200,20 +4200,24 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Koestraat",
-        "sidewalk": "left",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "right",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/33835441"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.164751,
-            50.8142704
-          ],
-          [
             4.1649735,
             50.8141031
+          ],
+          [
+            4.164751,
+            50.8142704
           ]
         ]
       }
@@ -20731,12 +20735,15 @@
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
+        "maxspeed": "70",
         "name": "Woestijnstraat",
         "name:etymology:wikidata": "Q41413611",
         "oneway": "no",
         "source": "Bing, local_knowledge",
+        "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
         "width": "3",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/123271826"
       },
       "geometry": {
@@ -21265,7 +21272,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Neerstraat",
-        "surface": "concrete:lanes",
+        "surface": "asphalt",
         "width": "2.5",
         "id": "way/123457945"
       },
@@ -21273,8 +21280,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0789891,
-            50.8139971
+            4.0793847,
+            50.8140429
           ],
           [
             4.0798781,
@@ -21975,7 +21982,10 @@
       "id": "way/128207166",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Opperbusingenstaat",
+        "source:maxspeed": "BE-VLG:rural",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/128207166"
       },
       "geometry": {
@@ -24723,10 +24733,13 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Palokenstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/144716525"
       },
       "geometry": {
@@ -29343,8 +29356,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0722773,
-            50.8126129
+            4.0724959,
+            50.8127764
           ],
           [
             4.0720356,
@@ -32102,7 +32115,9 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "sidewalk": "right",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/256455561"
       },
       "geometry": {
@@ -34969,8 +34984,10 @@
         "mofa": "yes",
         "name": "Oude Geraardsbergsestraat",
         "overtaking:motor_vehicle": "no",
+        "source:maxspeed": "cylestreet",
         "traffic_sign": "BE:C3+M3",
         "vehicle": "destination",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/347659060"
       },
       "geometry": {
@@ -36279,8 +36296,10 @@
         "mofa": "yes",
         "name": "Sint-Barbarastraat",
         "overtaking:motor_vehicle": "no",
+        "source:maxspeed": "cylestreet",
         "traffic_sign": "BE:C3+M3",
         "vehicle": "destination",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/414832495"
       },
       "geometry": {
@@ -39749,12 +39768,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0722773,
-            50.8126129
+            4.0724959,
+            50.8127764
           ],
           [
-            4.0725961,
-            50.8128348
+            4.0726578,
+            50.8128763
           ],
           [
             4.0729377,
@@ -39963,8 +39982,8 @@
             50.8139807
           ],
           [
-            4.0789891,
-            50.8139971
+            4.0793847,
+            50.8140429
           ]
         ]
       }
