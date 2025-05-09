@@ -11594,7 +11594,7 @@
         "maxspeed": "30",
         "name": "Sollenbeemd",
         "overtaking:motor_vehicle": "no",
-        "surface": "cobblestone",
+        "surface": "sett",
         "id": "way/38911831"
       },
       "geometry": {
@@ -15486,7 +15486,9 @@
       "type": "Feature",
       "id": "way/59710862",
       "properties": {
-        "highway": "footway",
+        "handrail": "no",
+        "highway": "steps",
+        "incline": "up",
         "id": "way/59710862"
       },
       "geometry": {
@@ -15557,7 +15559,9 @@
       "type": "Feature",
       "id": "way/59710872",
       "properties": {
+        "handrail": "no",
         "highway": "steps",
+        "incline": "up",
         "id": "way/59710872"
       },
       "geometry": {
@@ -32504,7 +32508,7 @@
         "incline": "down",
         "name": "Kerkstrekke",
         "step_count": "5",
-        "surface": "cobblestone",
+        "surface": "sett",
         "tactile_paving": "no",
         "id": "way/450218960"
       },
@@ -42280,7 +42284,7 @@
         "handrail": "yes",
         "highway": "footway",
         "name": "Kerkstrekke",
-        "surface": "cobblestone",
+        "surface": "sett",
         "tactile_paving": "no",
         "id": "way/940759333"
       },
@@ -42306,7 +42310,7 @@
         "handrail": "yes",
         "highway": "footway",
         "name": "Kerkstrekke",
-        "surface": "cobblestone",
+        "surface": "sett",
         "tactile_paving": "no",
         "id": "way/940759334"
       },
@@ -47863,10 +47867,6 @@
           [
             4.1973121,
             50.7970511
-          ],
-          [
-            4.197586,
-            50.7969708
           ]
         ]
       }
@@ -49424,6 +49424,30 @@
           [
             4.3180355,
             50.9286008
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1384561840",
+      "properties": {
+        "foot": "yes",
+        "highway": "footway",
+        "smoothness": "good",
+        "surface": "concrete",
+        "id": "way/1384561840"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1973121,
+            50.7970511
+          ],
+          [
+            4.197586,
+            50.7969708
           ]
         ]
       }
