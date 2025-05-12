@@ -3665,11 +3665,11 @@
       "type": "Feature",
       "id": "way/41533396",
       "properties": {
+        "cycleway:both": "no",
         "highway": "living_street",
         "maxspeed": "20",
         "name": "Hendrikaplein",
         "oneway": "yes",
-        "oneway:bicycle": "no",
         "source:maxspeed": "BE:living_street",
         "surface": "paving_stones",
         "id": "way/41533396"
@@ -3720,6 +3720,7 @@
       "type": "Feature",
       "id": "way/41533453",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lit": "yes",
         "name": "Lombardsijdestraat",
@@ -3903,7 +3904,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "segregated": "yes",
-        "sidewalk:left": "yes",
+        "sidewalk": "right",
         "smoothness": "good",
         "surface": "asphalt",
         "traffic_sign": "BE:F19,BE:M5",
@@ -8070,6 +8071,7 @@
         "maxspeed": "50",
         "name": "Kapitein Fryattstraat",
         "ref": "N34b",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/87654257"
       },
@@ -30715,6 +30717,10 @@
             51.1423675
           ],
           [
+            2.7009311,
+            51.1427901
+          ],
+          [
             2.7011417,
             51.1428704
           ]
@@ -39734,13 +39740,14 @@
       "type": "Feature",
       "id": "way/1164622449",
       "properties": {
-        "cycleway:right": "no",
+        "cycleway:both": "no",
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "1",
         "name": "Albert I laan",
         "name:etymology:wikidata": "Q55008046",
-        "surface": "paving_stones",
+        "sidewalk": "both",
+        "surface": "asphalt",
         "id": "way/1164622449"
       },
       "geometry": {
