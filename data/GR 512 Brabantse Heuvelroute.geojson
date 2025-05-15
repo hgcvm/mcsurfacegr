@@ -24836,7 +24836,6 @@
       "properties": {
         "agricultural": "yes",
         "bicycle": "yes",
-        "fixme": "Surveyen of de categorieën van weggebruikers op de borden F99c/F101c overeenkomen met de access tags (foot, bicycle, horse, agricultural en speed_pedelec)",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
@@ -27339,7 +27338,6 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "emergency": "yes",
-        "fixme": "Surveyen of de categorieën van weggebruikers op de borden F99c/F101c overeenkomen met de access tags (foot, bicycle, horse, agricultural en speed_pedelec)",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
@@ -27527,8 +27525,6 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "emergency": "yes",
-        "fixme": "Surveyen of de categorieën van weggebruikers op de borden F99c/F101c overeenkomen met de access tags (foot, bicycle, horse, agricultural en speed_pedelec)",
-        "foot": "yes",
         "highway": "track",
         "horse": "yes",
         "incline": "down",
@@ -27579,7 +27575,6 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "emergency": "yes",
-        "fixme": "Surveyen of de categorieën van weggebruikers op de borden F99c/F101c overeenkomen met de access tags (foot, bicycle, horse, agricultural en speed_pedelec)",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
@@ -30880,33 +30875,25 @@
       "type": "Feature",
       "id": "way/196795366",
       "properties": {
-        "agricultural": "yes",
-        "bicycle": "yes",
-        "emergency": "yes",
-        "fixme": "Surveyen of de categorieën van weggebruikers op de borden F99c/F101c overeenkomen met de access tags (foot, bicycle, horse, agricultural en speed_pedelec)",
-        "foot": "yes",
-        "highway": "unclassified",
-        "horse": "yes",
-        "maxspeed": "30",
-        "motor_vehicle": "destination",
+        "highway": "residential",
+        "maxspeed": "50",
         "name": "Vlooibergstraat",
-        "source:maxspeed": "BE:F99c",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
-        "traffic_sign": "BE:F99c",
         "width": "2.5",
-        "zone:traffic": "BE-VLG:rural",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/196795366"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.9271278,
-            50.9324617
+            4.927601,
+            50.9327577
           ],
           [
-            4.9276982,
-            50.9328211
+            4.9276934,
+            50.9328194
           ],
           [
             4.9277265,
@@ -31715,13 +31702,13 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "emergency": "yes",
-        "fixme": "Surveyen of de categorieën van weggebruikers op de borden F99c/F101c overeenkomen met de access tags (foot, bicycle, horse, agricultural en speed_pedelec)",
         "foot": "yes",
         "highway": "track",
         "horse": "yes",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Blerebergstraat",
+        "smoothness": "bad",
         "source:maxspeed": "BE:F99c",
         "surface": "compacted",
         "tracktype": "grade2",
@@ -35745,7 +35732,6 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "emergency": "yes",
-        "fixme": "Surveyen of de categorieën van weggebruikers op de borden F99c/F101c overeenkomen met de access tags (foot, bicycle, horse, agricultural en speed_pedelec)",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
@@ -40235,15 +40221,15 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "emergency": "yes",
-        "fixme": "Surveyen of de categorieën van weggebruikers op de borden F99c/F101c overeenkomen met de access tags (foot, bicycle, horse, agricultural en speed_pedelec)",
         "foot": "yes",
         "highway": "track",
         "horse": "yes",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Blerebergstraat",
+        "smoothness": "bad",
         "source:maxspeed": "BE:F99c",
-        "surface": "sett",
+        "surface": "cobblestone",
         "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "id": "way/608424776"
@@ -40269,7 +40255,6 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "emergency": "yes",
-        "fixme": "Surveyen of de categorieën van weggebruikers op de borden F99c/F101c overeenkomen met de access tags (foot, bicycle, horse, agricultural en speed_pedelec)",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
@@ -40277,6 +40262,7 @@
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Blerebergstraat",
+        "smoothness": "intermediate",
         "source:maxspeed": "BE:F99c",
         "surface": "asphalt",
         "tracktype": "grade2",
@@ -40313,7 +40299,6 @@
         "bicycle": "yes",
         "cutting": "yes",
         "emergency": "yes",
-        "fixme": "Surveyen of de categorieën van weggebruikers op de borden F99c/F101c overeenkomen met de access tags (foot, bicycle, horse, agricultural en speed_pedelec)",
         "foot": "yes",
         "highway": "track",
         "horse": "yes",
@@ -40361,7 +40346,6 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "emergency": "yes",
-        "fixme": "Surveyen of de categorieën van weggebruikers op de borden F99c/F101c overeenkomen met de access tags (foot, bicycle, horse, agricultural en speed_pedelec)",
         "foot": "yes",
         "highway": "track",
         "horse": "yes",
@@ -46381,6 +46365,40 @@
           [
             4.8559427,
             50.8600876
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1386657849",
+      "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "name": "Vlooibergstraat",
+        "source:maxspeed": "BE:F99c",
+        "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
+        "width": "2.5",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1386657849"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9271278,
+            50.9324617
+          ],
+          [
+            4.927601,
+            50.9327577
           ]
         ]
       }
