@@ -3081,8 +3081,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.3933467,
-            51.0511466
+            3.3933883,
+            51.0511314
           ],
           [
             3.3936629,
@@ -3168,7 +3168,7 @@
         "lanes": "1",
         "lit": "yes",
         "name": "A. Rodenbachstraat",
-        "surface": "paving_stones",
+        "surface": "sett",
         "id": "way/40204423"
       },
       "geometry": {
@@ -3750,7 +3750,7 @@
         "maxspeed": "70",
         "name": "Hageland",
         "oneway": "no",
-        "surface": "concrete:plates",
+        "surface": "concrete",
         "width": "3.1",
         "id": "way/43404261"
       },
@@ -3963,6 +3963,7 @@
       "properties": {
         "highway": "track",
         "name": "Hooggoed",
+        "smoothness": "intermediate",
         "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/44829825"
@@ -3987,8 +3988,8 @@
             51.0812068
           ],
           [
-            3.3902843,
-            51.0801831
+            3.3900319,
+            51.0807114
           ]
         ]
       }
@@ -3997,7 +3998,6 @@
       "type": "Feature",
       "id": "way/46822981",
       "properties": {
-        "access:conditional": "yes @ permit",
         "agricultural": "yes",
         "bicycle": "yes",
         "emergency": "yes",
@@ -4006,11 +4006,12 @@
         "horse": "yes",
         "lit": "no",
         "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Hooggoed",
         "smoothness": "intermediate",
         "surface": "fine_gravel",
         "tracktype": "grade2",
-        "vehicle": "no",
+        "traffic_sign": "BE:F99c",
         "id": "way/46822981"
       },
       "geometry": {
@@ -8047,6 +8048,7 @@
       "id": "way/77011176",
       "properties": {
         "highway": "track",
+        "smoothness": "bad",
         "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/77011176"
@@ -8065,14 +8067,6 @@
           [
             3.3905616,
             51.0782917
-          ],
-          [
-            3.3906009,
-            51.0768629
-          ],
-          [
-            3.3906099,
-            51.0758861
           ]
         ]
       }
@@ -8095,12 +8089,12 @@
             51.0838459
           ],
           [
-            3.4069739,
-            51.0838708
+            3.4089,
+            51.0838495
           ],
           [
-            3.404738,
-            51.0839166
+            3.4069739,
+            51.0838708
           ],
           [
             3.404148,
@@ -9152,9 +9146,9 @@
       "type": "Feature",
       "id": "way/110308307",
       "properties": {
-        "highway": "path",
+        "highway": "footway",
         "horse": "no",
-        "surface": "dirt",
+        "surface": "grass",
         "vehicle": "no",
         "id": "way/110308307"
       },
@@ -10743,6 +10737,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Zandvleugestraat",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/118971372"
       },
@@ -12456,6 +12451,7 @@
         "maxspeed": "70",
         "name": "Vijfringenstraat",
         "name:etymology:wikidata": "Q108854007",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "width": "3",
         "id": "way/135191558"
@@ -12470,10 +12466,6 @@
           [
             3.409203,
             51.0835055
-          ],
-          [
-            3.4092023,
-            51.0835641
           ],
           [
             3.4092258,
@@ -12548,6 +12540,7 @@
       "properties": {
         "highway": "track",
         "name": "Zandberg",
+        "smoothness": "very_bad",
         "surface": "ground",
         "tracktype": "grade3",
         "id": "way/135194461"
@@ -12562,14 +12555,6 @@
           [
             3.3877232,
             51.0741651
-          ],
-          [
-            3.38953,
-            51.0741093
-          ],
-          [
-            3.3906348,
-            51.0740734
           ],
           [
             3.3907234,
@@ -15708,7 +15693,7 @@
       "id": "way/167900203",
       "properties": {
         "highway": "path",
-        "smoothness": "bad",
+        "smoothness": "very_bad",
         "surface": "grass",
         "id": "way/167900203"
       },
@@ -15779,7 +15764,7 @@
       "id": "way/167900204",
       "properties": {
         "highway": "path",
-        "smoothness": "bad",
+        "smoothness": "very_bad",
         "surface": "grass",
         "id": "way/167900204"
       },
@@ -16584,7 +16569,7 @@
       "type": "Feature",
       "id": "way/184642878",
       "properties": {
-        "highway": "path",
+        "highway": "footway",
         "horse": "no",
         "surface": "dirt",
         "vehicle": "no",
@@ -16612,7 +16597,7 @@
       "type": "Feature",
       "id": "way/184642882",
       "properties": {
-        "highway": "path",
+        "highway": "footway",
         "horse": "no",
         "surface": "dirt",
         "vehicle": "no",
@@ -16624,6 +16609,10 @@
           [
             3.3919922,
             51.0866462
+          ],
+          [
+            3.3896201,
+            51.0866837
           ],
           [
             3.3895456,
@@ -29258,7 +29247,7 @@
         "name": "Hageland",
         "oneway": "no",
         "source:width": "ARCore",
-        "surface": "concrete:plates",
+        "surface": "concrete",
         "width": "3.1",
         "id": "way/872331920"
       },
@@ -29320,7 +29309,7 @@
         "lit": "no",
         "maxspeed": "30",
         "name": "Hooggoed",
-        "smoothness": "intermediate",
+        "smoothness": "bad",
         "surface": "dirt",
         "tracktype": "grade3",
         "vehicle": "no",
@@ -32867,7 +32856,6 @@
       "type": "Feature",
       "id": "way/1307802704",
       "properties": {
-        "access:conditional": "yes @ permit",
         "agricultural": "yes",
         "bicycle": "yes",
         "emergency": "yes",
@@ -32876,11 +32864,12 @@
         "horse": "yes",
         "lit": "no",
         "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Hooggoed",
-        "smoothness": "intermediate",
+        "smoothness": "bad",
         "surface": "dirt",
         "tracktype": "grade3",
-        "vehicle": "no",
+        "traffic_sign": "BE:F99c",
         "id": "way/1307802704"
       },
       "geometry": {
@@ -32905,7 +32894,8 @@
       "type": "Feature",
       "id": "way/1307802705",
       "properties": {
-        "highway": "track",
+        "highway": "path",
+        "smoothness": "bad",
         "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/1307802705"
@@ -32978,8 +32968,8 @@
       "id": "way/1307802710",
       "properties": {
         "highway": "track",
-        "smoothness": "bad",
-        "surface": "dirt",
+        "smoothness": "very_bad",
+        "surface": "grass",
         "tracktype": "grade4",
         "id": "way/1307802710"
       },
@@ -33003,7 +32993,7 @@
       "properties": {
         "highway": "path",
         "lit": "no",
-        "smoothness": "bad",
+        "smoothness": "very_bad",
         "surface": "dirt",
         "id": "way/1307802711"
       },
@@ -33011,8 +33001,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.3925231,
-            51.0518827
+            3.3925345,
+            51.0518764
           ],
           [
             3.3925413,
@@ -33023,8 +33013,8 @@
             51.0512029
           ],
           [
-            3.3933467,
-            51.0511466
+            3.3933883,
+            51.0511314
           ]
         ]
       }
@@ -33048,8 +33038,8 @@
             51.0520052
           ],
           [
-            3.3925231,
-            51.0518827
+            3.3925345,
+            51.0518764
           ]
         ]
       }
@@ -33292,6 +33282,59 @@
           [
             3.4076059,
             51.0309408
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1388263266",
+      "properties": {
+        "highway": "track",
+        "name": "Hooggoed",
+        "smoothness": "bad",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "id": "way/1388263266"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3900319,
+            51.0807114
+          ],
+          [
+            3.3902843,
+            51.0801831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1388263267",
+      "properties": {
+        "highway": "track",
+        "smoothness": "very_bad",
+        "surface": "dirt",
+        "tracktype": "grade3",
+        "id": "way/1388263267"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3905616,
+            51.0782917
+          ],
+          [
+            3.3906009,
+            51.0768629
+          ],
+          [
+            3.3906099,
+            51.0758861
           ]
         ]
       }
