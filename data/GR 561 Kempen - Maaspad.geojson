@@ -11016,12 +11016,12 @@
             51.2306597
           ],
           [
-            5.3096445,
-            51.2306574
+            5.3096512,
+            51.2306671
           ],
           [
-            5.309555,
-            51.2306565
+            5.3095563,
+            51.2306725
           ]
         ]
       }
@@ -43988,7 +43988,7 @@
         "highway": "living_street",
         "maxspeed": "20",
         "name": "Dorp",
-        "oneway": "no",
+        "ref": "N712",
         "surface": "paving_stones",
         "id": "way/628032890"
       },
@@ -44000,8 +44000,24 @@
             51.2305796
           ],
           [
-            5.309555,
-            51.2306565
+            5.3085718,
+            51.2305613
+          ],
+          [
+            5.3086777,
+            51.2305521
+          ],
+          [
+            5.3093442,
+            51.2306453
+          ],
+          [
+            5.3094267,
+            51.2306743
+          ],
+          [
+            5.3095563,
+            51.2306725
           ]
         ]
       }
@@ -61541,7 +61557,12 @@
       "id": "way/35035773",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Stationsstraat",
+        "smoothness": "intermediate",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/35035773"
       },
       "geometry": {
@@ -61599,7 +61620,11 @@
       "id": "way/35035775",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Saxbylaan",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/35035775"
       },
       "geometry": {
@@ -61622,36 +61647,12 @@
             51.2267167
           ],
           [
-            5.438028,
-            51.2264637
+            5.4380635,
+            51.2264549
           ],
           [
-            5.438004,
-            51.2263677
-          ],
-          [
-            5.4379644,
-            51.2259611
-          ],
-          [
-            5.4377218,
-            51.2248809
-          ],
-          [
-            5.4376836,
-            51.2247908
-          ],
-          [
-            5.4376068,
-            51.2247232
-          ],
-          [
-            5.4375308,
-            51.2246773
-          ],
-          [
-            5.4374768,
-            51.2246521
+            5.4380172,
+            51.2261673
           ]
         ]
       }
@@ -61800,7 +61801,7 @@
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Stationsstraat",
-        "traffic_calming": "table",
+        "surface": "concrete",
         "id": "way/289468629"
       },
       "geometry": {
@@ -62229,6 +62230,52 @@
           [
             5.4285707,
             51.2344354
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1389634360",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "50",
+        "name": "Saxbylaan",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1389634360"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4380172,
+            51.2261673
+          ],
+          [
+            5.4379818,
+            51.2259527
+          ],
+          [
+            5.4377218,
+            51.2248809
+          ],
+          [
+            5.4376836,
+            51.2247908
+          ],
+          [
+            5.4376068,
+            51.2247232
+          ],
+          [
+            5.4375308,
+            51.2246773
+          ],
+          [
+            5.4374768,
+            51.2246521
           ]
         ]
       }

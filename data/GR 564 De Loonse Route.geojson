@@ -32726,7 +32726,7 @@
       "type": "Feature",
       "id": "way/379800447",
       "properties": {
-        "cycleway": "lane",
+        "cycleway": "shared_lane",
         "highway": "residential",
         "name": "Holvenstraat",
         "id": "way/379800447"
@@ -32737,6 +32737,10 @@
           [
             5.3630234,
             51.2009869
+          ],
+          [
+            5.3631185,
+            51.2009965
           ],
           [
             5.3631956,
@@ -33583,11 +33587,13 @@
       "properties": {
         "cycleway": "lane",
         "highway": "secondary",
+        "lanes": "2",
         "maxspeed": "70",
         "maxweight:conditional": "none @ destination",
         "maxweight:hgv": "3.5",
         "name": "Napoleonweg",
         "ref": "N715",
+        "surface": "asphalt",
         "id": "way/463553663"
       },
       "geometry": {
