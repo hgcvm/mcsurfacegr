@@ -183,7 +183,9 @@
       "id": "way/7615960",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Timmermansweg",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/7615960"
@@ -192,12 +194,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6570016,
-            51.2901674
+            3.6570107,
+            51.2901683
           ],
           [
-            3.6570189,
-            51.2902206
+            3.6570161,
+            51.2902168
           ]
         ]
       }
@@ -298,6 +300,7 @@
       "id": "way/7615980",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "60",
         "name": "Timmermansweg",
         "surface": "cobblestone",
@@ -308,8 +311,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6570189,
-            51.2902206
+            3.6570161,
+            51.2902168
           ],
           [
             3.65892,
@@ -4724,8 +4727,10 @@
       "id": "way/33893596",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "lanes": "1",
         "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Veldzigt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/33893596"
@@ -5854,10 +5859,17 @@
       "id": "way/39509296",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "1",
+        "lit": "no",
         "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Vrijedijk / Mollekot",
         "name:left": "Vrijedijk",
         "name:right": "Mollekot",
+        "official_name": "Mollekot",
+        "sidewalk": "no",
+        "surface": "concrete",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/39509296"
       },
@@ -5989,8 +6001,8 @@
             51.2901934
           ],
           [
-            3.6570016,
-            51.2901674
+            3.6570107,
+            51.2901683
           ]
         ]
       }
@@ -14354,7 +14366,13 @@
       "id": "way/160747643",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
+        "lanes": "2",
+        "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Haven",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/160747643"
       },
       "geometry": {
@@ -14365,8 +14383,8 @@
             51.2720676
           ],
           [
-            3.7121335,
-            51.2720798
+            3.7121998,
+            51.2720716
           ]
         ]
       }
@@ -25766,9 +25784,12 @@
       "id": "way/530353746",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "lanes": "1",
         "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Veldzigt",
+        "surface": "concrete",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/530353746"
       },
@@ -25828,8 +25849,12 @@
             51.2881068
           ],
           [
-            3.6406408,
-            51.2881088
+            3.6405768,
+            51.2880994
+          ],
+          [
+            3.6406062,
+            51.2881012
           ]
         ]
       }
@@ -31535,9 +31560,13 @@
       "id": "way/1274507181",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "lanes": "1",
+        "lit": "no",
         "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Veldzigt",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/1274507181"
       },
@@ -31549,8 +31578,8 @@
             51.2881088
           ],
           [
-            3.6407185,
-            51.2880052
+            3.6407007,
+            51.2880237
           ]
         ]
       }
@@ -32068,6 +32097,91 @@
           [
             3.4870443,
             51.1547145
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1390079241",
+      "properties": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "1",
+        "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
+        "name": "Veldzigt",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1390079241"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6406062,
+            51.2881012
+          ],
+          [
+            3.6406408,
+            51.2881088
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1390079242",
+      "properties": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "1",
+        "lit": "no",
+        "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
+        "name": "Veldzigt",
+        "surface": "concrete",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1390079242"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6407007,
+            51.2880237
+          ],
+          [
+            3.6407185,
+            51.2880052
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1390079247",
+      "properties": {
+        "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
+        "name": "Haven",
+        "surface": "concrete",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1390079247"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7121998,
+            51.2720716
+          ],
+          [
+            3.7121335,
+            51.2720798
           ]
         ]
       }
@@ -33372,7 +33486,15 @@
       "id": "way/27126005",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "1",
+        "lit": "no",
+        "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Mollekot",
+        "sidewalk": "no",
+        "surface": "concrete",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/27126005"
       },
       "geometry": {
