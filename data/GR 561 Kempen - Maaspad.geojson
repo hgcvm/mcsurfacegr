@@ -2453,6 +2453,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:bus": "no",
+        "ref": "N746",
         "surface": "paving_stones",
         "width": "5.5",
         "id": "way/24870492"
@@ -5322,6 +5323,7 @@
         "name": "Kerkstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "ref": "N746",
         "surface": "paving_stones",
         "id": "way/47036370"
       },
@@ -8876,6 +8878,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:bus": "no",
+        "ref": "N746",
         "surface": "paving_stones",
         "width": "5.5",
         "id": "way/77102141"
@@ -10905,6 +10908,7 @@
       "properties": {
         "cycleway": "lane",
         "highway": "secondary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Stationsstraat",
         "ref": "N746",
@@ -10914,6 +10918,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.3129472,
+            51.2116688
+          ],
           [
             5.3129441,
             51.2116999
@@ -10958,13 +10966,12 @@
       "type": "Feature",
       "id": "way/112341218",
       "properties": {
-        "foot": "designated",
         "highway": "living_street",
         "maxspeed": "20",
-        "maxspeed:type": "BE:living_street",
         "name": "Kerkstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "ref": "N746",
         "surface": "paving_stones",
         "traffic_sign": "BE:F12a",
         "id": "way/112341218"
@@ -12384,6 +12391,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:bus": "no",
+        "ref": "N746",
         "surface": "paving_stones",
         "width": "5.5",
         "id": "way/131770313"
@@ -16189,6 +16197,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:bus": "no",
+        "ref": "N746",
         "surface": "paving_stones",
         "width": "5.5",
         "id": "way/197590893"
@@ -23825,6 +23834,7 @@
         "cycleway:right": "lane",
         "highway": "secondary",
         "junction": "roundabout",
+        "lanes": "1",
         "maxspeed": "50",
         "name": "Kerkplein",
         "ref": "N746",
@@ -23855,6 +23865,7 @@
         "cycleway:right": "lane",
         "highway": "secondary",
         "junction": "roundabout",
+        "lanes": "1",
         "maxspeed": "50",
         "name": "Kerkplein",
         "ref": "N746",
@@ -23897,6 +23908,7 @@
         "cycleway:right": "lane",
         "highway": "secondary",
         "junction": "roundabout",
+        "lanes": "1",
         "maxspeed": "50",
         "name": "Kerkplein",
         "ref": "N746",
@@ -28554,6 +28566,7 @@
         "cycleway:left": "no",
         "cycleway:right": "track",
         "highway": "secondary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Kattenbos",
         "oneway:bicycle": "yes",
@@ -28565,12 +28578,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3119646,
-            51.2108182
-          ],
-          [
-            5.3122196,
-            51.2108977
+            5.3119525,
+            51.2108073
           ],
           [
             5.3125468,
@@ -31190,7 +31199,7 @@
             51.1922914
           ],
           [
-            5.3003041,
+            5.3003001,
             51.1922805
           ],
           [
@@ -32585,6 +32594,7 @@
       "properties": {
         "cycleway": "lane",
         "highway": "secondary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Kattenbos",
         "ref": "N746",
@@ -32942,8 +32952,16 @@
             51.2105213
           ],
           [
+            5.3108677,
+            51.2104424
+          ],
+          [
             5.3108813,
             51.2104325
+          ],
+          [
+            5.3109251,
+            51.2103958
           ]
         ]
       }
@@ -33386,6 +33404,7 @@
       "properties": {
         "cycleway": "lane",
         "highway": "secondary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Kattenbos",
         "ref": "N746",
@@ -34886,8 +34905,8 @@
             51.2276919
           ],
           [
-            5.3149478,
-            51.2276492
+            5.3149543,
+            51.2276422
           ]
         ]
       }
@@ -34906,12 +34925,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3149478,
-            51.2276492
+            5.3149543,
+            51.2276422
           ],
           [
-            5.3150315,
-            51.2275732
+            5.3150414,
+            51.22756
           ]
         ]
       }
@@ -40558,6 +40577,10 @@
             51.3296856
           ],
           [
+            5.4578147,
+            51.329118
+          ],
+          [
             5.4557527,
             51.328768
           ]
@@ -43321,28 +43344,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/576907181",
-      "properties": {
-        "highway": "unclassified",
-        "name": "Kattenbos",
-        "id": "way/576907181"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3108813,
-            51.2104325
-          ],
-          [
-            5.3109251,
-            51.2103958
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/577840716",
       "properties": {
         "highway": "track",
@@ -44269,6 +44270,7 @@
       "properties": {
         "cycleway:right": "track",
         "highway": "secondary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Kattenbos",
         "oneway:bicycle": "yes",
@@ -44308,8 +44310,8 @@
             51.2107247
           ],
           [
-            5.3119646,
-            51.2108182
+            5.3119525,
+            51.2108073
           ]
         ]
       }
@@ -44492,8 +44494,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3150315,
-            51.2275732
+            5.3150414,
+            51.22756
           ],
           [
             5.3151438,
@@ -47535,32 +47537,6 @@
           [
             5.5008358,
             51.2451981
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/813615744",
-      "properties": {
-        "cycleway": "lane",
-        "highway": "secondary",
-        "maxspeed": "50",
-        "name": "Stationsstraat",
-        "ref": "N746",
-        "surface": "asphalt",
-        "id": "way/813615744"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3129472,
-            51.2116688
-          ],
-          [
-            5.3129441,
-            51.2116999
           ]
         ]
       }

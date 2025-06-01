@@ -47,39 +47,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/14029621",
-      "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "name": "Kapellekesweg",
-        "surface": "paving_stones",
-        "id": "way/14029621"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.5637945,
-            50.8362876
-          ],
-          [
-            4.563724,
-            50.8362774
-          ],
-          [
-            4.5634925,
-            50.8362092
-          ],
-          [
-            4.5627572,
-            50.8359462
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/14029622",
       "properties": {
         "highway": "track",
@@ -9861,8 +9828,10 @@
       "id": "way/33461563",
       "properties": {
         "highway": "track",
+        "incline": "down",
         "name": "Boterstraat",
-        "surface": "cobblestone",
+        "smoothness": "bad",
+        "surface": "sett",
         "tracktype": "grade2",
         "id": "way/33461563"
       },
@@ -9916,48 +9885,57 @@
       "type": "Feature",
       "id": "way/33461565",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
+        "bus": "yes",
+        "cycleway:both": "no",
+        "emergency": "yes",
         "highway": "residential",
+        "horse": "yes",
+        "lane_markings": "no",
+        "lanes": "1",
+        "lit": "no",
         "maxspeed": "30",
+        "maxspeed:type": "BE:C43",
         "name": "Boterstraat",
+        "sidewalk:both": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
+        "vehicle:forward": "destination",
+        "verge:both": "yes",
+        "width": "3",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/33461565"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.5623082,
-            50.8418053
+            4.5621544,
+            50.840433
           ],
           [
-            4.5623864,
-            50.8415266
+            4.5621451,
+            50.8403382
           ],
           [
-            4.5623889,
-            50.8412809
+            4.5621451,
+            50.8402573
           ],
           [
-            4.5622358,
-            50.8408409
+            4.5621538,
+            50.8401588
           ],
           [
-            4.5621676,
-            50.8404692
+            4.5621696,
+            50.8400845
           ],
           [
-            4.5621632,
-            50.8402
+            4.5621993,
+            50.8400055
           ],
           [
-            4.5621846,
-            50.8400663
-          ],
-          [
-            4.5622577,
-            50.8399045
+            4.5622517,
+            50.839904
           ],
           [
             4.5623469,
@@ -17954,30 +17932,45 @@
       "type": "Feature",
       "id": "way/79432920",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
+        "lanes": "1",
+        "lit": "yes",
         "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
         "name": "Plintveld",
+        "sidewalk:both": "yes",
+        "sidewalk:both:smoothness": "excellent",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "excellent",
         "surface": "asphalt",
+        "width": "3",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/79432920"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.5621915,
-            50.8358055
+            4.5621988,
+            50.8358065
           ],
           [
-            4.5621404,
-            50.8357767
+            4.5621812,
+            50.8357939
           ],
           [
-            4.5618246,
-            50.8356559
+            4.5621621,
+            50.8357843
           ],
           [
-            4.5617151,
-            50.8355943
+            4.5620221,
+            50.8357296
+          ],
+          [
+            4.5618531,
+            50.8356636
           ]
         ]
       }
@@ -22313,15 +22306,31 @@
       "id": "way/135708547",
       "properties": {
         "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
+        "horse": "no",
         "name": "Kapellekesweg",
+        "smoothness": "good",
         "surface": "paving_stones",
+        "traffic_sign": "BE:C3,BE:M2",
+        "vehicle": "no",
+        "width": "1.2",
         "id": "way/135708547"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            4.5637945,
+            50.8362876
+          ],
+          [
+            4.563724,
+            50.8362774
+          ],
+          [
+            4.5634925,
+            50.8362092
+          ],
           [
             4.5627572,
             50.8359462
@@ -22331,8 +22340,8 @@
             50.8358177
           ],
           [
-            4.5621915,
-            50.8358055
+            4.5621988,
+            50.8358065
           ]
         ]
       }
@@ -22342,10 +22351,13 @@
       "id": "way/135708550",
       "properties": {
         "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
+        "horse": "no",
         "name": "Kapellekesweg",
+        "smoothness": "good",
         "surface": "paving_stones",
+        "traffic_sign": "BE:C3,BE:M2",
+        "vehicle": "no",
         "id": "way/135708550"
       },
       "geometry": {
@@ -26089,11 +26101,14 @@
       "type": "Feature",
       "id": "way/174624506",
       "properties": {
-        "access": "destination",
         "highway": "track",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
         "name": "Morrenweg",
-        "surface": "compacted",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/174624506"
       },
       "geometry": {
@@ -26108,8 +26123,8 @@
             50.8420538
           ],
           [
-            4.5623082,
-            50.8418053
+            4.5622659,
+            50.8418272
           ]
         ]
       }
@@ -28023,6 +28038,7 @@
       "type": "Feature",
       "id": "way/278490826",
       "properties": {
+        "bicycle": "yes",
         "highway": "residential",
         "name": "Felix Sohiestraat",
         "oneway": "yes",
@@ -28032,32 +28048,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4732394,
-            50.7703321
-          ],
-          [
-            4.4732713,
-            50.7702522
-          ],
-          [
-            4.4733344,
-            50.7698895
-          ],
-          [
-            4.4733948,
-            50.7695231
-          ],
-          [
-            4.4734315,
-            50.7693703
+            4.4734491,
+            50.7691229
           ],
           [
             4.4734661,
             50.7692981
           ],
           [
-            4.4734491,
-            50.7691229
+            4.4734315,
+            50.7693703
+          ],
+          [
+            4.4733948,
+            50.7695231
+          ],
+          [
+            4.4733344,
+            50.7698895
+          ],
+          [
+            4.4732713,
+            50.7702522
+          ],
+          [
+            4.4732394,
+            50.7703321
           ]
         ]
       }
@@ -49454,6 +49470,188 @@
           [
             4.197586,
             50.7969708
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1391152257",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "1",
+        "lit": "no",
+        "maxspeed": "50",
+        "maxspeed:type": "BE:zone50",
+        "name": "Boterstraat",
+        "sidewalk:both": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "verge:both": "yes",
+        "width": "3",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1391152257"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5622659,
+            50.8418272
+          ],
+          [
+            4.562341,
+            50.8416135
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1391152258",
+      "properties": {
+        "bicycle": "yes",
+        "bus": "yes",
+        "cycleway:both": "no",
+        "emergency": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "lane_markings": "no",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:C43",
+        "name": "Boterstraat",
+        "sidewalk:left": "no",
+        "sidewalk:right": "yes",
+        "sidewalk:right:smoothness": "excellent",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "vehicle:forward": "destination",
+        "verge:left": "yes",
+        "width": "3",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1391152258"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5622129,
+            50.840842
+          ],
+          [
+            4.5622012,
+            50.8407599
+          ],
+          [
+            4.5621544,
+            50.840433
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1391152259",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "BE-VLG:urban",
+        "name": "Boterstraat",
+        "sidewalk:both": "yes",
+        "sidewalk:both:smoothness": "good",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "width": "7",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1391152259"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.562341,
+            50.8416135
+          ],
+          [
+            4.5623578,
+            50.841563
+          ],
+          [
+            4.5623727,
+            50.8414963
+          ],
+          [
+            4.5623795,
+            50.8414255
+          ],
+          [
+            4.5623774,
+            50.8413557
+          ],
+          [
+            4.562365,
+            50.8412795
+          ],
+          [
+            4.562286,
+            50.840978
+          ],
+          [
+            4.5622558,
+            50.8409233
+          ],
+          [
+            4.5622129,
+            50.840842
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1391152265",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Plintveld",
+        "sidewalk:both": "yes",
+        "sidewalk:both:smoothness": "excellent",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "excellent",
+        "surface": "paving_stones",
+        "width": "3",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1391152265"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5618531,
+            50.8356636
+          ],
+          [
+            4.5617597,
+            50.8356194
+          ],
+          [
+            4.5617151,
+            50.8355943
           ]
         ]
       }
