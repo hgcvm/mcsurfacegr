@@ -248,6 +248,7 @@
         "highway": "service",
         "name": "Dijlepad",
         "service": "driveway",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "id": "way/3878252"
       },
@@ -255,12 +256,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6432765,
-            50.8383999
+            4.6432827,
+            50.8384
           ],
           [
-            4.6433366,
-            50.8384536
+            4.6433103,
+            50.8384234
+          ],
+          [
+            4.6433377,
+            50.8384466
           ],
           [
             4.6436449,
@@ -1154,16 +1159,16 @@
             50.8853757
           ],
           [
-            4.6994252,
-            50.8853768
+            4.6994253,
+            50.885376
           ],
           [
-            4.6991157,
-            50.885363
+            4.6991156,
+            50.8853638
           ],
           [
-            4.6987642,
-            50.8853507
+            4.6987679,
+            50.8853499
           ]
         ]
       }
@@ -10537,7 +10542,7 @@
       "type": "Feature",
       "id": "way/30767155",
       "properties": {
-        "access": "permissive",
+        "access": "yes",
         "bicycle": "yes",
         "designation": "towpath",
         "foot": "yes",
@@ -10545,7 +10550,7 @@
         "horse": "no",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",
@@ -14176,11 +14181,13 @@
         "layer": "1",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
-        "surface": "wood",
+        "smoothness": "good",
+        "speed_pedelec": "yes",
+        "surface": "paved",
         "tracktype": "grade1",
         "vehicle": "no",
         "vehicle:conditional": "yes @ permit",
+        "width": "2.5",
         "id": "way/37911824"
       },
       "geometry": {
@@ -14201,7 +14208,7 @@
       "type": "Feature",
       "id": "way/37911838",
       "properties": {
-        "access": "permissive",
+        "access": "yes",
         "bicycle": "yes",
         "designation": "towpath",
         "foot": "yes",
@@ -14209,11 +14216,13 @@
         "horse": "no",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
+        "smoothness": "good",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",
         "vehicle:conditional": "yes @ permit",
+        "width": "2.5",
         "id": "way/37911838"
       },
       "geometry": {
@@ -16987,7 +16996,7 @@
         "horse": "no",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",
@@ -24661,9 +24670,10 @@
         "bicycle": "yes",
         "highway": "service",
         "maxspeed": "30",
+        "mofa": "yes",
         "name": "Jaagpad",
         "oneway": "no",
-        "speed_pedelec": "no",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
         "vehicle": "no",
         "vehicle:conditional": "yes @ permit",
@@ -30118,11 +30128,13 @@
         "layer": "1",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
-        "surface": "wood",
+        "smoothness": "intermediate",
+        "speed_pedelec": "yes",
+        "surface": "paved",
         "tracktype": "grade1",
         "vehicle": "no",
         "vehicle:conditional": "yes @ permit",
+        "width": "1.5",
         "id": "way/174743199"
       },
       "geometry": {
@@ -30143,7 +30155,7 @@
       "type": "Feature",
       "id": "way/174743200",
       "properties": {
-        "access": "permissive",
+        "access": "yes",
         "bicycle": "yes",
         "designation": "towpath",
         "foot": "yes",
@@ -30151,7 +30163,7 @@
         "horse": "no",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",
@@ -32755,8 +32767,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6987642,
-            50.8853507
+            4.6987679,
+            50.8853499
           ],
           [
             4.698775,
@@ -37028,7 +37040,7 @@
         "name": "Pastoriestraat",
         "ref": "N286",
         "source:maxspeed": "BE:zone30",
-        "surface": "cobblestone",
+        "surface": "sett",
         "width": "4",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/560355156"
@@ -38371,7 +38383,8 @@
         "horse": "no",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
+        "smoothness": "intermediate",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",
@@ -39365,7 +39378,7 @@
         "horse": "no",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",
@@ -39817,7 +39830,6 @@
       "type": "Feature",
       "id": "way/780600573",
       "properties": {
-        "class:bicycle": "-2",
         "cycleway": "track",
         "cycleway:buffer": "2",
         "highway": "primary",
@@ -41105,6 +41117,7 @@
         "maxspeed": "30",
         "mofa": "yes",
         "oneway": "no",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
         "vehicle": "no",
         "vehicle:conditional": "yes @ permit",
@@ -41149,8 +41162,12 @@
       "type": "Feature",
       "id": "way/879886931",
       "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
+        "incline": "0%",
         "name": "Gaasbroek",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "tracktype": "grade2",
         "width": "2",
@@ -41570,7 +41587,7 @@
         "horse": "no",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",
@@ -44953,6 +44970,7 @@
         "motor_vehicle": "private",
         "name": "Dijlepad",
         "service": "driveway",
+        "smoothness": "bad",
         "surface": "sett",
         "id": "way/1380283295"
       },
@@ -44964,8 +44982,8 @@
             50.8381283
           ],
           [
-            4.6432765,
-            50.8383999
+            4.6432827,
+            50.8384
           ]
         ]
       }
@@ -46248,16 +46266,16 @@
             50.8853757
           ],
           [
-            4.6994252,
-            50.8853768
+            4.6994253,
+            50.885376
           ],
           [
-            4.6991157,
-            50.885363
+            4.6991156,
+            50.8853638
           ],
           [
-            4.6987642,
-            50.8853507
+            4.6987679,
+            50.8853499
           ]
         ]
       }
@@ -52558,8 +52576,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6987642,
-            50.8853507
+            4.6987679,
+            50.8853499
           ],
           [
             4.698775,
@@ -84992,7 +85010,7 @@
       "type": "Feature",
       "id": "way/30767155",
       "properties": {
-        "access": "permissive",
+        "access": "yes",
         "bicycle": "yes",
         "designation": "towpath",
         "foot": "yes",
@@ -85000,7 +85018,7 @@
         "horse": "no",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",
@@ -86088,11 +86106,13 @@
         "layer": "1",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
-        "surface": "wood",
+        "smoothness": "good",
+        "speed_pedelec": "yes",
+        "surface": "paved",
         "tracktype": "grade1",
         "vehicle": "no",
         "vehicle:conditional": "yes @ permit",
+        "width": "2.5",
         "id": "way/37911824"
       },
       "geometry": {
@@ -86113,7 +86133,7 @@
       "type": "Feature",
       "id": "way/37911838",
       "properties": {
-        "access": "permissive",
+        "access": "yes",
         "bicycle": "yes",
         "designation": "towpath",
         "foot": "yes",
@@ -86121,11 +86141,13 @@
         "horse": "no",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
+        "smoothness": "good",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",
         "vehicle:conditional": "yes @ permit",
+        "width": "2.5",
         "id": "way/37911838"
       },
       "geometry": {
@@ -88638,11 +88660,13 @@
         "layer": "1",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
-        "surface": "wood",
+        "smoothness": "intermediate",
+        "speed_pedelec": "yes",
+        "surface": "paved",
         "tracktype": "grade1",
         "vehicle": "no",
         "vehicle:conditional": "yes @ permit",
+        "width": "1.5",
         "id": "way/174743199"
       },
       "geometry": {
@@ -88663,7 +88687,7 @@
       "type": "Feature",
       "id": "way/174743200",
       "properties": {
-        "access": "permissive",
+        "access": "yes",
         "bicycle": "yes",
         "designation": "towpath",
         "foot": "yes",
@@ -88671,7 +88695,7 @@
         "horse": "no",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",

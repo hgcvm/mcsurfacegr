@@ -21952,7 +21952,9 @@
       "id": "way/33083713",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Steenstraat",
+        "oneway": "no",
         "id": "way/33083713"
       },
       "geometry": {
@@ -21986,6 +21988,7 @@
       "id": "way/33083915",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Saslaan",
         "id": "way/33083915"
       },
@@ -27754,7 +27757,7 @@
       "type": "Feature",
       "id": "way/37911995",
       "properties": {
-        "access": "permissive",
+        "access": "yes",
         "bicycle": "yes",
         "designation": "towpath",
         "foot": "yes",
@@ -27762,7 +27765,7 @@
         "horse": "no",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",
@@ -62737,6 +62740,7 @@
       "id": "way/106086946",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Kanaalstraat",
         "id": "way/106086946"
       },
@@ -75409,8 +75413,15 @@
       "type": "Feature",
       "id": "way/167805591",
       "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
+        "incline": "0%",
+        "mofa": "yes",
+        "motor_vehicle": "destination",
         "name": "Dijk",
+        "smoothness": "intermediate",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/167805591"
@@ -76132,17 +76143,21 @@
       "type": "Feature",
       "id": "way/174743198",
       "properties": {
+        "access": "yes",
         "bicycle": "yes",
         "bridge": "yes",
         "designation": "towpath",
+        "foot": "yes",
         "highway": "track",
         "horse": "no",
         "layer": "1",
         "mofa": "yes",
-        "surface": "wood",
+        "speed_pedelec": "yes",
+        "surface": "paved",
         "tracktype": "grade1",
         "vehicle": "no",
         "vehicle:conditional": "yes @ permit",
+        "width": "1.5",
         "id": "way/174743198"
       },
       "geometry": {
@@ -76163,7 +76178,7 @@
       "type": "Feature",
       "id": "way/174743201",
       "properties": {
-        "access": "permissive",
+        "access": "yes",
         "bicycle": "yes",
         "designation": "towpath",
         "foot": "yes",
@@ -76171,7 +76186,7 @@
         "horse": "no",
         "maxspeed": "30",
         "mofa": "yes",
-        "speed_pedelec": "no",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
         "vehicle": "no",
@@ -85790,7 +85805,9 @@
       "id": "way/255730349",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Steenstraat",
+        "oneway": "no",
         "id": "way/255730349"
       },
       "geometry": {
@@ -85816,6 +85833,7 @@
       "id": "way/255730351",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Steenstraat",
         "id": "way/255730351"
       },
@@ -106234,7 +106252,7 @@
         "name": "Pastoriestraat",
         "ref": "N286",
         "source:maxspeed": "BE:zone30",
-        "surface": "cobblestone",
+        "surface": "sett",
         "width": "4",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/560355156"
@@ -115532,7 +115550,6 @@
       "type": "Feature",
       "id": "way/780600573",
       "properties": {
-        "class:bicycle": "-2",
         "cycleway": "track",
         "cycleway:buffer": "2",
         "highway": "primary",
@@ -135906,12 +135923,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0114773,
-            51.0033832
+            4.0114694,
+            51.0033774
           ],
           [
-            4.0114314,
-            51.0034585
+            4.0114282,
+            51.0034512
           ],
           [
             4.0112708,
@@ -159899,16 +159916,16 @@
             50.8853757
           ],
           [
-            4.6994252,
-            50.8853768
+            4.6994253,
+            50.885376
           ],
           [
-            4.6991157,
-            50.885363
+            4.6991156,
+            50.8853638
           ],
           [
-            4.6987642,
-            50.8853507
+            4.6987679,
+            50.8853499
           ]
         ]
       }
@@ -163877,8 +163894,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6987642,
-            50.8853507
+            4.6987679,
+            50.8853499
           ],
           [
             4.698775,
