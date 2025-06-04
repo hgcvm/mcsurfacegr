@@ -122,8 +122,12 @@
       "id": "way/7261466",
       "properties": {
         "highway": "residential",
-        "motorcar": "no",
-        "name": "Koningsdijk",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Kerkpad",
+        "parking:left": "lane",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/7261466"
       },
       "geometry": {
@@ -134,8 +138,8 @@
             51.2909374
           ],
           [
-            4.161627,
-            51.2910151
+            4.1616323,
+            51.2910121
           ]
         ]
       }
@@ -5836,7 +5840,11 @@
       "id": "way/25305831",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Hoekstraat",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/25305831"
       },
       "geometry": {
@@ -5847,12 +5855,16 @@
             51.2820324
           ],
           [
+            4.15539,
+            51.2820664
+          ],
+          [
             4.1511419,
             51.2857515
           ],
           [
-            4.150878,
-            51.2860048
+            4.1508777,
+            51.2859997
           ]
         ]
       }
@@ -5864,8 +5876,12 @@
         "cycleway:right": "lane",
         "cycleway:right:oneway": "no",
         "highway": "tertiary",
+        "lane_markings": "no",
+        "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Molenhoekstraat",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/25305833"
       },
       "geometry": {
@@ -19785,8 +19801,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.150878,
-            51.2860048
+            4.1508777,
+            51.2859997
           ],
           [
             4.1521227,
@@ -29213,8 +29229,8 @@
             51.2875564
           ],
           [
-            4.1458616,
-            51.2902819
+            4.145855,
+            51.2902793
           ],
           [
             4.1477086,
@@ -29457,8 +29473,13 @@
       "type": "Feature",
       "id": "way/444559580",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
+        "lane_markings": "no",
+        "maxspeed": "30",
         "name": "Koningsdijk",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/444559580"
       },
       "geometry": {
@@ -32909,17 +32930,27 @@
       "type": "Feature",
       "id": "way/615194757",
       "properties": {
-        "highway": "pedestrian",
+        "double_tracked_motor_vehicle": "no",
+        "highway": "residential",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "mofa": "yes",
+        "moped": "yes",
+        "motor_vehicle": "no",
+        "motorcycle": "yes",
         "name": "Kerkpad",
         "surface": "paving_stones",
+        "traffic_sign": "NL:C6",
+        "zone:maxspeed": "NL:30",
+        "zone:traffic": "NL:urban",
         "id": "way/615194757"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.161627,
-            51.2910151
+            4.1616323,
+            51.2910121
           ],
           [
             4.1615626,
@@ -37903,9 +37934,12 @@
       "id": "way/688908385",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Kerkpad",
         "surface": "paving_stones",
+        "zone:maxspeed": "NL:30",
+        "zone:traffic": "NL:urban",
         "id": "way/688908385"
       },
       "geometry": {

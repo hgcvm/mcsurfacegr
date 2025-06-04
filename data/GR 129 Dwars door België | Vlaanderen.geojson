@@ -12902,6 +12902,10 @@
             51.0715865
           ],
           [
+            3.3571933,
+            51.0716493
+          ],
+          [
             3.3576047,
             51.0717276
           ],
@@ -12985,30 +12989,20 @@
       "type": "Feature",
       "id": "way/136577571",
       "properties": {
-        "bicycle": "yes",
-        "highway": "path",
-        "surface": "asphalt",
-        "vehicle": "no",
+        "highway": "service",
+        "surface": "paving_stones",
         "id": "way/136577571"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.3558107,
-            51.0713801
+            3.3558301,
+            51.071362
           ],
           [
-            3.3560265,
-            51.0714215
-          ],
-          [
-            3.3562581,
-            51.0714763
-          ],
-          [
-            3.356533,
-            51.0715312
+            3.3562401,
+            51.0714645
           ]
         ]
       }
@@ -26216,7 +26210,7 @@
         "maxspeed": "30",
         "motor_vehicle:conditional": "no @ 2023 Aug 16-2024 Mar 31",
         "name": "Brandstraat",
-        "surface": "paving_stones",
+        "surface": "asphalt",
         "id": "way/550149431"
       },
       "geometry": {
@@ -26227,8 +26221,8 @@
             51.0714895
           ],
           [
-            3.3558107,
-            51.0713801
+            3.3558301,
+            51.071362
           ]
         ]
       }
@@ -30775,7 +30769,7 @@
         "motor_vehicle:conditional": "no @ 2023 Aug 16-2024 Mar 31",
         "name": "Brandstraat",
         "source:maxspeed": "BE-VLG:urban",
-        "surface": "paving_stones",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1095837612"
       },
@@ -30800,6 +30794,7 @@
         "bicycle": "yes",
         "highway": "path",
         "surface": "dirt",
+        "traffic_sign": "BE:C3,BE:M2",
         "vehicle": "no",
         "id": "way/1095837613"
       },
@@ -30807,8 +30802,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.356533,
-            51.0715312
+            3.3565498,
+            51.0715363
           ],
           [
             3.3568635,
@@ -33497,6 +33492,31 @@
           [
             3.3906099,
             51.0758861
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1391826755",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "segregated": "no",
+        "surface": "paving_stones",
+        "id": "way/1391826755"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3562401,
+            51.0714645
+          ],
+          [
+            3.3565498,
+            51.0715363
           ]
         ]
       }

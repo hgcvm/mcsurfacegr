@@ -2454,8 +2454,11 @@
       "id": "way/7615846",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
         "maxspeed": "50",
+        "maxspeed:type": "sign",
         "name": "Westdam",
+        "zone:traffic": "NL:rural",
         "id": "way/7615846"
       },
       "geometry": {
@@ -2466,8 +2469,8 @@
             51.226432
           ],
           [
-            3.7885767,
-            51.2264274
+            3.7885272,
+            51.2264282
           ]
         ]
       }
@@ -6417,8 +6420,11 @@
       "id": "way/25399618",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "90",
+        "lane_markings": "no",
+        "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Oude Molenstraat",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/25399618"
       },
       "geometry": {
@@ -8811,8 +8817,11 @@
       "id": "way/26827130",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "90",
+        "lane_markings": "no",
+        "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Oude Molenstraat",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/26827130"
       },
       "geometry": {
@@ -9922,6 +9931,7 @@
       "id": "way/26944227",
       "properties": {
         "highway": "cycleway",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/26944227"
       },
       "geometry": {
@@ -9943,7 +9953,12 @@
       "id": "way/26944329",
       "properties": {
         "highway": "cycleway",
+        "name": "Poeldijk(straat)",
+        "name:left": "Poeldijkstraat",
+        "name:right": "Poeldijk",
+        "official_name": "Poeldijkstraat",
         "surface": "paved",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/26944329"
       },
       "geometry": {
@@ -32965,8 +32980,11 @@
       "id": "way/135219508",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
+        "maxspeed:type": "sign",
         "name": "Poeldijkstraat",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/135219508"
       },
       "geometry": {
@@ -49118,7 +49136,12 @@
       "id": "way/283021652",
       "properties": {
         "highway": "cycleway",
+        "name": "Poeldijk(straat)",
+        "name:left": "Poeldijkstraat",
+        "name:right": "Poeldijk",
+        "official_name": "Poeldijkstraat",
         "surface": "paved",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/283021652"
       },
       "geometry": {
@@ -49184,8 +49207,11 @@
       "id": "way/283021654",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
         "maxspeed": "50",
+        "maxspeed:type": "NL:urban",
         "name": "Westdam",
+        "zone:traffic": "NL:urban",
         "id": "way/283021654"
       },
       "geometry": {
@@ -56711,9 +56737,12 @@
       "properties": {
         "bridge": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "layer": "1",
-        "maxspeed": "90",
+        "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Oude Molenstraat",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/610483407"
       },
       "geometry": {
@@ -56735,8 +56764,11 @@
       "id": "way/610483408",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "90",
+        "lane_markings": "no",
+        "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Oude Molenstraat",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/610483408"
       },
       "geometry": {
@@ -75872,6 +75904,33 @@
           [
             3.2053068,
             51.1872493
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1391811689",
+      "properties": {
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "maxspeed": "50",
+        "maxspeed:type:backward": "NL:urban",
+        "maxspeed:type:forward": "sign",
+        "name": "Westdam",
+        "zone:traffic": "NL:urban",
+        "id": "way/1391811689"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7885272,
+            51.2264282
+          ],
+          [
+            3.7885767,
+            51.2264274
           ]
         ]
       }
