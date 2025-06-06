@@ -3855,12 +3855,17 @@
       "type": "Feature",
       "id": "way/44003198",
       "properties": {
+        "alt_name": "Veldkapellestraat",
+        "bicycle": "yes",
         "highway": "track",
+        "horse": "yes",
         "name": "Lammersdam",
         "note": "fout in grb",
-        "smoothness": "very_bad",
-        "surface": "fine_gravel",
+        "smoothness": "bad",
+        "surface": "compacted",
         "tracktype": "grade2",
+        "traffic_sign": "BE:C3,BE:Type_IV_local_traffic_nl",
+        "vehicle": "destination",
         "id": "way/44003198"
       },
       "geometry": {
@@ -3879,20 +3884,8 @@
             51.0767439
           ],
           [
-            3.3437278,
-            51.0758707
-          ],
-          [
             3.3436057,
             51.0757512
-          ],
-          [
-            3.3434297,
-            51.0755895
-          ],
-          [
-            3.3433725,
-            51.0755381
           ],
           [
             3.3431912,
@@ -4079,9 +4072,11 @@
       "type": "Feature",
       "id": "way/48519097",
       "properties": {
+        "alt_name": "Lammersdam",
         "highway": "residential",
         "name": "Veldkapellestraat",
         "note": "fout in grb",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/48519097"
       },
@@ -4135,11 +4130,15 @@
       "type": "Feature",
       "id": "way/54680677",
       "properties": {
+        "bicycle": "yes",
         "highway": "path",
+        "horse": "yes",
         "mofa": "no",
         "moped": "no",
-        "smoothness": "very_bad",
+        "smoothness": "bad",
         "surface": "ground",
+        "traffic_sign": "BE:C3,BE:Type_IV_residents_nl,BE:Type_IV_local_traffic_nl",
+        "vehicle": "destination",
         "id": "way/54680677"
       },
       "geometry": {
@@ -4182,7 +4181,8 @@
       "properties": {
         "bicycle": "yes",
         "highway": "track",
-        "surface": "compacted",
+        "smoothness": "bad",
+        "surface": "gravel",
         "tracktype": "grade3",
         "id": "way/54680678"
       },
@@ -9086,23 +9086,14 @@
         "highway": "path",
         "smoothness": "bad",
         "surface": "ground",
-        "tracktype": "grade4",
         "id": "way/102723210"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.3439414,
-            51.0747205
-          ],
-          [
-            3.3440546,
-            51.0746375
-          ],
-          [
-            3.3447785,
-            51.0740188
+            3.3449604,
+            51.0738516
           ],
           [
             3.345451,
@@ -9137,7 +9128,8 @@
       "properties": {
         "highway": "track",
         "name": "Veldkapellestraat",
-        "surface": "pebblestone",
+        "smoothness": "bad",
+        "surface": "gravel",
         "tracktype": "grade3",
         "id": "way/102723213"
       },
@@ -9149,8 +9141,8 @@
             51.0753752
           ],
           [
-            3.3439414,
-            51.0747205
+            3.3439557,
+            51.0747253
           ]
         ]
       }
@@ -11818,6 +11810,7 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Sint Pietersveld",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/130549479"
       },
@@ -12802,6 +12795,7 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Sint Pietersveld",
+        "smoothness": "good",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/135975871"
@@ -22330,9 +22324,12 @@
       "id": "way/247545842",
       "properties": {
         "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
         "surface": "fine_gravel",
         "tracktype": "grade3",
+        "traffic_sign": "BE:C3,BE:Type_IV_local_traffic_nl",
+        "vehicle": "destination",
         "id": "way/247545842"
       },
       "geometry": {
@@ -33516,6 +33513,34 @@
           [
             3.3565498,
             51.0715363
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1392297491",
+      "properties": {
+        "highway": "track",
+        "smoothness": "bad",
+        "surface": "ground",
+        "tracktype": "grade4",
+        "id": "way/1392297491"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3439557,
+            51.0747253
+          ],
+          [
+            3.3440546,
+            51.0746375
+          ],
+          [
+            3.3449604,
+            51.0738516
           ]
         ]
       }
