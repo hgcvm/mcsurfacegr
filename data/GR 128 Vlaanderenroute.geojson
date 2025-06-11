@@ -15505,6 +15505,7 @@
         "cycleway": "track",
         "highway": "residential",
         "name": "Senselberg",
+        "surface": "paving_stones",
         "id": "way/27672670"
       },
       "geometry": {
@@ -15532,6 +15533,7 @@
         "cycleway": "track",
         "highway": "residential",
         "name": "Kortenbosstraat",
+        "surface": "asphalt",
         "id": "way/27672678"
       },
       "geometry": {
@@ -29041,33 +29043,13 @@
       "id": "way/38122460",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "grass",
         "vicinal_ref": "Voetweg ST1°117",
         "id": "way/38122460"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.2262863,
-            50.8441487
-          ],
-          [
-            5.2260763,
-            50.8447031
-          ],
-          [
-            5.2260658,
-            50.8447351
-          ],
-          [
-            5.2260894,
-            50.8447817
-          ],
-          [
-            5.2262815,
-            50.8449508
-          ],
           [
             5.2263345,
             50.8449984
@@ -29109,24 +29091,8 @@
             50.8461864
           ],
           [
-            5.2259468,
-            50.8463436
-          ],
-          [
-            5.2258735,
-            50.846536
-          ],
-          [
-            5.2257834,
-            50.8467439
-          ],
-          [
-            5.225512,
-            50.8473138
-          ],
-          [
-            5.2254321,
-            50.8473943
+            5.2259791,
+            50.8462592
           ]
         ]
       }
@@ -80303,6 +80269,7 @@
         "maxspeed": "70",
         "name": "Hasseltsesteenweg",
         "ref": "N722",
+        "surface": "asphalt",
         "toll:hgv": "yes",
         "id": "way/187799774"
       },
@@ -84302,6 +84269,7 @@
         "cycleway": "track",
         "highway": "residential",
         "name": "Keelstraat",
+        "surface": "asphalt",
         "id": "way/236914607"
       },
       "geometry": {
@@ -120600,7 +120568,7 @@
       "properties": {
         "highway": "track",
         "smoothness": "bad",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/856150718"
       },
@@ -135645,6 +135613,91 @@
           [
             3.1465222,
             50.9310364
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1393996708",
+      "properties": {
+        "highway": "path",
+        "surface": "grass",
+        "vicinal_ref": "Voetweg ST1°117",
+        "id": "way/1393996708"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2262863,
+            50.8441487
+          ],
+          [
+            5.2261508,
+            50.8445063
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1393997305",
+      "properties": {
+        "highway": "path",
+        "surface": "asphalt",
+        "vicinal_ref": "Voetweg ST1°117",
+        "id": "way/1393997305"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2254711,
+            50.847355
+          ],
+          [
+            5.2254321,
+            50.8473943
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1393997565",
+      "properties": {
+        "highway": "path",
+        "surface": "compacted",
+        "vicinal_ref": "Voetweg ST1°117",
+        "id": "way/1393997565"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2261508,
+            50.8445063
+          ],
+          [
+            5.2260763,
+            50.8447031
+          ],
+          [
+            5.2260658,
+            50.8447351
+          ],
+          [
+            5.2260894,
+            50.8447817
+          ],
+          [
+            5.2262815,
+            50.8449508
+          ],
+          [
+            5.2263345,
+            50.8449984
           ]
         ]
       }
@@ -152130,6 +152183,9 @@
       "type": "Feature",
       "id": "way/286394943",
       "properties": {
+        "cycleway": "lane",
+        "cycleway:start_date": "2025-05",
+        "cycleway:surface:colour": "red",
         "grande_circulation": "yes",
         "highway": "secondary",
         "lane_markings": "no",
@@ -153228,7 +153284,9 @@
       "type": "Feature",
       "id": "way/940304121",
       "properties": {
-        "cycleway:left": "lane",
+        "cycleway": "lane",
+        "cycleway:start_date": "2025-05",
+        "cycleway:surface:colour": "red",
         "grande_circulation": "yes",
         "highway": "secondary",
         "lane_markings": "no",
@@ -153561,6 +153619,8 @@
       "id": "way/1351573531",
       "properties": {
         "cycleway": "lane",
+        "cycleway:start_date": "2025-05",
+        "cycleway:surface:colour": "red",
         "grande_circulation": "yes",
         "highway": "secondary",
         "lane_markings": "no",
@@ -166853,7 +166913,7 @@
         "bicycle": "yes",
         "highway": "unclassified",
         "name": "Ende Poel",
-        "surface": "paved",
+        "surface": "concrete",
         "vehicle": "destination",
         "width": "3",
         "id": "way/29132162"
@@ -167225,7 +167285,7 @@
         "cycleway": "track",
         "highway": "residential",
         "name": "Wilderenlaan",
-        "surface": "paved",
+        "surface": "concrete",
         "width": "6",
         "id": "way/35829466"
       },
@@ -167672,7 +167732,7 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
-        "surface": "paved",
+        "surface": "asphalt",
         "width": "3",
         "id": "way/165052209"
       },
@@ -168155,7 +168215,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
-        "surface": "paved",
+        "surface": "concrete",
         "id": "way/222176870"
       },
       "geometry": {
@@ -168209,7 +168269,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "railway": "abandoned",
-        "surface": "paved",
+        "surface": "asphalt",
         "width": "2",
         "wikipedia": "nl:Spoorlijn 23",
         "id": "way/222176875"
@@ -170681,7 +170741,7 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
-        "surface": "paved",
+        "surface": "asphalt",
         "width": "2",
         "id": "way/1231906248"
       },
@@ -170716,7 +170776,7 @@
         "highway": "unclassified",
         "name": "Ende Poel",
         "railway": "abandoned",
-        "surface": "paved",
+        "surface": "concrete",
         "vehicle": "destination",
         "width": "3",
         "wikipedia": "nl:Spoorlijn 23",
@@ -170878,6 +170938,7 @@
         "crossing:markings": "dots",
         "cycleway": "crossing",
         "highway": "cycleway",
+        "surface": "asphalt",
         "id": "way/1330430816"
       },
       "geometry": {
@@ -170915,6 +170976,7 @@
       "id": "way/1330430820",
       "properties": {
         "highway": "cycleway",
+        "surface": "asphalt",
         "id": "way/1330430820"
       },
       "geometry": {
@@ -170956,6 +171018,7 @@
       "id": "way/1330604605",
       "properties": {
         "highway": "path",
+        "surface": "paving_stones",
         "id": "way/1330604605"
       },
       "geometry": {
