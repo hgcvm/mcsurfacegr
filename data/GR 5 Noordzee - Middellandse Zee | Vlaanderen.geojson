@@ -24174,6 +24174,7 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Kwezelstraat",
+        "surface": "asphalt",
         "id": "way/75437185"
       },
       "geometry": {
@@ -24551,6 +24552,7 @@
       "type": "Feature",
       "id": "way/85325237",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Schulensebaan",
@@ -24576,7 +24578,8 @@
       "type": "Feature",
       "id": "way/85325243",
       "properties": {
-        "cycleway": "lane",
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Kerkstraat",
@@ -29408,7 +29411,7 @@
         "highway": "unclassified",
         "layer": "1",
         "name": "Burgemeester Briersstraat",
-        "surface": "asphalt",
+        "surface": "concrete",
         "width": "3",
         "id": "way/163558059"
       },
@@ -31498,6 +31501,7 @@
         "maxspeed": "50",
         "name": "Kruisstraat",
         "source:maxspeed": "BE:zone50",
+        "surface": "asphalt",
         "id": "way/197855600"
       },
       "geometry": {
@@ -32050,12 +32054,16 @@
             50.988252
           ],
           [
-            5.2248699,
-            50.9886344
+            5.2250196,
+            50.9884383
           ],
           [
-            5.2246543,
-            50.9889334
+            5.2248592,
+            50.9886285
+          ],
+          [
+            5.2246154,
+            50.9889722
           ],
           [
             5.2243303,
@@ -39960,6 +39968,7 @@
       "id": "way/233991979",
       "properties": {
         "highway": "cycleway",
+        "surface": "concrete",
         "id": "way/233991979"
       },
       "geometry": {
@@ -39990,6 +39999,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "concrete",
         "id": "way/233991998"
       },
       "geometry": {
@@ -40671,7 +40681,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
-        "surface": "paved",
+        "surface": "concrete",
         "id": "way/246487400"
       },
       "geometry": {
@@ -40706,7 +40716,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
-        "surface": "paved",
+        "surface": "concrete",
         "id": "way/246532280"
       },
       "geometry": {
@@ -41734,7 +41744,6 @@
       "id": "way/275113140",
       "properties": {
         "cycleway": "no",
-        "foot": "yes",
         "highway": "unclassified",
         "lane_markings": "no",
         "lit": "yes",
@@ -53190,6 +53199,10 @@
         "type": "LineString",
         "coordinates": [
           [
+            5.1696289,
+            50.9882002
+          ],
+          [
             5.1696604,
             50.9881915
           ],
@@ -54178,12 +54191,12 @@
             50.9866293
           ],
           [
-            5.1751139,
-            50.9865619
+            5.1750273,
+            50.9865924
           ],
           [
-            5.175374,
-            50.9864834
+            5.1751139,
+            50.9865619
           ]
         ]
       }
@@ -62861,30 +62874,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1190013356",
-      "properties": {
-        "cycleway": "no",
-        "highway": "secondary",
-        "name": "Dikke Eikstraat",
-        "ref": "N725",
-        "id": "way/1190013356"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.1696289,
-            50.9882002
-          ],
-          [
-            5.1696604,
-            50.9881915
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1190013357",
       "properties": {
         "cycleway": "no",
@@ -65876,6 +65865,32 @@
           [
             5.2922922,
             50.9543404
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1394505569",
+      "properties": {
+        "cycleway": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Beukeboomstraat",
+        "ref": "N725",
+        "id": "way/1394505569"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1751139,
+            50.9865619
+          ],
+          [
+            5.175374,
+            50.9864834
           ]
         ]
       }
