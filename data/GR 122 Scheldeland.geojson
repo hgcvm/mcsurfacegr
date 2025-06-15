@@ -14689,7 +14689,8 @@
         "foot": "yes",
         "highway": "path",
         "layer": "1",
-        "surface": "grass_paver",
+        "smoothness": "good",
+        "surface": "concrete",
         "id": "way/103639101"
       },
       "geometry": {
@@ -15593,8 +15594,10 @@
       "type": "Feature",
       "id": "way/115708347",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Gaverbosdreef",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/115708347"
       },
@@ -15696,8 +15699,12 @@
       "type": "Feature",
       "id": "way/115708360",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Galerijpad",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/115708360"
       },
@@ -15739,7 +15746,7 @@
         "foot": "yes",
         "highway": "path",
         "note": "Fietsen expliciet toegestaan",
-        "surface": "paving_stones",
+        "surface": "concrete:lanes",
         "id": "way/115708366"
       },
       "geometry": {
@@ -15816,8 +15823,12 @@
       "type": "Feature",
       "id": "way/115708367",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Zijpgrachtstraat",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/115708367"
       },
@@ -18135,7 +18146,7 @@
         "bicycle": "dismount",
         "foot": "yes",
         "highway": "path",
-        "surface": "paving_stones",
+        "surface": "concrete:lanes",
         "id": "way/131050125"
       },
       "geometry": {
@@ -18298,6 +18309,7 @@
         "foot": "yes",
         "highway": "path",
         "layer": "1",
+        "smoothness": "intermediate",
         "surface": "concrete",
         "id": "way/131050130"
       },
@@ -23317,8 +23329,12 @@
       "type": "Feature",
       "id": "way/184223994",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Galerijpad",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/184223994"
       },
@@ -36101,7 +36117,7 @@
         "foot": "yes",
         "highway": "path",
         "segregated": "no",
-        "surface": "paving_stones",
+        "surface": "concrete:lanes",
         "id": "way/497454861"
       },
       "geometry": {
@@ -37411,32 +37427,8 @@
             50.8829872
           ],
           [
-            3.7209013,
-            50.8830393
-          ],
-          [
-            3.7208363,
-            50.8830573
-          ],
-          [
-            3.7207981,
-            50.883068
-          ],
-          [
-            3.7207209,
-            50.883088
-          ],
-          [
-            3.7205249,
-            50.8831412
-          ],
-          [
-            3.7203352,
-            50.8831934
-          ],
-          [
-            3.7201443,
-            50.8832475
+            3.7209273,
+            50.8830292
           ]
         ]
       }
@@ -48187,6 +48179,94 @@
           [
             3.5481252,
             50.7414543
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1395266911",
+      "properties": {
+        "bicycle": "dismount",
+        "foot": "yes",
+        "highway": "path",
+        "surface": "concrete",
+        "id": "way/1395266911"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7208363,
+            50.8830573
+          ],
+          [
+            3.7207981,
+            50.883068
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1395266912",
+      "properties": {
+        "bicycle": "dismount",
+        "foot": "yes",
+        "highway": "path",
+        "surface": "concrete:lanes",
+        "id": "way/1395266912"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7207981,
+            50.883068
+          ],
+          [
+            3.7207209,
+            50.883088
+          ],
+          [
+            3.7205249,
+            50.8831412
+          ],
+          [
+            3.7203352,
+            50.8831934
+          ],
+          [
+            3.7201443,
+            50.8832475
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1395266942",
+      "properties": {
+        "bicycle": "dismount",
+        "foot": "yes",
+        "highway": "path",
+        "surface": "grass_paver",
+        "id": "way/1395266942"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7209273,
+            50.8830292
+          ],
+          [
+            3.7209013,
+            50.8830393
+          ],
+          [
+            3.7208363,
+            50.8830573
           ]
         ]
       }

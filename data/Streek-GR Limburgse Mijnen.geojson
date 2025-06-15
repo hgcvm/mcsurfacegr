@@ -629,9 +629,13 @@
       "id": "way/27751950",
       "properties": {
         "cycleway": "lane",
+        "cycleway:smoothness": "intermediate",
+        "cycleway:surface": "concrete",
         "highway": "residential",
         "name": "Kleuterweg",
-        "surface": "paved",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "surface": "asphalt",
         "id": "way/27751950"
       },
       "geometry": {
@@ -1785,10 +1789,6 @@
             51.0304913
           ],
           [
-            5.3642201,
-            51.0306703
-          ],
-          [
             5.3652797,
             51.0308127
           ],
@@ -2117,6 +2117,8 @@
       "id": "way/40063145",
       "properties": {
         "cycleway": "lane",
+        "cycleway:smoothness": "intermediate",
+        "cycleway:surface": "concrete",
         "highway": "residential",
         "name": "Kleuterweg",
         "oneway": "yes",
@@ -5947,6 +5949,8 @@
         "cycleway": "track",
         "highway": "tertiary",
         "maxspeed": "50",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ destiniation",
         "name": "Stationsstraat",
         "id": "way/148305456"
       },
@@ -5987,6 +5991,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Dorpsstraat",
+        "surface": "paving_stones",
         "id": "way/148311604"
       },
       "geometry": {
@@ -21036,7 +21041,7 @@
       "properties": {
         "highway": "residential",
         "name": "Kruisstraat",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/319454148"
       },
       "geometry": {
