@@ -20506,6 +20506,10 @@
             50.9095531
           ],
           [
+            5.4197927,
+            50.9097484
+          ],
+          [
             5.4202301,
             50.9101488
           ],
@@ -39722,14 +39726,19 @@
       "id": "way/1043264042",
       "properties": {
         "bicycle": "designated",
+        "cyclestreet": "yes",
         "foot": "designated",
         "highway": "cycleway",
         "layer": "-1",
         "lit": "yes",
+        "maxspeed": "30",
+        "overtaking:motor_vehicle": "no",
         "segregated": "no",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "concrete",
         "tunnel": "yes",
         "width": "5.5",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/1043264042"
       },
       "geometry": {
@@ -40870,6 +40879,7 @@
         "name": "Stationsstraat",
         "overtaking:motor_vehicle": "no",
         "sidewalk": "both",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "traffic_sign": "BE:F111",
         "zone:traffic": "BE-VLG:urban",

@@ -32816,6 +32816,7 @@
         "emergency": "yes",
         "exceptional_permit": "BE:gent:autovrij_gebied",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "mofa": "yes",
         "name": "Hoornstraat",
@@ -51639,7 +51640,9 @@
         "bridge": "yes",
         "highway": "residential",
         "layer": "1",
+        "maxspeed": "50",
         "name": "Zwarteleenstraat",
+        "source:maxspeed": "sign",
         "width": "3",
         "id": "way/53130412"
       },
@@ -51662,7 +51665,11 @@
       "id": "way/53130413",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
+        "maxweight:backward": "5.5",
+        "maxweight:backward:conditional": "none @ destination",
         "name": "Zwarteleenstraat",
+        "source:maxspeed": "sign",
         "id": "way/53130413"
       },
       "geometry": {
@@ -118174,7 +118181,11 @@
       "id": "way/795397475",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
+        "maxweight:forward": "5.5",
+        "maxweight:forward:conditional": "none @ destination",
         "name": "Zwarteleenstraat",
+        "source:maxspeed": "sign",
         "surface": "paving_stones",
         "id": "way/795397475"
       },
@@ -118205,7 +118216,11 @@
       "id": "way/795397476",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
+        "maxweight:forward": "5.5",
+        "maxweight:forward:conditional": "none @ destination",
         "name": "Zwarteleenstraat",
+        "source:maxspeed": "sign",
         "id": "way/795397476"
       },
       "geometry": {

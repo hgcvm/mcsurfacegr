@@ -2669,6 +2669,10 @@
             50.8312879
           ],
           [
+            2.8810618,
+            50.833225
+          ],
+          [
             2.8810433,
             50.8332552
           ],
@@ -13899,18 +13903,18 @@
       "type": "Feature",
       "id": "way/120323296",
       "properties": {
-        "goods": "destination",
-        "hgv": "destination",
-        "hgv:conditional": "no @ (weight>5.5)",
         "highway": "unclassified",
         "lit": "no",
         "maxspeed": "50",
+        "maxweightrating:goods:backward": "5.5",
+        "maxweightrating:goods:backward:conditional": "none @ destination",
+        "maxweightrating:hgv:backward": "5.5",
+        "maxweightrating:hgv:backward:conditional": "none @ destination",
         "name": "Pannenhuisstraat",
         "oneway": "no",
         "sidewalk": "no",
         "source:maxspeed": "sign",
         "surface": "asphalt",
-        "traffic_sign": "BE:C23,BE:Type_VIIa[5.5]",
         "width": "3",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/120323296"
@@ -13991,6 +13995,10 @@
         "highway": "unclassified",
         "lit": "no",
         "maxspeed": "50",
+        "maxweightrating:goods:backward": "5.5",
+        "maxweightrating:goods:backward:conditional": "none @ destination",
+        "maxweightrating:hgv:backward": "5.5",
+        "maxweightrating:hgv:backward:conditional": "none @ destination",
         "name": "Pannenhuisstraat",
         "sidewalk": "no",
         "source:maxspeed": "sign",
@@ -29663,6 +29671,10 @@
           [
             2.8809611,
             50.8333861
+          ],
+          [
+            2.8809436,
+            50.8334135
           ],
           [
             2.8808014,
