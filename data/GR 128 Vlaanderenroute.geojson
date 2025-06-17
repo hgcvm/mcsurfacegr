@@ -12289,8 +12289,8 @@
             50.9702197
           ],
           [
-            4.4527478,
-            50.9704099
+            4.4527544,
+            50.9704069
           ],
           [
             4.4526986,
@@ -15370,7 +15370,11 @@
       "id": "way/27467418",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Roelants du Vivierlaan",
+        "source:maxspeed": "sign",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/27467418"
       },
       "geometry": {
@@ -15395,7 +15399,11 @@
         "cycleway": "track",
         "highway": "tertiary",
         "layer": "1",
+        "maxspeed": "50",
         "name": "Roelants du Vivierlaan",
+        "source:maxspeed": "sign",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/27467419"
       },
       "geometry": {
@@ -26847,6 +26855,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Weerterstraat",
+        "smoothness": "good",
         "source:maxspeed": "sign",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
@@ -27839,12 +27848,12 @@
             50.9662296
           ],
           [
-            4.4523391,
-            50.9664385
+            4.4523229,
+            50.9664359
           ],
           [
-            4.4523912,
-            50.9664811
+            4.4523824,
+            50.9664917
           ]
         ]
       }
@@ -54212,7 +54221,11 @@
       "properties": {
         "cycleway": "no",
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Pasbrugstraat",
+        "source:maxspeed": "sign",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/61294056"
       },
       "geometry": {
@@ -83796,12 +83809,15 @@
         "access": "destination",
         "agricultural": "yes",
         "bicycle": "yes",
+        "emergency": "yes",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
         "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Keiberg",
         "smoothness": "good",
+        "speed_pedelec": "yes",
         "surface": "concrete",
         "traffic_sign": "BE:F99c",
         "id": "way/224767195"
@@ -84828,8 +84844,12 @@
             50.9669869
           ],
           [
-            4.4523912,
-            50.9664811
+            4.4520404,
+            50.9666858
+          ],
+          [
+            4.4523824,
+            50.9664917
           ]
         ]
       }
@@ -84849,8 +84869,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4504819,
-            50.96763
+            4.4504705,
+            50.967635
           ],
           [
             4.4505219,
@@ -87982,7 +88002,11 @@
       "properties": {
         "cycleway": "no",
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Pasbrugstraat",
+        "source:maxspeed": "sign",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/283701290"
       },
       "geometry": {
@@ -122789,8 +122813,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4504819,
-            50.96763
+            4.4504705,
+            50.967635
           ],
           [
             4.4507999,
@@ -124956,7 +124980,8 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Weerterstraat",
-        "source:maxspeed": "sign",
+        "smoothness": "intermediate",
+        "source:maxspeed": "BE-VLG:zone50",
         "surface": "concrete",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/1008180423"

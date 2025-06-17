@@ -349,7 +349,11 @@
       "id": "way/27467237",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Nederstraat",
+        "source:maxspeed": "BE-VLG:zone50",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/27467237"
       },
       "geometry": {
@@ -598,10 +602,13 @@
         "access": "destination",
         "agricultural": "yes",
         "bicycle": "yes",
+        "emergency": "yes",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
-        "surface": "paved",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "surface": "concrete",
         "id": "way/35206787"
       },
       "geometry": {
@@ -612,24 +619,12 @@
             50.8740514
           ],
           [
-            5.4807402,
-            50.8740048
-          ],
-          [
-            5.4807816,
-            50.8739826
-          ],
-          [
-            5.4811116,
-            50.8738056
+            5.4807912,
+            50.8739853
           ],
           [
             5.481269,
             50.8737266
-          ],
-          [
-            5.4816359,
-            50.873567
           ],
           [
             5.4827999,
@@ -2416,20 +2411,12 @@
             50.8572742
           ],
           [
-            5.5125595,
-            50.8574095
-          ],
-          [
             5.5123913,
             50.857491
           ],
           [
             5.512166,
             50.8575674
-          ],
-          [
-            5.5118595,
-            50.8576252
           ],
           [
             5.5115316,
@@ -3540,7 +3527,11 @@
       "id": "way/708033604",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Nederstraat",
+        "source:maxspeed": "BE-VLG:zone50",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/708033604"
       },
       "geometry": {
@@ -3564,7 +3555,11 @@
         "bridge": "yes",
         "highway": "tertiary",
         "layer": "1",
+        "maxspeed": "50",
         "name": "Nederstraat",
+        "source:maxspeed": "BE-VLG:zone50",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/708033605"
       },
       "geometry": {
@@ -4802,12 +4797,15 @@
         "access": "destination",
         "agricultural": "yes",
         "bicycle": "yes",
+        "emergency": "yes",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
         "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Keiberg",
         "smoothness": "good",
+        "speed_pedelec": "yes",
         "surface": "concrete",
         "traffic_sign": "BE:F99c",
         "id": "way/224767195"
