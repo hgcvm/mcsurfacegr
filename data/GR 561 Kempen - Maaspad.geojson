@@ -34482,16 +34482,16 @@
             50.8367607
           ],
           [
-            5.6850483,
-            50.8367602
+            5.6850515,
+            50.8367582
           ],
           [
-            5.6849347,
-            50.8367567
+            5.6849454,
+            50.8367594
           ],
           [
-            5.6848205,
-            50.8367665
+            5.6848302,
+            50.8367706
           ],
           [
             5.684746,
@@ -34500,6 +34500,10 @@
           [
             5.6846506,
             50.8367991
+          ],
+          [
+            5.6845855,
+            50.8367944
           ],
           [
             5.6845097,
@@ -43926,6 +43930,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Sinterveld",
+        "oneway": "no",
         "overtaking:motor_vehicle": "no",
         "traffic_sign": "BE:F111",
         "id": "way/624212375"
@@ -43933,10 +43938,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.1837576,
-            51.1636696
-          ],
           [
             5.1834926,
             51.1636
@@ -53938,6 +53939,7 @@
         "name": "Sinterveld",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:speed_pedelec": "no",
         "overtaking:motor_vehicle": "no",
         "traffic_sign": "BE:F111",
         "id": "way/1320700500"
@@ -54456,6 +54458,36 @@
           [
             5.4462938,
             51.3311082
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1408248861",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Sinterveld",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:speed_pedelec": "no",
+        "overtaking:motor_vehicle": "no",
+        "traffic_sign": "BE:F111",
+        "id": "way/1408248861"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1837576,
+            51.1636696
+          ],
+          [
+            5.1834926,
+            51.1636
           ]
         ]
       }

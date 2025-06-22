@@ -4707,6 +4707,7 @@
         "parking:right": "no",
         "parking:right:restriction": "no_parking",
         "sidewalk": "both",
+        "smoothness": "bad",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "sett",
         "turn:lanes:forward": "left|through|",
@@ -6515,6 +6516,7 @@
         "dog": "leashed",
         "foot": "yes",
         "highway": "path",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "wheelchair": "yes",
         "id": "way/76397947"
@@ -6676,6 +6678,7 @@
         "bicycle": "no",
         "dog": "leashed",
         "highway": "path",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "wheelchair": "yes",
         "id": "way/76397960"
@@ -6723,6 +6726,7 @@
       "id": "way/76397968",
       "properties": {
         "highway": "path",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/76397968"
       },
@@ -6753,6 +6757,7 @@
       "id": "way/76399869",
       "properties": {
         "highway": "path",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/76399869"
       },
@@ -6890,6 +6895,7 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
+        "smoothness": "good",
         "surface": "compacted",
         "wheelchair": "yes",
         "id": "way/76399890"
@@ -7076,6 +7082,7 @@
       "type": "Feature",
       "id": "way/77470748",
       "properties": {
+        "check_date:surface": "2025-06-21",
         "highway": "path",
         "surface": "dirt",
         "id": "way/77470748"
@@ -10018,6 +10025,7 @@
       "id": "way/88698921",
       "properties": {
         "highway": "path",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/88698921"
       },
@@ -10174,6 +10182,7 @@
       "id": "way/88715128",
       "properties": {
         "highway": "path",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/88715128"
       },
@@ -10204,6 +10213,7 @@
       "id": "way/88715135",
       "properties": {
         "highway": "footway",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/88715135"
       },
@@ -10226,6 +10236,7 @@
       "id": "way/88715141",
       "properties": {
         "highway": "path",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/88715141"
       },
@@ -13974,6 +13985,7 @@
       "id": "way/132740146",
       "properties": {
         "highway": "path",
+        "smoothness": "bad",
         "surface": "asphalt",
         "id": "way/132740146"
       },
@@ -15391,6 +15403,7 @@
         "bicycle": "yes",
         "highway": "footway",
         "public_transport": "platform",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/137349948"
       },
@@ -23560,8 +23573,7 @@
         "highway": "steps",
         "incline": "up",
         "ramp": "no",
-        "step_count": "15",
-        "surface": "asphalt",
+        "surface": "rock",
         "tactile_paving": "no",
         "id": "way/237222182"
       },
@@ -23577,12 +23589,8 @@
             51.2720545
           ],
           [
-            3.0301632,
-            51.2719998
-          ],
-          [
-            3.0300378,
-            51.2719367
+            3.0302319,
+            51.2720514
           ]
         ]
       }
@@ -26409,6 +26417,7 @@
       "properties": {
         "highway": "steps",
         "incline": "down",
+        "ramp": "no",
         "surface": "wood",
         "id": "way/363516526"
       },
@@ -26432,6 +26441,7 @@
       "properties": {
         "highway": "steps",
         "incline": "up",
+        "ramp": "no",
         "surface": "wood",
         "id": "way/363516527"
       },
@@ -27168,15 +27178,17 @@
       "id": "way/390602078",
       "properties": {
         "bicycle": "designated",
+        "check_date:cycleway:surface": "2025-06-21",
+        "check_date:surface": "2025-06-21",
         "cycleway:surface": "asphalt",
         "cycleway:width": "2.4",
         "foot": "designated",
+        "footway:surface": "paving_stones",
         "highway": "path",
         "lit": "yes",
         "oneway": "no",
         "segregated": "yes",
-        "smoothness": "excellent",
-        "surface": "asphalt",
+        "surface": "paved",
         "width": "2",
         "id": "way/390602078"
       },
@@ -28626,7 +28638,8 @@
         "footway": "crossing",
         "highway": "footway",
         "name": "Pad van De Haan",
-        "surface": "asphalt",
+        "smoothness": "good",
+        "surface": "paving_stones",
         "id": "way/471273995"
       },
       "geometry": {
@@ -30807,6 +30820,7 @@
         "parking:right": "no",
         "parking:right:restriction": "no_parking",
         "sidewalk": "both",
+        "smoothness": "bad",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
@@ -31042,6 +31056,7 @@
         "footway": "sidewalk",
         "highway": "footway",
         "name": "Driftweg",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/686122940"
       },
@@ -34460,7 +34475,8 @@
         "footway": "sidewalk",
         "highway": "footway",
         "lit": "yes",
-        "surface": "paving_stones",
+        "smoothness": "bad",
+        "surface": "sett",
         "width": "2.5",
         "id": "way/949031778"
       },
@@ -37782,6 +37798,7 @@
       "id": "way/1119624249",
       "properties": {
         "highway": "path",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/1119624249"
       },
@@ -43545,6 +43562,7 @@
       "id": "way/1292833141",
       "properties": {
         "highway": "path",
+        "smoothness": "bad",
         "surface": "asphalt",
         "id": "way/1292833141"
       },
@@ -45281,6 +45299,33 @@
           [
             2.9228615,
             51.2320911
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1408376915",
+      "properties": {
+        "highway": "path",
+        "incline": "up",
+        "surface": "asphalt",
+        "id": "way/1408376915"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0302319,
+            51.2720514
+          ],
+          [
+            3.0301632,
+            51.2719998
+          ],
+          [
+            3.0300378,
+            51.2719367
           ]
         ]
       }
