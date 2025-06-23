@@ -2532,6 +2532,7 @@
       "type": "Feature",
       "id": "way/7631062",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "maxspeed": "60",
         "name": "Maenhoutsdijkje",
@@ -3113,6 +3114,7 @@
         "name": "Molenstraat",
         "oneway": "no",
         "sidewalk": "both",
+        "smoothness": "bad",
         "surface": "paving_stones",
         "id": "way/7631150"
       },
@@ -3162,6 +3164,7 @@
         "name": "Markt",
         "oneway": "no",
         "sidewalk": "left",
+        "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/7631152"
       },
@@ -3720,10 +3723,14 @@
       "id": "way/27370165",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "motor_vehicle": "no",
         "motor_vehicle:conditional": "yes @ permit_holder",
+        "oneway": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "towpath": "yes",
         "width": "3",
@@ -5609,6 +5616,7 @@
       "id": "way/38864143",
       "properties": {
         "bicycle": "designated",
+        "cycleway:both": "no",
         "foot": "designated",
         "highway": "unclassified",
         "motor_vehicle": "no",
@@ -5643,6 +5651,7 @@
       "properties": {
         "bicycle": "designated",
         "bridge": "yes",
+        "cycleway:both": "no",
         "foot": "designated",
         "highway": "unclassified",
         "layer": "1",
@@ -6017,17 +6026,30 @@
       "id": "way/39588750",
       "properties": {
         "foot": "yes",
-        "highway": "cycleway",
+        "highway": "path",
         "segregated": "no",
-        "surface": "paving_stones",
+        "smoothness": "bad",
+        "surface": "gravel",
         "id": "way/39588750"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.3582535,
-            51.3020488
+            3.3583194,
+            51.3020815
+          ],
+          [
+            3.3583341,
+            51.3020665
+          ],
+          [
+            3.3583396,
+            51.3020518
+          ],
+          [
+            3.3582853,
+            51.3020248
           ],
           [
             3.3583316,
@@ -7018,6 +7040,7 @@
         "name": "Zwinstraat",
         "oneway": "no",
         "sidewalk": "both",
+        "smoothness": "bad",
         "surface": "paving_stones",
         "id": "way/54380805"
       },
@@ -12027,75 +12050,18 @@
       "type": "Feature",
       "id": "way/133674100",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Romboutswervedijk",
         "oneway": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/133674100"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.2831863,
-            51.2550345
-          ],
-          [
-            3.2831783,
-            51.2550643
-          ],
-          [
-            3.2831869,
-            51.2550925
-          ],
-          [
-            3.2832337,
-            51.2551801
-          ],
-          [
-            3.283268,
-            51.2552522
-          ],
-          [
-            3.2832921,
-            51.2553314
-          ],
-          [
-            3.2833017,
-            51.2554229
-          ],
-          [
-            3.2833062,
-            51.2556082
-          ],
-          [
-            3.2833006,
-            51.2556786
-          ],
-          [
-            3.2832858,
-            51.2557368
-          ],
-          [
-            3.2832629,
-            51.2557805
-          ],
-          [
-            3.2832343,
-            51.2558167
-          ],
-          [
-            3.2831938,
-            51.2558534
-          ],
-          [
-            3.2831439,
-            51.2558872
-          ],
-          [
-            3.2820871,
-            51.2563954
-          ],
           [
             3.2819772,
             51.256465
@@ -12232,6 +12198,7 @@
       "id": "way/133674174",
       "properties": {
         "highway": "track",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/133674174"
@@ -13810,10 +13777,14 @@
       "properties": {
         "agricultural": "destination",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "motor_vehicle": "destination",
         "name": "Damse Vaart-Noord",
+        "oneway": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "width": "3",
         "id": "way/157558804"
@@ -13850,8 +13821,8 @@
             51.3021024
           ],
           [
-            3.3582535,
-            51.3020488
+            3.3583194,
+            51.3020815
           ]
         ]
       }
@@ -26965,6 +26936,7 @@
       "type": "Feature",
       "id": "way/674490354",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "unclassified",
         "name": "Damse Vaart-West",
         "scenic": "yes",
@@ -28790,8 +28762,11 @@
       "type": "Feature",
       "id": "way/796650469",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Romboutswervedijk",
+        "smoothness": "very_bad",
         "surface": "sett",
         "id": "way/796650469"
       },
@@ -28849,9 +28824,12 @@
       "type": "Feature",
       "id": "way/796650470",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Romboutswervedijk",
-        "surface": "sett",
+        "smoothness": "good",
+        "surface": "asphalt",
         "id": "way/796650470"
       },
       "geometry": {
@@ -28884,9 +28862,12 @@
       "type": "Feature",
       "id": "way/829398289",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Damse Vaart-West",
         "scenic": "yes",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/829398289"
       },
@@ -29299,10 +29280,14 @@
       "id": "way/970841665",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "motor_vehicle": "no",
         "motor_vehicle:conditional": "yes @ permit_holder",
+        "oneway": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "towpath": "yes",
         "width": "3",
@@ -29361,7 +29346,8 @@
       "id": "way/985141213",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
+        "smoothness": "intermediate",
+        "surface": "gravel",
         "id": "way/985141213"
       },
       "geometry": {
@@ -30613,9 +30599,12 @@
       "type": "Feature",
       "id": "way/1118119021",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Romboutswervedijk",
-        "surface": "sett",
+        "smoothness": "bad",
+        "surface": "asphalt",
         "id": "way/1118119021"
       },
       "geometry": {
@@ -30636,10 +30625,6 @@
           [
             3.2880472,
             51.2645757
-          ],
-          [
-            3.2882773,
-            51.2648392
           ]
         ]
       }
@@ -30826,6 +30811,7 @@
       "id": "way/1121456815",
       "properties": {
         "bicycle": "designated",
+        "cycleway:both": "no",
         "foot": "designated",
         "highway": "unclassified",
         "motor_vehicle": "no",
@@ -30909,7 +30895,7 @@
       "id": "way/1123456108",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
+        "surface": "gravel",
         "id": "way/1123456108"
       },
       "geometry": {
@@ -31447,10 +31433,14 @@
       "properties": {
         "agricultural": "destination",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "motor_vehicle": "destination",
         "name": "Damse Vaart-Noord",
+        "oneway": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "width": "3",
         "id": "way/1182595433"
@@ -32199,6 +32189,115 @@
           [
             3.7121335,
             51.2720798
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1408524009",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Romboutswervedijk",
+        "oneway": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "id": "way/1408524009"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2831863,
+            51.2550345
+          ],
+          [
+            3.2831783,
+            51.2550643
+          ],
+          [
+            3.2831869,
+            51.2550925
+          ],
+          [
+            3.2832337,
+            51.2551801
+          ],
+          [
+            3.283268,
+            51.2552522
+          ],
+          [
+            3.2832921,
+            51.2553314
+          ],
+          [
+            3.2833017,
+            51.2554229
+          ],
+          [
+            3.2833062,
+            51.2556082
+          ],
+          [
+            3.2833006,
+            51.2556786
+          ],
+          [
+            3.2832858,
+            51.2557368
+          ],
+          [
+            3.2832629,
+            51.2557805
+          ],
+          [
+            3.2832343,
+            51.2558167
+          ],
+          [
+            3.2831938,
+            51.2558534
+          ],
+          [
+            3.2831439,
+            51.2558872
+          ],
+          [
+            3.2820871,
+            51.2563954
+          ],
+          [
+            3.2819772,
+            51.256465
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1408524058",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Romboutswervedijk",
+        "smoothness": "bad",
+        "surface": "gravel",
+        "id": "way/1408524058"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.2880472,
+            51.2645757
+          ],
+          [
+            3.2882773,
+            51.2648392
           ]
         ]
       }
