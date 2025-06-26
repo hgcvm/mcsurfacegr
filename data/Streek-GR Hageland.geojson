@@ -2547,7 +2547,7 @@
             50.9474999
           ],
           [
-            4.7630057,
+            4.7629947,
             50.947543
           ]
         ]
@@ -15321,6 +15321,7 @@
       "type": "Feature",
       "id": "way/58804208",
       "properties": {
+        "embankment": "yes",
         "highway": "cycleway",
         "lit": "no",
         "smoothness": "good",
@@ -17288,7 +17289,7 @@
       "type": "Feature",
       "id": "way/81759316",
       "properties": {
-        "embankment": "two_sided",
+        "embankment": "yes",
         "highway": "cycleway",
         "smoothness": "intermediate",
         "surface": "compacted",
@@ -19000,8 +19001,8 @@
             50.9842761
           ],
           [
-            5.0397031,
-            50.9842582
+            5.0397181,
+            50.9842547
           ],
           [
             5.0398003,
@@ -19505,6 +19506,7 @@
       "id": "way/122955205",
       "properties": {
         "bicycle": "yes",
+        "embankment": "yes",
         "foot": "yes",
         "highway": "track",
         "horse": "yes",
@@ -19858,6 +19860,7 @@
       "type": "Feature",
       "id": "way/127662955",
       "properties": {
+        "embankment": "yes",
         "highway": "cycleway",
         "lit": "no",
         "smoothness": "intermediate",
@@ -25730,7 +25733,7 @@
       "properties": {
         "highway": "track",
         "railway": "abandoned",
-        "surface": "compacted",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "width": "3",
         "id": "way/191267917"
@@ -26361,7 +26364,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7630057,
+            4.7629947,
             50.947543
           ],
           [
@@ -27289,18 +27292,17 @@
       "type": "Feature",
       "id": "way/214185226",
       "properties": {
-        "cyclestreet": "yes",
         "highway": "track",
         "name": "Kanonsbaan",
-        "surface": "compacted",
+        "surface": "fine_gravel",
         "id": "way/214185226"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.0465156,
-            50.9848381
+            5.0463432,
+            50.9848551
           ],
           [
             5.0462549,
@@ -32283,8 +32285,8 @@
             50.9843231
           ],
           [
-            5.0395434,
-            50.9843176
+            5.0395382,
+            50.9843191
           ],
           [
             5.039611,
@@ -38562,6 +38564,7 @@
       "type": "Feature",
       "id": "way/479504874",
       "properties": {
+        "embankment": "yes",
         "highway": "track",
         "maxwidth": "2",
         "surface": "paving_stones",
@@ -38587,9 +38590,10 @@
       "type": "Feature",
       "id": "way/479504875",
       "properties": {
+        "embankment": "yes",
         "highway": "track",
         "maxwidth": "2",
-        "surface": "cobblestone",
+        "surface": "sett",
         "tracktype": "grade1",
         "width": "3",
         "id": "way/479504875"
@@ -48890,6 +48894,31 @@
           [
             4.7722109,
             50.9077677
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1409569187",
+      "properties": {
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kanonsbaan",
+        "surface": "sett",
+        "id": "way/1409569187"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0465156,
+            50.9848381
+          ],
+          [
+            5.0463432,
+            50.9848551
           ]
         ]
       }
