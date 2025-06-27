@@ -6,8 +6,10 @@
       "id": "way/23626273",
       "properties": {
         "highway": "secondary",
+        "maxspeed": "30",
         "name": "Markt",
         "ref": "N331",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/23626273"
       },
@@ -19,8 +21,8 @@
             50.7460601
           ],
           [
-            2.8254296,
-            50.746114
+            2.8254735,
+            50.7461304
           ]
         ]
       }
@@ -1516,8 +1518,10 @@
       "id": "way/52174073",
       "properties": {
         "highway": "secondary",
+        "maxspeed": "30",
         "name": "Nieuwkerkestraat",
         "ref": "N331",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/52174073"
       },
@@ -19587,19 +19591,15 @@
       "properties": {
         "highway": "secondary",
         "maxspeed": "30",
-        "maxspeed:type": "sign",
         "name": "Markt",
         "ref": "N331",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/246837911"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            2.8254296,
-            50.746114
-          ],
           [
             2.8254735,
             50.7461304
@@ -21264,6 +21264,7 @@
         "highway": "secondary",
         "maxspeed": "70",
         "name": "Dranouterstraat",
+        "priority_road": "designated",
         "ref": "N322",
         "surface": "concrete",
         "id": "way/306221596"

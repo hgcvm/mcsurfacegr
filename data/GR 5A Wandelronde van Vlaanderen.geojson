@@ -11996,8 +11996,12 @@
             51.2274289
           ],
           [
-            4.3773102,
-            51.2272013
+            4.3772894,
+            51.2272418
+          ],
+          [
+            4.3772115,
+            51.2271984
           ]
         ]
       }
@@ -12026,8 +12030,8 @@
             51.2272218
           ],
           [
-            4.3773102,
-            51.2272013
+            4.3772115,
+            51.2271984
           ]
         ]
       }
@@ -31804,6 +31808,10 @@
             51.2202786
           ],
           [
+            4.3543004,
+            51.2202398
+          ],
+          [
             4.3534763,
             51.2202231
           ],
@@ -48371,10 +48379,6 @@
           [
             4.3773175,
             51.2276552
-          ],
-          [
-            4.3773144,
-            51.2275834
           ]
         ]
       }
@@ -76048,6 +76052,34 @@
     },
     {
       "type": "Feature",
+      "id": "way/1409709759",
+      "properties": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "August Vermeylenlaan",
+        "name:etymology:wikidata": "Q764378",
+        "oneway": "no",
+        "sidewalk": "right",
+        "id": "way/1409709759"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3773175,
+            51.2276552
+          ],
+          [
+            4.3773144,
+            51.2275834
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/5117167",
       "properties": {
         "check_date:surface": "2023-01-13",
@@ -76573,8 +76605,11 @@
       "properties": {
         "bicycle": "yes",
         "highway": "track",
+        "name": "Achter den Berg",
+        "smoothness": "intermediate",
         "surface": "fine_gravel",
         "vehicle": "destination",
+        "width": "3",
         "id": "way/24277287"
       },
       "geometry": {
@@ -103417,17 +103452,26 @@
       "type": "Feature",
       "id": "way/98698621",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
         "cycleway:both": "no",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "source:maxspeed": "BE:F99c",
         "surface": "asphalt",
+        "tracktype": "grade1",
         "id": "way/98698621"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            2.8259515,
-            50.7786477
+            2.8259367,
+            50.7786519
           ],
           [
             2.8252968,
@@ -103438,16 +103482,24 @@
             50.7781774
           ],
           [
+            2.8245324,
+            50.7780323
+          ],
+          [
             2.8241649,
             50.777845
           ],
           [
-            2.8237304,
-            50.7775736
+            2.8237036,
+            50.7775711
           ],
           [
-            2.823143,
-            50.7771988
+            2.8233455,
+            50.7773386
+          ],
+          [
+            2.8230867,
+            50.7771598
           ],
           [
             2.8228721,
@@ -122903,7 +122955,9 @@
       "id": "way/187283793",
       "properties": {
         "highway": "secondary",
+        "maxspeed": "30",
         "name": "Dorpsstraat",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/187283793"
       },
@@ -139601,9 +139655,11 @@
         "cyclestreet": "yes",
         "highway": "track",
         "maxspeed": "30",
+        "name": "Achter den Berg",
         "overtaking:motor_vehicle": "no",
         "surface": "fine_gravel",
         "vehicle": "destination",
+        "width": "3",
         "id": "way/379807823"
       },
       "geometry": {
@@ -139820,8 +139876,9 @@
       "id": "way/383731477",
       "properties": {
         "highway": "secondary",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Dorpsstraat",
+        "source:maxspeed": "BE:zone30",
         "id": "way/383731477"
       },
       "geometry": {
@@ -149166,8 +149223,8 @@
             50.7787879
           ],
           [
-            2.8259515,
-            50.7786477
+            2.8259367,
+            50.7786519
           ]
         ]
       }
@@ -163989,7 +164046,9 @@
         "highway": "secondary",
         "maxspeed": "70",
         "name": "Dikkebusstraat",
+        "priority_road": "designated",
         "ref": "N322",
+        "source:maxspeed": "BE-VLG:rural",
         "id": "way/1116471210"
       },
       "geometry": {
@@ -179444,6 +179503,10 @@
           [
             4.4398888,
             51.2032975
+          ],
+          [
+            4.4398931,
+            51.203307
           ],
           [
             4.4399149,
