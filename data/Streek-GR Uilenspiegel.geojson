@@ -5751,6 +5751,7 @@
       "properties": {
         "highway": "unclassified",
         "lanes": "1",
+        "maxspeed": "70",
         "name": "Veldzigt",
         "id": "way/39509294"
       },
@@ -29288,6 +29289,7 @@
         "foot": "yes",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "60",
         "motor_vehicle": "no",
         "motor_vehicle:conditional": "yes @ permit_holder",
         "oneway": "no",
@@ -32838,12 +32840,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.4558483,
-            51.2719583
-          ],
-          [
-            3.4558654,
-            51.2721123
+            3.4559214,
+            51.2722344
           ],
           [
             3.4559343,
@@ -37536,7 +37534,7 @@
       "id": "way/127003894",
       "properties": {
         "highway": "unclassified",
-        "name": "Rockersnest",
+        "name": "Langeweg",
         "id": "way/127003894"
       },
       "geometry": {
@@ -38338,6 +38336,9 @@
       "id": "way/217672897",
       "properties": {
         "highway": "path",
+        "name": "Karnemelkstraatje",
+        "surface": "grass",
+        "tracktype": "grade2",
         "id": "way/217672897"
       },
       "geometry": {
@@ -40878,6 +40879,36 @@
           [
             3.4952106,
             51.2708653
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1409998594",
+      "properties": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Herenweg",
+        "surface": "asphalt",
+        "id": "way/1409998594"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4558483,
+            51.2719583
+          ],
+          [
+            3.4558654,
+            51.2721123
+          ],
+          [
+            3.4559214,
+            51.2722344
           ]
         ]
       }
