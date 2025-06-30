@@ -16867,6 +16867,7 @@
       "id": "way/29254071",
       "properties": {
         "cyclestreet": "yes",
+        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Aard",
@@ -96752,6 +96753,7 @@
       "type": "Feature",
       "id": "way/387425300",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Aard",
         "surface": "asphalt",
@@ -99488,6 +99490,7 @@
       "properties": {
         "embankment": "yes",
         "highway": "cycleway",
+        "sidewalk": "no",
         "surface": "asphalt",
         "width": "4",
         "id": "way/426013419"
@@ -105383,6 +105386,7 @@
         "highway": "track",
         "horse": "permissive",
         "motor_vehicle": "permit",
+        "sidewalk": "no",
         "surface": "compacted",
         "tracktype": "grade3",
         "id": "way/548756973"
@@ -105503,6 +105507,7 @@
         "handrail": "yes",
         "highway": "steps",
         "incline": "up",
+        "lit": "no",
         "ramp": "no",
         "step_count": "22",
         "surface": "concrete",
@@ -105528,9 +105533,11 @@
       "id": "way/548756982",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "embankment": "yes",
         "foot": "yes",
         "highway": "track",
+        "sidewalk": "no",
         "surface": "gravel",
         "tracktype": "grade2",
         "id": "way/548756982"
@@ -111037,6 +111044,7 @@
         "horse": "permissive",
         "motor_vehicle": "permit",
         "name": "Grote Kouterstraat",
+        "sidewalk": "no",
         "surface": "asphalt",
         "tracktype": "grade1",
         "id": "way/667211766"
@@ -114192,6 +114200,7 @@
       "type": "Feature",
       "id": "way/751361888",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Aard",
         "surface": "asphalt",
@@ -135730,6 +135739,45 @@
           [
             5.2254321,
             50.8473943
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1393997396",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "vicinal_ref": "Voetweg ST1°117",
+        "id": "way/1393997396"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2259791,
+            50.8462592
+          ],
+          [
+            5.2259468,
+            50.8463436
+          ],
+          [
+            5.2258735,
+            50.846536
+          ],
+          [
+            5.2257834,
+            50.8467439
+          ],
+          [
+            5.225512,
+            50.8473138
+          ],
+          [
+            5.2254711,
+            50.847355
           ]
         ]
       }
