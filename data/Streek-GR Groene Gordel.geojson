@@ -6555,6 +6555,7 @@
         "cycleway": "no",
         "highway": "residential",
         "maxspeed": "30",
+        "maxweight": "3.5",
         "name": "Prinsenstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -6613,6 +6614,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "50",
+        "maxweight": "3.5",
         "name": "Luiaardweg",
         "oneway": "no",
         "sidewalk": "both",
@@ -6742,6 +6744,8 @@
       "id": "way/29116466",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
+        "maxweight": "3.5",
         "name": "Spiegelhofvoetweg",
         "oneway": "yes",
         "surface": "asphalt",
@@ -8118,9 +8122,11 @@
       "id": "way/33094130",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "maxweight": "3.5",
         "maxweight:conditional": "none @ delivery",
         "name": "Tommenmolenstraat",
+        "oneway": "no",
         "surface": "cobblestone",
         "id": "way/33094130"
       },
@@ -8167,9 +8173,11 @@
       "id": "way/33094332",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "maxweight": "3.5",
         "maxweight:conditional": "none @ delivery",
         "name": "Tommenmolenstraat",
+        "oneway": "no",
         "surface": "cobblestone",
         "id": "way/33094332"
       },
@@ -8442,8 +8450,11 @@
         "access": "destination",
         "bicycle": "yes",
         "flood_prone": "yes",
+        "foot": "yes",
         "highway": "unclassified",
+        "horse": "yes",
         "maxspeed": "50",
+        "motor_vehicle": "destination",
         "name": "Kloosterdam",
         "oneway": "no",
         "surface": "asphalt",
@@ -9775,6 +9786,7 @@
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "50",
+        "maxweight": "3.5",
         "name": "Hof Ter Weerdestraat",
         "oneway": "no",
         "sidewalk": "no",
@@ -15844,7 +15856,9 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "50",
+        "maxweight": "3.5",
         "name": "Tommenmolenstraat",
+        "oneway": "no",
         "id": "way/61569061"
       },
       "geometry": {
@@ -15901,6 +15915,7 @@
         "highway": "tertiary",
         "maxspeed": "50",
         "name": "Eppegemsesteenweg",
+        "oneway": "no",
         "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "id": "way/61569072"
@@ -18327,6 +18342,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "50",
+        "maxweight": "3.5",
         "name": "Verbrande Brugsesteenweg",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -18714,8 +18730,24 @@
             50.734277
           ],
           [
-            4.3185542,
-            50.7346402
+            4.3180717,
+            50.7343937
+          ],
+          [
+            4.318418,
+            50.7345757
+          ],
+          [
+            4.3185571,
+            50.7346443
+          ],
+          [
+            4.3189319,
+            50.7348305
+          ],
+          [
+            4.3192057,
+            50.7349706
           ],
           [
             4.3201003,
@@ -30590,7 +30622,9 @@
         "cycleway": "track",
         "highway": "tertiary",
         "maxspeed": "50",
+        "maxweight:forward": "3.5",
         "name": "Eppegemsesteenweg",
+        "oneway": "no",
         "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "id": "way/361112576"
@@ -30598,38 +30632,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.4161546,
-            50.9489364
-          ],
-          [
-            4.4171463,
-            50.9494486
-          ],
-          [
-            4.417169,
-            50.9494603
-          ],
-          [
-            4.4172464,
-            50.9495003
-          ],
-          [
-            4.4173017,
-            50.9495289
-          ],
-          [
-            4.4175691,
-            50.949615
-          ],
-          [
-            4.4176517,
-            50.949625
-          ],
-          [
-            4.4177203,
-            50.9496355
-          ],
           [
             4.4178636,
             50.9496436
@@ -30677,6 +30679,7 @@
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Eppegemsesteenweg",
+        "oneway": "no",
         "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "id": "way/361112577"
@@ -31547,7 +31550,7 @@
         "foot": "yes",
         "highway": "track",
         "motor_vehicle": "no",
-        "name": "Prins Boudewijnlaan",
+        "name": "Buurtweg 19 - Prins Boudewijnlaan",
         "name:etymology:wikidata": "Q12976",
         "smoothness": "bad",
         "surface": "asphalt",
@@ -32797,7 +32800,7 @@
       "id": "way/468692710",
       "properties": {
         "highway": "path",
-        "name": "Hendrik Consciencepad",
+        "name": "Voetweg 70 - Hendrik Consciencepad",
         "surface": "compacted",
         "width": "1.5",
         "id": "way/468692710"
@@ -33750,7 +33753,7 @@
       "properties": {
         "foot": "yes",
         "highway": "path",
-        "name": "Hendrik Consciencepad",
+        "name": "Voetweg 70 - Hendrik Consciencepad",
         "surface": "compacted",
         "vicinal_ref": "70",
         "width": "1",
@@ -41660,6 +41663,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "50",
+        "maxweight": "3.5",
         "name": "Verbrande Brugsesteenweg",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -41946,6 +41950,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "50",
+        "maxweight": "3.5",
         "name": "Spiegelhofvoetweg",
         "oneway": "no",
         "id": "way/928820956"
@@ -41975,6 +41980,7 @@
         "access": "destination",
         "highway": "residential",
         "maxspeed": "50",
+        "maxweight": "3.5",
         "name": "Hoge Beekkant",
         "noexit": "yes",
         "oneway": "no",
@@ -42108,7 +42114,7 @@
         "foot": "yes",
         "highway": "path",
         "layer": "1",
-        "name": "Hendrik Consciencepad",
+        "name": "Voetweg 70 - Hendrik Consciencepad",
         "surface": "wood",
         "vicinal_ref": "70",
         "width": "1",
@@ -43043,6 +43049,7 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "50",
+        "maxweight": "3.5",
         "name": "Spiegelhofvoetweg",
         "oneway": "no",
         "id": "way/965451974"
@@ -49715,6 +49722,61 @@
           [
             4.3698002,
             50.9339649
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1411047051",
+      "properties": {
+        "cycleway": "track",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Eppegemsesteenweg",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone50",
+        "surface": "asphalt",
+        "id": "way/1411047051"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4161546,
+            50.9489364
+          ],
+          [
+            4.4171463,
+            50.9494486
+          ],
+          [
+            4.417169,
+            50.9494603
+          ],
+          [
+            4.4172464,
+            50.9495003
+          ],
+          [
+            4.4173017,
+            50.9495289
+          ],
+          [
+            4.4175691,
+            50.949615
+          ],
+          [
+            4.4176517,
+            50.949625
+          ],
+          [
+            4.4177203,
+            50.9496355
+          ],
+          [
+            4.4178636,
+            50.9496436
           ]
         ]
       }
