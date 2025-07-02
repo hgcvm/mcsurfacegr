@@ -151,7 +151,9 @@
       "type": "Feature",
       "id": "way/17257045",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Heidestraat",
         "surface": "asphalt",
         "id": "way/17257045"
@@ -18758,16 +18760,19 @@
       "type": "Feature",
       "id": "way/221267277",
       "properties": {
-        "highway": "track",
+        "highway": "cycleway",
         "lit": "yes",
         "name": "Heidestraat",
         "surface": "asphalt",
-        "tracktype": "grade1",
         "id": "way/221267277"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.4333858,
+            50.9215761
+          ],
           [
             5.4332094,
             50.9217535
@@ -18777,8 +18782,12 @@
             50.9218354
           ],
           [
-            5.4329172,
-            50.9221443
+            5.4330183,
+            50.9220088
+          ],
+          [
+            5.4329246,
+            50.922133
           ],
           [
             5.4327641,
@@ -19240,6 +19249,10 @@
           [
             5.4359576,
             50.9179871
+          ],
+          [
+            5.4360136,
+            50.9185768
           ],
           [
             5.4360154,
@@ -38282,10 +38295,6 @@
           [
             5.4334364,
             50.9215292
-          ],
-          [
-            5.4333681,
-            50.9215919
           ]
         ]
       }
@@ -38444,12 +38453,10 @@
       "type": "Feature",
       "id": "way/833353313",
       "properties": {
-        "highway": "track",
+        "highway": "cycleway",
         "lit": "yes",
         "name": "Heidestraat",
-        "smoothness": "intermediate",
-        "surface": "compacted",
-        "tracktype": "grade2",
+        "surface": "asphalt",
         "id": "way/833353313"
       },
       "geometry": {
@@ -38967,24 +38974,24 @@
       "type": "Feature",
       "id": "way/889333590",
       "properties": {
-        "highway": "track",
+        "bridge": "yes",
+        "highway": "cycleway",
+        "layer": "1",
         "lit": "yes",
         "name": "Heidestraat",
-        "smoothness": "intermediate",
-        "surface": "compacted",
-        "tracktype": "grade2",
+        "surface": "wood",
         "id": "way/889333590"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.4333681,
-            50.9215919
+            5.4334364,
+            50.9215292
           ],
           [
-            5.4332094,
-            50.9217535
+            5.4333858,
+            50.9215761
           ]
         ]
       }
@@ -42774,7 +42781,9 @@
       "type": "Feature",
       "id": "way/1354514262",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Heidestraat",
         "surface": "asphalt",
         "id": "way/1354514262"
@@ -42789,6 +42798,10 @@
           [
             5.4362551,
             50.9186634
+          ],
+          [
+            5.436253,
+            50.9186774
           ],
           [
             5.4362306,
