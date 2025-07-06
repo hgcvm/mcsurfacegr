@@ -28609,11 +28609,10 @@
       "type": "Feature",
       "id": "way/128044925",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Staakveld",
-        "oneway": "no",
         "surface": "asphalt",
         "width": "3",
         "id": "way/128044925"
@@ -30741,7 +30740,7 @@
       "id": "way/288088066",
       "properties": {
         "highway": "track",
-        "surface": "asphalt",
+        "surface": "dirt",
         "tracktype": "grade3",
         "vicinal_ref": "Buurtweg Brustem2°71",
         "id": "way/288088066"
@@ -36834,7 +36833,7 @@
       "type": "Feature",
       "id": "way/28193337",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Keelstraat",
@@ -36875,7 +36874,7 @@
       "type": "Feature",
       "id": "way/28193503",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Stokstraat",
@@ -37823,37 +37822,9 @@
     },
     {
       "type": "Feature",
-      "id": "way/191008661",
-      "properties": {
-        "cycleway:both": "no",
-        "highway": "unclassified",
-        "lane_markings": "no",
-        "layer": "-1",
-        "maxheight": "default",
-        "name": "Keelstraat",
-        "surface": "asphalt",
-        "tunnel": "yes",
-        "id": "way/191008661"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.2381974,
-            50.8401356
-          ],
-          [
-            5.2377184,
-            50.8402088
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/191008662",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Keelstraat",
@@ -37863,6 +37834,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.2381974,
+            50.8401356
+          ],
           [
             5.2377184,
             50.8402088
@@ -38005,36 +37980,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/244759037",
-      "properties": {
-        "highway": "unclassified",
-        "lane_markings": "no",
-        "name": "Nieuwenhoven",
-        "oneway": "yes",
-        "oneway:bicycle": "no",
-        "surface": "asphalt",
-        "id": "way/244759037"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.2165788,
-            50.8517149
-          ],
-          [
-            5.2163807,
-            50.8519422
-          ],
-          [
-            5.2163218,
-            50.8520285
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/263900040",
       "properties": {
         "highway": "unclassified",
@@ -38101,7 +38046,7 @@
         "name": "Nieuwenhoven",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "surface": "asphalt",
+        "surface": "cobblestone",
         "id": "way/288088040"
       },
       "geometry": {
@@ -38118,6 +38063,14 @@
           [
             5.2165788,
             50.8517149
+          ],
+          [
+            5.2163807,
+            50.8519422
+          ],
+          [
+            5.2163218,
+            50.8520285
           ]
         ]
       }
@@ -38553,7 +38506,7 @@
       "id": "way/888502423",
       "properties": {
         "bridge": "yes",
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "layer": "1",
@@ -38580,7 +38533,7 @@
       "type": "Feature",
       "id": "way/888502424",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Stokstraat",
@@ -38678,29 +38631,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1393997305",
-      "properties": {
-        "highway": "path",
-        "surface": "asphalt",
-        "vicinal_ref": "Voetweg ST1°117",
-        "id": "way/1393997305"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.2254711,
-            50.847355
-          ],
-          [
-            5.2254321,
-            50.8473943
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1393997396",
       "properties": {
         "highway": "path",
@@ -38732,8 +38662,8 @@
             50.8473138
           ],
           [
-            5.2254711,
-            50.847355
+            5.2254321,
+            50.8473943
           ]
         ]
       }
@@ -38743,7 +38673,7 @@
       "id": "way/1393997565",
       "properties": {
         "highway": "path",
-        "surface": "compacted",
+        "surface": "dirt",
         "vicinal_ref": "Voetweg ST1°117",
         "id": "way/1393997565"
       },
@@ -39824,6 +39754,7 @@
       "type": "Feature",
       "id": "way/288092124",
       "properties": {
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Bronstraat",

@@ -5844,7 +5844,7 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
-        "maxspeed": "70",
+        "maxspeed": "50",
         "maxspeed:type": "BE-VLG:rural",
         "name": "Hoekstraat",
         "zone:traffic": "BE-VLG:rural",
@@ -19226,6 +19226,7 @@
         "lit": "no",
         "name": "Oude Spoorweg",
         "railway": "abandoned",
+        "segregated": "no",
         "surface": "asphalt",
         "id": "way/130795869"
       },
@@ -24816,8 +24817,14 @@
       "id": "way/201024246",
       "properties": {
         "foot": "yes",
+        "handrail": "yes",
         "highway": "steps",
         "incline": "up",
+        "ramp": "yes",
+        "ramp:bicycle": "yes",
+        "step_count": "27",
+        "surface": "concrete",
+        "tactile_paving": "no",
         "id": "way/201024246"
       },
       "geometry": {
@@ -38755,7 +38762,8 @@
         "foot": "yes",
         "highway": "track",
         "name": "Spletterendreef",
-        "surface": "unpaved",
+        "surface": "fine_gravel",
+        "tracktype": "grade1",
         "id": "way/817480955"
       },
       "geometry": {

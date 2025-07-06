@@ -16101,7 +16101,7 @@
       "type": "Feature",
       "id": "way/28193337",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Keelstraat",
@@ -16142,7 +16142,7 @@
       "type": "Feature",
       "id": "way/28193503",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Stokstraat",
@@ -17565,6 +17565,10 @@
           [
             5.1868638,
             50.8561506
+          ],
+          [
+            5.1868549,
+            50.8561707
           ],
           [
             5.1867565,
@@ -21251,12 +21255,14 @@
       "type": "Feature",
       "id": "way/32994488",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
+        "cycleway": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Ossenwegstraat",
         "speed_pedelec": "yes",
         "surface": "asphalt",
+        "vehicle": "destination",
         "width": "3",
         "id": "way/32994488"
       },
@@ -37496,6 +37502,10 @@
             51.0004093
           ],
           [
+            3.5804568,
+            51.0008997
+          ],
+          [
             3.5818384,
             51.0016487
           ],
@@ -47801,8 +47811,8 @@
             50.8582884
           ],
           [
-            5.1969935,
-            50.8582723
+            5.1969921,
+            50.8582728
           ]
         ]
       }
@@ -47811,7 +47821,7 @@
       "type": "Feature",
       "id": "way/44146515",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Diestersteenweg",
@@ -73080,7 +73090,9 @@
       "type": "Feature",
       "id": "way/149172076",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Driesstraat",
         "surface": "asphalt",
         "id": "way/149172076"
@@ -74043,7 +74055,9 @@
       "type": "Feature",
       "id": "way/154330254",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Kerkstraat",
@@ -79986,6 +80000,7 @@
       "type": "Feature",
       "id": "way/187799128",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -80020,7 +80035,9 @@
       "type": "Feature",
       "id": "way/187799130",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Driesstraat",
         "surface": "asphalt",
@@ -81074,37 +81091,9 @@
     },
     {
       "type": "Feature",
-      "id": "way/191008661",
-      "properties": {
-        "cycleway:both": "no",
-        "highway": "unclassified",
-        "lane_markings": "no",
-        "layer": "-1",
-        "maxheight": "default",
-        "name": "Keelstraat",
-        "surface": "asphalt",
-        "tunnel": "yes",
-        "id": "way/191008661"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.2381974,
-            50.8401356
-          ],
-          [
-            5.2377184,
-            50.8402088
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/191008662",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Keelstraat",
@@ -81114,6 +81103,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.2381974,
+            50.8401356
+          ],
           [
             5.2377184,
             50.8402088
@@ -85319,36 +85312,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/244759037",
-      "properties": {
-        "highway": "unclassified",
-        "lane_markings": "no",
-        "name": "Nieuwenhoven",
-        "oneway": "yes",
-        "oneway:bicycle": "no",
-        "surface": "asphalt",
-        "id": "way/244759037"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.2165788,
-            50.8517149
-          ],
-          [
-            5.2163807,
-            50.8519422
-          ],
-          [
-            5.2163218,
-            50.8520285
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/245653746",
       "properties": {
         "alt_name": "Voetweg 202",
@@ -85674,7 +85637,9 @@
       "id": "way/255276367",
       "properties": {
         "access": "destination",
+        "cycleway": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Ossenwegstraat",
         "surface": "asphalt",
         "width": "3",
@@ -88257,7 +88222,7 @@
         "name": "Nieuwenhoven",
         "oneway": "yes",
         "oneway:bicycle": "no",
-        "surface": "asphalt",
+        "surface": "cobblestone",
         "id": "way/288088040"
       },
       "geometry": {
@@ -88274,6 +88239,14 @@
           [
             5.2165788,
             50.8517149
+          ],
+          [
+            5.2163807,
+            50.8519422
+          ],
+          [
+            5.2163218,
+            50.8520285
           ]
         ]
       }
@@ -88284,7 +88257,7 @@
       "properties": {
         "highway": "track",
         "smoothness": "intermediate",
-        "surface": "compacted",
+        "surface": "gravel",
         "tracktype": "grade2",
         "vicinal_ref": "Voetweg Nieuwerkerken°11",
         "id": "way/288088093"
@@ -92789,14 +92762,12 @@
         "bicycle": "yes",
         "emergency": "yes",
         "foot": "yes",
-        "highway": "track",
+        "highway": "unclassified",
         "horse": "yes",
         "maxspeed": "30",
-        "motor_vehicle": "destination",
         "name": "Heirbaan",
         "smoothness": "good",
         "surface": "concrete",
-        "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "width": "3",
         "id": "way/343785741"
@@ -95926,8 +95897,8 @@
             50.8421756
           ],
           [
-            5.123117,
-            50.8421869
+            5.1230183,
+            50.842222
           ],
           [
             5.1229186,
@@ -114457,7 +114428,7 @@
       "type": "Feature",
       "id": "way/758144506",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "lit": "no",
@@ -120630,8 +120601,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1969935,
-            50.8582723
+            5.1969921,
+            50.8582728
           ],
           [
             5.1969761,
@@ -121999,7 +121970,7 @@
       "id": "way/888502423",
       "properties": {
         "bridge": "yes",
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "layer": "1",
@@ -122026,7 +121997,7 @@
       "type": "Feature",
       "id": "way/888502424",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Stokstraat",
@@ -135701,29 +135672,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1393997305",
-      "properties": {
-        "highway": "path",
-        "surface": "asphalt",
-        "vicinal_ref": "Voetweg ST1°117",
-        "id": "way/1393997305"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.2254711,
-            50.847355
-          ],
-          [
-            5.2254321,
-            50.8473943
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1393997396",
       "properties": {
         "highway": "path",
@@ -135755,8 +135703,8 @@
             50.8473138
           ],
           [
-            5.2254711,
-            50.847355
+            5.2254321,
+            50.8473943
           ]
         ]
       }
@@ -135766,7 +135714,7 @@
       "id": "way/1393997565",
       "properties": {
         "highway": "path",
-        "surface": "compacted",
+        "surface": "dirt",
         "vicinal_ref": "Voetweg ST1°117",
         "id": "way/1393997565"
       },
