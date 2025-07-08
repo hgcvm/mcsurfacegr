@@ -12213,6 +12213,10 @@
             51.2245682
           ],
           [
+            4.3916532,
+            51.2247232
+          ],
+          [
             4.3919478,
             51.2249511
           ],
@@ -16785,8 +16789,10 @@
       "type": "Feature",
       "id": "way/37180564",
       "properties": {
+        "access": "destination",
         "highway": "residential",
         "lanes": "1",
+        "maxspeed": "70",
         "name": "Muishoeken",
         "id": "way/37180564"
       },
@@ -16868,8 +16874,10 @@
       "type": "Feature",
       "id": "way/37186652",
       "properties": {
+        "access": "destination",
         "highway": "unclassified",
         "lanes": "1",
+        "maxspeed": "70",
         "name": "Muishoeken",
         "id": "way/37186652"
       },
@@ -18895,8 +18903,8 @@
             51.2034423
           ],
           [
-            3.8760345,
-            51.2036933
+            3.8760088,
+            51.2036839
           ],
           [
             3.8757079,
@@ -39198,7 +39206,7 @@
       "id": "way/188093874",
       "properties": {
         "highway": "secondary",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Boekhoutedorp",
         "operator": "Agentschap Wegen en Verkeer",
         "ref": "N458",
@@ -54855,6 +54863,7 @@
       "properties": {
         "highway": "tertiary",
         "lit": "yes",
+        "maxspeed": "70",
         "name": "Schare",
         "sidewalk": "no",
         "id": "way/479024148"
@@ -57984,8 +57993,10 @@
       "type": "Feature",
       "id": "way/676109345",
       "properties": {
+        "access": "destination",
         "highway": "residential",
         "lanes": "1",
+        "maxspeed": "70",
         "name": "Forelstraat",
         "id": "way/676109345"
       },
@@ -138034,7 +138045,7 @@
         "bicycle": "yes",
         "highway": "unclassified",
         "maxspeed": "80",
-        "name": "Lappestraat - Rue de la Lappe",
+        "name": "Lappestraat / Rue de la Lappe",
         "name:left": "Lappestraat",
         "name:right": "Rue de la Lappe",
         "surface": "asphalt",
@@ -154898,64 +154909,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6253458,
-            50.7560392
-          ],
-          [
-            3.6253352,
-            50.7560307
-          ],
-          [
-            3.6252911,
-            50.7559993
-          ],
-          [
-            3.6251852,
-            50.7559711
-          ],
-          [
-            3.6250276,
-            50.7559473
-          ],
-          [
-            3.6247061,
-            50.7558899
-          ],
-          [
-            3.6243593,
-            50.755824
-          ],
-          [
-            3.6237929,
-            50.7557316
-          ],
-          [
-            3.6220627,
-            50.7554477
-          ],
-          [
-            3.6214421,
-            50.7553662
-          ],
-          [
-            3.6206093,
-            50.7552649
-          ],
-          [
-            3.6200959,
-            50.7552062
-          ],
-          [
-            3.6196235,
-            50.7551429
-          ],
-          [
-            3.6195687,
-            50.7551325
-          ],
-          [
-            3.6195265,
-            50.7551126
+            3.619327,
+            50.7550163
           ],
           [
             3.6192799,
@@ -165099,6 +165054,118 @@
     },
     {
       "type": "Feature",
+      "id": "way/1137787595",
+      "properties": {
+        "access": "permissive",
+        "highway": "track",
+        "smoothness": "bad",
+        "surface": "compacted",
+        "tracktype": "grade2",
+        "width": "3",
+        "id": "way/1137787595"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1488198,
+            51.0420029
+          ],
+          [
+            4.1488593,
+            51.042027
+          ],
+          [
+            4.1493965,
+            51.0422482
+          ],
+          [
+            4.1496259,
+            51.0423075
+          ],
+          [
+            4.1499559,
+            51.0423641
+          ],
+          [
+            4.1502078,
+            51.0423848
+          ],
+          [
+            4.1506119,
+            51.0423886
+          ],
+          [
+            4.1507482,
+            51.0423924
+          ],
+          [
+            4.1508395,
+            51.0424032
+          ],
+          [
+            4.1509307,
+            51.0424596
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1137787596",
+      "properties": {
+        "access": "permit",
+        "highway": "track",
+        "id": "way/1137787596"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1483967,
+            51.0424721
+          ],
+          [
+            4.1486701,
+            51.0425303
+          ],
+          [
+            4.1490376,
+            51.0425955
+          ],
+          [
+            4.1493141,
+            51.0426271
+          ],
+          [
+            4.1496188,
+            51.0426469
+          ],
+          [
+            4.1499769,
+            51.0426409
+          ],
+          [
+            4.1504136,
+            51.0426034
+          ],
+          [
+            4.1507309,
+            51.042554
+          ],
+          [
+            4.1508188,
+            51.0425323
+          ],
+          [
+            4.1509307,
+            51.0424596
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1144623690",
       "properties": {
         "highway": "path",
@@ -168484,6 +168551,186 @@
           [
             3.5705199,
             50.755803
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1413148782",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "surface": "asphalt",
+        "traffic_sign": "BE:D7",
+        "id": "way/1413148782"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6195211,
+            50.755112
+          ],
+          [
+            3.6194919,
+            50.7551082
+          ],
+          [
+            3.6194481,
+            50.7550942
+          ],
+          [
+            3.6193842,
+            50.7550678
+          ],
+          [
+            3.6193463,
+            50.7550407
+          ],
+          [
+            3.619327,
+            50.7550163
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1413148783",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "surface": "asphalt",
+        "traffic_sign": "BE:D7",
+        "id": "way/1413148783"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6196288,
+            50.7551457
+          ],
+          [
+            3.6196193,
+            50.7551433
+          ],
+          [
+            3.6195687,
+            50.7551325
+          ],
+          [
+            3.61953,
+            50.7551153
+          ],
+          [
+            3.6195211,
+            50.755112
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1413148785",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "surface": "asphalt",
+        "traffic_sign": "BE:D7",
+        "id": "way/1413148785"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6198857,
+            50.7551779
+          ],
+          [
+            3.6197811,
+            50.7551743
+          ],
+          [
+            3.6196639,
+            50.7551561
+          ],
+          [
+            3.6196379,
+            50.7551477
+          ],
+          [
+            3.6196288,
+            50.7551457
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1413148786",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "surface": "asphalt",
+        "traffic_sign": "BE:D7",
+        "id": "way/1413148786"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6253458,
+            50.7560392
+          ],
+          [
+            3.6253352,
+            50.7560307
+          ],
+          [
+            3.6252911,
+            50.7559993
+          ],
+          [
+            3.6251852,
+            50.7559711
+          ],
+          [
+            3.6250276,
+            50.7559473
+          ],
+          [
+            3.6247061,
+            50.7558899
+          ],
+          [
+            3.6243593,
+            50.755824
+          ],
+          [
+            3.6237929,
+            50.7557316
+          ],
+          [
+            3.6220627,
+            50.7554477
+          ],
+          [
+            3.6214421,
+            50.7553662
+          ],
+          [
+            3.6206093,
+            50.7552649
+          ],
+          [
+            3.6200959,
+            50.7552062
+          ],
+          [
+            3.6198857,
+            50.7551779
           ]
         ]
       }
@@ -183604,7 +183851,7 @@
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
-        "name": "Potterierei",
+        "name": "Sint-Annarei",
         "note:width:carriageway": "Breedte zonder parkeerbaai",
         "oneway": "no",
         "parking:lane:left": "bays",
@@ -183613,10 +183860,10 @@
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
         "surface": "sett",
-        "website": "https://inventaris.onroerenderfgoed.be/dibe/geheel/11952",
+        "website": "https://inventaris.onroerenderfgoed.be/themas/10276",
         "width:carriageway": "6.0",
         "wikidata": "Q2012421",
-        "wikipedia": "nl:Potterierei",
+        "wikipedia": "nl:Sint-Annarei",
         "id": "way/4329126"
       },
       "geometry": {
