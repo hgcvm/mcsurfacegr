@@ -2554,6 +2554,7 @@
         "maxspeed": "50",
         "name": "Markt",
         "ref": "N141",
+        "surface": "paving_stones",
         "id": "way/26657790"
       },
       "geometry": {
@@ -7313,7 +7314,7 @@
       "properties": {
         "highway": "track",
         "name": "Mortelstraat",
-        "surface": "ground",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/54054049"
       },
@@ -7392,7 +7393,7 @@
         "motor_vehicle": "destination",
         "name": "Langedijk",
         "speed_pedelec": "no",
-        "surface": "dirt",
+        "surface": "compacted",
         "tracktype": "grade4",
         "id": "way/54059895"
       },
@@ -7935,6 +7936,7 @@
         "highway": "unclassified",
         "name": "Lazarijstraat",
         "oneway": "no",
+        "surface": "concrete",
         "id": "way/68580815"
       },
       "geometry": {
@@ -14655,6 +14657,7 @@
       "id": "way/160529787",
       "properties": {
         "highway": "cycleway",
+        "surface": "concrete",
         "id": "way/160529787"
       },
       "geometry": {
@@ -22356,6 +22359,7 @@
       "properties": {
         "highway": "residential",
         "name": "Boekdonkstraat",
+        "surface": "asphalt",
         "id": "way/239231264"
       },
       "geometry": {
@@ -22496,6 +22500,7 @@
         "name": "Mortelstraat",
         "sidewalk": "no",
         "source:maxspeed": "BE:zone50",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/239233434"
       },
@@ -22957,7 +22962,7 @@
         "alt_name": "Voetweg 120",
         "highway": "path",
         "name": "Bolhuyspad",
-        "surface": "dirt",
+        "surface": "woodchips",
         "id": "way/240537788"
       },
       "geometry": {
@@ -45875,6 +45880,7 @@
       "id": "way/705433550",
       "properties": {
         "highway": "cycleway",
+        "surface": "asphalt",
         "id": "way/705433550"
       },
       "geometry": {
@@ -45897,6 +45903,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/705434858"
       },
       "geometry": {
@@ -48791,7 +48798,7 @@
         "incline": "0%",
         "motor_vehicle": "yes",
         "name": "Bottes Vijver (Voetweg 153)",
-        "surface": "unpaved",
+        "surface": "dirt",
         "width": "1",
         "id": "way/964847467"
       },
@@ -51169,6 +51176,7 @@
       "id": "way/1113768630",
       "properties": {
         "highway": "footway",
+        "surface": "sett",
         "id": "way/1113768630"
       },
       "geometry": {
@@ -53158,6 +53166,7 @@
         "highway": "tertiary",
         "maxspeed": "50",
         "name": "Turnhoutsebaan",
+        "surface": "concrete",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1204657745"
       },
@@ -54069,6 +54078,7 @@
         "highway": "footway",
         "layer": "1",
         "moped": "no",
+        "surface": "asphalt",
         "id": "way/1340998169"
       },
       "geometry": {
@@ -54102,7 +54112,7 @@
       "id": "way/1340998170",
       "properties": {
         "highway": "footway",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/1340998170"
       },
       "geometry": {
@@ -54196,23 +54206,12 @@
       "id": "way/1340998178",
       "properties": {
         "highway": "footway",
+        "surface": "concrete",
         "id": "way/1340998178"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.050547,
-            50.9932272
-          ],
-          [
-            5.0505365,
-            50.9932014
-          ],
-          [
-            5.0505286,
-            50.9931897
-          ],
           [
             5.0504979,
             50.9931401
@@ -54224,10 +54223,6 @@
           [
             5.0506649,
             50.9930251
-          ],
-          [
-            5.0507628,
-            50.9930054
           ]
         ]
       }
@@ -54813,6 +54808,76 @@
           [
             5.3193591,
             51.2234849
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1414035226",
+      "properties": {
+        "highway": "footway",
+        "surface": "asphalt",
+        "id": "way/1414035226"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.050547,
+            50.9932272
+          ],
+          [
+            5.0505365,
+            50.9932014
+          ],
+          [
+            5.0505286,
+            50.9931897
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1414035227",
+      "properties": {
+        "highway": "footway",
+        "surface": "paving_stones",
+        "id": "way/1414035227"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0505286,
+            50.9931897
+          ],
+          [
+            5.0504979,
+            50.9931401
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1414035446",
+      "properties": {
+        "highway": "footway",
+        "surface": "sett",
+        "id": "way/1414035446"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0506649,
+            50.9930251
+          ],
+          [
+            5.0507628,
+            50.9930054
           ]
         ]
       }
