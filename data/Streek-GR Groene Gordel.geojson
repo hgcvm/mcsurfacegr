@@ -247,36 +247,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/22977102",
-      "properties": {
-        "bicycle": "use_sidepath",
-        "highway": "secondary",
-        "maxspeed": "50",
-        "name": "Verbrande Brugsesteenweg",
-        "oneway": "no",
-        "surface": "asphalt",
-        "id": "way/22977102"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4128765,
-            50.9477419
-          ],
-          [
-            4.4129868,
-            50.9477626
-          ],
-          [
-            4.4130881,
-            50.9477855
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/22977103",
       "properties": {
         "cycleway": "track",
@@ -7234,6 +7204,7 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Wijngaardstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -10586,6 +10557,7 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Colombastraat",
         "surface": "asphalt",
         "id": "way/37746998"
@@ -23286,6 +23258,29 @@
     },
     {
       "type": "Feature",
+      "id": "way/140738038",
+      "properties": {
+        "highway": "residential",
+        "name": "Steenbergstraat",
+        "surface": "asphalt",
+        "id": "way/140738038"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1958896,
+            50.8165608
+          ],
+          [
+            4.1952863,
+            50.8165853
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/140738048",
       "properties": {
         "highway": "track",
@@ -26293,32 +26288,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/195420582",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "70",
-        "name": "Grote Vijverselenweg",
-        "source:maxspeed": "BE-VLG:rural",
-        "surface": "asphalt",
-        "zone:traffic": "BE-VLG:rural",
-        "id": "way/195420582"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.1781617,
-            50.7944549
-          ],
-          [
-            4.1782865,
-            50.7942867
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/198507089",
       "properties": {
         "highway": "footway",
@@ -27052,6 +27021,31 @@
           [
             4.2567073,
             50.8409941
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220026355",
+      "properties": {
+        "bridge": "yes",
+        "highway": "path",
+        "layer": "1",
+        "name": "de Ribeaucourtdreef",
+        "surface": "concrete",
+        "id": "way/220026355"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5134213,
+            50.9339076
+          ],
+          [
+            4.5133645,
+            50.9339146
           ]
         ]
       }
@@ -28593,6 +28587,7 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Mekingenweg",
         "id": "way/283166865"
       },
@@ -38764,34 +38759,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/750074198",
-      "properties": {
-        "agricultural": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "horse": "yes",
-        "surface": "sett",
-        "traffic_sign": "BE:F99c",
-        "vehicle": "destination",
-        "id": "way/750074198"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.2237202,
-            50.9290537
-          ],
-          [
-            4.2236638,
-            50.9290941
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/762503545",
       "properties": {
         "bicycle": "no",
@@ -43689,6 +43656,105 @@
     },
     {
       "type": "Feature",
+      "id": "way/1011341400",
+      "properties": {
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "layer": "1",
+        "id": "way/1011341400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1866857,
+            50.9297386
+          ],
+          [
+            4.1867184,
+            50.9297226
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1011341401",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "id": "way/1011341401"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.1866713,
+            50.9297456
+          ],
+          [
+            4.1866857,
+            50.9297386
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1013872682",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "width": "1",
+        "id": "way/1013872682"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5134927,
+            50.9338718
+          ],
+          [
+            4.5134715,
+            50.9338032
+          ],
+          [
+            4.5134554,
+            50.9336897
+          ],
+          [
+            4.5133911,
+            50.9334415
+          ],
+          [
+            4.5133344,
+            50.9333489
+          ],
+          [
+            4.5133569,
+            50.9331248
+          ],
+          [
+            4.5132685,
+            50.9328
+          ],
+          [
+            4.5132029,
+            50.932441
+          ],
+          [
+            4.5131458,
+            50.9323766
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1019972791",
       "properties": {
         "bicycle": "yes",
@@ -45933,6 +45999,7 @@
         "cyclestreet": "yes",
         "highway": "residential",
         "lane_markings": "no",
+        "maxspeed": "30",
         "name": "Colombastraat",
         "surface": "paving_stones",
         "id": "way/1157587079"
@@ -46039,6 +46106,33 @@
           [
             4.5701286,
             50.8616048
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1164539347",
+      "properties": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "motor_vehicle": "yes",
+        "surface": "unpaved",
+        "tracktype": "grade2",
+        "id": "way/1164539347"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.2097787,
+            50.9142583
+          ],
+          [
+            4.2097492,
+            50.9143003
           ]
         ]
       }
@@ -46243,6 +46337,50 @@
           [
             4.2568875,
             50.8414377
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1188985024",
+      "properties": {
+        "highway": "path",
+        "name": "de Ribeaucourtdreef",
+        "surface": "dirt",
+        "id": "way/1188985024"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5133645,
+            50.9339146
+          ],
+          [
+            4.5133394,
+            50.9339228
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1194243499",
+      "properties": {
+        "highway": "cycleway",
+        "id": "way/1194243499"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3353803,
+            50.9296719
+          ],
+          [
+            4.335286,
+            50.9296453
           ]
         ]
       }
@@ -48617,6 +48755,28 @@
     },
     {
       "type": "Feature",
+      "id": "way/1333711486",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/1333711486"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5134927,
+            50.9338718
+          ],
+          [
+            4.5134213,
+            50.9339076
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1334527303",
       "properties": {
         "cycleway": "lane",
@@ -49812,6 +49972,28 @@
           [
             4.2050918,
             50.9208834
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1415229973",
+      "properties": {
+        "highway": "service",
+        "oneway": "yes",
+        "id": "way/1415229973"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.2610765,
+            50.8496918
+          ],
+          [
+            4.2610745,
+            50.8496835
           ]
         ]
       }
