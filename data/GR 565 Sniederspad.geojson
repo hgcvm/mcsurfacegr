@@ -834,11 +834,7 @@
       "type": "Feature",
       "id": "way/12985639",
       "properties": {
-        "access": "no",
-        "cycleway:left": "no",
-        "cycleway:right": "track",
-        "cycleway:right:oneway": "no",
-        "cycleway:right:surface": "paving_stones",
+        "cycleway": "separate",
         "highway": "tertiary",
         "lanes": "2",
         "lit": "yes",
@@ -849,13 +845,21 @@
         "shoulder": "no",
         "sidewalk": "no",
         "source:maxspeed": "sign",
-        "surface": "concrete:plates",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/12985639"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            4.5346672,
+            51.2334376
+          ],
+          [
+            4.5346024,
+            51.2332878
+          ],
           [
             4.5345646,
             51.2331927
@@ -883,6 +887,22 @@
           [
             4.5340307,
             51.2318363
+          ],
+          [
+            4.5332949,
+            51.2309064
+          ],
+          [
+            4.5332793,
+            51.2308866
+          ],
+          [
+            4.5332707,
+            51.2308757
+          ],
+          [
+            4.5332568,
+            51.2308581
           ],
           [
             4.5331975,
@@ -917,8 +937,8 @@
             51.2299173
           ],
           [
-            4.5327234,
-            51.2298762
+            4.5327188,
+            51.2298776
           ],
           [
             4.5326957,
@@ -3786,17 +3806,13 @@
         "bicycle": "use_sidepath",
         "change:lanes:backward": "not_left|not_right",
         "change:lanes:forward": "no",
-        "embankment": "no",
         "fixme": "busroutes and other data",
         "highway": "secondary",
-        "horse": "unspecified",
-        "incline": "0%",
         "lanes": "3",
         "lanes:backward": "2",
         "lanes:forward": "1",
         "maxspeed": "70",
         "name": "Turnhoutsebaan",
-        "oneway": "no",
         "priority_road": "designated",
         "sidewalk": "no",
         "source:maxspeed": "BE-VLG:rural",
@@ -3826,6 +3842,7 @@
       "type": "Feature",
       "id": "way/29385601",
       "properties": {
+        "access": "no",
         "highway": "service",
         "id": "way/29385601"
       },
@@ -24931,43 +24948,6 @@
           [
             4.6494287,
             51.2399341
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/473986014",
-      "properties": {
-        "bicycle": "use_sidepath",
-        "highway": "tertiary",
-        "lanes": "2",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "'s Gravenwezelsteenweg",
-        "name:etymology:wikidata": "Q2747279",
-        "priority_road": "designated",
-        "shoulder": "no",
-        "sidewalk": "no",
-        "source:maxspeed": "sign",
-        "surface": "asphalt",
-        "zone:traffic": "BE-VLG:rural",
-        "id": "way/473986014"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.5346672,
-            51.2334376
-          ],
-          [
-            4.5346024,
-            51.2332878
-          ],
-          [
-            4.5345646,
-            51.2331927
           ]
         ]
       }
