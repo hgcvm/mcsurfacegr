@@ -16830,24 +16830,27 @@
       "type": "Feature",
       "id": "way/139996867",
       "properties": {
-        "highway": "residential",
+        "access:conditional": "delivery @ (06:00-10:00)",
+        "bicycle": "yes",
+        "highway": "pedestrian",
         "name": "Zeedijk",
+        "segregated": "no",
         "id": "way/139996867"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            2.782434,
-            51.1743576
+            2.7823924,
+            51.174379
           ],
           [
-            2.7824754,
-            51.174327
+            2.7824392,
+            51.1743531
           ],
           [
-            2.7827506,
-            51.174291
+            2.7826859,
+            51.1743051
           ]
         ]
       }
@@ -39784,7 +39787,7 @@
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "1",
-        "name": "Albert I laan",
+        "name": "Albert I-laan",
         "name:etymology:wikidata": "Q55008046",
         "sidewalk": "both",
         "surface": "asphalt",
@@ -43351,8 +43354,8 @@
             51.174382
           ],
           [
-            2.7824068,
-            51.1743713
+            2.7822334,
+            51.1743787
           ]
         ]
       }
@@ -43361,7 +43364,7 @@
       "type": "Feature",
       "id": "way/1272826298",
       "properties": {
-        "highway": "footway",
+        "highway": "pedestrian",
         "surface": "paved",
         "id": "way/1272826298"
       },
@@ -43369,12 +43372,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.7824068,
-            51.1743713
+            2.7822334,
+            51.1743787
           ],
           [
-            2.782434,
-            51.1743576
+            2.7823924,
+            51.174379
           ]
         ]
       }
@@ -45368,6 +45371,28 @@
           [
             2.7670778,
             51.1685507
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1416799944",
+      "properties": {
+        "highway": "residential",
+        "name": "Zeedijk",
+        "id": "way/1416799944"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7826859,
+            51.1743051
+          ],
+          [
+            2.7827506,
+            51.174291
           ]
         ]
       }
