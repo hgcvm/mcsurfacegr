@@ -995,7 +995,7 @@
         "lit": "yes",
         "segregated": "no",
         "smoothness": "intermediate",
-        "surface": "paving_stones",
+        "surface": "concrete",
         "width": "1",
         "id": "way/26339348"
       },
@@ -1015,8 +1015,8 @@
             51.0954576
           ],
           [
-            2.5658817,
-            51.0948103
+            2.5658091,
+            51.0953618
           ]
         ]
       }
@@ -2728,9 +2728,14 @@
       "type": "Feature",
       "id": "way/40334368",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Duinhoekstraat",
+        "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "width": "4",
         "id": "way/40334368"
@@ -2775,7 +2780,11 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Zwartenhoekstraat",
+        "sidewalk": "no",
+        "smoothness": "good",
         "source": "Ortho littorale 2000",
         "surface": "asphalt",
         "width": "4.5",
@@ -2785,12 +2794,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.5997451,
-            51.0774996
-          ],
-          [
-            2.5995433,
-            51.0774956
+            2.599122,
+            51.0774811
           ],
           [
             2.5981244,
@@ -5998,10 +6003,15 @@
       "id": "way/72112120",
       "properties": {
         "bridge": "yes",
+        "cycleway:both": "no",
+        "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "layer": "1",
         "maxspeed": "30",
         "name": "Langgeleedstraat",
+        "sidewalk": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/72112120"
       },
@@ -16962,10 +16972,15 @@
       "id": "way/142490162",
       "properties": {
         "access": "destination",
+        "cycleway:both": "no",
         "highway": "unclassified",
         "horse": "yes",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Duinhoekstraat",
+        "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "width": "4",
         "id": "way/142490162"
@@ -17968,6 +17983,8 @@
         "lit": "yes",
         "name": "Schuilhavenlaan",
         "parking:both": "no",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/155610966"
       },
@@ -18094,6 +18111,7 @@
         "highway": "track",
         "name": "Keunepad",
         "surface": "sand",
+        "tracktype": "grade5",
         "width": "2",
         "id": "way/158926013"
       },
@@ -18193,7 +18211,11 @@
       "id": "way/158926060",
       "properties": {
         "bicycle": "designated",
+        "check_date:surface": "2025-07-26",
+        "cycleway:surface": "compacted",
+        "cycleway:width": "2.5",
         "foot": "designated",
+        "footway:surface": "compacted",
         "highway": "path",
         "name": "Yourcenarpad",
         "segregated": "yes",
@@ -18710,9 +18732,13 @@
       "type": "Feature",
       "id": "way/167228945",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Langgeleedstraat",
+        "sidewalk": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/167228945"
       },
@@ -25101,10 +25127,13 @@
       "type": "Feature",
       "id": "way/248675230",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Stationsplein",
         "oneway": "yes",
-        "surface": "paving_stones",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
         "id": "way/248675230"
       },
       "geometry": {
@@ -27296,9 +27325,10 @@
       "type": "Feature",
       "id": "way/409689864",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Stationsplein",
-        "surface": "paving_stones",
+        "surface": "asphalt",
         "id": "way/409689864"
       },
       "geometry": {
@@ -31841,10 +31871,13 @@
       "type": "Feature",
       "id": "way/729519691",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Zwartenhoekstraat",
         "oneway": "yes",
-        "surface": "paving_stones",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
         "id": "way/729519691"
       },
       "geometry": {
@@ -33030,10 +33063,14 @@
       "type": "Feature",
       "id": "way/856290447",
       "properties": {
+        "cycleway:both": "no",
         "highway": "secondary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Duinhoekstraat",
         "ref": "N386",
+        "sidewalk": "no",
+        "smoothness": "good",
         "source": "Ortho littorale 2000",
         "surface": "asphalt",
         "id": "way/856290447"
@@ -38241,10 +38278,12 @@
       "type": "Feature",
       "id": "way/1150565526",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "junction": "roundabout",
         "lanes": "1",
         "name": "Stationsplein",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "width": "3.5",
         "id": "way/1150565526"
@@ -38359,11 +38398,14 @@
       "type": "Feature",
       "id": "way/1150570114",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "30",
         "name": "Langgeleedstraat",
         "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "concrete",
         "width": "3",
         "id": "way/1150570114"
@@ -45393,6 +45435,68 @@
           [
             2.7827506,
             51.174291
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1417564816",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "horse": "no",
+        "lit": "yes",
+        "segregated": "no",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
+        "width": "1",
+        "id": "way/1417564816"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5658091,
+            51.0953618
+          ],
+          [
+            2.5658817,
+            51.0948103
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1417575411",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lane_markings": "no",
+        "maxspeed:type": "BE-VLG:urban",
+        "name": "Zwartenhoekstraat",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "source": "Ortho littorale 2000",
+        "surface": "asphalt",
+        "width": "4.5",
+        "id": "way/1417575411"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5997451,
+            51.0774996
+          ],
+          [
+            2.5995433,
+            51.0774956
+          ],
+          [
+            2.599122,
+            51.0774811
           ]
         ]
       }
