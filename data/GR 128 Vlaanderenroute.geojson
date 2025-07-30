@@ -52271,6 +52271,7 @@
       "properties": {
         "highway": "footway",
         "name": "Knuppelpad",
+        "surface": "fine_gravel",
         "id": "way/55695511"
       },
       "geometry": {
@@ -110651,6 +110652,7 @@
         "maxspeed": "30",
         "name": "Dorp",
         "source:maxspeed": "BE:zone30",
+        "surface": "paving_stones",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/665285148"
       },
@@ -117218,7 +117220,10 @@
       "id": "way/781291844",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Dorp",
+        "sidewalk": "right",
+        "surface": "sett",
         "id": "way/781291844"
       },
       "geometry": {
@@ -148541,12 +148546,14 @@
         "bicycle": "designated",
         "check_date:surface": "2024-07-23",
         "cycleway:surface": "paving_stones",
+        "cycleway:width": "1.1",
         "foot": "designated",
         "footway:surface": "paving_stones",
         "highway": "path",
         "lit": "yes",
         "oneway": "yes",
         "segregated": "yes",
+        "source:cycleway:width": "ARCore",
         "surface": "paving_stones",
         "traffic_sign": "none",
         "id": "way/1087199945"
