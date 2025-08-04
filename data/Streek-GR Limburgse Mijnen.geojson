@@ -5642,6 +5642,7 @@
         "maxspeed": "30",
         "name": "Alfred Habetslaan",
         "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/144840789"
       },
@@ -5691,6 +5692,7 @@
         "maxspeed": "50",
         "name": "Duinenstraat",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/144840791"
       },
@@ -10014,6 +10016,7 @@
       "id": "way/219168268",
       "properties": {
         "highway": "track",
+        "surface": "grass",
         "tracktype": "grade4",
         "id": "way/219168268"
       },
@@ -11726,6 +11729,7 @@
       "properties": {
         "highway": "track",
         "horse": "yes",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/229810663"
       },
@@ -12500,6 +12504,7 @@
       "id": "way/233912418",
       "properties": {
         "highway": "track",
+        "surface": "grass",
         "tracktype": "grade4",
         "id": "way/233912418"
       },
@@ -23277,6 +23282,7 @@
         "highway": "cycleway",
         "motor_vehicle": "no",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/410194463"
       },
       "geometry": {
@@ -23528,6 +23534,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/417100248"
       },
       "geometry": {
@@ -27124,6 +27131,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/534623131"
       },
       "geometry": {
@@ -27154,6 +27162,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "concrete",
         "id": "way/534623133"
       },
       "geometry": {
@@ -27184,6 +27193,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/534623135"
       },
       "geometry": {
@@ -28643,7 +28653,7 @@
       "properties": {
         "highway": "track",
         "horse": "yes",
-        "surface": "ground",
+        "surface": "compacted",
         "tracktype": "grade3",
         "id": "way/546406891"
       },
@@ -33698,6 +33708,7 @@
       "id": "way/759660800",
       "properties": {
         "highway": "path",
+        "surface": "paving_stones",
         "id": "way/759660800"
       },
       "geometry": {
@@ -35479,6 +35490,7 @@
         "foot": "yes",
         "highway": "service",
         "name": "C-mine",
+        "surface": "asphalt",
         "id": "way/897937574"
       },
       "geometry": {
@@ -38048,6 +38060,7 @@
       "properties": {
         "highway": "residential",
         "name": "Rondplein",
+        "surface": "asphalt",
         "id": "way/1044493643"
       },
       "geometry": {
@@ -38086,6 +38099,7 @@
       "properties": {
         "highway": "residential",
         "name": "Rondplein",
+        "surface": "asphalt",
         "id": "way/1044493644"
       },
       "geometry": {
@@ -47107,12 +47121,17 @@
         "maxspeed": "50",
         "name": "Laan op Vurten",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1275678248"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.2258996,
+            51.0754666
+          ],
           [
             5.2258996,
             51.0754666
@@ -47140,6 +47159,7 @@
         "maxspeed": "50",
         "name": "Wilgenstraat",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1275678250"
       },
@@ -47179,6 +47199,7 @@
         "parking:both:orientation": "parallel",
         "sidewalk": "both",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1275678251"
       },
@@ -47220,6 +47241,7 @@
         "maxspeed": "50",
         "name": "Alfred Habetslaan",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1275678254"
       },
@@ -47255,6 +47277,7 @@
       "properties": {
         "highway": "residential",
         "name": "Noordwijkstraat",
+        "surface": "asphalt",
         "id": "way/1275678255"
       },
       "geometry": {
@@ -47691,6 +47714,7 @@
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
         "oneway:speed_pedelec": "no",
+        "surface": "asphalt",
         "id": "way/1276074924"
       },
       "geometry": {
@@ -47712,7 +47736,7 @@
       "id": "way/1276074926",
       "properties": {
         "highway": "path",
-        "surface": "ground",
+        "surface": "paving_stones",
         "id": "way/1276074926"
       },
       "geometry": {
@@ -47757,6 +47781,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "paving_stones",
         "id": "way/1276074930"
       },
       "geometry": {
@@ -50308,6 +50333,7 @@
         "name": "Kasteletsingel",
         "oneway": "yes",
         "ref": "N72",
+        "surface": "concrete",
         "id": "way/1303071767"
       },
       "geometry": {
@@ -50340,6 +50366,7 @@
         "name": "Kasteletsingel",
         "oneway": "yes",
         "ref": "N72",
+        "surface": "concrete",
         "id": "way/1303071769"
       },
       "geometry": {
@@ -51983,6 +52010,7 @@
       "id": "way/1303419276",
       "properties": {
         "highway": "track",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/1303419276"
       },
@@ -57179,6 +57207,7 @@
         "maxspeed": "30",
         "name": "Pastoor Paquaylaan",
         "source": "Yahoo",
+        "surface": "paving_stones",
         "id": "way/1418428175"
       },
       "geometry": {
@@ -57203,6 +57232,7 @@
         "maxspeed": "30",
         "name": "Pastoor Paquaylaan",
         "source": "Yahoo",
+        "surface": "paving_stones",
         "id": "way/1418428176"
       },
       "geometry": {
