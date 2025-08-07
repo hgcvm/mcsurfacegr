@@ -2621,9 +2621,14 @@
       "type": "Feature",
       "id": "way/40324334",
       "properties": {
-        "highway": "pedestrian",
+        "highway": "residential",
         "lit": "yes",
         "name": "Jean Van Hinsberghstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "oneway:moped": "yes",
+        "oneway:speed_pedelec": "yes",
         "id": "way/40324334"
       },
       "geometry": {
@@ -2634,8 +2639,16 @@
             51.1878544
           ],
           [
-            2.8160696,
-            51.1879487
+            2.8161175,
+            51.1879043
+          ],
+          [
+            2.8160711,
+            51.1879493
+          ],
+          [
+            2.8160552,
+            51.1879648
           ]
         ]
       }
@@ -44430,29 +44443,6 @@
           [
             2.8161393,
             51.1878084
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1304314253",
-      "properties": {
-        "highway": "pedestrian",
-        "lit": "yes",
-        "name": "Jean Van Hinsberghstraat",
-        "id": "way/1304314253"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.8160696,
-            51.1879487
-          ],
-          [
-            2.8160552,
-            51.1879648
           ]
         ]
       }
