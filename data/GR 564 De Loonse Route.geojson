@@ -4694,13 +4694,15 @@
       "type": "Feature",
       "id": "way/52873285",
       "properties": {
-        "access": "no",
-        "bicycle": "yes",
-        "foot": "yes",
+        "agricultural": "yes",
+        "bicycle": "designated",
+        "foot": "designated",
         "grade": "2",
         "highway": "cycleway",
+        "motor_vehicle": "destination",
         "smoothness": "good",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
         "id": "way/52873285"
       },
       "geometry": {
@@ -5194,7 +5196,7 @@
       "properties": {
         "bicycle": "designated",
         "foot": "designated",
-        "highway": "path",
+        "highway": "cycleway",
         "lit": "no",
         "surface": "gravel",
         "traffic_sign": "BE:F99a",
@@ -5274,7 +5276,7 @@
       "properties": {
         "bicycle": "designated",
         "foot": "designated",
-        "highway": "path",
+        "highway": "cycleway",
         "horse": "yes",
         "lit": "no",
         "surface": "fine_gravel",
@@ -25298,13 +25300,14 @@
       "type": "Feature",
       "id": "way/292221476",
       "properties": {
-        "access": "private",
-        "bicycle": "yes",
-        "foot": "yes",
+        "bicycle": "designated",
+        "foot": "designated",
         "highway": "cycleway",
-        "motor_vehicle": "permissive",
+        "horse": "designated",
+        "motor_vehicle": "destination",
         "name": "Rue Naxhelet",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99a",
         "id": "way/292221476"
       },
       "geometry": {
@@ -31211,13 +31214,19 @@
       "type": "Feature",
       "id": "way/367270364",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "designated",
+        "foot": "designated",
         "highway": "cycleway",
+        "horse": "designated",
         "lane_markings": "no",
         "lit": "no",
         "maxspeed": "30",
         "maxspeed:type": "BE:zone30",
+        "motor_vehicle": "destination",
         "name": "Rue Naxhelet",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
         "id": "way/367270364"
       },
       "geometry": {
@@ -43117,7 +43126,6 @@
       "properties": {
         "highway": "cycleway",
         "lit": "yes",
-        "oneway": "yes",
         "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/1389305153"
