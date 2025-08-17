@@ -3776,14 +3776,25 @@
       "type": "Feature",
       "id": "way/23116888",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
         "cycleway:both": "no",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "unclassified",
+        "horse": "yes",
+        "lanes": "1",
         "lit": "yes",
-        "maxspeed": "50",
-        "maxspeed:type": "BE-VLG:urban",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:F99c",
+        "motor_vehicle": "destination",
         "name": "Kerstraat",
-        "sidewalk": "no",
+        "sidewalk:both": "no",
+        "smoothness": "good",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/23116888"
       },
       "geometry": {
@@ -3794,16 +3805,24 @@
             50.8564319
           ],
           [
+            4.615275,
+            50.8565432
+          ],
+          [
             4.6156357,
             50.8566932
           ],
           [
-            4.6162548,
-            50.856921
+            4.6161107,
+            50.8568834
           ],
           [
-            4.6163608,
-            50.85696
+            4.6162457,
+            50.856932
+          ],
+          [
+            4.6163404,
+            50.8569648
           ]
         ]
       }
@@ -3913,8 +3932,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6177749,
-            50.857223
+            4.6177666,
+            50.8572378
           ],
           [
             4.6179766,
@@ -40242,7 +40261,7 @@
       "type": "Feature",
       "id": "way/790956554",
       "properties": {
-        "access": "no",
+        "agricultural": "yes",
         "bicycle": "yes",
         "cycleway:both": "no",
         "emergency": "yes",
@@ -40250,33 +40269,48 @@
         "highway": "track",
         "horse": "yes",
         "lit": "no",
-        "maxspeed": "50",
-        "maxspeed:type": "BE-VLG:urban",
-        "motor_vehicle": "designated",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:F99c",
+        "motor_vehicle": "destination",
         "name": "Kerstraat",
+        "smoothness": "excellent",
+        "speed_pedelec": "yes",
         "surface": "concrete:lanes",
         "tracktype": "grade1",
-        "traffic_sign": "BE:C3,BE:Type_IV_local_traffic_nl",
+        "traffic_sign": "BE:F99c",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/790956554"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.6163608,
-            50.85696
+            4.6163404,
+            50.8569648
           ],
           [
-            4.6166347,
-            50.8570607
+            4.6165217,
+            50.8570213
           ],
           [
-            4.6167085,
-            50.8570879
+            4.6166674,
+            50.8570609
           ],
           [
-            4.6177749,
-            50.857223
+            4.6167976,
+            50.8570931
+          ],
+          [
+            4.6171472,
+            50.8571559
+          ],
+          [
+            4.617533,
+            50.8572111
+          ],
+          [
+            4.6177666,
+            50.8572378
           ]
         ]
       }
@@ -46795,8 +46829,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7062578,
-            50.8636349
+            4.7062038,
+            50.8636363
           ],
           [
             4.7063778,
@@ -46809,6 +46843,10 @@
           [
             4.7068496,
             50.8636831
+          ],
+          [
+            4.7073752,
+            50.8637757
           ],
           [
             4.707582,
@@ -50502,6 +50540,10 @@
             50.8638789
           ],
           [
+            4.7019218,
+            50.8638822
+          ],
+          [
             4.7022552,
             50.8639198
           ],
@@ -50516,6 +50558,10 @@
           [
             4.7029763,
             50.8639398
+          ],
+          [
+            4.7030743,
+            50.8639344
           ],
           [
             4.7032499,
@@ -50566,6 +50612,10 @@
             50.8637003
           ],
           [
+            4.7058247,
+            50.8636914
+          ],
+          [
             4.7060195,
             50.8636589
           ],
@@ -50574,8 +50624,8 @@
             50.8636479
           ],
           [
-            4.7062578,
-            50.8636349
+            4.7062038,
+            50.8636363
           ]
         ]
       }
@@ -55769,6 +55819,10 @@
           [
             4.708411,
             50.8639736
+          ],
+          [
+            4.7085673,
+            50.8640069
           ],
           [
             4.7086439,
