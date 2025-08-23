@@ -11919,6 +11919,7 @@
         "lanes": "2",
         "maxspeed": "70",
         "name": "Europalaan",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N118",
         "surface": "asphalt",
         "id": "way/55701354"
@@ -24874,8 +24875,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9406194,
-            51.32157
+            4.9402412,
+            51.3215133
           ],
           [
             4.9394868,
@@ -24890,14 +24891,15 @@
       "properties": {
         "highway": "residential",
         "name": "Kruishuisstraat",
+        "surface": "asphalt",
         "id": "way/480182265"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.9406194,
-            51.32157
+            4.9406286,
+            51.3215013
           ],
           [
             4.9406765,
@@ -28738,8 +28740,8 @@
             51.2289842
           ],
           [
-            5.0016229,
-            51.2296013
+            5.0016647,
+            51.2296421
           ],
           [
             5.0029504,
@@ -31741,6 +31743,10 @@
             51.2324916
           ],
           [
+            4.9379489,
+            51.2317069
+          ],
+          [
             4.9377238,
             51.2312355
           ]
@@ -32206,6 +32212,53 @@
           [
             4.911462,
             51.2449155
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1423974810",
+      "properties": {
+        "highway": "living_street",
+        "maxspeed": "20",
+        "name": "Molenstraat",
+        "surface": "paving_stones",
+        "id": "way/1423974810"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9406194,
+            51.32157
+          ],
+          [
+            4.9402412,
+            51.3215133
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1423974811",
+      "properties": {
+        "highway": "residential",
+        "name": "Kruishuisstraat",
+        "surface": "paving_stones",
+        "id": "way/1423974811"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9406194,
+            51.32157
+          ],
+          [
+            4.9406286,
+            51.3215013
           ]
         ]
       }
@@ -49542,7 +49595,7 @@
       "id": "way/377036889",
       "properties": {
         "bicycle": "no",
-        "bridge": "yes",
+        "bridge": "boardwalk",
         "highway": "footway",
         "layer": "1",
         "lit": "no",
@@ -49867,6 +49920,8 @@
         "maxspeed": "50",
         "name": "Begijnhof",
         "name:de": "Beginenhof",
+        "old_ref": "N139",
+        "operator": "Gemeente Arendonk",
         "ref": "N139a",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/438202724"
@@ -49966,7 +50021,7 @@
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Schutterstraat",
-        "operator": "Gemeente Arendonk",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N139",
         "id": "way/438202768"
       },
@@ -50026,9 +50081,11 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Vrijheid",
+        "old_ref": "N139",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
+        "operator": "Gemeente Arendonk",
         "ref": "N139a",
         "source": "https://www.arendonk.be/nieuws/verkeer/vrijheid-en-schoolstraat-worden-fietsstraten",
         "zone:traffic": "BE-VLG:urban",
@@ -50069,6 +50126,8 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Wampenberg",
+        "old_ref": "N139",
+        "operator": "Gemeente Arendonk",
         "ref": "N139a",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/438202772"
@@ -50456,9 +50515,11 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Vrijheid",
+        "old_ref": "N139",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
+        "operator": "Gemeente Arendonk",
         "ref": "N139a",
         "source": "https://www.arendonk.be/nieuws/verkeer/vrijheid-en-schoolstraat-worden-fietsstraten",
         "id": "way/470844204"
@@ -51797,6 +51858,7 @@
       "id": "way/958669891",
       "properties": {
         "highway": "service",
+        "operator": "Agentschap Wegen en Verkeer",
         "id": "way/958669891"
       },
       "geometry": {
@@ -52393,6 +52455,8 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Wampenberg",
+        "old_ref": "N139",
+        "operator": "Gemeente Arendonk",
         "ref": "N139a",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1288960967"
