@@ -10635,6 +10635,7 @@
         "lanes": "2",
         "maxspeed": "70",
         "name": "Steenweg op Hoogstraten",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N124",
         "surface": "asphalt",
         "id": "way/52774489"
@@ -14793,6 +14794,7 @@
         "lanes": "2",
         "maxspeed": "70",
         "maxspeed:type": "sign",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N124",
         "surface": "asphalt",
         "id": "way/74004439"
@@ -22833,16 +22835,12 @@
             51.2437585
           ],
           [
-            4.9077217,
-            51.244226
+            4.9077382,
+            51.2442155
           ],
           [
-            4.9085008,
-            51.2443295
-          ],
-          [
-            4.9091652,
-            51.2444197
+            4.9091831,
+            51.2444062
           ]
         ]
       }
@@ -24333,6 +24331,7 @@
         "maxspeed": "70",
         "maxspeed:type": "sign",
         "name": "Steenweg op Hoogstraten",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N124",
         "surface": "asphalt",
         "id": "way/162546709"
@@ -25437,6 +25436,7 @@
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Kerkstraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N137",
         "id": "way/186003129"
       },
@@ -32951,6 +32951,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Kerkstraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N137",
         "surface": "asphalt",
         "id": "way/295930306"
@@ -38089,6 +38090,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Klinketstraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N124",
         "surface": "asphalt",
         "id": "way/418656448"
@@ -40067,8 +40069,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9406194,
-            51.32157
+            4.9402412,
+            51.3215133
           ],
           [
             4.9394868,
@@ -40083,14 +40085,15 @@
       "properties": {
         "highway": "residential",
         "name": "Kruishuisstraat",
+        "surface": "asphalt",
         "id": "way/480182265"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.9406194,
-            51.32157
+            4.9406286,
+            51.3215013
           ],
           [
             4.9406765,
@@ -41151,8 +41154,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9091652,
-            51.2444197
+            4.9091831,
+            51.2444062
           ],
           [
             4.909313,
@@ -41624,6 +41627,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Gelmelstraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N124",
         "surface": "asphalt",
         "id": "way/540656141"
@@ -41675,6 +41679,7 @@
         "maxspeed": "50",
         "name": "Worteldorp",
         "oneway": "no",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N124",
         "surface": "asphalt",
         "id": "way/540656150"
@@ -41737,6 +41742,7 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Gelmelstraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N124",
         "source:maxspeed": "BE-VLG:urban",
         "zone:traffic": "BE-VLG:urban",
@@ -41774,6 +41780,7 @@
         "maxspeed:variable": "school_zone",
         "name": "Gelmelstraat",
         "note": "maxspeed wordt verlaaagd tot 30 door oplichtend bord",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N124",
         "source:maxspeed": "BE-VLG:urban",
         "zone:traffic": "BE-VLG:urban",
@@ -44925,6 +44932,8 @@
         "highway": "secondary",
         "name": "Singel",
         "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "N140",
         "id": "way/685523874"
       },
       "geometry": {
@@ -46736,6 +46745,7 @@
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Kerkstraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N137",
         "id": "way/708176818"
       },
@@ -51969,6 +51979,10 @@
             51.2324916
           ],
           [
+            4.9379489,
+            51.2317069
+          ],
+          [
             4.9377238,
             51.2312355
           ]
@@ -52342,6 +52356,7 @@
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Kerkstraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N137",
         "id": "way/1416330642"
       },
@@ -52552,6 +52567,53 @@
           [
             4.9179245,
             51.2429359
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1423974810",
+      "properties": {
+        "highway": "living_street",
+        "maxspeed": "20",
+        "name": "Molenstraat",
+        "surface": "paving_stones",
+        "id": "way/1423974810"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9406194,
+            51.32157
+          ],
+          [
+            4.9402412,
+            51.3215133
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1423974811",
+      "properties": {
+        "highway": "residential",
+        "name": "Kruishuisstraat",
+        "surface": "paving_stones",
+        "id": "way/1423974811"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9406194,
+            51.32157
+          ],
+          [
+            4.9406286,
+            51.3215013
           ]
         ]
       }

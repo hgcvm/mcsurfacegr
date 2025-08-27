@@ -1580,6 +1580,14 @@
             50.7956617
           ],
           [
+            5.7067299,
+            50.7957745
+          ],
+          [
+            5.7073104,
+            50.7958616
+          ],
+          [
             5.7074094,
             50.7958764
           ]
@@ -15631,9 +15639,8 @@
       "properties": {
         "highway": "residential",
         "name": "Rue de la Vieille Cense",
-        "oneway": "no",
         "surface": "asphalt",
-        "width": "5 m",
+        "width": "5",
         "id": "way/27687358"
       },
       "geometry": {
@@ -15648,24 +15655,32 @@
             50.7515883
           ],
           [
-            4.9894996,
-            50.7521495
+            4.9894414,
+            50.75216
           ],
           [
-            4.9897626,
-            50.7524595
+            4.9897335,
+            50.7524516
           ],
           [
-            4.989927,
-            50.7527709
+            4.9897936,
+            50.7525236
           ],
           [
-            4.9901659,
-            50.7533304
+            4.9898376,
+            50.752625
           ],
           [
-            4.9903959,
-            50.7536812
+            4.9900554,
+            50.7531598
+          ],
+          [
+            4.990114,
+            50.7533002
+          ],
+          [
+            4.9902089,
+            50.7534472
           ],
           [
             4.9907448,
@@ -22571,20 +22586,40 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3649694,
-            50.9837832
+            4.3649656,
+            50.9837783
           ],
           [
-            4.3643732,
-            50.9835301
+            4.3648123,
+            50.9837061
           ],
           [
-            4.363738,
-            50.9833464
+            4.3646234,
+            50.9836315
           ],
           [
-            4.3631753,
-            50.9832432
+            4.3645191,
+            50.9835979
+          ],
+          [
+            4.3643966,
+            50.9835602
+          ],
+          [
+            4.3643324,
+            50.9835402
+          ],
+          [
+            4.3637228,
+            50.9833695
+          ],
+          [
+            4.363624,
+            50.9833438
+          ],
+          [
+            4.3631725,
+            50.9832479
           ],
           [
             4.361103,
@@ -22694,20 +22729,24 @@
             50.9831996
           ],
           [
-            4.3587161,
-            50.9833453
+            4.3587122,
+            50.9833493
           ],
           [
-            4.3587834,
-            50.9833732
+            4.3587768,
+            50.9833791
           ],
           [
-            4.3589854,
-            50.983462
+            4.3589544,
+            50.9834596
           ],
           [
-            4.3590803,
-            50.9835129
+            4.3590608,
+            50.9835141
+          ],
+          [
+            4.3590903,
+            50.9835287
           ],
           [
             4.3592555,
@@ -31138,6 +31177,7 @@
       "id": "way/38208848",
       "properties": {
         "highway": "unclassified",
+        "name": "Sypestraat",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/38208848"
@@ -42087,16 +42127,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9887444,
-            50.7496116
+            4.9888639,
+            50.7497591
           ],
           [
             4.9887317,
             50.7495551
           ],
           [
-            4.9882743,
-            50.7487907
+            4.9882785,
+            50.7488209
           ],
           [
             4.9871319,
@@ -60926,18 +60966,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.8990377,
-            50.8162255
-          ],
-          [
-            2.9001556,
-            50.8158559
-          ],
-          [
-            2.9002634,
-            50.8158163
-          ],
-          [
             2.9005906,
             50.8156969
           ],
@@ -68502,10 +68530,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.9226366,
-            50.8161079
-          ],
-          [
             2.9238647,
             50.8152326
           ],
@@ -70638,7 +70662,7 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
-        "maxspeed;type": "BE:urban",
+        "maxspeed:type": "BE:urban",
         "name": "Sparrendreef",
         "sidewalk": "no",
         "surface": "asphalt",
@@ -73623,7 +73647,7 @@
       "type": "Feature",
       "id": "way/153219252",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
@@ -73638,8 +73662,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.988841,
-            50.749769
+            4.9888639,
+            50.7497591
+          ],
+          [
+            4.9888266,
+            50.7497751
           ],
           [
             4.9886018,
@@ -73650,8 +73678,8 @@
             50.7499534
           ],
           [
-            4.9878424,
-            50.7502713
+            4.9878351,
+            50.7502634
           ]
         ]
       }
@@ -89184,14 +89212,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.9140592,
-            50.819156
-          ],
-          [
-            2.9142757,
-            50.8193772
-          ],
-          [
             2.9143009,
             50.8193922
           ],
@@ -89631,6 +89651,7 @@
         "name": "Scheldedijk (linkeroever)",
         "segregated": "no",
         "surface": "asphalt",
+        "towpath": "yes",
         "traffic_sign": "BE:C3,GIV[uitgezonderd aangelanden toelatingen W&Z , rijwielen en bromfietsen klasse A]",
         "id": "way/309904710"
       },
@@ -89736,6 +89757,7 @@
         "highway": "cycleway",
         "name": "Scheldedijk (linkeroever)",
         "surface": "paving_stones",
+        "towpath": "yes",
         "id": "way/309904711"
       },
       "geometry": {
@@ -91215,12 +91237,12 @@
             51.0259509
           ],
           [
-            3.9243568,
-            51.0258767
+            3.9239096,
+            51.0257591
           ],
           [
-            3.9238874,
-            51.0257518
+            3.9234747,
+            51.0256716
           ]
         ]
       }
@@ -94458,6 +94480,7 @@
         "highway": "cycleway",
         "name": "Scheldedijk (linkeroever)",
         "surface": "paving_stones",
+        "towpath": "yes",
         "id": "way/374747371"
       },
       "geometry": {
@@ -95020,6 +95043,10 @@
           [
             5.6867515,
             50.8383177
+          ],
+          [
+            5.6869417,
+            50.8386892
           ],
           [
             5.6869591,
@@ -96034,6 +96061,7 @@
         "highway": "cycleway",
         "name": "Scheldedijk (linkeroever)",
         "surface": "paving_stones",
+        "towpath": "yes",
         "id": "way/381754784"
       },
       "geometry": {
@@ -96066,6 +96094,7 @@
         "highway": "cycleway",
         "name": "Scheldedijk (linkeroever)",
         "surface": "asphalt",
+        "towpath": "yes",
         "id": "way/381754785"
       },
       "geometry": {
@@ -105765,6 +105794,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "no",
+        "surface": "concrete",
         "id": "way/554322981"
       },
       "geometry": {
@@ -105795,6 +105825,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "concrete",
         "id": "way/554327879"
       },
       "geometry": {
@@ -107912,17 +107943,16 @@
       "properties": {
         "highway": "residential",
         "name": "Rue de la Vieille Cense",
-        "oneway": "no",
         "surface": "asphalt",
-        "width": "5 m",
+        "width": "5",
         "id": "way/608981243"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.9878424,
-            50.7502713
+            4.9878351,
+            50.7502634
           ],
           [
             4.9885648,
@@ -107931,29 +107961,6 @@
           [
             4.988735,
             50.7514998
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/608981245",
-      "properties": {
-        "highway": "track",
-        "surface": "concrete",
-        "tracktype": "grade3",
-        "id": "way/608981245"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.988841,
-            50.749769
-          ],
-          [
-            4.9887444,
-            50.7496116
           ]
         ]
       }
@@ -109008,8 +109015,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3649694,
-            50.9837832
+            4.3649656,
+            50.9837783
           ],
           [
             4.3649457,
@@ -120697,35 +120704,6 @@
           [
             5.1963086,
             50.8559752
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/856230570",
-      "properties": {
-        "bicycle": "yes",
-        "bridge": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "horse": "no",
-        "layer": "1",
-        "material": "Corten steel",
-        "name": "Roerdomp-brug",
-        "vehicle": "no",
-        "id": "way/856230570"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.9238874,
-            51.0257518
-          ],
-          [
-            3.9234747,
-            51.0256716
           ]
         ]
       }
@@ -135997,6 +135975,88 @@
           [
             4.7032167,
             50.9477951
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1424639510",
+      "properties": {
+        "highway": "unclassified",
+        "name": "Bernikkewallestraat",
+        "surface": "asphalt",
+        "width": "3",
+        "id": "way/1424639510"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8990377,
+            50.8162255
+          ],
+          [
+            2.9001556,
+            50.8158559
+          ],
+          [
+            2.9002634,
+            50.8158163
+          ],
+          [
+            2.9005906,
+            50.8156969
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1424639519",
+      "properties": {
+        "bicycle": "no",
+        "highway": "track",
+        "tracktype": "grade5",
+        "id": "way/1424639519"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.9140592,
+            50.819156
+          ],
+          [
+            2.9142757,
+            50.8193772
+          ],
+          [
+            2.9143009,
+            50.8193922
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1424639522",
+      "properties": {
+        "bicycle": "no",
+        "highway": "footway",
+        "surface": "grass",
+        "id": "way/1424639522"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.9226366,
+            50.8161079
+          ],
+          [
+            2.9238647,
+            50.8152326
           ]
         ]
       }
@@ -158969,7 +159029,6 @@
       "properties": {
         "footway": "sidewalk",
         "highway": "footway",
-        "surface": "paving_stones",
         "id": "way/1116478192"
       },
       "geometry": {
