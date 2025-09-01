@@ -9211,7 +9211,7 @@
       "id": "way/218148134",
       "properties": {
         "highway": "path",
-        "surface": "dirt",
+        "surface": "zand en grind",
         "vehicle": "no",
         "id": "way/218148134"
       },
@@ -9406,7 +9406,7 @@
       "id": "way/218148138",
       "properties": {
         "highway": "path",
-        "surface": "dirt",
+        "surface": "zand met grind",
         "vehicle": "no",
         "id": "way/218148138"
       },
@@ -12106,7 +12106,6 @@
       "id": "way/232185629",
       "properties": {
         "highway": "track",
-        "surface": "compacted",
         "id": "way/232185629"
       },
       "geometry": {
@@ -13954,8 +13953,8 @@
             50.9651007
           ],
           [
-            5.4965576,
-            50.9651119
+            5.4965284,
+            50.9651158
           ],
           [
             5.4962758,
@@ -15748,7 +15747,6 @@
       "id": "way/256382246",
       "properties": {
         "highway": "track",
-        "sidewalk": "no",
         "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/256382246"
@@ -15775,11 +15773,11 @@
       "type": "Feature",
       "id": "way/256631512",
       "properties": {
-        "cycleway:both": "no",
         "highway": "track",
         "name": "Bergstraat",
-        "sidewalk": "no",
-        "surface": "dirt",
+        "smoothness": "bad",
+        "surface": "gravel",
+        "tracktype": "grade3",
         "id": "way/256631512"
       },
       "geometry": {
@@ -15812,11 +15810,11 @@
       "type": "Feature",
       "id": "way/256631513",
       "properties": {
-        "cycleway:both": "no",
         "highway": "track",
         "motor_vehicle": "no",
-        "sidewalk": "no",
-        "surface": "sand",
+        "smoothness": "intermediate",
+        "surface": "gravel",
+        "tracktype": "grade2",
         "id": "way/256631513"
       },
       "geometry": {
@@ -15973,11 +15971,9 @@
       "id": "way/257184110",
       "properties": {
         "bicycle": "yes",
-        "cycleway:both": "no",
         "foot": "yes",
         "highway": "service",
         "motor_vehicle": "no",
-        "sidewalk": "no",
         "smoothness": "good",
         "surface": "asphalt",
         "id": "way/257184110"
@@ -17800,8 +17796,8 @@
             50.9804491
           ],
           [
-            5.6274438,
-            50.9807432
+            5.6274413,
+            50.9807259
           ]
         ]
       }
@@ -20869,6 +20865,44 @@
     },
     {
       "type": "Feature",
+      "id": "way/318216338",
+      "properties": {
+        "highway": "path",
+        "surface": "sand",
+        "id": "way/318216338"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.420098,
+            50.9958603
+          ],
+          [
+            5.4201538,
+            50.995782
+          ],
+          [
+            5.4202435,
+            50.9956887
+          ],
+          [
+            5.4204292,
+            50.9954363
+          ],
+          [
+            5.4205985,
+            50.9952271
+          ],
+          [
+            5.42078,
+            50.9950524
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/319328888",
       "properties": {
         "cycleway": "no",
@@ -22642,6 +22676,36 @@
           [
             5.2577559,
             51.0187214
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/378014596",
+      "properties": {
+        "highway": "track",
+        "maxspeed": "30",
+        "name": "Hengelhoefseweg",
+        "smoothness": "bad",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "id": "way/378014596"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4194415,
+            50.9956773
+          ],
+          [
+            5.4200131,
+            50.9958382
+          ],
+          [
+            5.420098,
+            50.9958603
           ]
         ]
       }
@@ -29121,8 +29185,8 @@
             50.980724
           ],
           [
-            5.6274438,
-            50.9807432
+            5.6274413,
+            50.9807259
           ]
         ]
       }
@@ -42919,7 +42983,6 @@
         "bridge": "yes",
         "highway": "track",
         "layer": "1",
-        "surface": "concrete",
         "id": "way/1256948576"
       },
       "geometry": {
@@ -42941,7 +43004,6 @@
       "id": "way/1256948577",
       "properties": {
         "highway": "track",
-        "surface": "paving_stones",
         "id": "way/1256948577"
       },
       "geometry": {
@@ -47112,7 +47174,6 @@
       "type": "Feature",
       "id": "way/1275678250",
       "properties": {
-        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Wilgenstraat",
@@ -50652,7 +50713,6 @@
       "id": "way/1303104268",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
         "id": "way/1303104268"
       },
       "geometry": {
@@ -53636,11 +53696,10 @@
       "id": "way/1305087176",
       "properties": {
         "bicycle": "no",
-        "cycleway:both": "no",
         "foot": "yes",
         "highway": "track",
-        "sidewalk": "no",
-        "surface": "dirt",
+        "surface": "compacted",
+        "tracktype": "grade4",
         "id": "way/1305087176"
       },
       "geometry": {
@@ -53695,7 +53754,7 @@
       "properties": {
         "foot": "yes",
         "highway": "path",
-        "surface": "dirt",
+        "surface": "grass",
         "vehicle": "no",
         "id": "way/1305095453"
       },
@@ -53717,11 +53776,9 @@
       "type": "Feature",
       "id": "way/1305095454",
       "properties": {
-        "cycleway:both": "no",
         "foot": "yes",
         "highway": "track",
         "motor_vehicle": "no",
-        "sidewalk": "no",
         "surface": "dirt",
         "tracktype": "grade4",
         "vehicle": "no",
@@ -53777,10 +53834,8 @@
       "type": "Feature",
       "id": "way/1305095456",
       "properties": {
-        "cycleway:both": "no",
         "highway": "track",
         "name": "Bergstraat",
-        "sidewalk": "no",
         "smoothness": "bad",
         "surface": "ground",
         "tracktype": "grade3",
