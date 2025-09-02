@@ -1361,7 +1361,6 @@
       "type": "Feature",
       "id": "way/8117121",
       "properties": {
-        "cycleway:both": "shared_lane",
         "highway": "residential",
         "maxspeed": "30",
         "maxweight": "5",
@@ -1524,7 +1523,7 @@
         "name:fr": "Rue Oswald Ponette",
         "name:nl": "Oswald Ponettestraat",
         "source:maxspeed": "BE:zone30",
-        "surface": "sett",
+        "surface": "asphalt",
         "id": "way/8117719"
       },
       "geometry": {
@@ -1539,8 +1538,40 @@
             50.7454363
           ],
           [
-            3.5935412,
-            50.7454381
+            3.593566,
+            50.7454393
+          ],
+          [
+            3.594097,
+            50.7454903
+          ],
+          [
+            3.5946226,
+            50.7455591
+          ],
+          [
+            3.5947592,
+            50.7455717
+          ],
+          [
+            3.5948803,
+            50.7455829
+          ],
+          [
+            3.5960938,
+            50.7456952
+          ],
+          [
+            3.5967987,
+            50.7457396
+          ],
+          [
+            3.596877,
+            50.7457446
+          ],
+          [
+            3.5974505,
+            50.7457752
           ]
         ]
       }
@@ -1557,15 +1588,35 @@
         "name:fr": "Rue Haute",
         "name:nl": "Hoogstraat",
         "source:maxspeed": "BE:zone30",
-        "surface": "sett",
+        "surface": "asphalt",
         "id": "way/23768101"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.5995165,
-            50.746055
+            3.5980833,
+            50.7458253
+          ],
+          [
+            3.5982152,
+            50.7458342
+          ],
+          [
+            3.5983797,
+            50.7458484
+          ],
+          [
+            3.5987406,
+            50.7458934
+          ],
+          [
+            3.5989243,
+            50.7459245
+          ],
+          [
+            3.5994979,
+            50.7460459
           ],
           [
             3.5995707,
@@ -1576,8 +1627,8 @@
             50.7461038
           ],
           [
-            3.5997425,
-            50.7461393
+            3.5997532,
+            50.7461684
           ]
         ]
       }
@@ -5561,15 +5612,35 @@
         "name:fr": "Rue Oswald Ponette",
         "name:nl": "Oswald Ponettestraat",
         "source:maxspeed": "BE:zone30",
-        "surface": "sett",
+        "surface": "asphalt",
         "id": "way/33995626"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.5932394,
-            50.7454054
+            3.5912588,
+            50.7451938
+          ],
+          [
+            3.591993,
+            50.7452707
+          ],
+          [
+            3.5922669,
+            50.7453016
+          ],
+          [
+            3.5924098,
+            50.745317
+          ],
+          [
+            3.5928431,
+            50.7453672
+          ],
+          [
+            3.5932092,
+            50.7454029
           ],
           [
             3.5932594,
@@ -37630,12 +37701,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6020129,
-            50.7465091
-          ],
-          [
-            3.6019749,
-            50.7465929
+            3.6020176,
+            50.7465163
           ],
           [
             3.6017827,
@@ -41613,16 +41680,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.5974518,
-            50.7457665
+            3.5974505,
+            50.7457752
           ],
           [
-            3.597658,
-            50.7457815
+            3.597656,
+            50.7457898
           ],
           [
-            3.5978699,
-            50.7458034
+            3.5978706,
+            50.7458066
+          ],
+          [
+            3.5979252,
+            50.7458107
+          ],
+          [
+            3.5980833,
+            50.7458253
           ]
         ]
       }
@@ -44375,20 +44450,12 @@
             50.7460595
           ],
           [
-            3.6021236,
-            50.7462599
+            3.6020422,
+            50.7464617
           ],
           [
-            3.602052,
-            50.7464212
-          ],
-          [
-            3.6020348,
-            50.74646
-          ],
-          [
-            3.6020129,
-            50.7465091
+            3.6020176,
+            50.7465163
           ]
         ]
       }
@@ -44421,24 +44488,20 @@
             50.7458641
           ],
           [
-            3.5998366,
-            50.7459426
+            3.5998154,
+            50.7460208
           ],
           [
-            3.5998087,
-            50.7460178
+            3.5998113,
+            50.7460331
           ],
           [
-            3.5998021,
-            50.746034
+            3.5997887,
+            50.7460932
           ],
           [
-            3.599788,
-            50.7460747
-          ],
-          [
-            3.5997425,
-            50.7461393
+            3.5997532,
+            50.7461684
           ]
         ]
       }
@@ -48919,236 +48982,6 @@
           [
             3.7736176,
             50.8260842
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1426022886",
-      "properties": {
-        "cycleway:both": "shared_lane",
-        "highway": "residential",
-        "maxspeed": "30",
-        "maxweight": "5",
-        "maxweight:conditional": "none @ destination",
-        "name": "Oswald Ponettestraat - Rue Oswald Ponette",
-        "name:fr": "Rue Oswald Ponette",
-        "name:nl": "Oswald Ponettestraat",
-        "source:maxspeed": "BE:zone30",
-        "surface": "asphalt",
-        "id": "way/1426022886"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.5912588,
-            50.7451938
-          ],
-          [
-            3.591993,
-            50.7452707
-          ],
-          [
-            3.5922669,
-            50.7453016
-          ],
-          [
-            3.5924098,
-            50.745317
-          ],
-          [
-            3.5928431,
-            50.7453672
-          ],
-          [
-            3.5932092,
-            50.7454029
-          ],
-          [
-            3.5932394,
-            50.7454054
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1426022887",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
-        "maxweight": "5",
-        "maxweight:conditional": "none @ destination",
-        "name": "Oswald Ponettestraat - Rue Oswald Ponette",
-        "name:fr": "Rue Oswald Ponette",
-        "name:nl": "Oswald Ponettestraat",
-        "source:maxspeed": "BE:zone30",
-        "surface": "asphalt",
-        "id": "way/1426022887"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.5935412,
-            50.7454381
-          ],
-          [
-            3.593566,
-            50.7454393
-          ],
-          [
-            3.594097,
-            50.7454903
-          ],
-          [
-            3.5946226,
-            50.7455591
-          ],
-          [
-            3.5947592,
-            50.7455717
-          ],
-          [
-            3.5948803,
-            50.7455829
-          ],
-          [
-            3.5960938,
-            50.7456952
-          ],
-          [
-            3.5967977,
-            50.7457301
-          ],
-          [
-            3.5968767,
-            50.7457365
-          ],
-          [
-            3.5971648,
-            50.7457544
-          ],
-          [
-            3.5974518,
-            50.7457665
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1426022888",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
-        "maxweight": "5",
-        "maxweight:conditional": "none @ destination",
-        "name": "Hoogstraat - Rue Haute",
-        "name:fr": "Rue Haute",
-        "name:nl": "Hoogstraat",
-        "source:maxspeed": "BE:zone30",
-        "surface": "sett",
-        "id": "way/1426022888"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.5980833,
-            50.7458253
-          ],
-          [
-            3.5982152,
-            50.7458342
-          ],
-          [
-            3.5983797,
-            50.7458484
-          ],
-          [
-            3.5984489,
-            50.7458569
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1426022889",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
-        "maxweight": "5",
-        "maxweight:conditional": "none @ destination",
-        "name": "Hoogstraat - Rue Haute",
-        "name:fr": "Rue Haute",
-        "name:nl": "Hoogstraat",
-        "source:maxspeed": "BE:zone30",
-        "surface": "sett",
-        "id": "way/1426022889"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.5978699,
-            50.7458034
-          ],
-          [
-            3.5979252,
-            50.7458107
-          ],
-          [
-            3.5980833,
-            50.7458253
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1426022890",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
-        "maxweight": "5",
-        "maxweight:conditional": "none @ destination",
-        "name": "Hoogstraat - Rue Haute",
-        "name:fr": "Rue Haute",
-        "name:nl": "Hoogstraat",
-        "source:maxspeed": "BE:zone30",
-        "surface": "asphalt",
-        "id": "way/1426022890"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.5984489,
-            50.7458569
-          ],
-          [
-            3.5985576,
-            50.7458696
-          ],
-          [
-            3.5987406,
-            50.7458934
-          ],
-          [
-            3.5989243,
-            50.7459245
-          ],
-          [
-            3.5994976,
-            50.7460493
-          ],
-          [
-            3.5995165,
-            50.746055
           ]
         ]
       }
