@@ -68749,8 +68749,8 @@
             50.9651007
           ],
           [
-            5.4965576,
-            50.9651119
+            5.4965284,
+            50.9651158
           ],
           [
             5.4962758,
@@ -71090,6 +71090,10 @@
             50.9323195
           ],
           [
+            5.3418235,
+            50.9323333
+          ],
+          [
             5.3409322,
             50.9327123
           ]
@@ -71133,7 +71137,7 @@
       "type": "Feature",
       "id": "way/18004613",
       "properties": {
-        "highway": "pedestrian",
+        "highway": "residential",
         "maxspeed": "30",
         "motor_vehicle:conditional": "delivery @ (Mo-Sa 06:00-13:00, 17:30-20:00)",
         "name": "Zuivelmarkt",
@@ -71160,6 +71164,10 @@
           [
             5.3398983,
             50.9309441
+          ],
+          [
+            5.3400075,
+            50.9310138
           ],
           [
             5.3400528,
@@ -72247,17 +72255,20 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed:type": "BE-VLG:urban",
         "name": "Kloosterbeekstraat",
         "sidewalk": "no",
+        "source:width": "ARCore",
         "surface": "asphalt",
+        "width": "7.4",
         "id": "way/165465768"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.3829265,
-            50.9515475
+            5.380632,
+            50.9507575
           ],
           [
             5.3802351,
@@ -72286,8 +72297,11 @@
         "lane_markings": "no",
         "maxspeed": "50",
         "name": "Nieuwe-Heidestraat",
+        "oneway": "no",
         "sidewalk": "no",
+        "source:width": "ARCore",
         "surface": "asphalt",
+        "width": "3.4",
         "id": "way/165465772"
       },
       "geometry": {
@@ -73282,7 +73296,7 @@
       "id": "way/217904768",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "pebblestone",
         "tracktype": "grade3",
         "vehicle": "no",
         "id": "way/217904768"
@@ -73760,8 +73774,12 @@
       "id": "way/242494463",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
+        "maxspeed:type": "BE-VLG:urban",
         "name": "Borggravevijversstraat",
+        "source:width": "ARCore",
         "surface": "asphalt",
+        "width": "5.1",
         "id": "way/242494463"
       },
       "geometry": {
@@ -74553,8 +74571,9 @@
       "type": "Feature",
       "id": "way/453560594",
       "properties": {
+        "check_date:surface": "2025-08-27",
         "highway": "footway",
-        "surface": "asphalt",
+        "surface": "unpaved",
         "wheelchair": "yes",
         "id": "way/453560594"
       },
@@ -75325,7 +75344,7 @@
       "id": "way/755510507",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "asphalt",
         "id": "way/755510507"
       },
       "geometry": {
@@ -76342,6 +76361,34 @@
           [
             5.3737604,
             50.9495241
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1425237087",
+      "properties": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed:type": "BE-VLG:urban",
+        "name": "Kloosterbeekstraat",
+        "sidewalk": "no",
+        "source:width": "ARCore",
+        "surface": "asphalt",
+        "width": "5",
+        "id": "way/1425237087"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3829265,
+            50.9515475
+          ],
+          [
+            5.380632,
+            50.9507575
           ]
         ]
       }
