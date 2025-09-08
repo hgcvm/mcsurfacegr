@@ -2394,8 +2394,12 @@
             50.8996395
           ],
           [
-            4.8476626,
-            50.8995375
+            4.8475968,
+            50.899579
+          ],
+          [
+            4.8476602,
+            50.8995376
           ]
         ]
       }
@@ -3111,7 +3115,9 @@
       "id": "way/28728834",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Bosduifweg",
+        "oneway": "no",
         "surface": "asphalt",
         "width": "3",
         "id": "way/28728834"
@@ -3138,6 +3144,7 @@
         "lane_markings": "no",
         "maxspeed": "50",
         "name": "Nachtegaalstraat",
+        "oneway": "no",
         "sidewalk": "no",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
@@ -4125,6 +4132,7 @@
       "properties": {
         "highway": "residential",
         "name": "Dorp",
+        "oneway": "yes",
         "sidewalk": "both",
         "surface": "cobblestone",
         "id": "way/33835424"
@@ -4135,6 +4143,10 @@
           [
             4.1653792,
             50.8125767
+          ],
+          [
+            4.1653747,
+            50.8125342
           ],
           [
             4.16538,
@@ -4185,6 +4197,10 @@
           [
             4.166989,
             50.8124131
+          ],
+          [
+            4.1664904,
+            50.8130404
           ],
           [
             4.1664493,
@@ -13770,14 +13786,6 @@
           [
             3.9418667,
             50.7714597
-          ],
-          [
-            3.9418132,
-            50.7714964
-          ],
-          [
-            3.9418026,
-            50.7715233
           ]
         ]
       }
@@ -14889,8 +14897,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8476626,
-            50.8995375
+            4.8476602,
+            50.8995376
+          ],
+          [
+            4.8477013,
+            50.899522
           ],
           [
             4.847883,
@@ -16283,7 +16295,7 @@
       "properties": {
         "bicycle": "no",
         "foot": "yes",
-        "highway": "track",
+        "highway": "footway",
         "horse": "no",
         "lit": "no",
         "motor_vehicle": "no",
@@ -18292,6 +18304,7 @@
       "id": "way/101930310",
       "properties": {
         "highway": "track",
+        "name": "Sint-Jobweg",
         "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/101930310"
@@ -18919,6 +18932,10 @@
             50.7728672
           ],
           [
+            3.8900445,
+            50.7728284
+          ],
+          [
             3.8900385,
             50.7728126
           ],
@@ -18982,7 +18999,6 @@
         "foot": "yes",
         "highway": "track",
         "horse": "yes",
-        "motor_vehicle": "designated",
         "name": "Vossenbunderweg",
         "source": "Bing - Local Knowledge",
         "surface": "dirt",
@@ -21628,8 +21644,10 @@
       "id": "way/128049765",
       "properties": {
         "abandoned:railway": "tram",
+        "cycleway:left": "track",
         "highway": "residential",
         "name": "Doelestraat",
+        "oneway": "yes",
         "railway": "abandoned",
         "surface": "asphalt",
         "id": "way/128049765"
@@ -29684,6 +29702,7 @@
       "id": "way/185544981",
       "properties": {
         "highway": "path",
+        "name": "Wingheschevoetpad",
         "surface": "unpaved",
         "id": "way/185544981"
       },
@@ -29861,7 +29880,6 @@
         "foot": "yes",
         "highway": "track",
         "horse": "yes",
-        "motor_vehicle": "designated",
         "name": "Onderste d'Afseltweg",
         "official_vicinal_ref": "042_23_1",
         "surface": "dirt",
@@ -32340,8 +32358,10 @@
       "id": "way/310566315",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Bosduifweg",
+        "oneway": "no",
         "surface": "asphalt",
         "width": "4",
         "zone:traffic": "BE-VLG:urban",
@@ -32555,6 +32575,7 @@
         "lanes": "2",
         "maxspeed": "70",
         "name": "Staatsbaan",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N2",
         "surface": "concrete",
         "toll:hgv": "yes",
@@ -33054,6 +33075,7 @@
       "id": "way/315197983",
       "properties": {
         "highway": "track",
+        "name": "Winghesevoetpad",
         "surface": "grass",
         "tracktype": "grade4",
         "id": "way/315197983"
@@ -35089,6 +35111,7 @@
       "id": "way/379165966",
       "properties": {
         "highway": "track",
+        "name": "Molenstraat",
         "tracktype": "grade4",
         "id": "way/379165966"
       },
@@ -45257,6 +45280,37 @@
           [
             5.0463432,
             50.9848551
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1424681791",
+      "properties": {
+        "highway": "footway",
+        "surface": "unpaved",
+        "tracktype": "grade4",
+        "id": "way/1424681791"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.9418667,
+            50.7714597
+          ],
+          [
+            3.94184,
+            50.7714781
+          ],
+          [
+            3.9418132,
+            50.7714964
+          ],
+          [
+            3.9418026,
+            50.7715233
           ]
         ]
       }
