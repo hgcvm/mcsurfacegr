@@ -194,6 +194,7 @@
         "maxspeed": "30",
         "mofa": "yes",
         "moped": "yes",
+        "motor_vehicle": "permit",
         "name": "Oudebaan",
         "private": "exceptional_permit",
         "sidewalk": "both",
@@ -1057,6 +1058,7 @@
         "maxspeed": "50",
         "name": "Tiensesteenweg",
         "name:etymology:wikidata": "Q456550",
+        "operator": "Agentschap Wegen en Verkeer",
         "overtaking": "no",
         "parking:right": "yes",
         "parking:right:authentication:disc": "yes",
@@ -2558,7 +2560,8 @@
       "id": "way/23957923",
       "properties": {
         "cyclestreet": "yes",
-        "highway": "residential",
+        "highway": "living_street",
+        "lanes": "1",
         "maxspeed": "30",
         "name": "Holsbeeksebaan",
         "note": "Er hangt een extra bord met daarop de aanduiding dat dit ook voor fietsers eenrichting is",
@@ -2595,6 +2598,10 @@
           [
             4.7575976,
             50.947256
+          ],
+          [
+            4.7576145,
+            50.947262
           ],
           [
             4.7576623,
@@ -2647,8 +2654,12 @@
             50.9472789
           ],
           [
-            4.7576125,
-            50.9473344
+            4.7576129,
+            50.9473348
+          ],
+          [
+            4.7575978,
+            50.9473519
           ]
         ]
       }
@@ -3515,6 +3526,14 @@
             50.9481922
           ],
           [
+            4.755361,
+            50.9481394
+          ],
+          [
+            4.7548682,
+            50.9477586
+          ],
+          [
             4.7548188,
             50.9477204
           ]
@@ -3909,6 +3928,10 @@
           [
             4.7785675,
             50.9460455
+          ],
+          [
+            4.7786238,
+            50.9460589
           ],
           [
             4.7787493,
@@ -10245,9 +10268,12 @@
       "type": "Feature",
       "id": "way/37713495",
       "properties": {
+        "bicycle": "designated",
         "cyclestreet": "yes",
-        "highway": "residential",
+        "highway": "living_street",
+        "lanes": "1",
         "maxspeed": "30",
+        "motor_vehicle": "permissive",
         "name": "Holsbeeksebaan",
         "note": "2019-01-29 : geen uitzonderingsbord oneway fietsen",
         "oneway": "yes",
@@ -10262,6 +10288,10 @@
           [
             4.7557235,
             50.9476139
+          ],
+          [
+            4.7557265,
+            50.9475888
           ],
           [
             4.7557335,
@@ -10925,6 +10955,7 @@
       "id": "way/38208848",
       "properties": {
         "highway": "unclassified",
+        "name": "Sypestraat",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/38208848"
@@ -14535,8 +14566,8 @@
             50.9474893
           ],
           [
-            4.7651107,
-            50.9474856
+            4.765177,
+            50.947486
           ],
           [
             4.765031,
@@ -14715,8 +14746,8 @@
             50.9854421
           ],
           [
-            4.8342151,
-            50.9854351
+            4.8341831,
+            50.9854369
           ],
           [
             4.8342761,
@@ -16553,6 +16584,7 @@
         "maxspeed": "50",
         "name": "Diestsesteenweg",
         "name:etymology:wikidata": "Q743236",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N2",
         "surface": "asphalt",
         "toll:hgv": "yes",
@@ -16778,6 +16810,7 @@
         "maxspeed": "50",
         "name": "Tiensesteenweg",
         "name:etymology:wikidata": "Q456550",
+        "operator": "Agentschap Wegen en Verkeer",
         "overtaking": "no",
         "parking:both": "yes",
         "parking:both:authentication:disc": "yes",
@@ -24186,9 +24219,8 @@
       "type": "Feature",
       "id": "way/179687610",
       "properties": {
-        "highway": "service",
-        "motor_vehicle": "private",
-        "service": "alley",
+        "highway": "living_street",
+        "motor_vehicle": "destination",
         "surface": "sett",
         "id": "way/179687610"
       },
@@ -24200,6 +24232,10 @@
             50.9476259
           ],
           [
+            4.7578814,
+            50.9475987
+          ],
+          [
             4.7578872,
             50.9475806
           ],
@@ -24208,8 +24244,12 @@
             50.9475006
           ],
           [
-            4.7576125,
-            50.9473344
+            4.7576528,
+            50.9473704
+          ],
+          [
+            4.7575978,
+            50.9473519
           ]
         ]
       }
@@ -26476,8 +26516,8 @@
             50.9474706
           ],
           [
-            4.7656162,
-            50.9474972
+            4.76562,
+            50.9475023
           ],
           [
             4.7656236,
@@ -26511,6 +26551,7 @@
       "id": "way/198850018",
       "properties": {
         "highway": "track",
+        "name": "Weg beneden de wijngaard",
         "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/198850018"
@@ -26835,6 +26876,7 @@
       "id": "way/198850031",
       "properties": {
         "highway": "track",
+        "name": "Weg beneden de wijngaard",
         "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/198850031"
@@ -26944,6 +26986,7 @@
       "id": "way/198850037",
       "properties": {
         "highway": "track",
+        "name": "Weg beneden de wijngaard",
         "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/198850037"
@@ -39801,6 +39844,7 @@
         "maxspeed": "50",
         "name": "Tiensesteenweg",
         "name:etymology:wikidata": "Q456550",
+        "operator": "Agentschap Wegen en Verkeer",
         "overtaking": "no",
         "parking:both": "yes",
         "parking:both:authentication:disc": "yes",
@@ -44353,6 +44397,7 @@
         "lanes:forward": "1",
         "maxspeed": "70",
         "name": "Halensebaan",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N2",
         "surface": "concrete",
         "toll:hgv": "yes",
@@ -48001,6 +48046,7 @@
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
+        "motor_vehicle": "permit",
         "name": "Oudebaan",
         "sidewalk": "both",
         "surface": "asphalt",
