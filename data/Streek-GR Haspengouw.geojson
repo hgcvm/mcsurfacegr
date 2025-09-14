@@ -375,7 +375,9 @@
       "id": "way/28412098",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Pater Damiaanstraat",
+        "surface": "asphalt",
         "id": "way/28412098"
       },
       "geometry": {
@@ -825,7 +827,7 @@
       "id": "way/35325870",
       "properties": {
         "highway": "cycleway",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/35325870"
       },
       "geometry": {
@@ -1001,7 +1003,11 @@
       "id": "way/46703475",
       "properties": {
         "highway": "secondary",
+        "lane_markings": "no",
         "name": "Tongersestraat",
+        "operator": "Stad Bilzen-Hoeselt",
+        "ref": "N730",
+        "surface": "paving_stones",
         "id": "way/46703475"
       },
       "geometry": {
@@ -1023,6 +1029,7 @@
       "id": "way/61434461",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Lethenstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -1420,7 +1427,9 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Stationlaan",
+        "operator": "Stad Bilzen-Hoeselt",
         "overtaking:motor_vehicle": "no",
+        "ref": "N730",
         "id": "way/208893532"
       },
       "geometry": {
@@ -3871,7 +3880,9 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Stationlaan",
+        "operator": "Stad Bilzen-Hoeselt",
         "overtaking:motor_vehicle": "no",
+        "ref": "N730",
         "id": "way/789671336"
       },
       "geometry": {
@@ -34467,7 +34478,6 @@
         "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Dorpsstraat",
-        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "turn:lanes:backward": "left|none",
@@ -34583,7 +34593,6 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Dorpstraat",
-        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "id": "way/39877338"
@@ -35197,7 +35206,6 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Opeindestraat",
-        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "id": "way/277158046"
       },
@@ -35714,7 +35722,6 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Dorpsstraat",
-        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "id": "way/337122111"
@@ -35756,7 +35763,6 @@
         "lanes:forward": "2",
         "maxspeed": "50",
         "name": "Opeindestraat",
-        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "turn:lanes:forward": "left|none",
         "id": "way/337122139"
@@ -36352,7 +36358,6 @@
         "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Dorpsstraat",
-        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "turn:lanes:backward": "left|none",
@@ -36570,7 +36575,6 @@
         "lanes:forward": "2",
         "maxspeed": "50",
         "name": "Opeindestraat",
-        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "turn:lanes:forward": "left|none",
@@ -36610,7 +36614,6 @@
         "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Dorpsstraat",
-        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "turn:lanes:backward": "left|none",
@@ -36670,7 +36673,6 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Opeindestraat",
-        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1123549157"
