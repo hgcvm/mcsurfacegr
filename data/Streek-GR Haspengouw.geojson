@@ -375,9 +375,7 @@
       "id": "way/28412098",
       "properties": {
         "highway": "residential",
-        "lane_markings": "no",
         "name": "Pater Damiaanstraat",
-        "surface": "asphalt",
         "id": "way/28412098"
       },
       "geometry": {
@@ -827,7 +825,7 @@
       "id": "way/35325870",
       "properties": {
         "highway": "cycleway",
-        "surface": "paving_stones",
+        "surface": "paved",
         "id": "way/35325870"
       },
       "geometry": {
@@ -1003,11 +1001,7 @@
       "id": "way/46703475",
       "properties": {
         "highway": "secondary",
-        "lane_markings": "no",
         "name": "Tongersestraat",
-        "operator": "Stad Bilzen-Hoeselt",
-        "ref": "N730",
-        "surface": "paving_stones",
         "id": "way/46703475"
       },
       "geometry": {
@@ -1029,7 +1023,6 @@
       "id": "way/61434461",
       "properties": {
         "highway": "unclassified",
-        "lane_markings": "no",
         "name": "Lethenstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -1427,9 +1420,7 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Stationlaan",
-        "operator": "Stad Bilzen-Hoeselt",
         "overtaking:motor_vehicle": "no",
-        "ref": "N730",
         "id": "way/208893532"
       },
       "geometry": {
@@ -3880,9 +3871,7 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Stationlaan",
-        "operator": "Stad Bilzen-Hoeselt",
         "overtaking:motor_vehicle": "no",
-        "ref": "N730",
         "id": "way/789671336"
       },
       "geometry": {
@@ -4190,6 +4179,7 @@
         "lanes": "2",
         "name": "Rode Kruislaan",
         "ref": "N758",
+        "surface": "asphalt",
         "id": "way/36266287"
       },
       "geometry": {
@@ -4501,6 +4491,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Bosselaar",
+        "surface": "compacted",
         "id": "way/61765023"
       },
       "geometry": {
@@ -4532,6 +4523,7 @@
         "highway": "track",
         "horse": "yes",
         "smoothness": "bad",
+        "surface": "compacted",
         "tracktype": "grade2",
         "traffic_sign": "BE:F99c",
         "id": "way/61765024"
@@ -4606,7 +4598,7 @@
       "id": "way/62075463",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/62075463"
       },
@@ -4713,7 +4705,7 @@
       "properties": {
         "highway": "path",
         "horse": "no",
-        "surface": "unpaved",
+        "surface": "dirt",
         "vehicle": "no",
         "id": "way/213932743"
       },
@@ -4796,6 +4788,7 @@
         "lanes": "2",
         "name": "Rode Kruislaan",
         "ref": "N758",
+        "surface": "asphalt",
         "id": "way/224767054"
       },
       "geometry": {
@@ -4864,6 +4857,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Bosselaar",
+        "surface": "compacted",
         "id": "way/713145348"
       },
       "geometry": {
@@ -4942,7 +4936,7 @@
       "id": "way/874404298",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/874404298"
       },
       "geometry": {
@@ -5023,7 +5017,7 @@
         "highway": "path",
         "horse": "no",
         "layer": "1",
-        "surface": "unpaved",
+        "surface": "wood",
         "vehicle": "no",
         "id": "way/935032208"
       },
@@ -5049,7 +5043,7 @@
         "highway": "path",
         "horse": "no",
         "layer": "1",
-        "surface": "unpaved",
+        "surface": "wood",
         "vehicle": "no",
         "id": "way/935032209"
       },
@@ -5163,10 +5157,6 @@
           [
             5.5205425,
             50.7986542
-          ],
-          [
-            5.5210813,
-            50.798747
           ],
           [
             5.5219876,
@@ -5906,6 +5896,7 @@
       "type": "Feature",
       "id": "way/197567769",
       "properties": {
+        "cutting": "yes",
         "highway": "unclassified",
         "name": "Holstraat",
         "smoothness": "intermediate",
@@ -5916,28 +5907,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.5237644,
-            50.7989826
-          ],
-          [
-            5.5240341,
-            50.7990513
-          ],
-          [
-            5.5260708,
-            50.7995235
+            5.5259687,
+            50.7994937
           ],
           [
             5.5266182,
             50.7996969
           ],
           [
-            5.5277291,
-            50.8001065
+            5.5277317,
+            50.8001115
           ],
           [
-            5.5283673,
-            50.8003883
+            5.5283725,
+            50.8003933
           ],
           [
             5.5286478,
@@ -7585,6 +7568,34 @@
           [
             5.5354725,
             50.802019
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1429682520",
+      "properties": {
+        "highway": "unclassified",
+        "name": "Holstraat",
+        "smoothness": "intermediate",
+        "surface": "concrete",
+        "id": "way/1429682520"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5237644,
+            50.7989826
+          ],
+          [
+            5.5240341,
+            50.7990513
+          ],
+          [
+            5.5259687,
+            50.7994937
           ]
         ]
       }
@@ -34478,6 +34489,7 @@
         "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Dorpsstraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "turn:lanes:backward": "left|none",
@@ -34593,6 +34605,7 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Dorpstraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "id": "way/39877338"
@@ -35206,6 +35219,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Opeindestraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "id": "way/277158046"
       },
@@ -35722,6 +35736,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Dorpsstraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "id": "way/337122111"
@@ -35763,6 +35778,7 @@
         "lanes:forward": "2",
         "maxspeed": "50",
         "name": "Opeindestraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "turn:lanes:forward": "left|none",
         "id": "way/337122139"
@@ -36358,6 +36374,7 @@
         "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Dorpsstraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "turn:lanes:backward": "left|none",
@@ -36575,6 +36592,7 @@
         "lanes:forward": "2",
         "maxspeed": "50",
         "name": "Opeindestraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "turn:lanes:forward": "left|none",
@@ -36614,6 +36632,7 @@
         "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Dorpsstraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "turn:lanes:backward": "left|none",
@@ -36673,6 +36692,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Opeindestraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1123549157"
@@ -40814,7 +40834,6 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Gillebroek",
-        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "paving_stones",
         "id": "way/255840817"
