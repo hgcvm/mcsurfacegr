@@ -4179,7 +4179,6 @@
         "lanes": "2",
         "name": "Rode Kruislaan",
         "ref": "N758",
-        "surface": "asphalt",
         "id": "way/36266287"
       },
       "geometry": {
@@ -4461,7 +4460,6 @@
       "id": "way/61434460",
       "properties": {
         "highway": "unclassified",
-        "lane_markings": "no",
         "name": "Lethenstraat",
         "smoothness": "good",
         "surface": "asphalt",
@@ -4491,7 +4489,6 @@
       "properties": {
         "highway": "unclassified",
         "name": "Bosselaar",
-        "surface": "compacted",
         "id": "way/61765023"
       },
       "geometry": {
@@ -4523,7 +4520,6 @@
         "highway": "track",
         "horse": "yes",
         "smoothness": "bad",
-        "surface": "compacted",
         "tracktype": "grade2",
         "traffic_sign": "BE:F99c",
         "id": "way/61765024"
@@ -4598,7 +4594,7 @@
       "id": "way/62075463",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
+        "surface": "unpaved",
         "tracktype": "grade3",
         "id": "way/62075463"
       },
@@ -4705,7 +4701,7 @@
       "properties": {
         "highway": "path",
         "horse": "no",
-        "surface": "dirt",
+        "surface": "unpaved",
         "vehicle": "no",
         "id": "way/213932743"
       },
@@ -4788,7 +4784,6 @@
         "lanes": "2",
         "name": "Rode Kruislaan",
         "ref": "N758",
-        "surface": "asphalt",
         "id": "way/224767054"
       },
       "geometry": {
@@ -4857,7 +4852,6 @@
       "properties": {
         "highway": "unclassified",
         "name": "Bosselaar",
-        "surface": "compacted",
         "id": "way/713145348"
       },
       "geometry": {
@@ -4909,7 +4903,6 @@
       "id": "way/874404297",
       "properties": {
         "highway": "unclassified",
-        "lane_markings": "no",
         "name": "Lethenstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -4936,7 +4929,7 @@
       "id": "way/874404298",
       "properties": {
         "highway": "path",
-        "surface": "dirt",
+        "surface": "unpaved",
         "id": "way/874404298"
       },
       "geometry": {
@@ -5017,7 +5010,7 @@
         "highway": "path",
         "horse": "no",
         "layer": "1",
-        "surface": "wood",
+        "surface": "unpaved",
         "vehicle": "no",
         "id": "way/935032208"
       },
@@ -5043,7 +5036,7 @@
         "highway": "path",
         "horse": "no",
         "layer": "1",
-        "surface": "wood",
+        "surface": "unpaved",
         "vehicle": "no",
         "id": "way/935032209"
       },
@@ -5157,10 +5150,6 @@
           [
             5.5205425,
             50.7986542
-          ],
-          [
-            5.5210813,
-            50.798747
           ],
           [
             5.5219876,
@@ -5900,6 +5889,7 @@
       "type": "Feature",
       "id": "way/197567769",
       "properties": {
+        "cutting": "yes",
         "highway": "unclassified",
         "name": "Holstraat",
         "smoothness": "intermediate",
@@ -5910,28 +5900,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.5237644,
-            50.7989826
-          ],
-          [
-            5.5240341,
-            50.7990513
-          ],
-          [
-            5.5260708,
-            50.7995235
+            5.5259687,
+            50.7994937
           ],
           [
             5.5266182,
             50.7996969
           ],
           [
-            5.5277291,
-            50.8001065
+            5.5277317,
+            50.8001115
           ],
           [
-            5.5283673,
-            50.8003883
+            5.5283725,
+            50.8003933
           ],
           [
             5.5286478,
@@ -7579,6 +7561,4561 @@
           [
             5.5354725,
             50.802019
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1429682520",
+      "properties": {
+        "highway": "unclassified",
+        "name": "Holstraat",
+        "smoothness": "intermediate",
+        "surface": "concrete",
+        "id": "way/1429682520"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5237644,
+            50.7989826
+          ],
+          [
+            5.5240341,
+            50.7990513
+          ],
+          [
+            5.5259687,
+            50.7994937
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/9887653",
+      "properties": {
+        "highway": "residential",
+        "name": "Eerste-Meistraat",
+        "id": "way/9887653"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4948997,
+            50.7838448
+          ],
+          [
+            5.4949111,
+            50.7839244
+          ],
+          [
+            5.4947169,
+            50.7842511
+          ],
+          [
+            5.494374,
+            50.7847881
+          ],
+          [
+            5.4942509,
+            50.7849132
+          ],
+          [
+            5.493653,
+            50.7853471
+          ],
+          [
+            5.4930263,
+            50.78596
+          ],
+          [
+            5.49286,
+            50.7861524
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/9887672",
+      "properties": {
+        "highway": "track",
+        "name": "Molenstraat",
+        "tracktype": "grade1",
+        "id": "way/9887672"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.49286,
+            50.7861524
+          ],
+          [
+            5.4926122,
+            50.7863756
+          ],
+          [
+            5.4923231,
+            50.7865907
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/20746039",
+      "properties": {
+        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "name": "Sint-Truiderstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "id": "way/20746039"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4603687,
+            50.780001
+          ],
+          [
+            5.4605678,
+            50.7800236
+          ],
+          [
+            5.460722,
+            50.7800445
+          ],
+          [
+            5.4608461,
+            50.7800811
+          ],
+          [
+            5.4613837,
+            50.7802794
+          ],
+          [
+            5.4620615,
+            50.780418
+          ],
+          [
+            5.462438,
+            50.7804779
+          ],
+          [
+            5.4629809,
+            50.7805932
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/20747797",
+      "properties": {
+        "highway": "service",
+        "service": "parking_aisle",
+        "id": "way/20747797"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4711854,
+            50.7782601
+          ],
+          [
+            5.4710807,
+            50.7782809
+          ],
+          [
+            5.4708767,
+            50.7783281
+          ],
+          [
+            5.4707575,
+            50.7783557
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/20748917",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kloosterstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
+        "smoothness": "intermediate",
+        "traffic_sign": "BE:F111",
+        "id": "way/20748917"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4648108,
+            50.7816074
+          ],
+          [
+            5.4648802,
+            50.7811993
+          ],
+          [
+            5.4647962,
+            50.7811669
+          ],
+          [
+            5.4642938,
+            50.7810458
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/20749144",
+      "properties": {
+        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "name": "Museumkwartier",
+        "id": "way/20749144"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4651802,
+            50.7805703
+          ],
+          [
+            5.4652784,
+            50.7807476
+          ],
+          [
+            5.4654266,
+            50.7808529
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/21337210",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kielenstraat",
+        "overtaking:motor_vehicle": "no",
+        "id": "way/21337210"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4709758,
+            50.7792835
+          ],
+          [
+            5.4711468,
+            50.7792469
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/25449592",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Vrijthof",
+        "overtaking:motor_vehicle": "no",
+        "id": "way/25449592"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4657111,
+            50.780254
+          ],
+          [
+            5.4651802,
+            50.7805703
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/25449602",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kielenstraat",
+        "overtaking:motor_vehicle": "no",
+        "id": "way/25449602"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4713464,
+            50.7792181
+          ],
+          [
+            5.4713008,
+            50.7792247
+          ],
+          [
+            5.4711468,
+            50.7792469
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/25449620",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kielenstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
+        "id": "way/25449620"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4655305,
+            50.7818314
+          ],
+          [
+            5.4656469,
+            50.7817304
+          ],
+          [
+            5.4657137,
+            50.781678
+          ],
+          [
+            5.4657765,
+            50.7816341
+          ],
+          [
+            5.4659492,
+            50.7815255
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/25494869",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Onder de Linde",
+        "overtaking:motor_vehicle": "no",
+        "surface": "cobblestone",
+        "id": "way/25494869"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4677413,
+            50.7788141
+          ],
+          [
+            5.4675873,
+            50.7789467
+          ],
+          [
+            5.467551,
+            50.778984
+          ],
+          [
+            5.4676003,
+            50.7790228
+          ],
+          [
+            5.4676834,
+            50.7790401
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/25566519",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Brouwersstraat",
+        "overtaking:motor_vehicle": "no",
+        "surface": "cobblestone",
+        "id": "way/25566519"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4692004,
+            50.7788467
+          ],
+          [
+            5.4691918,
+            50.7788731
+          ],
+          [
+            5.4690967,
+            50.7790855
+          ],
+          [
+            5.4690963,
+            50.7791138
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/25586780",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Riddersstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
+        "id": "way/25586780"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4676171,
+            50.7809762
+          ],
+          [
+            5.4670395,
+            50.7806739
+          ],
+          [
+            5.4669372,
+            50.7806314
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/25603826",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "foot": "yes",
+        "highway": "unclassified",
+        "horse": "yes",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "name": "Oude Blaarstraat",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
+        "id": "way/25603826"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4795186,
+            50.7779018
+          ],
+          [
+            5.4783662,
+            50.7776511
+          ],
+          [
+            5.4776981,
+            50.7775065
+          ],
+          [
+            5.4772854,
+            50.7773984
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26291869",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Predikherenstraat",
+        "name:etymology:wikidata": "Q131479",
+        "overtaking:motor_vehicle": "no",
+        "id": "way/26291869"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4676171,
+            50.7809762
+          ],
+          [
+            5.4677632,
+            50.7810374
+          ],
+          [
+            5.4686547,
+            50.7814675
+          ],
+          [
+            5.468792,
+            50.78153
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27190564",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Piepelpoel",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
+        "id": "way/27190564"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4666062,
+            50.7805628
+          ],
+          [
+            5.4663051,
+            50.7804622
+          ],
+          [
+            5.4660102,
+            50.7803479
+          ],
+          [
+            5.4659289,
+            50.7803177
+          ],
+          [
+            5.4658476,
+            50.7803029
+          ],
+          [
+            5.4657111,
+            50.780254
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27278615",
+      "properties": {
+        "created_by": "Potlatch 0.10e",
+        "highway": "steps",
+        "step_count": "3",
+        "id": "way/27278615"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4681395,
+            50.7784012
+          ],
+          [
+            5.4681092,
+            50.7784317
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27385848",
+      "properties": {
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Dijk",
+        "id": "way/27385848"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4714106,
+            50.7782128
+          ],
+          [
+            5.4715342,
+            50.7783403
+          ],
+          [
+            5.4717343,
+            50.7785098
+          ],
+          [
+            5.4717788,
+            50.7785386
+          ],
+          [
+            5.4718564,
+            50.7785655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27485235",
+      "properties": {
+        "highway": "path",
+        "surface": "gravel",
+        "id": "way/27485235"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4715611,
+            50.7802852
+          ],
+          [
+            5.4715685,
+            50.7803795
+          ],
+          [
+            5.47156,
+            50.7804343
+          ],
+          [
+            5.4715278,
+            50.7806681
+          ],
+          [
+            5.4709738,
+            50.7817762
+          ],
+          [
+            5.4709203,
+            50.7820051
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27485255",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "foot": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "motorcycle": "yes",
+        "name": "Leopoldwal",
+        "overtaking:motor_vehicle": "no",
+        "id": "way/27485255"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4715611,
+            50.7802852
+          ],
+          [
+            5.4715884,
+            50.7800195
+          ],
+          [
+            5.4715951,
+            50.779953
+          ],
+          [
+            5.4715915,
+            50.779866
+          ],
+          [
+            5.4715817,
+            50.7797762
+          ],
+          [
+            5.4715416,
+            50.7796604
+          ],
+          [
+            5.4714553,
+            50.7794605
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27886388",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Bredestraat",
+        "overtaking:motor_vehicle": "no",
+        "surface": "cobblestone",
+        "id": "way/27886388"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4681985,
+            50.7790849
+          ],
+          [
+            5.4690041,
+            50.7792439
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27886589",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Sint-Ursulastraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
+        "surface": "cobblestone",
+        "id": "way/27886589"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4698685,
+            50.7789361
+          ],
+          [
+            5.4703679,
+            50.778909
+          ],
+          [
+            5.4703904,
+            50.778916
+          ],
+          [
+            5.4704876,
+            50.7792401
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27937738",
+      "properties": {
+        "highway": "unclassified",
+        "name": "Bergerhof",
+        "id": "way/27937738"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4893605,
+            50.7887257
+          ],
+          [
+            5.489373,
+            50.7887376
+          ],
+          [
+            5.4895383,
+            50.7888945
+          ],
+          [
+            5.489766,
+            50.7891037
+          ],
+          [
+            5.4899831,
+            50.7892544
+          ],
+          [
+            5.4901295,
+            50.7893364
+          ],
+          [
+            5.4903503,
+            50.789448
+          ],
+          [
+            5.4905848,
+            50.7895412
+          ],
+          [
+            5.4909849,
+            50.7897025
+          ],
+          [
+            5.4911861,
+            50.7897994
+          ],
+          [
+            5.4913536,
+            50.7899246
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27938143",
+      "properties": {
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "name": "Gousbeemdstraat",
+        "smoothness": "intermediate",
+        "surface": "concrete",
+        "id": "way/27938143"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4959264,
+            50.7911985
+          ],
+          [
+            5.4961216,
+            50.7912447
+          ],
+          [
+            5.4977321,
+            50.7915495
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28006883",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "name": "Oude Blaarstraat",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "traffic_sign": "BE:F99c",
+        "width": "4",
+        "id": "way/28006883"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4905291,
+            50.779725
+          ],
+          [
+            5.4902123,
+            50.7796475
+          ],
+          [
+            5.4896402,
+            50.7795593
+          ],
+          [
+            5.4890341,
+            50.7795411
+          ],
+          [
+            5.4883899,
+            50.7794855
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28081593",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "horse": "yes",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Eerste-Meistraat",
+        "speed_pedelec": "yes",
+        "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
+        "id": "way/28081593"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4979371,
+            50.7823245
+          ],
+          [
+            5.4977368,
+            50.7823649
+          ],
+          [
+            5.4976472,
+            50.7823978
+          ],
+          [
+            5.4973013,
+            50.7826241
+          ],
+          [
+            5.4971698,
+            50.7826753
+          ],
+          [
+            5.4969902,
+            50.7827182
+          ],
+          [
+            5.4965852,
+            50.7827979
+          ],
+          [
+            5.4963836,
+            50.7828492
+          ],
+          [
+            5.4961869,
+            50.7829149
+          ],
+          [
+            5.4959884,
+            50.7830063
+          ],
+          [
+            5.4957246,
+            50.783165
+          ],
+          [
+            5.4955015,
+            50.7833609
+          ],
+          [
+            5.4952025,
+            50.7836823
+          ],
+          [
+            5.4951693,
+            50.7837575
+          ],
+          [
+            5.4951636,
+            50.7837866
+          ],
+          [
+            5.4951663,
+            50.7838188
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28081703",
+      "properties": {
+        "access": "destination",
+        "highway": "unclassified",
+        "name": "Oude Blaarstraat",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "id": "way/28081703"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4997368,
+            50.7810214
+          ],
+          [
+            5.4995156,
+            50.7809598
+          ],
+          [
+            5.4993764,
+            50.7809505
+          ],
+          [
+            5.4988788,
+            50.7809637
+          ],
+          [
+            5.498585,
+            50.7809809
+          ],
+          [
+            5.4979522,
+            50.781101
+          ],
+          [
+            5.4973659,
+            50.781251
+          ],
+          [
+            5.4969163,
+            50.7813389
+          ],
+          [
+            5.4965691,
+            50.7813912
+          ],
+          [
+            5.4964019,
+            50.7813781
+          ],
+          [
+            5.4962058,
+            50.7813301
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28081732",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "speed_pedelec": "yes",
+        "tracktype": "grade4",
+        "traffic_sign": "BE:F99c",
+        "id": "way/28081732"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4997368,
+            50.7810214
+          ],
+          [
+            5.4995596,
+            50.7811041
+          ],
+          [
+            5.4993093,
+            50.7813316
+          ],
+          [
+            5.4991643,
+            50.7815397
+          ],
+          [
+            5.4989809,
+            50.7818098
+          ],
+          [
+            5.4988385,
+            50.782007
+          ],
+          [
+            5.4987615,
+            50.7820566
+          ],
+          [
+            5.4986464,
+            50.7821024
+          ],
+          [
+            5.4983592,
+            50.7821675
+          ],
+          [
+            5.4980929,
+            50.7822717
+          ],
+          [
+            5.4979371,
+            50.7823245
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28761882",
+      "properties": {
+        "highway": "residential",
+        "name": "Godensteenstraat",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "id": "way/28761882"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4932519,
+            50.7908652
+          ],
+          [
+            5.4933344,
+            50.7908281
+          ],
+          [
+            5.4934026,
+            50.7907891
+          ],
+          [
+            5.4937755,
+            50.790498
+          ],
+          [
+            5.4938711,
+            50.7904489
+          ],
+          [
+            5.4939715,
+            50.7904127
+          ],
+          [
+            5.4940998,
+            50.7904055
+          ],
+          [
+            5.4941966,
+            50.7904091
+          ],
+          [
+            5.4943005,
+            50.7904276
+          ],
+          [
+            5.494491,
+            50.7904619
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/29415008",
+      "properties": {
+        "highway": "track",
+        "surface": "unpaved",
+        "tracktype": "grade3",
+        "id": "way/29415008"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4977321,
+            50.7915495
+          ],
+          [
+            5.4979853,
+            50.79139
+          ],
+          [
+            5.4984333,
+            50.7909755
+          ],
+          [
+            5.4985861,
+            50.7908771
+          ],
+          [
+            5.498739,
+            50.7908186
+          ],
+          [
+            5.499128,
+            50.7907347
+          ],
+          [
+            5.4995673,
+            50.7906583
+          ],
+          [
+            5.4998227,
+            50.7906258
+          ],
+          [
+            5.4999587,
+            50.7906105
+          ],
+          [
+            5.5001162,
+            50.7905815
+          ],
+          [
+            5.5004833,
+            50.7904917
+          ],
+          [
+            5.5006345,
+            50.7904443
+          ],
+          [
+            5.5008453,
+            50.7903571
+          ],
+          [
+            5.5010632,
+            50.7902472
+          ],
+          [
+            5.5013882,
+            50.790035
+          ],
+          [
+            5.5017228,
+            50.7898384
+          ],
+          [
+            5.5024487,
+            50.789442
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30051136",
+      "properties": {
+        "highway": "footway",
+        "id": "way/30051136"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4565587,
+            50.7809845
+          ],
+          [
+            5.4575376,
+            50.7812763
+          ],
+          [
+            5.4585188,
+            50.7815722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30065633",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Leopoldwal",
+        "overtaking:motor_vehicle": "no",
+        "id": "way/30065633"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4714553,
+            50.7794605
+          ],
+          [
+            5.4713732,
+            50.7792646
+          ],
+          [
+            5.4713464,
+            50.7792181
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38579262",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "name": "Oude Blaarstraat",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "traffic_sign": "BE:F99c",
+        "width": "4",
+        "id": "way/38579262"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.487673,
+            50.7794491
+          ],
+          [
+            5.4869741,
+            50.7794189
+          ],
+          [
+            5.4860213,
+            50.7792729
+          ],
+          [
+            5.4852757,
+            50.7791094
+          ],
+          [
+            5.4818311,
+            50.778426
+          ],
+          [
+            5.4801312,
+            50.7780382
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38579414",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "horse": "yes",
+        "layer": "-1",
+        "maxspeed": "30",
+        "name": "Oude Blaarstraat",
+        "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
+        "tunnel": "yes",
+        "id": "way/38579414"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4771158,
+            50.7773467
+          ],
+          [
+            5.4769045,
+            50.7772759
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38612334",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "name": "Oude Blaarstraat",
+        "smoothness": "bad",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "traffic_sign": "BE:F99c",
+        "width": "4",
+        "id": "way/38612334"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4962058,
+            50.7813301
+          ],
+          [
+            5.4959109,
+            50.7812269
+          ],
+          [
+            5.4948255,
+            50.7808678
+          ],
+          [
+            5.4944741,
+            50.780704
+          ],
+          [
+            5.4939948,
+            50.7804468
+          ],
+          [
+            5.493655,
+            50.7803296
+          ],
+          [
+            5.4925538,
+            50.7800111
+          ],
+          [
+            5.4921754,
+            50.7798688
+          ],
+          [
+            5.4918248,
+            50.7797102
+          ],
+          [
+            5.4915629,
+            50.7796565
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38612499",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "foot": "designated",
+        "highway": "path",
+        "maxspeed": "30",
+        "segregated": "no",
+        "surface": "paved",
+        "traffic_sign": "BE:F111",
+        "id": "way/38612499"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4678347,
+            50.7783122
+          ],
+          [
+            5.4678621,
+            50.7782812
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38790468",
+      "properties": {
+        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "maxspeed": "30",
+        "name": "Stadhuisplein",
+        "panoramax:streetsign": "01888e89-f88f-4123-bc21-6f56d1d8fea8",
+        "id": "way/38790468"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.464187,
+            50.7809917
+          ],
+          [
+            5.4641148,
+            50.7809551
+          ],
+          [
+            5.4639789,
+            50.7808451
+          ],
+          [
+            5.4639766,
+            50.7807719
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38820556",
+      "properties": {
+        "bicycle": "designated",
+        "highway": "path",
+        "segregated": "no",
+        "speed_pedelec": "yes",
+        "surface": "paved",
+        "id": "way/38820556"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4689745,
+            50.7784819
+          ],
+          [
+            5.469145,
+            50.7785141
+          ],
+          [
+            5.469425,
+            50.7785546
+          ],
+          [
+            5.4694367,
+            50.7785563
+          ],
+          [
+            5.4697218,
+            50.7785873
+          ],
+          [
+            5.469851,
+            50.7785959
+          ],
+          [
+            5.4708545,
+            50.7786332
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38820656",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Sint-Beggastraat",
+        "overtaking:motor_vehicle": "no",
+        "id": "way/38820656"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4681411,
+            50.7791313
+          ],
+          [
+            5.4681645,
+            50.7791055
+          ],
+          [
+            5.4681985,
+            50.7790849
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38820926",
+      "properties": {
+        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "name": "Alleé Verte",
+        "surface": "sett",
+        "id": "way/38820926"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4658015,
+            50.7810367
+          ],
+          [
+            5.4657845,
+            50.7811718
+          ],
+          [
+            5.465637,
+            50.7813301
+          ],
+          [
+            5.4657658,
+            50.7814111
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38820976",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kastanjewal",
+        "overtaking:motor_vehicle": "no",
+        "id": "way/38820976"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4679094,
+            50.7783393
+          ],
+          [
+            5.4681395,
+            50.7784012
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38854859",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "name": "Oude Blaarstraat",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "traffic_sign": "BE:F99c",
+        "width": "4",
+        "id": "way/38854859"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.490744,
+            50.7798771
+          ],
+          [
+            5.4906978,
+            50.7798419
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38922498",
+      "properties": {
+        "access": "destination",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "maxspeed": "30",
+        "segregated": "no",
+        "speed_pedelec": "yes",
+        "surface": "sett",
+        "traffic_sign": "BE:F99a",
+        "id": "way/38922498"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4679386,
+            50.7781911
+          ],
+          [
+            5.468239,
+            50.7782896
+          ],
+          [
+            5.4686213,
+            50.7784057
+          ],
+          [
+            5.4689745,
+            50.7784819
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38922554",
+      "properties": {
+        "highway": "footway",
+        "surface": "paved",
+        "id": "way/38922554"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4707575,
+            50.7783557
+          ],
+          [
+            5.4708475,
+            50.7786131
+          ],
+          [
+            5.4708545,
+            50.7786332
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38922606",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Sint-Rosastraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
+        "surface": "cobblestone",
+        "id": "way/38922606"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4704876,
+            50.7792401
+          ],
+          [
+            5.4706274,
+            50.7792266
+          ],
+          [
+            5.4708259,
+            50.7792222
+          ],
+          [
+            5.4708716,
+            50.7792281
+          ],
+          [
+            5.4709758,
+            50.7792835
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39057147",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "name": "Molenstraat",
+        "surface": "unpaved",
+        "tracktype": "grade3",
+        "traffic_sign": "BE:F99c",
+        "id": "way/39057147"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4923231,
+            50.7865907
+          ],
+          [
+            5.4921725,
+            50.7866836
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39057269",
+      "properties": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Sint-Martensstraat",
+        "smoothness": "intermediate",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/39057269"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4960283,
+            50.7907426
+          ],
+          [
+            5.4960142,
+            50.7910189
+          ],
+          [
+            5.4959264,
+            50.7911985
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39057393",
+      "properties": {
+        "highway": "track",
+        "surface": "unpaved",
+        "tracktype": "grade3",
+        "id": "way/39057393"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5024487,
+            50.789442
+          ],
+          [
+            5.502616,
+            50.7895118
+          ],
+          [
+            5.5027585,
+            50.7896003
+          ],
+          [
+            5.503272,
+            50.7900343
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39058335",
+      "properties": {
+        "highway": "track",
+        "surface": "dirt",
+        "tracktype": "grade4",
+        "id": "way/39058335"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.506199,
+            50.7927984
+          ],
+          [
+            5.506988,
+            50.793386
+          ],
+          [
+            5.5070949,
+            50.7934503
+          ],
+          [
+            5.507182,
+            50.7934983
+          ],
+          [
+            5.5073371,
+            50.7935628
+          ],
+          [
+            5.5075227,
+            50.7936141
+          ],
+          [
+            5.507823,
+            50.7937037
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39352738",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "name": "Via Julianus",
+        "surface": "paving_stones",
+        "id": "way/39352738"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.47079,
+            50.7822428
+          ],
+          [
+            5.470532,
+            50.7821994
+          ],
+          [
+            5.4701944,
+            50.7821725
+          ],
+          [
+            5.4698606,
+            50.7822221
+          ],
+          [
+            5.4696286,
+            50.7822487
+          ],
+          [
+            5.469588,
+            50.782246
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39352783",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Leopoldwal",
+        "overtaking:motor_vehicle": "no",
+        "id": "way/39352783"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4709203,
+            50.7820051
+          ],
+          [
+            5.47079,
+            50.7822428
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39424010",
+      "properties": {
+        "highway": "track",
+        "surface": "dirt",
+        "tracktype": "grade4",
+        "id": "way/39424010"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5076072,
+            50.8019997
+          ],
+          [
+            5.5073752,
+            50.8019464
+          ],
+          [
+            5.507104,
+            50.8017851
+          ],
+          [
+            5.5068106,
+            50.8016065
+          ],
+          [
+            5.5064835,
+            50.8013474
+          ],
+          [
+            5.5061648,
+            50.8012181
+          ],
+          [
+            5.5060422,
+            50.8011461
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39424028",
+      "properties": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Ketsingenstraat",
+        "smoothness": "intermediate",
+        "surface": "concrete",
+        "id": "way/39424028"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5051679,
+            50.795196
+          ],
+          [
+            5.5052537,
+            50.7952653
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39428283",
+      "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "highway": "track",
+        "surface": "gravel",
+        "tracktype": "grade2",
+        "vehicle": "no",
+        "id": "way/39428283"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.507823,
+            50.7937037
+          ],
+          [
+            5.507461,
+            50.7940017
+          ],
+          [
+            5.507052,
+            50.794293
+          ],
+          [
+            5.5066866,
+            50.7945183
+          ],
+          [
+            5.5063091,
+            50.7947109
+          ],
+          [
+            5.5057521,
+            50.7949585
+          ],
+          [
+            5.5051679,
+            50.795196
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39996388",
+      "properties": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "maxspeed": "50",
+        "name": "Beukenbergweg",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "surface": "asphalt",
+        "id": "way/39996388"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.455845,
+            50.7811685
+          ],
+          [
+            5.4559243,
+            50.7811571
+          ],
+          [
+            5.4561593,
+            50.7811362
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/70377714",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "name": "Oude Blaarstraat",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "traffic_sign": "BE:F99c",
+        "width": "4",
+        "id": "way/70377714"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4883899,
+            50.7794855
+          ],
+          [
+            5.487673,
+            50.7794491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/148819238",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Maastrichterstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "cobblestone:flattened",
+        "smoothness": "intermediate",
+        "surface": "sett",
+        "id": "way/148819238"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4648108,
+            50.7816074
+          ],
+          [
+            5.4649989,
+            50.7816355
+          ],
+          [
+            5.465174,
+            50.7816901
+          ],
+          [
+            5.4654319,
+            50.7817836
+          ],
+          [
+            5.4655305,
+            50.7818314
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/217129684",
+      "properties": {
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Eeuwfeestwal",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "placement": "right_of:1",
+        "ref": "R72",
+        "sidewalk": "right",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through;right|right",
+        "id": "way/217129684"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4601637,
+            50.7808032
+          ],
+          [
+            5.4601708,
+            50.780441
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/243839365",
+      "properties": {
+        "cycleway:right": "share_busway",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Eeuwfeestwal",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "R72",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through|right",
+        "id": "way/243839365"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4601722,
+            50.7803823
+          ],
+          [
+            5.4601773,
+            50.7801326
+          ],
+          [
+            5.4601817,
+            50.779972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/245059565",
+      "properties": {
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Kruissteenweg",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "N79",
+        "surface": "asphalt",
+        "id": "way/245059565"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4601817,
+            50.779972
+          ],
+          [
+            5.4603687,
+            50.780001
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/245328788",
+      "properties": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Ketsingenstraat",
+        "smoothness": "intermediate",
+        "surface": "concrete",
+        "id": "way/245328788"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5054034,
+            50.7953789
+          ],
+          [
+            5.505891,
+            50.7957665
+          ],
+          [
+            5.5062802,
+            50.7960774
+          ],
+          [
+            5.5066497,
+            50.7964405
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/245328789",
+      "properties": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Ketsingenstraat",
+        "smoothness": "intermediate",
+        "surface": "concrete",
+        "id": "way/245328789"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5052537,
+            50.7952653
+          ],
+          [
+            5.5052946,
+            50.7952969
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/284332198",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "50",
+        "name": "Godensteenstraat",
+        "smoothness": "intermediate",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/284332198"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.494491,
+            50.7904619
+          ],
+          [
+            5.495568,
+            50.7906692
+          ],
+          [
+            5.4960283,
+            50.7907426
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/284332202",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "name": "Molenstraat",
+        "smoothness": "very_bad",
+        "surface": "unpaved",
+        "tracktype": "grade3",
+        "traffic_sign": "BE:F99c",
+        "id": "way/284332202"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4921725,
+            50.7866836
+          ],
+          [
+            5.4911425,
+            50.787462
+          ],
+          [
+            5.4905387,
+            50.7878729
+          ],
+          [
+            5.4893605,
+            50.7887257
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/284703907",
+      "properties": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Ketsingenstraat",
+        "smoothness": "intermediate",
+        "surface": "concrete",
+        "traffic_calming": "table",
+        "id": "way/284703907"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5052946,
+            50.7952969
+          ],
+          [
+            5.5053064,
+            50.7953069
+          ],
+          [
+            5.5053389,
+            50.7953311
+          ],
+          [
+            5.5054034,
+            50.7953789
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/337726100",
+      "properties": {
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Eeuwfeestwal",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "R72",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through|right",
+        "id": "way/337726100"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4601708,
+            50.780441
+          ],
+          [
+            5.4601722,
+            50.7803823
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/340720965",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "name": "Oude Blaarstraat",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "traffic_sign": "BE:F99c",
+        "width": "4",
+        "id": "way/340720965"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4915629,
+            50.7796565
+          ],
+          [
+            5.4913483,
+            50.7796497
+          ],
+          [
+            5.4912181,
+            50.779669
+          ],
+          [
+            5.4910833,
+            50.779711
+          ],
+          [
+            5.490744,
+            50.7798771
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/346098167",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Beukenbergweg",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "id": "way/346098167"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4561593,
+            50.7811362
+          ],
+          [
+            5.4563407,
+            50.78108
+          ],
+          [
+            5.4564955,
+            50.7810122
+          ],
+          [
+            5.4565587,
+            50.7809845
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/346098168",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "de Schiervelstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
+        "id": "way/346098168"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4682294,
+            50.7820512
+          ],
+          [
+            5.4683409,
+            50.7818923
+          ],
+          [
+            5.4684862,
+            50.78173
+          ],
+          [
+            5.4685534,
+            50.7816836
+          ],
+          [
+            5.4686797,
+            50.7815734
+          ],
+          [
+            5.4687515,
+            50.7815453
+          ],
+          [
+            5.468792,
+            50.78153
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/346098169",
+      "properties": {
+        "highway": "residential",
+        "lit": "no",
+        "maxspeed": "30",
+        "name": "Eeuwfeestwal",
+        "oneway": "yes",
+        "oneway:bicycle": "yes",
+        "sidewalk": "right",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
+        "id": "way/346098169"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4599582,
+            50.7810727
+          ],
+          [
+            5.4600024,
+            50.7809405
+          ],
+          [
+            5.4600681,
+            50.7808529
+          ],
+          [
+            5.4601637,
+            50.7808032
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/346098170",
+      "properties": {
+        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "maxspeed": "30",
+        "name": "Stadhuisplein",
+        "id": "way/346098170"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4639766,
+            50.7807719
+          ],
+          [
+            5.4635931,
+            50.7806728
+          ],
+          [
+            5.4635384,
+            50.7806579
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/346098171",
+      "properties": {
+        "bicycle": "yes",
+        "covered": "yes",
+        "highway": "pedestrian",
+        "name": "Via Julianus",
+        "surface": "sett",
+        "id": "way/346098171"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4687586,
+            50.7821719
+          ],
+          [
+            5.4686205,
+            50.7821395
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/566187262",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "horse": "yes",
+        "maxspeed": "30",
+        "name": "Oude Blaarstraat",
+        "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
+        "id": "way/566187262"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4769045,
+            50.7772759
+          ],
+          [
+            5.4767962,
+            50.7772428
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/566187264",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "foot": "yes",
+        "highway": "unclassified",
+        "horse": "yes",
+        "maxspeed": "30",
+        "name": "Oude Blaarstraat",
+        "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
+        "id": "way/566187264"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4772854,
+            50.7773984
+          ],
+          [
+            5.4771158,
+            50.7773467
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/593121332",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "layer": "1",
+        "maxspeed": "30",
+        "name": "Oude Blaarstraat",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "traffic_sign": "BE:F99c",
+        "width": "4",
+        "id": "way/593121332"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4906978,
+            50.7798419
+          ],
+          [
+            5.4905936,
+            50.7797616
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/593121333",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "foot": "yes",
+        "highway": "unclassified",
+        "horse": "yes",
+        "maxspeed": "30",
+        "name": "Oude Blaarstraat",
+        "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
+        "width": "4",
+        "id": "way/593121333"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4801312,
+            50.7780382
+          ],
+          [
+            5.4797788,
+            50.7779597
+          ],
+          [
+            5.4795186,
+            50.7779018
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/687202213",
+      "properties": {
+        "highway": "residential",
+        "name": "Blaarstraat",
+        "id": "way/687202213"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4948997,
+            50.7838448
+          ],
+          [
+            5.4951663,
+            50.7838188
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/692461420",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/692461420"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5060422,
+            50.8011461
+          ],
+          [
+            5.5058822,
+            50.8010464
+          ],
+          [
+            5.5057897,
+            50.800931
+          ],
+          [
+            5.5056727,
+            50.8007706
+          ],
+          [
+            5.50547,
+            50.8005569
+          ],
+          [
+            5.5052087,
+            50.8003387
+          ],
+          [
+            5.5050795,
+            50.8001526
+          ],
+          [
+            5.5050552,
+            50.8000434
+          ],
+          [
+            5.5050155,
+            50.7999713
+          ],
+          [
+            5.5049977,
+            50.7998439
+          ],
+          [
+            5.5051341,
+            50.7995026
+          ],
+          [
+            5.5053392,
+            50.7989742
+          ],
+          [
+            5.5054205,
+            50.7987322
+          ],
+          [
+            5.5055132,
+            50.7982047
+          ],
+          [
+            5.5055542,
+            50.7979534
+          ],
+          [
+            5.5056263,
+            50.7977674
+          ],
+          [
+            5.5057262,
+            50.7976596
+          ],
+          [
+            5.5058608,
+            50.7975371
+          ],
+          [
+            5.5059459,
+            50.7973799
+          ],
+          [
+            5.5061974,
+            50.7970499
+          ],
+          [
+            5.5064234,
+            50.7966816
+          ],
+          [
+            5.5066497,
+            50.7964405
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/722746116",
+      "properties": {
+        "highway": "residential",
+        "name": "Bergerhof",
+        "smoothness": "intermediate",
+        "surface": "concrete",
+        "id": "way/722746116"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4913536,
+            50.7899246
+          ],
+          [
+            5.4915133,
+            50.7900768
+          ],
+          [
+            5.4916564,
+            50.7901929
+          ],
+          [
+            5.4918253,
+            50.7902871
+          ],
+          [
+            5.4920606,
+            50.7903985
+          ],
+          [
+            5.4923876,
+            50.7905067
+          ],
+          [
+            5.492653,
+            50.7906174
+          ],
+          [
+            5.4929468,
+            50.7907504
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/722759023",
+      "properties": {
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "highway": "cycleway",
+        "layer": "1",
+        "segregated": "no",
+        "speed_pedelec": "yes",
+        "surface": "metal",
+        "traffic_sign": "BE:F99a",
+        "id": "way/722759023"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4748069,
+            50.7782135
+          ],
+          [
+            5.4746273,
+            50.7782893
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/722759027",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "cycleway",
+        "lit": "yes",
+        "segregated": "no",
+        "smoothness": "excellent",
+        "speed_pedelec": "yes",
+        "surface": "concrete",
+        "traffic_sign": "BE:F99a",
+        "id": "way/722759027"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4746273,
+            50.7782893
+          ],
+          [
+            5.4745104,
+            50.7783033
+          ],
+          [
+            5.474282,
+            50.778235
+          ],
+          [
+            5.4737395,
+            50.7781994
+          ],
+          [
+            5.473539,
+            50.7781188
+          ],
+          [
+            5.4733935,
+            50.7780878
+          ],
+          [
+            5.4731601,
+            50.7781218
+          ],
+          [
+            5.4729375,
+            50.7781264
+          ],
+          [
+            5.4727102,
+            50.778207
+          ],
+          [
+            5.4726532,
+            50.7782519
+          ],
+          [
+            5.4726223,
+            50.7783071
+          ],
+          [
+            5.472633,
+            50.7785572
+          ],
+          [
+            5.4725848,
+            50.7786293
+          ],
+          [
+            5.4725164,
+            50.7786997
+          ],
+          [
+            5.4724252,
+            50.7787362
+          ],
+          [
+            5.4723206,
+            50.7787641
+          ],
+          [
+            5.4721088,
+            50.7787789
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/722759028",
+      "properties": {
+        "bicycle": "no",
+        "highway": "footway",
+        "horse": "no",
+        "smoothness": "intermediate",
+        "surface": "compacted",
+        "id": "way/722759028"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4766054,
+            50.777236
+          ],
+          [
+            5.4765644,
+            50.7772885
+          ],
+          [
+            5.4759929,
+            50.7780686
+          ],
+          [
+            5.4759223,
+            50.7781757
+          ],
+          [
+            5.4757423,
+            50.7784171
+          ],
+          [
+            5.4756481,
+            50.7784198
+          ],
+          [
+            5.4748444,
+            50.7781867
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/722793856",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Onder de Linde",
+        "overtaking:motor_vehicle": "no",
+        "surface": "cobblestone",
+        "id": "way/722793856"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4681092,
+            50.7784317
+          ],
+          [
+            5.4679649,
+            50.778561
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/722794509",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Brouwersstraat",
+        "overtaking:motor_vehicle": "no",
+        "surface": "cobblestone",
+        "id": "way/722794509"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4690963,
+            50.7791138
+          ],
+          [
+            5.4690041,
+            50.7792439
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/729373686",
+      "properties": {
+        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "name": "Grote Markt",
+        "id": "way/729373686"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4631877,
+            50.7806306
+          ],
+          [
+            5.4633459,
+            50.780656
+          ],
+          [
+            5.4634827,
+            50.7806574
+          ],
+          [
+            5.4635384,
+            50.7806579
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/729373704",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "name": "Via Julianus",
+        "tunnel": "building_passage",
+        "id": "way/729373704"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4684592,
+            50.7821026
+          ],
+          [
+            5.4682294,
+            50.7820512
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/729373705",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "name": "Via Julianus",
+        "tunnel": "building_passage",
+        "id": "way/729373705"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4686205,
+            50.7821395
+          ],
+          [
+            5.4684592,
+            50.7821026
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/729373706",
+      "properties": {
+        "bicycle": "yes",
+        "covered": "yes",
+        "highway": "pedestrian",
+        "name": "Via Julianus",
+        "surface": "sett",
+        "id": "way/729373706"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4689625,
+            50.7822205
+          ],
+          [
+            5.4687586,
+            50.7821719
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/729373707",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "name": "Via Julianus",
+        "tunnel": "building_passage",
+        "id": "way/729373707"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.469588,
+            50.782246
+          ],
+          [
+            5.4691476,
+            50.782229
+          ],
+          [
+            5.4689625,
+            50.7822205
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/729377490",
+      "properties": {
+        "bicycle": "designated",
+        "bridge": "yes",
+        "foot": "designated",
+        "highway": "path",
+        "layer": "1",
+        "segregated": "no",
+        "surface": "wood",
+        "width": "2",
+        "id": "way/729377490"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4678621,
+            50.7782812
+          ],
+          [
+            5.467906,
+            50.7782316
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/729377491",
+      "properties": {
+        "access": "destination",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "maxspeed": "30",
+        "segregated": "no",
+        "speed_pedelec": "yes",
+        "surface": "sett",
+        "traffic_sign": "BE:F99a",
+        "id": "way/729377491"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.467906,
+            50.7782316
+          ],
+          [
+            5.4679386,
+            50.7781911
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/729460708",
+      "properties": {
+        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "name": "Museumkwartier",
+        "surface": "sett",
+        "id": "way/729460708"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4654266,
+            50.7808529
+          ],
+          [
+            5.4658015,
+            50.7810367
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/743141250",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kastanjewal",
+        "id": "way/743141250"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4678347,
+            50.7783122
+          ],
+          [
+            5.4679094,
+            50.7783393
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/764628300",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/764628300"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.503272,
+            50.7900343
+          ],
+          [
+            5.5035007,
+            50.7903349
+          ],
+          [
+            5.503663,
+            50.7906298
+          ],
+          [
+            5.5037983,
+            50.7908683
+          ],
+          [
+            5.5039795,
+            50.7911402
+          ],
+          [
+            5.5041677,
+            50.7913332
+          ],
+          [
+            5.5043937,
+            50.7915184
+          ],
+          [
+            5.504615,
+            50.7916402
+          ],
+          [
+            5.5047726,
+            50.7917186
+          ],
+          [
+            5.5049334,
+            50.7918233
+          ],
+          [
+            5.5054843,
+            50.7922899
+          ],
+          [
+            5.506199,
+            50.7927984
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/776077519",
+      "properties": {
+        "highway": "cycleway",
+        "speed_pedelec": "yes",
+        "id": "way/776077519"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4719966,
+            50.7787829
+          ],
+          [
+            5.4721088,
+            50.7787789
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/832886899",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "segregated": "yes",
+        "speed_pedelec": "yes",
+        "id": "way/832886899"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4719966,
+            50.7787829
+          ],
+          [
+            5.4719875,
+            50.7787529
+          ],
+          [
+            5.4719331,
+            50.7787058
+          ],
+          [
+            5.4718493,
+            50.7786111
+          ],
+          [
+            5.4718564,
+            50.7785655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/875211047",
+      "properties": {
+        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Stadhuisplein",
+        "overtaking:motor_vehicle": "no",
+        "traffic_sign": "BE:F111",
+        "id": "way/875211047"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4642938,
+            50.7810458
+          ],
+          [
+            5.4642233,
+            50.7810101
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/875471140",
+      "properties": {
+        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "name": "Alleé Verte",
+        "tunnel": "building_passage",
+        "id": "way/875471140"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4657658,
+            50.7814111
+          ],
+          [
+            5.4657894,
+            50.7814258
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/875471141",
+      "properties": {
+        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "name": "Alleé Verte",
+        "id": "way/875471141"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4657894,
+            50.7814258
+          ],
+          [
+            5.4658939,
+            50.7814909
+          ],
+          [
+            5.4659492,
+            50.7815255
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/880648329",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Riddersstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
+        "id": "way/880648329"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4669372,
+            50.7806314
+          ],
+          [
+            5.4666062,
+            50.7805628
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1008945397",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "name": "Oude Blaarstraat",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "traffic_sign": "BE:F99c",
+        "width": "4",
+        "id": "way/1008945397"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4905936,
+            50.7797616
+          ],
+          [
+            5.4905291,
+            50.779725
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1008949974",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Sint-Ursulastraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
+        "surface": "cobblestone",
+        "id": "way/1008949974"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4692004,
+            50.7788467
+          ],
+          [
+            5.4698685,
+            50.7789361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1008949976",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Onder de Linde",
+        "overtaking:motor_vehicle": "no",
+        "surface": "cobblestone",
+        "id": "way/1008949976"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4679649,
+            50.778561
+          ],
+          [
+            5.4678243,
+            50.7787297
+          ],
+          [
+            5.4677413,
+            50.7788141
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1008949977",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Onder de Linde",
+        "overtaking:motor_vehicle": "no",
+        "surface": "cobblestone",
+        "id": "way/1008949977"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4676834,
+            50.7790401
+          ],
+          [
+            5.4681411,
+            50.7791313
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1008949979",
+      "properties": {
+        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "name": "Sint-Truiderstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "id": "way/1008949979"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4629809,
+            50.7805932
+          ],
+          [
+            5.4631877,
+            50.7806306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1085039177",
+      "properties": {
+        "highway": "service",
+        "service": "driveway",
+        "id": "way/1085039177"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4714106,
+            50.7782128
+          ],
+          [
+            5.4711854,
+            50.7782601
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1119686269",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "50",
+        "name": "Oude Blaarstraat",
+        "id": "way/1119686269"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4767962,
+            50.7772428
+          ],
+          [
+            5.4766054,
+            50.777236
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1203136482",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "cycleway",
+        "lit": "yes",
+        "segregated": "no",
+        "speed_pedelec": "yes",
+        "surface": "concrete",
+        "traffic_sign": "BE:F99a",
+        "id": "way/1203136482"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4748444,
+            50.7781867
+          ],
+          [
+            5.4748069,
+            50.7782135
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1308437775",
+      "properties": {
+        "highway": "residential",
+        "name": "Bergerhof",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "id": "way/1308437775"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4929468,
+            50.7907504
+          ],
+          [
+            5.4931537,
+            50.7908387
+          ],
+          [
+            5.4932519,
+            50.7908652
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1308449117",
+      "properties": {
+        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "maxspeed": "30",
+        "name": "Stadhuisplein",
+        "panoramax:streetsign": "01888e89-f88f-4123-bc21-6f56d1d8fea8",
+        "id": "way/1308449117"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4642233,
+            50.7810101
+          ],
+          [
+            5.464187,
+            50.7809917
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1347167893",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "service",
+        "surface": "asphalt",
+        "vehicle": "destination",
+        "id": "way/1347167893"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4585188,
+            50.7815722
+          ],
+          [
+            5.4598346,
+            50.781201
+          ],
+          [
+            5.4598828,
+            50.7811534
+          ],
+          [
+            5.4599582,
+            50.7810727
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30050904",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/30050904"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4341119,
+            50.7806771
+          ],
+          [
+            5.4341139,
+            50.7804576
+          ],
+          [
+            5.4341409,
+            50.7802506
+          ],
+          [
+            5.4341702,
+            50.7801903
+          ],
+          [
+            5.43424,
+            50.7801447
+          ],
+          [
+            5.434365,
+            50.7800997
+          ],
+          [
+            5.4346641,
+            50.7800549
+          ],
+          [
+            5.4352125,
+            50.7799728
+          ],
+          [
+            5.4353505,
+            50.7799688
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38875960",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "motor_vehicle": "destination",
+        "surface": "grass",
+        "tracktype": "grade4",
+        "id": "way/38875960"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4341032,
+            50.7809029
+          ],
+          [
+            5.4338631,
+            50.7809511
+          ],
+          [
+            5.431775,
+            50.7813149
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38875999",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/38875999"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4447918,
+            50.7792158
+          ],
+          [
+            5.444939,
+            50.7791897
+          ],
+          [
+            5.4453778,
+            50.7791203
+          ],
+          [
+            5.4458022,
+            50.7790365
+          ],
+          [
+            5.446267,
+            50.7788472
+          ],
+          [
+            5.4465808,
+            50.7787432
+          ],
+          [
+            5.4469375,
+            50.7786912
+          ],
+          [
+            5.4472761,
+            50.7786621
+          ],
+          [
+            5.4484248,
+            50.7785687
+          ],
+          [
+            5.4485643,
+            50.7785818
+          ],
+          [
+            5.4487319,
+            50.7786149
+          ],
+          [
+            5.4490189,
+            50.7787022
+          ],
+          [
+            5.4495041,
+            50.7788752
+          ],
+          [
+            5.4499054,
+            50.779044
+          ],
+          [
+            5.450351,
+            50.7792506
+          ],
+          [
+            5.4513315,
+            50.7797049
+          ],
+          [
+            5.4516121,
+            50.7798009
+          ],
+          [
+            5.4519039,
+            50.7798739
+          ],
+          [
+            5.4525073,
+            50.7799957
+          ],
+          [
+            5.4528796,
+            50.7800734
+          ],
+          [
+            5.4537896,
+            50.7802159
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38876042",
+      "properties": {
+        "embankment": "yes",
+        "highway": "path",
+        "horse": "no",
+        "surface": "dirt",
+        "id": "way/38876042"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4353505,
+            50.7799688
+          ],
+          [
+            5.4357046,
+            50.7799585
+          ],
+          [
+            5.4363409,
+            50.7798542
+          ],
+          [
+            5.436992,
+            50.7797396
+          ],
+          [
+            5.4375109,
+            50.7796664
+          ],
+          [
+            5.4379566,
+            50.7795815
+          ],
+          [
+            5.4387635,
+            50.7794459
+          ],
+          [
+            5.4395391,
+            50.7793363
+          ],
+          [
+            5.4401341,
+            50.7792305
+          ],
+          [
+            5.4408187,
+            50.7791374
+          ],
+          [
+            5.4414296,
+            50.7790355
+          ],
+          [
+            5.4418368,
+            50.778995
+          ],
+          [
+            5.4420908,
+            50.7789804
+          ],
+          [
+            5.4425917,
+            50.7789721
+          ],
+          [
+            5.4430892,
+            50.7789639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38915555",
+      "properties": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Legioenenlaan",
+        "surface": "asphalt",
+        "id": "way/38915555"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4550557,
+            50.7804363
+          ],
+          [
+            5.4549292,
+            50.7803308
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/39393199",
+      "properties": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Legioenenlaan",
+        "surface": "asphalt",
+        "id": "way/39393199"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.455845,
+            50.7811685
+          ],
+          [
+            5.4557281,
+            50.7810538
+          ],
+          [
+            5.4552439,
+            50.7806061
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/208176913",
+      "properties": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Legioenenlaan",
+        "surface": "asphalt",
+        "id": "way/208176913"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4552439,
+            50.7806061
+          ],
+          [
+            5.4550557,
+            50.7804363
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/256103028",
+      "properties": {
+        "highway": "path",
+        "name": "Beukenbergweg",
+        "surface": "dirt",
+        "id": "way/256103028"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4537896,
+            50.7802159
+          ],
+          [
+            5.4542959,
+            50.7802858
+          ],
+          [
+            5.4545939,
+            50.7803151
+          ],
+          [
+            5.4548044,
+            50.7803601
+          ],
+          [
+            5.4549292,
+            50.7803308
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/256103042",
+      "properties": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "lit": "no",
+        "ramp": "no",
+        "step_count": "37",
+        "surface": "metal",
+        "id": "way/256103042"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4447618,
+            50.7789073
+          ],
+          [
+            5.4447135,
+            50.7788961
+          ],
+          [
+            5.444683,
+            50.7789576
+          ],
+          [
+            5.4445667,
+            50.7789824
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/346380033",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/346380033"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4448306,
+            50.7789203
+          ],
+          [
+            5.4447757,
+            50.7791169
+          ],
+          [
+            5.4447918,
+            50.7792158
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/857602642",
+      "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "motor_vehicle": "destination",
+        "surface": "dirt",
+        "tracktype": "grade4",
+        "id": "way/857602642"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4341032,
+            50.7809029
+          ],
+          [
+            5.4341119,
+            50.7806771
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/857602643",
+      "properties": {
+        "highway": "path",
+        "horse": "no",
+        "surface": "dirt",
+        "id": "way/857602643"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4447618,
+            50.7789073
+          ],
+          [
+            5.4448306,
+            50.7789203
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/907023383",
+      "properties": {
+        "embankment": "yes",
+        "highway": "path",
+        "horse": "no",
+        "surface": "dirt",
+        "id": "way/907023383"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4430892,
+            50.7789639
+          ],
+          [
+            5.4440125,
+            50.7789659
+          ],
+          [
+            5.4443412,
+            50.7789795
+          ],
+          [
+            5.4445667,
+            50.7789824
           ]
         ]
       }
@@ -29003,7 +33540,6 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Kerkplein",
-        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "id": "way/39663383"
@@ -29307,7 +33843,6 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Kerkplein",
-        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "id": "way/277457891"
@@ -29697,7 +34232,6 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Kerkplein",
-        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "id": "way/521192851"
@@ -29725,7 +34259,6 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Dorpstraat",
-        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "id": "way/521192853"
@@ -29753,7 +34286,6 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Kerkplein",
-        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "asphalt",
         "id": "way/631445594"
@@ -34242,6 +38774,1752 @@
           [
             5.2263345,
             50.8449984
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/9643482",
+      "properties": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Bergstraat",
+        "sidewalk": "no",
+        "source:maxspeed": "BE-VLG:zone30",
+        "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/9643482"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2861617,
+            50.8126463
+          ],
+          [
+            5.2862468,
+            50.8126565
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/9643537",
+      "properties": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "name": "Truierweg",
+        "sidewalk": "no",
+        "surface": "asphalt",
+        "id": "way/9643537"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2898873,
+            50.8131741
+          ],
+          [
+            5.2899902,
+            50.8131964
+          ],
+          [
+            5.2901103,
+            50.8132092
+          ],
+          [
+            5.291444,
+            50.8132693
+          ],
+          [
+            5.2917357,
+            50.8132703
+          ],
+          [
+            5.2920064,
+            50.8132583
+          ],
+          [
+            5.2922801,
+            50.813221
+          ],
+          [
+            5.2926563,
+            50.8131569
+          ],
+          [
+            5.2929439,
+            50.8130948
+          ],
+          [
+            5.293252,
+            50.813009
+          ],
+          [
+            5.2933153,
+            50.8130041
+          ],
+          [
+            5.2933985,
+            50.8130109
+          ],
+          [
+            5.2934785,
+            50.8130369
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/9643553",
+      "properties": {
+        "foot": "yes",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Bilterweg",
+        "sidewalk": "no",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/9643553"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2936426,
+            50.8128728
+          ],
+          [
+            5.2934785,
+            50.8130369
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/32019316",
+      "properties": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "50",
+        "name": "Truierweg",
+        "source:maxspeed": "sign",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/32019316"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2937139,
+            50.8128986
+          ],
+          [
+            5.2938449,
+            50.8128448
+          ],
+          [
+            5.2941215,
+            50.8127162
+          ],
+          [
+            5.2941901,
+            50.8126963
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/32019640",
+      "properties": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Smisstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "sidewalk": "no",
+        "source:maxspeed": "BE-VLG:zone30",
+        "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/32019640"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2862468,
+            50.8126565
+          ],
+          [
+            5.2862558,
+            50.8124482
+          ],
+          [
+            5.286243,
+            50.8120726
+          ],
+          [
+            5.2861818,
+            50.8116136
+          ],
+          [
+            5.2861753,
+            50.8115517
+          ],
+          [
+            5.2861588,
+            50.8114989
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/32019652",
+      "properties": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Beekstraat",
+        "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:zone30",
+        "surface": "sett",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/32019652"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2861588,
+            50.8114989
+          ],
+          [
+            5.2860472,
+            50.8115063
+          ],
+          [
+            5.2853747,
+            50.8115805
+          ],
+          [
+            5.2852485,
+            50.8115816
+          ],
+          [
+            5.2851453,
+            50.8115559
+          ],
+          [
+            5.2843382,
+            50.8114087
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/35140104",
+      "properties": {
+        "cycleway:both": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Sittardstraat",
+        "ref": "N754a",
+        "sidewalk": "both",
+        "surface": "concrete",
+        "id": "way/35140104"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3421163,
+            50.8105119
+          ],
+          [
+            5.3421865,
+            50.8104087
+          ],
+          [
+            5.3422081,
+            50.810377
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/104289895",
+      "properties": {
+        "cutting": "yes",
+        "highway": "footway",
+        "old_ref": "L23",
+        "railway": "abandoned",
+        "surface": "unpaved",
+        "wikipedia": "nl:Spoorlijn 23",
+        "id": "way/104289895"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3133238,
+            50.8084722
+          ],
+          [
+            5.3112244,
+            50.8083811
+          ],
+          [
+            5.3100875,
+            50.8083568
+          ],
+          [
+            5.3044682,
+            50.8081843
+          ],
+          [
+            5.3041096,
+            50.8081798
+          ],
+          [
+            5.3040761,
+            50.8081794
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/127883359",
+      "properties": {
+        "highway": "track",
+        "mtb:scale": "0",
+        "old_ref": "L23",
+        "railway": "abandoned",
+        "surface": "dirt",
+        "tracktype": "grade3",
+        "wikipedia": "nl:Spoorlijn 23",
+        "id": "way/127883359"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3196662,
+            50.8086813
+          ],
+          [
+            5.3203941,
+            50.8087023
+          ],
+          [
+            5.3239532,
+            50.8088015
+          ],
+          [
+            5.3247468,
+            50.8088401
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/176885677",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "name": "Truierweg",
+        "source:maxspeed": "sign",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/176885677"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2941901,
+            50.8126963
+          ],
+          [
+            5.2944955,
+            50.8127796
+          ],
+          [
+            5.2950089,
+            50.8128662
+          ],
+          [
+            5.2959397,
+            50.8128132
+          ],
+          [
+            5.2959924,
+            50.8128102
+          ],
+          [
+            5.2971337,
+            50.8129211
+          ],
+          [
+            5.2974835,
+            50.8129276
+          ],
+          [
+            5.2983975,
+            50.812988
+          ],
+          [
+            5.299618,
+            50.8130209
+          ],
+          [
+            5.3002317,
+            50.8130688
+          ],
+          [
+            5.301144,
+            50.8130817
+          ],
+          [
+            5.3014613,
+            50.8130006
+          ],
+          [
+            5.3020151,
+            50.8127643
+          ],
+          [
+            5.3023364,
+            50.8126819
+          ],
+          [
+            5.3027259,
+            50.8126474
+          ],
+          [
+            5.3035716,
+            50.8127039
+          ],
+          [
+            5.3039165,
+            50.8126939
+          ],
+          [
+            5.3053868,
+            50.812389
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/189937074",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/189937074"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3146527,
+            50.8085217
+          ],
+          [
+            5.3146836,
+            50.8084391
+          ],
+          [
+            5.3146777,
+            50.8083626
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220172201",
+      "properties": {
+        "highway": "cycleway",
+        "layer": "-1",
+        "lit": "yes",
+        "oneway": "yes",
+        "surface": "concrete",
+        "tunnel": "yes",
+        "id": "way/220172201"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3393008,
+            50.8149019
+          ],
+          [
+            5.3395646,
+            50.8148886
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220172207",
+      "properties": {
+        "embankment": "yes",
+        "highway": "path",
+        "old_ref": "L23",
+        "railway": "abandoned",
+        "smoothness": "bad",
+        "surface": "dirt",
+        "wikipedia": "nl:Spoorlijn 23",
+        "id": "way/220172207"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3305724,
+            50.8090059
+          ],
+          [
+            5.329493,
+            50.8089926
+          ],
+          [
+            5.3267153,
+            50.8089227
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220287195",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/220287195"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3366173,
+            50.8094003
+          ],
+          [
+            5.3369673,
+            50.8094664
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220287256",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "no",
+        "name": "Nieuwmolen",
+        "old_ref": "L23",
+        "railway": "abandoned",
+        "surface": "asphalt",
+        "wikipedia": "nl:Spoorlijn 23",
+        "id": "way/220287256"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3146527,
+            50.8085217
+          ],
+          [
+            5.3148114,
+            50.8085209
+          ],
+          [
+            5.3180958,
+            50.8086221
+          ],
+          [
+            5.3194623,
+            50.8086645
+          ],
+          [
+            5.3195541,
+            50.8086713
+          ],
+          [
+            5.3196662,
+            50.8086813
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220287813",
+      "properties": {
+        "highway": "path",
+        "old_ref": "L23",
+        "railway": "abandoned",
+        "surface": "ground",
+        "wikipedia": "nl:Spoorlijn 23",
+        "id": "way/220287813"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3040761,
+            50.8081794
+          ],
+          [
+            5.3038619,
+            50.8081767
+          ],
+          [
+            5.3033008,
+            50.8081667
+          ],
+          [
+            5.3025441,
+            50.8081495
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220342625",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/220342625"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3306957,
+            50.8088623
+          ],
+          [
+            5.3312469,
+            50.808905
+          ],
+          [
+            5.3317955,
+            50.8089363
+          ],
+          [
+            5.3323346,
+            50.8089304
+          ],
+          [
+            5.3331949,
+            50.8089295
+          ],
+          [
+            5.3336009,
+            50.8089538
+          ],
+          [
+            5.3342594,
+            50.8090142
+          ],
+          [
+            5.3350186,
+            50.8091087
+          ],
+          [
+            5.3356968,
+            50.8092231
+          ],
+          [
+            5.3364327,
+            50.8093325
+          ],
+          [
+            5.3366173,
+            50.8094003
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220342626",
+      "properties": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "lit": "no",
+        "ramp": "no",
+        "step_count": "16",
+        "surface": "dirt",
+        "id": "way/220342626"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3306957,
+            50.8088623
+          ],
+          [
+            5.3306771,
+            50.8088837
+          ],
+          [
+            5.3306027,
+            50.8089073
+          ],
+          [
+            5.3306523,
+            50.8089635
+          ],
+          [
+            5.3306379,
+            50.8089812
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220345162",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "name": "Kleestraat",
+        "surface": "asphalt",
+        "id": "way/220345162"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3261708,
+            50.8090038
+          ],
+          [
+            5.3262093,
+            50.809026
+          ],
+          [
+            5.3262673,
+            50.8090443
+          ],
+          [
+            5.3264217,
+            50.8090722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220345163",
+      "properties": {
+        "highway": "path",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel",
+        "id": "way/220345163"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3264217,
+            50.8090722
+          ],
+          [
+            5.3265537,
+            50.8089914
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220346876",
+      "properties": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Kleestraat",
+        "sidewalk": "no",
+        "surface": "asphalt",
+        "id": "way/220346876"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3247468,
+            50.8088401
+          ],
+          [
+            5.3250463,
+            50.8088757
+          ],
+          [
+            5.3260482,
+            50.8089948
+          ],
+          [
+            5.3261708,
+            50.8090038
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220961157",
+      "properties": {
+        "highway": "footway",
+        "surface": "unpaved",
+        "id": "way/220961157"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3042647,
+            50.8104528
+          ],
+          [
+            5.3040663,
+            50.8103878
+          ],
+          [
+            5.30316,
+            50.8100416
+          ],
+          [
+            5.3026105,
+            50.8095991
+          ],
+          [
+            5.3025568,
+            50.8095567
+          ],
+          [
+            5.3025144,
+            50.8094685
+          ],
+          [
+            5.3024896,
+            50.8091921
+          ],
+          [
+            5.3025257,
+            50.8091408
+          ],
+          [
+            5.3025175,
+            50.8090755
+          ],
+          [
+            5.3024554,
+            50.8090131
+          ],
+          [
+            5.3023435,
+            50.8089538
+          ],
+          [
+            5.3022296,
+            50.8088235
+          ],
+          [
+            5.3020657,
+            50.8086152
+          ],
+          [
+            5.3020386,
+            50.8085117
+          ],
+          [
+            5.3020968,
+            50.8083042
+          ],
+          [
+            5.3023623,
+            50.808294
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220961158",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/220961158"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3371248,
+            50.8094953
+          ],
+          [
+            5.3372106,
+            50.8096232
+          ],
+          [
+            5.3371854,
+            50.809729
+          ],
+          [
+            5.3373799,
+            50.81019
+          ],
+          [
+            5.3375399,
+            50.810608
+          ],
+          [
+            5.3376592,
+            50.8108426
+          ],
+          [
+            5.3378896,
+            50.8113173
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220961159",
+      "properties": {
+        "highway": "path",
+        "surface": "grass",
+        "id": "way/220961159"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3392634,
+            50.814909
+          ],
+          [
+            5.3392328,
+            50.8148621
+          ],
+          [
+            5.3390198,
+            50.8140216
+          ],
+          [
+            5.3387163,
+            50.8131851
+          ],
+          [
+            5.3378896,
+            50.8113173
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/223111874",
+      "properties": {
+        "bicycle": "designated",
+        "cycleway:surface": "fine_gravel",
+        "foot": "designated",
+        "footway:surface": "fine_gravel",
+        "highway": "path",
+        "lit": "no",
+        "segregated": "yes",
+        "id": "way/223111874"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2896257,
+            50.8133078
+          ],
+          [
+            5.2886612,
+            50.8131404
+          ],
+          [
+            5.288142,
+            50.8130594
+          ],
+          [
+            5.288039,
+            50.813049
+          ],
+          [
+            5.2879943,
+            50.8130556
+          ],
+          [
+            5.2879584,
+            50.8130707
+          ],
+          [
+            5.2878689,
+            50.8131244
+          ],
+          [
+            5.2878078,
+            50.813147
+          ],
+          [
+            5.2876481,
+            50.8131687
+          ],
+          [
+            5.2871274,
+            50.813197
+          ],
+          [
+            5.2863936,
+            50.8132184
+          ],
+          [
+            5.2859776,
+            50.8132053
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/288092124",
+      "properties": {
+        "cycleway": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Bronstraat",
+        "surface": "asphalt",
+        "id": "way/288092124"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3053868,
+            50.812389
+          ],
+          [
+            5.305464,
+            50.8123307
+          ],
+          [
+            5.3055521,
+            50.8122633
+          ],
+          [
+            5.3058031,
+            50.8120661
+          ],
+          [
+            5.3061075,
+            50.8118326
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/340409414",
+      "properties": {
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Sittardstraat",
+        "ref": "N754a",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "width": "4",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/340409414"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3409242,
+            50.8135967
+          ],
+          [
+            5.3409767,
+            50.8134805
+          ],
+          [
+            5.3411363,
+            50.8130157
+          ],
+          [
+            5.341169,
+            50.8129045
+          ],
+          [
+            5.3412037,
+            50.8127421
+          ],
+          [
+            5.3412238,
+            50.8126368
+          ],
+          [
+            5.3413099,
+            50.8123948
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/347344656",
+      "properties": {
+        "cycleway": "no",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Smisstraat",
+        "sidewalk": "no",
+        "source:maxspeed": "BE-VLG:zone30",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/347344656"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2859776,
+            50.8132053
+          ],
+          [
+            5.2861311,
+            50.8127423
+          ],
+          [
+            5.2861617,
+            50.8126463
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/347344658",
+      "properties": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "name": "Truierweg",
+        "sidewalk": "no",
+        "surface": "asphalt",
+        "id": "way/347344658"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2896257,
+            50.8133078
+          ],
+          [
+            5.2896926,
+            50.8132838
+          ],
+          [
+            5.2897617,
+            50.8132436
+          ],
+          [
+            5.2898873,
+            50.8131741
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/347344664",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "oneway": "yes",
+        "surface": "concrete",
+        "id": "way/347344664"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3399644,
+            50.8149729
+          ],
+          [
+            5.3401312,
+            50.8148534
+          ],
+          [
+            5.3402334,
+            50.8147592
+          ],
+          [
+            5.3403087,
+            50.8146782
+          ],
+          [
+            5.3403608,
+            50.8146145
+          ],
+          [
+            5.3404161,
+            50.8145252
+          ],
+          [
+            5.34049,
+            50.814352
+          ],
+          [
+            5.3405015,
+            50.814216
+          ],
+          [
+            5.3406839,
+            50.8137747
+          ],
+          [
+            5.3407454,
+            50.8137055
+          ],
+          [
+            5.340818,
+            50.8136391
+          ],
+          [
+            5.3409242,
+            50.8135967
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/383891799",
+      "properties": {
+        "highway": "steps",
+        "id": "way/383891799"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3023623,
+            50.808294
+          ],
+          [
+            5.3024524,
+            50.8082647
+          ],
+          [
+            5.3025153,
+            50.8082373
+          ],
+          [
+            5.3025441,
+            50.8081495
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/653565323",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "no",
+        "oneway": "yes",
+        "surface": "concrete",
+        "id": "way/653565323"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3395646,
+            50.8148886
+          ],
+          [
+            5.3397376,
+            50.8148815
+          ],
+          [
+            5.3397907,
+            50.8148853
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/753680105",
+      "properties": {
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Sittardstraat",
+        "ref": "N754a",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "width": "4",
+        "id": "way/753680105"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3415978,
+            50.8115868
+          ],
+          [
+            5.3417339,
+            50.8112607
+          ],
+          [
+            5.341921,
+            50.810847
+          ],
+          [
+            5.3420052,
+            50.8106789
+          ],
+          [
+            5.3421163,
+            50.8105119
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/753680106",
+      "properties": {
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Sittardstraat",
+        "oneway": "yes",
+        "ref": "N754a",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "width": "4",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/753680106"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3413099,
+            50.8123948
+          ],
+          [
+            5.3413248,
+            50.8122007
+          ],
+          [
+            5.3413434,
+            50.8121226
+          ],
+          [
+            5.3414166,
+            50.8119311
+          ],
+          [
+            5.3414479,
+            50.8118504
+          ],
+          [
+            5.3414865,
+            50.8117511
+          ],
+          [
+            5.3415323,
+            50.8116741
+          ],
+          [
+            5.3415978,
+            50.8115868
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/753711929",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "no",
+        "oneway": "yes",
+        "surface": "concrete",
+        "id": "way/753711929"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3397907,
+            50.8148853
+          ],
+          [
+            5.339821,
+            50.8149039
+          ],
+          [
+            5.3399644,
+            50.8149729
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/757577576",
+      "properties": {
+        "highway": "secondary",
+        "lane_markings": "no",
+        "maxspeed": "50",
+        "name": "Weg op Berlingen",
+        "ref": "N777",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/757577576"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2936426,
+            50.8128728
+          ],
+          [
+            5.2937139,
+            50.8128986
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/761049331",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "no",
+        "oneway": "yes",
+        "surface": "concrete",
+        "width": "2",
+        "id": "way/761049331"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3392634,
+            50.814909
+          ],
+          [
+            5.3393008,
+            50.8149019
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/761049333",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/761049333"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3369673,
+            50.8094664
+          ],
+          [
+            5.3371248,
+            50.8094953
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/761049334",
+      "properties": {
+        "highway": "track",
+        "surface": "dirt",
+        "tracktype": "grade4",
+        "id": "way/761049334"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3061075,
+            50.8118326
+          ],
+          [
+            5.3060502,
+            50.8117858
+          ],
+          [
+            5.3060461,
+            50.8115937
+          ],
+          [
+            5.3058949,
+            50.8113244
+          ],
+          [
+            5.3057332,
+            50.8111368
+          ],
+          [
+            5.3053179,
+            50.8108922
+          ],
+          [
+            5.3050531,
+            50.810772
+          ],
+          [
+            5.304731,
+            50.8106382
+          ],
+          [
+            5.3045877,
+            50.8105508
+          ],
+          [
+            5.3043946,
+            50.8104825
+          ],
+          [
+            5.3042647,
+            50.8104528
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/761049335",
+      "properties": {
+        "highway": "track",
+        "surface": "dirt",
+        "tracktype": "grade3",
+        "id": "way/761049335"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3146777,
+            50.8083626
+          ],
+          [
+            5.3145979,
+            50.8083861
+          ],
+          [
+            5.3144914,
+            50.8084009
+          ],
+          [
+            5.3143309,
+            50.8083941
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/761049338",
+      "properties": {
+        "highway": "footway",
+        "surface": "dirt",
+        "id": "way/761049338"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3143309,
+            50.8083941
+          ],
+          [
+            5.3142876,
+            50.8084351
+          ],
+          [
+            5.3141992,
+            50.8084636
+          ],
+          [
+            5.3139917,
+            50.8084431
+          ],
+          [
+            5.3134506,
+            50.8084294
+          ],
+          [
+            5.3133766,
+            50.8084443
+          ],
+          [
+            5.3133238,
+            50.8084722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/761049340",
+      "properties": {
+        "handrail": "yes",
+        "handrail:left": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "lit": "no",
+        "ramp": "no",
+        "smoothness": "intermediate",
+        "step_count": "15",
+        "surface": "wood",
+        "tactile_paving": "no",
+        "tactile_writing": "no",
+        "id": "way/761049340"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3265537,
+            50.8089914
+          ],
+          [
+            5.3267153,
+            50.8089227
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/761049341",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/761049341"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3306379,
+            50.8089812
+          ],
+          [
+            5.3305946,
+            50.80899
+          ],
+          [
+            5.3305724,
+            50.8090059
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1323224151",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "no",
+        "old_ref": "L23",
+        "railway": "razed",
+        "smoothness": "excellent",
+        "surface": "concrete",
+        "width": "2.8",
+        "wikipedia": "nl:Spoorlijn 23",
+        "id": "way/1323224151"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.343879,
+            50.8106947
+          ],
+          [
+            5.3436525,
+            50.8106481
+          ],
+          [
+            5.342436,
+            50.8103979
+          ],
+          [
+            5.3422081,
+            50.810377
           ]
         ]
       }
