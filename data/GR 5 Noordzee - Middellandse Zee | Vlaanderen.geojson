@@ -12025,6 +12025,8 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Brugstraat",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "N77",
         "surface": "asphalt",
         "id": "way/4832213"
       },
@@ -12054,6 +12056,8 @@
         "maxspeed": "50",
         "maxweight": "10",
         "name": "Brugstraat",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "N77",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/4832214"
@@ -12131,6 +12135,7 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Grenadiersweg",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N619",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -12167,7 +12172,10 @@
         "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
+        "maxspeed:type": "BE-VLG:urban",
         "name": "Maasdijk",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "N77",
         "sidewalk": "no",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -12177,8 +12185,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6782581,
-            50.8804866
+            5.6782442,
+            50.8805635
           ],
           [
             5.6782306,
@@ -12204,7 +12212,7 @@
       "id": "way/5122713",
       "properties": {
         "highway": "service",
-        "surface": "paved",
+        "surface": "compacted",
         "id": "way/5122713"
       },
       "geometry": {
@@ -12409,6 +12417,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Gildenweg",
+        "surface": "asphalt",
         "id": "way/7127056"
       },
       "geometry": {
@@ -12436,6 +12445,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Elisabeth Strouvenlaan",
+        "surface": "asphalt",
         "id": "way/7127062"
       },
       "geometry": {
@@ -12450,8 +12460,8 @@
             50.8448642
           ],
           [
-            5.6790057,
-            50.8453535
+            5.6789521,
+            50.8450127
           ]
         ]
       }
@@ -12537,6 +12547,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Volksbondweg",
+        "surface": "asphalt",
         "id": "way/7127191"
       },
       "geometry": {
@@ -12642,6 +12653,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Sint Odastraat",
+        "surface": "asphalt",
         "id": "way/7127261"
       },
       "geometry": {
@@ -12665,6 +12677,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Pastoor Habetsstraat",
+        "surface": "asphalt",
         "id": "way/7127276"
       },
       "geometry": {
@@ -12708,6 +12721,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Pastoor Habetsstraat",
+        "surface": "asphalt",
         "id": "way/7127281"
       },
       "geometry": {
@@ -12747,6 +12761,7 @@
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
         "oneway:moped": "no",
+        "surface": "asphalt",
         "id": "way/7127303"
       },
       "geometry": {
@@ -12765,12 +12780,8 @@
             50.8461503
           ],
           [
-            5.6778188,
-            50.846509
-          ],
-          [
-            5.6777958,
-            50.846536
+            5.6778611,
+            50.8464594
           ]
         ]
       }
@@ -12783,6 +12794,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Acht Zaligheden",
+        "surface": "asphalt",
         "id": "way/7127350"
       },
       "geometry": {
@@ -12810,6 +12822,7 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Meesenbroekweg",
+        "surface": "asphalt",
         "id": "way/7129976"
       },
       "geometry": {
@@ -13863,6 +13876,7 @@
         "maxspeed": "30",
         "name": "Jan Rosierlaan",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "id": "way/23885470"
       },
       "geometry": {
@@ -17377,6 +17391,7 @@
         "maxspeed": "50",
         "name": "Leuvensesteenweg",
         "name:etymology:wikidata": "Q118958",
+        "operator": "Agentschap Wegen en Verkeer",
         "placement": "middle_of:2",
         "ref": "N2",
         "surface": "asphalt",
@@ -19455,6 +19470,7 @@
         "lanes": "2",
         "name": "Westerlosesteenweg",
         "name:etymology:wikidata": "Q475931",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N19",
         "surface": "asphalt",
         "id": "way/34886653"
@@ -20408,8 +20424,14 @@
       "id": "way/34926045",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ delivery",
         "name": "Paalvennestraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "traffic_sign": "BE:C21",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/34926045"
       },
       "geometry": {
@@ -20578,8 +20600,11 @@
         "cycleway": "shared_lane",
         "highway": "residential",
         "lanes": "2",
+        "maxspeed": "50",
         "name": "Slagmolenweg",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/35327092"
       },
       "geometry": {
@@ -20603,6 +20628,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "lit": "no",
+        "segregated": "no",
         "surface": "concrete",
         "id": "way/35442618"
       },
@@ -20625,7 +20651,10 @@
       "id": "way/35442634",
       "properties": {
         "highway": "service",
+        "maxspeed": "30",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/35442634"
       },
       "geometry": {
@@ -21315,6 +21344,7 @@
       "id": "way/36241742",
       "properties": {
         "highway": "footway",
+        "surface": "paving_stones",
         "id": "way/36241742"
       },
       "geometry": {
@@ -22633,6 +22663,8 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Brugstraat",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "N77",
         "shoulder": "no",
         "sidewalk": "no",
         "surface": "asphalt",
@@ -22692,6 +22724,7 @@
         "layer": "1",
         "maxspeed": "50",
         "name": "Overdemerstraat",
+        "surface": "asphalt",
         "id": "way/39350632"
       },
       "geometry": {
@@ -22716,6 +22749,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Overdemerstraat",
+        "surface": "asphalt",
         "id": "way/39350633"
       },
       "geometry": {
@@ -23063,6 +23097,7 @@
       "properties": {
         "highway": "steps",
         "opening_hours": "sunrise-sunset",
+        "surface": "dirt",
         "id": "way/43993695"
       },
       "geometry": {
@@ -23089,7 +23124,7 @@
       "properties": {
         "highway": "path",
         "opening_hours": "sunrise-sunset",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/43993697"
       },
       "geometry": {
@@ -23426,6 +23461,7 @@
         "maxspeed": "30",
         "name": "Aan De Engelse Hof",
         "source:maxspeed": "BE-VLG:zone30",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/48839500"
       },
@@ -23451,6 +23487,7 @@
         "maxspeed": "30",
         "name": "Aan De Engelse Hof",
         "source:maxspeed": "BE-VLG:zone30",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/48839501"
       },
@@ -23676,6 +23713,7 @@
         "lanes": "2",
         "layer": "1",
         "maxspeed": "70",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N19",
         "sidewalk": "separate",
         "surface": "asphalt",
@@ -23705,6 +23743,7 @@
         "maxspeed": "70",
         "name": "Dikke Eikstraat",
         "ref": "N725",
+        "surface": "asphalt",
         "id": "way/51520856"
       },
       "geometry": {
@@ -23776,6 +23815,7 @@
         "maxspeed": "70",
         "name": "de Merodedreef",
         "name:etymology:wikidata": "Q1568461",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N19",
         "sidewalk": "separate",
         "surface": "asphalt",
@@ -23844,6 +23884,7 @@
         "highway": "residential",
         "lanes": "2",
         "name": "Albertkanaalstraat",
+        "surface": "asphalt",
         "id": "way/58878894"
       },
       "geometry": {
@@ -24186,6 +24227,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Berkerwinningstraat",
+        "surface": "asphalt",
         "id": "way/74171792"
       },
       "geometry": {
@@ -24573,26 +24615,6 @@
           [
             5.1698114,
             50.9912807
-          ],
-          [
-            5.1698276,
-            50.9913009
-          ],
-          [
-            5.1699024,
-            50.9914003
-          ],
-          [
-            5.1701241,
-            50.9916949
-          ],
-          [
-            5.1702924,
-            50.9918962
-          ],
-          [
-            5.1703814,
-            50.9919634
           ]
         ]
       }
@@ -25228,6 +25250,7 @@
         "maxspeed": "50",
         "name": "Haspengouwstraat",
         "source:maxspeed": "BE:zone50",
+        "surface": "asphalt",
         "id": "way/87847408"
       },
       "geometry": {
@@ -26141,8 +26164,11 @@
         "highway": "residential",
         "lanes": "2",
         "layer": "1",
+        "maxspeed": "50",
         "name": "Slagmolenweg",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/100520079"
       },
       "geometry": {
@@ -29529,7 +29555,7 @@
       "properties": {
         "highway": "path",
         "opening_hours": "sunrise-sunset",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/156208205"
       },
       "geometry": {
@@ -31032,6 +31058,7 @@
       "id": "way/191267927",
       "properties": {
         "highway": "track",
+        "surface": "sett",
         "tracktype": "grade1",
         "id": "way/191267927"
       },
@@ -31060,6 +31087,7 @@
         "bridge": "yes",
         "highway": "track",
         "layer": "1",
+        "surface": "sett",
         "tracktype": "grade1",
         "id": "way/191267931"
       },
@@ -31222,8 +31250,14 @@
       "id": "way/194941383",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ delivery",
         "name": "Paalvennestraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "traffic_sign": "BE:C21",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/194941383"
       },
       "geometry": {
@@ -31429,7 +31463,7 @@
       "id": "way/197587946",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/197587946"
       },
       "geometry": {
@@ -31455,6 +31489,7 @@
       "id": "way/197589926",
       "properties": {
         "highway": "cycleway",
+        "surface": "asphalt",
         "id": "way/197589926"
       },
       "geometry": {
@@ -32093,6 +32128,7 @@
         "maxspeed": "70",
         "name": "Dikke Eikstraat",
         "ref": "N725",
+        "surface": "asphalt",
         "id": "way/197856219"
       },
       "geometry": {
@@ -32616,8 +32652,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1744765,
-            50.9868754
+            5.1744273,
+            50.9868903
           ],
           [
             5.1743266,
@@ -32886,6 +32922,7 @@
       "properties": {
         "highway": "residential",
         "name": "Bredestraat",
+        "surface": "asphalt",
         "id": "way/197974315"
       },
       "geometry": {
@@ -32941,6 +32978,7 @@
       "properties": {
         "highway": "residential",
         "name": "Bruynebosstraat",
+        "surface": "asphalt",
         "id": "way/197974317"
       },
       "geometry": {
@@ -33843,6 +33881,7 @@
         "maxspeed": "50",
         "name": "Sint-Jobstraat",
         "ref": "N729",
+        "surface": "asphalt",
         "id": "way/198233324"
       },
       "geometry": {
@@ -34101,7 +34140,7 @@
         "highway": "unclassified",
         "layer": "1",
         "name": "Rode-Rokstraat",
-        "surface": "paved",
+        "surface": "concrete",
         "id": "way/198365712"
       },
       "geometry": {
@@ -34125,7 +34164,7 @@
         "alt_name": "Rode Rokstraat;Roderokstraat",
         "highway": "unclassified",
         "name": "Rode-Rokstraat",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/198365713"
       },
       "geometry": {
@@ -34795,6 +34834,7 @@
         "maxspeed": "70",
         "name": "Dikke Eikstraat",
         "ref": "N725",
+        "surface": "asphalt",
         "id": "way/199121608"
       },
       "geometry": {
@@ -34901,6 +34941,7 @@
       "id": "way/199269503",
       "properties": {
         "highway": "track",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/199269503"
       },
@@ -36971,6 +37012,7 @@
         "highway": "living_street",
         "maxspeed": "20",
         "name": "Avergat",
+        "surface": "paving_stones",
         "id": "way/209290709"
       },
       "geometry": {
@@ -38338,6 +38380,7 @@
         "highway": "track",
         "horse": "no",
         "motor_vehicle": "no",
+        "surface": "grass",
         "tracktype": "grade4",
         "id": "way/223162943"
       },
@@ -38412,7 +38455,7 @@
         "highway": "track",
         "horse": "no",
         "motor_vehicle": "no",
-        "surface": "unpaved",
+        "surface": "grass",
         "tracktype": "grade4",
         "id": "way/223162945"
       },
@@ -38457,7 +38500,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
-        "surface": "unpaved",
+        "surface": "grass",
         "id": "way/223162946"
       },
       "geometry": {
@@ -38501,7 +38544,7 @@
         "bicycle": "no",
         "highway": "path",
         "horse": "no",
-        "surface": "unpaved",
+        "surface": "grass",
         "id": "way/223162948"
       },
       "geometry": {
@@ -38594,6 +38637,7 @@
         "layer": "1",
         "name": "Dikke Eikstraat",
         "ref": "N725",
+        "surface": "asphalt",
         "id": "way/224891890"
       },
       "geometry": {
@@ -38693,7 +38737,7 @@
         "foot": "yes",
         "highway": "cycleway",
         "segregated": "no",
-        "smoothness": "excellent",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/224925553"
       },
@@ -39505,6 +39549,7 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Hoogstraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "overtaking:motor_vehicle": "no",
         "ref": "N77",
         "surface": "asphalt",
@@ -41116,7 +41161,7 @@
       "id": "way/237734238",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "compacted",
         "tracktype": "grade3",
         "id": "way/237734238"
       },
@@ -41342,6 +41387,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Overdemerstraat",
+        "surface": "asphalt",
         "id": "way/242823910"
       },
       "geometry": {
@@ -41499,6 +41545,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Overdemerstraat",
+        "surface": "asphalt",
         "id": "way/245515809"
       },
       "geometry": {
@@ -41735,8 +41782,11 @@
         "cycleway": "shared_lane",
         "highway": "residential",
         "lanes": "2",
+        "maxspeed": "50",
         "name": "Slagmolenweg",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/250211962"
       },
       "geometry": {
@@ -42145,6 +42195,7 @@
       "properties": {
         "highway": "residential",
         "name": "Schuurstraat",
+        "surface": "asphalt",
         "id": "way/262475877"
       },
       "geometry": {
@@ -43324,7 +43375,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Rode-Rokstraat",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/285985678"
       },
       "geometry": {
@@ -43428,6 +43479,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Overdemerstraat",
+        "surface": "asphalt",
         "id": "way/287150370"
       },
       "geometry": {
@@ -44432,6 +44484,7 @@
         "embankment": "yes",
         "highway": "path",
         "name": "Bastion",
+        "surface": "dirt",
         "id": "way/319619227"
       },
       "geometry": {
@@ -45420,6 +45473,7 @@
       "id": "way/367306507",
       "properties": {
         "highway": "track",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/367306507"
       },
@@ -48063,6 +48117,7 @@
       "id": "way/456077565",
       "properties": {
         "highway": "track",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/456077565"
       },
@@ -48871,7 +48926,10 @@
         "lit": "yes",
         "maxspeed": "60",
         "name": "Bosscherweg",
+        "operator": "Gemeente Maastricht",
         "surface": "asphalt",
+        "zone:maxspeed": "NL:60",
+        "zone:traffic": "NL:rural",
         "id": "way/478348540"
       },
       "geometry": {
@@ -48894,8 +48952,8 @@
             50.8803115
           ],
           [
-            5.6782581,
-            50.8804866
+            5.6782638,
+            50.8804756
           ]
         ]
       }
@@ -49328,6 +49386,7 @@
         "name": "Sint Annalaan",
         "oneway": "yes",
         "sidewalk": "right",
+        "surface": "paving_stones",
         "id": "way/478356161"
       },
       "geometry": {
@@ -49356,7 +49415,7 @@
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
         "oneway:moped": "no",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/478356162"
       },
       "geometry": {
@@ -49443,6 +49502,7 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Mergelweg",
+        "surface": "asphalt",
         "id": "way/478469589"
       },
       "geometry": {
@@ -49464,6 +49524,7 @@
       "id": "way/478469590",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/478469590"
       },
       "geometry": {
@@ -49519,6 +49580,7 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Meesenbroekweg",
+        "surface": "asphalt",
         "id": "way/478469592"
       },
       "geometry": {
@@ -49796,6 +49858,7 @@
       "properties": {
         "highway": "residential",
         "name": "Bredestraat",
+        "surface": "asphalt",
         "id": "way/478498738"
       },
       "geometry": {
@@ -50569,6 +50632,7 @@
         "mapillary": "201932918431562",
         "opening_hours": "Apr-Aug 08:00-20:00; Sep-Mar 09:00-17:00",
         "scenic": "yes",
+        "surface": "compacted",
         "tunnel": "yes",
         "id": "way/492254866"
       },
@@ -50633,6 +50697,7 @@
         "highway": "footway",
         "opening_hours": "Apr-Aug 08:00-20:00; Sep-Mar 09:00-17:00",
         "scenic": "yes",
+        "surface": "metal",
         "id": "way/492254867"
       },
       "geometry": {
@@ -50819,7 +50884,7 @@
       "id": "way/517081047",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/517081047"
       },
@@ -50858,7 +50923,7 @@
       "id": "way/517081049",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/517081049"
       },
@@ -52097,6 +52162,7 @@
       "id": "way/572819070",
       "properties": {
         "highway": "steps",
+        "surface": "dirt",
         "id": "way/572819070"
       },
       "geometry": {
@@ -52118,6 +52184,7 @@
       "id": "way/572819071",
       "properties": {
         "highway": "path",
+        "surface": "sett",
         "id": "way/572819071"
       },
       "geometry": {
@@ -52229,6 +52296,10 @@
           [
             5.3767444,
             50.9608167
+          ],
+          [
+            5.3767047,
+            50.9608201
           ],
           [
             5.3764943,
@@ -53952,6 +54023,7 @@
         "highway": "secondary",
         "name": "Dikke Eikstraat",
         "ref": "N725",
+        "surface": "asphalt",
         "id": "way/691233029"
       },
       "geometry": {
@@ -53982,6 +54054,7 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Grenadiersweg",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N619",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -54454,6 +54527,7 @@
         "horse": "no",
         "motor_vehicle": "no",
         "opening_hours": "Apr-Aug 08:00-20:00; Sep-Mar 09:00-17:00",
+        "surface": "metal",
         "id": "way/727444657"
       },
       "geometry": {
@@ -54929,14 +55003,15 @@
         "maxspeed": "70",
         "name": "Beukeboomstraat",
         "ref": "N725",
+        "surface": "asphalt",
         "id": "way/745130548"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.1744765,
-            50.9868754
+            5.1744273,
+            50.9868903
           ],
           [
             5.1746624,
@@ -55732,6 +55807,7 @@
       "id": "way/807115945",
       "properties": {
         "highway": "track",
+        "surface": "grass",
         "id": "way/807115945"
       },
       "geometry": {
@@ -56103,9 +56179,9 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Dominikanenlaan",
-        "source:maxspeed": "BE:zone50",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
-        "zone:traffic": "BE-VLG:rural",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/834150843"
       },
       "geometry": {
@@ -56114,6 +56190,10 @@
           [
             5.4789605,
             50.9588654
+          ],
+          [
+            5.4788587,
+            50.9588222
           ],
           [
             5.4785098,
@@ -56132,7 +56212,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Rode-Rokstraat",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/834612647"
       },
       "geometry": {
@@ -56294,6 +56374,7 @@
       "id": "way/852547282",
       "properties": {
         "highway": "path",
+        "surface": "grass",
         "id": "way/852547282"
       },
       "geometry": {
@@ -56411,6 +56492,7 @@
       "id": "way/852547283",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/852547283"
       },
       "geometry": {
@@ -57044,7 +57126,7 @@
       "properties": {
         "bicycle": "no",
         "highway": "path",
-        "surface": "ground",
+        "surface": "grass",
         "id": "way/863535804"
       },
       "geometry": {
@@ -58191,7 +58273,7 @@
       "id": "way/906745197",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/906745197"
       },
@@ -59507,6 +59589,7 @@
       "id": "way/983374311",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/983374311"
       },
       "geometry": {
@@ -60339,6 +60422,7 @@
         "highway": "cycleway",
         "layer": "1",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/1056366779"
       },
       "geometry": {
@@ -60361,6 +60445,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/1056366787"
       },
       "geometry": {
@@ -60383,6 +60468,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/1056366788"
       },
       "geometry": {
@@ -61247,7 +61333,7 @@
       "id": "way/1098077943",
       "properties": {
         "highway": "service",
-        "surface": "paved",
+        "surface": "compacted",
         "id": "way/1098077943"
       },
       "geometry": {
@@ -61741,7 +61827,7 @@
       "id": "way/1107990179",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "compacted",
         "tracktype": "grade3",
         "width": "3",
         "id": "way/1107990179"
@@ -61765,7 +61851,7 @@
       "id": "way/1107990180",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/1107990180"
       },
       "geometry": {
@@ -62745,11 +62831,14 @@
       "properties": {
         "highway": "secondary",
         "lanes": "2",
-        "maxspeed": "30",
+        "maxspeed": "50",
+        "maxspeed:type": "NL:urban",
         "name": "Cannerweg",
         "oneway": "yes",
+        "operator": "Gemeente Maastricht",
         "surface": "asphalt",
         "turn:lanes": "left;through|right",
+        "zone:traffic": "NL:urban",
         "id": "way/1150128883"
       },
       "geometry": {
@@ -62862,7 +62951,10 @@
       "id": "way/1154977292",
       "properties": {
         "highway": "service",
+        "maxspeed": "30",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/1154977292"
       },
       "geometry": {
@@ -63708,6 +63800,7 @@
         "highway": "secondary",
         "name": "Dikke Eikstraat",
         "ref": "N725",
+        "surface": "asphalt",
         "id": "way/1190013357"
       },
       "geometry": {
@@ -64524,7 +64617,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Rode-Rokstraat",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/1246287376"
       },
       "geometry": {
@@ -64624,10 +64717,13 @@
       "properties": {
         "highway": "secondary",
         "lanes": "1",
-        "maxspeed": "30",
+        "maxspeed": "50",
+        "maxspeed:type": "NL:urban",
         "name": "Cannerweg",
         "oneway": "yes",
+        "operator": "Gemeente Maastricht",
         "surface": "asphalt",
+        "zone:traffic": "NL:urban",
         "id": "way/1264449429"
       },
       "geometry": {
@@ -64887,6 +64983,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Berkerwinningstraat",
+        "surface": "asphalt",
         "id": "way/1271916925"
       },
       "geometry": {
@@ -65791,6 +65888,7 @@
         "mapillary": "201932918431562",
         "opening_hours": "Apr-Aug 08:00-20:00; Sep-Mar 09:00-17:00",
         "scenic": "yes",
+        "surface": "compacted",
         "id": "way/1332372670"
       },
       "geometry": {
@@ -66437,6 +66535,7 @@
         "horse": "no",
         "lit": "no",
         "surface": "asphalt",
+        "width": "3",
         "id": "way/1360179886"
       },
       "geometry": {
@@ -66508,6 +66607,7 @@
         "bicycle": "yes",
         "highway": "residential",
         "name": "Berkerwinningstraat",
+        "surface": "asphalt",
         "vehicle": "destination",
         "id": "way/1374664484"
       },
@@ -66636,6 +66736,7 @@
         "maxspeed": "70",
         "name": "Beukeboomstraat",
         "ref": "N725",
+        "surface": "asphalt",
         "id": "way/1394505569"
       },
       "geometry": {
@@ -66785,6 +66886,7 @@
         "name": "Neerstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "surface": "sett",
         "id": "way/1418153293"
       },
       "geometry": {
@@ -66814,6 +66916,7 @@
         "lanes": "2",
         "maxspeed": "70",
         "name": "Rekhovenstraat",
+        "surface": "asphalt",
         "id": "way/1418153651"
       },
       "geometry": {
@@ -66871,6 +66974,7 @@
         "maxweight:conditional": "none @ destination",
         "name": "Kerkstraat",
         "source:maxweight": "zone",
+        "surface": "paving_stones",
         "id": "way/1418155291"
       },
       "geometry": {
@@ -66975,6 +67079,229 @@
           [
             5.3529383,
             50.9635467
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1425615595",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Ambachtsweg",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "oneway:moped": "no",
+        "surface": "paving_stones",
+        "id": "way/1425615595"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6778611,
+            50.8464594
+          ],
+          [
+            5.6778188,
+            50.846509
+          ],
+          [
+            5.6777958,
+            50.846536
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1425616206",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Elisabeth Strouvenlaan",
+        "surface": "paving_stones",
+        "id": "way/1425616206"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6789521,
+            50.8450127
+          ],
+          [
+            5.6789658,
+            50.8450999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1425616207",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Elisabeth Strouvenlaan",
+        "surface": "asphalt",
+        "id": "way/1425616207"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6789658,
+            50.8450999
+          ],
+          [
+            5.6790057,
+            50.8453535
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1426226067",
+      "properties": {
+        "cycleway": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "50",
+        "name": "Kwezelstraat",
+        "surface": "concrete",
+        "id": "way/1426226067"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1698114,
+            50.9912807
+          ],
+          [
+            5.1698276,
+            50.9913009
+          ],
+          [
+            5.1699024,
+            50.9914003
+          ],
+          [
+            5.1701241,
+            50.9916949
+          ],
+          [
+            5.1702924,
+            50.9918962
+          ],
+          [
+            5.1703814,
+            50.9919634
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1429999034",
+      "properties": {
+        "cycleway:both": "lane",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "70",
+        "maxspeed:practical": "60",
+        "maxspeed:type": "BE-VLG:rural",
+        "name": "Maasdijk",
+        "noref": "yes",
+        "operator": "Gemeente Maastricht",
+        "operator:addr:country": "NL",
+        "sidewalk": "no",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1429999034"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6782556,
+            50.8805121
+          ],
+          [
+            5.6782499,
+            50.8805398
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1429999035",
+      "properties": {
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "70",
+        "maxspeed:practical": "60",
+        "maxspeed:type": "BE-VLG:rural",
+        "name": "Maasdijk",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "N77",
+        "sidewalk": "no",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1429999035"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6782499,
+            50.8805398
+          ],
+          [
+            5.6782442,
+            50.8805635
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1429999036",
+      "properties": {
+        "cycleway:both": "lane",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "80",
+        "maxspeed:practical": "60",
+        "maxspeed:type": "NL:rural",
+        "name": "Maasdijk",
+        "noref": "yes",
+        "operator": "Gemeente Maastricht",
+        "operator:addr:country": "NL",
+        "sidewalk": "no",
+        "surface": "asphalt",
+        "zone:traffic": "NL:rural",
+        "id": "way/1429999036"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6782638,
+            50.8804756
+          ],
+          [
+            5.6782556,
+            50.8805121
           ]
         ]
       }
@@ -70872,10 +71199,16 @@
       "id": "way/18004076",
       "properties": {
         "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
+        "motor_vehicle:conditional": "delivery @ 07:00-11:00",
+        "motorcar": "permit",
         "name": "Witte Nonnenstraat",
         "name:etymology:wikidata": "Q19945616",
         "surface": "sett",
+        "taxi": "destination",
+        "traffic_sign": "F103",
         "id": "way/18004076"
       },
       "geometry": {
@@ -70888,6 +71221,10 @@
           [
             5.341856,
             50.9323195
+          ],
+          [
+            5.3418235,
+            50.9323333
           ],
           [
             5.3409322,
@@ -70933,13 +71270,19 @@
       "type": "Feature",
       "id": "way/18004613",
       "properties": {
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
         "maxspeed": "30",
-        "motor_vehicle:conditional": "delivery @ (Mo-Sa 06:00-13:00, 17:30-20:00)",
+        "motor_vehicle:conditional": "delivery @ 07:00-11:00",
+        "motorcar": "permit",
         "name": "Zuivelmarkt",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "surface": "paving_stones",
+        "taxi": "destination",
+        "traffic_sign": "F103",
         "id": "way/18004613"
       },
       "geometry": {
@@ -70960,6 +71303,10 @@
           [
             5.3398983,
             50.9309441
+          ],
+          [
+            5.3400075,
+            50.9310138
           ],
           [
             5.3400528,
@@ -71023,12 +71370,18 @@
       "type": "Feature",
       "id": "way/18007756",
       "properties": {
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
         "lit": "yes",
-        "motor_vehicle:conditional": "delivery @ (Mo-Sa 06:00-13:00, 17:30-20:00)",
+        "motor_vehicle:conditional": "delivery @ (07:00-11:00)",
+        "motorcar": "permit",
         "name": "Maastrichterstraat",
         "name:etymology:wikidata": "Q1309",
         "surface": "sett",
+        "taxi": "destination",
+        "traffic_sign": "F103",
         "id": "way/18007756"
       },
       "geometry": {
@@ -71057,12 +71410,19 @@
       "type": "Feature",
       "id": "way/18007855",
       "properties": {
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
         "maxspeed": "30",
-        "motor_vehicle:conditional": "delivery @ (Mo-Sa 06:00-13:00, 17:30-20:00)",
+        "motor_vehicle:conditional": "delivery @ 07:00-11:00",
+        "motorcar": "permit",
         "name": "Hemelrijk",
         "oneway": "yes",
+        "oneway:bicycle": "no",
         "surface": "paving_stones",
+        "taxi": "destination",
+        "traffic_sign": "F103",
         "id": "way/18007855"
       },
       "geometry": {
@@ -71083,9 +71443,9 @@
       "type": "Feature",
       "id": "way/18008107",
       "properties": {
-        "cyclestreet": "yes",
-        "highway": "residential",
+        "highway": "living_street",
         "maxspeed": "20",
+        "maxspeed:type": "BE:living_street",
         "name": "Diesterstraat",
         "name:etymology:wikidata": "Q743236",
         "oneway": "yes",
@@ -71288,48 +71648,6 @@
           [
             5.3460516,
             50.93421
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/18622464",
-      "properties": {
-        "highway": "service",
-        "oneway": "yes",
-        "oneway:bicycle": "no",
-        "oneway:moped": "no",
-        "service": "parking_aisle",
-        "surface": "asphalt",
-        "id": "way/18622464"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3472369,
-            50.9354179
-          ],
-          [
-            5.34728,
-            50.9354223
-          ],
-          [
-            5.3474024,
-            50.9354354
-          ],
-          [
-            5.3475484,
-            50.935455
-          ],
-          [
-            5.3476095,
-            50.9354634
-          ],
-          [
-            5.3478289,
-            50.9354936
           ]
         ]
       }
@@ -71583,11 +71901,16 @@
       "id": "way/52882821",
       "properties": {
         "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
         "motor_vehicle": "no",
-        "motor_vehicle:conditional": "delivery @ (Mo-Sa 06:00-11:00, 17:30-20:00)",
+        "motor_vehicle:conditional": "delivery @ (07:00-11:00)",
+        "motorcar": "permit",
         "name": "Kortstraat",
         "surface": "sett",
+        "taxi": "destination",
+        "traffic_sign": "F103",
         "id": "way/52882821"
       },
       "geometry": {
@@ -71612,6 +71935,7 @@
       "type": "Feature",
       "id": "way/53142701",
       "properties": {
+        "bicycle": "yes",
         "highway": "pedestrian",
         "name": "Jeneverplein",
         "surface": "sett",
@@ -71635,6 +71959,7 @@
       "type": "Feature",
       "id": "way/53142702",
       "properties": {
+        "bicycle": "yes",
         "highway": "footway",
         "surface": "paving_stones",
         "id": "way/53142702"
@@ -71849,151 +72174,58 @@
     },
     {
       "type": "Feature",
-      "id": "way/160504955",
-      "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "footway",
-        "surface": "asphalt",
-        "width": "2",
-        "id": "way/160504955"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3487732,
-            50.9359023
-          ],
-          [
-            5.3488746,
-            50.9359529
-          ],
-          [
-            5.3489624,
-            50.9359678
-          ],
-          [
-            5.3490484,
-            50.9359777
-          ],
-          [
-            5.3491368,
-            50.9359798
-          ],
-          [
-            5.349224,
-            50.9359654
-          ],
-          [
-            5.3492538,
-            50.9359598
-          ],
-          [
-            5.3494423,
-            50.9358957
-          ],
-          [
-            5.3494767,
-            50.9358773
-          ],
-          [
-            5.3495192,
-            50.9358453
-          ],
-          [
-            5.3496097,
-            50.9357556
-          ],
-          [
-            5.3496596,
-            50.9357311
-          ],
-          [
-            5.3497269,
-            50.9357239
-          ],
-          [
-            5.34978,
-            50.9357292
-          ],
-          [
-            5.3498385,
-            50.9357307
-          ],
-          [
-            5.3498971,
-            50.9357221
-          ],
-          [
-            5.3500011,
-            50.9356968
-          ],
-          [
-            5.3502308,
-            50.9356762
-          ],
-          [
-            5.3503974,
-            50.9356748
-          ],
-          [
-            5.3506302,
-            50.9356842
-          ],
-          [
-            5.3507924,
-            50.9356836
-          ],
-          [
-            5.3508969,
-            50.935671
-          ],
-          [
-            5.3509521,
-            50.9356643
-          ],
-          [
-            5.3510501,
-            50.9356382
-          ],
-          [
-            5.3511753,
-            50.935586
-          ],
-          [
-            5.3512961,
-            50.9355196
-          ],
-          [
-            5.3515518,
-            50.9353586
-          ],
-          [
-            5.3517868,
-            50.9352706
-          ],
-          [
-            5.3519579,
-            50.9351992
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/160504999",
       "properties": {
         "bicycle": "yes",
-        "foot": "yes",
-        "highway": "footway",
+        "highway": "path",
         "lit": "yes",
-        "surface": "fine_gravel",
+        "surface": "asphalt",
+        "width": "3.6",
         "id": "way/160504999"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.3519545,
+            50.9352125
+          ],
+          [
+            5.352044,
+            50.9351452
+          ],
+          [
+            5.3521103,
+            50.93509
+          ],
+          [
+            5.3522628,
+            50.9349183
+          ],
+          [
+            5.3523368,
+            50.9347821
+          ],
+          [
+            5.3524172,
+            50.9346411
+          ],
+          [
+            5.3525166,
+            50.9345522
+          ],
+          [
+            5.3526261,
+            50.9344812
+          ],
+          [
+            5.3527482,
+            50.934434
+          ],
+          [
+            5.3528647,
+            50.9344122
+          ],
           [
             5.3530249,
             50.934406
@@ -72047,17 +72279,23 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "30",
+        "maxspeed:type": "BE-VLG:urban",
         "name": "Kloosterbeekstraat",
         "sidewalk": "no",
+        "source:maxspeed": "BE-VLG:zone30",
+        "source:width": "ARCore",
         "surface": "asphalt",
+        "width": "7.4",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/165465768"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.3829265,
-            50.9515475
+            5.380632,
+            50.9507575
           ],
           [
             5.3802351,
@@ -72084,10 +72322,19 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
-        "maxspeed": "50",
+        "maxspeed": "30",
+        "maxweight": "3",
+        "maxweight:conditional": "none @ delivery",
         "name": "Nieuwe-Heidestraat",
+        "oneway": "no",
         "sidewalk": "no",
+        "smoothness": "good",
+        "source:maxspeed": "BE-VLG:zone30",
+        "source:width": "ARCore",
         "surface": "asphalt",
+        "traffic_sign": "BE:C21",
+        "width": "3.4",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/165465772"
       },
       "geometry": {
@@ -72784,8 +73031,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3692679,
-            50.9495953
+            5.3692652,
+            50.9496004
           ],
           [
             5.3691765,
@@ -73063,8 +73310,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3692679,
-            50.9495953
+            5.3692652,
+            50.9496004
           ],
           [
             5.3694277,
@@ -73082,7 +73329,7 @@
       "id": "way/217904768",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "pebblestone",
         "tracktype": "grade3",
         "vehicle": "no",
         "id": "way/217904768"
@@ -73357,10 +73604,16 @@
       "type": "Feature",
       "id": "way/221071869",
       "properties": {
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
-        "motor_vehicle:conditional": "delivery @ (Mo-Sa 06:00-13:00, 17:30-20:00)",
+        "motor_vehicle:conditional": "delivery @ (07:00-11:00)",
+        "motorcar": "permit",
         "name": "Vismarkt",
         "surface": "sett",
+        "taxi": "destination",
+        "traffic_sign": "F103",
         "id": "way/221071869"
       },
       "geometry": {
@@ -73560,8 +73813,18 @@
       "id": "way/242494463",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
+        "maxspeed:type": "BE-VLG:urban",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ delivery",
         "name": "Borggravevijversstraat",
-        "surface": "asphalt",
+        "smoothness": "intermediate",
+        "source:maxspeed": "BE-VLG:zone30",
+        "source:width": "ARCore",
+        "surface": "concrete",
+        "traffic_sign": "BE:C21",
+        "width": "5.1",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/242494463"
       },
       "geometry": {
@@ -73572,24 +73835,20 @@
             50.9493665
           ],
           [
-            5.3711934,
-            50.9493437
+            5.3710273,
+            50.9493645
+          ],
+          [
+            5.3717317,
+            50.9492763
           ],
           [
             5.3719395,
             50.9492503
           ],
           [
-            5.372738,
-            50.9491443
-          ],
-          [
-            5.3730565,
-            50.9490951
-          ],
-          [
-            5.3732973,
-            50.9490582
+            5.3719893,
+            50.9492437
           ]
         ]
       }
@@ -74291,13 +74550,21 @@
       "type": "Feature",
       "id": "way/362103033",
       "properties": {
+        "bicycle": "yes",
         "bus": "yes",
         "cyclestreet": "no",
+        "emergency": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
         "lanes": "1",
         "maxspeed": "30",
+        "motor_vehicle:conditional": "delivery @ (07:00-11:00)",
+        "motorcar": "permit",
         "name": "Havermarkt",
-        "surface": "asphalt",
+        "surface": "paving_stones",
+        "taxi": "destination",
+        "traffic_sign": "F103",
+        "vehicle": "permit",
         "id": "way/362103033"
       },
       "geometry": {
@@ -74353,8 +74620,9 @@
       "type": "Feature",
       "id": "way/453560594",
       "properties": {
+        "check_date:surface": "2025-08-27",
         "highway": "footway",
-        "surface": "asphalt",
+        "surface": "unpaved",
         "wheelchair": "yes",
         "id": "way/453560594"
       },
@@ -74420,143 +74688,6 @@
           [
             5.3557747,
             50.934526
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/477777911",
-      "properties": {
-        "highway": "cycleway",
-        "lit": "no",
-        "oneway": "yes",
-        "surface": "paving_stones",
-        "id": "way/477777911"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3468214,
-            50.9348173
-          ],
-          [
-            5.3468609,
-            50.9348886
-          ],
-          [
-            5.3469285,
-            50.9350246
-          ],
-          [
-            5.3470312,
-            50.9351527
-          ],
-          [
-            5.3472369,
-            50.9354179
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/477777914",
-      "properties": {
-        "highway": "service",
-        "oneway": "yes",
-        "oneway:bicycle": "no",
-        "service": "parking_aisle",
-        "surface": "asphalt",
-        "id": "way/477777914"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3478289,
-            50.9354936
-          ],
-          [
-            5.3479762,
-            50.9354476
-          ],
-          [
-            5.3480683,
-            50.9353361
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/477777915",
-      "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "service",
-        "surface": "asphalt",
-        "id": "way/477777915"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3482198,
-            50.9353074
-          ],
-          [
-            5.3480976,
-            50.9353266
-          ],
-          [
-            5.3480683,
-            50.9353361
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/477777916",
-      "properties": {
-        "bicycle": "yes",
-        "highway": "footway",
-        "lit": "yes",
-        "surface": "asphalt",
-        "id": "way/477777916"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3523402,
-            50.9347688
-          ],
-          [
-            5.3524172,
-            50.9346411
-          ],
-          [
-            5.3525166,
-            50.9345522
-          ],
-          [
-            5.3526261,
-            50.9344812
-          ],
-          [
-            5.3527482,
-            50.934434
-          ],
-          [
-            5.3528647,
-            50.9344122
-          ],
-          [
-            5.3530249,
-            50.934406
           ]
         ]
       }
@@ -74760,12 +74891,68 @@
     },
     {
       "type": "Feature",
+      "id": "way/538293635",
+      "properties": {
+        "highway": "service",
+        "surface": "sett",
+        "id": "way/538293635"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3489736,
+            50.9347588
+          ],
+          [
+            5.3488196,
+            50.9347443
+          ],
+          [
+            5.3485662,
+            50.9347113
+          ],
+          [
+            5.3481813,
+            50.934702
+          ],
+          [
+            5.3477924,
+            50.934702
+          ],
+          [
+            5.3473686,
+            50.9347604
+          ],
+          [
+            5.3472291,
+            50.9347883
+          ],
+          [
+            5.3469419,
+            50.9348572
+          ],
+          [
+            5.3468609,
+            50.9348886
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/557391819",
       "properties": {
         "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
+        "motor_vehicle:conditional": "delivery @ (07:00-11:00)",
+        "motorcar": "permit",
         "name": "Grote Markt",
         "surface": "sett",
+        "taxi": "destination",
+        "traffic_sign": "F103",
         "trail_visibility": "no",
         "id": "way/557391819"
       },
@@ -75125,7 +75312,7 @@
       "id": "way/755510507",
       "properties": {
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "asphalt",
         "id": "way/755510507"
       },
       "geometry": {
@@ -75264,6 +75451,32 @@
     },
     {
       "type": "Feature",
+      "id": "way/832376125",
+      "properties": {
+        "highway": "path",
+        "surface": "concrete",
+        "id": "way/832376125"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3500011,
+            50.9356968
+          ],
+          [
+            5.3497809,
+            50.9354368
+          ],
+          [
+            5.3493366,
+            50.9349265
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/863181960",
       "properties": {
         "highway": "residential",
@@ -75295,43 +75508,6 @@
           [
             5.3117831,
             50.9338737
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/922083553",
-      "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "footway",
-        "surface": "asphalt",
-        "width": "2",
-        "id": "way/922083553"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3519579,
-            50.9351992
-          ],
-          [
-            5.3520474,
-            50.9351319
-          ],
-          [
-            5.3521355,
-            50.9350759
-          ],
-          [
-            5.3522757,
-            50.9349059
-          ],
-          [
-            5.3523402,
-            50.9347688
           ]
         ]
       }
@@ -75539,12 +75715,18 @@
       "type": "Feature",
       "id": "way/1023265654",
       "properties": {
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
         "lit": "yes",
-        "motor_vehicle:conditional": "delivery @ (Mo-Sa 06:00-13:00, 17:30-20:00)",
+        "motor_vehicle:conditional": "delivery @ 07:00-11:00",
+        "motorcar": "permit",
         "name": "Maastrichterstraat",
         "name:etymology:wikidata": "Q1309",
         "surface": "concrete",
+        "taxi": "destination",
+        "traffic_sign": "F103",
         "id": "way/1023265654"
       },
       "geometry": {
@@ -75719,12 +75901,13 @@
       "type": "Feature",
       "id": "way/1096723082",
       "properties": {
-        "bus": "yes",
         "cyclestreet": "no",
         "highway": "pedestrian",
         "lanes": "1",
         "maxspeed": "30",
         "motor_vehicle": "permit",
+        "motor_vehicle:conditional": "delivery @ (07:00-11:00)",
+        "motorcar": "permit",
         "name": "Havermarkt",
         "surface": "sett",
         "id": "way/1096723082"
@@ -75824,14 +76007,22 @@
       "type": "Feature",
       "id": "way/1127948004",
       "properties": {
+        "bicycle": "yes",
         "bus": "yes",
         "cyclestreet": "no",
+        "emergency": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
         "lanes": "1",
         "maxspeed": "30",
         "motor_vehicle": "permit",
+        "motor_vehicle:conditional": "delivery @ (07:00-11:00)",
+        "motorcar": "permit",
         "name": "Havermarkt",
-        "surface": "asphalt",
+        "surface": "paving_stones",
+        "taxi": "destination",
+        "traffic_sign": "F103",
+        "vehicle": "permit",
         "id": "way/1127948004"
       },
       "geometry": {
@@ -75848,31 +76039,6 @@
           [
             5.3368675,
             50.9293797
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1208047994",
-      "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "footway",
-        "surface": "asphalt",
-        "width": "2",
-        "id": "way/1208047994"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3482198,
-            50.9353074
-          ],
-          [
-            5.3487732,
-            50.9359023
           ]
         ]
       }
@@ -76142,6 +76308,201 @@
           [
             5.3737604,
             50.9495241
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1425237087",
+      "properties": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "maxspeed:type": "BE-VLG:urban",
+        "name": "Kloosterbeekstraat",
+        "sidewalk": "no",
+        "source:maxspeed": "BE-VLG:zone30",
+        "source:width": "ARCore",
+        "surface": "asphalt",
+        "width": "5",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1425237087"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3829265,
+            50.9515475
+          ],
+          [
+            5.380632,
+            50.9507575
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1429070302",
+      "properties": {
+        "highway": "path",
+        "lit": "yes",
+        "motor_vehicle": "no",
+        "surface": "asphalt",
+        "width": "2",
+        "id": "way/1429070302"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3500011,
+            50.9356968
+          ],
+          [
+            5.3502308,
+            50.9356762
+          ],
+          [
+            5.3503974,
+            50.9356748
+          ],
+          [
+            5.3506302,
+            50.9356842
+          ],
+          [
+            5.3507924,
+            50.9356836
+          ],
+          [
+            5.3508969,
+            50.935671
+          ],
+          [
+            5.3509521,
+            50.9356643
+          ],
+          [
+            5.3510501,
+            50.9356382
+          ],
+          [
+            5.3511753,
+            50.935586
+          ],
+          [
+            5.3512961,
+            50.9355196
+          ],
+          [
+            5.3515518,
+            50.9353586
+          ],
+          [
+            5.3517868,
+            50.9352706
+          ],
+          [
+            5.3519545,
+            50.9352125
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1429070303",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "lit": "yes",
+        "segregated": "no",
+        "surface": "paving_stones",
+        "width": "3",
+        "id": "way/1429070303"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3489736,
+            50.9347588
+          ],
+          [
+            5.3491796,
+            50.9348568
+          ],
+          [
+            5.3493366,
+            50.9349265
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1429070304",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "no",
+        "oneway": "yes",
+        "surface": "paving_stones",
+        "id": "way/1429070304"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3468214,
+            50.9348173
+          ],
+          [
+            5.3468609,
+            50.9348886
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1429243229",
+      "properties": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "maxspeed:type": "BE-VLG:urban",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ delivery",
+        "name": "Borggravevijversstraat",
+        "smoothness": "intermediate",
+        "source:maxspeed": "BE-VLG:zone30",
+        "source:width": "ARCore",
+        "surface": "asphalt",
+        "traffic_sign": "BE:C21",
+        "width": "5.1",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1429243229"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3719893,
+            50.9492437
+          ],
+          [
+            5.372738,
+            50.9491443
+          ],
+          [
+            5.3730565,
+            50.9490951
+          ],
+          [
+            5.3732973,
+            50.9490582
           ]
         ]
       }

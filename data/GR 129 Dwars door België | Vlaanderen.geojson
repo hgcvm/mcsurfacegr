@@ -2799,20 +2799,12 @@
             50.8152667
           ],
           [
-            3.6272706,
-            50.8157877
+            3.6272689,
+            50.8157861
           ],
           [
-            3.6272783,
-            50.8157973
-          ],
-          [
-            3.6272856,
-            50.8157998
-          ],
-          [
-            3.6273122,
-            50.8158402
+            3.6272786,
+            50.8157993
           ]
         ]
       }
@@ -9503,6 +9495,7 @@
         "highway": "residential",
         "name": "Molendamstraat",
         "oneway": "yes",
+        "oneway:bicycle": "no",
         "oneway:mofa": "no",
         "id": "way/112166186"
       },
@@ -10525,6 +10518,7 @@
       "id": "way/117555514",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Appelhoekstraat",
         "surface": "concrete",
         "id": "way/117555514"
@@ -12338,8 +12332,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2906873,
-            51.1181379
+            3.2907047,
+            51.1181274
           ],
           [
             3.2906181,
@@ -12719,6 +12713,7 @@
         "highway": "track",
         "horse": "no",
         "motor_vehicle": "no",
+        "surface": "grass",
         "id": "way/135971341"
       },
       "geometry": {
@@ -12741,8 +12736,8 @@
             51.0889129
           ],
           [
-            3.3303752,
-            51.0898615
+            3.3290184,
+            51.0891949
           ]
         ]
       }
@@ -13956,7 +13951,7 @@
       "type": "Feature",
       "id": "way/138231061",
       "properties": {
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Maarkendries",
@@ -13968,8 +13963,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6273122,
-            50.8158402
+            3.6272956,
+            50.8158422
           ],
           [
             3.6271164,
@@ -14136,6 +14131,7 @@
       "properties": {
         "highway": "residential",
         "name": "Schoonboeke - Beaufaux",
+        "surface": "asphalt",
         "id": "way/142110199"
       },
       "geometry": {
@@ -15025,6 +15021,7 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
+        "is_sidepath": "no",
         "lit": "yes",
         "oneway": "no",
         "surface": "asphalt",
@@ -15667,8 +15664,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6000543,
-            50.8482625
+            3.6000528,
+            50.8482617
           ],
           [
             3.5998059,
@@ -15774,9 +15771,11 @@
       "id": "way/166945686",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Rue Crimont",
         "source:maxspeed": "sign",
+        "surface": "asphalt",
         "zone:maxspeed": "BE:50",
         "id": "way/166945686"
       },
@@ -17755,12 +17754,12 @@
             51.1843297
           ],
           [
-            3.2860963,
-            51.1844795
+            3.2860842,
+            51.1844812
           ],
           [
-            3.286063,
-            51.1845743
+            3.2860543,
+            51.1845735
           ],
           [
             3.2859964,
@@ -18075,16 +18074,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2831717,
-            51.1787972
+            3.283167,
+            51.1788132
           ],
           [
             3.2834415,
             51.178831
           ],
           [
-            3.2863716,
-            51.1786501
+            3.2862921,
+            51.178683
+          ],
+          [
+            3.2863592,
+            51.1786729
+          ],
+          [
+            3.2864155,
+            51.1786427
           ],
           [
             3.2882647,
@@ -18270,6 +18277,10 @@
           [
             3.5694194,
             50.8866212
+          ],
+          [
+            3.5693459,
+            50.886612
           ],
           [
             3.5691934,
@@ -20047,7 +20058,7 @@
       "id": "way/186384382",
       "properties": {
         "highway": "tertiary",
-        "name": "Vlaams Ardennenstraat",
+        "name": "Vlaamse Ardennenstraat",
         "id": "way/186384382"
       },
       "geometry": {
@@ -20747,8 +20758,8 @@
             50.8482802
           ],
           [
-            3.6000543,
-            50.8482625
+            3.6000528,
+            50.8482617
           ]
         ]
       }
@@ -21391,6 +21402,7 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
+        "surface": "asphalt",
         "id": "way/221228787"
       },
       "geometry": {
@@ -22641,6 +22653,7 @@
       "id": "way/295132739",
       "properties": {
         "highway": "cycleway",
+        "is_sidepath": "no",
         "name": "Abdijenroute",
         "railway": "abandoned",
         "surface": "compacted",
@@ -22738,6 +22751,7 @@
       "properties": {
         "bridge": "yes",
         "highway": "cycleway",
+        "is_sidepath": "no",
         "layer": "1",
         "lit": "no",
         "name": "Abdijenroute",
@@ -22803,6 +22817,7 @@
       "id": "way/301897426",
       "properties": {
         "highway": "cycleway",
+        "is_sidepath": "no",
         "name": "Abdijenroute",
         "oneway": "no",
         "railway": "abandoned",
@@ -22848,6 +22863,7 @@
       "id": "way/301903120",
       "properties": {
         "highway": "cycleway",
+        "is_sidepath": "no",
         "lit": "no",
         "name": "Abdijenroute",
         "oneway": "no",
@@ -25566,6 +25582,7 @@
       "id": "way/467606224",
       "properties": {
         "highway": "cycleway",
+        "is_sidepath": "no",
         "name": "Abdijenroute",
         "oneway": "no",
         "railway": "abandoned",
@@ -26100,6 +26117,7 @@
         "bridge": "yes",
         "foot": "designated",
         "highway": "cycleway",
+        "is_sidepath": "no",
         "layer": "1",
         "oneway": "no",
         "segregated": "no",
@@ -26136,6 +26154,7 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "is_sidepath": "no",
         "lit": "yes",
         "oneway": "no",
         "segregated": "no",
@@ -27506,16 +27525,16 @@
             51.1847399
           ],
           [
-            3.2857805,
-            51.1847619
+            3.2857798,
+            51.1847653
           ],
           [
-            3.2857016,
-            51.1847836
+            3.2857029,
+            51.184787
           ],
           [
-            3.2855813,
-            51.1848002
+            3.28558,
+            51.1848036
           ],
           [
             3.2854405,
@@ -27783,6 +27802,7 @@
       "id": "way/672541156",
       "properties": {
         "highway": "cycleway",
+        "is_sidepath": "no",
         "name": "Abdijenroute",
         "oneway": "no",
         "railway": "abandoned",
@@ -27991,6 +28011,7 @@
       "id": "way/687866206",
       "properties": {
         "highway": "cycleway",
+        "is_sidepath": "no",
         "name": "Abdijenroute",
         "railway": "abandoned",
         "surface": "asphalt",
@@ -28015,6 +28036,7 @@
       "id": "way/690497698",
       "properties": {
         "highway": "cycleway",
+        "is_sidepath": "no",
         "lit": "no",
         "name": "Abdijenroute",
         "oneway": "no",
@@ -28623,12 +28645,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.2831717,
-            51.1787972
+            3.283167,
+            51.1788132
           ],
           [
-            3.283172,
-            51.1788343
+            3.2831854,
+            51.1788599
           ],
           [
             3.2831968,
@@ -29442,8 +29464,8 @@
             51.1180009
           ],
           [
-            3.2906873,
-            51.1181379
+            3.2907047,
+            51.1181274
           ]
         ]
       }
@@ -30407,6 +30429,7 @@
       "id": "way/1002771186",
       "properties": {
         "highway": "cycleway",
+        "is_sidepath": "no",
         "lit": "no",
         "name": "Abdijenroute",
         "oneway": "no",
@@ -33028,8 +33051,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.603598,
-            50.8389482
+            3.6036161,
+            50.8389571
           ],
           [
             3.603701,
@@ -33045,9 +33068,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "cycleway",
-        "layer": "-1",
         "surface": "concrete",
-        "tunnel": "yes",
         "id": "way/1307512001"
       },
       "geometry": {
@@ -33058,8 +33079,8 @@
             50.8388255
           ],
           [
-            3.603598,
-            50.8389482
+            3.6036161,
+            50.8389571
           ]
         ]
       }
@@ -33728,6 +33749,57 @@
           [
             3.2334157,
             51.1860126
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1422838972",
+      "properties": {
+        "bicycle": "no",
+        "check_date:surface": "2025-08-17",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "no",
+        "motor_vehicle": "no",
+        "surface": "unpaved",
+        "id": "way/1422838972"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3290184,
+            51.0891949
+          ],
+          [
+            3.3303752,
+            51.0898615
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1423376037",
+      "properties": {
+        "direction": "backward",
+        "highway": "tertiary",
+        "name": "Gieterijstraat",
+        "surface": "cobblestone",
+        "id": "way/1423376037"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6272786,
+            50.8157993
+          ],
+          [
+            3.6272956,
+            50.8158422
           ]
         ]
       }

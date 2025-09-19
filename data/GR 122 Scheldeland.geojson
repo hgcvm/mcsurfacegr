@@ -33,6 +33,26 @@
           [
             4.0505188,
             51.2826535
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/7595516",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Dubbele Poort",
+        "surface": "paving_stones",
+        "id": "way/7595516"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.0505188,
+            51.2826535
           ],
           [
             4.0511344,
@@ -1341,7 +1361,6 @@
       "type": "Feature",
       "id": "way/8117121",
       "properties": {
-        "cycleway:both": "shared_lane",
         "highway": "residential",
         "maxspeed": "30",
         "maxweight": "5",
@@ -1504,7 +1523,7 @@
         "name:fr": "Rue Oswald Ponette",
         "name:nl": "Oswald Ponettestraat",
         "source:maxspeed": "BE:zone30",
-        "surface": "sett",
+        "surface": "asphalt",
         "id": "way/8117719"
       },
       "geometry": {
@@ -1519,8 +1538,40 @@
             50.7454363
           ],
           [
-            3.5935412,
-            50.7454381
+            3.593566,
+            50.7454393
+          ],
+          [
+            3.594097,
+            50.7454903
+          ],
+          [
+            3.5946226,
+            50.7455591
+          ],
+          [
+            3.5947592,
+            50.7455717
+          ],
+          [
+            3.5948803,
+            50.7455829
+          ],
+          [
+            3.5960938,
+            50.7456952
+          ],
+          [
+            3.5967987,
+            50.7457396
+          ],
+          [
+            3.596877,
+            50.7457446
+          ],
+          [
+            3.5974505,
+            50.7457752
           ]
         ]
       }
@@ -1537,15 +1588,35 @@
         "name:fr": "Rue Haute",
         "name:nl": "Hoogstraat",
         "source:maxspeed": "BE:zone30",
-        "surface": "sett",
+        "surface": "asphalt",
         "id": "way/23768101"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.5995165,
-            50.746055
+            3.5980833,
+            50.7458253
+          ],
+          [
+            3.5982152,
+            50.7458342
+          ],
+          [
+            3.5983797,
+            50.7458484
+          ],
+          [
+            3.5987406,
+            50.7458934
+          ],
+          [
+            3.5989243,
+            50.7459245
+          ],
+          [
+            3.5994979,
+            50.7460459
           ],
           [
             3.5995707,
@@ -1556,8 +1627,8 @@
             50.7461038
           ],
           [
-            3.5997425,
-            50.7461393
+            3.5997532,
+            50.7461684
           ]
         ]
       }
@@ -1962,6 +2033,7 @@
         "official_vicinal_ref": "065_7_1",
         "speed_pedelec": "yes",
         "tracktype": "grade1",
+        "traffic": "low",
         "traffic_sign": "BE:F99c",
         "vicinal_ref": "Chemin nr. 75",
         "id": "way/24910274"
@@ -5540,15 +5612,35 @@
         "name:fr": "Rue Oswald Ponette",
         "name:nl": "Oswald Ponettestraat",
         "source:maxspeed": "BE:zone30",
-        "surface": "sett",
+        "surface": "asphalt",
         "id": "way/33995626"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.5932394,
-            50.7454054
+            3.5912588,
+            50.7451938
+          ],
+          [
+            3.591993,
+            50.7452707
+          ],
+          [
+            3.5922669,
+            50.7453016
+          ],
+          [
+            3.5924098,
+            50.745317
+          ],
+          [
+            3.5928431,
+            50.7453672
+          ],
+          [
+            3.5932092,
+            50.7454029
           ],
           [
             3.5932594,
@@ -9202,6 +9294,7 @@
         "official_vicinal_ref": "245_34_1",
         "surface": "paving_stones",
         "tracktype": "grade1",
+        "traffic": "low",
         "vicinal_ref": "Sentier nr. 34",
         "width": "1",
         "id": "way/44387875"
@@ -13836,7 +13929,6 @@
       "id": "way/91487706",
       "properties": {
         "highway": "cycleway",
-        "traffic_sign": "BE:D07",
         "id": "way/91487706"
       },
       "geometry": {
@@ -13874,10 +13966,9 @@
       "id": "way/91487716",
       "properties": {
         "bicycle": "designated",
+        "cycleway": "shared_lane",
         "highway": "residential",
         "name": "Wijmeersstraat",
-        "surface": "asphalt",
-        "traffic_sign": "BE:F45b",
         "id": "way/91487716"
       },
       "geometry": {
@@ -16226,6 +16317,7 @@
         "highway": "residential",
         "name": "Moorweg",
         "surface": "asphalt",
+        "traffic": "low",
         "id": "way/117367921"
       },
       "geometry": {
@@ -16681,7 +16773,6 @@
         "railway": "abandoned",
         "segregated": "no",
         "surface": "asphalt",
-        "traffic_sign": "BE:C3,BE:M2,GIV[uitgezonderd ruiters]",
         "id": "way/121789516"
       },
       "geometry": {
@@ -16700,232 +16791,40 @@
             50.7876968
           ],
           [
-            3.7553264,
-            50.7877463
-          ],
-          [
-            3.7554165,
-            50.7878802
-          ],
-          [
-            3.7554938,
-            50.7879942
-          ],
-          [
-            3.7555391,
-            50.7880621
-          ],
-          [
             3.7556309,
             50.7881978
           ],
           [
-            3.7557651,
-            50.7883927
+            3.7560853,
+            50.7888317
           ],
           [
-            3.7558443,
-            50.7885098
+            3.7576009,
+            50.7910924
           ],
           [
-            3.7560555,
-            50.7888212
+            3.7577538,
+            50.7912905
           ],
           [
-            3.7560998,
-            50.7888862
+            3.7579908,
+            50.79158
           ],
           [
-            3.7561415,
-            50.7889484
+            3.7583286,
+            50.791922
           ],
           [
-            3.75621,
-            50.7890533
+            3.758697,
+            50.7922787
           ],
           [
-            3.7562974,
-            50.7891851
+            3.7587795,
+            50.7923639
           ],
           [
-            3.7563734,
-            50.7892979
-          ],
-          [
-            3.7564823,
-            50.789459
-          ],
-          [
-            3.7565683,
-            50.7895862
-          ],
-          [
-            3.7566394,
-            50.7896908
-          ],
-          [
-            3.7566908,
-            50.7897663
-          ],
-          [
-            3.7567841,
-            50.7899016
-          ],
-          [
-            3.7568649,
-            50.7900197
-          ],
-          [
-            3.7569121,
-            50.7900878
-          ],
-          [
-            3.7569525,
-            50.7901447
-          ],
-          [
-            3.7570032,
-            50.7902166
-          ],
-          [
-            3.7570512,
-            50.7902875
-          ],
-          [
-            3.7571205,
-            50.7903938
-          ],
-          [
-            3.7571752,
-            50.79048
-          ],
-          [
-            3.7572362,
-            50.7905736
-          ],
-          [
-            3.7572902,
-            50.7906508
-          ],
-          [
-            3.7573415,
-            50.7907238
-          ],
-          [
-            3.7573987,
-            50.7908053
-          ],
-          [
-            3.7574488,
-            50.790877
-          ],
-          [
-            3.7574853,
-            50.7909299
-          ],
-          [
-            3.7575461,
-            50.7910161
-          ],
-          [
-            3.7575875,
-            50.7910751
-          ],
-          [
-            3.7576083,
-            50.7911046
-          ],
-          [
-            3.7576485,
-            50.7911597
-          ],
-          [
-            3.7576979,
-            50.7912258
-          ],
-          [
-            3.7577378,
-            50.7912752
-          ],
-          [
-            3.7577636,
-            50.791308
-          ],
-          [
-            3.7577767,
-            50.7913241
-          ],
-          [
-            3.7578025,
-            50.7913557
-          ],
-          [
-            3.7578541,
-            50.791419
-          ],
-          [
-            3.7579031,
-            50.7914759
-          ],
-          [
-            3.7579514,
-            50.7915324
-          ],
-          [
-            3.7579934,
-            50.7915793
-          ],
-          [
-            3.7580626,
-            50.7916535
-          ],
-          [
-            3.7581343,
-            50.7917272
-          ],
-          [
-            3.7581714,
-            50.7917633
-          ],
-          [
-            3.7582059,
-            50.7917973
-          ],
-          [
-            3.7582628,
-            50.791853
-          ],
-          [
-            3.7583366,
-            50.7919261
-          ],
-          [
-            3.7583797,
-            50.7919686
-          ],
-          [
-            3.7584284,
-            50.7920171
-          ],
-          [
-            3.7584764,
-            50.7920647
-          ],
-          [
-            3.7585959,
-            50.7921811
-          ],
-          [
-            3.7586972,
-            50.7922788
-          ],
-          [
-            3.7587805,
-            50.7923636
-          ],
-          [
-            3.7588988,
-            50.7924828
+            3.7588963,
+            50.7924844
           ]
         ]
       }
@@ -17099,7 +16998,6 @@
       "type": "Feature",
       "id": "way/121789557",
       "properties": {
-        "cycleway": "traffic_island",
         "highway": "cycleway",
         "oneway": "no",
         "id": "way/121789557"
@@ -17108,16 +17006,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7729236,
-            50.8060962
+            3.772981,
+            50.806058
+          ],
+          [
+            3.7729364,
+            50.8060883
           ],
           [
             3.7728831,
             50.8061246
           ],
           [
-            3.772871,
-            50.8061335
+            3.7728544,
+            50.8061445
+          ],
+          [
+            3.772789,
+            50.8061899
+          ],
+          [
+            3.7727432,
+            50.8062234
+          ],
+          [
+            3.772676,
+            50.8062873
           ]
         ]
       }
@@ -18776,6 +18690,7 @@
         "official_vicinal_ref": "245_53_1",
         "surface": "dirt",
         "tracktype": "grade4",
+        "traffic": "low",
         "vicinal_ref": "Sentier nr. 53",
         "id": "way/131050138"
       },
@@ -19242,6 +19157,7 @@
         "name": "Buysenslos",
         "official_vicinal_ref": "245_23_1",
         "tracktype": "grade3",
+        "traffic": "low",
         "vicinal_ref": "Chemin nr. 23",
         "id": "way/139232078"
       },
@@ -21313,6 +21229,7 @@
         "name": "Buysenslos",
         "official_vicinal_ref": "245_23_1",
         "tracktype": "grade1",
+        "traffic": "low",
         "vicinal_ref": "Chemin nr. 23",
         "id": "way/159679688"
       },
@@ -21624,6 +21541,7 @@
         "highway": "path",
         "name": "Jan de Lichtepad",
         "surface": "gravel",
+        "traffic": "low",
         "wikidata": "Q50942451",
         "wikipedia": "nl:Jan de Lichtepad",
         "id": "way/170419662"
@@ -21870,6 +21788,7 @@
         "highway": "path",
         "name": "Jan de Lichtepad",
         "surface": "gravel",
+        "traffic": "low",
         "wikidata": "Q50942451",
         "wikipedia": "nl:Jan de Lichtepad",
         "id": "way/170419663"
@@ -24090,7 +24009,6 @@
         "railway": "abandoned",
         "segregated": "no",
         "surface": "asphalt",
-        "traffic_sign": "BE:C3,BE:M2,GIV[uitgezonderd ruiters]",
         "id": "way/184227857"
       },
       "geometry": {
@@ -24101,216 +24019,40 @@
             50.7926097
           ],
           [
-            3.7590737,
-            50.7926584
+            3.7592168,
+            50.7928051
           ],
           [
-            3.7591223,
-            50.7927063
+            3.7595475,
+            50.7931209
           ],
           [
-            3.7592193,
-            50.7928028
+            3.759742,
+            50.7933202
           ],
           [
-            3.7592497,
-            50.792833
+            3.7600967,
+            50.7936679
           ],
           [
-            3.7592801,
-            50.7928632
+            3.7603855,
+            50.7939348
           ],
           [
-            3.7593409,
-            50.7929227
+            3.760706,
+            50.7942515
           ],
           [
-            3.7594233,
-            50.7930029
+            3.7610551,
+            50.7945994
           ],
           [
-            3.7595371,
-            50.793114
+            3.7620287,
+            50.7955796
           ],
           [
-            3.7595702,
-            50.7931464
-          ],
-          [
-            3.7596029,
-            50.793178
-          ],
-          [
-            3.7596401,
-            50.7932154
-          ],
-          [
-            3.7597335,
-            50.7933085
-          ],
-          [
-            3.7597813,
-            50.7933562
-          ],
-          [
-            3.7598183,
-            50.7933936
-          ],
-          [
-            3.7598914,
-            50.7934675
-          ],
-          [
-            3.7599952,
-            50.7935724
-          ],
-          [
-            3.7600944,
-            50.79367
-          ],
-          [
-            3.7601538,
-            50.793725
-          ],
-          [
-            3.7602411,
-            50.793806
-          ],
-          [
-            3.7603122,
-            50.793871
-          ],
-          [
-            3.760382,
-            50.7939366
-          ],
-          [
-            3.7604155,
-            50.7939694
-          ],
-          [
-            3.760448,
-            50.7940016
-          ],
-          [
-            3.7605134,
-            50.7940664
-          ],
-          [
-            3.7606223,
-            50.7941762
-          ],
-          [
-            3.7607,
-            50.7942545
-          ],
-          [
-            3.7607452,
-            50.7943009
-          ],
-          [
-            3.7607927,
-            50.7943482
-          ],
-          [
-            3.7608829,
-            50.7944404
-          ],
-          [
-            3.7609535,
-            50.7945113
-          ],
-          [
-            3.7610422,
-            50.7945993
-          ],
-          [
-            3.7610875,
-            50.7946445
-          ],
-          [
-            3.7611306,
-            50.7946866
-          ],
-          [
-            3.7612112,
-            50.7947662
-          ],
-          [
-            3.7612686,
-            50.7948231
-          ],
-          [
-            3.761327,
-            50.7948804
-          ],
-          [
-            3.7614079,
-            50.7949587
-          ],
-          [
-            3.76151,
-            50.7950564
-          ],
-          [
-            3.7616087,
-            50.7951564
-          ],
-          [
-            3.7616645,
-            50.7952124
-          ],
-          [
-            3.761721,
-            50.7952683
-          ],
-          [
-            3.761766,
-            50.7953138
-          ],
-          [
-            3.7618131,
-            50.7953598
-          ],
-          [
-            3.7620321,
-            50.7955775
-          ],
-          [
-            3.7620964,
-            50.7956411
-          ],
-          [
-            3.7621611,
-            50.7957046
-          ],
-          [
-            3.7622898,
-            50.7958312
-          ],
-          [
-            3.76242,
-            50.7959606
-          ],
-          [
-            3.7625516,
-            50.7960966
-          ],
-          [
-            3.7625619,
-            50.7961138
-          ],
-          [
-            3.7625653,
-            50.7961316
-          ],
-          [
-            3.762576,
-            50.7961418
-          ],
-          [
-            3.7625951,
-            50.796163
+            3.7625795,
+            50.7961355
           ]
         ]
       }
@@ -25416,7 +25158,7 @@
       "properties": {
         "foot": "yes",
         "highway": "track",
-        "name": "Ommegangwegel",
+        "name": "Omgangweg",
         "surface": "compacted",
         "vicinal_ref": "077_11_1",
         "id": "way/197792550"
@@ -26602,6 +26344,7 @@
         "name": "Kasteelpad",
         "official_vicinal_ref": "245_34_1",
         "surface": "paved",
+        "traffic": "low",
         "vicinal_ref": "Sentier nr. 34",
         "id": "way/252692605"
       },
@@ -27827,24 +27570,8 @@
             50.9040157
           ],
           [
-            3.689083,
-            50.9040131
-          ],
-          [
-            3.689008,
-            50.9040178
-          ],
-          [
-            3.689068,
-            50.903799
-          ],
-          [
-            3.6892118,
-            50.9036199
-          ],
-          [
-            3.689322,
-            50.9035401
+            3.6893517,
+            50.9035345
           ],
           [
             3.6894402,
@@ -29545,15 +29272,14 @@
         "railway": "abandoned",
         "segregated": "no",
         "surface": "asphalt",
-        "traffic_sign": "BE:C3,BE:M2,GIV[uitgezonderd ruiters]",
         "id": "way/378515106"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.7588988,
-            50.7924828
+            3.7588963,
+            50.7924844
           ],
           [
             3.7589342,
@@ -29574,7 +29300,6 @@
         "railway": "abandoned",
         "segregated": "no",
         "surface": "asphalt",
-        "traffic_sign": "BE:C3,BE:M2,GIV[uitgezonderd ruiters]",
         "id": "way/378515107"
       },
       "geometry": {
@@ -29583,10 +29308,6 @@
           [
             3.7589342,
             50.7925187
-          ],
-          [
-            3.7589796,
-            50.792564
           ],
           [
             3.759024,
@@ -31760,15 +31481,22 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "no",
-        "surface": "concrete:plates",
         "id": "way/421282403"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.7625951,
-            50.796163
+            3.7625477,
+            50.7961659
+          ],
+          [
+            3.7625892,
+            50.7961662
+          ],
+          [
+            3.7626176,
+            50.7961632
           ],
           [
             3.7626709,
@@ -31783,8 +31511,8 @@
             50.7961121
           ],
           [
-            3.7627723,
-            50.7961171
+            3.7627793,
+            50.796119
           ],
           [
             3.7628187,
@@ -31797,10 +31525,6 @@
           [
             3.7629018,
             50.7961288
-          ],
-          [
-            3.7629164,
-            50.7961306
           ],
           [
             3.7629481,
@@ -32034,8 +31758,6 @@
       "properties": {
         "highway": "cycleway",
         "oneway": "yes",
-        "surface": "concrete:plates",
-        "traffic_sign": "BE:D07",
         "id": "way/428191259"
       },
       "geometry": {
@@ -32132,6 +31854,7 @@
         "name": "Jan De Lichtepad",
         "surface": "grass",
         "tracktype": "grade5",
+        "traffic": "low",
         "width": "2",
         "wikidata": "Q50942451",
         "wikipedia": "nl:Jan de Lichtepad",
@@ -32308,6 +32031,28 @@
           [
             3.8499196,
             51.0383822
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/441164916",
+      "properties": {
+        "highway": "cycleway",
+        "name": "Mijnwerkerspad",
+        "id": "way/441164916"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7625795,
+            50.7961355
+          ],
+          [
+            3.7625477,
+            50.7961659
           ]
         ]
       }
@@ -33022,12 +32767,8 @@
             50.9978712
           ],
           [
-            3.8056004,
-            50.997852
-          ],
-          [
-            3.8055909,
-            50.9978355
+            3.8056021,
+            50.9978509
           ],
           [
             3.805562,
@@ -33792,6 +33533,7 @@
         "highway": "path",
         "name": "Jan de Lichtepad",
         "surface": "woodchips",
+        "traffic": "low",
         "wikidata": "Q50942451",
         "wikipedia": "nl:Jan de Lichtepad",
         "id": "way/471206650"
@@ -33933,6 +33675,7 @@
         "foot": "yes",
         "highway": "path",
         "surface": "grass",
+        "traffic": "low",
         "id": "way/471206652"
       },
       "geometry": {
@@ -34041,6 +33784,7 @@
         "official_vicinal_ref": "250_81_1",
         "surface": "ground",
         "tracktype": "grade4",
+        "traffic": "low",
         "vicinal_ref": "Chemin nr. 81",
         "wikidata": "Q50942451",
         "wikipedia": "nl:Jan de Lichtepad",
@@ -34086,6 +33830,7 @@
         "official_vicinal_ref": "245_51_1",
         "surface": "dirt",
         "tracktype": "grade5",
+        "traffic": "low",
         "vicinal_ref": "Sentier nr. 51",
         "wikidata": "Q50942451",
         "wikipedia": "nl:Jan de Lichtepad",
@@ -34150,6 +33895,7 @@
         "highway": "path",
         "layer": "1",
         "surface": "wood",
+        "traffic": "low",
         "id": "way/471296548"
       },
       "geometry": {
@@ -34177,6 +33923,7 @@
         "name": "Knutseweg",
         "official_vicinal_ref": "245_51_1",
         "tracktype": "grade3",
+        "traffic": "low",
         "vicinal_ref": "Sentier nr. 51",
         "id": "way/471296553"
       },
@@ -34202,6 +33949,7 @@
         "highway": "path",
         "motor_vehicle": "no",
         "name": "Beggaardweg",
+        "traffic": "low",
         "id": "way/471565621"
       },
       "geometry": {
@@ -34244,6 +33992,7 @@
         "official_vicinal_ref": "245_65_1",
         "surface": "concrete:plates",
         "tracktype": "grade1",
+        "traffic": "low",
         "vicinal_ref": "Sentier nr. 65",
         "id": "way/471565622"
       },
@@ -34279,6 +34028,7 @@
         "name": "Eekhoutweg",
         "official_vicinal_ref": "245_65_1",
         "surface": "paving_stones",
+        "traffic": "low",
         "vicinal_ref": "Sentier nr. 65",
         "id": "way/471565626"
       },
@@ -34330,6 +34080,7 @@
       "properties": {
         "foot": "yes",
         "highway": "path",
+        "traffic": "low",
         "id": "way/471584074"
       },
       "geometry": {
@@ -36639,6 +36390,7 @@
         "foot": "yes",
         "highway": "path",
         "layer": "1",
+        "traffic": "low",
         "id": "way/495252484"
       },
       "geometry": {
@@ -36662,6 +36414,7 @@
         "foot": "yes",
         "highway": "path",
         "surface": "grass",
+        "traffic": "low",
         "id": "way/495252485"
       },
       "geometry": {
@@ -36689,6 +36442,7 @@
         "name": "Vijvermeersen",
         "official_vicinal_ref": "250_81_1",
         "surface": "gravel",
+        "traffic": "low",
         "vicinal_ref": "Chemin nr. 81",
         "wikidata": "Q50942451",
         "wikipedia": "nl:Jan de Lichtepad",
@@ -37208,6 +36962,7 @@
         "highway": "track",
         "name": "Jan de Lichtepad",
         "tracktype": "grade4",
+        "traffic": "low",
         "wikidata": "Q50942451",
         "wikipedia": "nl:Jan de Lichtepad",
         "id": "way/508490892"
@@ -37355,6 +37110,7 @@
         "name": "Buysenslos",
         "official_vicinal_ref": "245_23_1",
         "tracktype": "grade4",
+        "traffic": "low",
         "vicinal_ref": "Chemin nr. 23",
         "id": "way/508914483"
       },
@@ -37395,6 +37151,7 @@
         "name": "Buysenslos",
         "official_vicinal_ref": "245_23_1",
         "surface": "dirt",
+        "traffic": "low",
         "vicinal_ref": "Chemin nr. 23",
         "id": "way/508914484"
       },
@@ -37520,6 +37277,7 @@
       "properties": {
         "foot": "yes",
         "highway": "steps",
+        "traffic": "low",
         "id": "way/508937451"
       },
       "geometry": {
@@ -37548,6 +37306,7 @@
         "name": "Moorweg",
         "official_vicinal_ref": "245_19_1",
         "tracktype": "grade4",
+        "traffic": "low",
         "vicinal_ref": "Chemin nr. 19",
         "width": "2",
         "id": "way/508951797"
@@ -37586,6 +37345,7 @@
         "name": "Moorweg",
         "official_vicinal_ref": "245_19_1",
         "tracktype": "grade3",
+        "traffic": "low",
         "vicinal_ref": "Chemin nr. 19",
         "width": "2",
         "id": "way/508951798"
@@ -37941,12 +37701,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6020129,
-            50.7465091
-          ],
-          [
-            3.6019749,
-            50.7465929
+            3.6020176,
+            50.7465163
           ],
           [
             3.6017827,
@@ -39994,6 +39750,7 @@
         "foot": "yes",
         "highway": "path",
         "name": "Jan de Lichtepad",
+        "traffic": "low",
         "wikipedia": "nl:Jan de Lichte (bendeleider)#Jan de Lichtepad",
         "id": "way/624715202"
       },
@@ -41317,6 +41074,7 @@
       "properties": {
         "foot": "yes",
         "highway": "path",
+        "traffic": "low",
         "id": "way/711979431"
       },
       "geometry": {
@@ -41922,16 +41680,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.5974518,
-            50.7457665
+            3.5974505,
+            50.7457752
           ],
           [
-            3.597658,
-            50.7457815
+            3.597656,
+            50.7457898
           ],
           [
-            3.5978699,
-            50.7458034
+            3.5978706,
+            50.7458066
+          ],
+          [
+            3.5979252,
+            50.7458107
+          ],
+          [
+            3.5980833,
+            50.7458253
           ]
         ]
       }
@@ -43093,6 +42859,7 @@
         "highway": "path",
         "name": "Jan de Lichtepad",
         "surface": "dirt",
+        "traffic": "low",
         "wikidata": "Q50942451",
         "wikipedia": "nl:Jan de Lichtepad",
         "id": "way/871695930"
@@ -43134,6 +42901,7 @@
         "name": "Betterbosweg",
         "official_vicinal_ref": "245_53_1",
         "surface": "dirt",
+        "traffic": "low",
         "vicinal_ref": "Sentier nr. 53",
         "id": "way/871713247"
       },
@@ -43190,6 +42958,7 @@
         "name": "Eekhoutweg",
         "official_vicinal_ref": "245_65_1",
         "surface": "paving_stones",
+        "traffic": "low",
         "vicinal_ref": "Sentier nr. 65",
         "id": "way/871824542"
       },
@@ -43233,6 +43002,7 @@
         "official_vicinal_ref": "245_10_1",
         "speed_pedelec": "yes",
         "tracktype": "grade1",
+        "traffic": "low",
         "traffic_sign": "BE:F99c",
         "vicinal_ref": "Chemin nr. 10",
         "id": "way/871826785"
@@ -43306,6 +43076,7 @@
         "motor_vehicle": "no",
         "name": "Jan De Lichtepad",
         "surface": "grass",
+        "traffic": "low",
         "width": "2",
         "wikidata": "Q50942451",
         "wikipedia": "nl:Jan de Lichtepad",
@@ -44679,20 +44450,12 @@
             50.7460595
           ],
           [
-            3.6021236,
-            50.7462599
+            3.6020422,
+            50.7464617
           ],
           [
-            3.602052,
-            50.7464212
-          ],
-          [
-            3.6020348,
-            50.74646
-          ],
-          [
-            3.6020129,
-            50.7465091
+            3.6020176,
+            50.7465163
           ]
         ]
       }
@@ -44725,24 +44488,20 @@
             50.7458641
           ],
           [
-            3.5998366,
-            50.7459426
+            3.5998154,
+            50.7460208
           ],
           [
-            3.5998087,
-            50.7460178
+            3.5998113,
+            50.7460331
           ],
           [
-            3.5998021,
-            50.746034
+            3.5997887,
+            50.7460932
           ],
           [
-            3.599788,
-            50.7460747
-          ],
-          [
-            3.5997425,
-            50.7461393
+            3.5997532,
+            50.7461684
           ]
         ]
       }
@@ -46992,6 +46751,7 @@
         "foot": "yes",
         "highway": "path",
         "name": "Jan de Lichtepad",
+        "traffic": "low",
         "wikipedia": "nl:Jan de Lichte (bendeleider)#Jan de Lichtepad",
         "id": "way/1152744534"
       },
@@ -47046,6 +46806,7 @@
         "highway": "path",
         "layer": "1",
         "name": "Jan de Lichtepad",
+        "traffic": "low",
         "wikipedia": "nl:Jan de Lichte (bendeleider)#Jan de Lichtepad",
         "id": "way/1152744535"
       },
@@ -47206,7 +46967,7 @@
       "type": "Feature",
       "id": "way/1167399142",
       "properties": {
-        "bridge": "boardwalk",
+        "bridge": "yes",
         "foot": "yes",
         "highway": "path",
         "layer": "1",
@@ -47554,6 +47315,7 @@
       "properties": {
         "foot": "yes",
         "highway": "path",
+        "traffic": "low",
         "id": "way/1257753718"
       },
       "geometry": {
@@ -47585,6 +47347,7 @@
         "foot": "yes",
         "highway": "path",
         "surface": "grass",
+        "traffic": "low",
         "id": "way/1257753719"
       },
       "geometry": {
@@ -47729,6 +47492,7 @@
         "official_vicinal_ref": "245_38_1",
         "surface": "compacted",
         "tracktype": "grade2",
+        "traffic": "low",
         "vicinal_ref": "Sentier nr. 38",
         "id": "way/1257753724"
       },
@@ -49218,296 +48982,6 @@
           [
             3.7736176,
             50.8260842
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1426022886",
-      "properties": {
-        "cycleway:both": "shared_lane",
-        "highway": "residential",
-        "maxspeed": "30",
-        "maxweight": "5",
-        "maxweight:conditional": "none @ destination",
-        "name": "Oswald Ponettestraat - Rue Oswald Ponette",
-        "name:fr": "Rue Oswald Ponette",
-        "name:nl": "Oswald Ponettestraat",
-        "source:maxspeed": "BE:zone30",
-        "surface": "asphalt",
-        "id": "way/1426022886"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.5912588,
-            50.7451938
-          ],
-          [
-            3.591993,
-            50.7452707
-          ],
-          [
-            3.5922669,
-            50.7453016
-          ],
-          [
-            3.5924098,
-            50.745317
-          ],
-          [
-            3.5928431,
-            50.7453672
-          ],
-          [
-            3.5932092,
-            50.7454029
-          ],
-          [
-            3.5932394,
-            50.7454054
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1426022887",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
-        "maxweight": "5",
-        "maxweight:conditional": "none @ destination",
-        "name": "Oswald Ponettestraat - Rue Oswald Ponette",
-        "name:fr": "Rue Oswald Ponette",
-        "name:nl": "Oswald Ponettestraat",
-        "source:maxspeed": "BE:zone30",
-        "surface": "asphalt",
-        "id": "way/1426022887"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.5935412,
-            50.7454381
-          ],
-          [
-            3.593566,
-            50.7454393
-          ],
-          [
-            3.594097,
-            50.7454903
-          ],
-          [
-            3.5946226,
-            50.7455591
-          ],
-          [
-            3.5947592,
-            50.7455717
-          ],
-          [
-            3.5948803,
-            50.7455829
-          ],
-          [
-            3.5960938,
-            50.7456952
-          ],
-          [
-            3.5967977,
-            50.7457301
-          ],
-          [
-            3.5968767,
-            50.7457365
-          ],
-          [
-            3.5971648,
-            50.7457544
-          ],
-          [
-            3.5974518,
-            50.7457665
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1426022888",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
-        "maxweight": "5",
-        "maxweight:conditional": "none @ destination",
-        "name": "Hoogstraat - Rue Haute",
-        "name:fr": "Rue Haute",
-        "name:nl": "Hoogstraat",
-        "source:maxspeed": "BE:zone30",
-        "surface": "sett",
-        "id": "way/1426022888"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.5980833,
-            50.7458253
-          ],
-          [
-            3.5982152,
-            50.7458342
-          ],
-          [
-            3.5983797,
-            50.7458484
-          ],
-          [
-            3.5984489,
-            50.7458569
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1426022889",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
-        "maxweight": "5",
-        "maxweight:conditional": "none @ destination",
-        "name": "Hoogstraat - Rue Haute",
-        "name:fr": "Rue Haute",
-        "name:nl": "Hoogstraat",
-        "source:maxspeed": "BE:zone30",
-        "surface": "sett",
-        "id": "way/1426022889"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.5978699,
-            50.7458034
-          ],
-          [
-            3.5979252,
-            50.7458107
-          ],
-          [
-            3.5980833,
-            50.7458253
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1426022890",
-      "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
-        "maxweight": "5",
-        "maxweight:conditional": "none @ destination",
-        "name": "Hoogstraat - Rue Haute",
-        "name:fr": "Rue Haute",
-        "name:nl": "Hoogstraat",
-        "source:maxspeed": "BE:zone30",
-        "surface": "asphalt",
-        "id": "way/1426022890"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.5984489,
-            50.7458569
-          ],
-          [
-            3.5985576,
-            50.7458696
-          ],
-          [
-            3.5987406,
-            50.7458934
-          ],
-          [
-            3.5989243,
-            50.7459245
-          ],
-          [
-            3.5994976,
-            50.7460493
-          ],
-          [
-            3.5995165,
-            50.746055
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1429960829",
-      "properties": {
-        "highway": "cycleway",
-        "oneway": "no",
-        "id": "way/1429960829"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.772871,
-            50.8061335
-          ],
-          [
-            3.7728544,
-            50.8061445
-          ],
-          [
-            3.772789,
-            50.8061899
-          ],
-          [
-            3.7727432,
-            50.8062234
-          ],
-          [
-            3.772676,
-            50.8062873
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1429960830",
-      "properties": {
-        "highway": "cycleway",
-        "oneway": "no",
-        "id": "way/1429960830"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.772981,
-            50.806058
-          ],
-          [
-            3.7729364,
-            50.8060883
-          ],
-          [
-            3.7729236,
-            50.8060962
           ]
         ]
       }
