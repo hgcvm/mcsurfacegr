@@ -5748,6 +5748,7 @@
         "maxspeed": "30",
         "maxweight": "3.5",
         "name": "Kapelstraat",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N2",
         "surface": "asphalt",
         "toll:hgv": "yes",
@@ -7859,26 +7860,6 @@
           [
             5.0870591,
             50.6616421
-          ],
-          [
-            5.0850207,
-            50.6651925
-          ],
-          [
-            5.0849832,
-            50.6652905
-          ],
-          [
-            5.0849091,
-            50.6654841
-          ],
-          [
-            5.0848392,
-            50.6655101
-          ],
-          [
-            5.0847534,
-            50.665532
           ]
         ]
       }
@@ -8605,6 +8586,7 @@
         "name": "Oude Diestersebaan",
         "name:etymology:wikidata": "Q743236",
         "oneway": "yes",
+        "oneway:bicycle": "no",
         "surface": "asphalt",
         "id": "way/132005701"
       },
@@ -11090,6 +11072,7 @@
       "id": "way/161184065",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/161184065"
       },
       "geometry": {
@@ -17862,14 +17845,13 @@
     },
     {
       "type": "Feature",
-      "id": "way/220113739",
+      "id": "way/220113736",
       "properties": {
-        "access": "no",
         "highway": "path",
         "surface": "grass",
-        "trail_visibility": "no",
+        "tracktype": "grade4",
         "vehicle": "no",
-        "id": "way/220113739"
+        "id": "way/220113736"
       },
       "geometry": {
         "type": "LineString",
@@ -17879,24 +17861,51 @@
             50.8353983
           ],
           [
-            5.3292792,
-            50.8353432
+            5.3291658,
+            50.8354272
           ],
           [
-            5.329033,
-            50.8350715
+            5.3277079,
+            50.8359277
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220113738",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "vehicle": "no",
+        "id": "way/220113738"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3255436,
+            50.8342633
           ],
           [
-            5.3286316,
-            50.8347739
+            5.325645,
+            50.8342278
           ],
           [
-            5.3276318,
-            50.8337515
+            5.325982,
+            50.8340907
           ],
           [
-            5.3273938,
-            50.8335406
+            5.3260866,
+            50.8340263
+          ],
+          [
+            5.3262113,
+            50.8339857
+          ],
+          [
+            5.3272845,
+            50.8335433
           ],
           [
             5.327321,
@@ -18479,6 +18488,71 @@
           [
             5.3349343,
             50.8444978
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/220402198",
+      "properties": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Broekstraat",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "id": "way/220402198"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3274313,
+            50.8360156
+          ],
+          [
+            5.327407,
+            50.8358403
+          ],
+          [
+            5.3273591,
+            50.8356166
+          ],
+          [
+            5.327307,
+            50.8355018
+          ],
+          [
+            5.327232,
+            50.8353807
+          ],
+          [
+            5.327103,
+            50.8352294
+          ],
+          [
+            5.3269734,
+            50.8351264
+          ],
+          [
+            5.3268047,
+            50.8350139
+          ],
+          [
+            5.3261843,
+            50.8347362
+          ],
+          [
+            5.3259395,
+            50.8346093
+          ],
+          [
+            5.3257329,
+            50.8344534
+          ],
+          [
+            5.3255436,
+            50.8342633
           ]
         ]
       }
@@ -19450,8 +19524,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4226778,
-            50.9133249
+            5.4226653,
+            50.9133125
           ],
           [
             5.4227824,
@@ -21997,6 +22071,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Gillebroek",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
         "surface": "paving_stones",
         "id": "way/255840817"
@@ -22628,6 +22703,7 @@
         "lane_markings": "no",
         "name": "Klein Hoevestraatje",
         "oneway": "no",
+        "sidewalk": "no",
         "smoothness": "good",
         "surface": "asphalt",
         "width": "3",
@@ -22860,6 +22936,7 @@
       "id": "way/256382246",
       "properties": {
         "highway": "track",
+        "sidewalk": "no",
         "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/256382246"
@@ -22886,11 +22963,11 @@
       "type": "Feature",
       "id": "way/256631512",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "name": "Bergstraat",
-        "smoothness": "bad",
-        "surface": "gravel",
-        "tracktype": "grade3",
+        "sidewalk": "no",
+        "surface": "dirt",
         "id": "way/256631512"
       },
       "geometry": {
@@ -22923,11 +23000,11 @@
       "type": "Feature",
       "id": "way/256631513",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "motor_vehicle": "no",
-        "smoothness": "intermediate",
-        "surface": "gravel",
-        "tracktype": "grade2",
+        "sidewalk": "no",
+        "surface": "sand",
         "id": "way/256631513"
       },
       "geometry": {
@@ -23033,6 +23110,7 @@
         "lane_markings": "no",
         "name": "Klein Hoevestraatje",
         "oneway": "no",
+        "sidewalk": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
         "width": "3",
@@ -23112,9 +23190,11 @@
       "id": "way/257184110",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "service",
         "motor_vehicle": "no",
+        "sidewalk": "no",
         "smoothness": "good",
         "surface": "asphalt",
         "id": "way/257184110"
@@ -28107,6 +28187,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Kattenbos",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N746",
         "surface": "asphalt",
         "id": "way/335812248"
@@ -33824,6 +33905,7 @@
         "maxweight:conditional": "none @ destination",
         "maxweight:hgv": "3.5",
         "name": "Napoleonweg",
+        "operator": "Agentschap Wegen en Verkeer",
         "ref": "N715",
         "surface": "asphalt",
         "id": "way/463553663"
@@ -36078,6 +36160,7 @@
         "highway": "residential",
         "name": "Oude Diestersebaan",
         "name:etymology:wikidata": "Q743236",
+        "surface": "asphalt",
         "id": "way/654877435"
       },
       "geometry": {
@@ -40280,6 +40363,30 @@
     },
     {
       "type": "Feature",
+      "id": "way/1076193280",
+      "properties": {
+        "highway": "track",
+        "surface": "grass",
+        "tracktype": "grade4",
+        "vehicle": "no",
+        "id": "way/1076193280"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3277079,
+            50.8359277
+          ],
+          [
+            5.3274313,
+            50.8360156
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1115677045",
       "properties": {
         "bicycle": "use_sidepath",
@@ -40322,12 +40429,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4205891,
-            50.9108489
-          ],
-          [
             5.4204893,
             50.9108679
+          ],
+          [
+            5.4205891,
+            50.9108489
           ]
         ]
       }
@@ -42423,10 +42530,11 @@
       "id": "way/1305087176",
       "properties": {
         "bicycle": "no",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "track",
-        "surface": "compacted",
-        "tracktype": "grade4",
+        "sidewalk": "no",
+        "surface": "dirt",
         "id": "way/1305087176"
       },
       "geometry": {
@@ -42481,7 +42589,7 @@
       "properties": {
         "foot": "yes",
         "highway": "path",
-        "surface": "grass",
+        "surface": "dirt",
         "vehicle": "no",
         "id": "way/1305095453"
       },
@@ -42503,9 +42611,11 @@
       "type": "Feature",
       "id": "way/1305095454",
       "properties": {
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "track",
         "motor_vehicle": "no",
+        "sidewalk": "no",
         "surface": "dirt",
         "tracktype": "grade4",
         "vehicle": "no",
@@ -42561,8 +42671,10 @@
       "type": "Feature",
       "id": "way/1305095456",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "name": "Bergstraat",
+        "sidewalk": "no",
         "smoothness": "bad",
         "surface": "ground",
         "tracktype": "grade3",
@@ -43206,8 +43318,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4226778,
-            50.9133249
+            5.4226653,
+            50.9133125
           ],
           [
             5.4226375,
@@ -43262,6 +43374,52 @@
           [
             5.0845197,
             50.6659697
+          ],
+          [
+            5.0847534,
+            50.665532
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1423093576",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "horse": "yes",
+        "name": "Ravel L127",
+        "railway": "abandoned",
+        "segregated": "no",
+        "surface": "asphalt",
+        "traffic_sign": "BE:F99a",
+        "width": "2",
+        "id": "way/1423093576"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0870591,
+            50.6616421
+          ],
+          [
+            5.0850207,
+            50.6651925
+          ],
+          [
+            5.0849832,
+            50.6652905
+          ],
+          [
+            5.0849091,
+            50.6654841
+          ],
+          [
+            5.0848392,
+            50.6655101
           ],
           [
             5.0847534,

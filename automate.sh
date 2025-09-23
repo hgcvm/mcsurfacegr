@@ -1,7 +1,7 @@
 #!/bin/bash
 
-OVERPASSAPIINSTANCE="https://overpass.kumi.systems/api/interpreter"
-#OVERPASSAPIINSTANCE="https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+#OVERPASSAPIINSTANCE="https://overpass.kumi.systems/api/interpreter"
+OVERPASSAPIINSTANCE="https://maps.mail.ru/osm/tools/overpass/api/interpreter"
 #OVERPASSAPIINSTANCE="https://z.overpass-api.de/api/interpreter"
 
 # 1 Dowload and convert all relations from merge/ dir. Write to data/ dir.
@@ -13,7 +13,7 @@ for REL in $INPUT; do
 	osmtogeojson data/$REL.osm > data/$REL.geojson
 
 	# Sleep, rate limit queries overpass server
-#	sleep 3
+	sleep 1
 
 	# Show some output
 	let COUNTER=COUNTER+1 
