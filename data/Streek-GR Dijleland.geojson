@@ -47428,6 +47428,7 @@
       "id": "way/16767288",
       "properties": {
         "bicycle:backward": "use_sidepath",
+        "cycleway:left": "separate",
         "cycleway:right": "lane",
         "cycleway:right:surface": "paving_stones",
         "highway": "primary",
@@ -47468,8 +47469,8 @@
             50.8705208
           ],
           [
-            4.7281791,
-            50.8704783
+            4.7281287,
+            50.8704901
           ]
         ]
       }
@@ -50417,8 +50418,9 @@
       "id": "way/80341410",
       "properties": {
         "bus_bay": "right",
-        "cycleway": "lane",
+        "cycleway:left": "lane",
         "cycleway:left:surface": "paving_stones",
+        "cycleway:right": "separate",
         "cycleway:right:surface": "paving_stones",
         "highway": "primary",
         "lanes": "3",
@@ -50429,6 +50431,7 @@
         "maxspeed": "50",
         "name": "Tiensesteenweg",
         "name:etymology:wikidata": "Q456550",
+        "oneway": "no",
         "operator": "Agentschap Wegen en Verkeer",
         "overtaking": "no",
         "parking:both": "yes",
@@ -50445,12 +50448,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7281791,
-            50.8704783
+            4.7282007,
+            50.8704739
           ],
           [
-            4.728856,
-            50.8703135
+            4.7286646,
+            50.8703601
           ]
         ]
       }
@@ -56936,6 +56939,92 @@
           [
             4.6842446,
             50.8655733
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1432544589",
+      "properties": {
+        "bus_bay": "right",
+        "cycleway": "lane",
+        "cycleway:left:surface": "paving_stones",
+        "cycleway:right:surface": "paving_stones",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lanes:bus:backward": "1",
+        "lanes:forward": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Tiensesteenweg",
+        "name:etymology:wikidata": "Q456550",
+        "operator": "Agentschap Wegen en Verkeer",
+        "overtaking": "no",
+        "parking:both": "yes",
+        "parking:both:authentication:disc": "yes",
+        "parking:both:maxstay": "2 hours",
+        "parking:both:orientation": "parallel",
+        "ref": "N3",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1432544589"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7286646,
+            50.8703601
+          ],
+          [
+            4.728856,
+            50.8703135
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1432544590",
+      "properties": {
+        "bicycle:backward": "use_sidepath",
+        "cycleway": "separate",
+        "cycleway:right:surface": "paving_stones",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lanes:bus:backward": "1",
+        "lanes:forward": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Tiensesteenweg",
+        "name:etymology:wikidata": "Q456550",
+        "operator": "Agentschap Wegen en Verkeer",
+        "overtaking": "no",
+        "parking:right": "yes",
+        "parking:right:authentication:disc": "yes",
+        "parking:right:maxstay": "2 hours",
+        "parking:right:orientation": "parallel",
+        "placement:both_ways": "middle_of:1",
+        "ref": "N3",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1432544590"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7281287,
+            50.8704901
+          ],
+          [
+            4.7282007,
+            50.8704739
           ]
         ]
       }
