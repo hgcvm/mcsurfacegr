@@ -40769,7 +40769,9 @@
       "type": "Feature",
       "id": "way/39478614",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Stoopkensstraat",
@@ -40822,7 +40824,7 @@
       "properties": {
         "highway": "path",
         "name": "Vroentepad",
-        "surface": "compacted",
+        "surface": "dirt",
         "id": "way/39480273"
       },
       "geometry": {
@@ -40837,8 +40839,12 @@
             50.7779796
           ],
           [
-            4.8975668,
-            50.7779518
+            4.8975722,
+            50.7779442
+          ],
+          [
+            4.8977408,
+            50.7779325
           ],
           [
             4.8978417,
@@ -40849,12 +40855,16 @@
             50.7780438
           ],
           [
-            4.8986026,
-            50.7782347
+            4.8986402,
+            50.7782406
           ],
           [
-            4.8989969,
-            50.7784378
+            4.8988114,
+            50.7783232
+          ],
+          [
+            4.8989996,
+            50.7784242
           ],
           [
             4.8993926,
@@ -40942,8 +40952,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9072325,
-            50.7797339
+            4.9072298,
+            50.7797483
+          ],
+          [
+            4.9071765,
+            50.7797559
           ],
           [
             4.907058,
@@ -40962,59 +40976,12 @@
     },
     {
       "type": "Feature",
-      "id": "way/39480391",
-      "properties": {
-        "highway": "track",
-        "surface": "gravel",
-        "tracktype": "grade2",
-        "id": "way/39480391"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.9108577,
-            50.7795246
-          ],
-          [
-            4.9105126,
-            50.779721
-          ],
-          [
-            4.9104078,
-            50.7797514
-          ],
-          [
-            4.9102544,
-            50.7797597
-          ],
-          [
-            4.9100318,
-            50.7797676
-          ],
-          [
-            4.9098589,
-            50.7797928
-          ],
-          [
-            4.9097227,
-            50.7798277
-          ],
-          [
-            4.9096275,
-            50.779867
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/39481837",
       "properties": {
-        "alt_name": "Voetweg 204",
-        "highway": "footway",
+        "highway": "path",
         "name": "Vervouwegje",
         "surface": "concrete",
+        "vicinal_ref": "Voetweg 204",
         "id": "way/39481837"
       },
       "geometry": {
@@ -41158,7 +41125,7 @@
       "id": "way/39483453",
       "properties": {
         "highway": "cycleway",
-        "surface": "asphalt",
+        "surface": "concrete",
         "id": "way/39483453"
       },
       "geometry": {
@@ -57327,20 +57294,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7643526,
-            50.8855006
+            4.7643429,
+            50.8854962
           ],
           [
-            4.7643257,
-            50.8854574
+            4.7643312,
+            50.885457
           ],
           [
-            4.764323,
-            50.8854529
+            4.7643314,
+            50.8854521
           ],
           [
-            4.7643124,
-            50.8854359
+            4.7643263,
+            50.8854339
+          ],
+          [
+            4.7643104,
+            50.8853734
           ],
           [
             4.764248,
@@ -57482,8 +57453,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7643526,
-            50.8855006
+            4.7643429,
+            50.8854962
           ],
           [
             4.7658802,
@@ -60763,9 +60734,9 @@
       "type": "Feature",
       "id": "way/96389767",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "name": "Rommersom",
-        "surface": "concrete",
+        "surface": "asphalt",
         "id": "way/96389767"
       },
       "geometry": {
@@ -68189,7 +68160,7 @@
       "properties": {
         "highway": "track",
         "layer": "-1",
-        "surface": "gravel",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "tunnel": "yes",
         "id": "way/135718201"
@@ -68213,7 +68184,7 @@
       "id": "way/135718207",
       "properties": {
         "highway": "track",
-        "surface": "gravel",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/135718207"
       },
@@ -68229,12 +68200,16 @@
             50.7803495
           ],
           [
-            4.9089623,
-            50.7803523
+            4.9089937,
+            50.7803567
           ],
           [
-            4.9085916,
-            50.7802314
+            4.9089502,
+            50.780354
+          ],
+          [
+            4.9085836,
+            50.7802263
           ]
         ]
       }
@@ -73322,32 +73297,52 @@
             50.8847338
           ],
           [
-            4.7641627,
-            50.8844507
+            4.7641333,
+            50.8844504
           ],
           [
-            4.7641118,
-            50.884238
+            4.7640954,
+            50.8842356
           ],
           [
-            4.7641048,
-            50.884149
+            4.7640797,
+            50.8841409
           ],
           [
-            4.7640675,
-            50.8838686
+            4.7640349,
+            50.8838726
           ],
           [
-            4.7639878,
-            50.8835222
+            4.7640029,
+            50.8836666
           ],
           [
-            4.7635078,
-            50.8832802
+            4.7639883,
+            50.8835785
           ],
           [
-            4.7633412,
-            50.8831869
+            4.7639746,
+            50.8835434
+          ],
+          [
+            4.763932,
+            50.8835145
+          ],
+          [
+            4.763766,
+            50.8834178
+          ],
+          [
+            4.7635114,
+            50.8832688
+          ],
+          [
+            4.7633755,
+            50.8831906
+          ],
+          [
+            4.7633285,
+            50.8831552
           ],
           [
             4.7629756,
@@ -75346,7 +75341,9 @@
       "type": "Feature",
       "id": "way/165186238",
       "properties": {
+        "cycleway": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Hauthem",
         "surface": "concrete",
         "width": "3",
@@ -79933,7 +79930,9 @@
       "type": "Feature",
       "id": "way/187781973",
       "properties": {
+        "cycleway": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Stoopkensstraat",
         "surface": "asphalt",
         "id": "way/187781973"
@@ -85473,12 +85472,10 @@
       "type": "Feature",
       "id": "way/245653746",
       "properties": {
-        "alt_name": "Voetweg 202",
-        "highway": "footway",
-        "name": "Pechenke wegje",
-        "name_1": "Penchke",
-        "ref": "Voetweg 202",
+        "highway": "path",
+        "name": "Pechenke",
         "surface": "concrete",
+        "vicinal_ref": "Voetweg 202",
         "id": "way/245653746"
       },
       "geometry": {
@@ -122963,7 +122960,7 @@
       "id": "way/908624260",
       "properties": {
         "highway": "track",
-        "surface": "gravel",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/908624260"
       },
@@ -129288,7 +129285,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Rommersom",
-        "surface": "concrete",
+        "surface": "asphalt",
         "id": "way/1122256936"
       },
       "geometry": {
@@ -129296,15 +129293,35 @@
         "coordinates": [
           [
             4.9112417,
-            50.7793066
+            50.7793227
           ],
           [
-            4.9111735,
-            50.7793266
+            4.9111507,
+            50.7793402
           ],
           [
             4.9108577,
             50.7795246
+          ],
+          [
+            4.9106212,
+            50.7796714
+          ],
+          [
+            4.9105024,
+            50.7797105
+          ],
+          [
+            4.9103897,
+            50.7797353
+          ],
+          [
+            4.9102531,
+            50.7797542
+          ],
+          [
+            4.9100445,
+            50.7797646
           ]
         ]
       }
@@ -129313,9 +129330,9 @@
       "type": "Feature",
       "id": "way/1122256942",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "name": "Rommersom",
-        "surface": "concrete",
+        "surface": "asphalt",
         "id": "way/1122256942"
       },
       "geometry": {
@@ -129326,16 +129343,16 @@
             50.7795353
           ],
           [
-            4.9114089,
-            50.779327
+            4.9114183,
+            50.7793346
           ],
           [
-            4.9113178,
-            50.7793093
+            4.9113285,
+            50.7793229
           ],
           [
             4.9112417,
-            50.7793066
+            50.7793227
           ]
         ]
       }
@@ -129344,9 +129361,9 @@
       "type": "Feature",
       "id": "way/1122256943",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "name": "Rommersom",
-        "surface": "concrete",
+        "surface": "asphalt",
         "id": "way/1122256943"
       },
       "geometry": {
@@ -130492,8 +130509,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9020659,
-            50.7793631
+            4.9019023,
+            50.7793275
           ],
           [
             4.9032616,
@@ -132210,21 +132227,24 @@
       "type": "Feature",
       "id": "way/1235593932",
       "properties": {
-        "highway": "track",
-        "surface": "dirt",
-        "tracktype": "grade3",
+        "highway": "path",
+        "surface": "fine_gravel",
         "id": "way/1235593932"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.9085916,
-            50.7802314
+            4.9085836,
+            50.7802263
           ],
           [
-            4.9072325,
-            50.7797339
+            4.9073194,
+            50.7797629
+          ],
+          [
+            4.9072298,
+            50.7797483
           ]
         ]
       }
@@ -132250,8 +132270,8 @@
             50.779092
           ],
           [
-            4.9020659,
-            50.7793631
+            4.9019023,
+            50.7793275
           ]
         ]
       }
@@ -136649,6 +136669,36 @@
           [
             4.7282007,
             50.8704739
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1433829305",
+      "properties": {
+        "highway": "unclassified",
+        "surface": "concrete",
+        "id": "way/1433829305"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9100445,
+            50.7797646
+          ],
+          [
+            4.9098589,
+            50.7797928
+          ],
+          [
+            4.9097227,
+            50.7798277
+          ],
+          [
+            4.9096275,
+            50.779867
           ]
         ]
       }
