@@ -6507,7 +6507,8 @@
       "properties": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "path",
+        "highway": "cycleway",
+        "motor_vehicle": "no",
         "name": "Thier des Broux",
         "surface": "concrete",
         "width": "0.6",
@@ -9490,7 +9491,9 @@
       "type": "Feature",
       "id": "way/155444720",
       "properties": {
-        "highway": "path",
+        "foot": "yes",
+        "highway": "cycleway",
+        "motor_vehicle": "no",
         "name": "Sentier n28",
         "surface": "gravel",
         "id": "way/155444720"
@@ -9724,10 +9727,6 @@
           [
             5.1147976,
             50.629265
-          ],
-          [
-            5.115479,
-            50.6291069
           ]
         ]
       }
@@ -39407,7 +39406,9 @@
       "type": "Feature",
       "id": "way/971411779",
       "properties": {
-        "highway": "path",
+        "foot": "yes",
+        "highway": "cycleway",
+        "motor_vehicle": "no",
         "name": "Sentier n28",
         "surface": "concrete",
         "id": "way/971411779"
@@ -39438,7 +39439,10 @@
       "type": "Feature",
       "id": "way/971411780",
       "properties": {
-        "highway": "path",
+        "access": "yes",
+        "foot": "yes",
+        "highway": "cycleway",
+        "motor_vehicle": "no",
         "name": "Sentier n28",
         "surface": "concrete",
         "id": "way/971411780"
@@ -43457,6 +43461,30 @@
           [
             5.0849287,
             50.7376584
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1435106066",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "30",
+        "name": "Rue de la Justice de Paix",
+        "width": "5",
+        "id": "way/1435106066"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1147976,
+            50.629265
+          ],
+          [
+            5.115479,
+            50.6291069
           ]
         ]
       }

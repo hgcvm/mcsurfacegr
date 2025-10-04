@@ -2732,7 +2732,6 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Roosbeeksestraat",
-        "oneway": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "width": "3",
@@ -2743,8 +2742,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.839621,
-            50.8314651
+            4.8395821,
+            50.8314668
           ],
           [
             4.8391253,
@@ -2797,7 +2796,7 @@
       "type": "Feature",
       "id": "way/24005969",
       "properties": {
-        "highway": "footway",
+        "highway": "path",
         "name": "Kerkhofstraat",
         "surface": "asphalt",
         "width": "1",
@@ -2811,40 +2810,24 @@
             50.8323551
           ],
           [
-            4.8340783,
-            50.832345
+            4.8341312,
+            50.8323437
           ],
           [
-            4.8341744,
-            50.83233
+            4.8341741,
+            50.8323255
           ],
           [
-            4.834219,
-            50.8322861
+            4.834211,
+            50.8322971
           ],
           [
-            4.834233,
-            50.8321867
+            4.8343384,
+            50.8315598
           ],
           [
-            4.83426,
-            50.8320496
-          ],
-          [
-            4.8342971,
-            50.8317783
-          ],
-          [
-            4.8343259,
-            50.8316169
-          ],
-          [
-            4.8343344,
-            50.8315687
-          ],
-          [
-            4.8343718,
-            50.8314823
+            4.8343721,
+            50.831482
           ]
         ]
       }
@@ -2858,17 +2841,12 @@
         "bicycle": "yes",
         "emergency": "yes",
         "foot": "yes",
-        "highway": "track",
+        "highway": "unclassified",
         "horse": "yes",
         "maxspeed": "30",
-        "mofa": "no",
-        "moped": "no",
-        "motor_vehicle": "no",
         "name": "Roosbeeksestraat",
-        "segregated": "no",
         "speed_pedelec": "yes",
         "surface": "concrete",
-        "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "id": "way/24005970"
       },
@@ -2948,8 +2926,8 @@
             50.8313921
           ],
           [
-            4.839621,
-            50.8314651
+            4.8395821,
+            50.8314668
           ]
         ]
       }
@@ -3220,21 +3198,21 @@
       "type": "Feature",
       "id": "way/24471225",
       "properties": {
-        "agricultural": "designated",
-        "bicycle": "designated",
-        "cycleway:both": "no",
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
         "emergency": "yes",
-        "foot": "designated",
+        "foot": "yes",
         "highway": "unclassified",
-        "horse": "designated",
+        "horse": "yes",
         "maxspeed": "30",
-        "maxspeed:type": "BE:F99c",
-        "motor_vehicle": "destination",
         "name": "Hertenstraat",
         "sidewalk:both": "no",
         "smoothness": "good",
-        "speed_pedelec": "designated",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
         "verge:both": "yes",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/24471225"
@@ -3247,8 +3225,8 @@
             50.8180947
           ],
           [
-            4.8492753,
-            50.817945
+            4.8492445,
+            50.817917
           ]
         ]
       }
@@ -7238,22 +7216,22 @@
       "type": "Feature",
       "id": "way/32143896",
       "properties": {
-        "agricultural": "designated",
-        "bicycle": "designated",
-        "cycleway:both": "no",
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
         "emergency": "yes",
-        "foot": "designated",
+        "foot": "yes",
         "highway": "unclassified",
-        "horse": "designated",
-        "lanes": "1",
+        "horse": "yes",
+        "lane_markings": "no",
         "maxspeed": "30",
-        "maxspeed:type": "BE:F99c",
-        "motor_vehicle": "destination",
         "name": "Hertenstraat",
         "sidewalk:both": "no",
         "smoothness": "excellent",
-        "speed_pedelec": "designated",
+        "speed_pedelec": "yes",
         "surface": "concrete",
+        "traffic_sign": "BE:F99c",
         "verge:both": "yes",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/32143896"
@@ -7262,8 +7240,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8477376,
-            50.8164539
+            4.8478771,
+            50.8165878
           ],
           [
             4.8475281,
@@ -7278,36 +7256,40 @@
             50.8161139
           ],
           [
-            4.8471587,
-            50.8160283
+            4.8471909,
+            50.8160334
           ],
           [
-            4.8468396,
+            4.8470642,
+            50.8159673
+          ],
+          [
+            4.8468624,
             50.8158718
           ],
           [
-            4.8466176,
-            50.8157902
+            4.8466042,
+            50.8157741
           ],
           [
-            4.8463525,
+            4.8463887,
             50.8157051
           ],
           [
-            4.8462152,
-            50.8156678
+            4.8462434,
+            50.8156653
           ],
           [
-            4.8460752,
-            50.815638
+            4.8460832,
+            50.8156338
           ],
           [
             4.8453569,
             50.8155131
           ],
           [
-            4.8449107,
-            50.8154241
+            4.8450609,
+            50.8154571
           ]
         ]
       }
@@ -7316,8 +7298,15 @@
       "type": "Feature",
       "id": "way/32143897",
       "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "unclassified",
+        "horse": "yes",
+        "maxspeed": "30",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
         "width": "4",
         "id": "way/32143897"
       },
@@ -7369,7 +7358,7 @@
       "properties": {
         "highway": "track",
         "surface": "dirt",
-        "tracktype": "grade3",
+        "tracktype": "grade4",
         "id": "way/32143899"
       },
       "geometry": {
@@ -7416,12 +7405,12 @@
             50.8220188
           ],
           [
-            4.8512889,
-            50.8220515
+            4.8512252,
+            50.8220367
           ],
           [
-            4.8514353,
-            50.8221006
+            4.8514755,
+            50.8220989
           ]
         ]
       }
@@ -7439,8 +7428,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8514353,
-            50.8221006
+            4.8514755,
+            50.8220989
+          ],
+          [
+            4.8514093,
+            50.8221414
           ],
           [
             4.8512083,
@@ -7451,12 +7444,12 @@
             50.8225754
           ],
           [
-            4.8507882,
-            50.8229513
+            4.8507775,
+            50.8229505
           ],
           [
-            4.8506501,
-            50.8231036
+            4.8506461,
+            50.8231002
           ],
           [
             4.8504562,
@@ -18636,7 +18629,7 @@
       "type": "Feature",
       "id": "way/104592403",
       "properties": {
-        "highway": "footway",
+        "highway": "path",
         "name": "Kerkhofstraat",
         "surface": "sett",
         "width": "2",
@@ -18646,8 +18639,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8343968,
-            50.8314554
+            4.8344005,
+            50.8314528
           ],
           [
             4.834461,
@@ -18666,12 +18659,8 @@
             50.8306369
           ],
           [
-            4.8352801,
-            50.8306134
-          ],
-          [
-            4.8352522,
-            50.8305481
+            4.8352824,
+            50.8306116
           ]
         ]
       }
@@ -22502,6 +22491,10 @@
           [
             4.8336045,
             50.8333567
+          ],
+          [
+            4.8334263,
+            50.8332771
           ],
           [
             4.8333131,
@@ -26466,24 +26459,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8352617,
-            50.8303827
-          ],
-          [
             4.8353039,
             50.8302248
           ],
           [
-            4.8352288,
-            50.830179
+            4.8353293,
+            50.8301481
           ],
           [
-            4.8351516,
-            50.8301413
-          ],
-          [
-            4.8352547,
-            50.8300608
+            4.8353653,
+            50.8301248
           ]
         ]
       }
@@ -30136,9 +30121,10 @@
       "id": "way/267434373",
       "properties": {
         "bridge": "yes",
-        "highway": "footway",
+        "highway": "path",
+        "layer": "1",
         "name": "Kerkhofstraat",
-        "surface": "concrete",
+        "surface": "sett",
         "width": "1.5",
         "id": "way/267434373"
       },
@@ -30146,12 +30132,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8343718,
-            50.8314823
+            4.8343721,
+            50.831482
           ],
           [
-            4.8343968,
-            50.8314554
+            4.8344005,
+            50.8314528
           ]
         ]
       }
@@ -35810,25 +35796,25 @@
       "type": "Feature",
       "id": "way/388915821",
       "properties": {
-        "agricultural": "designated",
-        "bicycle": "designated",
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
         "bridge": "yes",
-        "cycleway:both": "no",
+        "cycleway": "no",
         "emergency": "yes",
-        "foot": "designated",
+        "foot": "yes",
         "highway": "unclassified",
-        "horse": "designated",
+        "horse": "yes",
         "layer": "1",
         "maxspeed": "30",
-        "maxspeed:type": "BE:F99c",
-        "motor_vehicle": "destination",
         "name": "Hertenstraat",
         "sidewalk:both": "yes",
         "sidewalk:both:smoothness": "intermediate",
         "sidewalk:both:surface": "paving_stones",
         "smoothness": "good",
-        "speed_pedelec": "designated",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/388915821"
       },
@@ -35836,8 +35822,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8492753,
-            50.817945
+            4.8492445,
+            50.817917
           ],
           [
             4.8481137,
@@ -35852,6 +35838,7 @@
       "properties": {
         "highway": "track",
         "name": "Torenhofstraat",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/388915827"
       },
@@ -35987,7 +35974,7 @@
       "properties": {
         "highway": "track",
         "name": "Torenhofstraat",
-        "surface": "compacted",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/388915829"
       },
@@ -36041,61 +36028,6 @@
           [
             4.8457505,
             50.8048721
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/388915830",
-      "properties": {
-        "highway": "track",
-        "surface": "dirt",
-        "tracktype": "grade4",
-        "id": "way/388915830"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.8489883,
-            50.8258994
-          ],
-          [
-            4.8488327,
-            50.8260296
-          ],
-          [
-            4.8485173,
-            50.8263273
-          ],
-          [
-            4.848328,
-            50.826527
-          ],
-          [
-            4.8481624,
-            50.826695
-          ],
-          [
-            4.8480447,
-            50.826835
-          ],
-          [
-            4.8479545,
-            50.8269711
-          ],
-          [
-            4.8471097,
-            50.8285026
-          ],
-          [
-            4.8469863,
-            50.8287029
-          ],
-          [
-            4.8469101,
-            50.8289262
           ]
         ]
       }
@@ -38799,7 +38731,6 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Roosbeeksestraat",
-        "oneway": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "width": "3",
@@ -38835,6 +38766,50 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            4.8489883,
+            50.8258994
+          ],
+          [
+            4.8488327,
+            50.8260296
+          ],
+          [
+            4.8485173,
+            50.8263273
+          ],
+          [
+            4.848328,
+            50.826527
+          ],
+          [
+            4.8481624,
+            50.826695
+          ],
+          [
+            4.8480447,
+            50.826835
+          ],
+          [
+            4.8479545,
+            50.8269711
+          ],
+          [
+            4.8478508,
+            50.827122
+          ],
+          [
+            4.8476516,
+            50.827515
+          ],
+          [
+            4.8471003,
+            50.8284984
+          ],
+          [
+            4.8469863,
+            50.8287029
+          ],
           [
             4.8469101,
             50.8289262
@@ -38993,8 +38968,15 @@
       "type": "Feature",
       "id": "way/501248842",
       "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "unclassified",
+        "horse": "yes",
+        "maxspeed": "30",
         "surface": "concrete",
+        "traffic_sign": "BE:F99c",
         "id": "way/501248842"
       },
       "geometry": {
@@ -43635,7 +43617,6 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Roosbeeksestraat",
-        "oneway": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "width": "4",
@@ -43649,8 +43630,8 @@
             50.8301412
           ],
           [
-            4.8352547,
-            50.8300608
+            4.8353653,
+            50.8301248
           ]
         ]
       }
@@ -43677,16 +43658,16 @@
             50.8304203
           ],
           [
-            4.8352081,
-            50.8304486
+            4.8352141,
+            50.8304414
           ],
           [
-            4.8352332,
-            50.8305122
+            4.8352439,
+            50.8305156
           ],
           [
-            4.8352522,
-            50.8305481
+            4.8352824,
+            50.8306116
           ]
         ]
       }
@@ -43728,12 +43709,20 @@
             50.8328744
           ],
           [
+            4.8339335,
+            50.8330927
+          ],
+          [
             4.8339038,
             50.8331957
           ],
           [
             4.8338747,
             50.8332773
+          ],
+          [
+            4.8338489,
+            50.8333034
           ],
           [
             4.8338142,
@@ -48553,22 +48542,21 @@
       "type": "Feature",
       "id": "way/1360315014",
       "properties": {
-        "agricultural": "designated",
-        "bicycle": "designated",
-        "cycleway:both": "no",
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
         "emergency": "yes",
-        "foot": "designated",
+        "foot": "yes",
         "highway": "unclassified",
-        "horse": "designated",
-        "lanes": "1",
+        "horse": "yes",
         "maxspeed": "30",
-        "maxspeed:type": "BE:F99c",
-        "motor_vehicle": "destination",
         "name": "Hertenstraat",
         "sidewalk:both": "no",
         "smoothness": "good",
-        "speed_pedelec": "designated",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
         "verge:both": "yes",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/1360315014"
@@ -48581,47 +48569,8 @@
             50.8168135
           ],
           [
-            4.8477376,
-            50.8164539
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1360315015",
-      "properties": {
-        "agricultural": "designated",
-        "bicycle": "designated",
-        "cycleway:both": "no",
-        "emergency": "yes",
-        "foot": "designated",
-        "highway": "unclassified",
-        "horse": "designated",
-        "lanes": "1",
-        "lit": "no",
-        "maxspeed": "30",
-        "maxspeed:type": "BE:F99c",
-        "motor_vehicle": "destination",
-        "name": "Hertenstraat",
-        "sidewalk:both": "no",
-        "smoothness": "excellent",
-        "speed_pedelec": "designated",
-        "surface": "asphalt",
-        "verge:both": "yes",
-        "zone:traffic": "BE-VLG:rural",
-        "id": "way/1360315015"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.8449107,
-            50.8154241
-          ],
-          [
-            4.844524,
-            50.8153405
+            4.8478771,
+            50.8165878
           ]
         ]
       }
@@ -48630,9 +48579,9 @@
       "type": "Feature",
       "id": "way/1360315016",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
-        "lanes": "1",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "maxspeed:type": "BE-VLG:urban",
@@ -48647,6 +48596,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            4.8450609,
+            50.8154571
+          ],
+          [
+            4.8449107,
+            50.8154241
+          ],
           [
             4.844524,
             50.8153405
@@ -49155,7 +49112,8 @@
       "properties": {
         "highway": "track",
         "name": "Torenhofstraat",
-        "tracktype": "grade3",
+        "surface": "concrete",
+        "tracktype": "grade1",
         "id": "way/1433632294"
       },
       "geometry": {
@@ -49168,6 +49126,28 @@
           [
             4.8477703,
             50.8082924
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1435171654",
+      "properties": {
+        "highway": "footway",
+        "surface": "sett",
+        "id": "way/1435171654"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8352617,
+            50.8303827
+          ],
+          [
+            4.8353039,
+            50.8302248
           ]
         ]
       }

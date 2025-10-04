@@ -2642,7 +2642,12 @@
       "id": "way/9887235",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Winhofstraat",
+        "smoothness": "intermediate",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/9887235"
       },
       "geometry": {
@@ -8306,7 +8311,7 @@
       "properties": {
         "highway": "track",
         "name": "Torenhofstraat",
-        "surface": "compacted",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/23991892"
       },
@@ -8360,7 +8365,7 @@
       "type": "Feature",
       "id": "way/23992046",
       "properties": {
-        "cycleway:both": "no",
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Domstraat",
@@ -8416,12 +8421,12 @@
             50.8062041
           ],
           [
-            4.8437817,
-            50.8064642
+            4.8437669,
+            50.8064629
           ],
           [
-            4.8437273,
-            50.8066434
+            4.8437018,
+            50.8066396
           ]
         ]
       }
@@ -15936,6 +15941,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Rooierweg",
+        "surface": "asphalt",
         "id": "way/27803132"
       },
       "geometry": {
@@ -16374,10 +16380,8 @@
       "id": "way/28323925",
       "properties": {
         "highway": "tertiary",
-        "lanes": "1",
         "maxspeed": "50",
         "name": "Driesenstraat",
-        "oneway": "yes",
         "source:maxspeed": "BE-VLG:urban",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/28323925"
@@ -16386,16 +16390,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.466031,
-            50.8048758
+            5.4660276,
+            50.8048656
           ],
           [
-            5.4658293,
-            50.8049161
-          ],
-          [
-            5.4655809,
-            50.8049172
+            5.4658595,
+            50.8048648
           ],
           [
             5.4654812,
@@ -17357,7 +17357,10 @@
       "id": "way/29418291",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Dashovenstraat",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/29418291"
       },
       "geometry": {
@@ -36862,7 +36865,10 @@
       "properties": {
         "highway": "tertiary",
         "lanes": "2",
+        "maxspeed": "50",
         "name": "Verhenis",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/39065392"
       },
       "geometry": {
@@ -60509,7 +60515,7 @@
       "type": "Feature",
       "id": "way/94232622",
       "properties": {
-        "highway": "unclassified",
+        "highway": "track",
         "name": "Renteweg",
         "id": "way/94232622"
       },
@@ -60825,12 +60831,12 @@
         "cycleway:both": "no",
         "emergency": "yes",
         "foot": "yes",
-        "highway": "track",
+        "highway": "path",
         "horse": "yes",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "source:maxspeed": "BE:F99c",
-        "surface": "asphalt",
+        "surface": "dirt",
         "tracktype": "grade1",
         "id": "way/98698621"
       },
@@ -60858,32 +60864,12 @@
             50.777845
           ],
           [
-            2.8237036,
-            50.7775711
+            2.8232878,
+            50.7773025
           ],
           [
-            2.8233455,
-            50.7773386
-          ],
-          [
-            2.8230867,
-            50.7771598
-          ],
-          [
-            2.8228721,
-            50.7769868
-          ],
-          [
-            2.8227501,
-            50.7768543
-          ],
-          [
-            2.8226629,
-            50.7767137
-          ],
-          [
-            2.8225528,
-            50.7765417
+            2.8230862,
+            50.7771524
           ]
         ]
       }
@@ -69111,12 +69097,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.8225528,
-            50.7765417
+            2.8231889,
+            50.7764647
           ],
           [
-            2.8223031,
-            50.776566
+            2.8225403,
+            50.7765399
           ],
           [
             2.8220649,
@@ -74297,7 +74283,7 @@
       "type": "Feature",
       "id": "way/154461441",
       "properties": {
-        "highway": "unclassified",
+        "highway": "track",
         "name": "Renteweg",
         "id": "way/154461441"
       },
@@ -85644,8 +85630,8 @@
             50.8046721
           ],
           [
-            5.4637534,
-            50.8046663
+            5.4637031,
+            50.8046612
           ]
         ]
       }
@@ -85658,6 +85644,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Sint-Geertruistraat",
+        "smoothness": "intermediate",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "paving_stones",
         "id": "way/249120649"
@@ -85666,8 +85653,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4637534,
-            50.8046663
+            5.4637031,
+            50.8046612
           ],
           [
             5.4636875,
@@ -97157,7 +97144,7 @@
       "properties": {
         "highway": "track",
         "name": "Torenhofstraat",
-        "surface": "compacted",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/388915829"
       },
@@ -97219,26 +97206,21 @@
       "type": "Feature",
       "id": "way/388915836",
       "properties": {
-        "highway": "track",
+        "highway": "unclassified",
         "name": "Torenhofstraat",
-        "surface": "sett",
-        "tracktype": "grade1",
+        "surface": "asphalt",
         "id": "way/388915836"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.8437273,
-            50.8066434
+            4.8437018,
+            50.8066396
           ],
           [
-            4.843895,
-            50.8066526
-          ],
-          [
-            4.8443585,
-            50.8066805
+            4.8438642,
+            50.8066534
           ]
         ]
       }
@@ -98198,8 +98180,8 @@
             50.7918928
           ],
           [
-            5.4377743,
-            50.7918542
+            5.4377823,
+            50.7918394
           ]
         ]
       }
@@ -98370,7 +98352,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
-        "maxspeed": "70",
+        "maxspeed": "30",
         "name": "Piringenstraat",
         "surface": "concrete",
         "id": "way/405207691"
@@ -121079,6 +121061,7 @@
         "horse": "yes",
         "maxspeed": "30",
         "name": "Rooierweg",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "traffic_sign": "BE:F99c",
         "id": "way/857602631"
@@ -121111,8 +121094,8 @@
             50.791819
           ],
           [
-            5.4377743,
-            50.7918542
+            5.4377823,
+            50.7918394
           ]
         ]
       }
@@ -135974,8 +135957,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.466031,
-            50.8048758
+            5.4660276,
+            50.8048656
           ],
           [
             5.4661474,
@@ -136781,6 +136764,30 @@
           [
             3.7550079,
             51.047128
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1435126831",
+      "properties": {
+        "highway": "track",
+        "name": "Torenhofstraat",
+        "surface": "cobblestone",
+        "tracktype": "grade1",
+        "id": "way/1435126831"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8438642,
+            50.8066534
+          ],
+          [
+            4.8443585,
+            50.8066805
           ]
         ]
       }
@@ -172561,6 +172568,8 @@
       "properties": {
         "highway": "residential",
         "name": "Eerste-Meistraat",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
         "id": "way/9887653"
       },
       "geometry": {
@@ -172836,6 +172845,7 @@
         "maxspeed": "30",
         "name": "Kielenstraat",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "id": "way/25449602"
       },
       "geometry": {
@@ -172868,6 +172878,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "surface": "sett",
         "id": "way/25449620"
       },
       "geometry": {
@@ -172982,6 +172993,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "id": "way/25586780"
       },
       "geometry": {
@@ -173055,6 +173067,7 @@
         "name": "Predikherenstraat",
         "name:etymology:wikidata": "Q131479",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "id": "way/26291869"
       },
       "geometry": {
@@ -173091,6 +173104,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "id": "way/27190564"
       },
       "geometry": {
@@ -173214,8 +173228,8 @@
             50.7817762
           ],
           [
-            5.4709203,
-            50.7820051
+            5.4709055,
+            50.7820021
           ]
         ]
       }
@@ -174227,7 +174241,7 @@
         "highway": "path",
         "maxspeed": "30",
         "segregated": "no",
-        "surface": "paved",
+        "surface": "paving_stones",
         "traffic_sign": "BE:F111",
         "id": "way/38612499"
       },
@@ -174397,6 +174411,7 @@
         "maxspeed": "30",
         "name": "Kastanjewal",
         "overtaking:motor_vehicle": "no",
+        "surface": "paving_stones",
         "id": "way/38820976"
       },
       "geometry": {
@@ -175096,8 +175111,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4709203,
-            50.7820051
+            5.4709055,
+            50.7820021
           ],
           [
             5.47079,
@@ -175740,6 +175755,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "id": "way/346098168"
       },
       "geometry": {
@@ -175756,10 +175772,6 @@
           [
             5.4684862,
             50.78173
-          ],
-          [
-            5.4685534,
-            50.7816836
           ],
           [
             5.4686797,
@@ -176758,6 +176770,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Kastanjewal",
+        "surface": "paving_stones",
         "id": "way/743141250"
       },
       "geometry": {
@@ -176862,11 +176875,15 @@
       "type": "Feature",
       "id": "way/832886899",
       "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "path",
+        "maxspeed": "30",
         "segregated": "yes",
+        "smoothness": "good",
         "speed_pedelec": "yes",
+        "surface": "paving_stones",
+        "traffic_sign": "BE:F99b",
         "id": "way/832886899"
       },
       "geometry": {
@@ -176875,14 +176892,6 @@
           [
             5.4719966,
             50.7787829
-          ],
-          [
-            5.4719875,
-            50.7787529
-          ],
-          [
-            5.4719331,
-            50.7787058
           ],
           [
             5.4718493,
@@ -176975,6 +176984,7 @@
         "bicycle": "yes",
         "highway": "pedestrian",
         "name": "Alleé Verte",
+        "surface": "sett",
         "tunnel": "building_passage",
         "id": "way/875471140"
       },
@@ -177000,6 +177010,7 @@
         "bicycle": "yes",
         "highway": "pedestrian",
         "name": "Alleé Verte",
+        "surface": "sett",
         "id": "way/875471141"
       },
       "geometry": {
@@ -177032,6 +177043,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "id": "way/880648329"
       },
       "geometry": {

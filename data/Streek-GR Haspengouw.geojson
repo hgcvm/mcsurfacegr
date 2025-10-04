@@ -7643,6 +7643,8 @@
       "properties": {
         "highway": "residential",
         "name": "Eerste-Meistraat",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
         "id": "way/9887653"
       },
       "geometry": {
@@ -7918,6 +7920,7 @@
         "maxspeed": "30",
         "name": "Kielenstraat",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "id": "way/25449602"
       },
       "geometry": {
@@ -7950,6 +7953,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "surface": "sett",
         "id": "way/25449620"
       },
       "geometry": {
@@ -8064,6 +8068,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "id": "way/25586780"
       },
       "geometry": {
@@ -8137,6 +8142,7 @@
         "name": "Predikherenstraat",
         "name:etymology:wikidata": "Q131479",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "id": "way/26291869"
       },
       "geometry": {
@@ -8173,6 +8179,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "id": "way/27190564"
       },
       "geometry": {
@@ -8296,8 +8303,8 @@
             50.7817762
           ],
           [
-            5.4709203,
-            50.7820051
+            5.4709055,
+            50.7820021
           ]
         ]
       }
@@ -9108,7 +9115,7 @@
         "highway": "path",
         "maxspeed": "30",
         "segregated": "no",
-        "surface": "paved",
+        "surface": "paving_stones",
         "traffic_sign": "BE:F111",
         "id": "way/38612499"
       },
@@ -9278,6 +9285,7 @@
         "maxspeed": "30",
         "name": "Kastanjewal",
         "overtaking:motor_vehicle": "no",
+        "surface": "paving_stones",
         "id": "way/38820976"
       },
       "geometry": {
@@ -9623,8 +9631,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4709203,
-            50.7820051
+            5.4709055,
+            50.7820021
           ],
           [
             5.47079,
@@ -10232,6 +10240,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "id": "way/346098168"
       },
       "geometry": {
@@ -10248,10 +10257,6 @@
           [
             5.4684862,
             50.78173
-          ],
-          [
-            5.4685534,
-            50.7816836
           ],
           [
             5.4686797,
@@ -11102,6 +11107,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Kastanjewal",
+        "surface": "paving_stones",
         "id": "way/743141250"
       },
       "geometry": {
@@ -11206,11 +11212,15 @@
       "type": "Feature",
       "id": "way/832886899",
       "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "path",
+        "maxspeed": "30",
         "segregated": "yes",
+        "smoothness": "good",
         "speed_pedelec": "yes",
+        "surface": "paving_stones",
+        "traffic_sign": "BE:F99b",
         "id": "way/832886899"
       },
       "geometry": {
@@ -11219,14 +11229,6 @@
           [
             5.4719966,
             50.7787829
-          ],
-          [
-            5.4719875,
-            50.7787529
-          ],
-          [
-            5.4719331,
-            50.7787058
           ],
           [
             5.4718493,
@@ -11275,6 +11277,7 @@
         "bicycle": "yes",
         "highway": "pedestrian",
         "name": "Alleé Verte",
+        "surface": "sett",
         "tunnel": "building_passage",
         "id": "way/875471140"
       },
@@ -11300,6 +11303,7 @@
         "bicycle": "yes",
         "highway": "pedestrian",
         "name": "Alleé Verte",
+        "surface": "sett",
         "id": "way/875471141"
       },
       "geometry": {
@@ -11332,6 +11336,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
         "id": "way/880648329"
       },
       "geometry": {
