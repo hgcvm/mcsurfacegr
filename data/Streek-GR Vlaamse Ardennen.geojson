@@ -31757,10 +31757,9 @@
       "properties": {
         "bicycle": "use_sidepath",
         "highway": "residential",
-        "maxspeed": "50",
+        "maxspeed": "70",
         "name": "Ronseweg",
         "oneway": "yes",
-        "zone:traffic": "BE-VLG:urban",
         "id": "way/313857579"
       },
       "geometry": {
@@ -31773,22 +31772,6 @@
           [
             3.6039816,
             50.8302004
-          ],
-          [
-            3.6040349,
-            50.83036
-          ],
-          [
-            3.6040343,
-            50.8303954
-          ],
-          [
-            3.6040362,
-            50.8306148
-          ],
-          [
-            3.6040294,
-            50.8306476
           ]
         ]
       }
@@ -52876,6 +52859,68 @@
           [
             3.8444073,
             50.8205699
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1436570315",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Ronseweg",
+        "oneway": "yes",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
+        "id": "way/1436570315"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6040362,
+            50.8306148
+          ],
+          [
+            3.6040294,
+            50.8306476
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1436570316",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "residential",
+        "maxspeed": "50",
+        "name": "Ronseweg",
+        "oneway": "yes",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
+        "id": "way/1436570316"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6039816,
+            50.8302004
+          ],
+          [
+            3.6040349,
+            50.83036
+          ],
+          [
+            3.6040343,
+            50.8303954
+          ],
+          [
+            3.6040362,
+            50.8306148
           ]
         ]
       }
