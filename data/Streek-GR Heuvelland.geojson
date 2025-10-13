@@ -17558,6 +17558,7 @@
         "oneway": "no",
         "ref": "D 933",
         "sidewalk": "both",
+        "smoothness": "intermediate",
         "surface": "sett",
         "id": "way/161294954"
       },
@@ -19075,7 +19076,8 @@
         "foot": "yes",
         "highway": "track",
         "name": "Bijlanderpad",
-        "surface": "cobblestone",
+        "smoothness": "intermediate",
+        "surface": "sett",
         "vehicle": "private",
         "id": "way/178633280"
       },
@@ -20590,10 +20592,11 @@
       "properties": {
         "cycleway": "lane",
         "cycleway:start_date": "2025-05",
-        "cycleway:surface:colour": "red",
+        "cycleway:surface:colour": "ochre",
         "grande_circulation": "yes",
         "highway": "secondary",
         "lane_markings": "no",
+        "lanes": "2",
         "maxspeed": "30",
         "name": "Place Charles de Gaulle",
         "old_name": "Grand'Place",
@@ -20606,6 +20609,22 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            2.7352218,
+            50.7395542
+          ],
+          [
+            2.7351551,
+            50.7395586
+          ],
+          [
+            2.7351008,
+            50.7395573
+          ],
+          [
+            2.7350123,
+            50.7395522
+          ],
           [
             2.7349431,
             50.7395424
@@ -20625,6 +20644,10 @@
           [
             2.7346297,
             50.7394505
+          ],
+          [
+            2.7344706,
+            50.7393926
           ]
         ]
       }
@@ -22037,8 +22060,12 @@
             50.739604
           ],
           [
-            2.7357674,
-            50.7394902
+            2.7358428,
+            50.7395159
+          ],
+          [
+            2.7357784,
+            50.7394942
           ],
           [
             2.7357418,
@@ -24699,63 +24726,18 @@
       "type": "Feature",
       "id": "way/369336235",
       "properties": {
-        "access": "yes",
-        "bicycle": "yes",
-        "cycleway": "no",
-        "foot": "yes",
-        "highway": "tertiary",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Rue Carnot",
-        "oneway": "yes",
-        "ref": "D 947",
-        "sidewalk": "left",
-        "surface": "asphalt",
-        "id": "way/369336235"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.5831101,
-            50.8092883
-          ],
-          [
-            2.5830612,
-            50.8093416
-          ],
-          [
-            2.5830235,
-            50.8093742
-          ],
-          [
-            2.5830102,
-            50.8093857
-          ],
-          [
-            2.5829803,
-            50.8094069
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/369336236",
-      "properties": {
-        "access": "yes",
-        "bicycle": "yes",
         "cycleway:left": "lane",
-        "foot": "yes",
+        "cycleway:right": "no",
         "highway": "tertiary",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Rue Carnot",
         "oneway": "yes",
+        "oneway:bicycle": "no",
         "ref": "D 947",
         "sidewalk": "both",
         "surface": "asphalt",
-        "id": "way/369336236"
+        "id": "way/369336235"
       },
       "geometry": {
         "type": "LineString",
@@ -24835,6 +24817,14 @@
           [
             2.5831101,
             50.8092883
+          ],
+          [
+            2.5830974,
+            50.8093812
+          ],
+          [
+            2.5830933,
+            50.8094108
           ]
         ]
       }
@@ -31966,12 +31956,8 @@
             50.7395199
           ],
           [
-            2.7353604,
-            50.739528
-          ],
-          [
-            2.7353288,
-            50.7395361
+            2.7352992,
+            50.7395404
           ],
           [
             2.7352218,
@@ -34235,39 +34221,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1120128571",
-      "properties": {
-        "cycleway": "lane",
-        "cycleway:start_date": "2025-05",
-        "cycleway:surface:colour": "red",
-        "grande_circulation": "yes",
-        "highway": "secondary",
-        "lanes": "2",
-        "maxspeed": "30",
-        "name": "Place Charles de Gaulle",
-        "old_name": "Grand'Place",
-        "old_ref": "N 42",
-        "ref": "D 933",
-        "ref:FR:FANTOIR": "590430256B",
-        "surface": "asphalt",
-        "id": "way/1120128571"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.7346297,
-            50.7394505
-          ],
-          [
-            2.7344706,
-            50.7393926
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1120129144",
       "properties": {
         "bicycle": "no",
@@ -35162,51 +35115,6 @@
           [
             2.813026,
             50.7793097
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1351573531",
-      "properties": {
-        "cycleway": "lane",
-        "cycleway:start_date": "2025-05",
-        "cycleway:surface:colour": "red",
-        "grande_circulation": "yes",
-        "highway": "secondary",
-        "lane_markings": "no",
-        "maxspeed": "30",
-        "name": "Place Charles de Gaulle",
-        "old_name": "Grand'Place",
-        "old_ref": "N 42",
-        "ref": "D 933",
-        "ref:FR:FANTOIR": "590430256B",
-        "surface": "asphalt",
-        "id": "way/1351573531"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.7352218,
-            50.7395542
-          ],
-          [
-            2.7351551,
-            50.7395586
-          ],
-          [
-            2.7351008,
-            50.7395573
-          ],
-          [
-            2.7350123,
-            50.7395522
-          ],
-          [
-            2.7349431,
-            50.7395424
           ]
         ]
       }

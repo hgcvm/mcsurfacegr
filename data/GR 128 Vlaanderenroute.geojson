@@ -32425,7 +32425,7 @@
         "oneway:bicycle": "no",
         "smoothness": "bad",
         "surface": "cobblestone",
-        "width": "2.5",
+        "width": "3",
         "id": "way/38785538"
       },
       "geometry": {
@@ -32452,6 +32452,10 @@
             50.8489762
           ],
           [
+            5.2211411,
+            50.8491504
+          ],
+          [
             5.2197499,
             50.8494599
           ],
@@ -32462,6 +32466,10 @@
           [
             5.2187265,
             50.8499517
+          ],
+          [
+            5.2177754,
+            50.8506455
           ],
           [
             5.2171367,
@@ -153293,10 +153301,11 @@
       "properties": {
         "cycleway": "lane",
         "cycleway:start_date": "2025-05",
-        "cycleway:surface:colour": "red",
+        "cycleway:surface:colour": "ochre",
         "grande_circulation": "yes",
         "highway": "secondary",
         "lane_markings": "no",
+        "lanes": "2",
         "maxspeed": "30",
         "name": "Place Charles de Gaulle",
         "old_name": "Grand'Place",
@@ -153309,6 +153318,22 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            2.7352218,
+            50.7395542
+          ],
+          [
+            2.7351551,
+            50.7395586
+          ],
+          [
+            2.7351008,
+            50.7395573
+          ],
+          [
+            2.7350123,
+            50.7395522
+          ],
           [
             2.7349431,
             50.7395424
@@ -153328,6 +153353,10 @@
           [
             2.7346297,
             50.7394505
+          ],
+          [
+            2.7344706,
+            50.7393926
           ]
         ]
       }
@@ -153364,8 +153393,12 @@
             50.739604
           ],
           [
-            2.7357674,
-            50.7394902
+            2.7358428,
+            50.7395159
+          ],
+          [
+            2.7357784,
+            50.7394942
           ],
           [
             2.7357418,
@@ -154413,12 +154446,8 @@
             50.7395199
           ],
           [
-            2.7353604,
-            50.739528
-          ],
-          [
-            2.7353288,
-            50.7395361
+            2.7352992,
+            50.7395404
           ],
           [
             2.7352218,
@@ -154709,51 +154738,6 @@
           [
             2.7961214,
             50.7545096
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1351573531",
-      "properties": {
-        "cycleway": "lane",
-        "cycleway:start_date": "2025-05",
-        "cycleway:surface:colour": "red",
-        "grande_circulation": "yes",
-        "highway": "secondary",
-        "lane_markings": "no",
-        "maxspeed": "30",
-        "name": "Place Charles de Gaulle",
-        "old_name": "Grand'Place",
-        "old_ref": "N 42",
-        "ref": "D 933",
-        "ref:FR:FANTOIR": "590430256B",
-        "surface": "asphalt",
-        "id": "way/1351573531"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.7352218,
-            50.7395542
-          ],
-          [
-            2.7351551,
-            50.7395586
-          ],
-          [
-            2.7351008,
-            50.7395573
-          ],
-          [
-            2.7350123,
-            50.7395522
-          ],
-          [
-            2.7349431,
-            50.7395424
           ]
         ]
       }
@@ -167939,12 +167923,13 @@
       "type": "Feature",
       "id": "way/28676422",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "footway",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
         "horse": "yes",
         "lit": "yes",
         "name": "Kapucijnenvest",
+        "segregated": "no",
         "surface": "compacted",
         "width": "4",
         "id": "way/28676422"
@@ -167961,10 +167946,6 @@
             50.81946
           ],
           [
-            5.1892809,
-            50.8194297
-          ],
-          [
             5.1894242,
             50.8194094
           ],
@@ -167977,28 +167958,8 @@
             50.8193226
           ],
           [
-            5.1899821,
-            50.8192738
-          ],
-          [
             5.1901451,
             50.8192196
-          ],
-          [
-            5.1902653,
-            50.8191708
-          ],
-          [
-            5.1903597,
-            50.8191328
-          ],
-          [
-            5.1904627,
-            50.8190894
-          ],
-          [
-            5.19054,
-            50.8190569
           ],
           [
             5.190643,
@@ -168007,14 +167968,6 @@
           [
             5.1907717,
             50.818943
-          ],
-          [
-            5.1908661,
-            50.8188834
-          ],
-          [
-            5.1909176,
-            50.8188454
           ],
           [
             5.1909434,
@@ -168037,6 +167990,10 @@
           [
             5.1887338,
             50.8195603
+          ],
+          [
+            5.1886985,
+            50.8195816
           ],
           [
             5.1886603,
@@ -172198,12 +172155,13 @@
       "type": "Feature",
       "id": "way/1307262474",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "footway",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
         "horse": "yes",
         "lit": "yes",
         "name": "Kapucijnenvest",
+        "segregated": "no",
         "surface": "paving_stones",
         "width": "4",
         "id": "way/1307262474"
