@@ -4817,6 +4817,7 @@
         "cycleway:both": "lane",
         "highway": "residential",
         "horse": "yes",
+        "lanes": "2",
         "layer": "1",
         "mofa": "yes",
         "name": "Kapellestraat",
@@ -6450,8 +6451,10 @@
       "id": "way/73028939",
       "properties": {
         "bicycle": "designated",
+        "check_date:surface": "2025-10-14",
         "cycleway:surface": "paving_stones",
         "foot": "designated",
+        "footway:surface": "paving_stones",
         "highway": "path",
         "lit": "yes",
         "segregated": "yes",
@@ -15450,10 +15453,6 @@
           [
             3.0786883,
             51.3016256
-          ],
-          [
-            3.0787192,
-            51.3015943
           ]
         ]
       }
@@ -23293,6 +23292,7 @@
         "cycleway:both": "lane",
         "highway": "residential",
         "horse": "yes",
+        "lanes": "2",
         "mofa": "yes",
         "name": "Kapellestraat",
         "surface": "asphalt",
@@ -30392,6 +30392,33 @@
           [
             2.8716959,
             51.211325
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/572931122",
+      "properties": {
+        "highway": "footway",
+        "smoothness": "good",
+        "surface": "compacted",
+        "id": "way/572931122"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3493868,
+            51.3583209
+          ],
+          [
+            3.3494188,
+            51.3583252
+          ],
+          [
+            3.3496719,
+            51.3583625
           ]
         ]
       }
@@ -42773,7 +42800,9 @@
       "id": "way/1187548250",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Ernest Feysplein",
+        "surface": "paving_stones",
         "id": "way/1187548250"
       },
       "geometry": {
@@ -45581,6 +45610,29 @@
           [
             2.599122,
             51.0774811
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1442205920",
+      "properties": {
+        "highway": "pedestrian",
+        "name": "Zeedijk-Wenduine",
+        "surface": "paving_stones",
+        "id": "way/1442205920"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0786883,
+            51.3016256
+          ],
+          [
+            3.0787192,
+            51.3015943
           ]
         ]
       }
