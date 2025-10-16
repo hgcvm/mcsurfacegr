@@ -30593,8 +30593,9 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Molenstraat",
-        "smoothness": "intermediate",
+        "smoothness": "good",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
         "id": "way/307636179"
       },
       "geometry": {
@@ -31080,8 +31081,9 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Molenstraat",
-        "smoothness": "intermediate",
+        "smoothness": "good",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
         "id": "way/313144045"
       },
       "geometry": {
@@ -56339,7 +56341,7 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "source:maxspeed": "BE-VLG:urban",
-        "surface": "paving_stones",
+        "surface": "asphalt",
         "id": "way/100967393"
       },
       "geometry": {
@@ -56354,8 +56356,8 @@
             51.1154105
           ],
           [
-            5.6366584,
-            51.115486
+            5.6368059,
+            51.1154801
           ]
         ]
       }
@@ -56546,8 +56548,8 @@
       "type": "Feature",
       "id": "way/172518431",
       "properties": {
-        "highway": "path",
-        "surface": "paved",
+        "highway": "service",
+        "surface": "paving_stones",
         "id": "way/172518431"
       },
       "geometry": {
@@ -56555,11 +56557,11 @@
         "coordinates": [
           [
             5.6354884,
-            51.1155925
+            51.1155891
           ],
           [
-            5.6350938,
-            51.1154482
+            5.635132,
+            51.1154629
           ]
         ]
       }
@@ -56569,6 +56571,7 @@
       "id": "way/172518435",
       "properties": {
         "highway": "path",
+        "smoothness": "bad",
         "surface": "dirt",
         "id": "way/172518435"
       },
@@ -56779,6 +56782,7 @@
       "id": "way/307636190",
       "properties": {
         "highway": "path",
+        "smoothness": "bad",
         "surface": "ground",
         "id": "way/307636190"
       },
@@ -56892,12 +56896,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6349582,
-            51.1153898
+            5.6349455,
+            51.1153953
           ],
           [
-            5.6348725,
-            51.1154105
+            5.6347974,
+            51.1153671
+          ],
+          [
+            5.6347089,
+            51.1153654
+          ],
+          [
+            5.6346865,
+            51.1153871
+          ],
+          [
+            5.6342642,
+            51.1153208
           ]
         ]
       }
@@ -56943,8 +56959,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6366584,
-            51.115486
+            5.6366611,
+            51.1154902
           ],
           [
             5.6356733,
@@ -56952,7 +56968,7 @@
           ],
           [
             5.6354884,
-            51.1155925
+            51.1155891
           ]
         ]
       }
@@ -56962,7 +56978,7 @@
       "id": "way/313132362",
       "properties": {
         "highway": "track",
-        "smoothness": "intermediate",
+        "smoothness": "bad",
         "surface": "ground",
         "tracktype": "grade3",
         "id": "way/313132362"
@@ -56993,36 +57009,6 @@
           [
             5.6221258,
             51.1146572
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/313132367",
-      "properties": {
-        "highway": "path",
-        "surface": "ground",
-        "id": "way/313132367"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.6342642,
-            51.1153208
-          ],
-          [
-            5.6346685,
-            51.1154323
-          ],
-          [
-            5.6347556,
-            51.1154448
-          ],
-          [
-            5.6348725,
-            51.1154105
           ]
         ]
       }
@@ -57620,19 +57606,23 @@
       "id": "way/1113621699",
       "properties": {
         "highway": "path",
-        "surface": "compacted",
+        "surface": "grass_paver",
         "id": "way/1113621699"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.6350938,
-            51.1154482
+            5.635132,
+            51.1154629
           ],
           [
-            5.6349582,
-            51.1153898
+            5.6350053,
+            51.1154113
+          ],
+          [
+            5.6349455,
+            51.1153953
           ]
         ]
       }
@@ -57715,6 +57705,30 @@
           [
             5.6217081,
             51.1147019
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1442466920",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "paving_stones",
+        "id": "way/1442466920"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6368059,
+            51.1154801
+          ],
+          [
+            5.6366611,
+            51.1154902
           ]
         ]
       }
