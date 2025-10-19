@@ -4931,6 +4931,7 @@
         "bicycle": "yes",
         "highway": "service",
         "horse": "no",
+        "lit": "no",
         "name": "Halvemaandijk",
         "smoothness": "intermediate",
         "surface": "concrete",
@@ -24694,6 +24695,7 @@
       "id": "way/72893687",
       "properties": {
         "highway": "path",
+        "lit": "no",
         "note": "do not delete!",
         "route": "foot",
         "surface": "sand",
@@ -24859,6 +24861,7 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "path",
+        "lit": "no",
         "name": "Spinoladijk",
         "segregated": "no",
         "smoothness": "intermediate",
@@ -29024,8 +29027,10 @@
       "id": "way/111324267",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "highway": "unclassified",
         "horse": "no",
+        "lane_markings": "no",
         "name": "Staketselstraat",
         "smoothness": "good",
         "surface": "asphalt",
@@ -29103,7 +29108,9 @@
       "type": "Feature",
       "id": "way/111324424",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Havengeulkaai",
         "smoothness": "good",
         "surface": "concrete",
@@ -46022,6 +46029,7 @@
       "id": "way/237229334",
       "properties": {
         "highway": "path",
+        "lit": "no",
         "smoothness": "intermediate",
         "surface": "paving_stones",
         "id": "way/237229334"
@@ -46083,6 +46091,7 @@
         "highway": "unclassified",
         "horse": "no",
         "lane_markings": "no",
+        "lit": "no",
         "name": "Halvemaandijk",
         "smoothness": "very_bad",
         "surface": "sett",
@@ -67348,6 +67357,7 @@
         "highway": "unclassified",
         "horse": "no",
         "lane_markings": "no",
+        "lit": "no",
         "name": "Halvemaandijk",
         "smoothness": "bad",
         "surface": "sett",
@@ -173113,15 +173123,15 @@
         "lit": "yes",
         "name": "Cornelissenlaan",
         "segregated": "no",
-        "surface": "asphalt",
+        "surface": "paving_stones",
         "id": "way/4520984"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4624924,
-            51.2154655
+            4.4625312,
+            51.2154554
           ],
           [
             4.4626343,
@@ -173132,8 +173142,8 @@
             51.2155566
           ],
           [
-            4.4628683,
-            51.2155865
+            4.4628633,
+            51.2155833
           ]
         ]
       }
@@ -177691,12 +177701,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4604233,
-            51.2145781
+            4.4604362,
+            51.2145712
           ],
           [
-            4.4601308,
-            51.2144461
+            4.4601389,
+            51.2144435
           ]
         ]
       }
@@ -177722,16 +177732,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4601308,
-            51.2144461
+            4.4601389,
+            51.2144435
           ],
           [
-            4.4600385,
-            51.2144088
+            4.4600442,
+            51.2144047
           ],
           [
-            4.4598976,
-            51.2143488
+            4.4598947,
+            51.2143451
           ]
         ]
       }
@@ -177815,28 +177825,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4624924,
-            51.2154655
+            4.4625312,
+            51.2154554
           ],
           [
-            4.4623356,
-            51.2153984
+            4.4623269,
+            51.215404
           ],
           [
-            4.4616538,
-            51.2151068
+            4.461652,
+            51.2151097
           ],
           [
-            4.460581,
-            51.2146447
+            4.4605816,
+            51.2146397
           ],
           [
-            4.4605332,
-            51.2146241
-          ],
-          [
-            4.4604233,
-            51.2145781
+            4.4604362,
+            51.2145712
           ]
         ]
       }
@@ -180729,8 +180735,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.459614,
-            51.2142402
+            4.4596051,
+            51.2142493
           ],
           [
             4.4591084,
@@ -180867,12 +180873,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4598976,
-            51.2143488
+            4.4598947,
+            51.2143451
           ],
           [
-            4.459614,
-            51.2142402
+            4.4596051,
+            51.2142493
           ]
         ]
       }
@@ -182873,8 +182879,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4628683,
-            51.2155865
+            4.4628633,
+            51.2155833
           ],
           [
             4.4629212,
