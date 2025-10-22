@@ -8006,12 +8006,20 @@
       "type": "Feature",
       "id": "way/34844647",
       "properties": {
+        "access": "destination",
+        "bicycle": "yes",
         "cutting": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "track",
         "horse": "yes",
+        "maxspeed": "30",
+        "maxweight": "5",
         "motor_vehicle": "no",
+        "speed_pedelec": "yes",
         "surface": "fine_gravel",
         "tracktype": "grade2",
+        "traffic_sign": "BE:C21",
         "id": "way/34844647"
       },
       "geometry": {
@@ -8020,6 +8028,10 @@
           [
             5.0606301,
             50.9896446
+          ],
+          [
+            5.0604092,
+            50.9894788
           ],
           [
             5.0603295,
@@ -14892,7 +14904,8 @@
         "highway": "living_street",
         "maxspeed": "20",
         "name": "Heilige Geeststraat",
-        "surface": "unhewn_cobblestone",
+        "smoothness": "bad",
+        "surface": "cobblestone",
         "id": "way/47773400"
       },
       "geometry": {
@@ -14918,7 +14931,8 @@
         "lit": "yes",
         "maxspeed": "20",
         "name": "Infirmeriestraat",
-        "surface": "unhewn_cobblestone",
+        "smoothness": "bad",
+        "surface": "cobblestone",
         "id": "way/47773401"
       },
       "geometry": {
@@ -14984,7 +14998,8 @@
         "lit": "yes",
         "maxspeed": "20",
         "name": "Kerkstraat Begijnhof",
-        "surface": "unhewn_cobblestone",
+        "smoothness": "bad",
+        "surface": "cobblestone",
         "id": "way/47773402"
       },
       "geometry": {
@@ -29113,10 +29128,9 @@
       "id": "way/242053912",
       "properties": {
         "bridge": "yes",
-        "check_date": "2024-11-11",
-        "check_date:surface": "2024-11-11",
         "highway": "path",
         "layer": "1",
+        "smoothness": "intermediate",
         "surface": "concrete",
         "id": "way/242053912"
       },
@@ -29138,8 +29152,8 @@
       "type": "Feature",
       "id": "way/242053914",
       "properties": {
-        "check_date": "2023-10-30",
         "highway": "path",
+        "smoothness": "intermediate",
         "surface": "compacted",
         "id": "way/242053914"
       },
@@ -30465,25 +30479,18 @@
       "type": "Feature",
       "id": "way/282701850",
       "properties": {
-        "highway": "footway",
-        "surface": "dirt",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "lit": "yes",
+        "segregated": "no",
+        "surface": "ground",
+        "traffic_sign": "BE:D10",
         "id": "way/282701850"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.0602287,
-            50.9890349
-          ],
-          [
-            5.0602704,
-            50.9890255
-          ],
-          [
-            5.0603216,
-            50.9890041
-          ],
           [
             5.0603658,
             50.9889782
@@ -45081,16 +45088,20 @@
       "type": "Feature",
       "id": "way/1016966774",
       "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
+        "access": "destination",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "cycleway",
-        "horse": "designated",
+        "horse": "yes",
+        "maxspeed": "30",
         "maxweight": "5",
         "moped": "designated",
         "name": "Saspoortbrug",
-        "opening_date": "2025-06-13",
         "segregated": "no",
+        "speed_pedelec": "yes",
         "surface": "concrete",
+        "traffic_sign": "BE:C21",
         "website": "https://www.vmm.be/water/beheer-waterlopen/projecten/renovatie-grote-steunbeer-in-diest-1",
         "id": "way/1016966774"
       },
@@ -45114,12 +45125,12 @@
             50.9900424
           ],
           [
-            5.0610143,
-            50.9900531
+            5.061019,
+            50.9900548
           ],
           [
-            5.0610873,
-            50.9900656
+            5.0610863,
+            50.9900654
           ]
         ]
       }
@@ -45858,10 +45869,13 @@
       "type": "Feature",
       "id": "way/1096357687",
       "properties": {
-        "check_date": "2024-11-11",
-        "check_date:surface": "2024-11-11",
+        "bicycle": "designated",
+        "foot": "designated",
         "highway": "path",
+        "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "compacted",
+        "traffic_sign": "BE:D10",
         "id": "way/1096357687"
       },
       "geometry": {
@@ -46943,7 +46957,7 @@
         "name": "Saspoortbrug",
         "opening_date": "2025-06-13",
         "segregated": "no",
-        "surface": "concrete",
+        "surface": "concrete:plates",
         "website": "https://www.vmm.be/water/beheer-waterlopen/projecten/renovatie-grote-steunbeer-in-diest-1",
         "id": "way/1148258084"
       },
@@ -46973,18 +46987,24 @@
       "type": "Feature",
       "id": "way/1148258085",
       "properties": {
-        "bicycle": "designated",
+        "access": "destination",
+        "bicycle": "yes",
         "bridge": "yes",
-        "foot": "designated",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "cycleway",
-        "horse": "designated",
+        "horse": "yes",
         "layer": "1",
+        "maxspeed": "30",
         "maxweight": "5",
         "moped": "designated",
         "name": "Saspoortbrug",
         "opening_date": "2025-06-13",
         "segregated": "no",
-        "surface": "concrete",
+        "smoothness": "good",
+        "speed_pedelec": "yes",
+        "surface": "concrete:plates",
+        "traffic_sign": "BE:C21",
         "website": "https://www.vmm.be/water/beheer-waterlopen/projecten/renovatie-grote-steunbeer-in-diest-1",
         "id": "way/1148258085"
       },
@@ -47042,16 +47062,21 @@
       "type": "Feature",
       "id": "way/1148258086",
       "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
+        "access": "destination",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "cycleway",
-        "horse": "designated",
+        "horse": "yes",
+        "maxspeed": "30",
         "maxweight": "5",
         "moped": "designated",
         "name": "Saspoortbrug",
         "opening_date": "2025-06-13",
         "segregated": "no",
-        "surface": "concrete",
+        "speed_pedelec": "yes",
+        "surface": "compacted",
+        "traffic_sign": "BE:C21",
         "website": "https://www.vmm.be/water/beheer-waterlopen/projecten/renovatie-grote-steunbeer-in-diest-1",
         "id": "way/1148258086"
       },
@@ -48924,16 +48949,22 @@
       "type": "Feature",
       "id": "way/1395073923",
       "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
+        "access": "destination",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "cycleway",
-        "horse": "designated",
+        "horse": "yes",
+        "maxspeed": "30",
         "maxweight": "5",
         "moped": "designated",
         "name": "Saspoortbrug",
         "opening_date": "2025-06-13",
         "segregated": "no",
+        "smoothness": "good",
+        "speed_pedelec": "yes",
         "surface": "concrete",
+        "traffic_sign": "BE:F99a",
         "website": "https://www.vmm.be/water/beheer-waterlopen/projecten/renovatie-grote-steunbeer-in-diest-1",
         "id": "way/1395073923"
       },
@@ -48941,12 +48972,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0610873,
-            50.9900656
+            5.0610863,
+            50.9900654
           ],
           [
             5.0611471,
-            50.9900683
+            50.9900686
           ],
           [
             5.0611865,
@@ -49020,8 +49051,12 @@
       "type": "Feature",
       "id": "way/1414234597",
       "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
         "highway": "path",
+        "segregated": "no",
         "surface": "compacted",
+        "traffic_sign": "BE:D10",
         "id": "way/1414234597"
       },
       "geometry": {
@@ -49279,6 +49314,42 @@
           [
             4.7678353,
             50.8894363
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1443685037",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "lit": "yes",
+        "segregated": "no",
+        "smoothness": "intermediate",
+        "surface": "compacted",
+        "traffic_sign": "BE:D10",
+        "id": "way/1443685037"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0602287,
+            50.9890349
+          ],
+          [
+            5.0602704,
+            50.9890255
+          ],
+          [
+            5.0603216,
+            50.9890041
+          ],
+          [
+            5.0603658,
+            50.9889782
           ]
         ]
       }
