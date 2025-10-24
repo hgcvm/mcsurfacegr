@@ -2405,9 +2405,12 @@
       "id": "way/32081400",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Pomphuisstraat",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "width": "5",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/32081400"
       },
       "geometry": {
@@ -3575,6 +3578,7 @@
         "bicycle": "yes",
         "highway": "unclassified",
         "name": "Kerkomweg",
+        "smoothness": "intermediate",
         "surface": "concrete",
         "width": "3",
         "id": "way/38668216"
@@ -7729,6 +7733,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Gingelomweg",
+        "smoothness": "intermediate",
         "surface": "concrete",
         "width": "3",
         "id": "way/126771831"
@@ -8629,6 +8634,7 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Op den Houthem",
+        "smoothness": "intermediate",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "vehicle": "agricultural",
@@ -19862,6 +19868,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Oudekerkstraat",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/235750931"
       },
@@ -29171,8 +29178,9 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Sint-Martinusstraat",
+        "smoothness": "intermediate",
         "source:maxspeed": "BE-VLG:urban",
-        "surface": "cobblestone",
+        "surface": "sett",
         "width": "5",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/350982958"
