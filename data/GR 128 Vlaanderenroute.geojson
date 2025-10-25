@@ -8021,6 +8021,10 @@
             50.8008214
           ],
           [
+            4.8260438,
+            50.800908
+          ],
+          [
             4.8260693,
             50.8009382
           ],
@@ -23550,7 +23554,7 @@
       "id": "way/34004357",
       "properties": {
         "cycleway": "lane",
-        "highway": "tertiary",
+        "highway": "secondary",
         "maxspeed": "70",
         "name": "Verbindingsweg",
         "surface": "asphalt",
@@ -28506,6 +28510,7 @@
       "id": "way/37956907",
       "properties": {
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Steendreef",
@@ -49244,6 +49249,10 @@
             50.8997977
           ],
           [
+            3.0878481,
+            50.8998747
+          ],
+          [
             3.0873993,
             50.9002227
           ]
@@ -49268,6 +49277,10 @@
           [
             3.0873993,
             50.9002227
+          ],
+          [
+            3.0874732,
+            50.9002676
           ],
           [
             3.0888298,
@@ -49312,6 +49325,10 @@
             50.9026261
           ],
           [
+            3.0907775,
+            50.9026856
+          ],
+          [
             3.0908285,
             50.9027389
           ],
@@ -49334,6 +49351,7 @@
       "type": "Feature",
       "id": "way/46271809",
       "properties": {
+        "foot": "yes",
         "highway": "track",
         "surface": "gravel",
         "id": "way/46271809"
@@ -49352,6 +49370,10 @@
           [
             3.0924907,
             50.9033034
+          ],
+          [
+            3.0926854,
+            50.9033995
           ],
           [
             3.0935733,
@@ -102093,7 +102115,7 @@
       "id": "way/439212934",
       "properties": {
         "cycleway": "track",
-        "highway": "tertiary",
+        "highway": "secondary",
         "maxspeed": "50",
         "name": "Verbindingsweg",
         "surface": "asphalt",
@@ -104357,8 +104379,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.3136526,
-            50.9781494
+            3.3136413,
+            50.9781399
           ],
           [
             3.314293,
@@ -129429,16 +129451,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.312369,
-            50.9787396
+            3.3123832,
+            50.9787281
           ],
           [
             3.3124299,
             50.9787116
           ],
           [
-            3.3136526,
-            50.9781494
+            3.3136413,
+            50.9781399
           ]
         ]
       }
@@ -131928,8 +131950,8 @@
             50.9788101
           ],
           [
-            3.312369,
-            50.9787396
+            3.3123832,
+            50.9787281
           ]
         ]
       }
@@ -168326,9 +168348,12 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Tichelrijstraat",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/29042834"
       },
       "geometry": {
@@ -168408,10 +168433,12 @@
         "cycleway": "lane",
         "highway": "tertiary",
         "lanes": "1",
+        "maxspeed": "50",
         "name": "Tongersesteenweg",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/29043159"
       },
       "geometry": {
@@ -168462,8 +168489,8 @@
             50.8122892
           ],
           [
-            5.1927627,
-            50.8124357
+            5.1930236,
+            50.8123608
           ]
         ]
       }
@@ -169070,12 +169097,16 @@
       "type": "Feature",
       "id": "way/68430611",
       "properties": {
-        "bicycle": "designated",
+        "bicycle": "yes",
         "foot": "designated",
         "highway": "path",
+        "horse": "no",
         "lit": "yes",
+        "motor_vehicle": "no",
         "segregated": "no",
-        "surface": "gravel",
+        "smoothness": "intermediate",
+        "surface": "compacted",
+        "traffic_sign": "BE:C3,BE:M2",
         "id": "way/68430611"
       },
       "geometry": {
@@ -169102,8 +169133,8 @@
             50.8151639
           ],
           [
-            5.1925187,
-            50.8168718
+            5.1924172,
+            50.8167459
           ]
         ]
       }
@@ -169510,10 +169541,12 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Clement Cartuyvelsstraat",
         "oneway": "yes",
         "sidewalk": "both",
         "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/187794179"
       },
       "geometry": {
@@ -170221,8 +170254,11 @@
         "cycleway": "lane",
         "highway": "tertiary",
         "lanes": "2",
+        "maxspeed": "50",
         "name": "Tongersesteenweg",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/244650205"
       },
       "geometry": {
@@ -170296,8 +170332,10 @@
         "cycleway": "lane",
         "highway": "tertiary",
         "lanes": "2",
+        "maxspeed": "50",
         "name": "Tongersesteenweg",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/244759073"
       },
       "geometry": {
@@ -170321,8 +170359,10 @@
         "cycleway": "lane",
         "highway": "tertiary",
         "lanes": "2",
+        "maxspeed": "50",
         "name": "Tongersesteenweg",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/245059615"
       },
       "geometry": {
@@ -171847,8 +171887,10 @@
         "cycleway": "lane",
         "highway": "tertiary",
         "lanes": "2",
+        "maxspeed": "50",
         "name": "Tongersesteenweg",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/682935417"
       },
       "geometry": {
@@ -172844,6 +172886,64 @@
           [
             5.2181843,
             50.8004572
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1444505754",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "lit": "yes",
+        "segregated": "no",
+        "smoothness": "intermediate",
+        "surface": "paving_stones",
+        "id": "way/1444505754"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1924172,
+            50.8167459
+          ],
+          [
+            5.1925187,
+            50.8168718
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1444505761",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lanes:forward": "1",
+        "maxspeed": "50",
+        "name": "Tongersesteenweg",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left|through;right",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1444505761"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1930236,
+            50.8123608
+          ],
+          [
+            5.1927627,
+            50.8124357
           ]
         ]
       }
