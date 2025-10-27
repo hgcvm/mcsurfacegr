@@ -9688,6 +9688,39 @@
     },
     {
       "type": "Feature",
+      "id": "way/415039841",
+      "properties": {
+        "highway": "path",
+        "id": "way/415039841"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4158255,
+            51.3915727
+          ],
+          [
+            4.4156685,
+            51.3917321
+          ],
+          [
+            4.4156204,
+            51.3917631
+          ],
+          [
+            4.415469,
+            51.3918606
+          ],
+          [
+            4.4154534,
+            51.3920065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/418967038",
       "properties": {
         "highway": "cycleway",
@@ -10246,59 +10279,6 @@
           [
             4.6059955,
             51.2912937
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/529981312",
-      "properties": {
-        "highway": "path",
-        "id": "way/529981312"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4151756,
-            51.3913543
-          ],
-          [
-            4.4151283,
-            51.3913764
-          ],
-          [
-            4.4150681,
-            51.3914294
-          ],
-          [
-            4.4150539,
-            51.3914846
-          ],
-          [
-            4.4150964,
-            51.3915663
-          ],
-          [
-            4.4151813,
-            51.3916525
-          ],
-          [
-            4.4152026,
-            51.3917342
-          ],
-          [
-            4.4153016,
-            51.3918722
-          ],
-          [
-            4.4153795,
-            51.3919307
-          ],
-          [
-            4.4154534,
-            51.3920065
           ]
         ]
       }
@@ -11107,35 +11087,6 @@
           [
             4.4276529,
             51.3870576
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/828071877",
-      "properties": {
-        "bicycle": "no",
-        "highway": "track",
-        "horse": "no",
-        "motor_vehicle": "no",
-        "surface": "unpaved",
-        "id": "way/828071877"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4151756,
-            51.3913543
-          ],
-          [
-            4.4154368,
-            51.3914271
-          ],
-          [
-            4.4158255,
-            51.3915727
           ]
         ]
       }
@@ -26960,6 +26911,8 @@
       "type": "Feature",
       "id": "way/85325243",
       "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
         "cycleway:left": "lane",
         "cycleway:right": "no",
         "highway": "residential",
@@ -26967,7 +26920,9 @@
         "name": "Kerkstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "overtaking:motor_vehicle": "no",
         "surface": "asphalt",
+        "traffic_sign": "BE:F111",
         "id": "way/85325243"
       },
       "geometry": {
@@ -32991,6 +32946,7 @@
       "properties": {
         "highway": "track",
         "name": "Kievitstraat",
+        "smoothness": "intermediate",
         "surface": "gravel",
         "tracktype": "grade2",
         "id": "way/190427182"
@@ -34546,8 +34502,11 @@
         "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Vijverstraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/197860973"
       },
       "geometry": {
@@ -75756,8 +75715,13 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "5",
         "name": "Veldstraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "traffic_sign": "BE:C21",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/220884120"
       },
       "geometry": {
@@ -77261,8 +77225,11 @@
       "id": "way/586278705",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Veldstraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/586278705"
       },
       "geometry": {
@@ -77765,11 +77732,21 @@
       "type": "Feature",
       "id": "way/863181960",
       "properties": {
+        "bicycle": "yes",
+        "bus": "yes",
+        "emergency": "yes",
         "highway": "residential",
+        "horse": "yes",
         "maxspeed": "50",
+        "mofa": "yes",
         "name": "Spoorwegstraat",
         "oneway": "no",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "smoothness": "good",
         "surface": "asphalt",
+        "traffic_sign": "BE:C3,BE:Type_IV_local_traffic_nl,BE:M3_nl",
+        "vehicle": "destination",
         "id": "way/863181960"
       },
       "geometry": {
