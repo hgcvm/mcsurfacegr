@@ -458,10 +458,19 @@
       "type": "Feature",
       "id": "way/4002802",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
-        "lanes": "1",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
         "name": "Blankaart",
-        "source": "survey",
+        "sidewalk:both": "yes",
+        "sidewalk:both:smoothness": "good",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "concrete:plates",
         "id": "way/4002802"
       },
       "geometry": {
@@ -473,7 +482,7 @@
           ],
           [
             4.5849553,
-            50.8451352
+            50.8451497
           ]
         ]
       }
@@ -1898,7 +1907,7 @@
           ],
           [
             4.5849553,
-            50.8451352
+            50.8451497
           ]
         ]
       }
