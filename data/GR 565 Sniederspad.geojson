@@ -5880,12 +5880,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7859223,
-            51.2630097
+            4.7859328,
+            51.2629933
           ],
           [
-            4.785748,
-            51.262774
+            4.7857731,
+            51.2628184
+          ],
+          [
+            4.7857452,
+            51.262771
           ]
         ]
       }
@@ -5963,8 +5967,8 @@
             51.2630867
           ],
           [
-            4.7859223,
-            51.2630097
+            4.7859328,
+            51.2629933
           ]
         ]
       }
@@ -16264,12 +16268,20 @@
             51.262518
           ],
           [
+            4.7861107,
+            51.2626792
+          ],
+          [
+            4.7858284,
+            51.2627444
+          ],
+          [
             4.7858007,
             51.2627544
           ],
           [
-            4.785748,
-            51.262774
+            4.7857452,
+            51.262771
           ]
         ]
       }
@@ -16749,8 +16761,8 @@
             51.261049
           ],
           [
-            4.7864169,
-            51.2607536
+            4.7864468,
+            51.2608249
           ]
         ]
       }
@@ -23139,9 +23151,15 @@
       "type": "Feature",
       "id": "way/378051155",
       "properties": {
-        "highway": "residential",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "service",
         "lane_markings": "no",
+        "lanes": "1",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Pulsebaan",
+        "service": "alley",
         "surface": "paving_stones",
         "id": "way/378051155"
       },
@@ -23149,16 +23167,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7864169,
-            51.2607536
+            4.7864468,
+            51.2608249
+          ],
+          [
+            4.7863863,
+            51.2607656
+          ],
+          [
+            4.7863248,
+            51.2607628
           ],
           [
             4.7851313,
             51.2610157
           ],
           [
-            4.7850884,
-            51.2610241
+            4.7850858,
+            51.2610253
           ]
         ]
       }
@@ -26513,9 +26539,11 @@
       "type": "Feature",
       "id": "way/641968452",
       "properties": {
-        "highway": "residential",
+        "highway": "living_street",
         "lane_markings": "no",
+        "lanes": "1",
         "lit": "yes",
+        "maxspeed": "20",
         "name": "Pastorijstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -26537,6 +26565,10 @@
           [
             4.7877196,
             51.26445
+          ],
+          [
+            4.7881985,
+            51.2647393
           ]
         ]
       }
@@ -28183,7 +28215,9 @@
       "id": "way/778207780",
       "properties": {
         "highway": "residential",
+        "lanes": "2",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Pulsebaan",
         "surface": "asphalt",
         "id": "way/778207780"
@@ -28192,8 +28226,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7850884,
-            51.2610241
+            4.7850188,
+            51.2609009
           ],
           [
             4.7849646,
@@ -28810,33 +28844,6 @@
           [
             4.9276848,
             51.3018421
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/801648237",
-      "properties": {
-        "highway": "residential",
-        "lane_markings": "no",
-        "name": "Pastorijstraat",
-        "oneway": "yes",
-        "oneway:bicycle": "no",
-        "oneway:mofa": "no",
-        "surface": "paving_stones",
-        "id": "way/801648237"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.7877196,
-            51.26445
-          ],
-          [
-            4.7881985,
-            51.2647393
           ]
         ]
       }
@@ -30432,6 +30439,7 @@
         "highway": "cycleway",
         "layer": "1",
         "lit": "yes",
+        "name": "Hoogmolenbrug - fietspad",
         "note": "dit is het nieuwe (2022) pad over de nieuwe Hoogmolenbrug , wel kan gebeuren dat exact verloop adhv AIV lucht dient te worden verfiind. Op 14-06 nog geen verlichting geplaatst.",
         "oneway": "no",
         "smoothness": "excellent",
@@ -32704,6 +32712,32 @@
           [
             4.7077147,
             51.2649953
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1446385527",
+      "properties": {
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Pulsebaan",
+        "surface": "asphalt",
+        "id": "way/1446385527"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7850858,
+            51.2610253
+          ],
+          [
+            4.7850188,
+            51.2609009
           ]
         ]
       }
