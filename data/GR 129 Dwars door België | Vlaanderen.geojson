@@ -2772,7 +2772,6 @@
       "type": "Feature",
       "id": "way/39174759",
       "properties": {
-        "direction": "backward",
         "highway": "tertiary",
         "name": "Gieterijstraat",
         "surface": "paving_stones",
@@ -7362,7 +7361,7 @@
         "bicycle": "designated",
         "foot": "yes",
         "highway": "path",
-        "surface": "concrete",
+        "surface": "concrete:plates",
         "width": "0.5",
         "id": "way/59826853"
       },
@@ -7999,7 +7998,7 @@
         "lane_markings": "no",
         "maxspeed": "50",
         "name": "Ladeuze",
-        "surface": "sett",
+        "surface": "asphalt",
         "id": "way/76237410"
       },
       "geometry": {
@@ -8010,52 +8009,16 @@
             50.8183109
           ],
           [
-            3.6242075,
-            50.8182415
+            3.6241693,
+            50.8182614
           ],
           [
-            3.6244751,
-            50.8181606
+            3.6245711,
+            50.8181247
           ],
           [
-            3.6248965,
-            50.818017
-          ],
-          [
-            3.6253986,
-            50.8178518
-          ],
-          [
-            3.6255131,
-            50.8177755
-          ],
-          [
-            3.6256229,
-            50.8176931
-          ],
-          [
-            3.6256982,
-            50.8176607
-          ],
-          [
-            3.6257686,
-            50.8176471
-          ],
-          [
-            3.6258625,
-            50.8176391
-          ],
-          [
-            3.6261039,
-            50.8176189
-          ],
-          [
-            3.6262611,
-            50.8176064
-          ],
-          [
-            3.6264038,
-            50.8175946
+            3.6246238,
+            50.8181087
           ]
         ]
       }
@@ -8610,7 +8573,9 @@
         "lane_markings": "no",
         "maxspeed": "50",
         "name": "Ladeuze",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "traffic_sign": "BE:C43-50",
         "id": "way/86504424"
       },
       "geometry": {
@@ -13903,7 +13868,9 @@
         "maxspeed": "50",
         "name": "Maarkendries",
         "ref": "N457",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "traffic_sign": "BE:C43-50",
         "id": "way/138231061"
       },
       "geometry": {
@@ -19840,6 +19807,7 @@
         "layer": "1",
         "maxspeed": "50",
         "name": "Ladeuze",
+        "surface": "concrete:plates",
         "id": "way/186379793"
       },
       "geometry": {
@@ -19863,6 +19831,9 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Ladeuze",
+        "source:maxspeed": "sign",
+        "surface": "asphalt",
+        "traffic_sign": "BE:C43-50",
         "id": "way/186379794"
       },
       "geometry": {
@@ -33687,7 +33658,6 @@
       "type": "Feature",
       "id": "way/1447012701",
       "properties": {
-        "direction": "backward",
         "highway": "tertiary",
         "name": "Gieterijstraat",
         "surface": "sett",
@@ -33789,6 +33759,67 @@
           [
             3.6258001,
             50.8137943
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1447566735",
+      "properties": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "50",
+        "name": "Ladeuze",
+        "surface": "asphalt",
+        "id": "way/1447566735"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6246238,
+            50.8181087
+          ],
+          [
+            3.6248965,
+            50.818017
+          ],
+          [
+            3.6253986,
+            50.8178518
+          ],
+          [
+            3.6255131,
+            50.8177755
+          ],
+          [
+            3.6256229,
+            50.8176931
+          ],
+          [
+            3.6256982,
+            50.8176607
+          ],
+          [
+            3.6257686,
+            50.8176471
+          ],
+          [
+            3.6258625,
+            50.8176391
+          ],
+          [
+            3.6261039,
+            50.8176189
+          ],
+          [
+            3.6262611,
+            50.8176064
+          ],
+          [
+            3.6264038,
+            50.8175946
           ]
         ]
       }

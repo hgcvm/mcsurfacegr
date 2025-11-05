@@ -558,8 +558,11 @@
       "properties": {
         "cycleway": "track",
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Louis Mercierlaan",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/23031071"
       },
       "geometry": {
@@ -582,8 +585,11 @@
       "properties": {
         "cycleway": "track",
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Kastanjelaan",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/23031079"
       },
       "geometry": {
@@ -1724,6 +1730,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Spoorwegstraat",
+        "smoothness": "intermediate",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -10412,6 +10419,7 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Spoorwegstraat",
+        "smoothness": "intermediate",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -23140,29 +23148,6 @@
           [
             5.3352848,
             51.0502435
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/403511388",
-      "properties": {
-        "highway": "residential",
-        "name": "Kersenlaan",
-        "surface": "concrete",
-        "id": "way/403511388"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.6996833,
-            50.9996428
-          ],
-          [
-            5.6996879,
-            50.9996827
           ]
         ]
       }
@@ -57381,6 +57366,27 @@
     },
     {
       "type": "Feature",
+      "id": "way/1417728113",
+      "properties": {
+        "highway": "path",
+        "id": "way/1417728113"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5956372,
+            51.0058819
+          ],
+          [
+            5.5954318,
+            51.0059448
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1418132859",
       "properties": {
         "highway": "unclassified",
@@ -57481,6 +57487,29 @@
           [
             5.692016,
             50.9978198
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1422253486",
+      "properties": {
+        "highway": "path",
+        "surface": "asphalt",
+        "vehicle": "no",
+        "id": "way/1422253486"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5499135,
+            50.9999857
+          ],
+          [
+            5.549947,
+            51.0000885
           ]
         ]
       }

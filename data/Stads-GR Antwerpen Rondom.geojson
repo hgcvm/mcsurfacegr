@@ -587,6 +587,78 @@
     },
     {
       "type": "Feature",
+      "id": "way/16562859",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Bisschoppenhoflaan",
+        "oneway": "yes",
+        "ref": "N120",
+        "surface": "asphalt",
+        "id": "way/16562859"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4432139,
+            51.2294994
+          ],
+          [
+            4.4433203,
+            51.2295207
+          ],
+          [
+            4.443385,
+            51.2295321
+          ],
+          [
+            4.4435543,
+            51.2295598
+          ],
+          [
+            4.4437716,
+            51.229589
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/16563795",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "primary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Schijnpoortweg",
+        "note": "alhoewel de wegas soms door werken verschoven is, is het tot de v/d Delftstraat Schijnpoortweg, die dan links gaat.",
+        "oneway": "yes",
+        "placement": "right_of:3",
+        "surface": "asphalt",
+        "turn:lanes": "left|left|through|through",
+        "id": "way/16563795"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4432139,
+            51.2294994
+          ],
+          [
+            4.4431302,
+            51.2296252
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/18905679",
       "properties": {
         "bicycle": "no",
@@ -5576,46 +5648,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/178207258",
-      "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "cycleway",
-        "lit": "no",
-        "mofa": "no",
-        "moped": "no",
-        "oneway": "no",
-        "segregated": "no",
-        "smoothness": "excellent",
-        "speed_pedelec": "no",
-        "surface": "asphalt",
-        "width": "1.5",
-        "id": "way/178207258"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.46313,
-            51.2166798
-          ],
-          [
-            4.4631211,
-            51.2169676
-          ],
-          [
-            4.4631124,
-            51.2177139
-          ],
-          [
-            4.4631114,
-            51.2177986
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/178207266",
       "properties": {
         "bicycle": "permissive",
@@ -7561,6 +7593,134 @@
     },
     {
       "type": "Feature",
+      "id": "way/450503016",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "id": "way/450503016"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4542458,
+            51.2226274
+          ],
+          [
+            4.4542433,
+            51.2221188
+          ],
+          [
+            4.4542785,
+            51.2218318
+          ],
+          [
+            4.4542665,
+            51.2214284
+          ],
+          [
+            4.454254,
+            51.2210796
+          ],
+          [
+            4.4542532,
+            51.2209573
+          ],
+          [
+            4.4542694,
+            51.220908
+          ],
+          [
+            4.4542831,
+            51.2208557
+          ],
+          [
+            4.4542959,
+            51.2208145
+          ],
+          [
+            4.4543175,
+            51.2207782
+          ],
+          [
+            4.4543441,
+            51.2207394
+          ],
+          [
+            4.4543735,
+            51.2207006
+          ],
+          [
+            4.454404,
+            51.2206674
+          ],
+          [
+            4.4544394,
+            51.2206354
+          ],
+          [
+            4.4544728,
+            51.2206089
+          ],
+          [
+            4.4545072,
+            51.2205837
+          ],
+          [
+            4.4545142,
+            51.2205748
+          ],
+          [
+            4.454575,
+            51.220548
+          ],
+          [
+            4.4547214,
+            51.2204636
+          ],
+          [
+            4.4548305,
+            51.2204033
+          ],
+          [
+            4.4549022,
+            51.2203639
+          ],
+          [
+            4.4549123,
+            51.2203559
+          ],
+          [
+            4.4549966,
+            51.2203079
+          ],
+          [
+            4.4550378,
+            51.2202728
+          ],
+          [
+            4.4550811,
+            51.220231
+          ],
+          [
+            4.4551402,
+            51.2201641
+          ],
+          [
+            4.455257,
+            51.2200273
+          ],
+          [
+            4.4552655,
+            51.2199971
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/479893502",
       "properties": {
         "bicycle": "yes",
@@ -8134,8 +8294,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4425739,
-            51.2295026
+            4.4425734,
+            51.229503
           ],
           [
             4.4425606,
@@ -8182,36 +8342,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4431253,
-            51.2298091
+            4.4430384,
+            51.2297551
           ],
           [
-            4.4430378,
-            51.2297555
+            4.4429671,
+            51.229712
           ],
           [
-            4.4429662,
-            51.2297126
+            4.4429011,
+            51.2296737
           ],
           [
-            4.4429005,
-            51.2296741
+            4.4428382,
+            51.2296385
           ],
           [
-            4.4428387,
-            51.2296381
+            4.4427457,
+            51.2295889
           ],
           [
-            4.4427524,
-            51.2295932
+            4.4426512,
+            51.2295408
           ],
           [
-            4.442652,
-            51.2295402
-          ],
-          [
-            4.4425739,
-            51.2295026
+            4.4425734,
+            51.229503
           ]
         ]
       }
@@ -8250,6 +8406,35 @@
           [
             4.4245289,
             51.1907179
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/670891092",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Bisschoppenhoflaan",
+        "oneway": "yes",
+        "ref": "N120",
+        "surface": "asphalt",
+        "id": "way/670891092"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4437716,
+            51.229589
+          ],
+          [
+            4.4439362,
+            51.2296071
           ]
         ]
       }
@@ -8431,6 +8616,54 @@
           [
             4.4652425,
             51.216887
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/708272329",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "mofa": "no",
+        "moped": "no",
+        "oneway": "no",
+        "segregated": "no",
+        "smoothness": "excellent",
+        "speed_pedelec": "no",
+        "surface": "asphalt",
+        "width": "2.5",
+        "id": "way/708272329"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4648204,
+            51.2170948
+          ],
+          [
+            4.4649244,
+            51.2171281
+          ],
+          [
+            4.4653813,
+            51.2172332
+          ],
+          [
+            4.4655121,
+            51.2172859
+          ],
+          [
+            4.4656012,
+            51.2173503
+          ],
+          [
+            4.4658444,
+            51.2175976
           ]
         ]
       }
@@ -10241,59 +10474,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/907726855",
-      "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "cycleway",
-        "lit": "no",
-        "oneway": "no",
-        "segregated": "no",
-        "smoothness": "excellent",
-        "surface": "asphalt",
-        "width": "2.5",
-        "id": "way/907726855"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4642089,
-            51.2168523
-          ],
-          [
-            4.4642367,
-            51.216872
-          ],
-          [
-            4.4643284,
-            51.2169206
-          ],
-          [
-            4.4644387,
-            51.2169732
-          ],
-          [
-            4.4644969,
-            51.2169889
-          ],
-          [
-            4.4645428,
-            51.2170013
-          ],
-          [
-            4.4646801,
-            51.2170369
-          ],
-          [
-            4.4648204,
-            51.2170948
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/933293131",
       "properties": {
         "bicycle": "permissive",
@@ -10904,42 +11084,6 @@
           [
             4.4511135,
             51.2242309
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/933301109",
-      "properties": {
-        "cycleway": "yes",
-        "highway": "tertiary",
-        "name": "Lakborslei",
-        "note": "zie na heraanleg geen grond waarom dit niet weer tertiary zou zijn",
-        "id": "way/933301109"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4543998,
-            51.2213897
-          ],
-          [
-            4.4544011,
-            51.2214287
-          ],
-          [
-            4.4544085,
-            51.2218969
-          ],
-          [
-            4.4544067,
-            51.2223084
-          ],
-          [
-            4.4544086,
-            51.222623
           ]
         ]
       }
@@ -11607,6 +11751,37 @@
           [
             4.400463,
             51.1892246
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1055214537",
+      "properties": {
+        "highway": "path",
+        "horse": "no",
+        "mofa": "no",
+        "moped": "no",
+        "speed_pedelec": "no",
+        "surface": "asphalt",
+        "width": "2",
+        "id": "way/1055214537"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4631124,
+            51.2177139
+          ],
+          [
+            4.4644334,
+            51.2176577
+          ],
+          [
+            4.4658444,
+            51.2175976
           ]
         ]
       }
@@ -12763,6 +12938,65 @@
     },
     {
       "type": "Feature",
+      "id": "way/1283256711",
+      "properties": {
+        "access": "yes",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "loc_name": "Ringfietspad",
+        "note": "blijkt heropend 2024-05-14",
+        "oneway": "no",
+        "segregated": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "3",
+        "id": "way/1283256711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4444689,
+            51.2296472
+          ],
+          [
+            4.4443242,
+            51.2296033
+          ],
+          [
+            4.4442389,
+            51.2295386
+          ],
+          [
+            4.4442771,
+            51.2293565
+          ],
+          [
+            4.4443227,
+            51.2292893
+          ],
+          [
+            4.4457055,
+            51.2283325
+          ],
+          [
+            4.4457675,
+            51.2282404
+          ],
+          [
+            4.4458234,
+            51.228112
+          ],
+          [
+            4.4470548,
+            51.2272558
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1312458052",
       "properties": {
         "bicycle": "designated",
@@ -12824,6 +13058,72 @@
     },
     {
       "type": "Feature",
+      "id": "way/1332486508",
+      "properties": {
+        "bicycle": "yes",
+        "check_date": "2025-05-14",
+        "check_date:surface": "2025-05-14",
+        "foot": "yes",
+        "highway": "pedestrian",
+        "surface": "paving_stones",
+        "id": "way/1332486508"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3876402,
+            51.2086876
+          ],
+          [
+            4.3878045,
+            51.208611
+          ],
+          [
+            4.3879571,
+            51.2085398
+          ],
+          [
+            4.3884857,
+            51.2082933
+          ],
+          [
+            4.3886104,
+            51.2082351
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1332486509",
+      "properties": {
+        "bicycle": "yes",
+        "check_date": "2025-02-28",
+        "check_date:smoothness": "2025-02-28",
+        "check_date:surface": "2025-02-28",
+        "foot": "yes",
+        "highway": "pedestrian",
+        "smoothness": "excellent",
+        "surface": "paving_stones",
+        "id": "way/1332486509"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3886104,
+            51.2082351
+          ],
+          [
+            4.3885745,
+            51.2079891
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1377869858",
       "properties": {
         "bicycle": "designated",
@@ -12853,6 +13153,62 @@
           [
             4.4297626,
             51.1917807
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1377869859",
+      "properties": {
+        "access": "yes",
+        "bicycle": "permissive",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "no",
+        "lit": "no",
+        "motor_vehicle": "service",
+        "note": "april 2025: omliggende fietspaden open, omliggende straten fietszone/ woonerf; paden binnen Brilschans aangepast van 'doorgaande fietsroute' naar 'toegelaten traag te fietsen'; hoe? pad versperrende politiebusjes en in de weg lopende stadstwachten gespot.",
+        "oneway": "no",
+        "smoothness": "intermediate",
+        "surface": "dirt",
+        "width": "0.8",
+        "id": "way/1377869859"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.429604,
+            51.1920923
+          ],
+          [
+            4.4294649,
+            51.192013
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1395543757",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "id": "way/1395543757"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3982333,
+            51.2061885
+          ],
+          [
+            4.3981567,
+            51.2061396
           ]
         ]
       }
@@ -12978,24 +13334,197 @@
     },
     {
       "type": "Feature",
-      "id": "way/1446157463",
+      "id": "way/1447335806",
       "properties": {
-        "bicycle": "yes",
-        "highway": "track",
-        "surface": "gravel",
-        "width": "2",
-        "id": "way/1446157463"
+        "cycleway": "track",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Schijnpoortweg",
+        "name:etymology:wikidata": "Q22811502",
+        "note": "alhoewel de wegas soms door werken verschoven is, is het tot de v/d Delftstraat Schijnpoortweg, die dan links gaat.",
+        "oneway": "yes",
+        "ref": "N129",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1447335806"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4542458,
-            51.2226274
+            4.4431302,
+            51.2296252
           ],
           [
-            4.4544086,
-            51.222623
+            4.4431004,
+            51.2296656
+          ],
+          [
+            4.4430384,
+            51.2297551
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1447335807",
+      "properties": {
+        "bicycle": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Bisschoppenhoflaan",
+        "oneway": "yes",
+        "ref": "N120",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|right",
+        "id": "way/1447335807"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4439362,
+            51.2296071
+          ],
+          [
+            4.4440788,
+            51.2296265
+          ],
+          [
+            4.4442361,
+            51.2296481
+          ],
+          [
+            4.444369,
+            51.2296842
+          ],
+          [
+            4.444428,
+            51.2297005
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1447335808",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "oneway": "no",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "id": "way/1447335808"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.444428,
+            51.2297005
+          ],
+          [
+            4.4444689,
+            51.2296472
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1447335809",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "mofa": "no",
+        "moped": "no",
+        "oneway": "no",
+        "segregated": "no",
+        "smoothness": "excellent",
+        "speed_pedelec": "no",
+        "surface": "asphalt",
+        "width": "1.5",
+        "id": "way/1447335809"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4631124,
+            51.2177139
+          ],
+          [
+            4.4631114,
+            51.2177986
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1447335813",
+      "properties": {
+        "access": "yes",
+        "bicycle": "permissive",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "no",
+        "lit": "yes",
+        "motor_vehicle": "service",
+        "oneway": "no",
+        "smoothness": "intermediate",
+        "surface": "gravel",
+        "id": "way/1447335813"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4297909,
+            51.1921728
+          ],
+          [
+            4.4299265,
+            51.19185
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1447335815",
+      "properties": {
+        "access": "yes",
+        "bicycle": "permissive",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "no",
+        "lit": "no",
+        "motor_vehicle": "service",
+        "note": "april 2025: omliggende fietspaden open, omliggende straten fietszone/ woonerf; paden binnen Brilschans aangepast van 'doorgaande fietsroute' naar 'toegelaten traag te fietsen'; hoe? pad versperrende politiebusjes en in de weg lopende stadstwachten gespot.",
+        "oneway": "no",
+        "smoothness": "intermediate",
+        "surface": "dirt",
+        "width": "0.8",
+        "id": "way/1447335815"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4297909,
+            51.1921728
+          ],
+          [
+            4.429604,
+            51.1920923
           ]
         ]
       }
