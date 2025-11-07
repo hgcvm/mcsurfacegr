@@ -4982,106 +4982,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/22909100",
-      "properties": {
-        "bicycle": "use_sidepath",
-        "highway": "tertiary",
-        "lanes": "2",
-        "lit": "yes",
-        "name": "Varenstraat",
-        "id": "way/22909100"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4532408,
-            51.0787315
-          ],
-          [
-            4.4530371,
-            51.0787245
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/22909182",
-      "properties": {
-        "bicycle": "use_sidepath",
-        "highway": "tertiary",
-        "lanes": "1",
-        "lit": "yes",
-        "name": "Varenstraat",
-        "oneway": "yes",
-        "id": "way/22909182"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4530371,
-            51.0787245
-          ],
-          [
-            4.4529304,
-            51.07875
-          ],
-          [
-            4.4526625,
-            51.0787731
-          ],
-          [
-            4.4526325,
-            51.0787759
-          ],
-          [
-            4.4526079,
-            51.0787773
-          ],
-          [
-            4.4524942,
-            51.0787781
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/22909188",
-      "properties": {
-        "bicycle": "use_sidepath",
-        "highway": "primary",
-        "lanes": "3",
-        "lanes:backward": "2",
-        "lanes:forward": "1",
-        "maxspeed": "70",
-        "name": "Mechelsesteenweg",
-        "name:etymology:wikidata": "Q162022",
-        "operator": "Agentschap Wegen en Verkeer",
-        "ref": "N1",
-        "toll:hgv": "yes",
-        "turn:lanes:backward": "left|none",
-        "turn:lanes:forward": "left|none",
-        "id": "way/22909188"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4524861,
-            51.0788912
-          ],
-          [
-            4.4524794,
-            51.0790084
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/22909198",
       "properties": {
         "access": "destination",
@@ -11798,10 +11698,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.4678286,
-            51.0880133
-          ],
-          [
             4.4678225,
             51.0880582
           ],
@@ -15007,36 +14903,6 @@
           [
             4.4532498,
             51.0786818
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/286663536",
-      "properties": {
-        "bicycle": "use_sidepath",
-        "highway": "primary",
-        "lanes": "3",
-        "lanes:backward": "1",
-        "maxspeed": "70",
-        "name": "Mechelsesteenweg",
-        "name:etymology:wikidata": "Q162022",
-        "operator": "Agentschap Wegen en Verkeer",
-        "ref": "N1",
-        "toll:hgv": "yes",
-        "id": "way/286663536"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4524942,
-            51.0787781
-          ],
-          [
-            4.4524861,
-            51.0788912
           ]
         ]
       }
@@ -23925,16 +23791,11 @@
     },
     {
       "type": "Feature",
-      "id": "way/758914431",
+      "id": "way/758914430",
       "properties": {
-        "bicycle": "use_sidepath",
-        "highway": "unclassified",
-        "lanes": "1",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Lazarusstraat",
-        "sidewalk": "no",
-        "id": "way/758914431"
+        "highway": "cycleway",
+        "oneway": "no",
+        "id": "way/758914430"
       },
       "geometry": {
         "type": "LineString",
@@ -23944,8 +23805,24 @@
             51.0786818
           ],
           [
-            4.4532408,
-            51.0787315
+            4.4526514,
+            51.0786291
+          ],
+          [
+            4.4526053,
+            51.0786007
+          ],
+          [
+            4.4525082,
+            51.0786002
+          ],
+          [
+            4.4524162,
+            51.0785991
+          ],
+          [
+            4.4524102,
+            51.0789541
           ]
         ]
       }
@@ -26839,6 +26716,28 @@
           [
             4.4524067,
             51.0790064
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1026928484",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "no",
+        "id": "way/1026928484"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4524067,
+            51.0790064
+          ],
+          [
+            4.4524102,
+            51.0789541
           ]
         ]
       }
@@ -30125,6 +30024,31 @@
           [
             4.4041309,
             51.1738755
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1447884667",
+      "properties": {
+        "bicycle": "no",
+        "foot": "yes",
+        "highway": "path",
+        "name": "Oude Spoorwegberm",
+        "note": "nature reserve",
+        "id": "way/1447884667"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4678286,
+            51.0880133
+          ],
+          [
+            4.4678225,
+            51.0880582
           ]
         ]
       }
