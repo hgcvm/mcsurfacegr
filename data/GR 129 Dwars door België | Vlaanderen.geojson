@@ -6163,37 +6163,15 @@
       "id": "way/55915134",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "30",
         "name": "Ardense Jagersstraat-Gottem",
+        "source:maxspeed": "BE:zone30",
         "surface": "concrete",
         "id": "way/55915134"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.4646453,
-            50.9616038
-          ],
-          [
-            3.4646399,
-            50.9616597
-          ],
-          [
-            3.46463,
-            50.961709
-          ],
-          [
-            3.4646262,
-            50.9617516
-          ],
-          [
-            3.4646373,
-            50.9618042
-          ],
-          [
-            3.4646667,
-            50.9618564
-          ],
           [
             3.4647182,
             50.9619222
@@ -22353,6 +22331,7 @@
         "maxspeed": "30",
         "name": "Oude Heirbaan",
         "ref": "N440",
+        "source:maxspeed": "BE:zone30",
         "surface": "concrete",
         "zone:maxspeed": "BE:30",
         "id": "way/270315776"
@@ -22979,8 +22958,8 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Ardense Jagersstraat-Gottem",
+        "source:maxspeed": "BE:zone30",
         "surface": "cobblestone",
-        "zone:maxspeed": "BE:30",
         "id": "way/352857648"
       },
       "geometry": {
@@ -30350,8 +30329,8 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Ardense Jagersstraat-Gottem",
+        "source:maxspeed": "BE:zone30",
         "surface": "concrete",
-        "zone:maxspeed": "BE:30",
         "id": "way/1065721731"
       },
       "geometry": {
@@ -31447,6 +31426,7 @@
         "maxspeed": "30",
         "name": "Aarsele-Dorp",
         "oneway": "no",
+        "source:maxspeed": "BE:zone30",
         "surface": "concrete",
         "id": "way/1133844849"
       },
@@ -33830,6 +33810,51 @@
           [
             3.6093098,
             50.8421074
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1448283394",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "70",
+        "name": "Ardense Jagersstraat-Gottem",
+        "source:maxspeed": "BE-VLG:rural",
+        "surface": "concrete",
+        "id": "way/1448283394"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4646453,
+            50.9616038
+          ],
+          [
+            3.4646399,
+            50.9616597
+          ],
+          [
+            3.46463,
+            50.961709
+          ],
+          [
+            3.4646262,
+            50.9617516
+          ],
+          [
+            3.4646373,
+            50.9618042
+          ],
+          [
+            3.4646667,
+            50.9618564
+          ],
+          [
+            3.4647182,
+            50.9619222
           ]
         ]
       }
