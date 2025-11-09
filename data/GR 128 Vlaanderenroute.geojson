@@ -6131,32 +6131,36 @@
       "properties": {
         "highway": "track",
         "name": "Molensteenstraat",
-        "surface": "compacted",
-        "tracktype": "grade4",
+        "surface": "dirt",
+        "tracktype": "grade3",
         "id": "way/23157089"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.8061441,
-            50.8143975
+            4.8061508,
+            50.8143907
           ],
           [
-            4.8049236,
-            50.8155608
+            4.8048954,
+            50.81556
           ],
           [
-            4.804682,
-            50.8156832
+            4.80469,
+            50.8156671
           ],
           [
-            4.8044613,
-            50.815719
+            4.8044801,
+            50.8157088
           ],
           [
-            4.80424,
-            50.8157148
+            4.8043178,
+            50.8157089
+          ],
+          [
+            4.8041408,
+            50.8156868
           ],
           [
             4.8039763,
@@ -6167,8 +6171,12 @@
             50.8154894
           ],
           [
-            4.8034283,
-            50.8154849
+            4.803427,
+            50.8154942
+          ],
+          [
+            4.8033656,
+            50.8155191
           ],
           [
             4.8033321,
@@ -10088,8 +10096,8 @@
             50.8142755
           ],
           [
-            4.8061441,
-            50.8143975
+            4.8061508,
+            50.8143907
           ]
         ]
       }
@@ -40668,8 +40676,11 @@
       "properties": {
         "highway": "residential",
         "lane_markings": "no",
+        "maxspeed": "30",
         "name": "Mostert",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/39464189"
       },
       "geometry": {
@@ -40693,11 +40704,11 @@
           ],
           [
             5.8741782,
-            50.7515228
+            50.7515279
           ],
           [
-            5.874239,
-            50.7515394
+            5.8742839,
+            50.7515666
           ]
         ]
       }
@@ -58325,8 +58336,16 @@
             50.8271694
           ],
           [
-            4.782392,
-            50.8261754
+            4.7826115,
+            50.8263012
+          ],
+          [
+            4.7825342,
+            50.8262426
+          ],
+          [
+            4.7824604,
+            50.8261602
           ]
         ]
       }
@@ -58335,7 +58354,7 @@
       "type": "Feature",
       "id": "way/81112833",
       "properties": {
-        "cycleway": "lane",
+        "cycleway": "track",
         "highway": "tertiary",
         "name": "Neervelpsestraat",
         "surface": "concrete",
@@ -58357,8 +58376,8 @@
             50.8259789
           ],
           [
-            4.782392,
-            50.8261754
+            4.7824604,
+            50.8261602
           ]
         ]
       }
@@ -58367,8 +58386,9 @@
       "type": "Feature",
       "id": "way/81177286",
       "properties": {
-        "highway": "path",
+        "highway": "track",
         "surface": "dirt",
+        "tracktype": "grade4",
         "id": "way/81177286"
       },
       "geometry": {
@@ -58388,7 +58408,7 @@
           ],
           [
             4.7920641,
-            50.8202233
+            50.8202047
           ]
         ]
       }
@@ -78347,7 +78367,12 @@
       "type": "Feature",
       "id": "way/183973674",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "unclassified",
+        "horse": "yes",
         "maxspeed": "60",
         "motor_vehicle": "destination",
         "name": "Kattenroth / Heerbaan",
@@ -98104,9 +98129,15 @@
       "type": "Feature",
       "id": "way/399117943",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "unclassified",
+        "horse": "yes",
         "lane_markings": "no",
         "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Kattenroth",
         "surface": "concrete",
         "traffic_sign": "BE:F99c",
@@ -105376,7 +105407,7 @@
       "id": "way/529239516",
       "properties": {
         "highway": "track",
-        "surface": "sett",
+        "surface": "cobblestone",
         "tracktype": "grade1",
         "id": "way/529239516"
       },
@@ -105384,8 +105415,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7936535,
-            50.8186527
+            4.7936455,
+            50.8186239
+          ],
+          [
+            4.7937351,
+            50.8185889
           ],
           [
             4.7941911,
@@ -105403,7 +105438,7 @@
       "id": "way/529239517",
       "properties": {
         "highway": "track",
-        "surface": "grass",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/529239517"
       },
@@ -105412,7 +105447,7 @@
         "coordinates": [
           [
             4.7920641,
-            50.8202233
+            50.8202047
           ],
           [
             4.7922841,
@@ -105427,12 +105462,12 @@
             50.8189659
           ],
           [
-            4.7935769,
-            50.8187143
+            4.7936077,
+            50.8186838
           ],
           [
-            4.7936535,
-            50.8186527
+            4.7936455,
+            50.8186239
           ]
         ]
       }
@@ -113134,7 +113169,6 @@
       "type": "Feature",
       "id": "way/706465844",
       "properties": {
-        "bicycle": "use_sidepath",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "70",
@@ -135327,8 +135361,14 @@
       "type": "Feature",
       "id": "way/1346433999",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "unclassified",
+        "horse": "yes",
         "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Kattenroth",
         "surface": "asphalt",
         "traffic_sign": "BE:F99c",
@@ -140428,35 +140468,38 @@
       "id": "way/33381424",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "30",
         "name": "Teuven-Dorp - Teuven-Village",
         "name:fr": "Teuven-Village",
         "name:nl": "Teuven-Dorp",
         "note:name": "https://www.vlaanderen.be/gemeenten-en-provincies/organisatie-en-werking-van-gemeenten/faciliteitengemeenten-in-het-vlaamse-gewest",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/33381424"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.8759039,
-            50.751714
+            5.8759267,
+            50.7517471
           ],
           [
-            5.875808,
-            50.751705
+            5.8758013,
+            50.751733
           ],
           [
-            5.8757215,
+            5.8756799,
             50.7516855
           ],
           [
-            5.8754342,
-            50.7515289
+            5.8754221,
+            50.7515365
           ],
           [
-            5.8752434,
-            50.751425
+            5.875238,
+            50.7514318
           ],
           [
             5.8750952,
@@ -140483,12 +140526,12 @@
             50.751379
           ],
           [
-            5.8743635,
-            50.7514799
+            5.8743514,
+            50.7515071
           ],
           [
-            5.874239,
-            50.7515394
+            5.8742839,
+            50.7515666
           ]
         ]
       }
@@ -140857,16 +140900,31 @@
       "id": "way/41394089",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "30",
         "name": "Sinnich",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/41394089"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.8820714,
-            50.7475413
+            5.882334,
+            50.747581
+          ],
+          [
+            5.882256,
+            50.7475965
+          ],
+          [
+            5.882079,
+            50.7476024
+          ],
+          [
+            5.8818497,
+            50.7476279
           ],
           [
             5.8814587,
@@ -140889,12 +140947,15 @@
       "properties": {
         "highway": "tertiary",
         "lane_markings": "no",
+        "maxspeed": "70",
         "name": "Kasteelstraat",
         "name:fr": "Rue du Château",
         "name:nl": "Kasteelstraat",
         "oneway": "no",
+        "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
         "width": "4",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/43569689"
       },
       "geometry": {
@@ -140985,8 +141046,8 @@
             50.7481497
           ],
           [
-            5.8823861,
-            50.7476359
+            5.8827656,
+            50.7479249
           ]
         ]
       }
@@ -147500,29 +147561,32 @@
       "id": "way/436363378",
       "properties": {
         "highway": "tertiary",
+        "lane_markings": "no",
+        "maxspeed": "30",
         "name": "Kasteelstraat",
         "name:fr": "Rue du Château",
         "name:nl": "Kasteelstraat",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
+        "width": "4",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/436363378"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.8823861,
-            50.7476359
+            5.8827656,
+            50.7479249
           ],
           [
-            5.8822618,
-            50.7475962
+            5.8824129,
+            50.7476707
           ],
           [
-            5.8821462,
-            50.7475691
-          ],
-          [
-            5.8820714,
-            50.7475413
+            5.882334,
+            50.747581
           ]
         ]
       }
@@ -147532,10 +147596,13 @@
       "id": "way/436363379",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "30",
         "name": "Teuven-Dorp - Teuven-Village",
         "name:fr": "Teuven-Village",
         "name:nl": "Teuven-Dorp",
         "note:name": "https://www.vlaanderen.be/gemeenten-en-provincies/organisatie-en-werking-van-gemeenten/faciliteitengemeenten-in-het-vlaamse-gewest",
+        "source:maxspeed": "BE:zone30",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/436363379"
       },
       "geometry": {
@@ -147574,20 +147641,20 @@
             50.7516319
           ],
           [
-            5.8761241,
-            50.7516787
+            5.8761389,
+            50.7516948
           ],
           [
-            5.8760253,
-            50.7517029
+            5.8760575,
+            50.7517292
           ],
           [
-            5.8759588,
-            50.75171
+            5.8759964,
+            50.7517388
           ],
           [
-            5.8759039,
-            50.751714
+            5.8759267,
+            50.7517471
           ]
         ]
       }
@@ -147597,7 +147664,10 @@
       "id": "way/436363380",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Sinnich",
+        "source:maxspeed": "BE:zone50",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/436363380"
       },
       "geometry": {
