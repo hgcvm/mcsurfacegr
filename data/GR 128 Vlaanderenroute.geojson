@@ -160652,12 +160652,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6961675,
-            50.8659983
+            4.6961226,
+            50.8659915
           ],
           [
-            4.6962248,
-            50.8659745
+            4.6961974,
+            50.8659785
+          ],
+          [
+            4.6962257,
+            50.8659718
           ],
           [
             4.6962637,
@@ -163889,33 +163893,38 @@
       "type": "Feature",
       "id": "way/85799351",
       "properties": {
-        "cycleway": "lane",
+        "cycleway:left": "shared_lane",
+        "cycleway:right": "no",
         "highway": "primary",
-        "lanes": "2",
+        "lanes": "1",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Naamsesteenweg",
         "name:etymology:wikidata": "Q134121",
+        "oneway": "yes",
         "parking:both": "no",
         "ref": "N251",
-        "sidewalk:left": "yes",
+        "sidewalk": "right",
+        "sidewalk:both:surface": "paving_stones",
+        "sidewalk:left": "no",
         "sidewalk:left:surface": "paving_stones",
-        "sidewalk:right": "separate",
-        "smoothness": "good",
+        "sidewalk:right": "yes",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "wikidata": "Q2567735",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/85799351"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.6961675,
-            50.8659983
+            4.6961226,
+            50.8659915
           ],
           [
-            4.6961322,
-            50.8659473
+            4.6961022,
+            50.8659551
           ]
         ]
       }
@@ -166547,8 +166556,12 @@
             50.8659675
           ],
           [
-            4.6961322,
-            50.8659473
+            4.6961022,
+            50.8659551
+          ],
+          [
+            4.6961778,
+            50.8659422
           ]
         ]
       }
