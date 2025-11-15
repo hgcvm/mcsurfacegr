@@ -2713,13 +2713,13 @@
       "type": "Feature",
       "id": "way/52520635",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "lane_markings": "no",
         "maxweight": "7.5",
         "maxweight:conditional": "none @ destination",
         "name": "Aartrijkestraat",
         "source:maxweight": "BE:ZC21[7.5t UITGEZONDERD PLAATSELIJKE BEDIENING]",
-        "surface": "paving_stones",
+        "surface": "concrete",
         "id": "way/52520635"
       },
       "geometry": {
@@ -3914,7 +3914,7 @@
       "type": "Feature",
       "id": "way/57936203",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "lane_markings": "no",
         "maxspeed": "30",
         "maxweight": "7.5",
@@ -4130,7 +4130,7 @@
       "type": "Feature",
       "id": "way/58641187",
       "properties": {
-        "highway": "track",
+        "highway": "path",
         "surface": "grass",
         "tracktype": "grade1",
         "id": "way/58641187"
@@ -4213,18 +4213,6 @@
           [
             3.0721928,
             51.0798836
-          ],
-          [
-            3.0723184,
-            51.0799067
-          ],
-          [
-            3.0727059,
-            51.0800298
-          ],
-          [
-            3.0738244,
-            51.080408
           ]
         ]
       }
@@ -23333,7 +23321,7 @@
       "type": "Feature",
       "id": "way/357317450",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "lane_markings": "no",
         "maxspeed": "30",
         "maxweight": "7.5",
@@ -23341,7 +23329,7 @@
         "name": "Aartrijkestraat",
         "source:maxspeed": "BE:zone30",
         "source:maxweight": "BE:ZC21[7.5t UITGEZONDERD PLAATSELIJKE BEDIENING]",
-        "surface": "paving_stones",
+        "surface": "concrete",
         "id": "way/357317450"
       },
       "geometry": {
@@ -23362,14 +23350,6 @@
           [
             3.1008093,
             51.0684064
-          ],
-          [
-            3.1009226,
-            51.068305
-          ],
-          [
-            3.1009619,
-            51.0682732
           ]
         ]
       }
@@ -26536,11 +26516,12 @@
       "id": "way/682016070",
       "properties": {
         "cycleway:both": "no",
-        "highway": "residential",
+        "highway": "service",
         "lane_markings": "no",
         "maxweight": "7.5",
         "maxweight:conditional": "none @ destination",
         "name": "Nieuwstraat",
+        "service": "alley",
         "sidewalk": "no",
         "source:maxweight": "BE:ZC21[7.5t UITGEZONDERD PLAATSELIJKE BEDIENING]",
         "surface": "asphalt",
@@ -32802,11 +32783,12 @@
       "id": "way/1135386255",
       "properties": {
         "cycleway:both": "no",
-        "highway": "residential",
+        "highway": "service",
         "lane_markings": "no",
         "maxweight": "7.5",
         "maxweight:conditional": "none @ destination",
         "name": "Nieuwstraat",
+        "service": "alley",
         "sidewalk": "both",
         "source:maxweight": "BE:ZC21[7.5t UITGEZONDERD PLAATSELIJKE BEDIENING]",
         "surface": "paving_stones",
@@ -33038,7 +33020,7 @@
       "type": "Feature",
       "id": "way/1135386266",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "lane_markings": "no",
         "maxspeed": "50",
         "maxweight": "7.5",
@@ -33046,7 +33028,7 @@
         "name": "Aartrijkestraat",
         "source:maxspeed": "BE-VLG:urban",
         "source:maxweight": "BE:ZC21[7.5t UITGEZONDERD PLAATSELIJKE BEDIENING]",
-        "surface": "paving_stones",
+        "surface": "concrete",
         "id": "way/1135386266"
       },
       "geometry": {
@@ -33467,7 +33449,7 @@
       "type": "Feature",
       "id": "way/1309394973",
       "properties": {
-        "highway": "unclassified",
+        "highway": "residential",
         "lane_markings": "no",
         "maxspeed": "30",
         "maxweight": "7.5",
@@ -33475,7 +33457,7 @@
         "name": "Aartrijkestraat",
         "source:maxspeed": "BE:zone30",
         "source:maxweight": "BE:ZC21[7.5t UITGEZONDERD PLAATSELIJKE BEDIENING]",
-        "surface": "paving_stones",
+        "surface": "concrete",
         "id": "way/1309394973"
       },
       "geometry": {
@@ -34085,6 +34067,70 @@
           [
             2.8899736,
             50.8435346
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1450755997",
+      "properties": {
+        "highway": "track",
+        "surface": "grass",
+        "tracktype": "grade1",
+        "id": "way/1450755997"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0721928,
+            51.0798836
+          ],
+          [
+            3.0723184,
+            51.0799067
+          ],
+          [
+            3.0727059,
+            51.0800298
+          ],
+          [
+            3.0738244,
+            51.080408
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1450761074",
+      "properties": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "maxweight": "7.5",
+        "maxweight:conditional": "none @ destination",
+        "name": "Aartrijkestraat",
+        "source:maxspeed": "BE:zone30",
+        "source:maxweight": "BE:ZC21[7.5t UITGEZONDERD PLAATSELIJKE BEDIENING]",
+        "surface": "paving_stones",
+        "id": "way/1450761074"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.1008093,
+            51.0684064
+          ],
+          [
+            3.1009226,
+            51.068305
+          ],
+          [
+            3.1009619,
+            51.0682732
           ]
         ]
       }
