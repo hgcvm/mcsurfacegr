@@ -5146,6 +5146,7 @@
       "id": "way/46819562",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Driepaal",
         "surface": "asphalt",
         "id": "way/46819562"
@@ -5158,8 +5159,12 @@
             51.0353167
           ],
           [
-            5.6677638,
-            51.0348657
+            5.6669699,
+            51.035243
+          ],
+          [
+            5.6671925,
+            51.0351342
           ]
         ]
       }
@@ -6637,8 +6642,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6785569,
-            51.0155891
+            5.6785281,
+            51.0155583
+          ],
+          [
+            5.6786076,
+            51.01562
           ],
           [
             5.6790268,
@@ -6746,7 +6755,9 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "70",
         "name": "Driepaal",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/50311316"
       },
@@ -6847,7 +6858,8 @@
       "properties": {
         "highway": "track",
         "name": "Platte Lindenberg",
-        "surface": "compacted",
+        "smoothness": "bad",
+        "surface": "gravel",
         "tracktype": "grade2",
         "id": "way/50311322"
       },
@@ -6874,6 +6886,7 @@
       "id": "way/50311981",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Driepaal",
         "surface": "asphalt",
         "id": "way/50311981"
@@ -13575,7 +13588,8 @@
       "properties": {
         "highway": "track",
         "name": "Driepaal",
-        "surface": "compacted",
+        "smoothness": "bad",
+        "surface": "gravel",
         "tracktype": "grade2",
         "id": "way/148759739"
       },
@@ -13583,8 +13597,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6703512,
-            51.0335592
+            5.6702285,
+            51.0336271
           ],
           [
             5.6738563,
@@ -18429,10 +18443,18 @@
       "type": "Feature",
       "id": "way/220541611",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
         "foot": "yes",
         "highway": "cycleway",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Hoeveweg",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
         "id": "way/220541611"
       },
       "geometry": {
@@ -37024,8 +37046,8 @@
             51.0336815
           ],
           [
-            5.6703512,
-            51.0335592
+            5.6702285,
+            51.0336271
           ]
         ]
       }
@@ -37099,34 +37121,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            5.677108,
-            51.0326628
-          ],
-          [
-            5.6770697,
-            51.0323991
-          ],
-          [
-            5.677034,
-            51.032185
-          ],
-          [
-            5.677079,
-            51.0318727
-          ],
-          [
-            5.6770996,
-            51.0317619
-          ],
-          [
-            5.6771366,
-            51.0315902
-          ],
-          [
-            5.6772146,
-            51.0314537
-          ],
           [
             5.6773454,
             51.0313475
@@ -51031,40 +51025,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6783515,
-            51.0155382
+            5.677724,
+            51.0156887
           ],
           [
-            5.6782295,
-            51.0155528
+            5.6774694,
+            51.0156988
           ],
           [
-            5.6780226,
-            51.0156277
+            5.6772962,
+            51.0156867
           ],
           [
-            5.6778052,
-            51.0156799
+            5.6771104,
+            51.0156481
           ],
           [
-            5.6776529,
-            51.0157044
-          ],
-          [
-            5.6774614,
-            51.015711
-          ],
-          [
-            5.6772593,
-            51.0156947
-          ],
-          [
-            5.6771024,
-            51.0156603
-          ],
-          [
-            5.676918,
-            51.0155877
+            5.6769234,
+            51.0155873
           ],
           [
             5.6768049,
@@ -54005,16 +53983,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6783515,
-            51.0155382
+            5.6783019,
+            51.0155217
           ],
           [
-            5.6784596,
-            51.0155578
+            5.6784294,
+            51.015527
           ],
           [
-            5.6785569,
-            51.0155891
+            5.6785281,
+            51.0155583
           ]
         ]
       }
@@ -55950,6 +55928,111 @@
           [
             5.6782556,
             50.8805121
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1450934055",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "70",
+        "name": "Driepaal",
+        "surface": "asphalt",
+        "id": "way/1450934055"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6671925,
+            51.0351342
+          ],
+          [
+            5.6672717,
+            51.0350928
+          ],
+          [
+            5.6677638,
+            51.0348657
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1450942569",
+      "properties": {
+        "highway": "cycleway",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "id": "way/1450942569"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6783019,
+            51.0155217
+          ],
+          [
+            5.6781584,
+            51.0155591
+          ],
+          [
+            5.677865,
+            51.0156568
+          ],
+          [
+            5.677724,
+            51.0156887
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1450960291",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/1450960291"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.677108,
+            51.0326628
+          ],
+          [
+            5.6770697,
+            51.0323991
+          ],
+          [
+            5.677034,
+            51.032185
+          ],
+          [
+            5.677079,
+            51.0318727
+          ],
+          [
+            5.6770996,
+            51.0317619
+          ],
+          [
+            5.6771366,
+            51.0315902
+          ],
+          [
+            5.6772146,
+            51.0314537
+          ],
+          [
+            5.6773454,
+            51.0313475
           ]
         ]
       }
