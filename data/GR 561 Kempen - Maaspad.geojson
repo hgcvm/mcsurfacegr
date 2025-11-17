@@ -18603,10 +18603,6 @@
           [
             5.6608547,
             50.9961151
-          ],
-          [
-            5.6607582,
-            50.9961731
           ]
         ]
       }
@@ -18615,17 +18611,19 @@
       "type": "Feature",
       "id": "way/220542538",
       "properties": {
-        "access": "destination",
+        "agricultural": "yes",
         "bicycle": "yes",
+        "emergency": "yes",
         "foot": "yes",
         "highway": "cycleway",
         "horse": "yes",
         "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Hoeveweg",
         "smoothness": "excellent",
         "speed_pedelec": "yes",
         "surface": "asphalt",
-        "traffic_sign": "BE:F99a",
+        "traffic_sign": "BE:F99c",
         "id": "way/220542538"
       },
       "geometry": {
@@ -18644,8 +18642,8 @@
             51.0065639
           ],
           [
-            5.6750298,
-            51.0064343
+            5.6750197,
+            51.0064424
           ]
         ]
       }
@@ -41542,10 +41540,19 @@
       "type": "Feature",
       "id": "way/528813841",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
         "foot": "yes",
         "highway": "cycleway",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Hoeveweg",
+        "smoothness": "excellent",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
         "id": "way/528813841"
       },
       "geometry": {
@@ -48470,6 +48477,7 @@
         "foot": "designated",
         "highway": "cycleway",
         "segregated": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "tracktype": "grade1",
         "id": "way/945246105"
@@ -51094,8 +51102,8 @@
             51.0063343
           ],
           [
-            5.6750298,
-            51.0064343
+            5.6750197,
+            51.0064424
           ]
         ]
       }
@@ -56033,6 +56041,28 @@
           [
             5.6773454,
             51.0313475
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1451196850",
+      "properties": {
+        "highway": "path",
+        "surface": "ground",
+        "id": "way/1451196850"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.6608547,
+            50.9961151
+          ],
+          [
+            5.6607582,
+            50.9961731
           ]
         ]
       }

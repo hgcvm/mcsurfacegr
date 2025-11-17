@@ -11017,7 +11017,9 @@
         "maxspeed": "30",
         "name": "Kerkstraat",
         "sidewalk": "both",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/28857247"
       },
       "geometry": {
@@ -11043,7 +11045,9 @@
         "lane_markings": "no",
         "maxspeed": "30",
         "name": "Kerkstraat",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/28857260"
       },
       "geometry": {
@@ -11463,8 +11467,11 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Burgstraat",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/28986068"
       },
       "geometry": {
@@ -11519,10 +11526,14 @@
       "properties": {
         "cycleway": "no",
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Kattestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/28986076"
       },
       "geometry": {
@@ -11896,10 +11907,13 @@
         "cycleway:both": "no",
         "highway": "tertiary",
         "layer": "1",
+        "maxspeed": "30",
         "name": "Dammesteenweg",
         "sidewalk": "both",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "width": "4",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/32148201"
       },
       "geometry": {
@@ -27996,8 +28010,10 @@
         "maxweight:signed": "no",
         "name": "Kerkstraat",
         "oneway": "no",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "traffic_calming": "table",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/94569877"
       },
       "geometry": {
@@ -31341,8 +31357,11 @@
         "highway": "tertiary",
         "lane_markings": "no",
         "lanes": "2",
+        "maxspeed": "30",
         "name": "Kerkstraat",
+        "source:maxspeed": "BE:zone30",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/128813937"
       },
       "geometry": {
@@ -39585,8 +39604,11 @@
         "highway": "tertiary",
         "lane_markings": "no",
         "lanes": "2",
+        "maxspeed": "30",
         "name": "Kerkstraat",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/188973964"
       },
       "geometry": {
@@ -41917,7 +41939,9 @@
         "maxspeed": "30",
         "name": "Kerkstraat",
         "sidewalk": "right",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/219185861"
       },
       "geometry": {
@@ -43714,7 +43738,9 @@
         "maxspeed": "30",
         "name": "Kerkstraat",
         "sidewalk": "both",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/229885580"
       },
       "geometry": {
@@ -61589,8 +61615,11 @@
       "id": "way/829398290",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "30",
         "name": "Dammesteenweg",
+        "source:maxspeed": "BE:zone30",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/829398290"
       },
       "geometry": {
@@ -63741,7 +63770,9 @@
         "maxspeed": "30",
         "name": "Kerkstraat",
         "sidewalk": "both",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/948484818"
       },
       "geometry": {
@@ -63764,10 +63795,14 @@
       "properties": {
         "cycleway": "no",
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Sint-Jansstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/948484819"
       },
       "geometry": {
@@ -63792,7 +63827,9 @@
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Kerkstraat",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/948484822"
       },
       "geometry": {
@@ -68904,7 +68941,9 @@
         "oneway": "no",
         "scenic": "yes",
         "smoothness": "excellent",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/1117760758"
       },
       "geometry": {
@@ -173716,10 +173755,11 @@
       "type": "Feature",
       "id": "way/10661812",
       "properties": {
-        "bicycle": "no",
+        "bicycle": "permissive",
         "foot": "yes",
         "highway": "path",
-        "horse": "no",
+        "horse": "private",
+        "lit": "yes",
         "maxspeed": "20",
         "motor_vehicle": "service",
         "note": "bordC3 aan Beukenlaan, C3+ dienst en levering aan andere eind bij cricket / handboog",
@@ -174676,8 +174716,9 @@
       "type": "Feature",
       "id": "way/24479706",
       "properties": {
-        "bicycle": "yes",
+        "bicycle": "permissive",
         "highway": "path",
+        "horse": "private",
         "lit": "no",
         "surface": "compacted",
         "vehicle": "no",
@@ -176560,8 +176601,8 @@
             51.1944237
           ],
           [
-            4.4292556,
-            51.1944951
+            4.4292172,
+            51.1944772
           ],
           [
             4.4293602,
