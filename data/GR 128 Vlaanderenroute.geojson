@@ -4443,18 +4443,20 @@
       "type": "Feature",
       "id": "way/18806092",
       "properties": {
-        "bicycle": "designated",
+        "access": "no",
+        "bicycle": "no",
         "designation": "towpath",
         "embankment": "yes",
-        "foot": "designated",
+        "foot": "no",
         "highway": "cycleway",
-        "horse": "destination",
+        "horse": "no",
         "lit": "no",
         "maxspeed": "30",
-        "mofa": "yes",
+        "mofa": "no",
         "moped": "no",
-        "motor_vehicle": "permit",
+        "motor_vehicle": "no",
         "name": "Nijverheidskaai",
+        "note": "closed until 2026-12: https://www.vlaamsewaterweg.be/nl/nieuws/werken-aan-nieuwe-brug-noord-starten-op-het-terrein",
         "oneway": "no",
         "segregated": "no",
         "smoothness": "excellent",
@@ -11138,8 +11140,9 @@
         "layer": "1",
         "maxlength": "10",
         "maxspeed": "30",
-        "name": "Gentbruggebrug",
+        "name": "Gentbruggestraat",
         "name:etymology:wikidata": "Q680916",
+        "source": "mobiliteit@stad.gent bevestigd dat dit Gentbruggestraat is De foute naam borden Gentbruggebrug ten velde gaan verwijderd worden.",
         "surface": "asphalt",
         "id": "way/24765672"
       },
@@ -11166,8 +11169,9 @@
         "highway": "tertiary",
         "maxlength": "10",
         "maxspeed": "30",
-        "name": "Gentbruggebrug",
+        "name": "Gentbruggestraat",
         "name:etymology:wikidata": "Q680916",
+        "source": "mobiliteit@stad.gent bevestigd dat dit Gentbruggestraat is De foute naam borden Gentbruggebrug ten velde gaan verwijderd worden.",
         "surface": "asphalt",
         "id": "way/24765673"
       },
@@ -84806,12 +84810,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7667126,
-            51.0500261
-          ],
-          [
-            3.7673503,
-            51.0501341
+            3.7674949,
+            51.0501574
           ],
           [
             3.7679366,
@@ -117228,8 +117228,9 @@
         "highway": "tertiary",
         "maxlength": "10",
         "maxspeed": "30",
-        "name": "Gentbruggebrug",
+        "name": "Gentbruggestraat",
         "name:etymology:wikidata": "Q680916",
+        "source": "mobiliteit@stad.gent bevestigd dat dit Gentbruggestraat is De foute naam borden Gentbruggebrug ten velde gaan verwijderd worden.",
         "surface": "asphalt",
         "id": "way/781140957"
       },
@@ -137374,6 +137375,51 @@
           [
             3.7642711,
             51.0494576
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1451356735",
+      "properties": {
+        "access": "no",
+        "bicycle": "no",
+        "designation": "towpath",
+        "embankment": "yes",
+        "foot": "no",
+        "highway": "cycleway",
+        "horse": "no",
+        "lit": "no",
+        "maxspeed": "30",
+        "mofa": "no",
+        "moped": "no",
+        "motor_vehicle": "no",
+        "name": "Nijverheidskaai",
+        "note": "closed until 2026-12: https://www.vlaamsewaterweg.be/nl/nieuws/werken-aan-nieuwe-brug-noord-starten-op-het-terrein",
+        "oneway": "no",
+        "segregated": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "towpath": "yes",
+        "tracktype": "grade1",
+        "width": "2.5",
+        "id": "way/1451356735"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7667126,
+            51.0500261
+          ],
+          [
+            3.7673503,
+            51.0501341
+          ],
+          [
+            3.7674949,
+            51.0501574
           ]
         ]
       }
