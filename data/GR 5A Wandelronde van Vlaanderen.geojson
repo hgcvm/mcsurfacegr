@@ -14087,6 +14087,7 @@
       "type": "Feature",
       "id": "way/34041194",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "name": "Boekhoutedorp",
         "surface": "paving_stones",
@@ -17761,6 +17762,10 @@
           [
             3.3388829,
             51.2918763
+          ],
+          [
+            3.3390522,
+            51.2919537
           ],
           [
             3.3391961,
@@ -38880,6 +38885,7 @@
       "type": "Feature",
       "id": "way/188093861",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "name": "Boekhoutedorp",
         "surface": "paving_stones",
@@ -50404,6 +50410,7 @@
       "type": "Feature",
       "id": "way/331152055",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "name": "Boekhoutedorp",
         "surface": "paving_stones",
@@ -79351,6 +79358,7 @@
         "highway": "residential",
         "maxspeed": "50",
         "name": "Temsesteenweg",
+        "old_ref": "N159",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/26181010"
       },
@@ -82871,6 +82879,7 @@
         "highway": "residential",
         "lit": "yes",
         "name": "Temsesteenweg",
+        "old_ref": "N159",
         "id": "way/31693594"
       },
       "geometry": {
@@ -127081,6 +127090,7 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Temsesteenweg",
+        "old_ref": "N159",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/229810870"
       },
@@ -174746,7 +174756,9 @@
       "type": "Feature",
       "id": "way/24479755",
       "properties": {
-        "highway": "path",
+        "bicycle": "permisive",
+        "highway": "footway",
+        "lit": "no",
         "note": "gezien deze kleuter / lagere school kind speelplek druk gebruikt wordt, en de overvloed van paden rondom, lijkt het mij redelijk de paden tussen de tientallen bankjes en het speelgerief als bicycle=dismount te taggen?",
         "surface": "compacted",
         "vehicle": "no",
@@ -174778,10 +174790,10 @@
       "type": "Feature",
       "id": "way/24479759",
       "properties": {
-        "bicycle": "no",
+        "bicycle": "permissive",
         "foot": "yes",
         "highway": "unclassified",
-        "horse": "no",
+        "horse": "private",
         "lane_markings": "no",
         "lanes": "2",
         "lit": "yes",
@@ -175567,6 +175579,7 @@
         "lit": "no",
         "surface": "compacted",
         "vehicle": "no",
+        "width": "1.5",
         "id": "way/24699984"
       },
       "geometry": {
@@ -175605,8 +175618,8 @@
             51.1896863
           ],
           [
-            4.4207061,
-            51.1896831
+            4.420694,
+            51.1896865
           ],
           [
             4.420638,
@@ -175710,8 +175723,9 @@
         "bicycle": "yes",
         "highway": "path",
         "lit": "no",
-        "surface": "pebblestone",
+        "surface": "compacted",
         "vehicle": "no",
+        "width": "1.5",
         "id": "way/24700141"
       },
       "geometry": {
@@ -175771,8 +175785,9 @@
         "bicycle": "yes",
         "highway": "path",
         "lit": "no",
-        "surface": "pebblestone",
+        "surface": "compacted",
         "vehicle": "no",
+        "width": "1.5",
         "id": "way/24700160"
       },
       "geometry": {
@@ -175898,9 +175913,10 @@
       "type": "Feature",
       "id": "way/24700612",
       "properties": {
-        "bicycle": "yes",
+        "bicycle": "permissive",
         "foot": "yes",
         "highway": "unclassified",
+        "horse": "private",
         "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "20",
@@ -182048,9 +182064,10 @@
       "type": "Feature",
       "id": "way/866974916",
       "properties": {
-        "bicycle": "yes",
+        "bicycle": "permissive",
         "foot": "yes",
         "highway": "unclassified",
+        "horse": "private",
         "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "20",
