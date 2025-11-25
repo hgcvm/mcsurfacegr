@@ -2758,8 +2758,9 @@
       "id": "way/33128395",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
-        "tracktype": "grade2",
+        "smoothness": "bad",
+        "surface": "ground",
+        "tracktype": "grade3",
         "id": "way/33128395"
       },
       "geometry": {
@@ -6291,8 +6292,10 @@
       "id": "way/95126193",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Weg naar het Plat",
         "old_name": "Venstraat",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/95126193"
       },
@@ -26642,7 +26645,7 @@
           ],
           [
             5.3779659,
-            51.1746197
+            51.1746029
           ]
         ]
       }
@@ -26915,7 +26918,7 @@
         "coordinates": [
           [
             5.3779659,
-            51.1746197
+            51.1746029
           ],
           [
             5.3778427,
@@ -27944,8 +27947,9 @@
       "id": "way/331858675",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
-        "tracktype": "grade2",
+        "smoothness": "bad",
+        "surface": "ground",
+        "tracktype": "grade3",
         "id": "way/331858675"
       },
       "geometry": {
@@ -27960,8 +27964,8 @@
             51.1886051
           ],
           [
-            5.3737822,
-            51.1875953
+            5.3737634,
+            51.1876003
           ]
         ]
       }
@@ -27971,8 +27975,9 @@
       "id": "way/331858676",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
-        "tracktype": "grade2",
+        "smoothness": "bad",
+        "surface": "ground",
+        "tracktype": "grade3",
         "id": "way/331858676"
       },
       "geometry": {
@@ -29003,16 +29008,17 @@
       "id": "way/348380414",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
-        "tracktype": "grade2",
+        "smoothness": "bad",
+        "surface": "ground",
+        "tracktype": "grade3",
         "id": "way/348380414"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.3737822,
-            51.1875953
+            5.3737634,
+            51.1876003
           ],
           [
             5.3738788,
@@ -29859,8 +29865,8 @@
             51.1599234
           ],
           [
-            5.3684363,
-            51.1601221
+            5.3684221,
+            51.1600754
           ]
         ]
       }
@@ -31628,6 +31634,7 @@
       "id": "way/373808369",
       "properties": {
         "highway": "residential",
+        "maxspeed": "70",
         "name": "Bosstraat",
         "surface": "asphalt",
         "id": "way/373808369"
@@ -31644,32 +31651,12 @@
             51.1600615
           ],
           [
-            5.3687109,
-            51.1600171
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/373808373",
-      "properties": {
-        "cycleway": "track",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Vlasmeerstraat",
-        "id": "way/373808373"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3687109,
-            51.1600171
+            5.3687433,
+            51.1600481
           ],
           [
-            5.3684363,
-            51.1601221
+            5.368712,
+            51.1600181
           ]
         ]
       }
@@ -32394,8 +32381,9 @@
       "id": "way/378804592",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
-        "tracktype": "grade2",
+        "smoothness": "bad",
+        "surface": "ground",
+        "tracktype": "grade3",
         "id": "way/378804592"
       },
       "geometry": {
@@ -32404,6 +32392,10 @@
           [
             5.3738788,
             51.1866262
+          ],
+          [
+            5.3743731,
+            51.1849897
           ],
           [
             5.3743811,
@@ -43533,6 +43525,52 @@
           [
             5.115479,
             50.6291069
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1453360033",
+      "properties": {
+        "highway": "cycleway",
+        "name": "Bosstraat",
+        "surface": "asphalt",
+        "id": "way/1453360033"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.368672,
+            51.1599776
+          ],
+          [
+            5.3684221,
+            51.1600754
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1453360034",
+      "properties": {
+        "highway": "cycleway",
+        "name": "Bosstraat",
+        "surface": "asphalt",
+        "id": "way/1453360034"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.368712,
+            51.1600181
+          ],
+          [
+            5.368672,
+            51.1599776
           ]
         ]
       }
