@@ -3063,7 +3063,9 @@
       "properties": {
         "highway": "residential",
         "junction": "roundabout",
+        "maxspeed": "50",
         "name": "Van Dammedreef",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/39128403"
       },
       "geometry": {
@@ -3086,8 +3088,10 @@
       "properties": {
         "highway": "residential",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Van Dammedreef",
         "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/39128405"
       },
       "geometry": {
@@ -7543,8 +7547,10 @@
       "properties": {
         "highway": "residential",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Van Dammedreef",
         "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/252115543"
       },
       "geometry": {
@@ -9299,8 +9305,10 @@
       "properties": {
         "highway": "residential",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Van Dammedreef",
         "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/356004766"
       },
       "geometry": {
@@ -12622,8 +12630,10 @@
       "properties": {
         "highway": "residential",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Van Dammedreef",
         "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/1351550938"
       },
       "geometry": {
@@ -14111,7 +14121,7 @@
         "maxspeed": "50",
         "name": "Kounterstraat",
         "sidewalk": "right",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/5735257"
@@ -16827,7 +16837,7 @@
         "lane_markings": "no",
         "maxspeed": "50",
         "name": "Kewithstraat",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/29892827"
@@ -22579,7 +22589,7 @@
       "properties": {
         "highway": "service",
         "maxspeed": "30",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/35442634"
@@ -25455,7 +25465,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Aan De Engelse Hof",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/48839500"
@@ -25481,7 +25491,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Aan De Engelse Hof",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/48839501"
@@ -54567,7 +54577,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Blookbergstraat",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/607144751"
@@ -64930,7 +64940,7 @@
       "properties": {
         "highway": "service",
         "maxspeed": "30",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1154977292"
@@ -74366,10 +74376,9 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "30",
-        "maxspeed:type": "BE-VLG:urban",
         "name": "Kloosterbeekstraat",
         "sidewalk": "no",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "source:width": "ARCore",
         "surface": "asphalt",
         "width": "7.4",
@@ -74415,7 +74424,7 @@
         "oneway": "no",
         "sidewalk": "no",
         "smoothness": "good",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "source:width": "ARCore",
         "surface": "asphalt",
         "traffic_sign": "BE:C21",
@@ -75977,7 +75986,7 @@
       "properties": {
         "highway": "residential",
         "lane_markings": "no",
-        "maxspeed:type": "BE-VLG:urban",
+        "maxspeed": "30",
         "maxweight": "5",
         "maxweight:conditional": "none @ delivery",
         "name": "Borggravevijversstraat",
@@ -78533,10 +78542,9 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "30",
-        "maxspeed:type": "BE-VLG:urban",
         "name": "Kloosterbeekstraat",
         "sidewalk": "no",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "source:width": "ARCore",
         "surface": "asphalt",
         "width": "5",
@@ -78686,12 +78694,12 @@
       "properties": {
         "highway": "residential",
         "lane_markings": "no",
-        "maxspeed:type": "BE-VLG:urban",
+        "maxspeed": "30",
         "maxweight": "5",
         "maxweight:conditional": "none @ delivery",
         "name": "Borggravevijversstraat",
         "smoothness": "intermediate",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "source:width": "ARCore",
         "surface": "asphalt",
         "traffic_sign": "BE:C21",

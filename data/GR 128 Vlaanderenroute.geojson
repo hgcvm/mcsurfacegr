@@ -4980,7 +4980,7 @@
         "name": "Negenbunderspad",
         "segregated": "no",
         "smoothness": "intermediate",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "traffic_sign": "F99c",
         "width": "1",
@@ -66163,7 +66163,7 @@
         "maxspeed": "30",
         "name": "Kasteelstraat",
         "sidewalk": "both",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/129367464"
@@ -79160,7 +79160,7 @@
         "maxspeed": "50",
         "name": "Oude Kortrijkstraat",
         "name:etymology:wikidata": "Q12995; Q21767298",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "width": "4.5",
         "zone:traffic": "BE-VLG:rural",
@@ -84196,7 +84196,7 @@
         "highway": "unclassified",
         "maxspeed": "50",
         "name": "Knipke",
-        "source:maxspeed": "traffic_sign",
+        "source:maxspeed": "sign",
         "id": "way/224334628"
       },
       "geometry": {
@@ -86742,7 +86742,7 @@
         "name": "Engelbamp",
         "sidewalk": "no",
         "smoothness": "intermediate",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/263887154"
@@ -93293,7 +93293,7 @@
         "maxspeed": "30",
         "name": "Kasteelstraat",
         "sidewalk": "both",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/343986560"
@@ -125441,7 +125441,7 @@
         "maxspeed": "50",
         "name": "Weerterstraat",
         "smoothness": "intermediate",
-        "source:maxspeed": "BE-VLG:zone50",
+        "source:maxspeed": "BE:zone50",
         "surface": "concrete",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/1008180423"
@@ -151115,6 +151115,7 @@
         "maxspeed": "30",
         "name": "Bellekindstraete",
         "surface": "asphalt",
+        "zone:maxspeed": "FR:30",
         "id": "way/81159788"
       },
       "geometry": {
@@ -151474,8 +151475,16 @@
             50.7392295
           ],
           [
-            2.7761091,
+            2.7760388,
+            50.7391137
+          ],
+          [
+            2.7761268,
             50.7390113
+          ],
+          [
+            2.7762558,
+            50.7389123
           ],
           [
             2.7763838,
@@ -152747,6 +152756,7 @@
         "oneway:bicycle": "no",
         "ref:FR:FANTOIR": "590430610L",
         "surface": "asphalt",
+        "zone:maxspeed": "FR:30",
         "id": "way/119401860"
       },
       "geometry": {
@@ -154031,6 +154041,7 @@
         "name": "Rue d'Ypres",
         "ref": "D 23",
         "surface": "asphalt",
+        "zone:maxspeed": "FR:30",
         "id": "way/328548831"
       },
       "geometry": {
@@ -154081,6 +154092,7 @@
         "name": "Rue d'Ypres",
         "ref": "D 23",
         "surface": "asphalt",
+        "zone:maxspeed": "FR:30",
         "id": "way/328548832"
       },
       "geometry": {
@@ -154656,70 +154668,6 @@
           [
             2.7436077,
             50.7385762
-          ],
-          [
-            2.7435069,
-            50.7385982
-          ],
-          [
-            2.7430328,
-            50.7386899
-          ],
-          [
-            2.7429745,
-            50.7387003
-          ],
-          [
-            2.7429289,
-            50.7387064
-          ],
-          [
-            2.7428819,
-            50.7387103
-          ],
-          [
-            2.742839,
-            50.7387124
-          ],
-          [
-            2.7427787,
-            50.7387168
-          ],
-          [
-            2.7427284,
-            50.7387202
-          ],
-          [
-            2.7426831,
-            50.738726
-          ],
-          [
-            2.7426318,
-            50.7387323
-          ],
-          [
-            2.7422275,
-            50.7387943
-          ],
-          [
-            2.7421189,
-            50.7388165
-          ],
-          [
-            2.7420585,
-            50.7388327
-          ],
-          [
-            2.7420082,
-            50.738849
-          ],
-          [
-            2.741923,
-            50.7388802
-          ],
-          [
-            2.7418691,
-            50.7389
           ]
         ]
       }
@@ -154923,6 +154871,7 @@
         "ref": "D 933",
         "ref:FR:FANTOIR": "590430256B",
         "surface": "asphalt",
+        "zone:maxspeed": "FR:30",
         "id": "way/674211599"
       },
       "geometry": {
@@ -155088,6 +155037,7 @@
         "ref": "D 933",
         "ref:FR:FANTOIR": "590430256B",
         "surface": "asphalt",
+        "zone:maxspeed": "FR:30",
         "id": "way/940304121"
       },
       "geometry": {
@@ -155271,7 +155221,7 @@
       "id": "way/1180142234",
       "properties": {
         "highway": "track",
-        "tracktype": "grade1",
+        "tracktype": "grade2",
         "id": "way/1180142234"
       },
       "geometry": {
@@ -155483,6 +155433,94 @@
           [
             2.7762126,
             50.7532881
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1453740164",
+      "properties": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "name": "Bellekindstraete",
+        "name:fr": "Bellekindstraete",
+        "name:nl": "Bellekyndstrate",
+        "surface": "asphalt",
+        "zone:maxspeed": "FR:30",
+        "id": "way/1453740164"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7436077,
+            50.7385762
+          ],
+          [
+            2.7435069,
+            50.7385982
+          ],
+          [
+            2.7430328,
+            50.7386899
+          ],
+          [
+            2.7429745,
+            50.7387003
+          ],
+          [
+            2.7429289,
+            50.7387064
+          ],
+          [
+            2.7428819,
+            50.7387103
+          ],
+          [
+            2.742839,
+            50.7387124
+          ],
+          [
+            2.7427787,
+            50.7387168
+          ],
+          [
+            2.7427284,
+            50.7387202
+          ],
+          [
+            2.7426831,
+            50.738726
+          ],
+          [
+            2.7426318,
+            50.7387323
+          ],
+          [
+            2.7422275,
+            50.7387943
+          ],
+          [
+            2.7421189,
+            50.7388165
+          ],
+          [
+            2.7420585,
+            50.7388327
+          ],
+          [
+            2.7420082,
+            50.738849
+          ],
+          [
+            2.741923,
+            50.7388802
+          ],
+          [
+            2.7418691,
+            50.7389
           ]
         ]
       }
@@ -168756,7 +168794,7 @@
         "maxspeed": "30",
         "name": "Tichelrijstraat",
         "sidewalk": "both",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/29042834"
@@ -168788,7 +168826,7 @@
         "maxspeed": "30",
         "name": "Nieuwpoort",
         "sidewalk": "both",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/29043060"
@@ -169629,7 +169667,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "sidewalk": "both",
-        "source:maxspeed": "BE-VLG:zone30",
+        "source:maxspeed": "BE:zone30",
         "surface": "paving_stones",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/126786287"
