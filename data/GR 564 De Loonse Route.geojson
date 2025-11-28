@@ -3972,8 +3972,11 @@
       "id": "way/48161754",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Hoog Kattenbos",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/48161754"
       },
       "geometry": {
@@ -8458,7 +8461,9 @@
         "name:etymology:wikidata": "Q743236",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/132005701"
       },
       "geometry": {
@@ -8467,6 +8472,10 @@
           [
             5.3158578,
             51.2102309
+          ],
+          [
+            5.3158274,
+            51.2103404
           ],
           [
             5.3157758,
@@ -8531,14 +8540,6 @@
           [
             5.314537,
             51.2116034
-          ],
-          [
-            5.3130445,
-            51.2115308
-          ],
-          [
-            5.3129589,
-            51.2115266
           ]
         ]
       }
@@ -36024,9 +36025,12 @@
       "id": "way/654877435",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Oude Diestersebaan",
         "name:etymology:wikidata": "Q743236",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/654877435"
       },
       "geometry": {
@@ -43571,6 +43575,39 @@
           [
             5.368672,
             51.1599776
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1454110288",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "50",
+        "name": "Oude Diestersebaan",
+        "name:etymology:wikidata": "Q743236",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "source:maxspeed": "sign",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1454110288"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.314537,
+            51.2116034
+          ],
+          [
+            5.3130445,
+            51.2115308
+          ],
+          [
+            5.3129589,
+            51.2115266
           ]
         ]
       }
