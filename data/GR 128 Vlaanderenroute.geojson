@@ -30599,12 +30599,20 @@
             50.9291605
           ],
           [
+            4.7168765,
+            50.9292707
+          ],
+          [
             4.716861,
             50.929282
           ],
           [
             4.7166819,
             50.9293985
+          ],
+          [
+            4.716554,
+            50.9294645
           ],
           [
             4.7163579,
@@ -30621,6 +30629,10 @@
           [
             4.7159378,
             50.9297037
+          ],
+          [
+            4.7159085,
+            50.9297125
           ],
           [
             4.7157564,
@@ -158891,8 +158903,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7407144,
-            51.0571069
+            3.7407417,
+            51.0571126
           ],
           [
             3.7407956,
@@ -158903,16 +158915,8 @@
             51.0571662
           ],
           [
-            3.7413581,
-            51.0571794
-          ],
-          [
-            3.7415106,
-            51.057187
-          ],
-          [
-            3.7416116,
-            51.0571934
+            3.7412446,
+            51.0571753
           ]
         ]
       }
@@ -159280,6 +159284,8 @@
       "id": "way/708085759",
       "properties": {
         "bicycle": "designated",
+        "crossing:markings": "dots",
+        "cycleway": "crossing",
         "cycleway:surface": "asphalt",
         "foot": "designated",
         "footway:surface": "paving_stones",
@@ -159296,24 +159302,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7407144,
-            51.0571069
+            3.7407402,
+            51.0570861
           ],
           [
-            3.7407145,
-            51.0570994
-          ],
-          [
-            3.7407149,
+            3.7407386,
             51.0570631
           ],
           [
-            3.740714,
-            51.0570463
+            3.7407377,
+            51.0570474
           ],
           [
-            3.7407119,
-            51.0569877
+            3.7407219,
+            51.0570109
           ]
         ]
       }
@@ -160857,8 +160859,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7416116,
-            51.0571934
+            3.741683,
+            51.0572044
+          ],
+          [
+            3.7416906,
+            51.0572056
           ],
           [
             3.7417683,
@@ -160962,6 +160968,133 @@
           [
             3.7969241,
             51.0539844
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1455886828",
+      "properties": {
+        "bicycle": "designated",
+        "cycleway": "traffic_island",
+        "cycleway:surface": "asphalt",
+        "foot": "designated",
+        "footway:surface": "paving_stones",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "30",
+        "oneway": "no",
+        "segregated": "yes",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
+        "id": "way/1455886828"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7407417,
+            51.0571126
+          ],
+          [
+            3.7407402,
+            51.0570861
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1455886829",
+      "properties": {
+        "bicycle": "designated",
+        "cycleway:surface": "asphalt",
+        "foot": "designated",
+        "footway:surface": "paving_stones",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "30",
+        "oneway": "no",
+        "segregated": "yes",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
+        "id": "way/1455886829"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7407219,
+            51.0570109
+          ],
+          [
+            3.7407119,
+            51.0569877
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1455888782",
+      "properties": {
+        "crossing:markings": "dashes",
+        "cycleway": "crossing",
+        "highway": "cycleway",
+        "lit": "yes",
+        "maxspeed": "30",
+        "oneway": "yes",
+        "smoothness": "excellent",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
+        "width": "2m",
+        "id": "way/1455888782"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7412446,
+            51.0571753
+          ],
+          [
+            3.7413581,
+            51.0571794
+          ],
+          [
+            3.7415106,
+            51.057187
+          ],
+          [
+            3.7416116,
+            51.0571934
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1455889109",
+      "properties": {
+        "highway": "cycleway",
+        "maxspeed": "30",
+        "oneway": "yes",
+        "smoothness": "excellent",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
+        "id": "way/1455889109"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7416116,
+            51.0571934
+          ],
+          [
+            3.741683,
+            51.0572044
           ]
         ]
       }
