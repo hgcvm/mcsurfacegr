@@ -11158,6 +11158,8 @@
         "lane_markings": "no",
         "layer": "1",
         "maxlength": "10",
+        "maxlength:bus": "none",
+        "maxlength:school_bus": "none",
         "maxspeed": "30",
         "name": "Gentbruggestraat",
         "name:etymology:wikidata": "Q680916",
@@ -11187,6 +11189,8 @@
         "cycleway": "shared_lane",
         "highway": "tertiary",
         "maxlength": "10",
+        "maxlength:bus": "none",
+        "maxlength:school_bus": "none",
         "maxspeed": "30",
         "name": "Gentbruggestraat",
         "name:etymology:wikidata": "Q680916",
@@ -30441,6 +30445,10 @@
           [
             4.6924198,
             50.9565073
+          ],
+          [
+            4.6924261,
+            50.9564988
           ],
           [
             4.6925192,
@@ -52739,68 +52747,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.6325224,
-            51.0242217
-          ],
-          [
-            3.6328895,
-            51.0241118
-          ],
-          [
-            3.6330159,
-            51.0241179
-          ],
-          [
-            3.6330578,
-            51.0241183
-          ],
-          [
-            3.6331688,
-            51.0240838
-          ],
-          [
-            3.6333804,
-            51.0239924
-          ],
-          [
-            3.6335736,
-            51.023903
-          ],
-          [
-            3.6336728,
-            51.0238616
-          ],
-          [
-            3.6337535,
-            51.0236708
-          ],
-          [
-            3.6337079,
-            51.023584
-          ],
-          [
-            3.6337144,
-            51.023547
-          ],
-          [
-            3.6339397,
-            51.0234053
-          ],
-          [
-            3.6341221,
-            51.0232703
-          ],
-          [
-            3.6341867,
-            51.0232187
-          ],
-          [
-            3.6343999,
-            51.0231314
-          ],
-          [
-            3.6350447,
-            51.0228857
+            3.6351103,
+            51.0228572
           ],
           [
             3.6354632,
@@ -117348,6 +117296,8 @@
         "cycleway": "shared_lane",
         "highway": "tertiary",
         "maxlength": "10",
+        "maxlength:bus": "none",
+        "maxlength:school_bus": "none",
         "maxspeed": "30",
         "name": "Gentbruggestraat",
         "name:etymology:wikidata": "Q680916",
@@ -137595,6 +137545,151 @@
           [
             4.7602957,
             50.8354044
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1456360567",
+      "properties": {
+        "bridge": "boardwalk",
+        "highway": "footway",
+        "layer": "1",
+        "name": "Knuppelpad",
+        "surface": "wood",
+        "width": "1",
+        "id": "way/1456360567"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6328895,
+            51.0241118
+          ],
+          [
+            3.6330159,
+            51.0241179
+          ],
+          [
+            3.6330578,
+            51.0241183
+          ],
+          [
+            3.6331688,
+            51.0240838
+          ],
+          [
+            3.6333804,
+            51.0239924
+          ],
+          [
+            3.6335736,
+            51.023903
+          ],
+          [
+            3.6336728,
+            51.0238616
+          ],
+          [
+            3.6337535,
+            51.0236708
+          ],
+          [
+            3.6337079,
+            51.023584
+          ],
+          [
+            3.6337144,
+            51.023547
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1456360568",
+      "properties": {
+        "highway": "footway",
+        "name": "Knuppelpad",
+        "surface": "fine_gravel",
+        "id": "way/1456360568"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6325224,
+            51.0242217
+          ],
+          [
+            3.6328895,
+            51.0241118
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1456362798",
+      "properties": {
+        "highway": "footway",
+        "name": "Knuppelpad",
+        "surface": "fine_gravel",
+        "id": "way/1456362798"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6337144,
+            51.023547
+          ],
+          [
+            3.6339397,
+            51.0234053
+          ],
+          [
+            3.6341221,
+            51.0232703
+          ],
+          [
+            3.6341618,
+            51.0232367
+          ],
+          [
+            3.6343999,
+            51.0231314
+          ],
+          [
+            3.6346086,
+            51.0230509
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1456362799",
+      "properties": {
+        "bridge": "boardwalk",
+        "highway": "footway",
+        "layer": "1",
+        "name": "Knuppelpad",
+        "surface": "wood",
+        "id": "way/1456362799"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6346086,
+            51.0230509
+          ],
+          [
+            3.6351103,
+            51.0228572
           ]
         ]
       }
@@ -159109,6 +159204,7 @@
       "id": "way/579642686",
       "properties": {
         "bicycle": "designated",
+        "crossing:markings": "dots",
         "cycleway": "crossing",
         "foot": "designated",
         "footway:surface": "paving_stones",
@@ -159124,20 +159220,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7386543,
-            51.05594
-          ],
-          [
-            3.7387125,
-            51.0559444
-          ],
-          [
-            3.7387734,
-            51.0559491
-          ],
-          [
-            3.7388548,
-            51.0559552
+            3.7389191,
+            51.055967
           ],
           [
             3.7389662,
@@ -159515,32 +159599,8 @@
             51.0561687
           ],
           [
-            3.7392066,
-            51.0561881
-          ],
-          [
-            3.7392819,
-            51.056205
-          ],
-          [
-            3.7394332,
-            51.0562353
-          ],
-          [
-            3.7395553,
-            51.05628
-          ],
-          [
-            3.739633,
-            51.056315
-          ],
-          [
-            3.7397169,
-            51.0563652
-          ],
-          [
-            3.7397765,
-            51.056414
+            3.7391995,
+            51.0561854
           ]
         ]
       }
@@ -161095,6 +161155,188 @@
           [
             3.741683,
             51.0572044
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1456284119",
+      "properties": {
+        "bicycle": "designated",
+        "cycleway": "lane",
+        "foot": "designated",
+        "footway:surface": "paving_stones",
+        "highway": "cycleway",
+        "lit": "yes",
+        "maxspeed": "30",
+        "oneway": "no",
+        "segregated": "yes",
+        "source:maxspeed": "BE:zone30",
+        "id": "way/1456284119"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7386543,
+            51.05594
+          ],
+          [
+            3.7387125,
+            51.0559444
+          ],
+          [
+            3.7387211,
+            51.0559451
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1456284120",
+      "properties": {
+        "bicycle": "designated",
+        "crossing:markings": "dots",
+        "cycleway": "crossing",
+        "foot": "designated",
+        "footway:surface": "paving_stones",
+        "highway": "cycleway",
+        "lit": "yes",
+        "maxspeed": "30",
+        "oneway": "no",
+        "segregated": "yes",
+        "source:maxspeed": "BE:zone30",
+        "id": "way/1456284120"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7387211,
+            51.0559451
+          ],
+          [
+            3.7387734,
+            51.0559491
+          ],
+          [
+            3.7388152,
+            51.0559522
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1456284121",
+      "properties": {
+        "bicycle": "designated",
+        "cycleway": "traffic_island",
+        "foot": "designated",
+        "footway:surface": "paving_stones",
+        "highway": "cycleway",
+        "lit": "yes",
+        "maxspeed": "30",
+        "oneway": "no",
+        "segregated": "yes",
+        "source:maxspeed": "BE:zone30",
+        "id": "way/1456284121"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7388152,
+            51.0559522
+          ],
+          [
+            3.7388548,
+            51.0559552
+          ],
+          [
+            3.7389191,
+            51.055967
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1456391679",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "maxspeed": "30",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "paving_stones",
+        "id": "way/1456391679"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7393639,
+            51.0562214
+          ],
+          [
+            3.7394332,
+            51.0562353
+          ],
+          [
+            3.7395553,
+            51.05628
+          ],
+          [
+            3.739633,
+            51.056315
+          ],
+          [
+            3.7397169,
+            51.0563652
+          ],
+          [
+            3.739725,
+            51.0563719
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1456391686",
+      "properties": {
+        "crossing:markings": "dashes",
+        "cycleway": "crossing",
+        "highway": "cycleway",
+        "lit": "yes",
+        "maxspeed": "30",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "paving_stones",
+        "width": "2.8m",
+        "id": "way/1456391686"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7391995,
+            51.0561854
+          ],
+          [
+            3.7392066,
+            51.0561881
+          ],
+          [
+            3.7392819,
+            51.056205
+          ],
+          [
+            3.7393639,
+            51.0562214
           ]
         ]
       }

@@ -14042,7 +14042,9 @@
       "type": "Feature",
       "id": "way/39586782",
       "properties": {
+        "cycleway": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Borgveldstraat",
         "surface": "concrete",
         "id": "way/39586782"
@@ -14051,8 +14053,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0505618,
-            50.9135218
+            5.0505564,
+            50.9135176
           ],
           [
             5.0495288,
@@ -14065,12 +14067,11 @@
       "type": "Feature",
       "id": "way/39586808",
       "properties": {
-        "access": "agricultural",
         "highway": "track",
         "name": "Voetweg 59",
         "smoothness": "very_bad",
-        "surface": "compacted",
-        "tracktype": "grade3",
+        "surface": "dirt",
+        "tracktype": "grade4",
         "width": "2",
         "id": "way/39586808"
       },
@@ -14078,20 +14079,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0505618,
-            50.9135218
+            5.0505564,
+            50.9135176
           ],
           [
-            5.0489164,
-            50.9152365
+            5.048903,
+            50.9152255
           ],
           [
-            5.0487956,
-            50.9153596
+            5.0487835,
+            50.9153418
           ],
           [
-            5.0487045,
-            50.915394
+            5.0487407,
+            50.9153712
           ]
         ]
       }
@@ -14100,10 +14101,7 @@
       "type": "Feature",
       "id": "way/39586899",
       "properties": {
-        "bicycle": "no",
-        "foot": "yes",
         "highway": "path",
-        "horse": "no",
         "name": "Voetweg 59",
         "surface": "grass",
         "width": "0.5",
@@ -14129,8 +14127,8 @@
             50.9186772
           ],
           [
-            5.0476959,
-            50.9186553
+            5.047663,
+            50.9186519
           ],
           [
             5.0477774,
@@ -14147,7 +14145,9 @@
       "type": "Feature",
       "id": "way/39587012",
       "properties": {
+        "cycleway": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "70",
         "name": "Liefkensrode",
         "surface": "asphalt",
@@ -14172,11 +14172,9 @@
       "type": "Feature",
       "id": "way/39587013",
       "properties": {
-        "bicycle": "no",
-        "foot": "yes",
         "highway": "path",
         "name": "Voetweg 59",
-        "surface": "grass",
+        "surface": "dirt",
         "width": "1",
         "id": "way/39587013"
       },
@@ -14188,16 +14186,20 @@
             50.9228094
           ],
           [
-            5.0448255,
-            50.9227411
+            5.0448684,
+            50.9227453
           ],
           [
-            5.0480101,
-            50.919944
+            5.045329,
+            50.9223482
           ],
           [
-            5.0480757,
-            50.9198785
+            5.0464421,
+            50.9213573
+          ],
+          [
+            5.0472061,
+            50.9206652
           ]
         ]
       }
@@ -34394,7 +34396,9 @@
       "type": "Feature",
       "id": "way/356840813",
       "properties": {
+        "cycleway": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Borgveldstraat",
         "smoothness": "good",
@@ -37229,8 +37233,9 @@
       "id": "way/402014840",
       "properties": {
         "highway": "track",
+        "motor_vehicle": "no",
         "name": "Voetweg 59",
-        "surface": "ground",
+        "surface": "dirt",
         "tracktype": "grade4",
         "width": "1",
         "id": "way/402014840"
@@ -37239,24 +37244,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.0487045,
-            50.915394
+            5.0487407,
+            50.9153712
           ],
           [
-            5.0487191,
-            50.9154583
+            5.0487567,
+            50.9154456
           ],
           [
-            5.0487088,
-            50.9155325
+            5.0487517,
+            50.9155224
           ],
           [
-            5.0481996,
-            50.9165046
+            5.0486845,
+            50.9156936
           ],
           [
-            5.0479671,
-            50.9169484
+            5.0481486,
+            50.9166796
+          ],
+          [
+            5.0479537,
+            50.9170634
           ],
           [
             5.0478214,
@@ -49581,6 +49590,60 @@
           [
             4.8631106,
             50.9783571
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1456338315",
+      "properties": {
+        "bridge": "yes",
+        "highway": "path",
+        "layer": "1",
+        "name": "Voetweg 59",
+        "surface": "wood",
+        "width": "1",
+        "id": "way/1456338315"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0472061,
+            50.9206652
+          ],
+          [
+            5.0472451,
+            50.9206298
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1456338316",
+      "properties": {
+        "highway": "path",
+        "name": "Voetweg 59",
+        "surface": "dirt",
+        "width": "1",
+        "id": "way/1456338316"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.0472451,
+            50.9206298
+          ],
+          [
+            5.0480101,
+            50.919944
+          ],
+          [
+            5.0480757,
+            50.9198785
           ]
         ]
       }
