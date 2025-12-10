@@ -394,7 +394,7 @@
         "maxspeed": "30",
         "name": "Kasteelstraat",
         "overtaking:motor_vehicle": "no",
-        "surface": "paving_stones",
+        "surface": "cobblestone",
         "id": "way/23983906"
       },
       "geometry": {
@@ -1374,6 +1374,7 @@
       "id": "way/41727186",
       "properties": {
         "highway": "cycleway",
+        "is_sidepath": "yes",
         "oneway": "yes",
         "surface": "concrete",
         "id": "way/41727186"
@@ -9324,38 +9325,6 @@
           [
             2.8590102,
             51.0344649
-          ],
-          [
-            2.8590491,
-            51.0344106
-          ],
-          [
-            2.8591498,
-            51.0343193
-          ],
-          [
-            2.8592868,
-            51.0342357
-          ],
-          [
-            2.8593736,
-            51.0341794
-          ],
-          [
-            2.8594427,
-            51.034096
-          ],
-          [
-            2.8595835,
-            51.0340096
-          ],
-          [
-            2.8596767,
-            51.0339531
-          ],
-          [
-            2.859745,
-            51.0339249
           ]
         ]
       }
@@ -24006,6 +23975,7 @@
       "id": "way/428271369",
       "properties": {
         "highway": "cycleway",
+        "is_sidepath": "yes",
         "oneway": "yes",
         "surface": "concrete",
         "id": "way/428271369"
@@ -30965,6 +30935,7 @@
       "id": "way/1069663491",
       "properties": {
         "highway": "cycleway",
+        "is_sidepath": "yes",
         "oneway": "yes",
         "surface": "concrete",
         "id": "way/1069663491"
@@ -34164,6 +34135,60 @@
           [
             3.0628513,
             51.0785769
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1457139079",
+      "properties": {
+        "cyclestreet": "yes",
+        "highway": "unclassified",
+        "maxspeed": "30",
+        "name": "Beerstblotestraat",
+        "overtaking:motor_vehicle": "no",
+        "surface": "cobblestone",
+        "id": "way/1457139079"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8590102,
+            51.0344649
+          ],
+          [
+            2.8590491,
+            51.0344106
+          ],
+          [
+            2.8591498,
+            51.0343193
+          ],
+          [
+            2.8592868,
+            51.0342357
+          ],
+          [
+            2.8593736,
+            51.0341794
+          ],
+          [
+            2.8594427,
+            51.034096
+          ],
+          [
+            2.8595835,
+            51.0340096
+          ],
+          [
+            2.8596767,
+            51.0339531
+          ],
+          [
+            2.859745,
+            51.0339249
           ]
         ]
       }
