@@ -1505,12 +1505,16 @@
       "properties": {
         "bicycle": "use_sidepath",
         "cycleway": "separate",
+        "foot": "use_sidepath",
         "highway": "tertiary",
+        "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Vijfde Liniestraat",
+        "oneway": "no",
+        "sidewalk": "separate",
         "source:maxspeed": "BE-VLG:urban",
-        "surface": "asphalt",
+        "surface": "concrete:plates",
         "width": "5",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/13899343"
@@ -1685,11 +1689,12 @@
       "type": "Feature",
       "id": "way/14329668",
       "properties": {
+        "foot": "use_sidepath",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Schotelveldstraat",
-        "sidewalk": "both",
+        "sidewalk": "separate",
         "surface": "asphalt",
         "id": "way/14329668"
       },
@@ -1943,11 +1948,12 @@
       "type": "Feature",
       "id": "way/15220372",
       "properties": {
+        "foot": "use_sidepath",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Durasstraat",
-        "sidewalk": "both",
+        "sidewalk": "separate",
         "source": "bing",
         "surface": "asphalt",
         "id": "way/15220372"
@@ -2763,6 +2769,10 @@
             50.884677
           ],
           [
+            4.7148124,
+            50.8846028
+          ],
+          [
             4.7147099,
             50.8845928
           ],
@@ -2797,6 +2807,14 @@
           [
             4.7139223,
             50.8848567
+          ],
+          [
+            4.7138334,
+            50.8848943
+          ],
+          [
+            4.7137864,
+            50.8849143
           ],
           [
             4.7099274,
@@ -3131,11 +3149,12 @@
       "type": "Feature",
       "id": "way/23002043",
       "properties": {
+        "foot": "use_sidepath",
         "highway": "residential",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Schotelveldstraat",
-        "sidewalk": "both",
+        "sidewalk": "separate",
         "surface": "asphalt",
         "id": "way/23002043"
       },
@@ -13383,9 +13402,16 @@
       "properties": {
         "bicycle": "use_sidepath",
         "cycleway": "separate",
+        "foot": "use_sidepath",
         "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Vijfde Liniestraat",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "surface": "concrete:plates",
+        "width": "5",
         "id": "way/37712783"
       },
       "geometry": {
@@ -13408,12 +13434,15 @@
       "properties": {
         "bicycle": "use_sidepath",
         "cycleway": "separate",
-        "cycleway:surface": "paving_stones",
+        "foot": "use_sidepath",
         "highway": "tertiary",
+        "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Vijfde Liniestraat",
-        "surface": "concrete",
+        "oneway": "no",
+        "surface": "concrete:plates",
+        "width": "5",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/37712813"
       },
@@ -13435,18 +13464,6 @@
           [
             4.7014312,
             50.9471927
-          ],
-          [
-            4.7019292,
-            50.9474674
-          ],
-          [
-            4.7020581,
-            50.9475304
-          ],
-          [
-            4.7022597,
-            50.9475972
           ]
         ]
       }
@@ -15000,6 +15017,7 @@
         "bicycle": "use_sidepath",
         "cycleway": "separate",
         "cycleway:surface": "paving_stones",
+        "foot": "use_sidepath",
         "highway": "tertiary",
         "lane_markings": "no",
         "maxspeed": "70",
@@ -15028,14 +15046,18 @@
         "bicycle": "use_sidepath",
         "bridge": "yes",
         "cycleway": "separate",
+        "foot": "use_sidepath",
         "highway": "tertiary",
+        "lanes": "2",
         "layer": "1",
         "lit": "yes",
         "maxspeed": "50",
         "maxweight:signed": "no",
         "name": "Vijfde Liniestraat",
+        "oneway": "no",
+        "sidewalk": "separate",
         "source:maxspeed": "BE-VLG:urban",
-        "surface": "asphalt",
+        "surface": "concrete:plates",
         "width": "5",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/38157093"
@@ -15189,9 +15211,11 @@
       "type": "Feature",
       "id": "way/38159021",
       "properties": {
+        "foot": "use_sidepath",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Oude Aarschotseweg",
+        "sidewalk": "separate",
         "source": "bing",
         "id": "way/38159021"
       },
@@ -15268,12 +15292,14 @@
       "type": "Feature",
       "id": "way/38159441",
       "properties": {
+        "foot": "use_sidepath",
         "highway": "residential",
         "lanes": "2",
         "maxspeed": "30",
         "name": "Bosstraat",
         "noexit": "yes",
         "parking:both:restriction": "no_parking",
+        "sidewalk": "separate",
         "surface": "asphalt",
         "id": "way/38159441"
       },
@@ -15359,9 +15385,11 @@
       "type": "Feature",
       "id": "way/38197870",
       "properties": {
+        "foot": "use_sidepath",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Puttebroekstraat",
+        "sidewalk": "separate",
         "surface": "asphalt",
         "width": "5",
         "id": "way/38197870"
@@ -23835,13 +23863,17 @@
       "properties": {
         "bicycle": "use_sidepath",
         "cycleway": "separate",
+        "foot": "use_sidepath",
         "highway": "tertiary",
-        "lane_markings": "no",
+        "lane_markings": "yes",
+        "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Vijfde Liniestraat",
+        "oneway": "no",
+        "sidewalk": "separate",
         "source:maxspeed": "BE-VLG:urban",
-        "surface": "asphalt",
+        "surface": "concrete:plates",
         "width": "5",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/100073142"
@@ -23867,13 +23899,17 @@
         "bicycle": "use_sidepath",
         "bridge": "yes",
         "cycleway": "separate",
+        "foot": "use_sidepath",
         "highway": "tertiary",
+        "lanes": "2",
         "layer": "1",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Vijfde Liniestraat",
+        "oneway": "no",
+        "sidewalk": "separate",
         "source:maxspeed": "BE-VLG:urban",
-        "surface": "asphalt",
+        "surface": "concrete:plates",
         "width": "5",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/100073150"
@@ -23882,12 +23918,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7029707,
-            50.9477569
-          ],
-          [
             4.7031661,
             50.9477874
+          ],
+          [
+            4.7029707,
+            50.9477569
           ]
         ]
       }
@@ -38954,11 +38990,13 @@
       "type": "Feature",
       "id": "way/658907062",
       "properties": {
+        "foot": "use_sidepath",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Bosstraat",
         "noexit": "yes",
         "parking:right:restriction": "no_parking",
+        "sidewalk": "separate",
         "id": "way/658907062"
       },
       "geometry": {
@@ -39186,9 +39224,11 @@
       "type": "Feature",
       "id": "way/663909833",
       "properties": {
+        "foot": "use_sidepath",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Puttebroekstraat",
+        "sidewalk": "separate",
         "surface": "asphalt",
         "width": "5",
         "id": "way/663909833"
@@ -44843,12 +44883,14 @@
       "type": "Feature",
       "id": "way/1248299345",
       "properties": {
+        "foot": "use_sidepath",
         "highway": "residential",
         "lanes": "2",
         "maxspeed": "30",
         "name": "Bosstraat",
         "noexit": "yes",
         "parking:left:restriction": "no_parking",
+        "sidewalk": "separate",
         "surface": "asphalt",
         "id": "way/1248299345"
       },
@@ -44874,12 +44916,14 @@
       "type": "Feature",
       "id": "way/1248299346",
       "properties": {
+        "foot": "use_sidepath",
         "highway": "residential",
         "lanes": "2",
         "maxspeed": "30",
         "name": "Bosstraat",
         "noexit": "yes",
         "parking:both:restriction": "no_parking",
+        "sidewalk": "separate",
         "surface": "asphalt",
         "id": "way/1248299346"
       },
@@ -45647,12 +45691,16 @@
       "properties": {
         "bicycle": "use_sidepath",
         "cycleway": "separate",
+        "foot": "use_sidepath",
         "highway": "tertiary",
+        "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Vijfde Liniestraat",
+        "oneway": "no",
+        "sidewalk": "separate",
         "source:maxspeed": "BE-VLG:urban",
-        "surface": "asphalt",
+        "surface": "concrete:plates",
         "width": "5",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1420514894"
@@ -45813,6 +45861,47 @@
           [
             4.488319,
             51.0235153
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1458135039",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "cycleway": "separate",
+        "foot": "use_sidepath",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vijfde Liniestraat",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "surface": "concrete:plates",
+        "width": "5",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1458135039"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7014312,
+            50.9471927
+          ],
+          [
+            4.7019292,
+            50.9474674
+          ],
+          [
+            4.7020581,
+            50.9475304
+          ],
+          [
+            4.7022597,
+            50.9475972
           ]
         ]
       }
