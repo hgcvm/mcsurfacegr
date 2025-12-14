@@ -718,10 +718,12 @@
       "type": "Feature",
       "id": "way/13856504",
       "properties": {
+        "foot": "use_sidepath",
         "highway": "residential",
         "maxspeed": "50",
         "maxweight": "2.5",
         "name": "Pieter Verhaeghenlaan",
+        "sidewalk": "separate",
         "surface": "asphalt",
         "id": "way/13856504"
       },
@@ -1344,6 +1346,10 @@
         "name": "Herbeemdpad",
         "oneway": "no",
         "segregated": "no",
+        "smokefree": "yes",
+        "smoking": "no",
+        "smoking:cannabis": "no",
+        "smoking:outside": "no",
         "surface": "asphalt",
         "vehicle": "no",
         "id": "way/18092708"
@@ -2408,6 +2414,10 @@
         "name": "Bruineveldpad",
         "oneway": "no",
         "segregated": "no",
+        "smokefree": "yes",
+        "smoking": "no",
+        "smoking:cannabis": "no",
+        "smoking:outside": "no",
         "surface": "asphalt",
         "vehicle": "no",
         "id": "way/23950552"
@@ -2456,6 +2466,10 @@
         "name": "Bruineveldpad",
         "oneway": "no",
         "segregated": "no",
+        "smokefree": "yes",
+        "smoking": "no",
+        "smoking:cannabis": "no",
+        "smoking:outside": "no",
         "surface": "asphalt",
         "vehicle": "no",
         "id": "way/23950553"
@@ -12183,6 +12197,10 @@
         "foot": "yes",
         "highway": "path",
         "name": "Witte-Vrouwenpad",
+        "smokefree": "yes",
+        "smoking": "no",
+        "smoking:cannabis": "no",
+        "smoking:outside": "no",
         "surface": "compacted",
         "vehicle": "no",
         "id": "way/39352016"
@@ -34209,12 +34227,14 @@
       "id": "way/341303475",
       "properties": {
         "cycleway": "lane",
+        "foot": "use_sidepath",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Boudewijnlaan",
         "name:etymology:wikidata": "Q12976",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "separate",
         "surface": "asphalt",
         "id": "way/341303475"
       },
@@ -37422,11 +37442,13 @@
       "type": "Feature",
       "id": "way/412505096",
       "properties": {
+        "foot": "use_sidepath",
         "highway": "residential",
         "lane_markings": "no",
         "maxspeed": "50",
         "maxweight": "2",
         "name": "Antoon De Croylaan",
+        "sidewalk": "separate",
         "surface": "asphalt",
         "id": "way/412505096"
       },
@@ -49761,7 +49783,7 @@
       "properties": {
         "highway": "living_street",
         "lit": "yes",
-        "maxspeed": "30",
+        "maxspeed": "20",
         "name": "Brugstraat",
         "source": "bing",
         "surface": "asphalt",
