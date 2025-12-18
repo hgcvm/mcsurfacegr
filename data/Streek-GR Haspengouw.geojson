@@ -8134,8 +8134,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4692004,
-            50.7788467
+            5.4692071,
+            50.7788433
           ],
           [
             5.4691918,
@@ -8499,16 +8499,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4698685,
-            50.7789361
+            5.4698886,
+            50.7789196
           ],
           [
-            5.4703679,
-            50.778909
+            5.4700207,
+            50.7789191
           ],
           [
-            5.4703904,
-            50.778916
+            5.470331,
+            50.7789124
+          ],
+          [
+            5.4703964,
+            50.7789423
           ],
           [
             5.4704876,
@@ -9233,12 +9237,17 @@
       "type": "Feature",
       "id": "way/38790468",
       "properties": {
-        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
         "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
         "maxspeed": "30",
+        "motor_vehicle:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
         "name": "Stadhuisplein",
         "panoramax:streetsign": "01888e89-f88f-4123-bc21-6f56d1d8fea8",
+        "taxi": "destination",
+        "traffic_sign": "BE:F103",
+        "vehicle": "no",
         "id": "way/38790468"
       },
       "geometry": {
@@ -9267,11 +9276,15 @@
       "type": "Feature",
       "id": "way/38820556",
       "properties": {
-        "bicycle": "designated",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "path",
+        "maxspeed": "30",
         "segregated": "no",
         "speed_pedelec": "yes",
-        "surface": "paved",
+        "surface": "sett",
+        "traffic_sign": "BE:F99a",
         "id": "way/38820556"
       },
       "geometry": {
@@ -10410,11 +10423,16 @@
       "type": "Feature",
       "id": "way/346098170",
       "properties": {
-        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
         "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
         "maxspeed": "30",
+        "motor_vehicle:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
         "name": "Stadhuisplein",
+        "taxi": "destination",
+        "traffic_sign": "BE:F103",
+        "vehicle": "no",
         "id": "way/346098170"
       },
       "geometry": {
@@ -10984,10 +11002,14 @@
       "type": "Feature",
       "id": "way/729373686",
       "properties": {
-        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
-        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
+        "motor_vehicle:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
         "name": "Grote Markt",
+        "taxi": "destination",
+        "traffic_sign": "BE:F103",
+        "vehicle": "no",
         "id": "way/729373686"
       },
       "geometry": {
@@ -11500,12 +11522,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4692004,
-            50.7788467
+            5.4692071,
+            50.7788433
           ],
           [
-            5.4698685,
-            50.7789361
+            5.4698886,
+            50.7789196
           ]
         ]
       }
@@ -11699,12 +11721,17 @@
       "type": "Feature",
       "id": "way/1308449117",
       "properties": {
-        "access:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
         "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "designated",
         "highway": "pedestrian",
         "maxspeed": "30",
+        "motor_vehicle:conditional": "delivery @ (Mo-Sa 06:00-11:00,18:00-19:00)",
         "name": "Stadhuisplein",
         "panoramax:streetsign": "01888e89-f88f-4123-bc21-6f56d1d8fea8",
+        "taxi": "destination",
+        "traffic_sign": "BE:F103",
+        "vehicle": "no",
         "id": "way/1308449117"
       },
       "geometry": {
