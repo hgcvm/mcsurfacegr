@@ -108825,14 +108825,28 @@
       "type": "Feature",
       "id": "way/120551668",
       "properties": {
+        "alt_name": "Voetweg n°10",
+        "foot": "yes",
         "highway": "footway",
-        "name": "Voetweg n°10",
+        "name": "Pastorijwegel",
         "surface": "earth",
         "id": "way/120551668"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            4.2737977,
+            51.1293174
+          ],
+          [
+            4.2742514,
+            51.1294832
+          ],
+          [
+            4.2745076,
+            51.1295994
+          ],
           [
             4.2755431,
             51.1296294
@@ -109109,18 +109123,6 @@
           [
             4.2737977,
             51.1293174
-          ],
-          [
-            4.2742514,
-            51.1294832
-          ],
-          [
-            4.2745076,
-            51.1295994
-          ],
-          [
-            4.2755431,
-            51.1296294
           ]
         ]
       }
@@ -144025,8 +144027,8 @@
       "type": "Feature",
       "id": "way/423753723",
       "properties": {
-        "bicycle": "yes",
-        "cycleway": "lane",
+        "bicycle": "use_sidepath",
+        "cycleway": "separate",
         "highway": "secondary",
         "name": "Provenplein",
         "ref": "N308",
@@ -144036,10 +144038,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            2.6578699,
-            50.889326
-          ],
           [
             2.6579094,
             50.8892895
@@ -170574,6 +170572,31 @@
           [
             2.699564,
             50.8858742
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1459899189",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "secondary",
+        "name": "Provenplein",
+        "ref": "N308",
+        "surface": "asphalt",
+        "id": "way/1459899189"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.6578699,
+            50.889326
+          ],
+          [
+            2.6579094,
+            50.8892895
           ]
         ]
       }
