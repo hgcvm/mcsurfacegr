@@ -546,6 +546,7 @@
       "id": "way/35146118",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Gauwerstraat",
         "id": "way/35146118"
       },
@@ -2190,8 +2191,9 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Bombroekstraat",
-        "smoothness": "excellent",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/345366154"
       },
@@ -2229,6 +2231,10 @@
           [
             5.4077299,
             50.8702248
+          ],
+          [
+            5.4074063,
+            50.8697721
           ],
           [
             5.4073599,
@@ -28729,8 +28735,11 @@
         "foot": "yes",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "30",
         "name": "Mombeekdreef",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/62746105"
       },
       "geometry": {
@@ -33052,8 +33061,11 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Netelbroekstraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/194938569"
       },
       "geometry": {
@@ -33077,9 +33089,12 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Netelbroekstraat",
         "smoothness": "good",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/194938572"
       },
       "geometry": {
@@ -33687,11 +33702,14 @@
         "access": "destination",
         "bicycle": "yes",
         "highway": "unclassified",
+        "maxspeed": "50",
         "moped": "yes",
         "motor_vehicle:conditional": "no @ Mo-Fr 07:00-09:00,16:00-18:00",
         "name": "Luimertingenstraat",
         "smoothness": "good",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/17957510"
       },
       "geometry": {
@@ -33807,9 +33825,12 @@
         "cycleway:surface": "concrete",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Luimertingenstraat",
         "smoothness": "bad",
+        "source:maxspeed": "sign",
         "surface": "sett",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/100225794"
       },
       "geometry": {
@@ -34359,9 +34380,12 @@
         "highway": "unclassified",
         "lanes": "1",
         "layer": "1",
+        "maxspeed": "50",
         "maxweight:signed": "no",
         "name": "Luimertingenstraat",
+        "source:maxspeed": "sign",
         "surface": "cobblestone",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/447853433"
       },
       "geometry": {
