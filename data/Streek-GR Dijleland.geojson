@@ -21050,33 +21050,22 @@
     },
     {
       "type": "Feature",
-      "id": "way/80180087",
+      "id": "way/80180781",
       "properties": {
-        "highway": "path",
+        "bicycle": "no",
+        "bridge": "boardwalk",
+        "dog": "leashed",
+        "foot": "designated",
+        "highway": "boardwalk",
         "horse": "no",
+        "layer": "1",
         "name": "Bokhovenweg - Voetweg 47",
         "vehicle": "no",
-        "id": "way/80180087"
+        "id": "way/80180781"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.5730779,
-            50.9081206
-          ],
-          [
-            4.5730809,
-            50.9081792
-          ],
-          [
-            4.5729859,
-            50.9082893
-          ],
-          [
-            4.5729151,
-            50.9083326
-          ],
           [
             4.5728003,
             50.9084973
@@ -21120,44 +21109,7 @@
           [
             4.5717218,
             50.909369
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/80180781",
-      "properties": {
-        "bridge": "yes",
-        "highway": "path",
-        "name": "Voetweg 47",
-        "id": "way/80180781"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.5717218,
-            50.909369
           ],
-          [
-            4.5717077,
-            50.9093935
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/80180786",
-      "properties": {
-        "highway": "path",
-        "name": "Bokhovenweg - Voetweg 47",
-        "id": "way/80180786"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [
             4.5717077,
             50.9093935
@@ -28607,8 +28559,14 @@
       "id": "way/134835063",
       "properties": {
         "bicycle": "no",
-        "highway": "path",
+        "bridge": "boardwalk",
+        "dog": "leashed",
+        "foot": "designated",
+        "highway": "boardwalk",
+        "horse": "no",
+        "layer": "1",
         "name": "Padestraatje - Voetweg 69",
+        "vehicle": "no",
         "id": "way/134835063"
       },
       "geometry": {
@@ -45910,18 +45868,6 @@
           [
             4.4875635,
             51.0231806
-          ],
-          [
-            4.487925,
-            51.0231317
-          ],
-          [
-            4.4882023,
-            51.0232101
-          ],
-          [
-            4.4882474,
-            51.0233282
           ]
         ]
       }
@@ -45987,6 +45933,73 @@
           [
             4.7022597,
             50.9475972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1461292757",
+      "properties": {
+        "foot": "yes",
+        "highway": "cycleway",
+        "oneway": "no",
+        "id": "way/1461292757"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4875635,
+            51.0231806
+          ],
+          [
+            4.487925,
+            51.0231317
+          ],
+          [
+            4.4882023,
+            51.0232101
+          ],
+          [
+            4.4882474,
+            51.0233282
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1461347448",
+      "properties": {
+        "highway": "path",
+        "horse": "no",
+        "name": "Bokhovenweg - Voetweg 47",
+        "vehicle": "no",
+        "id": "way/1461347448"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5730779,
+            50.9081206
+          ],
+          [
+            4.5730809,
+            50.9081792
+          ],
+          [
+            4.5729859,
+            50.9082893
+          ],
+          [
+            4.5729151,
+            50.9083326
+          ],
+          [
+            4.5728003,
+            50.9084973
           ]
         ]
       }
