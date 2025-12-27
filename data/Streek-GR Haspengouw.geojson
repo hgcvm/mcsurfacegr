@@ -24007,6 +24007,8 @@
       "properties": {
         "highway": "track",
         "name": "Boven Halmaal",
+        "smoothness": "intermediate",
+        "surface": "concrete",
         "id": "way/235892394"
       },
       "geometry": {
@@ -24021,8 +24023,8 @@
             50.8076825
           ],
           [
-            5.1710224,
-            50.8079641
+            5.1709848,
+            50.8079387
           ]
         ]
       }
@@ -24047,8 +24049,8 @@
             50.8081801
           ],
           [
-            5.1710224,
-            50.8079641
+            5.1709848,
+            50.8079387
           ]
         ]
       }
@@ -24231,7 +24233,7 @@
         "maxspeed": "30",
         "name": "Tramstraat",
         "overtaking:motor_vehicle": "no",
-        "smoothness": "good",
+        "smoothness": "intermediate",
         "surface": "concrete",
         "traffic_sign": "BE:F111",
         "id": "way/342394101"
@@ -24344,8 +24346,15 @@
       "type": "Feature",
       "id": "way/346636101",
       "properties": {
+        "bicycle": "yes",
         "highway": "unclassified",
+        "horse": "no",
         "name": "De Wolverdel",
+        "official_name": "Boven de Wolverdel",
+        "smoothness": "intermediate",
+        "surface": "concrete",
+        "traffic_sign": "BE:C3,BE:Type_IV_residents_nl",
+        "vehicle": "destination",
         "id": "way/346636101"
       },
       "geometry": {
@@ -31521,6 +31530,7 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "70",
         "name": "Stoukstraat",
         "sidewalk": "no",
         "surface": "asphalt",
@@ -31552,6 +31562,7 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Weyerstraat",
         "oneway": "no",
         "sidewalk": "no",
@@ -31591,20 +31602,16 @@
             50.8602146
           ],
           [
-            5.2599036,
-            50.8603553
+            5.2599023,
+            50.8603604
           ],
           [
             5.2601216,
             50.8604417
           ],
           [
-            5.2607622,
-            50.8606956
-          ],
-          [
-            5.2622365,
-            50.8613378
+            5.2622231,
+            50.8613276
           ]
         ]
       }
@@ -32306,12 +32313,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.2622365,
-            50.8613378
+            5.2622231,
+            50.8613276
           ],
           [
-            5.262536,
-            50.8609296
+            5.2625266,
+            50.8609288
           ],
           [
             5.2628984,
@@ -37148,8 +37155,11 @@
       "properties": {
         "cycleway": "track",
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Kortenbosstraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/27672678"
       },
       "geometry": {

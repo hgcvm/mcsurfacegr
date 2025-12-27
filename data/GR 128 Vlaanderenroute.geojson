@@ -236,6 +236,7 @@
         "bicycle": "use_sidepath",
         "change:lanes:backward": "not_left|yes",
         "change:lanes:forward": "no",
+        "foot": "use_sidepath",
         "goods:forward:conditional": "destination @ (weight>5)",
         "hgv:forward:conditional": "destination @ (weight>5)",
         "highway": "tertiary",
@@ -15843,8 +15844,11 @@
       "properties": {
         "cycleway": "track",
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Kortenbosstraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/27672678"
       },
       "geometry": {
@@ -50984,6 +50988,7 @@
         "bicycle": "use_sidepath",
         "change:lanes:backward": "not_left|yes",
         "change:lanes:forward": "no",
+        "foot": "no",
         "highway": "tertiary",
         "lanes": "3",
         "lanes:backward": "2",
@@ -74777,6 +74782,7 @@
       "id": "way/157051168",
       "properties": {
         "bicycle": "use_sidepath",
+        "foot": "use_sidepath",
         "highway": "tertiary",
         "lanes": "3",
         "lanes:backward": "2",
@@ -85139,6 +85145,7 @@
         "bicycle": "use_sidepath",
         "change:lanes:backward": "not_left|yes",
         "change:lanes:forward": "no",
+        "foot": "use_sidepath",
         "highway": "tertiary",
         "lanes": "3",
         "lanes:backward": "2",
@@ -100007,6 +100014,7 @@
       "id": "way/427594418",
       "properties": {
         "bicycle": "use_sidepath",
+        "foot": "use_sidepath",
         "goods:forward:conditional": "destination @ (weight>5)",
         "hgv:forward:conditional": "destination @ (weight>5)",
         "highway": "tertiary",
@@ -109936,6 +109944,7 @@
       "id": "way/646364113",
       "properties": {
         "bicycle": "use_sidepath",
+        "foot": "use_sidepath",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
@@ -126132,6 +126141,7 @@
       "id": "way/1016852531",
       "properties": {
         "bicycle": "use_sidepath",
+        "foot": "use_sidepath",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
@@ -170078,10 +170088,18 @@
       "properties": {
         "agricultural": "yes",
         "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "unclassified",
+        "horse": "yes",
         "lane_markings": "no",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Truierweg",
+        "oneway:bicycle": "no",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
         "vehicle": "no",
         "width": "3",
         "id": "way/32347731"
@@ -170140,26 +170158,6 @@
           [
             5.1522719,
             50.8159213
-          ],
-          [
-            5.1516306,
-            50.8160096
-          ],
-          [
-            5.1508297,
-            50.8161453
-          ],
-          [
-            5.1500304,
-            50.8163045
-          ],
-          [
-            5.1485156,
-            50.8165702
-          ],
-          [
-            5.148448,
-            50.8165853
           ]
         ]
       }
@@ -173315,6 +173313,7 @@
       "id": "way/836897636",
       "properties": {
         "highway": "cycleway",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/836897636"
       },
@@ -173342,24 +173341,20 @@
             50.8157763
           ],
           [
-            5.1577954,
-            50.8158131
+            5.1577786,
+            50.8158368
           ],
           [
-            5.1577371,
-            50.8158574
+            5.1577485,
+            50.8158591
           ],
           [
-            5.15767,
-            50.8159062
+            5.1576285,
+            50.8159425
           ],
           [
-            5.1576117,
-            50.8159412
-          ],
-          [
-            5.1575461,
-            50.8159753
+            5.1575535,
+            50.8159821
           ]
         ]
       }
@@ -173896,8 +173891,8 @@
             50.8159319
           ],
           [
-            5.1575461,
-            50.8159753
+            5.1575535,
+            50.8159821
           ]
         ]
       }
@@ -174267,6 +174262,48 @@
           [
             5.1927627,
             50.8124357
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1461911423",
+      "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Truierweg",
+        "oneway:bicycle": "no",
+        "surface": "asphalt",
+        "traffic_sign": "BE:M2",
+        "vehicle": "no",
+        "width": "3",
+        "id": "way/1461911423"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1522719,
+            50.8159213
+          ],
+          [
+            5.1516306,
+            50.8160096
+          ],
+          [
+            5.1508297,
+            50.8161453
+          ],
+          [
+            5.1500304,
+            50.8163045
+          ],
+          [
+            5.148448,
+            50.8165853
           ]
         ]
       }

@@ -97,10 +97,12 @@
       "type": "Feature",
       "id": "way/8243637",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Jan Baptist Eeckhoutskaai",
         "oneway:speed_pedelec": "no",
+        "sidewalk": "no",
         "surface": "asphalt",
         "traffic_sign": "BE:F45b",
         "id": "way/8243637"
@@ -159,18 +161,6 @@
           [
             3.6046323,
             50.8338592
-          ],
-          [
-            3.6047179,
-            50.8336148
-          ],
-          [
-            3.6047204,
-            50.8336043
-          ],
-          [
-            3.6047138,
-            50.8335535
           ]
         ]
       }
@@ -4384,11 +4374,13 @@
       "properties": {
         "bicycle": "designated",
         "cyclestreet": "yes",
+        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Burg",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "both",
         "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/59428771"
@@ -4431,6 +4423,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "both",
         "surface": "sett",
         "zone:maxspeed": "BE:30",
         "id": "way/59429506"
@@ -4473,6 +4466,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "both",
         "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/59429606"
@@ -21835,11 +21829,13 @@
       "properties": {
         "bicycle": "designated",
         "cyclestreet": "yes",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Markt",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "both",
         "smoothness": "bad",
         "surface": "sett",
         "zone:maxspeed": "BE:30",
@@ -33641,6 +33637,7 @@
         "name": "Vontstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "traffic_sign": "BE:F4a,BE:M4",
@@ -50696,6 +50693,7 @@
         "highway": "residential",
         "lane_markings": "no",
         "name": "Vontstraat",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/759195694"
       },
@@ -55658,11 +55656,13 @@
       "properties": {
         "bicycle": "designated",
         "cyclestreet": "yes",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Markt",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "both",
         "surface": "sett",
         "zone:maxspeed": "BE:30",
         "id": "way/1113734087"
@@ -55832,6 +55832,7 @@
         "name": "Burg",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "both",
         "surface": "sett",
         "zone:maxspeed": "BE:30",
         "id": "way/1117650956"
@@ -57969,6 +57970,7 @@
         "highway": "residential",
         "lane_markings": "no",
         "name": "Vontstraat",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/1422157574"
       },
@@ -62491,6 +62493,42 @@
           [
             3.7767402,
             50.7755106
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1461850016",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Jan Baptist Eeckhoutskaai",
+        "oneway:speed_pedelec": "no",
+        "sidewalk": "right",
+        "surface": "asphalt",
+        "traffic_sign": "BE:F45b",
+        "id": "way/1461850016"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6046323,
+            50.8338592
+          ],
+          [
+            3.6047179,
+            50.8336148
+          ],
+          [
+            3.6047204,
+            50.8336043
+          ],
+          [
+            3.6047138,
+            50.8335535
           ]
         ]
       }

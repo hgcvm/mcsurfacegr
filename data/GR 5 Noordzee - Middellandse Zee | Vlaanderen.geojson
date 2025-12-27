@@ -134211,10 +134211,14 @@
       "id": "way/23436802",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "30",
+        "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ delivery",
         "name": "Veldstraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
         "traffic_calming": "table",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/23436802"
       },
       "geometry": {
@@ -136035,8 +136039,13 @@
       "id": "way/220884114",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ delivery",
         "name": "Veldstraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/220884114"
       },
       "geometry": {
@@ -136549,8 +136558,13 @@
       "id": "way/245516015",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ delivery",
         "name": "Veldstraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/245516015"
       },
       "geometry": {
@@ -137590,6 +137604,8 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "50",
+        "maxweight": "5",
+        "maxweight:conditional": "none @ delivery",
         "name": "Veldstraat",
         "source:maxspeed": "sign",
         "surface": "asphalt",

@@ -114,10 +114,12 @@
       "type": "Feature",
       "id": "way/8243637",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Jan Baptist Eeckhoutskaai",
         "oneway:speed_pedelec": "no",
+        "sidewalk": "no",
         "surface": "asphalt",
         "traffic_sign": "BE:F45b",
         "id": "way/8243637"
@@ -176,18 +178,6 @@
           [
             3.6046323,
             50.8338592
-          ],
-          [
-            3.6047179,
-            50.8336148
-          ],
-          [
-            3.6047204,
-            50.8336043
-          ],
-          [
-            3.6047138,
-            50.8335535
           ]
         ]
       }
@@ -7003,11 +6993,13 @@
       "properties": {
         "bicycle": "designated",
         "cyclestreet": "yes",
+        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Burg",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "both",
         "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/59428771"
@@ -7050,6 +7042,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "both",
         "surface": "sett",
         "zone:maxspeed": "BE:30",
         "id": "way/59429506"
@@ -7092,6 +7085,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "both",
         "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "id": "way/59429606"
@@ -7913,10 +7907,12 @@
       "id": "way/76237408",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "residential",
         "name": "Groene Wandeling",
         "official_vicinal_ref": "121_013_1",
+        "sidewalk": "no",
         "id": "way/76237408"
       },
       "geometry": {
@@ -8662,6 +8658,7 @@
       "type": "Feature",
       "id": "way/86504439",
       "properties": {
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "50",
@@ -8670,6 +8667,7 @@
         "operator": "Agentschap Wegen en Verkeer",
         "priority_road": "designated",
         "ref": "N8",
+        "sidewalk": "both",
         "surface": "asphalt",
         "toll:hgv": "yes",
         "id": "way/86504439"
@@ -21985,8 +21983,10 @@
       "type": "Feature",
       "id": "way/240625687",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Sompelstraat",
+        "sidewalk": "no",
         "id": "way/240625687"
       },
       "geometry": {
@@ -25429,6 +25429,7 @@
         "bicycle": "yes",
         "bus:forward": "yes",
         "cyclestreet": "yes",
+        "cycleway:both": "no",
         "description": "Wayworks: http://www.oudenaarde.be/markt/ontwerp-fasering/fasering/fase-4-5-6-oostkant-en-middenplein",
         "emergency": "yes",
         "highway": "residential",
@@ -26797,6 +26798,7 @@
         "highway": "track",
         "name": "Groene Wandeling",
         "official_vicinal_ref": "121_013_1",
+        "sidewalk": "no",
         "surface": "concrete",
         "id": "way/576918000"
       },
@@ -29764,11 +29766,14 @@
       "properties": {
         "bicycle": "designated",
         "cyclestreet": "yes",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Markt",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "both",
+        "surface": "sett",
         "zone:maxspeed": "BE:30",
         "id": "way/935540214"
       },
@@ -31079,6 +31084,7 @@
         "name": "Burg",
         "oneway": "yes",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "both",
         "surface": "sett",
         "zone:maxspeed": "BE:30",
         "id": "way/1117650956"
@@ -33971,6 +33977,42 @@
           [
             3.4221657,
             50.9972077
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1461850016",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Jan Baptist Eeckhoutskaai",
+        "oneway:speed_pedelec": "no",
+        "sidewalk": "right",
+        "surface": "asphalt",
+        "traffic_sign": "BE:F45b",
+        "id": "way/1461850016"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6046323,
+            50.8338592
+          ],
+          [
+            3.6047179,
+            50.8336148
+          ],
+          [
+            3.6047204,
+            50.8336043
+          ],
+          [
+            3.6047138,
+            50.8335535
           ]
         ]
       }
