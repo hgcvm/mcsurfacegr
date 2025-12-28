@@ -20029,9 +20029,13 @@
       "id": "way/32021884",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Hoekstraat",
+        "smoothness": "intermediate",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
         "width": "3",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/32021884"
       },
       "geometry": {
@@ -20949,10 +20953,13 @@
       "properties": {
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Logebeekstraat",
         "oneway": "no",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "width": "3",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/219091878"
       },
       "geometry": {
@@ -20979,44 +20986,19 @@
       "properties": {
         "highway": "tertiary",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Vrijheersstraat",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/219091885"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.2149201,
-            50.7557623
-          ],
-          [
-            5.2150361,
-            50.7557897
-          ],
-          [
-            5.2151169,
-            50.7558074
-          ],
-          [
-            5.2154269,
-            50.7558718
-          ],
-          [
-            5.2156936,
-            50.7559281
-          ],
-          [
-            5.2158236,
-            50.7559552
-          ],
-          [
-            5.2159495,
-            50.7559874
-          ],
-          [
-            5.2162347,
-            50.7560703
+            5.2162173,
+            50.7560628
           ],
           [
             5.216591,
@@ -21651,10 +21633,14 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Kerkstraat",
         "sidewalk": "both",
+        "smoothness": "good",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "concrete",
         "width": "5",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/294499822"
       },
       "geometry": {
@@ -21691,7 +21677,6 @@
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
         "surface": "concrete",
-        "traffic_calming": "hump",
         "width": "5",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/294499823"
@@ -21706,6 +21691,10 @@
           [
             5.2148858,
             50.7567975
+          ],
+          [
+            5.2148902,
+            50.7567585
           ],
           [
             5.2148954,
@@ -21934,12 +21923,12 @@
       "id": "way/346396361",
       "properties": {
         "cycleway": "track",
-        "cycleway:buffer": "0.2",
+        "cycleway:both:smoothness": "intermediate",
+        "cycleway:both:surface": "paving_stones",
         "highway": "tertiary",
         "lane_markings": "no",
         "maxspeed": "50",
         "name": "Kerkom-Dorp",
-        "sidewalk": "both",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "sett",
         "id": "way/346396361"
@@ -22036,10 +22025,13 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Kerkstraat",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "concrete",
         "width": "5",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/346396365"
       },
       "geometry": {
@@ -22054,8 +22046,8 @@
             50.7577476
           ],
           [
-            5.2148453,
-            50.75739
+            5.2148426,
+            50.7573153
           ]
         ]
       }
@@ -22554,6 +22546,7 @@
         "name": "Hoekstraat",
         "oneway": "no",
         "sidewalk": "no",
+        "smoothness": "intermediate",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "width": "4",
@@ -22796,7 +22789,7 @@
         "name": "Kerkstraat",
         "sidewalk": "both",
         "source:maxspeed": "BE:zone30",
-        "surface": "concrete",
+        "surface": "asphalt",
         "width": "5",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1052983489"
@@ -22805,8 +22798,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.2148453,
-            50.75739
+            5.2148426,
+            50.7573153
           ],
           [
             5.2148546,
@@ -22869,6 +22862,58 @@
           [
             5.2132029,
             50.7583065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1462128931",
+      "properties": {
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "maxspeed": "50",
+        "name": "Vrijheersstraat",
+        "smoothness": "good",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1462128931"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2149201,
+            50.7557623
+          ],
+          [
+            5.2150361,
+            50.7557897
+          ],
+          [
+            5.2151169,
+            50.7558074
+          ],
+          [
+            5.2154269,
+            50.7558718
+          ],
+          [
+            5.2156936,
+            50.7559281
+          ],
+          [
+            5.2158236,
+            50.7559552
+          ],
+          [
+            5.2159495,
+            50.7559874
+          ],
+          [
+            5.2162173,
+            50.7560628
           ]
         ]
       }
@@ -23115,9 +23160,12 @@
         "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Heibergweg",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
         "vehicle": "destination",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/39221372"
       },
       "geometry": {
@@ -23725,10 +23773,13 @@
         "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Straeten",
         "oneway": "no",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
         "width": "3",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/126814826"
       },
       "geometry": {
@@ -24456,11 +24507,14 @@
         "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Heibergweg",
         "oneway": "no",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
         "vehicle": "destination",
         "width": "3",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/346636102"
       },
       "geometry": {
