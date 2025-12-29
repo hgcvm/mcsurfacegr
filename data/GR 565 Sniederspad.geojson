@@ -272,8 +272,13 @@
       "type": "Feature",
       "id": "way/5944519",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
         "name": "Frans Van Heymbeecklaan",
+        "sidewalk": "both",
+        "surface": "concrete",
         "id": "way/5944519"
       },
       "geometry": {
@@ -290,6 +295,10 @@
           [
             4.4825856,
             51.2275551
+          ],
+          [
+            4.4825425,
+            51.2275649
           ],
           [
             4.4810432,
@@ -1433,20 +1442,17 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
+        "lit": "no",
         "speed_pedelec": "yes",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/24523352"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4827984,
-            51.2275145
-          ],
-          [
-            4.4829035,
-            51.2274679
+            4.4829183,
+            51.2274459
           ],
           [
             4.4829535,
@@ -1553,6 +1559,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "path",
+        "lit": "no",
         "surface": "unpaved",
         "id": "way/24523538"
       },
@@ -1624,7 +1631,8 @@
       "properties": {
         "agricultural": "yes",
         "highway": "path",
-        "surface": "unpaved",
+        "lit": "no",
+        "surface": "dirt",
         "id": "way/24523610"
       },
       "geometry": {
@@ -12329,6 +12337,7 @@
       "id": "way/176710603",
       "properties": {
         "highway": "path",
+        "lit": "no",
         "surface": "unpaved",
         "id": "way/176710603"
       },
@@ -12360,8 +12369,12 @@
             51.2326007
           ],
           [
-            4.4906934,
-            51.233
+            4.4907338,
+            51.2329081
+          ],
+          [
+            4.4906725,
+            51.2330041
           ]
         ]
       }
@@ -14533,15 +14546,16 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "path",
-        "surface": "unpaved",
+        "lit": "no",
+        "surface": "dirt",
         "id": "way/225377262"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.490602,
-            51.2329929
+            4.4906619,
+            51.2330019
           ],
           [
             4.4889148,
@@ -14552,8 +14566,8 @@
             51.2349753
           ],
           [
-            4.4887493,
-            51.235015
+            4.4887025,
+            51.2350643
           ],
           [
             4.4885742,
@@ -19626,19 +19640,22 @@
         "access": "destination",
         "bicycle": "yes",
         "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
         "name": "Muggelei",
+        "surface": "paving_stones",
         "id": "way/488108235"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.490602,
-            51.2329929
+            4.4906619,
+            51.2330019
           ],
           [
-            4.4906934,
-            51.233
+            4.4906725,
+            51.2330041
           ]
         ]
       }
@@ -24524,6 +24541,8 @@
       "properties": {
         "cycleway": "crossing",
         "highway": "cycleway",
+        "lit": "yes",
+        "surface": "paving_stones",
         "id": "way/1433613553"
       },
       "geometry": {
@@ -24911,6 +24930,39 @@
           [
             5.2042165,
             51.3535545
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1462293544",
+      "properties": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "lit": "no",
+        "speed_pedelec": "yes",
+        "surface": "paving_stones",
+        "id": "way/1462293544"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4827984,
+            51.2275145
+          ],
+          [
+            4.4829259,
+            51.227503
+          ],
+          [
+            4.482926,
+            51.2274669
+          ],
+          [
+            4.4829183,
+            51.2274459
           ]
         ]
       }
