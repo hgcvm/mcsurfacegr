@@ -80984,8 +80984,11 @@
       "properties": {
         "highway": "residential",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Kleindekkenstraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/187800477"
       },
       "geometry": {
@@ -84650,6 +84653,7 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Wintersveldweg",
+        "smoothness": "bad",
         "surface": "asphalt",
         "id": "way/236896246"
       },
@@ -120043,6 +120047,7 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "70",
         "name": "Kleindekkenstraat",
         "sidewalk": "no",
         "surface": "asphalt",
@@ -156504,16 +156509,16 @@
             51.057024
           ],
           [
+            3.7321299,
+            51.0570691
+          ],
+          [
             3.7321428,
             51.0570919
           ],
           [
             3.7321459,
             51.0571226
-          ],
-          [
-            3.7321325,
-            51.0571503
           ]
         ]
       }
@@ -158664,8 +158669,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7321325,
-            51.0571503
+            3.7321459,
+            51.0571226
           ],
           [
             3.7320537,
@@ -169982,12 +169987,15 @@
         "highway": "residential",
         "lanes": "2",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Brustem-Dorp",
         "parking:both": "lane",
         "parking:both:fee": "no",
         "parking:both:orientation": "parallel",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/29171401"
       },
       "geometry": {
@@ -170018,9 +170026,12 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Hameistraat",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/31848486"
       },
       "geometry": {
@@ -170200,11 +170211,14 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Brustem-Dorp",
         "oneway": "no",
         "sidewalk": "no",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "width": "2",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/32340009"
       },
       "geometry": {
@@ -171368,10 +171382,13 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Brustem-Dorp",
         "oneway": "yes",
         "sidewalk": "right",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "sett",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/222912849"
       },
       "geometry": {
@@ -172625,14 +172642,17 @@
         "highway": "residential",
         "lanes": "2",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Brustem-Dorp",
         "parking:both": "lane",
         "parking:both:fee": "no",
         "parking:both:orientation": "parallel",
         "sidewalk": "left",
         "smoothness": "good",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "width": "5",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/367014986"
       },
       "geometry": {
@@ -172779,9 +172799,12 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Brustem-Dorp",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/446412564"
       },
       "geometry": {
@@ -172808,9 +172831,12 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Burggracht",
         "sidewalk": "no",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/446412567"
       },
       "geometry": {
@@ -172833,12 +172859,15 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Burggracht",
         "oneway": "no",
         "sidewalk": "both",
         "smoothness": "good",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "width": "3",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/446412572"
       },
       "geometry": {
@@ -172873,9 +172902,12 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Hameistraat",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/446412576"
       },
       "geometry": {
@@ -172918,10 +172950,14 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Lenaertsstraat",
         "oneway": "no",
         "sidewalk": "both",
+        "smoothness": "intermediate",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/446412578"
       },
       "geometry": {
@@ -173022,12 +173058,15 @@
         "highway": "residential",
         "lanes": "2",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Brustem-Dorp",
         "parking:both": "lane",
         "parking:both:fee": "no",
         "parking:both:orientation": "parallel",
         "sidewalk": "left",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/446416723"
       },
       "geometry": {
@@ -173874,11 +173913,14 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Burggracht",
         "oneway": "no",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "width": "3",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/1306680413"
       },
       "geometry": {
@@ -173901,9 +173943,12 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Burggracht",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "paving_stones",
         "width": "3.5",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/1306680414"
       },
       "geometry": {
@@ -173926,9 +173971,12 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Lenaertsstraat",
         "sidewalk": "both",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/1306680437"
       },
       "geometry": {
@@ -174283,11 +174331,14 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Brustem-Dorp",
         "oneway": "no",
         "smoothness": "good",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "width": "2.8",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/1379423860"
       },
       "geometry": {
@@ -174319,14 +174370,17 @@
         "highway": "residential",
         "lanes": "2",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Brustem-Dorp",
         "parking:both": "lane",
         "parking:both:fee": "no",
         "parking:both:orientation": "parallel",
         "sidewalk": "left",
         "smoothness": "good",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "width": "5",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/1379423862"
       },
       "geometry": {

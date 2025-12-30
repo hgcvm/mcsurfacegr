@@ -2975,56 +2975,35 @@
       "id": "way/51449975",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Zulzekestraat",
-        "surface": "asphalt",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/51449975"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.57039,
-            50.7803364
+            3.5704014,
+            50.7803415
           ],
           [
-            3.5704359,
-            50.7804304
+            3.5704473,
+            50.7804287
           ],
           [
-            3.5704688,
-            50.7804637
+            3.5704755,
+            50.7804645
           ],
           [
-            3.5706336,
-            50.7806087
+            3.5706316,
+            50.7806125
           ],
           [
             3.5707431,
             50.7807103
-          ],
-          [
-            3.5708964,
-            50.7808554
-          ],
-          [
-            3.5712419,
-            50.7811682
-          ],
-          [
-            3.5712988,
-            50.7812337
-          ],
-          [
-            3.5713459,
-            50.7812858
-          ],
-          [
-            3.5713869,
-            50.7813534
-          ],
-          [
-            3.5714887,
-            50.7815921
           ]
         ]
       }
@@ -10717,29 +10696,16 @@
       "id": "way/97446611",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Hoogbergstraat",
-        "surface": "asphalt",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/97446611"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.57039,
-            50.7803364
-          ],
-          [
-            3.5704051,
-            50.7802422
-          ],
-          [
-            3.570431,
-            50.7801847
-          ],
-          [
-            3.570496,
-            50.780061
-          ],
           [
             3.5705405,
             50.7799598
@@ -14687,8 +14653,8 @@
             50.8570262
           ],
           [
-            3.8803141,
-            50.8569909
+            3.8803229,
+            50.8569989
           ]
         ]
       }
@@ -15312,6 +15278,7 @@
       "properties": {
         "highway": "residential",
         "name": "Oscar Thomasstraat - Rue Oscar Thomas",
+        "surface": "asphalt",
         "id": "way/133398418"
       },
       "geometry": {
@@ -24773,8 +24740,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.8803141,
-            50.8569909
+            3.8803229,
+            50.8569989
           ],
           [
             3.880307,
@@ -31001,6 +30968,14 @@
             50.7795331
           ],
           [
+            3.5707075,
+            50.7794697
+          ],
+          [
+            3.5706076,
+            50.7792844
+          ],
+          [
             3.5704725,
             50.7790335
           ],
@@ -31823,6 +31798,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Schavaart",
+        "surface": "asphalt",
         "id": "way/377179101"
       },
       "geometry": {
@@ -62574,6 +62550,98 @@
           [
             3.5980873,
             50.7496341
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1462620372",
+      "properties": {
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Zulzekestraat",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1462620372"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.5707431,
+            50.7807103
+          ],
+          [
+            3.5708964,
+            50.7808554
+          ],
+          [
+            3.5712419,
+            50.7811682
+          ],
+          [
+            3.5712988,
+            50.7812337
+          ],
+          [
+            3.5713459,
+            50.7812858
+          ],
+          [
+            3.5713869,
+            50.7813534
+          ],
+          [
+            3.5714887,
+            50.7815921
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1462620373",
+      "properties": {
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Hoogbergstraat",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "paving_stones",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1462620373"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.5704014,
+            50.7803415
+          ],
+          [
+            3.570395,
+            50.7802803
+          ],
+          [
+            3.5704051,
+            50.7802422
+          ],
+          [
+            3.570431,
+            50.7801847
+          ],
+          [
+            3.570496,
+            50.780061
+          ],
+          [
+            3.5705285,
+            50.7799814
+          ],
+          [
+            3.5705405,
+            50.7799598
           ]
         ]
       }
