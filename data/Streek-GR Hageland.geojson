@@ -6221,6 +6221,7 @@
       "properties": {
         "highway": "unclassified",
         "maxspeed": "50",
+        "maxweight": "7.5",
         "name": "Getestraat",
         "surface": "asphalt",
         "width": "3",
@@ -13348,7 +13349,9 @@
       "id": "way/39583498",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "70",
         "name": "Linterseweg",
+        "smoothness": "intermediate",
         "surface": "concrete",
         "id": "way/39583498"
       },
@@ -33424,8 +33427,10 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Getestraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
         "width": "3",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/324049860"
       },
       "geometry": {
