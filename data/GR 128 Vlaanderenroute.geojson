@@ -33672,6 +33672,7 @@
         "bicycle": "designated",
         "highway": "path",
         "lit": "yes",
+        "mofa": "yes",
         "motor_vehicle": "no",
         "name": "Sneppenbrugpad",
         "surface": "asphalt",
@@ -56454,6 +56455,7 @@
       "properties": {
         "bicycle": "designated",
         "highway": "path",
+        "mofa": "yes",
         "motor_vehicle": "no",
         "name": "Pontpad",
         "surface": "paved",
@@ -68237,6 +68239,7 @@
         "highway": "path",
         "layer": "1",
         "lit": "yes",
+        "mofa": "yes",
         "motor_vehicle": "no",
         "name": "Blaarmeersenbrug",
         "surface": "metal",
@@ -73787,16 +73790,13 @@
       "properties": {
         "highway": "track",
         "name": "Voordestraat (T21)",
-        "surface": "dirt",
+        "surface": "compacted",
+        "tracktype": "grade2",
         "id": "way/151866018"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.8553378,
-            51.011625
-          ],
           [
             3.8551442,
             51.0118782
@@ -99503,16 +99503,20 @@
             51.008491
           ],
           [
-            3.8712644,
-            51.0085533
+            3.8712584,
+            51.0085673
           ],
           [
-            3.8705772,
-            51.0086746
+            3.8706524,
+            51.0086725
           ],
           [
-            3.8703775,
-            51.0086982
+            3.8705706,
+            51.0086837
+          ],
+          [
+            3.8703818,
+            51.0087042
           ],
           [
             3.8698386,
@@ -103266,6 +103270,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.7014173,
+            50.8330909
+          ],
           [
             5.7012222,
             50.8325131
@@ -114458,29 +114466,6 @@
           [
             5.7035649,
             50.8240811
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/739118310",
-      "properties": {
-        "highway": "unclassified",
-        "maxspeed": "15",
-        "name": "Lage Weerd",
-        "id": "way/739118310"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.7014173,
-            50.8330909
-          ],
-          [
-            5.7012222,
-            50.8325131
           ]
         ]
       }
@@ -138110,6 +138095,30 @@
           [
             3.6622846,
             51.0451779
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1463444236",
+      "properties": {
+        "highway": "track",
+        "name": "Voordestraat (T21)",
+        "surface": "asphalt",
+        "tracktype": "grade1",
+        "id": "way/1463444236"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.8553378,
+            51.011625
+          ],
+          [
+            3.8551442,
+            51.0118782
           ]
         ]
       }
