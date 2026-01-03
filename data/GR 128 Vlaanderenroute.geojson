@@ -312,6 +312,7 @@
         "oneway:bicycle": "no",
         "oneway:speed_pedelec": "no",
         "sidewalk": "both",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "wikidata": "Q115811058",
         "id": "way/5365925"
@@ -454,6 +455,9 @@
         "name:etymology:wikidata": "Q2830938",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "left",
+        "sidewalk:left:surface": "sett",
+        "smoothness": "good",
         "surface": "asphalt",
         "wikidata": "Q115808915",
         "id": "way/5898940"
@@ -2477,22 +2481,20 @@
       "type": "Feature",
       "id": "way/8074948",
       "properties": {
-        "agricultural": "designated",
+        "agricultural": "yes",
         "alt_name": "Abdijdreef",
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "track",
-        "horse": "designated",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "horse": "yes",
         "lane_markings": "no",
         "lit": "no",
         "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Abdij van Park",
-        "parking:both": "no",
-        "sidewalk": "no",
         "smoothness": "good",
-        "speed_pedelec": "designated",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
-        "tracktype": "grade1",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/8074948"
       },
@@ -6499,20 +6501,17 @@
       "type": "Feature",
       "id": "way/23443399",
       "properties": {
-        "agricultural": "designated",
-        "bicycle": "designated",
-        "foot": "designated",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "unclassified",
-        "horse": "designated",
-        "lane_markings": "no",
+        "horse": "yes",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Duivelsweg",
-        "sidewalk": "no",
-        "speed_pedelec": "designated",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
-        "vehicle": "destination",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/23443399"
       },
       "geometry": {
@@ -12874,6 +12873,7 @@
         "name": "Hoornstraat",
         "private": "exceptional_permit",
         "sidewalk": "both",
+        "sidewalk:both:surface": "concrete",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "vehicle": "private",
@@ -33417,6 +33417,7 @@
         "name": "Hoornstraat",
         "private": "exceptional_permit",
         "sidewalk": "both",
+        "sidewalk:both:surface": "concrete",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "vehicle": "private",
@@ -56826,8 +56827,8 @@
             50.8673088
           ],
           [
-            4.7176787,
-            50.8658894
+            4.7176921,
+            50.8659021
           ],
           [
             4.7175997,
@@ -63956,22 +63957,20 @@
       "type": "Feature",
       "id": "way/111535713",
       "properties": {
-        "agricultural": "designated",
-        "bicycle": "designated",
-        "foot": "designated",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "unclassified",
-        "horse": "designated",
-        "lane_markings": "no",
+        "horse": "yes",
         "layer": "-1",
         "maxheight": "3.25",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Duivelsweg",
-        "speed_pedelec": "designated",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
         "tunnel": "yes",
-        "vehicle": "destination",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/111535713"
       },
       "geometry": {
@@ -63992,18 +63991,17 @@
       "type": "Feature",
       "id": "way/111535715",
       "properties": {
-        "agricultural": "designated",
-        "bicycle": "designated",
-        "foot": "designated",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "unclassified",
-        "horse": "designated",
-        "lane_markings": "no",
+        "horse": "yes",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Duivelsweg",
-        "speed_pedelec": "designated",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
-        "vehicle": "destination",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/111535715"
       },
@@ -74345,6 +74343,8 @@
         "oneway:bicycle": "no",
         "oneway:speed_pedelec": "no",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "excellent",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "wikidata": "Q115810564",
@@ -74415,6 +74415,7 @@
         "name": "Hoornstraat",
         "private": "exceptional_permit",
         "sidewalk": "both",
+        "sidewalk:both:surface": "concrete",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "vehicle": "private",
@@ -122979,20 +122980,19 @@
       "type": "Feature",
       "id": "way/907021631",
       "properties": {
-        "access": "yes",
-        "agricultural": "designated",
-        "bicycle": "designated",
-        "foot": "designated",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "track",
-        "horse": "designated",
+        "horse": "yes",
         "maxspeed": "30",
-        "motor_vehicle": "no",
+        "motor_vehicle": "destination",
         "name": "Norbertijnerweg",
         "smoothness": "intermediate",
-        "speed_pedelec": "designated",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
-        "zone:traffic": "BE-VLG:rural",
         "id": "way/907021631"
       },
       "geometry": {
@@ -132076,6 +132076,7 @@
         "oneway:bicycle": "no",
         "oneway:speed_pedelec": "no",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "smoothness": "good",
         "surface": "asphalt",
         "wikidata": "Q115807583",
@@ -132399,6 +132400,7 @@
         "mofa": "yes",
         "name": "Korenmarkt",
         "private": "exceptional_permit",
+        "smoothness": "bad",
         "speed_pedelec": "yes",
         "surface": "sett",
         "vehicle": "private",
@@ -156249,6 +156251,9 @@
         "name": "Sint-Widostraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "very_bad",
         "surface": "sett",
         "wikidata": "Q115807760",
         "id": "way/10073087"
@@ -156256,14 +156261,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.7194674,
-            51.0581019
-          ],
-          [
-            3.7196527,
-            51.0578579
-          ],
           [
             3.7197535,
             51.0575612
@@ -157509,6 +157506,8 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "very_bad",
         "surface": "sett",
         "wikidata": "Q115810721",
         "id": "way/46360860"
@@ -161757,6 +161756,38 @@
     },
     {
       "type": "Feature",
+      "id": "way/1463681142",
+      "properties": {
+        "cycleway": "no",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Sint-Widostraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "surface": "sett",
+        "wikidata": "Q115807760",
+        "id": "way/1463681142"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7194674,
+            51.0581019
+          ],
+          [
+            3.7196527,
+            51.0578579
+          ],
+          [
+            3.7197535,
+            51.0575612
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/3372474",
       "properties": {
         "bicycle": "designated",
@@ -162297,22 +162328,20 @@
       "type": "Feature",
       "id": "way/8074948",
       "properties": {
-        "agricultural": "designated",
+        "agricultural": "yes",
         "alt_name": "Abdijdreef",
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "track",
-        "horse": "designated",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "horse": "yes",
         "lane_markings": "no",
         "lit": "no",
         "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Abdij van Park",
-        "parking:both": "no",
-        "sidewalk": "no",
         "smoothness": "good",
-        "speed_pedelec": "designated",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
-        "tracktype": "grade1",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/8074948"
       },
