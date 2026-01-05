@@ -85539,10 +85539,12 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "70",
+        "maxweight": "2.20",
         "name": "Fiertelmeers",
         "name:fr": "Fiertelmeers",
         "name:nl": "Fiertelmeers",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/37130456"
       },
       "geometry": {
@@ -96100,6 +96102,7 @@
         "oneway": "yes",
         "oneway:bicycle": "yes",
         "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
         "id": "way/75542894"
       },
       "geometry": {
@@ -140494,10 +140497,12 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "70",
+        "maxweight": "2.20",
         "name": "Fiertelmeers",
         "name:fr": "Fiertelmeers",
         "name:nl": "Fiertelmeers",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/377184509"
       },
       "geometry": {
@@ -156463,6 +156468,10 @@
             50.7488416
           ],
           [
+            3.598672,
+            50.7488329
+          ],
+          [
             3.5985344,
             50.7488085
           ]
@@ -157973,7 +157982,7 @@
         "name": "Fiertelmeers",
         "name:fr": "Fiertelmeers",
         "name:nl": "Fiertelmeers",
-        "surface": "paved",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/793936269"
       },
@@ -160283,10 +160292,11 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "70",
-        "maxwidth:backward": "2",
+        "maxwidth": "2.20",
         "name": "Kapellestraat - Rue de la Chapelle",
         "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/934650733"
       },
       "geometry": {
@@ -163055,10 +163065,12 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "70",
+        "maxweight": "2.20",
         "name": "Fiertelmeers",
         "name:fr": "Fiertelmeers",
         "name:nl": "Fiertelmeers",
-        "surface": "paved",
+        "surface": "asphalt",
+        "traffic_sign": "BE:C27",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/1065125788"
       },
@@ -163088,10 +163100,6 @@
           [
             3.5879072,
             50.7542178
-          ],
-          [
-            3.5882391,
-            50.7542123
           ]
         ]
       }
@@ -163207,9 +163215,11 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "70",
+        "maxweight": "2.20",
         "name": "Kapellestraat - Rue de la Chapelle",
         "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/1066913474"
       },
       "geometry": {
@@ -170761,6 +170771,33 @@
           [
             3.5990553,
             50.7489009
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1464219111",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "70",
+        "name": "Fiertelmeers",
+        "name:fr": "Fiertelmeers",
+        "name:nl": "Fiertelmeers",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1464219111"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.5879072,
+            50.7542178
+          ],
+          [
+            3.5882391,
+            50.7542123
           ]
         ]
       }
