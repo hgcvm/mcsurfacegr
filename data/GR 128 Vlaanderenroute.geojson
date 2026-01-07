@@ -14949,7 +14949,8 @@
       "id": "way/27117002",
       "properties": {
         "highway": "unclassified",
-        "surface": "asphalt",
+        "maxspeed": "70",
+        "surface": "concrete",
         "id": "way/27117002"
       },
       "geometry": {
@@ -14960,20 +14961,16 @@
             50.8367979
           ],
           [
-            5.5857658,
-            50.8361375
+            5.5857906,
+            50.8361434
           ],
           [
             5.5840451,
             50.8356872
           ],
           [
-            5.5824741,
-            50.8352739
-          ],
-          [
-            5.5822951,
-            50.835244
+            5.5829365,
+            50.8353955
           ]
         ]
       }
@@ -26625,8 +26622,11 @@
       "id": "way/36261614",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Kabricht",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/36261614"
       },
       "geometry": {
@@ -26672,7 +26672,10 @@
       "id": "way/36261656",
       "properties": {
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Panisveld",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/36261656"
       },
       "geometry": {
@@ -26719,9 +26722,12 @@
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
+        "maxspeed": "50",
         "name": "Spouwerstraat",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "concrete",
         "vehicle": "destination",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/36263112"
       },
       "geometry": {
@@ -112762,6 +112768,7 @@
       "id": "way/697545902",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Kabricht",
         "surface": "asphalt",
         "id": "way/697545902"
@@ -112770,12 +112777,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.5885491,
-            50.8362693
-          ],
-          [
-            5.5883838,
-            50.8365486
+            5.5883632,
+            50.8365932
           ],
           [
             5.5883206,
@@ -113159,6 +113162,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Kapitein-Vlieger-Gloriestraat",
+        "surface": "asphalt",
         "id": "way/706463441"
       },
       "geometry": {
@@ -138616,6 +138620,65 @@
           [
             3.7712058,
             51.0513655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1464917770",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1464917770"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5829365,
+            50.8353955
+          ],
+          [
+            5.5824741,
+            50.8352739
+          ],
+          [
+            5.5822951,
+            50.835244
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1464917772",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "name": "Kabricht",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1464917772"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5885491,
+            50.8362693
+          ],
+          [
+            5.5883838,
+            50.8365486
+          ],
+          [
+            5.5883632,
+            50.8365932
           ]
         ]
       }

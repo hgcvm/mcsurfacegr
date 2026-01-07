@@ -257,7 +257,7 @@
       "id": "way/4858494",
       "properties": {
         "highway": "cycleway",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/4858494"
       },
       "geometry": {
@@ -2052,7 +2052,7 @@
       "id": "way/8153965",
       "properties": {
         "highway": "cycleway",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/8153965"
       },
       "geometry": {
@@ -2149,8 +2149,11 @@
       "id": "way/8519178",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Broekstraat",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/8519178"
       },
       "geometry": {
@@ -6476,7 +6479,7 @@
       "properties": {
         "highway": "cycleway",
         "layer": "-1",
-        "surface": "paved",
+        "surface": "paving_stones",
         "tunnel": "yes",
         "id": "way/48839510"
       },
@@ -6499,7 +6502,7 @@
       "id": "way/48839511",
       "properties": {
         "highway": "cycleway",
-        "surface": "paved",
+        "surface": "concrete",
         "id": "way/48839511"
       },
       "geometry": {
@@ -20340,8 +20343,11 @@
         "goods:backward:conditional": "delivery @ (weight>3.5)",
         "hgv:backward:conditional": "delivery @ (weight>3.5)",
         "highway": "residential",
+        "maxspeed": "50",
         "name": "de Merodelaan",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/225309770"
       },
       "geometry": {
@@ -21308,7 +21314,7 @@
       "id": "way/232077650",
       "properties": {
         "highway": "cycleway",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/232077650"
       },
       "geometry": {
@@ -24122,8 +24128,11 @@
       "id": "way/246417910",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "de Merodelaan",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/246417910"
       },
       "geometry": {
@@ -39445,6 +39454,7 @@
         "lit": "yes",
         "maxspeed": "50",
         "name": "Industrieweg",
+        "smoothness": "intermediate",
         "source:maxspeed": "sign",
         "surface": "concrete",
         "zone:traffic": "BE-VLG:rural",
