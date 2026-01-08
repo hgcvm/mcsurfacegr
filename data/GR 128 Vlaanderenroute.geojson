@@ -59123,10 +59123,7 @@
       "type": "Feature",
       "id": "way/84527058",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "footway": "sidewalk",
-        "highway": "footway",
+        "highway": "path",
         "ref": "Voetweg 42",
         "id": "way/84527058"
       },
@@ -59156,14 +59153,6 @@
           [
             4.5607722,
             50.9922524
-          ],
-          [
-            4.560587,
-            50.9924851
-          ],
-          [
-            4.5594901,
-            50.992861
           ]
         ]
       }
@@ -91522,13 +91511,11 @@
       "type": "Feature",
       "id": "way/318139865",
       "properties": {
-        "access": "no",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
         "horse": "yes",
         "lit": "no",
-        "motor_vehicle": "no",
         "surface": "gravel",
         "width": "0",
         "id": "way/318139865"
@@ -108332,8 +108319,9 @@
       "type": "Feature",
       "id": "way/604573540",
       "properties": {
-        "highway": "residential",
+        "highway": "unclassified",
         "name": "Donk",
+        "surface": "asphalt",
         "id": "way/604573540"
       },
       "geometry": {
@@ -138679,6 +138667,50 @@
           [
             5.5883632,
             50.8365932
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1465123545",
+      "properties": {
+        "highway": "track",
+        "ref": "Voetweg 42",
+        "id": "way/1465123545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.560587,
+            50.9924851
+          ],
+          [
+            4.5594901,
+            50.992861
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1465123546",
+      "properties": {
+        "highway": "path",
+        "ref": "Voetweg 42",
+        "id": "way/1465123546"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5607722,
+            50.9922524
+          ],
+          [
+            4.560587,
+            50.9924851
           ]
         ]
       }

@@ -7488,14 +7488,16 @@
       "properties": {
         "access": "no",
         "bicycle": "no",
+        "construction": "cycletrack",
         "foot": "no",
-        "highway": "cycleway",
+        "highway": "construction",
         "loc_name": "Ringfietspad",
         "motor_vehicle": "no",
-        "note": "befietst 26 jun'24 : deze delen fietspad achter raster / poorten 'Oosterweel'",
+        "note": "befietst 26 jun'24 : deze delen fietspad achter raster / poorten 'Oosterweel', had 31 dec'25 heropend zullen worden, niet gelukt, nieuwe schuifpoort bij gemaal noordeinde, wegens aanleg park",
         "oneway": "no",
         "segregated": "no",
         "surface": "asphalt",
+        "was:highway": "cycleway",
         "width": "3",
         "id": "way/431012707"
       },
@@ -7511,8 +7513,8 @@
             51.2242707
           ],
           [
-            4.4507649,
-            51.2244641
+            4.4507661,
+            51.2244729
           ],
           [
             4.4503372,
@@ -7557,6 +7559,10 @@
           [
             4.4493945,
             51.2260511
+          ],
+          [
+            4.4491822,
+            51.2261408
           ],
           [
             4.4491416,
@@ -8723,6 +8729,7 @@
         "highway": "cycleway",
         "lit": "yes",
         "oneway": "yes",
+        "segregated": "yes",
         "surface": "asphalt",
         "id": "way/709818527"
       },
@@ -8949,7 +8956,7 @@
         "foot": "no",
         "highway": "cycleway",
         "motor_vehicle": "no",
-        "note": "befietst 26 jun'24 : deze delen fietspad achter raster / poorten 'Oosterweel'",
+        "note": "dit pad had 31 dec'25 heropend zullen worden, dat is niet gelukt, ook bij gemaal blinkend nieuwe schuifpoort. Duur ongekend.",
         "oneway": "no",
         "segregated": "no",
         "surface": "compacted",
@@ -11080,11 +11087,13 @@
       "type": "Feature",
       "id": "way/933301108",
       "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
+        "access": "no",
+        "bicycle": "no",
+        "foot": "no",
         "highway": "cycleway",
         "loc_name": "Ringfietspad",
-        "motor_vehicle": "service",
+        "motor_vehicle": "no",
+        "note": "dit pad had 31 dec'25 heropend zullen worden, dat is niet gelukt, ook bij gemaal blinkend nieuwe schuifpoort. Duur ongekend.",
         "oneway": "no",
         "segregated": "yes",
         "surface": "asphalt",
