@@ -3864,10 +3864,12 @@
       "type": "Feature",
       "id": "way/37125435",
       "properties": {
+        "bicycle": "designated",
         "bridge": "yes",
-        "foot": "yes",
-        "highway": "cycleway",
+        "foot": "designated",
+        "highway": "path",
         "layer": "1",
+        "segregated": "no",
         "surface": "paved",
         "id": "way/37125435"
       },
@@ -8009,6 +8011,7 @@
       "id": "way/68894877",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Kempenstraat",
         "surface": "asphalt",
         "id": "way/68894877"
@@ -8021,8 +8024,12 @@
             51.2070675
           ],
           [
-            5.5563507,
-            51.2070979
+            5.5563459,
+            51.2070969
+          ],
+          [
+            5.5563621,
+            51.2071046
           ],
           [
             5.5563981,
@@ -8072,8 +8079,8 @@
             51.2071595
           ],
           [
-            5.5644979,
-            51.2074274
+            5.5644724,
+            51.2074232
           ],
           [
             5.5645537,
@@ -8087,8 +8094,11 @@
       "id": "way/68900299",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Nieuwstraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/68900299"
       },
       "geometry": {
@@ -10932,7 +10942,7 @@
         "cycleway": "track",
         "highway": "primary",
         "lanes": "2",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Hamonterweg",
         "operator": "Agentschap Wegen en Verkeer",
         "ref": "N76",
@@ -12760,8 +12770,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6751931,
-            51.1256117
+            5.6752528,
+            51.125629
           ],
           [
             5.6748087,
@@ -13721,7 +13731,7 @@
         "highway": "cycleway",
         "incline": "down",
         "layer": "1",
-        "surface": "paved",
+        "surface": "paving_stones",
         "id": "way/154550560"
       },
       "geometry": {
@@ -23548,8 +23558,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6564594,
-            51.1022514
+            5.6564728,
+            51.1022497
           ],
           [
             5.6563179,
@@ -25146,10 +25156,8 @@
       "id": "way/249747084",
       "properties": {
         "agricultural": "yes",
-        "bicycle": "yes",
-        "bus": "yes",
+        "bicycle": "designated",
         "cyclestreet": "yes",
-        "emergency": "yes",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
@@ -25157,13 +25165,11 @@
         "mofa": "yes",
         "motor_vehicle": "destination",
         "name": "Luysenweg",
-        "oneway:bicycle": "no",
-        "oneway:mofa": "no",
-        "oneway:speed_pedelec": "no",
+        "overtaking:motor_vehicle": "no",
         "smoothness": "intermediate",
         "speed_pedelec": "yes",
         "surface": "asphalt",
-        "traffic_sign": "BE:C3,BE:M12_nl,BE:Type_IV_local_traffic_nl",
+        "traffic_sign": "BE:F111",
         "vehicle": "destination",
         "id": "way/249747084"
       },
@@ -28165,9 +28171,8 @@
       "id": "way/297154961",
       "properties": {
         "highway": "residential",
-        "maxspeed": "50",
+        "maxspeed": "70",
         "name": "Solterweg",
-        "source": "Yahoo",
         "id": "way/297154961"
       },
       "geometry": {
@@ -30339,8 +30344,11 @@
       "id": "way/306007952",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Kanaalstraat",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/306007952"
       },
       "geometry": {
@@ -30391,8 +30399,12 @@
       "properties": {
         "bicycle": "yes",
         "highway": "service",
+        "mofa": "yes",
         "name": "Kempenstraat",
+        "smoothness": "intermediate",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
+        "towpath": "yes",
         "vehicle": "private",
         "id": "way/306007954"
       },
@@ -30428,8 +30440,12 @@
             51.2070886
           ],
           [
-            5.5561856,
-            51.2070966
+            5.5561698,
+            51.2070947
+          ],
+          [
+            5.5561848,
+            51.2070972
           ],
           [
             5.5562574,
@@ -30581,7 +30597,7 @@
         "maxspeed": "50",
         "name": "Weerterweg",
         "smoothness": "intermediate",
-        "surface": "concrete:plates",
+        "surface": "concrete",
         "id": "way/307599744"
       },
       "geometry": {
@@ -37947,8 +37963,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6564594,
-            51.1022514
+            5.6564728,
+            51.1022497
           ],
           [
             5.6563582,
@@ -52470,8 +52486,8 @@
             51.125445
           ],
           [
-            5.6751931,
-            51.1256117
+            5.6752528,
+            51.125629
           ]
         ]
       }
@@ -52651,12 +52667,17 @@
         "motor_vehicle": "destination",
         "name": "Luysenweg",
         "overtaking:motor_vehicle": "no",
+        "smoothness": "intermediate",
         "surface": "sett",
         "id": "way/1180702224"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            5.6311777,
+            51.1796111
+          ],
           [
             5.6312448,
             51.1796859
@@ -52676,38 +52697,6 @@
           [
             5.6312546,
             51.1799354
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1180702225",
-      "properties": {
-        "cyclestreet": "yes",
-        "highway": "unclassified",
-        "maxspeed": "30",
-        "motor_vehicle": "destination",
-        "name": "Luysenweg",
-        "overtaking:motor_vehicle": "no",
-        "smoothness": "intermediate",
-        "surface": "cobblestone",
-        "id": "way/1180702225"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.6309903,
-            51.1793515
-          ],
-          [
-            5.6311375,
-            51.1795644
-          ],
-          [
-            5.6312448,
-            51.1796859
           ]
         ]
       }
@@ -52974,7 +52963,6 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "bus": "yes",
-        "cyclestreet": "yes",
         "emergency": "yes",
         "foot": "yes",
         "highway": "unclassified",
@@ -52983,10 +52971,6 @@
         "mofa": "yes",
         "motor_vehicle": "destination",
         "name": "Luysenweg",
-        "oneway:bicycle": "no",
-        "oneway:mofa": "no",
-        "oneway:speed_pedelec": "no",
-        "overtaking:motor_vehicle": "no",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,BE:M12_nl,BE:Type_IV_local_traffic_nl",
@@ -55421,7 +55405,8 @@
         "motor_vehicle": "destination",
         "name": "Luysenweg",
         "overtaking:motor_vehicle": "no",
-        "surface": "wood",
+        "smoothness": "good",
+        "surface": "asphalt",
         "id": "way/1418644010"
       },
       "geometry": {
@@ -55436,8 +55421,8 @@
             51.1793042
           ],
           [
-            5.6309903,
-            51.1793515
+            5.6311777,
+            51.1796111
           ]
         ]
       }
