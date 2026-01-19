@@ -2777,9 +2777,7 @@
       "type": "Feature",
       "id": "way/9904025",
       "properties": {
-        "foot": "yes",
         "highway": "unclassified",
-        "horse": "yes",
         "lanes": "1",
         "maxspeed": "50",
         "name": "Hoegaardsestraat",
@@ -2816,6 +2814,18 @@
           [
             4.7333536,
             50.8579373
+          ],
+          [
+            4.7335621,
+            50.8577172
+          ],
+          [
+            4.7337626,
+            50.8575491
+          ],
+          [
+            4.7344704,
+            50.8570202
           ]
         ]
       }
@@ -2824,7 +2834,6 @@
       "type": "Feature",
       "id": "way/9904031",
       "properties": {
-        "bicycle": "designated",
         "cyclestreet": "yes",
         "foot": "yes",
         "highway": "unclassified",
@@ -3223,8 +3232,8 @@
             50.8723963
           ],
           [
-            4.7551719,
-            50.8720567
+            4.7551739,
+            50.8720465
           ]
         ]
       }
@@ -4670,9 +4679,10 @@
       "properties": {
         "alt_name": "Voetweg 101",
         "cutting": "yes",
-        "highway": "path",
+        "highway": "track",
         "name": "Steenekruyspad",
         "surface": "dirt",
+        "tracktype": "grade4",
         "width": "2",
         "id": "way/19372548"
       },
@@ -57467,7 +57477,7 @@
       "properties": {
         "highway": "track",
         "name": "Sint-Martinusberg",
-        "surface": "compacted",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/76738459"
@@ -57476,12 +57486,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7540726,
-            50.8718259
+            4.7541147,
+            50.8718539
           ],
           [
-            4.7540052,
-            50.8717811
+            4.7540283,
+            50.8717908
           ],
           [
             4.7533531,
@@ -57496,12 +57506,12 @@
             50.8709096
           ],
           [
-            4.7526198,
-            50.8708576
+            4.7526084,
+            50.8708322
           ],
           [
-            4.7520272,
-            50.8706412
+            4.7520285,
+            50.8706344
           ]
         ]
       }
@@ -57556,8 +57566,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7520272,
-            50.8706412
+            4.7520285,
+            50.8706344
           ],
           [
             4.7493759,
@@ -60635,7 +60645,6 @@
       "type": "Feature",
       "id": "way/93337264",
       "properties": {
-        "bicycle": "designated",
         "cyclestreet": "yes",
         "foot": "yes",
         "hazard": "dip",
@@ -60674,7 +60683,6 @@
       "type": "Feature",
       "id": "way/93337266",
       "properties": {
-        "bicycle": "designated",
         "cyclestreet": "yes",
         "foot": "yes",
         "highway": "unclassified",
@@ -69719,7 +69727,6 @@
         "maxspeed": "50",
         "maxweight": "3.5",
         "name": "Herpendalstraat",
-        "oneway": "no",
         "surface": "sett",
         "id": "way/139898733"
       },
@@ -69735,62 +69742,12 @@
             50.8546551
           ],
           [
-            4.7360639,
-            50.8546231
-          ],
-          [
-            4.7361068,
-            50.8544893
-          ],
-          [
-            4.7362391,
-            50.8540215
+            4.7362311,
+            50.8541349
           ],
           [
             4.7365639,
             50.853059
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/139898734",
-      "properties": {
-        "access": "destination",
-        "bicycle": "designated",
-        "cutting": "yes",
-        "cyclestreet": "yes",
-        "foot": "yes",
-        "highway": "unclassified",
-        "horse": "yes",
-        "lanes": "1",
-        "lit": "yes",
-        "maxspeed": "30",
-        "name": "Hoegaardsestraat",
-        "overtaking:motor_vehicle": "no",
-        "surface": "sett",
-        "traffic_sign": "BE:F111",
-        "id": "way/139898734"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.7333536,
-            50.8579373
-          ],
-          [
-            4.7335621,
-            50.8577172
-          ],
-          [
-            4.7337626,
-            50.8575491
-          ],
-          [
-            4.7344704,
-            50.8570202
           ]
         ]
       }
@@ -84505,44 +84462,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/229714838",
-      "properties": {
-        "alt_name": "Voetweg 101",
-        "highway": "path",
-        "name": "Steenekruyspad",
-        "surface": "dirt",
-        "tracktype": "grade4",
-        "width": "1.5",
-        "id": "way/229714838"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.7432032,
-            50.8523837
-          ],
-          [
-            4.7435207,
-            50.8524307
-          ],
-          [
-            4.7436543,
-            50.8524685
-          ],
-          [
-            4.7444707,
-            50.8529063
-          ],
-          [
-            4.7452937,
-            50.8533295
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/233961408",
       "properties": {
         "highway": "living_street",
@@ -92499,9 +92418,10 @@
       "id": "way/329511878",
       "properties": {
         "alt_name": "Voetweg 101",
-        "highway": "path",
+        "highway": "track",
         "name": "Steenekruyspad",
         "surface": "dirt",
+        "tracktype": "grade4",
         "width": "1.5",
         "id": "way/329511878"
       },
@@ -92525,8 +92445,24 @@
             50.8523908
           ],
           [
-            4.7432032,
-            50.8523837
+            4.7432025,
+            50.8523905
+          ],
+          [
+            4.7435207,
+            50.8524307
+          ],
+          [
+            4.7436543,
+            50.8524685
+          ],
+          [
+            4.7444707,
+            50.8529063
+          ],
+          [
+            4.7452937,
+            50.8533295
           ]
         ]
       }
@@ -97117,8 +97053,8 @@
             50.7752685
           ],
           [
-            2.8199158,
-            50.7776694
+            2.8155743,
+            50.7752503
           ]
         ]
       }
@@ -104955,7 +104891,6 @@
       "type": "Feature",
       "id": "way/517538538",
       "properties": {
-        "bicycle": "designated",
         "cyclestreet": "yes",
         "description": "the street has a lateral hump in the middle, cars are supposed to have their 2 left wheels on it",
         "foot": "yes",
@@ -118709,7 +118644,6 @@
       "type": "Feature",
       "id": "way/794686347",
       "properties": {
-        "bicycle": "designated",
         "cyclestreet": "yes",
         "foot": "yes",
         "highway": "unclassified",
@@ -128751,10 +128685,10 @@
       "type": "Feature",
       "id": "way/1110719637",
       "properties": {
-        "highway": "track",
-        "name": "Sint-Martinusberg",
-        "surface": "compacted",
-        "tracktype": "grade2",
+        "highway": "unclassified",
+        "maxspeed": "30",
+        "name": "Lange Lostraat",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/1110719637"
       },
@@ -128762,8 +128696,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.7551719,
-            50.8720567
+            4.7551739,
+            50.8720465
           ],
           [
             4.754666,
@@ -128772,10 +128706,6 @@
           [
             4.7541147,
             50.8718539
-          ],
-          [
-            4.7540726,
-            50.8718259
           ]
         ]
       }
@@ -129050,8 +128980,8 @@
             50.7752413
           ],
           [
-            2.8199158,
-            50.7776694
+            2.8155743,
+            50.7752503
           ]
         ]
       }
