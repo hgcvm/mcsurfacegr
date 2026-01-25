@@ -27697,6 +27697,7 @@
       "id": "way/151855192",
       "properties": {
         "highway": "track",
+        "lit": "no",
         "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/151855192"
@@ -27848,6 +27849,7 @@
       "properties": {
         "check_date:surface": "2025-04-12",
         "highway": "track",
+        "lit": "no",
         "name": "Heilige Geesthofstraat",
         "surface": "unpaved",
         "tracktype": "grade3",
@@ -30537,6 +30539,7 @@
         "foot": "designated",
         "footway:surface": "paving_stones",
         "highway": "cycleway",
+        "lit": "yes",
         "oneway": "no",
         "segregated": "yes",
         "surface": "paving_stones",
@@ -35149,6 +35152,7 @@
       "id": "way/388915833",
       "properties": {
         "highway": "track",
+        "lit": "no",
         "surface": "unhewn_cobblestone",
         "tracktype": "grade1",
         "id": "way/388915833"
@@ -35172,6 +35176,7 @@
       "id": "way/388915838",
       "properties": {
         "highway": "track",
+        "lit": "no",
         "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/388915838"
@@ -35207,7 +35212,8 @@
       "id": "way/388915840",
       "properties": {
         "highway": "track",
-        "surface": "dirt",
+        "lit": "no",
+        "surface": "grass",
         "tracktype": "grade4",
         "id": "way/388915840"
       },
@@ -36580,6 +36586,7 @@
       "type": "Feature",
       "id": "way/438270536",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Blarenveld",
         "surface": "asphalt",
@@ -36607,14 +36614,6 @@
           [
             4.301401,
             50.7635249
-          ],
-          [
-            4.3012841,
-            50.7634525
-          ],
-          [
-            4.3004642,
-            50.7628781
           ]
         ]
       }
@@ -37872,6 +37871,7 @@
         "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Lotsestraat",
         "sidewalk": "both",
@@ -43223,6 +43223,7 @@
       "id": "way/1083972650",
       "properties": {
         "highway": "footway",
+        "lit": "yes",
         "name": "Puttestraat",
         "smoothness": "bad",
         "surface": "sett",
@@ -44453,6 +44454,7 @@
       "id": "way/1272337587",
       "properties": {
         "highway": "footway",
+        "lit": "yes",
         "name": "Puttestraat",
         "smoothness": "bad",
         "surface": "concrete",
@@ -46020,6 +46022,34 @@
           [
             4.867514,
             50.8740625
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1470098049",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "name": "Blarenveld",
+        "surface": "paving_stones",
+        "id": "way/1470098049"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.301401,
+            50.7635249
+          ],
+          [
+            4.3012841,
+            50.7634525
+          ],
+          [
+            4.3004642,
+            50.7628781
           ]
         ]
       }
@@ -47841,6 +47871,7 @@
       "type": "Feature",
       "id": "way/91736476",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "historic": "hollow_way",
         "lanes": "1",
@@ -47849,6 +47880,7 @@
         "name": "Jozef Deneyerstraat",
         "official_name": "J. Deneyerstraat",
         "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/91736476"
       },
@@ -48473,6 +48505,7 @@
       "type": "Feature",
       "id": "way/584445409",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lanes": "1",
         "lit": "yes",
@@ -48480,6 +48513,7 @@
         "name": "Jozef Deneyerstraat",
         "official_name": "J. Deneyerstraat",
         "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/584445409"
       },
