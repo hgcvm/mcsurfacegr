@@ -4647,7 +4647,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Kalkovenstraat",
-        "surface": "asphalt",
+        "surface": "concrete",
         "id": "way/60687544"
       },
       "geometry": {
@@ -5675,16 +5675,36 @@
             50.7707678
           ],
           [
-            3.4954777,
-            50.7701242
+            3.4951081,
+            50.7706659
           ],
           [
-            3.495526,
-            50.7700159
+            3.4951892,
+            50.7705314
           ],
           [
-            3.4956177,
-            50.7693889
+            3.4954186,
+            50.7701731
+          ],
+          [
+            3.4954494,
+            50.7701205
+          ],
+          [
+            3.4954843,
+            50.7700484
+          ],
+          [
+            3.4955259,
+            50.7699212
+          ],
+          [
+            3.4955688,
+            50.7696006
+          ],
+          [
+            3.4956104,
+            50.7693885
           ],
           [
             3.4956388,
@@ -8603,7 +8623,9 @@
       "id": "way/86501835",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
         "name": "Lamontstraat",
+        "surface": "concrete",
         "id": "way/86501835"
       },
       "geometry": {
@@ -10489,8 +10511,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.5705405,
-            50.7799598
+            3.5705449,
+            50.7799611
           ],
           [
             3.5706291,
@@ -15202,8 +15224,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.5361036,
-            50.7820698
+            3.5360982,
+            50.7820787
           ],
           [
             3.5352147,
@@ -19042,16 +19064,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.5361036,
-            50.7820698
+            3.5360982,
+            50.7820787
           ],
           [
-            3.5363762,
-            50.7821817
+            3.5362331,
+            50.7821336
+          ],
+          [
+            3.5363728,
+            50.7821851
+          ],
+          [
+            3.536449,
+            50.7822099
           ],
           [
             3.5365227,
             50.7822259
+          ],
+          [
+            3.5365878,
+            50.7822463
           ],
           [
             3.5366555,
@@ -27391,8 +27425,13 @@
       "id": "way/368774372",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
+        "maxweight": "3.5",
         "name": "Rampe",
-        "surface": "cobblestone",
+        "source:maxspeed": "BE-VLG:rural",
+        "surface": "sett",
+        "traffic_sign": "BE:C21,GIV[uitgezonderd landbouwvoertuigen]",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/368774372"
       },
       "geometry": {
@@ -55763,8 +55802,13 @@
       "properties": {
         "highway": "unclassified",
         "incline": "14%",
+        "maxspeed": "70",
+        "maxweight": "3.5",
         "name": "Rampe",
-        "surface": "cobblestone",
+        "source:maxspeed": "BE-VLG:rural",
+        "surface": "sett",
+        "traffic_sign": "BE:C21,GIV[uitgezonderd landbouwvoertuigen]",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/1191374515"
       },
       "geometry": {
@@ -55818,8 +55862,13 @@
       "id": "way/1191728522",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "70",
+        "maxweight": "3.5",
         "name": "Watermolenstraat",
-        "surface": "cobblestone",
+        "source:maxspeed": "BE-VLG:rural",
+        "surface": "sett",
+        "traffic_sign": "BE:C21,GIV[uitgezonderd landbouwvoertuigen]",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/1191728522"
       },
       "geometry": {
@@ -62418,12 +62467,12 @@
             50.780061
           ],
           [
-            3.5705285,
-            50.7799814
+            3.5705329,
+            50.7799822
           ],
           [
-            3.5705405,
-            50.7799598
+            3.5705449,
+            50.7799611
           ]
         ]
       }
