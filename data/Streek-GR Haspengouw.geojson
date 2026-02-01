@@ -28635,16 +28635,17 @@
       "type": "Feature",
       "id": "way/45144861",
       "properties": {
-        "bicycle": "designated",
-        "check_date:surface": "2024-11-12",
-        "cycleway:surface": "paving_stones",
+        "bicycle": "yes",
         "foot": "designated",
-        "footway:surface": "paving_stones",
-        "highway": "path",
+        "highway": "service",
+        "horse": "no",
         "lit": "yes",
+        "mofa": "yes",
         "name": "Sint-Aldegondislaan",
         "segregated": "yes",
         "surface": "paving_stones",
+        "traffic_sign": "BE:C3,BE:M3_nl",
+        "vehicle": "permit",
         "id": "way/45144861"
       },
       "geometry": {
@@ -29801,6 +29802,10 @@
           [
             5.3129969,
             50.8849045
+          ],
+          [
+            5.313304,
+            50.8847193
           ],
           [
             5.3134482,
@@ -33055,13 +33060,17 @@
       "type": "Feature",
       "id": "way/1319609300",
       "properties": {
-        "bicycle": "designated",
+        "bicycle": "yes",
         "foot": "designated",
         "highway": "path",
+        "horse": "no",
         "lit": "yes",
+        "mofa": "yes",
         "name": "Sint-Aldegondislaan",
         "segregated": "yes",
         "surface": "paving_stones",
+        "traffic_sign": "BE:C3,BE:M3_nl",
+        "vehicle": "permit",
         "id": "way/1319609300"
       },
       "geometry": {
@@ -43292,7 +43301,6 @@
         "lit": "no",
         "maxspeed": "70",
         "name": "Amandusberglaan",
-        "oneway": "no",
         "sidewalk": "no",
         "source:maxspeed": "zone70",
         "surface": "concrete",
@@ -43348,8 +43356,8 @@
             50.8234713
           ],
           [
-            5.4125594,
-            50.8235587
+            5.412542,
+            50.823543
           ],
           [
             5.412594,
@@ -43435,9 +43443,10 @@
       "type": "Feature",
       "id": "way/54426245",
       "properties": {
-        "highway": "path",
+        "highway": "track",
         "horse": "no",
         "surface": "grass",
+        "tracktype": "grade5",
         "vehicle": "no",
         "id": "way/54426245"
       },
@@ -43445,12 +43454,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4020089,
-            50.8158101
+            5.4019576,
+            50.8158419
           ],
           [
-            5.4019573,
-            50.8158671
+            5.4019392,
+            50.8158629
           ],
           [
             5.4019303,
@@ -43469,8 +43478,8 @@
             50.816229
           ],
           [
-            5.4017001,
-            50.8163781
+            5.4017202,
+            50.8163895
           ],
           [
             5.4016252,
@@ -43489,16 +43498,12 @@
             50.8165036
           ],
           [
-            5.4012374,
-            50.8165168
+            5.4012595,
+            50.8165058
           ],
           [
-            5.4011692,
-            50.8165484
-          ],
-          [
-            5.4011223,
-            50.8165659
+            5.4012092,
+            50.8165164
           ]
         ]
       }
@@ -43701,7 +43706,7 @@
       "id": "way/215865533",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/215865533"
       },
@@ -43882,7 +43887,6 @@
         "horse": "yes",
         "maxspeed": "30",
         "surface": "concrete",
-        "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "id": "way/215869336"
       },
@@ -44014,7 +44018,7 @@
         "horse": "no",
         "note": "wenslijn F79",
         "old_ref": "L23",
-        "railway": "razed",
+        "railway": "abandoned",
         "vehicle": "no",
         "wikipedia": "nl:Spoorlijn 23",
         "id": "way/267854632"
@@ -44027,8 +44031,8 @@
             50.8125755
           ],
           [
-            5.3883705,
-            50.8128669
+            5.3883973,
+            50.8128516
           ],
           [
             5.3876728,
@@ -44084,7 +44088,6 @@
         "highway": "track",
         "horse": "yes",
         "maxspeed": "30",
-        "oneway": "no",
         "surface": "concrete:lanes",
         "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
@@ -44144,6 +44147,10 @@
           [
             5.401656,
             50.8218374
+          ],
+          [
+            5.4016053,
+            50.8217628
           ],
           [
             5.4015525,
@@ -44600,11 +44607,10 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "track",
+        "highway": "unclassified",
         "horse": "yes",
         "maxspeed": "30",
         "surface": "concrete",
-        "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "id": "way/410942997"
       },
@@ -44827,10 +44833,9 @@
         "agricultural": "yes",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "unclassified",
+        "highway": "track",
         "horse": "yes",
         "maxspeed": "30",
-        "oneway": "no",
         "surface": "concrete",
         "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
@@ -44854,6 +44859,7 @@
       "type": "Feature",
       "id": "way/810294086",
       "properties": {
+        "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "70",
@@ -45075,7 +45081,7 @@
       "properties": {
         "highway": "path",
         "horse": "no",
-        "surface": "ground",
+        "surface": "dirt",
         "vehicle": "no",
         "id": "way/860416049"
       },
@@ -45106,7 +45112,7 @@
       "id": "way/860416059",
       "properties": {
         "highway": "track",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade4",
         "id": "way/860416059"
       },
@@ -45206,7 +45212,6 @@
         "highway": "track",
         "horse": "yes",
         "maxspeed": "30",
-        "oneway": "no",
         "surface": "concrete",
         "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
@@ -45237,7 +45242,6 @@
         "highway": "track",
         "horse": "yes",
         "maxspeed": "30",
-        "oneway": "no",
         "surface": "concrete",
         "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
@@ -45268,7 +45272,6 @@
         "highway": "track",
         "horse": "yes",
         "maxspeed": "30",
-        "oneway": "no",
         "surface": "concrete",
         "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
@@ -45284,6 +45287,120 @@
           [
             5.3888848,
             50.8122329
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1473201708",
+      "properties": {
+        "highway": "track",
+        "horse": "no",
+        "surface": "grass",
+        "tracktype": "grade5",
+        "vehicle": "no",
+        "id": "way/1473201708"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4020089,
+            50.8158101
+          ],
+          [
+            5.4019971,
+            50.8158165
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1473201711",
+      "properties": {
+        "highway": "path",
+        "horse": "no",
+        "surface": "grass",
+        "vehicle": "no",
+        "id": "way/1473201711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4019971,
+            50.8158165
+          ],
+          [
+            5.401981,
+            50.8158012
+          ],
+          [
+            5.4019562,
+            50.8158004
+          ],
+          [
+            5.4019408,
+            50.8158216
+          ],
+          [
+            5.4019576,
+            50.8158419
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1473201712",
+      "properties": {
+        "highway": "track",
+        "horse": "no",
+        "surface": "grass",
+        "tracktype": "grade5",
+        "vehicle": "no",
+        "id": "way/1473201712"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4011623,
+            50.8165439
+          ],
+          [
+            5.4011223,
+            50.8165659
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1473201713",
+      "properties": {
+        "highway": "path",
+        "horse": "no",
+        "surface": "grass",
+        "vehicle": "no",
+        "id": "way/1473201713"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4012092,
+            50.8165164
+          ],
+          [
+            5.4012021,
+            50.8165408
+          ],
+          [
+            5.4011623,
+            50.8165439
           ]
         ]
       }
