@@ -15150,6 +15150,7 @@
         "cycleway": "no",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "70",
         "name": "Eskensstraat",
         "surface": "asphalt",
         "id": "way/81808276"
@@ -15209,13 +15210,11 @@
       "id": "way/94562039",
       "properties": {
         "highway": "residential",
-        "maxspeed": "30",
+        "maxspeed": "50",
         "name": "Chaussée de Nivelles",
         "smoothness": "intermediate",
-        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "width": "4",
-        "zone:traffic": "BE-WAL:urban",
         "id": "way/94562039"
       },
       "geometry": {
@@ -15261,6 +15260,7 @@
       "id": "way/94562063",
       "properties": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Chaussée de Nivelles",
         "oneway": "no",
         "surface": "asphalt",
@@ -15310,12 +15310,9 @@
       "id": "way/94562081",
       "properties": {
         "highway": "track",
-        "maxspeed": "30",
         "smoothness": "bad",
-        "source:maxspeed": "BE:zone30",
         "surface": "gravel",
         "tracktype": "grade2",
-        "zone:traffic": "BE-WAL:urban",
         "id": "way/94562081"
       },
       "geometry": {
@@ -15722,14 +15719,16 @@
       "type": "Feature",
       "id": "way/115986253",
       "properties": {
-        "access": "destination",
         "agricultural": "yes",
         "bicycle": "yes",
+        "emergency": "yes",
         "foot": "yes",
-        "highway": "track",
+        "highway": "unclassified",
         "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
-        "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "width": "3",
         "id": "way/115986253"
@@ -15815,7 +15814,7 @@
         "name": "Bosveldstraat",
         "oneway": "no",
         "surface": "concrete",
-        "vehicle": "destination",
+        "vehicle": "no",
         "width": "3",
         "id": "way/145617215"
       },
@@ -15842,6 +15841,7 @@
       "id": "way/163102996",
       "properties": {
         "highway": "residential",
+        "maxspeed": "70",
         "name": "Heersestraat",
         "id": "way/163102996"
       },
@@ -16887,6 +16887,7 @@
         "lane_markings": "no",
         "name": "Overbrouckerweg",
         "oneway": "no",
+        "smoothness": "intermediate",
         "surface": "concrete",
         "vehicle": "destination",
         "width": "3",
@@ -19769,10 +19770,10 @@
       "id": "way/1257864260",
       "properties": {
         "highway": "residential",
-        "maxspeed": "30",
+        "maxspeed": "50",
         "name": "Chaussée de Nivelles",
         "smoothness": "excellent",
-        "source:maxspeed": "BE:zone30",
+        "source:maxspeed": "BE-WAL:urban",
         "surface": "asphalt",
         "width": "4",
         "zone:traffic": "BE-WAL:urban",
