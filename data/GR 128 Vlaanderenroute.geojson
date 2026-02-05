@@ -15514,8 +15514,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4178867,
-            50.7887839
+            5.4179055,
+            50.7887763
           ],
           [
             5.4181444,
@@ -16610,7 +16610,7 @@
         "maxspeed": "50",
         "name": "Singelstraat",
         "sidewalk": "both",
-        "surface": "asphalt",
+        "surface": "paving_stones",
         "id": "way/28410996"
       },
       "geometry": {
@@ -16627,14 +16627,6 @@
           [
             5.3994875,
             50.793289
-          ],
-          [
-            5.3985732,
-            50.7936251
-          ],
-          [
-            5.3982338,
-            50.7937398
           ]
         ]
       }
@@ -55670,11 +55662,10 @@
       "type": "Feature",
       "id": "way/64250009",
       "properties": {
-        "highway": "track",
+        "highway": "unclassified",
         "lane_markings": "no",
         "name": "Wilderstraat",
         "surface": "concrete",
-        "tracktype": "grade1",
         "id": "way/64250009"
       },
       "geometry": {
@@ -55887,27 +55878,15 @@
         "maxspeed": "50",
         "name": "Singelstraat",
         "sidewalk": "both",
-        "surface": "asphalt",
+        "surface": "paving_stones",
         "id": "way/64250018"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.398942,
-            50.7917364
-          ],
-          [
-            5.399061,
-            50.7920416
-          ],
-          [
-            5.3992347,
-            50.7922664
-          ],
-          [
-            5.399497,
-            50.7925997
+            5.3995764,
+            50.7926952
           ],
           [
             5.3996262,
@@ -98152,7 +98131,7 @@
         "horse": "yes",
         "maxspeed": "30",
         "name": "Piringerbroek",
-        "surface": "unpaved",
+        "surface": "dirt",
         "tracktype": "grade3",
         "traffic_sign": "BE:F99c",
         "id": "way/405189020"
@@ -98209,12 +98188,8 @@
             50.7890739
           ],
           [
-            5.4175322,
-            50.7889897
-          ],
-          [
-            5.4178867,
-            50.7887839
+            5.4174893,
+            50.7890177
           ]
         ]
       }
@@ -98224,7 +98199,7 @@
       "id": "way/405202126",
       "properties": {
         "highway": "track",
-        "surface": "compacted",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/405202126"
       },
@@ -98626,11 +98601,12 @@
       "properties": {
         "access": "destination",
         "agricultural": "yes",
-        "highway": "track",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
         "horse": "yes",
         "maxspeed": "30",
         "surface": "concrete",
-        "tracktype": "grade1",
         "traffic_sign": "BE:F99c",
         "width": "3",
         "id": "way/409626105"
@@ -138422,6 +138398,105 @@
           [
             5.2834499,
             50.8077978
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1474251474",
+      "properties": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Singelstraat",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "id": "way/1474251474"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3994875,
+            50.793289
+          ],
+          [
+            5.3985732,
+            50.7936251
+          ],
+          [
+            5.3982338,
+            50.7937398
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1474251476",
+      "properties": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Singelstraat",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "id": "way/1474251476"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.398942,
+            50.7917364
+          ],
+          [
+            5.399061,
+            50.7920416
+          ],
+          [
+            5.3992347,
+            50.7922664
+          ],
+          [
+            5.399497,
+            50.7925997
+          ],
+          [
+            5.3995764,
+            50.7926952
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1474251479",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "name": "Piringerbroek",
+        "surface": "asphalt",
+        "tracktype": "grade1",
+        "traffic_sign": "BE:F99c",
+        "id": "way/1474251479"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.4174893,
+            50.7890177
+          ],
+          [
+            5.4179055,
+            50.7887763
           ]
         ]
       }
