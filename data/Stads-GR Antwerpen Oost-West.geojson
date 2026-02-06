@@ -1563,9 +1563,9 @@
         "bicycle": "yes",
         "highway": "pedestrian",
         "lit": "yes",
+        "motor_vehicle": "no",
+        "motor_vehicle:conditional": "delivery @ (07:00-11:00)",
         "name": "IJzerenwaag",
-        "oneway": "yes",
-        "oneway:bicycle": "no",
         "surface": "paving_stones",
         "id": "way/26182111"
       },
@@ -2735,8 +2735,11 @@
       "properties": {
         "bicycle": "yes",
         "highway": "pedestrian",
+        "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
+        "motor_vehicle": "no",
+        "motor_vehicle:conditional": "delivery @ (07:00-11:00)",
         "name": "Theodoor Van Rijswijckplaats",
         "name:etymology:wikidata": "Q2078792",
         "surface": "paving_stones",

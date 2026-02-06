@@ -31377,11 +31377,12 @@
       "type": "Feature",
       "id": "way/386404197",
       "properties": {
+        "access": "no",
         "bicycle": "designated",
         "designation": "communal_road",
         "foot": "designated",
         "highway": "track",
-        "horse": "no",
+        "horse": "yes",
         "motor_vehicle": "no",
         "name": "Dorentweg",
         "old_name": "Oude Aalstsebaan",
@@ -31395,42 +31396,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.4329837,
-            50.9507739
-          ],
-          [
-            4.4324022,
-            50.9508832
-          ],
-          [
-            4.4316467,
-            50.9510221
-          ],
-          [
-            4.4314009,
-            50.9510682
-          ],
-          [
-            4.4311673,
-            50.9510961
-          ],
-          [
-            4.4307926,
-            50.9511173
-          ],
-          [
-            4.4296514,
-            50.9511471
-          ],
-          [
-            4.4285361,
-            50.9511539
-          ],
-          [
-            4.4282599,
-            50.9511572
-          ],
           [
             4.4282136,
             50.9511482
@@ -38245,7 +38210,11 @@
       "type": "Feature",
       "id": "way/661696664",
       "properties": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
         "motor_vehicle": "no",
         "name": "Korte Tangebeekvoetweg",
         "smoothness": "very_bad",
@@ -46043,10 +46012,11 @@
       "type": "Feature",
       "id": "way/1134953975",
       "properties": {
+        "access": "no",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "horse": "yes",
+        "horse": "no",
         "motor_vehicle": "no",
         "name": "Lange Tangebeekvoetweg",
         "surface": "grass",
@@ -50619,6 +50589,72 @@
           [
             4.2403598,
             50.7332689
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1474478735",
+      "properties": {
+        "access": "no",
+        "bicycle": "designated",
+        "designation": "communal_road",
+        "foot": "designated",
+        "highway": "track",
+        "horse": "no",
+        "motor_vehicle": "no",
+        "name": "Dorentweg",
+        "old_name": "Oude Aalstsebaan",
+        "surface": "unpaved",
+        "tracktype": "grade3",
+        "vicinal_ref": "Buurtweg 11",
+        "vicinal_type": "road",
+        "width": "3.30",
+        "id": "way/1474478735"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4329837,
+            50.9507739
+          ],
+          [
+            4.4324022,
+            50.9508832
+          ],
+          [
+            4.4316467,
+            50.9510221
+          ],
+          [
+            4.4314009,
+            50.9510682
+          ],
+          [
+            4.4311673,
+            50.9510961
+          ],
+          [
+            4.4307926,
+            50.9511173
+          ],
+          [
+            4.4296514,
+            50.9511471
+          ],
+          [
+            4.4285361,
+            50.9511539
+          ],
+          [
+            4.4282599,
+            50.9511572
+          ],
+          [
+            4.4282136,
+            50.9511482
           ]
         ]
       }
