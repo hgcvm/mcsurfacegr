@@ -20228,6 +20228,7 @@
       "properties": {
         "highway": "tertiary",
         "lane_markings": "no",
+        "maxspeed": "70",
         "name": "Vrijheersstraat",
         "surface": "concrete",
         "width": "6",
@@ -20726,12 +20727,15 @@
       "id": "way/191405593",
       "properties": {
         "agricultural": "yes",
+        "alt_name": "Buurtweg nr. 3",
         "bicycle": "yes",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Mielenpad",
         "surface": "concrete",
         "vehicle": "no",
+        "vicinal_ref": "Buurtweg nr. 3",
+        "vicinal_type": "road",
         "id": "way/191405593"
       },
       "geometry": {
@@ -21312,6 +21316,8 @@
         "name": "Aan de Heerenstraat",
         "smoothness": "intermediate",
         "surface": "compacted",
+        "vicinal_ref": "Buurtweg nr. 6",
+        "vicinal_type": "road",
         "id": "way/236327458"
       },
       "geometry": {
@@ -28224,6 +28230,9 @@
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
+        "maxspeed": "70",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ destination",
         "name": "Pleinstraat",
         "sidewalk": "no",
         "surface": "asphalt",
@@ -28335,13 +28344,18 @@
       "properties": {
         "access": "destination",
         "bicycle": "yes",
+        "bus": "yes",
+        "emergency": "yes",
         "highway": "unclassified",
-        "lane_markings": "no",
+        "horse": "yes",
         "lit": "yes",
         "maxspeed": "50",
+        "mofa": "yes",
         "name": "Eikenbosweg",
-        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
+        "traffic_sign": "BE:C3,BE:M3_nl,BE:Type_IV_local_traffic_nl",
+        "vehicle": "destination",
         "id": "way/27715632"
       },
       "geometry": {
@@ -28681,10 +28695,17 @@
       "properties": {
         "access": "destination",
         "bicycle": "yes",
+        "bus": "yes",
+        "emergency": "yes",
         "highway": "unclassified",
+        "horse": "yes",
         "lane_markings": "no",
         "name": "Grendelweg",
+        "oneway:bicycle": "no",
+        "smoothness": "good",
         "surface": "concrete",
+        "traffic_sign": "BE:C3,BE:M2,BE:Type_IV_local_traffic_nl",
+        "vehicle": "destination",
         "id": "way/45316362"
       },
       "geometry": {
@@ -28770,6 +28791,7 @@
       "properties": {
         "highway": "tertiary",
         "lanes": "2",
+        "maxspeed": "70",
         "name": "Laagsimsestraat",
         "surface": "asphalt",
         "id": "way/46700828"
@@ -29820,12 +29842,18 @@
       "id": "way/208697296",
       "properties": {
         "access": "destination",
+        "bicycle": "yes",
         "foot": "yes",
         "highway": "cycleway",
+        "horse": "yes",
         "lit": "no",
         "name": "Eikenbosweg",
         "segregated": "no",
-        "surface": "asphalt",
+        "smoothness": "good",
+        "surface": "concrete",
+        "traffic_sign": "BE:C3,BE:M2,BE:Type_IV_local_traffic_nl",
+        "vehicle": "destination",
+        "width": "2.5",
         "id": "way/208697296"
       },
       "geometry": {
@@ -29920,6 +29948,7 @@
         "maxspeed": "50",
         "name": "Grendelweg",
         "sidewalk": "no",
+        "smoothness": "good",
         "source:maxspeed": "sign",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
@@ -38065,6 +38094,7 @@
         "cycleway": "track",
         "highway": "secondary",
         "lanes": "2",
+        "maxspeed": "70",
         "name": "Eynestraat",
         "ref": "N759",
         "surface": "paving_stones",
