@@ -92575,11 +92575,13 @@
       "type": "Feature",
       "id": "way/60120731",
       "properties": {
-        "bridge": "yes",
+        "bridge": "movable",
+        "bridge:name": "Zwartehoekbrug",
         "highway": "unclassified",
         "layer": "1",
         "maxspeed": "30",
         "name": "Denderstraat",
+        "oneway": "no",
         "surface": "asphalt",
         "id": "way/60120731"
       },
@@ -102470,6 +102472,7 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Pontstraat / Houtmarkt",
         "name:left": "Pontstraat",
         "name:right": "Houtmarkt",
@@ -102498,6 +102501,7 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Houtmarkt",
         "surface": "asphalt",
         "id": "way/92703078"
@@ -106075,8 +106079,8 @@
             50.9450709
           ],
           [
-            4.0495322,
-            50.9450628
+            4.0495283,
+            50.9450637
           ],
           [
             4.051185,
@@ -106173,6 +106177,10 @@
             50.9460331
           ],
           [
+            4.0406609,
+            50.9460593
+          ],
+          [
             4.0406506,
             50.9460709
           ],
@@ -106207,6 +106215,10 @@
           [
             4.041051,
             50.9454086
+          ],
+          [
+            4.0412133,
+            50.9453864
           ],
           [
             4.0413208,
@@ -144448,7 +144460,7 @@
         "maxspeed": "30",
         "name": "Nieuwbrugstraat",
         "oneway": "yes",
-        "oneway:bicycle": "yes",
+        "oneway:bicycle": "no",
         "surface": "asphalt",
         "id": "way/425184684"
       },
@@ -149716,6 +149728,10 @@
           [
             4.0541193,
             50.9415931
+          ],
+          [
+            4.0540937,
+            50.9416644
           ],
           [
             4.0540762,
@@ -165322,8 +165338,8 @@
       "type": "Feature",
       "id": "way/1116471207",
       "properties": {
-        "highway": "residential",
-        "maxspeed": "30",
+        "highway": "living_street",
+        "maxspeed": "20",
         "name": "Priester Daensplein",
         "name:etymology:wikidata": "Q2142943",
         "name:etymology:wikipedia": "nl:Adolf Daens",
