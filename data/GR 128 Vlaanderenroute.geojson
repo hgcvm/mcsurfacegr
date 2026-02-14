@@ -6788,8 +6788,11 @@
       "properties": {
         "highway": "residential",
         "lane_markings": "no",
+        "maxspeed": "50",
         "name": "Kampenhoutsebaan",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/23686252"
       },
       "geometry": {
@@ -11651,7 +11654,10 @@
       "id": "way/24832354",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Larestraat",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/24832354"
       },
       "geometry": {
@@ -28012,9 +28018,11 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Kreupelstraat",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/37953841"
       },
       "geometry": {
@@ -28714,7 +28722,10 @@
       "properties": {
         "cycleway": "shared_lane",
         "highway": "tertiary",
+        "maxspeed": "50",
         "name": "Driesstraat",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/37994392"
       },
       "geometry": {
@@ -115075,7 +115086,8 @@
         "maxweight:conditional": "none @ destination",
         "maxweight:psv": "none",
         "name": "Larestraat",
-        "source:maxspeed": "BE:zone50",
+        "source:maxspeed": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/771086917"
       },
       "geometry": {
