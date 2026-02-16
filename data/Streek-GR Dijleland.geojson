@@ -7824,7 +7824,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
-        "oneway:speedpedelec": "no",
+        "oneway:speed_pedelec": "no",
         "overtaking:motor_vehicle": "no",
         "id": "way/24883994"
       },
@@ -10267,8 +10267,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.5155537,
-            50.8251173
+            4.5155485,
+            50.8251
           ],
           [
             4.5157682,
@@ -20270,6 +20270,7 @@
         "handrail": "yes",
         "highway": "steps",
         "incline": "up",
+        "ramp": "no",
         "step_count": "12",
         "surface": "sett",
         "tactile_paving": "no",
@@ -20294,6 +20295,7 @@
       "id": "way/77246489",
       "properties": {
         "highway": "footway",
+        "smoothness": "bad",
         "surface": "sett",
         "id": "way/77246489"
       },
@@ -24036,6 +24038,7 @@
       "id": "way/101240100",
       "properties": {
         "highway": "footway",
+        "smoothness": "bad",
         "surface": "sett",
         "id": "way/101240100"
       },
@@ -39425,8 +39428,12 @@
             50.8250689
           ],
           [
-            4.5155537,
-            50.8251173
+            4.5154817,
+            50.8251024
+          ],
+          [
+            4.5155485,
+            50.8251
           ]
         ]
       }
