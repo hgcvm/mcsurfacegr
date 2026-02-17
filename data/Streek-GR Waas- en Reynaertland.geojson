@@ -20351,8 +20351,9 @@
       "type": "Feature",
       "id": "way/145251542",
       "properties": {
+        "access": "no",
         "highway": "service",
-        "motor_vehicle": "permissive",
+        "motor_vehicle": "no",
         "surface": "asphalt",
         "id": "way/145251542"
       },
@@ -20360,12 +20361,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.0143215,
-            51.0970004
-          ],
-          [
-            4.0141395,
-            51.097023
+            4.0140747,
+            51.0970303
           ],
           [
             4.0138721,
@@ -20486,9 +20483,10 @@
       "type": "Feature",
       "id": "way/145251543",
       "properties": {
-        "bicycle": "yes",
+        "access": "no",
+        "bicycle": "no",
         "embankment": "yes",
-        "foot": "yes",
+        "foot": "no",
         "highway": "service",
         "motor_vehicle": "permissive",
         "surface": "asphalt",
@@ -20498,10 +20496,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.0108335,
-            51.0992218
-          ],
           [
             4.0109006,
             51.0991133
@@ -40125,8 +40119,9 @@
       "type": "Feature",
       "id": "way/887079929",
       "properties": {
+        "access": "no",
         "highway": "service",
-        "motor_vehicle": "permissive",
+        "motor_vehicle": "no",
         "surface": "asphalt",
         "id": "way/887079929"
       },
@@ -40274,8 +40269,16 @@
             51.0969341
           ],
           [
-            4.0143215,
-            51.0970004
+            4.0143515,
+            51.0969958
+          ],
+          [
+            4.0142792,
+            51.0970078
+          ],
+          [
+            4.0140747,
+            51.0970303
           ]
         ]
       }
@@ -44433,6 +44436,33 @@
           [
             3.9906901,
             51.1222776
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1479454953",
+      "properties": {
+        "bicycle": "yes",
+        "embankment": "yes",
+        "foot": "yes",
+        "highway": "service",
+        "motor_vehicle": "permissive",
+        "surface": "asphalt",
+        "tracktype": "grade1",
+        "id": "way/1479454953"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.0108335,
+            51.0992218
+          ],
+          [
+            4.0109006,
+            51.0991133
           ]
         ]
       }
