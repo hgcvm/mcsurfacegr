@@ -50776,29 +50776,35 @@
       "type": "Feature",
       "id": "way/52516619",
       "properties": {
+        "bridge": "yes",
         "foot": "yes",
-        "highway": "footway",
-        "surface": "unpaved",
+        "highway": "path",
+        "layer": "1",
+        "surface": "wood",
         "id": "way/52516619"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.1388269,
-            50.9263416
+            3.1389396,
+            50.9264803
           ],
           [
-            3.1399555,
-            50.9264492
+            3.1390408,
+            50.9264322
           ],
           [
-            3.1403451,
-            50.9266649
+            3.1399133,
+            50.9265118
           ],
           [
-            3.1404704,
-            50.9266485
+            3.1402003,
+            50.9266818
+          ],
+          [
+            3.1403417,
+            50.926668
           ]
         ]
       }
@@ -73524,8 +73530,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7968686,
-            51.0514434
+            3.7968958,
+            51.0514453
+          ],
+          [
+            3.7967859,
+            51.051437
+          ],
+          [
+            3.7962685,
+            51.0513674
           ],
           [
             3.7956774,
@@ -73725,24 +73739,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7968686,
-            51.0514434
+            3.7968958,
+            51.0514453
           ],
           [
-            3.7968986,
+            3.7969213,
             51.0515471
           ],
           [
-            3.7969336,
-            51.0516256
+            3.7969638,
+            51.0516427
           ],
           [
-            3.7970235,
-            51.0517576
+            3.7970416,
+            51.0517548
           ],
           [
-            3.7971785,
-            51.0518865
+            3.7971921,
+            51.0518818
           ],
           [
             3.7976384,
@@ -78986,16 +79000,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.1393827,
-            50.924476
-          ],
-          [
-            3.1393287,
-            50.9244697
-          ],
-          [
-            3.1391548,
-            50.9244496
+            3.1390597,
+            50.9244354
           ],
           [
             3.1374877,
@@ -89708,12 +89714,12 @@
             50.9264523
           ],
           [
-            3.1387383,
-            50.92649
+            3.1387484,
+            50.9264596
           ],
           [
-            3.1387821,
-            50.9264944
+            3.1388143,
+            50.9264667
           ]
         ]
       }
@@ -100861,31 +100867,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/434991076",
-      "properties": {
-        "cycleway:right": "lane",
-        "cycleway:right:oneway": "no",
-        "highway": "tertiary",
-        "maxspeed": "50",
-        "name": "Moorseelsesteenweg",
-        "id": "way/434991076"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.1388269,
-            50.9263416
-          ],
-          [
-            3.1387821,
-            50.9264944
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/434991079",
       "properties": {
         "highway": "residential",
@@ -109760,11 +109741,11 @@
             50.9240227
           ],
           [
-            3.139424,
-            50.9243354
+            3.1394247,
+            50.9242923
           ],
           [
-            3.1394169,
+            3.1394055,
             50.9243596
           ]
         ]
@@ -126134,13 +126115,14 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Moorseelsesteenweg",
+        "surface": "asphalt",
         "id": "way/1016852531"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.1394169,
+            3.1394055,
             50.9243596
           ],
           [
@@ -138703,6 +138685,119 @@
           [
             3.9811571,
             51.0188612
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1481753613",
+      "properties": {
+        "foot": "yes",
+        "highway": "path",
+        "id": "way/1481753613"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.1388143,
+            50.9264667
+          ],
+          [
+            3.1388824,
+            50.9264741
+          ],
+          [
+            3.1389396,
+            50.9264803
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1481753614",
+      "properties": {
+        "foot": "yes",
+        "highway": "path",
+        "surface": "unpaved",
+        "id": "way/1481753614"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.1403417,
+            50.926668
+          ],
+          [
+            3.1404704,
+            50.9266485
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1481753616",
+      "properties": {
+        "bicycle:forward": "yes",
+        "cycleway:right": "lane",
+        "highway": "residential",
+        "horse:forward": "destination",
+        "maxspeed": "50",
+        "name": "Sterrebosdreef",
+        "surface": "asphalt",
+        "vehicle:forward": "destination",
+        "id": "way/1481753616"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.1393827,
+            50.924476
+          ],
+          [
+            3.1393287,
+            50.9244697
+          ],
+          [
+            3.1393116,
+            50.9244677
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1481767879",
+      "properties": {
+        "bicycle:forward": "yes",
+        "cycleway:right": "lane",
+        "highway": "residential",
+        "horse:forward": "destination",
+        "maxspeed": "50",
+        "name": "Sterrebosdreef",
+        "surface": "asphalt",
+        "vehicle:forward": "destination",
+        "id": "way/1481767879"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.1393116,
+            50.9244677
+          ],
+          [
+            3.1391548,
+            50.9244496
+          ],
+          [
+            3.1390597,
+            50.9244354
           ]
         ]
       }
