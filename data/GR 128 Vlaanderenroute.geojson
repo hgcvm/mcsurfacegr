@@ -3345,10 +3345,15 @@
       "type": "Feature",
       "id": "way/12374251",
       "properties": {
+        "agricultural": "yes",
         "highway": "unclassified",
+        "maxlength": "10",
+        "maxlength:conditional": "yes @ delivery",
         "maxspeed": "50",
         "name": "Attenhovendreef",
-        "surface": "concrete",
+        "smoothness": "intermediate",
+        "surface": "concrete:lanes",
+        "surface:middle": "compacted",
         "id": "way/12374251"
       },
       "geometry": {
@@ -3371,8 +3376,8 @@
             50.908749
           ],
           [
-            4.7369922,
-            50.908674
+            4.7370016,
+            50.9086605
           ]
         ]
       }
@@ -3973,7 +3978,6 @@
       "type": "Feature",
       "id": "way/17971329",
       "properties": {
-        "access": "destination",
         "agricultural": "yes",
         "bicycle": "yes",
         "emergency": "yes",
@@ -3983,11 +3987,14 @@
         "maxspeed": "30",
         "mofa": "no",
         "moped": "no",
+        "motor_vehicle": "destination",
         "name": "Kloosterdijkpad",
         "segregated": "no",
+        "smoothness": "intermediate",
+        "speed_pedelec": "yes",
         "surface": "compacted",
         "tracktype": "grade2",
-        "traffic_sign": "F99c",
+        "traffic_sign": "BE:F99c",
         "width": "4",
         "id": "way/17971329"
       },
@@ -4001,6 +4008,10 @@
           [
             4.7345702,
             50.8937525
+          ],
+          [
+            4.7345489,
+            50.8937529
           ],
           [
             4.7307452,
@@ -4197,9 +4208,12 @@
       "type": "Feature",
       "id": "way/18092708",
       "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "cycleway",
+        "access:conditional": "yes @ permit",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "no",
+        "maxspeed": "30",
         "name": "Herbeemdpad",
         "oneway": "no",
         "segregated": "no",
@@ -4208,6 +4222,7 @@
         "smoking:cannabis": "no",
         "smoking:outside": "no",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99a_variant",
         "vehicle": "no",
         "id": "way/18092708"
       },
@@ -7142,9 +7157,12 @@
       "type": "Feature",
       "id": "way/23950552",
       "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "cycleway",
+        "access:conditional": "yes @ permit",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "no",
+        "maxspeed": "30",
         "name": "Bruineveldpad",
         "oneway": "no",
         "segregated": "no",
@@ -7152,7 +7170,9 @@
         "smoking": "no",
         "smoking:cannabis": "no",
         "smoking:outside": "no",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99a_variant",
         "vehicle": "no",
         "id": "way/23950552"
       },
@@ -7194,17 +7214,22 @@
       "type": "Feature",
       "id": "way/23950553",
       "properties": {
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "cycleway",
+        "access:conditional": "yes @ permit",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "no",
+        "maxspeed": "30",
         "name": "Bruineveldpad",
-        "oneway": "no",
         "segregated": "no",
         "smokefree": "yes",
         "smoking": "no",
         "smoking:cannabis": "no",
         "smoking:outside": "no",
+        "smoothness": "intermediate",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F99a_variant",
         "vehicle": "no",
         "id": "way/23950553"
       },
@@ -31068,13 +31093,17 @@
       "type": "Feature",
       "id": "way/38198691",
       "properties": {
+        "access:conditional": "yes @ permit",
         "bicycle": "yes",
+        "emergency": "yes",
         "foot": "yes",
         "highway": "path",
         "horse": "yes",
+        "maxspeed": "30",
         "name": "Kaeystraat",
         "surface": "dirt",
-        "traffic_sign": "F99a",
+        "traffic_sign": "BE:F99a",
+        "vehicle": "no",
         "id": "way/38198691"
       },
       "geometry": {
@@ -31127,13 +31156,17 @@
       "type": "Feature",
       "id": "way/38198693",
       "properties": {
+        "access:conditional": "yes @ permit",
         "bicycle": "yes",
+        "emergency": "yes",
         "foot": "yes",
         "highway": "track",
         "horse": "yes",
+        "maxspeed": "30",
         "surface": "compacted",
         "tracktype": "grade3",
-        "traffic_sign": "F99a",
+        "traffic_sign": "BE:F99a",
+        "vehicle": "no",
         "id": "way/38198693"
       },
       "geometry": {
@@ -31231,17 +31264,22 @@
         "highway": "unclassified",
         "maxlength": "10",
         "maxlength:conditional": "yes @ delivery",
+        "maxspeed": "50",
         "name": "Meesberg",
+        "smoothness": "intermediate",
+        "source:maxspeed": "sign",
         "surface": "concrete:lanes",
+        "surface:middle": "compacted",
         "tracktype": "grade1",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/38208111"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.7416906,
-            50.9095968
+            4.7415207,
+            50.9095932
           ],
           [
             4.7409367,
@@ -31264,12 +31302,8 @@
             50.9096281
           ],
           [
-            4.7383044,
-            50.9096169
-          ],
-          [
-            4.7381952,
-            50.9096064
+            4.7382441,
+            50.9096161
           ],
           [
             4.7380693,
@@ -31290,8 +31324,13 @@
         "highway": "unclassified",
         "maxlength": "10",
         "maxlength:conditional": "yes @ delivery",
+        "maxspeed": "50",
         "name": "Attenhovendreef",
-        "surface": "concrete",
+        "smoothness": "intermediate",
+        "source:maxspeed": "sign",
+        "surface": "concrete:lanes",
+        "surface:middle": "compacted",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/38208389"
       },
       "geometry": {
@@ -31302,8 +31341,12 @@
             50.9083848
           ],
           [
-            4.7369922,
-            50.908674
+            4.7369742,
+            50.9085442
+          ],
+          [
+            4.7370016,
+            50.9086605
           ]
         ]
       }
@@ -31924,13 +31967,17 @@
       "type": "Feature",
       "id": "way/38210904",
       "properties": {
+        "access:conditional": "yes @ permit",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
         "horse": "yes",
+        "maxspeed": "30",
         "name": "Kesselbergpad",
+        "segregated": "no",
         "surface": "asphalt",
-        "traffic_sign": "F99c",
+        "traffic_sign": "BE:F99a_variant",
+        "vehicle": "no",
         "id": "way/38210904"
       },
       "geometry": {
@@ -32031,14 +32078,18 @@
       "type": "Feature",
       "id": "way/38211412",
       "properties": {
+        "access:conditional": "yes @ permit",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
         "horse": "yes",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Genadeweg",
+        "segregated": "no",
         "surface": "asphalt",
-        "traffic_sign": "F99c",
+        "traffic_sign": "BE:F99a_variant",
+        "vehicle": "no",
         "width": "1.5",
         "id": "way/38211412"
       },
@@ -40142,15 +40193,20 @@
       "type": "Feature",
       "id": "way/39352016",
       "properties": {
+        "access:conditional": "yes @ permit",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
+        "horse": "yes",
+        "maxspeed": "30",
         "name": "Witte-Vrouwenpad",
+        "segregated": "no",
         "smokefree": "yes",
         "smoking": "no",
         "smoking:cannabis": "no",
         "smoking:outside": "no",
         "surface": "compacted",
+        "traffic_sign": "BE:F99a_variant",
         "vehicle": "no",
         "id": "way/39352016"
       },
@@ -77485,33 +77541,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/179193407",
-      "properties": {
-        "highway": "unclassified",
-        "lane_markings": "no",
-        "maxspeed": "30",
-        "name": "Alberdingk Thymlaan",
-        "surface": "asphalt",
-        "width": "4",
-        "zone:traffic": "BE-VLG:urban",
-        "id": "way/179193407"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.7351248,
-            50.8947446
-          ],
-          [
-            4.7347124,
-            50.8938029
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/179193411",
       "properties": {
         "highway": "tertiary",
@@ -102858,9 +102887,14 @@
         "highway": "unclassified",
         "maxlength": "10",
         "maxlength:conditional": "yes @ delivery",
+        "maxspeed": "50",
         "name": "Meesberg",
+        "smoothness": "intermediate",
+        "source:maxspeed": "sign",
         "surface": "concrete:lanes",
+        "surface:middle": "compacted",
         "tracktype": "grade1",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/450119555"
       },
       "geometry": {
@@ -120476,8 +120510,10 @@
       "id": "way/849576916",
       "properties": {
         "highway": "unclassified",
-        "maxspeed": "50",
+        "lane_markings": "no",
+        "maxspeed": "30",
         "name": "Alberdingk Thymlaan",
+        "smoothness": "bad",
         "surface": "cobblestone",
         "width": "4",
         "zone:traffic": "BE-VLG:urban",
@@ -120486,6 +120522,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            4.7351248,
+            50.8947446
+          ],
           [
             4.7347124,
             50.8938029
@@ -133678,8 +133718,13 @@
         "highway": "unclassified",
         "maxlength": "10",
         "maxlength:conditional": "yes @ delivery",
+        "maxspeed": "50",
         "name": "Dellestraat",
-        "surface": "concrete",
+        "smoothness": "intermediate",
+        "source:maxspeed": "sign",
+        "surface": "concrete:lanes",
+        "surface:middle": "cobblestone",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/1298838050"
       },
       "geometry": {
@@ -138809,6 +138854,38 @@
           [
             3.1390597,
             50.9244354
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1483878686",
+      "properties": {
+        "agricultural": "yes",
+        "highway": "unclassified",
+        "maxlength": "10",
+        "maxlength:conditional": "yes @ delivery",
+        "maxspeed": "50",
+        "name": "Meesberg",
+        "smoothness": "intermediate",
+        "source:maxspeed": "sign",
+        "surface": "concrete:lanes",
+        "surface:middle": "cobblestone",
+        "tracktype": "grade1",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1483878686"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7416906,
+            50.9095968
+          ],
+          [
+            4.7415207,
+            50.9095932
           ]
         ]
       }
