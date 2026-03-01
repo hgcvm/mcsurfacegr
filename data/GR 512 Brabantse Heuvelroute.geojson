@@ -14323,8 +14323,11 @@
       "id": "way/77377889",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Peerse",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/77377889"
       },
       "geometry": {
@@ -14339,8 +14342,8 @@
             50.9320205
           ],
           [
-            4.8329973,
-            50.9321653
+            4.8329966,
+            50.9321712
           ]
         ]
       }
@@ -33433,10 +33436,17 @@
       "type": "Feature",
       "id": "way/324298379",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "surface": "compacted",
         "tracktype": "grade2",
-        "vehicle": "no",
+        "traffic_sign": "BE:F99c",
         "id": "way/324298379"
       },
       "geometry": {
@@ -33455,8 +33465,8 @@
             50.9323762
           ],
           [
-            4.8329973,
-            50.9321653
+            4.8329966,
+            50.9321712
           ]
         ]
       }

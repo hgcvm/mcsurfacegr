@@ -29939,9 +29939,12 @@
       "id": "way/24479755",
       "properties": {
         "bicycle": "permissive",
-        "highway": "footway",
+        "highway": "path",
         "lit": "no",
-        "note": "gezien deze kleuter / lagere school kind speelplek druk gebruikt wordt, en de overvloed van paden rondom, lijkt het mij redelijk de paden tussen de tientallen bankjes en het speelgerief als bicycle=dismount te taggen?",
+        "mofa": "permissive",
+        "moped": "permissive",
+        "note": "kleuter/ kind speelplek druk gebruikt & paden rondom: lijkt redelijk pad tussen bankjes etc. en speelgerief voor bicycle (en mofa / moped / speed_pedelec) als 'permissive' te taggen - bij te vaak/ te rap passeren komt zeker verbod.",
+        "speed_pedelec": "permissive",
         "surface": "compacted",
         "vehicle": "no",
         "id": "way/24479755"
@@ -33785,55 +33788,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/132301452",
-      "properties": {
-        "highway": "cycleway",
-        "lit": "yes",
-        "oneway": "no",
-        "source": "bing2011",
-        "surface": "paving_stones",
-        "id": "way/132301452"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4036596,
-            51.18871
-          ],
-          [
-            4.4037117,
-            51.1886613
-          ],
-          [
-            4.4037303,
-            51.188618
-          ],
-          [
-            4.4037245,
-            51.1885748
-          ],
-          [
-            4.4036995,
-            51.1885108
-          ],
-          [
-            4.4036746,
-            51.188438
-          ],
-          [
-            4.4036588,
-            51.1883637
-          ],
-          [
-            4.403644,
-            51.1882668
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/132517879",
       "properties": {
         "highway": "cycleway",
@@ -37385,94 +37339,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/933293131",
-      "properties": {
-        "bicycle": "permissive",
-        "foot": "designated",
-        "highway": "footway",
-        "horse": "no",
-        "incline": "0%",
-        "leisure": "track",
-        "lit": "yes",
-        "note": "'Finse Piste' = jogging (rather than running) track",
-        "smoothness": "bad",
-        "sport": "jogging",
-        "surface": "woodchips",
-        "width": "1",
-        "id": "way/933293131"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.400463,
-            51.1892246
-          ],
-          [
-            4.400585,
-            51.1891977
-          ],
-          [
-            4.4008766,
-            51.189156
-          ],
-          [
-            4.4009753,
-            51.1891313
-          ],
-          [
-            4.4010678,
-            51.189101
-          ],
-          [
-            4.4011188,
-            51.1890539
-          ],
-          [
-            4.401214,
-            51.1888799
-          ],
-          [
-            4.4013346,
-            51.1887169
-          ],
-          [
-            4.4013186,
-            51.1886381
-          ],
-          [
-            4.4012996,
-            51.1885811
-          ],
-          [
-            4.4012904,
-            51.1885533
-          ],
-          [
-            4.4013213,
-            51.1884904
-          ],
-          [
-            4.40157,
-            51.1882369
-          ],
-          [
-            4.4018843,
-            51.1878925
-          ],
-          [
-            4.4019098,
-            51.1878597
-          ],
-          [
-            4.4019176,
-            51.1878228
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/933744071",
       "properties": {
         "cycleway": "track",
@@ -38345,8 +38211,9 @@
         "bicycle": "permissive",
         "highway": "path",
         "horse": "no",
+        "incline": "0%",
         "surface": "grass",
-        "trail_visibility": "intermediate",
+        "trail_visibility": "bad",
         "id": "way/1035356345"
       },
       "geometry": {
@@ -38365,47 +38232,9 @@
     },
     {
       "type": "Feature",
-      "id": "way/1035356346",
-      "properties": {
-        "access": "private",
-        "check_date": "2026-02-14",
-        "highway": "path",
-        "lit": "no",
-        "note": "dit stuk pad is onderbroken door werfraster, daardoor geen toegang.",
-        "surface": "dirt",
-        "id": "way/1035356346"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.402095,
-            51.1877604
-          ],
-          [
-            4.4031258,
-            51.1881332
-          ],
-          [
-            4.403236,
-            51.1881646
-          ],
-          [
-            4.4034712,
-            51.1882318
-          ],
-          [
-            4.403644,
-            51.1882668
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1035360557",
       "properties": {
-        "bicycle": "permissive",
+        "bicycle": "unknown",
         "foot": "designated",
         "highway": "footway",
         "horse": "no",
@@ -39002,6 +38831,45 @@
           [
             4.4300921,
             51.2022348
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1478741359",
+      "properties": {
+        "highway": "path",
+        "horse": "private",
+        "incline": "0%",
+        "note": "pad deed een omweg om voetbalveld; daar wordt nu tennisclubhuis gebouwd; piketten laten weinig ruimte voor twijfelP: onwaarschijnlijk dat oude traject 'later' weer in gebruik kan worden genomen.",
+        "surface": "ground",
+        "trail_visibility": "bad",
+        "width": "1",
+        "id": "way/1478741359"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4010678,
+            51.189101
+          ],
+          [
+            4.4011418,
+            51.1891074
+          ],
+          [
+            4.4024621,
+            51.1889287
+          ],
+          [
+            4.4034542,
+            51.1887876
+          ],
+          [
+            4.4035504,
+            51.188783
           ]
         ]
       }

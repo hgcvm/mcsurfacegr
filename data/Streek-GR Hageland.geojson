@@ -793,21 +793,20 @@
         "cycleway": "track",
         "highway": "tertiary",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Gravenstraat",
         "segregated": "yes",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/13858500"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.8112921,
-            50.9268188
-          ],
-          [
-            4.8112647,
-            50.9267593
+            4.8112572,
+            50.9267512
           ],
           [
             4.8111907,
@@ -836,12 +835,13 @@
       "type": "Feature",
       "id": "way/13858519",
       "properties": {
+        "cycleway": "shared_lane",
         "destination:forward": "Holsbeek",
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Dutselstraat",
         "source:maxspeed": "BE:zone30",
-        "surface": "paving_stones",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/13858519"
       },
@@ -1623,16 +1623,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8112921,
-            50.9268188
+            4.8112572,
+            50.9267512
           ],
           [
-            4.8114344,
-            50.9267701
-          ],
-          [
-            4.8117211,
-            50.9268508
+            4.8114411,
+            50.9267802
           ],
           [
             4.812031,
@@ -9197,10 +9193,21 @@
       "type": "Feature",
       "id": "way/36123131",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Hertstraat",
-        "surface": "compacted",
+        "smoothness": "good",
+        "speed_pedelec": "yes",
+        "surface": "concrete:lanes",
+        "surface:middle": "grass_paver",
         "tracktype": "grade1",
+        "traffic_sign": "BE:F99c",
         "id": "way/36123131"
       },
       "geometry": {
@@ -9241,21 +9248,32 @@
       "type": "Feature",
       "id": "way/36333686",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
         "maxlength:agricultural": "none",
         "maxlength:hgv": "10",
         "maxlength:hgv:conditional": "none @ delivery",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Hooghuis",
-        "surface": "asphalt:lanes",
+        "smoothness": "good",
+        "speed_pedelec": "yes",
+        "surface": "concrete:lanes",
+        "surface:middle": "grass_paver",
         "tracktype": "grade1",
+        "traffic_sign": "BE:F99c",
         "id": "way/36333686"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.8215633,
-            50.9455467
+            4.8214506,
+            50.9454453
           ],
           [
             4.8213935,
@@ -10450,7 +10468,8 @@
         "highway": "residential",
         "lit": "yes",
         "name": "Hooghuis",
-        "surface": "concrete",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
         "width": "4",
         "id": "way/37683772"
       },
@@ -16664,8 +16683,11 @@
       "id": "way/77377889",
       "properties": {
         "highway": "unclassified",
+        "maxspeed": "50",
         "name": "Peerse",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/77377889"
       },
       "geometry": {
@@ -16680,8 +16702,8 @@
             50.9320205
           ],
           [
-            4.8329973,
-            50.9321653
+            4.8329966,
+            50.9321712
           ]
         ]
       }
@@ -21053,7 +21075,8 @@
         "lit": "yes",
         "maxlength": "10 m",
         "name": "Hooghuis",
-        "surface": "concrete",
+        "smoothness": "bad",
+        "surface": "asphalt",
         "width": "3",
         "id": "way/138567821"
       },
@@ -25125,11 +25148,16 @@
       "id": "way/182275357",
       "properties": {
         "cycleway": "track",
+        "cycleway:both:smoothness": "intermediate",
+        "cycleway:both:surface": "paving_stones",
         "destination:backward": "Sint-Pieters-Rode",
         "highway": "tertiary",
         "lit": "yes",
+        "maxspeed": "50",
         "name": "Gravenstraat",
+        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/182275357"
       },
       "geometry": {
@@ -25152,24 +25180,8 @@
             50.9260664
           ],
           [
-            4.8089392,
-            50.9259537
-          ],
-          [
-            4.8088042,
-            50.9259069
-          ],
-          [
-            4.8086328,
-            50.9258619
-          ],
-          [
-            4.8084751,
-            50.9258272
-          ],
-          [
-            4.8082112,
-            50.9257887
+            4.8088949,
+            50.9259393
           ]
         ]
       }
@@ -33645,7 +33657,8 @@
         "lit": "yes",
         "maxlength": "10 m",
         "name": "Hooghuis",
-        "surface": "concrete",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
         "width": "3",
         "id": "way/324281413"
       },
@@ -33673,8 +33686,8 @@
             50.9456177
           ],
           [
-            4.8215633,
-            50.9455467
+            4.8214506,
+            50.9454453
           ]
         ]
       }
@@ -33683,10 +33696,17 @@
       "type": "Feature",
       "id": "way/324298379",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "surface": "compacted",
         "tracktype": "grade2",
-        "vehicle": "no",
+        "traffic_sign": "BE:F99c",
         "id": "way/324298379"
       },
       "geometry": {
@@ -33705,8 +33725,8 @@
             50.9323762
           ],
           [
-            4.8329973,
-            50.9321653
+            4.8329966,
+            50.9321712
           ]
         ]
       }
@@ -39496,8 +39516,11 @@
         "destination:backward": "Sint-Pieters-Rode",
         "highway": "tertiary",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Gravenstraat",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/540115503"
       },
       "geometry": {
@@ -49882,6 +49905,49 @@
           [
             4.7415207,
             50.9095932
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1484126970",
+      "properties": {
+        "cycleway": "track",
+        "cycleway:both:smoothness": "intermediate",
+        "cycleway:both:surface": "paving_stones",
+        "destination:backward": "Sint-Pieters-Rode",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Gravenstraat",
+        "source:maxspeed": "BE-VLG:zone30",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1484126970"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8088949,
+            50.9259393
+          ],
+          [
+            4.8088042,
+            50.9259069
+          ],
+          [
+            4.8086328,
+            50.9258619
+          ],
+          [
+            4.8084751,
+            50.9258272
+          ],
+          [
+            4.8082112,
+            50.9257887
           ]
         ]
       }
