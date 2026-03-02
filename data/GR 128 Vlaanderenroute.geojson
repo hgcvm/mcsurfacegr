@@ -1992,6 +1992,8 @@
         "maxspeed": "30",
         "maxspeed:type": "NL:zone30",
         "name": "Henri Hermanspark",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
         "surface": "asphalt",
         "id": "way/7126765"
       },
@@ -2080,8 +2082,10 @@
       "properties": {
         "cycleway": "lane",
         "highway": "residential",
+        "lit": "yes",
         "maxspeed": "30",
         "name": "Henri Hermanspark",
+        "sidewalk": "right",
         "surface": "asphalt",
         "id": "way/7126798"
       },
@@ -3041,20 +3045,32 @@
             50.9848587
           ],
           [
-            4.3644283,
-            50.9849144
+            4.3644151,
+            50.9848915
           ],
           [
-            4.3644664,
-            50.9849668
+            4.3644288,
+            50.9849194
           ],
           [
-            4.3644959,
-            50.9849902
+            4.3644456,
+            50.9849404
           ],
           [
-            4.3645683,
-            50.9850362
+            4.3644808,
+            50.9849715
+          ],
+          [
+            4.3645161,
+            50.9849983
+          ],
+          [
+            4.3645331,
+            50.9850109
+          ],
+          [
+            4.3645723,
+            50.985033
           ],
           [
             4.3650218,
@@ -21952,8 +21968,11 @@
         "cycleway": "lane",
         "highway": "residential",
         "layer": "1",
+        "lit": "yes",
         "maxspeed": "30",
+        "maxweight:signed": "no",
         "name": "Henri Hermanspark",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/33073203"
       },
@@ -22982,6 +23001,10 @@
           [
             4.3649656,
             50.9837783
+          ],
+          [
+            4.3648727,
+            50.9837315
           ],
           [
             4.3648123,
@@ -52457,6 +52480,7 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Henri Hermanspark",
+        "sidewalk": "both",
         "surface": "asphalt",
         "id": "way/54621768"
       },
@@ -68322,6 +68346,10 @@
           [
             5.1325236,
             50.8446787
+          ],
+          [
+            5.1325882,
+            50.8445043
           ],
           [
             5.1326047,
@@ -109242,32 +109270,48 @@
             50.9837783
           ],
           [
-            4.3649457,
-            50.9838104
+            4.3649413,
+            50.9838089
           ],
           [
-            4.3648488,
-            50.9839324
+            4.364867,
+            50.9839032
           ],
           [
-            4.3647311,
-            50.9840988
+            4.364823,
+            50.9839572
           ],
           [
-            4.3646353,
-            50.9842838
+            4.3647322,
+            50.984101
+          ],
+          [
+            4.3646837,
+            50.984189
+          ],
+          [
+            4.3646405,
+            50.9842864
+          ],
+          [
+            4.3645649,
+            50.9844548
           ],
           [
             4.3645289,
             50.9845295
           ],
           [
-            4.3645066,
-            50.9846088
+            4.3644971,
+            50.984607
           ],
           [
-            4.364479,
-            50.9846691
+            4.3644716,
+            50.9846698
+          ],
+          [
+            4.3644391,
+            50.9847545
           ],
           [
             4.3644227,
@@ -179281,9 +179325,10 @@
       "type": "Feature",
       "id": "way/39996388",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "lane_markings": "no",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Beukenbergweg",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -179760,11 +179805,13 @@
       "type": "Feature",
       "id": "way/346098167",
       "properties": {
+        "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Beukenbergweg",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "surface": "asphalt",
         "id": "way/346098167"
       },
       "geometry": {

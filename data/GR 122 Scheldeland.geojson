@@ -2927,6 +2927,7 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "secondary",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Dorpsplein",
         "ref": "N438",
@@ -3014,6 +3015,8 @@
       "id": "way/27446002",
       "properties": {
         "highway": "residential",
+        "lane_markings": "yes",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Vossenstraat",
         "source:maxspeed": "BE-VLG:urban",
@@ -3375,7 +3378,9 @@
       "properties": {
         "cycleway": "track",
         "highway": "secondary",
+        "lane_markings": "no",
         "maxspeed": "30",
+        "maxweight": "3.5",
         "name": "Dorpsplein",
         "ref": "N438",
         "source:maxspeed": "BE:zone30",
@@ -3415,6 +3420,8 @@
       "properties": {
         "cycleway": "lane",
         "highway": "residential",
+        "lane_markings": "yes",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Gemeenteplein",
         "name:etymology:wikidata": "Q15284",
@@ -9434,12 +9441,15 @@
       "type": "Feature",
       "id": "way/43133572",
       "properties": {
+        "handrail": "yes",
         "handrail:both": "yes",
         "highway": "steps",
         "incline": "up",
+        "ramp": "yes",
         "ramp:bicycle": "yes",
         "step_count": "34",
         "surface": "concrete",
+        "tactile_paving": "no",
         "id": "way/43133572"
       },
       "geometry": {
@@ -18090,6 +18100,8 @@
         "bicycle": "designated",
         "cyclestreet": "yes",
         "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "1",
         "maxspeed": "30",
         "name": "Centrumstraat",
         "oneway": "yes",
@@ -46686,6 +46698,7 @@
       "properties": {
         "cycleway": "track",
         "highway": "secondary",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Dorpsplein",
         "ref": "N438",
