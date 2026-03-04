@@ -2741,10 +2741,13 @@
       "type": "Feature",
       "id": "way/52589506",
       "properties": {
-        "access": "no",
-        "bicycle": "no",
+        "bicycle": "yes",
         "highway": "track",
+        "horse": "no",
+        "oneway:bicycle": "no",
         "surface": "compacted",
+        "traffic_sign": "BE:C3,BE:M2",
+        "vehicle": "no",
         "id": "way/52589506"
       },
       "geometry": {
@@ -2801,11 +2804,15 @@
       "type": "Feature",
       "id": "way/52589507",
       "properties": {
-        "access": "no",
+        "bicycle": "yes",
         "highway": "track",
+        "horse": "no",
         "name": "Knokkestraat",
         "name:etymology:wikidata": "Q2171306",
+        "oneway:bicycle": "no",
         "surface": "gravel",
+        "traffic_sign": "BE:C3,BE:M2",
+        "vehicle": "no",
         "id": "way/52589507"
       },
       "geometry": {
@@ -3022,10 +3029,16 @@
       "type": "Feature",
       "id": "way/52589508",
       "properties": {
+        "bicycle": "yes",
+        "bus": "yes",
+        "emergency": "yes",
         "highway": "unclassified",
+        "horse": "yes",
         "name": "Knokkestraat",
         "name:etymology:wikidata": "Q2171306",
         "surface": "asphalt",
+        "traffic_sign": "BE:C3,BE:Type_IV_local_traffic_nl",
+        "vehicle": "destination",
         "width": "3",
         "id": "way/52589508"
       },
@@ -6852,12 +6865,16 @@
       "type": "Feature",
       "id": "way/89476850",
       "properties": {
-        "access": "permit",
-        "bicycle": "no",
+        "bicycle": "yes",
+        "bus": "yes",
+        "emergency": "yes",
         "highway": "track",
+        "horse": "yes",
         "name": "Knokkestraat",
         "name:etymology:wikidata": "Q2171306",
         "surface": "compacted",
+        "traffic_sign": "BE:C3,BE:Type_IV_local_traffic_nl",
+        "vehicle": "destination",
         "id": "way/89476850"
       },
       "geometry": {
@@ -30396,12 +30413,15 @@
       "type": "Feature",
       "id": "way/997266294",
       "properties": {
-        "access": "destination",
         "bicycle": "yes",
         "bridge": "yes",
         "highway": "track",
+        "horse": "no",
         "layer": "1",
+        "oneway:bicycle": "no",
         "surface": "compacted",
+        "traffic_sign": "BE:C3,BE:M2",
+        "vehicle": "no",
         "id": "way/997266294"
       },
       "geometry": {
