@@ -24862,11 +24862,14 @@
       "type": "Feature",
       "id": "way/269700387",
       "properties": {
+        "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "2",
         "maxspeed": "50",
         "name": "Postlaan",
         "ref": "N283",
+        "sidewalk": "both",
+        "surface": "concrete",
         "id": "way/269700387"
       },
       "geometry": {
@@ -43573,14 +43576,20 @@
       "type": "Feature",
       "id": "way/1454110288",
       "properties": {
+        "bicycle": "yes",
         "highway": "residential",
         "maxspeed": "50",
+        "mofa": "yes",
         "name": "Oude Diestersebaan",
         "name:etymology:wikidata": "Q743236",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "oneway:speed_pedelec": "no",
         "source:maxspeed": "sign",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:C1,BE:M12_nl",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/1454110288"
       },

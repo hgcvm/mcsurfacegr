@@ -8373,13 +8373,15 @@
       "type": "Feature",
       "id": "way/33094130",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "maxspeed": "50",
         "maxweight": "3.5",
         "maxweight:conditional": "none @ delivery",
         "name": "Tommenmolenstraat",
         "oneway": "no",
-        "surface": "cobblestone",
+        "sidewalk": "no",
+        "surface": "sett",
         "id": "way/33094130"
       },
       "geometry": {
@@ -8410,12 +8412,8 @@
             50.9383034
           ],
           [
-            4.3816456,
-            50.9383846
-          ],
-          [
-            4.3819052,
-            50.9384668
+            4.3815685,
+            50.9383584
           ]
         ]
       }
@@ -8424,13 +8422,15 @@
       "type": "Feature",
       "id": "way/33094332",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "maxspeed": "50",
         "maxweight": "3.5",
         "maxweight:conditional": "none @ delivery",
         "name": "Tommenmolenstraat",
         "oneway": "no",
-        "surface": "cobblestone",
+        "sidewalk": "no",
+        "surface": "sett",
         "id": "way/33094332"
       },
       "geometry": {
@@ -8451,7 +8451,9 @@
       "type": "Feature",
       "id": "way/33094381",
       "properties": {
+        "cycleway:both": "no",
         "highway": "service",
+        "surface": "sett",
         "id": "way/33094381"
       },
       "geometry": {
@@ -8477,7 +8479,7 @@
         "highway": "cycleway",
         "name": "Voetweg 101 - Molenbeekvoetweg / Maalbeekpad",
         "segregated": "no",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/33094527"
       },
       "geometry": {
@@ -13187,7 +13189,7 @@
         "highway": "path",
         "name": "Buurtweg 17 - Tommenmolenstraat",
         "segregated": "no",
-        "surface": "compacted",
+        "surface": "dirt",
         "id": "way/39725378"
       },
       "geometry": {
@@ -13269,8 +13271,10 @@
       "id": "way/39726035",
       "properties": {
         "bridge": "yes",
+        "cycleway:both": "no",
         "highway": "service",
         "layer": "1",
+        "surface": "sett",
         "id": "way/39726035"
       },
       "geometry": {
@@ -16148,11 +16152,14 @@
       "type": "Feature",
       "id": "way/61569061",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "50",
         "maxweight": "3.5",
         "name": "Tommenmolenstraat",
         "oneway": "no",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/61569061"
       },
       "geometry": {
@@ -18753,10 +18760,12 @@
       "type": "Feature",
       "id": "way/87491865",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "name": "Hertogenvoetweg",
         "ref": "92",
-        "surface": "grass",
+        "sidewalk": "no",
+        "surface": "compacted",
         "width": "1",
         "id": "way/87491865"
       },
@@ -36429,13 +36438,15 @@
       "type": "Feature",
       "id": "way/580582010",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "maxspeed": "50",
         "maxweight": "3.5",
         "name": "Grote Kerkvoetweg",
         "oneway": "no",
         "ref": "61",
-        "surface": "paved",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/580582010"
       },
       "geometry": {
@@ -43914,7 +43925,7 @@
         "highway": "path",
         "name": "Grote Kerkvoetweg",
         "ref": "61",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/995055946"
       },
       "geometry": {
@@ -51084,6 +51095,38 @@
           [
             4.5138861,
             50.8200391
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1486304751",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ delivery",
+        "name": "Tommenmolenstraat",
+        "oneway": "no",
+        "sidewalk": "no",
+        "surface": "dirt",
+        "id": "way/1486304751"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3815685,
+            50.9383584
+          ],
+          [
+            4.3816456,
+            50.9383846
+          ],
+          [
+            4.3819052,
+            50.9384668
           ]
         ]
       }
