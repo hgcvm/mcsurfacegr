@@ -42111,7 +42111,12 @@
       "type": "Feature",
       "id": "way/39491577",
       "properties": {
+        "access": "private",
+        "bicycle": "no",
+        "foot": "no",
         "highway": "service",
+        "horse": "no",
+        "oneway": "yes",
         "surface": "cobblestone",
         "id": "way/39491577"
       },
@@ -42123,8 +42128,8 @@
             50.7477395
           ],
           [
-            4.9775599,
-            50.7476595
+            4.9775669,
+            50.7476639
           ],
           [
             4.977808,
@@ -42133,10 +42138,6 @@
           [
             4.9780712,
             50.7472909
-          ],
-          [
-            4.9781708,
-            50.7472181
           ]
         ]
       }
@@ -42264,6 +42265,10 @@
           [
             4.978687,
             50.7471979
+          ],
+          [
+            4.9785786,
+            50.7472701
           ],
           [
             4.9785225,
@@ -42554,6 +42559,8 @@
       "type": "Feature",
       "id": "way/39494178",
       "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
         "highway": "cycleway",
         "surface": "paving_stones",
         "id": "way/39494178"
@@ -42608,6 +42615,7 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxweight": "5",
         "name": "Rue de Léau",
         "sidewalk": "both",
         "surface": "asphalt",
@@ -131202,6 +131210,7 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxweight": "5",
         "name": "Rue de Léau",
         "sidewalk": "both",
         "surface": "concrete",
@@ -137060,6 +137069,8 @@
       "type": "Feature",
       "id": "way/1429774497",
       "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
         "highway": "cycleway",
         "surface": "asphalt",
         "id": "way/1429774497"
@@ -138941,6 +138952,28 @@
           [
             4.7415207,
             50.9095932
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1486502454",
+      "properties": {
+        "highway": "service",
+        "surface": "cobblestone",
+        "id": "way/1486502454"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9780712,
+            50.7472909
+          ],
+          [
+            4.9781708,
+            50.7472181
           ]
         ]
       }
