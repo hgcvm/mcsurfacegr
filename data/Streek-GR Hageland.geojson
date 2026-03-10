@@ -2124,6 +2124,8 @@
         "maxspeed": "30",
         "name": "Viaductstraat",
         "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "surface": "paving_stones",
         "traffic_calming": "table",
         "zone:traffic": "BE-VLG:urban",
@@ -2367,6 +2369,7 @@
         "name": "Veemarkt",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/23457070"
@@ -2406,6 +2409,7 @@
         "name": "Avendorenstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -7364,10 +7368,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.8478771,
-            50.8165878
-          ],
           [
             4.8475281,
             50.8162593
@@ -17343,6 +17343,7 @@
         "name": "Bostsestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "surface": "asphalt",
         "id": "way/80416083"
       },
@@ -25121,6 +25122,7 @@
         "name": "Dokter J. Geensstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -32114,16 +32116,20 @@
             50.9848358
           ],
           [
-            5.056629,
-            50.9850386
+            5.056444,
+            50.9849763
           ],
           [
-            5.0570077,
-            50.9852115
+            5.0564389,
+            50.9850272
           ],
           [
-            5.056929,
-            50.9854116
+            5.0568618,
+            50.9852331
+          ],
+          [
+            5.0563659,
+            50.9852797
           ]
         ]
       }
@@ -33983,6 +33989,7 @@
         "name": "Nieuwstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "paving_stones",
         "zone:traffic": "BE-VLG:urban",
@@ -34012,6 +34019,7 @@
         "name": "Nieuwstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "surface": "paving_stones",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/324477233"
@@ -34069,6 +34077,7 @@
         "name": "Dokter J. Geensstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/326107372"
@@ -40448,6 +40457,7 @@
         "name": "Delportestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/623063133"
@@ -40553,8 +40563,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.056929,
-            50.9854116
+            5.0563659,
+            50.9852797
           ],
           [
             5.0571449,
@@ -42633,6 +42643,7 @@
         "name": "Bostsestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "surface": "asphalt",
         "id": "way/819777885"
       },
@@ -42661,6 +42672,7 @@
         "name": "Bostsestraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "surface": "asphalt",
         "id": "way/819777886"
       },
@@ -42687,6 +42699,7 @@
         "name": "Broekstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/819777892"
@@ -46071,6 +46084,8 @@
         "maxspeed": "30",
         "name": "Viaductstraat",
         "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "surface": "paving_stones",
         "traffic_calming": "table",
         "zone:traffic": "BE-VLG:urban",
@@ -46099,6 +46114,7 @@
         "name": "Viaductstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "surface": "paving_stones",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1077530084"
@@ -46126,6 +46142,7 @@
         "name": "Avendorenstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
         "surface": "asphalt",
         "traffic_calming": "table",
         "zone:traffic": "BE-VLG:urban",
@@ -49956,6 +49973,44 @@
           [
             4.8082112,
             50.9257887
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1486993611",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "emergency": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "horse": "yes",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "name": "Hertenstraat",
+        "sidewalk:both": "no",
+        "smoothness": "excellent",
+        "speed_pedelec": "yes",
+        "surface": "concrete",
+        "traffic_sign": "BE:F99c",
+        "verge:both": "yes",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1486993611"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8478771,
+            50.8165878
+          ],
+          [
+            4.8475281,
+            50.8162593
           ]
         ]
       }
