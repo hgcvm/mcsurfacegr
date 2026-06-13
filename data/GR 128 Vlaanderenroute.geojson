@@ -67070,12 +67070,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9835335,
-            51.0465947
+            3.9835259,
+            51.0465791
           ],
           [
-            3.9836185,
-            51.0464886
+            3.9835676,
+            51.0465398
           ],
           [
             3.9840244,
@@ -76160,20 +76160,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.9835335,
-            51.0465947
+            3.9835259,
+            51.0465791
           ],
           [
-            3.9834725,
-            51.0467482
+            3.983508,
+            51.0466641
           ],
           [
-            3.9836768,
-            51.046832
+            3.9833459,
+            51.0469004
           ],
           [
-            3.983383,
-            51.0474534
+            3.9833499,
+            51.0470945
           ]
         ]
       }
@@ -86424,8 +86424,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.983383,
-            51.0474534
+            3.983308,
+            51.0474355
+          ],
+          [
+            3.9835103,
+            51.0474832
           ],
           [
             3.9838812,
@@ -140873,6 +140877,34 @@
     },
     {
       "type": "Feature",
+      "id": "way/1528748381",
+      "properties": {
+        "check_date:surface": "2020-12-05",
+        "highway": "living_street",
+        "name": "Zandstraat",
+        "width": "1.5",
+        "id": "way/1528748381"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.9833499,
+            51.0470945
+          ],
+          [
+            3.9834378,
+            51.0470943
+          ],
+          [
+            3.983308,
+            51.0474355
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/31347411",
       "properties": {
         "bridge": "yes",
@@ -143965,9 +143997,13 @@
       "id": "way/38501418",
       "properties": {
         "highway": "unclassified",
-        "lanes": "1",
+        "lane_markings": "no",
+        "maxspeed": "30",
         "name": "Route des Trois Bornes",
+        "priority": "forward",
         "surface": "asphalt",
+        "zone:maxspeed": "BE:30",
+        "zone:traffic": "BE-WAL:rural",
         "id": "way/38501418"
       },
       "geometry": {
@@ -143986,16 +144022,8 @@
             50.754025
           ],
           [
-            6.0212512,
-            50.7536442
-          ],
-          [
-            6.0212647,
-            50.7536046
-          ],
-          [
-            6.0212696,
-            50.7535636
+            6.0211597,
+            50.7538376
           ]
         ]
       }
@@ -145271,29 +145299,49 @@
       "id": "way/103305096",
       "properties": {
         "highway": "unclassified",
-        "lanes": "1",
+        "lane_markings": "no",
         "maxspeed": "30",
-        "surface": "paving_stones",
+        "name": "Route des Trois Bornes",
+        "priority": "forward",
+        "surface": "sett",
+        "zone:maxspeed": "BE:30",
+        "zone:traffic": "BE-WAL:rural",
         "id": "way/103305096"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            6.0210288,
-            50.7541267
+            6.0209395,
+            50.7543118
+          ],
+          [
+            6.0209382,
+            50.7543043
+          ],
+          [
+            6.0209373,
+            50.7542875
+          ],
+          [
+            6.0209407,
+            50.7542692
+          ],
+          [
+            6.02095,
+            50.7542525
+          ],
+          [
+            6.020968,
+            50.7542422
+          ],
+          [
+            6.0209882,
+            50.7542221
           ],
           [
             6.0210011,
             50.7541945
-          ],
-          [
-            6.0209812,
-            50.7542431
-          ],
-          [
-            6.0209383,
-            50.754343
           ]
         ]
       }
@@ -145590,8 +145638,8 @@
             50.7543511
           ],
           [
-            6.0209383,
-            50.754343
+            6.0209412,
+            50.754338
           ]
         ]
       }
@@ -153691,9 +153739,12 @@
       "id": "way/1195354095",
       "properties": {
         "highway": "unclassified",
-        "lanes": "1",
+        "lane_markings": "no",
+        "maxspeed": "90",
+        "maxspeed:type": "BE-WAL:rural",
         "name": "Route des Trois Bornes",
         "surface": "asphalt",
+        "zone:traffic": "BE-WAL:rural",
         "id": "way/1195354095"
       },
       "geometry": {
@@ -153702,6 +153753,10 @@
           [
             6.0212696,
             50.7535636
+          ],
+          [
+            6.021263,
+            50.7535418
           ],
           [
             6.0212529,
@@ -154265,6 +154320,128 @@
           [
             6.0155201,
             50.7553423
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1528849509",
+      "properties": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "name": "Route des Trois Bornes",
+        "surface": "asphalt",
+        "zone:maxspeed": "BE:30",
+        "zone:traffic": "BE-WAL:rural",
+        "id": "way/1528849509"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.0211597,
+            50.7538376
+          ],
+          [
+            6.0212512,
+            50.7536442
+          ],
+          [
+            6.0212647,
+            50.7536046
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1528849510",
+      "properties": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "90",
+        "maxspeed:type": "BE-WAL:rural",
+        "name": "Route des Trois Bornes",
+        "surface": "asphalt",
+        "zone:traffic": "BE-WAL:rural",
+        "id": "way/1528849510"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.0212647,
+            50.7536046
+          ],
+          [
+            6.0212696,
+            50.7535843
+          ],
+          [
+            6.0212696,
+            50.7535636
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1528849511",
+      "properties": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "name": "Viergrenzenweg",
+        "priority": "forward",
+        "surface": "sett",
+        "zone:maxspeed": "NL:30",
+        "zone:traffic": "NL:rural",
+        "id": "way/1528849511"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.0209412,
+            50.754338
+          ],
+          [
+            6.0209423,
+            50.7543251
+          ],
+          [
+            6.0209395,
+            50.7543118
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1528849512",
+      "properties": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "name": "Route des Trois Bornes",
+        "priority": "forward",
+        "surface": "paving_stones",
+        "zone:maxspeed": "BE:30",
+        "zone:traffic": "BE-WAL:rural",
+        "id": "way/1528849512"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.0210011,
+            50.7541945
+          ],
+          [
+            6.0210288,
+            50.7541267
           ]
         ]
       }

@@ -50846,6 +50846,7 @@
       "properties": {
         "access:conditional": "yes @ permit",
         "bicycle": "yes",
+        "cutting": "yes",
         "emergency": "yes",
         "foot": "yes",
         "hazard:conditional": "slippery @ wet OR snow OR ice",
@@ -50868,26 +50869,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.7199913,
-            50.8731741
-          ],
-          [
-            4.7198901,
-            50.8731912
-          ],
-          [
-            4.7198398,
-            50.8731997
-          ],
-          [
-            4.7197751,
-            50.8732061
-          ],
-          [
-            4.7197053,
-            50.8732085
-          ],
           [
             4.7196527,
             50.8732043
@@ -51453,6 +51434,61 @@
           [
             4.7173477,
             50.8821459
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1528889392",
+      "properties": {
+        "access:conditional": "yes @ permit",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
+        "hazard:conditional": "slippery @ wet OR snow OR ice",
+        "highway": "cycleway",
+        "horse": "yes",
+        "incline": "down",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Stoemperspad",
+        "oneway": "no",
+        "segregated": "no",
+        "smoothness": "good",
+        "speed_pedelec": "yes",
+        "surface": "concrete",
+        "traffic_sign": "BE:F99a",
+        "vehicle": "no",
+        "width": "4.5",
+        "id": "way/1528889392"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7199913,
+            50.8731741
+          ],
+          [
+            4.7198901,
+            50.8731912
+          ],
+          [
+            4.7198398,
+            50.8731997
+          ],
+          [
+            4.7197751,
+            50.8732061
+          ],
+          [
+            4.7197053,
+            50.8732085
+          ],
+          [
+            4.7196527,
+            50.8732043
           ]
         ]
       }
