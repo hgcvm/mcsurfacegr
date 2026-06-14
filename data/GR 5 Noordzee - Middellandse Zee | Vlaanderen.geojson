@@ -139271,6 +139271,7 @@
       "id": "way/182775705",
       "properties": {
         "highway": "path",
+        "lit": "no",
         "surface": "dirt",
         "id": "way/182775705"
       },
@@ -139329,6 +139330,7 @@
       "id": "way/184298529",
       "properties": {
         "highway": "cycleway",
+        "lit": "yes",
         "surface": "asphalt",
         "id": "way/184298529"
       },
@@ -139495,6 +139497,7 @@
       "properties": {
         "foot": "yes",
         "highway": "cycleway",
+        "lit": "yes",
         "oneway": "no",
         "segregated": "no",
         "smoothness": "good",
@@ -139522,16 +139525,8 @@
             50.9442368
           ],
           [
-            5.3602341,
-            50.9455282
-          ],
-          [
-            5.3600732,
-            50.9457821
-          ],
-          [
-            5.360043,
-            50.9458298
+            5.3603196,
+            50.9453881
           ]
         ]
       }
@@ -141927,6 +141922,7 @@
         "maxweight": "5",
         "maxweight:conditional": "none @ delivery",
         "name": "Borggravevijversstraat",
+        "sidewalk": "no",
         "source:width": "ARCore",
         "surface": "asphalt",
         "width": "6.3",
@@ -142467,7 +142463,10 @@
       "id": "way/1354282358",
       "properties": {
         "highway": "cycleway",
+        "lit": "yes",
+        "source:width": "ARCore",
         "surface": "asphalt",
+        "width": "2.4",
         "id": "way/1354282358"
       },
       "geometry": {
@@ -142871,6 +142870,42 @@
           [
             5.3778528,
             50.9550296
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1529181470",
+      "properties": {
+        "foot": "yes",
+        "highway": "cycleway",
+        "lit": "yes",
+        "oneway": "no",
+        "segregated": "no",
+        "smoothness": "good",
+        "surface": "compacted",
+        "width": "1.5",
+        "id": "way/1529181470"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3603196,
+            50.9453881
+          ],
+          [
+            5.3602341,
+            50.9455282
+          ],
+          [
+            5.3600732,
+            50.9457821
+          ],
+          [
+            5.360043,
+            50.9458298
           ]
         ]
       }
