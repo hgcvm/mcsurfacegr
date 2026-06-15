@@ -2382,7 +2382,10 @@
       "properties": {
         "access": "permissive",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "highway": "track",
+        "sidewalk": "no",
+        "surface": "pebblestone",
         "tracktype": "grade1",
         "id": "way/27021194"
       },
@@ -17905,6 +17908,7 @@
       "id": "way/125156745",
       "properties": {
         "highway": "footway",
+        "surface": "pebblestone",
         "id": "way/125156745"
       },
       "geometry": {
@@ -18009,8 +18013,10 @@
       "type": "Feature",
       "id": "way/125546619",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Bosdam",
+        "sidewalk": "no",
         "surface": "concrete",
         "id": "way/125546619"
       },
@@ -19605,7 +19611,10 @@
       "type": "Feature",
       "id": "way/137817301",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
+        "sidewalk": "no",
+        "surface": "dirt",
         "id": "way/137817301"
       },
       "geometry": {
@@ -20739,8 +20748,10 @@
       "type": "Feature",
       "id": "way/146862520",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Bosdam",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/146862520"
       },
@@ -27791,8 +27802,11 @@
       "type": "Feature",
       "id": "way/294536636",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "name": "Slotdreef",
+        "sidewalk": "no",
+        "surface": "fine_gravel",
         "id": "way/294536636"
       },
       "geometry": {
@@ -29533,6 +29547,7 @@
       "id": "way/375446816",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/375446816"
       },
       "geometry": {
@@ -44560,7 +44575,7 @@
       "properties": {
         "foot": "yes",
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/886952259"
       },
       "geometry": {
@@ -44571,8 +44586,8 @@
             51.1429389
           ],
           [
-            3.8824566,
-            51.1422936
+            3.8832186,
+            51.1426165
           ]
         ]
       }
@@ -45330,7 +45345,7 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "path",
-        "surface": "unpaved",
+        "surface": "dirt",
         "id": "way/944559885"
       },
       "geometry": {
@@ -45383,9 +45398,11 @@
       "type": "Feature",
       "id": "way/944559888",
       "properties": {
-        "cycleway": "track",
+        "cycleway:both": "lane",
+        "cycleway:both:lane": "exclusive",
         "highway": "tertiary",
         "name": "Leemstraat",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/944559888"
       },
@@ -46948,8 +46965,10 @@
       "type": "Feature",
       "id": "way/1107770842",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Bosdam",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/1107770842"
       },
@@ -46979,7 +46998,9 @@
       "type": "Feature",
       "id": "way/1107770930",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
+        "sidewalk": "no",
         "surface": "sett",
         "id": "way/1107770930"
       },
@@ -50502,6 +50523,29 @@
           [
             3.5308317,
             50.7446488
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1529364874",
+      "properties": {
+        "foot": "yes",
+        "highway": "path",
+        "surface": "pebblestone",
+        "id": "way/1529364874"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.8832186,
+            51.1426165
+          ],
+          [
+            3.8824566,
+            51.1422936
           ]
         ]
       }
