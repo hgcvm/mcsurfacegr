@@ -7602,7 +7602,7 @@
       "properties": {
         "highway": "track",
         "smoothness": "bad",
-        "surface": "compacted",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/34879264"
       },
@@ -7682,7 +7682,7 @@
         "motorcycle": "destination",
         "name": "Wildendriesdijk",
         "smoothness": "intermediate",
-        "surface": "ground",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/34879268"
       },
@@ -45798,7 +45798,7 @@
         "name": "Wabberstraet",
         "railway": "abandoned",
         "surface": "compacted",
-        "tracktype": "grade1",
+        "tracktype": "grade2",
         "id": "way/403526016"
       },
       "geometry": {
@@ -47292,7 +47292,7 @@
         "motorcycle": "destination",
         "name": "Wildendriesdijk",
         "smoothness": "intermediate",
-        "surface": "ground",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/452909837"
       },
@@ -68828,7 +68828,7 @@
         "motorcar": "destination",
         "motorcycle": "destination",
         "smoothness": "bad",
-        "surface": "compacted",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/1267181705"
       },
@@ -80981,7 +80981,7 @@
       "properties": {
         "highway": "track",
         "smoothness": "bad",
-        "surface": "compacted",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/34879264"
       },
@@ -81061,7 +81061,7 @@
         "motorcycle": "destination",
         "name": "Wildendriesdijk",
         "smoothness": "intermediate",
-        "surface": "ground",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/34879268"
       },
@@ -111577,7 +111577,7 @@
         "name": "Wabberstraet",
         "railway": "abandoned",
         "surface": "compacted",
-        "tracktype": "grade1",
+        "tracktype": "grade2",
         "id": "way/403526016"
       },
       "geometry": {
@@ -113058,7 +113058,7 @@
         "motorcycle": "destination",
         "name": "Wildendriesdijk",
         "smoothness": "intermediate",
-        "surface": "ground",
+        "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/452909837"
       },
@@ -130966,7 +130966,7 @@
         "motorcar": "destination",
         "motorcycle": "destination",
         "smoothness": "bad",
-        "surface": "compacted",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "id": "way/1267181705"
       },
@@ -139527,6 +139527,18 @@
           [
             5.3603196,
             50.9453881
+          ],
+          [
+            5.3602341,
+            50.9455282
+          ],
+          [
+            5.3600732,
+            50.9457821
+          ],
+          [
+            5.360043,
+            50.9458298
           ]
         ]
       }
@@ -142876,42 +142888,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1529181470",
-      "properties": {
-        "foot": "yes",
-        "highway": "cycleway",
-        "lit": "yes",
-        "oneway": "no",
-        "segregated": "no",
-        "smoothness": "good",
-        "surface": "compacted",
-        "width": "1.5",
-        "id": "way/1529181470"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3603196,
-            50.9453881
-          ],
-          [
-            5.3602341,
-            50.9455282
-          ],
-          [
-            5.3600732,
-            50.9457821
-          ],
-          [
-            5.360043,
-            50.9458298
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/24429937",
       "properties": {
         "highway": "tertiary",
@@ -142963,10 +142939,6 @@
           [
             4.9548736,
             51.0084273
-          ],
-          [
-            4.954898,
-            51.0085074
           ],
           [
             4.9549225,
@@ -143183,7 +143155,7 @@
         "highway": "tertiary",
         "maxspeed": "50",
         "name": "Dorp",
-        "surface": "asphalt",
+        "surface": "paving_stones",
         "id": "way/34879760"
       },
       "geometry": {
@@ -144266,6 +144238,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Wijngaardstraat",
+        "surface": "asphalt",
         "id": "way/478504132"
       },
       "geometry": {
@@ -144826,44 +144799,12 @@
       "properties": {
         "highway": "path",
         "name": "Doodbroeckvoetweg",
-        "surface": "ground",
+        "surface": "dirt",
         "id": "way/1216103822"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.9717331,
-            51.0023452
-          ],
-          [
-            4.9720115,
-            51.0024239
-          ],
-          [
-            4.97231,
-            51.0025176
-          ],
-          [
-            4.9724455,
-            51.0025303
-          ],
-          [
-            4.9727457,
-            51.0025122
-          ],
-          [
-            4.9730558,
-            51.0025033
-          ],
-          [
-            4.9731914,
-            51.0025066
-          ],
-          [
-            4.9732935,
-            51.0025268
-          ],
           [
             4.9734657,
             51.0025693
@@ -145260,7 +145201,7 @@
         "highway": "track",
         "mofa": "yes",
         "smoothness": "bad",
-        "surface": "pebblestone",
+        "surface": "fine_gravel",
         "towpath": "yes",
         "tracktype": "grade3",
         "vehicle": "private",
@@ -145302,8 +145243,12 @@
             51.0032119
           ],
           [
-            4.9764796,
-            51.0032042
+            4.9764447,
+            51.0031983
+          ],
+          [
+            4.9761757,
+            51.0032063
           ]
         ]
       }
@@ -145313,25 +145258,15 @@
       "id": "way/1388108891",
       "properties": {
         "designation": "towpath",
-        "highway": "track",
-        "mofa": "yes",
+        "highway": "path",
         "smoothness": "bad",
-        "surface": "pebblestone",
+        "surface": "dirt",
         "towpath": "yes",
-        "tracktype": "grade3",
         "id": "way/1388108891"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.9764796,
-            51.0032042
-          ],
-          [
-            4.9764395,
-            51.0032028
-          ],
           [
             4.9761757,
             51.0032063
@@ -145351,6 +145286,58 @@
           [
             4.9749326,
             51.0033901
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1529868081",
+      "properties": {
+        "highway": "track",
+        "name": "Doodbroeckvoetweg",
+        "surface": "dirt",
+        "tracktype": "grade3",
+        "id": "way/1529868081"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9717331,
+            51.0023452
+          ],
+          [
+            4.9720115,
+            51.0024239
+          ],
+          [
+            4.97231,
+            51.0025176
+          ],
+          [
+            4.9724455,
+            51.0025303
+          ],
+          [
+            4.9727457,
+            51.0025122
+          ],
+          [
+            4.9730558,
+            51.0025033
+          ],
+          [
+            4.9731914,
+            51.0025066
+          ],
+          [
+            4.9732935,
+            51.0025268
+          ],
+          [
+            4.9734657,
+            51.0025693
           ]
         ]
       }
