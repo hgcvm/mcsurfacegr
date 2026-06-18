@@ -47753,12 +47753,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.0362513,
-            50.895284
-          ],
-          [
-            3.0362084,
-            50.8952349
+            3.0362165,
+            50.895243
           ],
           [
             3.0361318,
@@ -59007,8 +59003,8 @@
             50.8953648
           ],
           [
-            3.0361489,
-            50.8953072
+            3.0361692,
+            50.8953419
           ]
         ]
       }
@@ -71242,6 +71238,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
+        "motor_vehicle": "unknown",
         "surface": "dirt",
         "tracktype": "grade3",
         "id": "way/145596798"
@@ -93787,33 +93784,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/357806864",
-      "properties": {
-        "cycleway:both": "lane",
-        "highway": "tertiary",
-        "lane_markings": "no",
-        "name": "Stationstraat",
-        "name:vls": "Statiestroate",
-        "oneway": "no",
-        "surface": "asphalt",
-        "id": "way/357806864"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.0361489,
-            50.8953072
-          ],
-          [
-            3.0362513,
-            50.895284
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/359235401",
       "properties": {
         "access": "destination",
@@ -97811,17 +97781,13 @@
       "type": "Feature",
       "id": "way/399024397",
       "properties": {
-        "bicycle": "yes",
-        "construction": "residential",
-        "cycleway": "no",
-        "highway": "construction",
+        "highway": "residential",
         "maxspeed": "30",
         "motorcar": "destination",
         "motorcycle": "destination",
         "name": "Aan de Bocht",
         "sidewalk": "no",
-        "smoothness": "excellent",
-        "surface": "asphalt",
+        "surface": "paving_stones",
         "wikidata": "Q115808904",
         "id": "way/399024397"
       },
@@ -140894,6 +140860,85 @@
           [
             3.983308,
             51.0474355
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1530480950",
+      "properties": {
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "id": "way/1530480950"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0364781,
+            50.8952579
+          ],
+          [
+            3.0364629,
+            50.895234
+          ],
+          [
+            3.0364437,
+            50.8952038
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1530480951",
+      "properties": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "id": "way/1530480951"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0361692,
+            50.8953419
+          ],
+          [
+            3.0364868,
+            50.8952716
+          ],
+          [
+            3.0364781,
+            50.8952579
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1530480952",
+      "properties": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "id": "way/1530480952"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0364437,
+            50.8952038
+          ],
+          [
+            3.0364362,
+            50.895192
+          ],
+          [
+            3.0362165,
+            50.895243
           ]
         ]
       }
