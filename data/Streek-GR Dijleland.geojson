@@ -1521,6 +1521,7 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
+        "motor_vehicle": "yes",
         "name": "Vijfde Liniestraat",
         "name:etymology:wikidata": "Q893050",
         "oneway": "no",
@@ -3550,15 +3551,18 @@
       "id": "way/23024089",
       "properties": {
         "bicycle": "yes",
-        "cycleway:both": "no",
+        "cycleway": "shared_lane",
         "foot": "use_sidepath",
         "highway": "unclassified",
+        "horse": "yes",
         "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
+        "motor_vehicle": "yes",
         "name": "Molenstraat",
         "oneway": "no",
-        "sidewalk": "separate",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -3614,58 +3618,6 @@
           [
             4.7034074,
             50.9466953
-          ],
-          [
-            4.7034053,
-            50.9467639
-          ],
-          [
-            4.7034111,
-            50.9468829
-          ],
-          [
-            4.7034194,
-            50.9469824
-          ],
-          [
-            4.703428,
-            50.9470477
-          ],
-          [
-            4.7034638,
-            50.9471321
-          ],
-          [
-            4.703488,
-            50.9472229
-          ],
-          [
-            4.7034813,
-            50.9473387
-          ],
-          [
-            4.7034748,
-            50.9474134
-          ],
-          [
-            4.7034491,
-            50.9474794
-          ],
-          [
-            4.7033799,
-            50.9477603
-          ],
-          [
-            4.703377,
-            50.9477692
-          ],
-          [
-            4.7033719,
-            50.9477846
-          ],
-          [
-            4.7033612,
-            50.9478168
           ]
         ]
       }
@@ -13543,6 +13495,7 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
+        "motor_vehicle": "yes",
         "name": "Vijfde Liniestraat",
         "name:etymology:wikidata": "Q893050",
         "oneway": "no",
@@ -15113,10 +15066,16 @@
       "properties": {
         "access": "destination",
         "bicycle": "yes",
+        "foot": "yes",
         "highway": "unclassified",
+        "horse": "yes",
         "lane_markings": "no",
+        "lanes": "1",
+        "maxspeed": "50",
+        "motor_vehicle": "destination",
         "name": "Achterheidestraat",
         "oneway": "no",
+        "source:maxspeed": "sign",
         "surface": "asphalt",
         "width": "3",
         "id": "way/38156619"
@@ -15207,6 +15166,7 @@
         "lit": "yes",
         "maxspeed": "50",
         "maxweight:signed": "no",
+        "motor_vehicle": "yes",
         "name": "Vijfde Liniestraat",
         "name:etymology:wikidata": "Q893050",
         "oneway": "no",
@@ -24015,6 +23975,7 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
+        "motor_vehicle": "yes",
         "name": "Vijfde Liniestraat",
         "name:etymology:wikidata": "Q893050",
         "oneway": "no",
@@ -24055,6 +24016,7 @@
         "layer": "1",
         "lit": "yes",
         "maxspeed": "50",
+        "motor_vehicle": "yes",
         "name": "Vijfde Liniestraat",
         "name:etymology:wikidata": "Q893050",
         "oneway": "no",
@@ -45964,6 +45926,7 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
+        "motor_vehicle": "yes",
         "name": "Vijfde Liniestraat",
         "name:etymology:wikidata": "Q893050",
         "oneway": "no",
@@ -46137,6 +46100,7 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
+        "motor_vehicle": "yes",
         "name": "Vijfde Liniestraat",
         "name:etymology:wikidata": "Q893050",
         "oneway": "no",
@@ -46779,6 +46743,89 @@
           [
             4.7045796,
             50.8856078
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1530954669",
+      "properties": {
+        "bicycle": "yes",
+        "cycleway": "shared_lane",
+        "foot": "use_sidepath",
+        "highway": "unclassified",
+        "horse": "yes",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "motor_vehicle": "yes",
+        "name": "Molenstraat",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1530954669"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7034074,
+            50.9466953
+          ],
+          [
+            4.7034053,
+            50.9467639
+          ],
+          [
+            4.7034111,
+            50.9468829
+          ],
+          [
+            4.7034194,
+            50.9469824
+          ],
+          [
+            4.703428,
+            50.9470477
+          ],
+          [
+            4.7034638,
+            50.9471321
+          ],
+          [
+            4.703488,
+            50.9472229
+          ],
+          [
+            4.7034813,
+            50.9473387
+          ],
+          [
+            4.7034748,
+            50.9474134
+          ],
+          [
+            4.7034491,
+            50.9474794
+          ],
+          [
+            4.7033799,
+            50.9477603
+          ],
+          [
+            4.703377,
+            50.9477692
+          ],
+          [
+            4.7033719,
+            50.9477846
+          ],
+          [
+            4.7033612,
+            50.9478168
           ]
         ]
       }
