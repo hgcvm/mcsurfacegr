@@ -7588,6 +7588,7 @@
         "highway": "residential",
         "name": "Peperstraatje",
         "oneway": "no",
+        "surface": "asphalt",
         "id": "way/23983198"
       },
       "geometry": {
@@ -32792,7 +32793,10 @@
         "foot": "designated",
         "highway": "cycleway",
         "horse": "permissive",
+        "lit": "no",
+        "oneway": "no",
         "segregated": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/38837070"
       },
@@ -66459,13 +66463,18 @@
       "id": "way/129811259",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "designation": "towpath",
         "embankment": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lit": "no",
         "maxspeed": "30",
         "mofa": "yes",
         "motor_vehicle": "destination",
         "name": "Tragelweg",
+        "sidewalk": "no",
+        "smoothness": "excellent",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "vehicle": "destination",
@@ -68307,6 +68316,7 @@
       "type": "Feature",
       "id": "way/135401274",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -68314,6 +68324,8 @@
         "name": "Jachtstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/135401274"
       },
@@ -72303,7 +72315,10 @@
         "embankment": "yes",
         "foot": "designated",
         "highway": "path",
+        "lit": "no",
+        "oneway:bicycle": "no",
         "segregated": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,GIV[uitgezonderd diensten, fietsers en landbouwvoertuigen]",
         "width": "4",
@@ -85068,7 +85083,9 @@
         "horse": "permissive",
         "lit": "yes",
         "motor_vehicle": "permissive",
+        "oneway": "no",
         "segregated": "no",
+        "sidewalk": "no",
         "smoothness": "excellent",
         "surface": "concrete",
         "width": "2",
@@ -86390,6 +86407,7 @@
         "highway": "track",
         "horse": "yes",
         "name": "Bareldonkstraatje",
+        "smoothness": "bad",
         "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/257541947"
@@ -86431,6 +86449,7 @@
         "highway": "track",
         "name": "Neerhekkerstraat (T37)",
         "surface": "ground",
+        "tracktype": "grade3",
         "id": "way/261064916"
       },
       "geometry": {
@@ -87172,6 +87191,7 @@
         "highway": "tertiary",
         "maxspeed": "50",
         "name": "Cooppallaan",
+        "surface": "asphalt",
         "id": "way/266806681"
       },
       "geometry": {
@@ -89766,8 +89786,11 @@
         "embankment": "yes",
         "foot": "designated",
         "highway": "path",
+        "lit": "no",
         "name": "Scheldedijk (linkeroever)",
+        "oneway:bicycle": "no",
         "segregated": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "towpath": "yes",
         "traffic_sign": "BE:C3,GIV[uitgezonderd aangelanden toelatingen W&Z , rijwielen en bromfietsen klasse A]",
@@ -99310,6 +99333,7 @@
         "highway": "tertiary",
         "maxspeed": "50",
         "name": "Cooppallaan",
+        "surface": "asphalt",
         "id": "way/419802046"
       },
       "geometry": {
@@ -108395,6 +108419,7 @@
         "name": "Peperstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "surface": "asphalt",
         "id": "way/624286918"
       },
       "geometry": {
@@ -113503,6 +113528,10 @@
         "foot": "yes",
         "highway": "cycleway",
         "horse": "permissive",
+        "lit": "no",
+        "oneway": "no",
+        "segregated": "no",
+        "smoothness": "intermediate",
         "surface": "asphalt",
         "id": "way/713161168"
       },
@@ -113527,6 +113556,11 @@
         "foot": "yes",
         "highway": "cycleway",
         "horse": "permissive",
+        "lit": "no",
+        "oneway": "no",
+        "paving_stones:material": "concrete",
+        "segregated": "no",
+        "smoothness": "good",
         "surface": "paving_stones",
         "id": "way/713161172"
       },
@@ -127189,6 +127223,7 @@
         "lane_markings": "no",
         "name": "Voordestraat",
         "sidewalk": "no",
+        "smoothness": "bad",
         "surface": "concrete",
         "id": "way/1062433280"
       },
@@ -135002,12 +135037,17 @@
       "id": "way/1326270872",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "designation": "towpath",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "30",
         "mofa": "yes",
         "motor_vehicle": "yes",
         "name": "Tragelweg",
+        "sidewalk": "no",
+        "smoothness": "good",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "vehicle": "destination",

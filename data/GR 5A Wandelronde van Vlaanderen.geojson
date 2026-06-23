@@ -77217,6 +77217,7 @@
         "maxspeed": "30",
         "name": "Verkortingsdijk",
         "overtaking:motor_vehicle": "no",
+        "surface": "concrete:lanes",
         "id": "way/24233987"
       },
       "geometry": {
@@ -77380,6 +77381,7 @@
         "highway": "service",
         "historic:towpath": "yes",
         "motor_vehicle": "permit",
+        "smoothness": "good",
         "surface": "asphalt",
         "towpath": "yes",
         "vehicle": "permit",
@@ -79285,6 +79287,8 @@
       "id": "way/24906742",
       "properties": {
         "highway": "cycleway",
+        "lit": "yes",
+        "oneway": "no",
         "id": "way/24906742"
       },
       "geometry": {
@@ -119253,6 +119257,7 @@
         "historic:towpath": "yes",
         "motor_vehicle": "permit",
         "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "towpath": "yes",
         "vehicle": "permit",
@@ -122043,6 +122048,10 @@
       "id": "way/170488161",
       "properties": {
         "highway": "cycleway",
+        "lit": "yes",
+        "oneway": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
         "id": "way/170488161"
       },
       "geometry": {
@@ -123195,8 +123204,11 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "cycleway",
+        "lit": "no",
         "mofa": "yes",
         "note": "GR5A not signed here, used to take road along the Schelde, but that's closed for years",
+        "oneway": "no",
+        "segregated": "no",
         "surface": "paved",
         "vehicle": "no",
         "id": "way/183018626"
@@ -133673,7 +133685,10 @@
       "type": "Feature",
       "id": "way/295295171",
       "properties": {
+        "handrail": "no",
         "highway": "steps",
+        "incline": "up",
+        "lit": "no",
         "step_count": "50",
         "id": "way/295295171"
       },
@@ -133758,8 +133773,11 @@
         "bicycle": "designated",
         "cyclestreet": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "30",
         "overtaking:motor_vehicle": "no",
+        "sidewalk": "no",
         "surface": "concrete:lanes",
         "surface:middle": "cobblestones",
         "id": "way/295295180"
@@ -136567,6 +136585,8 @@
         "name": "Overloopdijk",
         "note": "\"Jaagpad uitgezonderd aangelanden - toelatingen W&Z - Rijwielen en Bromfietsen klasse a\"",
         "old_name": "Scheldedijk",
+        "oneway": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "towpath": "yes",
         "vehicle": "destination",
@@ -152368,6 +152388,8 @@
         "mofa": "yes",
         "motor_vehicle": "no",
         "note": "\"Jaagpad uitgezonderd aangelanden - toelatingen W&Z - Rijwielen en Bromfietsen klasse A\"",
+        "oneway": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "towpath": "yes",
         "vehicle": "destination",
@@ -160601,8 +160623,10 @@
       "properties": {
         "highway": "service",
         "lanes": "1",
+        "lit": "no",
         "maxspeed": "30",
         "name": "Dweerse gaanweg",
+        "oneway": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "concrete:lanes",
         "surface:middle": "cobblestones",
@@ -169733,6 +169757,8 @@
         "name": "Overloopdijk",
         "note": "\"Jaagpad uitgezonderd aangelanden - toelatingen W&Z - Rijwielen en Bromfietsen klasse a\"",
         "old_name": "Scheldedijk",
+        "oneway": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "towpath": "yes",
         "vehicle": "destination",
@@ -171795,8 +171821,12 @@
       "type": "Feature",
       "id": "way/23166943",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Galgenstraat",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
         "id": "way/23166943"
       },
       "geometry": {
@@ -171825,9 +171855,12 @@
       "type": "Feature",
       "id": "way/23166953",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "layer": "1",
         "name": "Vossenstraat",
+        "surface": "asphalt",
         "id": "way/23166953"
       },
       "geometry": {
@@ -171948,9 +171981,14 @@
       "type": "Feature",
       "id": "way/23166986",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
         "name": "Hollestraat",
         "oneway": "no",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "id": "way/23166986"
       },
@@ -172350,9 +172388,13 @@
       "type": "Feature",
       "id": "way/24285481",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "layer": "1",
         "name": "Hollestraat",
+        "smoothness": "good",
+        "surface": "asphalt",
         "id": "way/24285481"
       },
       "geometry": {
@@ -172438,7 +172480,9 @@
       "id": "way/24907456",
       "properties": {
         "highway": "unclassified",
+        "lane_markings": "yes",
         "name": "Heirbaan",
+        "surface": "asphalt",
         "id": "way/24907456"
       },
       "geometry": {
@@ -172507,8 +172551,14 @@
       "type": "Feature",
       "id": "way/24907480",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "50",
+        "maxspeed:type": "BE-VLG:zone50",
         "name": "Heirbaan",
+        "smoothness": "good",
+        "surface": "asphalt",
         "id": "way/24907480"
       },
       "geometry": {
@@ -173503,6 +173553,8 @@
       "properties": {
         "cycleway": "separate",
         "highway": "cycleway",
+        "lit": "yes",
+        "oneway": "no",
         "surface": "asphalt",
         "width": "2.95",
         "id": "way/221033672"
@@ -174611,6 +174663,9 @@
       "properties": {
         "cycleway": "separate",
         "highway": "cycleway",
+        "lit": "yes",
+        "oneway": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "width": "3.07",
         "id": "way/788613854"
@@ -174732,6 +174787,9 @@
       "id": "way/920009484",
       "properties": {
         "highway": "cycleway",
+        "lit": "yes",
+        "oneway": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "width": "2.86",
         "id": "way/920009484"
@@ -175018,7 +175076,9 @@
       "id": "way/1360187175",
       "properties": {
         "highway": "cycleway",
+        "lit": "yes",
         "oneway": "no",
+        "smoothness": "good",
         "surface": "asphalt",
         "width": "3.07",
         "id": "way/1360187175"
