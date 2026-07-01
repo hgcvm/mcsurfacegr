@@ -3514,12 +3514,17 @@
       "type": "Feature",
       "id": "way/29384311",
       "properties": {
+        "bicycle": "yes",
         "highway": "residential",
+        "mofa": "yes",
         "name": "Helenalei",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:mofa": "no",
+        "oneway:speed_pedelec": "no",
+        "speed_pedelec": "yes",
         "surface": "concrete:plates",
+        "traffic_sign": "BE:C1,BE:M12_nl",
         "id": "way/29384311"
       },
       "geometry": {
@@ -3553,10 +3558,13 @@
         "cycleway:surface": "paving_stones",
         "highway": "residential",
         "horse": "no",
+        "maxspeed": "30",
         "mofa": "yes",
         "name": "Hippolyte Meeùsstraat",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "sett",
         "vehicle": "no",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/29384374"
       },
       "geometry": {
@@ -3598,8 +3606,11 @@
       "id": "way/29384386",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Hippolyte Meeùsstraat",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/29384386"
       },
       "geometry": {
@@ -9326,10 +9337,6 @@
           [
             4.5494444,
             51.2249171
-          ],
-          [
-            4.5491756,
-            51.2249258
           ]
         ]
       }
@@ -9340,11 +9347,11 @@
       "properties": {
         "highway": "residential",
         "lanes": "2",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Rode Dreef",
-        "source:maxspeed": "BE:zone50",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
-        "zone:traffic": "BE-VLG:rural",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/56674773"
       },
       "geometry": {
@@ -25222,12 +25229,12 @@
       "properties": {
         "highway": "residential",
         "lanes": "2",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Rode Dreef",
         "oneway": "yes",
-        "source:maxspeed": "BE:zone50",
+        "source:maxspeed": "BE-VLG:zone30",
         "surface": "asphalt",
-        "zone:traffic": "BE-VLG:rural",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/1529872944"
       },
       "geometry": {
@@ -25244,6 +25251,33 @@
           [
             4.5445397,
             51.2271605
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1534036085",
+      "properties": {
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Rode Dreef",
+        "source:maxspeed": "BE-VLG:zone30",
+        "surface": "concrete:plates",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1534036085"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.5494444,
+            51.2249171
+          ],
+          [
+            4.5491756,
+            51.2249258
           ]
         ]
       }
