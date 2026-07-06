@@ -22395,12 +22395,12 @@
             50.9780032
           ],
           [
-            4.3912271,
-            50.9785787
+            4.3912296,
+            50.9785821
           ],
           [
-            4.3911471,
-            50.9786019
+            4.3911466,
+            50.978615
           ]
         ]
       }
@@ -22423,8 +22423,8 @@
             50.9784097
           ],
           [
-            4.3906786,
-            50.9784493
+            4.3906925,
+            50.9784524
           ]
         ]
       }
@@ -37895,7 +37895,7 @@
         "maxheight": "2.2",
         "maxwidth": "2.3",
         "name": "Ooidonkdreef",
-        "surface": "cobblestone",
+        "surface": "sett",
         "id": "way/39125199"
       },
       "geometry": {
@@ -37930,7 +37930,7 @@
       "properties": {
         "highway": "unclassified",
         "name": "Ooidonkdreef",
-        "surface": "cobblestone",
+        "surface": "sett",
         "id": "way/39125202"
       },
       "geometry": {
@@ -37983,8 +37983,11 @@
       "type": "Feature",
       "id": "way/39125739",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Graaf Henridreef",
+        "surface": "asphalt",
         "id": "way/39125739"
       },
       "geometry": {
@@ -38240,6 +38243,10 @@
             50.9923794
           ],
           [
+            3.5794136,
+            50.9924415
+          ],
+          [
             3.5798049,
             50.9925704
           ],
@@ -38402,6 +38409,7 @@
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Leieoever",
+        "sidewalk": "no",
         "id": "way/39126759"
       },
       "geometry": {
@@ -63349,20 +63357,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3906786,
-            50.9784493
+            4.3906925,
+            50.9784524
           ],
           [
             4.390798,
             50.9784882
           ],
           [
-            4.3910239,
-            50.9785616
+            4.3910098,
+            50.9785594
           ],
           [
-            4.3911471,
-            50.9786019
+            4.3911466,
+            50.978615
           ]
         ]
       }
@@ -144187,6 +144195,7 @@
       "type": "Feature",
       "id": "way/38501418",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "30",
@@ -145490,6 +145499,7 @@
       "type": "Feature",
       "id": "way/103305096",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "30",
@@ -153934,6 +153944,7 @@
       "type": "Feature",
       "id": "way/1195354095",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "90",
@@ -154500,10 +154511,12 @@
       "type": "Feature",
       "id": "way/1528849509",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "30",
         "name": "Route des Trois Bornes",
+        "sidewalk": "no",
         "surface": "asphalt",
         "zone:maxspeed": "BE:30",
         "zone:traffic": "BE-WAL:rural",
@@ -154531,11 +154544,13 @@
       "type": "Feature",
       "id": "way/1528849510",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "90",
         "maxspeed:type": "BE-WAL:rural",
         "name": "Route des Trois Bornes",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "zone:traffic": "BE-WAL:rural",
         "id": "way/1528849510"
@@ -154562,6 +154577,7 @@
       "type": "Feature",
       "id": "way/1528849511",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "30",
@@ -154594,6 +154610,7 @@
       "type": "Feature",
       "id": "way/1528849512",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lane_markings": "no",
         "maxspeed": "30",
@@ -166777,7 +166794,7 @@
         "highway": "residential",
         "lanes": "1",
         "lit": "yes",
-        "maxspeed": "30",
+        "maxspeed": "5",
         "name": "Lavorenberg",
         "surface": "sett",
         "id": "way/8081589"
@@ -166812,7 +166829,7 @@
         "highway": "pedestrian",
         "lanes": "1",
         "lit": "yes",
-        "maxspeed": "30",
+        "maxspeed": "5",
         "name": "Oude Markt",
         "psv": "yes",
         "surface": "sett",
@@ -166846,7 +166863,7 @@
         "highway": "pedestrian",
         "lanes": "1",
         "lit": "yes",
-        "maxspeed": "30",
+        "maxspeed": "5",
         "name": "Standonckstraat",
         "surface": "asphalt",
         "traffic_sign": "BE:F103;BE:F4a;BE:F1a",
@@ -166967,6 +166984,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "pedestrian",
+        "maxspeed": "5",
         "name": "Benedenstraat",
         "segregated": "no",
         "smoothness": "very_bad",
@@ -167039,6 +167057,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "footway",
+        "maxspeed": "5",
         "segregated": "no",
         "smoothness": "very_bad",
         "surface": "sett",
@@ -167442,7 +167461,7 @@
         "highway": "pedestrian",
         "lanes": "1",
         "lit": "yes",
-        "maxspeed": "30",
+        "maxspeed": "5",
         "name": "'s Meiersstraat",
         "surface": "paving_stones",
         "traffic_sign": "BE:F103;BE:F4a;BE:F1a",
@@ -167481,6 +167500,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "pedestrian",
+        "maxspeed": "5",
         "name": "Rechtestraat",
         "segregated": "no",
         "smoothness": "very_bad",
@@ -167512,6 +167532,7 @@
         "highway": "pedestrian",
         "layer": "1",
         "lit": "yes",
+        "maxspeed": "5",
         "name": "Rechtestraat",
         "segregated": "no",
         "smoothness": "bad",
@@ -167540,6 +167561,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "footway",
+        "maxspeed": "5",
         "name": "Jozef Vounckplein",
         "surface": "paving_stones",
         "id": "way/16137979"
@@ -167566,7 +167588,7 @@
         "foot": "yes",
         "highway": "pedestrian",
         "lit": "yes",
-        "maxspeed": "30",
+        "maxspeed": "5",
         "name": "Grote Markt",
         "oneway": "no",
         "psv": "yes",
@@ -168312,6 +168334,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "pedestrian",
+        "maxspeed": "5",
         "name": "Spaans Kwartier",
         "segregated": "no",
         "smoothness": "very_bad",
@@ -168349,6 +168372,7 @@
         "bicycle": "yes",
         "highway": "pedestrian",
         "lit": "yes",
+        "maxspeed": "5",
         "name": "Spaans Kwartier",
         "segregated": "no",
         "smoothness": "very_bad",
@@ -170143,7 +170167,7 @@
         "highway": "pedestrian",
         "lanes": "1",
         "lit": "yes",
-        "maxspeed": "30",
+        "maxspeed": "5",
         "name": "Hogeschoolplein",
         "surface": "asphalt",
         "traffic_sign": "BE:F103;BE:F4a;BE:F1a",
@@ -170249,7 +170273,7 @@
         "highway": "pedestrian",
         "lanes": "1",
         "lit": "yes",
-        "maxspeed": "30",
+        "maxspeed": "5",
         "name": "Oude Markt",
         "surface": "sett",
         "traffic_sign": "BE:F103;BE:F4a;BE:F1a",
@@ -170524,7 +170548,7 @@
         "bicycle": "yes",
         "highway": "pedestrian",
         "lit": "yes",
-        "maxspeed": "30",
+        "maxspeed": "5",
         "name": "Jodenstraat",
         "surface": "sett",
         "traffic_sign": "BE:F103;BE:F4a;BE:F1a",
@@ -170715,6 +170739,7 @@
         "foot": "yes",
         "highway": "path",
         "lit": "yes",
+        "maxspeed": "5",
         "name": "Grote Markt",
         "oneway": "no",
         "psv": "yes",
@@ -170784,7 +170809,7 @@
         "highway": "pedestrian",
         "lanes": "1",
         "lit": "yes",
-        "maxspeed": "30",
+        "maxspeed": "5",
         "name": "Krakenstraat",
         "psv": "yes",
         "surface": "sett",
@@ -171051,7 +171076,7 @@
         "bicycle": "yes",
         "highway": "pedestrian",
         "lit": "yes",
-        "maxspeed": "30",
+        "maxspeed": "5",
         "name": "Schrijnmakersstraat",
         "surface": "sett",
         "traffic_sign": "BE:F103;BE:F4a;BE:F1a",
@@ -171083,7 +171108,7 @@
         "bicycle": "yes",
         "highway": "pedestrian",
         "lit": "yes",
-        "maxspeed": "30",
+        "maxspeed": "5",
         "name": "Mechelsestraat",
         "surface": "paving_stones",
         "traffic_sign": "BE:F103;BE:F4a;BE:F1a",
@@ -171181,7 +171206,7 @@
         "highway": "pedestrian",
         "lanes": "1",
         "lit": "yes",
-        "maxspeed": "30",
+        "maxspeed": "5",
         "name": "Eikstraat",
         "surface": "sett",
         "traffic_sign": "BE:F103;BE:F4a;BE:F1a",
@@ -171745,6 +171770,7 @@
         "bicycle": "yes",
         "highway": "footway",
         "maxheight": "2",
+        "maxspeed": "5",
         "name": "Professor Jozef Vounckplein",
         "surface": "cobblestone",
         "tunnel": "building_passage",
@@ -171770,6 +171796,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "footway",
+        "maxspeed": "5",
         "name": "Jozef Vounckplein",
         "surface": "sett",
         "id": "way/362794246"
@@ -171802,6 +171829,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "footway",
+        "maxspeed": "5",
         "name": "Jozef Vounckplein",
         "surface": "sett",
         "tunnel": "building_passage",
@@ -171827,6 +171855,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "footway",
+        "maxspeed": "5",
         "name": "Jozef Vounckplein",
         "surface": "sett",
         "id": "way/362794314"
@@ -172201,6 +172230,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "footway",
+        "maxspeed": "5",
         "segregated": "no",
         "smoothness": "very_bad",
         "surface": "sett",
@@ -172826,6 +172856,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "footway",
+        "maxspeed": "5",
         "segregated": "no",
         "surface": "sett",
         "id": "way/807493678"
@@ -172850,6 +172881,7 @@
       "properties": {
         "bicycle": "yes",
         "highway": "footway",
+        "maxspeed": "5",
         "segregated": "no",
         "surface": "sett",
         "id": "way/807493680"
