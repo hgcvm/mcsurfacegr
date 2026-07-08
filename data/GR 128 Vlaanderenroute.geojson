@@ -505,6 +505,8 @@
         "name": "Bijlokekaai",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
         "surface": "asphalt",
         "wikidata": "Q115807279",
         "id": "way/5899506"
@@ -22678,7 +22680,7 @@
         "horse": "yes",
         "maxspeed": "30",
         "motor_vehicle": "destination",
-        "name": "Voetweg 63 - Candèledreefvoetweg / Sas",
+        "name": "Voetweg 63 - Candeledreefvoetweg / Sas",
         "speed_pedelec": "yes",
         "surface": "unpaved",
         "traffic_sign": "BE:F99c",
@@ -22751,7 +22753,7 @@
       "id": "way/33932606",
       "properties": {
         "highway": "path",
-        "name": "Voetweg 64 - Candèlebosvoetweg / Foorseweg",
+        "name": "Voetweg 64 - Candelebosvoetweg / Foorseweg",
         "surface": "unpaved",
         "id": "way/33932606"
       },
@@ -103622,6 +103624,8 @@
         "name": "Albert Baertsoenkaai",
         "name:etymology:wikidata": "Q2830938",
         "private": "exceptional_permit",
+        "sidewalk:left": "yes",
+        "sidewalk:right": "separate",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "vehicle": "private",
@@ -167363,6 +167367,7 @@
       "type": "Feature",
       "id": "way/11614454",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lanes": "2",
@@ -169527,6 +169532,7 @@
       "type": "Feature",
       "id": "way/85799351",
       "properties": {
+        "check_date:cycleway": "2026-07-07",
         "cycleway:left": "shared_lane",
         "cycleway:right": "no",
         "highway": "primary",
@@ -169538,11 +169544,9 @@
         "oneway": "yes",
         "parking:both": "no",
         "ref": "N251",
-        "sidewalk": "right",
+        "sidewalk": "both",
         "sidewalk:both:surface": "paving_stones",
-        "sidewalk:left": "no",
         "sidewalk:left:surface": "paving_stones",
-        "sidewalk:right": "yes",
         "smoothness": "excellent",
         "surface": "asphalt",
         "wikidata": "Q2567735",
@@ -169567,6 +169571,7 @@
       "type": "Feature",
       "id": "way/85801366",
       "properties": {
+        "cycleway:both": "no",
         "height": "5.9",
         "highway": "residential",
         "lane_markings": "no",
@@ -173730,6 +173735,7 @@
       "type": "Feature",
       "id": "way/1083999433",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lanes": "2",
