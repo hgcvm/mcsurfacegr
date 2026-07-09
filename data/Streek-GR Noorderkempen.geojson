@@ -997,12 +997,12 @@
             51.4417126
           ],
           [
-            4.9252295,
-            51.4417392
+            4.9252479,
+            51.4417366
           ],
           [
-            4.9251184,
-            51.4417443
+            4.9252115,
+            51.441738
           ]
         ]
       }
@@ -1018,6 +1018,8 @@
         "maxspeed": "30",
         "maxweight:conditional": "none @ destination",
         "name": "Kerkstraat",
+        "operator": "Gemeente Baarle-Nassau",
+        "operator:addr:country": "NL",
         "surface": "paving_stones",
         "wikidata": "Q19295453",
         "zone:traffic": "NL:urban",
@@ -15500,6 +15502,8 @@
         "maxspeed": "30",
         "maxweight:conditional": "none @ destination",
         "name": "Kerkstraat",
+        "operator": "Gemeente Baarle-Nassau",
+        "operator:addr:country": "NL",
         "sidewalk": "both",
         "surface": "paving_stones",
         "wikidata": "Q19295453",
@@ -26814,8 +26818,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9123657,
-            51.4336565
+            4.9123667,
+            51.4336571
           ],
           [
             4.9126416,
@@ -26857,12 +26861,14 @@
       "id": "way/696446226",
       "properties": {
         "bicycle": "yes",
-        "cycleway": "shared_lane",
+        "cycleway:both": "shared_lane",
         "highway": "tertiary",
+        "lane_markings": "no",
         "maxspeed": "60",
         "maxweight": "3.5",
         "maxweight:conditional": "none @ destination",
         "name": "Heimolen",
+        "surface": "concrete",
         "wikidata": "Q19244362",
         "zone:traffic": "NL:rural",
         "id": "way/696446226"
@@ -26871,20 +26877,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9123657,
-            51.4336565
+            4.9136965,
+            51.4345143
           ],
           [
-            4.9135735,
-            51.4344339
-          ],
-          [
-            4.9136414,
-            51.434478
-          ],
-          [
-            4.91371,
-            51.434523
+            4.9137596,
+            51.4345544
           ],
           [
             4.9141633,
@@ -27128,16 +27126,8 @@
             51.4415324
           ],
           [
-            4.9250184,
-            51.4416274
-          ],
-          [
-            4.9250341,
-            51.4416428
-          ],
-          [
-            4.9251184,
-            51.4417443
+            4.9250145,
+            51.4416224
           ]
         ]
       }
@@ -30843,6 +30833,8 @@
         "maxspeed": "30",
         "maxweight:conditional": "none @ destination",
         "name": "Pastoor de Katerstraat",
+        "operator": "Gemeente Baarle-Nassau",
+        "operator:addr:country": "NL",
         "surface": "paving_stones",
         "wikidata": "Q19407392",
         "zone:traffic": "NL:urban",
@@ -32126,28 +32118,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.922878,
-            51.4401578
+            4.9238432,
+            51.4407979
           ],
           [
-            4.9232956,
-            51.440436
-          ],
-          [
-            4.9235409,
-            51.4405986
-          ],
-          [
-            4.9237323,
-            51.440726
-          ],
-          [
-            4.9238038,
-            51.4407724
-          ],
-          [
-            4.9238741,
-            51.4408196
+            4.9238763,
+            51.4408194
           ],
           [
             4.9242712,
@@ -35722,6 +35698,311 @@
           [
             5.0796726,
             51.4597857
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1536574359",
+      "properties": {
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "maxspeed": "60",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ destination",
+        "name": "Heimolen",
+        "surface": "concrete",
+        "wikidata": "Q19244362",
+        "zone:traffic": "NL:rural",
+        "id": "way/1536574359"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9135818,
+            51.434441
+          ],
+          [
+            4.9136041,
+            51.4344555
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1536574360",
+      "properties": {
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "maxspeed": "60",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ destination",
+        "name": "Heimolen",
+        "surface": "concrete",
+        "wikidata": "Q19244362",
+        "zone:traffic": "NL:rural",
+        "id": "way/1536574360"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9136764,
+            51.4345018
+          ],
+          [
+            4.9136965,
+            51.4345143
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1536574361",
+      "properties": {
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "maxspeed": "60",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ destination",
+        "name": "Heimolen",
+        "surface": "paving_stones",
+        "traffic_calming": "table",
+        "wikidata": "Q19244362",
+        "zone:traffic": "NL:rural",
+        "id": "way/1536574361"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9136041,
+            51.4344555
+          ],
+          [
+            4.9136764,
+            51.4345018
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1536574362",
+      "properties": {
+        "bicycle": "yes",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "maxspeed": "60",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ destination",
+        "name": "Heimolen",
+        "surface": "concrete",
+        "wikidata": "Q19244362",
+        "zone:traffic": "NL:rural",
+        "id": "way/1536574362"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9123667,
+            51.4336571
+          ],
+          [
+            4.913554,
+            51.4344222
+          ],
+          [
+            4.9135818,
+            51.434441
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1536575401",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Molenbaan",
+        "operator": "Gemeente Baarle-Nassau",
+        "operator:addr:country": "NL",
+        "surface": "paving_stones",
+        "wikidata": "Q19347625",
+        "zone:traffic:left": "NL:urban",
+        "zone:traffic:right": "BE-VLG:urban",
+        "id": "way/1536575401"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9250145,
+            51.4416224
+          ],
+          [
+            4.9250441,
+            51.4416526
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1536575402",
+      "properties": {
+        "cycleway:both": "no",
+        "destination:backward": "Zondereigen",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Molenbaan",
+        "operator": "Gemeente Baarle-Nassau",
+        "operator:addr:country": "NL",
+        "surface": "paving_stones",
+        "traffic_calming": "table",
+        "wikidata": "Q19347625",
+        "zone:traffic:left": "NL:urban",
+        "zone:traffic:right": "BE-VLG:urban",
+        "id": "way/1536575402"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9250441,
+            51.4416526
+          ],
+          [
+            4.9250818,
+            51.4416968
+          ],
+          [
+            4.9251161,
+            51.4417421
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1536575404",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Pastoor de Katerstraat",
+        "sidewalk": "both",
+        "surface": "paving_stones",
+        "traffic_calming": "table",
+        "wikidata": "Q19407392",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1536575404"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9252115,
+            51.441738
+          ],
+          [
+            4.9251161,
+            51.4417421
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1536588060",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Molenbaan",
+        "operator": "Gemeente Baarle-Nassau",
+        "operator:addr:country": "NL",
+        "surface": "asphalt",
+        "traffic_calming": "table",
+        "wikidata": "Q19347625",
+        "zone:traffic": "NL:urban",
+        "id": "way/1536588060"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9237643,
+            51.4407469
+          ],
+          [
+            4.9238038,
+            51.4407724
+          ],
+          [
+            4.9238432,
+            51.4407979
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1536588061",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Molenbaan",
+        "operator": "Gemeente Baarle-Nassau",
+        "operator:addr:country": "NL",
+        "surface": "asphalt",
+        "wikidata": "Q19347625",
+        "zone:traffic": "NL:urban",
+        "id": "way/1536588061"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.922878,
+            51.4401578
+          ],
+          [
+            4.9232956,
+            51.440436
+          ],
+          [
+            4.9235409,
+            51.4405986
+          ],
+          [
+            4.9237323,
+            51.440726
+          ],
+          [
+            4.9237643,
+            51.4407469
           ]
         ]
       }
