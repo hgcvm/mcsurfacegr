@@ -139770,33 +139770,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/219056302",
-      "properties": {
-        "access": "no",
-        "highway": "path",
-        "surface": "asphalt",
-        "id": "way/219056302"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.3465821,
-            50.9348851
-          ],
-          [
-            5.3466854,
-            50.9348568
-          ],
-          [
-            5.3468214,
-            50.9348173
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/219056305",
       "properties": {
         "highway": "cycleway",
@@ -139847,9 +139820,9 @@
       "type": "Feature",
       "id": "way/219836587",
       "properties": {
-        "highway": "cycleway",
+        "construction": "path",
+        "highway": "construction",
         "lit": "yes",
-        "surface": "paving_stones",
         "id": "way/219836587"
       },
       "geometry": {
@@ -140238,11 +140211,16 @@
       "type": "Feature",
       "id": "way/245515872",
       "properties": {
-        "cycleway:right": "no",
+        "cycleway:left": "no",
+        "cycleway:right": "shared_lane",
+        "cycleway:right:lane": "advisory",
         "highway": "unclassified",
         "lane_markings": "no",
+        "maxspeed": "50",
+        "maxspeed:type": "BE-VLG:zone50",
         "name": "Sasstraat",
         "oneway": "yes",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/245515872"
       },
@@ -140299,9 +140277,16 @@
       "type": "Feature",
       "id": "way/245515878",
       "properties": {
+        "cycleway:both": "no",
+        "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "BE-VLG:zone50",
         "name": "Scheepvaartkaai",
         "oneway": "yes",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/245515878"
       },
@@ -140355,11 +140340,14 @@
       "type": "Feature",
       "id": "way/245516170",
       "properties": {
-        "cycleway:right": "shared_lane",
-        "cycleway:right:lane": "pictogram",
+        "cycleway:both": "no",
         "highway": "unclassified",
         "junction": "roundabout",
         "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "BE-VLG:zone50",
+        "sidewalk": "left",
         "surface": "asphalt",
         "id": "way/245516170"
       },
@@ -141320,6 +141308,7 @@
       "id": "way/538293635",
       "properties": {
         "highway": "service",
+        "lit": "yes",
         "surface": "sett",
         "id": "way/538293635"
       },
@@ -141357,10 +141346,6 @@
           [
             5.3469419,
             50.9348572
-          ],
-          [
-            5.3468609,
-            50.9348886
           ]
         ]
       }
@@ -141718,12 +141703,17 @@
       "properties": {
         "bicycle": "yes",
         "bus": "yes",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "emergency": "yes",
         "highway": "unclassified",
         "horse": "yes",
         "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed:type": "BE-VLG:rural",
         "motor_vehicle": "destination",
         "name": "Scheepvaartkaai",
+        "sidewalk": "no",
         "smoothness": "bad",
         "surface": "asphalt",
         "traffic_sign": "BE:C3,BE:Type_IV_local_traffic_nl",
@@ -141757,6 +141747,8 @@
       "id": "way/761351359",
       "properties": {
         "highway": "cycleway",
+        "lit": "yes",
+        "sidewalk": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
         "id": "way/761351359"
@@ -141811,6 +141803,7 @@
         "lit": "yes",
         "oneway": "no",
         "segregated": "no",
+        "sidewalk": "no",
         "smoothness": "excellent",
         "speed_pedelec": "designated",
         "start_date": "2021-12-27",
@@ -142520,7 +142513,10 @@
         "bicycle": "designated",
         "foot": "yes",
         "highway": "cycleway",
+        "lit": "yes",
         "oneway": "no",
+        "segregated": "no",
+        "sidewalk": "no",
         "smoothness": "excellent",
         "speed_pedelec": "designated",
         "surface": "asphalt",
@@ -142867,8 +142863,8 @@
             50.9348173
           ],
           [
-            5.3468609,
-            50.9348886
+            5.3468524,
+            50.9348775
           ]
         ]
       }
@@ -143065,6 +143061,29 @@
           [
             5.3778528,
             50.9550296
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1537321831",
+      "properties": {
+        "highway": "service",
+        "lit": "yes",
+        "surface": "unpaved",
+        "id": "way/1537321831"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3469419,
+            50.9348572
+          ],
+          [
+            5.3468524,
+            50.9348775
           ]
         ]
       }
