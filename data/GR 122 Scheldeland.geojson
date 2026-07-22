@@ -4212,7 +4212,7 @@
         "bicycle": "yes",
         "highway": "path",
         "name": "Christoforuswegel",
-        "surface": "compacted",
+        "surface": "pebblestone",
         "id": "way/31115273"
       },
       "geometry": {
@@ -4296,8 +4296,10 @@
       "type": "Feature",
       "id": "way/31115291",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "name": "Asselkouter",
+        "sidewalk": "no",
         "surface": "asphalt",
         "id": "way/31115291"
       },
@@ -4305,8 +4307,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7560962,
-            50.9493168
+            3.7562218,
+            50.9493417
           ],
           [
             3.7562956,
@@ -4759,8 +4761,10 @@
       "type": "Feature",
       "id": "way/31318309",
       "properties": {
+        "cycleway:both": "no",
         "highway": "track",
         "name": "Karmelietenwegel",
+        "sidewalk": "no",
         "surface": "compacted",
         "id": "way/31318309"
       },
@@ -11484,9 +11488,11 @@
       "type": "Feature",
       "id": "way/70693515",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lit": "yes",
         "name": "Asselkouter",
+        "sidewalk": "no",
         "surface": "concrete",
         "id": "way/70693515"
       },
@@ -33957,10 +33963,12 @@
       "type": "Feature",
       "id": "way/451947616",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "lit": "yes",
         "maxspeed": "30",
         "name": "Asselkouter",
+        "sidewalk": "no",
         "source:maxspeed": "BE:zone30",
         "surface": "concrete",
         "zone:traffic": "BE-VLG:urban",
@@ -42815,9 +42823,11 @@
       "type": "Feature",
       "id": "way/787875492",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "name": "Diepestraat",
-        "surface": "concrete",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "id": "way/787875492"
       },
       "geometry": {
@@ -50610,6 +50620,31 @@
           [
             3.8824566,
             51.1422936
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1541241494",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "name": "Asselkouter",
+        "sidewalk": "no",
+        "surface": "sett",
+        "id": "way/1541241494"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7560962,
+            50.9493168
+          ],
+          [
+            3.7562218,
+            50.9493417
           ]
         ]
       }

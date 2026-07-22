@@ -20069,14 +20069,6 @@
           [
             4.8945331,
             50.7783941
-          ],
-          [
-            4.8944894,
-            50.7784018
-          ],
-          [
-            4.8944061,
-            50.7784148
           ]
         ]
       }
@@ -41107,12 +41099,8 @@
             50.778464
           ],
           [
-            4.8942764,
-            50.7784395
-          ],
-          [
-            4.8943121,
-            50.7784333
+            4.894262,
+            50.7784425
           ]
         ]
       }
@@ -41218,7 +41206,7 @@
         "lit": "no",
         "name": "Molenstraatje",
         "surface": "paving_stones",
-        "width": "1",
+        "width": "1.2",
         "id": "way/39480332"
       },
       "geometry": {
@@ -41233,8 +41221,12 @@
             50.7788389
           ],
           [
-            4.9008691,
-            50.779092
+            4.9008584,
+            50.7790909
+          ],
+          [
+            4.9009267,
+            50.7790631
           ]
         ]
       }
@@ -41243,8 +41235,9 @@
       "type": "Feature",
       "id": "way/39480390",
       "properties": {
+        "bicycle": "yes",
         "highway": "path",
-        "surface": "fine_gravel",
+        "surface": "compacted",
         "id": "way/39480390"
       },
       "geometry": {
@@ -41423,6 +41416,10 @@
       "type": "Feature",
       "id": "way/39483453",
       "properties": {
+        "crossing": "uncontrolled",
+        "crossing:island": "yes",
+        "crossing:markings": "dots",
+        "cycleway": "crossing",
         "highway": "cycleway",
         "surface": "concrete",
         "id": "way/39483453"
@@ -41430,10 +41427,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.9191384,
-            50.7787446
-          ],
           [
             4.9189739,
             50.7788429
@@ -41443,8 +41436,8 @@
             50.7788818
           ],
           [
-            4.9188543,
-            50.7789289
+            4.9188509,
+            50.778928
           ],
           [
             4.9188248,
@@ -56008,7 +56001,7 @@
         "bicycle": "yes",
         "emergency": "yes",
         "foot": "yes",
-        "highway": "track",
+        "highway": "unclassified",
         "horse": "yes",
         "maxspeed": "30",
         "surface": "concrete",
@@ -68585,9 +68578,10 @@
       "type": "Feature",
       "id": "way/135718201",
       "properties": {
+        "bicycle": "yes",
         "highway": "track",
         "layer": "-1",
-        "surface": "fine_gravel",
+        "surface": "compacted",
         "tracktype": "grade2",
         "tunnel": "yes",
         "id": "way/135718201"
@@ -68610,8 +68604,9 @@
       "type": "Feature",
       "id": "way/135718207",
       "properties": {
+        "bicycle": "yes",
         "highway": "track",
-        "surface": "fine_gravel",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/135718207"
       },
@@ -123654,8 +123649,9 @@
       "type": "Feature",
       "id": "way/908624260",
       "properties": {
+        "bicycle": "yes",
         "highway": "track",
-        "surface": "fine_gravel",
+        "surface": "compacted",
         "tracktype": "grade2",
         "id": "way/908624260"
       },
@@ -129232,6 +129228,7 @@
         "name": "Stoopkensstraat",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "concrete",
+        "traffic_calming": "table",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1110722470"
       },
@@ -131667,8 +131664,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.9019023,
-            50.7793275
+            4.9018584,
+            50.7792774
+          ],
+          [
+            4.9018956,
+            50.7793298
           ],
           [
             4.9032616,
@@ -133432,10 +133433,34 @@
     },
     {
       "type": "Feature",
+      "id": "way/1234541950",
+      "properties": {
+        "highway": "service",
+        "name": "Molenstraatje",
+        "surface": "concrete",
+        "id": "way/1234541950"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9009267,
+            50.7790631
+          ],
+          [
+            4.9018584,
+            50.7792774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/1235593932",
       "properties": {
+        "bicycle": "yes",
         "highway": "path",
-        "surface": "fine_gravel",
+        "surface": "compacted",
         "id": "way/1235593932"
       },
       "geometry": {
@@ -133452,33 +133477,6 @@
           [
             4.9072298,
             50.7797483
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1235593934",
-      "properties": {
-        "alt_name": "Voetweg 177",
-        "highway": "path",
-        "horse": "no",
-        "lit": "no",
-        "name": "Molenstraatje",
-        "surface": "gravel",
-        "width": "1",
-        "id": "way/1235593934"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.9008691,
-            50.779092
-          ],
-          [
-            4.9019023,
-            50.7793275
           ]
         ]
       }
@@ -141227,6 +141225,90 @@
     },
     {
       "type": "Feature",
+      "id": "way/1541303628",
+      "properties": {
+        "cycleway": "no",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Stoopkensstraat",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
+        "traffic_calming": "table",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1541303628"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.894262,
+            50.7784425
+          ],
+          [
+            4.8943121,
+            50.7784333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1541303629",
+      "properties": {
+        "cycleway": "no",
+        "highway": "residential",
+        "name": "Vroentestraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "surface": "asphalt",
+        "traffic_calming": "table",
+        "id": "way/1541303629"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8945331,
+            50.7783941
+          ],
+          [
+            4.8944894,
+            50.7784018
+          ],
+          [
+            4.8944061,
+            50.7784148
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1541343773",
+      "properties": {
+        "highway": "cycleway",
+        "surface": "concrete",
+        "id": "way/1541343773"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9191384,
+            50.7787446
+          ],
+          [
+            4.9189739,
+            50.7788429
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/31347411",
       "properties": {
         "bridge": "yes",
@@ -145912,12 +145994,12 @@
             50.7492404
           ],
           [
-            6.0572787,
-            50.7494316
+            6.0572975,
+            50.749418
           ],
           [
-            6.0572403,
-            50.7495389
+            6.0572564,
+            50.7495202
           ],
           [
             6.0572381,
