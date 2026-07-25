@@ -7438,6 +7438,34 @@
     },
     {
       "type": "Feature",
+      "id": "way/55901338",
+      "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ agricultural,bus",
+        "name": "Hoevestraat",
+        "surface": "asphalt",
+        "id": "way/55901338"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4845757,
+            50.9583214
+          ],
+          [
+            3.4849074,
+            50.958407
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/55914564",
       "properties": {
         "highway": "tertiary",
@@ -30771,6 +30799,41 @@
     },
     {
       "type": "Feature",
+      "id": "way/507571017",
+      "properties": {
+        "cyclestreet": "yes",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Karperstraat",
+        "sidewalk": "both",
+        "surface": "sett",
+        "id": "way/507571017"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4845757,
+            50.9583214
+          ],
+          [
+            3.484443,
+            50.9585137
+          ],
+          [
+            3.4843571,
+            50.958648
+          ],
+          [
+            3.4843528,
+            50.9586864
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/508913980",
       "properties": {
         "highway": "footway",
@@ -33502,41 +33565,6 @@
           [
             3.3109247,
             51.1072231
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/631850228",
-      "properties": {
-        "access": "no",
-        "foot": "yes",
-        "highway": "path",
-        "id": "way/631850228"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.4852014,
-            50.9585724
-          ],
-          [
-            3.4851439,
-            50.9586146
-          ],
-          [
-            3.4849766,
-            50.9586539
-          ],
-          [
-            3.4845945,
-            50.9588869
-          ],
-          [
-            3.4844898,
-            50.9589631
           ]
         ]
       }
@@ -44576,25 +44604,67 @@
     },
     {
       "type": "Feature",
-      "id": "way/1543220768",
+      "id": "way/1543220766",
       "properties": {
-        "cycleway": "shared_lane",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "tertiary",
         "maxspeed": "50",
+        "maxweight": "3.5",
+        "maxweight:conditional": "none @ agricultural,bus",
         "name": "Hoevestraat",
         "surface": "asphalt",
-        "id": "way/1543220768"
+        "id": "way/1543220766"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.4852014,
-            50.9585724
+            3.4849074,
+            50.958407
           ],
           [
             3.4849972,
             50.9584302
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1543220767",
+      "properties": {
+        "cyclestreet": "yes",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Karperstraat",
+        "sidewalk": "both",
+        "surface": "sett",
+        "id": "way/1543220767"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4843528,
+            50.9586864
+          ],
+          [
+            3.4843502,
+            50.958709
+          ],
+          [
+            3.4844215,
+            50.9588195
+          ],
+          [
+            3.4844644,
+            50.9588964
+          ],
+          [
+            3.4844898,
+            50.9589631
           ]
         ]
       }
