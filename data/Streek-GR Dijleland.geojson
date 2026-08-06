@@ -16548,9 +16548,13 @@
       "type": "Feature",
       "id": "way/38209648",
       "properties": {
+        "bicycle": "use_sidepath",
+        "cycleway": "shared_lane",
+        "foot": "use_sidepath",
         "highway": "tertiary",
         "maxspeed": "30",
         "name": "Wilselsesteenweg",
+        "sidewalk": "separate",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/38209648"
@@ -16577,30 +16581,6 @@
           [
             4.7222714,
             50.9044008
-          ],
-          [
-            4.7222874,
-            50.9043873
-          ],
-          [
-            4.7222972,
-            50.9043665
-          ],
-          [
-            4.7223023,
-            50.9043568
-          ],
-          [
-            4.7223101,
-            50.9043362
-          ],
-          [
-            4.722308,
-            50.9043073
-          ],
-          [
-            4.7223011,
-            50.9042871
           ]
         ]
       }
@@ -17198,6 +17178,10 @@
           [
             4.7179287,
             50.8921659
+          ],
+          [
+            4.7179248,
+            50.8920901
           ],
           [
             4.7179184,
@@ -46948,6 +46932,55 @@
           [
             4.6964169,
             50.872935
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1547522122",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "cycleway": "separate",
+        "foot": "use_sidepath",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "name": "Wilselsesteenweg",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1547522122"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.7222714,
+            50.9044008
+          ],
+          [
+            4.7222874,
+            50.9043873
+          ],
+          [
+            4.7222972,
+            50.9043665
+          ],
+          [
+            4.7223023,
+            50.9043568
+          ],
+          [
+            4.7223101,
+            50.9043362
+          ],
+          [
+            4.722308,
+            50.9043073
+          ],
+          [
+            4.7223011,
+            50.9042871
           ]
         ]
       }
