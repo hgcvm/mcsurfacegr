@@ -2785,7 +2785,8 @@
         "maxspeed": "50",
         "name": "Aartselaarstraat",
         "name:etymology:wikidata": "Q303246",
-        "surface": "paved",
+        "sidewalk:both": "no",
+        "surface": "asphalt",
         "id": "way/8545794"
       },
       "geometry": {
@@ -3334,6 +3335,7 @@
         "name": "Kleine Kauwenberg",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "parking:both": "no",
         "surface": "paving_stones",
         "id": "way/19781938"
       },
@@ -5309,7 +5311,9 @@
       "type": "Feature",
       "id": "way/22912311",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Kontichhof",
         "smoothness": "intermediate",
         "surface": "asphalt",
@@ -9177,6 +9181,7 @@
         "highway": "track",
         "mtb:scale": "0",
         "surface": "compacted",
+        "tracktype": "grade2",
         "id": "way/36570177"
       },
       "geometry": {
@@ -9456,9 +9461,11 @@
       "type": "Feature",
       "id": "way/38291818",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Groeningenlei",
-        "surface": "paved",
+        "surface": "asphalt",
         "id": "way/38291818"
       },
       "geometry": {
@@ -14928,6 +14935,9 @@
         "maxspeed:zone": "yes",
         "name": "Paardenmarkt",
         "name:etymology:wikidata": "Q2747221",
+        "parking:left": "street_side",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "surface": "paving_stones",
         "id": "way/266418894"
       },
@@ -26111,11 +26121,14 @@
       "type": "Feature",
       "id": "way/933372267",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Aartselaarstraat",
         "name:etymology:wikidata": "Q303246",
-        "surface": "paved",
+        "sidewalk:both": "no",
+        "surface": "asphalt",
         "id": "way/933372267"
       },
       "geometry": {
@@ -28594,6 +28607,7 @@
         "name": "Venusstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "parking:both": "no",
         "sidewalk": "both",
         "source:maxspeed": "BE:living_street",
         "surface": "asphalt",
