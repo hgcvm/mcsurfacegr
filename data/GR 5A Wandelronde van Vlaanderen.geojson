@@ -2854,60 +2854,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/7630093",
-      "properties": {
-        "highway": "tertiary",
-        "maxspeed": "30",
-        "name": "Kaai",
-        "oneway": "no",
-        "surface": "paving_stones",
-        "zone:traffic": "NL:urban",
-        "id": "way/7630093"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.440769,
-            51.2732949
-          ],
-          [
-            3.4408966,
-            51.2733139
-          ],
-          [
-            3.4409751,
-            51.2733352
-          ],
-          [
-            3.4410446,
-            51.273371
-          ],
-          [
-            3.4411043,
-            51.2734324
-          ],
-          [
-            3.4411563,
-            51.2735224
-          ],
-          [
-            3.4411899,
-            51.273609
-          ],
-          [
-            3.4412056,
-            51.273691
-          ],
-          [
-            3.4412125,
-            51.273745
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/7630096",
       "properties": {
         "highway": "tertiary",
@@ -2977,6 +2923,38 @@
           [
             3.440769,
             51.2732949
+          ],
+          [
+            3.4408966,
+            51.2733139
+          ],
+          [
+            3.4409751,
+            51.2733352
+          ],
+          [
+            3.4410446,
+            51.273371
+          ],
+          [
+            3.4411043,
+            51.2734324
+          ],
+          [
+            3.4411563,
+            51.2735224
+          ],
+          [
+            3.4411899,
+            51.273609
+          ],
+          [
+            3.4412056,
+            51.273691
+          ],
+          [
+            3.4412125,
+            51.273745
           ]
         ]
       }
@@ -26363,7 +26341,8 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
-        "surface": "gravel",
+        "smoothness": "good",
+        "surface": "compacted",
         "wheelchair": "no",
         "width": "1",
         "id": "way/86640396"
@@ -33377,8 +33356,9 @@
       "type": "Feature",
       "id": "way/135265222",
       "properties": {
+        "construction": "footway",
         "footway": "sidewalk",
-        "highway": "footway",
+        "highway": "construction",
         "lit": "yes",
         "surface": "paving_stones",
         "id": "way/135265222"
@@ -49388,8 +49368,9 @@
       "type": "Feature",
       "id": "way/277315434",
       "properties": {
+        "construction": "footway",
         "footway": "sidewalk",
-        "highway": "footway",
+        "highway": "construction",
         "lit": "yes",
         "surface": "paving_stones",
         "id": "way/277315434"
@@ -66957,7 +66938,8 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
-        "surface": "gravel",
+        "smoothness": "intermediate",
+        "surface": "compacted",
         "wheelchair": "no",
         "width": "1",
         "id": "way/1046437605"
@@ -67056,6 +67038,7 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
+        "smoothness": "excellent",
         "surface": "paving_stones",
         "wheelchair": "no",
         "width": "1",
@@ -67091,6 +67074,7 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
+        "smoothness": "intermediate",
         "surface": "gravel",
         "wheelchair": "no",
         "width": "1",
@@ -67166,6 +67150,7 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
+        "smoothness": "good",
         "surface": "paving_stones",
         "wheelchair": "no",
         "width": "1",
@@ -67197,6 +67182,7 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
+        "smoothness": "good",
         "surface": "paving_stones",
         "wheelchair": "no",
         "width": "1",
@@ -67250,6 +67236,7 @@
         "highway": "steps",
         "horse": "no",
         "incline": "up",
+        "lit": "no",
         "step_count": "7",
         "surface": "gravel",
         "wheelchair": "no",
@@ -70788,6 +70775,7 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
+        "smoothness": "excellent",
         "step_count": "2",
         "surface": "paving_stones",
         "wheelchair": "no",
@@ -70816,7 +70804,8 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
-        "surface": "paving_stones",
+        "smoothness": "intermediate",
+        "surface": "compacted",
         "wheelchair": "no",
         "width": "1",
         "id": "way/1151982418"
@@ -70871,7 +70860,8 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
-        "surface": "gravel",
+        "smoothness": "good",
+        "surface": "paving_stones",
         "wheelchair": "no",
         "width": "1",
         "id": "way/1151982419"
@@ -70910,6 +70900,7 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
+        "smoothness": "intermediate",
         "surface": "gravel",
         "wheelchair": "no",
         "width": "1",
@@ -141583,6 +141574,7 @@
         "highway": "service",
         "name": "Overloopdijk",
         "service": "alley",
+        "surface": "concrete",
         "id": "way/381820644"
       },
       "geometry": {
@@ -150120,6 +150112,7 @@
       "id": "way/541753850",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/541753850"
       },
       "geometry": {
@@ -176295,7 +176288,10 @@
       "type": "Feature",
       "id": "way/23171852",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Overloopdijk",
         "surface": "asphalt",
         "id": "way/23171852"
@@ -176322,7 +176318,7 @@
       "type": "Feature",
       "id": "way/23171879",
       "properties": {
-        "cycleway": "track",
+        "cycleway:both": "track",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Leo Bosschartlaan",
@@ -182306,7 +182302,10 @@
       "id": "way/387123105",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Overloopdijk",
         "surface": "asphalt",
         "vehicle": "no",
