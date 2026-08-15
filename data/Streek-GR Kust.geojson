@@ -18119,16 +18119,15 @@
       "id": "way/158926060",
       "properties": {
         "bicycle": "designated",
-        "check_date:surface": "2025-07-26",
-        "cycleway:surface": "compacted",
+        "cycleway:surface": "paving_stones",
         "cycleway:width": "2.5",
         "foot": "designated",
-        "footway:surface": "compacted",
+        "footway:surface": "paving_stones",
         "highway": "path",
         "lit": "no",
         "name": "Yourcenarpad",
         "segregated": "yes",
-        "surface": "compacted",
+        "surface": "paving_stones",
         "wheelchair": "yes",
         "id": "way/158926060"
       },
@@ -18136,16 +18135,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.332868,
-            51.3619074
-          ],
-          [
-            3.3328163,
-            51.3618967
-          ],
-          [
-            3.332676,
-            51.3618676
+            3.3324828,
+            51.3618514
           ],
           [
             3.3323327,
@@ -18332,6 +18323,7 @@
       "properties": {
         "bicycle": "no",
         "highway": "footway",
+        "lit": "no",
         "name": "Wiedauwpad",
         "surface": "shells",
         "id": "way/158926122"
@@ -19159,6 +19151,7 @@
       "id": "way/174532032",
       "properties": {
         "highway": "footway",
+        "lit": "no",
         "surface": "shells",
         "id": "way/174532032"
       },
@@ -33588,16 +33581,18 @@
         "bicycle": "no",
         "colour": "red",
         "highway": "footway",
+        "lit": "no",
         "name": "Wiedauwpad",
-        "surface": "wood",
+        "smoothness": "intermediate",
+        "surface": "compacted",
         "id": "way/893124650"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.3254363,
-            51.3549279
+            3.3253843,
+            51.3550732
           ],
           [
             3.3253612,
@@ -33637,7 +33632,8 @@
         "bicycle": "no",
         "highway": "path",
         "name": "Wiedauwpad",
-        "surface": "shells",
+        "smoothness": "good",
+        "surface": "compacted",
         "id": "way/893124651"
       },
       "geometry": {
@@ -46369,6 +46365,105 @@
           [
             2.6455323,
             51.1107552
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1549568910",
+      "properties": {
+        "bicycle": "no",
+        "colour": "red",
+        "highway": "footway",
+        "lit": "no",
+        "name": "Wiedauwpad",
+        "surface": "wood",
+        "id": "way/1549568910"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3254363,
+            51.3549279
+          ],
+          [
+            3.3253843,
+            51.3550732
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1549652502",
+      "properties": {
+        "bicycle": "designated",
+        "check_date:surface": "2025-07-26",
+        "cycleway:surface": "compacted",
+        "cycleway:width": "2.5",
+        "foot": "designated",
+        "footway:surface": "compacted",
+        "highway": "path",
+        "lit": "no",
+        "name": "Yourcenarpad",
+        "segregated": "yes",
+        "surface": "compacted",
+        "wheelchair": "yes",
+        "id": "way/1549652502"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.332868,
+            51.3619074
+          ],
+          [
+            3.3328163,
+            51.3618967
+          ],
+          [
+            3.332676,
+            51.3618676
+          ],
+          [
+            3.3326331,
+            51.361864
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1549652503",
+      "properties": {
+        "bicycle": "designated",
+        "check_date:cycleway:surface": "2026-08-13",
+        "check_date:surface": "2026-08-13",
+        "cycleway:surface": "paving_stones",
+        "cycleway:width": "2.5",
+        "foot": "designated",
+        "footway:surface": "asphalt",
+        "highway": "path",
+        "lit": "no",
+        "name": "Yourcenarpad",
+        "segregated": "yes",
+        "surface": "paved",
+        "wheelchair": "yes",
+        "id": "way/1549652503"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.3326331,
+            51.361864
+          ],
+          [
+            3.3324828,
+            51.3618514
           ]
         ]
       }
