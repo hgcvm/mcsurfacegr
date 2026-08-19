@@ -8794,32 +8794,30 @@
       "type": "Feature",
       "id": "way/33844837",
       "properties": {
+        "bicycle": "dismount",
         "cycleway:both": "shared_lane",
         "cycleway:both:lane": "pictogram",
         "description": "old images \"middenplein is weg\"",
-        "highway": "residential",
+        "fixme": "deze weg werd heraangelegd, PDF met perfecte layout via webstek Stad Antwerpen; bij bezoek 15 aug'26 uitsluitend voetgangers en fietsers=afstappen; dit duurt nog enkele maanden",
+        "highway": "living_street",
+        "horse": "private",
+        "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
+        "motor_vehicle": "no",
         "name": "Paardenmarkt",
         "name:etymology:wikidata": "Q2747221",
+        "oneway": "no",
         "sidewalk": "both",
-        "surface": "asphalt",
+        "surface": "concrete",
         "id": "way/33844837"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            4.4096818,
-            51.2251073
-          ],
-          [
-            4.4097904,
-            51.2251069
-          ],
           [
             4.4098604,
             51.225107
@@ -21814,18 +21812,24 @@
       "type": "Feature",
       "id": "way/495689694",
       "properties": {
+        "bicycle": "dismount",
         "cycleway:both": "shared_lane",
         "cycleway:both:lane": "pictogram",
-        "highway": "residential",
+        "fixme": "deze weg werd heraangelegd, PDF met perfecte layout via webstek Stad Antwerpen; bij bezoek 15 aug'26 uitsluitend voetgangers en fietsers=afstappen; dit duurt nog enkele maanden",
+        "highway": "living_street",
+        "horse": "private",
+        "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
         "lit": "yes",
         "maxspeed": "30",
         "maxspeed:zone": "yes",
+        "motor_vehicle": "no",
         "name": "Paardenmarkt",
         "name:etymology:wikidata": "Q2747221",
+        "oneway": "no",
         "sidewalk": "both",
-        "surface": "asphalt",
+        "surface": "concrete",
         "id": "way/495689694"
       },
       "geometry": {
@@ -30198,6 +30202,43 @@
           [
             4.4305596,
             51.235456
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1550526104",
+      "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "pictogram",
+        "description": "old images \"middenplein is weg\"",
+        "highway": "residential",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:zone": "yes",
+        "name": "Paardenmarkt",
+        "name:etymology:wikidata": "Q2747221",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "id": "way/1550526104"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4096818,
+            51.2251073
+          ],
+          [
+            4.4097904,
+            51.2251069
+          ],
+          [
+            4.4098604,
+            51.225107
           ]
         ]
       }
