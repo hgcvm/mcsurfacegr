@@ -3775,7 +3775,6 @@
         "sidewalk:both:surface": "paving_stones",
         "smoothness": "excellent",
         "surface": "asphalt",
-        "zone:traffic": "BE-VLG:urban",
         "id": "way/23121592"
       },
       "geometry": {
@@ -3825,7 +3824,6 @@
         "lanes": "1",
         "maxspeed": "70",
         "name": "Blokkenstraat",
-        "source": "survey",
         "surface": "asphalt",
         "id": "way/23121593"
       },
@@ -3841,8 +3839,8 @@
             50.8590642
           ],
           [
-            4.6206053,
-            50.8592728
+            4.6206975,
+            50.8591556
           ]
         ]
       }
@@ -17872,15 +17870,17 @@
       "type": "Feature",
       "id": "way/40431810",
       "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
         "cycleway": "lane",
         "highway": "tertiary",
         "lanes": "1",
-        "maxspeed": "70",
+        "maxspeed": "30",
         "name": "Blokkenstraat",
+        "overtaking:motor_vehicle": "no",
         "source": "survey",
-        "source:maxspeed": "BE-VLG:rural",
         "surface": "asphalt",
-        "zone:traffic": "BE-VLG:rural",
+        "traffic_sign": "BE:F111",
         "id": "way/40431810"
       },
       "geometry": {
@@ -46988,6 +46988,36 @@
           [
             4.7223011,
             50.9042871
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1551182773",
+      "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Blokkenstraat",
+        "overtaking:motor_vehicle": "no",
+        "surface": "asphalt",
+        "traffic_sign": "BE:F111",
+        "id": "way/1551182773"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.6206975,
+            50.8591556
+          ],
+          [
+            4.6206053,
+            50.8592728
           ]
         ]
       }
