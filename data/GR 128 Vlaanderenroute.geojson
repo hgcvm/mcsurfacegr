@@ -27115,8 +27115,16 @@
             50.9462249
           ],
           [
+            4.7005602,
+            50.9467122
+          ],
+          [
             4.7007416,
             50.9468123
+          ],
+          [
+            4.7014143,
+            50.9471834
           ],
           [
             4.7014312,
@@ -30747,9 +30755,12 @@
       "type": "Feature",
       "id": "way/38208848",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Sypestraat",
+        "sidewalk:both": "no",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/38208848"
@@ -30892,8 +30903,12 @@
       "type": "Feature",
       "id": "way/38209380",
       "properties": {
+        "handrail": "yes",
         "highway": "steps",
+        "incline": "up",
+        "ramp": "no",
         "surface": "wood",
+        "tactile_paving": "no",
         "id": "way/38209380"
       },
       "geometry": {
@@ -30940,8 +30955,12 @@
       "type": "Feature",
       "id": "way/38209382",
       "properties": {
+        "handrail": "no",
         "highway": "steps",
+        "incline": "up",
+        "ramp": "no",
         "surface": "wood",
+        "tactile_paving": "no",
         "id": "way/38209382"
       },
       "geometry": {
@@ -109835,9 +109854,12 @@
       "type": "Feature",
       "id": "way/693482638",
       "properties": {
-        "highway": "unclassified",
+        "crossing": "uncontrolled",
+        "crossing:markings": "yes",
+        "cycleway": "crossing",
+        "highway": "cycleway",
         "motor_vehicle": "no",
-        "name": "Mankemerriewegel",
+        "oneway": "no",
         "surface": "asphalt",
         "id": "way/693482638"
       },
@@ -109871,9 +109893,11 @@
       "type": "Feature",
       "id": "way/693484103",
       "properties": {
-        "highway": "unclassified",
+        "crossing": "uncontrolled",
+        "crossing:markings": "yes",
+        "cycleway": "crossing",
+        "highway": "cycleway",
         "motor_vehicle": "no",
-        "name": "Mankemerriewegel",
         "surface": "asphalt",
         "id": "way/693484103"
       },
@@ -141500,8 +141524,9 @@
       "type": "Feature",
       "id": "way/48239190",
       "properties": {
+        "check_date:surface": "2026-08-29",
         "highway": "track",
-        "surface": "sand",
+        "surface": "unpaved",
         "tracktype": "grade3",
         "width": "2",
         "id": "way/48239190"
