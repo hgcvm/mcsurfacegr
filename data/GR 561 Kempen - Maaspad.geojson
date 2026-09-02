@@ -21536,13 +21536,13 @@
       "type": "Feature",
       "id": "way/235186656",
       "properties": {
-        "cycleway:left": "lane",
-        "cycleway:left:smoothness": "bad",
-        "cycleway:left:surface": "gravel",
+        "cycleway:right": "lane",
+        "cycleway:right:oneway": "no",
+        "cycleway:right:smoothness": "bad",
+        "cycleway:right:surface": "gravel",
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Driepaalweg",
-        "oneway:bicycle": "no",
         "smoothness": "bad",
         "surface": "cobblestone",
         "id": "way/235186656"
@@ -21551,48 +21551,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.6649298,
-            51.0438371
-          ],
-          [
-            5.6648761,
-            51.0429268
-          ],
-          [
-            5.6648253,
-            51.0424793
-          ],
-          [
-            5.6646899,
-            51.04075
-          ],
-          [
-            5.6646514,
-            51.0402962
-          ],
-          [
-            5.6643584,
-            51.0370221
-          ],
-          [
-            5.6643819,
-            51.0368839
-          ],
-          [
-            5.6644185,
-            51.0367703
-          ],
-          [
-            5.6645521,
-            51.0365641
+            5.6648273,
+            51.0363043
           ],
           [
             5.6646599,
             51.0364307
           ],
           [
-            5.6648273,
-            51.0363043
+            5.6645521,
+            51.0365641
+          ],
+          [
+            5.6644185,
+            51.0367703
+          ],
+          [
+            5.6643819,
+            51.0368839
+          ],
+          [
+            5.6643584,
+            51.0370221
+          ],
+          [
+            5.6646514,
+            51.0402962
+          ],
+          [
+            5.6646899,
+            51.04075
+          ],
+          [
+            5.6648253,
+            51.0424793
+          ],
+          [
+            5.6648761,
+            51.0429268
+          ],
+          [
+            5.6649298,
+            51.0438371
           ]
         ]
       }
@@ -63835,8 +63835,8 @@
             51.2276148
           ],
           [
-            5.4383439,
-            51.2275306
+            5.43836,
+            51.2275285
           ]
         ]
       }
@@ -64600,11 +64600,19 @@
       "type": "Feature",
       "id": "way/35035775",
       "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
+        "mofa": "yes",
+        "motor_vehicle:conditional": "no @ (Mo-Fr 08:10-08:40, Mo,Tu,Th,Fr 15:30-16:00, We 11:45-12:15; PH,SH off)",
         "name": "Saxbylaan",
+        "overtaking:motor_vehicle": "no",
+        "schoolstreet": "yes",
         "source:maxspeed": "BE-VLG:urban",
+        "speed_pedelec": "yes",
         "surface": "paving_stones",
+        "traffic_sign": "BE:F111",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/35035775"
       },
@@ -64612,8 +64620,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4383439,
-            51.2275306
+            5.43836,
+            51.2275285
           ],
           [
             5.4383037,
@@ -64628,11 +64636,15 @@
             51.2267167
           ],
           [
-            5.4380635,
-            51.2264549
+            5.438036,
+            51.2264595
           ],
           [
-            5.4380172,
+            5.4379997,
+            51.226332
+          ],
+          [
+            5.4379823,
             51.2261673
           ]
         ]
@@ -65247,11 +65259,19 @@
       "type": "Feature",
       "id": "way/1389634360",
       "properties": {
+        "bicycle": "designated",
+        "cyclestreet": "yes",
         "highway": "residential",
         "maxspeed": "30",
+        "mofa": "yes",
+        "motor_vehicle:conditional": "no @ (Mo-Fr 08:10-08:40, Mo,Tu,Th,Fr 15:30-16:00, We 11:45-12:15; PH,SH off)",
         "name": "Saxbylaan",
+        "overtaking:motor_vehicle": "no",
+        "schoolstreet": "yes",
         "source:maxspeed": "BE-VLG:urban",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
+        "traffic_sign": "BE:F111",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/1389634360"
       },
@@ -65259,12 +65279,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.4380172,
+            5.4379823,
             51.2261673
           ],
           [
-            5.4379818,
-            51.2259527
+            5.4379738,
+            51.225951
           ],
           [
             5.4377218,
