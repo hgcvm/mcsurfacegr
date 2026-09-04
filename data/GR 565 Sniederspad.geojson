@@ -439,7 +439,6 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "30",
-        "moped:oneway": "no",
         "name": "Marktstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
@@ -451,8 +450,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.2162824,
-            51.3660956
+            5.2162733,
+            51.3661027
           ],
           [
             5.2161598,
@@ -463,12 +462,12 @@
             51.36631
           ],
           [
-            5.2159611,
-            51.3665731
+            5.2159571,
+            51.3665643
           ],
           [
-            5.2158933,
-            51.3666076
+            5.2159027,
+            51.3666059
           ]
         ]
       }
@@ -479,10 +478,12 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "30",
-        "moped:oneway": "no",
         "name": "Marktstraat",
         "oneway": "yes",
         "oneway:bicycle": "no",
+        "oneway:mofa": "no",
+        "oneway:moped": "no",
+        "source:traffic_sign": "NL:C3,C2,OB54",
         "surface": "paving_stones",
         "zone:traffic": "NL:urban",
         "id": "way/7190097"
@@ -491,28 +492,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.21689,
-            51.36555
+            5.2168796,
+            51.36556
           ],
           [
-            5.2168229,
-            51.3656003
+            5.2168199,
+            51.365603
+          ],
+          [
+            5.2167751,
+            51.365634
           ],
           [
             5.21661,
             51.36576
           ],
           [
-            5.21647,
-            51.3659
+            5.2165364,
+            51.3658206
           ],
           [
-            5.2164081,
-            51.3659645
+            5.2164579,
+            51.365891
           ],
           [
-            5.2162824,
-            51.3660956
+            5.2163933,
+            51.3659549
+          ],
+          [
+            5.2163574,
+            51.3659945
+          ],
+          [
+            5.2163279,
+            51.3660309
+          ],
+          [
+            5.2162733,
+            51.3661027
           ]
         ]
       }
@@ -20714,10 +20731,8 @@
       "properties": {
         "highway": "residential",
         "maxspeed": "30",
-        "moped:oneway": "no",
         "name": "Marktstraat",
         "oneway": "yes",
-        "oneway:bicycle": "no",
         "surface": "paving_stones",
         "zone:traffic": "NL:urban",
         "id": "way/684512822"
@@ -20726,12 +20741,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.2158933,
-            51.3666076
+            5.2159027,
+            51.3666059
           ],
           [
-            5.2158207,
-            51.3666282
+            5.2158566,
+            51.3666395
           ]
         ]
       }
@@ -25098,8 +25113,8 @@
             51.3654749
           ],
           [
-            5.21689,
-            51.36555
+            5.2168796,
+            51.36556
           ]
         ]
       }
