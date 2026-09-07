@@ -2402,7 +2402,8 @@
       "type": "Feature",
       "id": "way/40322227",
       "properties": {
-        "cycleway": "track",
+        "cycleway:both": "track",
+        "cycleway:left:oneway": "-1",
         "highway": "tertiary",
         "lit": "yes",
         "name": "Leopoldlaan",
@@ -3803,6 +3804,7 @@
       "properties": {
         "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "yes",
         "name": "Zeedijk",
         "oneway": "yes",
@@ -43175,7 +43177,8 @@
       "type": "Feature",
       "id": "way/1237508839",
       "properties": {
-        "cycleway": "track",
+        "cycleway:both": "track",
+        "cycleway:left:oneway": "-1",
         "highway": "tertiary",
         "lit": "yes",
         "name": "Leopoldlaan",
@@ -43208,14 +43211,17 @@
       "type": "Feature",
       "id": "way/1238532447",
       "properties": {
-        "cycleway": "track",
+        "cycleway:both": "track",
+        "cycleway:left:oneway": "-1",
         "highway": "tertiary",
+        "lane_markings": "yes",
         "lit": "yes",
         "name": "Leopoldlaan",
         "oneway": "yes",
         "oneway:bicycle": "no",
         "oneway:bus": "no",
         "oneway:mofa": "no",
+        "sidewalk:both": "yes",
         "surface": "asphalt",
         "id": "way/1238532447"
       },
