@@ -356,30 +356,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/24844632",
-      "properties": {
-        "highway": "secondary",
-        "name": "Kasteeldreef",
-        "ref": "N462b",
-        "surface": "asphalt",
-        "id": "way/24844632"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.7742395,
-            50.8235752
-          ],
-          [
-            3.7742667,
-            50.8235823
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/25711651",
       "properties": {
         "highway": "residential",
@@ -6982,16 +6958,12 @@
             50.8238378
           ],
           [
-            3.7742714,
-            50.8237658
+            3.774309,
+            50.8237294
           ],
           [
-            3.7742754,
-            50.8236978
-          ],
-          [
-            3.7742395,
-            50.8235752
+            3.7743177,
+            50.8237107
           ]
         ]
       }
@@ -19702,8 +19674,8 @@
             50.8230547
           ],
           [
-            3.7729734,
-            50.8231203
+            3.7729761,
+            50.8231144
           ]
         ]
       }
@@ -36466,46 +36438,22 @@
     },
     {
       "type": "Feature",
-      "id": "way/463037656",
-      "properties": {
-        "highway": "path",
-        "id": "way/463037656"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.7742667,
-            50.8235823
-          ],
-          [
-            3.7742782,
-            50.8235584
-          ],
-          [
-            3.7742997,
-            50.8235164
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/463037657",
       "properties": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "path",
+        "highway": "cycleway",
+        "oneway": "yes",
         "segregated": "no",
-        "surface": "paving_stones",
+        "surface": "asphalt",
         "id": "way/463037657"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.7742094,
-            50.8235139
+            3.7742228,
+            50.8235003
           ],
           [
             3.7742997,
@@ -36521,8 +36469,9 @@
         "bicycle": "yes",
         "bridge": "yes",
         "foot": "yes",
-        "highway": "path",
+        "highway": "cycleway",
         "layer": "1",
+        "oneway": "yes",
         "segregated": "no",
         "surface": "metal_grid",
         "id": "way/463037659"
@@ -36531,12 +36480,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7741045,
-            50.8234793
+            3.7741125,
+            50.8234691
           ],
           [
-            3.7742094,
-            50.8235139
+            3.7742228,
+            50.8235003
           ]
         ]
       }
@@ -38295,7 +38244,8 @@
       "properties": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "path",
+        "highway": "cycleway",
+        "oneway": "yes",
         "segregated": "no",
         "surface": "fine_gravel",
         "id": "way/483890931"
@@ -38304,20 +38254,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.7729734,
-            50.8231203
+            3.7729761,
+            50.8231144
           ],
           [
-            3.7729958,
-            50.8231233
+            3.7730038,
+            50.8231216
           ],
           [
-            3.7737156,
-            50.8233548
+            3.7737196,
+            50.823348
           ],
           [
-            3.7741045,
-            50.8234793
+            3.7741125,
+            50.8234691
           ]
         ]
       }
@@ -63222,6 +63172,110 @@
           [
             3.6254874,
             50.8543815
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1557281687",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "no",
+        "surface": "asphalt",
+        "id": "way/1557281687"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7743478,
+            50.8236461
+          ],
+          [
+            3.774363,
+            50.8236086
+          ],
+          [
+            3.7743833,
+            50.823563
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1557281692",
+      "properties": {
+        "highway": "track",
+        "name": "Breystraat",
+        "official_vicinal_ref": "236_19_1",
+        "surface": "unpaved",
+        "tracktype": "grade4",
+        "vicinal_ref": "Chemin nr. 19",
+        "id": "way/1557281692"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7743334,
+            50.823677
+          ],
+          [
+            3.7743478,
+            50.8236461
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1557281693",
+      "properties": {
+        "bridge": "yes",
+        "highway": "track",
+        "layer": "1",
+        "name": "Breystraat",
+        "official_vicinal_ref": "236_19_1",
+        "surface": "unpaved",
+        "tracktype": "grade4",
+        "vicinal_ref": "Chemin nr. 19",
+        "id": "way/1557281693"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7743177,
+            50.8237107
+          ],
+          [
+            3.7743334,
+            50.823677
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1557281696",
+      "properties": {
+        "highway": "cycleway",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "id": "way/1557281696"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.7742997,
+            50.8235164
+          ],
+          [
+            3.7743833,
+            50.823563
           ]
         ]
       }
