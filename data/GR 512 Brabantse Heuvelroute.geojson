@@ -14144,7 +14144,7 @@
       "properties": {
         "highway": "track",
         "name": "Gempstraat",
-        "surface": "cobblestone",
+        "surface": "unhewn_cobblestone",
         "tracktype": "grade1",
         "id": "way/77371594"
       },
@@ -14192,6 +14192,7 @@
       "properties": {
         "highway": "track",
         "name": "Gempstraat",
+        "surface": "unhewn_cobblestone",
         "tracktype": "grade1",
         "id": "way/77373769"
       },
@@ -21597,23 +21598,24 @@
       "type": "Feature",
       "id": "way/126123641",
       "properties": {
+        "bicycle": "no",
+        "bridge": "boardwalk",
         "highway": "path",
+        "horse": "no",
+        "name": "Molenpad / Buurtweg 75",
+        "surface": "wood",
         "id": "way/126123641"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.8522835,
-            50.9117865
+            4.8521359,
+            50.911094
           ],
           [
-            4.8521605,
-            50.911095
-          ],
-          [
-            4.852257,
-            50.9107094
+            4.8519982,
+            50.9105482
           ],
           [
             4.8521105,
@@ -27835,6 +27837,8 @@
       "properties": {
         "highway": "unclassified",
         "name": "Bensbergstraat",
+        "oneway": "no",
+        "surface": "concrete",
         "id": "way/151855198"
       },
       "geometry": {
@@ -41450,9 +41454,13 @@
       "type": "Feature",
       "id": "way/801580880",
       "properties": {
+        "bicycle": "no",
         "bridge": "yes",
         "highway": "path",
+        "horse": "no",
         "layer": "1",
+        "name": "Molenpad / Buurtweg 75",
+        "surface": "wood",
         "id": "way/801580880"
       },
       "geometry": {
@@ -41473,7 +41481,11 @@
       "type": "Feature",
       "id": "way/801580881",
       "properties": {
+        "bicycle": "no",
+        "bridge": "boardwalk",
         "highway": "path",
+        "horse": "no",
+        "name": "Molenpad / Buurtweg 75",
         "id": "way/801580881"
       },
       "geometry": {
@@ -41526,10 +41538,6 @@
           [
             4.8530688,
             50.9087478
-          ],
-          [
-            4.8532942,
-            50.9086023
           ]
         ]
       }
@@ -46420,6 +46428,81 @@
     },
     {
       "type": "Feature",
+      "id": "way/1557474286",
+      "properties": {
+        "bicycle": "no",
+        "highway": "footway",
+        "horse": "no",
+        "name": "Beemdstraetje / Buurtweg 32)",
+        "surface": "dirt",
+        "id": "way/1557474286"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8522606,
+            50.9116793
+          ],
+          [
+            4.8521359,
+            50.911094
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1557474287",
+      "properties": {
+        "bicycle": "no",
+        "highway": "footway",
+        "horse": "no",
+        "name": "Beemdstraetje / Buurtweg 32)",
+        "surface": "unhewn_cobblestone",
+        "id": "way/1557474287"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8522835,
+            50.9117865
+          ],
+          [
+            4.8522606,
+            50.9116793
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1557474288",
+      "properties": {
+        "bicycle": "no",
+        "highway": "footway",
+        "horse": "no",
+        "name": "Molenpad / Buurtweg 75",
+        "surface": "gravel",
+        "id": "way/1557474288"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8530688,
+            50.9087478
+          ],
+          [
+            4.8532942,
+            50.9086023
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/39921713",
       "properties": {
         "highway": "track",
@@ -46538,9 +46621,9 @@
       "type": "Feature",
       "id": "way/61919410",
       "properties": {
-        "highway": "track",
-        "surface": "unpaved",
-        "tracktype": "grade2",
+        "highway": "path",
+        "horse": "no",
+        "surface": "dirt",
         "id": "way/61919410"
       },
       "geometry": {
@@ -46653,11 +46736,10 @@
       "type": "Feature",
       "id": "way/76377070",
       "properties": {
-        "highway": "track",
+        "highway": "path",
+        "horse": "no",
         "name": "J. Scheepmansstraat",
-        "note": "zie prentje 230917 : drietal smalle banen met verschillende soorten natuursteen",
         "surface": "stone",
-        "tracktype": "grade2",
         "width": "2.5",
         "id": "way/76377070"
       },
@@ -46665,52 +46747,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.6583316,
-            50.8156968
-          ],
-          [
-            4.6588679,
-            50.8156592
-          ],
-          [
-            4.659147,
-            50.8156266
-          ],
-          [
-            4.6594317,
-            50.8156155
-          ],
-          [
-            4.6597073,
-            50.8156142
-          ],
-          [
-            4.6598726,
-            50.8156
-          ],
-          [
-            4.6600386,
-            50.8155773
-          ],
-          [
-            4.660187,
-            50.8155487
-          ],
-          [
-            4.6603075,
-            50.8155074
-          ],
-          [
-            4.6608015,
-            50.8153068
-          ],
-          [
-            4.6609857,
-            50.8152236
-          ],
-          [
-            4.6610883,
-            50.8151761
+            4.6611539,
+            50.8151509
           ],
           [
             4.6612195,
@@ -46926,8 +46964,7 @@
       "type": "Feature",
       "id": "way/120515615",
       "properties": {
-        "highway": "track",
-        "tracktype": "grade2",
+        "highway": "path",
         "id": "way/120515615"
       },
       "geometry": {
@@ -47029,6 +47066,8 @@
       "properties": {
         "highway": "service",
         "name": "Waversebaan",
+        "oneway": "no",
+        "surface": "unhewn_cobblestone",
         "id": "way/175565817"
       },
       "geometry": {
@@ -47715,6 +47754,75 @@
           [
             4.6630785,
             50.8086019
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1557470862",
+      "properties": {
+        "highway": "track",
+        "name": "J. Scheepmansstraat",
+        "note": "zie prentje 230917 : drietal smalle banen met verschillende soorten natuursteen",
+        "tracktype": "grade2",
+        "width": "2.5",
+        "id": "way/1557470862"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.6583316,
+            50.8156968
+          ],
+          [
+            4.6588679,
+            50.8156592
+          ],
+          [
+            4.659147,
+            50.8156266
+          ],
+          [
+            4.6594317,
+            50.8156155
+          ],
+          [
+            4.6597073,
+            50.8156142
+          ],
+          [
+            4.6598726,
+            50.8156
+          ],
+          [
+            4.6600386,
+            50.8155773
+          ],
+          [
+            4.660187,
+            50.8155487
+          ],
+          [
+            4.6603075,
+            50.8155074
+          ],
+          [
+            4.6608015,
+            50.8153068
+          ],
+          [
+            4.6609857,
+            50.8152236
+          ],
+          [
+            4.6610883,
+            50.8151761
+          ],
+          [
+            4.6611539,
+            50.8151509
           ]
         ]
       }
