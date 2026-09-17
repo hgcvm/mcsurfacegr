@@ -30878,7 +30878,10 @@
       "properties": {
         "handrail": "yes",
         "highway": "steps",
-        "surface": "paved",
+        "incline": "up",
+        "ramp": "no",
+        "surface": "metal",
+        "tactile_paving": "no",
         "id": "way/354293806"
       },
       "geometry": {
@@ -42128,6 +42131,8 @@
         "name": "Hoekstraat - Rue du Culot",
         "name:fr": "Rue du Culot",
         "name:nl": "Hoekstraat",
+        "sidewalk:left": "yes",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "id": "way/911251939"
       },
@@ -49671,6 +49676,7 @@
         "name:fr": "Avenue de la Forêt de Soignes",
         "name:nl": "Zoniënwoudlaan",
         "ref": "N231",
+        "sidewalk:both": "yes",
         "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
         "id": "way/1334527303"
@@ -49705,7 +49711,10 @@
       "type": "Feature",
       "id": "way/1334527304",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Stationsplein - Place de la Station",
         "name:fr": "Place de la Station",
         "name:nl": "Stationsplein",
