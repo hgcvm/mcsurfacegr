@@ -21131,12 +21131,16 @@
       "id": "way/42301842",
       "properties": {
         "highway": "residential",
-        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Duinpieperdreef",
         "noexit:vehicle": "yes",
+        "oneway": "no",
+        "parking:both": "shoulder",
+        "parking:both:authentification:disc": "yes",
         "smoothness": "excellent",
         "source:maxspeed": "sign",
+        "source:parking": "sign",
         "surface": "asphalt",
         "id": "way/42301842"
       },
@@ -34507,13 +34511,15 @@
       "id": "way/137523936",
       "properties": {
         "highway": "residential",
-        "lane_markings": "no",
         "lit": "yes",
         "maxspeed": "50",
         "name": "Kolonel D'Haenenlaan",
-        "parking:both": "yes",
-        "parking:both:fee": "yes",
+        "oneway": "no",
+        "parking:both": "shoulder",
+        "parking:both:authentification:disc": "yes",
+        "parking:both:maxstay": "4hours=yes",
         "source:maxspeed": "sign",
+        "source:parking": "sign",
         "surface": "asphalt",
         "id": "way/137523936"
       },
@@ -87963,6 +87969,10 @@
             51.0333211
           ],
           [
+            4.1018084,
+            51.0333433
+          ],
+          [
             4.1018069,
             51.0333622
           ],
@@ -96026,6 +96036,7 @@
         "lanes": "2",
         "maxspeed": "70",
         "name": "Vaartstraat",
+        "name:etymology:wikidata": "Q2333313",
         "oneway": "no",
         "surface": "asphalt",
         "id": "way/70042024"
@@ -106913,6 +106924,10 @@
           [
             4.0449271,
             50.9452277
+          ],
+          [
+            4.0449982,
+            50.9452879
           ],
           [
             4.0450137,
@@ -143428,6 +143443,7 @@
         "lanes": "2",
         "maxspeed": "70",
         "name": "Vaartstraat",
+        "name:etymology:wikidata": "Q2333313",
         "oneway": "no",
         "surface": "asphalt",
         "id": "way/408662311"
@@ -167404,8 +167420,8 @@
             51.0339067
           ],
           [
-            4.1050846,
-            51.0338576
+            4.1050384,
+            51.033841
           ]
         ]
       }
@@ -171873,7 +171889,7 @@
         "sidewalk:both:surface": "paving_stones",
         "smoothness": "intermediate",
         "surface": "asphalt",
-        "turn:lanes:forward": "left|none",
+        "turn:lanes:forward": "left|through",
         "id": "way/1498048759"
       },
       "geometry": {
@@ -172768,8 +172784,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.1050846,
-            51.0338576
+            4.1050384,
+            51.033841
           ],
           [
             4.1046998,
