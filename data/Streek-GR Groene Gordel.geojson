@@ -1777,7 +1777,9 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Rink",
+        "sidewalk:both": "no",
         "source:maxspeed": "BE:zone30",
+        "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/24591130"
       },
@@ -1814,7 +1816,9 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Kastanjedreef",
+        "sidewalk:both": "no",
         "source:maxspeed": "BE:zone30",
+        "surface": "paving_stones",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/24591611"
       },
@@ -1858,6 +1862,7 @@
       "properties": {
         "bicycle": "no",
         "highway": "footway",
+        "surface": "compacted",
         "id": "way/24591615"
       },
       "geometry": {
@@ -1926,6 +1931,7 @@
         "highway": "living_street",
         "maxspeed": "20",
         "name": "Wilgenhofpark",
+        "surface": "concrete",
         "id": "way/24591730"
       },
       "geometry": {
@@ -1962,8 +1968,11 @@
       "type": "Feature",
       "id": "way/24591764",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Hoogstraat",
+        "sidewalk:both": "no",
         "surface": "asphalt",
         "id": "way/24591764"
       },
@@ -2009,11 +2018,15 @@
       "type": "Feature",
       "id": "way/24604935",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "70",
         "name": "Albert Jambonstraat",
         "oneway": "no",
+        "sidewalk:both": "yes",
         "source:maxspeed": "BE-VLG:rural",
+        "surface": "paving_stones",
         "id": "way/24604935"
       },
       "geometry": {
@@ -2930,7 +2943,9 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Hazeveld",
+        "sidewalk:both": "yes",
         "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
         "id": "way/24974515"
       },
@@ -11807,6 +11822,7 @@
         "highway": "path",
         "maxspeed": "10",
         "segregated": "no",
+        "surface": "compacted",
         "id": "way/38758154"
       },
       "geometry": {
@@ -12224,9 +12240,12 @@
       "type": "Feature",
       "id": "way/39211355",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Jaak Calloensstraat",
+        "sidewalk:both": "no",
         "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "id": "way/39211355"
@@ -12339,6 +12358,7 @@
       "id": "way/39290980",
       "properties": {
         "highway": "track",
+        "surface": "grass",
         "tracktype": "grade3",
         "id": "way/39290980"
       },
@@ -12453,6 +12473,7 @@
         "motor_vehicle": "private",
         "note": "bicycle yes: ignore C3 as cycle routes pass trough!",
         "surface": "compacted",
+        "tracktype": "grade5",
         "traffic_sign": "BE:C3",
         "vehicle": "private",
         "vicinal_ref": "Sentier nr. 78",
@@ -12500,11 +12521,16 @@
       "type": "Feature",
       "id": "way/39325631",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "tertiary",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Pastorijstraat",
         "oneway": "no",
+        "sidewalk:both": "yes",
         "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/39325631"
       },
@@ -12778,6 +12804,7 @@
         "foot": "yes",
         "highway": "track",
         "surface": "compacted",
+        "tracktype": "grade4",
         "id": "way/39448520"
       },
       "geometry": {
@@ -12892,9 +12919,12 @@
       "type": "Feature",
       "id": "way/39448537",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Jan Baptist Cardijnstraat",
+        "sidewalk:both": "no",
         "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "id": "way/39448537"
@@ -18918,9 +18948,12 @@
       "type": "Feature",
       "id": "way/88010586",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Jaak Calloensstraat",
+        "sidewalk:both": "no",
         "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
@@ -23683,6 +23716,7 @@
         "highway": "service",
         "name": "Leeuwseweg",
         "service": "alley",
+        "surface": "compacted",
         "vicinal_ref": "78",
         "id": "way/140714080"
       },
@@ -23716,6 +23750,7 @@
         "foot": "yes",
         "highway": "path",
         "name": "Leeuwseweg",
+        "surface": "compacted",
         "vicinal_ref": "78",
         "id": "way/140714093"
       },
@@ -28360,6 +28395,7 @@
       "id": "way/253169214",
       "properties": {
         "highway": "footway",
+        "surface": "grass",
         "id": "way/253169214"
       },
       "geometry": {
@@ -29092,8 +29128,12 @@
       "type": "Feature",
       "id": "way/283166842",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Hendrik Vanhouchestraat",
+        "sidewalk:both": "yes",
+        "surface": "asphalt",
         "id": "way/283166842"
       },
       "geometry": {
@@ -29114,9 +29154,13 @@
       "type": "Feature",
       "id": "way/283166855",
       "properties": {
-        "cycleway": "shared_lane",
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Joseph Depauwstraat",
+        "sidewalk:both": "yes",
+        "surface": "asphalt",
         "id": "way/283166855"
       },
       "geometry": {
@@ -29137,9 +29181,12 @@
       "type": "Feature",
       "id": "way/283166856",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Alfons Fleurusstraat",
+        "sidewalk:both": "no",
         "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
@@ -29184,6 +29231,7 @@
         "name": "Boogschutterserf / Wilgenhofpark",
         "name:left": "Boogschutterserf",
         "name:right": "Wilgenhofpark",
+        "surface": "paving_stones",
         "id": "way/283166862"
       },
       "geometry": {
@@ -29208,6 +29256,8 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Mekingenweg",
+        "sidewalk:both": "no",
+        "surface": "asphalt",
         "id": "way/283166865"
       },
       "geometry": {
@@ -30140,6 +30190,7 @@
       "id": "way/327144072",
       "properties": {
         "highway": "path",
+        "surface": "dirt",
         "id": "way/327144072"
       },
       "geometry": {
@@ -30364,10 +30415,14 @@
       "type": "Feature",
       "id": "way/335382121",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Victor Maloustraat",
+        "sidewalk:both": "no",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/335382121"
       },
@@ -30480,8 +30535,12 @@
         "cycleway:right": "track",
         "cycleway:right:oneway": "no",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Pepingensesteenweg",
+        "sidewalk:both": "yes",
+        "surface": "concrete",
         "id": "way/342368195"
       },
       "geometry": {
@@ -30518,8 +30577,9 @@
         "maxspeed": "30",
         "name": "Rink",
         "oneway": "no",
+        "sidewalk:both": "yes",
         "source:maxspeed": "BE:zone30",
-        "surface": "cobblestone",
+        "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/342368196"
       },
@@ -32837,6 +32897,7 @@
         "foot": "yes",
         "highway": "track",
         "name": "Buurtweg 83 Sint-Pieters-Leeuw",
+        "surface": "dirt",
         "tracktype": "grade5",
         "id": "way/435142004"
       },
@@ -34871,6 +34932,7 @@
         "name": "Boogschutterserf / Wilgenhofpark",
         "name:left": "Boogschutterserf",
         "name:right": "Wilgenhofpark",
+        "surface": "paving_stones",
         "id": "way/565478553"
       },
       "geometry": {
@@ -35046,10 +35108,9 @@
       "type": "Feature",
       "id": "way/579360107",
       "properties": {
-        "highway": "residential",
-        "lane_markings": "no",
-        "lit": "yes",
-        "maxspeed": "50",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
         "name": "Kerkhoflaan",
         "surface": "asphalt",
         "id": "way/579360107"
@@ -37329,10 +37390,12 @@
       "type": "Feature",
       "id": "way/580597103",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lanes": "1",
         "maxspeed": "50",
         "name": "Hemelrijkstraat",
+        "sidewalk:both": "no",
         "source:maxspeed": "BE:zone50",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
@@ -37380,10 +37443,13 @@
       "type": "Feature",
       "id": "way/580597106",
       "properties": {
+        "cycleway:both": "no",
         "destination:backward": "Oudenaken",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Brabantsebaan",
+        "sidewalk:both": "yes",
         "source:maxspeed": "sign",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
@@ -37411,10 +37477,13 @@
       "type": "Feature",
       "id": "way/580597108",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Hazeveld",
         "sidewalk:left": "no",
         "sidewalk:right": "yes",
+        "surface": "asphalt",
         "id": "way/580597108"
       },
       "geometry": {
@@ -39453,6 +39522,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
+        "surface": "compacted",
         "id": "way/748799512"
       },
       "geometry": {
@@ -42892,13 +42962,16 @@
       "properties": {
         "agricultural": "yes",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "emergency": "yes",
         "foot": "yes",
         "highway": "residential",
         "horse": "yes",
+        "lane_markings": "no",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Alfons Fleurusstraat",
+        "sidewalk:both": "no",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "traffic_sign": "BE:F99c",
@@ -44256,12 +44329,15 @@
         "bicycle": "yes",
         "cyclestreet": "yes",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Guido Gezellestraat",
         "name:etymology:wikidata": "Q336977",
         "overtaking:motor_vehicle": "no",
         "service": "alley",
+        "sidewalk:both": "no",
         "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
         "id": "way/978127414"
       },
       "geometry": {
@@ -45001,6 +45077,7 @@
       "id": "way/1063337572",
       "properties": {
         "highway": "path",
+        "surface": "grass",
         "id": "way/1063337572"
       },
       "geometry": {
@@ -51867,6 +51944,7 @@
         "highway": "service",
         "name": "Kaaskot",
         "service": "alley",
+        "surface": "compacted",
         "vicinal_ref": "117",
         "id": "way/1536857188"
       },

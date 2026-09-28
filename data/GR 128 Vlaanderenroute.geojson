@@ -1649,6 +1649,7 @@
         "lit": "yes",
         "name": "Stenenwal",
         "sidewalk": "no",
+        "smoothness": "intermediate",
         "surface": "sett",
         "id": "way/7125973"
       },
@@ -45450,6 +45451,7 @@
         "moped": "no",
         "name": "Maastrichter Brugstraat",
         "sidewalk": "both",
+        "smoothness": "intermediate",
         "surface": "sett",
         "traffic_sign": "NL:G11",
         "wikidata": "Q604785",
@@ -47310,6 +47312,7 @@
         "mofa": "no",
         "moped": "no",
         "name": "Stenenwal",
+        "smoothness": "intermediate",
         "surface": "sett",
         "id": "way/45895038"
       },
@@ -106898,8 +106901,10 @@
         "moped": "no",
         "name": "Sint Servaasbrug",
         "sidewalk": "both",
-        "surface": "cobblestone",
+        "smoothness": "intermediate",
+        "surface": "sett",
         "traffic_sign": "NL:G11",
+        "width": "2.2",
         "wikidata": "Q604785",
         "wikimedia_commons": "Category:Sint-Servaasbrug_(Maastricht)",
         "wikipedia": "nl:Sint Servaasbrug",
@@ -109812,8 +109817,10 @@
         "moped": "no",
         "name": "Sint Servaasbrug",
         "sidewalk": "both",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "traffic_sign": "NL:G11",
+        "width": "2.2",
         "wikidata": "Q604785",
         "wikimedia_commons": "Category:Sint-Servaasbrug_(Maastricht)",
         "wikipedia": "nl:Sint Servaasbrug",
@@ -137181,6 +137188,7 @@
         "highway": "pedestrian",
         "lit": "yes",
         "name": "Stenenwal",
+        "smoothness": "intermediate",
         "surface": "sett",
         "id": "way/1511461758"
       },
@@ -158533,10 +158541,13 @@
       "properties": {
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "30",
         "name": "Kwadenplasstraat",
         "oneway": "no",
         "sidewalk": "no",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/29222127"
       },
       "geometry": {
@@ -161415,7 +161426,11 @@
       "id": "way/798112284",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
+        "name": "Notaxlaan",
+        "source:maxspeed": "BE:zone30",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/798112284"
       },
       "geometry": {
@@ -161691,8 +161706,11 @@
       "id": "way/842244883",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Admiraaldreef",
+        "source:maxspeed": "BE:zone30",
         "surface": "asphalt",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/842244883"
       },
       "geometry": {
@@ -161718,10 +161736,13 @@
       "id": "way/842244884",
       "properties": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Prosper de Troyerlaan",
         "name:etymology:wikidata": "Q3498572",
         "oneway": "no",
+        "source:maxspeed": "BE:zone30",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/842244884"
       },
       "geometry": {
@@ -161742,13 +161763,13 @@
       "type": "Feature",
       "id": "way/842244885",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "residential",
-        "motor_vehicle": "yes",
+        "maxspeed": "30",
         "name": "Notaxlaan",
         "oneway": "no",
+        "source:maxspeed": "BE:zone30",
         "surface": "concrete",
+        "zone:traffic": "BE-VLG:urban",
         "id": "way/842244885"
       },
       "geometry": {
