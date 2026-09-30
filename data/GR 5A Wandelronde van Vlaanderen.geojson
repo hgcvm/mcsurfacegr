@@ -42795,8 +42795,12 @@
             51.2712441
           ],
           [
-            3.4506695,
-            51.271232
+            3.4506814,
+            51.2712386
+          ],
+          [
+            3.4506699,
+            51.2712266
           ],
           [
             3.4506522,
@@ -89439,30 +89443,27 @@
       "properties": {
         "highway": "residential",
         "name": "Kapittelstraat",
+        "surface": "asphalt",
         "id": "way/33700776"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.96149,
-            50.8311141
+            3.9615074,
+            50.8311145
           ],
           [
-            3.9615135,
-            50.8310628
+            3.9615242,
+            50.8310662
           ],
           [
-            3.9615932,
-            50.8309601
+            3.961553,
+            50.8310007
           ],
           [
-            3.9617835,
-            50.8307755
-          ],
-          [
-            3.9621585,
-            50.8304096
+            3.9616153,
+            50.8309389
           ]
         ]
       }
@@ -108520,7 +108521,9 @@
       "id": "way/97592060",
       "properties": {
         "highway": "track",
+        "smoothness": "bad",
         "surface": "sett",
+        "tracktype": "grade2",
         "id": "way/97592060"
       },
       "geometry": {
@@ -117194,8 +117197,8 @@
             50.8311768
           ],
           [
-            3.96149,
-            50.8311141
+            3.9615074,
+            50.8311145
           ]
         ]
       }
@@ -134019,9 +134022,12 @@
       "id": "way/257511321",
       "properties": {
         "designation": "vicinal_road",
+        "fixme": "Appelterrestraat of Mariaweg (GRB)",
         "highway": "track",
         "name": "Appelterrestraat",
         "official_vicinal_ref": "257_9_1",
+        "smoothness": "intermediate",
+        "surface": "compacted",
         "id": "way/257511321"
       },
       "geometry": {
@@ -136531,12 +136537,34 @@
         "highway": "track",
         "name": "Luipendaalstraat",
         "official_vicinal_ref": "008_10_1",
-        "surface": "sett",
+        "smoothness": "intermediate",
+        "surface": "compacted",
+        "tracktype": "grade3",
         "id": "way/282465217"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            3.9611519,
+            50.8315342
+          ],
+          [
+            3.9610772,
+            50.8316992
+          ],
+          [
+            3.9609819,
+            50.8319236
+          ],
+          [
+            3.9608592,
+            50.8323826
+          ],
+          [
+            3.9606077,
+            50.8333548
+          ],
           [
             3.9604217,
             50.834196
@@ -136556,22 +136584,6 @@
           [
             3.9603334,
             50.8359895
-          ],
-          [
-            3.9601928,
-            50.8366018
-          ],
-          [
-            3.9600273,
-            50.8372817
-          ],
-          [
-            3.9598496,
-            50.8376136
-          ],
-          [
-            3.9596896,
-            50.837912
           ]
         ]
       }
@@ -136581,7 +136593,6 @@
       "id": "way/282465218",
       "properties": {
         "highway": "cycleway",
-        "source": "Bing",
         "id": "way/282465218"
       },
       "geometry": {
@@ -171356,55 +171367,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1161445816",
-      "properties": {
-        "alt_name": "Luypendael",
-        "highway": "track",
-        "name": "Luipendaalstraat",
-        "official_vicinal_ref": "008_10_1",
-        "surface": "compacted",
-        "id": "way/1161445816"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            3.9613212,
-            50.8311814
-          ],
-          [
-            3.9612928,
-            50.8312387
-          ],
-          [
-            3.9612022,
-            50.8314309
-          ],
-          [
-            3.9610624,
-            50.8316983
-          ],
-          [
-            3.9609819,
-            50.8319236
-          ],
-          [
-            3.9608592,
-            50.8323826
-          ],
-          [
-            3.9606077,
-            50.8333548
-          ],
-          [
-            3.9604217,
-            50.834196
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1162435831",
       "properties": {
         "highway": "unclassified",
@@ -176719,6 +176681,102 @@
           [
             2.8840096,
             50.7871711
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1563711913",
+      "properties": {
+        "alt_name": "Luypendael",
+        "highway": "track",
+        "name": "Luipendaalstraat",
+        "official_vicinal_ref": "008_10_1",
+        "smoothness": "bad",
+        "surface": "sett",
+        "tracktype": "grade2",
+        "id": "way/1563711913"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.9603334,
+            50.8359895
+          ],
+          [
+            3.9601928,
+            50.8366018
+          ],
+          [
+            3.9600273,
+            50.8372817
+          ],
+          [
+            3.9598496,
+            50.8376136
+          ],
+          [
+            3.9596896,
+            50.837912
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1563711914",
+      "properties": {
+        "highway": "residential",
+        "name": "Kapittelstraat",
+        "surface": "concrete",
+        "id": "way/1563711914"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.9616153,
+            50.8309389
+          ],
+          [
+            3.9617835,
+            50.8307755
+          ],
+          [
+            3.9621585,
+            50.8304096
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1563711915",
+      "properties": {
+        "alt_name": "Luypendael",
+        "highway": "track",
+        "name": "Luipendaalstraat",
+        "official_vicinal_ref": "008_10_1",
+        "surface": "asphalt",
+        "tracktype": "grade1",
+        "id": "way/1563711915"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.9613212,
+            50.8311814
+          ],
+          [
+            3.9612928,
+            50.8312387
+          ],
+          [
+            3.9611519,
+            50.8315342
           ]
         ]
       }
