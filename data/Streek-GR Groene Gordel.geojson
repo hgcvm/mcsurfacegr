@@ -9953,10 +9953,13 @@
       "properties": {
         "cyclestreet": "yes",
         "highway": "tertiary",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Willamekaai",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
         "id": "way/33421402"
       },
       "geometry": {
@@ -27109,11 +27112,17 @@
         "bicycle": "yes",
         "bridge": "yes",
         "bridge:name": "Waggelbruggetje",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "residential",
+        "lane_markings": "no",
         "layer": "1",
+        "lit": "yes",
         "name": "Dijkstraat",
+        "sidewalk:both": "yes",
+        "sidewalk:both:surface": "paving_stones",
         "speed_pedelec": "yes",
+        "surface": "asphalt",
         "vehicle": "no",
         "id": "way/199481039"
       },
@@ -27140,10 +27149,12 @@
       "id": "way/199481040",
       "properties": {
         "bicycle": "yes",
+        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
         "name": "Dijkstraat",
+        "sidewalk:both": "yes",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "vehicle": "no",
@@ -29469,6 +29480,7 @@
         "maxspeed": "walk",
         "name": "Sint-Martinusweg",
         "name:etymology:wikidata": "Q133704",
+        "surface": "sett",
         "id": "way/285397060"
       },
       "geometry": {
