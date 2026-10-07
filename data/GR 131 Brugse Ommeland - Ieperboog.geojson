@@ -5462,8 +5462,8 @@
       "type": "Feature",
       "id": "way/70042059",
       "properties": {
-        "cycleway:left": "no",
-        "cycleway:right": "separate",
+        "cycleway:left": "lane",
+        "cycleway:left:oneway": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Komenseweg",
@@ -5475,36 +5475,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.9200295,
-            50.8281876
-          ],
-          [
-            2.9201777,
-            50.8280998
-          ],
-          [
-            2.9202987,
-            50.8280022
-          ],
-          [
-            2.9204557,
-            50.8278753
-          ],
-          [
-            2.920553,
-            50.8277516
-          ],
-          [
-            2.9210901,
-            50.8267629
+            2.9217492,
+            50.8255197
           ],
           [
             2.9216588,
             50.8256622
           ],
           [
-            2.9217492,
-            50.8255197
+            2.9210901,
+            50.8267629
+          ],
+          [
+            2.920553,
+            50.8277516
+          ],
+          [
+            2.9204557,
+            50.8278753
+          ],
+          [
+            2.9202987,
+            50.8280022
+          ],
+          [
+            2.9201777,
+            50.8280998
+          ],
+          [
+            2.9200295,
+            50.8281876
           ]
         ]
       }
@@ -6326,22 +6326,24 @@
         "handrail": "yes",
         "highway": "steps",
         "incline": "up",
+        "layer": "-1",
         "ramp": "no",
         "step_count": "25",
         "surface": "concrete",
         "tactile_paving": "no",
+        "tunnel": "building_passage",
         "id": "way/81950061"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.1055638,
-            51.0644195
+            3.105565,
+            51.0644289
           ],
           [
-            3.105577,
-            51.0645692
+            3.1055745,
+            51.0645402
           ]
         ]
       }
@@ -6360,20 +6362,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.1055638,
-            51.0644195
+            3.105565,
+            51.0644289
           ],
           [
-            3.1058013,
+            3.1055644,
+            51.06442
+          ],
+          [
+            3.1058137,
             51.064411
           ],
           [
-            3.1059638,
-            51.0644064
+            3.1059812,
+            51.0644049
           ],
           [
-            3.1059784,
-            51.064406
+            3.1059839,
+            51.0644134
           ]
         ]
       }
@@ -6385,26 +6391,24 @@
         "handrail": "yes",
         "highway": "steps",
         "incline": "up",
+        "layer": "-1",
         "ramp": "no",
         "step_count": "24",
         "surface": "concrete",
         "tactile_paving": "no",
+        "tunnel": "building_passage",
         "id": "way/81950065"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.1059784,
-            51.064406
+            3.1059839,
+            51.0644134
           ],
           [
-            3.1059894,
-            51.0645257
-          ],
-          [
-            3.1059891,
-            51.0645318
+            3.1059948,
+            51.0645245
           ]
         ]
       }
@@ -6490,8 +6494,12 @@
             51.0645313
           ],
           [
-            3.1059891,
-            51.0645318
+            3.1059954,
+            51.0645329
+          ],
+          [
+            3.1059948,
+            51.0645245
           ]
         ]
       }
@@ -23571,8 +23579,8 @@
             51.064587
           ],
           [
-            3.1051987,
-            51.0645888
+            3.1052027,
+            51.064593
           ],
           [
             3.105275,
@@ -30218,16 +30226,28 @@
       "type": "Feature",
       "id": "way/989735930",
       "properties": {
-        "highway": "unclassified",
-        "surface": "compacted",
+        "highway": "residential",
+        "maxspeed": "70",
+        "name": "Gwijde Van Dampierrestraat",
+        "source:maxspeed": "BE-VLG:rural",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/989735930"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.0953872,
-            51.0733675
+            3.0953892,
+            51.073357
+          ],
+          [
+            3.0954295,
+            51.0733729
+          ],
+          [
+            3.0954831,
+            51.0733814
           ],
           [
             3.0959558,
@@ -30304,8 +30324,8 @@
             51.0731776
           ],
           [
-            3.0953872,
-            51.0733675
+            3.0952665,
+            51.073231
           ]
         ]
       }
@@ -32875,6 +32895,10 @@
             51.0645692
           ],
           [
+            3.105572,
+            51.0645695
+          ],
+          [
             3.105419,
             51.0645784
           ]
@@ -33646,10 +33670,10 @@
       "id": "way/1310382148",
       "properties": {
         "bicycle": "yes",
-        "cycleway:both": "no",
         "foot": "yes",
         "highway": "track",
         "surface": "concrete",
+        "tracktype": "grade1",
         "id": "way/1310382148"
       },
       "geometry": {
@@ -34708,6 +34732,57 @@
           [
             3.3515751,
             51.112288
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1565629962",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "70",
+        "name": "Gwijde Van Dampierrestraat",
+        "source:maxspeed": "BE-VLG:rural",
+        "surface": "asphalt",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1565629962"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.0952665,
+            51.073231
+          ],
+          [
+            3.0953477,
+            51.0733279
+          ],
+          [
+            3.0953892,
+            51.073357
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1565629980",
+      "properties": {
+        "highway": "footway",
+        "id": "way/1565629980"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.1055745,
+            51.0645402
+          ],
+          [
+            3.105577,
+            51.0645692
           ]
         ]
       }
