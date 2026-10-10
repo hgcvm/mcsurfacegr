@@ -55650,6 +55650,7 @@
       "type": "Feature",
       "id": "way/80341410",
       "properties": {
+        "bicycle:forward": "use_sidepath",
         "bus_bay": "right",
         "cycleway:left": "lane",
         "cycleway:left:surface": "paving_stones",
@@ -64749,11 +64750,10 @@
       "type": "Feature",
       "id": "way/131723839",
       "properties": {
-        "highway": "track",
+        "highway": "residential",
         "name": "Baatmeers",
         "official_vicinal_ref": "089_6_1",
         "surface": "paved",
-        "tracktype": "grade1",
         "id": "way/131723839"
       },
       "geometry": {
@@ -70013,6 +70013,10 @@
           [
             4.0804248,
             50.9661297
+          ],
+          [
+            4.0803181,
+            50.9661257
           ],
           [
             4.0800741,
@@ -134189,8 +134193,7 @@
       "type": "Feature",
       "id": "way/1432544590",
       "properties": {
-        "bicycle:backward": "use_sidepath",
-        "cycleway": "separate",
+        "bicycle": "use_sidepath",
         "cycleway:right:surface": "paving_stones",
         "highway": "primary",
         "lanes": "3",
