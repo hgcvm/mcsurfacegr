@@ -10162,8 +10162,9 @@
         "lane_markings": "no",
         "maxspeed": "50",
         "name": "Kanarieberg",
-        "source:maxspeed": "BE:zone50",
+        "source:maxspeed": "zone",
         "surface": "asphalt",
+        "zone:maxspeed": "BE:50",
         "id": "way/86502145"
       },
       "geometry": {
@@ -18593,14 +18594,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.423881,
-            50.9976777
-          ],
-          [
-            3.4239378,
-            50.9976075
-          ],
           [
             3.4240396,
             50.9974776
@@ -40933,10 +40926,6 @@
           [
             3.4152049,
             50.9960839
-          ],
-          [
-            3.4149981,
-            50.9961051
           ]
         ]
       }
@@ -45290,6 +45279,65 @@
           [
             3.3494786,
             51.3581367
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1567077209",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "name": "Delmerensmolenstraat",
+        "surface": "asphalt",
+        "id": "way/1567077209"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4152049,
+            50.9960839
+          ],
+          [
+            3.4149981,
+            50.9961051
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1567077217",
+      "properties": {
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Pastorijstraat",
+        "oneway": "no",
+        "surface": "asphalt",
+        "id": "way/1567077217"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.423881,
+            50.9976777
+          ],
+          [
+            3.4239378,
+            50.9976075
+          ],
+          [
+            3.4240396,
+            50.9974776
           ]
         ]
       }
