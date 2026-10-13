@@ -64498,8 +64498,11 @@
       "type": "Feature",
       "id": "way/178066887",
       "properties": {
-        "highway": "cycleway",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
         "lit": "yes",
+        "segregated": "yes",
         "surface": "paving_stones",
         "id": "way/178066887"
       },
@@ -64507,36 +64510,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3450743,
-            50.9332886
+            5.3448125,
+            50.9331777
           ],
           [
-            5.3447896,
-            50.9331653
+            5.3447677,
+            50.9331629
           ],
           [
-            5.3447688,
-            50.9331588
+            5.344667,
+            50.9331314
           ],
           [
-            5.3445751,
-            50.9330982
+            5.344574,
+            50.9331023
           ],
           [
-            5.3442358,
-            50.9329601
+            5.3442347,
+            50.9329642
           ],
           [
-            5.3440876,
-            50.9328959
+            5.3440865,
+            50.9329
           ],
           [
-            5.3440409,
-            50.9328492
-          ],
-          [
-            5.3438715,
-            50.9327676
+            5.3440398,
+            50.9328533
           ]
         ]
       }
@@ -68586,8 +68585,8 @@
             50.9338953
           ],
           [
-            5.3475661,
-            50.9338068
+            5.347577,
+            50.9337889
           ]
         ]
       }
@@ -68675,12 +68674,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3438715,
-            50.9327676
-          ],
-          [
-            5.343802,
-            50.9327388
+            5.3438167,
+            50.9327467
           ],
           [
             5.3433135,
@@ -68705,41 +68700,40 @@
       "type": "Feature",
       "id": "way/1537313766",
       "properties": {
-        "highway": "cycleway",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
         "lit": "yes",
-        "surface": "asphalt",
+        "segregated": "yes",
+        "surface": "paved",
         "id": "way/1537313766"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.3469113,
-            50.9337605
+            5.3466823,
+            50.9336583
           ],
           [
-            5.346715,
-            50.933734
+            5.3463644,
+            50.9336129
           ],
           [
-            5.3463775,
-            50.9336659
+            5.3459558,
+            50.9335548
           ],
           [
-            5.3459634,
-            50.9335727
+            5.3454578,
+            50.9334484
           ],
           [
-            5.345407,
-            50.9334216
+            5.3452868,
+            50.9334019
           ],
           [
             5.3451469,
             50.93333
-          ],
-          [
-            5.3450743,
-            50.9332886
           ]
         ]
       }
@@ -68825,8 +68819,9 @@
       "id": "way/1563248293",
       "properties": {
         "highway": "cycleway",
+        "lit": "yes",
         "smoothness": "excellent",
-        "surface": "asphalt",
+        "surface": "concrete",
         "width": "3",
         "id": "way/1563248293"
       },
@@ -68834,20 +68829,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.3469113,
-            50.9337605
+            5.3466823,
+            50.9336583
           ],
           [
-            5.3470914,
-            50.9337743
+            5.3469299,
+            50.9336958
           ],
           [
-            5.3474105,
-            50.9337955
-          ],
-          [
-            5.3475661,
-            50.9338068
+            5.347577,
+            50.9337889
           ]
         ]
       }
@@ -68918,6 +68909,105 @@
           [
             5.3558297,
             50.9341675
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1567721047",
+      "properties": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "yes",
+        "segregated": "yes",
+        "surface": "concrete",
+        "id": "way/1567721047"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3451469,
+            50.93333
+          ],
+          [
+            5.3450672,
+            50.9332858
+          ],
+          [
+            5.3449566,
+            50.9332412
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1567721048",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "surface": "paving_stones",
+        "id": "way/1567721048"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3449566,
+            50.9332412
+          ],
+          [
+            5.3448125,
+            50.9331777
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1567721052",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "surface": "paving_stones",
+        "id": "way/1567721052"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3440398,
+            50.9328533
+          ],
+          [
+            5.3438715,
+            50.9327676
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1567721054",
+      "properties": {
+        "highway": "cycleway",
+        "lit": "yes",
+        "surface": "paving_stones",
+        "id": "way/1567721054"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.3438715,
+            50.9327676
+          ],
+          [
+            5.3438167,
+            50.9327467
           ]
         ]
       }
