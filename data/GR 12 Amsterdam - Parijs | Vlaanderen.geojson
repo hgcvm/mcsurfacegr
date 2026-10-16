@@ -3236,6 +3236,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "source:maxspeed": "BE:living_street",
         "surface": "asphalt",
         "id": "way/19781907"
@@ -3286,6 +3287,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "surface": "sett",
         "id": "way/19781920"
       },
@@ -4983,6 +4985,106 @@
           [
             4.4549118,
             51.0779821
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/22909100",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Varenstraat",
+        "id": "way/22909100"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4532408,
+            51.0787315
+          ],
+          [
+            4.4530371,
+            51.0787245
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/22909182",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Varenstraat",
+        "oneway": "yes",
+        "id": "way/22909182"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4530371,
+            51.0787245
+          ],
+          [
+            4.4529304,
+            51.07875
+          ],
+          [
+            4.4526625,
+            51.0787731
+          ],
+          [
+            4.4526325,
+            51.0787759
+          ],
+          [
+            4.4526079,
+            51.0787773
+          ],
+          [
+            4.4524942,
+            51.0787781
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/22909188",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lanes:forward": "1",
+        "maxspeed": "70",
+        "name": "Mechelsesteenweg",
+        "name:etymology:wikidata": "Q162022",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "N1",
+        "toll:hgv": "yes",
+        "turn:lanes:backward": "left|none",
+        "turn:lanes:forward": "left|none",
+        "id": "way/22909188"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4524861,
+            51.0788912
+          ],
+          [
+            4.4524794,
+            51.0790084
           ]
         ]
       }
@@ -12839,48 +12941,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/159972434",
-      "properties": {
-        "highway": "path",
-        "surface": "dirt",
-        "id": "way/159972434"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.4728664,
-            51.0704711
-          ],
-          [
-            4.4725433,
-            51.070938
-          ],
-          [
-            4.472447,
-            51.0710726
-          ],
-          [
-            4.4723301,
-            51.0711386
-          ],
-          [
-            4.472206,
-            51.0711855
-          ],
-          [
-            4.4719531,
-            51.0712324
-          ],
-          [
-            4.471595,
-            51.0712492
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/160704175",
       "properties": {
         "highway": "path",
@@ -14969,6 +15029,36 @@
           [
             4.4532498,
             51.0786818
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/286663536",
+      "properties": {
+        "bicycle": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "maxspeed": "70",
+        "name": "Mechelsesteenweg",
+        "name:etymology:wikidata": "Q162022",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "N1",
+        "toll:hgv": "yes",
+        "id": "way/286663536"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4524942,
+            51.0787781
+          ],
+          [
+            4.4524861,
+            51.0788912
           ]
         ]
       }
@@ -22498,6 +22588,7 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "source:maxspeed": "BE:living_street",
         "surface": "asphalt",
         "id": "way/603763340"
@@ -23734,11 +23825,16 @@
     },
     {
       "type": "Feature",
-      "id": "way/758914430",
+      "id": "way/758914431",
       "properties": {
-        "highway": "cycleway",
-        "oneway": "no",
-        "id": "way/758914430"
+        "bicycle": "use_sidepath",
+        "highway": "unclassified",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Lazarusstraat",
+        "sidewalk": "no",
+        "id": "way/758914431"
       },
       "geometry": {
         "type": "LineString",
@@ -23748,24 +23844,8 @@
             51.0786818
           ],
           [
-            4.4526514,
-            51.0786291
-          ],
-          [
-            4.4526053,
-            51.0786007
-          ],
-          [
-            4.4525082,
-            51.0786002
-          ],
-          [
-            4.4524162,
-            51.0785991
-          ],
-          [
-            4.4524102,
-            51.0789541
+            4.4532408,
+            51.0787315
           ]
         ]
       }
@@ -26642,22 +26722,30 @@
     },
     {
       "type": "Feature",
-      "id": "way/1026928484",
+      "id": "way/1026928483",
       "properties": {
-        "highway": "cycleway",
-        "oneway": "no",
-        "id": "way/1026928484"
+        "access": "destination",
+        "bicycle": "use_sidepath",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Mechelsesteenweg",
+        "name:etymology:wikidata": "Q162022",
+        "sidewalk": "no",
+        "surface": "asphalt",
+        "id": "way/1026928483"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.4524067,
-            51.0790064
+            4.4524794,
+            51.0790084
           ],
           [
-            4.4524102,
-            51.0789541
+            4.4524067,
+            51.0790064
           ]
         ]
       }
@@ -28080,6 +28168,45 @@
           [
             4.4759448,
             51.0361291
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1120106449",
+      "properties": {
+        "highway": "footway",
+        "surface": "ground",
+        "tracktype": "grade5",
+        "id": "way/1120106449"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4716897,
+            51.0711624
+          ],
+          [
+            4.4722535,
+            51.0708641
+          ],
+          [
+            4.4724294,
+            51.0707272
+          ],
+          [
+            4.4724373,
+            51.0705989
+          ],
+          [
+            4.4726631,
+            51.0705283
+          ],
+          [
+            4.4728664,
+            51.0704711
           ]
         ]
       }
@@ -30017,6 +30144,28 @@
           [
             4.4845292,
             51.2447035
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1568577542",
+      "properties": {
+        "highway": "path",
+        "surface": "dirt",
+        "id": "way/1568577542"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.471595,
+            51.0712492
+          ],
+          [
+            4.4716897,
+            51.0711624
           ]
         ]
       }
