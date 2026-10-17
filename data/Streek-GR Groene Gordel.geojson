@@ -10344,9 +10344,13 @@
       "type": "Feature",
       "id": "way/33713043",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "name": "Koedalstraat",
-        "surface": "paved",
+        "sidewalk:both": "no",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
         "id": "way/33713043"
       },
       "geometry": {
@@ -14627,10 +14631,13 @@
       "type": "Feature",
       "id": "way/44442733",
       "properties": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "motor_vehicle": "destination",
         "name": "Koedalstraat",
-        "surface": "cobblestone",
+        "smoothness": "very_bad",
+        "surface": "sett",
         "id": "way/44442733"
       },
       "geometry": {
@@ -14651,18 +14658,6 @@
           [
             4.476209,
             50.7849734
-          ],
-          [
-            4.4800249,
-            50.7863096
-          ],
-          [
-            4.4800933,
-            50.7863111
-          ],
-          [
-            4.4801933,
-            50.786304
           ]
         ]
       }
@@ -27619,9 +27614,12 @@
       "id": "way/236543671",
       "properties": {
         "bicycle": "no",
+        "bicycle:signed": "yes",
         "foot": "yes",
         "highway": "footway",
         "horse": "no",
+        "lit": "no",
+        "surface": "dirt",
         "id": "way/236543671"
       },
       "geometry": {
@@ -52022,6 +52020,41 @@
           [
             4.5433632,
             50.8928982
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1568813285",
+      "properties": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "motor_vehicle": "destination",
+        "name": "Koedalstraat",
+        "smoothness": "very_bad",
+        "surface": "sett",
+        "id": "way/1568813285"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.476209,
+            50.7849734
+          ],
+          [
+            4.4800249,
+            50.7863096
+          ],
+          [
+            4.4800933,
+            50.7863111
+          ],
+          [
+            4.4801933,
+            50.786304
           ]
         ]
       }
