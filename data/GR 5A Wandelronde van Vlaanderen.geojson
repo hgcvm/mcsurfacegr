@@ -21782,8 +21782,8 @@
             51.1441018
           ],
           [
-            2.7043788,
-            51.1441152
+            2.7043803,
+            51.1441161
           ]
         ]
       }
@@ -21804,8 +21804,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.7043788,
-            51.1441152
+            2.7043803,
+            51.1441161
           ],
           [
             2.7044093,
@@ -52168,6 +52168,7 @@
       "type": "Feature",
       "id": "way/371782462",
       "properties": {
+        "footway": "sidewalk",
         "highway": "footway",
         "surface": "paving_stones",
         "id": "way/371782462"
@@ -52391,8 +52392,8 @@
             51.1391353
           ],
           [
-            2.6963655,
-            51.1392027
+            2.696364,
+            51.1392032
           ],
           [
             2.6963807,
@@ -85283,6 +85284,7 @@
         "maxspeed": "70",
         "mofa": "designated",
         "motor_vehicle": "no",
+        "motorcycle": "yes",
         "name": "Hooistraat",
         "surface": "asphalt",
         "tracktype": "grade1",
@@ -92347,6 +92349,7 @@
         "maxspeed": "70",
         "mofa": "designated",
         "motor_vehicle": "no",
+        "motorcycle": "yes",
         "name": "Veer",
         "source:width": "ARCore",
         "surface": "asphalt",
@@ -103283,6 +103286,7 @@
         "maxspeed": "70",
         "mofa": "designated",
         "motor_vehicle": "no",
+        "motorcycle": "yes",
         "name": "Veer",
         "source:width": "ARCore",
         "surface": "asphalt",
@@ -103492,6 +103496,7 @@
         "maxspeed": "70",
         "mofa": "designated",
         "motor_vehicle": "no",
+        "motorcycle": "yes",
         "name": "Veer",
         "surface": "asphalt",
         "id": "way/82494235"
@@ -115678,6 +115683,7 @@
         "maxspeed": "70",
         "mofa": "designated",
         "motor_vehicle": "no",
+        "motorcycle": "yes",
         "name": "Veer",
         "surface": "asphalt",
         "id": "way/123562315"
@@ -115710,6 +115716,7 @@
         "maxspeed": "70",
         "mofa": "designated",
         "motor_vehicle": "no",
+        "motorcycle": "yes",
         "name": "Veer",
         "source:width": "ARCore",
         "surface": "asphalt",
@@ -172546,6 +172553,7 @@
         "maxspeed": "70",
         "mofa": "designated",
         "motor_vehicle": "no",
+        "motorcycle": "yes",
         "name": "Hooistraat",
         "surface": "asphalt",
         "tracktype": "grade1",
@@ -178589,35 +178597,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/221033672",
-      "properties": {
-        "highway": "cycleway",
-        "lit": "yes",
-        "oneway": "no",
-        "surface": "asphalt",
-        "width": "2.95",
-        "id": "way/221033672"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.3656056,
-            51.2072593
-          ],
-          [
-            4.3639003,
-            51.2066651
-          ],
-          [
-            4.3627922,
-            51.2062911
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/266507570",
       "properties": {
         "highway": "path",
@@ -179478,6 +179457,59 @@
     },
     {
       "type": "Feature",
+      "id": "way/708918305",
+      "properties": {
+        "construction": "cycleway",
+        "highway": "construction",
+        "note": "dit pad is gesloten gedurende werken Oosterweel, duurt tot ongeveer 2025 ...",
+        "surface": "asphalt",
+        "width": "2.86",
+        "id": "way/708918305"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3557776,
+            51.2039304
+          ],
+          [
+            4.355863,
+            51.2039589
+          ],
+          [
+            4.3559543,
+            51.2039682
+          ],
+          [
+            4.3575064,
+            51.204451
+          ],
+          [
+            4.3594179,
+            51.2050175
+          ],
+          [
+            4.3621874,
+            51.2058665
+          ],
+          [
+            4.3629593,
+            51.2061148
+          ],
+          [
+            4.3630375,
+            51.2061399
+          ],
+          [
+            4.3657649,
+            51.2071068
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/778597873",
       "properties": {
         "highway": "service",
@@ -179630,31 +179662,6 @@
           [
             4.3694447,
             51.2084925
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/920009483",
-      "properties": {
-        "highway": "cycleway",
-        "id": "way/920009483"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.3656056,
-            51.2072593
-          ],
-          [
-            4.3656512,
-            51.2071929
-          ],
-          [
-            4.3657649,
-            51.2071068
           ]
         ]
       }
@@ -179814,33 +179821,6 @@
           [
             4.356256,
             51.209871
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/1118982236",
-      "properties": {
-        "foot": "yes",
-        "highway": "cycleway",
-        "surface": "asphalt",
-        "id": "way/1118982236"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.353542,
-            51.2075255
-          ],
-          [
-            4.3536017,
-            51.2074088
-          ],
-          [
-            4.3540446,
-            51.2067686
           ]
         ]
       }
@@ -180208,6 +180188,32 @@
           [
             4.3196758,
             51.1759593
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1569163159",
+      "properties": {
+        "highway": "path",
+        "informal": "yes",
+        "id": "way/1569163159"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3627922,
+            51.2062911
+          ],
+          [
+            4.3628693,
+            51.2062161
+          ],
+          [
+            4.3629593,
+            51.2061148
           ]
         ]
       }
