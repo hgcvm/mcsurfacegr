@@ -9573,6 +9573,7 @@
         "highway": "path",
         "name": "Sint-Laureinsborreweg",
         "surface": "dirt",
+        "width": "1",
         "id": "way/33168907"
       },
       "geometry": {
@@ -9603,8 +9604,8 @@
             50.7324137
           ],
           [
-            4.3111451,
-            50.7324321
+            4.3111471,
+            50.7324323
           ],
           [
             4.3112194,
@@ -9785,6 +9786,8 @@
         "foot": "yes",
         "highway": "path",
         "name": "Duvelsborren",
+        "surface": "ground",
+        "width": "1",
         "id": "way/33168930"
       },
       "geometry": {
@@ -12519,6 +12522,8 @@
       "type": "Feature",
       "id": "way/39445214",
       "properties": {
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
         "surface": "dirt",
         "tracktype": "grade3",
@@ -25391,28 +25396,16 @@
             50.7330816
           ],
           [
-            4.3179971,
-            50.7331148
+            4.3179978,
+            50.7331159
           ],
           [
-            4.3180528,
-            50.733359
+            4.3180488,
+            50.7333603
           ],
           [
-            4.3179879,
+            4.3179839,
             50.7335874
-          ],
-          [
-            4.3179276,
-            50.7336726
-          ],
-          [
-            4.3179048,
-            50.7337511
-          ],
-          [
-            4.3178432,
-            50.7338706
           ]
         ]
       }
@@ -25427,15 +25420,15 @@
         "highway": "unclassified",
         "lane_markings": "no",
         "name": "Fabriekstraat",
-        "surface": "unhewn_cobblestone",
+        "surface": "sett",
         "id": "way/149149106"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.3178432,
-            50.7338706
+            4.3178425,
+            50.7338698
           ],
           [
             4.3178484,
@@ -32876,6 +32869,7 @@
       "properties": {
         "highway": "residential",
         "name": "Fabriekstraat",
+        "surface": "asphalt",
         "id": "way/441576305"
       },
       "geometry": {
@@ -33165,6 +33159,8 @@
         "foot": "yes",
         "highway": "path",
         "name": "Duvelsborren",
+        "surface": "paved",
+        "width": "2",
         "id": "way/459882397"
       },
       "geometry": {
@@ -33189,6 +33185,8 @@
         "foot": "yes",
         "highway": "path",
         "name": "Duvelsborren",
+        "surface": "ground",
+        "width": "2",
         "id": "way/459882398"
       },
       "geometry": {
@@ -34851,6 +34849,7 @@
         "foot": "yes",
         "highway": "residential",
         "name": "Fabriekstraat",
+        "surface": "asphalt",
         "id": "way/579469600"
       },
       "geometry": {
@@ -52055,6 +52054,38 @@
           [
             4.4801933,
             50.786304
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1569825913",
+      "properties": {
+        "highway": "residential",
+        "name": "Fabriekstraat",
+        "sidewalk": "no",
+        "surface": "sett",
+        "id": "way/1569825913"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3179839,
+            50.7335874
+          ],
+          [
+            4.3179276,
+            50.7336777
+          ],
+          [
+            4.3179048,
+            50.7337511
+          ],
+          [
+            4.3178425,
+            50.7338698
           ]
         ]
       }
