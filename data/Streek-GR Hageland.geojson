@@ -2196,8 +2196,8 @@
       "type": "Feature",
       "id": "way/22926284",
       "properties": {
-        "cycleway": "separate",
-        "foot": "use_sidepath",
+        "cycleway": "track",
+        "cycleway:both:separation:left": "no",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
@@ -3562,8 +3562,8 @@
       "id": "way/25552996",
       "properties": {
         "bridge": "yes",
-        "cycleway": "separate",
-        "foot": "use_sidepath",
+        "cycleway": "track",
+        "cycleway:both:separation:left": "no",
         "highway": "tertiary",
         "lanes": "2",
         "layer": "1",
@@ -15001,9 +15001,7 @@
       "type": "Feature",
       "id": "way/39965851",
       "properties": {
-        "cycleway:left": "no",
-        "cycleway:right": "separate",
-        "foot": "use_sidepath",
+        "cycleway:right": "track",
         "highway": "tertiary",
         "maxspeed": "50",
         "name": "Beninksstraat",
@@ -24577,7 +24575,7 @@
       "type": "Feature",
       "id": "way/179687562",
       "properties": {
-        "cycleway": "separate",
+        "cycleway": "track",
         "foot": "use_sidepath",
         "highway": "tertiary",
         "maxspeed": "30",
@@ -26964,7 +26962,8 @@
       "type": "Feature",
       "id": "way/198850005",
       "properties": {
-        "cycleway": "separate",
+        "cycleway": "track",
+        "cycleway:both:separation:left": "no",
         "foot": "use_sidepath",
         "highway": "tertiary",
         "maxspeed": "50",
@@ -27016,10 +27015,6 @@
           [
             4.7656042,
             50.9474706
-          ],
-          [
-            4.76562,
-            50.9475023
           ],
           [
             4.7656236,
@@ -35284,8 +35279,8 @@
       "type": "Feature",
       "id": "way/376721863",
       "properties": {
-        "cycleway": "separate",
-        "foot": "use_sidepath",
+        "cycleway": "track",
+        "cycleway:both:separation:left": "no",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
@@ -46467,15 +46462,15 @@
         "highway": "track",
         "name": "Soveneelstraat",
         "surface": "cobblestone",
-        "tracktype": "grade3",
+        "tracktype": "grade1",
         "id": "way/1106566023"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            4.8153774,
-            50.8353368
+            4.8153935,
+            50.8353554
           ],
           [
             4.8157289,
@@ -47554,20 +47549,36 @@
             50.834554
           ],
           [
-            4.8121429,
-            50.8349054
+            4.8073175,
+            50.8345796
           ],
           [
-            4.8128598,
-            50.8349646
+            4.8098197,
+            50.8347662
           ],
           [
-            4.8132853,
-            50.8350193
+            4.8118747,
+            50.8349003
           ],
           [
-            4.8153774,
-            50.8353368
+            4.8128678,
+            50.8349731
+          ],
+          [
+            4.8132947,
+            50.8350295
+          ],
+          [
+            4.8143519,
+            50.8351867
+          ],
+          [
+            4.8147932,
+            50.8352705
+          ],
+          [
+            4.8153935,
+            50.8353554
           ]
         ]
       }
