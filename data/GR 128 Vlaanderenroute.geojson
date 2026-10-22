@@ -55325,7 +55325,7 @@
       "type": "Feature",
       "id": "way/79852586",
       "properties": {
-        "cycleway": "separate",
+        "bicycle": "use_sidepath",
         "highway": "primary",
         "lanes": "3",
         "lanes:backward": "1",
@@ -173208,12 +173208,12 @@
       "type": "Feature",
       "id": "way/187794186",
       "properties": {
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "highway": "primary",
-        "lanes": "2",
+        "lanes": "1",
         "maxspeed": "50",
         "name": "Tongersesteenweg",
-        "oneway": "no",
+        "oneway": "yes",
         "operator": "Agentschap Wegen en Verkeer",
         "ref": "N79",
         "surface": "asphalt",
@@ -173224,16 +173224,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1976527,
-            50.8113106
+            5.1976587,
+            50.8113412
           ],
           [
-            5.1974733,
-            50.8113234
+            5.1975158,
+            50.8113517
           ],
           [
-            5.197279,
-            50.8113482
+            5.1973108,
+            50.8113669
+          ],
+          [
+            5.1970719,
+            50.8113783
           ]
         ]
       }
@@ -174684,20 +174688,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1771811,
+            5.1771911,
             50.8174392
           ],
           [
-            5.1774063,
-            50.8174926
+            5.1774732,
+            50.8175049
           ],
           [
-            5.177778,
-            50.8175922
-          ],
-          [
-            5.177836,
-            50.8176108
+            5.1779541,
+            50.8176294
           ],
           [
             5.1783884,
@@ -174826,7 +174826,7 @@
             50.8175182
           ],
           [
-            5.1771811,
+            5.1771911,
             50.8174392
           ]
         ]
@@ -175403,7 +175403,7 @@
       "type": "Feature",
       "id": "way/521193660",
       "properties": {
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "50",
@@ -175418,8 +175418,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.197279,
-            50.8113482
+            5.1970719,
+            50.8113783
           ],
           [
             5.1969003,
@@ -175436,7 +175436,7 @@
       "type": "Feature",
       "id": "way/521193662",
       "properties": {
-        "cycleway": "track",
+        "bicycle": "use_sidepath",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "50",
@@ -175481,10 +175481,11 @@
       "type": "Feature",
       "id": "way/521193664",
       "properties": {
+        "bicycle": "use_sidepath",
         "bus_bay": "both",
-        "cycleway": "track",
         "highway": "primary",
         "lanes": "2",
+        "maxspeed": "50",
         "name": "Tongersesteenweg",
         "oneway": "no",
         "operator": "Agentschap Wegen en Verkeer",
@@ -175510,8 +175511,8 @@
       "type": "Feature",
       "id": "way/521193666",
       "properties": {
+        "bicycle": "use_sidepath",
         "bus_bay": "right",
-        "cycleway": "track",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "50",
@@ -175544,8 +175545,8 @@
       "type": "Feature",
       "id": "way/521193667",
       "properties": {
+        "bicycle": "use_sidepath",
         "bus_bay": "left",
-        "cycleway": "track",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "50",
@@ -176482,24 +176483,16 @@
             50.8109972
           ],
           [
-            5.1977645,
-            50.8111376
+            5.1978204,
+            50.8111118
           ],
           [
-            5.1976703,
-            50.8111817
+            5.1977215,
+            50.8111528
           ],
           [
-            5.1976585,
-            50.8112223
-          ],
-          [
-            5.1976592,
-            50.8112625
-          ],
-          [
-            5.1976527,
-            50.8113106
+            5.1976906,
+            50.811169
           ]
         ]
       }
@@ -176721,6 +176714,53 @@
           [
             5.148448,
             50.8165853
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1570616927",
+      "properties": {
+        "access": "destination",
+        "bicycle": "use_sidepath",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Oude Tongersebaan",
+        "oneway": "no",
+        "surface": "asphalt",
+        "id": "way/1570616927"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1976906,
+            50.811169
+          ],
+          [
+            5.1976741,
+            50.8111927
+          ],
+          [
+            5.1976638,
+            50.8112132
+          ],
+          [
+            5.19766,
+            50.8112362
+          ],
+          [
+            5.1976584,
+            50.8112522
+          ],
+          [
+            5.1976585,
+            50.8112799
+          ],
+          [
+            5.1976587,
+            50.8113412
           ]
         ]
       }
