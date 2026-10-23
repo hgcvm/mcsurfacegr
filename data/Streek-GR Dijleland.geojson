@@ -10535,7 +10535,6 @@
       "type": "Feature",
       "id": "way/30602947",
       "properties": {
-        "bicycle": "use_sidepath",
         "cycleway": "track",
         "highway": "tertiary",
         "lanes": "2",
@@ -24848,8 +24847,8 @@
       "type": "Feature",
       "id": "way/114525310",
       "properties": {
-        "access": "permissive",
         "bicycle": "yes",
+        "designation": "towpath",
         "embankment": "yes",
         "foot": "yes",
         "highway": "service",
@@ -24858,11 +24857,10 @@
         "maxspeed": "30",
         "mofa": "yes",
         "moped": "no",
-        "motor_vehicle": "permissive",
+        "motor_vehicle": "no",
         "speed_pedelec": "no",
         "surface": "asphalt",
         "towpath": "yes",
-        "vehicle": "no",
         "vehicle:conditional": "yes @ permit",
         "width": "2.95",
         "id": "way/114525310"
@@ -33359,10 +33357,10 @@
       "type": "Feature",
       "id": "way/314629170",
       "properties": {
-        "cycleway": "crossing",
         "foot": "yes",
         "highway": "cycleway",
         "maxspeed": "20",
+        "name": "Schipvaartstraat",
         "segregated": "no",
         "surface": "concrete",
         "id": "way/314629170"
@@ -33393,6 +33391,7 @@
         "lit": "yes",
         "maxspeed": "20",
         "motor_vehicle": "no",
+        "name": "Schipvaartstraat",
         "oneway": "no",
         "segregated": "no",
         "surface": "asphalt",
@@ -34444,8 +34443,8 @@
       "type": "Feature",
       "id": "way/368777131",
       "properties": {
-        "bicycle": "use_sidepath",
         "cycleway": "track",
+        "cycleway:both:separation:left": "no",
         "destination:backward": "Mechelen",
         "highway": "tertiary",
         "maxspeed": "50",
@@ -43670,6 +43669,7 @@
         "highway": "cycleway",
         "lit": "yes",
         "maxspeed": "20",
+        "name": "Schipvaartstraat",
         "surface": "paving_stones",
         "id": "way/1014184567"
       },

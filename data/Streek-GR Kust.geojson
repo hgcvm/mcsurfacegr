@@ -3808,7 +3808,6 @@
       "type": "Feature",
       "id": "way/42302899",
       "properties": {
-        "cycleway:both": "no",
         "highway": "residential",
         "lane_markings": "no",
         "lit": "yes",
@@ -3816,7 +3815,8 @@
         "oneway": "yes",
         "oneway:bicycle": "no",
         "segregated": "yes",
-        "sidewalk": "right",
+        "sidewalk:left": "yes",
+        "sidewalk:right": "no",
         "smoothness": "good",
         "surface": "asphalt",
         "traffic_sign": "BE:F19,BE:M5",
@@ -30818,6 +30818,10 @@
           [
             2.7009311,
             51.1427901
+          ],
+          [
+            2.7009381,
+            51.1427928
           ],
           [
             2.7011417,
