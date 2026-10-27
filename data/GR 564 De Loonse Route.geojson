@@ -3481,14 +3481,21 @@
       "type": "Feature",
       "id": "way/38668216",
       "properties": {
-        "access": "destination",
         "agricultural": "yes",
         "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "unclassified",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Kerkomweg",
         "smoothness": "intermediate",
+        "speed_pedelec": "yes",
         "surface": "concrete",
+        "traffic_sign": "BE:F99c",
         "width": "3",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/38668216"
       },
       "geometry": {
@@ -7533,11 +7540,20 @@
       "type": "Feature",
       "id": "way/126771831",
       "properties": {
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "unclassified",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Gingelomweg",
-        "smoothness": "intermediate",
+        "speed_pedelec": "yes",
         "surface": "concrete",
+        "traffic_sign": "BE:F99c",
         "width": "3",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/126771831"
       },
       "geometry": {
@@ -8432,17 +8448,20 @@
       "type": "Feature",
       "id": "way/135759125",
       "properties": {
-        "agricultural": "destination",
+        "agricultural": "yes",
         "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "unclassified",
-        "maxspeed": "50",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Op den Houthem",
-        "smoothness": "intermediate",
-        "source:maxspeed": "BE-VLG:urban",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
-        "vehicle": "agricultural",
+        "traffic_sign": "BE:F99c",
         "width": "3",
-        "zone:traffic": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/135759125"
       },
       "geometry": {
@@ -8516,24 +8535,18 @@
       "id": "way/135759127",
       "properties": {
         "highway": "residential",
-        "maxspeed": "50",
         "name": "Langstraat",
-        "source:maxspeed": "BE-VLG:urban",
         "surface": "asphalt",
         "width": "4",
-        "zone:traffic": "BE-VLG:urban",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/135759127"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.1354887,
-            50.7782866
-          ],
-          [
-            5.1355612,
-            50.7783732
+            5.1355411,
+            50.7783495
           ],
           [
             5.1356363,
@@ -8551,12 +8564,20 @@
       "id": "way/135760613",
       "properties": {
         "agricultural": "yes",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "unclassified",
-        "motor_vehicle": "designated",
+        "horse": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
         "name": "Op den Houthem",
         "smoothness": "intermediate",
-        "surface": "concrete",
+        "speed_pedelec": "yes",
+        "surface": "gravel",
+        "traffic_sign": "BE:F99c",
         "width": "3",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/135760613"
       },
       "geometry": {
@@ -44107,6 +44128,33 @@
           [
             5.4267345,
             50.9559394
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1572028556",
+      "properties": {
+        "highway": "residential",
+        "maxspeed": "50",
+        "name": "Langstraat",
+        "source:maxspeed": "BE-VLG:urban",
+        "surface": "asphalt",
+        "width": "4",
+        "zone:traffic": "BE-VLG:urban",
+        "id": "way/1572028556"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1354887,
+            50.7782866
+          ],
+          [
+            5.1355411,
+            50.7783495
           ]
         ]
       }
