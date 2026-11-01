@@ -17958,13 +17958,19 @@
       "type": "Feature",
       "id": "way/30136376",
       "properties": {
-        "fixme": "this is Slapsteenweg according to CRAB\nIs indeed STAPSTEENWEG!!",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "incline": "up",
+        "lane_markings": "no",
         "lanes": "2",
         "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Stapsteenweg",
+        "sidewalk:both": "no",
+        "smoothness": "good",
         "surface": "asphalt",
+        "verge:both": "yes",
+        "width": "7",
         "id": "way/30136376"
       },
       "geometry": {
@@ -17975,8 +17981,8 @@
             51.0491475
           ],
           [
-            3.8090867,
-            51.0486099
+            3.8090711,
+            51.0486367
           ]
         ]
       }
@@ -17986,24 +17992,31 @@
       "id": "way/30136394",
       "properties": {
         "bridge": "yes",
+        "cycleway:both": "no",
         "highway": "tertiary",
+        "lane_markings": "no",
         "lanes": "2",
         "layer": "1",
         "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Stapsteenweg",
+        "sidewalk:both": "yes",
+        "smoothness": "good",
         "surface": "asphalt",
+        "verge:both": "no",
+        "width": "7",
         "id": "way/30136394"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.8090867,
-            51.0486099
+            3.8090711,
+            51.0486367
           ],
           [
-            3.8096641,
-            51.0474523
+            3.8096678,
+            51.0474505
           ]
         ]
       }
@@ -24738,8 +24751,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            3.8091475,
-            51.0510131
+            3.8091443,
+            51.0510123
           ],
           [
             3.8105227,
@@ -24840,25 +24853,45 @@
       "type": "Feature",
       "id": "way/34347049",
       "properties": {
+        "bicycle": "yes",
+        "dog": "leashed",
+        "emergency": "yes",
+        "foot": "yes",
         "highway": "path",
+        "horse": "private",
+        "lit": "no",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:F99a",
         "name": "Haasbilkwegel",
+        "private": "service",
+        "sac_scale": "strolling",
+        "smoothness": "intermediate",
         "surface": "compacted",
+        "tracktype": "grade2",
+        "traffic_sign": "BE:F99a",
+        "trail_visibility": "excellent",
+        "vehicle": "private",
+        "wheelchair": "yes",
         "id": "way/34347049"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.8100251,
-            51.0496052
+            3.8100164,
+            51.0496195
           ],
           [
-            3.8096053,
-            51.0503105
+            3.809746,
+            51.0500896
           ],
           [
-            3.8091475,
-            51.0510131
+            3.8096033,
+            51.0503089
+          ],
+          [
+            3.8091443,
+            51.0510123
           ]
         ]
       }
@@ -48267,53 +48300,99 @@
       "type": "Feature",
       "id": "way/52062097",
       "properties": {
-        "fixme": "this is Slapsteenweg according to CRAB",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "incline": "down",
+        "lane_markings": "no",
         "lanes": "2",
         "maxspeed": "70",
+        "maxspeed:type": "BE-VLG:rural",
         "name": "Stapsteenweg",
+        "sidewalk:both": "no",
+        "smoothness": "good",
         "surface": "asphalt",
+        "verge:both": "yes",
+        "width": "7",
         "id": "way/52062097"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.8096641,
-            51.0474523
+            3.8096678,
+            51.0474505
           ],
           [
-            3.8097189,
-            51.0473419
+            3.8097106,
+            51.04737
           ],
           [
-            3.8098357,
-            51.0472585
+            3.8097456,
+            51.0473362
           ],
           [
-            3.809996,
-            51.047193
+            3.8097864,
+            51.0473037
           ],
           [
-            3.8101955,
-            51.0471508
+            3.8098342,
+            51.0472723
           ],
           [
-            3.810388,
-            51.0471436
+            3.80989,
+            51.0472423
           ],
           [
-            3.8106478,
-            51.0471936
+            3.80996,
+            51.0472124
           ],
           [
-            3.8108761,
-            51.0472802
+            3.8100366,
+            51.0471874
           ],
           [
-            3.8116468,
-            51.0476331
+            3.8101088,
+            51.0471702
+          ],
+          [
+            3.8101836,
+            51.0471579
+          ],
+          [
+            3.8102657,
+            51.0471504
+          ],
+          [
+            3.810346,
+            51.047149
+          ],
+          [
+            3.8104235,
+            51.047153
+          ],
+          [
+            3.8104895,
+            51.0471607
+          ],
+          [
+            3.8105668,
+            51.047175
+          ],
+          [
+            3.8106368,
+            51.0471933
+          ],
+          [
+            3.8107272,
+            51.047226
+          ],
+          [
+            3.8108195,
+            51.0472654
+          ],
+          [
+            3.8116252,
+            51.0476283
           ]
         ]
       }
@@ -115034,19 +115113,40 @@
       "id": "way/781124416",
       "properties": {
         "highway": "path",
+        "incline": "down",
+        "sac_scale": "mountain_hiking",
+        "smoothness": "bad",
         "surface": "dirt",
+        "tracktype": "grade5",
+        "trail_visibility": "good",
         "id": "way/781124416"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.8100349,
-            51.0494303
+            3.8099908,
+            51.0494299
           ],
           [
-            3.8100251,
-            51.0496052
+            3.8099844,
+            51.0494703
+          ],
+          [
+            3.8099831,
+            51.0494813
+          ],
+          [
+            3.8099833,
+            51.0494924
+          ],
+          [
+            3.809985,
+            51.0495044
+          ],
+          [
+            3.8100164,
+            51.0496195
           ]
         ]
       }
@@ -115055,38 +115155,43 @@
       "type": "Feature",
       "id": "way/781124417",
       "properties": {
+        "cycleway:both": "no",
         "highway": "tertiary",
         "incline": "up",
         "lanes": "2",
         "maxspeed": "50",
+        "maxspeed:type": "BE:C43",
         "name": "Damvalleistraat",
         "name:etymology:wikidata": "Q2347208",
+        "sidewalk:both": "no",
+        "smoothness": "good",
         "surface": "asphalt",
-        "width": "8",
+        "verge:both": "yes",
+        "width": "7",
         "id": "way/781124417"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            3.8100349,
-            51.0494303
+            3.8099908,
+            51.0494299
           ],
           [
-            3.8099427,
-            51.0494005
+            3.8097847,
+            51.0493642
           ],
           [
-            3.8097249,
-            51.0493317
+            3.8096172,
+            51.0493177
           ],
           [
-            3.8094745,
-            51.0492723
+            3.8094479,
+            51.0492764
           ],
           [
-            3.8091239,
-            51.0491997
+            3.8091402,
+            51.0492153
           ],
           [
             3.8088093,
@@ -115668,13 +115773,14 @@
       "type": "Feature",
       "id": "way/781138448",
       "properties": {
-        "foot": "yes",
         "highway": "path",
         "horse": "no",
-        "motor_vehicle": "no",
         "sac_scale": "hiking",
-        "surface": "grass",
+        "smoothness": "bad",
+        "surface": "dirt",
+        "tracktype": "grade5",
         "trail_visibility": "excellent",
+        "vehicle": "no",
         "width": "1",
         "id": "way/781138448"
       },
@@ -115698,16 +115804,32 @@
             51.0471527
           ],
           [
-            3.811656,
-            51.0473652
+            3.8116353,
+            51.0472612
           ],
           [
-            3.8117784,
-            51.0475103
+            3.811638,
+            51.0473025
           ],
           [
-            3.8116468,
-            51.0476331
+            3.8116411,
+            51.0473145
+          ],
+          [
+            3.8116459,
+            51.0473269
+          ],
+          [
+            3.8116537,
+            51.0473417
+          ],
+          [
+            3.8117734,
+            51.0475057
+          ],
+          [
+            3.8117668,
+            51.0475111
           ]
         ]
       }
@@ -140586,6 +140708,75 @@
     },
     {
       "type": "Feature",
+      "id": "way/1573992816",
+      "properties": {
+        "handrail": "yes",
+        "handrail:colour": "brown",
+        "handrail:material": "wood",
+        "handrail:right": "yes",
+        "highway": "steps",
+        "horse": "no",
+        "incline": "up",
+        "ramp": "no",
+        "sac_scale": "hiking",
+        "smoothness": "bad",
+        "step_count": "10",
+        "surface": "dirt",
+        "tactile_paving": "no",
+        "tactile_writing": "no",
+        "tracktype": "grade5",
+        "trail_visibility": "excellent",
+        "vehicle": "no",
+        "width": "1",
+        "id": "way/1573992816"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.8117382,
+            51.0475348
+          ],
+          [
+            3.8116252,
+            51.0476283
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1573992817",
+      "properties": {
+        "bridge": "boardwalk",
+        "highway": "path",
+        "horse": "no",
+        "layer": "1",
+        "sac_scale": "hiking",
+        "smoothness": "good",
+        "surface": "wood",
+        "tracktype": "grade1",
+        "trail_visibility": "excellent",
+        "vehicle": "no",
+        "width": "1",
+        "id": "way/1573992817"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.8117668,
+            51.0475111
+          ],
+          [
+            3.8117382,
+            51.0475348
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/31347411",
       "properties": {
         "bridge": "yes",
@@ -145263,7 +145454,7 @@
         "coordinates": [
           [
             6.0202256,
-            50.75461
+            50.7546153
           ],
           [
             6.0203361,
@@ -145588,7 +145779,7 @@
           ],
           [
             6.0202256,
-            50.75461
+            50.7546153
           ]
         ]
       }
@@ -170803,6 +170994,7 @@
         "smoothness": "good",
         "source": "survey",
         "surface": "paving_stones",
+        "tunnel": "building_passage",
         "id": "way/326826779"
       },
       "geometry": {
