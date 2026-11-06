@@ -4041,6 +4041,10 @@
             50.8947446
           ],
           [
+            4.7352258,
+            50.8947565
+          ],
+          [
             4.7353236,
             50.8947681
           ],
@@ -4983,6 +4987,10 @@
           [
             4.7481717,
             50.893858
+          ],
+          [
+            4.7483215,
+            50.8938205
           ],
           [
             4.7483759,
@@ -29460,6 +29468,7 @@
       "type": "Feature",
       "id": "way/38149779",
       "properties": {
+        "bicycle": "use_sidepath",
         "cycleway": "separate",
         "highway": "secondary",
         "lane_markings": "no",
@@ -135433,9 +135442,11 @@
         "foot": "yes",
         "highway": "path",
         "horse": "yes",
+        "maxspeed": "30",
         "name": "Negenbunderspad",
         "segregated": "no",
         "smoothness": "intermediate",
+        "source:maxspeed": "BE:zone30",
         "surface": "fine_gravel",
         "traffic_sign": "F99c",
         "width": "1",
@@ -163284,6 +163295,7 @@
         "maxspeed": "30",
         "name": "Joremaaie",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "surface": "asphalt",
         "wikidata": "Q115810845",
         "id": "way/320462080"
@@ -163495,6 +163507,8 @@
       "id": "way/445477919",
       "properties": {
         "highway": "footway",
+        "lit": "yes",
+        "paving_stones:material": "concrete",
         "surface": "paving_stones",
         "id": "way/445477919"
       },
@@ -163741,6 +163755,9 @@
       "id": "way/579642685",
       "properties": {
         "highway": "footway",
+        "lit": "yes",
+        "paving_stones:material": "concrete",
+        "surface": "paving_stones",
         "id": "way/579642685"
       },
       "geometry": {
@@ -175222,6 +175239,10 @@
             50.8180276
           ],
           [
+            5.172972,
+            50.8180037
+          ],
+          [
             5.1725447,
             50.8174212
           ]
@@ -179063,7 +179084,6 @@
         "highway": "cycleway",
         "lit": "yes",
         "name": "Boomgaardenstraat",
-        "sidewalk": "no",
         "surface": "concrete",
         "id": "way/1349770930"
       },
