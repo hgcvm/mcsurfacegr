@@ -7278,8 +7278,11 @@
       "type": "Feature",
       "id": "way/90437686",
       "properties": {
+        "bicycle": "yes",
         "cycleway:both": "no",
+        "foot": "yes",
         "highway": "track",
+        "motor_vehicle": "no",
         "name": "Seelbachdreef",
         "name:etymology:wikidata": "Q557727",
         "surface": "asphalt",
@@ -7289,10 +7292,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            2.9213456,
-            50.8361604
-          ],
           [
             2.921331,
             50.8361591
@@ -28787,12 +28786,14 @@
       "type": "Feature",
       "id": "way/801295281",
       "properties": {
+        "bicycle": "yes",
         "cycleway:both": "no",
-        "highway": "track",
+        "foot": "yes",
+        "highway": "service",
+        "motor_vehicle": "yes",
         "name": "Seelbachdreef",
         "name:etymology:wikidata": "Q557727",
         "surface": "concrete:plates",
-        "tracktype": "grade1",
         "id": "way/801295281"
       },
       "geometry": {
@@ -31827,8 +31828,11 @@
       "type": "Feature",
       "id": "way/1103750648",
       "properties": {
+        "bicycle": "yes",
         "cycleway:both": "no",
+        "foot": "yes",
         "highway": "track",
+        "motor_vehicle": "no",
         "name": "Seelbachdreef",
         "name:etymology:wikidata": "Q557727",
         "surface": "asphalt",
@@ -31853,12 +31857,14 @@
       "type": "Feature",
       "id": "way/1103750649",
       "properties": {
+        "bicycle": "yes",
         "cycleway:both": "no",
-        "highway": "track",
+        "foot": "yes",
+        "highway": "service",
+        "motor_vehicle": "yes",
         "name": "Seelbachdreef",
         "name:etymology:wikidata": "Q557727",
         "surface": "concrete",
-        "tracktype": "grade1",
         "id": "way/1103750649"
       },
       "geometry": {
@@ -31869,8 +31875,8 @@
             50.8361596
           ],
           [
-            2.9213456,
-            50.8361604
+            2.9213469,
+            50.8361593
           ]
         ]
       }
@@ -35093,6 +35099,34 @@
           [
             3.1251533,
             51.0752947
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1578443866",
+      "properties": {
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "foot": "yes",
+        "highway": "service",
+        "motor_vehicle": "yes",
+        "name": "Seelbachdreef",
+        "name:etymology:wikidata": "Q557727",
+        "surface": "asphalt",
+        "id": "way/1578443866"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.9213469,
+            50.8361593
+          ],
+          [
+            2.921331,
+            50.8361591
           ]
         ]
       }
