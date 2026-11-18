@@ -10907,6 +10907,7 @@
         "maxspeed": "30",
         "maxweight": "3.5",
         "name": "Dorp",
+        "oneway": "yes",
         "sidewalk": "right",
         "surface": "cobblestone",
         "id": "way/24728680"
@@ -10939,16 +10940,12 @@
             50.9309467
           ],
           [
-            4.2271155,
-            50.9308976
+            4.2271912,
+            50.9309357
           ],
           [
-            4.226944,
-            50.9308057
-          ],
-          [
-            4.2269211,
-            50.9307934
+            4.2271897,
+            50.9309219
           ]
         ]
       }
@@ -108896,28 +108893,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/658253063",
-      "properties": {
-        "highway": "cycleway",
-        "surface": "paving_stones",
-        "id": "way/658253063"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.2270318,
-            50.9306755
-          ],
-          [
-            4.2269211,
-            50.9307934
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/658793867",
       "properties": {
         "highway": "service",
@@ -109220,6 +109195,36 @@
           [
             2.9977253,
             50.8826366
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/663784120",
+      "properties": {
+        "hgv": "destination",
+        "highway": "residential",
+        "maxweight": "3.5",
+        "name": "Dorp",
+        "sidewalk": "right",
+        "surface": "cobblestone",
+        "id": "way/663784120"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.2270318,
+            50.9306755
+          ],
+          [
+            4.2272817,
+            50.9307429
+          ],
+          [
+            4.2273602,
+            50.9307601
           ]
         ]
       }
@@ -117612,12 +117617,13 @@
       "properties": {
         "access": "destination",
         "agricultural": "yes",
+        "alt_name": "Rooierweg",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
         "maxspeed": "30",
-        "name": "Rooierweg",
+        "name": "Rooi",
         "surface": "concrete",
         "traffic_sign": "BE:F99c",
         "id": "way/799589392"
@@ -141644,6 +141650,38 @@
           [
             3.8114063,
             51.0467438
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1581241668",
+      "properties": {
+        "hgv": "destination",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxweight": "3.5",
+        "name": "Dorp",
+        "oneway": "yes",
+        "surface": "cobblestone",
+        "id": "way/1581241668"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.2271897,
+            50.9309219
+          ],
+          [
+            4.2272888,
+            50.9308279
+          ],
+          [
+            4.2273602,
+            50.9307601
           ]
         ]
       }
