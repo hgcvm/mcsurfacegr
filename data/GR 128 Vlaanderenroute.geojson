@@ -2710,6 +2710,7 @@
         "maxspeed": "30",
         "name": "Hoegaardsestraat",
         "overtaking:motor_vehicle": "no",
+        "sidewalk:both": "no",
         "surface": "asphalt",
         "traffic_sign": "BE:F111",
         "zone:traffic": "BE-VLG:rural",
@@ -3575,6 +3576,7 @@
         "maxspeed": "30",
         "name": "Hoegaardsestraat",
         "overtaking:motor_vehicle": "no",
+        "sidewalk:both": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
         "width": "5",
@@ -6270,6 +6272,7 @@
         "name": "Hoegaardsestraat",
         "note": "the street has a lateral hump in the middle, cars are supposed to have their 2 left wheels on it",
         "overtaking:motor_vehicle": "no",
+        "sidewalk:both": "no",
         "smoothness": "excellent",
         "source:width": "ARCore",
         "surface": "asphalt",
@@ -6318,9 +6321,11 @@
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
+        "lane_markings": "no",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Duivelsweg",
+        "sidewalk:both": "no",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "id": "way/23443399"
@@ -49569,7 +49574,7 @@
         "highway": "track",
         "motorcar": "yes",
         "name": "Eekhofstraat",
-        "surface": "dirt",
+        "surface": "concrete",
         "tracktype": "grade2",
         "vehicle": "yes",
         "id": "way/53140960"
@@ -49594,8 +49599,8 @@
             50.8059975
           ],
           [
-            2.9167824,
-            50.8055724
+            2.9165783,
+            50.8054706
           ]
         ]
       }
@@ -57933,9 +57938,11 @@
       "id": "way/90503664",
       "properties": {
         "bicycle": "no",
+        "foot": "yes",
         "highway": "service",
         "horse": "no",
         "motor_vehicle": "no",
+        "surface": "paved",
         "id": "way/90503664"
       },
       "geometry": {
@@ -57948,10 +57955,6 @@
           [
             2.9906952,
             50.8569993
-          ],
-          [
-            2.9907811,
-            50.8569682
           ]
         ]
       }
@@ -58526,6 +58529,7 @@
         "maxspeed": "30",
         "name": "Hoegaardsestraat",
         "overtaking:motor_vehicle": "no",
+        "sidewalk:both": "no",
         "surface": "asphalt",
         "traffic_sign": "BE:F111",
         "tunnel": "yes",
@@ -58558,6 +58562,7 @@
         "maxspeed": "30",
         "name": "Hoegaardsestraat",
         "overtaking:motor_vehicle": "no",
+        "sidewalk:both": "no",
         "surface": "asphalt",
         "traffic_sign": "BE:F111",
         "zone:traffic": "BE-VLG:rural",
@@ -61852,6 +61857,7 @@
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Duivelsweg",
+        "sidewalk:both": "no",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "tunnel": "yes",
@@ -61882,9 +61888,11 @@
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
+        "lane_markings": "no",
         "maxspeed": "30",
         "motor_vehicle": "destination",
         "name": "Duivelsweg",
+        "sidewalk:both": "no",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
@@ -87385,6 +87393,7 @@
       "properties": {
         "highway": "path",
         "horse": "no",
+        "surface": "fine_gravel",
         "id": "way/298387960"
       },
       "geometry": {
@@ -87909,11 +87918,14 @@
       "id": "way/302713056",
       "properties": {
         "access": "permissive",
-        "bicycle": "permissive",
+        "bicycle": "yes",
+        "foot": "yes",
         "grade": "1",
         "highway": "track",
         "horse": "no",
         "motor_vehicle": "no",
+        "surface": "concrete:lanes",
+        "tracktype": "grade1",
         "id": "way/302713056"
       },
       "geometry": {
@@ -103786,6 +103798,7 @@
       "id": "way/531121345",
       "properties": {
         "highway": "path",
+        "surface": "grass",
         "id": "way/531121345"
       },
       "geometry": {
@@ -103807,22 +103820,15 @@
       "id": "way/531121346",
       "properties": {
         "highway": "footway",
+        "surface": "grass",
         "id": "way/531121346"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            2.9904301,
-            50.8572018
-          ],
-          [
-            2.9904712,
-            50.8571691
-          ],
-          [
-            2.9904686,
-            50.8571321
+            2.9904876,
+            50.8571211
           ],
           [
             2.9906189,
@@ -125470,6 +125476,7 @@
         "name": "Hoegaardsestraat",
         "note": "the street has a lateral hump in the middle, cars are supposed to have their 2 left wheels on it",
         "overtaking:motor_vehicle": "no",
+        "sidewalk:both": "no",
         "smoothness": "excellent",
         "source:width": "ARCore",
         "surface": "asphalt",
@@ -125505,6 +125512,7 @@
         "maxspeed": "30",
         "name": "Hoegaardsestraat",
         "overtaking:motor_vehicle": "no",
+        "sidewalk:both": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
@@ -125543,6 +125551,8 @@
         "name": "Hoegaardsestraat",
         "note": "the street has a lateral hump in the middle, cars are supposed to have their 2 left wheels on it",
         "overtaking:motor_vehicle": "no",
+        "sidewalk:left": "yes",
+        "sidewalk:right": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
@@ -125576,6 +125586,8 @@
         "maxspeed": "30",
         "name": "Hoegaardsestraat",
         "overtaking:motor_vehicle": "no",
+        "sidewalk:left": "yes",
+        "sidewalk:right": "no",
         "smoothness": "excellent",
         "surface": "asphalt",
         "zone:traffic": "BE-VLG:rural",
@@ -126353,7 +126365,7 @@
         "highway": "track",
         "motorcar": "yes",
         "name": "Eekhofstraat",
-        "surface": "dirt",
+        "surface": "ground",
         "tracktype": "grade2",
         "vehicle": "yes",
         "id": "way/1092721215"
@@ -126362,8 +126374,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.9167824,
-            50.8055724
+            2.9165783,
+            50.8054706
           ],
           [
             2.9151813,
@@ -132836,7 +132848,10 @@
       "type": "Feature",
       "id": "way/1290009267",
       "properties": {
+        "foot": "yes",
         "highway": "path",
+        "motor_vehicle": "no",
+        "surface": "grass",
         "id": "way/1290009267"
       },
       "geometry": {
@@ -134356,6 +134371,7 @@
       "properties": {
         "highway": "path",
         "horse": "no",
+        "surface": "fine_gravel",
         "id": "way/1339926620"
       },
       "geometry": {
@@ -141745,6 +141761,61 @@
           [
             3.1792393,
             50.9298464
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1582404066",
+      "properties": {
+        "highway": "footway",
+        "surface": "paving_stones",
+        "id": "way/1582404066"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.9904301,
+            50.8572018
+          ],
+          [
+            2.9904712,
+            50.8571691
+          ],
+          [
+            2.9904686,
+            50.8571321
+          ],
+          [
+            2.9904876,
+            50.8571211
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1582404067",
+      "properties": {
+        "bicycle": "no",
+        "highway": "service",
+        "horse": "no",
+        "motor_vehicle": "no",
+        "surface": "concrete",
+        "id": "way/1582404067"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.9906952,
+            50.8569993
+          ],
+          [
+            2.9907811,
+            50.8569682
           ]
         ]
       }
