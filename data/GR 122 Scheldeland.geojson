@@ -5827,8 +5827,6 @@
       "type": "Feature",
       "id": "way/35480761",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
         "maxspeed": "60",
         "surface": "dirt",
@@ -5852,10 +5850,6 @@
           [
             3.9448066,
             51.2470135
-          ],
-          [
-            3.9449675,
-            51.2470118
           ]
         ]
       }
@@ -6494,10 +6488,12 @@
       "id": "way/38632484",
       "properties": {
         "highway": "cycleway",
+        "mofa": "no",
         "moped": "no",
         "name": "Fortdijk West",
         "note": "onverplicht fietspad",
         "surface": "compacted",
+        "traffic_sign": "NL:G13",
         "id": "way/38632484"
       },
       "geometry": {
@@ -28982,6 +28978,14 @@
             51.2079336
           ],
           [
+            3.9300772,
+            51.2079779
+          ],
+          [
+            3.9300414,
+            51.2080473
+          ],
+          [
             3.9300358,
             51.2080601
           ]
@@ -40258,10 +40262,12 @@
       "id": "way/677759246",
       "properties": {
         "highway": "cycleway",
+        "mofa": "no",
         "moped": "no",
         "name": "Fortdijk West",
         "note": "onverplicht fietspad",
         "surface": "dirt",
+        "traffic_sign": "NL:G13",
         "id": "way/677759246"
       },
       "geometry": {
@@ -50626,6 +50632,29 @@
           [
             3.9286101,
             51.2492053
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1583873836",
+      "properties": {
+        "highway": "track",
+        "maxspeed": "60",
+        "surface": "dirt",
+        "id": "way/1583873836"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.9448066,
+            51.2470135
+          ],
+          [
+            3.9449675,
+            51.2470118
           ]
         ]
       }

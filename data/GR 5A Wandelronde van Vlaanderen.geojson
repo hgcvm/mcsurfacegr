@@ -17140,8 +17140,6 @@
       "type": "Feature",
       "id": "way/35480761",
       "properties": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
         "maxspeed": "60",
         "surface": "dirt",
@@ -17165,10 +17163,6 @@
           [
             3.9448066,
             51.2470135
-          ],
-          [
-            3.9449675,
-            51.2470118
           ]
         ]
       }
@@ -18505,10 +18499,12 @@
       "id": "way/38632484",
       "properties": {
         "highway": "cycleway",
+        "mofa": "no",
         "moped": "no",
         "name": "Fortdijk West",
         "note": "onverplicht fietspad",
         "surface": "compacted",
+        "traffic_sign": "NL:G13",
         "id": "way/38632484"
       },
       "geometry": {
@@ -43176,6 +43172,7 @@
       "properties": {
         "bridge": "yes",
         "highway": "unclassified",
+        "layer": "1",
         "maxheight": "2.3",
         "maxweight": "3.5",
         "name": "Kerkenhofdreef",
@@ -56052,6 +56049,14 @@
             51.2079336
           ],
           [
+            3.9300772,
+            51.2079779
+          ],
+          [
+            3.9300414,
+            51.2080473
+          ],
+          [
             3.9300358,
             51.2080601
           ]
@@ -65457,10 +65462,12 @@
       "id": "way/677759246",
       "properties": {
         "highway": "cycleway",
+        "mofa": "no",
         "moped": "no",
         "name": "Fortdijk West",
         "note": "onverplicht fietspad",
         "surface": "dirt",
+        "traffic_sign": "NL:G13",
         "id": "way/677759246"
       },
       "geometry": {
@@ -92841,6 +92848,29 @@
     },
     {
       "type": "Feature",
+      "id": "way/1583873836",
+      "properties": {
+        "highway": "track",
+        "maxspeed": "60",
+        "surface": "dirt",
+        "id": "way/1583873836"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.9448066,
+            51.2470135
+          ],
+          [
+            3.9449675,
+            51.2470118
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/8117688",
       "properties": {
         "cycleway": "no",
@@ -109663,12 +109693,8 @@
             50.8947652
           ],
           [
-            2.7256749,
-            50.8949777
-          ],
-          [
-            2.7253545,
-            50.8951846
+            2.7256702,
+            50.8949769
           ]
         ]
       }
@@ -123533,16 +123559,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.7233858,
-            50.8966961
+            2.7233992,
+            50.8967003
           ],
           [
-            2.7248833,
-            50.8955529
+            2.7234446,
+            50.8966681
+          ],
+          [
+            2.724142,
+            50.8961259
+          ],
+          [
+            2.7248766,
+            50.895544
+          ],
+          [
+            2.7251069,
+            50.8953668
           ],
           [
             2.7253545,
             50.8951846
+          ],
+          [
+            2.7256702,
+            50.8949769
           ]
         ]
       }
@@ -130401,6 +130443,10 @@
           [
             2.7220288,
             50.89598
+          ],
+          [
+            2.7231409,
+            50.8965616
           ],
           [
             2.7231788,
@@ -176479,8 +176525,8 @@
             50.89658
           ],
           [
-            2.7233858,
-            50.8966961
+            2.7233992,
+            50.8967003
           ]
         ]
       }
@@ -176604,12 +176650,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.7582602,
-            50.8922827
-          ],
-          [
-            2.7584457,
-            50.892296
+            2.7584459,
+            50.8923031
           ],
           [
             2.7588019,
@@ -182255,6 +182297,10 @@
             50.8952944
           ],
           [
+            2.7397577,
+            50.8952358
+          ],
+          [
             2.7397726,
             50.895187
           ],
@@ -182436,8 +182482,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.7582602,
-            50.8922827
+            2.7582555,
+            50.8922758
           ],
           [
             2.7578022,
@@ -189542,6 +189588,56 @@
           [
             3.382952,
             50.7819144
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1583760189",
+      "properties": {
+        "access": "agricultural",
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Burgweg",
+        "oneway": "no",
+        "id": "way/1583760189"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7582798,
+            50.8922795
+          ],
+          [
+            2.7584459,
+            50.8923031
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1583760190",
+      "properties": {
+        "access": "agricultural",
+        "highway": "unclassified",
+        "name": "Burgweg",
+        "oneway": "no",
+        "id": "way/1583760190"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7582555,
+            50.8922758
+          ],
+          [
+            2.7582798,
+            50.8922795
           ]
         ]
       }
