@@ -3357,7 +3357,7 @@
         "maxspeed": "30",
         "name": "Hertenstraat",
         "sidewalk:both": "no",
-        "smoothness": "good",
+        "smoothness": "excellent",
         "speed_pedelec": "yes",
         "surface": "asphalt",
         "traffic_sign": "BE:F99c",
@@ -7478,13 +7478,19 @@
         "access": "destination",
         "agricultural": "yes",
         "bicycle": "yes",
+        "cycleway": "no",
+        "emergency": "yes",
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
         "maxspeed": "30",
+        "sidewalk:both": "no",
+        "smoothness": "excellent",
+        "speed_pedelec": "yes",
         "surface": "asphalt",
         "traffic_sign": "BE:F99c",
         "width": "4",
+        "zone:traffic": "BE-VLG:rural",
         "id": "way/32143897"
       },
       "geometry": {
@@ -40395,8 +40401,10 @@
       "type": "Feature",
       "id": "way/582622452",
       "properties": {
+        "cycleway": "shared_lane",
         "highway": "tertiary",
         "maxspeed": "50",
+        "maxspeed:type": "BE-VLG:urban",
         "maxweight": "10",
         "name": "Torenhofstraat",
         "surface": "concrete",
@@ -49030,12 +49038,13 @@
         "foot": "yes",
         "highway": "unclassified",
         "horse": "yes",
+        "lane_markings": "no",
         "maxspeed": "30",
         "name": "Hertenstraat",
         "sidewalk:both": "no",
-        "smoothness": "good",
+        "smoothness": "excellent",
         "speed_pedelec": "yes",
-        "surface": "asphalt",
+        "surface": "concrete",
         "traffic_sign": "BE:F99c",
         "verge:both": "yes",
         "zone:traffic": "BE-VLG:rural",
@@ -49051,6 +49060,10 @@
           [
             4.8478771,
             50.8165878
+          ],
+          [
+            4.8475281,
+            50.8162593
           ]
         ]
       }
@@ -49077,12 +49090,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.8450609,
-            50.8154571
-          ],
-          [
-            4.8449107,
-            50.8154241
+            4.8447527,
+            50.8153922
           ],
           [
             4.844524,
@@ -50127,44 +50136,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/1486993611",
-      "properties": {
-        "access": "destination",
-        "agricultural": "yes",
-        "bicycle": "yes",
-        "cycleway": "no",
-        "emergency": "yes",
-        "foot": "yes",
-        "highway": "unclassified",
-        "horse": "yes",
-        "lane_markings": "no",
-        "maxspeed": "30",
-        "name": "Hertenstraat",
-        "sidewalk:both": "no",
-        "smoothness": "excellent",
-        "speed_pedelec": "yes",
-        "surface": "concrete",
-        "traffic_sign": "BE:F99c",
-        "verge:both": "yes",
-        "zone:traffic": "BE-VLG:rural",
-        "id": "way/1486993611"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            4.8478771,
-            50.8165878
-          ],
-          [
-            4.8475281,
-            50.8162593
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/1490973758",
       "properties": {
         "highway": "unclassified",
@@ -50753,6 +50724,49 @@
           [
             4.7848333,
             50.8417303
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1584918132",
+      "properties": {
+        "access": "destination",
+        "agricultural": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "emergency": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "horse": "yes",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Hertenstraat",
+        "sidewalk:both": "no",
+        "smoothness": "excellent",
+        "speed_pedelec": "yes",
+        "surface": "asphalt",
+        "traffic_sign": "BE:F99c",
+        "verge:both": "yes",
+        "zone:traffic": "BE-VLG:rural",
+        "id": "way/1584918132"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8450609,
+            50.8154571
+          ],
+          [
+            4.8449107,
+            50.8154241
+          ],
+          [
+            4.8447527,
+            50.8153922
           ]
         ]
       }

@@ -13,7 +13,8 @@
         "level": "1",
         "maxspeed": "30",
         "maxspeed:type": "BE:zone30",
-        "maxweight:signed": "no",
+        "maxweight": "3.5",
+        "maxweight:conditional": "12 @ (06:00-11:00,19:00-21:00); none @ permit",
         "name": "Katelijnebrug",
         "oneway": "no",
         "operator": "Stad Brugge",
@@ -590,26 +591,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            3.6037594,
-            50.8344205
-          ],
-          [
-            3.6038029,
-            50.8343546
-          ],
-          [
-            3.6038575,
-            50.8342661
-          ],
-          [
-            3.6039401,
-            50.834127
-          ],
-          [
-            3.603981,
-            50.8340653
-          ],
           [
             3.6040133,
             50.8340312
@@ -31428,6 +31409,8 @@
         "cyclestreet": "no",
         "highway": "tertiary",
         "maxspeed": "30",
+        "maxweight": "3.5",
+        "maxweight:conditional": "12 @ (06:00-11:00,19:00-21:00); none @ permit",
         "name": "Katelijnestraat",
         "oneway": "no",
         "operator": "Stad Brugge",
@@ -34371,6 +34354,8 @@
         "cyclestreet": "no",
         "highway": "tertiary",
         "maxspeed": "30",
+        "maxweight": "3.5",
+        "maxweight:conditional": "12 @ (06:00-11:00,19:00-21:00); none @ permit",
         "name": "Katelijnestraat",
         "oneway": "no",
         "operator": "Stad Brugge",
@@ -38629,6 +38614,8 @@
         "highway": "tertiary",
         "incline": "up",
         "maxspeed": "30",
+        "maxweight": "3.5",
+        "maxweight:conditional": "12 @ (06:00-11:00,19:00-21:00); none @ permit",
         "name": "Katelijnestraat",
         "oneway": "no",
         "operator": "Stad Brugge",
@@ -45405,6 +45392,53 @@
           [
             3.3387851,
             51.0855383
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1584552571",
+      "properties": {
+        "cyclestreet": "yes",
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "name": "Jan Baptist Eeckhoutskaai",
+        "oneway:speed_pedelec": "no",
+        "sidewalk": "no",
+        "source:maxspeed": "cyclestreet",
+        "surface": "asphalt",
+        "traffic_sign": "BE:F45b",
+        "id": "way/1584552571"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.6037594,
+            50.8344205
+          ],
+          [
+            3.6038029,
+            50.8343546
+          ],
+          [
+            3.6038575,
+            50.8342661
+          ],
+          [
+            3.6039401,
+            50.834127
+          ],
+          [
+            3.603981,
+            50.8340653
+          ],
+          [
+            3.6040133,
+            50.8340312
           ]
         ]
       }
