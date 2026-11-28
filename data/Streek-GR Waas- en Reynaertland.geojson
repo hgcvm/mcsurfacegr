@@ -6343,7 +6343,9 @@
       "type": "Feature",
       "id": "way/27348761",
       "properties": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "lit": "no",
         "maxspeed": "50",
         "maxweight": "3.5 t",
@@ -12577,11 +12579,15 @@
       "type": "Feature",
       "id": "way/51781564",
       "properties": {
+        "cycleway:both": "shared_lane",
+        "cycleway:both:lane": "advisory",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Hooimanstraat",
         "old_name": "Hooymans straet",
-        "surface": "cobblestone",
+        "sidewalk:both": "no",
+        "surface": "sett",
         "zone:traffic": "BE-VLG:urban",
         "id": "way/51781564"
       },
@@ -39187,6 +39193,8 @@
         "cycleway": "no",
         "highway": "residential",
         "name": "Nieuwstraat",
+        "sidewalk:both": "no",
+        "surface": "asphalt",
         "id": "way/817489604"
       },
       "geometry": {
@@ -39657,6 +39665,7 @@
         "bicycle": "no",
         "highway": "path",
         "source": "Bing",
+        "surface": "paving_stones",
         "id": "way/817489618"
       },
       "geometry": {
